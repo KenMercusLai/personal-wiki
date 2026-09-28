@@ -578,12 +578,13 @@
       "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
       "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd",
       "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4",
-      "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97"
+      "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97",
+      "dab0abc2e7dc3538c7f9cf8ccd36795852501bd9eb92dd58d35121154d9e264b"
     ],
-    "paragraph_count": 578
+    "paragraph_count": 579
   },
-  "overview_commit": "b0688eead36904aacd5b4da3ab2c3f2c01851e9f",
-  "overview_digest": "ad40f23ef94e26e3cfb9cfe9dcd94321ede4de5dbcefad0b7be2d984ec5c0ba5",
+  "overview_commit": "da5ec77d8d4154378e2d01362ed781ef3d1e7e5b",
+  "overview_digest": "7d94d6312210af9e8eae6cbf0060bb3897e083d7ac0a59ccbf8dac3af11f5b8b",
   "paragraphs": [
     {
       "id": "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
@@ -11714,6 +11715,26 @@
         "OpenAIUniverse",
         "StartupCTORoleEvolution",
         "TechnicalLeadershipRoleDesign"
+      ]
+    },
+    {
+      "id": "dab0abc2e7dc3538c7f9cf8ccd36795852501bd9eb92dd58d35121154d9e264b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[EvWilliams]] source adds a concurrent working-parent model to [[WorkLifeBalance]] alongside the wiki's existing life-course account. In Williams's selected network of successful parents, 55-60 focused hours was the largest band, only 2% reported 90 or more hours, and most respondents did some weekend work, usually in a limited block. Founders reported more work outside the office, while longer hours were more common at larger and older companies. The strongest structural signal is household support: 73% reported childcare assistance, including 77% of founders, making care arrangements part of the workload story rather than invisible background. These figures challenge a simple 100-hour startup myth but cannot replace it with a 55-60-hour norm. The article omits its sample size and response denominator, draws mostly from a founder-heavy technology network, had too few women for gender analysis, and provides no causal, health, family, or company-outcome evidence. Both local images were opened; the full-size family-skiing photograph repeated the closing anecdote and its second occurrence was a thumbnail duplicate, so neither was retained.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "EvWilliams",
+        "WorkLifeBalance"
       ]
     }
   ],

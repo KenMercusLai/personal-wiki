@@ -4,37 +4,45 @@ type: concept
 tags: [work, family, career, time]
 sources:
   - work-life-balance-is-about-years-not-days-thrive-global-medium
-last_updated: 2026-09-23
+  - growing-kids-and-growing-companies-working-parents-medium
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[WorkLifeBalance]] is the allocation of attention among paid or creative work, family, rest, and personal life; in this source, balance is evaluated across seasons or decades rather than required within every day.
+[[WorkLifeBalance]] is the allocation of attention and support among paid or creative work, family, rest, and personal life, whether managed concurrently across a week or sequentially across longer life phases.
 
 ## Current Synthesis
-The source replaces a daily-equilibrium model with a life-course model. A balanced life may contain periods when caregiving is dominant and other periods when professional or creative work receives concentrated attention. [[IngaClendinnen]] supplies the central example: she began serious historical research after her sons were grown, produced an extensive body of work from midlife onward, and may have written with greater embodied depth because of her earlier experience as a mother. The useful insight is that delayed professional intensity is not necessarily lost time; the important qualification is that one retrospective biography cannot establish the best sequence for other people or erase the constraints that make phase-based choices unequal.
+The sources support two compatible but unequal models. A life-course model allows caregiving to dominate one phase and professional or creative work another: [[IngaClendinnen]] began serious historical research after her sons were grown and produced substantial work from midlife onward. A concurrent model appears in [[EvWilliams]]'s informal survey of successful working parents, where demanding work and family coexist through varied schedules, some weekend work, work outside the office, and widespread childcare assistance.
+
+Neither model defines a universal optimum. The survey's largest band was 55-60 focused hours rather than the startup myth of 100-hour weeks, but its selected, founder-heavy technology sample cannot establish what is normal or healthy. The biographical account shows that delayed intensity can still produce consequential work, but not that phase specialization is feasible or best for others. Across both sources, balance is better understood as a situated allocation shaped by household support, resources, work design, life stage, and preference rather than as equal daily time or a single benchmark.
 
 ## Key Claims
 - Balance can be assessed across a whole life rather than demanded as equal daily attention to every role.
-- Concentrating on one demanding role during a particular phase may allow deeper engagement than constant juggling.
-- A later career start can still leave decades for substantial and influential work.
+- Work and parenting can also coexist within the same week through varied hours, locations, weekend patterns, and support arrangements.
+- A later career start can still leave decades for substantial work, while concurrent balance need not conform to 100-hour startup mythology.
 - Caregiving and other non-career experience may become intellectual or creative material rather than merely a career interruption.
-- Work can later feed back into personal life by supplying language, models, or practices for confronting adversity.
+- Childcare and household assistance are material parts of how some demanding careers remain feasible, not incidental background.
+- Descriptive schedules should not be converted into healthy norms without representative sampling, outcome evidence, and attention to unequal access to support.
 
 ## Evidence
 - Long-horizon balance: [[work-life-balance-is-about-years-not-days-thrive-global-medium]] contrasts daily juggling with the seasonal and decade-scale pattern visible in creative biographies.
 - Concentrated phases: [[work-life-balance-is-about-years-not-days-thrive-global-medium]] describes Clendinnen giving priority to teaching and raising her sons before shifting toward research as they reached adulthood.
 - Later-life output: [[work-life-balance-is-about-years-not-days-thrive-global-medium]] reports that Clendinnen began publishing internationally in her forties and went on to produce major work for roughly half her life.
 - Experience crossing domains: [[work-life-balance-is-about-years-not-days-thrive-global-medium]] argues that motherhood informed Clendinnen's writing about embodied human experience and that Aztec scholarship later informed her response to illness.
-- Additional cases: [[work-life-balance-is-about-years-not-days-thrive-global-medium]] notes that James Herriot began serious writing in his forties and that Tolkien published major works in his mid-forties and sixties.
+- Concurrent workload: [[growing-kids-and-growing-companies-working-parents-medium]] reports 55-60 hours as the largest band, 85% working six or seven days, and about half doing only two to five weekend hours.
+- Company and role pattern: [[growing-kids-and-growing-companies-working-parents-medium]] reports higher shares above 60 hours at larger and older companies and more out-of-office work among founders, without establishing why.
+- Household support: [[growing-kids-and-growing-companies-working-parents-medium]] reports childcare assistance for 73% of respondents, including 77% of founders and 64% of non-founders.
 
 ## Counterevidence & Qualifications
-The evidence is biographical and selectively retrospective. The source does not compare daily and phase-based balance, establish that Clendinnen's sequence caused better work, or account fully for finances, health, childcare, partner support, institutional access, gender norms, job security, or involuntary interruptions. It also should not turn caregiving into an obligation to produce later career value. Some people need concurrent attention to work and family, while others may prefer integration or lack the freedom to assign one role priority for years.
+The life-course evidence is biographical and selectively retrospective. It does not establish that Clendinnen's sequence caused better work or account fully for finances, health, childcare, partner support, institutional access, gender norms, job security, or involuntary interruption. It should not turn caregiving into an obligation to produce later career value.
+
+Williams's survey is anonymous but non-scientific: friends and professional acquaintances were selected through his network, most were in technology, 71% were founders, and too few women responded for gender analysis. The article supplies percentages without a sample size, response denominator, uncertainty estimates, demographic controls, time diaries, health outcomes, family outcomes, or company-performance comparisons. Focused-work definitions omit fragmented phone checking and mental preoccupation, so reported hours are not total work intrusion. Associations with company age, size, founder status, and childcare support are descriptive rather than causal. Access to paid or unpaid household help is unequal, and its prevalence does not show whether the arrangement is affordable, satisfactory, or fairly distributed.
 
 ## What Changed
-- Created a life-course model of work-life balance that permits shifting priorities across years.
-- Added the possibility that experience accumulated outside formal career work can later deepen creative or intellectual output.
-- Made feasibility, structural inequality, and retrospective-selection limits explicit.
+- Added concurrent weekly balance alongside the existing life-course model.
+- Rejected both 100-hour mythology and 55-60-hour survey results as universal prescriptions.
+- Made household support, work location, and measurement boundaries part of the current judgment.
 
 ## Related Concepts
 - [[CareerPlanning]] - adds life-stage sequencing and the legitimacy of consequential later starts to longer-term career choice.
@@ -42,3 +50,5 @@ The evidence is biographical and selectively retrospective. The source does not 
 - [[WorkBreaks]] - addresses recovery within hours or days rather than role allocation across years.
 - [[PersonalProductivity]] - optimizes execution within a period, whereas phase-based balance asks which domain should receive priority in that period.
 - [[BurnoutPrevention]] - sustainable allocation of effort is one reason to question permanent simultaneous maximization of every role.
+- [[FounderTimeLeverage]] - services and assistance may return scarce time, while access and management costs constrain who can use them.
+- [[StartupCulture]] - 100-hour mythology can turn an extreme schedule into an assumed success requirement.

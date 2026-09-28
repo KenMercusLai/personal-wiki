@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Grow the Puzzle Around You](sources/grow-the-puzzle-around-you-jessica-livingston.md) - Jessica Livingston explains how atypical founder strengths, complementary roles, batch investing, and high-touch support shaped Y Combinator.
+- [Growing kids and growing companies](sources/growing-kids-and-growing-companies-working-parents-medium.md) - Ev Williams's informal survey describes varied working-parent schedules, widespread weekend work, founder flexibility, and frequent childcare assistance without establishing a universal norm.
 - [Groupon a bad deal for restaurants and everyone else, including Groupon](sources/groupon-a-bad-deal-for-restaurants-and-everyone-else-including-groupon-odell-restaurant-consultings-blog.md) - Brandon O'Dell argues that Groupon's restaurant promotions can turn customer acquisition into a loss-making redemption without profitable repeat behavior.
 - [Ground Control To Silicon Valley](sources/ground-control-to-silicon-valley.md) - Nitasha Tiku argues that Code Conference's elite access, social proximity, and future-focused spectacle can weaken scrutiny of concentrated technology power.
 - [#define CTO OpenAI](sources/greg-brockman-define-cto-openai.md) - Greg Brockman recounts OpenAI's formation, early recruiting, constraint-driven leadership shifts, and the research-engineering work behind Gym and Universe.
@@ -1161,7 +1162,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Flipagram](entities/Flipagram.md) - Music-video sharing product framed as strengthening users' sense of local celebrity.
 - [PumpUp](entities/PumpUp.md) - Health-and-wellness community used to argue that status and affirmation loops can support prosocial behavior.
 - [Medium](entities/Medium.md) - Publishing platform whose 2017 strategy paired reader subscriptions with an open paywall and contributor payments based on member value.
-- [Ev Williams](entities/EvWilliams.md) - Medium co-founder who frames online-media quality as an incentive problem linking attention to money.
+- [Ev Williams](entities/EvWilliams.md) - Medium co-founder whose essays examine publishing incentives and the work-family constraints of leading growing companies.
 - [Valentin Mouret](entities/ValentinMouret.md) - Author of a 2023 SQL walkthrough for password hashing and verification with PostgreSQL pgcrypto.
 - [Devin Leonard](entities/DevinLeonard.md) - Bloomberg Businessweek journalist who reported Amazon's emerging logistics network and its implications for incumbent carriers.
 - [FedEx](entities/FedEx.md) - Parcel carrier that publicly dismissed Amazon's threat while outside observers treated aircraft leasing as a strategic escalation.
@@ -2432,7 +2433,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Digital Purchase Durability](concepts/DigitalPurchaseDurability.md) - Persistence of a digital purchase across changes in compatible devices, operating systems, stores, services, interface conventions, and user habits.
 - [Entrepreneurial Quality and Scale](concepts/EntrepreneurialQualityAndScale.md) - Source-scoped standard that entrepreneurial products should deepen customer benefit while extending it to more people.
 - [Knowledge as Code](concepts/KnowledgeAsCode.md) - Managing a Markdown knowledge base through versioning, executable workflows, validation, derived artifacts, and controlled publishing.
-- [Work-Life Balance](concepts/WorkLifeBalance.md) - Allocation of attention across work, family, rest, and personal life, evaluated across seasons or decades rather than only within each day.
+- [Work-Life Balance](concepts/WorkLifeBalance.md) - Situated allocation of work, family, rest, and support across concurrent weeks or longer life phases.
 - [Venture Capital Blind Spots](concepts/VentureCapitalBlindSpots.md) - Cognitive and market-model errors that cause investors to overlook exceptional companies within opportunities they could reasonably evaluate.
 - [Social Driver Hierarchy](concepts/SocialDriverHierarchy.md) - Christian Limon's proposed ordering of utility, content, community, and vanity as progressively stronger consumer social-network motivations.
 - [Attention Economy](concepts/AttentionEconomy.md) - Media incentive system in which measured human attention becomes a commodity and route to revenue.

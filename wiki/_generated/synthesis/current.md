@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: b0688eead36904aacd5b4da3ab2c3f2c01851e9f
-summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, and trust."
-episode_count: 762
-source_count: 762
-paragraph_count: 578
+as_of_overview_commit: da5ec77d8d4154378e2d01362ed781ef3d1e7e5b
+summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, support, and trust."
+episode_count: 763
+source_count: 763
+paragraph_count: 579
 topic_count: 9
 ---
 
@@ -29,21 +29,21 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, composable contracts, human control, and workload fit.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and realistic boundaries around the people doing the work.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable lifetime economics, governed distribution, operating capability, lifecycle trust, and risk discipline.
+Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, risk discipline, and company demands that do not assume one universal founder schedule.
 
 - [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].
 - [[SuperApp]] economics begin with a frequent use case and expand into adjacent demand, but control differs by model: [[GoogleMaps]] uses advertising, APIs, and partners to reduce fulfillment burden, [[Meituan]] operates more transactions and delivery, [[Grab]] uses localized mobility to enter delivery and finance, and [[WeChat]] combines messaging, mini programs, payments, and commerce. Evidence: [[SuperApp]], [[GoogleMaps]], [[Meituan]], [[Grab]], [[WeChat]].
 
 ### Cross-domain
 
-Cross-domain findings connect inspectable infrastructure, transferable models, feedback loops, and governance while preserving context and evidence limits.
+Cross-domain findings connect inspectable infrastructure, transferable models, feedback loops, human constraints, and governance while preserving context and evidence limits.
 
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].
@@ -68,7 +68,7 @@ Historical cases preserve long lineages, path dependence, institutional context,
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, identity, trust, incentives, relationships, evidence calibration, and privacy-aware control.
+Human outcomes depend on bounded attention, identity, trust, incentives, relationships, evidence calibration, privacy-aware control, and access to material support.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, with mental-health findings 
 
 ### Work, Education, and Society
 
-Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, transparent coordination, and power-aware boundaries.
+Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, transparent coordination, power-aware boundaries, and support arrangements that make competing roles feasible.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

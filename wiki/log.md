@@ -6144,3 +6144,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Growing kids and growing companies
+
+Added [[EvWilliams]]'s informal survey of professionally successful working parents, including reported hours, weekend work, office location, company age and size, and household childcare assistance. Updated [[WorkLifeBalance]] from its complete ordered evidence inventory to combine concurrent weekly allocation with its existing life-course model, while preserving the survey's missing sample size, founder-heavy technology selection, limited gender evidence, self-report boundaries, and non-causal design. Updated [[EvWilliams]] from his complete ordered evidence inventory to connect his systems-and-incentives framing with company leadership and parenting. Opened both local images and omitted the prose-repeating family-skiing photograph plus its duplicate thumbnail.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
