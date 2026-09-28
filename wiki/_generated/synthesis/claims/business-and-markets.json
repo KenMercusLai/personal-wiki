@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "retired-domain-custody-is-an-authentication-control",
+      "qualifications": [
+        "The evidence is a 2018 practitioner report using six hand-selected former-business domains and roughly thirty credential subjects rather than a representative prevalence study.",
+        "The researchers say they stopped before logging into recovered services, product recovery flows may have changed, and 95 evidence screenshots in the supplied archive are too low-resolution for reliable inspection."
+      ],
+      "statement": "[[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AbandonedDomainTakeover",
+        "AuthenticationInfrastructure",
+        "GaborSzathmari",
+        "JeremiahCruz"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "early-growth-rates-need-base-persistence-and-economics",
       "qualifications": [
         "The evidence is one investor-authored critique of 22 anonymized Y Combinator companies; starting values, company identities, later outcomes, and three unavailable charts prevent independent company-level verification.",

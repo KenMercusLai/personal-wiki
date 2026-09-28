@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Hacking the Attention Economy](sources/hacking-the-attention-economy-data-society-points.md) - danah boyd traces attention hacking from 4chan meme campaigns to marketing, activism, harassment, propaganda, institutional doubt, and political power.
+- [Hacking law firms with abandoned domain names](sources/hacking-law-firms-with-abandoned-domain-names-gabor-szathmari-medium.md) - Gabor Szathmari and Jeremiah Cruz show how re-registering expired law-firm domains exposed continuing email, domain-verification, and third-party account-recovery paths.
 - [The 37signals Guide to Internal Communication](sources/guide-37signals-how-we-communicate.md) - Jason Fried describes 37signals' asynchronous, writing-led communication system, centralized Basecamp record, recurring check-ins, and contextual project discussions.
 - [GrubHub is buying up thousands of restaurant web addresses. That means Mom and Pop can't own their slice of the internet](sources/grubhub-is-buying-up-thousands-of-restaurant-web-addresses-that-means-mom-and-pop-cant-own-their-slice-of-the-internet-new-food-economy.md) - H. Claire Brown investigates restaurant-linked domains, microsites, forwarding numbers, and commission attribution that placed Grubhub between local restaurants and direct customers.
 - [Growth is getting hard from intensive competition, consolidation, and saturation](sources/growth-is-getting-hard-from-intensive-competition-consolidation-and-saturation-at-andrewchen.md) - Andrew Chen links harder late-cycle growth to mobile concentration, contested paid channels, user adaptation, tool diffusion, faster incumbents, and zero-sum attention.
@@ -789,6 +791,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hacker Puts Hosting Service Code Spaces Out of Business](sources/hacker-puts-hosting-service-code-spaces-out-of-business-threatpost.md) - Threatpost reports how compromised AWS control-plane access let an attacker delete Code Spaces' production assets and backups, forcing the code-hosting company to cease trading.
 
 ## Entities
+- [danah boyd](entities/DanahBoyd.md) - Researcher and author connecting hacker culture, platform mechanics, media incentives, manipulation, harassment, and political power.
+- [4chan](entities/4chan.md) - Ephemeral image-board community represented as a training ground for meme mutation, attention gaming, and divergent political tactics.
+- [Gabor Szathmari](entities/GaborSzathmari.md) - Cybersecurity practitioner and lead author of the abandoned-law-firm-domain research report.
+- [Jeremiah Cruz](entities/JeremiahCruz.md) - Networking practitioner and co-author of the abandoned-domain research report.
+- [Iron Bastion](entities/IronBastion.md) - Australian cybersecurity company associated with Szathmari and the report's anti-phishing context.
 - [Basecamp](entities/Basecamp.md) - 37signals collaboration product used as the durable, contextual system of record for nearly all reported internal communication.
 - [H. Claire Brown](entities/HClaireBrown.md) - Journalist who investigated Grubhub's restaurant-linked domains, microsites, and phone-order commissions.
 - [Stacy Mitchell](entities/StacyMitchell.md) - Local-economy advocate interpreting restaurant-platform intermediation as gatekeeping that warrants policy attention.
@@ -2175,6 +2182,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Code Spaces](entities/CodeSpaces.md) - Code-hosting and collaboration company forced to cease trading after an attacker deleted AWS-hosted production and recovery assets.
 
 ## Concepts
+- [Networked Information Manipulation](concepts/NetworkedInformationManipulation.md) - Coordinated exploitation of platform distribution, social participation, and media incentives to shape visibility, interpretation, trust, and speech.
+- [Abandoned Domain Takeover](concepts/AbandonedDomainTakeover.md) - Re-registration of an expired organizational domain to intercept former email and exploit lingering ownership or recovery paths.
 - [Asynchronous Workplace Communication](concepts/AsynchronousWorkplaceCommunication.md) - Delayed, durable, context-rich work exchange designed around considered responses rather than shared schedules or routine urgency.
 - [Growth Channel Saturation](concepts/GrowthChannelSaturation.md) - Acquisition advantage decays as platforms concentrate discovery, auctions crowd, users adapt, tools diffuse, incumbents copy faster, and attention becomes zero-sum.
 - [Value Hacking](concepts/ValueHacking.md) - Product-growth practice that tests segment-specific value propositions and adjacent use cases instead of indefinitely optimizing one aggregate growth proxy.

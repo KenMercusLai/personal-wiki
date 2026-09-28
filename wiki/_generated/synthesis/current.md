@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: 4cc50fbd35fb226e1e94c364b7a08bd1389cbec6
-summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, economics, and trust."
-episode_count: 771
-source_count: 771
-paragraph_count: 585
+as_of_overview_commit: d5fda7685fe820357131814807b440d85dd4342c
+summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, lifecycle risk, and trust."
+episode_count: 773
+source_count: 773
+paragraph_count: 587
 topic_count: 9
 ---
 
@@ -17,10 +17,10 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]].
+- [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls.
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[IndieGameDevelopment]] and [[AudienceCenteredGameDesign]] treat games as expressive experiences whose relevance depends on identity, care, relationships, themes, controls, and challenge, while [[GameLocalization]], [[AutomatedGameTesting]], [[GameServerScaleAndStability]], [[ContinuousGameServerUpdates]], and [[ServerSideGameLogic]] show that equivalent player experience also depends on translation, verification, delivery, and live operations.
-- Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
+- [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
@@ -36,10 +36,10 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, independently recoverable infrastructure, and growth signals interpreted through base size, persistence, retention, and unit economics.
+Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, retained identity infrastructure, recoverability, and growth signals interpreted through base size, persistence, retention, and unit economics.
 
+- [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
-- [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].
 
 ### Cross-domain
 
@@ -57,10 +57,10 @@ Media and culture combine expression, identity, distribution, monetization, plat
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, compatibility boundaries, and accountability where systems allocate visibility, opportunity, or risk.
+Institutions need explicit authority, evidence, appeal, transparency, compatibility boundaries, and cross-system accountability where platforms allocate visibility, opportunity, or risk.
 
+- [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
-- [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].
 
 ### History and Geopolitics
 
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, with mental-health findings 
 
 ### Work, Education, and Society
 
-Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, power-aware boundaries, and communication systems that balance durable context with attention, urgency, and the need for synchronous exchange.
+Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, power-aware boundaries, responsible offboarding, and communication systems that balance durable context with attention and urgency.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

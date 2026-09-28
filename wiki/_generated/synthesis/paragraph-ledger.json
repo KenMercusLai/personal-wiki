@@ -585,12 +585,14 @@
       "dab0abc2e7dc3538c7f9cf8ccd36795852501bd9eb92dd58d35121154d9e264b",
       "e226d6a51f62d5c8c9639ebb398b96a6b1ae6e4e270af3a22fcda30b6101e2d4",
       "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0",
-      "31576f5b424bdfce04ac6455afd90a01d02771ba0f029498d458dd3a8bdcc4ef"
+      "31576f5b424bdfce04ac6455afd90a01d02771ba0f029498d458dd3a8bdcc4ef",
+      "fc934dcb38776b801cd06d957a927b7a23b6736234ea626b24205a2c8c2c95ea",
+      "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527"
     ],
-    "paragraph_count": 585
+    "paragraph_count": 587
   },
-  "overview_commit": "4cc50fbd35fb226e1e94c364b7a08bd1389cbec6",
-  "overview_digest": "3a729af38eece8ef68262894fd618b3a05977bc972ebe9f834ad6094bbfb4887",
+  "overview_commit": "d5fda7685fe820357131814807b440d85dd4342c",
+  "overview_digest": "86fcf61f0156834835cc1f14d3cb03d6b85aafd38543c6d5e963bd32e86c175a",
   "paragraphs": [
     {
       "id": "43d703705f803754497c223fb6854b65c29dc5a1f543874b9a1a583018d4ab19",
@@ -11850,6 +11852,42 @@
         "BackupAndRecovery",
         "CloudAccountSegmentation",
         "CodeSpaces"
+      ]
+    },
+    {
+      "id": "fc934dcb38776b801cd06d957a927b7a23b6736234ea626b24205a2c8c2c95ea",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[GaborSzathmari]] and [[JeremiahCruz]] source adds [[AbandonedDomainTakeover]] as a business-lifecycle failure that crosses domain registration, mail routing, account inventory, and recovery design. The authors report re-registering six selected former-business domains, operating catch-all email for three months, receiving about 25,000 messages, passing domain-ownership checks at breach services, and initiating resets across social, storage, legal, payment, advertising, and cloud systems. This extends [[AuthenticationInfrastructure]] across organizational time: proof of inbox control is only trustworthy while an authorized party retains the underlying domain and removes obsolete addresses from third-party accounts after mergers, rebrands, departures, or closure. MFA reportedly stopped an Office 365 recovery attempt, but it cannot prevent sensitive parties from continuing to send mail to a transferred namespace. The practical control set is layered—retain retired domains, close or update old accounts, notify correspondents, use unique passwords and MFA, and strengthen provider recovery flows. The evidence is a 2018 practitioner report using six hand-selected domains and roughly thirty credential subjects, not a prevalence study; the researchers say they stopped short of logging into recovered services, and almost all evidence screenshots in the supplied archive survive only as unreadable 50–60-pixel thumbnails.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AbandonedDomainTakeover",
+        "AuthenticationInfrastructure",
+        "GaborSzathmari",
+        "JeremiahCruz"
+      ]
+    },
+    {
+      "id": "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[DanahBoyd]] source extends [[AttentionEconomy]] from a commercial incentive system into an adversarial arena for visibility and power. [[4chan]]'s ephemeral image-board design encouraged reposting and mutation, while coordinated participants learned to design memes for spread, game rankings and trends, trigger journalistic attention, and exploit ambiguity or in-group meaning. New [[NetworkedInformationManipulation]] joins those mechanics across playful trolling, marketing, activism, Anonymous, Gamergate, propaganda, and political organization without treating their motives or legitimacy as identical. The escalation matters: doxing, swatting, gaslighting, dog whistles, and distributed harassment can create reputational, psychological, economic, social, or physical harm, induce self-censorship, and seed doubt in institutions without depending on one explicit falsehood. The source's durable claim is that manipulation itself is not new, but networked tools increase accessible scale, coordination, ambiguity, and strategic use for acquiring power. Its evidence is one January 2017 interpretive history built from selected notorious cases; it does not quantify prevalence or effect, compare successful and failed campaigns, establish a simple causal descent among communities, or show that decentralized actors reliably control narratives. All four unique local images were opened and omitted: the lead “gun as megaphone” photograph and its tiny duplicate were decorative, while the tiny lolcat and Egypt/Facebook protest illustrations repeated examples already stated in prose.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 4,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "4chan",
+        "AttentionEconomy",
+        "DanahBoyd",
+        "NetworkedInformationManipulation"
       ]
     }
   ],

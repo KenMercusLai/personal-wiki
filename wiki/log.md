@@ -6216,3 +6216,19 @@ Added Threatpost's 2014 report on the [[CodeSpaces]] incident, in which an attac
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hacking law firms with abandoned domain names
+
+Added [[GaborSzathmari]] and [[JeremiahCruz]]'s 2018 practitioner study of [[AbandonedDomainTakeover]], including catch-all mail after re-registration, continuing confidential correspondence, breach-service domain verification, password-recovery exposure, and layered controls around domain retention, account cleanup, MFA, and unique credentials. Created [[GaborSzathmari]], [[JeremiahCruz]], and [[IronBastion]], and updated [[AuthenticationInfrastructure]] from its complete ordered evidence inventory to include long-term email-namespace custody after mergers, rebrands, departures, and closure. Preserved the six-domain selected-sample, self-reported-outcome, dated-flow, and non-completion boundaries. Opened all 98 unique local image files: two usable full-size files were duplicate decorative abandoned-building photographs, one was a tiny duplicate of that image, and the other 95 evidence screenshots and diagrams were only 50–60 pixels wide and could not be reliably interpreted or retained; no claim depends on unreadable image-only detail.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hacking the Attention Economy
+
+Added [[DanahBoyd]]'s 2017 account of attention hacking from [[4chan]] meme campaigns and media trolling through marketing, activism, Anonymous, Gamergate, harassment, propaganda, and political power. Created [[NetworkedInformationManipulation]], [[DanahBoyd]], and [[4chan]], and updated [[AttentionEconomy]] from its complete ordered evidence inventory with coordinated gaming of rankings, trends, platform distribution, and journalistic incentives. Preserved the source's selected-case, historical, non-quantitative, and simplified-origin boundaries. Opened all four unique local image files and omitted the decorative lead image, its duplicate thumbnail, and two tiny prose-repeating contextual illustrations; no asset manifest was created.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

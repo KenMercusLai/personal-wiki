@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "retired-domain-custody-is-an-authentication-control",
+      "qualifications": [
+        "The evidence is a 2018 practitioner report using six hand-selected former-business domains and roughly thirty credential subjects rather than a representative prevalence study.",
+        "The researchers say they stopped before logging into recovered services, product recovery flows may have changed, and 95 evidence screenshots in the supplied archive are too low-resolution for reliable inspection."
+      ],
+      "statement": "[[AbandonedDomainTakeover]] extends organizational offboarding into [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that expired former-business domains preserved live email and recovery paths, so merger, rebrand, departure, and closure processes need continued domain custody, old-account cleanup, correspondent notice, stronger recovery, unique credentials, and MFA.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AbandonedDomainTakeover",
+        "AuthenticationInfrastructure",
+        "GaborSzathmari",
+        "JeremiahCruz"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "asynchronous-communication-trades-synchrony-for-durable-context",
       "qualifications": [
         "The evidence is a first-party 37signals operating guide with no comparative output, decision-quality, inclusion, accessibility, retention, or employee-experience outcomes.",

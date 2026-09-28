@@ -7,7 +7,8 @@ sources:
   - your-users-dont-need-a-password-aleksandr-krivoshchekov-medium
   - valentin-mouret-simple-authentication-with-only-postgresql
   - building-account-systems-mikes-blog
-last_updated: 2026-09-25
+  - hacking-law-firms-with-abandoned-domain-names-gabor-szathmari-medium
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,14 +18,14 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources describe authentication at several different scales. [[Auth0]] treats it as a shared production critical path: once many applications depend on a hosted identity service, reliability work spreads across routing, services, data stores, queues, custom-code execution, CDN behavior, deployments, tests, monitoring, logs, alerts, and operational playbooks. [[AleksandrKrivoshchekov]] shows that even a small passwordless flow creates its own critical chain: email delivery, durable token state, expiry and replay checks, abuse throttling, callback handling, and session issuance. [[ValentinMouret]] supplies the smallest password-based case, where PostgreSQL creates and verifies salted bcrypt hashes inside the database. [[MikeHearn]] widens the boundary beyond login implementation to identifiers, recovery, signup and brute-force abuse, multi-factor support, session revocation, device fit, and transactional-email reputation.
 
-Authentication architecture therefore begins with a trust-and-ownership decision: operate the lifecycle locally, delegate it to a specialist service, or federate proof from an identity provider. Core flows must tolerate infrastructure failure, while every credential or proof mechanism creates specific dependencies, recovery paths, support burdens, and abuse paths. Removing a local password shifts security and availability toward an email, phone, or identity-provider account plus token and session handling. Keeping a password requires secure adaptive hashing and careful verification, but hashing alone does not provide recovery, throttling, sessions, multi-factor authentication, sign-out, or safe SQL function design. Outsourcing can reduce implementation burden without eliminating provider dependency, privacy, portability, outage, or account-recovery risk.
+Authentication architecture therefore begins with a trust-and-ownership decision: operate the lifecycle locally, delegate it to a specialist service, or federate proof from an identity provider. Core flows must tolerate infrastructure failure, while every credential or proof mechanism creates specific dependencies, recovery paths, support burdens, and abuse paths. Removing a local password shifts security and availability toward an email, phone, or identity-provider account plus token and session handling. The abandoned-domain study extends that dependency across organizational time: inbox control is only durable while the organization retains the domain, updates old accounts, and protects recovery routes after mergers, rebrands, departures, or closure. Keeping a password requires secure adaptive hashing and careful verification, but hashing alone does not provide recovery, throttling, sessions, multi-factor authentication, sign-out, or safe SQL function design. Outsourcing can reduce implementation burden without eliminating provider dependency, privacy, portability, outage, namespace-custody, or account-recovery risk.
 
 ## Key Claims
 - Authentication is a lifecycle spanning identity, recovery, abuse controls, multi-factor support, sessions, sign-out, notifications, and deliverability rather than only credential verification.
 - Teams should explicitly choose which parts of that lifecycle to own, delegate to a specialist platform, or federate to an external identity provider.
 - Authentication systems become shared critical infrastructure when downstream applications depend on login and authorization paths.
 - High availability requires coordinated routing, application, data, queue, testing, monitoring, and recovery layers.
-- Authentication-method choices relocate dependencies: email links depend on inbox control and delivery, federation depends on providers, and passwords depend on protected storage and recovery.
+- Authentication-method choices relocate dependencies: email links depend on inbox control, delivery, and long-term domain custody; federation depends on providers; and passwords depend on protected storage and recovery.
 - Session design needs both low-friction continuity and a server-side way to invalidate stolen or administratively revoked sessions.
 - Database-resident password verification can be compact, but a salted hash is only one control inside the larger account-security lifecycle.
 
@@ -42,14 +43,15 @@ Authentication architecture therefore begins with a trust-and-ownership decision
 - Ownership boundary: [[building-account-systems-mikes-blog]] recommends federated sign-in or specialist providers because implementing and supporting the complete lifecycle is expensive and security-sensitive.
 - Session revocation: [[building-account-systems-mikes-blog]] distinguishes local cookie deletion from server-side invalidation and proposes silently renewed short-lived cookies that periodically consult forced-logout state.
 - Operational dependencies: [[building-account-systems-mikes-blog]] connects 2FA to delivery and recovery support and warns that marketing complaints can damage the deliverability of verification and recovery mail.
+- Namespace lifecycle: [[hacking-law-firms-with-abandoned-domain-names-gabor-szathmari-medium]] reports that new registrants of expired law-firm domains could restore catch-all email, receive password resets, and pass domain-ownership checks for breach services.
+- Layered recovery defense: [[hacking-law-firms-with-abandoned-domain-names-gabor-szathmari-medium]] reports that MFA stopped an Office 365 recovery attempt, while other services exposed recoverable accounts through obsolete business addresses.
 
 ## Counterevidence & Qualifications
-The Auth0 material is a single vendor architecture narrative and does not imply that every product needs Auth0-scale redundancy. Both passwordless essays are 2017 practitioner arguments rather than comparative security assessments; they underdevelop inbox compromise, phishing, link leakage, scanners, shared-device risks, email enumeration, provider lock-in, identity-provider account loss, privacy, portability, and regulated use. Hearn's advice not to expire sessions is internally narrowed by his later recommendation for short-lived, silently renewed cookies, and his claim that a site password adds no security when email recovery exists does not cover deliberately layered or risk-scored systems. The PostgreSQL tutorial is likewise not production-ready: its fast SHA-256 step is only pedagogical, its bcrypt cost is implicit, and its final SQL function is flawed. Appropriate authentication infrastructure depends on the application's threat model, customer dependency, traffic, client context, recovery design, credential-upgrade path, provider concentration, and outage cost.
+The Auth0 material is a single vendor architecture narrative and does not imply that every product needs Auth0-scale redundancy. Both passwordless essays are 2017 practitioner arguments rather than comparative security assessments; they underdevelop inbox compromise, phishing, link leakage, scanners, shared-device risks, email enumeration, provider lock-in, identity-provider account loss, privacy, portability, and regulated use. Hearn's advice not to expire sessions is internally narrowed by his later recommendation for short-lived, silently renewed cookies, and his claim that a site password adds no security when email recovery exists does not cover deliberately layered or risk-scored systems. The abandoned-domain evidence is a 2018 self-reported exercise using six selected domains rather than a prevalence study, and recovery flows may have changed. The PostgreSQL tutorial is likewise not production-ready: its fast SHA-256 step is only pedagogical, its bcrypt cost is implicit, and its final SQL function is flawed. Appropriate authentication infrastructure depends on the application's threat model, customer dependency, traffic, client context, recovery design, credential-upgrade path, provider concentration, namespace lifecycle, and outage cost.
 
 ## What Changed
-- Expanded the account-system boundary to include identifiers, recovery, abuse defenses, multi-factor support, session invalidation, support, and transactional-email deliverability.
-- Added build, specialist-platform, and federated-identity ownership choices while making their transferred risks explicit.
-- Reconciled persistent user sessions with short-lived cookie renewal and server-side forced-logout checks.
+- Extended email authentication from current inbox control to long-term custody of the underlying domain namespace.
+- Added retired-domain retention, account cleanup, and MFA as complementary account-lifecycle controls.
 
 ## Related Concepts
 - [[CloudHighAvailability]] - authentication infrastructure depends on multi-AZ and cross-region resilience.
@@ -61,3 +63,4 @@ The Auth0 material is a single vendor architecture narrative and does not imply 
 - [[PasswordHashing]] - password-based login depends on secure credential storage and verification before the wider session lifecycle begins.
 - [[PostgreSQL]] - pgcrypto can host the source's compact bcrypt verification mechanism.
 - [[Google]] - supplies the unified-account experience behind Hearn's advice and one of his federated sign-in examples.
+- [[AbandonedDomainTakeover]] - shows how expired namespace custody can subvert email recovery after an organization changes or closes.
