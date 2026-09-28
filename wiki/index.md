@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Gradually, then suddenly](sources/gradually-then-suddenly-oreilly.md) - Tim O'Reilly surveys gradual technological shifts nearing visible consequence and argues for human-machine partnership, institutional capacity, and deliberate moral choice.
 - [Gossip, Rumors, and Lies](sources/gossip-rumors-and-lies-rands-in-repose.md) - Rands in Repose frames staff meetings around concrete start conditions, separate runner and historian roles, story-producing metrics, team-owned topics, rumor correction, shared notes, and continuing value tests.
 - [Google’s Constant Product Shutdowns Are Damaging Its Brand](sources/googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica.md) - Ron Amadeo argues that Google's dense 2019 shutdown cadence weakened portfolio-wide trust and burdened Stadia's launch with longevity questions.
 - [Google’s New Strategy and How It Affects Aggregators](sources/googles-new-strategy-and-how-it-affects-aggregators-casey-accidental.md) - Casey Winters argues that mobile search is shifting Google from referral toward direct answers and vertical discovery, weakening aggregator SEO while favoring listing-level participation and direct audience loyalty.
@@ -772,6 +773,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Tim O'Reilly](entities/TimOReilly.md) - Technology publisher and commentator represented through cumulative change, human-machine partnership, institutional capacity, and moral choice.
 - [Ron Amadeo](entities/RonAmadeo.md) - Ars Technica author connecting Google's repeated shutdowns to portfolio-wide product-lifecycle trust.
 - [Phil Harrison](entities/PhilHarrison.md) - Stadia executive who acknowledged commitment concerns and cited the project's cross-company investment.
 - [Google Stadia](entities/GoogleStadia.md) - Google game-streaming platform represented here as a launch-time test of inherited product-lifecycle trust.

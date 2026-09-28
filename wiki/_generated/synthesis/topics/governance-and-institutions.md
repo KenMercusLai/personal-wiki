@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-28
-as_of_overview_commit: 8339e67d041b418e5eab4951da57b8efa10f07d6
-input_digest: ce63461d5316f51d3292eead2bf972949ed392287f67978711e0bdc68cef0326
+as_of_overview_commit: f33720cd32c9e9425cd724412539425afa80323f
+input_digest: 48f0be5db9702213c0ae027ec44b6e881539cfef7aac6b9af8315b8d0439b7c1
 ---
 
 # Governance and Institutions
@@ -500,3 +500,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The evidence is one short 2017 practitioner essay prompted by an explicitly unresolved reported case, with no comparative outcomes or employee perspective.
 - Direct CEO reporting and an internally managed hotline do not themselves create independence, prevent retaliation, or resolve conflicts involving senior leadership.
+
+### Human Machine Coordination Needs Authority And Recourse
+
+[[TimOReilly]] frames platform firms and other algorithmically coordinated organizations as human-machine hybrids, extending [[AugmentedIntelligence]] from assistance into allocation and institutional design; because gradual capability accumulation can become suddenly consequential, governance needs explicit authority, visibility, override, appeal, and responsibility before coordination power becomes difficult to contest.
+
+**Evidence:** [[TimOReilly]], [[AugmentedIntelligence]], [[LongNoseInnovation]]
+
+**Qualifications:**
+
+- The evidence is a broad, normative 2019 survey rather than comparative outcome research or a model that predicts when accumulated change will cross a threshold.
+- Its numerical examples are historical snapshots, several forecasts remain untested in the supplied corpus, and the saved Africa and economics passages are incomplete.

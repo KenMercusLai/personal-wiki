@@ -551,6 +551,7 @@ sources:
   - four-questions-towards-understanding-user-adoption-of-your-product
   - four-fundamentals-of-workplace-automation-mckinsey
   - four-promises-a-brand-makes-to-its-customers-lightspeed-venture-partners-medium
+  - gradually-then-suddenly-oreilly
 last_updated: 2026-09-28
 ---
 # Overview
@@ -1843,7 +1844,11 @@ The newest [[RonAmadeo]] source adds [[ProductLifecycleTrust]] as the confidence
 
 The newest Rands in Repose source adds [[StaffMeetings]] as a conditional coordination system rather than a default calendar ritual. Team size, interdependence, management layers, rapid growth, recurring communication failures, or organizational disruption can justify a forum, but its continuing value depends on separate runner and historian roles, question-producing metrics, a team-owned rolling agenda, candid error correction, actionable follow-up, and notes shared beyond the room after necessary redaction. This qualifies the meeting-deletion critique in [[ProceduralRationality]]: a recurring meeting can remain substantive when its need, work, and outputs are visible and repeatedly reassessed, while uninformative metrics, empty agendas, or a vanished founding reason are signals to stop. Broad notes can reduce status games and speculative narratives, but they may also suppress candor or expose sensitive information; a designated rumor segment does not itself create [[PsychologicalSafety]], and the source's participant-count, duration, and timing heuristics are practitioner prescriptions rather than measured thresholds. The supplied Markdown contains no effective image references.
 
+The newest [[TimOReilly]] source broadens [[LongNoseInnovation]] from product histories into a cross-domain attention heuristic: algorithmic coordination, mobile payments, drone logistics, precision agriculture, genomics, neural interfaces, embedded learning, climate response, and government capability can become suddenly consequential only after capabilities, infrastructure, and practice accumulate gradually. It also expands [[AugmentedIntelligence]] beyond decision support and activity redesign. Platform firms already operate as human-machine hybrids; CTRL-labs' nerve-signal demonstration suggests interfaces can add controllable virtual capability, while ride-hailing guidance illustrates performance-adjacent learning embedded in work. This is a normative and exploratory 2019 survey, not comparative outcome evidence or a timing model: numerical examples are historical snapshots, several forecasts are untested here, the saved Africa and economics passages are incomplete, and augmentation can conceal allocation power, surveillance, and coordination pressure unless authority and recourse remain explicit. The sole local image was opened and omitted as a decorative ocean-sunrise photograph.
+
 ## Open Questions
+- Which leading indicators distinguish a real cross-domain inflection from a compelling collection of old technologies, isolated demonstrations, and adoption anecdotes?
+- When does task-adjacent algorithmic guidance build durable capability, and when does it deskill workers or intensify opaque coordination and surveillance?
 - Which decision, follow-up, participation, and information-flow measures can show whether a recurring staff meeting creates coordination value beyond the time it consumes?
 - How should teams balance broad meeting-note transparency against candor, confidentiality, psychological safety, and the risk of turning the record into performance?
 - What criteria should teams use to classify a decision as genuinely reversible when rollback leaves financial, data, trust, safety, or third-party consequences?

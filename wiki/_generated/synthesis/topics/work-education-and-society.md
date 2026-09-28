@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-28
-as_of_overview_commit: 9f4695fb8f1637a4371485a015444e76434776e4
-input_digest: 1e6547e63879e969fd2f104ce187c732b73604908307f9aebcabf3c50d48ed28
+as_of_overview_commit: f33720cd32c9e9425cd724412539425afa80323f
+input_digest: 1e81efea574cf1c5822e39e41c9253a71962c9c3134358363f6c607f64596171
 ---
 
 # Work, Education, and Society
@@ -801,3 +801,14 @@ Growing workplaces need repeated people and reporting infrastructure: [[HumanRes
 
 - The evidence is a practitioner synthesis centered on Amazon, not comparative workplace or organizational-outcome research.
 - A decision can be reversible for management while remaining costly or irreversible for employees, customers, counterparties, or the public.
+
+### Embedded Augmentation Can Build Or Erode Capability
+
+[[AugmentedIntelligence]] can extend work and learning through task-adjacent guidance and interfaces that add controllable capability, but [[TimOReilly]]'s human-machine partnership frame is beneficial only when people retain structural understanding, meaningful agency, and ways to question or override the coordinating system.
+
+**Evidence:** [[AugmentedIntelligence]], [[TimOReilly]], [[LongNoseInnovation]]
+
+**Qualifications:**
+
+- The evidence is a 2019 exploratory essay using selected company examples and one neural-interface demonstration rather than measured learning, autonomy, productivity, or long-run skill outcomes.
+- Embedded guidance can increase access while also deskilling workers, intensifying surveillance or pace, and hiding who controls allocation and recourse.

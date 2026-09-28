@@ -6080,3 +6080,11 @@ Added a Rands in Repose operating model for [[StaffMeetings]] built around concr
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Gradually, then suddenly
+
+Added [[TimOReilly]]'s cross-domain argument that technological change often accumulates before becoming visibly abrupt. Updated [[LongNoseInnovation]] and [[AugmentedIntelligence]] from their complete ordered evidence inventories with algorithmic organizations, infrastructure shifts, neural interfaces, and performance-adjacent learning, while preserving boundaries around forecast evidence, timing, allocation power, surveillance, and two incomplete source passages. Opened the sole local image and omitted it as a decorative ocean-sunrise photograph.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

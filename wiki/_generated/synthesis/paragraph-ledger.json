@@ -572,12 +572,13 @@
       "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64",
       "a54da65d0751c8919c913f309632b8b06eedad60d8964f06ef318cb85111c8ab",
       "dea79d47d1452d8d68cd14542bbd23ee1630b589322c95e45d0aeb067a21009b",
-      "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c"
+      "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
+      "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd"
     ],
-    "paragraph_count": 572
+    "paragraph_count": 573
   },
-  "overview_commit": "9f4695fb8f1637a4371485a015444e76434776e4",
-  "overview_digest": "47601b1ef95103bf51a4cbe0ea969f8274ace2f0b9dd5c5d35a5988eec274238",
+  "overview_commit": "f33720cd32c9e9425cd724412539425afa80323f",
+  "overview_digest": "13449e518ffa219f68b82eed50a36706b9c296e451a6812905451f4cd1853974",
   "paragraphs": [
     {
       "id": "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
@@ -11591,6 +11592,28 @@
         "ProceduralRationality",
         "PsychologicalSafety",
         "StaffMeetings"
+      ]
+    },
+    {
+      "id": "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[TimOReilly]] source broadens [[LongNoseInnovation]] from product histories into a cross-domain attention heuristic: algorithmic coordination, mobile payments, drone logistics, precision agriculture, genomics, neural interfaces, embedded learning, climate response, and government capability can become suddenly consequential only after capabilities, infrastructure, and practice accumulate gradually. It also expands [[AugmentedIntelligence]] beyond decision support and activity redesign. Platform firms already operate as human-machine hybrids; CTRL-labs' nerve-signal demonstration suggests interfaces can add controllable virtual capability, while ride-hailing guidance illustrates performance-adjacent learning embedded in work. This is a normative and exploratory 2019 survey, not comparative outcome evidence or a timing model: numerical examples are historical snapshots, several forecasts are untested here, the saved Africa and economics passages are incomplete, and augmentation can conceal allocation power, surveillance, and coordination pressure unless authority and recourse remain explicit. The sole local image was opened and omitted as a decorative ocean-sunrise photograph.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AugmentedIntelligence",
+        "LongNoseInnovation",
+        "TimOReilly"
       ]
     }
   ],
