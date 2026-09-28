@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "source_key": "from-show-hn-to-series-d-segment-blog",
+  "images": [
+    {
+      "file": "analytics-js-source.png",
+      "alt": "GitHub view of the original Analytics.js source shortly before the Show HN launch"
+    },
+    {
+      "file": "show-hn-launch.png",
+      "alt": "Hacker News listing for the Analytics.js launch on December 12, 2012"
+    },
+    {
+      "file": "beta-signup-email.png",
+      "alt": "Representative email notification for an interested Segment.io beta signup"
+    },
+    {
+      "file": "segment-io-first-product.png",
+      "alt": "Early Segment.io landing page presenting one API for several analytics services"
+    },
+    {
+      "file": "olark-customer-chat.png",
+      "alt": "Early live-chat exchange requesting support for an additional analytics destination"
+    },
+    {
+      "file": "analytics-academy-show-hn.png",
+      "alt": "Hacker News listing for the February 2013 Analytics Academy launch"
+    },
+    {
+      "file": "analytics-academy-course-page.png",
+      "alt": "Analytics Academy page promising comparisons, case studies, and setup guidance"
+    },
+    {
+      "file": "content-feedback-email.png",
+      "alt": "Reader email saying a revised Analytics Academy lesson made three use cases concrete"
+    },
+    {
+      "file": "seed-deck-product-summary.png",
+      "alt": "Segment.io seed-deck slide describing one interface for browser, server, and mobile analytics data"
+    },
+    {
+      "file": "seed-deck-integrations-ui.png",
+      "alt": "Segment.io seed-deck screenshot showing analytics integrations enabled with switches"
+    },
+    {
+      "file": "seed-deck-growth.png",
+      "alt": "Segment.io seed-deck slide reporting seven percent weekly project growth and 750 million monthly events"
+    },
+    {
+      "file": "seed-deck-project-metrics.png",
+      "alt": "Segment.io dashboard of active projects, new active projects, signup conversion, and project activation"
+    },
+    {
+      "file": "seed-deck-testimonials.png",
+      "alt": "Segment.io seed-deck slide with testimonials from developers, marketers, and founders"
+    },
+    {
+      "file": "seed-deck-enterprise-interest.png",
+      "alt": "Segment.io seed-deck slide reporting inbound interest from six larger companies"
+    },
+    {
+      "file": "seed-deck-customer-value.png",
+      "alt": "Segment.io seed-deck slide contrasting data portability with customer lock-in"
+    },
+    {
+      "file": "seed-deck-business-model.png",
+      "alt": "Segment.io seed-deck slide proposing partner revenue share, data-volume pricing, and premium integrations"
+    },
+    {
+      "file": "seed-deck-platform-demand.png",
+      "alt": "Segment.io seed-deck slide naming startups that wanted to build on its customer-data platform"
+    },
+    {
+      "file": "seed-deck-data-platform-vision.png",
+      "alt": "Segment.io seed-deck slide presenting its ambition to become the data platform"
+    },
+    {
+      "file": "seed-deck-team.png",
+      "alt": "Segment.io seed-deck team slide naming the four founders and their institutional affiliations"
+    },
+    {
+      "file": "bridge-round-email.png",
+      "alt": "Peter Reinhardt email accompanying the closing documents for Segment.io's 2013 bridge round"
+    }
+  ]
+}

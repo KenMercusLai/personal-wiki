@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From Show HN to Series D](sources/from-show-hn-to-series-d-segment-blog.md) - Segment's founders trace Analytics.js from a developer launch through customer feedback, activation metrics, a bridge round, corrected monetization, and a customer-data platform.
 - [From Pull and Push to Here and Now: the grand bargain of Facebook and the Feed is unraveling. What comes next?](sources/from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next.md) - Alex Danco argues that cameras and ephemerality made varied expression abundant while shared presence, participation, location, and mutability became newly scarce media resources.
 - [From Experiment to Product: Capital-as-a-Service One Year Later](sources/from-experiment-to-product-capital-as-a-service-one-year-later.md) - Social Capital's first-year CaaS retrospective reports global automated-diligence reach and early portfolio signals without validating model accuracy, bias reduction, or investment performance.
 - [From 2016: Why Deep Learning Is Suddenly Changing Your Life](sources/from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune.md) - A 2016 history links deep learning's commercial breakthrough to labeled data, GPUs, multilayer training, ImageNet, and industrial adoption while preserving limits around reasoning, medicine, and open-world transfer.
@@ -2051,6 +2052,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rajeev Motwani](entities/RajeevMotwani.md) - Stanford contact whose trusted introduction connected Asheem Chandna with Jyoti Bansal's early AppDynamics venture.
 
 ## Concepts
+- [Early Startup Demand Validation](concepts/EarlyStartupDemandValidation.md) - Evidence ladder separating launch attention, qualified intent, signup, activation, retention, payment, and model correction.
 - [Here-and-Now Media](concepts/HereAndNowMedia.md) - Proposed media paradigm in which shared presence, participation, location, immediacy, or mutability become part of content's value.
 - [Score Shading](concepts/ScoreShading.md) - Dynamic mixed-ranking score control that optimizes format utility under load or score-cost constraints.
 - [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform rules that prevent deflation, controller oscillation, and strategic misalignment across competing content formats.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 2a3aac4cf5247491717a933afff1b665ee09c284
+as_of_overview_commit: 6e4b695af2cd821440b8c32fd2545f50b2ae07ef
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 716
-source_count: 716
-paragraph_count: 544
+episode_count: 717
+source_count: 717
+paragraph_count: 545
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[DeepLearning]] progress is cumulative across learned [[NeuralNetwork]] representations, [[Backpropagation]], labeled data such as [[ImageNet]], GPU acceleration from [[Nvidia]], optimization, pretraining, and reusable artifacts; [[UnsupervisedLearning]], [[ReinforcementLearning]], and [[HuggingFace]] extend the stack without removing reasoning, transfer, evidence, expertise, compute, data-rights, governance, security, or platform-dependence constraints.
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts.
+- [[EarlyStartupDemandValidation]] separates attention from progressively stronger evidence: [[TwilioSegment]] moved from a [[HackerNews]] launch and explicit workplace intent through hosted-product signups, in-context customer requests, project activation, contracts, recurring revenue, and revised monetization; [[CustomerLedProductDevelopment]] and [[ProductMetricLadder]] therefore connect qualitative demand to observable behavior without treating any single signal as [[ProductMarketFit]].
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process.
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, system understanding, workload fit
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, coherent scope, sustainable economics, governed distribution, operating capability, and risk discipline.
+Durable value aligns customer outcomes, staged demand evidence, coherent scope, sustainable economics, governed distribution, operating capability, and risk discipline.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

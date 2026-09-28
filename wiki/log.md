@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | From Show HN to Series D
+
+Added Segment's company-authored path from a 400-line Analytics.js library and Show HN launch through hosted-product signups, live-chat feedback, activation metrics, a $2 million bridge round, annual contracts, corrected monetization, and the later customer-data platform. Created [[EarlyStartupDemandValidation]]; updated [[TwilioSegment]], [[HackerNews]], and [[PeterReinhardt]] from their complete ordered evidence inventories. Preserved the distinctions between attention and qualified demand, prospect interest and adoption, early pricing hypotheses and durable strategy, and retrospective survivor narrative versus independent causal evidence. Opened all 24 local images, omitted four decorative or prose-duplicating items, and retained 20 evidence-bearing launch, product, feedback, seed-deck, and closing-email images at their semantic positions with descriptive filenames and a complete manifest.
+
 ## [2026-09-28] ingest | Flavors of Engineering Management
 
 Added Benjamin Encz's 2018 comparison of functional tech-lead, cross-functional product-team, and people-focused engineering managers. Created [[BenjaminEncz]] and [[EngineeringManagerRoleDesign]] with the resulting tradeoffs among coding, technical depth, product ownership, management span, evaluation evidence, delegated leadership, and accountability. Preserved the essay's practitioner and historical limits, its illustrative rather than validated team-size ranges, and Encz's explicit lack of firsthand experience with the people-manager model. The local export's three referenced image files were absent; recovered the same diagrams from the original published article, inspected them, and retained all three at their semantic positions under descriptive canonical filenames with a complete manifest.
@@ -5777,6 +5781,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | From Selling Scoops Of Ice Cream To Founding ZeroCater
 
 Added [[ArramSabeti]]'s first-person account of moving from a generalist [[JustinTV]] apprenticeship into [[ZeroCater]], whose first customers were sold and fulfilled through direct outreach, an inbox, and a spreadsheet before a 500-column schedule and roughly 20 weekly billing hours made software leverage concrete. Created source-bounded profiles for Arram Sabeti and ZeroCater; updated Justin.tv, [[YCombinator]], [[PaulGraham]], [[FounderLedSales]], [[DoingThingsThatDoNotScale]], and [[AdaptivePersistence]] from their complete ordered evidence inventories. Preserved the account's key limitation: one selected founder success does not establish that grit is sufficient or isolate determination from demand, network, capital, timing, health, and luck. The Markdown referenced five unique remote images and duplicated the boat photograph, but all original URLs returned HTTP 404; none could be visually inspected or retained, and no image-derived claim was used.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

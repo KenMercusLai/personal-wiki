@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
       "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
       "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
       "50766921b76cf44d3c860cbbfcb2d57bbf8017ec29d59d2bd7bf36c6389c57e6",
@@ -546,11 +547,30 @@
       "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716"
     ],
-    "paragraph_count": 544
+    "paragraph_count": 545
   },
-  "overview_commit": "2a3aac4cf5247491717a933afff1b665ee09c284",
-  "overview_digest": "070392274c06919fc4e65abb69627709ecc945cf3116fa0829914357fdd2b985",
+  "overview_commit": "6e4b695af2cd821440b8c32fd2545f50b2ae07ef",
+  "overview_digest": "16eed7fcf7de02245d86b95b1b1102b71a05b800883aad4fd9905378198f4dcf",
   "paragraphs": [
+    {
+      "id": "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[TwilioSegment]] source adds [[EarlyStartupDemandValidation]] as an evidence ladder rather than a launch-day verdict. Four founders exposed a 400-line Analytics.js library through [[HackerNews]], then treated explicit workplace requests and hundreds of hosted-product signups as stronger signals than attention alone; a seven-day first product, always-on chat, active-project growth, and setup-to-data-sending activation progressively tested use. With no revenue and about three months of runway, the team used those bounded signals, testimonials, enterprise interest, and a customer-data-platform thesis to raise a reported $2 million bridge round; annual contracts and $1 million ARR followed. The retained 2013 deck preserves an important boundary: six large prospects had expressed interest but were not customers, although five reportedly became customers a year later. The case also connects [[CustomerLedProductDevelopment]] with business-model correction: reader criticism pushed Analytics Academy toward specific, actionable teaching, while Segment later abandoned partner revenue sharing and premium-integration fees because neutrality and wider integration use created more customer value. This is a company-authored survivor retrospective written after a $175 million Series D, so its historical scale figures and causal story are not independently audited and cannot separate execution from capital, timing, network, and luck. Twenty evidence-bearing images were retained at their semantic positions, including the launch, product and feedback screenshots, all 11 seed-deck slides, and the round-closing email; four decorative or prose-duplicating images were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CustomerLedProductDevelopment",
+        "EarlyStartupDemandValidation",
+        "HackerNews",
+        "TwilioSegment"
+      ]
+    },
     {
       "id": "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
       "primary_topic": "culture-and-media",
