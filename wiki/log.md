@@ -6152,3 +6152,11 @@ Added [[EvWilliams]]'s informal survey of professionally successful working pare
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Growth Engineering at Netflix — Accelerating Innovation
+
+Added Netflix's account of [[GrowthEngineering]] as a combined signup-experimentation, instrumentation, and service-platform discipline. Updated [[Netflix]], [[ConversionRateOptimization]], and [[MicroservicePlatformEngineering]] from their complete ordered evidence inventories with cross-device and cross-market flow variation, stateless JSON protocol design, validation and context hydration, state-machine decisions, downstream orchestration, central event collection, and failure-aware request handling. Preserved the source's first-party and historical boundaries: it reports no experiment samples, effect sizes, downstream outcomes, reliability measurements, or comparative architecture results. Opened all eight local images, retained the two full-size evidence-bearing visuals under canonical names, and omitted six 46-60-pixel decorative, duplicative, prose-repeated, or unreadable thumbnails.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

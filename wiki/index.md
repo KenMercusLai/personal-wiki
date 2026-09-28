@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Growth Engineering at Netflix — Accelerating Innovation](sources/growth-engineering-at-netflix-accelerating-innovation.md) - Netflix joins continuous signup experimentation with a stateless client protocol, centralized orchestration, state-machine decisions, instrumentation, and fault tolerance across markets and devices.
 - [Grow the Puzzle Around You](sources/grow-the-puzzle-around-you-jessica-livingston.md) - Jessica Livingston explains how atypical founder strengths, complementary roles, batch investing, and high-touch support shaped Y Combinator.
 - [Growing kids and growing companies](sources/growing-kids-and-growing-companies-working-parents-medium.md) - Ev Williams's informal survey describes varied working-parent schedules, widespread weekend work, founder flexibility, and frequent childcare assistance without establishing a universal norm.
 - [Groupon a bad deal for restaurants and everyone else, including Groupon](sources/groupon-a-bad-deal-for-restaurants-and-everyone-else-including-groupon-odell-restaurant-consultings-blog.md) - Brandon O'Dell argues that Groupon's restaurant promotions can turn customer acquisition into a loss-making redemption without profitable repeat behavior.
@@ -1726,7 +1727,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zendesk](entities/Zendesk.md) - SaaS case where attribution showed display and content influenced long nurture cycles, lead creation, velocity, deal size, and revenue growth.
 - [Clearbit](entities/Clearbit.md) - Data-enrichment SaaS example used to show audience-based full-funnel content segmentation.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
-- [Netflix](entities/Netflix.md) - Culture, personalization, notebook and immutable-image infrastructure, early subscription product management, and an acquisition-strategy counterfactual.
+- [Netflix](entities/Netflix.md) - Culture, personalization, signup growth engineering, notebook and immutable-image infrastructure, early subscription product management, and an acquisition-strategy counterfactual.
 - [Jupyter](entities/Jupyter.md) - Open-source notebook ecosystem whose protocol, file format, kernel model, and computational narrative pattern underpin Netflix's notebook platform.
 - [nteract](entities/Nteract.md) - React-based notebook UI chosen by Netflix for simple, composable notebook interaction and data exploration.
 - [Papermill](entities/Papermill.md) - Notebook parameterization and execution library used by Netflix to turn notebooks into reusable templates and scheduled artifacts.
@@ -2159,6 +2160,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Growth Engineering](concepts/GrowthEngineering.md) - Measured acquisition, activation, retention, and revenue improvement backed by product experiments, instrumentation, reliable software, and enabling platform architecture.
 - [Person-Strategy Fit](concepts/PersonStrategyFit.md) - Alignment between a person's distinctive strengths and the method, goal, environment, or venture they can sustain effectively.
 - [Access Journalism](concepts/AccessJournalism.md) - Reporting incentive problem in which valuable proximity to powerful subjects can discourage scrutiny that threatens future access.
 - [Technology Elite Power](concepts/TechnologyElitePower.md) - Combined economic, platform, investment, legal, social, and agenda-setting influence among technology leaders.

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "growth-engineering-at-netflix-accelerating-innovation",
+  "images": [
+    {
+      "file": "demand-to-signup-funnel.png",
+      "alt": "Demand sources flowing through the Netflix signup funnel into viewing"
+    },
+    {
+      "file": "device-and-market-signup-flows.png",
+      "alt": "United States set-top-box and Japan iPhone signup flows with different registration, plan, payment, and validation steps"
+    }
+  ]
+}

@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: da5ec77d8d4154378e2d01362ed781ef3d1e7e5b
-input_digest: 16523f3c9d0922bde517415817af360a146dfa5fc358c540130a4a87bcecbf98
+as_of_overview_commit: 311c5cdd630e8086f0a8a99813a470eacb69362b
+input_digest: c891d282799a6239f2e04d140cb4e0ad0470d952203825bd9cc525b99a29b0ff
 ---
 
 # Business and Markets
@@ -1697,3 +1697,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - The evidence is one informal survey drawn from Ev Williams's network, mostly in technology and 71% founders, with no reported sample size, response denominator, or representative recruitment frame.
 - Associations between longer hours and company age or size are descriptive, while childcare assistance is reported without cost, quality, access, or outcome evidence.
+
+### Growth Engineering Joins Experiments With Platform Capability
+
+[[GrowthEngineering]] extends [[ConversionRateOptimization]] from isolated page tactics into an end-to-end funnel capability: Netflix's source-scoped case uses shared service-side business logic, central event collection, and [[MicroservicePlatformEngineering]] to vary signup across devices, markets, partners, and payment methods while treating dependency latency and failure as conversion risks.
+
+**Evidence:** [[GrowthEngineering]], [[ConversionRateOptimization]], [[MicroservicePlatformEngineering]]
+
+**Qualifications:**
+
+- The evidence is one company-authored 2018 architecture account without experiment samples, effect sizes, downstream outcomes, reliability measurements, staffing cost, or a comparative client-server design.
+- Centralized business logic and event collection can improve consistency but can also create coupling or a broad failure boundary when protocol evolution, dependency isolation, and ownership are weak.
