@@ -569,12 +569,13 @@
       "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8",
       "2ec54d7bd43b738f6bd4ead6bf47cbf1ccc687ca642e6ebbbf5f5d6c7b5f5e4f",
       "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
-      "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64"
+      "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64",
+      "a54da65d0751c8919c913f309632b8b06eedad60d8964f06ef318cb85111c8ab"
     ],
-    "paragraph_count": 569
+    "paragraph_count": 570
   },
-  "overview_commit": "5cc233da949a4918bf2188602ec0b1cd2d7e0590",
-  "overview_digest": "6ea721478a7e04173692a66eb7bc190efd60e2e72f2266d9d22e1b3f281467be",
+  "overview_commit": "20f788f6d4a6ac5aa5b876409a7394a6d9a4583f",
+  "overview_digest": "f8dd478bfa7559a81abcd55224f2621501ede99b6ce81da532c7a2b01fa93139",
   "paragraphs": [
     {
       "id": "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
@@ -11537,6 +11538,22 @@
         "ProductManagement",
         "ProductManagerAsCEO",
         "ProductRetrospectives"
+      ]
+    },
+    {
+      "id": "a54da65d0751c8919c913f309632b8b06eedad60d8964f06ef318cb85111c8ab",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[CaseyWinters]] source adds [[SearchPlatformDisintermediation]] as a search-specific form of [[PlatformDistributionDependence]]. Its 2018 thesis is that mobile users' preference for immediate answers and compact options pushes [[Google]] from sending demand to third-party category pages toward owning more of discovery through direct answers, vertical cards, and build-buy-partner entry. For aggregators, internal-search and doorway-page rules can narrow the indexable inventory surface while listing-level participation preserves visibility at the cost of customer-interface control; the durable defense remains differentiated value, direct audience loyalty, and switching costs. This sharpens [[AggregationTheory]] because a platform controlling demand can absorb the specialized aggregator between itself and suppliers, but it does not establish a universal or completed transition. The source gives no cross-category traffic, conversion, or welfare measurements; its Chrome-data claim is unsupported, its AMP advice is historically situated, and an appended reader comment argues that specialist result pages can add comparison value and convert better than individual listings. The retained mobile screenshot provides source-specific evidence of Google presenting quinoa-recipe cards directly in search.",
+      "topic_scores": {
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "AggregationTheory",
+        "CaseyWinters",
+        "Google",
+        "PlatformDistributionDependence",
+        "SearchPlatformDisintermediation"
       ]
     }
   ],

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Google’s New Strategy and How It Affects Aggregators](sources/googles-new-strategy-and-how-it-affects-aggregators-casey-accidental.md) - Casey Winters argues that mobile search is shifting Google from referral toward direct answers and vertical discovery, weakening aggregator SEO while favoring listing-level participation and direct audience loyalty.
 - [Google: 82% Of Super Bowl Ad Searches Happened On Mobile, Up From 70%](sources/google-82-of-super-bowl-ad-searches-happened-on-mobile-up-from-70-search-engine-land.md) - Google reported 7.5-million-plus incremental Super Bowl ad searches, an 82% smartphone share, first-half concentration, and an automotive-heavy brand ranking.
 - [Google, Uber, and the Evolution of Transportation-as-a-Service](sources/google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson.md) - Ben Thompson decomposes autonomous ride service into drivers, cars, maps, routing, and riders, then compares Google's technology lead with Uber's operating and customer advantages.
 - [Google Is Making the Same Mistake Now That Microsoft Did in the 90s](sources/google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld.md) - Jason Snell compares Google's Material-styled iOS apps with Windows-derived Office for Mac to argue that host-platform fit can matter more than vendor-wide consistency.
@@ -845,7 +846,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kirsten Weir](entities/KirstenWeir.md) - Psychology writer represented through a 2013 synthesis of research, clinicians, and graduate-student accounts of impostor feelings.
 - [Pauline Rose Clance](entities/PaulineRoseClance.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through its perfectionism cycle and good-enough response.
 - [Suzanne Imes](entities/SuzanneImes.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through achievement pressure, secrecy, and gradual reframing.
-- [Casey Winters](entities/CaseyWinters.md) - Product and growth practitioner represented through a feature/product-fit framework and Grubhub and Pinterest cases.
+- [Casey Winters](entities/CaseyWinters.md) - Product and growth practitioner connecting feature-level fit with adaptation to changing platform distribution.
 - [Grubhub](entities/Grubhub.md) - Food-delivery company represented through early mobile conversion, incentive, and support experiments.
 - [Neil Patel](entities/NeilPatel.md) - Crazy Egg cofounder represented here through his limited role in the failed Vision Web Hosting project.
 - [Vision Web Hosting](entities/VisionWebHosting.md) - Unreleased shared-hosting project used as Hiten Shah's first-person case of committee-driven product drift and loss.
@@ -2132,6 +2133,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Search Platform Disintermediation](concepts/SearchPlatformDisintermediation.md) - Shift from external search referrals toward platform-owned answers, option ranking, and vertical discovery.
 - [Cross-Media Search Response](concepts/CrossMediaSearchResponse.md) - Immediate search activity following exposure in another medium, with attribution and downstream-outcome limits.
 - [Platform-Native Design](concepts/PlatformNativeDesign.md) - Adapting controls and interaction language to a host operating system while preserving product identity.
 - [Superapp](concepts/SuperApp.md) - High-frequency mobile platform that integrates many services through a habitual core, shared capabilities, and varying degrees of transaction control.

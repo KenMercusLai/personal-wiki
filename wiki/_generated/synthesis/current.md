@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 5cc233da949a4918bf2188602ec0b1cd2d7e0590
+as_of_overview_commit: 20f788f6d4a6ac5aa5b876409a7394a6d9a4583f
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, and control."
-episode_count: 751
-source_count: 751
-paragraph_count: 569
+episode_count: 752
+source_count: 752
+paragraph_count: 570
 topic_count: 9
 ---
 
@@ -36,10 +36,10 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, coherent product and team design, sustainable economics, focused leadership, reversible learning, and risk discipline.
+Durable value joins customer outcomes, coherent product and team design, sustainable economics, governed distribution, focused leadership, reversible learning, and risk discipline.
 
+- [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].
 - [[SuperApp]] economics begin with a frequent use case and expand into adjacent demand, but control differs by model: [[GoogleMaps]] uses advertising, APIs, and partners to reduce fulfillment burden, [[Meituan]] operates more transactions and delivery, [[Grab]] uses localized mobility to enter delivery and finance, and [[WeChat]] combines messaging, mini programs, payments, and commerce. Evidence: [[SuperApp]], [[GoogleMaps]], [[Meituan]], [[Grab]], [[WeChat]].
-- [[Baremetrics]] qualifies [[VentureBackedGrowthPressure]] by separating capital from direct coercion: two funding rounds expanded spending capacity, but the author attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]] rather than investor demands. [[FounderSuccessDefinition]] therefore becomes an operating choice about durability, income, employee experience, customer happiness, and exit, while [[BurnoutPrevention]] supplies distance for re-examining the race without replacing financial correction. Evidence: [[Baremetrics]], [[VentureBackedGrowthPressure]], [[StartupCulture]], [[FounderSuccessDefinition]], [[BurnoutPrevention]].
 
 ### Cross-domain
 

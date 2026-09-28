@@ -6056,3 +6056,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Google’s New Strategy and How It Affects Aggregators
+
+Added [[CaseyWinters]]'s 2018 argument that mobile search is shifting [[Google]] from referral links toward direct answers and vertical discovery. Created [[SearchPlatformDisintermediation]] and updated Casey Winters and [[PlatformDistributionDependence]] from their complete ordered evidence inventories with internal-search and doorway-page constraints, build-buy-partner entry, listing-level participation, and direct-demand defenses. Preserved the source's forecast boundary, unsupported Chrome-data claim, historically situated AMP advice, and the appended reader counterpoint that specialist result pages may add comparison value and convert better than individual listings. Recovered the blocked remote image from the current article mirror, opened it, and retained the evidence-bearing mobile recipe-result screenshot under a descriptive canonical filename with a complete manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
