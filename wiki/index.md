@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Good Product Teams vs. Bad Product Teams](sources/good-product-teams-vs-bad-product-teams.md) - Justin Bauer contrasts customer-connected, strategy-led, learning-oriented product teams with siloed teams measured mainly by output.
 - [Good CEOs Do Just 3 Things](sources/good-ceos-do-just-3-things-mitchell-harper-medium.md) - Mitchell Harper turns a three-part CEO model into practical guidance on strategy communication, critical hiring, and adverse-case cash discipline.
 - [Going Up and Down the VC Roller Coaster](sources/going-up-and-down-the-vc-roller-coaster-by.md) - David Frankel explains why investor confidence fluctuates during fundraising and how visible progress, process concentration, and responsive diligence may preserve momentum.
 - [Go Fast and Break Things: The Difference Between Reversible and Irreversible Decisions](sources/go-fast-and-break-things-the-difference-between-reversible-and-irreversible-decisions.md) - Farnam Street presents Bezos's one-way/two-way-door heuristic for matching decision speed and information demands to actual reversibility.
@@ -762,6 +763,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Justin Bauer](entities/JustinBauer.md) - Amplitude product executive represented through a practitioner model of customer-connected, analytics-informed, outcome-oriented teams.
+- [Amplitude](entities/Amplitude.md) - Product-analytics company supplying the commercial and organizational context for Bauer's product-team argument.
 - [Mitchell Harper](entities/MitchellHarper.md) - Founder-operator represented through a focused CEO model spanning vision, talent, and cash.
 - [David Frankel](entities/DavidFrankel.md) - Venture investor represented through a practitioner account of changing confidence and founder-controlled momentum during fundraising.
 - [Alexis Richardson](entities/AlexisRichardson.md) - Author represented through his early explanation of Weaveworks's GitOps operating model.
@@ -2251,7 +2254,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Website Personalization](concepts/WebsitePersonalization.md) - Audience-led variation of website messages, creative, proof, content, promotions, and calls to action through a modular design system.
 - [Account-Based Marketing](concepts/AccountBasedMarketing.md) - B2B strategy that tailors acquisition and sales experiences to selected accounts or account groups and judges success through fit and progression.
 - [User-Centered Design](concepts/UserCenteredDesign.md) - Product-design discipline that replaces designer self-reference with explicit audience understanding, grounded personas, and challengeable decisions.
-- [Modern Product Team Design](concepts/ModernProductTeamDesign.md) - Five-part diagnostic combining cross-functional capability, dedicated focus, evidence, customer contact, and varied perspectives.
+- [Modern Product Team Design](concepts/ModernProductTeamDesign.md) - Product-team operating model combining cross-functional capability, customer context, strategic autonomy, iterative learning, and outcome accountability.
 - [Design Business Literacy](concepts/DesignBusinessLiteracy.md) - Practical understanding of company value, operations, competition, resources, and growth used to direct design toward consequential problems.
 - [Personal Growth Planning](concepts/PersonalGrowthPlanning.md) - Recurring practice connecting self-knowledge, measurable goals, energy, alignment, and attention across multiple review cadences.
 - [Product Design Principles](concepts/ProductDesignPrinciples.md) - Product-specific commitments that guide difficult design tradeoffs while expressing intended experience, audience priorities, and brand character.

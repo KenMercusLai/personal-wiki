@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: caf62427d912671fa0148622b408093e469259aa
+as_of_overview_commit: 7530d4a9f22083612be4bc31cb965b74a84031ce
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence, reversible learning, and explicit limits."
-episode_count: 744
-source_count: 744
-paragraph_count: 563
+episode_count: 745
+source_count: 745
+paragraph_count: 564
 topic_count: 9
 ---
 
@@ -18,12 +18,12 @@ topic_count: 9
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[EngineeringLedOrganizationDesign]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], and [[ScalingCommunication]] show startup scaling as organization design: founders transfer context through leaders, recruiting systems, small teams, dashboards, feedback loops, and repeated mission. [[MitchellHarper]] adds a compact focus test attributed to [[FredWilson]]—vision and strategy, exceptional talent, and sufficient cash—linking company-wide explanation, personal CEO involvement in critical hiring, and downside-aware [[StartupRunway]] while keeping the numerical guidance source-scoped. [[StartupCTORoleEvolution]] adds the founder-role mechanism: at [[SuperAwesome]], [[JoshuaWohle]] repeatedly transferred architecture, engineering-management, and product-portfolio ownership to focused leaders as the dominant constraint moved, making relinquished authority rather than added headcount the test of delegation. Under hypergrowth, [[Coinbase]] adds decision independence: dual skill-and-values screening and a trained bar raiser with veto power separate the company-wide threshold from local staffing pressure, while an explicit preference for false negatives makes the risk tradeoff visible. [[EShares]] adds a tightly coupled teaching system in which shared vocabulary, synchronized rituals, [[OrganizationalLeverage]], finance rules, and [[MarketBasedCompensation]] reinforce one operating philosophy, while [[EmployeeOpportunityDesign]] and tests of contribution, reversibility, employee autonomy, and cultural multiplication keep selection from substituting for useful work after hiring.
+- [[ModernProductTeamDesign]] joins shared customer context, cross-functional responsibility, strategic focus, solution autonomy, small coherent experiments, and outcome accountability into one learning system; [[JustinBauer]] and [[Amplitude]] supply the practitioner case, while [[CustomerLedProductDevelopment]], [[IterativeProductShipping]], and [[ProductMetricLadder]] distinguish evidence-led learning from requirements handoffs, sprint activity, and feature-count success.
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[IndieGameDevelopment]] and [[AudienceCenteredGameDesign]] treat games as expressive experiences whose relevance depends on identity, care, relationships, themes, controls, and challenge, while [[GameLocalization]], [[AutomatedGameTesting]], [[GameServerScaleAndStability]], [[ContinuousGameServerUpdates]], and [[ServerSideGameLogic]] show that equivalent player experience also depends on translation, verification, delivery, and live operations.
 - [[HumanResourcesGovernance]] treats HR leadership, rules, feedback, and onboarding as scale-sensitive governance rather than recruiting alone, while [[WhistleblowerReportingSystems]] uses training, a known hotline, bounded anonymous feedback, and repeated communication to counter pressure against reporting; [[FredWilson]] offers a practitioner model, and the unresolved [[Uber]] setup does not establish outcomes or replace independent escalation, anti-retaliation, investigation, confidentiality, remedy, and board-oversight controls.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
-- [[ReversibleDecisionMaking]] extends [[MultiplePathsToYes]] by matching decision speed and review burden to actual rollback cost: [[Amazon]] supplies a source-scoped case for acting with incomplete information on two-way doors and slowing one-way doors.
 
 ## Synthesis by Domain
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit intended-versus-live
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, staged demand evidence, sustainable economics, coherent products, focused leadership, reviewable operations, reversible learning, and risk discipline.
+Durable value aligns customer outcomes, staged demand evidence, coherent product-team autonomy, sustainable economics, focused leadership, reviewable operations, reversible learning, and risk discipline.
 
 - [[Baremetrics]] qualifies [[VentureBackedGrowthPressure]] by separating capital from direct coercion: two funding rounds expanded spending capacity, but the author attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]] rather than investor demands. [[FounderSuccessDefinition]] therefore becomes an operating choice about durability, income, employee experience, customer happiness, and exit, while [[BurnoutPrevention]] supplies distance for re-examining the race without replacing financial correction. Evidence: [[Baremetrics]], [[VentureBackedGrowthPressure]], [[StartupCulture]], [[FounderSuccessDefinition]], [[BurnoutPrevention]].
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].

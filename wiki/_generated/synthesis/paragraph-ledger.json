@@ -563,12 +563,13 @@
       "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c",
       "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee",
       "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8",
-      "2ec54d7bd43b738f6bd4ead6bf47cbf1ccc687ca642e6ebbbf5f5d6c7b5f5e4f"
+      "2ec54d7bd43b738f6bd4ead6bf47cbf1ccc687ca642e6ebbbf5f5d6c7b5f5e4f",
+      "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa"
     ],
-    "paragraph_count": 563
+    "paragraph_count": 564
   },
-  "overview_commit": "caf62427d912671fa0148622b408093e469259aa",
-  "overview_digest": "c7b1c850639a2ef34477cd8b59d5ec60b9c9605e311876a0b8100e7cd43cc871",
+  "overview_commit": "7530d4a9f22083612be4bc31cb965b74a84031ce",
+  "overview_digest": "99d6b104441da5bc20041713670260559fa89facefe80f464175aa04c7b12422",
   "paragraphs": [
     {
       "id": "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
@@ -11412,6 +11413,27 @@
         "FredWilson",
         "MitchellHarper",
         "StartupRunway"
+      ]
+    },
+    {
+      "id": "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JustinBauer]] source broadens [[ModernProductTeamDesign]] from five structural conditions into an operating loop. At [[Amplitude]], Bauer argues that product management, design, and engineering should share direct customer context and behavioral evidence; a clear strategy and small set of important measures then let the team choose solutions, test risky assumptions through coherent incremental releases, and judge the result through engagement, stickiness, retention, customer outcomes, and revenue connection rather than story points or feature count. This strengthens [[CrossFunctionalProductTeams]], [[CustomerLedProductDevelopment]], [[IterativeProductShipping]], and [[ProductMetricLadder]] while preserving a critical boundary: analytics should inform judgment, not validate predetermined choices or replace vision. The sharp good-team/bad-team contrast is a practitioner diagnostic, not a comparative study; direct feedback and usage data can both be unrepresentative, high-consequence work may justify slower review, and Bauer's product-analytics employer gives the prescription a visible commercial context. The sole remote title image returned HTTP 404, no recoverable copy was located, and no image-derived claim was used.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Amplitude",
+        "CrossFunctionalProductTeams",
+        "CustomerLedProductDevelopment",
+        "IterativeProductShipping",
+        "JustinBauer",
+        "ModernProductTeamDesign",
+        "ProductMetricLadder"
       ]
     }
   ],

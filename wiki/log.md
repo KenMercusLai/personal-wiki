@@ -6004,3 +6004,11 @@ Added [[MitchellHarper]]'s expansion of [[FredWilson]]'s three-part CEO framewor
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Good Product Teams vs. Bad Product Teams
+
+Added [[JustinBauer]]'s comparison of customer-connected, strategy-led, learning-oriented product teams with siloed teams measured mainly by delivery output. Created source-bounded pages for Bauer and [[Amplitude]], and expanded [[ModernProductTeamDesign]] from its complete ordered evidence inventory to integrate direct customer context, analytics-informed judgment, strategic autonomy, risky-assumption testing, and outcome accountability. Preserved the model as practitioner guidance, disclosed Amplitude's commercial context, and qualified metric proxies, unrepresentative feedback, autonomy boundaries, and slower review for high-consequence work. The sole remote title image returned HTTP 404, no recoverable copy was located, and no image-derived claim was used.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
