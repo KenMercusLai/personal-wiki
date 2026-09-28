@@ -5733,3 +5733,11 @@ Added a historically scoped account of deep learning's 2016 inflection point, li
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From Bid Shading to Score Shading: Dual Optimization and Game Governance in Mixed Ranking Systems
+
+Added [[ScoreShading]] as a dual-control framework for mixed-format ranking and [[MixedRankingGovernance]] as the platform layer needed to contain score deflation, coupled-controller oscillation, and strategic reporting. Updated [[ProgrammaticAdvertising]] with first-price bid shading and refreshed [[Wulc]] from his complete ordered evidence inventory. Preserved the article's proposal status: the extracted equations are absent, the Gaussian versus log-normal presentation is inconsistent, and no production experiment, calibration result, controller analysis, latency benchmark, or common cross-format value function is supplied. The Markdown contains no effective image references, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

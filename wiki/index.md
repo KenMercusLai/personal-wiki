@@ -724,6 +724,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 - [Four fundamentals of workplace automation](sources/four-fundamentals-of-workplace-automation-mckinsey.md) - McKinsey's 2015 activity-level model argues that partial automation will reshape many more jobs than it eliminates wholesale, making process redesign, augmentation, adoption constraints, and transition risks central.
+- [From Bid Shading to Score Shading: Dual Optimization and Game Governance in Mixed Ranking Systems](sources/from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems.md) - Wulc adapts first-price bid shading to mixed ranking, then argues that dual control needs distribution modeling, exploration, and platform-wide governance.
 
 ## Entities
 - [Andrew Ng](entities/AndrewNg.md) - AI researcher represented through Google Brain, the unlabeled-image experiment, input-to-output learning, and the AI-as-electricity industrial thesis.
@@ -2031,6 +2032,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mehdi Miremadi](entities/MehdiMiremadi.md) - McKinsey principal and coauthor of the 2015 workplace-automation analysis.
 
 ## Concepts
+- [Score Shading](concepts/ScoreShading.md) - Dynamic mixed-ranking score control that optimizes format utility under load or score-cost constraints.
+- [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform rules that prevent deflation, controller oscillation, and strategic misalignment across competing content formats.
 - [Unsupervised Learning](concepts/UnsupervisedLearning.md) - Learning recurring structure without explicit per-example labels, promising broader data use while retaining interpretation and transfer limits.
 - [Browser Platform Strategy](concepts/BrowserPlatformStrategy.md) - Expanding a browser into a developer, application, distribution, enterprise, identity, and standards platform.
 - [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating an existential startup threat through credible sacrifice, candor, team commitment, strategic boundaries, and explicit fairness limits.
