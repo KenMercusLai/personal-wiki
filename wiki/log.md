@@ -6020,3 +6020,11 @@ Added Wildbit's team-centered account of product management and created source-b
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive
+
+Added Skift's 2019 comparison of [[GoogleMaps]], [[WeChat]], [[Grab]], and [[Meituan]], and created [[SuperApp]] to distinguish messaging-, mobility-, commerce-, and discovery-led platform paths. Updated Google Maps and WeChat from their complete ordered evidence inventories; created source-bounded profiles for Grab and Meituan; and preserved the differences between Google's advertising-and-partner model and transaction platforms with in-house fulfillment. Qualified the article's analyst-estimated Maps revenue, disputed category boundary, regional behavior claims, partner handoffs, map-centered scope, specialist-app depth, and regulatory exposure. Opened and omitted the decorative header; the duplicated second `.png` was actually unrelated HTML and was omitted because the GPS issue in its caption was fully repeated in prose.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive](sources/google-maps-is-ready-to-transform-the-world-of-superapps-a-skift-deep-dive-skift.md) - Skift compares Google Maps' discovery-led platform expansion with WeChat, Grab, and Meituan while preserving limits around local context, partner fulfillment, regional habits, regulation, and estimated revenue.
 - [Good/Bad Product Manager](sources/good-bad-product-manager-wildbit-medium.md) - Wildbit reframes product management around team health, direct customer learning, facilitative strategy, realistic priorities, and hands-on execution.
 - [Good Product Teams vs. Bad Product Teams](sources/good-product-teams-vs-bad-product-teams.md) - Justin Bauer contrasts customer-connected, strategy-led, learning-oriented product teams with siloed teams measured mainly by output.
 - [Good CEOs Do Just 3 Things](sources/good-ceos-do-just-3-things-mitchell-harper-medium.md) - Mitchell Harper turns a three-part CEO model into practical guidance on strategy communication, critical hiring, and adverse-case cash discipline.
@@ -764,6 +765,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Grab](entities/Grab.md) - Southeast Asian mobility company presented as a localized superapp built outward from ride-hailing.
+- [Meituan](entities/Meituan.md) - China local-services platform contrasting transaction and in-house fulfillment with Google Maps' partner model.
 - [Justin Bauer](entities/JustinBauer.md) - Amplitude product executive represented through a practitioner model of customer-connected, analytics-informed, outcome-oriented teams.
 - [Amplitude](entities/Amplitude.md) - Product-analytics company supplying the commercial and organizational context for Bauer's product-team argument.
 - [Mitchell Harper](entities/MitchellHarper.md) - Founder-operator represented through a focused CEO model spanning vision, talent, and cash.
@@ -2123,6 +2126,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Superapp](concepts/SuperApp.md) - High-frequency mobile platform that integrates many services through a habitual core, shared capabilities, and varying degrees of transaction control.
 - [Fundraising Momentum](concepts/FundraisingMomentum.md) - Timely business evidence, investor attention, process urgency, and responsive diligence that keep a financing process moving despite changing concerns.
 - [Reversible Decision Making](concepts/ReversibleDecisionMaking.md) - Decision practice that varies speed, evidence, and review burden according to actual rollback cost and consequence.
 - [Engineering Expertise](concepts/EngineeringExpertise.md) - Practical judgment developed through sustained implementation, cross-layer systems reasoning, diagnostic skill, and consequential feedback.

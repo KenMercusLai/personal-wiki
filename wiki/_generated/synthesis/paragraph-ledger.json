@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "88ce7accb96d8fad750bc20ba85c951480beb5699e892f451330ecf88a094748",
       "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
       "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
       "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
@@ -567,11 +568,33 @@
       "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
       "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64"
     ],
-    "paragraph_count": 565
+    "paragraph_count": 566
   },
-  "overview_commit": "ef6ec1821393adc9f594fce1aadd3ff517acbfc4",
-  "overview_digest": "f1dbf0ffb7d53cbd30f117ff36906a021d9a4d9cd82229c7d159d4c41b960043",
+  "overview_commit": "8339e67d041b418e5eab4951da57b8efa10f07d6",
+  "overview_digest": "8bd4db904a018cf43490b3dcf06b7ce50ba304d6e62660f046f3bda651594d55",
   "paragraphs": [
+    {
+      "id": "88ce7accb96d8fad750bc20ba85c951480beb5699e892f451330ecf88a094748",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "governance-and-institutions"
+      ],
+      "text": "The newest Skift source adds [[SuperApp]] as a contested mobile-platform category built from a habitual beachhead, integrated capabilities, and adjacent service expansion rather than feature count alone. [[WeChat]] represents a messaging-led route through mini programs, payments, commerce, and brand access; [[Grab]] expands from ride-hailing into locally tailored delivery and finance; [[Meituan]] joins broad local transactions with operated fulfillment; and [[GoogleMaps]] follows a discovery-led route from navigation into hotels, events, commute alerts, rides, reservations, delivery, merchant messaging, recommendations, APIs, and local ads. Their business models expose a control tradeoff: Google's advertising-and-partner model can avoid much physical infrastructure and liability, while transaction operators can control more of the customer experience at greater cost. Maps' billion-user scale, search position, data, and frequent use make expansion credible, but its map-centered context, incomplete in-app payments and peer messaging, specialist-app depth, Western multi-app habits, and regulation keep \"Western superapp\" a qualified judgment. Skift's Maps advertising figures are an unidentified analyst's estimates rather than Alphabet disclosure. The decorative banner was omitted; the duplicated second \"PNG\" was actually unrelated HTML, so it was not retained and contributed no visual evidence beyond the prose's GPS qualification.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "GoogleMaps",
+        "Grab",
+        "Meituan",
+        "SuperApp",
+        "WeChat"
+      ]
+    },
     {
       "id": "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
       "primary_topic": "work-education-and-society",
