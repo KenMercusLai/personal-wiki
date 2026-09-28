@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Four Questions Towards Understanding User Adoption of Your Product](sources/four-questions-towards-understanding-user-adoption-of-your-product.md) - Josh Elman proposes interviewing active users who initially abandoned a product and later returned to identify activation messages, obstacles, and successful behaviors.
+- [Four promises a brand makes to its customers](sources/four-promises-a-brand-makes-to-its-customers-lightspeed-venture-partners-medium.md) - Adam Taussig defines brand equity as customer belief earned by consistently delivering promises across product, price, channel, and marketing.
 - [Founder's Guide to Automation](sources/founders-guide-to-automation-fundersclub.md) - FundersClub argues for automating stable recurring startup work while preserving human oversight, escalation, and high-touch learning with first customers.
 - [Founder of Pandora on Lessons from Near Dot Com Bust to Billion Dollar IPO](sources/founder-of-pandora-on-lessons-from-near-dot-com-bust-to-billion-dollar-ipo-first-round-review.md) - Tim Westergren connects Pandora's software focus, prolonged cash crisis, team endurance, founder-role recasting, and post-IPO scale.
 - [Founder Stories: A Hacker's Hacker](sources/founder-stories-a-hackers-hacker-openocean.md) - OpenOcean profiles Monty Widenius through MySQL's long development, open-source commercialization, developer-led culture, MariaDB, and OpenOcean.
@@ -2101,6 +2102,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wake-on-LAN](concepts/WakeOnLAN.md) - Magic-packet wake mechanism whose extension across a WAN depends on firewall admission, LAN relay behavior, and ARP or broadcast handling.
 - [Adtech](concepts/Adtech.md) - Tracking, targeting, delivery, and measurement infrastructure whose audience-first optimization can weaken context, privacy, and placement control.
 - [Brand Advertising](concepts/BrandAdvertising.md) - Advertising that builds broad awareness and association through deliberately selected media context and sponsorship.
+- [Brand Equity](concepts/BrandEquity.md) - Accumulated customer belief and referability earned through consistent delivery across product, price, channel, and marketing.
 - [Direct Sponsorship](concepts/DirectSponsorship.md) - Paid placement with a known publisher, combining selected audience and context with direct response and harder-to-attribute distribution effects.
 - [SEO Consultant Selection](concepts/SEOConsultantSelection.md) - Evaluation and governance of SEO providers through relevant experience, transparent methods, staged access, realistic outcomes, and owner accountability.
 - [Single Responsibility Principle](concepts/SingleResponsibilityPrinciple.md) - Design guideline for assigning one coherent concern to a unit without pretending that responsibility boundaries are mechanically measurable.

@@ -5694,3 +5694,10 @@ Added [[WorkplaceAutomation]] as an activity-level model that separates technica
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-28] ingest | Four promises a brand makes to its customers
+
+Added [[AdamTaussig]]'s four-promise model of brand across product, price, channel, and marketing, creating [[BrandEquity]] as accumulated customer belief earned through consistent delivery rather than visual identity alone. Updated [[StartupBrandStrategy]], [[NetPromoterScore]], Adam Taussig, and [[LightspeedVenturePartners]] from their complete ordered evidence inventories. Preserved the model's limits as a brief investor essay, bounded NPS as a stated-referability proxy rather than a complete brand measure, and rejected the unsupported association between high NPS and sustained market leadership as causal evidence. Opened both local images and omitted them as non-evidentiary: a stock pinky-promise photograph and a tiny Medium interface graphic.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
