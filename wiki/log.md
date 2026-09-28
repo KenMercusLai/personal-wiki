@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | Here's Why There Won't Be an Uber for Accounting
+
+Added Going Concern's 2016 argument that [[Uber]]'s short, bounded, on-demand transaction model does not transfer automatically to scheduled, diagnostic, trust-heavy accounting relationships. Created [[ServiceMarketplaceFit]] and updated [[Uber]] and [[HumanPremiumServices]] from their complete ordered evidence inventories, separating marketplace intermediation from direct automation of standardized tax and bookkeeping work. Preserved the article's practitioner, historical, forecast, category-simplification, hybrid-marketplace, credential-governance, and later-AI limitations. The source Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-09-29] ingest | Here's The Thing With Free Apps And Services
 
 Added [[NicoleNguyen]]'s 2017 consumer guide to the privacy and business-model tradeoffs of zero-price apps. Created [[NicoleNguyen]], [[UnrollMe]], and [[AppPermissionGovernance]], and updated [[DataMonetization]] from its complete ordered evidence inventory to include secondary use of feature-access data, permission proportionality, and user-expectation governance. Preserved the historical boundary around platform settings and company policies, distinguished a permission request from proof that every capability was exercised, and qualified paid privacy alternatives through [[PrivacyPovertyDivide]]. Opened all four local images; retained the full Unroll.me permission screen and TLDRLegal example under descriptive filenames, and omitted a duplicate permission crop plus a generic laptop photograph.
@@ -6324,6 +6328,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Here's What a Real Growth Strategy Looks Like — Road Tested by Facebook and Remind
 
 Added First Round Review's 2015 interview with [[MeenalBalar]] on retention-gated growth across [[Facebook]] and [[Remind]]. Created [[MeenalBalar]] and [[Remind]], and updated [[GrowthEngineering]], [[ProductLedRetention]], and [[NotificationDesign]] from their complete ordered evidence inventories. Preserved the distinction between measured activity and durable user value, the historical and company-reported limits of the examples, and the absence of cohort definitions, experiment details, or independent outcome verification. Opened the sole local image and omitted it as a decorative header illustration without independent evidence.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Here's Why There Won't Be an Uber for Accounting](sources/heres-why-there-wont-be-an-uber-for-accounting-going-concern.md) - Going Concern argues that relationship-heavy accounting is a poor fit for on-demand matching, while standardized low-end work faces direct software automation.
 - [Here's What a Real Growth Strategy Looks Like — Road Tested by Facebook and Remind](sources/heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review.md) - Meenal Balar frames growth as retention-gated, cross-functional work combining local context, instrumentation, usability, activation, engagement, virality, and targeted push.
 - [Here's The Thing With Free Apps And Services](sources/heres-the-thing-with-free-apps-and-services.md) - Nicole Nguyen uses the Unroll.me controversy to connect free-service data monetization with permission review, policy scrutiny, revocation, and business-model checks.
 - [Here's How Trello Nailed Localization and Global Marketing](sources/heres-how-trello-nailed-localization-and-global-marketing.md) - Trello's 2016 case joins demand-led experiments, managed volunteer translation, professional fallback, internationalization, and local marketing in a 20-language rollout.
@@ -2220,6 +2221,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Service Marketplace Fit](concepts/ServiceMarketplaceFit.md) - Degree to which a service's transaction, trust, capacity, relationship, and delivery characteristics suit on-demand matching.
 - [App Permission Governance](concepts/AppPermissionGovernance.md) - Continuing practice of matching application access to purpose and trust, then reviewing and revoking it as conditions change.
 - [Crowdsourced Localization](concepts/CrowdsourcedLocalization.md) - Managed use of community translators through tooling, terminology, context, review, motivation, governance, and professional fallback.
 - [Private Company Investor Buyout](concepts/PrivateCompanyInvestorBuyout.md) - Negotiated repurchase of private-company investor shares using cash, debt, or other financing to provide liquidity and change ownership or control.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "27c65aabb0fcbe96cb66fa1f3a43c143a0388a5276ea7a45412c2b8d6dfe7ff8",
       "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
       "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
       "43d703705f803754497c223fb6854b65c29dc5a1f543874b9a1a583018d4ab19",
@@ -596,11 +597,33 @@
       "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f"
     ],
-    "paragraph_count": 594
+    "paragraph_count": 595
   },
-  "overview_commit": "df3d8b580230f92fbc28ae385e9a223b78af484e",
-  "overview_digest": "d57492b47c29fc841f2b516143bc1a4bbec68c0dc16ac1245afd644d4399e11f",
+  "overview_commit": "2d9bc014743ae8ea2da704883e6ad1b63be439e4",
+  "overview_digest": "55df15ad333783c3897f2041f8f2b3e348ff0ccfb257a44c94ef1891439f4fef",
   "paragraphs": [
+    {
+      "id": "27c65aabb0fcbe96cb66fa1f3a43c143a0388a5276ea7a45412c2b8d6dfe7ff8",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "ai-and-technology",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Going Concern source adds [[ServiceMarketplaceFit]] as a boundary on “Uber for X” analogies. [[Uber]] combines a short, frequent, easily specified trip with providers seeking more utilization and platform ratings that help strangers transact; the 2016 essay contrasts this with accounting engagements that are scheduled, long-lived, technically difficult for clients to evaluate, and partly diagnostic because the client may need help choosing the destination. [[HumanPremiumServices]] therefore expands from visible care and social presence to professional judgment, confidentiality, client history, and accumulated adviser trust. The source also separates two disruption paths: a labor marketplace makes providers more interchangeable, while software can remove human work from standardized tax preparation or transaction categorization directly. This is a category-fit framework rather than proof that professional-service marketplaces cannot work: the article is a practitioner forecast without market data and does not test specialized projects, hybrid managed marketplaces, credential-based governance, regulatory variation, or later AI-assisted delivery.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "HumanPremiumServices",
+        "ServiceMarketplaceFit",
+        "Uber"
+      ]
+    },
     {
       "id": "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
       "primary_topic": "business-and-markets",
