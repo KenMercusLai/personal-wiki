@@ -4,6 +4,7 @@ type: concept
 tags: [social-media, privacy, audience-design, trust]
 sources:
   - facebook-isnt-the-social-network-anymore-so-what-is-it
+  - ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -14,33 +15,36 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The Facebook case links network growth to a disclosure paradox. A larger graph increases reach and platform value, but it also makes the audience harder to model and raises the social cost of personal expression. Users can respond by posting less intimate material, moving to narrower messaging or photo-sharing contexts, or consuming professionally produced content instead of contributing personal updates.
 
-Privacy controls can segment audiences in principle, but the source argues that confusing or tedious controls do not recreate the confidence of a naturally bounded context. Platform monitoring for advertising further weakens the sense that a post is an ordinary interpersonal exchange. Context collapse therefore concerns not only who technically receives a post, but whether the user can understand the audience, trust the boundary, and predict how different groups will interpret it.
+Persistence adds a second dimension. A mixed audience can make a post risky now, while a durable profile also asks how the artifact will fit a public identity and be judged later. Camera-first ephemerality can lower both composition and archive pressure by making momentary exchange more acceptable, but this is a plausible product mechanism rather than evidence that deletion produces authenticity or that context collapse caused reported sharing declines.
+
+Privacy controls can segment audiences in principle, but confusing or tedious controls do not recreate the confidence of a naturally bounded context. Platform monitoring for advertising further weakens the sense that a post is an ordinary interpersonal exchange. Context collapse therefore concerns who receives a post, how long it persists, whether the user understands the effective audience, and how different groups may interpret it.
 
 ## Key Claims
 - Network growth can reduce personal disclosure when one audience combines relationships governed by incompatible norms.
-- Audience uncertainty changes participation, encouraging safer public content or passive consumption over intimate original sharing.
+- Audience uncertainty can encourage safer public content or passive consumption over intimate original sharing.
+- Persistence adds future audiences and identity maintenance to the cost of posting.
 - Manual privacy controls help only when people can understand and apply them with tolerable effort.
-- Trust in the platform's observation and use of activity is part of perceived audience safety, even when post visibility is restricted.
-- Narrower products such as messaging and photo-sharing apps can restore more legible social contexts without eliminating the larger platform's media role.
+- Narrower or ephemeral products can restore more legible contexts without guaranteeing privacy, intimacy, or authenticity.
+- Trust in platform observation and data use is part of perceived audience safety even when visibility is restricted.
 
 ## Evidence
-- Audience expansion: [[facebook-isnt-the-social-network-anymore-so-what-is-it]] argues that growing friend lists made personal Facebook posts feel increasingly like public communication.
-- Behavioral response: [[facebook-isnt-the-social-network-anymore-so-what-is-it]] reports a company concern about declining original sharing while overall use remained high.
-- Control friction: [[facebook-isnt-the-social-network-anymore-so-what-is-it]] says per-post privacy settings could be confusing and tedious.
-- Portfolio response: [[facebook-isnt-the-social-network-anymore-so-what-is-it]] locates more intimate interaction in Instagram, WhatsApp, Messenger, and Snapchat while the main Facebook feed became more media-oriented.
+- Audience expansion and control friction: [[facebook-isnt-the-social-network-anymore-so-what-is-it]] links growing friend lists, confusing privacy settings, and declining original sharing.
+- Portfolio response: [[facebook-isnt-the-social-network-anymore-so-what-is-it]] locates more intimate interaction in Instagram, WhatsApp, Messenger, and Snapchat while Facebook’s main feed became more media-oriented.
+- Persistence pressure: [[ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely]] contrasts static-profile identity work with ephemeral moments that need not compose a permanent narrative.
+- Present-oriented alternative: [[ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely]] argues that temporary photos can shift attention from future judgment toward immediate exchange.
 
 ## Counterevidence & Qualifications
-The source relies on confidential data reported by other publications and provides no underlying series, methodology, segment breakdown, or causal test. Context collapse is one plausible mechanism alongside feed ranking, changing norms, competitive products, mobile behavior, privacy concern, and Facebook's commercial preference for media content. A heterogeneous audience does not always suppress speech: it can enable broad announcements, public identity work, advocacy, and discovery. Better defaults, audience cues, segmentation, and community-specific spaces may reduce the problem, so collapse is not an inevitable consequence of network size.
+Both sources are contemporaneous strategy accounts built partly on reported confidential data; neither supplies the underlying series, methodology, audience segments, migration cohorts, or causal tests. Context collapse is one plausible mechanism alongside feed ranking, changing norms, competitive products, mobile behavior, privacy concern, and commercial preference for media. A heterogeneous audience can also enable broad announcements, public identity work, advocacy, and discovery. Ephemerality does not remove screenshots, platform retention, harassment, performance, surveillance, or unintended recipients, and better defaults or community-specific spaces may reduce collapse without deletion.
 
 ## What Changed
-- Created the concept from Facebook's reported decline in original sharing and shift toward media consumption.
-- Distinguished technical visibility controls from a user's ability to understand and trust the effective audience.
-- Connected audience collapse to product migration across a corporate portfolio rather than to platform abandonment alone.
+- Added content persistence and future audiences as a distinct dimension of context collapse.
+- Added camera-first ephemerality as a qualified mechanism for lowering composition and archive pressure.
+- Explicitly separated plausible product explanation from causal evidence about sharing decline.
 
 ## Related Concepts
 - [[ProductContextAlignment]] - audience expectations and graph mediation determine whether a sharing feature fits its host product.
+- [[AuthenticallyMobile]] - camera and same-device exchange can create narrower momentary contexts native to phones.
+- [[HereAndNowMedia]] - present-oriented formats trade durable archive for immediacy and partial presence.
 - [[SocialDriverHierarchy]] - recognition and self-presentation loops weaken when users cannot predict who is watching.
 - [[AnonymousSocialPrivacyArchitecture]] - identity and audience boundaries shape whether sensitive participation feels safe.
-- [[MobilePlatformDiscovery]] - a feed can remain valuable for content discovery even as interpersonal posting declines.
-- [[PlatformDistributionDependence]] - increased professional content can deepen publisher reliance on the same attention surface.
-- [[SocialMediaCuration]] - users can partly manage collapsed contexts by changing follows, lists, feeds, and interaction boundaries.
+- [[SocialMediaCuration]] - users can partly manage collapsed contexts through follows, lists, feeds, and interaction boundaries.

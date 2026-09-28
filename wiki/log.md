@@ -5932,3 +5932,11 @@ Added Baremetrics' first-person account of a 2016 runway crisis, salary cuts, st
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Ghost in the machine: Snapchat isn’t mobile-first — it’s something else entirely
+
+Added [[BenBasche]]’s 2016 argument that [[Snapchat]] is [[AuthenticallyMobile]]: its camera default, same-device capture and consumption, vertical media, and ephemerality organize communication around collecting and briefly entering present experience rather than maintaining a polished archive. Created source-bounded pages for Ben Basche and Authentically Mobile; updated Snapchat, [[EvanSpiegel]], [[Facebook]], [[Instagram]], [[ContextCollapse]], and [[HereAndNowMedia]] from their complete ordered evidence inventories. Preserved uncertainty around reported engagement declines, competitive causation, privacy, authenticity, and the forecast beyond smartphones. Opened all five local image references, retained one full-resolution camera-state composite, omitted its two duplicates and a decorative selfie, and recorded that the materially placed 60×27 comparison table remained unreadable after enlargement and could not supply visual evidence.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Ghost in the machine: Snapchat isn’t mobile-first — it’s something else entirely](sources/ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely.md) - Ben Basche contrasts persistent presentation feeds with Snapchat’s camera-first, ephemeral, authentically mobile model of entering friends’ present experience.
 - [Getting out of the startup rat race](sources/getting-out-of-the-startup-rat-race-baremetrics.md) - A Baremetrics runway crisis leads its author to reject self-imposed hockey-stick pressure and define success through sustainable economics, wellbeing, employees, and customers.
 - [Getting beyond MVP – the morning paper](sources/getting-beyond-mvp-the-morning-paper.md) - Adrian Colyer proposes CI, staging, tested bottom-up module extraction, and feature towers for modernizing a validated MVP without stopping product delivery.
 - [Getting a VC Job](sources/getting-a-vc-job-better-everyday.md) - A practitioner argues that early-career VC candidates should prove incremental deal access through domain depth, trusted networks, sourcing practice, and a long-cycle recruiting process.
@@ -752,6 +753,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Get That Life: How Two Friends Started The Skimm From Their Apartment](sources/get-that-life-how-two-friends-started-the-skimm-from-their-apartment.md) - Danielle Weisberg and Carly Zakin explain theSkimm's audience-routine thesis, email launch, founder-network referrals, early operating strain, and first fundraising.
 
 ## Entities
+- [Ben Basche](entities/BenBasche.md) - Product-strategy author represented by a 2016 interpretation of Snapchat as an authentically mobile social product.
 - [Path](entities/Path.md) - Private mobile social product that shifted from photo sharing to a multi-format life journal after observing user-created posting behavior.
 - [Gergely Orosz](entities/GergelyOrosz.md) - Software-engineering writer represented through a reported analysis of Atlassian's April 2022 cloud outage.
 - [Game Boy](entities/GameBoy.md) - Nintendo's 1989 handheld represented through practical product tradeoffs and long-lived musical, photographic, and customization uses.
@@ -2098,6 +2100,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Adrian Colyer](entities/AdrianColyer.md) - The morning paper author applying classic modular-design guidance to incremental post-MVP modernization.
 
 ## Concepts
+- [Authentically Mobile](concepts/AuthenticallyMobile.md) - Product category whose core experience depends on coupled mobile capabilities and context rather than simply adapting a desktop interaction.
 - [Incremental MVP Modernization](concepts/IncrementalMVPModernization.md) - Post-validation transition from prototype structure to tested modules and safer delivery while customer-facing work continues.
 - [Get Out Of The Way Design Philosophy](concepts/GetOutOfTheWayDesignPhilosophy.md) - Product-discovery loop that finds recurring user adaptations, supports the valuable behavior, and removes obstructive founder assumptions.
 - [Incident Communication](concepts/IncidentCommunication.md) - Timely, candid, actionable, and audience-appropriate communication during service failure.
