@@ -14,7 +14,7 @@ In a 2017 panel, [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] reject a u
 - Direct creator-audience relationships reduce dependence on platforms, while platforms still add convenience, discovery, aggregation, advertiser demand, commerce, and payment infrastructure.
 - Platforms that benefit from creators risk losing them if they do not build or facilitate monetization and non-financial support.
 - Subscriptions and membership align revenue more closely with reader value than advertising, but few publishers can rely on them alone; mixed models can be legitimate.
-- TheSkimm illustrates a mission-consistent portfolio combining a sponsored free newsletter, a paid forecasting app, and prospective video and commerce revenue.
+- [[TheSkimm]] illustrates a mission-consistent portfolio combining a sponsored free newsletter, a paid forecasting app, and prospective video and commerce revenue.
 - Better creator data should interpret quality, retention, influence, and payment flows rather than merely expose page views or an unexplained dashboard.
 - Creator opportunity also expands the job: independent creators may need to market, operate a business, lead a community, and manage burnout alongside the creative work.
 
@@ -32,6 +32,7 @@ In a 2017 panel, [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] reject a u
 - [[CreatorEconomyStartups]] - platform tools, payment tracking, discovery, and creator support are presented as necessary infrastructure rather than optional extras.
 - [[NicheSubscriptionPublishing]] - direct reader payment fits focused work but leaves a difficult middle between mass and premium specialist markets.
 - [[WebAdEconomics]] - ad-only media is described as scale-dependent and less aligned with long-term reader value.
+- [[TheSkimm]] - mixed media-business example combining a sponsored newsletter, paid app, and prospective video and commerce.
 
 ## Contradictions
 - The panel's subscription optimism is qualified by its own admission that few publishers can sustain pure membership and that social networks may still be well served by advertising.

@@ -5892,3 +5892,11 @@ Added a first-person [[Path]] retrospective arguing that product teams should in
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Get That Life: How Two Friends Started The Skimm From Their Apartment
+
+Added [[DanielleWeisberg]] and [[CarlyZakin]]'s joint account of founding [[TheSkimm]] around a busy professional audience's morning routine, then seeding its email through personal networks, explicit referral requests, and early earned media. Created source-bounded profiles for both founders and a two-source company profile connecting the newsletter origin to later mixed-media monetization; updated [[CoFounderFit]], [[FounderInstinct]], and [[StartupDistributionStrategy]] from their complete ordered evidence inventories. Preserved the interview's retrospective, success-profile limits and distinguished reported first-day signups from retention, economics, or attributable channel performance. Opened and retained the source's single photograph as evidence of the founders' apartment working context under a descriptive canonical filename with a matching manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

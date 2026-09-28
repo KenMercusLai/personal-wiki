@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: f5992028bc478d7cba19bd419ad8538884b2a53f
+as_of_overview_commit: 9b1446abfda8ca3b8469ecb99f5f9635307592cd
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 730
-source_count: 730
-paragraph_count: 553
+episode_count: 731
+source_count: 731
+paragraph_count: 554
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, system understanding, workload fit
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, practical product fit, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline.
+Durable value aligns customer outcomes, practical product fit, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline; theSkimm adds a qualified case where audience routine, founder relationship history, mixed launch channels, and media-portfolio expansion reinforce one another without proving attribution or durability.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

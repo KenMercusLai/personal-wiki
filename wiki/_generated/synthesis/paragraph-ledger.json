@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
       "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
       "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
       "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
@@ -555,11 +556,33 @@
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86"
     ],
-    "paragraph_count": 553
+    "paragraph_count": 554
   },
-  "overview_commit": "f5992028bc478d7cba19bd419ad8538884b2a53f",
-  "overview_digest": "faa99defef80db5970f9d08c3a2e7e6380b682f5201b2264e58f709e504dd763",
+  "overview_commit": "9b1446abfda8ca3b8469ecb99f5f9635307592cd",
+  "overview_digest": "cf561ab96507f65da714c558b60109bea7bde48b26aa29fe584c82972239c157",
   "paragraphs": [
+    {
+      "id": "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[DanielleWeisberg]] and [[CarlyZakin]] source adds [[TheSkimm]] as a joined case in audience observation, co-founder formation, early distribution, and media-business expansion. Two former NBC News producers recognized that busy professional friends wanted current-events context but did not follow scheduled television, continuous Twitter, or fragmented headlines; they chose a conversational morning email because it matched an existing phone-and-inbox routine. This sharpens [[FounderInstinct]] by showing intuition grounded in repeated audience contact rather than detached conviction, while [[CoFounderFit]] gains a gradual relationship path from study-abroad acquaintances through shared employment, friendship, and cohabitation before partnership. [[StartupDistributionStrategy]] gains a mixed launch pattern: broad founder-network seeding, explicit five-friend requests, responsive reader outreach, and an early [[HodaKotb]] Today show mention reportedly produced a few thousand first-day signups. A later source places the free sponsored newsletter within a broader paid-app, video, and commerce portfolio, connecting the origin to [[DigitalMediaMonetization]]. Both accounts are favorable founder or practitioner retrospectives and supply no subscriber cohorts, retention, acquisition cost, channel attribution, audited revenue, or causal separation from network access, celebrity exposure, capital, timing, and press. The single retained photograph documents the founders together in an apartment setting but does not verify the performance claims.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CarlyZakin",
+        "CoFounderFit",
+        "DanielleWeisberg",
+        "DigitalMediaMonetization",
+        "FounderInstinct",
+        "HodaKotb",
+        "StartupDistributionStrategy",
+        "TheSkimm"
+      ]
+    },
     {
       "id": "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
       "primary_topic": "work-education-and-society",

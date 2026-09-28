@@ -745,6 +745,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From the Editor: ACSM's Health & Fitness Journal](sources/from-the-editor-acsm-s-health-fitness-journal.md) - Steven Keteyian frames accurate research translation as a health and fitness professional duty and previews one practitioner issue without supplying the featured studies' evidence.
 - [Programmer, Interrupted](sources/gamasutra-programmer-interrupted.md) - Chris Parnin connects programmer interruption to measured resumption delay, context reconstruction, and workload-sensitive timing while preserving the supplied excerpt's limits.
 - [The Great Video Game Exodus](sources/gamasutra-the-great-video-game-exodus.md) - Simon Parkin connects game-industry career exits to contract churn, relocation, crunch, production uncertainty, post-launch work, weak comparative pay, ownership constraints, and sexism.
+- [Get That Life: How Two Friends Started The Skimm From Their Apartment](sources/get-that-life-how-two-friends-started-the-skimm-from-their-apartment.md) - Danielle Weisberg and Carly Zakin explain theSkimm's audience-routine thesis, email launch, founder-network referrals, early operating strain, and first fundraising.
 
 ## Entities
 - [Path](entities/Path.md) - Private mobile social product that shifted from photo sharing to a multi-format life journal after observing user-created posting behavior.
@@ -2087,6 +2088,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rick Kelly](entities/RickKelly.md) - Programmer whose path through ZeniMax, indie development, and computer security centers creative ownership and livelihood sustainability.
 - [Alejandro Scrivano](entities/AlejandroScrivano.md) - Former game producer connecting world-building appeal with overtime, coordination strain, poor governance, and studio closure.
 - [Kristen Koster](entities/KristenKoster.md) - Early Ultima Online designer whose account links sexism, role displacement, caregiving, and extreme on-call expectations.
+- [theSkimm](entities/TheSkimm.md) - Digital media company that began with a conversational morning email and expanded toward a mixed sponsored and paid-product portfolio.
+- [Danielle Weisberg](entities/DanielleWeisberg.md) - Former NBC News producer and theSkimm co-founder connecting newsroom experience to an audience-routine product thesis.
+- [Carly Zakin](entities/CarlyZakin.md) - Former television producer and theSkimm co-founder represented through the company's voice, launch distribution, and morning-media vision.
 
 ## Concepts
 - [Get Out Of The Way Design Philosophy](concepts/GetOutOfTheWayDesignPhilosophy.md) - Product-discovery loop that finds recurring user adaptations, supports the valuable behavior, and removes obstructive founder assumptions.
