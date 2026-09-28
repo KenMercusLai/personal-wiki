@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Getting a VC Job](sources/getting-a-vc-job-better-everyday.md) - A practitioner argues that early-career VC candidates should prove incremental deal access through domain depth, trusted networks, sourcing practice, and a long-cycle recruiting process.
 - [Getting Human Resources Right](sources/getting-human-resources-right-avc.md) - Fred Wilson frames HR as direct-to-CEO culture and leadership infrastructure and pairs it with training, hotline, anonymous-feedback, and recurring whistleblower communication.
 - [Get Out Of The Way - Design Philosophy](sources/get-out-of-the-way-design-philosophy-medium.md) - A Path retrospective argues that teams should study recurring user workarounds, support the valuable behavior directly, and loosen attachment to the product's initial use case.
 - [The Scoop: Inside the Longest Atlassian Outage of All Time](sources/gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time.md) - Gergely Orosz connects Atlassian's destructive April 2022 maintenance error and missing selective restore tooling to a nine-day outage and prolonged communication failure.
@@ -2238,7 +2239,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Typing Indicator](concepts/TypingIndicator.md) - Transient activity state balancing conversational feedback, network efficiency, expiry, and draft privacy.
 - [Digital Archive Organization](concepts/DigitalArchiveOrganization.md) - Layering primary locations, virtual views, synchronized references, duplicate controls, and retrieval conventions across a large personal file collection.
 - [Automation Error Tolerance](concepts/AutomationErrorTolerance.md) - Acceptable failure threshold for automated systems when machine-caused mistakes receive more blame than comparable human errors.
-- [Venture Investor Development](concepts/VentureInvestorDevelopment.md) - Selection and formation of venture investors through multidimensional capability, mentorship, networks, repeated work, and market-cycle experience.
+- [Venture Investor Development](concepts/VentureInvestorDevelopment.md) - Selection, entry, and formation of venture investors through differentiated deal access, multidimensional capability, sourcing practice, mentorship, and apprenticeship.
 
 - [Technology-Enabled Product Innovation](concepts/TechnologyEnabledProductInnovation.md) - Product discovery that combines observed customer problems with engineering knowledge of newly practical technical possibilities.
 - [Curiosity-Driven Action](concepts/CuriosityDrivenAction.md) - Turning unresolved questions into observation, experiments, construction, and feedback before complete knowledge is available.

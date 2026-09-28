@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - getting-a-vc-job-better-everyday
   - getting-human-resources-right-avc
   - get-that-life-how-two-friends-started-the-skimm-from-their-apartment
   - gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft
@@ -541,6 +542,8 @@ sources:
 last_updated: 2026-09-28
 ---
 # Overview
+
+The newest venture-career source extends [[VentureInvestorDevelopment]] from a trait-and-apprenticeship framework into an early-career market test: can a candidate help a firm invest in companies it would otherwise miss? It offers two main routes—credible emerging-domain expertise and trusted founder access built through sustained ecosystem participation—and treats structured analyst sourcing, direct company discovery, and the recruiting process itself as ways to practice and demonstrate that value. Firm fit and deal-flow quality matter because apprenticeship trains judgment on the opportunities an investor actually sees, while recently raised funds provide only a rough hiring-timing signal. The essay deemphasizes financial modeling and delegated diligence for early-stage entry, but does not show that its preferred signals predict investment or founder outcomes. Its network reach, social visibility, and elite-school sourcing examples also sharpen an existing contradiction: the same access signals that surface deals can reproduce [[Homophily]] and the capital, geography, and relationship barriers that investor-pipeline reform aims to reduce. Suggestions to speculate in public technology assets are a weak proxy for private-market investing and may create personal financial risk. The source contains no effective image references.
 
 The newest [[FredWilson]] source adds [[HumanResourcesGovernance]] as a scaling system rather than a recruiting-only function. Wilson recommends hiring an HR leader early, revisiting the role's experience requirements as headcount moves through major growth stages, and giving it direct CEO access because hierarchy affects both cultural information flow and the visible status of people leadership. Written behavior rules and consequences, dignified performance and development feedback including for the CEO, and multi-week onboarding across values, systems, strategy, priorities, and leadership make that governance operational. New [[WhistleblowerReportingSystems]] adds a complementary safety layer: scenario-based recognition and reporting training, a known hotline, appropriately bounded anonymous feedback, and repeated onboarding and all-hands communication help counter social pressure against exposing misconduct and keep expectations visible as the workforce changes. The model remains one short 2017 practitioner essay, not comparative outcome evidence. Direct CEO reporting does not itself create independence, and the essay does not specify investigation standards, anti-retaliation controls, confidentiality, remedies, board escalation, or feedback to reporters. Its [[Uber]] setup is explicitly provisional: Wilson knew only the engineer's post and noted that an investigation was pending. The source contains no effective image references.
 
