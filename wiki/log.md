@@ -6336,3 +6336,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Here’s How TurboTax Just Tricked You Into Paying to File Your Taxes
+
+Added ProPublica’s 2019 walkthrough of how [[Intuit]] separated the commercial [[TurboTax]] Free Edition from its historical [[IRSFreeFile]]/Freedom Edition while search promotion, similar naming, delayed $59.99 and $119.99 upgrade screens, “NONFFA” routing, and competing controls steered two eligible test profiles toward payment. Created [[ProPublica]], [[Intuit]], [[TurboTax]], [[IRSFreeFile]], [[InternalRevenueService]], and [[DarkPatterns]], and connected the case to [[InterfaceCopywriting]], [[ProductFlowFriction]], [[SearchPlatformDisintermediation]], and [[UserTrustCapital]]. Preserved Intuit’s response, the limits of two synthetic profiles, the absence of internal records proving every design decision’s intent, and the historical status of all thresholds, providers, prices, URLs, legislation, and refund advice. Opened all 11 local images; retained nine evidence-bearing screenshots under descriptive canonical filenames, omitted one decorative TurboTax photograph, and omitted one duplicate Google-results screenshot.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Here’s How TurboTax Just Tricked You Into Paying to File Your Taxes](sources/heres-how-turbotax-just-tricked-you-into-paying-to-file-your-taxes-propublica.md) - ProPublica traces how search promotion, similar product names, delayed upgrade prices, opaque routing, and competing controls steered eligible taxpayers away from an IRS-backed free filing path.
 - [Here's Why There Won't Be an Uber for Accounting](sources/heres-why-there-wont-be-an-uber-for-accounting-going-concern.md) - Going Concern argues that relationship-heavy accounting is a poor fit for on-demand matching, while standardized low-end work faces direct software automation.
 - [Here's What a Real Growth Strategy Looks Like — Road Tested by Facebook and Remind](sources/heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review.md) - Meenal Balar frames growth as retention-gated, cross-functional work combining local context, instrumentation, usability, activation, engagement, virality, and targeted push.
 - [Here's The Thing With Free Apps And Services](sources/heres-the-thing-with-free-apps-and-services.md) - Nicole Nguyen uses the Unroll.me controversy to connect free-service data monetization with permission review, policy scrutiny, revocation, and business-model checks.
@@ -804,6 +805,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [ProPublica](entities/ProPublica.md) - Investigative newsroom represented through a journey-based audit of TurboTax's commercial and IRS-backed filing paths.
+- [Intuit](entities/Intuit.md) - Financial-software company represented as TurboTax's maker, a historical Free File participant, and a policy actor.
+- [TurboTax](entities/TurboTax.md) - Tax-preparation product represented through its distinct commercial Free Edition and IRS-backed Free File/Freedom Edition routes.
+- [IRS Free File](entities/IRSFreeFile.md) - Historical public-private tax-filing program with a broad umbrella threshold and provider-specific eligibility and discovery rules.
+- [Internal Revenue Service](entities/InternalRevenueService.md) - United States tax agency represented through Free File administration, provider discovery, and oversight obligations.
 - [Meenal Balar](entities/MeenalBalar.md) - Former Facebook international-growth leader and Remind marketing executive represented through a retention-gated, locally informed growth framework.
 - [Remind](entities/Remind.md) - Education messaging startup used as a case of measurement-led activation, school-network growth, and cross-functional execution.
 - [Nicole Nguyen](entities/NicoleNguyen.md) - Technology reporter translating free-service privacy risks into consumer checks around permissions, policies, and revenue models.
@@ -2221,6 +2227,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Dark Patterns](concepts/DarkPatterns.md) - Journey-level deceptive design using claims, naming, routing, disclosure timing, friction, and control hierarchy to steer choices.
 - [Service Marketplace Fit](concepts/ServiceMarketplaceFit.md) - Degree to which a service's transaction, trust, capacity, relationship, and delivery characteristics suit on-demand matching.
 - [App Permission Governance](concepts/AppPermissionGovernance.md) - Continuing practice of matching application access to purpose and trust, then reviewing and revoking it as conditions change.
 - [Crowdsourced Localization](concepts/CrowdsourcedLocalization.md) - Managed use of community translators through tooling, terminology, context, review, motivation, governance, and professional fallback.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
       "27c65aabb0fcbe96cb66fa1f3a43c143a0388a5276ea7a45412c2b8d6dfe7ff8",
       "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
       "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
@@ -597,11 +598,34 @@
       "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f"
     ],
-    "paragraph_count": 595
+    "paragraph_count": 596
   },
-  "overview_commit": "2d9bc014743ae8ea2da704883e6ad1b63be439e4",
-  "overview_digest": "55df15ad333783c3897f2041f8f2b3e348ff0ccfb257a44c94ef1891439f4fef",
+  "overview_commit": "fb5a6078a34227d80e5467f0a953947934c14771",
+  "overview_digest": "6ce6998a40f18a1b4858490949c68f2b1ff0e453327e33fcb62b9f11e6d8175d",
   "paragraphs": [
+    {
+      "id": "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[ProPublica]] source adds [[DarkPatterns]] as a journey-level account of deceptive steering rather than a single misleading control. In the observed 2018 tax-year flow, commercial search ads and a landing page repeatedly promised “free,” while similarly named [[TurboTax]] products separated a simple-return commercial Free Edition from the income-qualified [[IRSFreeFile]]/Freedom Edition. Two low-income test profiles supplied extensive information before seeing $119.99 and $59.99 upgrades; page source marked the commercial route “NONFFA”; a TurboTax FAQ said the program offer required the right URL; and an intermediate page placed the genuine eligibility route beside a “Start for Free” control that returned to the commercial funnel. This sharpens [[InterfaceCopywriting]], [[ProductFlowFriction]], [[SearchPlatformDisintermediation]], and [[UserTrustCapital]]: meaningful choice depends on product taxonomy, discovery, disclosure timing, switching cost, and destination as well as locally accurate words. The public-private structure matters because [[InternalRevenueService]] rules created an umbrella benefit while [[Intuit]] and other providers imposed separate qualifications and controlled the actual journey, amid lobbying against a direct IRS service and criticism of weak oversight and declining participation. The screenshots directly support the observed routes and prices, but two synthetic profiles do not establish prevalence or aggregate harm, and the article does not expose internal intent for every design decision. Its thresholds, providers, URLs, legislation, prices, and refund advice are historical rather than current filing guidance. Nine evidence-bearing screenshots were retained under descriptive canonical filenames; a decorative TurboTax photograph and one duplicate search-results screenshot were omitted.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "DarkPatterns",
+        "IRSFreeFile",
+        "InterfaceCopywriting",
+        "InternalRevenueService",
+        "Intuit",
+        "ProPublica",
+        "ProductFlowFriction",
+        "SearchPlatformDisintermediation",
+        "TurboTax",
+        "UserTrustCapital"
+      ]
+    },
     {
       "id": "27c65aabb0fcbe96cb66fa1f3a43c143a0388a5276ea7a45412c2b8d6dfe7ff8",
       "primary_topic": "work-education-and-society",

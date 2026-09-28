@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "source_key": "heres-how-turbotax-just-tricked-you-into-paying-to-file-your-taxes-propublica",
+  "images": [
+    {"file": "search-results-commercial-free-tax-ads.jpg", "alt": "Commercial tax-preparation ads appear above the IRS Free File result"},
+    {"file": "turbotax-free-guaranteed-landing-page.jpg", "alt": "TurboTax commercial landing page promises free federal and state filing"},
+    {"file": "self-employed-upgrade-119-99.jpg", "alt": "Independent-contractor profile is shown a 119.99 dollar TurboTax upgrade"},
+    {"file": "uninsured-schedule-4-upgrade.jpg", "alt": "Uninsured filer is told Schedule 4 requires a TurboTax Deluxe upgrade"},
+    {"file": "free-file-faq-not-accessible-homepage.jpg", "alt": "TurboTax FAQ says Free File requires the right URL"},
+    {"file": "google-search-turbotax-freedom.jpg", "alt": "Google results for TurboTax Freedom expose the separate Free File product"},
+    {"file": "free-file-page-competing-calls-to-action.jpg", "alt": "TurboTax Free File page presents competing eligibility and start controls"},
+    {"file": "irs-provider-eligibility-options.jpg", "alt": "IRS directory lists different eligibility rules for participating providers"},
+    {"file": "turbotax-free-file-homepage.jpg", "alt": "TurboTax Free File homepage identifies the IRS partnership and free state filing"}
+  ]
+}
