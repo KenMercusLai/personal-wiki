@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-29] ingest | Grow the Puzzle Around You
+
+Added [[JessicaLivingston]]'s account of how her social judgment, operations, event experience, candor, and founder care complemented technical cofounders in building [[YCombinator]]. Updated YC, [[PaulGraham]], and [[PersonStrategyFit]] from their complete ordered evidence inventories with the batch model, high-touch founder infrastructure, complementary-role design, culture formation, and the argument for building a venture around distinctive strengths. Preserved qualifications around retrospective founder testimony, the disputed "first accelerator" label, and the limits of personal fit without demand, execution, timing, capital, and luck. Opened all nine local image embeds, omitted one lower-resolution duplicate of the first YC dinner photograph, and retained eight unique historical images under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-29] ingest | GraphQL vs. REST
 
 Added Apollo GraphQL's 2017 comparison of [[GraphQL]] and [[RESTAPI]], emphasizing their shared HTTP and server-function foundations while distinguishing route-bound representations from typed schemas, client-selected fields, relationship traversal, and resolver-composed responses. Created source-bounded GraphQL and Apollo GraphQL pages, synthesized REST API from this comparison plus the existing error-handling evidence, and updated [[HTTP]] from its complete ordered evidence inventory with the API-style and caching boundary. Preserved qualifications around vendor framing, omitted hypermedia and identification topics, backend work behind a single request, and historical tooling maturity. Opened all four effective local image embeds, retained the full routing diagram, omitted its thumbnail duplicate and two duplicated promotional graphics, and ignored one empty image marker.
@@ -6132,6 +6136,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Groupon a bad deal for restaurants and everyone else, including Groupon
 
 Added Brandon O'Dell's 2013 restaurant-consulting critique of [[Groupon]], including its illustrative $40-face-value voucher, $9.30 merchant proceeds, estimated $10–$16 food cost, and claim that weak full-price return behavior can make the promotion an expensive acquisition channel. Updated [[Groupon]] and [[UnitEconomics]] from their complete ordered evidence inventories, coupling consumer distribution with merchant viability and distinguishing a loss-making first transaction from necessarily loss-making lifetime economics. Preserved the article's practitioner-opinion, simplified-model, anecdotal-comment, and dated-forecast limits. The remote lead image now redirects to a suspended-host page, so it could not be opened, interpreted, or retained.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

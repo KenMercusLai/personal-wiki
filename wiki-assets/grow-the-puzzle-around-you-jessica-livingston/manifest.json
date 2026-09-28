@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "grow-the-puzzle-around-you-jessica-livingston",
+  "images": [
+    {
+      "file": "early-yc-cofounders.png",
+      "alt": "Four early Y Combinator cofounders laughing together in front of a whiteboard"
+    },
+    {
+      "file": "grandmother-snow-sculpture.png",
+      "alt": "Jessica Livingston's grandmother beside a large winged snow sculpture she made"
+    },
+    {
+      "file": "young-jessica-soccer-player.jpg",
+      "alt": "A young Jessica Livingston in soccer clothes outside a house"
+    },
+    {
+      "file": "jessica-livingston-and-paul-graham.jpg",
+      "alt": "Jessica Livingston and Paul Graham together at a party"
+    },
+    {
+      "file": "early-yc-cofounders-in-kitchen.png",
+      "alt": "Three early Y Combinator cofounders gathered in a kitchen"
+    },
+    {
+      "file": "first-yc-batch-dinner.jpg",
+      "alt": "Founders and Y Combinator partners gathered around a long table after an early batch dinner"
+    },
+    {
+      "file": "jessica-livingston-in-early-yc-office.jpg",
+      "alt": "Jessica Livingston riding a Segway in an early Y Combinator workspace while founders work nearby"
+    },
+    {
+      "file": "it-will-never-work-whiteboard.jpg",
+      "alt": "Jessica Livingston standing beside a whiteboard drawing captioned It will never work"
+    }
+  ]
+}

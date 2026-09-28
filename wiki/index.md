@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Grow the Puzzle Around You](sources/grow-the-puzzle-around-you-jessica-livingston.md) - Jessica Livingston explains how atypical founder strengths, complementary roles, batch investing, and high-touch support shaped Y Combinator.
 - [Groupon a bad deal for restaurants and everyone else, including Groupon](sources/groupon-a-bad-deal-for-restaurants-and-everyone-else-including-groupon-odell-restaurant-consultings-blog.md) - Brandon O'Dell argues that Groupon's restaurant promotions can turn customer acquisition into a loss-making redemption without profitable repeat behavior.
 - [Ground Control To Silicon Valley](sources/ground-control-to-silicon-valley.md) - Nitasha Tiku argues that Code Conference's elite access, social proximity, and future-focused spectacle can weaken scrutiny of concentrated technology power.
 - [#define CTO OpenAI](sources/greg-brockman-define-cto-openai.md) - Greg Brockman recounts OpenAI's formation, early recruiting, constraint-driven leadership shifts, and the research-engineering work behind Gym and Universe.
@@ -779,6 +780,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Jessica Livingston](entities/JessicaLivingston.md) - Y Combinator cofounder whose social judgment, operations, events, candor, and founder care shaped its early model and culture.
 - [Nitasha Tiku](entities/NitashaTiku.md) - BuzzFeed News journalist examining access, media incentives, and technology power at Code Conference.
 - [Code Conference](entities/CodeConference.md) - Exclusive technology gathering represented as both a valuable access venue and a protected elite social environment.
 - [Kara Swisher](entities/KaraSwisher.md) - Technology journalist and Code Conference co-founder represented through combative interviewing, mentorship, and institutional access tensions.
@@ -1767,9 +1769,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SV Angel](entities/SVAngel.md) - Seed investor whose observation about larger rounds and higher valuations prompted Wilson's analysis.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
-- [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
+- [Y Combinator](entities/YCombinator.md) - Startup accelerator built around batch investing, shared founder infrastructure, complementary evaluation, and high-touch support.
 - [Andrew Chen](entities/AndrewChen.md) - Startup writer framing founder struggle, cadence-aware product metrics, pitching, creator-economy dynamics, product growth, writing, relationship compounding, fresh judgment, and career-option selection.
-- [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
+- [Paul Graham](entities/PaulGraham.md) - Y Combinator cofounder associated with technical judgment, direct founder advice, program design, and startup-stage models.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
 - [Instapaper](entities/Instapaper.md) - Read-later service that grew from a narrow offline-reading side project through mixed early revenue, platform expansion, acquisitions, and a mature reading workflow.
@@ -2156,6 +2158,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Person-Strategy Fit](concepts/PersonStrategyFit.md) - Alignment between a person's distinctive strengths and the method, goal, environment, or venture they can sustain effectively.
 - [Access Journalism](concepts/AccessJournalism.md) - Reporting incentive problem in which valuable proximity to powerful subjects can discourage scrutiny that threatens future access.
 - [Technology Elite Power](concepts/TechnologyElitePower.md) - Combined economic, platform, investment, legal, social, and agenda-setting influence among technology leaders.
 - [Escapist Technofuturism](concepts/EscapistTechnofuturism.md) - Distant technological future used as a clean slate that can displace present accountability and distribution questions.
@@ -2285,7 +2288,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SEO Consultant Selection](concepts/SEOConsultantSelection.md) - Evaluation and governance of SEO providers through relevant experience, transparent methods, staged access, realistic outcomes, and owner accountability.
 - [Single Responsibility Principle](concepts/SingleResponsibilityPrinciple.md) - Design guideline for assigning one coherent concern to a unit without pretending that responsibility boundaries are mechanically measurable.
 - [Venture Capital Value Add](concepts/VentureCapitalValueAdd.md) - Founder-perceived usefulness of investor judgment, access, responsiveness, operating help, and relationship quality beyond supplied capital.
-- [Person-Strategy Fit](concepts/PersonStrategyFit.md) - Alignment of a method, environment, or benchmark with the personality, skills, values, tolerances, and goals of the person applying it.
 - [Search-Assisted Programming](concepts/SearchAssistedProgramming.md) - Deliberate technical lookup for details, candidate solutions, and reasoning checks, bounded by evaluation and verification.
 - [Distributed Payment Architecture](concepts/DistributedPaymentArchitecture.md) - Multi-node payment-system design driven by measurable reliability targets and no-loss, no-duplicate financial invariants.
 - [Idempotent Payment Processing](concepts/IdempotentPaymentProcessing.md) - Payment handling that turns retries and duplicate deliveries into one financial effect.
