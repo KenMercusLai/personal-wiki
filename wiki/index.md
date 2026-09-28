@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Hardware is the new software – the morning paper](sources/hardware-is-the-new-software-the-morning-paper.md) - The Morning Paper summarizes Andrew Baumann's argument that interacting x86 extensions combine software-scale complexity with hardware deployment lag and compatibility costs.
 - [Hard Questions: What Should Happen to People’s Online Identity When They Die?](sources/hard-questions-what-should-happen-to-peoples-online-identity-when-they-die-facebook-newsroom.md) - Monika Bickert explains Facebook's 2017 memorialization, deletion, legacy-contact, and message-privacy choices as a balance among user intent, grief, survivor conflict, and third-party privacy.
 - [Happy Xiao - 如何扩散](sources/happy-xiao-ru-he-kuo-san.md) - Happy Xiao recounts Morning Brew's move from selective campus ambassadors, through automated scale, to a tiered hybrid emphasizing active participants and non-cash motivation.
 - [Happy Xiao - 冷酷之道](sources/happy-xiao-leng-ku-zhi-dao.md) - Happy Xiao argues that creators should practice daily, detach each attempt from short-term numbers, and judge growth over a longer horizon.
@@ -796,6 +797,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Andrew Baumann](entities/AndrewBaumann.md) - Microsoft Research systems researcher arguing that x86 extension complexity and microcode blur the hardware–software boundary.
+- [Intel](entities/Intel.md) - Processor company represented through x86 extension growth, backward compatibility, security-feature interactions, and hardware deployment lag.
 - [Monika Bickert](entities/MonikaBickert.md) - Facebook policy leader whose 2017 essay joins personal bereavement with posthumous-account governance and privacy.
 - [Morning Brew](entities/MorningBrew.md) - Newsletter company whose early campus ambassador program combined broad recruitment with selective high-touch support.
 - [Austin Rief](entities/AustinRief.md) - Morning Brew co-founder represented through iterative ambassador-program design and incentive lessons.
@@ -2198,6 +2201,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [ISA Extension Complexity](concepts/ISAExtensionComplexity.md) - Implementation, interaction, compatibility, and deployment burden created by extending an established processor architecture.
+- [Hardware–Software Boundary](concepts/HardwareSoftwareBoundary.md) - Layered division between fixed physical implementation and programmable behavior, complicated by microcode beneath the ISA.
 - [Posthumous Account Governance](concepts/PosthumousAccountGovernance.md) - Allocation of preservation, deletion, stewardship, access, and privacy rights for an online account after its owner dies.
 - [Campus Ambassador Programs](concepts/CampusAmbassadorPrograms.md) - Student advocacy programs that combine broad recruitment, observed-activity selection, concentrated enablement, and motivation design.
 - [Networked Information Manipulation](concepts/NetworkedInformationManipulation.md) - Coordinated exploitation of platform distribution, social participation, and media incentives to shape visibility, interpretation, trust, and speech.

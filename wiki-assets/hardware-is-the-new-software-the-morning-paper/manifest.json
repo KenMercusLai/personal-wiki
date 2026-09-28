@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "hardware-is-the-new-software-the-morning-paper",
+  "images": [
+    {
+      "file": "x86-complexity-growth-chart.jpg",
+      "alt": "Log-scale chart comparing Intel CPU transistor counts with x86 architecture-manual word counts from 1999 to 2016"
+    },
+    {
+      "file": "recent-x86-isa-extensions-table.jpg",
+      "alt": "Table of recent Intel x86 ISA extensions, launch years, instruction counts, and interactions"
+    }
+  ]
+}

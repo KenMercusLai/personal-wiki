@@ -6272,3 +6272,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hardware is the new software – the morning paper
+
+Added The Morning Paper's summary of [[AndrewBaumann]]'s 2017 argument that security-oriented x86 extensions create software-like specification and interaction complexity while retaining slow hardware deployment and broad compatibility obligations. Created [[AndrewBaumann]], [[Intel]], [[ISAExtensionComplexity]], and [[HardwareSoftwareBoundary]], preserving architecture-manual length as an imperfect proxy, CPU-upgrade motivation as an external interpretation, SGX leakage as a relayed result, and microcode decoupling as a speculative direction with unresolved performance, verification, update, licensing, and commercial constraints. Opened both unique local images, retained the evidence-bearing complexity chart and extension table under descriptive canonical filenames, and omitted one duplicate table embed.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
