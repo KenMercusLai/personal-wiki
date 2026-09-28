@@ -590,12 +590,13 @@
       "fc934dcb38776b801cd06d957a927b7a23b6736234ea626b24205a2c8c2c95ea",
       "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527",
       "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d",
-      "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e"
+      "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e",
+      "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb"
     ],
-    "paragraph_count": 590
+    "paragraph_count": 591
   },
-  "overview_commit": "85b12e0cc7e47500c1f922069740eddf73957ba1",
-  "overview_digest": "ffb86c3a2f297721727ea13da6bd22f47f4996b651708e4bf682e599305a701b",
+  "overview_commit": "4b0f3b9227d612d3fbc2e86520d64f5dd23a2ec1",
+  "overview_digest": "2635ef2a5a9e29f9eafbac89cb16cfcdfe9374cad9eb7d7615c9736b6dfb3723",
   "paragraphs": [
     {
       "id": "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
@@ -11947,6 +11948,30 @@
         "Facebook",
         "MonikaBickert",
         "PosthumousAccountGovernance"
+      ]
+    },
+    {
+      "id": "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest distributed-systems source establishes [[ServiceHealthChecks]] as decision-specific quality-of-service evidence rather than one binary status. A conservative liveness probe can support restart when a process crashes or deadlocks, while load balancing needs readiness, latency, queue, concurrency, correctness, and real-work capacity signals to avoid sending traffic to a reachable but overloaded backend. This extends [[NetworkLoadBalancing]] from packet paths and topology into runtime feedback, and extends [[DependencyDegradation]] from classifying weak dependencies into continuous partial-capacity control. New [[AdaptiveBackpressure]] names the resulting loop: workers admit or refuse work using local state, upstream components reroute or queue within bounds, saturated queues trigger rejection, and retry budgets plus backoff keep excess work from silently moving elsewhere. The historical [[Imgix]] case makes that loop concrete through [[Spillway]] worker selection, three dispatch attempts, LIFO/FIFO/priority queues, rejection, and [[Prometheus]] queue-depth alerts, while [[HAProxy]] agent checks show dynamic weight and connection-limit feedback. The account is a former employee's qualitative 2018 retrospective without comparative latency, throughput, loss, fairness, or recovery data; static bounds still matter, local control does not remove centralized rate limiting, and retries can amplify overload. All seven local images were opened: the full-resolution latency-variability whiteboard and four evidence-bearing thumbnails were retained, while one duplicate and one unreadable contextual graphic were omitted; fine labels and exact chart values were not inferred from 60-pixel-wide assets.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AdaptiveBackpressure",
+        "DependencyDegradation",
+        "HAProxy",
+        "Imgix",
+        "NetworkLoadBalancing",
+        "Prometheus",
+        "ServiceHealthChecks",
+        "Spillway"
       ]
     }
   ],

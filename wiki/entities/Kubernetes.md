@@ -10,7 +10,8 @@ sources:
   - vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes
   - edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium
   - gitops-operations-by-pull-request
-last_updated: 2026-09-28
+  - health-checks-and-graceful-degradation-in-distributed-systems
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,7 +19,7 @@ knowledge_schema: synthesis-v1
 [[Kubernetes]] is a container orchestration and platform system discussed as a successful declarative infrastructure model, a lower-level isolation layer below agent semantics, an operationally heavy choice when a simpler managed container platform fits the workload, a useful autoscaling layer for global ingestion and distributed edge fleets, a possible enforcement point for deployment-time compliance constraints, and a runtime whose declared state can be managed through a GitOps reconciliation loop.
 
 ## Current Profile
-The sources split Kubernetes into seven roles. Wang Ziting's retrospective treats Kubernetes as more than a tool: a REST-style resource platform where controllers reconcile actual state toward desired state and custom resources extend the system. Guanlan's agent-infrastructure essay treats Kubernetes as correct at the process and resource layer but insufficient for judging semantic side effects of high-permission agents. Ben Houston's migration essay adds a fit-to-context critique: Kubernetes can remove bare-metal hardware management while still imposing cluster cost, slow autoscaling, staffing needs, and ecosystem-specific complexity that a smaller or PaaS-suited workload may not need. The Jelly Button case supplies one positive boundary: managed Kubernetes hosted US and European event-ingestion clusters behind a global load balancer, with pod and node autoscaling, for a latency-sensitive stream reported at about 500 events per second. The Chick-fil-A case supplies another: more than 2,000 planned restaurant clusters with tens of containers each used local replication and orchestration to sustain latency-sensitive operations through internet outages. Nygard's compliance article adds Kubernetes as both a measurement target and a policy enforcement surface through configuration evidence and admission-controller-style checks. The Weaveworks case adds repository-driven operations: versioned Kubernetes definitions record intent, while diff and sync tooling detect and correct divergence between Git and clusters.
+The sources split Kubernetes into several roles. Wang Ziting's retrospective treats Kubernetes as more than a tool: a REST-style resource platform where controllers reconcile actual state toward desired state and custom resources extend the system. Guanlan's agent-infrastructure essay treats Kubernetes as correct at the process and resource layer but insufficient for judging semantic side effects of high-permission agents. Ben Houston's migration essay adds a fit-to-context critique: Kubernetes can remove bare-metal hardware management while still imposing cluster cost, slow autoscaling, staffing needs, and ecosystem-specific complexity that a smaller or PaaS-suited workload may not need. The Jelly Button case supplies one positive boundary: managed Kubernetes hosted US and European event-ingestion clusters behind a global load balancer, with pod and node autoscaling, for a latency-sensitive stream reported at about 500 events per second. The Chick-fil-A case supplies another: more than 2,000 planned restaurant clusters with tens of containers each used local replication and orchestration to sustain latency-sensitive operations through internet outages. Nygard's compliance article adds Kubernetes as both a measurement target and a policy enforcement surface through configuration evidence and admission-controller-style checks. The Weaveworks case adds repository-driven operations: versioned Kubernetes definitions record intent, while diff and sync tooling detect and correct divergence between Git and clusters. The health-check source clarifies a control boundary inside the platform: readiness removes a Pod from service routing, while liveness triggers container restart, so the probe must match the remediation.
 
 ## Key Characteristics
 - Solves resource and process isolation problems.
@@ -27,7 +28,7 @@ The sources split Kubernetes into seven roles. Wang Ziting's retrospective treat
 - Supports extensibility through custom resources and controllers.
 - Operates below the semantic layer of agent tool calls and can become overpowered when a simpler managed container service covers the workload, while still fitting global variable-load ingestion tiers.
 - Can coordinate a geographically broad fleet of small, replicated edge clusters when local availability and latency justify the operating burden.
-- Can act as a point-of-change compliance surface through configuration measurement and admission-controller-style deployment checks.
+- Can act as a point-of-change compliance surface and separates readiness-based traffic removal from liveness-based restart.
 
 ## Evidence
 - Declarative model: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] says Kubernetes succeeds partly because it lets developers describe the desired final state.
@@ -48,16 +49,15 @@ The sources split Kubernetes into seven roles. Wang Ziting's retrospective treat
 - GitOps change path: [[gitops-operations-by-pull-request]] says Weaveworks version-controlled Kubernetes resource definitions and preferred production fixes through pull requests.
 - Drift and convergence: [[gitops-operations-by-pull-request]] describes kubediff comparing Git with development and production clusters and Weave Flux synchronizing Git and cluster state.
 - Recovery: [[gitops-operations-by-pull-request]] reports rebuilding deleted Kubernetes clusters and the surrounding AWS-hosted system in under 45 minutes from versioned definitions and automation.
+- Probe semantics: [[health-checks-and-graceful-degradation-in-distributed-systems]] distinguishes readiness probes that remove Pods from Service endpoints from liveness probes that cause kubelet to restart a container.
 
 ## Qualifications
-The sources are complementary rather than flatly contradictory. Kubernetes can be a powerful declarative platform and still be the wrong operational abstraction for a workload whose main needs are simple container deployment, fast autoscaling, and managed task execution. Conversely, Jelly Button's global ingestion tier and Chick-fil-A's intermittently connected restaurant fleet show two contexts where placement, scaling, or local resilience can justify it. Houston's critique and the positive cases are workload-specific practitioner reports rather than controlled comparisons. Chick-fil-A's cluster count and device rollout were 2018 plans, not independently verified current outcomes. Nygard's compliance use is source-scoped: admission-controller enforcement helps only when required controls can be expressed against reliable evidence. Weaveworks's recovery and operability claims are company-reported, and Git synchronization can propagate an incorrect declaration just as consistently as a correct one.
+The sources are complementary rather than flatly contradictory. Kubernetes can be a powerful declarative platform and still be the wrong operational abstraction for a workload whose main needs are simple container deployment, fast autoscaling, and managed task execution. Conversely, Jelly Button's global ingestion tier and Chick-fil-A's intermittently connected restaurant fleet show two contexts where placement, scaling, or local resilience can justify it. Houston's critique and the positive cases are workload-specific practitioner reports rather than controlled comparisons. Chick-fil-A's cluster count and device rollout were 2018 plans, not independently verified current outcomes. Nygard's compliance use is source-scoped: admission-controller enforcement helps only when required controls can be expressed against reliable evidence. Weaveworks's recovery and operability claims are company-reported, and Git synchronization can propagate an incorrect declaration just as consistently as a correct one. Readiness and liveness are only as reliable as their probes; a trivial endpoint can pass while real work is overloaded.
 
 ## What Changed
-- Added the fit-to-context critique from Ben Houston's migration to Cloud Run.
-- Added Kubernetes as a point-of-change compliance measurement and enforcement surface.
-- Added the Jelly Button multi-region analytics ingestion tier as a positive fit-to-context counterexample.
-- Added the Chick-fil-A fleet as a distinct small-cluster edge-computing case.
-- Added Kubernetes's role as the reconciled runtime in an early GitOps change, drift-detection, and recovery loop.
+- Clarified readiness as a routing decision and liveness as a restart decision.
+- Preserved the boundary that orchestration-level probes may not measure application-level quality of service.
+- Retained Kubernetes's declarative, edge, ingestion, compliance, GitOps, and fit-to-context roles as distinct concerns.
 
 ## Relationships
 - [[SemanticIsolation]] - Kubernetes is contrasted with the semantic isolation agents require.
@@ -74,3 +74,4 @@ The sources are complementary rather than flatly contradictory. Kubernetes can b
 - [[ChickFilA]] - company using Kubernetes as its restaurant edge orchestration layer in the 2018 case.
 - [[GitOps]] - repository-driven operating model used to review, compare, and synchronize Kubernetes state.
 - [[WeaveFlux]] - synchronization project connecting Git-managed definitions to cluster state in the Weaveworks case.
+- [[ServiceHealthChecks]] - readiness and liveness illustrate why a probe's semantics must match its remediation.

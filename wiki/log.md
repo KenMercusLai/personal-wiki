@@ -6280,3 +6280,11 @@ Added The Morning Paper's summary of [[AndrewBaumann]]'s 2017 argument that secu
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Health Checks and Graceful Degradation in Distributed Systems
+
+Added a practitioner account of health as workload-sensitive quality of service, separating restart-oriented liveness from routing-oriented readiness and capacity. Created [[ServiceHealthChecks]], [[AdaptiveBackpressure]], [[Imgix]], [[Spillway]], [[HAProxy]], and [[Envoy]], and updated [[NetworkLoadBalancing]], [[DependencyDegradation]], [[Kubernetes]], and [[Prometheus]] from their complete ordered evidence inventories. Preserved the historical, first-person, non-comparative boundaries around Spillway's worker refusal, three dispatch attempts, bounded LIFO/FIFO/priority queues, rejection, retry, and queue monitoring. Opened all seven local images; retained the full-resolution latency-variability whiteboard plus four evidence-bearing but tiny diagrams or screenshots under descriptive canonical filenames, omitted one duplicate thumbnail and one unreadable contextual graphic, and did not infer fine labels or exact chart values from 60-pixel-wide assets.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

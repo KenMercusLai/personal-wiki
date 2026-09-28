@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Health Checks and Graceful Degradation in Distributed Systems](sources/health-checks-and-graceful-degradation-in-distributed-systems.md) - Practitioner essay reframing health as workload-sensitive quality of service and using Imgix's Spillway broker to illustrate feedback, bounded queues, rejection, and backpressure.
 - [Hardware is the new software – the morning paper](sources/hardware-is-the-new-software-the-morning-paper.md) - The Morning Paper summarizes Andrew Baumann's argument that interacting x86 extensions combine software-scale complexity with hardware deployment lag and compatibility costs.
 - [Hard Questions: What Should Happen to People’s Online Identity When They Die?](sources/hard-questions-what-should-happen-to-peoples-online-identity-when-they-die-facebook-newsroom.md) - Monika Bickert explains Facebook's 2017 memorialization, deletion, legacy-contact, and message-privacy choices as a balance among user intent, grief, survivor conflict, and third-party privacy.
 - [Happy Xiao - 如何扩散](sources/happy-xiao-ru-he-kuo-san.md) - Happy Xiao recounts Morning Brew's move from selective campus ambassadors, through automated scale, to a tiered hybrid emphasizing active participants and non-cash motivation.
@@ -797,6 +798,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Imgix](entities/Imgix.md) - Real-time image-processing company used as the setting for the Spillway adaptive-load case.
+- [Spillway](entities/Spillway.md) - Imgix reverse proxy and request broker coordinating variable-cost transformation work through worker feedback and bounded queues.
+- [HAProxy](entities/HAProxy.md) - Load balancer whose agent-check interface can receive dynamic backend weight, connection-limit, and state feedback.
+- [Envoy](entities/Envoy.md) - Proxy and service-mesh data-plane example of health-aware routing beyond discovery membership.
 - [Andrew Baumann](entities/AndrewBaumann.md) - Microsoft Research systems researcher arguing that x86 extension complexity and microcode blur the hardware–software boundary.
 - [Intel](entities/Intel.md) - Processor company represented through x86 extension growth, backward compatibility, security-feature interactions, and hardware deployment lag.
 - [Monika Bickert](entities/MonikaBickert.md) - Facebook policy leader whose 2017 essay joins personal bereavement with posthumous-account governance and privacy.
@@ -2201,6 +2206,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Service Health Checks](concepts/ServiceHealthChecks.md) - Decision-specific signals for routing, traffic reduction, and restart based on reachability, real work, and quality of service.
+- [Adaptive Backpressure](concepts/AdaptiveBackpressure.md) - Feedback loop that propagates changing service capacity upstream through admission, rerouting, bounded queueing, and rejection.
 - [ISA Extension Complexity](concepts/ISAExtensionComplexity.md) - Implementation, interaction, compatibility, and deployment burden created by extending an established processor architecture.
 - [Hardware–Software Boundary](concepts/HardwareSoftwareBoundary.md) - Layered division between fixed physical implementation and programmable behavior, complicated by microcode beneath the ISA.
 - [Posthumous Account Governance](concepts/PosthumousAccountGovernance.md) - Allocation of preservation, deletion, stewardship, access, and privacy rights for an online account after its owner dies.

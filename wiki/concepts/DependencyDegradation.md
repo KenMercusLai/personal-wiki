@@ -4,7 +4,8 @@ type: concept
 tags: [software-engineering, reliability, architecture]
 sources:
   - wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi
-last_updated: 2026-09-12
+  - health-checks-and-graceful-degradation-in-distributed-systems
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,13 +17,16 @@ The source presents dependency recognition as a design-level reliability control
 
 The article frames disaster recovery as the broader version of this design thinking. Clustered deployment, same-city multi-active setups, and geo-distributed multi-active systems are mature options, but the real architectural decision is how much reliability investment a business context justifies.
 
+The health-check source extends degradation from dependency classification into continuous workload control. Partial failure includes features or capacity becoming unavailable while the process remains alive. Preserving the rest of the service then depends on detecting degraded quality, refusing work before saturation, bounding queues, and propagating backpressure so failure does not migrate to the next component.
+
 ## Key Claims
 - Reliability design starts by distinguishing strong dependencies from weak dependencies.
 - Weak dependencies should have degradation strategies.
 - Services need an explicit understanding of their own capacity limits.
 - Online services should avoid unbounded accumulation when request volume exceeds capacity.
-- Disaster recovery can be designed through increasingly resilient deployment patterns.
-- Architectural reliability choices require business-level investment tradeoffs.
+- Partial failure can exist while a process remains alive, so graceful degradation needs quality-of-service and capacity signals.
+- Backpressure, bounded queues, and explicit rejection keep overload from spreading invisibly through dependencies.
+- Disaster recovery and degradation architecture require business-level investment tradeoffs.
 
 ## Evidence
 - Dependency classification: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] says weak dependencies need degradation strategies and cites a key Alibaba system whose stability improved after doing this well.
@@ -30,15 +34,20 @@ The article frames disaster recovery as the broader version of this design think
 - Backlog warning: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] warns that accumulation in online systems can create problems unless bounded.
 - Disaster recovery: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] names clustering, same-city multi-active, and geo-distributed multi-active patterns as mature reliability options.
 - Investment tradeoff: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] says architecture-level reliability investment can be large and therefore becomes a bigger decision than individual code robustness.
+- Partial failure: [[health-checks-and-graceful-degradation-in-distributed-systems]] distinguishes service features or capacity being degraded from a process being fully down.
+- Overload containment: [[health-checks-and-graceful-degradation-in-distributed-systems]] describes request refusal, alternate routing, bounded queues, rejection, and retry backoff in the Spillway case.
 
 ## Counterevidence & Qualifications
-The source gives principles rather than implementation recipes. It does not specify how to classify dependencies, choose degradation semantics, size capacity thresholds, or decide when multi-active disaster recovery is worth its cost.
+The sources give principles and one historical design rather than a general implementation recipe. They do not specify how to classify dependencies, choose degradation semantics, size thresholds and queues, protect fairness, prevent retry amplification, or decide when multi-active disaster recovery is worth its cost.
 
 ## What Changed
-- Created the concept page for dependency-aware reliability design and capacity protection.
+- Broadened degradation from dependency classification to continuous partial-capacity and overload handling.
+- Added bounded admission and end-to-end backpressure as mechanisms for keeping local degradation local.
 
 ## Related Concepts
 - [[SystemReliability]] - dependency degradation is a design-level reliability mechanism.
 - [[ChangeSafety]] - degradation and capacity limits reduce the impact of faulty changes.
 - [[ReliabilityInvestment]] - dependency and disaster-recovery work often requires explicit business investment.
 - [[GameServerScaleAndStability]] - both emphasize capacity, failure, and recovery under real load.
+- [[ServiceHealthChecks]] - quality-of-service signals reveal degraded capacity before total failure.
+- [[AdaptiveBackpressure]] - upstream admission control prevents a weak dependency from accumulating unlimited work.

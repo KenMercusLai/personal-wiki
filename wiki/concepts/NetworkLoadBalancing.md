@@ -5,7 +5,8 @@ tags: [networking, infrastructure, load-balancing]
 sources:
   - jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi
   - a-look-at-auth0-cloud-architecture-5-years-in
-last_updated: 2026-09-13
+  - health-checks-and-graceful-degradation-in-distributed-systems
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,14 +20,16 @@ The article's practical lesson is that performance and deployment flexibility us
 
 Auth0 adds a higher-level SaaS routing example. Customer requests enter through public or CNAME-directed paths, pass through public and private load balancers, and then reach application and data layers. Inside an AWS availability zone, the diagram places a firewall before the routing layer, then the core application layer, and then supporting application and data layers. The source names AWS ALB, NLB, ELB, and NGINX proxy nodes as routing components rather than diving into packet rewriting.
 
+At runtime, discovery and packet reachability can identify candidate backends, but routing under variable load needs application-level feedback about whether each backend can complete the particular work at acceptable quality. Dynamic weights, connection limits, refusal, rerouting, bounded queueing, and rejection turn load balancing into a feedback loop rather than a static scheduler.
+
 ## Key Claims
 - Network load-balancing behavior is determined by packet rewriting and return-path design, not only by scheduling policy.
 - Direct server return improves throughput by keeping response traffic away from the load balancer.
 - Same-VLAN or gateway requirements arise when a forwarding mode depends on L2 MAC rewriting or needs the response packet to revisit the load balancer.
 - Cross-VLAN deployment often requires full address translation, tunneling, or host-side packet-processing support.
 - Client-IP preservation becomes a separate engineering problem once the load balancer rewrites the packet source address.
-- Cloud load-balancing products add routing, session synchronization, kernel modules, DPDK, and offload to make basic packet-forwarding modes operational at scale.
-- SaaS architectures may compose public, private, DNS-directed, cloud-managed, and proxy-based load-balancing layers before traffic reaches application services.
+- Cloud and SaaS load-balancing stacks add routing, synchronization, packet-processing acceleration, DNS, managed balancers, and proxies to make traffic distribution operational at scale.
+- Application-level capacity feedback can improve routing when a reachable backend is overloaded or unsuitable for a specific request.
 
 ## Evidence
 - Packet rewriting: [[jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi]] compares DR, NAT, full NAT, ENAT, and IP TUN by following source IP, destination IP, MAC, and encapsulation changes.
@@ -35,15 +38,14 @@ Auth0 adds a higher-level SaaS routing example. Customer requests enter through 
 - Client identity: [[jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi]] describes TOA/VTOA/CTK-style modules for recovering or carrying client address information when full NAT or ENAT hides it.
 - Cloud scaling: [[jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi]] describes Alibaba Cloud SLB/NGLB using dynamic routing, session synchronization, DPDK, huge pages, cache-line tuning, token-bucket sharding, and flow offload.
 - SaaS routing: [[a-look-at-auth0-cloud-architecture-5-years-in]] describes request paths through public load balancers, CNAME load balancers, private load balancers, AWS ALB/NLB/ELB, and NGINX proxy nodes into application and data layers.
+- Health-aware routing: [[health-checks-and-graceful-degradation-in-distributed-systems]] distinguishes binary liveness from graded service capacity and describes dynamic weight, connection-limit, refusal, rerouting, and bounded-queue feedback.
 
 ## Counterevidence & Qualifications
-The sources operate at different levels. The LVS article explains packet-forwarding mechanics and vendor productization, while the Auth0 article uses load balancers as architecture components without specifying forwarding mode, scheduler, or packet-path details. Alibaba Cloud and AWS details should both be treated as source-date and provider-specific.
+The sources operate at different levels. The LVS article explains packet-forwarding mechanics and vendor productization, Auth0 uses load balancers as architecture components without specifying forwarding mode or scheduler, and the health-check article focuses on application capacity and overload control. Packet reachability, service discovery, and application health are complementary signals rather than substitutes. Alibaba Cloud, AWS, HAProxy, Envoy, and Spillway details are source-date and implementation-specific.
 
 ## What Changed
-- Created the concept page for general network load balancing.
-- Added packet rewriting, return-path design, and client-IP preservation as central load-balancing concerns.
-- Connected cloud productization to routing, high availability, and packet-processing optimization.
-- Added Auth0's public/private/cloud/proxy routing stack as a SaaS architecture example.
+- Expanded load balancing from packet paths and routing topology to application-aware capacity control.
+- Added dynamic refusal, weight, connection-limit, bounded-queue, and rejection feedback as runtime routing mechanisms.
 
 ## Related Concepts
 - [[LVSForwardingModes]] - LVS forwarding modes are the source's concrete taxonomy for network load-balancing tradeoffs.
@@ -52,3 +54,6 @@ The sources operate at different levels. The LVS article explains packet-forward
 - [[AuthenticationInfrastructure]] - Auth0's authentication platform depends on layered request routing.
 - [[QUIC]] - QUIC connection identity can interact with load balancers that route by transport-level tuples.
 - [[CloudCostOptimization]] - both involve infrastructure tradeoffs, but this page focuses on traffic forwarding rather than spend reduction.
+- [[ServiceHealthChecks]] - health signals determine whether a discovered backend should receive work.
+- [[AdaptiveBackpressure]] - load balancers propagate capacity feedback by redirecting, delaying, or shedding work.
+- [[Spillway]] - historical request broker implementing application-aware routing for variable-cost image processing.

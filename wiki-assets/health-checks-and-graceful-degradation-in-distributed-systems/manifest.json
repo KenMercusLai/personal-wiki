@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "health-checks-and-graceful-degradation-in-distributed-systems",
+  "images": [
+    {
+      "file": "service-health-spectrum.png",
+      "alt": "Small diagram showing service health moving through healthy, overloaded, and unhealthy quality-of-service regions"
+    },
+    {
+      "file": "spillway-routing-architecture.png",
+      "alt": "Tiny archived diagram of Spillway frontends, broker queues, and image-processing workers"
+    },
+    {
+      "file": "spillway-broker-queue-chart.png",
+      "alt": "Prometheus chart used to monitor Spillway broker queue depth"
+    },
+    {
+      "file": "spillway-broker-queue-alert.png",
+      "alt": "Prometheus alert for elevated Spillway broker queue depth"
+    },
+    {
+      "file": "latency-variability-mitigation-whiteboard.jpg",
+      "alt": "Whiteboard cataloguing latency-variability causes and request-scoped and cross-request adaptations"
+    }
+  ]
+}
