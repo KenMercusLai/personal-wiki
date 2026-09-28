@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Going Up and Down the VC Roller Coaster](sources/going-up-and-down-the-vc-roller-coaster-by.md) - David Frankel explains why investor confidence fluctuates during fundraising and how visible progress, process concentration, and responsive diligence may preserve momentum.
 - [Go Fast and Break Things: The Difference Between Reversible and Irreversible Decisions](sources/go-fast-and-break-things-the-difference-between-reversible-and-irreversible-decisions.md) - Farnam Street presents Bezos's one-way/two-way-door heuristic for matching decision speed and information demands to actual reversibility.
 - [Gmail Creator and YC Partner Paul Buchheit on Joining Google, How to Become a Great Engineer and Happiness](sources/gmail-creator-and-yc-partner-paul-buchheit-on-joining-google-how-to-become-a-great-engineer-and-happiness-triplebyte-blog.md) - Paul Buchheit connects self-directed practice, cross-layer engineering, early Google and Gmail, and startup job choice as an investment in learning.
 - [GitOps - Operations by Pull Request](sources/gitops-operations-by-pull-request.md) - Alexis Richardson describes Weaveworks's repository-driven operating loop of reviewed desired state, automated delivery, drift detection, convergence, and reconstructible recovery.
@@ -760,6 +761,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [David Frankel](entities/DavidFrankel.md) - Venture investor represented through a practitioner account of changing confidence and founder-controlled momentum during fundraising.
 - [Alexis Richardson](entities/AlexisRichardson.md) - Author represented through his early explanation of Weaveworks's GitOps operating model.
 - [Weaveworks](entities/Weaveworks.md) - Cloud-native company whose developer-operated SaaS supplies the source's GitOps case.
 - [Weave Flux](entities/WeaveFlux.md) - Open-source Git-to-cluster synchronization project in the early Weaveworks GitOps toolchain.
@@ -2113,6 +2115,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab](entities/GitLab.md) - Software company whose candid 2017 incident account exposed the gap between nominal database safeguards and demonstrated recovery.
 
 ## Concepts
+- [Fundraising Momentum](concepts/FundraisingMomentum.md) - Timely business evidence, investor attention, process urgency, and responsive diligence that keep a financing process moving despite changing concerns.
 - [Reversible Decision Making](concepts/ReversibleDecisionMaking.md) - Decision practice that varies speed, evidence, and review burden according to actual rollback cost and consequence.
 - [Engineering Expertise](concepts/EngineeringExpertise.md) - Practical judgment developed through sustained implementation, cross-layer systems reasoning, diagnostic skill, and consequential feedback.
 - [GitOps](concepts/GitOps.md) - Repository-driven operations model combining reviewed declarative intent, automated delivery, drift detection, and convergence.

@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - going-up-and-down-the-vc-roller-coaster-by
   - gmail-creator-and-yc-partner-paul-buchheit-on-joining-google-how-to-become-a-great-engineer-and-happiness-triplebyte-blog
   - gitops-operations-by-pull-request
   - git-flow-yu-github-flow-fen-zhi-ce-lve
@@ -547,6 +548,8 @@ sources:
 last_updated: 2026-09-28
 ---
 # Overview
+
+The newest [[DavidFrankel]] source separates the visible milestones of a [[StartupFundingRound]] from the unstable investor judgment between them. Initial conviction from a founder's background, team, product, and traction can decline after off-list references, industry diligence reveals a smaller, more contested, or more capital-intensive market, or a newer opportunity captures attention. New [[FundraisingMomentum]] names the founder's partial response: continuing customer and sales evidence, strategically timed updates, a concentrated process that can produce simultaneous decisions, and prompt support for product, roadmap, and customer diligence. This mechanism helps explain [[MathildeCollin]]'s rapid Front process without treating it as causal proof. Momentum is bounded by substance and candor: fear of missing out, timing, or responsiveness may affect a decision but cannot resolve weak economics, unsuitable terms, poor references, investor mismatch, or long-run outcomes. The article is one investor's short unsampled practitioner account with no founder comparison or return evidence. Its local roller-coaster photograph was opened and omitted as decorative; both remote image URLs returned HTTP 404, so they could not be inspected or retained and supplied no visual evidence.
 
 The newest [[PaulBuchheit]] source connects engineering development, organization choice, and startup diligence through learning rate. Buchheit's path from game-save reverse engineering and an unreliable C compiler to early [[Google]] supports new [[EngineeringExpertise]] as sustained hands-on practice plus the ability to reason across hardware, kernels, protocols, systems, applications, and product consequences. His account of building [[Gmail]] from an open-ended email assignment and adding spelling correction after observing misspelled-query volume shows how consequential work can stretch an engineer beyond prior experience and how user-frequency evidence can redirect technical effort. This sharpens [[StartupJobDiligence]]: lower pay, heavier work, weak structure, and high variance are justified only when capable peers, above-level responsibility, and real feedback are likely to accelerate development. Hard founder questions, direct answers, a usable product, substantive technical interviews, and visible workplace energy are useful observations, while hype without a product is a warning. The synthesis remains bounded because this is an edited retrospective interview built around exceptional early-Google examples, not comparative evidence that cross-layer breadth, startup employment, interview style, or workplace atmosphere predicts engineering or company outcomes. The source contains no effective image references.
 

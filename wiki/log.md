@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Going Up and Down the VC Roller Coaster
+
+Added [[DavidFrankel]]'s practitioner account of changing investor confidence between the formal milestones of a financing round. Created [[FundraisingMomentum]] and updated [[StartupFundingRound]] from its complete ordered evidence inventory with reference, industry-diligence, competing-opportunity, visible-progress, process-concentration, seasonality, and responsiveness mechanisms. Preserved the boundary between momentum and business quality: urgency or fear of missing out can influence a decision without resolving market, economic, reference, term, fit, or outcome risk. Opened the local roller-coaster photograph and omitted it as decorative; both remote image URLs returned HTTP 404, so they could not be inspected or retained and supplied no visual evidence.
+
 ## [2026-09-28] ingest | Gmail Creator and YC Partner Paul Buchheit on Joining Google, How to Become a Great Engineer and Happiness
 
 Added [[PaulBuchheit]]'s first-person account of self-taught programming, early [[Google]], [[Gmail]]'s open-ended origin, cross-layer engineering, practice, startup learning, job diligence, and work environment. Created [[EngineeringExpertise]] and updated [[StartupJobDiligence]] from its complete ordered evidence inventory. Preserved the interview's edited and retrospective limits, the exceptional-example bias in its productivity claims, and the distinction between useful recruiting observations and predictive evidence. The Markdown contains no effective image references, so no visual asset or manifest was required.
@@ -5976,6 +5980,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | GitOps - Operations by Pull Request
 
 Added [[AlexisRichardson]]'s early account of [[Weaveworks]]'s [[GitOps]] operating model: reviewed desired state in Git, pull-request delivery, environment drift detection, automated convergence through [[WeaveFlux]], and reconstructible recovery. Created source-bounded pages for Richardson, Weaveworks, Weave Flux, and GitOps; updated [[DeclarativeInfrastructure]] and [[Kubernetes]] from their complete ordered evidence inventories. Qualified the reported under-45-minute system rebuild as a company-authored case and limited Git-based rollback at data, external-side-effect, and incorrect-declaration boundaries. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

@@ -6,6 +6,7 @@ sources:
   - wtf-is-a-funding-round-techcrunch
   - valuation-inflation-avc
   - front-series-a-deck-mathilde-collin-medium
+  - going-up-and-down-the-vc-roller-coaster-by
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -22,13 +23,15 @@ Wilson's USV sample shows that the price of ownership and the amount of capital 
 
 Collin's Front account adds the founder-side operating process. She entered fundraising only after reaching $100,000 in MRR, low churn, and a clear roadmap, having built relationships with possible investors because the lead could become a long-term board member. Once one routine conversation became a formal process, she spent about 90% of her time on the deck, data, projections, and feedback. Three term sheets arrived within ten days, after which she chose one and stopped meetings to limit the productivity cost to the 15-person company. The case suggests that a round is not only a capital event but a concentrated allocation of founder attention, disclosure, metric framing, and governance choice.
 
+Frankel explains why concentration may matter beneath the formal milestones. Investor confidence can fluctuate as references expose concerns, industry diligence changes the perceived market or capital need, and newer opportunities compete for attention. Continuing customer or sales progress, timely updates, simultaneous decisions, and prompt diligence responses may restore or preserve conviction. This is a process mechanism rather than proof of quality: fear of missing out and recent momentum cannot settle market size, economics, reference concerns, terms, or long-run outcomes.
+
 ## Key Claims
 - A funding round exchanges ownership for cash rather than borrowing against future repayment.
 - Equity is the default for young companies because qualifying for a bank loan is difficult, and loans taken alongside equity still have to be repaid with interest.
 - Round sizes are justified by a growth plan: hiring, sales and marketing, and production costs, depending on the business.
 - Rounds are staged - seed first, then Series A and later letters - and investors often specialize in one stage rather than the whole sequence.
 - Round size and valuation can move independently, so a higher price does not necessarily mean that more capital is raised.
-- Fundraising is episodic and attention-intensive: companies may raise precautionarily, but a founder can reduce operating drag by entering the process deliberately and running it in a concentrated window.
+- Fundraising is episodic, attention-intensive, and confidence-sensitive: a concentrated process, continuing operating evidence, and responsive diligence can preserve momentum while limiting prolonged operating drag.
 - Stage benchmarks depend on time, geography, and sample rather than remaining fixed market constants.
 
 ## Evidence
@@ -45,14 +48,17 @@ Collin's Front account adds the founder-side operating process. She entered fund
 - Readiness and concentration: [[front-series-a-deck-mathilde-collin-medium]] says Front began raising at $100,000 MRR with low churn and a roadmap, then received three term sheets in ten days while Collin devoted about 90% of her workdays to the process.
 - Long-term investor fit: [[front-series-a-deck-mathilde-collin-medium]] says Collin built relationships early because the Series A investor would become Front's first board member.
 - Deck evidence: [[front-series-a-deck-mathilde-collin-medium]] distinguishes investor-valued capital efficiency and expansion from weak acquisition scalability and missing projections, engagement data, and buyer definition.
+- Confidence volatility: [[going-up-and-down-the-vc-roller-coaster-by]] says initial excitement can weaken after off-list references, industry diligence, or comparison with a newer opportunity.
+- Momentum inputs: [[going-up-and-down-the-vc-roller-coaster-by]] recommends customer and sales updates, season-aware timing, a concentrated process, and prompt support for product, roadmap, and customer diligence.
 
 ## Counterevidence & Qualifications
-The TechCrunch article is a general-audience explainer from 2020 and describes equity rounds as the norm without covering venture debt, revenue-based financing, bridge rounds, or extension rounds, and it does not distinguish priced rounds from [[UnpricedSeedFinancing]] instruments such as SAFEs and convertible notes. Its "no payback" framing is accurate for equity but not for loans. Wilson's reported averages cover only USV-led or co-led investments, combine markets with different prices, and are not enough to infer a Series B pattern. Collin's account is one unusually fast, successful founder retrospective without deal terms, valuation, investor perspectives, or a comparison set, so its ten-day process is an example rather than a benchmark. The sources do not show how changing round size, valuation, or process design translated into dilution, governance quality, or returns.
+The TechCrunch article is a general-audience explainer from 2020 and describes equity rounds as the norm without covering venture debt, revenue-based financing, bridge rounds, or extension rounds, and it does not distinguish priced rounds from [[UnpricedSeedFinancing]] instruments such as SAFEs and convertible notes. Its "no payback" framing is accurate for equity but not for loans. Wilson's reported averages cover only USV-led or co-led investments, combine markets with different prices, and are not enough to infer a Series B pattern. Collin's account is one unusually fast, successful founder retrospective without deal terms, valuation, investor perspectives, or a comparison set, so its ten-day process is an example rather than a benchmark. Frankel's momentum model is one investor's unsampled practitioner account; urgency, timed news, and responsiveness can influence a decision without improving the company, and a compressed process can reduce deliberation. The sources do not show how changing round size, valuation, or process design translated into dilution, governance quality, or returns.
 
 ## What Changed
 - Added historical evidence that seed round sizes rose while Series A sizes stayed flat despite higher Series A valuations.
 - Qualified stage benchmarks by period, geography, investor sample, and data sufficiency.
 - Added fundraising as an attention-intensive founder process shaped by readiness signals, advance investor relationships, deck evidence, and governance fit.
+- Added investor-confidence volatility and bounded fundraising momentum as process mechanisms beneath formal round milestones.
 
 ## Related Concepts
 - [[StartupFinancingMechanics]] - the term-level mechanics of shares, valuation, conversion, and dilution that sit underneath a round.
@@ -65,3 +71,4 @@ The TechCrunch article is a general-audience explainer from 2020 and describes e
 - [[StartupFailurePatterns]] - the base-rate warning attached to raising money.
 - [[StartupFocus]] - a concentrated round can limit the time fundraising diverts from company operations.
 - [[SaaSLandAndExpand]] - account expansion can serve as round-quality evidence when its definition is explicit.
+- [[FundraisingMomentum]] - continuing progress, process urgency, and responsive diligence can keep the round moving without proving its quality.
