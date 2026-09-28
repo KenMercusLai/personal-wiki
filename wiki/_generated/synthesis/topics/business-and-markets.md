@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: 065e42b277f3d961430657eec908ec6f9d3d56d1
-input_digest: 7a9db6556c41b1c2c0f3a62939108ccdd02ef037f180bca5638149ef0bfebb1b
+as_of_overview_commit: 3ddd900b343043aeacb5c3666187988151610a8e
+input_digest: 3fc37973f61690b39ae955dffba4b3215d220c0b7b8317fc457ce07998158ec1
 ---
 
 # Business and Markets
@@ -1478,3 +1478,15 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 - The evidence is one strongly worded 2017 investor-practitioner essay rather than a comparative study of boards, founder succession, misconduct interventions, or company outcomes.
 - A company-centered standard does not determine who defines the company's interests, when a board has enough evidence to intervene, or how to prevent investor conflicts and faulty pattern matching from being recast as professionalization.
 - The Plaxo, Facebook, Benchmark, and Uber references are incomplete illustrations, and the claim that earlier Benchmark action would have improved Uber is counterfactual.
+
+### Open Source Business Links Community Revenue And Technical Culture
+
+[[OpenSourceCommercialization]] and [[DeveloperLedTechnicalCulture]] connect public software to company-building in the [[MySQLAB]] case: [[MontyWidenius]] describes community contribution as a product-improvement and hiring channel, paid commercial use as a way to fund staff, and hands-on technical credibility plus self-directed hiring as a way to retain coding focus; [[MariaDB]] and [[OpenOcean]] are presented as later extensions of that developer orientation.
+
+**Evidence:** [[OpenSourceCommercialization]], [[DeveloperLedTechnicalCulture]], [[MySQLAB]], [[MontyWidenius]], [[MySQL]], [[MariaDB]], [[OpenOcean]]
+
+**Qualifications:**
+
+- The evidence is an admiring 2017 profile published by [[OpenOcean]], where [[MontyWidenius]] was a founding partner, rather than an independent company history or comparative study.
+- Its 1985 open-source decision date conflicts with its later [[MySQL]] product chronology, and its honor-system account is not a complete legal or historical description of licensing, versions, enforcement, or revenue.
+- The exceptional-programmer and low-meeting leadership narrative does not document the collective engineering, management systems, employee experience, or selection effects behind a reported 550-person company.

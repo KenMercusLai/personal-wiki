@@ -5356,6 +5356,10 @@ Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | Founder Stories: A Hacker's Hacker
+
+Added OpenOcean's profile of [[MontyWidenius]] and created Monty Widenius, [[MySQLAB]], [[MySQL]], [[MariaDB]], [[OpenOcean]], [[OpenSourceCommercialization]], and [[DeveloperLedTechnicalCulture]]. Captured MySQL's long development from customer-informed precursor code, its reported open-source and commercial-use model, work-sample-based contributor hiring, Widenius's coding-focused CTO role, and the later MariaDB and OpenOcean continuities. Preserved the source's promotional interest, conflicting 1985-versus-1995/1996 chronology, simplified honor-system licensing description, unsupported exceptional-talent claims, and missing account of the broader management system and collective work. Opened both local image files, retained the full-size portrait once under a descriptive canonical filename, and omitted the tiny thumbnail and repeated embeds as duplicates.
+
 ## [2026-09-28] ingest | For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’
 
 Added [[HunterWalk]]'s upside-first framework for venture decisions and failed-startup post-mortems. Created [[VentureCapitalUpsideEvaluation]] and updated Hunter Walk from his complete ordered evidence inventory with power-law outcome scale, bull-case credibility, foreseeability, execution difficulty, investor risk-profile fit, and a qualified proposal for background conversations with reporters. Preserved the boundary that optimistic assumptions cannot make every investment defensible and the source's lack of fund data, memo examples, comparative cases, reporter perspectives, or a prospective scoring method. Opened both local images, retained one readable copy of their near-duplicate power-law curve, and omitted the duplicate.
@@ -5650,6 +5654,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Founder Friendly? No thanks
 
 Added [[SamGerstenzang]]'s company-centered critique of unconditional “founder friendly” board behavior. Created Sam Gerstenzang and [[StartupBoardGovernance]], and updated [[FounderInvestorFit]] and [[CEOScalingRole]] from their complete ordered evidence inventories with board-philosophy diligence, founder information advantage, director pattern recognition, coaching-versus-evaluation tension, and stage-dependent CEO succession. Preserved the essay's limits as an unmeasured practitioner argument, its incomplete historical examples, the ambiguity over who defines the company's interests, and the risk that boards can mistake investor preference for warranted intervention. The supplied Markdown contains no effective image references, so no asset manifest was needed.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

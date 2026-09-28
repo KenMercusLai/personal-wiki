@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
       "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
       "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
       "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
@@ -539,11 +540,32 @@
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
       "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162"
     ],
-    "paragraph_count": 537
+    "paragraph_count": 538
   },
-  "overview_commit": "065e42b277f3d961430657eec908ec6f9d3d56d1",
-  "overview_digest": "dc55984dd57b31e4325f059f0dda71429405baa03770e3d479b3a2d125d768ab",
+  "overview_commit": "3ddd900b343043aeacb5c3666187988151610a8e",
+  "overview_digest": "a50499b6af36510a686c92db2669cd8e31d33bab9481683e7537fd09031f3ce3",
   "paragraphs": [
+    {
+      "id": "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest OpenOcean founder story adds [[MontyWidenius]], [[MySQLAB]], [[MySQL]], [[MariaDB]], and [[OpenOcean]] as one technical-founder lineage. New [[OpenSourceCommercialization]] captures the source's central business claim: public code and community contribution can improve a product and expose recruiting evidence, while paid commercial use funds staff and competition with closed-source vendors. New [[DeveloperLedTechnicalCulture]] narrows its heroic-programmer narrative into a qualified organizational mechanism: Widenius reportedly retained hands-on coding and practitioner credibility, open contributions supplied work samples, and self-directed hires plus distributed non-coding responsibility protected his maker time. The article connects long-running database work and customer feedback to MySQL's usability, then treats MariaDB and OpenOcean as continuations of its developer orientation. The evidence remains an admiring 2017 profile published by Widenius's own investment firm: its 1985 open-source date conflicts with its later product chronology, its honor-system licensing description is legally and historically incomplete, its exceptional-talent claims are unmeasured, and it does not document the management systems or collective work behind a 550-person company. One full-size portrait was retained at its semantic position; its tiny copy and repeated embeds were omitted as duplicates.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 6,
+        "culture-and-media": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DeveloperLedTechnicalCulture",
+        "MariaDB",
+        "MontyWidenius",
+        "MySQL",
+        "MySQLAB",
+        "OpenOcean",
+        "OpenSourceCommercialization"
+      ]
+    },
     {
       "id": "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
       "primary_topic": "business-and-markets",

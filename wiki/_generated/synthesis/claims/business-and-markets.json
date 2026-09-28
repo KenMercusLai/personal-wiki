@@ -2462,6 +2462,26 @@
         "SamGerstenzang",
         "CEOScalingRole"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "open-source-business-links-community-revenue-and-technical-culture",
+      "qualifications": [
+        "The evidence is an admiring 2017 profile published by [[OpenOcean]], where [[MontyWidenius]] was a founding partner, rather than an independent company history or comparative study.",
+        "Its 1985 open-source decision date conflicts with its later [[MySQL]] product chronology, and its honor-system account is not a complete legal or historical description of licensing, versions, enforcement, or revenue.",
+        "The exceptional-programmer and low-meeting leadership narrative does not document the collective engineering, management systems, employee experience, or selection effects behind a reported 550-person company."
+      ],
+      "statement": "[[OpenSourceCommercialization]] and [[DeveloperLedTechnicalCulture]] connect public software to company-building in the [[MySQLAB]] case: [[MontyWidenius]] describes community contribution as a product-improvement and hiring channel, paid commercial use as a way to fund staff, and hands-on technical credibility plus self-directed hiring as a way to retain coding focus; [[MariaDB]] and [[OpenOcean]] are presented as later extensions of that developer orientation.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "OpenSourceCommercialization",
+        "DeveloperLedTechnicalCulture",
+        "MySQLAB",
+        "MontyWidenius",
+        "MySQL",
+        "MariaDB",
+        "OpenOcean"
+      ]
     }
   ],
   "summary": "Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, growth, and interface-language practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[CapTableDilution]] adds the cumulative ownership consequence of capital needs, financing valuation and timing, team equity, and exit horizon. [[StartupBoardGovernance]] adds a qualified governance balance: founder operating context deserves weight, while directors still need independence to challenge performance, conduct, and stage-dependent leadership fit. [[LargeScaleWebScraping]] adds a high-volume data-operation case in which throughput, target change, anti-bot handling, and automated quality controls must be designed together rather than optimized independently. [[InterfaceCopywriting]] makes task-critical words part of product design and early testing rather than final-stage decoration. [[VentureCapitalUpsideEvaluation]] joins rare-outlier economics to a qualified test of bull-case scale, credibility, foreseeability, and investor fit. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[EmployeeTermination]] treats departure quality as a full organizational system spanning fair warning, secure offboarding, truthful communication, separation terms, and continuing relationships. [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[FirstMoverStrategy]], [[ProductImitationStrategy]], and [[FeatureCreep]] make market position, competitive response, and product breadth conditional on adaptive capability and coherent customer value rather than chronology or feature count. [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias. [[SarahTavel]]'s [[Pinterest]] case links meaningful activation metrics, end-to-end team ownership, segment-aware request interpretation, accumulated user trust, and differentiated strategic focus as interacting scaling practices.",
