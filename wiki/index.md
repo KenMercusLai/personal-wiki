@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Ground Control To Silicon Valley](sources/ground-control-to-silicon-valley.md) - Nitasha Tiku argues that Code Conference's elite access, social proximity, and future-focused spectacle can weaken scrutiny of concentrated technology power.
 - [#define CTO OpenAI](sources/greg-brockman-define-cto-openai.md) - Greg Brockman recounts OpenAI's formation, early recruiting, constraint-driven leadership shifts, and the research-engineering work behind Gym and Universe.
 - [Greater Internet Fuckwad Theory | Know Your Meme](sources/greater-internet-fuckwad-theory-know-your-meme.md) - Know Your Meme traces a 2004 Penny Arcade equation about anonymity and audience through online-disinhibition research, precursors, remixes, and later internet culture.
 - [GraphQL: A success story for PayPal Checkout](sources/graphql-a-success-story-for-paypal-checkout-paypal-engineering-medium.md) - PayPal describes Checkout's progression from atomic and orchestrated REST through Bulk REST to client-shaped, schema-discoverable GraphQL.
@@ -777,6 +778,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Nitasha Tiku](entities/NitashaTiku.md) - BuzzFeed News journalist examining access, media incentives, and technology power at Code Conference.
+- [Code Conference](entities/CodeConference.md) - Exclusive technology gathering represented as both a valuable access venue and a protected elite social environment.
+- [Kara Swisher](entities/KaraSwisher.md) - Technology journalist and Code Conference co-founder represented through combative interviewing, mentorship, and institutional access tensions.
 - [Greg Brockman](entities/GregBrockman.md) - OpenAI co-founder represented as a founding organizer and hands-on research engineer whose CTO work followed the current bottleneck.
 - [Ilya Sutskever](entities/IlyaSutskever.md) - OpenAI founding research leader represented through complementary institution design and flexible responsibility sharing with Greg Brockman.
 - [OpenAI Gym](entities/OpenAIGym.md) - Standardized reinforcement-learning environment library whose software abstractions and quality shaped early research iteration.
@@ -1360,7 +1364,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaomi](entities/Xiaomi.md) - Chinese hardware company using livestreaming for product demonstrations and launches.
 - [MaiYang](entities/MaiYang.md) - Author and presenter framing AI adoption around action, self-honest desire, and founder examples.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
-- [Elon Musk](entities/ElonMusk.md) - Founder represented through all-in action, repeatable risk-taking, Tesla production management, and centralized rapid restructuring at Twitter.
+- [Elon Musk](entities/ElonMusk.md) - Founder represented through risk-taking, demanding operations, concentrated organizational control, and charismatic future-setting authority.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
 - [Tesla](entities/Tesla.md) - Electric-vehicle company represented through founder commitment, a 2017 camera-led autonomy data strategy, and a 2018 Model 3 capacity-ramp memo.
 - [Mark Zuckerberg](entities/MarkZuckerberg.md) - Founder example used to show learning by quickly launching Thefacebook and responding to real problems.
@@ -1425,7 +1429,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publisher and investor represented by consumer-product demand and CPG disruption theses.
 - [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by seetd office seating optimization and by early manual personal-shopping demand.
 - [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
-- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem shaped by exit and mobility as well as dense, long-lived relationships and a high volume of startup attempts.
+- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem whose mobility, dense relationships, and opportunity coexist with high costs, access dependence, and concentrated elite power.
 - [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
 - [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
 - [Vox](entities/Vox.md) - Explanatory journalism publication source for the automation-and-human-labor article.
@@ -2151,6 +2155,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Access Journalism](concepts/AccessJournalism.md) - Reporting incentive problem in which valuable proximity to powerful subjects can discourage scrutiny that threatens future access.
+- [Technology Elite Power](concepts/TechnologyElitePower.md) - Combined economic, platform, investment, legal, social, and agenda-setting influence among technology leaders.
+- [Escapist Technofuturism](concepts/EscapistTechnofuturism.md) - Distant technological future used as a clean slate that can displace present accountability and distribution questions.
 - [Machine Learning Research Engineering](concepts/MachineLearningResearchEngineering.md) - Software, infrastructure, interfaces, and workflows that make machine-learning experiments feasible and fast enough to support research progress.
 - [Greater Internet Fuckwad Theory](concepts/GreaterInternetFuckwadTheory.md) - Internet-culture aphorism joining reduced accountability and an audience as conditions for abusive online behavior.
 - [Online Disinhibition Effect](concepts/OnlineDisinhibitionEffect.md) - Loosening of face-to-face social restraint online, with both benign and toxic forms shaped by multiple mechanisms.

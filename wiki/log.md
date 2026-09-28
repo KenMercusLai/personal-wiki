@@ -6097,6 +6097,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | Ground Control To Silicon Valley
+
+Added [[NitashaTiku]]'s 2016 critique of [[CodeConference]] as both a valuable access venue and a protected elite social environment, including [[KaraSwisher]]'s dual role as combative interviewer and conference co-founder. Created [[AccessJournalism]], [[TechnologyElitePower]], and [[EscapistTechnofuturism]], and updated [[ElonMusk]] and [[SiliconValley]] from their complete ordered evidence inventories with the source's account of charismatic future-setting, concentrated control, limited representation, and softened media scrutiny. Opened both local images, retained the clearer full-frame photograph of Musk on the conference's red-chair stage, and omitted the near-duplicate tighter crop.
+
 ## [2026-09-29] ingest | Greater Internet Fuckwad Theory | Know Your Meme
 
 Added Know Your Meme's history of [[GreaterInternetFuckwadTheory]] from [[PennyArcade]]'s 2004 equation through precursors, cultural spread, remixes, and commenting-policy debates. Created [[OnlineDisinhibitionEffect]], [[JohnSuler]], and [[PennyArcade]] while preserving the distinction between a memorable folk model and a multi-factor psychological framework, the benign uses of lowered restraint, and the source's lack of causal or prevalence evidence. Opened all nine local image files, deduplicated the original equation, retained five evidence-bearing visuals, and omitted decorative or prose-duplicating variants. The shared remote URL identifies itself as a blank placeholder but could not be fetched because its host did not resolve; every remote reference had a cached local original that was inspected.
@@ -6116,6 +6120,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | #define CTO OpenAI
 
 Added [[GregBrockman]]'s account of OpenAI's 2015-2017 formation, founding-team recruitment, and early engineering/research organization. Created [[IlyaSutskever]], [[OpenAIGym]], [[OpenAIUniverse]], and [[MachineLearningResearchEngineering]], and updated [[OpenAI]], [[StartupCTORoleEvolution]], and [[TechnicalLeadershipRoleDesign]] from their complete ordered evidence inventories. Preserved the source as an interested founder retrospective rather than an independent institutional history, and qualified its role attributions, schedule claims, intense coding practice, and cooperative-AI aspirations. The supplied Markdown contains no effective image references.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 
