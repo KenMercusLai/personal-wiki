@@ -5773,3 +5773,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From Selling Scoops Of Ice Cream To Founding ZeroCater
+
+Added [[ArramSabeti]]'s first-person account of moving from a generalist [[JustinTV]] apprenticeship into [[ZeroCater]], whose first customers were sold and fulfilled through direct outreach, an inbox, and a spreadsheet before a 500-column schedule and roughly 20 weekly billing hours made software leverage concrete. Created source-bounded profiles for Arram Sabeti and ZeroCater; updated Justin.tv, [[YCombinator]], [[PaulGraham]], [[FounderLedSales]], [[DoingThingsThatDoNotScale]], and [[AdaptivePersistence]] from their complete ordered evidence inventories. Preserved the account's key limitation: one selected founder success does not establish that grit is sufficient or isolate determination from demand, network, capital, timing, health, and luck. The Markdown referenced five unique remote images and duplicated the boat photograph, but all original URLs returned HTTP 404; none could be visually inspected or retained, and no image-derived claim was used.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

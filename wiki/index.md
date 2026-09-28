@@ -730,8 +730,11 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [From Campus Drive to Cisco: Our Journey with AppDynamics](sources/from-campus-drive-to-cisco-our-journey-with-appdynamics.md) - Asheem Chandna recounts AppDynamics' path from 2008 Series A and early product formation through CEO succession, IPO preparation, and Cisco's last-minute acquisition proposal.
 - [From Idea to App Store: A Design Sprint Case Study](sources/from-idea-to-app-store-a-design-sprint-case-study-ux-planet.md) - Jonathan Courtney documents AJ&Smart's remote Oak redesign, from shared sprint exercises and staged client alignment through four-week handoff and qualified launch recognition.
+- [From Selling Scoops Of Ice Cream To Founding ZeroCater](sources/from-selling-scoops-of-ice-cream-to-founding-zerocater-techcrunch.md) - Arram Sabeti traces ZeroCater from Justin.tv apprenticeship and manual meal operations through founder-led sales, scaling bottlenecks, cofounder loss, Y Combinator, and fundraising.
 
 ## Entities
+- [Arram Sabeti](entities/ArramSabeti.md) - ZeroCater founder represented through startup apprenticeship, direct selling, manual validation, operational scaling, and a qualified determination thesis.
+- [ZeroCater](entities/ZeroCater.md) - Office-meal service that validated demand with an inbox and spreadsheet before software automation and institutional funding.
 - [Twitch](entities/Twitch.md) - Source-bounded 2016 case for livestreamed media combining gameplay, viewing, audience participation, and a shared sense of presence.
 - [Capital-as-a-Service](entities/CapitalAsAService.md) - Social Capital's online product for automated, operating-data-based early-stage diligence and funding decisions.
 - [Andrew Ng](entities/AndrewNg.md) - AI researcher represented through Google Brain, the unlabeled-image experiment, input-to-output learning, and the AI-as-electricity industrial thesis.
