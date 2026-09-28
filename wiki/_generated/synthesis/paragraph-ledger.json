@@ -564,12 +564,13 @@
       "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee",
       "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8",
       "2ec54d7bd43b738f6bd4ead6bf47cbf1ccc687ca642e6ebbbf5f5d6c7b5f5e4f",
-      "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa"
+      "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
+      "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64"
     ],
-    "paragraph_count": 564
+    "paragraph_count": 565
   },
-  "overview_commit": "7530d4a9f22083612be4bc31cb965b74a84031ce",
-  "overview_digest": "99d6b104441da5bc20041713670260559fa89facefe80f464175aa04c7b12422",
+  "overview_commit": "ef6ec1821393adc9f594fce1aadd3ff517acbfc4",
+  "overview_digest": "f1dbf0ffb7d53cbd30f117ff36906a021d9a4d9cd82229c7d159d4c41b960043",
   "paragraphs": [
     {
       "id": "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
@@ -11434,6 +11435,26 @@
         "JustinBauer",
         "ModernProductTeamDesign",
         "ProductMetricLadder"
+      ]
+    },
+    {
+      "id": "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The Wildbit product-management source strengthens the wiki's product operating model by making the team's working conditions part of product quality rather than a separate people concern. [[ProductManagement]] now combines direct customer access with a refusal to treat requested features as roadmap instructions, and it treats strategy as the distillation of customer, business, technology, and whole-team knowledge rather than the PM's personal idea supply. [[ModernProductTeamDesign]] gains sustainable pace, internal motivation, realistic capacity, process feedback, and hands-on obstacle removal as conditions around strategic autonomy and outcome accountability. [[ProductManagerAsCEO]] is correspondingly narrower: CEO language survives only when it communicates broad responsibility without status, command, overtime pressure, or distrust. [[ProductRetrospectives]] connect the two levels by pairing formal reflection with informal feedback about projects, iterations, and process. The account remains a one-company practitioner prescription without comparative outcome evidence, precise happiness measures, or complete guidance for emergencies and high-consequence work; all seven unique local illustrations were inspected and omitted as decorative or duplicated.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ModernProductTeamDesign",
+        "ProductManagement",
+        "ProductManagerAsCEO",
+        "ProductRetrospectives"
       ]
     }
   ],

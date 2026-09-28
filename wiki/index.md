@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Good/Bad Product Manager](sources/good-bad-product-manager-wildbit-medium.md) - Wildbit reframes product management around team health, direct customer learning, facilitative strategy, realistic priorities, and hands-on execution.
 - [Good Product Teams vs. Bad Product Teams](sources/good-product-teams-vs-bad-product-teams.md) - Justin Bauer contrasts customer-connected, strategy-led, learning-oriented product teams with siloed teams measured mainly by output.
 - [Good CEOs Do Just 3 Things](sources/good-ceos-do-just-3-things-mitchell-harper-medium.md) - Mitchell Harper turns a three-part CEO model into practical guidance on strategy communication, critical hiring, and adverse-case cash discipline.
 - [Going Up and Down the VC Roller Coaster](sources/going-up-and-down-the-vc-roller-coaster-by.md) - David Frankel explains why investor confidence fluctuates during fundraising and how visible progress, process concentration, and responsive diligence may preserve momentum.
@@ -2118,6 +2119,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Adrian Colyer](entities/AdrianColyer.md) - The morning paper author applying classic modular-design guidance to incremental post-MVP modernization.
 
 - [GitLab](entities/GitLab.md) - Software company whose candid 2017 incident account exposed the gap between nominal database safeguards and demonstrated recovery.
+- [Wildbit](entities/Wildbit.md) - Software company represented through a team-centered product-management philosophy.
+- [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
 - [Fundraising Momentum](concepts/FundraisingMomentum.md) - Timely business evidence, investor attention, process urgency, and responsive diligence that keep a financing process moving despite changing concerns.

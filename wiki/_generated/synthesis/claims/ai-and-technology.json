@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "product-work-is-a-socio-technical-system",
+      "qualifications": [
+        "The added evidence is one 2017 company-authored practitioner essay without comparative product, delivery, team-health, or customer-outcome measurements.",
+        "Sustainable pace and team feedback do not eliminate genuine incident, safety, legal, regulatory, or irreversible-change constraints, and customer conversations can still be unrepresentative."
+      ],
+      "statement": "[[ProductManagement]] and [[ModernProductTeamDesign]] treat technical product delivery as a socio-technical system: direct customer access, whole-team knowledge, realistic capacity, process feedback, and hands-on obstacle removal shape what can be built and learned, while [[ProductManagerAsCEO]] is useful only when it preserves facilitation without command authority and [[ProductRetrospectives]] turn working-system evidence into bounded improvements.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ProductManagement",
+        "ModernProductTeamDesign",
+        "ProductManagerAsCEO",
+        "ProductRetrospectives"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "branching-strategy-follows-release-model",
       "qualifications": [
         "The evidence is one undated saved practitioner comparison without delivery-frequency, defect, lead-time, merge-cost, or recovery measurements.",

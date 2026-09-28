@@ -6012,3 +6012,11 @@ Added [[JustinBauer]]'s comparison of customer-connected, strategy-led, learning
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Good/Bad Product Manager
+
+Added Wildbit's team-centered account of product management and created source-bounded profiles for [[Wildbit]] and [[Postmark]]. Updated [[ProductManagement]], [[ProductManagerAsCEO]], [[ProductRetrospectives]], and [[ModernProductTeamDesign]] from their complete ordered evidence inventories to integrate sustainable pace, direct customer access without request-driven roadmaps, whole-team strategy formation, realistic capacity, process feedback, and hands-on execution. Preserved the essay's one-company practitioner limits and narrowed the CEO metaphor where it encourages command, distrust, or overtime pressure. Opened all seven unique local images, omitted the duplicated hero and six tiny decorative section illustrations, and retained no visual assets.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
