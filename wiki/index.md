@@ -739,6 +739,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From Idea to App Store: A Design Sprint Case Study](sources/from-idea-to-app-store-a-design-sprint-case-study-ux-planet.md) - Jonathan Courtney documents AJ&Smart's remote Oak redesign, from shared sprint exercises and staged client alignment through four-week handoff and qualified launch recognition.
 - [From Selling Scoops Of Ice Cream To Founding ZeroCater](sources/from-selling-scoops-of-ice-cream-to-founding-zerocater-techcrunch.md) - Arram Sabeti traces ZeroCater from Justin.tv apprenticeship and manual meal operations through founder-led sales, scaling bottlenecks, cofounder loss, Y Combinator, and fundraising.
 - [From the Editor: ACSM's Health & Fitness Journal](sources/from-the-editor-acsm-s-health-fitness-journal.md) - Steven Keteyian frames accurate research translation as a health and fitness professional duty and previews one practitioner issue without supplying the featured studies' evidence.
+- [Programmer, Interrupted](sources/gamasutra-programmer-interrupted.md) - Chris Parnin connects programmer interruption to measured resumption delay, context reconstruction, and workload-sensitive timing while preserving the supplied excerpt's limits.
 
 ## Entities
 - [Gal Zellermayer](entities/GalZellermayer.md) - VMware Israel R&D manager represented through a practitioner proposal for prompt fix-or-close defect decisions.
@@ -2066,6 +2067,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ryan Hanna](entities/RyanHanna.md) - Sworkit creator whose Codecademy-supported learning project led to mobile consulting, full-time product work, acquisition, and an engineering leadership role.
 - [Sworkit](entities/Sworkit.md) - Flexible-workout app that grew from a personally useful side project through public release, paid distribution, and acquisition.
 - [Nexercise](entities/Nexercise.md) - Fitness-app company that acquired and merged with Sworkit and appointed Ryan Hanna as a product and engineering executive.
+- [Chris Parnin](entities/ChrisParnin.md) - Software-engineering researcher represented through work on programmer interruptions, cognitive load, and context recovery.
 
 ## Concepts
 - [Zero Bugs Policy](concepts/ZeroBugsPolicy.md) - Defect-inventory rule that replaces indefinite bug deferral with prompt repair or explicit non-repair decisions.
@@ -3169,5 +3171,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Workplace Automation](concepts/WorkplaceAutomation.md) - Activity-level framework for automating parts of jobs while redesigning processes, roles, skills, controls, and accountability.
 
 - [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion measured through larger retained customer spending, with cohort, time-window, churn, and distribution definitions determining what expansion figures mean.
+- [Programmer Interruption Recovery](concepts/ProgrammerInterruptionRecovery.md) - Rebuilding task context, intent, and code-location awareness after attention shifts away from software work.
 
 ## Syntheses

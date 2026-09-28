@@ -5840,3 +5840,11 @@ Added [[GalZellermayer]]'s fix-or-close rule for new defects and created [[ZeroB
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Programmer, Interrupted
+
+Added [[ChrisParnin]]'s account of programmer interruption as a measurable context-recovery problem and created [[ProgrammerInterruptionRecovery]]. Preserved source-scoped findings on resumption delay, context reconstruction, compile-error reminders, and workload-sensitive timing while qualifying the observational measures and incomplete local excerpt. Recovered the two missing evidence-bearing figures from the original publication, inspected and retained them under descriptive canonical filenames with a matching manifest; omitted the lead `.jpg` reference because it was actually an unrelated HTML news page.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

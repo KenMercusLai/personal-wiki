@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "gamasutra-programmer-interrupted",
+  "images": [
+    {
+      "file": "pupil-diameter-by-task-difficulty.jpg",
+      "alt": "Pupil diameter changes over eight seconds for easy, medium, and difficult arithmetic tasks, with larger and more sustained dilation for harder tasks"
+    },
+    {
+      "file": "programming-task-emg-timeline.jpg",
+      "alt": "Timeline of a 13-minute Tetris programming task showing subvocal EMG bursts alongside debug, selection, click, search, and edit events"
+    }
+  ]
+}

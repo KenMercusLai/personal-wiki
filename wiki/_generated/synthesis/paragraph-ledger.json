@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
       "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
       "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
       "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
@@ -551,11 +552,25 @@
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
       "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a"
     ],
-    "paragraph_count": 549
+    "paragraph_count": 550
   },
-  "overview_commit": "d46862120d4d357f7e8584a4cd03264897c8d3fa",
-  "overview_digest": "c5a18944d34782ad196f889ed6321551bce980cba90f9d0955d2de1c7e2dd92b",
+  "overview_commit": "9d924c08317d07dd7f0951cbab3f3376f1ef3847",
+  "overview_digest": "38481d08fd96b8c4974a38470b53e10d55945c5999995aacb02edbbde1f7fbfb",
   "paragraphs": [
+    {
+      "id": "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[ChrisParnin]] source adds [[ProgrammerInterruptionRecovery]] as a measurable loss-and-reconstruction problem rather than treating distraction only as elapsed time away from the keyboard. An analysis described as 10,000 sessions from 86 programmers plus a survey of 414 reports a 10-15 minute delay before editing resumes, under-one-minute resumption in only 10% of interruptions during a method edit, and only one uninterrupted two-hour block as a likely daily maximum. Navigation across several code locations, deliberate compile failures, and source-diff review expose how developers externalize or rebuild unfinished intent, while [[AttentionManagement]] gains a timing boundary: the article argues that interruption at peak memory load is especially disruptive. The retained pupil chart shows larger and more sustained dilation for harder arithmetic, and the retained 13-minute programming timeline aligns subvocal EMG bursts with problem formulation, code encounters, editing, and evaluation. These are source-scoped signals rather than universal thresholds: the supplied local Markdown ends after Figure 2, the article excerpt omits methods and uncertainty, time to next edit may include legitimate recovery work, and neither physiology chart defines a validated safe-interruption rule. The two missing figures were recovered from the original publication, inspected, and retained; the lead `.jpg` was actually an unrelated HTML news page and was omitted.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "ChrisParnin",
+        "ProgrammerInterruptionRecovery"
+      ]
+    },
     {
       "id": "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
       "primary_topic": "ai-and-technology",

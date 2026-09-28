@@ -4,17 +4,28 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-28
-as_of_overview_commit: 2d7d03aab10792d1f5133b681f3511c8e262e473
-input_digest: b2421a214f6364d6fd1279eef91566e96df2960a2204ab07b7bc35b9baa23ac2
+as_of_overview_commit: 9d924c08317d07dd7f0951cbab3f3376f1ef3847
+input_digest: de68cd1ec64a5949eff2f2e2b4f2ace4eb2ad52cd46b40f2913a07c84b98f88a
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, opportunity structure, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, relationships, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. [[OnlineDatingSocialIntegration]] adds a model in which digitally created absent ties can weaken network-level [[Homophily]], while the observed meeting-channel shift does not establish causal effects on interracial marriage or stability. Personal benchmarks can preserve distinctive work and reveal progress, while [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work shows a labor-design boundary: platforms can reduce monetization and discovery friction, but fragmented creator networks make audience access insufficient without durable economics, tools, community support, and reasons to stay. [[ContextCollapse]] shows that attention can remain high while heterogeneous audiences suppress personal participation. Pinterest's onboarding case makes first-mile requests conditional on clear timing, value, consent, and privacy. The graduate-finance source adds a narrow 2016 case in which saving and liquidity can widen career choice but current individualized verification remains necessary. New [[ProductManagerHiring]] adds reciprocal, stage-sensitive role evaluation and honest candidate closing, while underscoring that unvalidated pedigree, culture, enthusiasm, and presentation signals require accessibility and adverse-impact controls. [[CrossCulturalWorkplaceAdaptation]] adds a source-scoped distinction between understanding local technical and social constraints and using culture to excuse avoidable operational or human harm.
+Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, opportunity structure, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, relationships, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. [[ProgrammerInterruptionRecovery]] adds that demanding technical work can lose task state as well as clock time, making protected focus and explicit resumption cues complementary while leaving reported delays and physiological signals source-scoped. [[OnlineDatingSocialIntegration]] adds a model in which digitally created absent ties can weaken network-level [[Homophily]], while the observed meeting-channel shift does not establish causal effects on interracial marriage or stability. Personal benchmarks can preserve distinctive work and reveal progress, while [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work shows a labor-design boundary: platforms can reduce monetization and discovery friction, but fragmented creator networks make audience access insufficient without durable economics, tools, community support, and reasons to stay. [[ContextCollapse]] shows that attention can remain high while heterogeneous audiences suppress personal participation. Pinterest's onboarding case makes first-mile requests conditional on clear timing, value, consent, and privacy. The graduate-finance source adds a narrow 2016 case in which saving and liquidity can widen career choice but current individualized verification remains necessary. New [[ProductManagerHiring]] adds reciprocal, stage-sensitive role evaluation and honest candidate closing, while underscoring that unvalidated pedigree, culture, enthusiasm, and presentation signals require accessibility and adverse-impact controls. [[CrossCulturalWorkplaceAdaptation]] adds a source-scoped distinction between understanding local technical and social constraints and using culture to excuse avoidable operational or human harm.
 
 ## Cross-source Findings
+
+### Programmer Interruptions Require Context Reconstruction
+
+[[ProgrammerInterruptionRecovery]] treats interruptions as loss of task state as well as elapsed time: [[ChrisParnin]] reports multi-minute editing delays, code navigation, deliberate compile failures, and diff review as evidence of reconstruction work, while [[AttentionManagement]] gains a workload-sensitive timing boundary and a role for explicit resumption cues.
+
+**Evidence:** [[ProgrammerInterruptionRecovery]], [[ChrisParnin]], [[AttentionManagement]]
+
+**Qualifications:**
+
+- The evidence is an incomplete practitioner-facing excerpt whose reported session and survey findings omit distributions, uncertainty, interruption types, comparison groups, and enough methods for universal benchmarks.
+- Time to the next edit can include legitimate reading and navigation, compile-error reminders can obstruct collaborators or later task switching, and the pupil and EMG figures do not establish a validated safe-interruption threshold.
 
 ### Crisis Cohesion Needs A Fairness Boundary
 
