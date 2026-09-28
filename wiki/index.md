@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From 0 to 70% Market Share: How Google Chrome Ate the Internet](sources/from-0-to-70-market-share-how-google-chrome-ate-the-internet.md) - A 2019 retrospective links Chrome's architecture, developer ecosystem, distribution, and enterprise expansion to browser dominance and later standards and privacy concerns.
 - [From 0 to $1B - Slack's Founder Shares Their Epic Launch Strategy](sources/from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review.md) - Stewart Butterfield connects Slack's launch to staged beta cohorts, category education, bottom-up team adoption, feedback operations, a product-specific activation threshold, and three focused differentiators.
 - [10 Years to $3bn — Ten Things I Learned from Zoopla](sources/fred-destin-10-years-to-3bn-ten-things-i-learned-from-zoopla.md) - Fred Destin uses Zoopla to connect focused vertical strategy, strategic dilution, revenue quality, investor conviction, rapid acquisition integration, and stable KPIs.
 - [Four Questions Towards Understanding User Adoption of Your Product](sources/four-questions-towards-understanding-user-adoption-of-your-product.md) - Josh Elman proposes interviewing active users who initially abandoned a product and later returned to identify activation messages, obstacles, and successful behaviors.
@@ -1210,7 +1211,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Startup](entities/TheStartup.md) - Medium entrepreneurship publication context for the Greenhouse organization-design article.
 - [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO authoring public updates about operating metrics, sustainable remote growth, and leadership transition.
 - [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
-- [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
+- [Chrome](entities/Chrome.md) - Google browser that grew through architecture, Chromium, extensions, broad distribution, and enterprise tooling into a dominant platform and web-governance concern.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented by power-aware reviews, time stewardship, and systematic workplace information seeking.
 - [CB Insights](entities/CBInsights.md) - Startup, venture, and market-intelligence publisher represented by failure research, company-strategy analysis, and Anand Sanwal's operating retrospective.
@@ -2023,6 +2024,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mehdi Miremadi](entities/MehdiMiremadi.md) - McKinsey principal and coauthor of the 2015 workplace-automation analysis.
 
 ## Concepts
+- [Browser Platform Strategy](concepts/BrowserPlatformStrategy.md) - Expanding a browser into a developer, application, distribution, enterprise, identity, and standards platform.
 - [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating an existential startup threat through credible sacrifice, candor, team commitment, strategic boundaries, and explicit fairness limits.
 - [Open-Source Commercialization](concepts/OpenSourceCommercialization.md) - Revenue and licensing arrangements intended to fund public software development without abandoning community participation.
 - [Developer-Led Technical Culture](concepts/DeveloperLedTechnicalCulture.md) - Organizational pattern combining hands-on technical leadership, visible work-sample hiring, delegated responsibility, and contributor autonomy.

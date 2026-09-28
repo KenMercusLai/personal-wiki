@@ -5717,3 +5717,11 @@ Added a source note for Stewart Butterfield's historical account of Slack's stag
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From 0 to 70% Market Share: How Google Chrome Ate the Internet
+
+Added a two-sided history of [[Chrome]] as both a product/platform success and a browser-governance risk. Created [[BrowserPlatformStrategy]] and updated Chrome and [[WebCentralization]] from their complete ordered evidence inventories with multi-process architecture, Chromium, extensions, distribution, enterprise tooling, Chrome-first development, Edge's Chromium migration, and the Gmail/Chrome identity controversy. Preserved market-share scope limits and flagged the source's Windows 7 and Chrome OS chronology errors. Opened all 19 referenced images; retained the multi-process architecture comic and two evidence-rich timelines under canonical descriptive filenames, and omitted duplicate title art, logos, photographs, and screenshots whose information was fully repeated in prose.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

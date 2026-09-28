@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "from-0-to-70-market-share-how-google-chrome-ate-the-internet",
+  "images": [
+    {
+      "file": "chrome-multiprocess-architecture.png",
+      "alt": "Chrome comic showing separate renderer processes for tabs and their failure-containment tradeoff"
+    },
+    {
+      "file": "chrome-extension-security-timeline.jpg",
+      "alt": "Chrome extension ecosystem and security-policy timeline from 2009 to 2019"
+    },
+    {
+      "file": "chrome-platform-timeline-2014-2019.jpg",
+      "alt": "Chrome platform milestones from mobile apps and monetization through enterprise, Linux, and security changes"
+    }
+  ]
+}

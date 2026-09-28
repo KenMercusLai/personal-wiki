@@ -4,22 +4,26 @@ type: entity
 tags: [browser, web, google, product]
 sources:
   - browse-against-the-machine-the-official-unofficial-firefox-blog-medium
-last_updated: 2026-09-15
+  - from-0-to-70-market-share-how-google-chrome-ate-the-internet
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Chrome]] appears in the wiki as [[Google]]'s dominant web browser and as the main product contrast in the Firefox "Browse Against the Machine" source.
+[[Chrome]] is [[Google]]'s web browser, represented both as a technically ambitious product that expanded into a computing platform and as a dominant route through the web whose scale raises competition, standards, and privacy concerns.
 
 ## Current Profile
-The source treats Chrome as good, familiar, and easy to use, but too central to the web's practical routing. Its concern is not that Chrome is malicious; it is that Chrome's market share, connection to Google search and display advertising, and pull toward Google-controlled usage patterns make browser monoculture unhealthy. In this source, Chrome is therefore both a competent browser and a symbol of platform concentration.
+The 2019 retrospective attributes Chrome's rapid growth to a clean-slate multi-process design, speed, Chromium's open-source development, extensions, the Web Store, and expansion across operating systems, mobile devices, education, and enterprise administration. It treats developers as a primary growth vector: better tooling and extensibility attracted builders, whose products made the browser more useful to users. The earlier Firefox campaign supplies the counter-position, describing Chrome as good, familiar, and easy to use but too central to the web's practical routing.
+
+Together the sources make Chrome both a product-success case and a governance case. Its cited market share rose from 0.3% in 2008 to almost 70% by May 2019, but those figures are provider- and scope-dependent. At that scale, Chrome became a de facto implementation target; Microsoft's later adoption of Chromium for Edge further narrowed engine diversity. The 2018 linkage of Gmail and browser sign-in also shows how integration with Google's identity and advertising ecosystem could cross a user boundary even when presented as convenience.
 
 ## Key Characteristics
-- Is presented as a widely used, capable browser that many users rely on by default.
-- Had about four times Firefox's desktop browser market share in the article's cited 2016-2017 StatCounter window.
-- Is tied to Google's search and display-advertising business model.
-- Is criticized for encouraging users to spend all browser time inside one Google-aligned channel.
-- Is contrasted with Firefox on memory use, privacy controls, and organizational independence.
+- Began with a multi-process architecture intended to isolate tab failures and support application-like web workloads, accepting additional per-process memory cost.
+- Used Chromium, extensions, and the Web Store to make developer participation a compounding source of user value.
+- Expanded through Chrome OS, Android, iOS, enterprise administration, and Linux tooling into a broader [[BrowserPlatformStrategy]].
+- Reached dominant historical market share in the sources and became a de facto implementation target for many web developers.
+- Is tied to Google's search, identity, and display-advertising business model, making convenience and integration inseparable from governance concerns.
+- Is contrasted with [[Firefox]] on memory, privacy controls, engine independence, and organizational incentives.
 
 ## Evidence
 - Market position: [[browse-against-the-machine-the-official-unofficial-firefox-blog-medium]] says Chrome had four times the market share of its nearest competitor, Firefox, in the cited period.
@@ -27,12 +31,20 @@ The source treats Chrome as good, familiar, and easy to use, but too central to 
 - Product qualification: [[browse-against-the-machine-the-official-unofficial-firefox-blog-medium]] says Chrome works fine and is easy to use, while objecting to only being on Chrome.
 - Memory contrast: [[browse-against-the-machine-the-official-unofficial-firefox-blog-medium]] claims Chrome used more memory and seemed slower than Firefox in the campaign framing.
 - Ecosystem pull: [[browse-against-the-machine-the-official-unofficial-firefox-blog-medium]] argues Chrome wants users to use only Chrome.
+- Architecture: [[from-0-to-70-market-share-how-google-chrome-ate-the-internet]] describes separate renderer processes and shows their crash-containment and memory-cost tradeoff in Google's launch comic.
+- Ecosystem formation: [[from-0-to-70-market-share-how-google-chrome-ate-the-internet]] traces Chromium, extensions, the Web Store, third-party monetization, and repeated restrictions on unsafe installation paths.
+- Distribution and administration: [[from-0-to-70-market-share-how-google-chrome-ate-the-internet]] connects Chrome OS, mobile releases, the Enterprise Bundle, and Linux support to broader adoption.
+- Historical growth: [[from-0-to-70-market-share-how-google-chrome-ate-the-internet]] cites growth from 0.3% share in 2008 to almost 70% in May 2019, with intermediate user and share milestones.
+- Standards influence: [[from-0-to-70-market-share-how-google-chrome-ate-the-internet]] says Chrome-first development and Edge's Chromium migration increased Google's practical influence over the web.
+- Identity backlash: [[from-0-to-70-market-share-how-google-chrome-ate-the-internet]] reports that linking Gmail and Chrome sign-in without clear advance disclosure triggered privacy criticism and a later control change.
 
 ## Qualifications
-The page reflects one 2017 Mozilla-side campaign source. It does not provide a neutral technical benchmark, a full history of Chrome, or current market-share data.
+The sources are a 2017 Mozilla-side campaign and a 2019 secondary product-history essay, neither a neutral technical benchmark or causal market study. Market-share figures differ by provider, device scope, and date and are not current measurements. The retrospective contains chronology errors, including treating Windows 7 as already available in 2008 and labeling the 2009 Chrome OS announcement as a launch. Its account underweights default placement, Google promotion, bundling, acquisition economics, antitrust questions, and evidence from users or competitors.
 
 ## What Changed
-- Created the Chrome entity as the browser-market counterpart to Firefox in the 2017 campaign source.
+- Reframed Chrome as both a product/platform success and a browser-governance risk.
+- Added multi-process architecture, Chromium, extensions, cross-device distribution, enterprise tooling, and historical growth milestones.
+- Added the de facto standards, engine-diversity, and Gmail/Chrome identity-boundary concerns.
 
 ## Relationships
 - [[Google]] - owner and advertising-business context for Chrome.
@@ -40,3 +52,6 @@ The page reflects one 2017 Mozilla-side campaign source. It does not provide a n
 - [[Mozilla]] - organization advancing the campaign against Chrome monoculture.
 - [[WebCentralization]] - Chrome dominance is presented as a browser-market centralization problem.
 - [[WebAdEconomics]] - Chrome is tied to search and display-ad monetization incentives.
+- [[BrowserPlatformStrategy]] - Chrome is the source's primary case of a browser expanding into a developer and computing platform.
+- [[Microsoft]] - Internet Explorer was the displaced incumbent, while Edge later adopted Chromium.
+- [[OpenClosedPlatformCycle]] - Chrome combines open-source technical participation with controlled distribution and governance surfaces.

@@ -540,12 +540,13 @@
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752",
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
-      "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162"
+      "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162",
+      "11a448980e1a87152a052b8619812ae987925ecf2753c62e008a11645ef6f411"
     ],
-    "paragraph_count": 540
+    "paragraph_count": 541
   },
-  "overview_commit": "3c3348a313e41d2e746b7d3ee8e1da850c9de9d3",
-  "overview_digest": "1d948ab3c81bd6cc7006f3916441e1699f5856f3ef159fa023f87f70377de294",
+  "overview_commit": "4df75503262dd0dfaf45b41ec95a11e0a1cfc81e",
+  "overview_digest": "bb35c7ed77fb81c38708986814f98b0040ee0fa9b2bdd334b1b442304928a1bb",
   "paragraphs": [
     {
       "id": "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
@@ -10924,6 +10925,23 @@
         "FounderInvestorFit",
         "SamGerstenzang",
         "StartupBoardGovernance"
+      ]
+    },
+    {
+      "id": "11a448980e1a87152a052b8619812ae987925ecf2753c62e008a11645ef6f411",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Chrome retrospective adds a two-sided history of [[Chrome]] and creates [[BrowserPlatformStrategy]]. The article attributes Chrome's rise from a cited 0.3% share in 2008 to almost 70% in May 2019 to clean-slate multi-process architecture, speed, Chromium, extensions, mobile reach, and enterprise tooling; its images make process isolation, extension governance, and later platform expansion explicit. The same compounding loop made Chrome a de facto implementation target, narrowed independent engine diversity after Edge adopted Chromium, and turned browser/Google identity integration into a privacy boundary. This strengthens [[WebCentralization]] by showing how a useful product and developer ecosystem can become infrastructure influence without treating dominance as proof that every standards decision is abusive. The source remains a secondary 2019 retrospective with provider-dependent share figures and chronology errors, so its causal account and measurements are source-scoped.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "BrowserPlatformStrategy",
+        "Chrome",
+        "WebCentralization"
       ]
     }
   ],
