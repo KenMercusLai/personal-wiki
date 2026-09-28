@@ -5816,3 +5816,11 @@ Added [[MathildeCollin]]'s firsthand account of [[Front]]'s $10 million Series A
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Gabriel Weinberg's Answer to What Is the Revenue Generation Model for DuckDuckGo?
+
+Added Weinberg's first-party account of [[DuckDuckGo]]'s revenue model: primary current-query keyword advertising plus a smaller stream of anonymous Amazon and eBay affiliate commissions. Updated DuckDuckGo, [[GabrielWeinberg]], and [[PrivacyPreservingSearch]] from their complete ordered evidence inventories, refining the reported profitability boundary to 2014 and preserving the lack of audited revenue, privacy, affiliate-flow, and counterfactual platform-profit evidence. The saved Quora copy has no original publication date, ends before its promised recommendations, and contains no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
