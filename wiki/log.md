@@ -6352,3 +6352,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hierarchy of Trust: The 5 Experiential Levels of Website Commitment
+
+Added a five-level [[HierarchyOfTrust]] framework for calibrating website requests from baseline relevance through preference, personal information, sensitive or financial information, and an ongoing relationship. Created [[HierarchyOfTrust]] and updated [[UserTrustCapital]] from its complete prior evidence inventory to distinguish first-use request calibration from goodwill accumulated across repeated experiences. Preserved the framework's practitioner, historical, and non-causal limits: the source supplies no experiment, funnel effect, or proof that every visitor advances through five discrete stages. Opened all six local images; retained the five-level pyramid, two historical gate screenshots, and two annotated commitment-gap diagrams under descriptive canonical filenames, and omitted one duplicate lead graphic.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

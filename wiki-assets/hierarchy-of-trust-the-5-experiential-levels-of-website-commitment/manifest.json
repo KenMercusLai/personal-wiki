@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "hierarchy-of-trust-the-5-experiential-levels-of-website-commitment",
+  "images": [
+    {
+      "file": "trust-pyramid.png",
+      "alt": "Five-level pyramid progressing from baseline relevance to an ongoing relationship"
+    },
+    {
+      "file": "thredup-forced-registration.png",
+      "alt": "ThredUp page obscured by an uncloseable registration modal offering Facebook, Amazon, or email signup"
+    },
+    {
+      "file": "thredup-commitment-gap.png",
+      "alt": "ThredUp commitment diagram contrasting level-zero visitors with email and federated-login asks"
+    },
+    {
+      "file": "nextdoor-address-gate.png",
+      "alt": "Nextdoor landing page requesting a street address and email before neighborhood exploration"
+    },
+    {
+      "file": "nextdoor-commitment-gap.png",
+      "alt": "Nextdoor commitment diagram contrasting level-one visitors with a level-four address request"
+    }
+  ]
+}

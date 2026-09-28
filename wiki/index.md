@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Hierarchy of Trust: The 5 Experiential Levels of Website Commitment](sources/hierarchy-of-trust-the-5-experiential-levels-of-website-commitment.md) - A five-level UX framework for matching requests for information, money, and relationship commitment to trust already earned.
 - [Here’s How TurboTax Just Tricked You Into Paying to File Your Taxes](sources/heres-how-turbotax-just-tricked-you-into-paying-to-file-your-taxes-propublica.md) - ProPublica traces how search promotion, similar product names, delayed upgrade prices, opaque routing, and competing controls steered eligible taxpayers away from an IRS-backed free filing path.
 - [Here's Why There Won't Be an Uber for Accounting](sources/heres-why-there-wont-be-an-uber-for-accounting-going-concern.md) - Going Concern argues that relationship-heavy accounting is a poor fit for on-demand matching, while standardized low-end work faces direct software automation.
 - [Here's What a Real Growth Strategy Looks Like — Road Tested by Facebook and Remind](sources/heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review.md) - Meenal Balar frames growth as retention-gated, cross-functional work combining local context, instrumentation, usability, activation, engagement, virality, and targeted push.
@@ -2231,6 +2232,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Hierarchy of Trust](concepts/HierarchyOfTrust.md) - Five-level UX framework for calibrating website requests to established relevance, preference, information trust, and relationship readiness.
 - [Briefcase Technique](concepts/BriefcaseTechnique.md) - Researched, concrete proposal used to demonstrate judgment and initiative in a consequential meeting without guaranteeing acceptance or ethical merit.
 - [Dark Patterns](concepts/DarkPatterns.md) - Journey-level deceptive design using claims, naming, routing, disclosure timing, friction, and control hierarchy to steer choices.
 - [Service Marketplace Fit](concepts/ServiceMarketplaceFit.md) - Degree to which a service's transaction, trust, capacity, relationship, and delivery characteristics suit on-demand matching.
