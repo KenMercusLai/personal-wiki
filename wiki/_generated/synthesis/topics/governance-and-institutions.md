@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-29
-as_of_overview_commit: 51d76ed1425f63a1a072c07d7815dac689117d93
-input_digest: 627f020232534f8fc46b522ed0ba59b2d9131072be98027d8c35c781d1a5f458
+as_of_overview_commit: 8222c2e15fc0f87b0faf5f23930b84391d8d5ebd
+input_digest: f4eccf7658775a7ddf58eb3d77e2d896c9c4ee80e2d2040986f75b2e738d07fe
 ---
 
 # Governance and Institutions
@@ -522,3 +522,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The evidence is a broad, normative 2019 survey rather than comparative outcome research or a model that predicts when accumulated change will cross a threshold.
 - Its numerical examples are historical snapshots, several forecasts remain untested in the supplied corpus, and the saved Africa and economics passages are incomplete.
+
+### Undocumented Platform Interfaces Create Governance Exposure
+
+[[PlatformDistributionDependence]] includes undocumented interfaces as well as public APIs and ranked feeds: [[Airbnb]] reportedly gained reach by reverse-engineering Craigslist's posting workflow, but the mechanism left [[StartupDistributionStrategy]] exposed to platform-controlled behavior without a documented compatibility or recourse boundary.
+
+**Evidence:** [[PlatformDistributionDependence]], [[Airbnb]], [[StartupDistributionStrategy]]
+
+**Qualifications:**
+
+- The Airbnb-Craigslist account reports neither a platform response nor measured channel outcomes, so it demonstrates dependency architecture rather than realized policy enforcement or failure.
+- Reverse-engineering can raise consent, privacy, policy, maintenance, and adversarial-dependence concerns that the 2012 source does not examine.

@@ -6160,3 +6160,11 @@ Added Netflix's account of [[GrowthEngineering]] as a combined signup-experiment
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Growth Hacker is the new VP Marketing
+
+Added [[AndrewChen]]'s 2012 framing of the growth hacker as a marketer-coder spanning product, engineering, experiments, instrumentation, and acquisition. Updated [[GrowthHacking]], [[StartupDistributionStrategy]], and [[PlatformDistributionDependence]] from their complete ordered evidence inventories with Airbnb's reverse-engineered Craigslist posting flow, funnel optimization, tracking, and undocumented-interface exposure. Updated [[AndrewChen]], [[Airbnb]], and [[Craigslist]] from their complete ordered evidence inventories while preserving the case's missing traffic, conversion, retention, implementation-cost, policy, and counterfactual evidence and qualifying its dated prediction about non-technical marketing leadership. The supplied Markdown contains no effective image references.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

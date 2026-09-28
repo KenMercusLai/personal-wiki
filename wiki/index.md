@@ -602,6 +602,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [Startups need dual theories on distribution and product/market fit. One is not enough](sources/andrew-chen-startups-need-dual-theories-on-distribution-and-product-market-fit.md) - Andrew Chen argues that startups must co-design customer value and distribution, then move from responsive niche channels toward competitive scale where product-driven organic demand matters most.
+- [Growth Hacker is the new VP Marketing](sources/growth-hacker-is-the-new-vp-marketing-at-andrewchen.md) - Andrew Chen frames growth as a marketer-coder discipline and uses Airbnb's reverse-engineered Craigslist posting flow to show distribution built into product engineering.
 - [The Dinner Party Jerk Test](sources/andrew-chen-the-dinner-party-jerk-test.md) - Andrew Chen argues that early founders should pitch team, earned secrets, proof points, and future upside more forcefully than ordinary social modesty permits.
 - [The Next Next Job, a framework for making big career decisions](sources/andrew-chen-the-next-next-job.md) - Andrew Chen argues that career moves should be evaluated by the next-next role they enable, the gaps they close, and the superpower they help build.
 - [10 years in the Bay Area – what I've learned](sources/andrewchen-10-years-in-the-bay-area.md) - Andrew Chen argues that durable relationships and writing compound, experts need fresh sight when technology cycles change, and exceptional companies are much rarer than startup attempts.
@@ -1652,7 +1653,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition, product-evolution, and explicit vacation-policy example.
-- [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
+- [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as a startup-category map and as the undocumented distribution surface behind Airbnb's early listing integration.
 - [Groupon](entities/Groupon.md) - Daily-deals company whose consumer distribution loops can conflict with merchant unit economics and customer quality.
 - [PayPal](entities/PayPal.md) - Payments company represented through referral growth, web-payment infrastructure, prototype payments, and Checkout API evolution.
 - [Ahmad Iqbal](entities/AhmadIqbal.md) - Merchant-founder who turned Nadeef customer-call experiments into Shopify apps such as Scout, Raven Callback, and Pizza Party.
@@ -1713,7 +1714,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Judd Antin](entities/JuddAntin.md) - Airbnb Engineering and Data Science coauthor on trust, confidence scaffolds, and reputation systems.
 - [Nate Blecharczyk](entities/NateBlecharczyk.md) - Airbnb cofounder named in the company's early trust-design history.
 - [Riley Newman](entities/RileyNewman.md) - Airbnb Engineering and Data Science coauthor on trust, reputation, and community outcomes.
-- [Airbnb](entities/Airbnb.md) - Startup scaling, data-science, and marketplace-trust case for unscalable customer work, international growth, culture, localization, identity, payments, support, and reputation.
+- [Airbnb](entities/Airbnb.md) - Startup scaling, technical distribution, data-science, design-organization, and marketplace-trust case spanning early host work through Craigslist integration and reputation infrastructure.
 - [Avneesh Saluja](entities/AvneeshSaluja.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Alok Gupta](entities/AlokGupta.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Cuky Perez](entities/CukyPerez.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
@@ -1772,7 +1773,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator built around batch investing, shared founder infrastructure, complementary evaluation, and high-touch support.
-- [Andrew Chen](entities/AndrewChen.md) - Startup writer framing founder struggle, cadence-aware product metrics, pitching, creator-economy dynamics, product growth, writing, relationship compounding, fresh judgment, and career-option selection.
+- [Andrew Chen](entities/AndrewChen.md) - Startup writer framing engineering-led growth, founder struggle, cadence-aware product metrics, pitching, creator-economy dynamics, writing, relationship compounding, and career choices.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator cofounder associated with technical judgment, direct founder advice, program design, and startup-stage models.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
@@ -2793,7 +2794,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dinner Party Jerk Test](concepts/DinnerPartyJerkTest.md) - Andrew Chen's diagnostic for whether a founder pitch is too modest about team quality, proof points, and future upside.
 - [Next Next Job Framework](concepts/NextNextJobFramework.md) - Andrew Chen's career-decision method of choosing the next role by working backward from the role after it.
 - [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
-- [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
+- [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice joining acquisition judgment with product behavior, engineering, experiments, instrumentation, channels, incentives, and trust.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using valuable or memorable content, deliberate distribution, owned audience, and measurement to turn attention into product growth.
@@ -2858,7 +2859,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tool Familiarity](concepts/ToolFamiliarity.md) - Practical advantage from using languages, frameworks, and workflows a team already understands well.
 - [Simple Made Easy](concepts/SimpleMadeEasy.md) - Simple-versus-easy software-design distinction, treated here as valuable but risky when used to excuse poor tool usability.
 - [Developer Platform Trust](concepts/DeveloperPlatformTrust.md) - Developer confidence that a platform's APIs, policies, tools, and posture are stable enough to build on.
-- [Platform Distribution Dependence](concepts/PlatformDistributionDependence.md) - Startup risk and leverage pattern where borrowed platform reach must be converted into direct user demand.
+- [Platform Distribution Dependence](concepts/PlatformDistributionDependence.md) - Risk and leverage pattern where borrowed APIs, undocumented interfaces, feeds, or rankings create reach that should become direct user demand.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
@@ -3251,7 +3252,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Personal Software](concepts/PersonalSoftware.md) - Software built around one person's exact workflow without necessarily taking on the generalization, scale, and support obligations of a multi-user product.
 
 - [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.
-- [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, channel fit, and progression from responsive early audiences to competitive scaled reach.
+- [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, technical channel execution, measurement, and progression from responsive early audiences to scaled reach.
 - [App Install Attribution Fraud](concepts/AppInstallAttributionFraud.md) - Manipulation of mobile click, install, and open signals to claim payment for demand an actor did not create.
 - [B2B Content Formats](concepts/B2BContentFormats.md) - Reusable brand-editorial structures selected for search discovery, instruction, evidence, debate, scanning, or relationship nurture.
 

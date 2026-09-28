@@ -580,12 +580,13 @@
       "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4",
       "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97",
       "dab0abc2e7dc3538c7f9cf8ccd36795852501bd9eb92dd58d35121154d9e264b",
-      "e226d6a51f62d5c8c9639ebb398b96a6b1ae6e4e270af3a22fcda30b6101e2d4"
+      "e226d6a51f62d5c8c9639ebb398b96a6b1ae6e4e270af3a22fcda30b6101e2d4",
+      "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0"
     ],
-    "paragraph_count": 580
+    "paragraph_count": 581
   },
-  "overview_commit": "311c5cdd630e8086f0a8a99813a470eacb69362b",
-  "overview_digest": "78e4ec689430f50007be7db934ba69306de5a2f06dff915e07d7aa3e566cfb41",
+  "overview_commit": "8222c2e15fc0f87b0faf5f23930b84391d8d5ebd",
+  "overview_digest": "f0c693e04bad52306043b10fb5f960d9b3d65209cf7a85932681a7b410fccdf4",
   "paragraphs": [
     {
       "id": "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
@@ -11752,6 +11753,27 @@
         "ConversionRateOptimization",
         "GrowthEngineering",
         "MicroservicePlatformEngineering"
+      ]
+    },
+    {
+      "id": "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[AndrewChen]] source adds an early organizational and implementation layer to [[GrowthHacking]]. The “growth hacker” is a marketer-coder hybrid spanning acquisition judgment, experiments, landing pages, email delivery, instrumentation, database work, and product engineering rather than a detached campaign role. [[Airbnb]]'s Craigslist integration makes the mechanism concrete: the source says the team worked without a public API by reverse-engineering forms, regional codes, posting-state URLs, contact handling, and restricted HTML, then optimized completion, calls to action, destination pages, unique links, and tracking pixels. This deepens [[StartupDistributionStrategy]] because product-embedded acquisition includes technical feasibility, measurement, maintenance, and channel exposure, while sharpening [[PlatformDistributionDependence]] because an undocumented interface can create both rapid reach and policy or breakage risk. The case remains a 2012 retrospective without traffic, conversion, retention, engineering-cost, platform-policy, or counterfactual evidence; its prediction that non-technical marketing leadership is fading is historically narrower than the hybrid-role label suggests. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Airbnb",
+        "AndrewChen",
+        "GrowthHacking",
+        "PlatformDistributionDependence",
+        "StartupDistributionStrategy"
       ]
     }
   ],

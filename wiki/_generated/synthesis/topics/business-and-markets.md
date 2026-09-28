@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 311c5cdd630e8086f0a8a99813a470eacb69362b
-input_digest: c891d282799a6239f2e04d140cb4e0ad0470d952203825bd9cc525b99a29b0ff
+as_of_overview_commit: 8222c2e15fc0f87b0faf5f23930b84391d8d5ebd
+input_digest: dc767a89a2f7fa2d85cfa76f34c0494b10b69ca5529ce20efc7a9722945e0163
 ---
 
 # Business and Markets
@@ -1708,3 +1708,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - The evidence is one company-authored 2018 architecture account without experiment samples, effect sizes, downstream outcomes, reliability measurements, staffing cost, or a comparative client-server design.
 - Centralized business logic and event collection can improve consistency but can also create coupling or a broad failure boundary when protocol evolution, dependency isolation, and ownership are weak.
+
+### Product Embedded Distribution Needs Engineering And Control
+
+[[AndrewChen]]'s [[Airbnb]] case makes [[GrowthHacking]] an engineering-linked form of [[StartupDistributionStrategy]]: reverse-engineering Craigslist forms, posting state, contact handling, and HTML constraints joined acquisition with funnel optimization and tracking, while [[PlatformDistributionDependence]] shows that the same undocumented interface created maintenance, policy, and breakage exposure.
+
+**Evidence:** [[AndrewChen]], [[Airbnb]], [[GrowthHacking]], [[StartupDistributionStrategy]], [[PlatformDistributionDependence]]
+
+**Qualifications:**
+
+- The evidence is a 2012 practitioner retrospective without traffic, conversion, retention, engineering-cost, platform-policy, or counterfactual measurements, so it establishes an implementation mechanism rather than causal impact.
+- The prediction that marketer-coder hybrids displace non-technical marketing leadership is historically and organizationally narrower than the useful claim that technical and marketing work can be tightly coupled.
