@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 4d7316697d78330687ebc25cce1f5412f1ad34b8
+as_of_overview_commit: 6a115c769463668a8a199ab562b89ee9e26e63e0
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 733
-source_count: 733
-paragraph_count: 555
+episode_count: 734
+source_count: 734
+paragraph_count: 556
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[DeepLearning]] progress is cumulative across learned [[NeuralNetwork]] representations, [[Backpropagation]], labeled data such as [[ImageNet]], GPU acceleration from [[Nvidia]], optimization, pretraining, and reusable artifacts; [[UnsupervisedLearning]], [[ReinforcementLearning]], and [[HuggingFace]] extend the stack without removing reasoning, transfer, evidence, expertise, compute, data-rights, governance, security, or platform-dependence constraints.
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[EarlyStartupDemandValidation]] separates attention from progressively stronger evidence: [[TwilioSegment]] moved from a [[HackerNews]] launch and explicit workplace intent through hosted-product signups, in-context customer requests, project activation, contracts, recurring revenue, and revised monetization; [[CustomerLedProductDevelopment]] and [[ProductMetricLadder]] therefore connect qualitative demand to observable behavior without treating any single signal as [[ProductMarketFit]].
+- [[EarlyStartupDemandValidation]] separates attention from progressively stronger evidence: [[TwilioSegment]] moved from a [[HackerNews]] launch and explicit workplace intent through hosted-product signups, in-context customer requests, project activation, contracts, recurring revenue, and revised monetization; [[CustomerLedProductDevelopment]] and [[ProductMetricLadder]] therefore connect qualitative demand to observable behavior without treating any single signal as [[ProductMarketFit]]. Once a [[MinimumViableProduct]] has credible continued use, [[IncrementalMVPModernization]] adds a corresponding investment boundary: deployment safety, tested modules, and feature towers can replace indefinite extension of prototype shortcuts while feature delivery continues.
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.
 - [[HumanResourcesGovernance]] treats HR leadership, rules, feedback, and onboarding as scale-sensitive governance rather than recruiting alone, while [[WhistleblowerReportingSystems]] uses training, a known hotline, bounded anonymous feedback, and repeated communication to counter pressure against reporting; [[FredWilson]] offers a practitioner model, and the unresolved [[Uber]] setup does not establish outcomes or replace independent escalation, anti-retaliation, investigation, confidentiality, remedy, and board-oversight controls.
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress needs calibrated evidence, system understanding, workload fit, verification, explicit defect decisions, ownership, and inspectable human control; organizational systems likewise need evidence and safeguards beyond plausible checklists.
+Technical progress needs calibrated evidence, system understanding, workload fit, verification, explicit defect decisions, ownership, and inspectable human control; post-MVP modernization adds tested incremental structure while keeping its migration claims practitioner-scoped.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, practical product fit, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline.
+Durable value aligns customer outcomes, staged demand evidence, practical product fit, sustainable economics, operating capability, and risk discipline; validated demand can also change the appropriate investment in prototype architecture.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

@@ -11,7 +11,8 @@ sources:
   - whyd-you-do-that-an-engineers-guide-to-debugging-user-behavior
   - building-products-without-coding-learning-new-stuff-medium
   - crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable
-last_updated: 2026-09-26
+  - getting-beyond-mvp-the-morning-paper
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,8 +24,10 @@ The sources present MVPs and related early tests as demand or behavior probes ra
 
 The [[EarliestTestableUsableLovable]] vocabulary adds a release-maturity distinction: a feedback-producing test, a product early adopters voluntarily use, and a product customers love and will pay for are different thresholds. The skateboard metaphor also distinguishes a coherent slice of the customer's underlying outcome from an unusable component of a predetermined solution. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, broad platform support, platform economics, and sometimes maintainable internal code until real usage, orders, signups, service learning, or community traction suggest the core bet is worth expanding. An MVP-like service path must eventually clarify whether it is validating software, validating a services company, or delaying a hard choice; the outsourced-development source, the handwritten-card failure, BugRex's bypassed take rate, and disagreement over whether a skateboard is a prototype all warn that an early artifact answers only the questions its workflow actually exposes.
 
+Colyer adds the engineering boundary after that evidence arrives. Prototype code may rationally defer structure while disposal remains plausible, but real users and credible product-market pull change the expected life of the system. At that point, the team needs a deliberate transition from manual verification and transaction scripts toward deployment safety, tested modules, and incremental restructuring while it continues to ship features.
+
 ## Key Claims
-- MVPs test core value before teams invest in full systems.
+- MVPs test core value before teams invest in full systems; evidence that the product deserves continued investment should trigger an explicit engineering transition rather than indefinite extension of prototype shortcuts.
 - Manual, concierge, or third-party-composed workflows can validate market demand before scalable operations exist.
 - Non-product artifacts such as videos and pricing pages can test interest when the real product would be expensive to build.
 - Distribution context can be part of the MVP, not just the product itself.
@@ -52,14 +55,14 @@ The [[EarliestTestableUsableLovable]] vocabulary adds a release-maturity distinc
 - Coherent outcome slice: [[crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable]] contrasts an unusable wheel with a skateboard that already addresses the customer's underlying transportation need.
 - Release thresholds: [[crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable]] separates feedback-producing, voluntarily usable, and lovable or marketable releases.
 - External learning: [[crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable]] uses Spotify, Minecraft, PUST, and Lego cases to argue that internal iteration does not replace real-user feedback.
+- Post-validation transition: [[getting-beyond-mvp-the-morning-paper]] argues that real users change the economics of weak structure and proposes CI, staging, tested module extraction, and feature towers as an incremental response.
 
 ## Counterevidence & Qualifications
-Several sources are retrospective lists or practitioner success and failure stories, so they risk survivorship bias, compressed histories, and post-hoc causal explanations. The outsourced-development source is advice from one product context, Yin's two-month guideline is a heuristic rather than a universal rule, and Lau's debugging analogy does not show that product behavior is as reproducible as a software failure. BugRex supplies rough time estimates but no reported validation results, while its direct payment path did not test marketplace revenue capture. Kniberg's appended commenters also identify a genuine terminology conflict: a Lean Startup MVP can be a non-product experiment, while his skateboard sequence can be read as an agile prototype or outcome slice that discards implementation between stages. Together the sources do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, implementation quality, platform discovery, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, operationally complex, or dependent on technical product-manager oversight, so they may not transfer directly to small independent software, regulated products, or safety-critical public releases.
+Several sources are retrospective lists or practitioner success and failure stories, so they risk survivorship bias, compressed histories, and post-hoc causal explanations. The outsourced-development source is advice from one product context, Yin's two-month guideline is a heuristic rather than a universal rule, and Lau's debugging analogy does not show that product behavior is as reproducible as a software failure. BugRex supplies rough time estimates but no reported validation results, while its direct payment path did not test marketplace revenue capture. Kniberg's appended commenters also identify a genuine terminology conflict: a Lean Startup MVP can be a non-product experiment, while his skateboard sequence can be read as an agile prototype or outcome slice that discards implementation between stages. Colyer adds only a practitioner migration proposal, not evidence for a universal moment or method for replacing prototype architecture. Together the sources do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, implementation quality, platform discovery, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, operationally complex, or dependent on technical product-manager oversight, so they may not transfer directly to small independent software, regulated products, or safety-critical public releases.
 
 ## What Changed
-- Distinguished a feedback-producing test from a voluntarily usable and a lovable product.
-- Added coherent customer-outcome slices as an alternative to delivering unusable components.
-- Preserved the dispute between broad Lean Startup experiments and Kniberg's agile release metaphor.
+- Added product validation as an engineering investment boundary: continued traction makes indefinite prototype shortcuts increasingly costly.
+- Connected MVP learning to an incremental, test-backed modernization path that need not stop feature delivery.
 
 ## Related Concepts
 - [[CustomerLedProductDevelopment]] - MVPs create evidence about what customers want before larger buildout.
@@ -77,3 +80,4 @@ Several sources are retrospective lists or practitioner success and failure stor
 - [[NoCodeProductPrototyping]] - builds an MVP by composing existing services rather than first implementing every capability.
 - [[EarliestTestableUsableLovable]] - separates learning, voluntary use, and market affection into explicit thresholds.
 - [[JobsToBeDone]] - helps define the underlying progress an MVP should test rather than assuming the requested solution is fixed.
+- [[IncrementalMVPModernization]] - describes the engineering transition once evidence justifies continued investment in the product.

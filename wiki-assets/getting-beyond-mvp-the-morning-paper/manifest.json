@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "getting-beyond-mvp-the-morning-paper",
+  "images": [
+    {
+      "file": "mvp-starting-point.png",
+      "alt": "Fat controllers above a skinny domain model with little test coverage"
+    },
+    {
+      "file": "first-l0-module.png",
+      "alt": "A tested level-zero module extracted beneath fat controllers"
+    },
+    {
+      "file": "second-l0-module.png",
+      "alt": "A second level-zero module added beside the first"
+    },
+    {
+      "file": "first-l1-module.png",
+      "alt": "A level-one module added above tested level-zero dependencies"
+    },
+    {
+      "file": "feature-tower.png",
+      "alt": "A vertical feature tower built through tested levels beside legacy fat controllers"
+    }
+  ]
+}

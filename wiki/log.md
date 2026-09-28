@@ -5913,6 +5913,14 @@ Ran lint. See lint-report.md for details.
 
 Added a 2017 practitioner account of early-career venture-capital entry and updated [[VentureInvestorDevelopment]] from its complete ordered evidence inventory. The synthesis now distinguishes candidate traits from demonstrated incremental deal access through emerging-domain expertise or trusted founder relationships, adds analyst sourcing and recruiting behavior as work samples, and qualifies elite-school, network, visibility, and personal-speculation advice against homophily, performance-evidence, and financial-risk limits. The source contained no effective image references.
 
+## [2026-09-28] ingest | Getting beyond MVP – the morning paper
+
+Added [[AdrianColyer]]'s post-validation rescue plan and created [[IncrementalMVPModernization]] to connect CI, production-like staging, tested bottom-up module extraction, interface-level test isolation, and vertical feature towers. Updated [[MinimumViableProduct]] from its complete ordered evidence inventory to distinguish rational pre-validation shortcuts from the engineering transition triggered by credible continued use. Opened all six local embeds, retained five distinct architecture diagrams at their semantic positions under descriptive filenames, and omitted the duplicated feature-tower image.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

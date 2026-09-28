@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Getting beyond MVP – the morning paper](sources/getting-beyond-mvp-the-morning-paper.md) - Adrian Colyer proposes CI, staging, tested bottom-up module extraction, and feature towers for modernizing a validated MVP without stopping product delivery.
 - [Getting a VC Job](sources/getting-a-vc-job-better-everyday.md) - A practitioner argues that early-career VC candidates should prove incremental deal access through domain depth, trusted networks, sourcing practice, and a long-cycle recruiting process.
 - [Getting Human Resources Right](sources/getting-human-resources-right-avc.md) - Fred Wilson frames HR as direct-to-CEO culture and leadership infrastructure and pairs it with training, hotline, anonymous-feedback, and recurring whistleblower communication.
 - [Get Out Of The Way - Design Philosophy](sources/get-out-of-the-way-design-philosophy-medium.md) - A Path retrospective argues that teams should study recurring user workarounds, support the valuable behavior directly, and loosen attachment to the product's initial use case.
@@ -2093,8 +2094,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [theSkimm](entities/TheSkimm.md) - Digital media company that began with a conversational morning email and expanded toward a mixed sponsored and paid-product portfolio.
 - [Danielle Weisberg](entities/DanielleWeisberg.md) - Former NBC News producer and theSkimm co-founder connecting newsroom experience to an audience-routine product thesis.
 - [Carly Zakin](entities/CarlyZakin.md) - Former television producer and theSkimm co-founder represented through the company's voice, launch distribution, and morning-media vision.
+- [Adrian Colyer](entities/AdrianColyer.md) - The morning paper author applying classic modular-design guidance to incremental post-MVP modernization.
 
 ## Concepts
+- [Incremental MVP Modernization](concepts/IncrementalMVPModernization.md) - Post-validation transition from prototype structure to tested modules and safer delivery while customer-facing work continues.
 - [Get Out Of The Way Design Philosophy](concepts/GetOutOfTheWayDesignPhilosophy.md) - Product-discovery loop that finds recurring user adaptations, supports the valuable behavior, and removes obstructive founder assumptions.
 - [Incident Communication](concepts/IncidentCommunication.md) - Timely, candid, actionable, and audience-appropriate communication during service failure.
 - [Lateral Thinking with Withered Technology](concepts/LateralThinkingWithWitheredTechnology.md) - Product philosophy that creates new user value by recombining mature technology rather than maximizing specifications.

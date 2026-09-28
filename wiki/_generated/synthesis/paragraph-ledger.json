@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
       "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
       "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
       "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
@@ -557,11 +558,31 @@
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86"
     ],
-    "paragraph_count": 555
+    "paragraph_count": 556
   },
-  "overview_commit": "4d7316697d78330687ebc25cce1f5412f1ad34b8",
-  "overview_digest": "f8d489bb65a00309a1e49847cd3a9dd613f1c2542ad941a66a3436e9a2197556",
+  "overview_commit": "6a115c769463668a8a199ab562b89ee9e26e63e0",
+  "overview_digest": "da8d26e84d287f492ce8fc4577f9bbaf6a0e34fbd512fe2c220414e5324160df",
   "paragraphs": [
+    {
+      "id": "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[AdrianColyer]] source adds [[IncrementalMVPModernization]] as the engineering transition after a rapidly built [[MinimumViableProduct]] begins attracting real users. The key boundary is economic rather than moral: weak structure, duplicated controller logic, direct infrastructure calls, and manual verification may reduce waste while disposal remains plausible, but credible continued use makes their change risk compound. Colyer's minimum rescue loop is continuous integration, automatic deployment of passing builds to production-like staging, and controlled production promotion. From there, the inspected diagrams show three complementary moves: extract tested low-level modules horizontally, compose higher-level modules only from tested dependencies, and build narrow bottom-to-top “feature towers” that deliver new user value alongside remaining fat controllers. Higher-level tests should substitute lower modules at their public interfaces rather than reproduce internal HTTP details, keeping test knowledge aligned with module boundaries. This sharpens [[InternalSoftwareQuality]], [[ContinuousDelivery]], and [[ModularMonolith]] with one operating rule: new functionality should improve the codebase's tested structure rather than enlarge its untested surface. The article remains one 2016 practitioner plan without comparative outcome data, allocation thresholds, or proof that bottom-up restructuring dominates rewrites, strangler migrations, or service extraction in every context. All six local embeds were opened; five distinct architecture diagrams were retained at their semantic positions, while the duplicated feature-tower copy was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "AdrianColyer",
+        "ContinuousDelivery",
+        "IncrementalMVPModernization",
+        "InternalSoftwareQuality",
+        "MinimumViableProduct",
+        "ModularMonolith"
+      ]
+    },
     {
       "id": "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
       "primary_topic": "ai-and-technology",
