@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Git-flow 与 GitHub-Flow 分支策略](sources/git-flow-yu-github-flow-fen-zhi-ce-lve.md) - A concise comparison ties Git-flow to explicit multi-version release lanes and GitHub Flow to a frequently integrated, release-ready main branch.
 - [Branding for Builders](sources/gibson-biddle-branding-for-builders.md) - Gibson Biddle links positioning and a layered brand pyramid to Netflix's product evolution and homepage experimentation while qualifying conversion tests as partial brand evidence.
 - [Ghost in the machine: Snapchat isn’t mobile-first — it’s something else entirely](sources/ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely.md) - Ben Basche contrasts persistent presentation feeds with Snapchat’s camera-first, ephemeral, authentically mobile model of entering friends’ present experience.
 - [Getting out of the startup rat race](sources/getting-out-of-the-startup-rat-race-baremetrics.md) - A Baremetrics runway crisis leads its author to reject self-imposed hockey-stick pressure and define success through sustainable economics, wellbeing, employees, and customers.
@@ -1998,7 +1999,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
-- [GitHub](entities/GitHub.md) - Software collaboration platform represented through application engineering, scientific-data workflows, and an attributed former-employee termination account.
+- [GitHub](entities/GitHub.md) - Software collaboration platform represented through application engineering, scientific-data workflows, a lightweight branching model, and an attributed former-employee termination account.
 - [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
 - [James Kenigsberg](entities/JamesKenigsberg.md) - 2U technology executive advocating informal learning relationships with junior staff.
 - [2U](entities/2U.md) - Edtech company providing the historical workplace context for Kenigsberg's reverse-mentoring account.
@@ -2102,6 +2103,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Adrian Colyer](entities/AdrianColyer.md) - The morning paper author applying classic modular-design guidance to incremental post-MVP modernization.
 
 ## Concepts
+- [Git-flow](concepts/GitFlow.md) - Branching model separating development, feature, release, stable-production, and hotfix work for explicit version management.
+- [GitHub Flow](concepts/GitHubFlow.md) - Lightweight branching model centered on frequent integration into one release-ready main branch.
 - [Brand Positioning](concepts/BrandPositioning.md) - Dynamic three-part model for the relative idea, customer benefit, and relational personality a product seeks to own.
 - [Brand Pyramid](concepts/BrandPyramid.md) - Layered framework connecting changing product attributes to functional, emotional, and aspirational meaning.
 - [Authentically Mobile](concepts/AuthenticallyMobile.md) - Product category whose core experience depends on coupled mobile capabilities and context rather than simply adapting a desktop interaction.

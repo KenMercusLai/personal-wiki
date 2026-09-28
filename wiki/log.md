@@ -5948,3 +5948,11 @@ Added [[GibsonBiddle]]'s positioning and brand-pyramid frameworks and his retros
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Git-flow 与 GitHub-Flow 分支策略
+
+Added an undated Chinese-language comparison of [[GitFlow]] and [[GitHubFlow]]. Created both concepts to distinguish Git-flow's develop, release, stable, and hotfix lanes from GitHub Flow's conditional simplification around one release-ready main branch; updated [[GitHub]] from its complete ordered evidence inventory and connected branch topology to [[ContinuousDelivery]], [[ChangeSafety]], and [[DeploymentAutomation]] without treating it as a substitute for verification or rollout controls. Preserved the source's lack of comparative outcome evidence and its omission of modern review, merge-queue, feature-flag, trunk-based, and regulated-release variants. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
       "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
       "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
       "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
@@ -560,11 +561,29 @@
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86",
       "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c"
     ],
-    "paragraph_count": 558
+    "paragraph_count": 559
   },
-  "overview_commit": "a266fbbf08707bf6e9ded1736ff23d8e4f0af443",
-  "overview_digest": "695de6ecd2339c9a40fdf5f7ce8d17f19a46fae8dbed9602006007b08af7d5a7",
+  "overview_commit": "3138b877a792c95519bad4ae067af272f10df2bf",
+  "overview_digest": "a8f71dc1ad48970889521a16042d3c9d40f4e5ce7a5de83f2fe570b5d1896bf8",
   "paragraphs": [
+    {
+      "id": "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest branching-strategy source adds [[GitFlow]] and [[GitHubFlow]] as two conditional release-management choices rather than rival universal recipes. Git-flow separates upcoming integration on `develop`, isolated feature work, release stabilization, stable history on `master`, and urgent repair through hotfix branches; that explicit topology can help when several released versions need simultaneous maintenance, but it adds merge paths and does not itself define feature-branch lifetime or guarantee a healthy development line. GitHub Flow instead assumes one continuously release-ready main branch and frequent merging of both features and fixes, making separate release and hotfix categories unnecessary under that assumption. The durable distinction is therefore the release model beneath the branch names: explicit version lanes versus continuous readiness. This sharpens [[ContinuousDelivery]], [[ChangeSafety]], and [[DeploymentAutomation]] because simpler branches are credible only when review, automated verification, staged activation, observation, and recovery keep main safely releasable. The source is an undated saved practitioner summary with no comparative outcome data and omits pull requests, merge queues, feature flags, trunk-based variants, and regulated release controls; its Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "ContinuousDelivery",
+        "DeploymentAutomation",
+        "GitFlow",
+        "GitHubFlow"
+      ]
+    },
     {
       "id": "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
       "primary_topic": "business-and-markets",
