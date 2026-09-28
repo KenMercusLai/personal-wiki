@@ -6192,3 +6192,11 @@ Added [[AndrewChen]]'s 2017 diagnosis of [[GrowthChannelSaturation]] as a couple
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | GrubHub is buying up thousands of restaurant web addresses. That means Mom and Pop can't own their slice of the internet
+
+Added [[HClaireBrown]]'s investigation of more than 23,000 Grubhub-registered restaurant-linked domains, thousands more attributed to [[Seamless]], generic microsites, forwarding numbers, ranked visibility, and disputed commission attribution. Created [[HClaireBrown]], [[StacyMitchell]], and [[Seamless]], and updated [[Grubhub]] and [[AggregatorMonopolyPower]] from their complete ordered evidence inventories. Preserved Grubhub's contractual defense, owners' disagreement about permission, expired-domain uncertainty, and variation in merchant value when a platform supplies delivery or incremental demand. The four remote images could not be opened from the retired origin and had no local copies; migrated captions were available, but no visual asset or image-only evidence was retained.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [GrubHub is buying up thousands of restaurant web addresses. That means Mom and Pop can't own their slice of the internet](sources/grubhub-is-buying-up-thousands-of-restaurant-web-addresses-that-means-mom-and-pop-cant-own-their-slice-of-the-internet-new-food-economy.md) - H. Claire Brown investigates restaurant-linked domains, microsites, forwarding numbers, and commission attribution that placed Grubhub between local restaurants and direct customers.
 - [Growth is getting hard from intensive competition, consolidation, and saturation](sources/growth-is-getting-hard-from-intensive-competition-consolidation-and-saturation-at-andrewchen.md) - Andrew Chen links harder late-cycle growth to mobile concentration, contested paid channels, user adaptation, tool diffusion, faster incumbents, and zero-sum attention.
 - [Growth as a false signal in Y Combinator startups](sources/growth-as-a-false-signal-in-y-combinator-startups-techcrunch.md) - Doug Renert argues that short-window revenue growth is weak standalone evidence without base size, persistence, retention, engagement, and viable unit economics.
 - [Growth Hacking vs Value Hacking - By](sources/growth-hacking-vs-value-hacking-by.md) - Practitioner essay arguing that teams should treat growth metrics as proxies for customer value, segment users by distinct value functions, and pursue adjacent propositions when existing optimization plateaus.
@@ -786,6 +787,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [H. Claire Brown](entities/HClaireBrown.md) - Journalist who investigated Grubhub's restaurant-linked domains, microsites, and phone-order commissions.
+- [Stacy Mitchell](entities/StacyMitchell.md) - Local-economy advocate interpreting restaurant-platform intermediation as gatekeeping that warrants policy attention.
+- [Seamless](entities/Seamless.md) - Grubhub subsidiary reported to have registered thousands of restaurant-linked domains.
 - [Gojek](entities/Gojek.md) - Indonesian mobility company presented by an employee-author as expanding from ride-sharing into food, ticketing, and other adjacent services.
 - [Jessica Livingston](entities/JessicaLivingston.md) - Y Combinator cofounder whose social judgment, operations, events, candor, and founder care shaped its early model and culture.
 - [Nitasha Tiku](entities/NitashaTiku.md) - BuzzFeed News journalist examining access, media incentives, and technology power at Code Conference.
@@ -879,7 +883,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pauline Rose Clance](entities/PaulineRoseClance.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through its perfectionism cycle and good-enough response.
 - [Suzanne Imes](entities/SuzanneImes.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through achievement pressure, secrecy, and gradual reframing.
 - [Casey Winters](entities/CaseyWinters.md) - Product and growth practitioner connecting feature-level fit with adaptation to changing platform distribution.
-- [Grubhub](entities/Grubhub.md) - Food-delivery company represented through early mobile conversion, incentive, and support experiments.
+- [Grubhub](entities/Grubhub.md) - Food-delivery company represented through mobile product experiments and disputed control of restaurant-branded discovery, attribution, and commissions.
 - [Neil Patel](entities/NeilPatel.md) - Crazy Egg cofounder represented here through his limited role in the failed Vision Web Hosting project.
 - [Vision Web Hosting](entities/VisionWebHosting.md) - Unreleased shared-hosting project used as Hiten Shah's first-person case of committee-driven product drift and loss.
 - [FastNetMon](entities/FastNetMon.md) - Network-traffic analyzer represented through threshold detection, response hooks, and Graphite metric export.
@@ -2240,7 +2244,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Engagement Incentive Conflict](concepts/EngagementIncentiveConflict.md) - Tension between revenue that benefits from more usage and user welfare that may require less compulsive, more bounded engagement.
 - [Competitive Intelligence](concepts/CompetitiveIntelligence.md) - Use of rival and market signals for strategic decisions, with consumer telemetry adding consent, purpose, and power concerns.
 - [Context Collapse](concepts/ContextCollapse.md) - The compression of distinct audiences into one setting can suppress personal disclosure even while overall platform use remains high.
-- [Aggregator Monopoly Power](concepts/AggregatorMonopolyPower.md) - Multi-sided platform power that appears in supplier surplus, advertising scarcity, or innovation even when users pay no monetary price.
+- [Aggregator Monopoly Power](concepts/AggregatorMonopolyPower.md) - Multi-sided platform power expressed through supplier surplus, attribution, advertising scarcity, information advantage, or innovation even when users pay no monetary price.
 - [Facebook Advertising Costs](concepts/FacebookAdvertisingCosts.md) - Auction-determined campaign prices whose meaning depends on objective, audience, competition, placement, relevance, timing, volume, and downstream value.
 - [Knowledge Durability](concepts/KnowledgeDurability.md) - Degree to which information remains useful across time and contexts because it explains recurring mechanisms rather than only current facts.
 - [Rapid Organizational Restructuring](concepts/RapidOrganizationalRestructuring.md) - Compressed change to leadership, staffing, decision rights, working conditions, and priorities, evaluated beyond speed and immediate continuity.
