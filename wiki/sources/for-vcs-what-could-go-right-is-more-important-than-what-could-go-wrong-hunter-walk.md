@@ -2,7 +2,7 @@
 title: "For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’"
 type: source
 tags: [venture-capital, startup-failure, power-law, investment-analysis]
-date: 2017-11-30
+date: 2017-11-29
 source_file: "/mnt/ken_personal_wiki/Articles/For VCs, “What Could Go Right” Is More Important Than “What Could Go Wrong” - Hunter Walk.md"
 ---
 

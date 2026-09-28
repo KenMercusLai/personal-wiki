@@ -2,7 +2,7 @@
 title: "Forget drones and spaceships: The Snapchat dogface filter is the future"
 type: source
 tags: [snapchat, augmented-reality, cameras, self-presentation]
-date: 2016-11-10
+date: 2016-11-01
 source_file: "/mnt/ken_personal_wiki/Articles/Forget drones and spaceships- The Snapchat dogface filter is the future.md"
 ---
 

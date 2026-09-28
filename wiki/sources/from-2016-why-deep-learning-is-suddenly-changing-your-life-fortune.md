@@ -2,7 +2,7 @@
 title: "From 2016: Why Deep Learning Is Suddenly Changing Your Life"
 type: source
 tags: [deep-learning, neural-networks, computer-vision, ai-history, enterprise-ai]
-date: 2016-10-01
+date: 2016-09-28
 source_file: /mnt/ken_personal_wiki/Articles/From 2016- Why Deep Learning Is Suddenly Changing Your Life - Fortune.md
 ---
 

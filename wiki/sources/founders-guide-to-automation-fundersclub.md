@@ -2,7 +2,7 @@
 title: "Founder's Guide to Automation"
 type: source
 tags: [startups, automation, operations, marketing, sales]
-date: 2026-04-12
+date: 2016-08-17
 source_file: "/mnt/ken_personal_wiki/Articles/Founder's Guide to Automation - FundersClub.md"
 ---
 

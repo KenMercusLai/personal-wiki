@@ -2,7 +2,7 @@
 title: "Facebook isn’t the social network anymore. So what is it?"
 type: source
 tags: [facebook, social-media, media-platform, context-collapse]
-date: 2016-04-25
+date: 2016-04-24
 source_file: "/mnt/ken_personal_wiki/Articles/Facebook isn’t the social network anymore. So what is it-.md"
 ---
 

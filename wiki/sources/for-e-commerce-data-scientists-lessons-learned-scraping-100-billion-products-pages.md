@@ -2,7 +2,7 @@
 title: "For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages"
 type: source
 tags: [web-scraping, ecommerce, data-quality, distributed-systems]
-date: 2026-04-12
+date: 2018-07-02
 source_file: /mnt/ken_personal_wiki/Articles/For E-Commerce Data Scientists- Lessons Learned Scraping 100 Billion Products Pages.md
 ---
 

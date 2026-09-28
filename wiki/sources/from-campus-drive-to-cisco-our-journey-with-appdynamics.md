@@ -2,7 +2,7 @@
 title: "From Campus Drive to Cisco: Our Journey with AppDynamics"
 type: source
 tags: [appdynamics, startup, enterprise-saas, acquisition]
-date: 2017-01-26
+date: 2017-01-25
 source_file: "/mnt/ken_personal_wiki/Articles/From Campus Drive to Cisco- Our Journey with AppDynamics.md"
 ---
 

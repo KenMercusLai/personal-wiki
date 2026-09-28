@@ -2,7 +2,7 @@
 title: "For the Love of God, Please Tell Me What Your Company Does"
 type: source
 tags: [marketing, homepages, b2b, positioning, copywriting]
-date: 2026-04-12
+date: 2017-08-31
 source_file: "/mnt/ken_personal_wiki/Articles/For the love of God, please tell me what your company does - By.md"
 ---
 

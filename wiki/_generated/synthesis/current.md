@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 22b17e4449297e620aee424df979ab7cfa42ab2d
+as_of_overview_commit: c95be147385bc2dbb2d22de58c260520617aaea2
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 720
-source_count: 720
-paragraph_count: 546
+episode_count: 721
+source_count: 721
+paragraph_count: 547
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, system understanding, workload fit
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, staged demand evidence, coherent scope, sustainable economics, governed distribution, operating capability, and risk discipline.
+Durable value aligns customer outcomes, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

@@ -2,7 +2,7 @@
 title: "Four fundamentals of workplace automation"
 type: source
 tags: [automation, work, jobs, artificial-intelligence, robotics]
-date: 2015-11-01
+date: 2015-11
 source_file: /mnt/ken_personal_wiki/Articles/Four fundamentals of workplace automation - McKinsey.md
 ---
 

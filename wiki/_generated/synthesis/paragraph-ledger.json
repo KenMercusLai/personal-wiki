@@ -546,12 +546,13 @@
       "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162",
       "11a448980e1a87152a052b8619812ae987925ecf2753c62e008a11645ef6f411",
       "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
-      "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716"
+      "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
+      "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a"
     ],
-    "paragraph_count": 546
+    "paragraph_count": 547
   },
-  "overview_commit": "22b17e4449297e620aee424df979ab7cfa42ab2d",
-  "overview_digest": "88f4090b99ef65a8713a74f8d0cf1ae183d1febec2eccf0eef39a99360fe4254",
+  "overview_commit": "c95be147385bc2dbb2d22de58c260520617aaea2",
+  "overview_digest": "eb81dc309cc884f0294750210460555f9e570a8eff20d8180e5d90ea5c8aeaa3",
   "paragraphs": [
     {
       "id": "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
@@ -11056,6 +11057,23 @@
         "KevinRose",
         "Oak",
         "RemoteDesignSprint"
+      ]
+    },
+    {
+      "id": "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[MathildeCollin]] source adds a firsthand founder-side layer to [[StartupFundingRound]] and resolves the underlying account behind the wiki's earlier [[Front]] retention case. Collin says Front waited until $100,000 in MRR, low churn, and a clear roadmap, then shifted decisively into fundraising: she spent about 90% of her workdays on the deck, data, projections, and feedback, received three term sheets in ten days, accepted one, and stopped meetings because the 15-person company's productivity loss was visible. Advance investor relationships mattered because the Series A lead would become the first board member, while selective disclosure mattered because investors continuously collect company, market, and competitor signals. The deck's strongest evidence was spending below ARR and a [[SaaSLandAndExpand]] result of customers spending 50% more after 12 months net of churn. Its weak or missing evidence—scalable acquisition channels, a capital-deployment model, engagement measures including [[DAUMAU]], and a defined buyer—shows that traction alone does not answer how new capital will produce repeatable growth. The metrics and process outcomes remain founder-reported snapshots without cohort definitions, audited financials, deal terms, valuation, or investor perspectives; the unusually fast successful process is an example, not a benchmark. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4
+      },
+      "wikilinks": [
+        "DAUMAU",
+        "Front",
+        "MathildeCollin",
+        "SaaSLandAndExpand",
+        "StartupFundingRound"
       ]
     }
   ],

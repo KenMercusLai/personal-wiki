@@ -2,7 +2,7 @@
 title: "Firing People"
 type: source
 tags: [employment, management, termination, offboarding, startup-culture]
-date: 2016
+date: 2016-03-16
 source_file: "/mnt/ken_personal_wiki/Articles/Firing People.md"
 ---
 

@@ -5808,3 +5808,11 @@ Added [[StevenKeteyian]]'s 2013 editorial framing accurate [[ResearchToPracticeT
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Front Series A Deck
+
+Added [[MathildeCollin]]'s firsthand account of [[Front]]'s $10 million Series A, including readiness at $100,000 MRR with low churn, a concentrated ten-day process, investor-valued capital efficiency and 12-month expansion, and gaps in acquisition scalability, projections, engagement data, and buyer definition. Updated [[StartupFundingRound]] and [[SaaSLandAndExpand]] while preserving the limits of founder-reported metrics and an unusually fast successful case. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -2,7 +2,7 @@
 title: "From Not Working to Neural Networking"
 type: source
 tags: [artificial-intelligence, deep-learning, imagenet, ai-history]
-date: 2016-06-25
+date: 2016-06-23
 source_file: "/mnt/ken_personal_wiki/Articles/From not working to neural networking - Technology.md"
 ---
 

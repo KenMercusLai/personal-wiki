@@ -2,7 +2,7 @@
 title: "Feel like a fraud?"
 type: source
 tags: [psychology, impostor-phenomenon, achievement, graduate-school, wellbeing]
-date: 2013-11-01
+date: 2013-11
 source_file: "/mnt/ken_personal_wiki/Articles/Feel like a fraud-.md"
 ---
 

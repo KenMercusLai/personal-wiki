@@ -5,7 +5,8 @@ tags: [startup, funding, venture-capital]
 sources:
   - wtf-is-a-funding-round-techcrunch
   - valuation-inflation-avc
-last_updated: 2026-09-23
+  - front-series-a-deck-mathilde-collin-medium
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,13 +20,15 @@ The staging is part of the concept rather than an administrative label. Seed is 
 
 Wilson's USV sample shows that the price of ownership and the amount of capital raised can change independently. Between the 2012 and 2017 timeframes, average seed capital rose from about $2.5 million to more than $4 million as seed valuations increased, while average Series A capital remained around $5–7 million even though Series A valuations roughly doubled. A stage label therefore does not imply a stable round size, valuation, or dilution pattern across time and place.
 
+Collin's Front account adds the founder-side operating process. She entered fundraising only after reaching $100,000 in MRR, low churn, and a clear roadmap, having built relationships with possible investors because the lead could become a long-term board member. Once one routine conversation became a formal process, she spent about 90% of her time on the deck, data, projections, and feedback. Three term sheets arrived within ten days, after which she chose one and stopped meetings to limit the productivity cost to the 15-person company. The case suggests that a round is not only a capital event but a concentrated allocation of founder attention, disclosure, metric framing, and governance choice.
+
 ## Key Claims
 - A funding round exchanges ownership for cash rather than borrowing against future repayment.
 - Equity is the default for young companies because qualifying for a bank loan is difficult, and loans taken alongside equity still have to be repaid with interest.
 - Round sizes are justified by a growth plan: hiring, sales and marketing, and production costs, depending on the business.
 - Rounds are staged - seed first, then Series A and later letters - and investors often specialize in one stage rather than the whole sequence.
 - Round size and valuation can move independently, so a higher price does not necessarily mean that more capital is raised.
-- Fundraising is episodic and partly precautionary, with many startups raising roughly every one to two years and often well before they need the money.
+- Fundraising is episodic and attention-intensive: companies may raise precautionarily, but a founder can reduce operating drag by entering the process deliberately and running it in a concentrated window.
 - Stage benchmarks depend on time, geography, and sample rather than remaining fixed market constants.
 
 ## Evidence
@@ -39,13 +42,17 @@ Wilson's USV sample shows that the price of ownership and the amount of capital 
 - Benchmark boundary: [[valuation-inflation-avc]] combines several US and European markets and says its eight Series B rounds were insufficient for a trend conclusion.
 - Raise cadence: [[wtf-is-a-funding-round-techcrunch]] says many startups raise every one to two years and often raise before they need the money in case problems appear later.
 - Outcome base rate: [[wtf-is-a-funding-round-techcrunch]] says the majority of startups fail even though some make billions.
+- Readiness and concentration: [[front-series-a-deck-mathilde-collin-medium]] says Front began raising at $100,000 MRR with low churn and a roadmap, then received three term sheets in ten days while Collin devoted about 90% of her workdays to the process.
+- Long-term investor fit: [[front-series-a-deck-mathilde-collin-medium]] says Collin built relationships early because the Series A investor would become Front's first board member.
+- Deck evidence: [[front-series-a-deck-mathilde-collin-medium]] distinguishes investor-valued capital efficiency and expansion from weak acquisition scalability and missing projections, engagement data, and buyer definition.
 
 ## Counterevidence & Qualifications
-The TechCrunch article is a general-audience explainer from 2020 and describes equity rounds as the norm without covering venture debt, revenue-based financing, bridge rounds, or extension rounds, and it does not distinguish priced rounds from [[UnpricedSeedFinancing]] instruments such as SAFEs and convertible notes. Its "no payback" framing is accurate for equity but not for loans. Wilson's reported averages cover only USV-led or co-led investments, combine markets with different prices, and are not enough to infer a Series B pattern. Neither source explains how changing round size and valuation translated into dilution, governance, capital efficiency, or returns.
+The TechCrunch article is a general-audience explainer from 2020 and describes equity rounds as the norm without covering venture debt, revenue-based financing, bridge rounds, or extension rounds, and it does not distinguish priced rounds from [[UnpricedSeedFinancing]] instruments such as SAFEs and convertible notes. Its "no payback" framing is accurate for equity but not for loans. Wilson's reported averages cover only USV-led or co-led investments, combine markets with different prices, and are not enough to infer a Series B pattern. Collin's account is one unusually fast, successful founder retrospective without deal terms, valuation, investor perspectives, or a comparison set, so its ten-day process is an example rather than a benchmark. The sources do not show how changing round size, valuation, or process design translated into dilution, governance quality, or returns.
 
 ## What Changed
 - Added historical evidence that seed round sizes rose while Series A sizes stayed flat despite higher Series A valuations.
 - Qualified stage benchmarks by period, geography, investor sample, and data sufficiency.
+- Added fundraising as an attention-intensive founder process shaped by readiness signals, advance investor relationships, deck evidence, and governance fit.
 
 ## Related Concepts
 - [[StartupFinancingMechanics]] - the term-level mechanics of shares, valuation, conversion, and dilution that sit underneath a round.
@@ -56,3 +63,5 @@ The TechCrunch article is a general-audience explainer from 2020 and describes e
 - [[StartupRunway]] - the cash budget a round extends.
 - [[EmployeeEquityRisk]] - the employee-side exposure created by the same equity instrument.
 - [[StartupFailurePatterns]] - the base-rate warning attached to raising money.
+- [[StartupFocus]] - a concentrated round can limit the time fundraising diverts from company operations.
+- [[SaaSLandAndExpand]] - account expansion can serve as round-quality evidence when its definition is explicit.

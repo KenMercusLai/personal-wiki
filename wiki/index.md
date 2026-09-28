@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Front Series A Deck](sources/front-series-a-deck-mathilde-collin-medium.md) - Mathilde Collin connects Front's fundraising readiness and concentrated Series A process with investor-valued capital efficiency and expansion, plus gaps in acquisition, projections, engagement data, and buyer definition.
 - [From Side Project to 25 Million Downloads](sources/from-side-project-to-25-million-downloads-codecademy-medium.md) - Ryan Hanna traces Sworkit from a Codecademy-supported learning project through Lifehacker distribution, paid release, full-time operation, acquisition, and reported mass-market scale.
 - [From Show HN to Series D](sources/from-show-hn-to-series-d-segment-blog.md) - Segment's founders trace Analytics.js from a developer launch through customer feedback, activation metrics, a bridge round, corrected monetization, and a customer-data platform.
 - [From Pull and Push to Here and Now: the grand bargain of Facebook and the Feed is unraveling. What comes next?](sources/from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next.md) - Alex Danco argues that cameras and ephemerality made varied expression abundant while shared presence, participation, location, and mutability became newly scarce media resources.
@@ -1499,8 +1500,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brian Balfour](entities/BrianBalfour.md) - Growth-strategy voice cited for treating retention as the foundation of growth.
 - [Reforge](entities/Reforge.md) - Company context attached to Brian Balfour in the retention article.
 - [Intercom](entities/Intercom.md) - Customer-communication SaaS used as a suite-expansion retention case.
-- [Front](entities/Front.md) - Collaborative email SaaS used as an account-expansion and net-negative-churn retention case.
-- [Mathilde Collin](entities/MathildeCollin.md) - Front CEO cited through the Series A deck used in the retention case.
+- [Front](entities/Front.md) - Collaborative email SaaS represented through retention-led expansion, a concentrated 2016 Series A process, and founder-operating lessons.
+- [Mathilde Collin](entities/MathildeCollin.md) - Front founder/CEO represented through a firsthand Series A retrospective, retention evidence, and founder-operator advice.
 - [Crazy Egg](entities/CrazyEgg.md) - Analytics SaaS used as a heatmap-led product-message alignment case.
 - [Google Analytics](entities/GoogleAnalytics.md) - Incumbent analytics product contrasted with Crazy Egg's heatmap positioning.
 - [Amazon Aurora](entities/AmazonAurora.md) - AWS PostgreSQL-compatible database option named for pgvector-backed generative AI applications.
@@ -2368,7 +2369,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overthinking as a Barrier](concepts/OverthinkingAsBarrier.md) - Claim that deliberation and premature optimization, not missing tools or skill, are the usual obstacle between a builder and a shipped product.
 - [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
 - [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.
-- [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event whose stage, size, valuation, and timing vary, with price and capital raised able to move independently.
+- [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event whose stage, size, valuation, timing, founder attention cost, and investor-governance relationship all shape the process.
 - [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round and varies by stage, period, geography, evidence, and investor sample.
 - [Venture Capital Fund Structure](concepts/VentureCapitalFundStructure.md) - LP-backed fund with a finite life that earns returns from exits and keeps a share of the upside, assuming most portfolio companies fail.
 - [Angel Investing](concepts/AngelInvesting.md) - Early-stage funding by individuals investing their own money, contrasted with VCs managing a fund.
@@ -3160,6 +3161,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Workplace Automation](concepts/WorkplaceAutomation.md) - Activity-level framework for automating parts of jobs while redesigning processes, roles, skills, controls, and accountability.
 
-- [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion that turns an initial account foothold into broader retained customer spending.
+- [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion measured through larger retained customer spending, with cohort, time-window, churn, and distribution definitions determining what expansion figures mean.
 
 ## Syntheses
