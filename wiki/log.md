@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Gmail Creator and YC Partner Paul Buchheit on Joining Google, How to Become a Great Engineer and Happiness
+
+Added [[PaulBuchheit]]'s first-person account of self-taught programming, early [[Google]], [[Gmail]]'s open-ended origin, cross-layer engineering, practice, startup learning, job diligence, and work environment. Created [[EngineeringExpertise]] and updated [[StartupJobDiligence]] from its complete ordered evidence inventory. Preserved the interview's edited and retrospective limits, the exceptional-example bias in its productivity claims, and the distinction between useful recruiting observations and predictive evidence. The Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-09-28] ingest | Gaijin Engineer in Tokyo
 
 Added [[AlejandroWainzinger]]'s qualified first-person account of working as a foreign software engineer in Japanese companies. Created [[CrossCulturalWorkplaceAdaptation]] with the coupled effects of technical compatibility, formal language, hierarchy, indirect communication, outsider status, intervention, and overcommitment; preserved the distinction between understanding a practice's local function and excusing operational or human harm. The source repeatedly marks itself as anecdotal, supplies no representative sample or prevalence data, and should not be generalized to all Japanese workplaces or current conditions. The Markdown contains no effective image references, so no visual asset or manifest was required.
@@ -5968,6 +5972,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | GitOps - Operations by Pull Request
 
 Added [[AlexisRichardson]]'s early account of [[Weaveworks]]'s [[GitOps]] operating model: reviewed desired state in Git, pull-request delivery, environment drift detection, automated convergence through [[WeaveFlux]], and reconstructible recovery. Created source-bounded pages for Richardson, Weaveworks, Weave Flux, and GitOps; updated [[DeclarativeInfrastructure]] and [[Kubernetes]] from their complete ordered evidence inventories. Qualified the reported under-45-minute system rebuild as a company-authored case and limited Git-based rollback at data, external-side-effect, and incorrect-declaration boundaries. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

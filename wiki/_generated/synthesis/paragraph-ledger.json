@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
       "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
       "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
       "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
@@ -562,11 +563,32 @@
       "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c",
       "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee"
     ],
-    "paragraph_count": 560
+    "paragraph_count": 561
   },
-  "overview_commit": "7b38243e47605929521c767d6c93f90bfe67911f",
-  "overview_digest": "49a0b199f599d8e31c99eb865682158771fc3e9ec28d33ec95948f7c99ee9cd6",
+  "overview_commit": "bcc93eb1aee5a70cf2e64751be850a1765c3644d",
+  "overview_digest": "771e57397658527e0a9d1a724e1d5cf4b68706dc65d0971f3c3bf019643ecd85",
   "paragraphs": [
+    {
+      "id": "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[PaulBuchheit]] source connects engineering development, organization choice, and startup diligence through learning rate. Buchheit's path from game-save reverse engineering and an unreliable C compiler to early [[Google]] supports new [[EngineeringExpertise]] as sustained hands-on practice plus the ability to reason across hardware, kernels, protocols, systems, applications, and product consequences. His account of building [[Gmail]] from an open-ended email assignment and adding spelling correction after observing misspelled-query volume shows how consequential work can stretch an engineer beyond prior experience and how user-frequency evidence can redirect technical effort. This sharpens [[StartupJobDiligence]]: lower pay, heavier work, weak structure, and high variance are justified only when capable peers, above-level responsibility, and real feedback are likely to accelerate development. Hard founder questions, direct answers, a usable product, substantive technical interviews, and visible workplace energy are useful observations, while hype without a product is a warning. The synthesis remains bounded because this is an edited retrospective interview built around exceptional early-Google examples, not comparative evidence that cross-layer breadth, startup employment, interview style, or workplace atmosphere predicts engineering or company outcomes. The source contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "EngineeringExpertise",
+        "Gmail",
+        "Google",
+        "PaulBuchheit",
+        "StartupJobDiligence"
+      ]
+    },
     {
       "id": "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
       "primary_topic": "ai-and-technology",
