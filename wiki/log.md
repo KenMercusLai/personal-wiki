@@ -6117,6 +6117,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | Here’s The Technique That Ambitious People Use To Get What They Want
+
+Added [[RyanHoliday]]'s account of the [[BriefcaseTechnique]], which turns interviews and consequential meetings into candidate-led demonstrations built from research, diagnosis, and a concrete plan. Created [[RyanHoliday]], [[RamitSethi]], and [[BriefcaseTechnique]], and updated [[LuckAndEffortInSuccess]], [[PeterThiel]], [[Gawker]], and [[TechnologyElitePower]] from their complete ordered evidence inventories. Preserved the source's explicit rejection boundary, the survivor-selection and unequal-preparation limits, and the distinction between persuasive capability and an ethically justified objective. Opened the sole local image and omitted it as a decorative snowy-mountain landscape without article-specific evidence.
+
 ## [2026-09-29] ingest | Hard Questions: What Should Happen to People’s Online Identity When They Die?
 
 Added [[MonikaBickert]]'s 2017 explanation of Facebook's memorialization, deletion, legacy-contact, and private-message policies, creating [[PosthumousAccountGovernance]] as a multi-party framework for user intent, survivor needs, third-party privacy, and incomplete inheritance law. Updated [[Facebook]] from its complete ordered evidence inventory to extend persistent identity across the account lifecycle, while preserving the source's first-party, historical, legal-scope, and outcome-evidence limits. Recovered all three images from Meta's migrated article, retained the evidence-bearing memorialized-profile illustration, and omitted two decorative divider graphics.
@@ -6340,6 +6344,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Here’s How TurboTax Just Tricked You Into Paying to File Your Taxes
 
 Added ProPublica’s 2019 walkthrough of how [[Intuit]] separated the commercial [[TurboTax]] Free Edition from its historical [[IRSFreeFile]]/Freedom Edition while search promotion, similar naming, delayed $59.99 and $119.99 upgrade screens, “NONFFA” routing, and competing controls steered two eligible test profiles toward payment. Created [[ProPublica]], [[Intuit]], [[TurboTax]], [[IRSFreeFile]], [[InternalRevenueService]], and [[DarkPatterns]], and connected the case to [[InterfaceCopywriting]], [[ProductFlowFriction]], [[SearchPlatformDisintermediation]], and [[UserTrustCapital]]. Preserved Intuit’s response, the limits of two synthetic profiles, the absence of internal records proving every design decision’s intent, and the historical status of all thresholds, providers, prices, URLs, legislation, and refund advice. Opened all 11 local images; retained nine evidence-bearing screenshots under descriptive canonical filenames, omitted one decorative TurboTax photograph, and omitted one duplicate Google-results screenshot.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

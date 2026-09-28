@@ -804,7 +804,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hacker Puts Hosting Service Code Spaces Out of Business](sources/hacker-puts-hosting-service-code-spaces-out-of-business-threatpost.md) - Threatpost reports how compromised AWS control-plane access let an attacker delete Code Spaces' production assets and backups, forcing the code-hosting company to cease trading.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
+- [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
+
 ## Entities
+- [Ryan Holiday](entities/RyanHoliday.md) - Author presenting the Briefcase Technique through coaching, career, and Thiel-Gawker examples while acknowledging failure and self-protective underpreparation.
+- [Ramit Sethi](entities/RamitSethi.md) - Career adviser credited in the source with naming a researched, candidate-led interview presentation the Briefcase Technique.
 - [ProPublica](entities/ProPublica.md) - Investigative newsroom represented through a journey-based audit of TurboTax's commercial and IRS-backed filing paths.
 - [Intuit](entities/Intuit.md) - Financial-software company represented as TurboTax's maker, a historical Free File participant, and a policy actor.
 - [TurboTax](entities/TurboTax.md) - Tax-preparation product represented through its distinct commercial Free Edition and IRS-backed Free File/Freedom Edition routes.
@@ -2227,6 +2231,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Briefcase Technique](concepts/BriefcaseTechnique.md) - Researched, concrete proposal used to demonstrate judgment and initiative in a consequential meeting without guaranteeing acceptance or ethical merit.
 - [Dark Patterns](concepts/DarkPatterns.md) - Journey-level deceptive design using claims, naming, routing, disclosure timing, friction, and control hierarchy to steer choices.
 - [Service Marketplace Fit](concepts/ServiceMarketplaceFit.md) - Degree to which a service's transaction, trust, capacity, relationship, and delivery characteristics suit on-demand matching.
 - [App Permission Governance](concepts/AppPermissionGovernance.md) - Continuing practice of matching application access to purpose and trust, then reviewing and revoking it as conditions change.

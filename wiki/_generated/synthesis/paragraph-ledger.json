@@ -596,12 +596,13 @@
       "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e",
       "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb",
       "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
-      "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f"
+      "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
+      "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 596
+    "paragraph_count": 597
   },
-  "overview_commit": "fb5a6078a34227d80e5467f0a953947934c14771",
-  "overview_digest": "6ce6998a40f18a1b4858490949c68f2b1ff0e453327e33fcb62b9f11e6d8175d",
+  "overview_commit": "6b6a39811fd78b5fa0befd729427322e361d15dc",
+  "overview_digest": "c600cf74dfeb1e59efa262bd51b9f75fa19ed84588b6f53cf80d1ebae72f8481",
   "paragraphs": [
     {
       "id": "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
@@ -12080,6 +12081,29 @@
         "PrivacyPovertyDivide",
         "Uber",
         "UnrollMe"
+      ]
+    },
+    {
+      "id": "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[RyanHoliday]] source adds the [[BriefcaseTechnique]] as a specific form of prepared opportunity use. Rather than treating an interview or high-value meeting as a passive question-and-answer session, the participant researches the recipient's problem and brings a diagnosis, proposed action, and implementation detail that make initiative and judgment inspectable. Nick Saban's legal pad, Andy Reid's accumulated coaching binder, and Holiday's account of an unnamed 26-year-old pitching [[PeterThiel]] show increasingly elaborate versions of the mechanism; the Thiel proposal also strengthens [[TechnologyElitePower]] by connecting private wealth to a shell company, investigators, lawyers, a multi-year timeline, and a large budget targeting [[Gawker]]. The durable synthesis is narrower than the article's successful examples: preparation can improve responsiveness when an opportunity appears, but it cannot guarantee selection, correct a misunderstood problem, or justify the objective ethically. The cases are retrospectively selected, Holiday supplies no success denominator, and escalating candidate-led preparation can create unpaid-work, access, and fairness burdens. The sole local image was opened and omitted as a decorative snowy-mountain landscape without article-specific evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BriefcaseTechnique",
+        "Gawker",
+        "PeterThiel",
+        "RyanHoliday",
+        "TechnologyElitePower"
       ]
     }
   ],

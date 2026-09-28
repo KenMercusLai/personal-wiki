@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: fb5a6078a34227d80e5467f0a953947934c14771
+as_of_overview_commit: 6b6a39811fd78b5fa0befd729427322e361d15dc
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 787
-source_count: 787
-paragraph_count: 596
+episode_count: 788
+source_count: 788
+paragraph_count: 597
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and realistic boundaries on automation and marketplace transfer.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and ethical boundaries on visible technical capability.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed access and distribution, lifecycle trust, recoverability, and properly interpreted growth signals.
+Durable value joins customer outcomes, sustainable economics, governed access and distribution, lifecycle trust, recoverability, and prepared opportunity use without treating effort as entitlement.
 
 - [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
@@ -57,7 +57,7 @@ Media and culture combine expression, identity, distribution, monetization, plat
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, compatible defaults, bounded stewardship, and accountability across connected systems.
+Institutions need explicit authority, evidence, appeal, transparency, bounded stewardship, and ethical accountability when private capability is converted into consequential action.
 
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
