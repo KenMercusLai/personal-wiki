@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
       "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
       "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
       "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
@@ -549,11 +550,27 @@
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
       "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a"
     ],
-    "paragraph_count": 547
+    "paragraph_count": 548
   },
-  "overview_commit": "4181cb28475cf1587ab145cdd8d98608a35d2185",
-  "overview_digest": "a744182f97d8b5ddca8c8cb6cf88b2718a2534defe6da5f940b6486a84d328de",
+  "overview_commit": "2d7d03aab10792d1f5133b681f3511c8e262e473",
+  "overview_digest": "46fe2aaf21957e0659358aa94d9ee242c9d9711f803b2bd613b2ba5a233b10f6",
   "paragraphs": [
+    {
+      "id": "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[AlejandroWainzinger]] source adds [[CrossCulturalWorkplaceAdaptation]] as a coupled technical, linguistic, relational, and institutional problem. His Tokyo account connects legacy encodings and collaboration tools with formal email, naming, outsider status, consensus, indirect refusal, hierarchy, and perseverance norms. The durable lesson is two-sided: practices that appear obsolete or irrational may persist because of compatibility, face, or coordination constraints, yet “cultural difference” can also terminate inquiry into missing tests, ineffective meetings, bullying, ambiguity, or infeasible work. [[WorkplaceCollaboration]] therefore gains tactics sensitive to social exposure, including seeking disagreement one-to-one, while [[WorkLifeBalance]] gains a warning that unconditional commitment can conceal impossibility and shift costs into stress and illness. The synthesis also preserves a distributional concern: a relatively protected foreign worker may challenge pressure, but refusal can redirect that pressure toward coworkers. This is one 2018 retrospective by a foreign engineer, not representative evidence about Japanese companies; it supplies no sampling, prevalence, comparison group, or current validation, and should generate questions rather than stereotypes. The source Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AlejandroWainzinger",
+        "CrossCulturalWorkplaceAdaptation",
+        "WorkLifeBalance",
+        "WorkplaceCollaboration"
+      ]
+    },
     {
       "id": "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
       "primary_topic": "business-and-markets",

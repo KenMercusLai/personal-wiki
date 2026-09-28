@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Gaijin Engineer in Tokyo
+
+Added [[AlejandroWainzinger]]'s qualified first-person account of working as a foreign software engineer in Japanese companies. Created [[CrossCulturalWorkplaceAdaptation]] with the coupled effects of technical compatibility, formal language, hierarchy, indirect communication, outsider status, intervention, and overcommitment; preserved the distinction between understanding a practice's local function and excusing operational or human harm. The source repeatedly marks itself as anecdotal, supplies no representative sample or prevalence data, and should not be generalized to all Japanese workplaces or current conditions. The Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-09-28] ingest | From Show HN to Series D
 
 Added Segment's company-authored path from a 400-line Analytics.js library and Show HN launch through hosted-product signups, live-chat feedback, activation metrics, a $2 million bridge round, annual contracts, corrected monetization, and the later customer-data platform. Created [[EarlyStartupDemandValidation]]; updated [[TwilioSegment]], [[HackerNews]], and [[PeterReinhardt]] from their complete ordered evidence inventories. Preserved the distinctions between attention and qualified demand, prospect interest and adoption, early pricing hypotheses and durable strategy, and retrospective survivor narrative versus independent causal evidence. Opened all 24 local images, omitted four decorative or prose-duplicating items, and retained 20 evidence-bearing launch, product, feedback, seed-deck, and closing-email images at their semantic positions with descriptive filenames and a complete manifest.
@@ -5820,6 +5824,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Gabriel Weinberg's Answer to What Is the Revenue Generation Model for DuckDuckGo?
 
 Added Weinberg's first-party account of [[DuckDuckGo]]'s revenue model: primary current-query keyword advertising plus a smaller stream of anonymous Amazon and eBay affiliate commissions. Updated DuckDuckGo, [[GabrielWeinberg]], and [[PrivacyPreservingSearch]] from their complete ordered evidence inventories, refining the reported profitability boundary to 2014 and preserving the lack of audited revenue, privacy, affiliate-flow, and counterfactual platform-profit evidence. The saved Quora copy has no original publication date, ends before its promised recommendations, and contains no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 
