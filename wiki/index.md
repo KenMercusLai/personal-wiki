@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Here's What a Real Growth Strategy Looks Like — Road Tested by Facebook and Remind](sources/heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review.md) - Meenal Balar frames growth as retention-gated, cross-functional work combining local context, instrumentation, usability, activation, engagement, virality, and targeted push.
 - [Here's The Thing With Free Apps And Services](sources/heres-the-thing-with-free-apps-and-services.md) - Nicole Nguyen uses the Unroll.me controversy to connect free-service data monetization with permission review, policy scrutiny, revocation, and business-model checks.
 - [Here's How Trello Nailed Localization and Global Marketing](sources/heres-how-trello-nailed-localization-and-global-marketing.md) - Trello's 2016 case joins demand-led experiments, managed volunteer translation, professional fallback, internationalization, and local marketing in a 20-language rollout.
 - [Here's How (and Why) Entrepreneurs Are Getting Venture Investors Out of Their Companies](sources/heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com.md) - Wistia and Buffer show how debt- or cash-flow-funded investor buyouts can restore strategic control when profitable independence no longer fits venture-scale return expectations.
@@ -802,6 +803,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Meenal Balar](entities/MeenalBalar.md) - Former Facebook international-growth leader and Remind marketing executive represented through a retention-gated, locally informed growth framework.
+- [Remind](entities/Remind.md) - Education messaging startup used as a case of measurement-led activation, school-network growth, and cross-functional execution.
 - [Nicole Nguyen](entities/NicoleNguyen.md) - Technology reporter translating free-service privacy risks into consumer checks around permissions, policies, and revenue models.
 - [Unroll.me](entities/UnrollMe.md) - Email-management service represented through a 2017 controversy over broad inbox access and secondary receipt-data monetization.
 - [Trello](entities/Trello.md) - Visual collaboration product represented through its experiment-led, community-assisted 2016 localization program.

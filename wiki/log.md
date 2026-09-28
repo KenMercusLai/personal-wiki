@@ -6320,3 +6320,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Here's What a Real Growth Strategy Looks Like — Road Tested by Facebook and Remind
+
+Added First Round Review's 2015 interview with [[MeenalBalar]] on retention-gated growth across [[Facebook]] and [[Remind]]. Created [[MeenalBalar]] and [[Remind]], and updated [[GrowthEngineering]], [[ProductLedRetention]], and [[NotificationDesign]] from their complete ordered evidence inventories. Preserved the distinction between measured activity and durable user value, the historical and company-reported limits of the examples, and the absence of cohort definitions, experiment details, or independent outcome verification. Opened the sole local image and omitted it as a decorative header illustration without independent evidence.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

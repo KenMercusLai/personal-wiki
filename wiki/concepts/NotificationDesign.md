@@ -4,7 +4,8 @@ type: concept
 tags: [notifications, attention, product-design, mobile]
 sources:
   - why-were-stuck-in-an-abusive-relationship-with-our-phones
-last_updated: 2026-09-22
+  - heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,15 +13,18 @@ knowledge_schema: synthesis-v1
 [[NotificationDesign]] is the design of when, why, and how software interrupts a person, including prioritization, delivery context, frequency, user controls, and the incentives that determine notification volume.
 
 ## Current Synthesis
-The source presents notifications as a three-level coordination problem. Users experience interruption, anticipation, and fear of missing out; app teams seek time spent, daily activity, and re-engagement; and mobile operating systems control contextual signals and delivery infrastructure. Because app-level engagement incentives favor sending an alert whenever it might be useful, and sophisticated prioritization is expensive for each team to build, notification quality is unlikely to improve through user willpower or developer restraint alone. The proposed direction is to let platforms help rank and defer alerts using context and observed value, while preserving user-controlled batching such as do-not-disturb.
+The sources present notifications as both an attention-governance problem and a targeted engagement mechanism. Users experience interruption, anticipation, and fear of missing out; app teams seek re-engagement; and mobile operating systems control contextual signals and delivery infrastructure. Because engagement incentives favor sending alerts and sophisticated prioritization is costly, quality is unlikely to improve through user willpower or developer restraint alone.
+
+Balar supplies an application-level design checklist: valuable content, a behaviorally appropriate trigger, a receptive audience, and verified delivery. The audience dimension matters because already-engaged users may return without prompting, while likely-to-churn users may benefit more. Delivery measurement is part of the design rather than a transport afterthought, because missed timing distorts both the intervention and the data used to judge it. Platform ranking and user-controlled batching remain complementary safeguards against excessive interruption.
 
 ## Key Claims
 - Notification volume creates repeated interruption and refocusing costs even when users do not open every alert.
 - Variable rewards and fear of missing out can make people resist filters that permanently hide low-value notifications.
 - Time-spent and daily-active-user metrics reward re-engagement, producing a structural bias toward more notifications.
-- Individual app teams may lack the priority, context, or resources to build sophisticated notification ranking.
-- Operating systems can potentially use context and response history to defer low-value alerts and deliver fewer, higher-value interruptions.
+- When individual app teams lack context or resources for sophisticated ranking, operating systems can potentially use response history and situational context to defer low-value alerts.
 - User-controlled batching restores agency by separating delivery from deliberate review.
+- Targeted push should coordinate content, trigger, audience, and delivery instead of optimizing notification volume alone.
+- Delivery observability is necessary because timing failures can make response data misleading.
 
 ## Evidence
 Interruption costs:
@@ -38,13 +42,18 @@ App-level implementation limits:
 Platform leverage and user control:
 - [[why-were-stuck-in-an-abusive-relationship-with-our-phones]] argues that mobile platforms know contextual states and alert-response history, and reports do-not-disturb as the author's practical batching mechanism.
 
+Application targeting:
+- [[heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review]] specifies content, trigger, audience, and delivery as four interacting parts of push design.
+- [[heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review]] reports that Facebook reduced low-impact messages to already-engaged users and focused more on users likely to churn.
+- [[heres-what-a-real-growth-strategy-looks-like-road-tested-by-facebook-and-remind-first-round-review]] argues that delivery-window instrumentation is required to interpret user response correctly.
+
 ## Counterevidence & Qualifications
-The source is a 2015 practitioner essay, so its platform capabilities, notification volumes, interface descriptions, and company examples are time-bound. Its cited averages do not establish that every notification is harmful, and urgent communication, accessibility, safety, care work, and operational monitoring can justify interruption. Context-aware platform ranking also creates privacy, control, opacity, and mistaken-suppression risks. The essay's willpower-depletion and dopamine language should be treated as its explanatory framing, not as a settled causal account of compulsive phone use.
+Both sources are 2015 practitioner accounts, so their platform capabilities, notification volumes, interface descriptions, and company examples are time-bound. The cited averages do not establish that every notification is harmful, and urgent communication, accessibility, safety, care work, and operational monitoring can justify interruption. Context-aware ranking and churn targeting create privacy, control, opacity, manipulation, and mistaken-suppression risks. Neither source provides controlled evidence that notifications caused retention, nor does Balar's checklist resolve frequency caps, consent, quiet hours, vulnerable users, or conflicts between user value and company engagement goals. The willpower-depletion and dopamine language in the earlier essay remains its explanatory framing rather than a settled causal account.
 
 ## What Changed
-- Established notification design as a joint user, application, and platform responsibility.
-- Identified engagement metrics and implementation cost as causes of excess notification volume.
-- Added context-aware prioritization and deliberate batching as complementary interventions.
+- Added content, trigger, audience, and delivery as the application-level targeting model.
+- Added delivery observability and the distinction between already-engaged and likely-to-churn audiences.
+- Preserved platform prioritization and user batching as safeguards against engagement-driven excess.
 
 ## Related Concepts
 - [[AttentionManagement]] - notification timing determines when external systems can claim scarce attention.
@@ -53,3 +62,5 @@ The source is a 2015 practitioner essay, so its platform capabilities, notificat
 - [[MobilePlatformDiscovery]] - notifications are a platform-governed path back into apps and services.
 - [[MobileRuntime]] - a notification can invoke a mobile service outside an active app session.
 - [[InformationOverload]] - high alert volume turns incoming information into a filtering problem.
+- [[ProductLedRetention]] - targeted prompts should help users reach recurring value without substituting interruption for product value.
+- [[BehaviorDesign]] - trigger timing and audience selection shape which action a notification prompts.
