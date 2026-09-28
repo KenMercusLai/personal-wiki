@@ -734,8 +734,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From Campus Drive to Cisco: Our Journey with AppDynamics](sources/from-campus-drive-to-cisco-our-journey-with-appdynamics.md) - Asheem Chandna recounts AppDynamics' path from 2008 Series A and early product formation through CEO succession, IPO preparation, and Cisco's last-minute acquisition proposal.
 - [From Idea to App Store: A Design Sprint Case Study](sources/from-idea-to-app-store-a-design-sprint-case-study-ux-planet.md) - Jonathan Courtney documents AJ&Smart's remote Oak redesign, from shared sprint exercises and staged client alignment through four-week handoff and qualified launch recognition.
 - [From Selling Scoops Of Ice Cream To Founding ZeroCater](sources/from-selling-scoops-of-ice-cream-to-founding-zerocater-techcrunch.md) - Arram Sabeti traces ZeroCater from Justin.tv apprenticeship and manual meal operations through founder-led sales, scaling bottlenecks, cofounder loss, Y Combinator, and fundraising.
+- [From the Editor: ACSM's Health & Fitness Journal](sources/from-the-editor-acsm-s-health-fitness-journal.md) - Steven Keteyian frames accurate research translation as a health and fitness professional duty and previews one practitioner issue without supplying the featured studies' evidence.
 
 ## Entities
+- [Steven J. Keteyian](entities/StevenKeteyian.md) - Historical editor-in-chief profile centered on practitioner-facing research translation and skepticism toward health and fitness fads.
+- [American College of Sports Medicine](entities/AmericanCollegeOfSportsMedicine.md) - Professional organization presented through its certifications, programs, and publishing role in translating sports-medicine research.
+- [ACSM's Health & Fitness Journal](entities/ACSMHealthAndFitnessJournal.md) - Practitioner publication described as turning health and fitness science into practical professional guidance.
 - [Arram Sabeti](entities/ArramSabeti.md) - ZeroCater founder represented through startup apprenticeship, direct selling, manual validation, operational scaling, and a qualified determination thesis.
 - [ZeroCater](entities/ZeroCater.md) - Office-meal service that validated demand with an inbox and spreadsheet before software automation and institutional funding.
 - [Twitch](entities/Twitch.md) - Source-bounded 2016 case for livestreamed media combining gameplay, viewing, audience participation, and a shared sense of presence.
@@ -2058,6 +2062,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nexercise](entities/Nexercise.md) - Fitness-app company that acquired and merged with Sworkit and appointed Ryan Hanna as a product and engineering executive.
 
 ## Concepts
+- [Research-to-Practice Translation](concepts/ResearchToPracticeTranslation.md) - Interpretation of appropriately conducted research into usable professional guidance while preserving evidence scope and uncertainty.
 - [Early Startup Demand Validation](concepts/EarlyStartupDemandValidation.md) - Evidence ladder separating launch attention, qualified intent, signup, activation, retention, payment, and model correction.
 - [Here-and-Now Media](concepts/HereAndNowMedia.md) - Proposed media paradigm in which shared presence, participation, location, immediacy, or mutability become part of content's value.
 - [Score Shading](concepts/ScoreShading.md) - Dynamic mixed-ranking score control that optimizes format utility under load or score-cost constraints.

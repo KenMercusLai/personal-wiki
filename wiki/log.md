@@ -5800,3 +5800,11 @@ Added a short 2016 Economist excerpt connecting early AI overpromising, later av
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From the Editor: ACSM's Health & Fitness Journal
+
+Added [[StevenKeteyian]]'s 2013 editorial framing accurate [[ResearchToPracticeTranslation]] as a professional responsibility amid commercial health and fitness claims. Created source-bounded profiles for Keteyian, the [[AmericanCollegeOfSportsMedicine]], and [[ACSMHealthAndFitnessJournal]], while preserving the distinction between the editorial's promotional issue preview and evidence from the underlying fitness-trends, hydration, and waist-circumference articles. The single remote lead JPEG could not be retrieved because its host did not resolve and no viewable indexed copy was found; it was not interpreted or retained, and no image-derived claim was used.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
