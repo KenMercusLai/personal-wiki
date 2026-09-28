@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "heres-how-trello-nailed-localization-and-global-marketing",
+  "images": [
+    {
+      "file": "trello-language-coverage-map.png",
+      "alt": "Map of countries whose official language was available in Trello after the global launch"
+    },
+    {
+      "file": "japanese-localization-board.png",
+      "alt": "Japanese Trello crowdsourcing board organizing context, incoming issues, consistency work, testing, and volunteer discussion"
+    },
+    {
+      "file": "global-work-survey-infographic.png",
+      "alt": "Trello survey infographic reporting languages spoken and daily interaction across countries"
+    }
+  ]
+}

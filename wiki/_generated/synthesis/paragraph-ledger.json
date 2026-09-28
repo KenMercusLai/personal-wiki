@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
       "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
       "43d703705f803754497c223fb6854b65c29dc5a1f543874b9a1a583018d4ab19",
       "46a83cb4dee4bd69e86a2ed639d53fad425c9da06987230ed1ec53ffb57d7c36",
@@ -594,11 +595,31 @@
       "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb",
       "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa"
     ],
-    "paragraph_count": 592
+    "paragraph_count": 593
   },
-  "overview_commit": "227834582acccbc876d5f5f5b5331bcfe5057544",
-  "overview_digest": "fafcc0d23e7525e930419701f40665cce9fcb68551ab9fa710629556d0fa037a",
+  "overview_commit": "38e09c7350cf0c02e524305a665f0ddfe9a47d79",
+  "overview_digest": "2207296d7feb1507c1dd55f8027a89c01c6a3fd91fc60882bd10d761e21c59f8",
   "paragraphs": [
+    {
+      "id": "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[PatrickYip]] source adds [[Trello]]'s 2016 localization program as an experiment-led counterpart to [[Dropbox]]'s operating expansion. Existing signup, browser, device-language, and country data selected initial markets; Brazil, Spain, and Germany tested different launch treatments; France tested volunteer translation; and only then did Trello coordinate 16 additional languages. New [[CrowdsourcedLocalization]] captures the production system behind the headline: 520 active users worked through a translation management system and one Trello board per language, with eligibility rules, glossaries, contextual screenshots, discussion, three or four reviewers, peer correction, deadlines, rewards, and professional fallback. Product familiarity may help preserve voice, but the case also shows where volunteers stop being sufficient: some deadline-risk Asian languages and weekly updates moved to paid services, while pluralization, gender, and right-to-left behavior required engineering or workarounds. Translation availability did not activate a market by itself—translated-only Spain reportedly changed little, marketing-intensive Brazil doubled launch-period signups, and France tripled them while remaining 25% above its prior level—but the comparisons changed multiple variables and do not isolate causes. The case qualifies [[InternationalExpansionStrategy]]'s sequential-launch rule: a bounded digital translation program with shared tooling may parallelize after pilots, whereas offices, entities, support, payments, and regulation still create shared cross-functional load. The article is historical, vendor-published, self-reported, inconsistent about whether the total was 20, over 20, or 21 languages, and supplies no independent quality audit, cost accounting, long-term retention, or revenue evidence. All ten effective image references were opened; the language map, Japanese coordination board, and global-work survey infographic were retained, while decorative hero, portrait, logo, and promotional images were omitted.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CrowdsourcedLocalization",
+        "Dropbox",
+        "InternationalExpansionStrategy",
+        "PatrickYip",
+        "Trello"
+      ]
+    },
     {
       "id": "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
       "primary_topic": "business-and-markets",

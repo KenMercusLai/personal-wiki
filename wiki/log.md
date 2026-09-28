@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-29] ingest | Here's How Trello Nailed Localization and Global Marketing
+
+Added [[PatrickYip]]'s account of [[AlexiaOhannessian]] leading [[Trello]] from demand-led country experiments to a managed volunteer translation system and broad language launch. Created [[Trello]], [[AlexiaOhannessian]], [[PatrickYip]], and [[CrowdsourcedLocalization]], and updated [[InternationalExpansionStrategy]] from its complete ordered evidence inventory. Preserved the historical, vendor-published, self-reported, causally uncontrolled, inconsistent language-count, volunteer-cost, quality, fairness, and generalization limits. Opened all ten effective image references; retained the language-coverage map, Japanese localization board, and survey infographic under descriptive canonical filenames, and omitted the decorative hero, two Alexia portraits, Patrick portrait, Trello logo, and promotional banner.
+
 ## [2026-09-29] ingest | The 37signals Guide to Internal Communication
 
 Added [[JasonFried]]'s account of [[37signals]]' asynchronous, writing-led communication system. Created [[AsynchronousWorkplaceCommunication]] and [[Basecamp]], and updated [[37signals]], [[JasonFried]], [[StrategicWriting]], [[ScalingCommunication]], and [[RemoteWork]] from their complete ordered evidence inventories with delayed-response norms, durable complete thoughts, contextual project discussion, a centralized record, recurring daily/weekly/six-week cadences, and meeting-cost boundaries. Preserved the guide's first-party, unmeasured, and transferability limits, including exceptions for emergencies, sensitive conflict, accessibility needs, frontline work, and other coordination contexts. The supplied Markdown contains no effective image references.
@@ -6300,6 +6304,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Here's How (and Why) Entrepreneurs Are Getting Venture Investors Out of Their Companies
 
 Added Inc.'s account of [[Wistia]] and [[Buffer]] using debt- and cash-flow-funded share repurchases to reduce investor misalignment and pursue profitable independence. Created [[ChrisSavage]], [[PrivateCompanyInvestorBuyout]], and [[EmployeeProfitSharing]], and updated [[Wistia]], [[Buffer]], [[JoelGascoigne]], [[VentureBackedGrowthPressure]], and [[VentureCapitalFundStructure]] from their complete ordered evidence inventories. Preserved the distinction between direct investor tension and founder-internalized growth pressure, plus the selection, debt, reserve, valuation, consent, and missing-transaction-document limits on treating buyouts as a general solution. Opened the sole local image and omitted it because it is a generic stock-office photograph without transaction or company evidence.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 
