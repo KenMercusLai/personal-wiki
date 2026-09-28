@@ -6208,3 +6208,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hacker Puts Hosting Service Code Spaces Out of Business
+
+Added Threatpost's 2014 report on the [[CodeSpaces]] incident, in which an attacker reportedly combined DDoS and extortion with persistent [[AWS]] control-panel access, then deleted production infrastructure, repositories, configurations, snapshots, object storage, and most backups within about 12 hours. Created [[CodeSpaces]] and updated [[AWS]], [[BackupAndRecovery]], and [[CloudAccountSegmentation]] from their complete ordered evidence inventories, distinguishing machine access from control-plane authority and geographic redundancy from administratively independent recovery. Preserved the report's reliance on Code Spaces' own crisis statement, unknown initial-access method, unverified control configuration, and inability to prove that any single safeguard would have prevented the outcome. Opened the remote lead image and omitted it as a generic, non-evidentiary stock illustration.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

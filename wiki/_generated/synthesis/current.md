@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: e0b5322634b97cb887e53e3ce473a0ec0a7aa0b5
+as_of_overview_commit: 4cc50fbd35fb226e1e94c364b7a08bd1389cbec6
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, economics, and trust."
-episode_count: 770
-source_count: 770
-paragraph_count: 584
+episode_count: 771
+source_count: 771
+paragraph_count: 585
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, and growth signals interpreted through base size, persistence, retention, and unit economics.
+Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, independently recoverable infrastructure, and growth signals interpreted through base size, persistence, retention, and unit economics.
 
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
 - [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].

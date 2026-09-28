@@ -584,12 +584,13 @@
       "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97",
       "dab0abc2e7dc3538c7f9cf8ccd36795852501bd9eb92dd58d35121154d9e264b",
       "e226d6a51f62d5c8c9639ebb398b96a6b1ae6e4e270af3a22fcda30b6101e2d4",
-      "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0"
+      "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0",
+      "31576f5b424bdfce04ac6455afd90a01d02771ba0f029498d458dd3a8bdcc4ef"
     ],
-    "paragraph_count": 584
+    "paragraph_count": 585
   },
-  "overview_commit": "e0b5322634b97cb887e53e3ce473a0ec0a7aa0b5",
-  "overview_digest": "23fa82add9665251dad88b005b1ae54f90122e8cc4afe68d6b6ba24f41653076",
+  "overview_commit": "4cc50fbd35fb226e1e94c364b7a08bd1389cbec6",
+  "overview_digest": "3a729af38eece8ef68262894fd618b3a05977bc972ebe9f834ad6094bbfb4887",
   "paragraphs": [
     {
       "id": "43d703705f803754497c223fb6854b65c29dc5a1f543874b9a1a583018d4ab19",
@@ -11833,6 +11834,22 @@
         "GrowthHacking",
         "PlatformDistributionDependence",
         "StartupDistributionStrategy"
+      ]
+    },
+    {
+      "id": "31576f5b424bdfce04ac6455afd90a01d02771ba0f029498d458dd3a8bdcc4ef",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Threatpost source adds [[CodeSpaces]] as an extreme connection between cloud control-plane compromise, [[BackupAndRecovery]], and business continuity. The attacker reportedly combined a DDoS attack and extortion demand with [[AWS]] control-panel access, created persistent logins, and began deleting assets when recovery attempts were noticed. Direct machine access was unnecessary: EBS snapshots and volumes, S3 buckets, AMIs, instances, configurations, SVN repositories, and most backups were within the compromised administrative scope. This sharpens [[CloudAccountSegmentation]] because geographic distribution and nominally offsite copies do not provide recovery independence when one identity or account can delete them all. Code Spaces' advertised redundancy and reportedly practiced recovery plan therefore conflict with the outcome, which the company said made refunds, recovery cost, and lost credibility financially irreversible within about 12 hours. The evidence remains a 2014 secondary report based largely on Code Spaces' crisis statement; it does not establish initial access, independently verify the asset inventory, show which MFA or IAM controls were configured, or prove that account separation alone would have prevented the failure. The remote lead image was opened and omitted as a generic, non-evidentiary stock illustration.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AWS",
+        "BackupAndRecovery",
+        "CloudAccountSegmentation",
+        "CodeSpaces"
       ]
     }
   ],

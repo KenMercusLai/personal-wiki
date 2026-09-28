@@ -786,6 +786,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Get That Life: How Two Friends Started The Skimm From Their Apartment](sources/get-that-life-how-two-friends-started-the-skimm-from-their-apartment.md) - Danielle Weisberg and Carly Zakin explain theSkimm's audience-routine thesis, email launch, founder-network referrals, early operating strain, and first fundraising.
 
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
+- [Hacker Puts Hosting Service Code Spaces Out of Business](sources/hacker-puts-hosting-service-code-spaces-out-of-business-threatpost.md) - Threatpost reports how compromised AWS control-plane access let an attacker delete Code Spaces' production assets and backups, forcing the code-hosting company to cease trading.
 
 ## Entities
 - [Basecamp](entities/Basecamp.md) - 37signals collaboration product used as the durable, contextual system of record for nearly all reported internal communication.
@@ -2171,6 +2172,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab](entities/GitLab.md) - Software company whose candid 2017 incident account exposed the gap between nominal database safeguards and demonstrated recovery.
 - [Wildbit](entities/Wildbit.md) - Software company represented through a team-centered product-management philosophy.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
+- [Code Spaces](entities/CodeSpaces.md) - Code-hosting and collaboration company forced to cease trading after an attacker deleted AWS-hosted production and recovery assets.
 
 ## Concepts
 - [Asynchronous Workplace Communication](concepts/AsynchronousWorkplaceCommunication.md) - Delayed, durable, context-rich work exchange designed around considered responses rather than shared schedules or routine urgency.
@@ -3315,6 +3317,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Human Resources Governance](concepts/HumanResourcesGovernance.md) - Design of HR leadership, reporting, scope, rules, feedback, and onboarding for growing organizations.
 - [Whistleblower Reporting Systems](concepts/WhistleblowerReportingSystems.md) - Training, reporting channels, anonymity controls, escalation, and recurring communication for surfacing serious misconduct.
 
-- [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining independent data copies and proving they can restore the required scope and point in time.
+- [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining independently controlled data copies and proving they can restore the required scope and point in time.
 
 ## Syntheses
