@@ -5670,3 +5670,11 @@ Added [[TimWestergren]]'s retrospective on building [[Pandora]] from Savage Beas
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Founder's Guide to Automation
+
+Added [[StartupOperationsAutomation]] as a bounded practice of simplifying stable recurring work, automating the predictable path, and retaining monitoring, exception handling, and periodic reassessment. Updated [[FundersClub]], [[FounderTimeLeverage]], [[OrganizationalLeverage]], and [[DoingThingsThatDoNotScale]] from their complete ordered evidence inventories with operational payback, process-debt prevention, first-customer learning, and the limits imposed by maintenance and changing constraints. Preserved the source's selected-anecdote and self-reported-figure boundaries. Opened the sole local image and omitted it as a decorative photograph of gears with no independent evidence, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

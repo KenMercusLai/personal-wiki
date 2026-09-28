@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: a6d3fef6e440693084d77e8ad580ddfed9078624
+as_of_overview_commit: b28b6211a4c6594a25a6121249c80dd22ee62f76
 summary: "A cross-domain knowledge map covering technology, business, culture, governance, psychology, health, work, and society, with claims bounded by source evidence."
-episode_count: 702
-source_count: 702
+episode_count: 703
+source_count: 703
 paragraph_count: 539
 topic_count: 9
 ---

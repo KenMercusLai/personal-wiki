@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Founder's Guide to Automation](sources/founders-guide-to-automation-fundersclub.md) - FundersClub argues for automating stable recurring startup work while preserving human oversight, escalation, and high-touch learning with first customers.
 - [Founder of Pandora on Lessons from Near Dot Com Bust to Billion Dollar IPO](sources/founder-of-pandora-on-lessons-from-near-dot-com-bust-to-billion-dollar-ipo-first-round-review.md) - Tim Westergren connects Pandora's software focus, prolonged cash crisis, team endurance, founder-role recasting, and post-IPO scale.
 - [Founder Stories: A Hacker's Hacker](sources/founder-stories-a-hackers-hacker-openocean.md) - OpenOcean profiles Monty Widenius through MySQL's long development, open-source commercialization, developer-led culture, MariaDB, and OpenOcean.
 - [Founder Friendly? No thanks](sources/founder-friendly-no-thanks-sam-gerstenzang-medium.md) - Sam Gerstenzang argues that boards should respect founder operating context without promising unconditional loyalty when leadership fit or conduct conflicts with the company's needs.
@@ -999,7 +1000,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GGV Capital](entities/GGVCapital.md) - Venture-capital publication and employer context for Jason Costa's API-platform essay.
 - [UberMedia](entities/UberMedia.md) - Third-party Twitter-client consolidator presented as a platform-control risk during Twitter's API transition.
 - [Joshua Merrill](entities/JoshuaMerrill.md) - eShares product leader used by Henry Ward to illustrate why senior management depends on influence rather than command.
-- [FundersClub](entities/FundersClub.md) - Venture-capital organization publishing practitioner guidance on co-founder fit and descriptive portfolio founder-count data.
+- [FundersClub](entities/FundersClub.md) - Venture-capital organization publishing practitioner guidance on co-founder fit and startup operations automation.
 - [Josh Breinlinger](entities/JoshBreinlinger.md) - Marketplace investor and author of the Craigslist rebundling thesis, with disclosed portfolio exposure to OfferUp and Upwork.
 - [OfferUp](entities/OfferUp.md) - Broad local-commerce marketplace used as the for-sale category example in the rebundling thesis.
 - [Parker Thompson](entities/ParkerThompson.md) - Startup adviser arguing for team-level engineering productivity, cross-functional product roles, collaborative craft, and early inclusive hiring.
@@ -2234,6 +2235,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [High-Concurrency Inventory Deduction](concepts/HighConcurrencyInventoryDeduction.md) - Coordinating simultaneous purchase attempts across order, inventory, cache, and database boundaries while bounding overselling, underselling, latency, and availability loss.
 - [Video as Content Container](concepts/VideoAsContentContainer.md) - Use of audiovisual media as a portable wrapper for text, motion, sound, live action, interface-like sequences, and advertising.
 - [Organizational Leverage](concepts/OrganizationalLeverage.md) - Redesigning work through software, automation, reusable systems, or capability growth so fixed effort produces greater impact.
+- [Startup Operations Automation](concepts/StartupOperationsAutomation.md) - Selective redesign of recurring startup work around predictable software execution, human judgment, exception handling, and changing goals.
 - [Market-Based Compensation](concepts/MarketBasedCompensation.md) - Setting salary and equity from current role demand, capability, company stage, and market conditions while accounting for measurement and fairness limits.
 - [Audience-Centered Game Design](concepts/AudienceCenteredGameDesign.md) - Designing interactive experiences from intended players' lives, tastes, barriers, and desired forms of meaning rather than inherited gamer conventions.
 - [Digital Purchase Durability](concepts/DigitalPurchaseDurability.md) - Persistence of a digital purchase across changes in compatible devices, operating systems, stores, services, interface conventions, and user habits.
