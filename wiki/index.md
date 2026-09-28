@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From Experiment to Product: Capital-as-a-Service One Year Later](sources/from-experiment-to-product-capital-as-a-service-one-year-later.md) - Social Capital's first-year CaaS retrospective reports global automated-diligence reach and early portfolio signals without validating model accuracy, bias reduction, or investment performance.
 - [From 2016: Why Deep Learning Is Suddenly Changing Your Life](sources/from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune.md) - A 2016 history links deep learning's commercial breakthrough to labeled data, GPUs, multilayer training, ImageNet, and industrial adoption while preserving limits around reasoning, medicine, and open-world transfer.
 - [From 0 to 70% Market Share: How Google Chrome Ate the Internet](sources/from-0-to-70-market-share-how-google-chrome-ate-the-internet.md) - A 2019 retrospective links Chrome's architecture, developer ecosystem, distribution, and enterprise expansion to browser dominance and later standards and privacy concerns.
 - [From 0 to $1B - Slack's Founder Shares Their Epic Launch Strategy](sources/from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review.md) - Stewart Butterfield connects Slack's launch to staged beta cohorts, category education, bottom-up team adoption, feedback operations, a product-specific activation threshold, and three focused differentiators.
@@ -729,6 +730,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From Campus Drive to Cisco: Our Journey with AppDynamics](sources/from-campus-drive-to-cisco-our-journey-with-appdynamics.md) - Asheem Chandna recounts AppDynamics' path from 2008 Series A and early product formation through CEO succession, IPO preparation, and Cisco's last-minute acquisition proposal.
 
 ## Entities
+- [Capital-as-a-Service](entities/CapitalAsAService.md) - Social Capital's online product for automated, operating-data-based early-stage diligence and funding decisions.
 - [Andrew Ng](entities/AndrewNg.md) - AI researcher represented through Google Brain, the unlabeled-image experiment, input-to-output learning, and the AI-as-electricity industrial thesis.
 - [Fei-Fei Li](entities/FeiFeiLi.md) - Computer-vision researcher who founded ImageNet as large labeled-data infrastructure and a public evaluation institution.
 - [Yann LeCun](entities/YannLeCun.md) - Neural-network researcher connecting early multilayer and applied image-recognition work to the later deep-learning revival.

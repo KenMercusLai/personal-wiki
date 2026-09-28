@@ -5749,3 +5749,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From Experiment to Product: Capital-as-a-Service One Year Later
+
+Added Social Capital's first-year [[CapitalAsAService]] retrospective, covering its online transaction-data workflow, rapid funding decisions, roughly 5,000 applications considered, 520 validated, 76 approved, geographic and founder reach, sector mix, and early portfolio events. Created [[CapitalAsAService]] and updated [[SocialCapital]] and [[ProductMarketFit]] from their complete ordered evidence inventories. Preserved the central evidence boundary: the self-reported snapshot measures reach and throughput but does not disclose model design, calibration, decision errors, rejected-company outcomes, investment amounts, realized returns, or evidence that automation removed bias. Opened both local images, retained the evidence-bearing 1200-by-1563 first-year infographic under a canonical descriptive filename, and omitted its 46-by-60 duplicate thumbnail.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
