@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Happy Xiao - 如何扩散](sources/happy-xiao-ru-he-kuo-san.md) - Happy Xiao recounts Morning Brew's move from selective campus ambassadors, through automated scale, to a tiered hybrid emphasizing active participants and non-cash motivation.
 - [Happy Xiao - 冷酷之道](sources/happy-xiao-leng-ku-zhi-dao.md) - Happy Xiao argues that creators should practice daily, detach each attempt from short-term numbers, and judge growth over a longer horizon.
 - [Halide: One Year Later](sources/halide-one-year-later-halide.md) - Ben Sandofsky reviews Halide's first year of focused product iteration, App Store distribution, one-time pricing, support lessons, and release-linked sales.
 - [Hacking the Attention Economy](sources/hacking-the-attention-economy-data-society-points.md) - danah boyd traces attention hacking from 4chan meme campaigns to marketing, activism, harassment, propaganda, institutional doubt, and political power.
@@ -794,7 +795,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
-- [Happy Xiao](entities/HappyXiao.md) - Writer connecting daily content practice, emotional steadiness around results, and long-horizon growth.
+- [Morning Brew](entities/MorningBrew.md) - Newsletter company whose early campus ambassador program combined broad recruitment with selective high-touch support.
+- [Austin Rief](entities/AustinRief.md) - Morning Brew co-founder represented through iterative ambassador-program design and incentive lessons.
+- [Happy Xiao](entities/HappyXiao.md) - Writer connecting iterative creator practice with staged experiments in startup distribution.
 - [Halide](entities/Halide.md) - Paid iPhone camera app built for deliberate advanced photography and evolved through focused first-year releases.
 - [Ben Sandofsky](entities/BenSandofsky.md) - Halide co-creator and author of its first-year product and business retrospective.
 - [Sebastiaan de With](entities/SebastiaanDeWith.md) - Halide co-creator associated with its tactile design, iPhone X redesign, and educational photography content.
@@ -2193,6 +2196,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Campus Ambassador Programs](concepts/CampusAmbassadorPrograms.md) - Student advocacy programs that combine broad recruitment, observed-activity selection, concentrated enablement, and motivation design.
 - [Networked Information Manipulation](concepts/NetworkedInformationManipulation.md) - Coordinated exploitation of platform distribution, social participation, and media incentives to shape visibility, interpretation, trust, and speech.
 - [Abandoned Domain Takeover](concepts/AbandonedDomainTakeover.md) - Re-registration of an expired organizational domain to intercept former email and exploit lingering ownership or recovery paths.
 - [Asynchronous Workplace Communication](concepts/AsynchronousWorkplaceCommunication.md) - Delayed, durable, context-rich work exchange designed around considered responses rather than shared schedules or routine urgency.

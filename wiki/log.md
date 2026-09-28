@@ -6256,3 +6256,11 @@ Added [[HappyXiao]]'s short argument for daily content practice, emotional dista
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Happy Xiao - 如何扩散
+
+Added [[HappyXiao]]'s account of [[MorningBrew]] and [[AustinRief]] iterating a college ambassador program from selective recruitment, through automated volume, to a tiered hybrid that concentrated coaching, peer access, scripts, and flyers around active participants. Created [[MorningBrew]], [[AustinRief]], and [[CampusAmbassadorPrograms]], and updated [[HappyXiao]] from his complete ordered evidence inventory. Preserved the secondary-retelling, historical, self-reported, attribution, retention, cost, and generalization limits around student reliability, concentrated contribution, and cash incentives. The source contains no image references, so no visual asset or manifest was required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
