@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "gitlab-com-database-incident-gitlab",
+  "images": [
+    {
+      "file": "snippet-growth.png",
+      "alt": "Personal snippet count rising to about 1.28 million before the GitLab database incident"
+    },
+    {
+      "file": "database-lock-spikes.png",
+      "alt": "Database lock counts spiking to roughly 10000 to 12000 during the GitLab incident"
+    },
+    {
+      "file": "database-disk-use.png",
+      "alt": "Primary and secondary database disk use diverging during the replication incident"
+    },
+    {
+      "file": "replication-lag.png",
+      "alt": "PostgreSQL replication lag rising to approximately 4 GiB"
+    },
+    {
+      "file": "deletion-and-restore-timeline.png",
+      "alt": "Database disk use showing secondary deletion followed by primary deletion and gradual restoration"
+    }
+  ]
+}

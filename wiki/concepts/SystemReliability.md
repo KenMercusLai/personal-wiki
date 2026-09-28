@@ -9,6 +9,7 @@ sources:
   - asanas-september-8-outage
   - details-on-the-january-9th-2017-asana-outage
   - gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time
+  - gitlab-com-database-incident-gitlab
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -31,11 +32,13 @@ Asana's later capacity outage shows why automation, capacity margin, overload be
 
 Atlassian adds a recovery-granularity boundary. Retaining backups did not produce fast recovery after a script deleted data for about 400 tenants, because the available process could not restore that subset without changing unaffected customers. Reliability therefore requires practiced restoration at the likely failure boundary—not merely backup existence—along with support and status channels that remain usable when the primary product is unavailable.
 
+GitLab adds the complementary recovery-validity boundary. A service can name multiple backup and replication mechanisms yet still have no dependable recovery path when dumps fail silently, object storage is empty, snapshots exclude the database, replication stalls, and procedures are poorly documented. The only usable copy was a manually created staging snapshot, so operational luck set the six-hour data-loss window. Recovery claims therefore need repeated restore proof, independent copies, monitored artifact validity, and safe procedures for destructive work.
+
 ## Key Claims
 - Reliability spans code, design, change, operations, and recovery rather than one technical layer.
 - Known principles are necessary but insufficient without concrete implementation details.
 - Fail-fast behavior and deliberate load shedding protect online services from resource exhaustion, nonlinear collapse, and uncontrolled backlog.
-- Dependency classification, degradation, capacity protection, and granular, practiced disaster recovery are design-level reliability controls.
+- Dependency classification, degradation, capacity protection, and granular, practiced, independently validated recovery are design-level reliability controls.
 - Change-related incidents require canarying, monitoring, rollback, blast-radius reduction, tests, probes, observability, playbooks, and failover exercises.
 - Production-like staging and clear observability can reveal architecture, data, traffic, saturation, and failure-mode risks before or during incidents.
 - Reliability is difficult because it requires sustained investment even when avoided failures are hard to see.
@@ -54,15 +57,19 @@ Atlassian adds a recovery-granularity boundary. Retaining backups did not produc
 - Load shedding: [[details-on-the-january-9th-2017-asana-outage]] says throttling a fraction of free-user traffic restored fleet health almost immediately while added capacity took longer.
 - Selective restoration: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says Atlassian retained recoverable data but lacked automation to restore hundreds of affected tenants without changing others.
 - Independent response paths: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] reports that the Jira-based support route was unavailable to some customers during the Jira outage.
+- Recovery validity: [[gitlab-com-database-incident-gitlab]] reports that five nominal backup or replication techniques were unavailable, unreliable, unconfigured, or unsuitable when the primary database was deleted.
+- Correlated operational risk: [[gitlab-com-database-incident-gitlab]] shows stalled replication followed by an operator deleting the primary while attempting to rebuild the secondary.
+- Restore outcome: [[gitlab-com-database-incident-gitlab]] records recovery from a fortuitous six-hour-old staging snapshot and permanent loss inside that recovery window.
 - Organizational layer: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] argues that postmortem recommendations repeat known principles, but teams struggle to sustain the investment needed to implement them.
 - Business priority: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] uses Taobao and high-stakes businesses as examples where making reliability a top business target changed outcomes.
 
 ## Counterevidence & Qualifications
-The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. Load shedding also encodes a product-policy choice: Asana protected paying customers and most free users rather than treating all requests equally. The staging article recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0 and Asana are company-authored accounts, while the Atlassian source is second-party reporting with a broad affected-user estimate; all are source-date-specific and none proves current controls.
+The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. Load shedding also encodes a product-policy choice: Asana protected paying customers and most free users rather than treating all requests equally. The staging article recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0, Asana, and GitLab are company-authored accounts, while the Atlassian source is second-party reporting with a broad affected-user estimate; all are source-date-specific and none proves current controls. GitLab's source was a live account later superseded by a formal postmortem, so its causal detail remains provisional.
 
 ## What Changed
 - Qualified disaster recovery: backup existence is insufficient without selective, practiced restoration at the failure boundary.
 - Added independent customer-support and status paths as reliability dependencies during primary-service failure.
+- Distinguished configured backup and replication mechanisms from independently validated recoverability.
 
 ## Related Concepts
 - [[RobustProgramming]] - code-level reliability is one layer of system reliability.
@@ -78,3 +85,4 @@ The sources argue from practitioner experience and named examples rather than co
 - [[GameServerScaleAndStability]] - game-server stability is a domain-specific instance of broader system reliability.
 - [[DeploymentAutomation]] - release and rollback mechanics are part of reliability during change-induced incidents.
 - [[IncidentCommunication]] - trustworthy, resilient updates help customers manage prolonged service failure.
+- [[BackupAndRecovery]] - reliable state restoration requires valid copies, safe procedures, and practiced restore proof.

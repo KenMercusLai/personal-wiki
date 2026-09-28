@@ -5956,3 +5956,11 @@ Added an undated Chinese-language comparison of [[GitFlow]] and [[GitHubFlow]]. 
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | GitLab.com database incident
+
+Added GitLab's live account of the January 2017 production-database incident and retained all five evidence-bearing operational charts under descriptive canonical filenames. Created [[GitLab]] and [[BackupAndRecovery]], and updated [[SystemReliability]] from its complete ordered evidence inventory to distinguish nominal backup or replication mechanisms from independently validated recoverability. Preserved the live report's provisional status relative to the later formal postmortem and its source-date boundary; the local image targets were absent, so matching historical assets were recovered from GitLab's public website repository and inspected before ingestion.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

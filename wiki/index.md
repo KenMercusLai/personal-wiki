@@ -754,6 +754,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Great Video Game Exodus](sources/gamasutra-the-great-video-game-exodus.md) - Simon Parkin connects game-industry career exits to contract churn, relocation, crunch, production uncertainty, post-launch work, weak comparative pay, ownership constraints, and sexism.
 - [Get That Life: How Two Friends Started The Skimm From Their Apartment](sources/get-that-life-how-two-friends-started-the-skimm-from-their-apartment.md) - Danielle Weisberg and Carly Zakin explain theSkimm's audience-routine thesis, email launch, founder-network referrals, early operating strain, and first fundraising.
 
+- [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
+
 ## Entities
 - [Gibson Biddle](entities/GibsonBiddle.md) - Former Netflix VP of Product who presents brand as a cross-functional product-and-marketing system.
 - [Ben Basche](entities/BenBasche.md) - Product-strategy author represented by a 2016 interpretation of Snapchat as an authentically mobile social product.
@@ -2102,6 +2104,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Carly Zakin](entities/CarlyZakin.md) - Former television producer and theSkimm co-founder represented through the company's voice, launch distribution, and morning-media vision.
 - [Adrian Colyer](entities/AdrianColyer.md) - The morning paper author applying classic modular-design guidance to incremental post-MVP modernization.
 
+- [GitLab](entities/GitLab.md) - Software company whose candid 2017 incident account exposed the gap between nominal database safeguards and demonstrated recovery.
+
 ## Concepts
 - [Git-flow](concepts/GitFlow.md) - Branching model separating development, feature, release, stable-production, and hotfix work for explicit version management.
 - [GitHub Flow](concepts/GitHubFlow.md) - Lightweight branching model centered on frequent integration into one release-ready main branch.
@@ -3220,5 +3224,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Game Industry Labor Precarity](concepts/GameIndustryLaborPrecarity.md) - Interacting project, financing, staffing, scheduling, compensation, geographic, and cultural conditions that make game careers unstable.
 - [Human Resources Governance](concepts/HumanResourcesGovernance.md) - Design of HR leadership, reporting, scope, rules, feedback, and onboarding for growing organizations.
 - [Whistleblower Reporting Systems](concepts/WhistleblowerReportingSystems.md) - Training, reporting channels, anonymity controls, escalation, and recurring communication for surfacing serious misconduct.
+
+- [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining independent data copies and proving they can restore the required scope and point in time.
 
 ## Syntheses
