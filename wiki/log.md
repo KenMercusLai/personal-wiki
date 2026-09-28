@@ -5884,3 +5884,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Get Out Of The Way - Design Philosophy
+
+Added a first-person [[Path]] retrospective arguing that product teams should investigate recurring user workarounds instead of defending their initial use-case assumptions. Created [[GetOutOfTheWayDesignPhilosophy]] and a source-bounded Path profile, and updated [[UserBehaviorDrivenProductDiscovery]] and [[EmergentProductIdentity]] from their complete ordered evidence inventories. Preserved the limits of the reported 50-fold daily-active-user increase and the absence of retention, acquisition, causal, or independent verification data. Opened all six local embeds; retained the evidence-bearing original Path interface and omitted one decorative hero plus four tiny duplicate or prose-redundant contextual thumbnails.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
