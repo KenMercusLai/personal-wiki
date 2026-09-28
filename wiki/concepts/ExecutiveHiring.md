@@ -10,6 +10,7 @@ sources:
   - 9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium
   - vps-that-cant-hire-jason-m-lemkin-medium
   - from-campus-drive-to-cisco-our-journey-with-appdynamics
+  - good-ceos-do-just-3-things-mitchell-harper-medium
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -20,13 +21,13 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources frame executive hiring as a high-stakes process where founder intuition, resume prestige, and generic respect for experience are insufficient. A founder may not know enough about a senior function to judge skill directly, so the process must generate signal from role focus, structured fit conversations, broad references, self-awareness tests, and evidence of whom the candidate personally recruited and what those teams achieved. The behavioral filter matters too: name-brand experience can be dangerous when a candidate values status, budget, security, or territory more than company-level momentum.
 
-Timing and transition complete the model. Senior operators should be hired when their repeatable-process expertise matches a scaling need and when their desired company path fits the founder's strategy. They also need concentrated founder-context transfer before autonomy. The AppDynamics case adds a positive succession narrative: after reaching hundreds of employees and more than a thousand claimed enterprise customers, founder, board, investor, and talent-search participants spent an extended period finding and courting [[DavidWadhwani]] as a public-company-scale CEO; [[JyotiBansal]] became chairman. This supports stage-fit and sustained courtship, but the later IPO demand and Cisco sale cannot isolate the hire's causal effect.
+Timing and transition complete the model. Senior operators should be hired when their repeatable-process expertise matches a scaling need and when their desired company path fits the founder's strategy. Harper adds capacity planning before the search: anticipate important hires roughly two quarters ahead, keep the CEO personally involved in roles judged critical, and assess the person and the company's foreseeable stage rather than optimizing for a distant organization. They also need concentrated founder-context transfer before autonomy. The AppDynamics case adds a positive succession narrative: after reaching hundreds of employees and more than a thousand claimed enterprise customers, founder, board, investor, and talent-search participants spent an extended period finding and courting [[DavidWadhwani]] as a public-company-scale CEO; [[JyotiBansal]] became chairman. This supports stage-fit and sustained courtship, but the later IPO demand and Cisco sale cannot isolate the hire's causal effect.
 
 ## Key Claims
 - Executive roles should be defined by a small number of critical strengths rather than a comprehensive wish list.
 - Executive hires should be tied to a real scaling process the company is ready to instantiate.
 - Founder interviews should separate mutual interest from deeper fit evaluation.
-- Fit includes ambition, motivation, leadership style, failure history, vulnerability, how the candidate wants to work, and whether the founder has transmitted enough company context for autonomy.
+- Fit includes ambition, motivation, humility, values, leadership style, failure history, behavior under pressure, how the candidate wants to work, near-term company needs, and whether the founder has transmitted enough context for autonomy.
 - Skill validation should combine broad, targeted references with direct evidence about whom the executive personally recruited and what those hires achieved.
 - Resume prestige should be treated as weak evidence until the process separates personal contribution from riding an already-successful organization.
 - Hiring experienced operators too early can obstruct invention, while hiring them too late can leave repeatable functions underbuilt; a stage-matched succession can transfer operating leadership while preserving founder involvement through a chairman role.
@@ -50,6 +51,8 @@ Timing and transition complete the model. Senior operators should be hired when 
 - Stage-matched succession: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] says AppDynamics began its CEO search after reaching hundreds of employees and more than a thousand claimed enterprise customers and aspiring to public-company scale.
 - Search persistence and courtship: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] describes an extended search followed by a four-month effort to recruit Wadhwani from Adobe.
 - Founder transition: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] says Wadhwani became CEO while Bansal moved to chairman.
+- Advance planning and CEO involvement: [[good-ceos-do-just-3-things-mitchell-harper-medium]] recommends planning hires at least two quarters ahead and keeping the CEO involved in outreach, meetings, or closing for critical roles.
+- Person and stage fit: [[good-ceos-do-just-3-things-mitchell-harper-medium]] prioritizes motivation, humility, values, and behavior over resume alone and relays an approximately 18-month horizon for the company's likely needs.
 
 ## Counterevidence & Qualifications
 The model comes from founder/operator/investor advice and is optimized for startup executive searches. It does not prove that 10 to 20 references are feasible for every role, that backchanneling is equally appropriate across labor markets, or that vulnerability signals should outweigh measurable functional performance. The big-company-versus-startup contrast is a useful behavioral and timing filter but can become an overbroad stereotype if it treats all large-company experience as suspect. The Buffer case is a company-authored account of internal disagreement, not a full diagnostic of which leadership model would have worked best. The process also depends on careful handling of confidentiality around current employers.
@@ -60,10 +63,13 @@ Lemkin's two-hire test is concrete but comes from practitioner advice rather tha
 
 The AppDynamics case is a retrospective written by an investor who helped make the hire and later celebrated a major transaction. The sequence is consistent with a successful succession, but it does not prove Wadhwani caused the reported subscription performance, IPO reception, or acquisition, nor does it reveal unsuccessful candidates or internal dissent.
 
+Harper's two-quarter lead time and 18-month fit horizon are practitioner heuristics rather than measured optima. CEO involvement may improve candidate conviction and alignment, but it can also bottleneck recruiting or bias evaluation unless responsibilities and evidence standards remain explicit.
+
 ## What Changed
-- Added AppDynamics as a positive but non-causal CEO succession case at public-company scale.
-- Added extended search and candidate courtship as evidence that stage-matched executive recruiting may require persistence.
-- Added founder-to-chairman transition as one way to preserve founder involvement while transferring operating leadership.
+- Added advance hiring plans and personal CEO involvement for roles judged critical.
+- Expanded fit beyond credentials to motivation, humility, values, pressure behavior, and foreseeable stage needs.
+- Preserved structured references, recruiting outcomes, and self-awareness checks as safeguards against founder-led candidate selling becoming founder bias.
+- Retained AppDynamics as a positive but non-causal succession case and founder-to-chairman transition.
 
 ## Related Concepts
 - [[StartupHiringAtScale]] - executive hiring is the senior-leadership layer of scaling hiring systems.

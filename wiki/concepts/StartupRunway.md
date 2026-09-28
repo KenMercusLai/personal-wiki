@@ -9,6 +9,7 @@ sources:
   - after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen
   - build-a-product-that-fits-your-runway-elizabeth-yin
   - dont-get-trampled-the-puzzle-for-unicorn-employees
+  - good-ceos-do-just-3-things-mitchell-harper-medium
 last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
@@ -17,7 +18,7 @@ knowledge_schema: synthesis-v1
 [[StartupRunway]] is the amount of operating time a startup can buy with available capital, interpreted here as a budget for learning, testing, product scope, and survival rather than only months before cash runs out.
 
 ## Current Synthesis
-The sources reframe runway from calendar preservation to disciplined learning capacity, iteration capacity, product-scope constraint, financing leverage, and team responsibility. The Maderight retrospective argues for maximizing meaningful tests rather than merely stretching time. Chen says money buys product iterations, but teams must aim them at the actual product or growth bottleneck. Yin advises shipping a narrow first product with only a fraction of runway. Grady warns that excess capital can feed hype, careless hiring, and attempts to force scale before value is proven. Hardbound shows the human edge: when revenue, burn, and failed fundraising no longer support payroll, commitments to the team must contract even if users love the product.
+The sources reframe runway from calendar preservation to disciplined learning capacity, iteration capacity, product-scope constraint, financing leverage, and team responsibility. The Maderight retrospective argues for maximizing meaningful tests rather than merely stretching time. Chen says money buys product iterations, but teams must aim them at the actual product or growth bottleneck. Yin advises shipping a narrow first product with only a fraction of runway. Grady warns that excess capital can feed hype, careless hiring, and attempts to force scale before value is proven. Harper adds a downside-planning view: financing should cover at least 18 months under an adverse scenario, burn should not assume ideal growth or frictionless follow-on capital, and sales and marketing channels should be tested cheaply before aggressive scaling. Hardbound shows the human edge: when revenue, burn, and failed fundraising no longer support payroll, commitments to the team must contract even if users love the product.
 
 Runway also has a capital-structure consequence. As runway shortens, a company may have less leverage and accept financing that extends survival through investor protections rather than a lower headline valuation, a risk highlighted by [[dont-get-trampled-the-puzzle-for-unicorn-employees]]. The new cash can be rational and necessary, but preferences and debt may reduce common employee payouts in a later exit. Runway diligence is therefore relevant not only to job continuity and iteration time but also to the risk that future financing changes the economic value of an employee grant.
 
@@ -27,7 +28,7 @@ Runway also has a capital-structure consequence. As runway shortens, a company m
 - Capital-intensive, service-heavy, or non-software contexts may require spending more to reach the root problem, but software first-product scope should usually leave runway for learning, sales, iteration, and future expansion.
 - Long sales cycles make runway important, but they do not remove the need for decisive learning experiments.
 - Raising less money can preserve discipline when more capital would encourage hype-chasing or premature hiring, but inadequate runway can also weaken financing leverage.
-- Capital is useful only when it funds learning, durability, product iterations, morale-preserving small wins, or scale that the product can actually support.
+- Capital is useful only when it funds learning, durability, product iterations, morale-preserving small wins, or measured scale that the product can actually support under plausible adverse conditions.
 - Runway pressure affects people through both job continuity and financing terms that can subordinate employee common equity.
 
 ## Evidence
@@ -47,12 +48,17 @@ Runway also has a capital-structure consequence. As runway shortens, a company m
 - Early shipping budget: [[build-a-product-that-fits-your-runway-elizabeth-yin]] advises first-time founders without easy capital access to finish the first version in less than two months.
 - Financing leverage: [[dont-get-trampled-the-puzzle-for-unicorn-employees]] argues that a company running out of cash is more likely to accept unattractive terms such as higher liquidation preferences.
 - Employee diligence: [[dont-get-trampled-the-puzzle-for-unicorn-employees]] recommends asking how many months of runway remain and what management plans to do if standard financing terms are unavailable.
+- Adverse-case reserve: [[good-ceos-do-just-3-things-mitchell-harper-medium]] recommends that a financing round last at least 18 months under a bad scenario rather than the company's ideal growth forecast.
+- Burn discipline: [[good-ceos-do-just-3-things-mitchell-harper-medium]] prefers slightly slower growth to overspending that later forces major layoffs when another round cannot be raised.
+- Channel testing: [[good-ceos-do-just-3-things-mitchell-harper-medium]] recommends small sales and marketing experiments before scaling channels with strong measured returns, suggesting three times spend as an ideal source-specific threshold.
 
 ## Counterevidence & Qualifications
-The sources do not claim reckless spending is good or that all large or protected rounds are harmful. Longer runway can improve bargaining power, employee stability, and the number of useful tests; a preference-bearing round may be better than shutdown and can benefit common shareholders if it enables a stronger outcome. The Maderight warning is strongest when the cheapest path blocks learning, and Grady’s warning when abundant capital encourages growth theater before fit. Yin’s two-month heuristic fits software more than deep tech, hardware, regulated, or capital-intensive products. Hardbound is self-reported, and Belsky does not quantify how often short runway causes preference-heavy financing or low employee payouts.
+The sources do not claim reckless spending is good or that all large or protected rounds are harmful. Longer runway can improve bargaining power, employee stability, and the number of useful tests; a preference-bearing round may be better than shutdown and can benefit common shareholders if it enables a stronger outcome. The Maderight warning is strongest when the cheapest path blocks learning, and Grady’s warning when abundant capital encourages growth theater before fit. Yin’s two-month heuristic fits software more than deep tech, hardware, regulated, or capital-intensive products. Harper's 18-month reserve and three-times channel-return target omit gross margin, payback period, attribution, cash-conversion timing, retention, financing availability, and sector-specific capital needs; they are planning heuristics rather than universal thresholds. Hardbound is self-reported, and Belsky does not quantify how often short runway causes preference-heavy financing or low employee payouts.
 
 ## What Changed
-- Added financing leverage and employee-equity seniority as consequences of shrinking runway.
+- Added adverse-case runway planning rather than relying on ideal growth forecasts.
+- Connected burn discipline to avoiding layoffs forced by overspending and unavailable follow-on capital.
+- Added small-budget channel tests before scaling, while qualifying the suggested return threshold.
 - Preserved the tradeoff: too much capital can weaken discipline, while too little can force harmful terms or abrupt team contraction.
 
 ## Related Concepts

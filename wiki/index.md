@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Good CEOs Do Just 3 Things](sources/good-ceos-do-just-3-things-mitchell-harper-medium.md) - Mitchell Harper turns a three-part CEO model into practical guidance on strategy communication, critical hiring, and adverse-case cash discipline.
 - [Going Up and Down the VC Roller Coaster](sources/going-up-and-down-the-vc-roller-coaster-by.md) - David Frankel explains why investor confidence fluctuates during fundraising and how visible progress, process concentration, and responsive diligence may preserve momentum.
 - [Go Fast and Break Things: The Difference Between Reversible and Irreversible Decisions](sources/go-fast-and-break-things-the-difference-between-reversible-and-irreversible-decisions.md) - Farnam Street presents Bezos's one-way/two-way-door heuristic for matching decision speed and information demands to actual reversibility.
 - [Gmail Creator and YC Partner Paul Buchheit on Joining Google, How to Become a Great Engineer and Happiness](sources/gmail-creator-and-yc-partner-paul-buchheit-on-joining-google-how-to-become-a-great-engineer-and-happiness-triplebyte-blog.md) - Paul Buchheit connects self-directed practice, cross-layer engineering, early Google and Gmail, and startup job choice as an investment in learning.
@@ -761,6 +762,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Mitchell Harper](entities/MitchellHarper.md) - Founder-operator represented through a focused CEO model spanning vision, talent, and cash.
 - [David Frankel](entities/DavidFrankel.md) - Venture investor represented through a practitioner account of changing confidence and founder-controlled momentum during fundraising.
 - [Alexis Richardson](entities/AlexisRichardson.md) - Author represented through his early explanation of Weaveworks's GitOps operating model.
 - [Weaveworks](entities/Weaveworks.md) - Cloud-native company whose developer-operated SaaS supplies the source's GitOps case.

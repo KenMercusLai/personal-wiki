@@ -562,12 +562,13 @@
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86",
       "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c",
       "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee",
-      "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8"
+      "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8",
+      "2ec54d7bd43b738f6bd4ead6bf47cbf1ccc687ca642e6ebbbf5f5d6c7b5f5e4f"
     ],
-    "paragraph_count": 562
+    "paragraph_count": 563
   },
-  "overview_commit": "a0212026962109274645bce0c469f93d6a789259",
-  "overview_digest": "0618434241dc83cd8b051a0974e8d893e5738f1ee86de5acd9f935363ae4e361",
+  "overview_commit": "caf62427d912671fa0148622b408093e469259aa",
+  "overview_digest": "c7b1c850639a2ef34477cd8b59d5ec60b9c9605e311876a0b8100e7cd43cc871",
   "paragraphs": [
     {
       "id": "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
@@ -11391,6 +11392,26 @@
         "JeffBezos",
         "MultiplePathsToYes",
         "ReversibleDecisionMaking"
+      ]
+    },
+    {
+      "id": "2ec54d7bd43b738f6bd4ead6bf47cbf1ccc687ca642e6ebbbf5f5d6c7b5f5e4f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[MitchellHarper]] source adds a compact focus test to [[CEOScalingRole]], attributed to [[FredWilson]]: set and repeatedly communicate vision and strategy, recruit and retain exceptional talent, and preserve enough cash. The three responsibilities reinforce one another. Company-wide explanation connects purpose and individual roles to strategy; personal CEO involvement can help close critical candidates; and adverse-case runway protects the time needed to execute. [[ExecutiveHiring]] gains advance capacity planning, person-over-resume judgment, and near-term stage fit, while [[StartupRunway]] gains a downside-planning boundary and small-budget channel tests before aggressive spend. These are practitioner heuristics rather than validated thresholds: the annual strategy-change limit, two-quarter recruiting lead, 18-month candidate and runway horizons, and suggested three-times channel return may vary by business model and measurement method. Harper's assertion that the CEO understands the market best also needs customer evidence, distributed expertise, dissent, and governance checks. The inspected LEGO image and duplicated tiny book promotion were omitted as non-evidentiary.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CEOScalingRole",
+        "ExecutiveHiring",
+        "FredWilson",
+        "MitchellHarper",
+        "StartupRunway"
       ]
     }
   ],

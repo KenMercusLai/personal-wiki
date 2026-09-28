@@ -5996,3 +5996,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Good CEOs Do Just 3 Things
+
+Added [[MitchellHarper]]'s expansion of [[FredWilson]]'s three-part CEO framework: repeatedly communicate vision and strategy, remain personally involved in critical recruiting, and preserve enough cash for adverse conditions. Created Harper's entity page and updated [[CEOScalingRole]], [[ExecutiveHiring]], [[StartupRunway]], and Fred Wilson from their complete ordered evidence inventories. Preserved the article's numerical guidance as practitioner heuristics, distinguished Harper's detailed advice from Wilson's attributed formulation, and qualified the assumption that the CEO necessarily holds the company's best market knowledge. Opened both local images and omitted the decorative LEGO figure plus the duplicated tiny book promotion because neither adds evidence.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
