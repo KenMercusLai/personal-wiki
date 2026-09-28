@@ -728,6 +728,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From Bid Shading to Score Shading: Dual Optimization and Game Governance in Mixed Ranking Systems](sources/from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems.md) - Wulc adapts first-price bid shading to mixed ranking, then argues that dual control needs distribution modeling, exploration, and platform-wide governance.
 
 - [From Campus Drive to Cisco: Our Journey with AppDynamics](sources/from-campus-drive-to-cisco-our-journey-with-appdynamics.md) - Asheem Chandna recounts AppDynamics' path from 2008 Series A and early product formation through CEO succession, IPO preparation, and Cisco's last-minute acquisition proposal.
+- [From Idea to App Store: A Design Sprint Case Study](sources/from-idea-to-app-store-a-design-sprint-case-study-ux-planet.md) - Jonathan Courtney documents AJ&Smart's remote Oak redesign, from shared sprint exercises and staged client alignment through four-week handoff and qualified launch recognition.
 
 ## Entities
 - [Capital-as-a-Service](entities/CapitalAsAService.md) - Social Capital's online product for automated, operating-data-based early-stage diligence and funding decisions.
@@ -1096,9 +1097,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Casey Newton](entities/CaseyNewton.md) - Technology journalist represented by a critique of productivity software that stores more information without necessarily producing better thinking.
 - [The Verge](entities/TheVerge.md) - Technology publication and Platformer host represented by Newton’s subscription-truncated note-taking article.
 - [Codecademy](entities/Codecademy.md) - Interactive programming-learning platform profiled as a useful entry point and syntax primer whose historical guided exercises did not reliably produce independent development skill.
-- [Jonathan Courtney](entities/JonathanCourtney.md) - AJ&Smart founding partner arguing for realistic prototype testing before lengthy research documentation on bounded product questions.
-- [AJ&Smart](entities/AJSmart.md) - Product-design consultancy whose reported process shifted from research-heavy engagements to five-day Design Sprints.
-- [Jake Knapp](entities/JakeKnapp.md) - Product-design practitioner whose writing introduced Courtney to GV's Design Sprint process.
+- [Jonathan Courtney](entities/JonathanCourtney.md) - AJ&Smart founding partner represented through prototype-first arguments and the remote Oak redesign case.
+- [AJ&Smart](entities/AJSmart.md) - Product-design consultancy represented through its shift toward rapid Design Sprints and its distributed Oak redesign.
+- [Jake Knapp](entities/JakeKnapp.md) - Product-design practitioner credited with the Design Sprint framework AJ&Smart adopted and adapted remotely.
+- [Kevin Rose](entities/KevinRose.md) - Oak founder who supplied expert input, inspiration, concept votes, and prototype decisions during the remote redesign.
+- [Oak](entities/Oak.md) - Meditation and breathing app represented through AJ&Smart's watercolor-led redesign and reported launch reception.
 - [GV](entities/GV.md) - Organization represented through rapid prototype-and-test practice spanning Design Sprints, interface writing, and user research.
 - [Jakob Nielsen](entities/JakobNielsen.md) - Usability author and practitioner who defines five interface-quality dimensions and advocates early iterative user testing.
 - [Trevor McKendrick](entities/TrevorMcKendrick.md) - Essayist arguing that entrepreneurs should study long capability-building histories rather than polished company-origin anecdotes.
@@ -2303,7 +2306,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Utility-Oriented UX](concepts/UtilityOrientedUX.md) - Product-design orientation that treats interfaces as tools for outside goals and minimizes justified user burden rather than maximizing attention.
 - [Email Magic-Link Authentication](concepts/EmailMagicLinkAuthentication.md) - Passwordless login that proves inbox control through an expiring single-use link and shifts risk toward email delivery, token handling, and session security.
 - [Target User Discipline](concepts/TargetUserDiscipline.md) - Practice of evaluating unexpected users as possible segments while declining isolated requests that would fragment the product or economics.
-- [Design Sprint](concepts/DesignSprint.md) - Short structured process that moves a bounded product assumption to a realistic prototype and user test within roughly one working week.
+- [Design Sprint](concepts/DesignSprint.md) - Short structured process for making a bounded question tangible through mapping, concepts, decisions, prototyping, and behavioral testing.
+- [Remote Design Sprint](concepts/RemoteDesignSprint.md) - Distributed sprint adaptation using shared digital artifacts, explicit context, narrated feedback, and deliberate alignment checkpoints.
 - [Prototype-First Product Discovery](concepts/PrototypeFirstProductDiscovery.md) - Sequencing approach that tests a tangible product assumption early while preserving exploratory research for problem uncertainty.
 - [Business Case Method](concepts/BusinessCaseMethod.md) - Discussion-centered analysis of researched organizational situations, designed to build contextual judgment rather than supply recipes.
 - [Survivorship Bias](concepts/SurvivorshipBias.md) - Outcome-selection distortion that overrepresents winners and makes all visible attributes of success look more causal than they are.

@@ -5757,3 +5757,11 @@ Added Social Capital's first-year [[CapitalAsAService]] retrospective, covering 
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From Idea to App Store: A Design Sprint Case Study
+
+Added AJ&Smart's remote Oak redesign as a staged alignment case spanning expert interview, shared mapping, inspiration, sketches, voting, narrated feedback, prototype variants, screen production, and developer handoff. Created [[RemoteDesignSprint]], [[KevinRose]], and [[Oak]]; updated [[DesignSprint]], [[AJSmart]], [[JonathanCourtney]], and [[JakeKnapp]] from their complete bounded evidence inventories. Preserved the central qualifications: the brief expanded from one screen to a total redesign, handoff took four weeks, and launch recognition is reported without representative-user testing or causal outcome metrics. Opened all six embedded images, retained the high-resolution Oak interface and Product Hunt badge under canonical descriptive filenames, and omitted duplicate thumbnails, a tiny launch screenshot, and a decorative author photo.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

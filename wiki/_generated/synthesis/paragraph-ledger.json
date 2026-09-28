@@ -542,12 +542,13 @@
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
       "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162",
       "11a448980e1a87152a052b8619812ae987925ecf2753c62e008a11645ef6f411",
-      "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2"
+      "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
+      "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716"
     ],
-    "paragraph_count": 542
+    "paragraph_count": 543
   },
-  "overview_commit": "a655649ea5e01592af6228fac954a6529ae65c62",
-  "overview_digest": "fd822168308af9639a9096bdf9dcc2d579ab272dc0e305819f8b8b5ebf1d2e24",
+  "overview_commit": "ad988d519050bcea35b5a25699bdd08d813819b6",
+  "overview_digest": "d7b1e9efb58fbb17c3de2a4a126b22a1a6c24ac5bd827d170698b27a8a14750e",
   "paragraphs": [
     {
       "id": "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
@@ -10973,6 +10974,24 @@
         "ReinforcementLearning",
         "UnsupervisedLearning",
         "YannLeCun"
+      ]
+    },
+    {
+      "id": "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JonathanCourtney]] source adds [[RemoteDesignSprint]] through [[AJSmart]]'s cross-continental redesign of [[Oak]] with founder [[KevinRose]]. Familiar [[DesignSprint]] moves—expert interview, “How Might We” notes, goal and questions, mapping, lightning demos, sketches, voting, and prototyping—were carried through a shared RealtimeBoard, unusually explicit notes, client inspiration examples, narrated feedback, prototype variants, and additional check-ins. The case makes staged alignment concrete: the team reduced direction uncertainty before full production and used [[Figma]] plus Marvel to turn a selected Japanese-influenced watercolor direction into screen designs. It also sharpens the method's evidence boundary. The brief grew from one screen to a total redesign, handoff took four weeks, and the article reports client buy-in, App Store featuring, and Product Hunt recognition without representative-user testing, baseline metrics, retention, or causal evidence that the process produced those outcomes. All six embedded images were opened; the high-resolution Oak interface and Product Hunt badge were retained, while two duplicate thumbnails, one tiny launch screenshot, and an author photo were omitted as duplicate, too low-resolution, or decorative.",
+      "topic_scores": {
+        "business-and-markets": 2
+      },
+      "wikilinks": [
+        "AJSmart",
+        "DesignSprint",
+        "Figma",
+        "JonathanCourtney",
+        "KevinRose",
+        "Oak",
+        "RemoteDesignSprint"
       ]
     }
   ],
