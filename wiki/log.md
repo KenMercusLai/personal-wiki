@@ -6072,3 +6072,11 @@ Added Ron Amadeo's April 2019 argument that Google's dense shutdown cadence dama
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Gossip, Rumors, and Lies
+
+Added a Rands in Repose operating model for [[StaffMeetings]] built around concrete start conditions, separate runner and historian roles, question-producing metrics, a team-sourced rolling agenda, explicit rumor correction, broadly shared notes, and continuing value tests. Updated [[ProceduralRationality]] from its complete ordered evidence inventory to distinguish self-justifying meeting ritual from structured forums that retain a substantive coordination need and observable follow-up. Preserved the tension with [[bill-barnett-delete-all-meetings]] and qualified the source's numerical heuristics, transparency prescription, confidentiality judgment, and psychological-safety assumptions. The supplied Markdown contains no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

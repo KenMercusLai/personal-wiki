@@ -571,12 +571,13 @@
       "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
       "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64",
       "a54da65d0751c8919c913f309632b8b06eedad60d8964f06ef318cb85111c8ab",
-      "dea79d47d1452d8d68cd14542bbd23ee1630b589322c95e45d0aeb067a21009b"
+      "dea79d47d1452d8d68cd14542bbd23ee1630b589322c95e45d0aeb067a21009b",
+      "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c"
     ],
-    "paragraph_count": 571
+    "paragraph_count": 572
   },
-  "overview_commit": "1af1030e451bf861a72e4000801e226dbf6cb250",
-  "overview_digest": "8d8a2ca03fb6362159adba6296acc18ff705f8ed3700c5597dbabcece2ea124c",
+  "overview_commit": "9f4695fb8f1637a4371485a015444e76434776e4",
+  "overview_digest": "47601b1ef95103bf51a4cbe0ea969f8274ace2f0b9dd5c5d35a5988eec274238",
   "paragraphs": [
     {
       "id": "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
@@ -11573,6 +11574,23 @@
         "PhilHarrison",
         "ProductLifecycleTrust",
         "RonAmadeo"
+      ]
+    },
+    {
+      "id": "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Rands in Repose source adds [[StaffMeetings]] as a conditional coordination system rather than a default calendar ritual. Team size, interdependence, management layers, rapid growth, recurring communication failures, or organizational disruption can justify a forum, but its continuing value depends on separate runner and historian roles, question-producing metrics, a team-owned rolling agenda, candid error correction, actionable follow-up, and notes shared beyond the room after necessary redaction. This qualifies the meeting-deletion critique in [[ProceduralRationality]]: a recurring meeting can remain substantive when its need, work, and outputs are visible and repeatedly reassessed, while uninformative metrics, empty agendas, or a vanished founding reason are signals to stop. Broad notes can reduce status games and speculative narratives, but they may also suppress candor or expose sensitive information; a designated rumor segment does not itself create [[PsychologicalSafety]], and the source's participant-count, duration, and timing heuristics are practitioner prescriptions rather than measured thresholds. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ProceduralRationality",
+        "PsychologicalSafety",
+        "StaffMeetings"
       ]
     }
   ],

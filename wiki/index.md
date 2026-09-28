@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Gossip, Rumors, and Lies](sources/gossip-rumors-and-lies-rands-in-repose.md) - Rands in Repose frames staff meetings around concrete start conditions, separate runner and historian roles, story-producing metrics, team-owned topics, rumor correction, shared notes, and continuing value tests.
 - [Google’s Constant Product Shutdowns Are Damaging Its Brand](sources/googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica.md) - Ron Amadeo argues that Google's dense 2019 shutdown cadence weakened portfolio-wide trust and burdened Stadia's launch with longevity questions.
 - [Google’s New Strategy and How It Affects Aggregators](sources/googles-new-strategy-and-how-it-affects-aggregators-casey-accidental.md) - Casey Winters argues that mobile search is shifting Google from referral toward direct answers and vertical discovery, weakening aggregator SEO while favoring listing-level participation and direct audience loyalty.
 - [Google: 82% Of Super Bowl Ad Searches Happened On Mobile, Up From 70%](sources/google-82-of-super-bowl-ad-searches-happened-on-mobile-up-from-70-search-engine-land.md) - Google reported 7.5-million-plus incremental Super Bowl ad searches, an 82% smartphone share, first-half concentration, and an automotive-heavy brand ranking.
@@ -2137,6 +2138,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Staff Meetings](concepts/StaffMeetings.md) - Recurring leadership forums governed by concrete coordination needs, distinct facilitation and recordkeeping roles, purposeful agendas, shared notes, and explicit reassessment.
 - [Product Lifecycle Trust](concepts/ProductLifecycleTrust.md) - Confidence that a product and its supporting services will last long enough to justify adoption and dependency costs.
 - [Search Platform Disintermediation](concepts/SearchPlatformDisintermediation.md) - Shift from external search referrals toward platform-owned answers, option ranking, and vertical discovery.
 - [Cross-Media Search Response](concepts/CrossMediaSearchResponse.md) - Immediate search activity following exposure in another medium, with attribution and downstream-outcome limits.
