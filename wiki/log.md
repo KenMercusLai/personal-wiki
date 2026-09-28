@@ -5725,3 +5725,11 @@ Added a two-sided history of [[Chrome]] as both a product/platform success and a
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From 2016: Why Deep Learning Is Suddenly Changing Your Life
+
+Added a historically scoped account of deep learning's 2016 inflection point, linking multilayer training to labeled data, ImageNet, GPU acceleration, open tooling, cloud access, and commercial deployment. Created [[UnsupervisedLearning]] plus source-bounded profiles for [[AndrewNg]], [[FeiFeiLi]], [[YannLeCun]], [[ImageNet]], [[AlphaGo]], and [[Nvidia]]; refreshed [[DeepLearning]], [[NeuralNetwork]], [[NeuralNetworkTraining]], [[Backpropagation]], [[ReinforcementLearning]], and [[GeoffreyHinton]] from their complete ordered evidence inventories. Preserved the article's own pattern-recognition-versus-reasoning boundary and qualified its medical, funding, efficiency, benchmark, and corporate claims as attributed 2016 evidence. Opened both local images and omitted them as duplicate, non-evidentiary crops of the same conceptual face-fragment illustration, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

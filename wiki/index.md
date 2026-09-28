@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From 2016: Why Deep Learning Is Suddenly Changing Your Life](sources/from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune.md) - A 2016 history links deep learning's commercial breakthrough to labeled data, GPUs, multilayer training, ImageNet, and industrial adoption while preserving limits around reasoning, medicine, and open-world transfer.
 - [From 0 to 70% Market Share: How Google Chrome Ate the Internet](sources/from-0-to-70-market-share-how-google-chrome-ate-the-internet.md) - A 2019 retrospective links Chrome's architecture, developer ecosystem, distribution, and enterprise expansion to browser dominance and later standards and privacy concerns.
 - [From 0 to $1B - Slack's Founder Shares Their Epic Launch Strategy](sources/from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review.md) - Stewart Butterfield connects Slack's launch to staged beta cohorts, category education, bottom-up team adoption, feedback operations, a product-specific activation threshold, and three focused differentiators.
 - [10 Years to $3bn — Ten Things I Learned from Zoopla](sources/fred-destin-10-years-to-3bn-ten-things-i-learned-from-zoopla.md) - Fred Destin uses Zoopla to connect focused vertical strategy, strategic dilution, revenue quality, investor conviction, rapid acquisition integration, and stable KPIs.
@@ -725,6 +726,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Four fundamentals of workplace automation](sources/four-fundamentals-of-workplace-automation-mckinsey.md) - McKinsey's 2015 activity-level model argues that partial automation will reshape many more jobs than it eliminates wholesale, making process redesign, augmentation, adoption constraints, and transition risks central.
 
 ## Entities
+- [Andrew Ng](entities/AndrewNg.md) - AI researcher represented through Google Brain, the unlabeled-image experiment, input-to-output learning, and the AI-as-electricity industrial thesis.
+- [Fei-Fei Li](entities/FeiFeiLi.md) - Computer-vision researcher who founded ImageNet as large labeled-data infrastructure and a public evaluation institution.
+- [Yann LeCun](entities/YannLeCun.md) - Neural-network researcher connecting early multilayer and applied image-recognition work to the later deep-learning revival.
+- [ImageNet](entities/ImageNet.md) - Large labeled-image dataset and competition that made the 2012 deep-learning performance jump publicly visible.
+- [AlphaGo](entities/AlphaGo.md) - DeepMind Go system represented through deep learning, reinforcement learning, professional games, and extensive self-play.
+- [Nvidia](entities/Nvidia.md) - GPU company represented as a compute enabler and commercial beneficiary of deep learning's early-2010s expansion.
 - [Fred Destin](entities/FredDestin.md) - Venture investor represented through Zoopla financing, ownership, market-quality, and operating lessons.
 - [Zoopla](entities/Zoopla.md) - UK property-technology company presented as a focused vertical, stakeholder-alignment, and acquisition-integration case.
 - [Alex Chesterman](entities/AlexChesterman.md) - Zoopla founder credited with focus, stakeholder strategy, integration discipline, delegation, and operational attention.
@@ -974,7 +981,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Maxim](entities/Maxim.md) - Semiconductor company used as both a focused challenger and a larger entrant unable to displace committed specialists.
 - [Brett Fox](entities/BrettFox.md) - Founder-author and former semiconductor operator writing about investor obligations, focused competition, and market-entry strategy.
 - [Hugging Face](entities/HuggingFace.md) - Machine-learning company and ecosystem connecting open-source libraries with hosted models, datasets, and AI applications.
-- [Geoffrey Hinton](entities/GeoffreyHinton.md) - Neural-network researcher represented through Boltzmann machines, multilayer training, deep belief networks, and AlexNet.
+- [Geoffrey Hinton](entities/GeoffreyHinton.md) - Neural-network researcher represented through psychology-inspired learning, multilayer training, speech recognition, deep belief networks, and AlexNet.
 - [Bhutan](entities/Bhutan.md) - Himalayan Buddhist kingdom balancing cultural and environmental preservation with youth migration and economic opportunity.
 - [Gelephu Mindfulness City](entities/GelephuMindfulnessCity.md) - Planned Bhutanese innovation hub intended to create opportunity while preserving national tradition.
 - [Intel Labs](entities/IntelLabs.md) - Intel research organization advocating retrieval-centric enterprise AI and developing FastRAG.
@@ -2024,6 +2031,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mehdi Miremadi](entities/MehdiMiremadi.md) - McKinsey principal and coauthor of the 2015 workplace-automation analysis.
 
 ## Concepts
+- [Unsupervised Learning](concepts/UnsupervisedLearning.md) - Learning recurring structure without explicit per-example labels, promising broader data use while retaining interpretation and transfer limits.
 - [Browser Platform Strategy](concepts/BrowserPlatformStrategy.md) - Expanding a browser into a developer, application, distribution, enterprise, identity, and standards platform.
 - [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating an existential startup threat through credible sacrifice, candor, team commitment, strategic boundaries, and explicit fairness limits.
 - [Open-Source Commercialization](concepts/OpenSourceCommercialization.md) - Revenue and licensing arrangements intended to fund public software development without abandoning community participation.
@@ -2852,7 +2860,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
-- [Deep Learning](concepts/DeepLearning.md) - Layered representation learning shaped by training mechanics, data and compute scale, operational deployment, reusable artifacts, and transfer limits.
+- [Deep Learning](concepts/DeepLearning.md) - Layered representation learning shaped by training mechanics, labeled and unlabeled data, accelerator scale, operational deployment, reusable artifacts, and transfer limits.
 - [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
 - [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
 - [Incumbent Shadow Advantage](concepts/IncumbentShadowAdvantage.md) - Startup pattern where a dominant platform expands demand and deters rivals while leaving specialized segments open.
