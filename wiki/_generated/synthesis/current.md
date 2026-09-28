@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 9b1446abfda8ca3b8469ecb99f5f9635307592cd
+as_of_overview_commit: 6976abca06722bddf7b8455eed256062d00d64a5
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 731
-source_count: 731
-paragraph_count: 554
+episode_count: 732
+source_count: 732
+paragraph_count: 555
 topic_count: 9
 ---
 
@@ -21,7 +21,7 @@ topic_count: 9
 - [[EarlyStartupDemandValidation]] separates attention from progressively stronger evidence: [[TwilioSegment]] moved from a [[HackerNews]] launch and explicit workplace intent through hosted-product signups, in-context customer requests, project activation, contracts, recurring revenue, and revised monetization; [[CustomerLedProductDevelopment]] and [[ProductMetricLadder]] therefore connect qualitative demand to observable behavior without treating any single signal as [[ProductMarketFit]].
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.
-- [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process.
+- [[HumanResourcesGovernance]] treats HR leadership, rules, feedback, and onboarding as scale-sensitive governance rather than recruiting alone, while [[WhistleblowerReportingSystems]] uses training, a known hotline, bounded anonymous feedback, and repeated communication to counter pressure against reporting; [[FredWilson]] offers a practitioner model, and the unresolved [[Uber]] setup does not establish outcomes or replace independent escalation, anti-retaliation, investigation, confidentiality, remedy, and board-oversight controls.
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
 - [[GameIndustryLaborPrecarity]] shows creative commitment coexisting with unsustainable employment: [[FrankDAngelo]], [[JAllard]], [[RickKelly]], [[AlejandroScrivano]], and [[KristenKoster]] connect project finance, schedule uncertainty, contracts, relocation, crunch, live-service work, comparative pay, ownership, governance, and sexism to career exit, while [[IndieGameDevelopment]] can exchange employer risk for uncertain market income rather than remove precarity.
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress needs calibrated evidence, system understanding, workload fit, verification, explicit defect decisions, ownership, and inspectable human control; mature hardware can also create value through practical tradeoffs and later creative reuse.
+Technical progress needs calibrated evidence, system understanding, workload fit, verification, explicit defect decisions, ownership, and inspectable human control; organizational systems likewise need evidence and safeguards beyond plausible checklists.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, practical product fit, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline; theSkimm adds a qualified case where audience routine, founder relationship history, mixed launch channels, and media-portfolio expansion reinforce one another without proving attribution or durability.
+Durable value aligns customer outcomes, practical product fit, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
@@ -57,7 +57,7 @@ Culture joins creative form with infrastructure, discovery, governance, economic
 
 ### Governance and Institutions
 
-Authority, data, defaults, technical states, delegated power, and benchmark boundaries need fair process, staged controls, traceability, recourse, consent, and recovery.
+Authority, data, defaults, technical states, and workplace reporting need explicit ownership, fair process, staged controls, traceability, independent escalation, recourse, consent, and recovery.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].
@@ -82,7 +82,7 @@ Direct health evidence remains narrow and source-scoped; climate and natural-sci
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible entry, active practice, protected focus, feedback, role clarity, fair incentives, recovery, cross-cultural context, and power-aware boundaries; creative passion does not absorb structural employment risk.
+Work and learning depend on accessible entry, active practice, protected focus, feedback, scale-aware people systems, safe reporting, role clarity, fair incentives, recovery, and power-aware boundaries.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
       "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
       "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
       "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
@@ -556,11 +557,32 @@
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86"
     ],
-    "paragraph_count": 554
+    "paragraph_count": 555
   },
-  "overview_commit": "9b1446abfda8ca3b8469ecb99f5f9635307592cd",
-  "overview_digest": "cf561ab96507f65da714c558b60109bea7bde48b26aa29fe584c82972239c157",
+  "overview_commit": "6976abca06722bddf7b8455eed256062d00d64a5",
+  "overview_digest": "e706860e0ba27c1b746492df3779725f4db95412f043f652df6679d192cc41fa",
   "paragraphs": [
+    {
+      "id": "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[FredWilson]] source adds [[HumanResourcesGovernance]] as a scaling system rather than a recruiting-only function. Wilson recommends hiring an HR leader early, revisiting the role's experience requirements as headcount moves through major growth stages, and giving it direct CEO access because hierarchy affects both cultural information flow and the visible status of people leadership. Written behavior rules and consequences, dignified performance and development feedback including for the CEO, and multi-week onboarding across values, systems, strategy, priorities, and leadership make that governance operational. New [[WhistleblowerReportingSystems]] adds a complementary safety layer: scenario-based recognition and reporting training, a known hotline, appropriately bounded anonymous feedback, and repeated onboarding and all-hands communication help counter social pressure against exposing misconduct and keep expectations visible as the workforce changes. The model remains one short 2017 practitioner essay, not comparative outcome evidence. Direct CEO reporting does not itself create independence, and the essay does not specify investigation standards, anti-retaliation controls, confidentiality, remedies, board escalation, or feedback to reporters. Its [[Uber]] setup is explicitly provisional: Wilson knew only the engineer's post and noted that an investigation was pending. The source contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FredWilson",
+        "HumanResourcesGovernance",
+        "Uber",
+        "WhistleblowerReportingSystems"
+      ]
+    },
     {
       "id": "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
       "primary_topic": "business-and-markets",

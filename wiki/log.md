@@ -5900,3 +5900,11 @@ Added [[DanielleWeisberg]] and [[CarlyZakin]]'s joint account of founding [[TheS
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Getting Human Resources Right
+
+Added [[FredWilson]]'s 2017 HR-governance checklist for fast-growing companies and created [[HumanResourcesGovernance]] and [[WhistleblowerReportingSystems]]. Updated Wilson and [[AVC]] from their complete ordered evidence inventories, while preserving the essay's practitioner-evidence limits, missing independence and anti-retaliation detail, and its explicitly provisional account of the triggering [[Uber]] allegation. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

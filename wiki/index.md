@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Getting Human Resources Right](sources/getting-human-resources-right-avc.md) - Fred Wilson frames HR as direct-to-CEO culture and leadership infrastructure and pairs it with training, hotline, anonymous-feedback, and recurring whistleblower communication.
 - [Get Out Of The Way - Design Philosophy](sources/get-out-of-the-way-design-philosophy-medium.md) - A Path retrospective argues that teams should study recurring user workarounds, support the valuable behavior directly, and loosen attachment to the product's initial use case.
 - [The Scoop: Inside the Longest Atlassian Outage of All Time](sources/gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time.md) - Gergely Orosz connects Atlassian's destructive April 2022 maintenance error and missing selective restore tooling to a nine-day outage and prolonged communication failure.
 - [Game Boys Have Infinite Lives](sources/game-boys-have-infinite-lives-at-30-they-live-on-in-unexpected-ways-los-angeles-times.md) - A Game Boy anniversary feature connects practical mature-technology tradeoffs with hardware modification, chiptune performance, and low-resolution photography.
@@ -3202,5 +3203,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion measured through larger retained customer spending, with cohort, time-window, churn, and distribution definitions determining what expansion figures mean.
 - [Programmer Interruption Recovery](concepts/ProgrammerInterruptionRecovery.md) - Rebuilding task context, intent, and code-location awareness after attention shifts away from software work.
 - [Game Industry Labor Precarity](concepts/GameIndustryLaborPrecarity.md) - Interacting project, financing, staffing, scheduling, compensation, geographic, and cultural conditions that make game careers unstable.
+- [Human Resources Governance](concepts/HumanResourcesGovernance.md) - Design of HR leadership, reporting, scope, rules, feedback, and onboarding for growing organizations.
+- [Whistleblower Reporting Systems](concepts/WhistleblowerReportingSystems.md) - Training, reporting channels, anonymity controls, escalation, and recurring communication for surfacing serious misconduct.
 
 ## Syntheses
