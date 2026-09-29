@@ -825,6 +825,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [I Used AI To Clone My Voice And Trick My Mom Into Thinking It Was Me](sources/i-used-ai-to-clone-my-voice-and-trick-my-mom-into-thinking-it-was-me.md) - Charlie Warzel shows that a recognizable but imperfect voice clone can fool a familiar listener when a short scripted call, shared context, and a bad-reception pretext hide its defects.
 
+- [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
+
 ## Entities
 - [Bartosz Goralewicz](entities/BartoszGoralewicz.md) - Elephate cofounder and technical SEO practitioner represented through his 2018 Google Flights analysis.
 - [Google Flights](entities/GoogleFlights.md) - Google's flight-search product represented through a historical JavaScript, URL consolidation, and indexing failure case.
@@ -1588,7 +1590,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Scott Adams](entities/ScottAdams.md) - Cartoonist and career-advice reference cited for skill stacking as a practical path to differentiation.
 - [Al Ries](entities/AlRies.md) - Marketing author cited for category-first positioning and the question of what a new offer is first in.
 - [Jack Trout](entities/JackTrout.md) - Marketing author cited with Al Ries for novelty, firstness, and category-positioning logic.
-- [Tim Ferriss](entities/TimFerriss.md) - Author and entrepreneurship example used for being publicly associated with the lifestyle-entrepreneurship category.
+- [Tim Ferriss](entities/TimFerriss.md) - Author represented through lifestyle-entrepreneurship category association and the cross-domain curation of practitioner advice.
 - [Atul Gawande](entities/AtulGawande.md) - Surgeon-author used as an example of skill stacking through professional expertise plus writing and speaking.
 - [Tw93](entities/Tw93.md) - Engineer-author connecting high-risk investing, AI-market themes, and engineer leverage through code, writing, and sharing.
 - [Duan Yongping](entities/DuanYongping.md) - Value-investing reference used for cash-flow focus, company quality, temperament, sell discipline, and avoid-list guardrails.
@@ -2270,6 +2272,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lyrebird](entities/Lyrebird.md) - Historical vocal-avatar service that learned from prompted recordings and rendered typed text in the enrolled speaker's voice.
 - [Aviv Ovadya](entities/AvivOvadya.md) - Disinformation researcher warning that accessible synthetic media can falsify perceived events and weaken confidence in reality.
 
+- [Arnold Schwarzenegger](entities/ArnoldSchwarzenegger.md) - Bodybuilder, actor, businessman, and former governor who rejects solitary-success attribution and treats continued learning as essential.
+
 ## Concepts
 - [Technical SEO](concepts/TechnicalSEO.md) - Site-level discipline joining rendering, crawling, URL identity, redirects, internal links, and indexing with evidence-based change governance.
 - [Durable Note Writing](concepts/DurableNoteWriting.md) - Writing and editing notes so their meaning, relevance, and retrieval cues survive the loss of immediate context.
@@ -2529,7 +2533,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Workplace Perk Design](concepts/WorkplacePerkDesign.md) - Values- and outcomes-led selection of benefits, amenities, and deliberate exclusions based on autonomy, wellbeing, inclusion, and work effects.
 - [Academic Research Workflow](concepts/AcademicResearchWorkflow.md) - End-to-end system connecting source collection, annotation, linked synthesis, Markdown drafting, citation processing, project tracking, and manuscript export.
 - [Automatic Advertising Influence](concepts/AutomaticAdvertisingInfluence.md) - Brand evaluation shaped through associative cues and identity meanings without requiring sustained conscious attention.
-- [Luck and Effort in Success](concepts/LuckAndEffortInSuccess.md) - Attribution framework separating unequal starting conditions and extreme outcomes from the trajectory influenced by habits, preparation, and effort.
+- [Luck and Effort in Success](concepts/LuckAndEffortInSuccess.md) - Attribution framework connecting unequal starting conditions, social support, judgment, preparation, effort, and contingency across a person's trajectory.
 - [Memory Conflict Resolution](concepts/MemoryConflictResolution.md) - Detection and adjudication of incompatible memories using time, provenance, confidence, context, and version history.
 - [Memory Evolution](concepts/MemoryEvolution.md) - Maintenance of current, historical, superseded, and temporarily valid memory state.
 - [Memory Compaction](concepts/MemoryCompaction.md) - Semantic consolidation of repeated interaction records without losing material distinctions or exceptions.
@@ -2615,7 +2619,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Anonymous Sourcing](concepts/AnonymousSourcing.md) - Journalistic use of identity protection, balancing access and source safety against lost credibility context and reputational risk.
 - [Paxos](concepts/Paxos.md) - Distributed-consensus protocol family that preserves one chosen value across competing proposals and partial failures.
 - [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.
-- [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing relationships, communities, mentors, and information inputs according to the direction in which one wants to grow.
+- [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing formative relationships and information inputs while recognizing the unchosen teachers, sponsors, gatekeepers, and communities that also shape opportunity.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
 - [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring, curiosity-led conversations that combine listening, explicit purpose, strength recognition, and employee self-evaluation.
 - [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.

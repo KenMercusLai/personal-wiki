@@ -609,12 +609,13 @@
       "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b",
-      "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0"
+      "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0",
+      "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d"
     ],
-    "paragraph_count": 609
+    "paragraph_count": 610
   },
-  "overview_commit": "828d87e2c96243a119fb545cf6d25650e6f758ac",
-  "overview_digest": "3d0d8c2082c238d3cb219788538dec040e9baf949ab9ce5f6853d6a567f2f07f",
+  "overview_commit": "cf498f84b1fdab381446684d63f556c068870f1d",
+  "overview_digest": "72ea381f7f4f47f06a2e848b8107657a88b5ad563443e6e9ef2efca95f11ccc6",
   "paragraphs": [
     {
       "id": "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
@@ -12336,6 +12337,24 @@
         "GoogleFlights",
         "SEOConsultantSelection",
         "TechnicalSEO"
+      ]
+    },
+    {
+      "id": "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[ArnoldSchwarzenegger]] source broadens [[LuckAndEffortInSuccess]] from starting conditions, judgment, preparation, and chance into the social infrastructure of achievement. Schwarzenegger retains agency—vision, work, and active mentor-seeking—but credits parents, teachers, coaches, temporary hosts, Reg Park, Joe Weider, Lucille Ball, and 4,206,284 California voters with supplying instruction, shelter, direction, sponsorship, career access, and collective political support that he did not create alone. This also deepens [[DeliberateNetworkBuilding]]: a formative network can include deliberately sought mentors and cross-domain heroes alongside unchosen family, freely offered help, gatekeepers, audiences, and institutions encountered across time. [[TimFerriss]] gains a bounded curatorial role through podcasts and *Tools of Titans*, which Schwarzenegger describes as channels for practical lessons from several fields. The durable conclusion is causal humility rather than passivity: acknowledging dependencies makes an attribution more complete and keeps learning open, but the autobiographical foreword does not measure each contribution or show that comparable help is equally available. Saved comments dispute whether “self-made” means literal solitude or self-directed advancement. All four historical Facebook CDN photographs returned HTTP 403, so their captions were used as prose but no visual detail was inferred or retained.",
+      "topic_scores": {
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "ArnoldSchwarzenegger",
+        "DeliberateNetworkBuilding",
+        "LuckAndEffortInSuccess",
+        "TimFerriss"
       ]
     }
   ],

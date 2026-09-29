@@ -6504,3 +6504,11 @@ Added [[JoelGascoigne]]'s first-person account of a nine-company, relationship-l
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I Am Not a Self-Made Man
+
+Added [[ArnoldSchwarzenegger]]'s autobiographical rejection of solitary-success attribution and expanded [[LuckAndEffortInSuccess]] with instruction, shelter, mentorship, sponsorship, gatekeepers, and collective participation. Updated [[DeliberateNetworkBuilding]] from its complete four-source evidence inventory to distinguish deliberately chosen mentors from unchosen help, and expanded [[TimFerriss]] from category association into a source-scoped curator of practitioner advice. Preserved the semantic disagreement over “self-made,” the essay's retrospective and autobiographical limits, and unequal access to comparable support. All four effective images returned HTTP 403 from their historical Facebook CDN URLs, so none could be inspected or retained and no visual details were inferred from captions.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
