@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "how-i-turned-a-cheap-weather-station-into-a-personal-devops-dashboard",
+  "images": [
+    {
+      "file": "weather-telemetry-architecture.png",
+      "alt": "Weather telemetry architecture from a WS2032 radio sensor through rtl_433, MQTT, Home Assistant, InfluxDB, and Grafana"
+    },
+    {
+      "file": "grafana-weather-overview.png",
+      "alt": "Grafana weather dashboard combining current summaries, a wind rose, and a wind-speed heatmap"
+    },
+    {
+      "file": "wind-rose.png",
+      "alt": "Wind rose grouping observed wind speeds by compass direction"
+    },
+    {
+      "file": "wind-speed-heatmap.png",
+      "alt": "Wind-speed heatmap showing the distribution of observations over time"
+    },
+    {
+      "file": "wind-direction-percentiles.png",
+      "alt": "Wind-direction percentile bands mapped to compass labels"
+    }
+  ]
+}

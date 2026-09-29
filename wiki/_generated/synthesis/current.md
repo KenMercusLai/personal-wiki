@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: 5611342cbb39672b213f92bfee73579840da7a79
+as_of_overview_commit: aaf300a09b15ced38ecd00a537f49861035b38f8
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 794
-source_count: 794
-paragraph_count: 600
+episode_count: 795
+source_count: 795
+paragraph_count: 601
 topic_count: 9
 ---
 
@@ -64,7 +64,7 @@ Institutions need explicit authority, evidence, appeal, transparency, bounded st
 
 ### History and Geopolitics
 
-Historical cases preserve long lineages, path dependence, institutional context, and selection effects rather than simple reproducible recipes.
+The current topic is dominated by historical technology, organizational, interface, media, market, and operations spillovers; its shared lesson is to preserve lineage, path dependence, version context, and causal humility rather than copy visible outcomes as recipes.
 
 ### Psychology and Personal Development
 

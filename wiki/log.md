@@ -6117,6 +6117,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | How I turned a cheap weather station into a personal DevOps dashboard
+
+Added [[BrianRJackson]]'s personal weather telemetry stack from a WS2032 and [[Rtl433]] through MQTT, [[HomeAssistant]], [[InfluxDB]], and [[Grafana]]. Created [[PersonalTelemetryPipeline]] and updated Grafana, InfluxDB, and [[TimeSeriesDatabase]] from their complete ordered evidence inventories to cover durable sensor history, Flux transformations, windowing, timestamp alignment, plugins, heatmaps, wind roses, and percentile views. Preserved the one-project, historical-version, reliability, security, exact-alignment, unit-comment, and circular-statistics limits. Opened all 21 local images; retained the architecture diagram and four representative analytical dashboard views under descriptive canonical filenames, while omitting the installation photograph, repeated dashboard crops, setup screens, and redundant Home Assistant cards.
+
 ## [2026-09-29] ingest | Here’s The Technique That Ambitious People Use To Get What They Want
 
 Added [[RyanHoliday]]'s account of the [[BriefcaseTechnique]], which turns interviews and consequential meetings into candidate-led demonstrations built from research, diagnosis, and a concrete plan. Created [[RyanHoliday]], [[RamitSethi]], and [[BriefcaseTechnique]], and updated [[LuckAndEffortInSuccess]], [[PeterThiel]], [[Gawker]], and [[TechnologyElitePower]] from their complete ordered evidence inventories. Preserved the source's explicit rejection boundary, the survivor-selection and unequal-preparation limits, and the distinction between persuasive capability and an ethically justified objective. Opened the sole local image and omitted it as a decorative snowy-mountain landscape without article-specific evidence.
@@ -6400,6 +6404,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | How I Made Twitter Back-end
 
 Added Leo Antony's educational Twitter-like backend design and created [[HybridTimelineFanout]] around its threshold-based split between write-time follower delivery and read-time celebrity merging. Updated [[HAProxy]] from its complete two-source evidence inventory to distinguish basic microservice routing from application-informed capacity control. Connected asymmetric JWT signing and verification, PostgreSQL-plus-Redis storage, RabbitMQ propagation, service discovery, and eventual timeline visibility while preserving the source's unverified Twitter attribution, absent benchmarks, imprecise signature terminology, and unspecified consistency, recovery, and security controls. Opened all seven effective image references; retained six unique evidence-bearing diagrams under descriptive canonical filenames and omitted one repeated queue/fan-out embed.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

@@ -323,6 +323,25 @@
     },
     {
       "global_candidate": false,
+      "id": "personal-telemetry-is-operations-history-spillover",
+      "qualifications": [
+        "The paragraph is a dated hobbyist technology case routed here because its historical product and version language crossed the planner boundary; it adds no substantive geopolitical evidence.",
+        "The one working deployment does not establish sensor accuracy, reliability, security, recovery, retention, comparative product fit, or the validity of every query and visualization."
+      ],
+      "statement": "[[BrianRJackson]], [[Rtl433]], [[HomeAssistant]], [[InfluxDB]], [[Grafana]], and [[PersonalTelemetryPipeline]] add a source-scoped 2022-2023 personal-operations-history snapshot in which radio acquisition, MQTT discovery, entity normalization, durable storage, and source-native visualization form an inspectable pipeline; [[TimeSeriesDatabase]] carries the substantive warning that windowing, exact alignment, and linear statistics over circular direction can change or misrepresent the result.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "BrianRJackson",
+        "Rtl433",
+        "HomeAssistant",
+        "InfluxDB",
+        "Grafana",
+        "PersonalTelemetryPipeline",
+        "TimeSeriesDatabase"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "fastnetmon-stack-is-operations-history-spillover",
       "qualifications": [
         "The paragraph is a dated technical-operations snapshot routed here through historical and routing language; it adds no substantive geopolitical evidence.",
@@ -352,6 +371,6 @@
       ]
     }
   ],
-  "summary": "[[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.",
+  "summary": "[[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. [[PersonalTelemetryPipeline]] adds a dated hobbyist operations case whose acquisition, normalization, storage, and visualization lessons belong mainly to technology; it also shows that version-bound tools and apparently polished dashboards retain historical and analytical assumptions. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.",
   "topic_id": "history-and-geopolitics"
 }

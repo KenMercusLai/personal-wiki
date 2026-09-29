@@ -558,6 +558,7 @@
       "f6acd2364baf8b08efb4ac808b9a24109a270492b7fa26ffdbeac4aa25abe4cd",
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
+      "fb5c012d67746c13af31b8c593b23f5c3a2daafad623ae9c4855b2c0eefd931c",
       "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9",
       "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
       "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
@@ -602,10 +603,10 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 600
+    "paragraph_count": 601
   },
-  "overview_commit": "5611342cbb39672b213f92bfee73579840da7a79",
-  "overview_digest": "638f9dae1e6a89fa33f0d3a43f2df4fdfdadc397869b7a0daeaa9673f3d9f01c",
+  "overview_commit": "aaf300a09b15ced38ecd00a537f49861035b38f8",
+  "overview_digest": "11d92ea091fd59a6873675028e8035e6a0543d11bd8a096f44e6fe632ee465ea",
   "paragraphs": [
     {
       "id": "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
@@ -11325,6 +11326,25 @@
         "TDengine",
         "TimeSeriesDatabase",
         "TimescaleDB"
+      ]
+    },
+    {
+      "id": "fb5c012d67746c13af31b8c593b23f5c3a2daafad623ae9c4855b2c0eefd931c",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [],
+      "text": "The newest [[BrianRJackson]] source turns time-series abstractions into a personal, cross-layer project. A WS2032 broadcasts weather observations at 433 MHz; an RTL-SDR and [[Rtl433]] decode them; MQTT and [[HomeAssistant]] discover, name, convert, and forward the entities; [[InfluxDB]] retains history; and [[Grafana]] applies Flux windows, pivots, filters, quantiles, mappings, thresholds, plugins, and overrides. New [[PersonalTelemetryPipeline]] treats acquisition, messaging, semantic normalization, storage, analysis, and presentation as separate but inspectable stages. The retained architecture diagram makes those boundaries explicit, while a dashboard overview, wind rose, speed heatmap, and direction-percentile view show why one chart cannot answer every question about noisy data. The case also adds analytical limits to [[TimeSeriesDatabase]] and Grafana: exact post-window alignment can discard unmatched observations, linear percentiles can misrepresent circular direction around 0/360 degrees, and attractive panels do not establish sensor accuracy or query validity. One code comment reverses the km/h-to-mph conversion description, a later heatmap uses a rougher coefficient, and the single historical hobby deployment supplies no reliability, security, recovery, retention, or product-comparison evidence. All 21 local images were opened; five evidence-bearing views were retained and installation, setup, card, and repeated dashboard images were omitted.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 2
+      },
+      "wikilinks": [
+        "BrianRJackson",
+        "Grafana",
+        "HomeAssistant",
+        "InfluxDB",
+        "PersonalTelemetryPipeline",
+        "Rtl433",
+        "TimeSeriesDatabase"
       ]
     },
     {
