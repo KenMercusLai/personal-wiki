@@ -6672,3 +6672,11 @@ Added a 2017 Better Everyday argument for treating friction as a deliberate prod
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | In a Robot Economy, All Humans Will Be Marketers
+
+Added [[TylerCowen]]’s 2017 argument that automation may preserve employment while shifting people from routine tasks toward selling, branding, customer relationships, and experience work. Created Tyler Cowen, [[JamesBessen]], and [[PersuasionWork]]; updated [[WorkplaceAutomation]] and [[HumanPremiumServices]] from their complete ordered evidence inventories. Preserved the distinction between employment continuity and productive or socially valuable reallocation, plus the informational, experiential, zero-sum, coercive, historical, and unmeasured limits of the essay’s marketing thesis. Inspected all 13 unique local image files by relevance and dimensions, opened the three article-photo variants, retained the highest-resolution meal-serving-robot photograph under a descriptive canonical filename, and omitted recommendation thumbnails and lower-resolution duplicates.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

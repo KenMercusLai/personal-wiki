@@ -5,7 +5,8 @@ tags: [labor, services, automation, economy, experience]
 sources:
   - automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy
   - heres-why-there-wont-be-an-uber-for-accounting-going-concern
-last_updated: 2026-09-29
+  - in-a-robot-economy-all-humans-will-be-marketers-bloomberg
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ The key distinction is category change. A vending-machine coffee, app-guided the
 
 The accounting essay adds a professional-advice case. Standardized tax preparation and transaction categorization can be automated, but a long-lived adviser relationship can combine technical judgment, diagnosis, confidentiality, client history, and guidance about which destination to pursue. In that setting, human involvement is not valuable merely because it is visibly manual; it can carry context and accountability that the client cannot easily specify or evaluate through a one-off marketplace rating.
 
+Cowen adds a necessary welfare boundary. Automation can shift bank tellers, restaurant staff, legal workers, and medical assistants toward greeting, selling, client cultivation, and experience management, but the presence of interpersonal work does not prove a substantial human premium. Some contact informs or reassures customers; some is a thin layer of welcome around an automated service; and some becomes competitive pressure to switch brands or open accounts. Human involvement therefore needs to be evaluated by the value it creates, not merely by its resistance to automation.
+
 ## Key Claims
 - Automation can increase the relative premium on human labor when standard goods become cheaper and more abundant.
 - Visible inefficiency can be valuable when it signals attention, care, craft, provenance, or social connection.
@@ -26,6 +29,7 @@ The accounting essay adds a professional-advice case. Standardized tax preparati
 - Partial automation can expand access, but it may create a different service category rather than replace the original one.
 - Richer economies may allocate more spending toward labor-intensive services whose value depends on human interaction.
 - Professional advice can retain a human premium when diagnosis, technical judgment, confidentiality, and accumulated client context are part of the outcome.
+- Relationship work is not automatically a human-premium service; it can add little value or become coercive when organized mainly around competitive selling.
 
 ## Evidence
 - Non-mass production: [[automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy]] cites [[Etsy]], small farms, wineries, and breweries as cases where the lack of automation is part of the selling point.
@@ -34,13 +38,15 @@ The accounting essay adds a professional-advice case. Standardized tax preparati
 - Education experience: [[automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy]] says online course materials do not replace professors, peers, clubs, social networks, mentoring, and other campus experiences.
 - Service-sector growth: [[automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy]] points to Labor Department projections for therapists, aides, assistants, home health aides, nurse-midwives, genetic counselors, and sonographers as examples of growing personal-service demand.
 - Professional advice: [[heres-why-there-wont-be-an-uber-for-accounting-going-concern]] contrasts automatable low-end tax and bookkeeping tasks with long-term accounting relationships in which the client seeks direction as well as execution.
+- Contested relationship value: [[in-a-robot-economy-all-humans-will-be-marketers-bloomberg]] contrasts useful customer information and welcome with low-value brand-switching competition and the Wells Fargo unauthorized-account example.
 
 ## Counterevidence & Qualifications
-The evidence consists of two explanatory essays, not a full labor-market or professional-services model. The examples show why some services resist direct automation, but they do not prove that all displaced workers can move into human-premium work, that wages will rise evenly, or that customers can always afford human care. The accounting source's 2016 forecast does not test hybrid marketplaces, later AI capabilities, credential-based quality controls, or which advisory tasks customers actually value. Semi-automated services may also be valuable when access, cost, geography, disability, speed, or price makes the human-premium version unavailable.
+The evidence consists of three explanatory essays, not a full labor-market or professional-services model. The examples show why some services resist direct automation, but they do not prove that all displaced workers can move into human-premium work, that wages will rise evenly, or that customers can always afford human care. The accounting source's 2016 forecast does not test hybrid marketplaces, later AI capabilities, credential-based quality controls, or which advisory tasks customers actually value. Cowen’s examples are not a measured decomposition of relationship work, marketing welfare, or job quality, and his assumption that machines remain weak at persuasion is historically bounded. Semi-automated services may also be valuable when access, cost, geography, disability, speed, or price makes the human-premium version unavailable.
 
 ## What Changed
 - Created the concept for automation-era services where human attention is part of the product rather than a removable cost.
 - Extended the concept from visible care and social presence to diagnosis, judgment, confidentiality, and accumulated client context in professional advice.
+- Distinguished genuinely valued attention and judgment from scripted welcome, competitive selling, and pressure-driven relationship work.
 
 ## Related Concepts
 - [[DoingThingsThatDoNotScale]] - manual effort can create value before automation or as a deliberate product choice.
@@ -49,3 +55,4 @@ The evidence consists of two explanatory essays, not a full labor-market or prof
 - [[SelfEducationInvestment]] - education's value includes mentoring and social context, not only information access.
 - [[FreeLearning]] - rich environments and autonomy qualify purely content-delivery models of learning.
 - [[ServiceMarketplaceFit]] - human-premium features can make one-off matching and interchangeability a poor fit even when standardized components are automatable.
+- [[PersuasionWork]] - overlaps with customer-facing human labor while making its informational, competitive, and potentially coercive forms explicit.

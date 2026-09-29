@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
       "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
       "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
       "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
@@ -627,11 +628,34 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 625
+    "paragraph_count": 626
   },
-  "overview_commit": "f20f834e9fc81827894f27e883de60c5f5d78cf2",
-  "overview_digest": "b6f22fa822f17c98e3feaeefa56a42ad496cfbdfc0ef9c269c5843916422948e",
+  "overview_commit": "7d642c279d2afd968edda0824a1bee04aef0913a",
+  "overview_digest": "40b07c13e449475584b8ffb90ddb3fa176c201171536c0a06f978c2a623d525f",
   "paragraphs": [
+    {
+      "id": "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "ai-and-technology",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[TylerCowen]] source adds [[PersuasionWork]] as a contested destination for labor released by automation. [[JamesBessen]]’s ATM example makes the mechanism concrete: lower-cost branches and automated cash handling did not simply remove tellers, but increased the relative importance of selling, interpersonal service, and customer-relationship work inside the occupation. Cowen extends the pattern to legal services, medical assistance, automated warehouses, and restaurants, strengthening [[WorkplaceAutomation]]’s activity-level account while adding a welfare boundary: preserved employment does not by itself establish higher productivity, job quality, or social value. Marketing can inform choice, improve product matching, and add identity or enjoyment, but it can also spend heavily to transfer customers among similar offerings or create pressure for misconduct. This qualifies [[HumanPremiumServices]] by separating valued care, judgment, and presence from scripted welcome or coercive selling, and it links weak measured productivity with a possible shift toward low-output competitive persuasion. The evidence remains one 2017 opinion essay built from cross-sector examples rather than occupational-flow, causal-productivity, or welfare measurement, and its claim that machines remain weak at persuasion predates later generative-AI capabilities. All 13 unique local image files were opened or classified: ten 47-pixel recommendation thumbnails and a 100-pixel duplicate were omitted as decorative or redundant, the 800-pixel article photograph was omitted as a lower-resolution duplicate, and the 1200-pixel photograph of a meal-serving robot was retained once at its semantic position.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 3,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 6
+      },
+      "wikilinks": [
+        "HumanPremiumServices",
+        "JamesBessen",
+        "PersuasionWork",
+        "TylerCowen",
+        "WorkplaceAutomation"
+      ]
+    },
     {
       "id": "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
       "primary_topic": "business-and-markets",

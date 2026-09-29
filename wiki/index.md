@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [In a Robot Economy, All Humans Will Be Marketers](sources/in-a-robot-economy-all-humans-will-be-marketers-bloomberg.md) - Tyler Cowen argues that automation can preserve jobs by shifting people toward persuasion and relationship work without guaranteeing productivity or social value.
 - [In Praise of Incrementalism (Ep. 264)](sources/in-praise-of-incrementalism-ep-264-freakonomics-freakonomics.md) - Freakonomics connects cumulative artistic, legal, financial, and athletic progress while preserving foundation, causality, ethics, and unfinished-change limits.
 - [In Products, as in Life, Not All Friction Is Bad](sources/in-products-as-in-life-not-all-friction-is-bad-better-everyday.md) - A Better Everyday essay treats friction as a design variable whose removal or addition can reshape noise, virality, service economics, and security.
 - [Improving Critical Infrastructure Rollouts](sources/improving-critical-infrastructure-rollouts-labs.md) - Spotify's Docker failures motivated Tsunami, a central desired-state service for gradual, auditable, health-aware infrastructure rollouts across thousands of hosts.
@@ -848,6 +849,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Tyler Cowen](entities/TylerCowen.md) - Economist arguing that automation may preserve employment while shifting human labor toward socially mixed persuasion and relationship work.
+- [James Bessen](entities/JamesBessen.md) - Economist cited for the ATM-era shift of bank tellers from cash handling toward customer relationships and sales.
 - [MealPal](entities/MealPal.md) - Lunch subscription that time-shifts demand through advance choice, limited menus, and pickup in exchange for price and operational benefits.
 - [DocuSign](entities/DocuSign.md) - Electronic-signature product used to examine the tradeoff between convenient agreement and protective deliberation.
 - [Dave Brailsford](entities/DaveBrailsford.md) - Cycling performance director who frames marginal gains as decomposition, measurement, shared culture, and foundation-first execution.
@@ -2328,6 +2331,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Persuasion Work](concepts/PersuasionWork.md) - Selling, branding, advertising, relationship, and experience work that may expand after automation but has contested social value.
 - [Incrementalism](concepts/Incrementalism.md) - Pursuing large outcomes through sequenced, repeated, mutually reinforcing changes while preserving foundations and direction checks.
 - [Progressive Infrastructure Rollout](concepts/ProgressiveInfrastructureRollout.md) - Controlled propagation of infrastructure state through representative production cohorts to bound exposure and create detection and stopping time.
 - [API Response Caching](concepts/APIResponseCaching.md) - Designing reusable API response boundaries, bounded variants, targeted invalidation, and explicit stale-serving policy for intermediary caches.
