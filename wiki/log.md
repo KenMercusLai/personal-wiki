@@ -6536,3 +6536,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I know why rejection emails suck. I write them.
+
+Added [[KelseyPiper]]'s first-person account of writing more than 3,000 individualized rejection emails for [[Triplebyte]] and created [[CandidateRejectionFeedback]] as a conditional hiring-system capability. Updated [[HiringSystemDesign]] from its complete five-source evidence inventory and expanded Triplebyte from recruiting intermediary to standardized assessment and feedback operator. The synthesis distinguishes bounded observations from claims about underlying ability, decisive weaknesses from incidental feedback, and reviewed technical explanations from raw notes that can expose bias; it also preserves the labor, coverage, candidate-reaction, evidentiary, and jurisdiction-specific legal limits. The source contains no image references, so no visual assets were inspected or retained.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

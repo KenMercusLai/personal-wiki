@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I know why rejection emails suck. I write them.](sources/i-know-why-rejection-emails-suck-i-write-them-triplebyte-blog.md) - Kelsey Piper explains why useful rejection feedback requires structured evidence, careful wording, editorial capacity, and iteration rather than detail alone.
 - [I Have Forgotten How to Read](sources/i-have-forgotten-how-to-read-the-globe-and-mail.md) - Michael Harris argues that text abundance can coexist with declining deep reading when digital habits train fragmented, impatient, and instrumental attention.
 - [I hate the term ‘open source’](sources/i-hate-the-term-open-source-nadia-eghbal-medium.md) - Nadia Eghbal separates license-backed open-source rights from public-development culture and proposes “public software” for broader discussion of participation, stewardship, and paid labor.
 - [I couldn’t find a good Personal CRM — So I created my own and want to share it with you](sources/i-couldnt-find-a-good-personal-crm-so-i-created-my-own-and-want-to-share-it-with-you-radreads.md) - Khe Hy turns Google Sheets validation, controlled tags, notes, and filters into a personal relationship-retrieval system while leaving outcomes, maintenance, privacy, and scale unmeasured.
@@ -2279,8 +2280,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Aviv Ovadya](entities/AvivOvadya.md) - Disinformation researcher warning that accessible synthetic media can falsify perceived events and weaken confidence in reality.
 
 - [Arnold Schwarzenegger](entities/ArnoldSchwarzenegger.md) - Bodybuilder, actor, businessman, and former governor who rejects solitary-success attribution and treats continued learning as essential.
+- [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Candidate Rejection Feedback](concepts/CandidateRejectionFeedback.md) - Individualized post-interview explanation whose value depends on bounded evidence, decision clarity, review capacity, and careful wording.
 - [Deep Reading](concepts/DeepReading.md) - Sustained, patient engagement that lets extended meaning develop beyond immediate extraction, novelty, or utility.
 - [Public Software](concepts/PublicSoftware.md) - Umbrella for publicly accessible software and collaboration that preserves open source as a narrower license-backed rights category.
 - [Personal CRM](concepts/PersonalCRM.md) - Personally maintained relationship system using structured context and retrieval to support introductions, targeted sharing, and follow-up.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: f99756f2781da99a1d9643dcae9e9fc7612385de
+as_of_overview_commit: 682aa8160a386c4edec5595c108c258472c925e9
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 810
-source_count: 810
-paragraph_count: 613
+episode_count: 811
+source_count: 811
+paragraph_count: 614
 topic_count: 9
 ---
 
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating health and infras
 
 ### Work, Education, and Society
 
-Work and learning outcomes depend on accessible tools, active practice, feedback, durable knowledge, role clarity, fair incentives, social support, consent, opportunity, public stewardship, explicit legal rights, and enforceable boundaries around attention, time, and power.
+Work and learning outcomes depend on accessible tools, active practice, evidence-quality feedback, durable knowledge, role clarity, fair incentives, social support, consent, opportunity, explicit rights, and enforceable boundaries around attention, time, and power. Individualized rejection feedback is useful only when structured evidence, bounded language, decision clarity, review capacity, and iteration outweigh its workload and misunderstanding risks.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

@@ -613,12 +613,13 @@
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b",
       "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0",
       "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
-      "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814"
+      "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814",
+      "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93"
     ],
-    "paragraph_count": 613
+    "paragraph_count": 614
   },
-  "overview_commit": "f99756f2781da99a1d9643dcae9e9fc7612385de",
-  "overview_digest": "67411e0e6008d7c31397e78e754f7b76622eb829b2237c1c546ba14dab34dd1c",
+  "overview_commit": "682aa8160a386c4edec5595c108c258472c925e9",
+  "overview_digest": "bc027b146a81763813f0d46122c76e97023b8e4e6d038ebe4b3f2b8dc2e58e57",
   "paragraphs": [
     {
       "id": "5366b48267f4664e85ab183b0b3c56eae6e213e4ac91be3d33f82e7133685dd6",
@@ -12409,6 +12410,23 @@
         "EndUserComputing",
         "KheHy",
         "PersonalCRM"
+      ]
+    },
+    {
+      "id": "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[KelseyPiper]] source extends [[HiringSystemDesign]] into [[CandidateRejectionFeedback]] and makes useful transparency conditional on process maturity. Piper reports that [[Triplebyte]] turned detailed multi-axis interviewer observations into individualized emails through central review, decision-relevant explanation, and maintained free learning resources, but reserved that effort for candidates who completed a two-hour interview. Candidate reactions reportedly improved when messages described what a person failed to demonstrate rather than declaring what they did not know, emphasized the sections that actually drove rejection, and made apparently mixed strengths and weaknesses more specific. The case therefore treats feedback as a downstream test of evidence quality and editorial governance: greater detail can intensify anger when it confirms misunderstanding, obscures causality, or appears contradictory. It also distinguishes reviewed technical-performance feedback from improvised release of raw notes that mention protected characteristics or expose bias, without establishing jurisdiction-independent legal safety. The evidence remains one employee's 2018 employer-published retrospective; more than 3,000 messages and mostly positive later reactions are self-reported without a corpus, response denominator, candidate survey, cost accounting, demographic analysis, complaint rate, comparison group, or downstream hiring outcomes. The source contains no image references, so no visual assets were inspected or retained.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CandidateRejectionFeedback",
+        "HiringSystemDesign",
+        "KelseyPiper",
+        "Triplebyte"
       ]
     }
   ],
