@@ -6,17 +6,20 @@ sources:
   - buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open
   - change-at-buffer-the-next-phase-and-why-our-co-founder-and-our-cto-are-moving-on
   - heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com
+  - i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing
 last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[JoelGascoigne]] is represented in the wiki as Buffer's CEO and author of public company updates about both operating metrics and strategic leadership change.
+[[JoelGascoigne]] is represented in the wiki as Buffer's CEO, a public narrator of company metrics and strategic change, and a part-time angel investor who links capital deployment with founder support and broader impact.
 
 ## Current Profile
 The Buffer sources present Gascoigne as the operator communicating [[Buffer]]'s business state and strategic direction to a public audience. His August 2015 update combines revenue, user activity, cash, hiring, product launches, organization design, support performance, and a specific hiring ask, positioning company transparency as an operating and recruiting habit rather than only marketing copy. His February 2017 post extends that transparency to a harder leadership moment: he explains Buffer's recommitment to sustainable remote growth and describes why [[LeoWidrich]] and [[SunilSadasivan]] were leaving after their visions diverged from the chosen path.
 
 The Inc. article adds a capital-structure decision consistent with that direction. Gascoigne had told Series A investors that an IPO or sale within five to seven years was not assured, and an investor negotiated a later redemption option plus 9% annual interest. Buffer subsequently used about $3.3 million of cash flow to buy roughly two-thirds of its Series A investors' holdings at a reported 40% return, while deferring seed-investor liquidity until cash reserves recovered.
+
+His angel-investing retrospective adds the other side of the capital relationship. After selling a small amount of Buffer stock in December 2014, Gascoigne invested in nine startups through August 2016, normally using $10,000 initial checks. He frames the activity as a time-constrained hobby built around prior relationships, founder access, simple sizing, follow-on investment when affordable, and acceptance that all committed capital could be lost. He also makes the objective explicitly plural: financial upside sits beside learning, personal fulfillment, positive impact, and advocacy for founder freedom and wellbeing.
 
 ## Key Characteristics
 - Buffer CEO writing publicly about company metrics and progress.
@@ -25,7 +28,7 @@ The Inc. article adds a capital-structure decision consistent with that directio
 - Treats hiring an in-house finance person as part of becoming more disciplined and data-informed.
 - Publicly frames Buffer's 2017 path around sustainable growth, full remote work, reliability, transparency, culture, diversity and inclusion, creativity, learning, innovation, and joy at work.
 - Describes founder and executive departures as a result of differing company-building visions rather than personal failure.
-- Negotiated a partial investor buyout using prior liquidity expectations, company cash flow, and reserve constraints.
+- Works on both sides of startup capital: he negotiated Buffer's partial investor buyout and applies a fixed-check, relationship-led angel process that treats advice, impact, and founder wellbeing as part of the desired return.
 
 ## Evidence
 - Public operator update: [[buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open]] is signed by Joel Gascoigne and reports Buffer's August 2015 state.
@@ -37,14 +40,18 @@ The Inc. article adds a capital-structure decision consistent with that directio
 - Early expectation setting: [[heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com]] says Gascoigne disclosed when raising Series A that he did not necessarily expect an IPO or sale in the next five to seven years.
 - Buyout negotiation: [[heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com]] reports that the resulting redemption clause became a pricing baseline and that Buffer spent about $3.3 million buying roughly two-thirds of Series A holdings.
 - Reserve boundary: [[heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com]] says Gascoigne told seed investors Buffer needed to rebuild cash before offering them liquidity.
+- Angel-investor entry: [[i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing]] says a partial Buffer share sale funded his first $10,000 startup check after he had advised CloudPeeps.
+- Portfolio process: [[i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing]] reports nine investments, standard initial sizing, founder availability, and a general preference for affordable follow-ons.
+- Investor posture: [[i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing]] says Gascoigne invests only capital he can lose and seeks fulfillment, learning, impact, founder freedom, and wellbeing as well as financial return.
 
 ## Qualifications
-The page is grounded in two Buffer-authored posts and one journalistic article centered on founder accounts. It does not establish Gascoigne's full biography, complete founder history, later operating views, or all of Buffer's results. The operating figures, strategic narrative, buyout price, return, and ownership details are not independently audited here, and investor perspectives and transaction documents are absent.
+The page is grounded in three Gascoigne-authored posts and one journalistic article centered on founder accounts. It does not establish his full biography, complete founder or investment history, later operating views, portfolio outcomes, or all of Buffer's results. The operating figures, strategic narrative, angel checks, buyout price, returns, and ownership details are not independently audited here, and investor perspectives, portfolio-company accounts, cap tables, and transaction documents are absent. His angel process reflects one operator with partial founder liquidity and should not be generalized into investment advice.
 
 ## What Changed
 - Created the entity page for Gascoigne as the Buffer CEO authoring an open operating update.
 - Added Gascoigne's 2017 strategic recommitment and public explanation of co-founder and CTO departures.
 - Added his expectation-setting and cash-flow-funded partial investor buyout as a capital-structure implementation of Buffer's sustainable path.
+- Added his nine-company angel portfolio, fixed-check and follow-on method, risk boundary, and founder-support objectives.
 
 ## Relationships
 - [[Buffer]] - company Gascoigne leads in the source.
@@ -56,3 +63,6 @@ The page is grounded in two Buffer-authored posts and one journalistic article c
 - [[SunilSadasivan]] - CTO whose departure Gascoigne explains.
 - [[PrivateCompanyInvestorBuyout]] - mechanism Gascoigne used to provide partial Series A liquidity.
 - [[FounderInvestorFit]] - his early disclosure and the negotiated redemption clause shaped the later exit discussion.
+- [[AngelInvesting]] - Gascoigne describes a part-time, relationship-led practice funded by personal liquidity.
+- [[MissionAlignedCapital]] - he treats social and community benefit as an investment return alongside financial gain.
+- [[FounderSuccessDefinition]] - his investor posture favors founder freedom and wellbeing over sacrificing everything for a hypothetical exit.

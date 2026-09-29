@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I am an investor in 9 companies: How and why I started angel investing](sources/i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing.md) - Joel Gascoigne explains a relationship-led, fixed-check angel practice designed around loss tolerance, founder support, follow-on investment, impact, and learning.
 - [I Understand Google Better than Google](sources/i-understand-google-better-than-google-elephate-medium.md) - Bartosz Goralewicz diagnoses Google Flights' 2018 visibility collapse through interacting JavaScript rendering, URL, redirect, linking, and indexing failures while preserving the limits of third-party SEO data.
 - [I Got Scammed By A Silicon Valley Startup](sources/i-got-scammed-by-a-silicon-valley-startup-startup-grind-medium.md) - A marketing director's anonymized account connects startup recruiting red flags with unpaid wages, alleged forged transfer records, evidence preservation, and alleged retaliation.
 - [I Am a 9 to 5 Developer (And So Can You!)](sources/i-am-a-9-to-5-developer-and-so-can-you-exception-not-found.md) - A developer argues that bounded work hours, breaks, and freedom from extracurricular coding expectations can support competence, family life, and protection from burnout and impostor feelings.
@@ -1418,7 +1419,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Greenhouse](entities/Greenhouse.md) - Software company case for engineering-led organization design, engineering-team scaling, and low voluntary attrition claims.
 - [FirstMark](entities/FirstMark.md) - Event organizer for the 2017 CTO Summit where Boufford presented the framework.
 - [The Startup](entities/TheStartup.md) - Medium entrepreneurship publication context for the Greenhouse organization-design article.
-- [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO authoring public updates about operating metrics, sustainable remote growth, and leadership transition.
+- [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO represented through public operating updates, strategic leadership change, investor liquidity, and a founder-supportive angel practice.
 - [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
 - [Chrome](entities/Chrome.md) - Google browser that grew into a dominant platform while also appearing as a background data-collection surface in a 2018 Android experiment.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
@@ -2641,7 +2642,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event whose stage, size, valuation, timing, founder attention cost, and investor-governance relationship all shape the process.
 - [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round and varies by stage, period, geography, evidence, and investor sample.
 - [Venture Capital Fund Structure](concepts/VentureCapitalFundStructure.md) - LP-backed fund with a finite life that earns returns from exits and keeps a share of the upside, assuming most portfolio companies fail.
-- [Angel Investing](concepts/AngelInvesting.md) - Early-stage funding by individuals investing their own money, contrasted with VCs managing a fund.
+- [Angel Investing](concepts/AngelInvesting.md) - Personal-capital startup investing shaped by extreme illiquidity, loss tolerance, relationship-led judgment, check sizing, follow-ons, and investor-specific motives.
 - [LLM Agent Stages](concepts/LLMAgentStages.md) - Staged account of agent architecture as structured output, tool calling, an MCP tool runtime, then a general OS layer of bash and files.
 - [Bash as Meta Tool](concepts/BashAsMetaTool.md) - Claim that a general-purpose shell can serve as the single meta tool through which an agent reaches most external capabilities.
 - [Agent Filesystem](concepts/AgentFilesystem.md) - Use of an ordinary filesystem as the durable store for intermediate artifacts that cannot round-trip through the model in one step.

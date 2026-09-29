@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 687fc4f4b0b88fcb64b202018b801327604470b2
-input_digest: 89d5e238e917a74048193359b84b7bb131923889fd218e5091c85c255755aea7
+as_of_overview_commit: 828d87e2c96243a119fb545cf6d25650e6f758ac
+input_digest: d174df936f65327ddff15c5a41846a1485a14d2eb1db0b50cd800775663af5b6
 ---
 
 # Business and Markets
@@ -912,14 +912,15 @@ input_digest: 89d5e238e917a74048193359b84b7bb131923889fd218e5091c85c255755aea7
 
 ### Venture Funds Pool Lp Capital Into Exit Driven Returns
 
-[[VentureCapitalFundStructure]] and [[AngelInvesting]] separate pooled institutional venture capital from personal early-stage capital: a VC manages LP money across a finite life, seeks exit-driven returns, and expects rare winners to cover failures; portfolio review and further fund fundraising can also transmit the fund's information and relationship needs downstream through company reporting, founder references to LPs, and assistance evaluating prospective investments.
+[[VentureCapitalFundStructure]] and [[AngelInvesting]] separate pooled institutional venture capital from personal early-stage capital: a VC manages LP money across a finite life and seeks exit-driven outliers, while [[JoelGascoigne]] supplies a source-scoped angel model using personal [[Buffer]] liquidity, relationship-led judgment, fixed initial checks, founder availability, and affordable follow-ons. His acceptance of total loss and illiquidity keeps the financial risk explicit, while [[MissionAlignedCapital]] and [[FounderSuccessDefinition]] capture his additional aims of learning, impact, founder freedom, and wellbeing; those preferences shape investor behavior without establishing return quality. Fund portfolio review and later fundraising can separately transmit institutional information and relationship needs downstream through company reporting, founder references to LPs, and assistance evaluating prospective investments.
 
-**Evidence:** [[VentureCapitalFundStructure]], [[AngelInvesting]]
+**Evidence:** [[VentureCapitalFundStructure]], [[AngelInvesting]], [[JoelGascoigne]], [[Buffer]], [[MissionAlignedCapital]], [[FounderSuccessDefinition]]
 
 **Qualifications:**
 
 - The economic explainer omits management fees, carried-interest rates and hurdles, fund vintages, the J-curve, investment periods versus fund life, capital calls, reserves, and secondary markets; its ten-year life and failure assumptions are typical-US-practice claims rather than universal rules.
 - The reporting, LP-reference, and deal-diligence examples come from one founder's retrospective with apparently anonymized investors and do not establish whether the requests were contractual, representative, effective, or proportionate.
+- Gascoigne's angel method is one unaudited 2018 retrospective from a hobby-scale investor with nine reported companies, no rejected-deal comparison, and no realized return after more than three years; its fixed check size, relationship-led selection, and follow-on heuristic are not general performance evidence or investment advice.
 
 ### Funded Competition Validates Demand Not Closed Market
 

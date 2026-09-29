@@ -6496,3 +6496,11 @@ Added [[CharlieWarzel]]'s 2018 demonstration of [[VoiceCloneImpersonation]] usin
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I am an investor in 9 companies: How and why I started angel investing
+
+Added [[JoelGascoigne]]'s first-person account of a nine-company, relationship-led angel portfolio funded by partial [[Buffer]] liquidity. Updated [[AngelInvesting]] from its complete two-source evidence inventory and expanded Gascoigne's profile from all four source notes, distinguishing fixed initial checks, founder availability, affordable follow-ons, loss tolerance, and broader goals of learning, impact, freedom, and wellbeing from demonstrated investment performance. Preserved the lack of realized returns and independent transaction evidence, the acknowledged weakness of follow-on fundraising as a success signal, and the method's non-generalizable hobby scale. None of the three effective image references could be opened: the local export asset is missing, the hero URL returns 404, and the portfolio screenshot host no longer resolves; its adjacent text fully repeats the portfolio timeline, so no image asset was retained.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

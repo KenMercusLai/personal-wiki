@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
       "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
       "aa6a9d7188571028567726a0d1c2373f0cdda18bbf4817dcc0b3ba06dc258abc",
       "18cb5103243d72a2d57f3d7fc909d601ca28b913e08b53a782a66ba73cf06723",
@@ -610,11 +611,31 @@
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b",
       "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0"
     ],
-    "paragraph_count": 608
+    "paragraph_count": 609
   },
-  "overview_commit": "c23deda4aabfc6b6e175ef5f4f63297e1598494b",
-  "overview_digest": "13d1e4f5d023e2d57ef4e0e7509692cd355770cc1fbe9964abd5facc6b7ea293",
+  "overview_commit": "828d87e2c96243a119fb545cf6d25650e6f758ac",
+  "overview_digest": "3d0d8c2082c238d3cb219788538dec040e9baf949ab9ce5f6853d6a567f2f07f",
   "paragraphs": [
+    {
+      "id": "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JoelGascoigne]] source expands [[AngelInvesting]] from a capital-source definition into one operator's relationship-led, time-constrained practice. Partial [[Buffer]] share liquidity funded a first $10,000 CloudPeeps check after years of knowing and advising its founder; Gascoigne then used the same initial size across most of a nine-company portfolio, reserved time for founder calls and email, and generally intended to follow on when affordable to limit [[CapTableDilution]]. His risk boundary is explicit: startup capital is completely illiquid, most companies fail, and every check must be money he can lose rather than his main wealth-building allocation. His desired return is also plural, joining financial upside with learning, fulfillment, social contribution, and advocacy for founder freedom, health, finances, and relationships, which connects the practice to [[MissionAlignedCapital]] and [[FounderSuccessDefinition]]. The essay remains one unaudited 2018 retrospective from a hobby-scale investor with no realized return after more than three years, no rejected-deal comparison, and an acknowledged imperfect assumption that subsequent fundraising indicates success. None of its three effective image references could be inspected: the local hero asset is missing, the remote hero returns 404, and the portfolio screenshot host no longer resolves; the adjacent prose fully repeats the portfolio timeline, so no visual claim or asset was retained.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AngelInvesting",
+        "Buffer",
+        "CapTableDilution",
+        "FounderSuccessDefinition",
+        "JoelGascoigne",
+        "MissionAlignedCapital"
+      ]
+    },
     {
       "id": "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
       "primary_topic": "work-education-and-society",
