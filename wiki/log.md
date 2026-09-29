@@ -6712,3 +6712,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inevitability in technology
+
+Added [[BenedictEvans]]'s distinction between structurally likely technology directions and contingent winners, acquisitions, timing, execution, and luck. Created [[TechnologicalInevitability]] and updated Benedict Evans from his complete ordered evidence inventory with the Facebook acquisition counterfactual, China's portal model, Nokia and BlackBerry's accumulated constraints, and the distinction between foreseeing mobile and foreseeing Apple. Preserved qualifications around selected examples, hypothetical post-acquisition execution, the lack of a formal causal test, and the source's 2016 scope. Opened and retained the sole local image: an F8 slide showing roughly 60 billion combined daily Messenger and WhatsApp messages, including 20 billion on Messenger.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

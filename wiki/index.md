@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inevitability in technology](sources/inevitability-in-technology-benedict-evans.md) - Benedict Evans separates structural technology drivers from contingent winners through Facebook acquisitions, Chinese portals, incumbent constraints, and Apple's mobile rise.
 - [Incident management at Google — adventures in SRE-land](sources/incident-management-at-google-adventures-in-sre-land-google-cloud-blog.md) - Paul Newson's first on-call incident shows Google's trained, role-based response, progressive rollout and rollback, and blameless postmortem learning loop.
 - [Increasing Attacker Cost Using Immutable Infrastructure](sources/increasing-attacker-cost-using-immutable-infrastructure.md) - Diogo Mónica shows how Docker layer inspection, known-image replacement, and a read-only root can aid response and resist persistence without fixing remote code execution.
 - [In a few years, no investors are going to be looking for AI startups](sources/in-a-few-years-no-investors-are-going-to-be-looking-for-ai-startups.md) - A 2017 essay predicts that AI will become assumed software infrastructure, shifting startup differentiation beyond the enabling technology while later sources contradict its two-year timetable.
@@ -2028,7 +2029,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
-- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about ecosystem-scale disruption, mobile computing, programmable imaging, platform-native media, autonomous vehicles, voice assistants, and task-specific machine-learning data moats.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about ecosystem transitions, technological contingency, mobile interfaces, platform strategy, autonomous vehicles, voice assistants, and task-specific data moats.
 - [Waymo](entities/Waymo.md) - Autonomous-driving technology company used to illustrate real-world testing, simulation scale, and potential platform power in a 2017 strategy essay.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path, valuation caution, and later argument about intangible software economics.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
@@ -2340,6 +2341,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Technological Inevitability](concepts/TechnologicalInevitability.md) - Distinguishing structurally likely directions from contingent winners, timing, decisions, execution, and institutional forms.
 - [Incident Management](concepts/IncidentManagement.md) - Prepared coordination system for declaring, commanding, communicating, mitigating, closing, and learning from significant service failures.
 - [Blameless Postmortem](concepts/BlamelessPostmortem.md) - System-focused incident review that pairs psychological safety with concrete corrective actions, owners, and shared learning.
 - [Technology Normalization](concepts/TechnologyNormalization.md) - Process by which a once-novel technical capability becomes an expected baseline and loses categorical signaling power.
