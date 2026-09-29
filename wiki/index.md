@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How 20-Year-Old Kylie Jenner Built A $900 Million Fortune In Less Than 3 Years](sources/how-20-year-old-kylie-jenner-built-a-900-million-fortune-in-less-than-3-years.md) - Forbes presents Kylie Cosmetics as a celebrity-led, socially distributed, operationally light beauty business while preserving valuation, inherited-advantage, slowing-growth, and durability limits.
 - [Hover is dead. Long live hover.](sources/hover-is-dead-long-live-hover.md) - Jordan Staniscia argues that hybrid touch laptops make hover unreliable, so essential actions need a touch-operable primary path while hover remains useful for feedback and shortcuts.
 - [Houseparty's Teenage Consultants Help Design the App](sources/housepartys-teenage-consultants-help-design-the-app.md) - Yiren Lu compares Houseparty's school visits with Musical.ly's continuous user groups to show how adult teams involved teenage users in design, learning, and early network spread.
 - [Hiring is Broken... And It Isn't Worth Fixing](sources/hiring-is-broken-and-it-isnt-worth-fixing-daedtech.md) - Erik Dietrich proposes replacing high-volume cold interviews with longer-lived evidence relationships while commenters expose the alternative's access, bias, relevance, and candidate-leverage trade-offs.
@@ -811,6 +812,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Kylie Jenner](entities/KylieJenner.md) - Celebrity entrepreneur who turned a pre-existing social audience into the principal distribution channel for her wholly owned cosmetics company.
+- [Kylie Cosmetics](entities/KylieCosmetics.md) - Direct-to-consumer beauty company combining celebrity demand, scarce launches, and outsourced commerce, production, and fulfillment.
+- [Kris Jenner](entities/KrisJenner.md) - Family manager who coordinated Kylie Cosmetics' transition from viral product launch to scaled commercial operation.
 - [Jordan Staniscia](entities/JordanStaniscia.md) - Interaction-design author arguing that hover should enhance pointer use without becoming the sole path to an essential action.
 - [Houseparty](entities/Houseparty.md) - Synchronous group video-chat app shaped through school-based teenage feedback and spread through dense local relationships.
 - [Alex Zhu](entities/AlexZhu.md) - Musical.ly founder represented through deliberate youth targeting and continuous pre-code user participation.
@@ -2240,6 +2244,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Celebrity-Led Commerce](concepts/CelebrityLedCommerce.md) - Model that converts a public figure's identity and audience into product demand while external partners supply commerce and operations.
 - [Input Modality Independence](concepts/InputModalityIndependence.md) - Design property that keeps essential actions discoverable and operable without exclusive dependence on hover or another single input capability.
 - [Participatory Product Design](concepts/ParticipatoryProductDesign.md) - Involving intended users in ideas, artifacts, and product choices before and during implementation, with explicit sampling and power boundaries.
 - [Hierarchy of Trust](concepts/HierarchyOfTrust.md) - Five-level UX framework for calibrating website requests to established relevance, preference, information trust, and relationship readiness.

@@ -6388,3 +6388,11 @@ Added [[JordanStaniscia]]'s 2016 argument that touch-enabled laptops break the a
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | How 20-Year-Old Kylie Jenner Built A $900 Million Fortune In Less Than 3 Years
+
+Added Forbes's 2018 profile of [[KylieJenner]] and [[KylieCosmetics]] as a [[CelebrityLedCommerce]] case combining a pre-existing audience, scarce launches, sole ownership, and modular operations through Seed Beauty, [[Shopify]], and [[KrisJenner]]. Created the three entity pages and the central concept; updated [[Forbes]], [[Shopify]], and [[PersonalBranding]] from their complete ordered evidence inventories. Preserved the article's disputed or unverifiable private-company estimates, inherited family-platform advantage, slowing growth, celebrity concentration, supplier and platform dependence, and publication-date limits. Opened all five local images, retained the evidence-bearing family business and follower-network infographic under a descriptive canonical filename, and omitted four editorial portraits or cover images whose information was decorative or duplicated in the prose.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
