@@ -6632,3 +6632,11 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Immutable Infrastructure Using Packer, Ansible, and Terraform
+
+Added a 2018 implementation of [[ImmutableInfrastructure]] that creates an AWS network with [[Terraform]], builds an Ansible-configured Nginx AMI with [[Packer]], and creates EC2 capacity from the tagged image with a second Terraform configuration. Created Packer and Terraform; updated [[ImmutableInfrastructure]], [[ConfigurationManagement]], [[InfrastructureAsCode]], [[Ansible]], and [[AWS]] from their complete ordered evidence inventories. Preserved the distinction between immutable image contents and mutable runtime state, and qualified the example's unmeasured benefits, historical syntax, access-key variables, local state coupling, public builder access, and `most_recent` tag-based image selection. Opened all five effective local images, retained the readable mutable-flow diagram, omitted the decorative stone photograph, and omitted three severely downsampled duplicate or verification remnants that could not be interpreted reliably.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

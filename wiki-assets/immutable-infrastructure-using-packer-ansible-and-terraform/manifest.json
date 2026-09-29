@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "immutable-infrastructure-using-packer-ansible-and-terraform",
+  "images": [
+    {
+      "file": "develop-deploy-configure-flow.png",
+      "alt": "Normal mutable delivery flow from development through deployment to post-deployment configuration"
+    }
+  ]
+}

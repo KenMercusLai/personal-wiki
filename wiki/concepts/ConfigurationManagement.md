@@ -4,7 +4,8 @@ type: concept
 tags: [infrastructure, operations, automation, devops]
 sources:
   - configuration-management-is-an-antipattern-by
-last_updated: 2026-09-26
+  - immutable-infrastructure-using-packer-ansible-and-terraform
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,7 +17,7 @@ The source presents configuration management as both a decisive historical impro
 
 The critique concerns convergence on long-lived machines at scale. Central repository control can turn operations into a queue, while distributed control exposes many developers to specialist DSLs and potentially fleet-wide mistakes. Actual state can also lag desired state because agents do not run together and networks, servers, code, or pushes fail. Teams then add branches, permissions, monitoring, and repair logic around the convergence system.
 
-The bounded conclusion is that configuration management remains useful where machines must be mutated, particularly for image construction or small bare-metal foundations, but it is a weak default for application release when infrastructure can instead be rebuilt and replaced as a versioned artifact.
+The bounded conclusion is that configuration management remains useful where machines must be mutated, particularly for image construction or small bare-metal foundations, but it is a weak default for application release when infrastructure can instead be rebuilt and replaced as a versioned artifact. The Packer tutorial demonstrates that bounded role directly: Ansible installs an Nginx site and enables the service on a temporary builder, after which new application instances launch from the completed AMI rather than rerunning the playbook.
 
 ## Key Claims
 - Configuration management can sharply improve provisioning speed, repeatability, error rates, and infrastructure comprehension over manual administration.
@@ -31,12 +32,13 @@ The bounded conclusion is that configuration management remains useful where mac
 - Convergence gap: [[configuration-management-is-an-antipattern-by]] lists asynchronous runs, network failure, buggy code, bad pushes, and configuration-server failure as reasons nodes fall out of sync.
 - Release mismatch: [[configuration-management-is-an-antipattern-by]] describes version edits, cluster gates, emergency fixes, and an additional deployment layer as signs that configuration convergence is being stretched into release engineering.
 - Bounded utility: [[configuration-management-is-an-antipattern-by]] allows configuration tools to build a base image and retains host management for a minimal bare-metal layer.
+- Build-time use: [[immutable-infrastructure-using-packer-ansible-and-terraform]] runs Ansible as a Packer provisioner so Nginx and the static site become AMI contents instead of launch-time mutations.
 
 ## Counterevidence & Qualifications
-The evidence is one practitioner talk without fleet telemetry, comparative experiments, or cost analysis. Its categorical title overstates the body: the author explicitly credits configuration management's benefits and preserves some uses. Small or stable environments may rationally prefer familiar convergence tooling to the cost of an image factory, artifact distribution, service discovery, and replacement orchestration.
+The evidence is two practitioner sources without fleet telemetry, comparative experiments, or cost analysis. Horowitz's categorical title overstates its body: he explicitly credits configuration management's benefits and preserves some uses. The Packer tutorial shows only a simple static-site build and does not measure whether moving Ansible earlier improves total delivery time or failure rates. Small or stable environments may rationally prefer familiar convergence tooling to the cost of an image factory, artifact distribution, service discovery, and replacement orchestration.
 
 ## What Changed
-- Established configuration management as historically valuable automation whose release role becomes less attractive when replacement is cheap.
+- Added direct evidence of Ansible used as a bounded image-build provisioner rather than a launch-time release engine.
 
 ## Related Concepts
 - [[ImmutableInfrastructure]] - replaces in-place convergence with build-time assembly and instance replacement.
@@ -44,3 +46,4 @@ The evidence is one practitioner talk without fleet telemetry, comparative exper
 - [[DeploymentAutomation]] - configuration tools may participate in releases but do not alone provide staged rollout, verification, or recovery.
 - [[BoringTechnology]] - demonstrates that configuration management can remain proportionate in a small, familiar operating model.
 - [[ChangeSafety]] - permissions, blast radius, partial application, and recovery determine whether an automated change is safe.
+- [[Packer]] - supplies the temporary image-building boundary in which Ansible applies configuration once.

@@ -8,7 +8,8 @@ sources:
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
   - configuration-management-is-an-antipattern-by
   - deploy-with-haste-the-story-of-rig-buzzfeed-tech
-last_updated: 2026-09-27
+  - immutable-infrastructure-using-packer-ansible-and-terraform
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -27,6 +28,8 @@ The bmpi.dev implementation shows the practice split across tools by subsystem: 
 Horowitz adds an important category boundary. Versioned infrastructure code can describe provisioning, but convergence-oriented [[ConfigurationManagement]] repeatedly mutates existing nodes while [[ImmutableInfrastructure]] builds a versioned image and replaces nodes. Both are reproducible automation; their failure surfaces differ. Convergence must detect and repair partial application across a live fleet, whereas replacement requires a reliable image factory, artifact promotion, rollout controls, and explicit treatment of state outside the image.
 
 BuzzFeed's Rig adds infrastructure experimentation and internal-platform leverage. Terraform made ECS clusters repeatable enough to stand up quickly for failure, stability, security, network, and operability tests before migrating low-risk services. That transparency supported peer review and confidence, yet the team later found Terraform difficult at scale and wanted cluster creation to become substantially simpler. Reproducibility therefore does not guarantee an ergonomic workflow or eliminate abstraction work.
+
+The Packer tutorial makes cross-tool data flow explicit. Terraform first creates a network and exports a subnet, Packer uses that subnet while Ansible constructs an AMI, and a second Terraform configuration reads network state and discovers the image by tag before creating EC2 capacity. This is reproducible in outline, but state-file coupling and `most_recent` tag selection show that handoff identity is part of the infrastructure contract: an implicit or mutable selector can weaken an otherwise immutable pipeline.
 
 ## Key Claims
 - Infrastructure as code becomes more valuable as cloud resource count, service count, and regional footprint grow, but its provisioning, convergence, replacement, and user-workflow concerns should not be treated as interchangeable.
@@ -51,15 +54,18 @@ BuzzFeed's Rig adds infrastructure experimentation and internal-platform leverag
 - Replacement boundary: [[configuration-management-is-an-antipattern-by]] advocates building application packages into base-derived AMIs or container images and promoting those artifacts rather than mutating long-lived application hosts.
 - Experimental leverage: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] says Terraform made Rig clusters automated and repeatable enough to stand up quickly for infrastructure-level tests and staged migration.
 - Workflow limit: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] reports that Terraform remained hard at scale and that provisioning a cluster still needed a simpler interface.
+- Cross-tool pipeline: [[immutable-infrastructure-using-packer-ansible-and-terraform]] divides network and instance resources across two Terraform configurations, passes the subnet into Packer, and uses Ansible only during AMI construction.
+- Artifact-selection boundary: [[immutable-infrastructure-using-packer-ansible-and-terraform]] discovers the newest available AMI with a shared tag, illustrating that reproducible provisioning also depends on unambiguous artifact promotion.
 
 ## Counterevidence & Qualifications
-The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, configuration managers, image pipelines, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, BuzzFeed still found Terraform-at-scale and cluster provisioning difficult, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift. Horowitz's categorical critique is a practitioner account that retains configuration management for image construction and small bare-metal foundations; immutable images also leave runtime configuration, data, secrets, and external dependencies outside the artifact.
+The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, configuration managers, image pipelines, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, BuzzFeed still found Terraform-at-scale and cluster provisioning difficult, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift. Horowitz's categorical critique retains configuration management for image construction and small bare-metal foundations. The Packer tutorial uses historical Terraform syntax, access-key variables, local state, a public builder, and tag-based image discovery; it demonstrates orchestration boundaries rather than current security or state-management practice. Immutable images still leave runtime configuration, data, secrets, and external dependencies outside the artifact.
 
 ## What Changed
 - Distinguished in-place configuration convergence from build-and-replace immutable infrastructure as two infrastructure-as-code mechanisms with different failure boundaries.
 - Added a small-application case where Terraform and Serverless Framework divide infrastructure ownership by subsystem.
 - Added the startup security guide's argument that infrastructure as code should start early to apply review, tests, CI/CD, and drift resistance to cloud changes.
 - Added repeatable cluster creation as an infrastructure-testing enabler while making Terraform workflow scalability an explicit limit.
+- Added state and artifact identity as explicit cross-tool handoff risks in a Terraform-Packer-Ansible pipeline.
 
 ## Related Concepts
 - [[DeclarativeInfrastructure]] - both use declared desired state, but infrastructure as code here emphasizes provisioning and configuration automation rather than controller reconciliation.
@@ -71,3 +77,5 @@ The sources are not controlled comparisons of Terraform, SaltStack, Serverless F
 - [[ServerlessComputing]] - managed-service composition makes repeatable resource and permission definitions especially important.
 - [[ConfigurationManagement]] - applies infrastructure definitions by converging existing machines toward desired state.
 - [[ImmutableInfrastructure]] - applies repeatability by building versioned images and replacing machines.
+- [[Terraform]] - recurring provisioning implementation across the bounded cases.
+- [[Packer]] - builds the machine artifact between Terraform's network and instance stages.

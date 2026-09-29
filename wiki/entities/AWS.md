@@ -12,7 +12,8 @@ sources:
   - central-logging-in-multi-account-environments-aws-architecture-blog
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
   - hacker-puts-hosting-service-code-spaces-out-of-business-threatpost
-last_updated: 2026-09-29
+  - immutable-infrastructure-using-packer-ansible-and-terraform
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -36,6 +37,8 @@ The bmpi.dev implementation adds a small hybrid [[ServerlessComputing]] profile.
 
 The 2014 Code Spaces incident adds the security boundary of that composability. Threatpost reports that an attacker with EC2 control-panel access created backup logins and deleted EBS snapshots and volumes, S3 buckets, AMIs, instances, configurations, and most backups even without the private keys needed for direct machine access. The source says AWS supplied two-factor authentication and IAM controls, while customers remained responsible for credential management; it does not establish which controls Code Spaces had configured or how the initial access occurred.
 
+The immutable-infrastructure tutorial adds a small AMI delivery chain. Terraform creates a VPC, public subnet, internet routing, and key pair; Packer launches an EBS-backed builder in that subnet and uses Ansible to prepare Nginx; Terraform then selects the latest available image carrying a shared tag and creates EC2 capacity with security groups and an Elastic IP. The example shows how AWS resource identity connects infrastructure and image stages, while its public builder, local state, credential variables, and mutable image selector remain historical tutorial choices.
+
 ## Key Characteristics
 - Provides EC2 virtual server infrastructure with lower-level deployment control than Vercel's integrated platform workflow.
 - Supports large-scale SaaS high availability through regions, availability zones, managed queues, load balancers, Route53, RDS, CloudFront, CloudWatch, and auto-scaling.
@@ -43,7 +46,7 @@ The 2014 Code Spaces incident adds the security boundary of that composability. 
 - Supports RAG-style AI/database workloads through Amazon Bedrock, RDS, Aurora PostgreSQL, and pgvector.
 - Prices infrastructure through separable units such as vCPU, RAM, durable storage, requests, and data transfer.
 - Originated in Amazon's internal data-storage and computing needs before becoming an external cloud business.
-- Composes managed services for cross-account logging and hybrid serverless applications, while customer-managed identities and permissions determine the blast radius of control-plane compromise.
+- Composes managed services and image-backed EC2 delivery, while customer-managed identities, permissions, state, and artifact selectors determine operational and control-plane risk.
 
 ## Evidence
 - EC2 deployment: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes buying an Ubuntu EC2 server with 4 cores and 8GB RAM.
@@ -74,14 +77,17 @@ The 2014 Code Spaces incident adds the security boundary of that composability. 
 - Network and cost tradeoff: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] uses Fargate Spot and a public-subnet task with a public IP while warning about NAT gateway and interface-endpoint charges.
 - Control-plane blast radius: [[hacker-puts-hosting-service-code-spaces-out-of-business-threatpost]] reports that compromised account access let an attacker delete Code Spaces' EBS, S3, AMI, instance, configuration, repository, and backup assets.
 - Customer security boundary: [[hacker-puts-hosting-service-code-spaces-out-of-business-threatpost]] says AWS supported two-factor authentication and IAM-based individual credentials, role separation, and least privilege while assigning credential management to customers.
+- AMI build chain: [[immutable-infrastructure-using-packer-ansible-and-terraform]] connects a Terraform-created subnet, a Packer Amazon EBS builder, Ansible configuration, and Terraform-launched EC2 capacity.
+- Image discovery: [[immutable-infrastructure-using-packer-ansible-and-terraform]] filters available AMIs by the `Packer-Ansible` tag and selects the most recent match.
 
 ## Qualifications
-The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 managed-service pipeline; and the bmpi.dev source presents one small hybrid serverless implementation with historical prices. The Code Spaces source is a 2014 secondary report based largely on the customer's statement; it does not establish the initial-access method, configured safeguards, or a general AWS failure. None is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, service-version changes, or total ownership cost.
+The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 managed-service pipeline; and the bmpi.dev source presents one small hybrid serverless implementation with historical prices. The Code Spaces source is a 2014 secondary report based largely on the customer's statement; it does not establish the initial-access method, configured safeguards, or a general AWS failure. The immutable example uses 2018 syntax and practices and does not evaluate current AMI build, identity, network, state, or deployment controls. None is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, service-version changes, or total ownership cost.
 
 ## What Changed
 - Added a hybrid serverless application profile spanning scheduled Fargate, Lambda/API Gateway, SNS, S3, CloudFront, and their supporting AWS services.
 - Added AWS central logging as a multi-account managed-service composition pattern for operational evidence collection.
 - Added the customer-side control-plane security boundary: account credentials and IAM scope can make production and recovery assets jointly destructible.
+- Added a concrete VPC-to-Packer-to-AMI-to-EC2 delivery chain and its artifact-selection boundary.
 
 ## Relationships
 - [[NextJSDeployment]] - AWS EC2 hosts the PM2 and Docker deployment examples.
@@ -108,3 +114,6 @@ The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC
 - [[BMPIDev]] - practitioner whose application supplies the hybrid serverless case.
 - [[CodeSpaces]] - customer whose reported account compromise exposed the destructive scope of cloud control-plane access.
 - [[BackupAndRecovery]] - AWS snapshots and object storage are not independent recovery copies when the same compromised account can delete them.
+- [[Packer]] - uses an Amazon EBS builder to create the configured AMI.
+- [[Terraform]] - provisions the network and EC2 resources and discovers the tagged image.
+- [[ImmutableInfrastructure]] - uses AWS AMIs as replaceable, versioned server artifacts.

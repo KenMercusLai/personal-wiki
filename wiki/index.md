@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Immutable Infrastructure Using Packer, Ansible, and Terraform](sources/immutable-infrastructure-using-packer-ansible-and-terraform.md) - A 2018 tutorial connects Terraform networking, a Packer/Ansible AMI build, and Terraform EC2 creation while exposing state, security, and image-promotion qualifications.
 - [Imagining your future projects is holding you back.](sources/imagining-your-future-projects-is-holding-you-back.md) - Jessica Abel defines idea debt as fantasized but unmade creative work and argues for either imperfect action or conscious abandonment.
 - [Imaging, Snapchat and mobile](sources/imaging-snapchat-and-mobile-benedict-evans.md) - Benedict Evans reframes the smartphone camera as a programmable input method connecting mobile-native interaction, Snapchat Lenses, computer vision, and augmented reality.
 - [If the internet is addictive, why don’t we regulate it?](sources/if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays.md) - Michael Schulson connects variable rewards and weak stopping cues to attention-funded incentives and argues for regulation that expands user control while preserving diagnostic and policy uncertainty.
@@ -843,6 +844,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Packer](entities/Packer.md) - Machine-image builder positioned between Terraform-managed networking, Ansible configuration, and AMI-backed EC2 creation.
+- [Terraform](entities/Terraform.md) - Versioned cloud-provisioning tool whose repeatability benefits depend on clear state, ownership, permission, and artifact handoffs.
 - [Jessica Abel](entities/JessicaAbel.md) - Author and comics creator who synthesizes idea debt, prolific practice, perfectionism, and deliberate project abandonment.
 - [Kazu Kibuishi](entities/KazuKibuishi.md) - Comics creator credited with naming idea debt and the rule to take the jump or deliberately skip it.
 - [Ira Glass](entities/IraGlass.md) - Radio producer whose taste-skill gap account recommends closing the gap through a high volume of finished work.
@@ -1653,7 +1656,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bitcoin](entities/Bitcoin.md) - Incumbent cryptocurrency framed as vulnerable to merchant-adoption constraints, transaction throughput, and Amazon-scale platform choice.
 - [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
 - [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
-- [Ansible](entities/Ansible.md) - Open source automation platform presented through multivendor network modules, concrete NX-OS interfaces, and benchmark qualifications for high-volume local processing.
+- [Ansible](entities/Ansible.md) - Open source automation platform presented through network modules, NX-OS interfaces, high-volume processing limits, and bounded image-build provisioning.
 - [DigitalOcean](entities/DigitalOcean.md) - Cloud provider used as the dedicated-CPU benchmark environment in the Ansible-versus-Nornir speed comparison.
 - [Nornir](entities/Nornir.md) - Python network-automation framework benchmarked as a lower-overhead alternative for large local templating workloads.
 - [Patrick Ogenstad](entities/PatrickOgenstad.md) - Network-automation practitioner author of the Ansible-versus-Nornir speed benchmark.
@@ -1966,7 +1969,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Antirez](entities/Antirez.md) - Redis creator and systems programmer arguing that AI coding capability should be tested seriously despite anti-hype instincts, centralization worries, and job-loss concerns.
 - [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, and simple composable agent-building guidance.
-- [AWS](entities/AWS.md) - Cloud infrastructure provider used for EC2 self-hosting, large-scale SaaS architecture, AI/database services, infrastructure unit-cost reasoning, database migration, and multi-account logging pipelines.
+- [AWS](entities/AWS.md) - Cloud platform represented through EC2, managed services, cost and security boundaries, and an AMI-based immutable delivery chain.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
@@ -2546,8 +2549,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Psychological Reactance](concepts/PsychologicalReactance.md) - Resistance to perceived threats to autonomy, including distrust or opposition when familiar persuasion tactics feel coercive.
 - [Consumer Startup Competition](concepts/ConsumerStartupCompetition.md) - Competition model in which incumbent network, distribution, and resource advantages are partly offset by multi-homing, residual discovery, and lower experimentation costs.
 - [Imposter Syndrome](concepts/ImposterSyndrome.md) - Difficulty internalizing success, synthesized across achievement pressure, belonging, filtered feedback, and perfectionistic effort rituals.
-- [Configuration Management](concepts/ConfigurationManagement.md) - Desired-state automation for converging existing machines, historically valuable but exposed to ownership, drift, partial-application, and release-boundary problems.
-- [Immutable Infrastructure](concepts/ImmutableInfrastructure.md) - Build-and-replace operating model based on versioned images, staged promotion, and explicit treatment of runtime and persistent state.
+- [Configuration Management](concepts/ConfigurationManagement.md) - Desired-state automation whose bounded roles include image construction even when per-instance release convergence is avoided.
+- [Immutable Infrastructure](concepts/ImmutableInfrastructure.md) - Build-and-replace model whose reliability depends on image construction, explicit promotion, rollout, and state boundaries.
 - [Organizational Scale Tradeoffs](concepts/OrganizationalScaleTradeoffs.md) - Coupled gains and costs created when specialization, resources, strategy, and dependencies replace small-team generalism and autonomy.
 - [Coding Bootcamp Education](concepts/CodingBootcampEducation.md) - Accelerated vocational programming education evaluated through teaching depth, mentor expertise, projects, career support, price, selection, and transparent outcomes.
 - [Marketplace Cold Start](concepts/MarketplaceColdStart.md) - Coordination problem of concentrating enough relevant supply and demand for a marketplace to become usable.
@@ -3062,7 +3065,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Platform Distribution Dependence](concepts/PlatformDistributionDependence.md) - Risk and leverage pattern where borrowed APIs, undocumented interfaces, feeds, or rankings create reach that should become direct user demand.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
-- [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
+- [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned infrastructure automation whose cross-tool state, ownership, and artifact identities are part of reproducibility.
 - [Network Automation](concepts/NetworkAutomation.md) - Code-backed provisioning, configuration, validation, and operation of networks with explicit platform, transport, credential, scale, and safety constraints.
 - [Distributed System Restraint](concepts/DistributedSystemRestraint.md) - Delaying distributed architecture until product needs, team size, and operational capacity justify the complexity.
 - [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, staged rollout, verification, and bounded recovery mechanisms for moving service changes into production safely.
