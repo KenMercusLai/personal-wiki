@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine
+
+Added IAmMandatory's 2023 account of building [[FindThatMeme]] from iOS Vision OCR workers, ten-frame video sampling, a used-iPhone cluster behind Raspberry Pi and NGINX, canonical [[PostgreSQL]] records, and a PGSync-fed single-node Elasticsearch index. Created FindThatMeme, [[VisualTextIndexing]], [[CostConstrainedInfrastructure]], and [[RebuildableDerivedIndex]] while preserving the first-person, unbenchmarked, point-in-time, availability, temporal-sampling, and total-cost limitations. Opened all nine effective local image references and retained every evidence-bearing OCR example, screenshot, physical-cluster photograph, price listing, and architecture diagram under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-29] ingest | If the internet is addictive, why don’t we regulate it?
 
 Added [[MichaelSchulson]]'s 2015 argument that engineered digital compulsion arises from the interaction of variable rewards, repeated triggers, weak stopping cues, user investment, and attention-funded incentives rather than from either the internet itself or individual weakness alone. Created Michael Schulson, [[TristanHarris]], [[NirEyal]], [[NatashaSchull]], and [[DigitalCompulsionRegulation]]; updated [[AttentionEconomy]], [[EngagementIncentiveConflict]], [[BehaviorDesign]], [[NotificationDesign]], and [[BJFogg]] from their complete ordered evidence inventories. Preserved the unsettled diagnosis of internet addiction, the non-equivalence of gambling and useful digital services, beneficial behavior-design cases, and the untested privacy, classification, accessibility, enforcement, and evasion risks of dashboards, feature restrictions, warnings, usage feedback, and cutoffs. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
@@ -6596,6 +6600,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Idiomatic Python: EAFP versus LBYL
 
 Added [[BrettCannon]]'s comparison of exception-driven EAFP with precondition-checking LBYL and created Brett Cannon plus [[EAFPAndLBYL]]. Updated [[Python]] from its complete ordered six-source evidence inventory with expected-path communication, specific exception handling, and narrow `try` scope. Preserved LBYL as a legitimate clarity choice and qualified the article's unbenchmarked 2016 performance claim, concurrency and side-effect omissions, and practitioner-source scope. The local capture omitted the code blocks, so the surviving official Microsoft post was checked to recover the dictionary membership, `try`/`except KeyError`, and `try`/`else` examples. The source's only image is a remote header reference that returned HTTP 404 and could not be inspected or retained; no visual claim relies on it.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

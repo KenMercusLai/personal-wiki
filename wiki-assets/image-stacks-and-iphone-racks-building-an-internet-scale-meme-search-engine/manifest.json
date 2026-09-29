@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine",
+  "images": [
+    {
+      "file": "easy-tesseract-meme.png",
+      "alt": "A meme with large regular black text that Tesseract transcribed accurately"
+    },
+    {
+      "file": "remixed-meme-ocr-challenge.png",
+      "alt": "A remixed Escape from Tarkov meme whose mixed fonts, overlays, and game labels defeated Tesseract"
+    },
+    {
+      "file": "ios-selecting-warped-captcha.png",
+      "alt": "iOS text selection highlighting the intentionally warped words in an old reCAPTCHA image"
+    },
+    {
+      "file": "ios-captcha-recognition-result.png",
+      "alt": "An iPhone Notes screen showing the correctly copied CAPTCHA text Levelers critics"
+    },
+    {
+      "file": "iphone-vision-ocr-server.png",
+      "alt": "An iPhone running a basic Vision OCR HTTP server with processing and memory statistics"
+    },
+    {
+      "file": "postgres-pgsync-elasticsearch-architecture.png",
+      "alt": "Diagram with PostgreSQL as the source of truth, PGSync and Redis feeding a single-node Elasticsearch cluster, and the FindThatMeme API server"
+    },
+    {
+      "file": "iphone-ocr-cluster.jpg",
+      "alt": "A physical OCR cluster of five wired iPhones stacked above a Raspberry Pi and power adapters"
+    },
+    {
+      "file": "used-iphone-se-listing.png",
+      "alt": "A sold listing for a carrier-locked second-generation iPhone SE priced at 39 dollars and 99 cents"
+    },
+    {
+      "file": "final-meme-search-architecture.png",
+      "alt": "Final architecture linking meme sites, a scraping ingestion server, an iPhone OCR farm, Elasticsearch and PostgreSQL databases, object storage, and the meme search service"
+    }
+  ]
+}

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [If the internet is addictive, why don’t we regulate it?](sources/if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays.md) - Michael Schulson connects variable rewards and weak stopping cues to attention-funded incentives and argues for regulation that expands user control while preserving diagnostic and policy uncertainty.
+- [Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine](sources/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine.md) - IAmMandatory combines iOS Vision OCR, sampled video frames, a used-iPhone cluster, PostgreSQL, PGSync, and Elasticsearch into a cost-constrained search pipeline reportedly covering about 17 million memes.
 - [If Management Is the Only Way Up, We're All F'd](sources/if-management-is-the-only-way-up-were-all-fd-sparktoro.md) - Rand Fishkin argues for parallel, comparably rewarded IC and people-management tracks so advancement reflects role fit rather than direct-report count.
 - [Idiomatic Python: EAFP versus LBYL](sources/idiomatic-python-eafp-versus-lbyl-python.md) - Brett Cannon contrasts attempting the expected operation and handling a specific failure with checking a precondition first, emphasizing clear intent and narrow exception scope.
 - [Identify users with the most valuable feedback](sources/identify-users-with-the-most-valuable-feedback-startup-grind-medium.md) - Dan Wolch combines behavior-defined user cohorts, direct email replies, follow-up questions, and manual thematic coding into a lightweight feedback workflow.
@@ -840,6 +841,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [FindThatMeme](entities/FindThatMeme.md) - Meme search project using iPhone OCR workers, canonical PostgreSQL records, and a rebuildable Elasticsearch index.
 - [Michael Schulson](entities/MichaelSchulson.md) - Journalist arguing that engineered digital compulsion is an interaction-design and regulatory problem, not only an individual failure.
 - [Tristan Harris](entities/TristanHarris.md) - Ethical-design advocate proposing intention-respecting technology and competition on net benefit rather than raw attention.
 - [Nir Eyal](entities/NirEyal.md) - Habit-design author represented through the trigger-action-variable-reward-investment cycle and its ethical limits.
@@ -2306,6 +2308,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Visual Text Indexing](concepts/VisualTextIndexing.md) - Extracting text from images and sampled video frames and carrying it through a recoverable search pipeline.
+- [Cost-Constrained Infrastructure](concepts/CostConstrainedInfrastructure.md) - Trading convenience and redundancy for sustainable cost while preserving explicit restart and reconstruction paths.
+- [Rebuildable Derived Index](concepts/RebuildableDerivedIndex.md) - Retrieval-optimized state treated as a reproducible projection of canonical records rather than a second authority.
 - [Digital Compulsion Regulation](concepts/DigitalCompulsionRegulation.md) - Enforceable product rules intended to restore practical user control over digital triggers, session boundaries, feedback, and cutoffs.
 - [Dual Career Tracks](concepts/DualCareerTracks.md) - Parallel advancement paths that reward widening individual contribution and people management as different forms of senior responsibility.
 - [Management Role Fit](concepts/ManagementRoleFit.md) - Alignment between a person's motivation and capability and the work of enabling a team through people management.
