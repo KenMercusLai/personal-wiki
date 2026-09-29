@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Improve cache performance with optimized API design](sources/improve-cache-performance-with-optimized-api-design.md) - Fastly connects cache-friendly HTTP and REST boundaries with bounded variants, surrogate-key purging, and stale serving for faster, more resilient APIs.
 - [Immutable Infrastructure Using Packer, Ansible, and Terraform](sources/immutable-infrastructure-using-packer-ansible-and-terraform.md) - A 2018 tutorial connects Terraform networking, a Packer/Ansible AMI build, and Terraform EC2 creation while exposing state, security, and image-promotion qualifications.
 - [Imagining your future projects is holding you back.](sources/imagining-your-future-projects-is-holding-you-back.md) - Jessica Abel defines idea debt as fantasized but unmade creative work and argues for either imperfect action or conscious abandonment.
 - [Imaging, Snapchat and mobile](sources/imaging-snapchat-and-mobile-benedict-evans.md) - Benedict Evans reframes the smartphone camera as a programmable input method connecting mobile-native interaction, Snapchat Lenses, computer vision, and augmented reality.
@@ -2069,7 +2070,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, cache-sketch freshness metadata, clear product positioning, and AI-assisted maintenance examples.
 - [Baqend](entities/Baqend.md) - Backend-as-a-service and caching platform behind the Thinks webshop performance case study.
 - [Thinks](entities/Thinks.md) - Ecommerce webshop case study for sub-second page loads during a German TV traffic spike.
-- [Fastly](entities/Fastly.md) - CDN used in the Thinks/Baqend performance architecture.
+- [Fastly](entities/Fastly.md) - Edge CDN represented through the Thinks/Baqend architecture and guidance on API cache reuse, targeted purging, and stale serving.
 - [MongoDB](entities/MongoDB.md) - Primary database used in the Thinks webshop backend stack.
 - [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
 - [Elecpass](entities/Elecpass.md) - Wang Ziting side project used as a positive example of fast release, personal use, and focused versioned improvement.
@@ -2316,6 +2317,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [API Response Caching](concepts/APIResponseCaching.md) - Designing reusable API response boundaries, bounded variants, targeted invalidation, and explicit stale-serving policy for intermediary caches.
 - [Idea Debt](concepts/IdeaDebt.md) - Psychological burden created when project fantasy, identity, and expectation accumulate faster than concrete making.
 - [Image Sensor as Input](concepts/ImageSensorAsInput.md) - Camera sensor treated as a general software-interpreted input channel for transformation, recognition, and interaction rather than only photography.
 - [Visual Text Indexing](concepts/VisualTextIndexing.md) - Extracting text from images and sampled video frames and carrying it through a recoverable search pipeline.
@@ -2372,7 +2374,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Greater Internet Fuckwad Theory](concepts/GreaterInternetFuckwadTheory.md) - Internet-culture aphorism joining reduced accountability and an audience as conditions for abusive online behavior.
 - [Online Disinhibition Effect](concepts/OnlineDisinhibitionEffect.md) - Loosening of face-to-face social restraint online, with both benign and toxic forms shaped by multiple mechanisms.
 - [GraphQL](concepts/GraphQL.md) - Typed API model combining client-selected fields, resolver execution, schema discovery, and fewer application-data round trips.
-- [REST API](concepts/RESTAPI.md) - HTTP resource interface whose atomic, orchestration, and bulk-composition patterns trade simplicity against client round trips and coupling.
+- [REST API](concepts/RESTAPI.md) - HTTP resource interface whose atomic, orchestration, and bulk-composition patterns trade client round trips and coupling against cache reuse and invalidation scope.
 - [Staff Meetings](concepts/StaffMeetings.md) - Recurring leadership forums governed by concrete coordination needs, distinct facilitation and recordkeeping roles, purposeful agendas, shared notes, and explicit reassessment.
 - [Product Lifecycle Trust](concepts/ProductLifecycleTrust.md) - Confidence that a product and its supporting services will last long enough to justify adoption and dependency costs.
 - [Search Platform Disintermediation](concepts/SearchPlatformDisintermediation.md) - Shift from external search referrals toward platform-owned answers, option ranking, and vertical discovery.
@@ -3206,7 +3208,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Critical Rendering Path](concepts/CriticalRenderingPath.md) - Browser sequence that turns HTML, CSS, JavaScript, layout, and main-thread work into visible and usable page state.
 - [Performance Budget](concepts/PerformanceBudget.md) - Measurable time, byte, and critical-path limits for keeping web products usable on representative devices and networks.
 - [Time To Interactive](concepts/TimeToInteractive.md) - Web performance metric for when a page can reliably respond to user input.
-- [Dynamic Content Caching](concepts/DynamicContentCaching.md) - Caching runtime-changing application data while preserving enough freshness for user-facing correctness.
+- [Dynamic Content Caching](concepts/DynamicContentCaching.md) - Caching runtime-changing application data through browser freshness checks, targeted edge invalidation, and explicit stale-serving limits.
 - [Browser Caching](concepts/BrowserCaching.md) - Reusing stored HTTP responses through freshness rules and conditional validation to reduce network work without abandoning correctness.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like testing, staged activation, monitoring, bounded reversion, forward repair, and restoration-first response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.

@@ -6640,3 +6640,11 @@ Added a 2018 implementation of [[ImmutableInfrastructure]] that creates an AWS n
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Improve cache performance with optimized API design
+
+Added Fastly's guidance that API cacheability depends on shared response boundaries, HTTP-aligned reads, bounded filter and pagination variants, event-driven purging, surrogate-key tagging, and explicit stale-serving policy. Created [[APIResponseCaching]]; updated [[RESTAPI]], [[DynamicContentCaching]], and [[Fastly]] from their complete ordered evidence inventories. Preserved the tradeoff between atomic cache reuse and client round trips, and qualified authentication safety, purge completeness, data-specific freshness limits, vendor-source scope, and the article's dated HTTP/2 and QUIC context. Opened the sole local image and omitted the decorative Fastly rocket illustration; no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
