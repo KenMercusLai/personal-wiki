@@ -577,6 +577,7 @@
       "8bdc563deeae8ba62e2c6edfae60f1025364cfbace79457a3a36a8d8ffb0efc4",
       "7f034b30b649ddeefe2f45fd606c30657324aa81099d7454dcaefddaf622fa41",
       "f6acd2364baf8b08efb4ac808b9a24109a270492b7fa26ffdbeac4aa25abe4cd",
+      "8ac0aa6664312e3f3ce5664a68dbc69bdfe58c687e95e3deb916b86732e9888d",
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
       "fb5c012d67746c13af31b8c593b23f5c3a2daafad623ae9c4855b2c0eefd931c",
@@ -629,10 +630,10 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 627
+    "paragraph_count": 628
   },
-  "overview_commit": "242da2ae1c3db2f1b45eecec66c88924d9643d1d",
-  "overview_digest": "c05f066be80a1d38a44a930675c06f42b2dd609c8eb9692bc22881068d726a20",
+  "overview_commit": "7ef6b46f447fff5efd79445c80a60d3c55698619",
+  "overview_digest": "e30a147ab3196cd4df613aed4a557fd05d3c95296876dde61fd08a8168447ec7",
   "paragraphs": [
     {
       "id": "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
@@ -11723,6 +11724,25 @@
         "EmailTaskManagement",
         "Gmail",
         "blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file"
+      ]
+    },
+    {
+      "id": "8ac0aa6664312e3f3ce5664a68dbc69bdfe58c687e95e3deb916b86732e9888d",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[PaulNewson]] source adds [[IncidentManagement]] as the coordination layer joining the wiki's preventive and recovery-oriented reliability controls. In the [[GoogleComputeEngine]] case, general and service-specific training, scenario drills, shadowing, secondary duty, and access to an experienced responder prepared the first-time primary without treating on-call as solitary expertise. Potential impact, scope, and complexity triggered formal declaration; command, operations, assistance, and external communication roles then worked from a central incident record. [[ChangeSafety]] supplied the mitigation path because progressive rollout kept the release-related fault relatively limited and a known, tested rollback restored service. New [[BlamelessPostmortem]] extends the loop beyond closure: system-focused review produced nine owned actions, while a common template and weekly review supported recurring-cause analysis and shared learning. The account strengthens [[SystemReliability]] and [[IncidentCommunication]] but remains a company-published 2017 success case without impact measures, detailed root cause, comparative outcomes, or follow-up completion. Its only effective saved image was a generic Google Cloud social-card URL that now returns HTTP 404, so it could not be inspected and no visual evidence was retained.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BlamelessPostmortem",
+        "ChangeSafety",
+        "GoogleComputeEngine",
+        "IncidentCommunication",
+        "IncidentManagement",
+        "PaulNewson",
+        "SystemReliability"
       ]
     },
     {

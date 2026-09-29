@@ -12,7 +12,8 @@ sources:
   - cloudflare-outage-on-february-20-2026
   - deploy-release-part-1-turbine-labs
   - gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time
-last_updated: 2026-09-28
+  - incident-management-at-google-adventures-in-sre-land-google-cloud-blog
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -41,6 +42,8 @@ Cloudflare's 2026 BYOIP outage extends the same discipline from software release
 The incident also strengthens the distinction between reverting an executable and restoring state. Stopping the task ended new deletions, but did not reconstruct every prefix and binding. Some customers could re-advertise, about 800 prefixes returned through Cloudflare's broader mitigation, and the remaining roughly 300 needed configuration recovery across the edge. Safe configuration change therefore needs versioned known-good snapshots and an explicit separation between customer-configured intent and the operational state applied to production.
 
 Atlassian's 2022 outage supplies a parallel tenant-data case. A plugin-deprecation script used both the wrong execution mode and the wrong customer identifiers, permanently deleting data for about 400 customers rather than marking it for deletion. Although data was reportedly recoverable, the company lacked a fast selective-restore path that would leave unaffected tenants unchanged. For destructive maintenance, validating both operation and target set, dry-running the exact procedure, preferring reversible state transitions, and rehearsing restoration at tenant granularity are therefore part of change safety rather than downstream backup concerns.
+
+Google's 2017 SRE account supplies the compact success case for the same safety loop: a faulty change was detected while its rollout was still limited, and a known, tested rollback mitigated the incident quickly. Its value is the coupling between controls—progressive exposure creates time to detect, while rehearsed reversion turns detection into restoration—not a claim that every system can return to a previous state.
 
 ## Key Claims
 - Production change is a major source of reliability risk, whether the changed artifact is code, infrastructure, authoritative data, or operational configuration.
@@ -77,15 +80,14 @@ Atlassian's 2022 outage supplies a parallel tenant-data case. A plugin-deprecati
 - Destructive-operation targeting: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says an Atlassian deprecation script used both the wrong execution mode and wrong tenant IDs.
 - Reversible deletion: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] recommends marking data for deletion rather than immediately deleting production state.
 - Tenant-level recovery: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says Atlassian could restore data but not rapidly for the affected subset without affecting other customers.
+- Bounded rollout and tested rollback: [[incident-management-at-google-adventures-in-sre-land-google-cloud-blog]] says a release-related fault stayed relatively limited and was mitigated quickly because the rollout was progressive and its rollback path was understood and tested.
 
 ## Counterevidence & Qualifications
-The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. An inactive production version can still mutate shared data, consume capacity, or affect queues and control planes, so deployment is only near-zero customer risk when those side effects are isolated. Instance share may also differ from traffic or customer exposure. Staging realism reduces but does not eliminate release risk because production traffic, scale, data, task scheduling, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana, GitHub, Cloudflare, Turbine Labs, and Atlassian accounts are practitioner, company-authored, or second-party sources rather than controlled comparisons; none should be overgeneralized into a universal recovery playbook. Proposed controls may also remain incomplete, and routing, typed schemas, snapshots, circuit breakers, target validation, and health signals can themselves be wrong.
+The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. Google's successful rollback is one limited, technically underspecified case and does not answer those stateful recovery objections. An inactive production version can still mutate shared data, consume capacity, or affect queues and control planes, so deployment is only near-zero customer risk when those side effects are isolated. Instance share may also differ from traffic or customer exposure. Staging realism reduces but does not eliminate release risk because production traffic, scale, data, task scheduling, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana, GitHub, Google, Cloudflare, Turbine Labs, and Atlassian accounts are practitioner, company-authored, or second-party sources rather than controlled comparisons; none should be overgeneralized into a universal recovery playbook. Proposed controls may also remain incomplete, and routing, typed schemas, snapshots, circuit breakers, target validation, and health signals can themselves be wrong.
 
 ## What Changed
-- Added deployment-versus-release separation as a customer-exposure boundary.
-- Extended change safety from software release to authoritative configuration and automated operational tasks.
-- Extended destructive-change validation to execution mode, target set, reversible deletion, and tenant-level recovery.
-- Strengthened recovery around configured-versus-operational state, dependent-object reconstruction, and selective restore.
+- Added Google's progressive-rollout and tested-rollback case as a compact example of coupled containment and mitigation.
+- Qualified the successful rollback against existing evidence that code reversion does not guarantee full state restoration.
 
 ## Related Concepts
 - [[SystemReliability]] - safe change is one core reliability layer.
@@ -102,3 +104,4 @@ The sources do not cover all change-management contexts. Some code and immutable
 - [[IncrementalFrameworkUpgrade]] - migration milestones make compatibility and rollout risk observable in smaller units.
 - [[NetworkAutomation]] - automated network changes need the same staged controls and recovery boundaries as software releases.
 - [[IncidentCommunication]] - bounded technical change and candid customer response address different parts of incident harm.
+- [[IncidentManagement]] - change controls supply containment and mitigation mechanisms inside a coordinated response.

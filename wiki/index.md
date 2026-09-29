@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Incident management at Google — adventures in SRE-land](sources/incident-management-at-google-adventures-in-sre-land-google-cloud-blog.md) - Paul Newson's first on-call incident shows Google's trained, role-based response, progressive rollout and rollback, and blameless postmortem learning loop.
 - [In a few years, no investors are going to be looking for AI startups](sources/in-a-few-years-no-investors-are-going-to-be-looking-for-ai-startups.md) - A 2017 essay predicts that AI will become assumed software infrastructure, shifting startup differentiation beyond the enabling technology while later sources contradict its two-year timetable.
 - [In a Robot Economy, All Humans Will Be Marketers](sources/in-a-robot-economy-all-humans-will-be-marketers-bloomberg.md) - Tyler Cowen argues that automation can preserve jobs by shifting people toward persuasion and relationship work without guaranteeing productivity or social value.
 - [In Praise of Incrementalism (Ep. 264)](sources/in-praise-of-incrementalism-ep-264-freakonomics-freakonomics.md) - Freakonomics connects cumulative artistic, legal, financial, and athletic progress while preserving foundation, causality, ethics, and unfinished-change limits.
@@ -850,6 +851,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Paul Newson](entities/PaulNewson.md) - Google SRE Mission Controller who documented his first primary on-call incident and the supported command, mitigation, and learning process around it.
+- [Google Compute Engine](entities/GoogleComputeEngine.md) - Google cloud service and SRE-team context for the incident-management case.
 - [Tyler Cowen](entities/TylerCowen.md) - Economist arguing that automation may preserve employment while shifting human labor toward socially mixed persuasion and relationship work.
 - [James Bessen](entities/JamesBessen.md) - Economist cited for the ATM-era shift of bank tellers from cash handling toward customer relationships and sales.
 - [MealPal](entities/MealPal.md) - Lunch subscription that time-shifts demand through advance choice, limited menus, and pickup in exchange for price and operational benefits.
@@ -2332,6 +2335,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Incident Management](concepts/IncidentManagement.md) - Prepared coordination system for declaring, commanding, communicating, mitigating, closing, and learning from significant service failures.
+- [Blameless Postmortem](concepts/BlamelessPostmortem.md) - System-focused incident review that pairs psychological safety with concrete corrective actions, owners, and shared learning.
 - [Technology Normalization](concepts/TechnologyNormalization.md) - Process by which a once-novel technical capability becomes an expected baseline and loses categorical signaling power.
 - [Persuasion Work](concepts/PersuasionWork.md) - Selling, branding, advertising, relationship, and experience work that may expand after automation but has contested social value.
 - [Incrementalism](concepts/Incrementalism.md) - Pursuing large outcomes through sequenced, repeated, mutually reinforcing changes while preserving foundations and direction checks.

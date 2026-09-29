@@ -6621,9 +6621,9 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
-## [2026-09-30] lint | Wiki health check
+## [2026-09-30] lint | Wiki lint check
 
-Ran lint. See lint-report.md for details.
+Ran deterministic and graph-aware lint checks. Semantic checks were unavailable because the configured LiteLLM model lacks a provider prefix; no lint report was saved.
 
 ## [2026-09-30] ingest | In a few years, no investors are going to be looking for AI startups
 
@@ -6684,6 +6684,14 @@ Added [[TylerCowen]]’s 2017 argument that automation may preserve employment w
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Incident management at Google — adventures in SRE-land
+
+Added [[PaulNewson]]'s 2017 account of his first primary on-call incident with the [[GoogleComputeEngine]] SRE team. Created Paul Newson, Google Compute Engine, [[IncidentManagement]], and [[BlamelessPostmortem]]; updated [[Google]], [[SystemReliability]], [[ChangeSafety]], and [[IncidentCommunication]] from their complete ordered evidence inventories. Preserved the boundary between one successful rollback and universal state restoration, and qualified the company-published case's missing impact, root-cause, comparative, and follow-up evidence. The sole effective image was a generic Google Cloud social-card URL that now returns HTTP 404, so it could not be inspected or retained and no visual claim relies on it.
 
 ## [2026-09-30] lint | Wiki health check
 
