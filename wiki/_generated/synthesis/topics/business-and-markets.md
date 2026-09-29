@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 3a8b6ec858ed455e1c8b59b0e30b5d8f2bb59e93
-input_digest: 9be27d68b3e2b42d8ad733f39dad8f0431a15dbb34d8288d4a0bec7c3ea4138c
+as_of_overview_commit: 3117d2c3149bef6ab5089b5ef434b3b14f49b3b8
+input_digest: 01e28399a2ebca4560e04b131ff24490d4aa271fb3cbb0ab101a43df05edd501
 ---
 
 # Business and Markets
@@ -994,14 +994,15 @@ input_digest: 9be27d68b3e2b42d8ad733f39dad8f0431a15dbb34d8288d4a0bec7c3ea4138c
 
 ### Notification Governance Shares Attention Responsibility
 
-[[NotificationDesign]] shows attention capture as a business-model and platform-governance problem as well as a user habit: [[ChrisBrycki]] links app time-spent and daily-active-user incentives to higher notification volume, while [[Apple]] and [[Google]] control delivery context that could support fewer, higher-value interruptions alongside user-directed batching.
+[[NotificationDesign]] shows attention capture as a business-model and platform-governance problem as well as a user habit: [[ChrisBrycki]] links app time-spent and daily-active-user incentives to higher notification volume, while [[Apple]] and [[Google]] control delivery context that could support fewer, higher-value interruptions; [[DigitalCompulsionRegulation]] extends user-directed batching into enforceable cadence controls when voluntary restraint conflicts with monetized engagement.
 
-**Evidence:** [[NotificationDesign]], [[ChrisBrycki]], [[Apple]], [[Google]]
+**Evidence:** [[NotificationDesign]], [[ChrisBrycki]], [[Apple]], [[Google]], [[DigitalCompulsionRegulation]]
 
 **Qualifications:**
 
 - The evidence is one 2015 practitioner essay whose notification counts, platform description, and interruption studies are time-bound.
 - Context-aware suppression can protect attention but also creates privacy, opacity, urgent-response, accessibility, and missed-alert risks.
+- The added regulatory proposals come from one 2015 popular essay without tested thresholds, enforcement design, privacy safeguards, accessibility treatment, or outcome evidence.
 
 ### Two Phase Commit Is Business Invariant Spillover
 
@@ -1072,15 +1073,16 @@ The [[JellyButtonGames]] case extends [[CloudCostOptimization]] into analytics b
 
 ### Attention Funded Media Can Mistake Capture For Value
 
-[[AttentionEconomy]] connects [[WebAdEconomics]] to editorial and behavioral incentives: [[EvWilliams]] argues that monetized attention can reward capture regardless of quality or conscious choice, while [[JohnValJohn]] adds [[AutomaticAdvertisingInfluence]] as a qualified mechanism in which exposure, perception, awareness, and engagement differ and evaluative conditioning may shape evaluation without sustained attention; [[Medium]] proposes subscriptions, an open paywall, and member-value-based partner compensation as an attempted alternative.
+[[AttentionEconomy]] connects [[WebAdEconomics]] to editorial and behavioral incentives: [[EvWilliams]] argues that monetized attention can reward capture regardless of quality or conscious choice, [[JohnValJohn]] adds [[AutomaticAdvertisingInfluence]], and [[MichaelSchulson]] adds variable rewards, repeated triggers, investment, and weak stopping cues as ways an initial desire can become a longer monetizable session; subscriptions and [[DigitalCompulsionRegulation]] remain proposed alternatives rather than demonstrated welfare improvements.
 
-**Evidence:** [[AttentionEconomy]], [[WebAdEconomics]], [[EvWilliams]], [[Medium]], [[NicheSubscriptionPublishing]], [[JohnValJohn]], [[AutomaticAdvertisingInfluence]], [[VisualAttention]]
+**Evidence:** [[AttentionEconomy]], [[WebAdEconomics]], [[EvWilliams]], [[Medium]], [[NicheSubscriptionPublishing]], [[JohnValJohn]], [[AutomaticAdvertisingInfluence]], [[VisualAttention]], [[MichaelSchulson]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]]
 
 **Qualifications:**
 
 - The evidence is a 2017 company-authored strategy announcement with no subscriber, retention, partner-income, content-quality, or business-outcome data.
 - Direct payment does not inherently produce depth or truth, and a paid platform can reproduce attention competition unless its allocation rules reward member value in practice.
 - The automatic-influence evidence is a popular synthesis with unsupported exposure counts and controlled conditioning effects that do not establish durable purchasing, aggregate spending, anxiety, overconsumption, waste, or uniform response.
+- The added compulsion argument uses gambling as a mechanism-level analogy and explicitly notes diagnostic uncertainty; it does not establish feature-level causality, equivalent harm, or effective regulation.
 
 ### Visible Status Can Drive Social Distribution
 

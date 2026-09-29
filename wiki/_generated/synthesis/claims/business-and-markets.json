@@ -1750,15 +1750,17 @@
       "id": "notification-governance-shares-attention-responsibility",
       "qualifications": [
         "The evidence is one 2015 practitioner essay whose notification counts, platform description, and interruption studies are time-bound.",
-        "Context-aware suppression can protect attention but also creates privacy, opacity, urgent-response, accessibility, and missed-alert risks."
+        "Context-aware suppression can protect attention but also creates privacy, opacity, urgent-response, accessibility, and missed-alert risks.",
+        "The added regulatory proposals come from one 2015 popular essay without tested thresholds, enforcement design, privacy safeguards, accessibility treatment, or outcome evidence."
       ],
-      "statement": "[[NotificationDesign]] shows attention capture as a business-model and platform-governance problem as well as a user habit: [[ChrisBrycki]] links app time-spent and daily-active-user incentives to higher notification volume, while [[Apple]] and [[Google]] control delivery context that could support fewer, higher-value interruptions alongside user-directed batching.",
+      "statement": "[[NotificationDesign]] shows attention capture as a business-model and platform-governance problem as well as a user habit: [[ChrisBrycki]] links app time-spent and daily-active-user incentives to higher notification volume, while [[Apple]] and [[Google]] control delivery context that could support fewer, higher-value interruptions; [[DigitalCompulsionRegulation]] extends user-directed batching into enforceable cadence controls when voluntary restraint conflicts with monetized engagement.",
       "status": "qualified",
       "supporting_wikilinks": [
         "NotificationDesign",
         "ChrisBrycki",
         "Apple",
-        "Google"
+        "Google",
+        "DigitalCompulsionRegulation"
       ]
     },
     {
@@ -1871,9 +1873,10 @@
       "qualifications": [
         "The evidence is a 2017 company-authored strategy announcement with no subscriber, retention, partner-income, content-quality, or business-outcome data.",
         "Direct payment does not inherently produce depth or truth, and a paid platform can reproduce attention competition unless its allocation rules reward member value in practice.",
-        "The automatic-influence evidence is a popular synthesis with unsupported exposure counts and controlled conditioning effects that do not establish durable purchasing, aggregate spending, anxiety, overconsumption, waste, or uniform response."
+        "The automatic-influence evidence is a popular synthesis with unsupported exposure counts and controlled conditioning effects that do not establish durable purchasing, aggregate spending, anxiety, overconsumption, waste, or uniform response.",
+        "The added compulsion argument uses gambling as a mechanism-level analogy and explicitly notes diagnostic uncertainty; it does not establish feature-level causality, equivalent harm, or effective regulation."
       ],
-      "statement": "[[AttentionEconomy]] connects [[WebAdEconomics]] to editorial and behavioral incentives: [[EvWilliams]] argues that monetized attention can reward capture regardless of quality or conscious choice, while [[JohnValJohn]] adds [[AutomaticAdvertisingInfluence]] as a qualified mechanism in which exposure, perception, awareness, and engagement differ and evaluative conditioning may shape evaluation without sustained attention; [[Medium]] proposes subscriptions, an open paywall, and member-value-based partner compensation as an attempted alternative.",
+      "statement": "[[AttentionEconomy]] connects [[WebAdEconomics]] to editorial and behavioral incentives: [[EvWilliams]] argues that monetized attention can reward capture regardless of quality or conscious choice, [[JohnValJohn]] adds [[AutomaticAdvertisingInfluence]], and [[MichaelSchulson]] adds variable rewards, repeated triggers, investment, and weak stopping cues as ways an initial desire can become a longer monetizable session; subscriptions and [[DigitalCompulsionRegulation]] remain proposed alternatives rather than demonstrated welfare improvements.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AttentionEconomy",
@@ -1883,7 +1886,10 @@
         "NicheSubscriptionPublishing",
         "JohnValJohn",
         "AutomaticAdvertisingInfluence",
-        "VisualAttention"
+        "VisualAttention",
+        "MichaelSchulson",
+        "DigitalCompulsionRegulation",
+        "EngagementIncentiveConflict"
       ]
     },
     {

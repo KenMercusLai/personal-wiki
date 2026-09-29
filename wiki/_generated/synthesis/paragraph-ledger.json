@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "656ca35ae6c7298c64d4ba55602175eb9ebcbed29b69f27d96ebc91086bc55a2",
       "83fd36b4d0128e596c5e2e4ffad11cac53d5c1cc79b6203142eb58b6535342c0",
       "5656e90af7a59803acb33f214c442447908698b7f2078d11e25e5b6ba78eb0c3",
       "86dac5cb7746cb1c796635ecba151cb62c04d21a05786e157517dbeda217d7a0",
@@ -621,11 +622,36 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 619
+    "paragraph_count": 620
   },
-  "overview_commit": "3a8b6ec858ed455e1c8b59b0e30b5d8f2bb59e93",
-  "overview_digest": "28fb8ed8af656d3595d0002a66e19ba66c67a00d17d7acd3b1a4c99088744a15",
+  "overview_commit": "3117d2c3149bef6ab5089b5ef434b3b14f49b3b8",
+  "overview_digest": "2e4e55b71c255d4da1fd2e065bef82bce9276d7ff7645853a80d2763626f74ea",
   "paragraphs": [
+    {
+      "id": "656ca35ae6c7298c64d4ba55602175eb9ebcbed29b69f27d96ebc91086bc55a2",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[MichaelSchulson]] source adds [[DigitalCompulsionRegulation]] to the wiki's attention, behavior-design, and platform-incentive material. Its core distinction is that the internet as a useful network is not inherently addictive, yet particular products can combine triggers, easy actions, variable rewards, user investment, infinite feeds, autoplay, and notifications into repeated interaction that lengthens monetizable sessions. [[NatashaSchull]]'s machine-zone account reframes apparent distraction as narrow focus on motion and reward; [[NirEyal]]'s *Hooked* cycle makes the design sequence explicit; and [[TristanHarris]]'s Time Well Spent proposal asks products to serve stated user intentions rather than raw attention. This strengthens [[AttentionEconomy]], [[EngagementIncentiveConflict]], [[BehaviorDesign]], and [[NotificationDesign]] while preserving the boundary between useful frequent use and harm. Schulson's proposed response is regulation that expands agency through delivery controls, restored stopping points, warnings, usage feedback, and user-selected cutoffs. The evidence remains one 2015 popular essay built from analogy, interviews, and examples: “internet addiction” is diagnostically unsettled, the gambling comparison does not prove equivalent harm, and the proposals lack tested thresholds, enforcement design, privacy safeguards, accessibility treatment, or outcome evidence. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AttentionEconomy",
+        "BehaviorDesign",
+        "DigitalCompulsionRegulation",
+        "EngagementIncentiveConflict",
+        "MichaelSchulson",
+        "NatashaSchull",
+        "NirEyal",
+        "NotificationDesign",
+        "TristanHarris"
+      ]
+    },
     {
       "id": "83fd36b4d0128e596c5e2e4ffad11cac53d5c1cc79b6203142eb58b6535342c0",
       "primary_topic": "business-and-markets",

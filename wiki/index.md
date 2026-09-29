@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [If the internet is addictive, why don’t we regulate it?](sources/if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays.md) - Michael Schulson connects variable rewards and weak stopping cues to attention-funded incentives and argues for regulation that expands user control while preserving diagnostic and policy uncertainty.
 - [If Management Is the Only Way Up, We're All F'd](sources/if-management-is-the-only-way-up-were-all-fd-sparktoro.md) - Rand Fishkin argues for parallel, comparably rewarded IC and people-management tracks so advancement reflects role fit rather than direct-report count.
 - [Idiomatic Python: EAFP versus LBYL](sources/idiomatic-python-eafp-versus-lbyl-python.md) - Brett Cannon contrasts attempting the expected operation and handling a specific failure with checking a precondition first, emphasizing clear intent and narrow exception scope.
 - [Identify users with the most valuable feedback](sources/identify-users-with-the-most-valuable-feedback-startup-grind-medium.md) - Dan Wolch combines behavior-defined user cohorts, direct email replies, follow-up questions, and manual thematic coding into a lightweight feedback workflow.
@@ -839,6 +840,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Michael Schulson](entities/MichaelSchulson.md) - Journalist arguing that engineered digital compulsion is an interaction-design and regulatory problem, not only an individual failure.
+- [Tristan Harris](entities/TristanHarris.md) - Ethical-design advocate proposing intention-respecting technology and competition on net benefit rather than raw attention.
+- [Nir Eyal](entities/NirEyal.md) - Habit-design author represented through the trigger-action-variable-reward-investment cycle and its ethical limits.
+- [Natasha Schüll](entities/NatashaSchull.md) - Anthropologist whose machine-zone and want-amplification analysis shifts attention toward engineered human-machine interaction.
 - [Rand Fishkin](entities/RandFishkin.md) - Entrepreneur and first-time CEO advocating parallel IC and people-management career tracks and contributor autonomy.
 - [Brett Cannon](entities/BrettCannon.md) - Python practitioner and author represented through his explanation of EAFP, LBYL, and precise exception boundaries.
 - [Dan Wolch](entities/DanWolch.md) - Product manager represented through a behavior-segmented customer-feedback workflow developed in the context of HubSpot sales products.
@@ -2301,6 +2306,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Digital Compulsion Regulation](concepts/DigitalCompulsionRegulation.md) - Enforceable product rules intended to restore practical user control over digital triggers, session boundaries, feedback, and cutoffs.
 - [Dual Career Tracks](concepts/DualCareerTracks.md) - Parallel advancement paths that reward widening individual contribution and people management as different forms of senior responsibility.
 - [Management Role Fit](concepts/ManagementRoleFit.md) - Alignment between a person's motivation and capability and the work of enabling a team through people management.
 - [EAFP and LBYL](concepts/EAFPAndLBYL.md) - Contrasting control-flow styles that either attempt an operation and handle a specific failure or check a precondition before acting.

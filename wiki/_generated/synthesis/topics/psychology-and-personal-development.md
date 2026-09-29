@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-29
-as_of_overview_commit: 1aec48f4502f2f16034d5e260c4e40f6aeb4331c
-input_digest: 149dabb8249cb7ee8f399b6fde7c05d142ded82cee2b8f4c66c3ac33b9b80d5e
+as_of_overview_commit: 3117d2c3149bef6ab5089b5ef434b3b14f49b3b8
+input_digest: ae3326ad7a643e055e2b7f2179ec534b2a24390c540d97902e23e691114e7537
 ---
 
 # Psychology and Personal Development
@@ -144,9 +144,9 @@ input_digest: 149dabb8249cb7ee8f399b6fde7c05d142ded82cee2b8f4c66c3ac33b9b80d5e
 
 ### Attention Is Scarce And Must Be Allocated
 
-[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
+[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.
 
-**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]]
+**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]]
 
 **Qualifications:**
 
@@ -154,18 +154,20 @@ input_digest: 149dabb8249cb7ee8f399b6fde7c05d142ded82cee2b8f4c66c3ac33b9b80d5e
 - The least-resistance product argument uses anecdotes rather than comparative behavioral data, and price, habit, accessibility, safety, trust, switching costs, or cognitively useful steps can outweigh immediate ease.
 - The visual-attention source is a marketer's secondary review that combines heterogeneous laboratory findings, neural observations, evolutionary explanations, and design extrapolations; capturing a fixation does not establish comprehension, preference, trust, conversion, or value.
 - [[JohnValJohn]] offers a popular synthesis rather than a systematic review: its daily exposure counts lack documented methodology, and reported conditioning effects do not establish durable purchasing, aggregate social harm, or immunity failure for every screened-out ad.
+- The digital-compulsion addition is a popular essay using interviews and gambling analogies; it explicitly preserves diagnostic uncertainty and does not show that long or frequent use alone is harmful.
 
 ### Small Designed Loops Support Change
 
-[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[AnalysisParalysis]], [[IterativeRefinement]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; in reversible software work, a bounded first implementation can create evidence for a better decision, but testing, refactoring, and the stopping judgment still govern quality.
+[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[AnalysisParalysis]], [[IterativeRefinement]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; [[NirEyal]] adds trigger, action, variable reward, and investment, while the contrast between medication adherence and unwanted session extension makes user-chosen benefit and stopping control part of ethical evaluation.
 
-**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[AnalysisParalysis]], [[IterativeRefinement]], [[KentBeck]], [[CEOScalingRole]], [[BizStone]]
+**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[AnalysisParalysis]], [[IterativeRefinement]], [[KentBeck]], [[CEOScalingRole]], [[BizStone]], [[NirEyal]], [[EngagementIncentiveConflict]]
 
 **Qualifications:**
 
 - The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, the two prolific-practice and iterative-refinement sources are practitioner essays rather than controlled studies, the CEO lesson evidence is a first-person leadership essay, and workplace incentive loops can become high-pressure, guilt-based, or short-term when tied to pay, status, or unwritten norms.
 - The vacation-policy evidence is practitioner argument and acknowledges unsettled comparative evidence; workload, manager behavior, legal entitlements, and bargaining power can matter more than the policy label.
 - A provisional implementation is useful only when the choice is genuinely cheap and reversible; public interfaces, persistent data, security, safety, production exposure, and cross-team dependencies can justify more analysis and stronger gates before action.
+- Habit loops can support medication adherence or unwanted session extension; variable rewards and repetition do not by themselves establish addiction, coercion, or harm.
 
 ### Persuasion Cues Can Trigger Adaptive Resistance
 

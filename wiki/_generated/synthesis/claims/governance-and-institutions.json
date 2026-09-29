@@ -459,15 +459,19 @@
       "id": "notification-governance-distributes-attention-control",
       "qualifications": [
         "The source is a 2015 practitioner essay, so its platform capabilities and notification-volume figures are historical.",
-        "Platform prioritization can suppress valuable urgent or accessibility-sensitive alerts and can expand opaque behavioral inference."
+        "Platform prioritization can suppress valuable urgent or accessibility-sensitive alerts and can expand opaque behavioral inference.",
+        "The added policy case is one 2015 popular essay whose diagnosis, intervention thresholds, enforcement, privacy protections, accessibility rules, and welfare effects remain untested."
       ],
-      "statement": "[[NotificationDesign]] distributes governance over attention across users, app developers, [[Apple]], and [[Google]]: engagement incentives encourage reactivation prompts, while platform context can support prioritization and user-controlled batching but also raises privacy, transparency, and mistaken-suppression concerns.",
+      "statement": "[[NotificationDesign]] distributes governance over attention across users, app developers, [[Apple]], and [[Google]]: engagement incentives encourage reactivation prompts, while [[DigitalCompulsionRegulation]] would require cadence controls, restored stopping points, warnings, usage feedback, or user-set cutoffs when the [[EngagementIncentiveConflict]] makes voluntary restraint weak; those controls can also expand surveillance, paternalism, and mistaken suppression.",
       "status": "qualified",
       "supporting_wikilinks": [
         "NotificationDesign",
         "Apple",
         "Google",
-        "ChrisBrycki"
+        "ChrisBrycki",
+        "DigitalCompulsionRegulation",
+        "EngagementIncentiveConflict",
+        "MichaelSchulson"
       ]
     },
     {

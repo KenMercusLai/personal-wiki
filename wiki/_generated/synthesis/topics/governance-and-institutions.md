@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-29
-as_of_overview_commit: 0b469004f43d3e227ab6e30ac0f77b795ddea57f
-input_digest: 4b589918a874aab3bf64fadbbdb8b43646fd65efe8570c6e7411de0c1b29edf3
+as_of_overview_commit: 3117d2c3149bef6ab5089b5ef434b3b14f49b3b8
+input_digest: 7d7a7c9bcc4ddeb4ebc26aa9ff7ca5266637cd985183c0cb950b8a956a1fc337
 ---
 
 # Governance and Institutions
@@ -299,14 +299,15 @@ Technical systems that look operationally narrow can carry social consequences w
 
 ### Notification Governance Distributes Attention Control
 
-[[NotificationDesign]] distributes governance over attention across users, app developers, [[Apple]], and [[Google]]: engagement incentives encourage reactivation prompts, while platform context can support prioritization and user-controlled batching but also raises privacy, transparency, and mistaken-suppression concerns.
+[[NotificationDesign]] distributes governance over attention across users, app developers, [[Apple]], and [[Google]]: engagement incentives encourage reactivation prompts, while [[DigitalCompulsionRegulation]] would require cadence controls, restored stopping points, warnings, usage feedback, or user-set cutoffs when the [[EngagementIncentiveConflict]] makes voluntary restraint weak; those controls can also expand surveillance, paternalism, and mistaken suppression.
 
-**Evidence:** [[NotificationDesign]], [[Apple]], [[Google]], [[ChrisBrycki]]
+**Evidence:** [[NotificationDesign]], [[Apple]], [[Google]], [[ChrisBrycki]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]]
 
 **Qualifications:**
 
 - The source is a 2015 practitioner essay, so its platform capabilities and notification-volume figures are historical.
 - Platform prioritization can suppress valuable urgent or accessibility-sensitive alerts and can expand opaque behavioral inference.
+- The added policy case is one 2015 popular essay whose diagnosis, intervention thresholds, enforcement, privacy protections, accessibility rules, and welfare effects remain untested.
 
 ### Engagement Metrics Need User Value Boundary
 
