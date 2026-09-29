@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [Inside Amazon's Fake Review Economy](sources/inside-amazons-fake-review-economy.md) - Nicole Nguyen maps paid-review recruitment, verified-purchase evasion, consumer and seller harm, and Amazon's incomplete enforcement response.
 - [Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI](sources/inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic.md) - TechRepublic connects AMT's low-paid, opaque platform labor with the human labeling, cleaning, moderation, and exception work behind AI systems.
+- [Inside Disney's messy video game business](sources/inside-disneys-messy-video-game-business-business-insider.md) - Ben Gilbert connects Disney's game-publishing retreat to risk aversion, weak institutional knowledge, unstable studio direction, portfolio economics, and a licensing pivot.
 - [Inside (The) Information](sources/inside-the-information-columbia-journalism-review.md) - Merissa Marr profiles The Information's premium reporting, tiered subscriptions, community-led growth, founder funding, and access-versus-independence tension.
 - [Innovative Ways to Increase Newsletter Subscriptions (with examples)](sources/innovative-ways-to-increase-newsletter-subscriptions-with-examples-optimizely-blog.md) - Optimizely's 2016 example catalogue treats newsletter acquisition as one path from value and context through form interaction and confirmation, without reporting measured outcomes.
 - [Inevitability in technology](sources/inevitability-in-technology-benedict-evans.md) - Benedict Evans separates structural technology drivers from contingent winners through Facebook acquisitions, Chinese portals, incumbent constraints, and Apple's mobile rise.
@@ -858,6 +859,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Disney](entities/Disney.md) - Entertainment company represented through its 2016 retreat from internal major-game publishing toward intellectual-property licensing.
+- [Alex Seropian](entities/AlexSeropian.md) - Bungie cofounder and former Disney game executive who frames publishing as a patient, multi-bet portfolio.
+- [Disney Infinity](entities/DisneyInfinity.md) - Toys-to-life franchise whose scale, cost, category outlook, and cancellation anchor Disney's game-business case.
 - [Turkopticon](entities/Turkopticon.md) - Worker-built requester reputation tool that counters some of Amazon Mechanical Turk's native information asymmetry.
 - [Amazon Mechanical Turk](entities/AmazonMechanicalTurk.md) - Amazon marketplace that turns data, moderation, research, and AI-support work into globally distributed Human Intelligence Tasks.
 - [The Information](entities/TheInformation.md) - Premium technology-news publication represented through its early reporting, subscription, community, funding, and expansion model.
@@ -2349,6 +2353,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Corporate Risk Aversion](concepts/CorporateRiskAversion.md) - Preference for predictable outcomes that can narrow, redirect, transfer, or end uncertain investment despite abundant capital.
+- [Game Publishing Portfolio Economics](concepts/GamePublishingPortfolioEconomics.md) - Hit-driven model in which several long-cycle game bets are needed because one success may offset multiple failures.
 - [Marketplace Review Fraud](concepts/MarketplaceReviewFraud.md) - Coordinated manipulation of ratings and reviews through payments, reimbursement, fabricated experience, competitor attacks, or pressure to revise criticism.
 - [Data Annotation Labor](concepts/DataAnnotationLabor.md) - Human labeling, checking, cleaning, moderation, and judgment that makes machine-learning data and outputs usable.
 - [Platform Microwork](concepts/PlatformMicrowork.md) - Software-mediated decomposition, allocation, evaluation, and payment of small tasks across a distributed workforce.

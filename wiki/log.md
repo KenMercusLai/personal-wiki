@@ -6752,3 +6752,11 @@ Added [[MarketplaceReviewFraud]] as a coordinated market linking sellers, recrui
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inside Disney's messy video game business
+
+Added Ben Gilbert's 2016 account of Disney's retreat from internally published console and PC games toward licensing. Created [[Disney]], [[AlexSeropian]], [[DisneyInfinity]], [[CorporateRiskAversion]], and [[GamePublishingPortfolioEconomics]], preserving the distinction between risk aversion and rational capital allocation, the source's former-employee perspective, and its missing project-level economics and later outcomes. Opened the sole local image and omitted it as a decorative promotional gameplay illustration with no material evidence beyond the prose; no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

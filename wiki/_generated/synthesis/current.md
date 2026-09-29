@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: aa5a8b2a4205086bf2eff9726ab2e1a4189602e2
-summary: "A qualified map of how technology, labor, markets, institutions, culture, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 837
-source_count: 837
-paragraph_count: 632
+as_of_overview_commit: c7d9b9d8078ebb751054bb14cbb4402f2b11bc85
+summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, risk, and choice."
+episode_count: 838
+source_count: 838
+paragraph_count: 633
 topic_count: 9
 ---
 
@@ -19,10 +19,10 @@ topic_count: 9
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[DataAnnotationLabor]] makes supervised AI a socio-technical production system: [[AmazonMechanicalTurk]] can distribute screening, cleaning, moderation, and labeling at scale, while [[ImageNet]] shows that benchmark data depends on human judgment and a much larger candidate pool as well as models and compute; [[PlatformMicrowork]] therefore makes pay, qualification, requester transparency, rejection, and worker protection part of AI infrastructure governance.
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
+- [[GamePublishingPortfolioEconomics]] treats major game publishing as a patient portfolio of uncertain bets rather than individually predictable projects; [[Disney]] shows how weak domain knowledge, shifting mandates, capital competition, and [[CorporateRiskAversion]] can break that commitment, while [[DisneyInfinity]] preserves the possibility that licensing and closure also reflected rational risk transfer.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - Automation becomes governable when systems expose intended state, observed state, logs, metrics, replayable evidence, validation checks, staged activation, and explicit recovery boundaries. [[ProgressiveInfrastructureRollout]] adds representative production cohorts and [[Tsunami]]'s time-based desired-state allocation, audit, role-aware percentage bounds, and service-level-objective stopping after [[Docker]] became critical at [[Spotify]]. [[GitOps]] adds pull-request governance plus repository-to-runtime drift detection and [[WeaveFlux]] convergence around [[Kubernetes]]; [[Cloudflare]] separately shows why stopping or reverting automation does not reconstruct deleted bindings or restore actual operational state.
-- [[IdeaDebt]] links [[Perfectionism]], [[ProlificPractice]], [[SunkCostFallacy]], and [[AttentionManagement]]: idealizing a future project can make present ability feel unacceptable, while recurring finished work can develop skill and conscious abandonment can release stale commitments.
 - [[PlatformMicrowork]] can widen remote access while transferring demand volatility, search, waiting, setup, rejection, payment, and health risks to workers; [[AmazonMechanicalTurk]] and [[DataAnnotationLabor]] show why continuing human-in-the-loop demand must be evaluated separately from effective pay, reciprocal information, appeal, safety, and meaningful control.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, and resistance to adversarial manipulation without hiding incentive conflicts.
+Durable value joins customer outcomes, sustainable economics, patient portfolio commitments, governed distribution, lifecycle trust, risk allocation, and resistance to adversarial manipulation without hiding incentive conflicts.
 
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 - [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].
@@ -50,7 +50,7 @@ Cross-domain findings connect inspectable infrastructure, transferable models, f
 
 ### Culture and Media
 
-Media and culture combine expression, identity, distribution, monetization, platform power, participation, access, and purpose-sensitive knowledge practices.
+Media and culture combine expression and craft with publishing institutions, identity, distribution, monetization, platform power, participation, access, and purpose-sensitive knowledge practices.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].

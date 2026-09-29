@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
       "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
       "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
       "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
@@ -634,11 +635,33 @@
       "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c",
       "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af"
     ],
-    "paragraph_count": 632
+    "paragraph_count": 633
   },
-  "overview_commit": "aa5a8b2a4205086bf2eff9726ab2e1a4189602e2",
-  "overview_digest": "9f16a22409ea586c2f5a5d6de24d77812b52598f07a26d3513490a42ca20e0de",
+  "overview_commit": "c7d9b9d8078ebb751054bb14cbb4402f2b11bc85",
+  "overview_digest": "ed1ced57f7418cfa00d68512ed8de52f1be30151c79e89c72c8d7d9721c4786b",
   "paragraphs": [
+    {
+      "id": "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest Ben Gilbert source adds [[GamePublishingPortfolioEconomics]] as the missing business layer beneath the wiki's game-design and operations material. [[AlexSeropian]] argues that major publishers need several expensive bets and a five-to-ten-year horizon because failures are common and one hit may need to repay the slate; money alone is insufficient without institutional product judgment, stable mandates, marketing, and tolerance for learning. The [[Disney]] case shows how that model can fail inside a diversified parent: games competed with familiar film, television, and park investments, while acquired studios faced changing direction, repeated cancellations, and layered franchise approval. [[CorporateRiskAversion]] therefore means more than thrift—it joins low forecast confidence with weak domain knowledge and attractive alternatives. Licensing transferred much of development and publishing exposure while preserving Disney's intellectual-property leverage. [[DisneyInfinity]] keeps the judgment qualified: its reported billion-dollar scale and contribution to divisional profitability support the claim that Disney exited early, but forecast toys-to-life decline and high development costs also make closure potentially rational capital allocation. The article is a 2016 retrospective centered on former employees, supplies no project budgets, license returns, internal forecasts, or Disney response, and does not establish later strategy outcomes. Its sole local image was opened and omitted as a decorative promotional gameplay illustration.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlexSeropian",
+        "CorporateRiskAversion",
+        "Disney",
+        "DisneyInfinity",
+        "GamePublishingPortfolioEconomics"
+      ]
+    },
     {
       "id": "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
       "primary_topic": "business-and-markets",
