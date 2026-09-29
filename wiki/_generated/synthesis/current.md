@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 4f94e3e3a3924628d1042d4b8417f7df6eec486b
+as_of_overview_commit: b93ca785cad2074cf11f9d9e36c7e230ad0d7722
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 821
-source_count: 821
-paragraph_count: 621
+episode_count: 822
+source_count: 822
+paragraph_count: 622
 topic_count: 9
 ---
 
@@ -21,7 +21,7 @@ topic_count: 9
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience.
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.
+- [[IdeaDebt]] links [[Perfectionism]], [[ProlificPractice]], [[SunkCostFallacy]], and [[AttentionManagement]]: idealizing a future project can make present ability feel unacceptable, while recurring finished work can develop skill and conscious abandonment can release stale commitments.
 - [[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope and equivalent compensation while [[ManagementRoleFit]] reserves people management for those able and motivated to enable others through mentoring, staffing, feedback, team health, and organizational context. This extends [[EngineeringCareerArchitecture]], [[ProductDesignCareerLadder]], and [[EngineeringTeamMotivation]] without making the two roles identical.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, evidence quality, and organizational incentives that fit the work.
+Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, evidence quality, and incentives that fit the work.
 
 - [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
@@ -68,7 +68,7 @@ Historical technology, organizational, interface, media, market, and operations 
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, explicit ownership, shared context, trust, incentives, evidence calibration, privacy-aware control, durable learning, and careful interpretation of behavior.
+Human outcomes depend on bounded attention, evidence calibration, privacy-aware control, durable learning, and choices that turn live intentions into action while releasing stale commitments.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating health and infras
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, evidence-quality feedback, role clarity, credible parallel career paths, fair incentives, consent, opportunity, precise communication, and enforceable boundaries.
+Work and learning depend on accessible tools, active practice, evidence-quality feedback, role clarity, fair incentives, consent, opportunity, and enforceable boundaries.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

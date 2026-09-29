@@ -6624,3 +6624,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Imagining your future projects is holding you back.
+
+Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identity, planning, and expectation that grow without proportionate artifact-making. Created Jessica Abel, [[KazuKibuishi]], [[IraGlass]], and Idea Debt; updated [[Perfectionism]], [[ProlificPractice]], and [[SunkCostFallacy]] from their complete ordered evidence inventories. Preserved the distinction between useful preparation and avoidance, between difficult work and stale commitment, and between volume and feedback-informed practice. Opened both local images and omitted the decorative comic crop and redundant title card; no visual evidence or asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -5,7 +5,8 @@ tags: [decision-making, behavioral-economics, productivity]
 sources:
   - are-you-a-victim-of-the-sunk-cost-fallacy-desk-of-van-schneider-medium
   - cognitive-bias-cheat-sheet-better-humans-medium
-last_updated: 2026-09-15
+  - imagining-your-future-projects-is-holding-you-back
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,14 +16,16 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The source frames sunk-cost thinking as a decision trap that converts prior investment into pressure for continued commitment. A cost that has already been paid cannot be recovered, so the relevant question is not how much has been spent already but whether the next unit of time, attention, money, or effort is still worth spending. The article's examples make the bias practical rather than abstract: a writer keeps revising a bad article, a person keeps waiting for a delayed bus, a diner keeps eating after hunger is gone, and a designer keeps working on [[DotMailApp]] because pride and emotional investment make stopping feel like failure.
 
-The Better Humans taxonomy adds a broader cognitive role: sunk-cost thinking is one of the fast-action biases that helps people finish already-started work, even when continuing has become irrational. The strongest synthesis is that sunk-cost awareness protects future choice. It gives people permission to abandon a stale project, job, meal, article, or product habit without treating abandonment as an additional loss. This makes the concept adjacent to [[OpportunityCost]] and [[PersonalProductivity]]: unrecoverable costs should be ignored, while future attention and effort should be allocated toward current value.
+At a broader cognitive level, sunk-cost thinking is one of the fast-action biases that helps people finish already-started work, even when continuing has become irrational. An identity and attention mechanism appears through [[IdeaDebt]]: a long-carried creative project can bind a person to an earlier imagined self even after the work no longer fits present priorities, while unfinished commitments continue to occupy mental capacity. Explicitly abandoning stale projects can redirect that attention toward current work.
+
+The strongest synthesis is that sunk-cost awareness protects future choice. It gives people permission to abandon a stale project, job, meal, article, or product habit without treating abandonment as an additional loss. This makes the concept adjacent to [[OpportunityCost]], [[AttentionManagement]], and [[PersonalProductivity]]: unrecoverable costs should be ignored, while future attention and effort should be allocated toward current value.
 
 ## Key Claims
 - Unrecoverable past costs should not determine future decisions.
 - Time, money, emotion, pride, and public commitment can all become sunk-cost anchors.
 - The bias often appears as a circular defense: investing more because one has already invested so much.
 - Sunk-cost pressure can be understood as a fast-action shortcut that favors completion of already-invested work.
-- Everyday sunk-cost behavior includes waiting longer, eating past enjoyment, overworking weak drafts, staying in stale jobs, and prolonging projects.
+- Everyday sunk-cost behavior includes waiting longer, eating past enjoyment, overworking weak drafts, staying in stale jobs, and preserving projects tied to an earlier hoped-for identity.
 - Awareness improves decision quality by shifting attention from prior investment to current reasons for continuing.
 - Designers can use sunk-cost dynamics to increase retention, which makes the bias ethically relevant to product design.
 
@@ -33,14 +36,15 @@ The Better Humans taxonomy adds a broader cognitive role: sunk-cost thinking is 
 - Project example: [[are-you-a-victim-of-the-sunk-cost-fallacy-desk-of-van-schneider-medium]] says [[DotMailApp]] continued beyond its useful point because pride and fear of publicly giving up sustained the author's commitment.
 - Product-design example: [[are-you-a-victim-of-the-sunk-cost-fallacy-desk-of-van-schneider-medium]] describes games such as World of Warcraft and FarmVille as products where time invested can make leaving feel like losing, even after enjoyment fades.
 - Taxonomy context: [[cognitive-bias-cheat-sheet-better-humans-medium]] lists sunk cost under the need to act fast, where existing investment motivates completion and preserves momentum.
+- Identity-bound projects: [[imagining-your-future-projects-is-holding-you-back]] describes old creative plans as obligations inherited from earlier versions of the author rather than work she still wanted to do.
+- Attention recovery: [[imagining-your-future-projects-is-holding-you-back]] reports that explicitly abandoning those plans released capacity for current work.
 
 ## Counterevidence & Qualifications
-The source is a reflective advice essay rather than an empirical behavioral-economics review. It does not distinguish sunk-cost fallacy from strategic persistence, reputation management, switching costs, or cases where finishing has independent value. The safer interpretation is that prior investment alone is not a good reason to continue; it does not mean every difficult or delayed effort should be abandoned.
+The sources are reflective advice and taxonomy essays rather than an empirical behavioral-economics review. They do not distinguish sunk-cost fallacy from strategic persistence, reputation management, switching costs, incubation, or cases where finishing has independent value. Abel's reported attention recovery is autobiographical and unmeasured. The safer interpretation is that prior investment or identity alone is not a good reason to continue; it does not mean every difficult, delayed, or long-horizon effort should be abandoned.
 
 ## What Changed
-- Created the concept from Tobias van Schneider's examples of unrecoverable costs distorting future decisions.
-- Added the product-design qualification that sunk-cost dynamics can be deliberately used for retention.
-- Added the broader cognitive-bias taxonomy context that frames sunk cost as a momentum-preserving action shortcut.
+- Added attachment to an earlier imagined identity as a mechanism that can preserve stale creative projects.
+- Added attention recovery as a reported benefit of explicit project abandonment, while preserving its autobiographical evidence limit.
 
 ## Related Concepts
 - [[OpportunityCost]] - future effort should be compared with current alternatives, not justified by unrecoverable past spending.
@@ -48,3 +52,4 @@ The source is a reflective advice essay rather than an empirical behavioral-econ
 - [[ProductStickiness]] - products can retain users by making accumulated investment feel costly to abandon.
 - [[AttentionManagement]] - sunk-cost awareness helps redirect attention away from stale commitments.
 - [[CognitiveBiasTaxonomy]] - places sunk cost among tradeoff-heavy shortcuts for acting under uncertainty.
+- [[IdeaDebt]] - describes how imagined projects accumulate identity, expectation, and ongoing attention costs.

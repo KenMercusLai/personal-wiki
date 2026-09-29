@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Imagining your future projects is holding you back.](sources/imagining-your-future-projects-is-holding-you-back.md) - Jessica Abel defines idea debt as fantasized but unmade creative work and argues for either imperfect action or conscious abandonment.
 - [Imaging, Snapchat and mobile](sources/imaging-snapchat-and-mobile-benedict-evans.md) - Benedict Evans reframes the smartphone camera as a programmable input method connecting mobile-native interaction, Snapchat Lenses, computer vision, and augmented reality.
 - [If the internet is addictive, why don’t we regulate it?](sources/if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays.md) - Michael Schulson connects variable rewards and weak stopping cues to attention-funded incentives and argues for regulation that expands user control while preserving diagnostic and policy uncertainty.
 - [Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine](sources/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine.md) - IAmMandatory combines iOS Vision OCR, sampled video frames, a used-iPhone cluster, PostgreSQL, PGSync, and Elasticsearch into a cost-constrained search pipeline reportedly covering about 17 million memes.
@@ -842,6 +843,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Jessica Abel](entities/JessicaAbel.md) - Author and comics creator who synthesizes idea debt, prolific practice, perfectionism, and deliberate project abandonment.
+- [Kazu Kibuishi](entities/KazuKibuishi.md) - Comics creator credited with naming idea debt and the rule to take the jump or deliberately skip it.
+- [Ira Glass](entities/IraGlass.md) - Radio producer whose taste-skill gap account recommends closing the gap through a high volume of finished work.
 - [FindThatMeme](entities/FindThatMeme.md) - Meme search project using iPhone OCR workers, canonical PostgreSQL records, and a rebuildable Elasticsearch index.
 - [Michael Schulson](entities/MichaelSchulson.md) - Journalist arguing that engineered digital compulsion is an interaction-design and regulatory problem, not only an individual failure.
 - [Tristan Harris](entities/TristanHarris.md) - Ethical-design advocate proposing intention-respecting technology and competition on net benefit rather than raw attention.
@@ -2309,6 +2313,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Idea Debt](concepts/IdeaDebt.md) - Psychological burden created when project fantasy, identity, and expectation accumulate faster than concrete making.
 - [Image Sensor as Input](concepts/ImageSensorAsInput.md) - Camera sensor treated as a general software-interpreted input channel for transformation, recognition, and interaction rather than only photography.
 - [Visual Text Indexing](concepts/VisualTextIndexing.md) - Extracting text from images and sampled video frames and carrying it through a recoverable search pipeline.
 - [Cost-Constrained Infrastructure](concepts/CostConstrainedInfrastructure.md) - Trading convenience and redundancy for sustainable cost while preserving explicit restart and reconstruction paths.

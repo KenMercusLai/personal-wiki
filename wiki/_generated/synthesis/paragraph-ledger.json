@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "672ac5b5a39e9c1d014fa357678d82348ed5d96ab5c6d13d2c41ec8e225b71f9",
       "b240a952546bd5d216b3190b9990df0008794b51be5d3081b221289e379d3bb4",
       "656ca35ae6c7298c64d4ba55602175eb9ebcbed29b69f27d96ebc91086bc55a2",
       "83fd36b4d0128e596c5e2e4ffad11cac53d5c1cc79b6203142eb58b6535342c0",
@@ -623,11 +624,32 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 621
+    "paragraph_count": 622
   },
-  "overview_commit": "4f94e3e3a3924628d1042d4b8417f7df6eec486b",
-  "overview_digest": "b064dc7d95cd2eabdd98a0d652e4eaba07ade5bc5ee7e947c14f570910b6305f",
+  "overview_commit": "b93ca785cad2074cf11f9d9e36c7e230ad0d7722",
+  "overview_digest": "19c9f344ed5b9e1eb71f813ba8630b01df82cd3dba7209d712b0a08a805978c8",
   "paragraphs": [
+    {
+      "id": "672ac5b5a39e9c1d014fa357678d82348ed5d96ab5c6d13d2c41ec8e225b71f9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[JessicaAbel]] source adds [[IdeaDebt]] as a creative-avoidance loop in which imagined results, recognition, identity, lore, research, and discussion accumulate faster than a concrete artifact. Through [[KazuKibuishi]]'s snowboarding analogy, delay compounds both fear and the expectation of an impressive performance; through [[IraGlass]]'s taste-skill gap, disappointing early work becomes a normal developmental phase that recurring deadlines and [[ProlificPractice]] can gradually close. The resulting decision rule has two branches: begin imperfectly and generate learning through finished work, or consciously abandon a stale project so [[SunkCostFallacy]] does not bind current attention to an earlier imagined self. This deepens [[Perfectionism]] beyond overpreparation and procrastination by showing how a protected future ideal can make present ability feel unacceptable. The account remains a practitioner synthesis built from analogy, quotation, student observation, and autobiography rather than comparative evidence; planning and incubation can be productive, volume needs feedback and reflection, consequential work may require substantial preparation, and difficulty alone does not prove that a project is obsolete. Both local images were opened and omitted: a decorative comic crop and a title card that repeats the idea-debt framing without adding evidence.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "IdeaDebt",
+        "IraGlass",
+        "JessicaAbel",
+        "KazuKibuishi",
+        "Perfectionism",
+        "ProlificPractice",
+        "SunkCostFallacy"
+      ]
+    },
     {
       "id": "b240a952546bd5d216b3190b9990df0008794b51be5d3081b221289e379d3bb4",
       "primary_topic": "ai-and-technology",
