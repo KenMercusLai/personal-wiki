@@ -6544,3 +6544,11 @@ Added [[KelseyPiper]]'s first-person account of writing more than 3,000 individu
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I Quit My Job and I Have One Year to Get to Profitability
+
+Added [[AndreyAzimov]]'s 2018 one-year independent-maker experiment built around a $1,000 monthly revenue target, roughly $500 in monthly personal expenses, repeated launches, public progress reporting, and a tolerable fallback. Created Andrey Azimov and [[PieterLevels]], updated [[IndependentCreator]] and [[SmallProductPortfolio]] from their complete ordered evidence inventories, and distinguished a temporary pre-fit search portfolio from durable multi-product operation and later single-product focus. Preserved the first-person, survivor-narrative, missing product-level economics, workload, causality, and independent-verification limits. Opened all five local images and omitted them as decorative or duplicate portraits and illustrations; no visual evidence or asset manifest was required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

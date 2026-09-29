@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Quit My Job and I Have One Year to Get to Profitability](sources/i-quit-my-job-and-i-have-one-year-to-get-to-profitability.md) - Andrey Azimov frames quitting employment as a one-year, low-burn, publicly accountable search for $1,000 in monthly product revenue and later reports seven launches and goal attainment.
 - [I know why rejection emails suck. I write them.](sources/i-know-why-rejection-emails-suck-i-write-them-triplebyte-blog.md) - Kelsey Piper explains why useful rejection feedback requires structured evidence, careful wording, editorial capacity, and iteration rather than detail alone.
 - [I Have Forgotten How to Read](sources/i-have-forgotten-how-to-read-the-globe-and-mail.md) - Michael Harris argues that text abundance can coexist with declining deep reading when digital habits train fragmented, impatient, and instrumental attention.
 - [I hate the term ‘open source’](sources/i-hate-the-term-open-source-nadia-eghbal-medium.md) - Nadia Eghbal separates license-backed open-source rights from public-development culture and proposes “public software” for broader discussion of participation, stewardship, and paid labor.
@@ -832,6 +833,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Andrey Azimov](entities/AndreyAzimov.md) - Independent product maker represented through a one-year, low-burn profitability experiment and reported seven-app outcome.
+- [Pieter Levels](entities/PieterLevels.md) - Independent product maker represented as Azimov's adviser and repeated-launch role model.
 - [Michael Harris](entities/MichaelHarris.md) - Author and first-person critic of how digitally trained attention can alter book reading and writing.
 - [Nadia Eghbal](entities/NadiaEghbal.md) - Open-source writer and Feast cofounder distinguishing legal user rights from the culture, labor, and stewardship of public development.
 - [Khe Hy](entities/KheHy.md) - RadReads author represented through his controlled-tag Google Sheets personal CRM and relationship-maintenance rationale.
