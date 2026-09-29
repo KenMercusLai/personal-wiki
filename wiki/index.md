@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Incident management at Google — adventures in SRE-land](sources/incident-management-at-google-adventures-in-sre-land-google-cloud-blog.md) - Paul Newson's first on-call incident shows Google's trained, role-based response, progressive rollout and rollback, and blameless postmortem learning loop.
+- [Increasing Attacker Cost Using Immutable Infrastructure](sources/increasing-attacker-cost-using-immutable-infrastructure.md) - Diogo Mónica shows how Docker layer inspection, known-image replacement, and a read-only root can aid response and resist persistence without fixing remote code execution.
 - [In a few years, no investors are going to be looking for AI startups](sources/in-a-few-years-no-investors-are-going-to-be-looking-for-ai-startups.md) - A 2017 essay predicts that AI will become assumed software infrastructure, shifting startup differentiation beyond the enabling technology while later sources contradict its two-year timetable.
 - [In a Robot Economy, All Humans Will Be Marketers](sources/in-a-robot-economy-all-humans-will-be-marketers-bloomberg.md) - Tyler Cowen argues that automation can preserve jobs by shifting people toward persuasion and relationship work without guaranteeing productivity or social value.
 - [In Praise of Incrementalism (Ep. 264)](sources/in-praise-of-incrementalism-ep-264-freakonomics-freakonomics.md) - Freakonomics connects cumulative artistic, legal, financial, and athletic progress while preserving foundation, causality, ethics, and unfinished-change limits.
@@ -1917,6 +1918,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [YouTube](entities/YouTube.md) - Creator and cultural platform used as a comparison case for Twitter's metrics and tool strategy.
 - [Wistia](entities/Wistia.md) - B2B video company used as the startup case for growing beside YouTube through specialized business-video tooling.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
+- [Diogo Mónica](entities/DiogoMonica.md) - Security practitioner connecting Docker filesystem controls with incident investigation, rapid restoration, and bounded persistence resistance.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Wang Ziting](entities/WangZiting.md) - Developer-blogger reflecting on side-project release discipline, container platforms, game backend architecture, and Redis-backed task queues.
 - [Jeff Dickey](entities/JeffDickey.md) - CLI practitioner-author presenting twelve factors for usable, automation-friendly command-line applications.
@@ -2576,7 +2578,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Consumer Startup Competition](concepts/ConsumerStartupCompetition.md) - Competition model in which incumbent network, distribution, and resource advantages are partly offset by multi-homing, residual discovery, and lower experimentation costs.
 - [Imposter Syndrome](concepts/ImposterSyndrome.md) - Difficulty internalizing success, synthesized across achievement pressure, belonging, filtered feedback, and perfectionistic effort rituals.
 - [Configuration Management](concepts/ConfigurationManagement.md) - Desired-state automation whose bounded roles include image construction even when per-instance release convergence is avoided.
-- [Immutable Infrastructure](concepts/ImmutableInfrastructure.md) - Build-and-replace model whose reliability depends on image construction, explicit promotion, rollout, and state boundaries.
+- [Immutable Infrastructure](concepts/ImmutableInfrastructure.md) - Build-and-replace model supporting drift inspection and rapid restoration while depending on explicit promotion, rollout, and mutable-state boundaries.
 - [Organizational Scale Tradeoffs](concepts/OrganizationalScaleTradeoffs.md) - Coupled gains and costs created when specialization, resources, strategy, and dependencies replace small-team generalism and autonomy.
 - [Coding Bootcamp Education](concepts/CodingBootcampEducation.md) - Accelerated vocational programming education evaluated through teaching depth, mentor expertise, projects, career support, price, selection, and transparent outcomes.
 - [Marketplace Cold Start](concepts/MarketplaceColdStart.md) - Coordination problem of concentrating enough relevant supply and demand for a marketplace to become usable.

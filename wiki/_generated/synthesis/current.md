@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 7ef6b46f447fff5efd79445c80a60d3c55698619
+as_of_overview_commit: d99a469e9854bb520f8862a9a399a36accb94c01
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 830
-source_count: 830
+episode_count: 831
+source_count: 831
 paragraph_count: 628
 topic_count: 9
 ---
@@ -64,7 +64,7 @@ Institutions and infrastructure need explicit authority, sequenced change, obser
 
 ### History and Geopolitics
 
-Historical technology, organizational, interface, media, market, and operations spillovers require attention to lineage and causal humility.
+Historical technology, organizational, interface, media, market, and operations spillovers require attention to lineage, path dependence, institutional context, and causal humility.
 
 ### Psychology and Personal Development
 

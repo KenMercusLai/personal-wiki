@@ -7,6 +7,7 @@ sources:
   - 2018-nian-du-xiao-jie-ji-shu-fang-mian
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
   - improving-critical-infrastructure-rollouts-labs
+  - increasing-attacker-cost-using-immutable-infrastructure
 last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
@@ -21,14 +22,16 @@ The bmpi.dev case adds a dependency-build perspective. Its Python core needs nat
 
 Spotify adds the runtime-lifecycle boundary. Docker grew from a prototype substrate to a reported 80% of production backend services on thousands of hosts, so upgrades could no longer be treated as environment-wide maintenance. Version changes introduced hostname and command incompatibilities, orphaned containers and proxies, retained ports, routing errors, blocked starts, mass restarts, and reconnect storms. This makes gradual, representative production rollout part of operating the runtime, not merely part of packaging applications.
 
+Diogo Mónica's compromise demonstration adds the filesystem and response boundary. Docker images remain unchanged while normal containers record runtime writes in a copy-on-write layer that `docker diff` can inspect and `docker commit` can preserve. Launching a fresh container restores the packaged application, while `--read-only` separately blocks writes to the root filesystem. These mechanisms improve restoration and constrain persistence, but they do not neutralize remote code execution or protect credentials, databases, external systems, and explicitly writable mounts.
+
 ## Key Characteristics
 - Makes [[TwelveFactorApp]] logging and environment-variable configuration concrete through container runtime behavior.
-- Supports minimal artifact shipping through scratch-based images when applications do not need wrapper shells.
+- Supports minimal artifact shipping and read-only root filesystems that can reduce post-compromise tools and persistence paths.
 - Can enable superficial lift-and-shift migration or unsafe fleet-wide maintenance when application and rollout behavior remain unchanged.
 - Exposes brittle application startup assumptions around config files, data directories, and external services.
 - Encourages runtime configuration, but does not eliminate the need to design how runtime settings are supplied and validated.
 - Benefits from deliberate base-image and Dockerfile choices that balance size, dependency compatibility, repeatability, and caching.
-- Requires container-native operational behavior such as health checks, storage discipline, and graceful signal handling.
+- Requires container-native operational behavior such as health checks, explicit writable paths, storage discipline, and graceful signal handling.
 
 ## Evidence
 - Twelve-factor fit: [[12-fractured-apps-kelsey-hightower-medium]] connects Docker logs with stdout event streams and Docker runtime flags with environment-variable configuration.
@@ -44,14 +47,17 @@ Spotify adds the runtime-lifecycle boundary. Docker grew from a prototype substr
 - Fleet criticality: [[improving-critical-infrastructure-rollouts-labs]] reports thousands of instances and 80% of Spotify production backend services running as containers by February 2017.
 - Restart risk: [[improving-critical-infrastructure-rollouts-labs]] says upgrading an instance restarts its containers and concentrated critical-service restarts can trigger user harm and downstream reconnect storms.
 - Rollout response: [[improving-critical-infrastructure-rollouts-labs]] describes using Tsunami to distribute Docker versions gradually across representative production services.
+- Writable-layer visibility: [[increasing-attacker-cost-using-immutable-infrastructure]] uses `docker diff` to expose a changed web page and an added PHP shell after compromise.
+- Restore and preserve: [[increasing-attacker-cost-using-immutable-infrastructure]] commits the compromised layer for inspection and launches a fresh container from the original application image.
+- Read-only boundary: [[increasing-attacker-cost-using-immutable-infrastructure]] shows `--read-only` blocking the demonstrated defacement while acknowledging continued code execution and data-exfiltration risk.
 
 ## Qualifications
-The sources are practitioner reflections, not comprehensive Docker ecosystem evaluations. The 2015 essay focuses on startup design, the 2018 retrospective on one organization's production container practice, and the bmpi.dev note on one Python native-dependency build and Fargate deployment. Spotify's first-party account documents several failures and a control design but supplies no comparative incident, detection, or recovery measurements; its rollout chart could not be retrieved.
+The sources are practitioner reflections, not comprehensive Docker ecosystem evaluations. The 2015 essay focuses on startup design, the 2018 retrospective on one organization's production container practice, and the bmpi.dev note on one Python native-dependency build and Fargate deployment. Spotify's first-party account documents several failures and a control design but supplies no comparative incident, detection, or recovery measurements; its rollout chart could not be retrieved. Mónica's 2016 example is deliberately vulnerable and demonstrates filesystem behavior rather than complete containment or forensic procedure. Image immutability does not imply that a normal container root is read-only, and restoring a container does not restore or validate mutable external state.
 
 ## What Changed
-- Added base-image compatibility and managed Fargate execution from the bmpi.dev Python/TA-Lib case.
-- Added Dockerfile DSL and container-native operational gaps from Wang Ziting's 2018 retrospective.
-- Added fleet-scale upgrade regressions, restart coupling, and progressive infrastructure rollout from Spotify.
+- Added copy-on-write drift inspection and compromised-layer preservation as incident-response capabilities.
+- Distinguished unchanged images, writable container layers, and the separate `--read-only` runtime control.
+- Added the security limit that container replacement and read-only roots do not remediate code execution or mutable external state.
 
 ## Relationships
 - [[KelseyHightower]] - author uses Docker as the practical demonstration environment.
@@ -65,3 +71,6 @@ The sources are practitioner reflections, not comprehensive Docker ecosystem eva
 - [[Helios]] - orchestration tool affected by orphaned-container port conflicts.
 - [[Tsunami]] - desired-state service used to roll Docker versions out gradually.
 - [[ProgressiveInfrastructureRollout]] - practice for bounding exposure to runtime upgrades and configuration changes.
+- [[DiogoMonica]] - practitioner demonstrating Docker filesystem controls during a simulated compromise.
+- [[ImmutableInfrastructure]] - known image artifacts support replacement while runtime controls determine permitted drift.
+- [[IncidentManagement]] - Docker can preserve filesystem evidence and restore the packaged service as separate response steps.

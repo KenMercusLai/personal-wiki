@@ -6696,3 +6696,11 @@ Added [[PaulNewson]]'s 2017 account of his first primary on-call incident with t
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Increasing Attacker Cost Using Immutable Infrastructure
+
+Added [[DiogoMonica]]'s 2016 Docker compromise demonstration connecting writable-layer inspection, preservation of compromised state, known-image replacement, and read-only roots. Created Diogo Mónica; updated [[ImmutableInfrastructure]] and [[Docker]] from their complete ordered evidence inventories. Preserved the distinction between an immutable base image, a normal container's writable copy-on-write layer, and explicit `--read-only` enforcement, while qualifying that these controls do not fix remote code execution or protect credentials, databases, external systems, and writable mounts. All five image embeds resolve to the same nominal `.png`, but the file contains an HTML application shell rather than image bytes, so the intended visuals could not be interpreted or retained and no visual claim was made.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
