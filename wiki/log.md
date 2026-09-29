@@ -6568,3 +6568,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | IBM's Old Playbook
+
+Added [[BenThompson]]'s 2018 interpretation of IBM's announced Red Hat acquisition as an attempt to reuse Gerstner-era enterprise integration above a cloud market IBM no longer controlled. Created [[IBM]], [[BobYoung]], [[LouGerstner]], [[OpenShift]], [[EnterpriseIntegrationBusinessModel]], and [[HybridCloudStrategy]]; expanded [[RedHat]], [[Kubernetes]], [[OpenSourceCommercialization]], and Ben Thompson from their complete ordered evidence inventories. Preserved the distinction between orchestration portability and full provider independence, between acquisition rationale and execution, and between the 2018 forecast and later outcomes. Opened both unique local images, retained the integration diagram and 1997–2017 revenue chart under descriptive canonical filenames, and omitted the chart's repeated embed as a duplicate.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

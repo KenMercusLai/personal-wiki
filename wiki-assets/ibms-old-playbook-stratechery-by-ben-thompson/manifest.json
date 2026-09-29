@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "ibms-old-playbook-stratechery-by-ben-thompson",
+  "images": [
+    {
+      "file": "ibm-enterprise-integration-model.png",
+      "alt": "Diagram showing IBM integrating data centers, ecommerce, intranets, websites, communications, support, and other open technologies for many enterprise customers"
+    },
+    {
+      "file": "technology-company-revenue-1997-2017.jpg",
+      "alt": "Chart comparing annual revenue for IBM, Microsoft, Cisco, and Oracle from 1997 through 2017"
+    }
+  ]
+}

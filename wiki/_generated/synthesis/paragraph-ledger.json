@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "bafe24005cfac6757a73ecbad4c742637925534985d1aca23212f0637c977427",
       "5366b48267f4664e85ab183b0b3c56eae6e213e4ac91be3d33f82e7133685dd6",
       "ce3a806fb8a25d919a1a21409dc264ee97804dc00ac196c839c36fcc562b0cd3",
       "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
@@ -617,11 +618,37 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 615
+    "paragraph_count": 616
   },
-  "overview_commit": "2399ced4fceeac31738ffaee03fd2ee59efa9c89",
-  "overview_digest": "c7f3beff0638606b472578b7a903c2ea7fd2bf473c500775749982710fcb82a9",
+  "overview_commit": "c7ad6fd43af9ebd53a667a1554839beffcff218e",
+  "overview_digest": "1f54ff16212b9944f93c318cd0ce9d1a7bd558dfef912a857e53424bbfd1604f",
   "paragraphs": [
+    {
+      "id": "bafe24005cfac6757a73ecbad4c742637925534985d1aca23212f0637c977427",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[BenThompson]] source adds [[EnterpriseIntegrationBusinessModel]] as the durable logic behind Gerstner-era [[IBM]]: when Internet components were open, immature, and fragmented, IBM's global presence, customer trust, services, operations, and proprietary middleware let it sell an accountable business outcome rather than the best individual product. [[BobYoung]] says this helped [[RedHat]] recognize that freely reusable Linux could still support enterprise subscriptions and service contracts, extending [[OpenSourceCommercialization]] beyond code exclusivity. The 2018 acquisition thesis then turns that old playbook into [[HybridCloudStrategy]]: [[OpenShift]] and portable [[Kubernetes]] workloads could bridge private infrastructure and several public clouds after IBM missed the hyperscale infrastructure race. The synthesis is conditional rather than predictive. Standardized cloud services had already weakened custom integration scarcity; orchestration portability does not make data, identity, networking, managed services, costs, or operating practices portable; customers may build with open tools themselves; Microsoft could pair hybrid software with owned infrastructure; and IBM still needed cultural change. The article is a historical strategy essay and acquisition-era forecast, not evidence of later adoption or success. Both unique local images were opened and retained at their semantic positions: the enterprise-integration diagram and the 1997-2017 revenue comparison; the chart's repeated embed was omitted as a duplicate.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "BenThompson",
+        "BobYoung",
+        "EnterpriseIntegrationBusinessModel",
+        "HybridCloudStrategy",
+        "IBM",
+        "Kubernetes",
+        "OpenShift",
+        "OpenSourceCommercialization",
+        "RedHat"
+      ]
+    },
     {
       "id": "5366b48267f4664e85ab183b0b3c56eae6e213e4ac91be3d33f82e7133685dd6",
       "primary_topic": "culture-and-media",

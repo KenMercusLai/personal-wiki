@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [IBM's Old Playbook](sources/ibms-old-playbook-stratechery-by-ben-thompson.md) - Ben Thompson interprets IBM's Red Hat acquisition as a hybrid-cloud attempt to reuse its enterprise-integration playbook after missing hyperscale public cloud.
 - [I told a senior developer at Microsoft he was wrong.](sources/i-told-a-senior-developer-at-microsoft-he-was-wrong.md) - A Microsoft intern describes how repeated review, persistent questions, and diagnosing a senior engineer's memory-management defect turned deference into independent engineering judgment.
 - [I studied the Zappos CEO’s schedule for a year. Here’s what I learned.](sources/i-studied-the-zappos-ceos-schedule-for-a-year-heres-what-i-learned.md) - Daniel Rodic uses Tony Hsieh's public 2015 schedule to examine bounded email triage, calendar capacity, delegation, and transparency while preserving causal limits around Holacracy.
 - [I Quit My Job and I Have One Year to Get to Profitability](sources/i-quit-my-job-and-i-have-one-year-to-get-to-profitability.md) - Andrey Azimov frames quitting employment as a one-year, low-burn, publicly accountable search for $1,000 in monthly product revenue and later reports seven launches and goal attainment.
@@ -835,6 +836,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Bob Young](entities/BobYoung.md) - Red Hat cofounder who credits Gerstner-era IBM with influencing its service-led open-source business model.
+- [IBM](entities/IBM.md) - Enterprise technology company framed through its services turnaround, public-cloud miss, and 2018 Red Hat hybrid-cloud bet.
+- [Lou Gerstner](entities/LouGerstner.md) - Former IBM leader associated with customer-led enterprise integration, cultural change, and strategic preparedness.
+- [OpenShift](entities/OpenShift.md) - Red Hat's Kubernetes-based platform and the strategic center of IBM's 2018 hybrid-cloud acquisition thesis.
 - [Tony Hsieh](entities/TonyHsieh.md) - Zappos executive represented through a 2015 schedule analysis of email, meetings, delegation, transparency, and distributed authority.
 - [Andrey Azimov](entities/AndreyAzimov.md) - Independent product maker represented through a one-year, low-burn profitability experiment and reported seven-app outcome.
 - [Pieter Levels](entities/PieterLevels.md) - Independent product maker represented as Azimov's adviser and repeated-launch role model.
@@ -2290,6 +2295,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Enterprise Integration Business Model](concepts/EnterpriseIntegrationBusinessModel.md) - Value capture through accountable integration of fragmented technologies into enterprise outcomes.
+- [Hybrid Cloud Strategy](concepts/HybridCloudStrategy.md) - Consistent application deployment and management across private infrastructure and multiple public clouds.
 - [Yesterbox](concepts/Yesterbox.md) - Email workflow that makes yesterday's inbox a bounded daily queue and pairs it with quick handling, delegation, team triage, and calendar capacity.
 - [Organizational Transparency](concepts/OrganizationalTransparency.md) - Availability of priorities, decisions, calendars, and operating context so people can coordinate and decide with less dependence on private access.
 - [Candidate Rejection Feedback](concepts/CandidateRejectionFeedback.md) - Individualized post-interview explanation whose value depends on bounded evidence, decision clarity, review capacity, and careful wording.
