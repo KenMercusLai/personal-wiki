@@ -633,12 +633,13 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b",
       "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c",
-      "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af"
+      "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af",
+      "b49ee6e0dc15c360f2a4745e0cca3c1f80776ec2af505f4f5653a90237e9ac8b"
     ],
-    "paragraph_count": 633
+    "paragraph_count": 634
   },
-  "overview_commit": "c7d9b9d8078ebb751054bb14cbb4402f2b11bc85",
-  "overview_digest": "ed1ced57f7418cfa00d68512ed8de52f1be30151c79e89c72c8d7d9721c4786b",
+  "overview_commit": "5d018f626a89c792762c3cb2c80a611fd03c5108",
+  "overview_digest": "13060665f0b5f1c2943d86ffa44fab981f3dda357d818747ded0ad3eac5be9ec",
   "paragraphs": [
     {
       "id": "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
@@ -12833,6 +12834,21 @@
         "MarketplaceReviewFraud",
         "MarketplaceTrust",
         "NicoleNguyen"
+      ]
+    },
+    {
+      "id": "b49ee6e0dc15c360f2a4745e0cca3c1f80776ec2af505f4f5653a90237e9ac8b",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Bloomberg source adds [[ContingentWorkforce]] as both a flexible staffing mechanism and an organizational boundary. In its July 2018 [[Google]] snapshot, temps, vendors, and contractors reportedly worked across service, technical, commercial, moderation, mapping, testing, recruiting, and management functions and had briefly outnumbered direct employees. Google emphasized scarce expertise, leave coverage, and workload spikes, while former managers added headcount budgets, hiring speed, dismissal flexibility, and the need to reserve payroll for expensive engineers. Agencies formally handled pay, benefits, and grievances while Google shaped tasks, badges, access, intellectual property, legal waivers, and everyday status, creating a responsibility gap between employment contract and operational control. This expands [[DataAnnotationLabor]] into outsourced mapping labels, contract content moderation, and planned human recovery of Duplex conversations that automation could not complete. Outcomes were heterogeneous: high-paid specialists, unionized janitors, free meals, supportive coworkers, and career springboards coexisted with benefit gaps, healthcare costs, meeting exclusion, weak grievance response, abrupt departures, and uncertain conversion. The article is not a current census or causal study; Google withheld contractor and agency counts, the contractor majority may not have persisted, interviews cannot establish prevalence across roles or countries, and joint-employer status remains legally unresolved. One lead illustration encoding the badge divide was retained; smaller duplicate copies, recommendation thumbnails, and tiny contextual photographs were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "ContingentWorkforce",
+        "DataAnnotationLabor",
+        "Google"
       ]
     }
   ],

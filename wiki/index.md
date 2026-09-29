@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside Google’s Shadow Workforce](sources/inside-googles-shadow-workforce-bloomberg.md) - Bloomberg's 2018 investigation connects Google's large contractor layer to flexible capacity and hidden digital labor as well as divided responsibility, unequal benefits, and workplace hierarchy.
 - [Inside Amazon's Fake Review Economy](sources/inside-amazons-fake-review-economy.md) - Nicole Nguyen maps paid-review recruitment, verified-purchase evasion, consumer and seller harm, and Amazon's incomplete enforcement response.
 - [Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI](sources/inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic.md) - TechRepublic connects AMT's low-paid, opaque platform labor with the human labeling, cleaning, moderation, and exception work behind AI systems.
 - [Inside Disney's messy video game business](sources/inside-disneys-messy-video-game-business-business-insider.md) - Ben Gilbert connects Disney's game-publishing retreat to risk aversion, weak institutional knowledge, unstable studio direction, portfolio economics, and a licensing pivot.
@@ -2353,6 +2354,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Contingent Workforce](concepts/ContingentWorkforce.md) - Labor obtained through temporary appointments, staffing agencies, vendors, or contractors, separating flexible capacity from direct employment and its protections.
 - [Corporate Risk Aversion](concepts/CorporateRiskAversion.md) - Preference for predictable outcomes that can narrow, redirect, transfer, or end uncertain investment despite abundant capital.
 - [Game Publishing Portfolio Economics](concepts/GamePublishingPortfolioEconomics.md) - Hit-driven model in which several long-cycle game bets are needed because one success may offset multiple failures.
 - [Marketplace Review Fraud](concepts/MarketplaceReviewFraud.md) - Coordinated manipulation of ratings and reviews through payments, reimbursement, fabricated experience, competitor attacks, or pressure to revise criticism.
