@@ -9,7 +9,8 @@ sources:
   - being-different-beats-being-better-darius-foroux
   - building-a-business-in-the-shadow-of-a-giant-noteworthy-the-journal-blog
   - competition-does-not-matter
-last_updated: 2026-09-26
+  - in-a-few-years-no-investors-are-going-to-be-looking-for-ai-startups
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,11 +18,11 @@ knowledge_schema: synthesis-v1
 [[DifferentiationStrategy]] is the deliberate choice to make a company, product, brand, or offer meaningfully distinct so customers have a reason to choose it over similar alternatives.
 
 ## Current Synthesis
-The sources present differentiation as a strategic response to market sameness. Features, quality claims, and vague adjectives are weak foundations because competitors can copy working features and buyers quickly come to treat once-novel benefits as standard. The Groove source adds the startup-product version of the same pressure: as building software gets cheaper, products can be copied from below by startups and from above by larger companies. The Grady interview adds an investor version: in crowded SaaS markets, winners need a superior value proposition and durable problem solution because capital cannot brute-force scale. The Foroux source adds an individual and small-business version: being different often means being first in a recognizable category rather than marginally better on the same axis. The Wistia source adds a platform-adjacent version: a company can differentiate by serving a deep customer segment that the broad incumbent helped create but cannot sensibly optimize for. The self-funded SaaS essay adds a preference-based version: differences in interface taste and incumbent frustration can expose a small viable segment, but the entrant still needs a clear marketing angle, close service, and a distinct comparison “layer.” Stronger differentiation therefore comes from owning a position in the customer's mind: a target market, attribute, method, customer experience, leadership claim, brand story, category frame, culture, personal presence, unusual [[SkillStacking]] profile, or specialized workflow that competitors cannot easily duplicate.
+The sources present differentiation as a strategic response to market sameness. Features, quality claims, vague adjectives, and enabling-technology labels are weak foundations because competitors can copy working features and buyers quickly come to treat once-novel benefits as standard. The AI normalization essay sharpens this mechanism: if a technique becomes an assumed input to competent software, saying that a startup uses it no longer explains why customers or investors should choose that company. The Groove source adds the broader startup-product pressure that cheaper software creation invites copying from both new entrants and larger companies. The Grady interview adds an investor version: in crowded SaaS markets, winners need a superior value proposition and durable problem solution because capital cannot brute-force scale. The Foroux source adds an individual and small-business version: being different often means being first in a recognizable category rather than marginally better on the same axis. The Wistia source adds a platform-adjacent version: a company can differentiate by serving a deep customer segment that the broad incumbent helped create but cannot sensibly optimize for. The self-funded SaaS essay adds a preference-based version: differences in interface taste and incumbent frustration can expose a small viable segment, but the entrant still needs a clear marketing angle, close service, and a distinct comparison “layer.” Stronger differentiation therefore comes from owning a position in the customer's mind: a target market, attribute, method, customer experience, leadership claim, brand story, category frame, culture, personal presence, unusual [[SkillStacking]] profile, or specialized workflow that competitors cannot easily duplicate.
 
 ## Key Claims
-- Differentiation must be noticeable and meaningful to customers, not merely technically different.
-- Feature advantages are usually temporary because successful features are copied and become expectations.
+- Differentiation must be noticeable and meaningful to customers, not merely technically different or attached to a fashionable enabling technology.
+- Feature and enabling-technology advantages are usually temporary because successful capabilities are copied, adopted, and become expectations.
 - Competitor benchmarking can make companies converge instead of becoming more original.
 - Price can differentiate only when backed by structural cost advantages, while radical differentiation requires strategic risk and executive ownership.
 - Customer experience, brand meaning, culture, target-market focus, category framing, and durable problem-solving can defend a startup more effectively than incremental product claims alone.
@@ -46,14 +47,14 @@ The sources present differentiation as a strategic response to market sameness. 
 - Niche scale: [[building-a-business-in-the-shadow-of-a-giant-noteworthy-the-journal-blog]] argues that business video hosting could be too small for YouTube to prioritize while still large enough for Wistia.
 - Preference-based niche: [[competition-does-not-matter]] argues that users who dislike an incumbent's interface or product choices may prefer an alternative built around their needs.
 - Segment separation: [[competition-does-not-matter]] uses a Photoshop-layer analogy to argue that an entrant should occupy a distinct segment rather than compete as an undifferentiated substitute.
+- Baseline capability shift: [[in-a-few-years-no-investors-are-going-to-be-looking-for-ai-startups]] argues that once investors assume relevant AI use, founders must differentiate on another dimension.
 
 ## Counterevidence & Qualifications
-The 36氪 source itself qualifies differentiation by citing [[ByronSharp]] and Ehrenberg-Bass style arguments: in some consumer markets, buyers may not perceive meaningful brand differences, and mental availability or market share can matter more than distinct product positioning. The sources rely heavily on practitioner, marketing, investor, motivational, and company-side retrospective examples rather than controlled evidence about which strategy works in which category. Foroux's career translation is especially advice-oriented: it plausibly explains distinctive positioning, but it does not quantify how much skill stacking or category association changes outcomes. The Wistia case is also source-scoped because it is presented from the company's own strategic interpretation of its relationship to YouTube. The self-funded SaaS essay similarly supplies selected winner anecdotes rather than evidence that preference-based segmentation reliably overcomes acquisition costs, network effects, switching costs, price pressure, or incumbent distribution.
+The 36氪 source itself qualifies differentiation by citing [[ByronSharp]] and Ehrenberg-Bass style arguments: in some consumer markets, buyers may not perceive meaningful brand differences, and mental availability or market share can matter more than distinct product positioning. The sources rely heavily on practitioner, marketing, investor, motivational, and company-side retrospective examples rather than controlled evidence about which strategy works in which category. Foroux's career translation is especially advice-oriented: it plausibly explains distinctive positioning, but it does not quantify how much skill stacking or category association changes outcomes. The Wistia case is also source-scoped because it is presented from the company's own strategic interpretation of its relationship to YouTube. The self-funded SaaS essay similarly supplies selected winner anecdotes rather than evidence that preference-based segmentation reliably overcomes acquisition costs, network effects, switching costs, price pressure, or incumbent distribution. The AI essay's two-year normalization forecast was also too aggressive, so it supports the direction of capability commoditization more strongly than its timing.
 
 ## What Changed
-- Added preference variation and incumbent dissatisfaction as possible sources of a focused SaaS niche.
-- Clarified that entering a competitive category still requires a legible segment, marketing angle, and distinct offer.
-- Qualified the new argument as anecdotal and incomplete about market structure and customer-acquisition economics.
+- Added enabling-technology normalization as a reason that technically accurate labels can stop differentiating a startup.
+- Qualified the mechanism by separating a plausible long-run shift from the source's unsuccessful two-year forecast.
 
 ## Related Concepts
 - [[BrandDistinctiveness]] - differentiates by making the brand easier to notice and remember.
@@ -66,3 +67,4 @@ The 36氪 source itself qualifies differentiation by citing [[ByronSharp]] and E
 - [[SkillStacking]] - applies differentiation to individual career profiles.
 - [[IncumbentShadowAdvantage]] - incumbent-created demand can make a focused niche strategy more attractive.
 - [[CrowdedMarketEntry]] - applies differentiation as the entry mechanism inside an already understood category.
+- [[TechnologyNormalization]] - turns once-distinctive technical capabilities into baseline expectations and shifts differentiation elsewhere.

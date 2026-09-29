@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [In a few years, no investors are going to be looking for AI startups](sources/in-a-few-years-no-investors-are-going-to-be-looking-for-ai-startups.md) - A 2017 essay predicts that AI will become assumed software infrastructure, shifting startup differentiation beyond the enabling technology while later sources contradict its two-year timetable.
 - [In a Robot Economy, All Humans Will Be Marketers](sources/in-a-robot-economy-all-humans-will-be-marketers-bloomberg.md) - Tyler Cowen argues that automation can preserve jobs by shifting people toward persuasion and relationship work without guaranteeing productivity or social value.
 - [In Praise of Incrementalism (Ep. 264)](sources/in-praise-of-incrementalism-ep-264-freakonomics-freakonomics.md) - Freakonomics connects cumulative artistic, legal, financial, and athletic progress while preserving foundation, causality, ethics, and unfinished-change limits.
 - [In Products, as in Life, Not All Friction Is Bad](sources/in-products-as-in-life-not-all-friction-is-bad-better-everyday.md) - A Better Everyday essay treats friction as a design variable whose removal or addition can reshape noise, virality, service economics, and security.
@@ -2331,6 +2332,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Technology Normalization](concepts/TechnologyNormalization.md) - Process by which a once-novel technical capability becomes an expected baseline and loses categorical signaling power.
 - [Persuasion Work](concepts/PersuasionWork.md) - Selling, branding, advertising, relationship, and experience work that may expand after automation but has contested social value.
 - [Incrementalism](concepts/Incrementalism.md) - Pursuing large outcomes through sequenced, repeated, mutually reinforcing changes while preserving foundations and direction checks.
 - [Progressive Infrastructure Rollout](concepts/ProgressiveInfrastructureRollout.md) - Controlled propagation of infrastructure state through representative production cohorts to bound exposure and create detection and stopping time.

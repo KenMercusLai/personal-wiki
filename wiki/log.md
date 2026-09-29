@@ -6625,6 +6625,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | In a few years, no investors are going to be looking for AI startups
+
+Added a 2017 forecast that AI would move from visible startup category to assumed software capability, shifting founder and investor attention toward other bases of differentiation. Created [[TechnologyNormalization]]; updated [[AIInvestmentTheme]], [[AIMarketingHype]], and [[DifferentiationStrategy]] from their complete ordered evidence inventories. Preserved the distinction between underlying adoption and the commercial salience of the AI label, and marked the essay's two-year deadline as contradicted by later 2019 product-marketing and 2025 investment-theme evidence. Opened all three effective local image references and omitted them as a decorative illustration, its higher-resolution duplicate, and a thumbnail; no asset manifest was required.
+
 ## [2026-09-30] ingest | Imagining your future projects is holding you back.
 
 Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identity, planning, and expectation that grow without proportionate artifact-making. Created Jessica Abel, [[KazuKibuishi]], [[IraGlass]], and Idea Debt; updated [[Perfectionism]], [[ProlificPractice]], and [[SunkCostFallacy]] from their complete ordered evidence inventories. Preserved the distinction between useful preparation and avoidance, between difficult work and stale commitment, and between volume and feedback-informed practice. Opened both local images and omitted the decorative comic crop and redundant title card; no visual evidence or asset manifest was required.
@@ -6676,6 +6680,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | In a Robot Economy, All Humans Will Be Marketers
 
 Added [[TylerCowen]]’s 2017 argument that automation may preserve employment while shifting people from routine tasks toward selling, branding, customer relationships, and experience work. Created Tyler Cowen, [[JamesBessen]], and [[PersuasionWork]]; updated [[WorkplaceAutomation]] and [[HumanPremiumServices]] from their complete ordered evidence inventories. Preserved the distinction between employment continuity and productive or socially valuable reallocation, plus the informational, experiential, zero-sum, coercive, historical, and unmeasured limits of the essay’s marketing thesis. Inspected all 13 unique local image files by relevance and dimensions, opened the three article-photo variants, retained the highest-resolution meal-serving-robot photograph under a descriptive canonical filename, and omitted recommendation thumbnails and lower-resolution duplicates.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 

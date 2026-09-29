@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
       "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
       "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
       "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
@@ -628,11 +629,28 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 626
+    "paragraph_count": 627
   },
-  "overview_commit": "7d642c279d2afd968edda0824a1bee04aef0913a",
-  "overview_digest": "40b07c13e449475584b8ffb90ddb3fa176c201171536c0a06f978c2a623d525f",
+  "overview_commit": "242da2ae1c3db2f1b45eecec66c88924d9643d1d",
+  "overview_digest": "c05f066be80a1d38a44a930675c06f42b2dd609c8eb9692bc22881068d726a20",
   "paragraphs": [
+    {
+      "id": "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest AI-startup essay adds [[TechnologyNormalization]] as the shift from scarce technical novelty to expected implementation baseline. Writing in 2017, the author compares AI with relational databases, rich desktop clients, web front ends, cloud-native systems, and mobile apps: each could define a wave while adoption was uneven, then lost categorical signaling power as competent builders were expected to use it. The proposed diffusion path runs from GitHub and Reddit experimentation through research papers, conferences, bootcamps, MOOCs, mainstream IDEs, and standard curricula, with temporary froth in specialist salaries, valuations, and pitch decks along the way. This sharpens [[DifferentiationStrategy]] and [[AIMarketingHype]] because a technically real capability can still become a weak reason to choose or fund a startup once it is widely available. It also qualifies [[AIInvestmentTheme]]: economic importance can survive even as an “AI-powered” label identifies less durable advantage. The mechanism is more credible than the timing. The essay predicted that explicit investor demand for AI startups would disappear within two years, yet the wiki's 2019 CES source still found conspicuous AI product labeling and its 2025 investing source still treated AI as a structural capital-market theme. Adoption, operational ubiquity, marketing salience, and investment salience therefore need separate clocks. All three effective local images were opened and omitted as a decorative illustration, its higher-resolution duplicate, and a thumbnail.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 5,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AIInvestmentTheme",
+        "AIMarketingHype",
+        "DifferentiationStrategy",
+        "TechnologyNormalization"
+      ]
+    },
     {
       "id": "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
       "primary_topic": "work-education-and-society",
