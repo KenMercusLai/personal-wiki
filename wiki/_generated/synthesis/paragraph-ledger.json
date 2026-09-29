@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
       "672ac5b5a39e9c1d014fa357678d82348ed5d96ab5c6d13d2c41ec8e225b71f9",
       "b240a952546bd5d216b3190b9990df0008794b51be5d3081b221289e379d3bb4",
       "656ca35ae6c7298c64d4ba55602175eb9ebcbed29b69f27d96ebc91086bc55a2",
@@ -624,11 +625,29 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 622
+    "paragraph_count": 623
   },
-  "overview_commit": "4027e3d9df9bceb7687f0dbfe84d1d43e2359e76",
-  "overview_digest": "19c9f344ed5b9e1eb71f813ba8630b01df82cd3dba7209d712b0a08a805978c8",
+  "overview_commit": "3c6db7a2e89cfb76b924310d8156ca1ddc926279",
+  "overview_digest": "f3f89a8e4ef80104f5981ec0d4816529975efa2c9bbd18f737433fe44b091f57",
   "paragraphs": [
+    {
+      "id": "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest Spotify Labs source adds [[ProgressiveInfrastructureRollout]] as a fleet-allocation problem that appears when an infrastructure component moves from experiment to critical dependency. [[Spotify]] reports that [[Docker]] grew from a few prototype services to thousands of hosts and 80% of production backend services; recurrent hostname, command, orphan-process, port, routing, and restart failures made broad upgrades unsafe. [[Tsunami]] therefore separated central desired-state allocation from client enactment: variables transition between permitted values over time, hosts query flat JSON targets, and shared controls can add audit history, role-aware percentage floors or ceilings, and service-level-objective stopping. The durable claim is bounded rather than preventive: representative production cohorts may reveal incompatibilities that narrow testing cannot, while slow expansion limits initial exposure and buys detection time. The account remains one first-party 2017 narrative without before-and-after incident, detection, or recovery measures; host share need not equal user or dependency exposure, and cohort selection, convergence, stopping, and recovery can fail. One unique remote PNG was embedded three times but now returns HTTP 410, so the rollout chart could not be inspected or retained and no visual claim relies on it.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "Docker",
+        "ProgressiveInfrastructureRollout",
+        "Spotify",
+        "Tsunami"
+      ]
+    },
     {
       "id": "672ac5b5a39e9c1d014fa357678d82348ed5d96ab5c6d13d2c41ec8e225b71f9",
       "primary_topic": "work-education-and-society",

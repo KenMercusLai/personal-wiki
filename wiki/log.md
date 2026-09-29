@@ -6648,3 +6648,11 @@ Added Fastly's guidance that API cacheability depends on shared response boundar
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Improving Critical Infrastructure Rollouts
+
+Added Spotify's account of Docker's transition from prototype runtime to critical fleet infrastructure and the recurrent regressions, restart coupling, and production diversity that made broad upgrades unsafe. Created [[Tsunami]], [[Helios]], and [[ProgressiveInfrastructureRollout]]; updated [[Spotify]] and [[Docker]] from their complete ordered evidence inventories. Preserved the distinction between bounded exposure and fault prevention, plus limits around cohort representativeness, host share versus user impact, client convergence, stopping, recovery, and absent before-and-after reliability measures. The one unique remote PNG is embedded three times but now returns HTTP 410, so the rollout chart could not be inspected or retained and no visual claim relies on it.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

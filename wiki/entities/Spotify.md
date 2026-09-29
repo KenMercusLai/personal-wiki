@@ -9,12 +9,13 @@ sources:
   - crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable
   - design-doesnt-scale-stanley-wood-medium
   - finding-new-music-in-the-algorithm-age-the-outline
-last_updated: 2026-09-28
+  - improving-critical-infrastructure-rollouts-labs
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Spotify]] is a music-streaming company represented through an early technical prototype, product-led acquisition tactics, an internal management-practice account, and a 2017 counterfactual in which [[Apple]] chose not to buy its scale.
+[[Spotify]] is a music-streaming company represented through an early technical prototype, product-led acquisition tactics, workplace and design practices, fleet-scale container operations, and a 2017 counterfactual in which [[Apple]] chose not to buy its scale.
 
 ## Current Profile
 [[HenrikKniberg]] describes Spotify's earliest prototype as a deliberately narrow feasibility and desirability test. Developers reportedly used music already on their laptops and optimized the delay between pressing Play and hearing stable audio; friends and family then tried an unpolished client before it had a full catalog, licensing agreement, economic model, or broad release. The account treats near-instant playback as the core experience that had to become convincing before feature breadth.
@@ -29,6 +30,8 @@ The 2017 Above Avalon source treats Spotify as the obvious acquisition if Apple 
 
 The 2018 music-discovery interviews show Spotify from the listener side. Related artists, friends' playlists, Discover, and Release Radar provide accessible entry points, especially for people outside music-industry social circles. The speakers do not agree on depth: [[DelaneyMotter]] says recommendations often remain isolated songs rather than producing attachment to bands, while [[MarcusMoore]] prefers the context and relationships of stores, credits, shows, and word of mouth. The source therefore supports Spotify as one useful discovery layer, not a complete replacement for human or specialist curation.
 
+A 2017 Spotify Labs infrastructure retrospective adds an operational scale transition. Docker moved from a few prototype services in 2014 to thousands of hosts and a reported 80% of production backend services by February 2017. Recurrent runtime regressions, restart concentration, and a harmful configuration change led Spotify to build [[Tsunami]], which allocated desired infrastructure versions gradually while clients enacted them. The account shows Spotify operating [[Docker]] and [[Helios]] at fleet scale, but does not quantify whether Tsunami reduced incidents or recovery time.
+
 ## Key Characteristics
 - Uses shareable widgets, playlists, related artists, Discover, and Release Radar as distribution and discovery surfaces.
 - Routes preview and recommendation attention back to Spotify account creation or app usage while offering a free ad-supported tier.
@@ -36,6 +39,7 @@ The 2018 music-discovery interviews show Spotify from the listener side. Related
 - Hosted a practitioner experiment that used A3 to clarify purpose-guided manager-engineer one-on-ones.
 - Served as the counterfactual scale acquisition that Apple rejected in favor of Beats' team and vision.
 - Developed a layered design-coordination model spanning principles, GLUE, representative governance, and design QA.
+- Operated container infrastructure across thousands of hosts and built a central service for gradual infrastructure change.
 
 ## Evidence
 - Widget loop: [[51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses]] says Spotify widgets let artists and fans promote songs or playlists while bringing listeners back to Spotify.
@@ -50,15 +54,19 @@ The 2018 music-discovery interviews show Spotify from the listener side. Related
 - Design governance: [[design-doesnt-scale-stanley-wood-medium]] describes principles, a weekly cross-mission guild, and global design QA as mechanisms for sustaining alignment.
 - Listener discovery: [[finding-new-music-in-the-algorithm-age-the-outline]] describes related artists, friends' playlists, Discover, and Release Radar as low-friction paths into unfamiliar music.
 - Discovery depth: [[finding-new-music-in-the-algorithm-age-the-outline]] includes both Jen Malone's recommendation of Spotify as a starting point and Delaney Motter's report that its suggestions rarely led her into deeper attachment to a band.
+- Container scale: [[improving-critical-infrastructure-rollouts-labs]] reports that 80% of Spotify's production backend services ran as containers by February 2017 across thousands of hosts.
+- Operational coupling: [[improving-critical-infrastructure-rollouts-labs]] says broad restarts of access and login services degraded user experience and could trigger downstream reconnect storms.
+- Rollout control: [[improving-critical-infrastructure-rollouts-labs]] describes Tsunami's time-based desired-state allocation, audit, role-aware percentage limits, and intended service-level-objective stopping.
 
 ## Qualifications
-The prototype history is a compressed practitioner recollection from someone who reports early involvement, not a complete technical or company history; it does not isolate latency work from licensing, catalog, funding, distribution, timing, or later execution. The growth-hacking source does not analyze licensing, catalog depth, recommendation quality, geography, or later competitive dynamics. The management and design sources are first-person accounts and do not establish company-wide adoption, sustained outcomes, or causal effects. The acquisition source is a 2017 analyst counterfactual, not evidence that Spotify would have accepted an offer or that buying it would have produced worse results. Its subscriber comparison does not harmonize promotions, bundles, reporting definitions, service age, or market conditions. The discovery evidence is six selected 2018 interviews with different roles and access; it neither measures recommendation quality nor establishes that human curation consistently produces deeper or more diverse listening.
+The prototype history is a compressed practitioner recollection from someone who reports early involvement, not a complete technical or company history; it does not isolate latency work from licensing, catalog, funding, distribution, timing, or later execution. The growth-hacking source does not analyze licensing, catalog depth, recommendation quality, geography, or later competitive dynamics. The management, design, and infrastructure sources are first-person accounts and do not establish company-wide adoption, sustained outcomes, or causal effects. The infrastructure article reports scale and incidents but no before-and-after reliability measures, and its rollout chart is no longer retrievable. The acquisition source is a 2017 analyst counterfactual, not evidence that Spotify would have accepted an offer or that buying it would have produced worse results. Its subscriber comparison does not harmonize promotions, bundles, reporting definitions, service age, or market conditions. The discovery evidence is six selected 2018 interviews with different roles and access; it neither measures recommendation quality nor establishes that human curation consistently produces deeper or more diverse listening.
 
 ## What Changed
 - Added the narrow playback prototype as Spotify's earliest evidence-producing product in Kniberg's account.
 - Clarified that the prototype tested technical feasibility and user appeal before licensing, catalog breadth, or business-model completion.
 - Added Spotify's layered design-coordination model while preserving the source's lack of measured outcomes.
 - Added listener-facing discovery paths and the distinction between easy recommendation and deeper artist engagement.
+- Added Spotify's transition to fleet-scale container operations and gradual infrastructure rollout control.
 
 ## Relationships
 - [[ViralLoops]] - Spotify embeds and sharing surfaces route listeners toward accounts.
@@ -77,3 +85,7 @@ The prototype history is a compressed practitioner recollection from someone who
 - [[MusicDiscovery]] - related artists, playlists, Discover, and Release Radar provide accessible but variably deep exploration paths.
 - [[Bandcamp]] - contrasted platform whose tags, collections, and buyer trails support more intentional browsing.
 - [[SoundCloud]] - contrasted platform for emerging rap, hip-hop, and trap in the 2018 interviews.
+- [[Docker]] - runtime Spotify operated across thousands of backend hosts.
+- [[Helios]] - Spotify's Docker orchestration tool in the infrastructure account.
+- [[Tsunami]] - internal service created to allocate infrastructure changes gradually.
+- [[ProgressiveInfrastructureRollout]] - operating practice adopted after broad changes became too risky.

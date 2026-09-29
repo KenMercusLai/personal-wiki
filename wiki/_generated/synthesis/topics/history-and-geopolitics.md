@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-29
-as_of_overview_commit: aaf300a09b15ced38ecd00a537f49861035b38f8
-input_digest: 1a327d237812f694a4fa2e441148b09e2ef505695ec39fc12d99b159fec798af
+last_updated: 2026-09-30
+as_of_overview_commit: 3c6db7a2e89cfb76b924310d8156ca1ddc926279
+input_digest: 76df425041a54abf77b1aba2252a36aeb4fa707bbf2f63bea548e392e1afe613
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-[[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. [[PersonalTelemetryPipeline]] adds a dated hobbyist operations case whose acquisition, normalization, storage, and visualization lessons belong mainly to technology; it also shows that version-bound tools and apparently polished dashboards retain historical and analytical assumptions. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.
+[[ProgressiveInfrastructureRollout]], [[Spotify]], [[Docker]], and [[Tsunami]] add a source-scoped 2017 infrastructure-operations snapshot rather than a substantive geopolitical finding. [[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. [[PersonalTelemetryPipeline]] adds a dated hobbyist operations case whose acquisition, normalization, storage, and visualization lessons belong mainly to technology; it also shows that version-bound tools and apparently polished dashboards retain historical and analytical assumptions. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.
 
 ## Cross-source Findings
 
@@ -243,3 +243,13 @@ The [[LargeScaleWebScraping]] paragraph is a historical web-operations spillover
 
 - The source provides no geopolitical claim and appears in this topic only because its historical technology and organization vocabulary crosses the planner boundary.
 - Its vendor-authored scale, staffing, tool, and threshold claims are time-sensitive and independently unverified.
+
+### Spotify Rollout Is Operations History Spillover
+
+[[ProgressiveInfrastructureRollout]], [[Spotify]], [[Docker]], and [[Tsunami]] add a source-scoped 2017 infrastructure-operations snapshot in which recurrent runtime failures and fleet criticality motivated time-based production cohort allocation; the substantive reliability and governance findings belong outside history and geopolitics.
+
+**Evidence:** [[ProgressiveInfrastructureRollout]], [[Spotify]], [[Docker]], [[Tsunami]]
+
+**Qualifications:**
+
+- The source is a first-party practitioner retrospective without comparative incident, detection, or recovery measures, and its remote rollout chart could not be inspected.

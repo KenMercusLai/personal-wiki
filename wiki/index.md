@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Improving Critical Infrastructure Rollouts](sources/improving-critical-infrastructure-rollouts-labs.md) - Spotify's Docker failures motivated Tsunami, a central desired-state service for gradual, auditable, health-aware infrastructure rollouts across thousands of hosts.
 - [Improve cache performance with optimized API design](sources/improve-cache-performance-with-optimized-api-design.md) - Fastly connects cache-friendly HTTP and REST boundaries with bounded variants, surrogate-key purging, and stale serving for faster, more resilient APIs.
 - [Immutable Infrastructure Using Packer, Ansible, and Terraform](sources/immutable-infrastructure-using-packer-ansible-and-terraform.md) - A 2018 tutorial connects Terraform networking, a Packer/Ansible AMI build, and Terraform EC2 creation while exposing state, security, and image-promotion qualifications.
 - [Imagining your future projects is holding you back.](sources/imagining-your-future-projects-is-holding-you-back.md) - Jessica Abel defines idea debt as fantasized but unmade creative work and argues for either imperfect action or conscious abandonment.
@@ -845,6 +846,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Tsunami](entities/Tsunami.md) - Spotify service that allocates desired infrastructure state gradually while hosts enact changes locally.
+- [Helios](entities/Helios.md) - Spotify Docker orchestration tool affected by orphaned-container port conflicts and later upgraded progressively through Tsunami.
 - [Packer](entities/Packer.md) - Machine-image builder positioned between Terraform-managed networking, Ansible configuration, and AMI-backed EC2 creation.
 - [Terraform](entities/Terraform.md) - Versioned cloud-provisioning tool whose repeatability benefits depend on clear state, ownership, permission, and artifact handoffs.
 - [Jessica Abel](entities/JessicaAbel.md) - Author and comics creator who synthesizes idea debt, prolific practice, perfectionism, and deliberate project abandonment.
@@ -2317,6 +2320,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Progressive Infrastructure Rollout](concepts/ProgressiveInfrastructureRollout.md) - Controlled propagation of infrastructure state through representative production cohorts to bound exposure and create detection and stopping time.
 - [API Response Caching](concepts/APIResponseCaching.md) - Designing reusable API response boundaries, bounded variants, targeted invalidation, and explicit stale-serving policy for intermediary caches.
 - [Idea Debt](concepts/IdeaDebt.md) - Psychological burden created when project fantasy, identity, and expectation accumulate faster than concrete making.
 - [Image Sensor as Input](concepts/ImageSensorAsInput.md) - Camera sensor treated as a general software-interpreted input channel for transformation, recognition, and interaction rather than only photography.
