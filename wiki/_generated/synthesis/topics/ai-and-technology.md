@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-29
-as_of_overview_commit: 1b826be568b62147854deca71166d5e4196733a8
-input_digest: 2a5deed40eb86b768d72245f7a44af337dcbc3bbba9280bb82710388c271758b
+as_of_overview_commit: c74de8dcf33cb7c8e54a5b25bd00ede0032ba5e2
+input_digest: e041008fb95618f4e136cf3ea4b26aa9b98d5c0fa36ee7b5bd9c6637871a0e04
 ---
 
 # AI and Technology
@@ -259,15 +259,16 @@ Effective coding-agent systems depend on simple, debuggable harnesses: inspectab
 
 ### Context And Retrieval Are Design Surfaces
 
-Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall; [[ZettelkastenMethod]] and [[SecondBrain]] add a non-AI counterpart in which stable identity, hypertext, keywords, and relational complexity can produce useful surprise, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
+Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall; [[ZettelkastenMethod]] and [[SecondBrain]] add a non-AI counterpart in which stable identity, hypertext, keywords, and relational complexity can produce useful surprise. [[FileOverApp]] and [[FractalJournaling]] extend that counterpart with user-controlled Markdown, unresolved links, layered review, and random revisits inside [[Obsidian]], while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better custody, retrieval, or organization does not by itself prove better reasoning.
 
-**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]], [[TapeAndAnchors]], [[AgentTopicLifecycle]], [[AgentMemory]], [[PersonalKnowledgeManagement]], [[InformationOverload]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[BashAsMetaTool]], [[ZettelkastenMethod]], [[SecondBrain]]
+**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]], [[TapeAndAnchors]], [[AgentTopicLifecycle]], [[AgentMemory]], [[PersonalKnowledgeManagement]], [[InformationOverload]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[BashAsMetaTool]], [[ZettelkastenMethod]], [[SecondBrain]], [[FileOverApp]], [[FractalJournaling]], [[Obsidian]]
 
 **Qualifications:**
 
 - Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, stale instruction files, or hidden retrieval failure modes.
 - For live codebases and browser pages, current search, semantic retrieval, and structured environment access should be evaluated as complementary signals rather than as an absolute RAG-versus-grep or vision-versus-DOM choice.
-- The note-taking evidence combines a subscription-truncated practitioner column with Tietze's conceptual slip-box essay: together they distinguish storage or retrieval capability from cognitive outcomes, but do not measure whether AI, dense linking, or serendipitous retrieval improves reasoning, memory, creativity, or output.
+- The note-taking evidence combines a subscription-truncated practitioner column with Tietze's conceptual slip-box essay and Ango's personal Obsidian workflow: together they distinguish storage, file custody, retrieval, linking, and manual review capabilities from demonstrated cognitive outcomes.
+- Ango's one-vault, minimal-folder, layered-review, and random-revisit practices are non-comparative personal choices; readable Markdown reduces application dependence but does not guarantee complete metadata, plugin behavior, synchronization, or migration fidelity.
 - The Tape topic lifecycle is a practitioner design proposal rather than a benchmarked implementation; concurrency, topic-boundary detection, correction, privacy, access control, deletion, recall quality, and hook reliability remain unresolved.
 - The context-engineering tagging case is self-reported without a published dataset size, evaluation protocol, uncertainty estimate, or independent replication; its thinking-token and cross-session cache claims also depend on runtime and provider behavior.
 

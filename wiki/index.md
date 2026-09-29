@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How I use Obsidian](sources/how-i-use-obsidian.md) - Steph Ango describes a bottom-up Markdown vault built from few folders, dense links, reusable properties and templates, layered review, random revisits, and a file-based publishing path.
 - [How I turned a cheap weather station into a personal DevOps dashboard](sources/how-i-turned-a-cheap-weather-station-into-a-personal-devops-dashboard.md) - Brian R. Jackson connects a 433 MHz weather sensor to Home Assistant, InfluxDB, and Grafana, then uses Flux, wind roses, heatmaps, and percentile bands to explore noisy history with explicit analytical limits.
 - [How I Made Twitter Back-end](sources/how-i-made-twitter-back-end.md) - Leo Antony sketches a Twitter-like microservice backend with asymmetric JWT verification, queued tweet processing, Redis timelines, and threshold-based push/pull fan-out while leaving production and measurement gaps explicit.
 - [How 20-Year-Old Kylie Jenner Built A $900 Million Fortune In Less Than 3 Years](sources/how-20-year-old-kylie-jenner-built-a-900-million-fortune-in-less-than-3-years.md) - Forbes presents Kylie Cosmetics as a celebrity-led, socially distributed, operationally light beauty business while preserving valuation, inherited-advantage, slowing-growth, and durability limits.
@@ -814,6 +815,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Steph Ango](entities/StephAngo.md) - Author documenting a file-based, link-heavy Obsidian vault and Markdown publishing workflow.
 - [Brian R. Jackson](entities/BrianRJackson.md) - Engineering manager using personal home-automation builds as cross-layer DevOps learning projects.
 - [Home Assistant](entities/HomeAssistant.md) - Home-automation integration layer that discovers, normalizes, displays, and forwards the weather-station entities.
 - [rtl_433](entities/Rtl433.md) - Open-source radio decoder bridging low-cost 433 MHz sensors into structured MQTT messages.
@@ -2249,6 +2251,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Fractal Journaling](concepts/FractalJournaling.md) - Layered review practice that condenses timestamped fragments into progressively broader summaries while preserving traceability.
+- [File Over App](concepts/FileOverApp.md) - Principle that durable digital artifacts should remain user-controlled, retrievable files independent of the current application.
 - [Personal Telemetry Pipeline](concepts/PersonalTelemetryPipeline.md) - User-operated path from sensor acquisition and normalization through durable history, explicit transformations, analysis, and visualization.
 - [Hybrid Timeline Fan-out](concepts/HybridTimelineFanout.md) - Feed-generation strategy that pushes ordinary posts into follower timelines while merging exceptional high-fan-out publishers at read time.
 - [Celebrity-Led Commerce](concepts/CelebrityLedCommerce.md) - Model that converts a public figure's identity and audience into product demand while external partners supply commerce and operations.

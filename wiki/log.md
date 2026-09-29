@@ -6416,3 +6416,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | How I use Obsidian
+
+Added [[StephAngo]]'s bottom-up Obsidian workflow built from ordinary Markdown files, few folders, overlapping category views, reusable properties and templates, dense and sometimes unresolved links, layered periodic review, random revisits, and a Git-to-Jekyll publishing path. Created [[StephAngo]], [[FileOverApp]], and [[FractalJournaling]], and updated [[Obsidian]] and [[PersonalKnowledgeManagement]] from their complete ordered evidence inventories. Preserved the source's explicitly personal and non-dogmatic scope, its separate publishing-vault exception, and the lack of comparative evidence that minimal folders, manual review, plugin choices, or a seven-point scale improve outcomes. The source contains no image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

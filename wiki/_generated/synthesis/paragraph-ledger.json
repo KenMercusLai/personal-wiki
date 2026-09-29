@@ -380,6 +380,7 @@
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
+      "1f519697146b7345ca5dcc1ef93c1d4bb4fb277896758c6b37afd869f692951e",
       "288af91aa9d87fd6887e5e4493aeba87396f77129851fc787d02781e8bfedd3f",
       "511145bebf037d1b273546474fd9253cb3af06d1c68807c51a1eaabf90ff7425",
       "a62d3e81294945663f9368b9098cd242d63a8ed7cfe6da523d9679e4c87d727b",
@@ -603,10 +604,10 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 601
+    "paragraph_count": 602
   },
-  "overview_commit": "aaf300a09b15ced38ecd00a537f49861035b38f8",
-  "overview_digest": "11d92ea091fd59a6873675028e8035e6a0543d11bd8a096f44e6fe632ee465ea",
+  "overview_commit": "c74de8dcf33cb7c8e54a5b25bd00ede0032ba5e2",
+  "overview_digest": "b97fb313443569f86e646f48099522e72898b1003759a3390ddf56b8d71d8ec7",
   "paragraphs": [
     {
       "id": "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
@@ -7845,6 +7846,22 @@
         "Obsidian",
         "OrphanNotes",
         "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "1f519697146b7345ca5dcc1ef93c1d4bb4fb277896758c6b37afd869f692951e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "[[StephAngo]]'s Obsidian workflow adds a bottom-up operating model to the same knowledge-management cluster. [[FileOverApp]] explains the durable substrate: an [[Obsidian]] vault remains a folder of user-controlled Markdown files even while the application supplies links, backlinks, properties, templates, databases, graphs, clipping, synchronization, and publishing conveniences. [[PersonalKnowledgeManagement]] can then minimize up-front filing by keeping most authored notes at the vault root, reserving a few role-specific folders, using categories for overlapping views, and allowing unresolved links to preserve possible future connections. [[FractalJournaling]] adds a review hierarchy in which timestamped fragments are compiled every few days, those reviews are revisited monthly, and monthly material feeds yearly reflection; random-note traversal and shallow local graphs complement the schedule by resurfacing forgotten ideas and maintenance needs. Ango's refusal to automate this review qualifies efficiency-first accounts because the maintenance itself can support self-understanding, but the source remains one personal, non-comparative workflow, its one-vault preference has a separate publishing-vault exception, and readable files do not guarantee complete plugin or metadata portability.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "FileOverApp",
+        "FractalJournaling",
+        "Obsidian",
+        "PersonalKnowledgeManagement",
+        "StephAngo"
       ]
     },
     {
