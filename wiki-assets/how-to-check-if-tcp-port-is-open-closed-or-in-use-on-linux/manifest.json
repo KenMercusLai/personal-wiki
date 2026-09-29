@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "how-to-check-if-tcp-port-is-open-closed-or-in-use-on-linux",
+  "images": [
+    {
+      "file": "runcloud-firewall-rules.png",
+      "alt": "RunCloud firewall page showing undeployed global TCP rules for ports 22, 443, and 80"
+    },
+    {
+      "file": "netstat-port-filter-output.png",
+      "alt": "netstat output filtered for port-number strings beginning with 5"
+    },
+    {
+      "file": "ss-port-filter-output.png",
+      "alt": "ss output filtered for port-number strings beginning with 5"
+    },
+    {
+      "file": "netcat-local-port-results.png",
+      "alt": "netcat localhost checks succeeding on ports 80 and 443 and being refused on port 999"
+    },
+    {
+      "file": "netcat-remote-port-result.png",
+      "alt": "netcat TCP connection to remote address 1.1.1.1 on port 53 succeeding"
+    },
+    {
+      "file": "netstat-listening-processes.png",
+      "alt": "netstat listing TCP listeners with local addresses, states, PIDs, and program names"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to Check if TCP Port is Open, Closed or in Use on Linux?](sources/how-to-check-if-tcp-port-is-open-closed-or-in-use-on-linux.md) - RunCloud demonstrates local socket inventory, process attribution, TCP endpoint probes, and firewall-rule deployment while exposing the distinctions among listening, allowed, reachable, and vulnerable states.
 - [How the data center site selection process works at Dropbox](sources/how-the-data-center-site-selection-process-works-at-dropbox.md) - Dropbox describes a staged facility-selection process combining capacity gates, RFP diligence, site verification, weighted scoring, fiber-path review, PUE, and lease negotiation.
 - [How NAT traversal works](sources/how-nat-traversal-works.md) - Tailscale explains direct UDP traversal through stateful firewalls and NATs, endpoint discovery and mapping limits, encrypted relay fallback, CGNAT/NAT64, and ICE-style candidate racing and recovery.
 - [How I use Obsidian](sources/how-i-use-obsidian.md) - Steph Ango describes a bottom-up Markdown vault built from few folders, dense links, reusable properties and templates, layered review, random revisits, and a file-based publishing path.
@@ -817,6 +818,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [RunCloud](entities/RunCloud.md) - Linux server-management product represented through its educational port-diagnostics guide and firewall configuration interface.
 - [Tailscale](entities/Tailscale.md) - Encrypted mesh-networking product represented through relay-first NAT traversal and a private phone-to-cloud development path.
 - [Steph Ango](entities/StephAngo.md) - Author documenting a file-based, link-heavy Obsidian vault and Markdown publishing workflow.
 - [Brian R. Jackson](entities/BrianRJackson.md) - Engineering manager using personal home-automation builds as cross-layer DevOps learning projects.

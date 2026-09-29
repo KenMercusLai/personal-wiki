@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - how-to-check-if-tcp-port-is-open-closed-or-in-use-on-linux
   - how-the-data-center-site-selection-process-works-at-dropbox
   - how-i-use-obsidian
   - how-i-made-twitter-back-end
@@ -583,6 +584,8 @@ sources:
 last_updated: 2026-09-29
 ---
 # Overview
+
+The newest [[RunCloud]] source adds an observation layer to [[DefensivePortTriage]] before port numbers are interpreted as service risks. `ss` and `netstat` inventory local TCP and UDP sockets, process-aware output links listeners to programs, `nc -zv` tests one TCP endpoint from one observation point, and the retained firewall screenshot shows that configured rules may not yet be deployed. The combined synthesis is deliberately staged: “listening locally,” “allowed by policy,” “reachable from this client,” “the expected service,” and “vulnerable” are separate claims. Bind address, protocol, IPv4 versus IPv6, NAT, filtering, routing, and deployment state can make those observations diverge, while UDP has no TCP-style connection handshake. The source is beginner-oriented vendor content rather than an independent security assessment; it collapses some open/closed/in-use states, omits bind-scope and socket-reuse exceptions when saying only one program can use a port, and recommends a textual `grep :PORT` filter whose own screenshots overmatch multiple port numbers. All six effective images were opened and retained under descriptive canonical names because they provide evidence about firewall state, `netstat` and `ss` output, local and remote `nc` results, and listener-to-process attribution.
 
 The newest [[JordanStaniscia]] source adds [[InputModalityIndependence]] as the modality-specific edge of [[Usability]] and [[CapabilityAccessibility]]. A Surface Pro participant could read and scroll a desktop web article by touch but could never reveal the product's hover-only paragraph-commenting controls, showing that a wide viewport or laptop form does not guarantee pointer hover. The durable rule is asymmetric: hover can still communicate clickability, preview outcomes, and provide efficient pointer shortcuts, but an essential action needs a discoverable touch-operable primary route. The case also sharpens [[UserTesting]] and support practice because a Mac-centered team initially dismissed the failed session as an anomalous device problem; reports that a primary laptop action is impossible may instead reveal a hidden capability assumption. The evidence is one observed participant in a short 2016 practitioner essay, not a prevalence study, and it does not separately test keyboard access, assistive technology, stylus use, or all multimodal combinations. The source's 2-in-1 growth discussion is a historical forecast, its Apple device claim is unsupported, and its capture contains conflicting metadata and byline dates. All six local images were opened; the Surface Pro touch illustration and four-state UI example were retained at their semantic positions, two decorative click-hand illustrations and their thumbnails were omitted, and the UI example's 58-by-60-pixel labels could not be recovered reliably.
 

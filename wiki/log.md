@@ -6440,3 +6440,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | How to Check if TCP Port is Open, Closed or in Use on Linux?
+
+Added RunCloud's practical Linux port-diagnostics guide and created [[RunCloud]] as a narrowly sourced server-management product profile. Updated [[DefensivePortTriage]] from its complete ordered evidence inventory to distinguish local socket state, process ownership, deployed firewall policy, endpoint-specific reachability, service identity, and vulnerability. Preserved qualifications around TCP versus UDP, bind addresses, address families, NAT and filtering, socket reuse, and textual `grep` overmatching. Opened all six effective local images and retained all six evidence-bearing screenshots under descriptive canonical filenames: the RunCloud firewall deployment state, paired `netstat` and `ss` filters, local and remote `nc` results, and process-aware listener inventory.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
