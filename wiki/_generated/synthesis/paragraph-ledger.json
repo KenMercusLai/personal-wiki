@@ -386,6 +386,7 @@
       "288af91aa9d87fd6887e5e4493aeba87396f77129851fc787d02781e8bfedd3f",
       "511145bebf037d1b273546474fd9253cb3af06d1c68807c51a1eaabf90ff7425",
       "a62d3e81294945663f9368b9098cd242d63a8ed7cfe6da523d9679e4c87d727b",
+      "d1b52f15b28c68379ce70a1ac5e0d78ab4388c0d762605646b127bcd1a4bfa01",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
@@ -606,10 +607,10 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 604
+    "paragraph_count": 605
   },
-  "overview_commit": "646f8cc9f0525d8053cc2eaf3b943d2a35f91d49",
-  "overview_digest": "d55d3a78373499771bc6506faedadb53a0dda9f253ce3cb9708e2f193a2603c6",
+  "overview_commit": "4ae8366bffb4a7e1f9135dce3d008a281b3c9c75",
+  "overview_digest": "073fa19c8caae2afd554bf4a607f20d9030859f792bb6b4b1858fec4a72da53b",
   "paragraphs": [
     {
       "id": "18cb5103243d72a2d57f3d7fc909d601ca28b913e08b53a782a66ba73cf06723",
@@ -7947,6 +7948,26 @@
         "LearningByWriting",
         "NiklasLuhmann",
         "SecondBrain",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "d1b52f15b28c68379ce70a1ac5e0d78ab4388c0d762605646b127bcd1a4bfa01",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Sascha Fast source turns the requirement for independently understandable Zettel into a concrete [[DurableNoteWriting]] discipline. [[SaschaFast]] argues that present clarity is an unreliable guide to future comprehension, so notes intended for long retention should be edited before archival, written in short sentences and paragraphs, organized with a form suited to the content, titled with their substantive point, and opened with a miniature abstract. Entity, stock-and-flow, debate, and argument templates illustrate how explicit structure can expose different kinds of important information without imposing one universal note size. [[ChristianTietze]] adds a repair loop for unclear legacy notes: rephrase them, add an introduction, revisit titles and tags, and connect them to newer material when they resurface. This sharpens [[ZettelkastenMethod]], [[LearningByWriting]], and [[PersonalKnowledgeManagement]] by locating future interpretation and retrieval cost inside the individual note, not only in the archive's links and tools. The evidence remains a 2015 practitioner essay and comment; brevity can erase qualifications, templates can distort ill-fitting material, and disposable notes may not justify lifetime-level editing. Both effective images were opened and omitted: a remote 1×1 tracking GIF and an illustrative baby photograph contributed no source evidence.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ChristianTietze",
+        "DurableNoteWriting",
+        "LearningByWriting",
+        "PersonalKnowledgeManagement",
+        "SaschaFast",
         "ZettelkastenMethod"
       ]
     },

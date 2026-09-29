@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to Write a Note That You Will Actually Understand](sources/how-to-write-a-note-that-you-will-actually-understand.md) - Sascha Fast argues that long-lived notes need simple prose, content-specific templates, descriptive titles, and opening summaries for future comprehension.
 - [How to Check if TCP Port is Open, Closed or in Use on Linux?](sources/how-to-check-if-tcp-port-is-open-closed-or-in-use-on-linux.md) - RunCloud demonstrates local socket inventory, process attribution, TCP endpoint probes, and firewall-rule deployment while exposing the distinctions among listening, allowed, reachable, and vulnerable states.
 - [How the data center site selection process works at Dropbox](sources/how-the-data-center-site-selection-process-works-at-dropbox.md) - Dropbox describes a staged facility-selection process combining capacity gates, RFP diligence, site verification, weighted scoring, fiber-path review, PUE, and lease negotiation.
 - [How NAT traversal works](sources/how-nat-traversal-works.md) - Tailscale explains direct UDP traversal through stateful firewalls and NATs, endpoint discovery and mapping limits, encrypted relay fallback, CGNAT/NAT64, and ICE-style candidate racing and recovery.
@@ -818,6 +819,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Sascha Fast](entities/SaschaFast.md) - Zettelkasten.de writer advocating durable, explicitly structured notes for one's future self.
 - [RunCloud](entities/RunCloud.md) - Linux server-management product represented through its educational port-diagnostics guide and firewall configuration interface.
 - [Tailscale](entities/Tailscale.md) - Encrypted mesh-networking product represented through relay-first NAT traversal and a private phone-to-cloud development path.
 - [Steph Ango](entities/StephAngo.md) - Author documenting a file-based, link-heavy Obsidian vault and Markdown publishing workflow.
@@ -1137,7 +1139,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Yuan Chaofa](entities/YuanChaofa.md) - Technical author explaining RAG, agent tools, and reinforcement-learned search.
 - [Chatbox](entities/Chatbox.md) - Open-source LLM chat project with file-aware agentic and prompted retrieval paths.
 - [Search-R1](entities/SearchR1.md) - Reinforcement-learning framework for interleaved reasoning and multi-turn search.
-- [Christian Tietze](entities/ChristianTietze.md) - Zettelkasten practitioner presenting a communication-partner model, paper-to-digital reading workflow, and concern-separation account of atomicity.
+- [Christian Tietze](entities/ChristianTietze.md) - Zettelkasten practitioner presenting a communication-partner model, paper-to-digital reading workflow, concern-separation account of atomicity, and legacy-note repair loop.
 - [Albert Wenger](entities/AlbertWenger.md) - Del.icio.us operating executive and investor-author connecting acquisition history, business-model incentives, purpose, and resilient bubble participation.
 - [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
 - [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.
@@ -2256,6 +2258,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Durable Note Writing](concepts/DurableNoteWriting.md) - Writing and editing notes so their meaning, relevance, and retrieval cues survive the loss of immediate context.
 - [Data Center Site Selection](concepts/DataCenterSiteSelection.md) - Staged conversion of capacity needs into a physically verified, risk-weighted, efficient, and commercially viable facility choice.
 - [Fractal Journaling](concepts/FractalJournaling.md) - Layered review practice that condenses timestamped fragments into progressively broader summaries while preserving traceability.
 - [File Over App](concepts/FileOverApp.md) - Principle that durable digital artifacts should remain user-controlled, retrievable files independent of the current application.
@@ -3299,7 +3302,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
 - [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems, teammate reasoning, protected team rituals, and hands-on verification.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
-- [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice using compact thought units, stable identity, semantic links, emergent structure, and serendipitous retrieval.
+- [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice combining independently intelligible permanent notes, stable identity, semantic links, emergent structure, and serendipitous retrieval.
 - [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
 - [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
 - [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.

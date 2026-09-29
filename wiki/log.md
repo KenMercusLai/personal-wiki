@@ -6125,6 +6125,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | How to Write a Note That You Will Actually Understand
+
+Added [[SaschaFast]]'s 2015 durable-note writing guidance and created [[DurableNoteWriting]] around simple chunked prose, content-specific templates, descriptive titles, and opening summaries for future comprehension. Updated [[ZettelkastenMethod]] from its complete ordered evidence inventory and extended [[ChristianTietze]] with his legacy-note repair loop. Preserved the practitioner-only evidence boundary and the limits of brevity, templates, and lifetime-level editing. Opened both effective images: omitted the remote 1×1 tracking GIF and the illustrative "Clueless" photograph, so no visual assets or manifest were required.
+
 ## [2026-09-29] ingest | How I turned a cheap weather station into a personal DevOps dashboard
 
 Added [[BrianRJackson]]'s personal weather telemetry stack from a WS2032 and [[Rtl433]] through MQTT, [[HomeAssistant]], [[InfluxDB]], and [[Grafana]]. Created [[PersonalTelemetryPipeline]] and updated Grafana, InfluxDB, and [[TimeSeriesDatabase]] from their complete ordered evidence inventories to cover durable sensor history, Flux transformations, windowing, timestamp alignment, plugins, heatmaps, wind roses, and percentile views. Preserved the one-project, historical-version, reliability, security, exact-alignment, unit-comment, and circular-statistics limits. Opened all 21 local images; retained the architecture diagram and four representative analytical dashboard views under descriptive canonical filenames, while omitting the installation photograph, repeated dashboard crops, setup screens, and redundant Home Assistant cards.
@@ -6444,6 +6448,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | How to Check if TCP Port is Open, Closed or in Use on Linux?
 
 Added RunCloud's practical Linux port-diagnostics guide and created [[RunCloud]] as a narrowly sourced server-management product profile. Updated [[DefensivePortTriage]] from its complete ordered evidence inventory to distinguish local socket state, process ownership, deployed firewall policy, endpoint-specific reachability, service identity, and vulnerability. Preserved qualifications around TCP versus UDP, bind addresses, address families, NAT and filtering, socket reuse, and textual `grep` overmatching. Opened all six effective local images and retained all six evidence-bearing screenshots under descriptive canonical filenames: the RunCloud firewall deployment state, paired `netstat` and `ss` filters, local and remote `nc` results, and process-aware listener inventory.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 
