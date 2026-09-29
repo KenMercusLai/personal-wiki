@@ -6125,6 +6125,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | I Am a 9 to 5 Developer (And So Can You!)
+
+Added a first-person defense of bounded software work that separates engineering competence from routine overtime, marathon coding, blogging, open-source contribution, and technical talks. Updated [[WorkLifeBalance]], [[BurnoutPrevention]], and [[ImposterSyndrome]] from their complete ordered evidence inventories to connect daily stopping rules with family attention, recovery, endless technical problem queues, impossible knowledge standards, and social-media comparison. Preserved the source's allowance for rare critical overtime, its personal rather than comparative evidence, and the distinction between a useful boundary and a universally enforceable schedule. Opened both unique local images, omitted the clock and stop-sign illustrations as decorative, and omitted the clock's repeated embed as a duplicate.
+
 ## [2026-09-29] ingest | How to Write a Note That You Will Actually Understand
 
 Added [[SaschaFast]]'s 2015 durable-note writing guidance and created [[DurableNoteWriting]] around simple chunked prose, content-specific templates, descriptive titles, and opening summaries for future comprehension. Updated [[ZettelkastenMethod]] from its complete ordered evidence inventory and extended [[ChristianTietze]] with his legacy-note repair loop. Preserved the practitioner-only evidence boundary and the limits of brevity, templates, and lifetime-level editing. Opened both effective images: omitted the remote 1×1 tracking GIF and the illustrative "Clueless" photograph, so no visual assets or manifest were required.
@@ -6456,6 +6460,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Productivity Hack: Read One Chapter of a Book to Get 90% of the Value
 
 Added [[HunterWalk]]'s thesis-chapter-first heuristic for formulaic self-help, management, and broad social-analysis books. Updated [[FocusedReading]] and [[SpeedReadingMethod]] from their complete ordered evidence inventories, treating the table of contents as a chapter-selection tool while preserving the limits of the essay's rhetorical, unmeasured “90%” claim and its narrow book-structure assumption. Updated [[HunterWalk]] from all six of his source notes. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

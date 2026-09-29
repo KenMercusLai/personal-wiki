@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Am a 9 to 5 Developer (And So Can You!)](sources/i-am-a-9-to-5-developer-and-so-can-you-exception-not-found.md) - A developer argues that bounded work hours, breaks, and freedom from extracurricular coding expectations can support competence, family life, and protection from burnout and impostor feelings.
 - [How to Write a Note That You Will Actually Understand](sources/how-to-write-a-note-that-you-will-actually-understand.md) - Sascha Fast argues that long-lived notes need simple prose, content-specific templates, descriptive titles, and opening summaries for future comprehension.
 - [How to Check if TCP Port is Open, Closed or in Use on Linux?](sources/how-to-check-if-tcp-port-is-open-closed-or-in-use-on-linux.md) - RunCloud demonstrates local socket inventory, process attribution, TCP endpoint probes, and firewall-rule deployment while exposing the distinctions among listening, allowed, reachable, and vulnerable states.
 - [How the data center site selection process works at Dropbox](sources/how-the-data-center-site-selection-process-works-at-dropbox.md) - Dropbox describes a staged facility-selection process combining capacity gates, RFP diligence, site verification, weighted scoring, fiber-path review, PUE, and lease negotiation.
