@@ -631,12 +631,13 @@
       "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814",
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b",
-      "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c"
+      "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c",
+      "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af"
     ],
-    "paragraph_count": 631
+    "paragraph_count": 632
   },
-  "overview_commit": "690d7e2fc3e9e26fcd70c19d38e4b71dbd239675",
-  "overview_digest": "9f0bf110dd790cc668dc8da637e6caf0316dca854b781226bb454e0f0d95f56f",
+  "overview_commit": "aa5a8b2a4205086bf2eff9726ab2e1a4189602e2",
+  "overview_digest": "9f16a22409ea586c2f5a5d6de24d77812b52598f07a26d3513490a42ca20e0de",
   "paragraphs": [
     {
       "id": "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
@@ -12788,6 +12789,27 @@
         "DataAnnotationLabor",
         "ImageNet",
         "PlatformMicrowork"
+      ]
+    },
+    {
+      "id": "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[NicoleNguyen]] source adds [[MarketplaceReviewFraud]] as a coordinated market rather than a collection of isolated dishonest posts. Sellers, recruiters, moderators, reviewers, private social groups, ordinary Amazon accounts, PayPal refunds, commissions, free products, and resale channels combine to manufacture positive reviews or attack competitors. This deepens [[MarketplaceTrust]] by making its adversarial boundary explicit: stars, prose, photos, reviewer histories, and verified-purchase badges create confidence only while attackers cannot cheaply imitate them. It also expands [[Amazon]] from retailer and infrastructure provider into marketplace governor, using policy, purchase thresholds, review weighting, machine learning, investigations, sanctions, and lawsuits while abuse shifts off-platform and sellers remain economically dependent on ranking visibility. The harm reaches buyers, honest sellers, and the platform's own trust layer, with higher stakes around health-related products. The evidence remains a May 2018 investigation based on five anonymous reviewers, selected customer and seller cases, observed groups, company statements, and non-comparable fraud measures: ReviewMeta's algorithmic “unnatural” label is not proof of payment, Amazon's below-1% figure covers fraud it detected, and neither establishes a current or representative rate. Six screenshots were retained as evidence of payment confirmation, negative-review recruitment, verified-purchase recruitment, platform policy, gift-card inducement, and refund-linked pressure to revise a review; five decorative or redundant images were omitted.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "Amazon",
+        "MarketplaceReviewFraud",
+        "MarketplaceTrust",
+        "NicoleNguyen"
       ]
     }
   ],

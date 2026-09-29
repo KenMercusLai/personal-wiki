@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "marketplace-ranking-dependence-can-coerce-review-manipulation",
+      "qualifications": [
+        "The supporting evidence is a May 2018 investigation based on five anonymous reviewers and selected seller and customer cases, not a representative labor or marketplace study.",
+        "The reporting demonstrates pressure and mechanisms but does not establish that every struggling seller cheats, that manipulation alone caused the reported sales losses, or that the named reviewer demographics generalize."
+      ],
+      "statement": "[[MarketplaceReviewFraud]] adds a livelihood boundary to platform work: when [[Amazon]] ranking and review signals govern seller visibility, honest merchants can face coercive pressure from purchased praise and competitor attacks, while low-paid reviewers, recruiters, and moderators turn private coordination, reimbursements, free goods, and resale into a distributed manipulation workforce.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "MarketplaceReviewFraud",
+        "Amazon",
+        "MarketplaceTrust",
+        "NicoleNguyen"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "public-development-needs-rights-and-stewardship",
       "qualifications": [
         "The evidence is one 2016 essay and follow-up plus a cited 2015 GitHub statistic, not a study showing that the proposed terminology improves comprehension or has been adopted.",

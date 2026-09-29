@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 690d7e2fc3e9e26fcd70c19d38e4b71dbd239675
-summary: "A qualified map of how technology, labor, markets, institutions, culture, work, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 836
-source_count: 836
-paragraph_count: 631
+as_of_overview_commit: aa5a8b2a4205086bf2eff9726ab2e1a4189602e2
+summary: "A qualified map of how technology, labor, markets, institutions, culture, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
+episode_count: 837
+source_count: 837
+paragraph_count: 632
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[DataAnnotationLabor]] makes supervised AI a socio-technical production system: [[AmazonMechanicalTurk]] can distribute screening, cleaning, moderation, and labeling at scale, while [[ImageNet]] shows that benchmark data depends on human judgment and a much larger candidate pool as well as models and compute; [[PlatformMicrowork]] therefore makes pay, qualification, requester transparency, rejection, and worker protection part of AI infrastructure governance.
-- [[TechnologyNormalization]] can turn a real enabling capability into a weak startup differentiator as adoption makes it expected, but continued [[AIMarketingHype]] and [[AIInvestmentTheme]] evidence shows that operational ubiquity, promotional labeling, and investor-category salience need not disappear together.
+- [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - Automation becomes governable when systems expose intended state, observed state, logs, metrics, replayable evidence, validation checks, staged activation, and explicit recovery boundaries. [[ProgressiveInfrastructureRollout]] adds representative production cohorts and [[Tsunami]]'s time-based desired-state allocation, audit, role-aware percentage bounds, and service-level-objective stopping after [[Docker]] became critical at [[Spotify]]. [[GitOps]] adds pull-request governance plus repository-to-runtime drift detection and [[WeaveFlux]] convergence around [[Kubernetes]]; [[Cloudflare]] separately shows why stopping or reverting automation does not reconstruct deleted bindings or restore actual operational state.
@@ -36,10 +36,10 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, and capital or reader-revenue terms that fit the organization's intended trajectory without hiding new incentive conflicts.
+Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, and resistance to adversarial manipulation without hiding incentive conflicts.
 
+- [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 - [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].
-- [[TechnologyNormalization]] can turn a real enabling capability into a weak startup differentiator as adoption makes it expected, but continued [[AIMarketingHype]] and [[AIInvestmentTheme]] evidence shows that operational ubiquity, promotional labeling, and investor-category salience need not disappear together. Evidence: [[TechnologyNormalization]], [[DifferentiationStrategy]], [[AIMarketingHype]], [[AIInvestmentTheme]].
 
 ### Cross-domain
 
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating health and infras
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, evidence-quality feedback, fair incentives, consent, opportunity, enforceable boundaries, and visibility into how platforms allocate risk and control.
+Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, and visibility into how platforms allocate ranking, risk, and control.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

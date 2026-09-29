@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside Amazon's Fake Review Economy](sources/inside-amazons-fake-review-economy.md) - Nicole Nguyen maps paid-review recruitment, verified-purchase evasion, consumer and seller harm, and Amazon's incomplete enforcement response.
 - [Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI](sources/inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic.md) - TechRepublic connects AMT's low-paid, opaque platform labor with the human labeling, cleaning, moderation, and exception work behind AI systems.
 - [Inside (The) Information](sources/inside-the-information-columbia-journalism-review.md) - Merissa Marr profiles The Information's premium reporting, tiered subscriptions, community-led growth, founder funding, and access-versus-independence tension.
 - [Innovative Ways to Increase Newsletter Subscriptions (with examples)](sources/innovative-ways-to-increase-newsletter-subscriptions-with-examples-optimizely-blog.md) - Optimizely's 2016 example catalogue treats newsletter acquisition as one path from value and context through form interaction and confirmation, without reporting measured outcomes.
@@ -924,7 +925,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Internal Revenue Service](entities/InternalRevenueService.md) - United States tax agency represented through Free File administration, provider discovery, and oversight obligations.
 - [Meenal Balar](entities/MeenalBalar.md) - Former Facebook international-growth leader and Remind marketing executive represented through a retention-gated, locally informed growth framework.
 - [Remind](entities/Remind.md) - Education messaging startup used as a case of measurement-led activation, school-network growth, and cross-functional execution.
-- [Nicole Nguyen](entities/NicoleNguyen.md) - Technology reporter translating free-service privacy risks into consumer checks around permissions, policies, and revenue models.
+- [Nicole Nguyen](entities/NicoleNguyen.md) - Technology reporter examining consumer privacy, data-funded services, and organized manipulation of marketplace trust signals.
 - [Unroll.me](entities/UnrollMe.md) - Email-management service represented through a 2017 controversy over broad inbox access and secondary receipt-data monetization.
 - [Trello](entities/Trello.md) - Visual collaboration product represented through its experiment-led, community-assisted 2016 localization program.
 - [Alexia Ohannessian](entities/AlexiaOhannessian.md) - Trello international marketing lead who coordinated its country experiments, volunteer translation system, engineering work, and launch marketing.
@@ -1677,7 +1678,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Eastgate Centre](entities/EastgateCentre.md) - Harare building used as a biomimetic architecture example for innovation at intersections.
 - [Benjamin Jones](entities/BenjaminJones.md) - Economist cited for the burden-of-knowledge argument behind complementary-team innovation.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
-- [Amazon](entities/Amazon.md) - Retail, infrastructure, and ecosystem company using internal capabilities and partners across commerce, cloud, logistics, and financial services.
+- [Amazon](entities/Amazon.md) - Retail, infrastructure, and ecosystem company using internal capabilities and partners while governing marketplace trust, sellers, rankings, and reviews.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
 - [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, strategy, behavioral judgment, repeatability, and durable knowledge.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and investing-firm context for essays on durable strategy, behavioral judgment, repeatable learning, and person-strategy fit.
@@ -2348,6 +2349,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Marketplace Review Fraud](concepts/MarketplaceReviewFraud.md) - Coordinated manipulation of ratings and reviews through payments, reimbursement, fabricated experience, competitor attacks, or pressure to revise criticism.
 - [Data Annotation Labor](concepts/DataAnnotationLabor.md) - Human labeling, checking, cleaning, moderation, and judgment that makes machine-learning data and outputs usable.
 - [Platform Microwork](concepts/PlatformMicrowork.md) - Software-mediated decomposition, allocation, evaluation, and payment of small tasks across a distributed workforce.
 - [Technological Inevitability](concepts/TechnologicalInevitability.md) - Distinguishing structurally likely directions from contingent winners, timing, decisions, execution, and institutional forms.
@@ -3060,7 +3062,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for continuously maintained software, qualified by Halide's deliberate one-time-purchase countercase.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
-- [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, support, and protection mechanisms that reduce transaction risk enough for marketplace participation.
+- [Marketplace Trust](concepts/MarketplaceTrust.md) - Confidence infrastructure for marketplace participation whose value depends on resistance to coordinated imitation and manipulation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
 - [Wearable Computing](concepts/WearableComputing.md) - Wrist-, ear-, or eye-worn computing shaped by body proximity, mobile dependence, new scenarios, extensibility, health, assistants, and AR.
 - [Smart Glasses](concepts/SmartGlasses.md) - Eye-worn computing category framed as Apple's likely next personal-computing frontier after wrists and ears.

@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "marketplace-trust-signals-are-adversarial-economic-infrastructure",
+      "qualifications": [
+        "The supporting evidence is a May 2018 investigation based on five anonymous reviewers, selected seller and customer cases, observed groups, and company statements rather than a representative audit or current platform assessment.",
+        "ReviewMeta's algorithmic 'unnatural' classification is not proof that every flagged review was paid, while Amazon's below-1% figure covers fraud the company identified and therefore excludes undetected cases."
+      ],
+      "statement": "[[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "MarketplaceReviewFraud",
+        "MarketplaceTrust",
+        "Amazon",
+        "NicoleNguyen"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "alternative-capital-terms-can-widen-company-outcomes",
       "qualifications": [
         "The evidence is a 2016 investor-authored release covering eight selected companies after roughly one year, without a comparison group, audited company data, complete legal terms, or realized fund returns.",

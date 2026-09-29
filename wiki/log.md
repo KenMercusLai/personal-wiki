@@ -6744,3 +6744,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inside Amazon's Fake Review Economy
+
+Added [[MarketplaceReviewFraud]] as a coordinated market linking sellers, recruiters, moderators, reviewers, private groups, off-platform reimbursements, commissions, and resale. Updated [[MarketplaceTrust]], [[Amazon]], and [[NicoleNguyen]] from their complete ordered evidence inventories, preserving uncertainty between ReviewMeta's algorithmic “unnatural” classification and Amazon's narrower detected-fraud figure. Opened all 11 local images, retained six evidence-bearing screenshots under descriptive canonical filenames, and omitted the decorative lead illustration, three decorative star dividers, and the inventor portrait.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

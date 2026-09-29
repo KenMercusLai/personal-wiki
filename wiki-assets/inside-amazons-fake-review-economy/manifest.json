@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "inside-amazons-fake-review-economy",
+  "images": [
+    {
+      "file": "reddit-review-payment-confirmation.png",
+      "alt": "Reddit task thread showing a three-dollar payment confirmation for completed review work"
+    },
+    {
+      "file": "reddit-negative-review-task.png",
+      "alt": "Reddit task offering five dollars for one-star reviews of competing Amazon products"
+    },
+    {
+      "file": "discord-verified-purchase-recruitment.png",
+      "alt": "Discord message recruiting verified-purchase reviewers for an air freshener spray"
+    },
+    {
+      "file": "amazon-review-misuse-policy.jpg",
+      "alt": "Amazon marketplace policy prohibiting compensated reviews and reviews of a seller's own or competing products"
+    },
+    {
+      "file": "five-star-review-gift-card-insert.png",
+      "alt": "Package insert offering a ten-dollar Amazon gift card for a five-star review and emailed order confirmation"
+    },
+    {
+      "file": "refund-review-change-email.jpg",
+      "alt": "Amazon seller email linking a refund to a request that the customer update or remove a negative review"
+    }
+  ]
+}
