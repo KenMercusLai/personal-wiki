@@ -6576,3 +6576,11 @@ Added [[BenThompson]]'s 2018 interpretation of IBM's announced Red Hat acquisiti
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Identify users with the most valuable feedback
+
+Added [[DanWolch]]'s question-led workflow for locating activation, heavy-use, drive-by, and lapsed cohorts in product event histories, soliciting direct email replies, following up on explanations, and coding recurring themes. Created [[BehavioralFeedbackSampling]], updated [[CustomerLedProductDevelopment]] from its complete ordered evidence inventory, and expanded [[BrianBalfour]] and [[StartupGrind]] from their complete source sets. Preserved the distinction between cohort relevance and representativeness, plus instrumentation, identity, usage-cadence, nonresponse, recall, manual-coding, privacy, and unsupported response-rate limits. Opened both effective local images, retained the aggregate daily-event chart at its semantic position, and omitted the Medium reaction/share strip as decorative; six additional visual examples referenced by the prose are absent from the export and could not be inspected.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

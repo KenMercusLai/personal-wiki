@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Identify users with the most valuable feedback](sources/identify-users-with-the-most-valuable-feedback-startup-grind-medium.md) - Dan Wolch combines behavior-defined user cohorts, direct email replies, follow-up questions, and manual thematic coding into a lightweight feedback workflow.
 - [IBM's Old Playbook](sources/ibms-old-playbook-stratechery-by-ben-thompson.md) - Ben Thompson interprets IBM's Red Hat acquisition as a hybrid-cloud attempt to reuse its enterprise-integration playbook after missing hyperscale public cloud.
 - [I told a senior developer at Microsoft he was wrong.](sources/i-told-a-senior-developer-at-microsoft-he-was-wrong.md) - A Microsoft intern describes how repeated review, persistent questions, and diagnosing a senior engineer's memory-management defect turned deference into independent engineering judgment.
 - [I studied the Zappos CEO’s schedule for a year. Here’s what I learned.](sources/i-studied-the-zappos-ceos-schedule-for-a-year-heres-what-i-learned.md) - Daniel Rodic uses Tony Hsieh's public 2015 schedule to examine bounded email triage, calendar capacity, delegation, and transparency while preserving causal limits around Holacracy.
@@ -836,6 +837,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Dan Wolch](entities/DanWolch.md) - Product manager represented through a behavior-segmented customer-feedback workflow developed in the context of HubSpot sales products.
 - [Bob Young](entities/BobYoung.md) - Red Hat cofounder who credits Gerstner-era IBM with influencing its service-led open-source business model.
 - [IBM](entities/IBM.md) - Enterprise technology company framed through its services turnaround, public-cloud miss, and 2018 Red Hat hybrid-cloud bet.
 - [Lou Gerstner](entities/LouGerstner.md) - Former IBM leader associated with customer-led enterprise integration, cultural change, and strategic preparedness.
@@ -1411,7 +1413,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Homepage](entities/GoogleHomepage.md) - Search-first Google interface used as the source's digital example of a recognizable product core surviving long-term iteration.
 - [HODINKEE](entities/HODINKEE.md) - Watch and design media/company context that prompted the source's comparison between physical and digital timelessness.
 - [Porsche 911](entities/Porsche911.md) - Physical product comparator used to show recognizable design continuity through decades of iteration.
-- [Startup Grind](entities/StartupGrind.md) - Publication venue represented through product-design commentary and a first-person startup employment cautionary account.
+- [Startup Grind](entities/StartupGrind.md) - Publication venue represented through product-design commentary, product-research guidance, and a first-person startup employment cautionary account.
 - [Andy Jassy](entities/AndyJassy.md) - AWS CEO quoted criticizing Oracle's cloud position and citing AWS Database Migration Service adoption.
 - [CNBC](entities/CNBC.md) - Business-news publisher of the 2018 Amazon-Oracle database migration report.
 - [Jordan Novet](entities/JordanNovet.md) - CNBC technology reporter credited on the Amazon-Oracle database migration article.
@@ -1699,7 +1701,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [PostHog](entities/PostHog.md) - Developer-tool company used as a practitioner case for paid ads, attribution, channel fit, and writing-led marketing.
 - [Product Habits](entities/ProductHabits.md) - Product and SaaS publication context for the retention-first growth article.
 - [Hiten Shah](entities/HitenShah.md) - Product Habits author and SaaS commentator arguing that modern SaaS growth must center retention.
-- [Brian Balfour](entities/BrianBalfour.md) - Growth-strategy voice cited for treating retention as the foundation of growth.
+- [Brian Balfour](entities/BrianBalfour.md) - Growth-strategy voice associated with retention-first thinking and an attributed behavior-segmented feedback workflow.
 - [Reforge](entities/Reforge.md) - Company context attached to Brian Balfour in the retention article.
 - [Intercom](entities/Intercom.md) - Customer-communication SaaS used as a suite-expansion retention case.
 - [Front](entities/Front.md) - Collaborative email SaaS represented through retention-led expansion, a concentrated 2016 Series A process, and founder-operating lessons.
@@ -2295,6 +2297,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Behavioral Feedback Sampling](concepts/BehavioralFeedbackSampling.md) - Question-led recruitment of research participants from individual product-usage histories.
 - [Enterprise Integration Business Model](concepts/EnterpriseIntegrationBusinessModel.md) - Value capture through accountable integration of fragmented technologies into enterprise outcomes.
 - [Hybrid Cloud Strategy](concepts/HybridCloudStrategy.md) - Consistent application deployment and management across private infrastructure and multiple public clouds.
 - [Yesterbox](concepts/Yesterbox.md) - Email workflow that makes yesterday's inbox a bounded daily queue and pairs it with quick handling, delegation, team triage, and calendar capacity.

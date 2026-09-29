@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: c7ad6fd43af9ebd53a667a1554839beffcff218e
+as_of_overview_commit: 1aec48f4502f2f16034d5e260c4e40f6aeb4331c
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 815
-source_count: 815
-paragraph_count: 616
+episode_count: 816
+source_count: 816
+paragraph_count: 617
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and durable technical depth; shared orchestration improves some portability without removing provider-specific dependencies.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and durable depth; behavior-led feedback improves question fit without proving causality.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, and evidence quality; integration earns a premium only while it removes coordination costs customers cannot solve more cheaply elsewhere.
+Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, and evidence quality; behavior-defined cohorts improve feedback relevance without ensuring representativeness.
 
 - [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
@@ -68,7 +68,7 @@ Historical technology, organizational, interface, media, market, and operations 
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, explicit ownership, shared context, trust, incentives, evidence calibration, privacy-aware control, durable learning, and organizational readiness.
+Human outcomes depend on bounded attention, explicit ownership, shared context, trust, incentives, evidence calibration, privacy-aware control, durable learning, and careful interpretation of behavior.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].
