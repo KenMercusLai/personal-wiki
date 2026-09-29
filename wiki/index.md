@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I hate the term ‘open source’](sources/i-hate-the-term-open-source-nadia-eghbal-medium.md) - Nadia Eghbal separates license-backed open-source rights from public-development culture and proposes “public software” for broader discussion of participation, stewardship, and paid labor.
 - [I couldn’t find a good Personal CRM — So I created my own and want to share it with you](sources/i-couldnt-find-a-good-personal-crm-so-i-created-my-own-and-want-to-share-it-with-you-radreads.md) - Khe Hy turns Google Sheets validation, controlled tags, notes, and filters into a personal relationship-retrieval system while leaving outcomes, maintenance, privacy, and scale unmeasured.
 - [I am an investor in 9 companies: How and why I started angel investing](sources/i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing.md) - Joel Gascoigne explains a relationship-led, fixed-check angel practice designed around loss tolerance, founder support, follow-on investment, impact, and learning.
 - [I Understand Google Better than Google](sources/i-understand-google-better-than-google-elephate-medium.md) - Bartosz Goralewicz diagnoses Google Flights' 2018 visibility collapse through interacting JavaScript rendering, URL, redirect, linking, and indexing failures while preserving the limits of third-party SEO data.
@@ -829,6 +830,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Nadia Eghbal](entities/NadiaEghbal.md) - Open-source writer and Feast cofounder distinguishing legal user rights from the culture, labor, and stewardship of public development.
 - [Khe Hy](entities/KheHy.md) - RadReads author represented through his controlled-tag Google Sheets personal CRM and relationship-maintenance rationale.
 - [Bartosz Goralewicz](entities/BartoszGoralewicz.md) - Elephate cofounder and technical SEO practitioner represented through his 2018 Google Flights analysis.
 - [Google Flights](entities/GoogleFlights.md) - Google's flight-search product represented through a historical JavaScript, URL consolidation, and indexing failure case.
@@ -2277,6 +2279,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Arnold Schwarzenegger](entities/ArnoldSchwarzenegger.md) - Bodybuilder, actor, businessman, and former governor who rejects solitary-success attribution and treats continued learning as essential.
 
 ## Concepts
+- [Public Software](concepts/PublicSoftware.md) - Umbrella for publicly accessible software and collaboration that preserves open source as a narrower license-backed rights category.
 - [Personal CRM](concepts/PersonalCRM.md) - Personally maintained relationship system using structured context and retrieval to support introductions, targeted sharing, and follow-up.
 - [Technical SEO](concepts/TechnicalSEO.md) - Site-level discipline joining rendering, crawling, URL identity, redirects, internal links, and indexing with evidence-based change governance.
 - [Durable Note Writing](concepts/DurableNoteWriting.md) - Writing and editing notes so their meaning, relevance, and retrieval cues survive the loss of immediate context.

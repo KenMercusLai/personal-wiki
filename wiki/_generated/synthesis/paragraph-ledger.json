@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ce3a806fb8a25d919a1a21409dc264ee97804dc00ac196c839c36fcc562b0cd3",
       "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
       "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
       "aa6a9d7188571028567726a0d1c2373f0cdda18bbf4817dcc0b3ba06dc258abc",
@@ -613,11 +614,29 @@
       "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
       "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814"
     ],
-    "paragraph_count": 611
+    "paragraph_count": 612
   },
-  "overview_commit": "e056b743efcb1be5b583eb951c341e57dd9d5210",
-  "overview_digest": "af8355c74b9de218367970fbc17f1a15ee9a3891704a8aeb15f47c1f9b6f52ad",
+  "overview_commit": "731c230b74017227ec397fbb70430d7a606c630f",
+  "overview_digest": "61c579ce09361f2ac1baedad5bca93d321347d7d2b3ddb5b1134f32be6af4541",
   "paragraphs": [
+    {
+      "id": "ce3a806fb8a25d919a1a21409dc264ee97804dc00ac196c839c36fcc562b0cd3",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[NadiaEghbal]] source separates open source's legal core from its broader GitHub-era culture. [[PublicSoftware]] names the proposed umbrella: public visibility, reuse, and collaboration can extend beyond software and beyond repositories carrying an OSI-compliant license, but they must not be mistaken for enforceable permission. The article's follow-up is the controlling qualification—it calls licensing essential, rejects restricting access or use, and reframes the unmet need as a language and support problem around authors, communities, roles, time, compensation, and stewardship. [[OpenSourceProjectMaintenance]] therefore expands from docs, tests, releases, delegation, and maintainer boundaries into a combined legal and labor system, while [[OpenSourceCommercialization]] supplies one possible route for funding that work. The claim remains conceptual and historical: one 2016 essay and a cited 2015 GitHub statistic do not show that “public software” improved comprehension, gained adoption, or resolves ambiguous source-available and unlicensed cases. The retained Open Source Initiative screenshot visibly shows the definition page and its free-redistribution and source-code criteria; its tiny repeated copy was omitted as a duplicate.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "NadiaEghbal",
+        "OpenSourceCommercialization",
+        "OpenSourceProjectMaintenance",
+        "PublicSoftware"
+      ]
+    },
     {
       "id": "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
       "primary_topic": "business-and-markets",

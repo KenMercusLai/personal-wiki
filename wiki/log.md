@@ -6520,3 +6520,11 @@ Added [[KheHy]]'s 2014 Google Sheets relationship-retrieval system and created [
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I hate the term ‘open source’
+
+Added [[NadiaEghbal]]'s distinction between license-backed open-source rights and the broader culture of public building, collaboration, stewardship, and compensation. Created [[PublicSoftware]] as her proposed umbrella while preserving the follow-up's insistence that the legal definition and user freedoms remain essential, and expanded [[OpenSourceProjectMaintenance]] from its complete two-source evidence inventory. Opened both unique local image files, retained the readable Open Source Initiative definition screenshot under a descriptive canonical filename, and omitted its tiny repeated copy as a duplicate.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
