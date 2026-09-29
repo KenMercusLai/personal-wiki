@@ -6396,3 +6396,11 @@ Added Forbes's 2018 profile of [[KylieJenner]] and [[KylieCosmetics]] as a [[Cel
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | How I Made Twitter Back-end
+
+Added Leo Antony's educational Twitter-like backend design and created [[HybridTimelineFanout]] around its threshold-based split between write-time follower delivery and read-time celebrity merging. Updated [[HAProxy]] from its complete two-source evidence inventory to distinguish basic microservice routing from application-informed capacity control. Connected asymmetric JWT signing and verification, PostgreSQL-plus-Redis storage, RabbitMQ propagation, service discovery, and eventual timeline visibility while preserving the source's unverified Twitter attribution, absent benchmarks, imprecise signature terminology, and unspecified consistency, recovery, and security controls. Opened all seven effective image references; retained six unique evidence-bearing diagrams under descriptive canonical filenames and omitted one repeated queue/fan-out embed.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

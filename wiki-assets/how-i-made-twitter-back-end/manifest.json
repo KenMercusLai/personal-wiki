@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "how-i-made-twitter-back-end",
+  "images": [
+    {
+      "file": "social-backend-relational-schema.webp",
+      "alt": "Relational schema linking users to tweets, likes, retweets, and follower relationships"
+    },
+    {
+      "file": "shared-jwt-secret-antipattern.webp",
+      "alt": "Anti-pattern in which Auth, Tweet, and Timeline services all receive the master JWT key"
+    },
+    {
+      "file": "asymmetric-jwt-verification.webp",
+      "alt": "Improved JWT layout in which Auth retains the signing key and downstream services receive verification-only public keys"
+    },
+    {
+      "file": "tweet-timeline-queue-flow.webp",
+      "alt": "Tweet service writing to PostgreSQL and Redis before a message queue feeds threshold-based push or pull timeline processing"
+    },
+    {
+      "file": "push-fanout-to-follower-timelines.webp",
+      "alt": "Timeline service pushing one tweet into three followers' Redis timeline keys"
+    },
+    {
+      "file": "haproxy-service-routing.webp",
+      "alt": "HAProxy routing incoming requests to Auth, Tweet, and Timeline services"
+    }
+  ]
+}

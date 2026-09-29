@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How I Made Twitter Back-end](sources/how-i-made-twitter-back-end.md) - Leo Antony sketches a Twitter-like microservice backend with asymmetric JWT verification, queued tweet processing, Redis timelines, and threshold-based push/pull fan-out while leaving production and measurement gaps explicit.
 - [How 20-Year-Old Kylie Jenner Built A $900 Million Fortune In Less Than 3 Years](sources/how-20-year-old-kylie-jenner-built-a-900-million-fortune-in-less-than-3-years.md) - Forbes presents Kylie Cosmetics as a celebrity-led, socially distributed, operationally light beauty business while preserving valuation, inherited-advantage, slowing-growth, and durability limits.
 - [Hover is dead. Long live hover.](sources/hover-is-dead-long-live-hover.md) - Jordan Staniscia argues that hybrid touch laptops make hover unreliable, so essential actions need a touch-operable primary path while hover remains useful for feedback and shortcuts.
 - [Houseparty's Teenage Consultants Help Design the App](sources/housepartys-teenage-consultants-help-design-the-app.md) - Yiren Lu compares Houseparty's school visits with Musical.ly's continuous user groups to show how adult teams involved teenage users in design, learning, and early network spread.
@@ -2244,6 +2245,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Hybrid Timeline Fan-out](concepts/HybridTimelineFanout.md) - Feed-generation strategy that pushes ordinary posts into follower timelines while merging exceptional high-fan-out publishers at read time.
 - [Celebrity-Led Commerce](concepts/CelebrityLedCommerce.md) - Model that converts a public figure's identity and audience into product demand while external partners supply commerce and operations.
 - [Input Modality Independence](concepts/InputModalityIndependence.md) - Design property that keeps essential actions discoverable and operable without exclusive dependence on hover or another single input capability.
 - [Participatory Product Design](concepts/ParticipatoryProductDesign.md) - Involving intended users in ideas, artifacts, and product choices before and during implementation, with explicit sampling and power boundaries.

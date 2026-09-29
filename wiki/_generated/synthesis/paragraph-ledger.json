@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
       "b03c8f95040fd51199d5945a21ab709456003a8d08d1d0d52d3cf01495023c49",
       "995bb2bc737455283d985755e17f4267b2bf66d79ba8aa96bf15bd9e885e2a8a",
       "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
@@ -601,11 +602,25 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 599
+    "paragraph_count": 600
   },
-  "overview_commit": "b87cd4523c674fa926079900975e4cee070c039b",
-  "overview_digest": "be79ea5be22fbfb65f7ea4377e71fccfa483bb7aa1ab63c7bc335735fa203dd4",
+  "overview_commit": "5611342cbb39672b213f92bfee73579840da7a79",
+  "overview_digest": "638f9dae1e6a89fa33f0d3a43f2df4fdfdadc397869b7a0daeaa9673f3d9f01c",
   "paragraphs": [
+    {
+      "id": "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Leo Antony source adds [[HybridTimelineFanout]] as a cost-placement strategy for a Twitter-like read-heavy feed. Its Tweet service writes a post to [[PostgreSQL]] and [[Redis]] before publishing through RabbitMQ; a Timeline consumer then pushes ordinary authors' posts into follower timeline keys but defers high-follower authors to read-time fetch and merge. The durable insight is conditional rather than Twitter-specific: write-time materialization can make common reads cheap, while pull-on-read avoids duplicating exceptional fan-out into inactive users' caches. The queued boundary makes home-feed visibility eventually consistent, and follower count is only a proxy for the relevant workload. The source is an educational, partly implemented design rather than verified Twitter production documentation: it provides no benchmark, value for threshold `x`, or protocol for ordering, deduplication, retry, idempotency, deletion, cache loss, replay, or backpressure. Its authentication section usefully separates private signing authority from public JWT verification, but incorrectly describes signatures as encryption and leaves rotation, issuer and audience validation, and revocation unspecified. All six unique local diagrams were opened and retained at their semantic positions; a repeated queue/fan-out embed was deduplicated.",
+      "topic_scores": {
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "HybridTimelineFanout",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
     {
       "id": "b03c8f95040fd51199d5945a21ab709456003a8d08d1d0d52d3cf01495023c49",
       "primary_topic": "ai-and-technology",

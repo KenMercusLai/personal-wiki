@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 1b826be568b62147854deca71166d5e4196733a8
-input_digest: fb314f8d349ba6acf3efad71d6b1f7cbd72cfa29f7070beadb34357c4cf870c1
+as_of_overview_commit: 5611342cbb39672b213f92bfee73579840da7a79
+input_digest: 38bde299e4b3ec21197e6b1eff4acec16d3dcc03aed64a346d1f862298204b63
 ---
 
 # Business and Markets
@@ -1788,3 +1788,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - The source is a one-participant practitioner account and does not measure conversion, retention, support volume, or failure prevalence.
 - Hover can remain useful for feedback and efficiency shortcuts when its absence does not block task completion.
+
+### Hybrid Timeline Fanout Places Cost By Publisher Scale
+
+[[HybridTimelineFanout]] places feed cost by publisher scale: a queued worker can materialize ordinary posts into follower timelines in [[Redis]], while exceptional high-fan-out posts are fetched and merged for active readers; the split can reduce routine read work and celebrity write amplification, but it introduces eventual visibility and needs workload-based calibration and recovery design.
+
+**Evidence:** [[HybridTimelineFanout]], [[Redis]]
+
+**Qualifications:**
+
+- The evidence is one educational, partly implemented design rather than verified Twitter production documentation or a measured comparison of push and pull timelines.
+- The source provides no threshold value, benchmark, active-audience model, or protocol for ordering, deduplication, retry, idempotency, deletion, cache loss, replay, and backpressure; follower count is only a proxy for actual fan-out cost.
