@@ -6553,6 +6553,10 @@ Added [[KelseyPiper]]'s first-person account of writing more than 3,000 individu
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | If Management Is the Only Way Up, We're All F'd
+
+Added [[RandFishkin]]'s 2013 argument that management-only promotion systems conflict with organizations' need for many strong individual contributors and fewer people managers. Created Rand Fishkin, [[DualCareerTracks]], and [[ManagementRoleFit]], and updated [[Moz]] from its complete ordered evidence inventory. Preserved the proposal's practitioner scope, missing implementation and outcome evidence, and the limits of a clean “who and why” versus “what, when, where, and how” responsibility split. Opened the sole local GIF and retained it under a descriptive canonical filename because it maps IC and people-management responsibilities, seniority overlap, flexibility, staffing ratios, and compensation.
+
 ## [2026-09-29] ingest | I Quit My Job and I Have One Year to Get to Profitability
 
 Added [[AndreyAzimov]]'s 2018 one-year independent-maker experiment built around a $1,000 monthly revenue target, roughly $500 in monthly personal expenses, repeated launches, public progress reporting, and a tolerable fallback. Created Andrey Azimov and [[PieterLevels]], updated [[IndependentCreator]] and [[SmallProductPortfolio]] from their complete ordered evidence inventories, and distinguished a temporary pre-fit search portfolio from durable multi-product operation and later single-product focus. Preserved the first-person, survivor-narrative, missing product-level economics, workload, causality, and independent-verification limits. Opened all five local images and omitted them as decorative or duplicate portraits and illustrations; no visual evidence or asset manifest was required.
@@ -6588,6 +6592,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Idiomatic Python: EAFP versus LBYL
 
 Added [[BrettCannon]]'s comparison of exception-driven EAFP with precondition-checking LBYL and created Brett Cannon plus [[EAFPAndLBYL]]. Updated [[Python]] from its complete ordered six-source evidence inventory with expected-path communication, specific exception handling, and narrow `try` scope. Preserved LBYL as a legitimate clarity choice and qualified the article's unbenchmarked 2016 performance claim, concurrency and side-effect omissions, and practitioner-source scope. The local capture omitted the code blocks, so the surviving official Microsoft post was checked to recover the dictionary membership, `try`/`except KeyError`, and `try`/`else` examples. The source's only image is a remote header reference that returned HTTP 404 and could not be inspected or retained; no visual claim relies on it.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

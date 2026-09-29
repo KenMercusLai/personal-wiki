@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 1aec48f4502f2f16034d5e260c4e40f6aeb4331c
-input_digest: b6619412b63941b70670d570f95a841d656cf4e21473aa05aa03e90eb6d44bb1
+as_of_overview_commit: 3a8b6ec858ed455e1c8b59b0e30b5d8f2bb59e93
+input_digest: 9be27d68b3e2b42d8ad733f39dad8f0431a15dbb34d8288d4a0bec7c3ea4138c
 ---
 
 # Business and Markets
@@ -1835,3 +1835,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - Standardized cloud services and more capable customers can reduce the scarcity of custom integration, while an integrator can recreate lock-in above commoditized components.
 - The evidence is one historical strategy essay and acquisition-era forecast; it does not establish the later success of IBM's Red Hat strategy or isolate the causes of either company's earlier performance.
+
+### Parallel Career Tracks Align Advancement With Role Fit
+
+[[DualCareerTracks]] align promotion incentives with organization design when senior [[Moz]] contributors can expand cross-team influence, status, and compensation without acquiring direct reports, while [[ManagementRoleFit]] treats mentoring, staffing, team health, reviews, conflict, and enabling conditions as a distinct profession rather than the generic reward for strong individual work.
+
+**Evidence:** [[DualCareerTracks]], [[Moz]], [[ManagementRoleFit]], [[EngineeringCareerArchitecture]], [[RandFishkin]]
+
+**Qualifications:**
+
+- The evidence is one 2013 founder-practitioner proposal using selected Moz examples rather than measured implementation, retention, compensation-equity, promotion, or team-performance outcomes.
+- The division between managers owning who and why and contributors owning what, when, where, and how can blur by organizational stage, domain, level, and shared decision structure; nominal level parity also does not guarantee equal authority or access to consequential work.

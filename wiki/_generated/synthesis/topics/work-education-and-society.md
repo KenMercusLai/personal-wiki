@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-29
-as_of_overview_commit: f20c440c042ebf00e88cb8526587ad0be563a5bd
-input_digest: cf44d28b1fe1bc04c7b5d973fb47e0a0457cd76ff0cedeeed57a7c03eea653eb
+as_of_overview_commit: 3a8b6ec858ed455e1c8b59b0e30b5d8f2bb59e93
+input_digest: de32feb1c6feb4e71a2ef05538ae495ac6bd695cfe7a1cfcd958209ed96ce89f
 ---
 
 # Work, Education, and Society
@@ -945,3 +945,14 @@ Programming practice uses code structure to communicate expected and alternative
 - The source is a short 2016 practitioner explanation, not evidence that one style improves learning, review, or defect outcomes across teams.
 - The dictionary example does not cover concurrent state changes, irreversible actions, user-facing validation, or workload-specific exception costs.
 - The communication benefit depends on catching only the anticipated failure and keeping unrelated work outside the `try` block.
+
+### Parallel Career Tracks Separate Seniority From Management
+
+[[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope and equivalent compensation while [[ManagementRoleFit]] reserves people management for those able and motivated to enable others through mentoring, staffing, feedback, team health, and organizational context. This extends [[EngineeringCareerArchitecture]], [[ProductDesignCareerLadder]], and [[EngineeringTeamMotivation]] without making the two roles identical.
+
+**Evidence:** [[DualCareerTracks]], [[ManagementRoleFit]], [[EngineeringCareerArchitecture]], [[ProductDesignCareerLadder]], [[EngineeringTeamMotivation]], [[RandFishkin]]
+
+**Qualifications:**
+
+- The evidence is one 2013 founder-practitioner proposal using selected Moz examples rather than measured implementation, retention, compensation-equity, promotion, or team-performance outcomes.
+- Senior contributors often mentor and shape strategy, managers may need hands-on expertise, and role fit can change; the tracks should not become fixed personality labels or conceal unequal authority behind equivalent titles.

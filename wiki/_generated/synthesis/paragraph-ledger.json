@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "83fd36b4d0128e596c5e2e4ffad11cac53d5c1cc79b6203142eb58b6535342c0",
       "5656e90af7a59803acb33f214c442447908698b7f2078d11e25e5b6ba78eb0c3",
       "86dac5cb7746cb1c796635ecba151cb62c04d21a05786e157517dbeda217d7a0",
       "bafe24005cfac6757a73ecbad4c742637925534985d1aca23212f0637c977427",
@@ -620,11 +621,35 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 618
+    "paragraph_count": 619
   },
-  "overview_commit": "f20c440c042ebf00e88cb8526587ad0be563a5bd",
-  "overview_digest": "f016448a85f7b75cf6f0141733d11e0729ced3b4d8aab0e090533aad6b6097f9",
+  "overview_commit": "3a8b6ec858ed455e1c8b59b0e30b5d8f2bb59e93",
+  "overview_digest": "28fb8ed8af656d3595d0002a66e19ba66c67a00d17d7acd3b1a4c99088744a15",
   "paragraphs": [
+    {
+      "id": "83fd36b4d0128e596c5e2e4ffad11cac53d5c1cc79b6203142eb58b6535342c0",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[RandFishkin]] source adds [[DualCareerTracks]] and [[ManagementRoleFit]] to the wiki's career and organization-design material. Its central incentive argument is structural: companies need many capable individual contributors and comparatively few people managers, so making management the only path to greater pay, status, title, or influence pushes some strong practitioners toward work they neither want nor perform well. Fishkin's proposed [[Moz]] model gives corresponding IC and manager levels roughly equal compensation while letting senior IC influence expand across teams and strategy without direct reports. The retained responsibility diagram makes the distinction concrete: IC scope includes execution, project definition, metrics, strategy, feedback, and scalable documentation, while people management emphasizes recruiting, team organization, one-on-ones, mentoring, reviews, emotional health, conflict, collaboration, resources, and budget approvals. Seniority increases an IC's overlap with management and flexibility, while it reduces a senior manager's hands-on contribution and travel flexibility. The source also connects contributor ownership of what, when, where, and how work is done with autonomy and mastery, leaving managers more focused on who, why, and enabling conditions. This sharpens [[EngineeringCareerArchitecture]], [[ProductDesignCareerLadder]], and [[EngineeringTeamMotivation]], but remains a 2013 founder-practitioner proposal with selected internal examples and no measured implementation, retention, pay-equity, promotion, or team-performance outcomes; its clean responsibility split may not fit every organizational stage or domain.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DualCareerTracks",
+        "EngineeringCareerArchitecture",
+        "EngineeringTeamMotivation",
+        "ManagementRoleFit",
+        "Moz",
+        "ProductDesignCareerLadder",
+        "RandFishkin"
+      ]
+    },
     {
       "id": "5656e90af7a59803acb33f214c442447908698b7f2078d11e25e5b6ba78eb0c3",
       "primary_topic": "ai-and-technology",

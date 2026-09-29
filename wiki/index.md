@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [If Management Is the Only Way Up, We're All F'd](sources/if-management-is-the-only-way-up-were-all-fd-sparktoro.md) - Rand Fishkin argues for parallel, comparably rewarded IC and people-management tracks so advancement reflects role fit rather than direct-report count.
 - [Idiomatic Python: EAFP versus LBYL](sources/idiomatic-python-eafp-versus-lbyl-python.md) - Brett Cannon contrasts attempting the expected operation and handling a specific failure with checking a precondition first, emphasizing clear intent and narrow exception scope.
 - [Identify users with the most valuable feedback](sources/identify-users-with-the-most-valuable-feedback-startup-grind-medium.md) - Dan Wolch combines behavior-defined user cohorts, direct email replies, follow-up questions, and manual thematic coding into a lightweight feedback workflow.
 - [IBM's Old Playbook](sources/ibms-old-playbook-stratechery-by-ben-thompson.md) - Ben Thompson interprets IBM's Red Hat acquisition as a hybrid-cloud attempt to reuse its enterprise-integration playbook after missing hyperscale public cloud.
@@ -838,6 +839,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Rand Fishkin](entities/RandFishkin.md) - Entrepreneur and first-time CEO advocating parallel IC and people-management career tracks and contributor autonomy.
 - [Brett Cannon](entities/BrettCannon.md) - Python practitioner and author represented through his explanation of EAFP, LBYL, and precise exception boundaries.
 - [Dan Wolch](entities/DanWolch.md) - Product manager represented through a behavior-segmented customer-feedback workflow developed in the context of HubSpot sales products.
 - [Bob Young](entities/BobYoung.md) - Red Hat cofounder who credits Gerstner-era IBM with influencing its service-led open-source business model.
@@ -2299,6 +2301,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Dual Career Tracks](concepts/DualCareerTracks.md) - Parallel advancement paths that reward widening individual contribution and people management as different forms of senior responsibility.
+- [Management Role Fit](concepts/ManagementRoleFit.md) - Alignment between a person's motivation and capability and the work of enabling a team through people management.
 - [EAFP and LBYL](concepts/EAFPAndLBYL.md) - Contrasting control-flow styles that either attempt an operation and handle a specific failure or check a precondition before acting.
 - [Behavioral Feedback Sampling](concepts/BehavioralFeedbackSampling.md) - Question-led recruitment of research participants from individual product-usage histories.
 - [Enterprise Integration Business Model](concepts/EnterpriseIntegrationBusinessModel.md) - Value capture through accountable integration of fragmented technologies into enterprise outcomes.
