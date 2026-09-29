@@ -2,7 +2,7 @@
 title: "GraphQL vs. REST"
 type: source
 tags: [graphql, rest, api, http, developer-experience]
-date: 2017-06-28
+date: 2017-06-27
 source_file: "/mnt/ken_personal_wiki/Articles/GraphQL vs. REST - Apollo GraphQL.md"
 ---
 

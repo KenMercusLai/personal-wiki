@@ -2,7 +2,7 @@
 title: "Here’s The Technique That Ambitious People Use To Get What They Want"
 type: source
 tags: [career, interviews, preparation, ambition, opportunity]
-date: 2026-04-12
+date: 2018-03-29
 source_file: "/mnt/ken_personal_wiki/Articles/Here’s The Technique That Ambitious People Use To Get What They Want – RyanHoliday.net.md"
 ---
 

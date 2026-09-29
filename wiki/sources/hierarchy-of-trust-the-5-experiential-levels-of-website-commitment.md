@@ -2,7 +2,7 @@
 title: "Hierarchy of Trust: The 5 Experiential Levels of Website Commitment"
 type: source
 tags: [user-experience, trust, conversion, registration, persuasion]
-date: 2026-04-12
+date: 2016-03-06
 source_file: "/mnt/ken_personal_wiki/Articles/Hierarchy of Trust- The 5 Experiential Levels of Website Commitment.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Greater Internet Fuckwad Theory | Know Your Meme"
 type: source
 tags: [internet-culture, anonymity, online-behavior, memes, moderation]
-date: 2026-04-12
+date: 2012-06-12
 source_file: "/mnt/ken_personal_wiki/Articles/Greater Internet Fuckwad Theory - Know Your Meme.md"
 ---
 

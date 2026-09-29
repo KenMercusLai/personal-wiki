@@ -2,7 +2,7 @@
 title: "Growth Hacking vs Value Hacking - By"
 type: source
 tags: [growth, value-hacking, product-strategy, startups]
-date: 2026-04-12
+date: 2018-02-03
 source_file: "/mnt/ken_personal_wiki/Articles/Growth Hacking vs Value Hacking - By.md"
 ---
 

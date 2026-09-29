@@ -2,7 +2,7 @@
 title: "The Scoop: Inside the Longest Atlassian Outage of All Time"
 type: source
 tags: [software-engineering, reliability, incident-response, outage, atlassian]
-date: 2022-04-13
+date: 2022-04-14
 source_file: "/mnt/ken_personal_wiki/Articles/Gergely Orosz - The Scoop Inside the Longest Atlassian Outage of All Time.md"
 ---
 

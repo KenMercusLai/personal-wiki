@@ -2,7 +2,7 @@
 title: "Halfway There: The Road to $1M ARR"
 type: source
 tags: [saas, startup, product-market-fit, bootstrapping, growth]
-date: 2024-12-17
+date: 2019-10-11
 source_file: '/mnt/ken_personal_wiki/Articles/Halfway There The Road to $1M ARR.md'
 ---
 

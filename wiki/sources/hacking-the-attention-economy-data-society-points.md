@@ -2,7 +2,7 @@
 title: "Hacking the Attention Economy"
 type: source
 tags: [attention-economy, media-manipulation, social-media, propaganda, online-harassment]
-date: 2017-01-06
+date: 2017-01-05
 source_file: "/mnt/ken_personal_wiki/Articles/Hacking the Attention Economy - Data - Society- Points.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "GraphQL: A success story for PayPal Checkout"
 type: source
 tags: [graphql, rest, api, checkout, developer-experience]
-date: 2018-10-17
+date: 2018-10-16
 source_file: "/mnt/ken_personal_wiki/Articles/GraphQL- A success story for PayPal Checkout - PayPal Engineering - Medium.md"
 ---
 

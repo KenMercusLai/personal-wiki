@@ -2,7 +2,7 @@
 title: "Going Up and Down the VC Roller Coaster"
 type: source
 tags: [startup, fundraising, venture-capital, investor-diligence]
-date: 2026-04-12
+date: 2018-03-09
 source_file: "/mnt/ken_personal_wiki/Articles/Going Up and Down the VC Roller Coaster - By.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Good Product Teams vs. Bad Product Teams"
 type: source
 tags: [product-teams, product-strategy, product-analytics, experimentation]
-date: 2018-03-12
+date: 2018-01-23
 source_file: "/mnt/ken_personal_wiki/Articles/Good Product Teams vs. Bad Product Teams.md"
 ---
 

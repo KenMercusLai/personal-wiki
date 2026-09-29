@@ -2,7 +2,7 @@
 title: "How to Check if TCP Port is Open, Closed or in Use on Linux?"
 type: source
 tags: [linux, networking, tcp, udp, ports, diagnostics]
-date: 2026-03-17
+date: 2024-07-23
 source_file: /mnt/ken_personal_wiki/Articles/How to Check if TCP Port is Open, Closed or in Use on Linux.md
 ---
 

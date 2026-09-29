@@ -6720,3 +6720,11 @@ Added [[BenedictEvans]]'s distinction between structurally likely technology dir
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Innovative Ways to Increase Newsletter Subscriptions (with examples)
+
+Added Optimizely's 2016 catalogue of newsletter-acquisition ideas spanning offer clarity, visitor-state targeting, contextual prompts, choice, social proof, form interaction, and double-opt-in confirmation. Created [[NewsletterSignupOptimization]]; updated [[Optimizely]], [[Litmus]], and [[TheGuardian]] from their complete ordered evidence inventories. Preserved the distinction between interface examples and measured conversion evidence, and qualified the article's broad legal and identity-provider claims as historical and jurisdiction-sensitive. Opened all 12 unique archived image files, retained nine evidence-bearing screenshots or animations under descriptive canonical filenames, and omitted two duplicate title-card sizes and the decorative money-bag icon.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -2,7 +2,7 @@
 title: "Good/Bad Product Manager"
 type: source
 tags: [product-management, product-teams, customer-research, prioritization]
-date: 2017-07-20
+date: 2017-07-19
 source_file: "/mnt/ken_personal_wiki/Articles/Good-Bad Product Manager - Wildbit - Medium.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "How I turned a cheap weather station into a personal DevOps dashboard"
 type: source
 tags: [home-automation, weather, time-series, observability]
-date: 2023-01-27
+date: 2022-11-27
 source_file: /mnt/ken_personal_wiki/Articles/How I turned a cheap weather station into a personal DevOps dashboard.md
 ---
 

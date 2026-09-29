@@ -2,7 +2,7 @@
 title: "Here's The Thing With Free Apps And Services"
 type: source
 tags: [privacy, app-permissions, data-monetization, consumer-guidance]
-date: 2017-04-24
+date: 2017-04-25
 source_file: "/mnt/ken_personal_wiki/Articles/Here's The Thing With Free Apps And Services.md"
 ---
 

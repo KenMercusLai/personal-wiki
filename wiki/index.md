@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Innovative Ways to Increase Newsletter Subscriptions (with examples)](sources/innovative-ways-to-increase-newsletter-subscriptions-with-examples-optimizely-blog.md) - Optimizely's 2016 example catalogue treats newsletter acquisition as one path from value and context through form interaction and confirmation, without reporting measured outcomes.
 - [Inevitability in technology](sources/inevitability-in-technology-benedict-evans.md) - Benedict Evans separates structural technology drivers from contingent winners through Facebook acquisitions, Chinese portals, incumbent constraints, and Apple's mobile rise.
 - [Incident management at Google — adventures in SRE-land](sources/incident-management-at-google-adventures-in-sre-land-google-cloud-blog.md) - Paul Newson's first on-call incident shows Google's trained, role-based response, progressive rollout and rollback, and blameless postmortem learning loop.
 - [Increasing Attacker Cost Using Immutable Infrastructure](sources/increasing-attacker-cost-using-immutable-infrastructure.md) - Diogo Mónica shows how Docker layer inspection, known-image replacement, and a read-only root can aid response and resist persistence without fixing remote code execution.
@@ -1148,7 +1149,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Margit Zwemer](entities/MargitZwemer.md) - Coauthor of the objective-first Drivetrain Approach to data-product design.
 - [Mike Loukides](entities/MikeLoukides.md) - Coauthor arguing that data products should connect prediction to action through simulation and optimization.
 - [Optimal Decisions Group](entities/OptimalDecisionsGroup.md) - Insurance-pricing company presented as combining behavioral models, multi-year simulation, constraints, and optimization.
-- [Optimizely](entities/Optimizely.md) - Experimentation and personalization company represented through its 2016 audience-led homepage redesign and test plan.
+- [Optimizely](entities/Optimizely.md) - Experimentation and personalization company represented through a 2016 audience-led homepage test and an end-to-end newsletter-signup idea catalogue.
 - [Michal Turjeman](entities/MichalTurjeman.md) - Product designer presenting questions, personas, and explicit option comparison as ways to design sports products without being the target user.
 - [MinuteMedia](entities/MinuteMedia.md) - Sports-media parent company connecting Michal Turjeman, 90min, and 12up in the source's 2016 design account.
 - [90min](entities/NinetyMin.md) - Football-media platform whose participatory core and existing design informed 12up.
@@ -1203,7 +1204,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LEGO](entities/Lego.md) - Toy company represented through early child testing and the delayed-feedback Lego Universe counterexample.
 - [Kenneth Lin](entities/KennethLin.md) - Credit Karma founder represented through a values-grounded, product-connected approach to startup brand building.
 - [Credit Karma](entities/CreditKarma.md) - Consumer credit-information company used as a case of aligning a free-access promise, product utility, direct engagement, and measured advocacy.
-- [The Guardian](entities/TheGuardian.md) - News organization represented through broad newsroom access to analytics and iterative development of Ophan.
+- [The Guardian](entities/TheGuardian.md) - News organization represented through broad newsroom access to Ophan and a historical contextual story-alert acquisition example.
 - [Ophan](entities/Ophan.md) - Guardian in-house analytics system providing accessible live performance, referral, ranking, alert, and search-query views.
 - [Constantin](entities/Constantin.md) - Practitioner represented by a concise Reddit marketing routine for zero-user SaaS founders.
 - [Reddit](entities/Reddit.md) - Community platform whose subreddit-specific norms and ranked posts shape the source's early-user method.
@@ -1564,7 +1565,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rory Brown](entities/RoryBrown.md) - Bleacher Report executive explaining the company's content-everywhere strategy and shift from direct audience numbers toward platform-native brand reach.
 - [SendGrid](entities/SendGrid.md) - Email infrastructure and marketing platform represented by holiday-volume analytics and as a narrow API wedge example for runway-fit product scope.
 - [Len Shneyder](entities/LenShneyder.md) - SendGrid author interpreting holiday email volume, mobile opens, and subject-line engagement.
-- [Litmus](entities/Litmus.md) - Email-client analytics reference cited for mobile device open share.
+- [Litmus](entities/Litmus.md) - Email-client analytics reference also represented by a historical newsletter-preview and expectation-setting signup.
 - [Grasshopper](entities/Grasshopper.md) - Small-business phone-system company used as a billboard cautionary example where visible ad spend attracted advertiser calls more clearly than customer sales.
 - [Bill Barnett](entities/BillBarnett.md) - Academic author critiquing scheduled meetings through procedural rationality and advocating protected work time plus useful informal conversation.
 - [Grant Ammons](entities/GrantAmmons.md) - PipelineDeals engineering leader represented by a practitioner essay on sanctioned team learning rituals.
@@ -2881,6 +2882,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Email Marketing at Scale](concepts/EmailMarketingAtScale.md) - Practice of operating and analyzing large email volumes for delivery, engagement insight, and cohort benchmarking.
 - [Mobile Email Engagement](concepts/MobileEmailEngagement.md) - Pattern of mobile email opens and response timing that makes responsive templates and cross-device consistency core campaign requirements.
 - [Subject Line Optimization](concepts/SubjectLineOptimization.md) - Email-copywriting practice of using engagement data to tune subject-line length, wording, and clarity.
+- [Newsletter Signup Optimization](concepts/NewsletterSignupOptimization.md) - End-to-end design and testing of newsletter value, targeting, form interaction, consent confirmation, and downstream subscriber quality.
 - [Billboard Advertising](concepts/BillboardAdvertising.md) - Out-of-home advertising used mainly for broad awareness, with small-business fit depending on location, audience breadth, CAC tolerance, and attribution expectations.
 - [Procedural Rationality](concepts/ProceduralRationality.md) - Rational-looking organizational procedure that can signal legitimate work even when substantive purpose or output is unclear.
 - [Informal Collaboration](concepts/InformalCollaboration.md) - Spontaneous useful coordination or idea generation that continues only while it has value.

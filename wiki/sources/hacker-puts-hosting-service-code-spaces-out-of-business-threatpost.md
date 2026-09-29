@@ -2,7 +2,7 @@
 title: "Hacker Puts Hosting Service Code Spaces Out of Business"
 type: source
 tags: [cloud-security, incident-response, backups, aws, business-continuity]
-date: 2014-06-19
+date: 2014-06-18
 source_file: "/mnt/ken_personal_wiki/Articles/Hacker Puts Hosting Service Code Spaces Out of Business - Threatpost.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Getting out of the startup rat race"
 type: source
 tags: [startup, saas, growth, profitability, founder-wellbeing]
-date: 2017-02-01
+date: 2017-01-31
 source_file: "/mnt/ken_personal_wiki/Articles/Getting out of the startup rat race - Baremetrics.md"
 ---
 
