@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
       "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
       "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
       "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
@@ -630,11 +631,29 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 628
+    "paragraph_count": 629
   },
-  "overview_commit": "d99a469e9854bb520f8862a9a399a36accb94c01",
-  "overview_digest": "e30a147ab3196cd4df613aed4a557fd05d3c95296876dde61fd08a8168447ec7",
+  "overview_commit": "cade9de7f0b2e01d098042474ced1a4ebed8c4d4",
+  "overview_digest": "d48a7ef0901e6b842f9be24cb6de39354d186ebc4e1cbeb820f2ce8c42157dd7",
   "paragraphs": [
+    {
+      "id": "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[BryceRoberts]] source adds [[IndieVC]] as a historical attempt to finance the space between bootstrapped lifestyle businesses and venture-scale monopolies. Its 2016 version-two design combines a dedicated pool, rolling decisions, $100,000-$500,000 investments, a $500,000 prior-fundraising ceiling, a $10,000 monthly-revenue floor, quarterly peer support, and an explicit boundary against investor hiring or firing authority. The return mechanism sharpens [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] at the term level: distributions are capped at 5×, equity conversion occurs only after follow-on financing or acquisition, and reaching the cap within four years halves the conversion percentage. This is an ex-ante incentive design, not proof of alignment. The release reports that three of eight pilot companies were profitable, two were close, and all were still operating after about a year, but supplies no comparison group, audited company data, full legal terms, realized investor returns, or long-run outcomes. Its claim that software outperformed inventory-based businesses is likewise undefined and unmeasured. The sole local image was opened and omitted as a tiny decorative author avatar, so no asset manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "history-and-geopolitics": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "BryceRoberts",
+        "IndieVC",
+        "MissionAlignedCapital",
+        "VentureBackedGrowthPressure"
+      ]
+    },
     {
       "id": "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
       "primary_topic": "business-and-markets",

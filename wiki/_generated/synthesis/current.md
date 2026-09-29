@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: d99a469e9854bb520f8862a9a399a36accb94c01
+as_of_overview_commit: cade9de7f0b2e01d098042474ced1a4ebed8c4d4
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 831
-source_count: 831
-paragraph_count: 628
+episode_count: 832
+source_count: 832
+paragraph_count: 629
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[TechnologyNormalization]] can turn a real enabling capability into a weak startup differentiator as adoption makes it expected, but continued [[AIMarketingHype]] and [[AIInvestmentTheme]] evidence shows that operational ubiquity, promotional labeling, and investor-category salience need not disappear together.
-- [[EnterpriseIntegrationBusinessModel]] creates value when fragmented open technologies leave customers needing one accountable operator: Gerstner-era [[IBM]] combined breadth, trust, services, and middleware, while [[BobYoung]] says the lesson helped [[RedHat]] monetize freely reusable software through subscriptions and service outcomes; [[HybridCloudStrategy]] was IBM's 2018 attempt to reuse that logic above public clouds.
+- [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - Automation becomes governable when systems expose intended state, observed state, logs, metrics, replayable evidence, validation checks, staged activation, and explicit recovery boundaries. [[ProgressiveInfrastructureRollout]] adds representative production cohorts and [[Tsunami]]'s time-based desired-state allocation, audit, role-aware percentage bounds, and service-level-objective stopping after [[Docker]] became critical at [[Spotify]]. [[GitOps]] adds pull-request governance plus repository-to-runtime drift detection and [[WeaveFlux]] convergence around [[Kubernetes]]; [[Cloudflare]] separately shows why stopping or reverting automation does not reconstruct deleted bindings or restore actual operational state.
@@ -36,10 +36,10 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, and technology whose adoption may outlast its signaling power.
+Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, and capital whose terms fit the company's intended trajectory rather than only its maximum exit.
 
+- [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].
 - [[TechnologyNormalization]] can turn a real enabling capability into a weak startup differentiator as adoption makes it expected, but continued [[AIMarketingHype]] and [[AIInvestmentTheme]] evidence shows that operational ubiquity, promotional labeling, and investor-category salience need not disappear together. Evidence: [[TechnologyNormalization]], [[DifferentiationStrategy]], [[AIMarketingHype]], [[AIInvestmentTheme]].
-- [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 
 ### Cross-domain
 

@@ -6637,6 +6637,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Indie.vc v.2 Release Notes
+
+Added [[BryceRoberts]]'s 2016 account of [[IndieVC]] as a dedicated, rolling investment program for revenue-generating companies pursuing profitability and founder-controlled growth. Created Bryce Roberts and Indie.vc; updated [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] from their complete ordered evidence inventories with capped distributions, contingent equity conversion, a fast-repayment conversion reduction, explicit operating-control limits, and the distinction between term design and validated outcomes. Preserved qualifications around the selected eight-company pilot, first-party reporting, missing legal and financial detail, and unmeasured long-run company and fund performance. Opened the sole local image and omitted it as a tiny decorative author avatar; no asset manifest was required.
+
 ## [2026-09-30] ingest | Immutable Infrastructure Using Packer, Ansible, and Terraform
 
 Added a 2018 implementation of [[ImmutableInfrastructure]] that creates an AWS network with [[Terraform]], builds an Ansible-configured Nginx AMI with [[Packer]], and creates EC2 capacity from the tagged image with a second Terraform configuration. Created Packer and Terraform; updated [[ImmutableInfrastructure]], [[ConfigurationManagement]], [[InfrastructureAsCode]], [[Ansible]], and [[AWS]] from their complete ordered evidence inventories. Preserved the distinction between immutable image contents and mutable runtime state, and qualified the example's unmeasured benefits, historical syntax, access-key variables, local state coupling, public builder access, and `most_recent` tag-based image selection. Opened all five effective local images, retained the readable mutable-flow diagram, omitted the decorative stone photograph, and omitted three severely downsampled duplicate or verification remnants that could not be interpreted reliably.
@@ -6700,6 +6704,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Increasing Attacker Cost Using Immutable Infrastructure
 
 Added [[DiogoMonica]]'s 2016 Docker compromise demonstration connecting writable-layer inspection, preservation of compromised state, known-image replacement, and read-only roots. Created Diogo Mónica; updated [[ImmutableInfrastructure]] and [[Docker]] from their complete ordered evidence inventories. Preserved the distinction between an immutable base image, a normal container's writable copy-on-write layer, and explicit `--read-only` enforcement, while qualifying that these controls do not fix remote code execution or protect credentials, databases, external systems, and writable mounts. All five image embeds resolve to the same nominal `.png`, but the file contains an HTML application shell rather than image bytes, so the intended visuals could not be interpreted or retained and no visual claim was made.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 

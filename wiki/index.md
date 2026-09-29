@@ -850,8 +850,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Used AI To Clone My Voice And Trick My Mom Into Thinking It Was Me](sources/i-used-ai-to-clone-my-voice-and-trick-my-mom-into-thinking-it-was-me.md) - Charlie Warzel shows that a recognizable but imperfect voice clone can fool a familiar listener when a short scripted call, shared context, and a bad-reception pretext hide its defects.
 
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
+- [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Indie.vc](entities/IndieVC.md) - Investment program using capped distributions, contingent equity, revenue thresholds, and peer support to fund founder-controlled profitable companies.
+- [Bryce Roberts](entities/BryceRoberts.md) - Investor represented through Indie.vc's alternative-finance design and commentary on founder-versus-fund return arithmetic.
 - [Paul Newson](entities/PaulNewson.md) - Google SRE Mission Controller who documented his first primary on-call incident and the supported command, mitigation, and learning process around it.
 - [Google Compute Engine](entities/GoogleComputeEngine.md) - Google cloud service and SRE-team context for the incident-management case.
 - [Tyler Cowen](entities/TylerCowen.md) - Economist arguing that automation may preserve employment while shifting human labor toward socially mixed persuasion and relationship work.
