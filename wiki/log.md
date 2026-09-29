@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | How the data center site selection process works at Dropbox
+
+Added Dropbox's staged facility-selection process from capacity gates through RFP diligence, technical questionnaires, physical site verification, weighted scoring, fiber shared-fate review, PUE and sustainability terms, and lease negotiation. Created [[DataCenterSiteSelection]] and updated [[Dropbox]] from its complete ordered five-source evidence inventory. Preserved the first-party, unquantified outcome, undisclosed scoring, PUE-boundary, transferability, and realized-performance limitations. Opened both effective local image references; retained the technical scorecard under a descriptive canonical filename and omitted the tiny promotional “New” badge as decorative.
+
 ## [2026-09-29] ingest | How NAT traversal works
 
 Added Tailscale's first-principles account of UDP traversal through stateful firewalls, NAT endpoint discovery, mapping behavior, relay fallback, CGNAT hairpinning, NAT64, and ICE-style path selection and recovery. Created [[Tailscale]], updated [[NATTraversal]] from its complete two-source evidence inventory, and updated [[QUIC]] from its complete two-source inventory to include traversal-aware stream use over a shared UDP socket. Preserved the first-party, historical, device-variability, blocked-UDP, probabilistic-probing, session-table, and security qualifications. Opened all 21 local diagrams; retained eight non-redundant architecture and edge-case diagrams under descriptive canonical filenames and omitted sequential or repeated topology variants.
@@ -6424,6 +6428,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | How I use Obsidian
 
 Added [[StephAngo]]'s bottom-up Obsidian workflow built from ordinary Markdown files, few folders, overlapping category views, reusable properties and templates, dense and sometimes unresolved links, layered periodic review, random revisits, and a Git-to-Jekyll publishing path. Created [[StephAngo]], [[FileOverApp]], and [[FractalJournaling]], and updated [[Obsidian]] and [[PersonalKnowledgeManagement]] from their complete ordered evidence inventories. Preserved the source's explicitly personal and non-dogmatic scope, its separate publishing-vault exception, and the lack of comparative evidence that minimal folders, manual review, plugin choices, or a seven-point scale improve outcomes. The source contains no image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

@@ -3,18 +3,29 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-28
-as_of_overview_commit: ea82fc5aa831f29521c2850e03da99f86c9150c1
-input_digest: e456ad3f89dfb91ec77cf5df4bb193a6f93427734603687771b317c521814c78
+last_updated: 2026-09-29
+as_of_overview_commit: 62a128c2641b441c2d741af683d19ac2a8c7da8c
+input_digest: 07f768908ec1b05af6956e167e629946188e470cd07453bbb7fbc7c8ef715a84
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, language-model science framing, developer-economy signals, and several technology, work, philosophy, and habit claims routed here indirectly. The newest graduate-finance source reaches the topic only through health-plan deductible risk and supplies no general medical finding; none of the indirect material supports a broad health, climate, or natural-science conclusion.
+This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
+
+### Data Center Siting Couples Efficiency And Reliability
+
+[[DataCenterSiteSelection]] couples infrastructure reliability and environmental efficiency: [[Dropbox]] describes escalating from capacity gates and RFP claims to questionnaires, site walks, weighted scoring, fiber-path review, PUE terms, and lease negotiation before committing large-scale hybrid capacity.
+
+**Evidence:** [[DataCenterSiteSelection]], [[Dropbox]]
+
+**Qualifications:**
+
+- The evidence is one first-party 2023 account of three Dropbox selection processes, without disclosed score weights, realized reliability, lifecycle emissions, water use, or independent support for its best-in-class claim.
+- PUE measures facility energy overhead rather than electricity carbon intensity or the complete environmental footprint, and contractual performance still depends on measurement boundaries, facility operation, and tenant behavior.
 
 ### Augmented Reality Is Router Spillover
 

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: a6bb2da8517c6425af8c1b2c25c8f9a0477e165a
+as_of_overview_commit: 62a128c2641b441c2d741af683d19ac2a8c7da8c
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 797
-source_count: 797
-paragraph_count: 603
+episode_count: 798
+source_count: 798
+paragraph_count: 604
 topic_count: 9
 ---
 
@@ -75,7 +75,7 @@ Human outcomes depend on bounded attention, identity, trust, incentives, relatio
 
 ### Science, Health, and Climate
 
-Direct conclusions remain narrow and source-scoped, with health and climate claims separated from indirectly routed technology, work, and market material.
+Direct conclusions remain narrow and source-scoped: the corpus separates health findings and facility-efficiency diligence from indirectly routed technology, work, market, and philosophy material, while keeping realized clinical, climate, and environmental outcomes distinct from proposed mechanisms or metrics.
 
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].

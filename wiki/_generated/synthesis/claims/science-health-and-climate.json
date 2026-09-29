@@ -2,6 +2,20 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "data-center-siting-couples-efficiency-and-reliability",
+      "qualifications": [
+        "The evidence is one first-party 2023 account of three Dropbox selection processes, without disclosed score weights, realized reliability, lifecycle emissions, water use, or independent support for its best-in-class claim.",
+        "PUE measures facility energy overhead rather than electricity carbon intensity or the complete environmental footprint, and contractual performance still depends on measurement boundaries, facility operation, and tenant behavior."
+      ],
+      "statement": "[[DataCenterSiteSelection]] couples infrastructure reliability and environmental efficiency: [[Dropbox]] describes escalating from capacity gates and RFP claims to questionnaires, site walks, weighted scoring, fiber-path review, PUE terms, and lease negotiation before committing large-scale hybrid capacity.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DataCenterSiteSelection",
+        "Dropbox"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "augmented-reality-is-router-spillover",
       "qualifications": [
         "The deterministic router assigned this camera-interface paragraph here indirectly; it is not a health, climate, or natural-science finding.",
@@ -210,6 +224,6 @@
       ]
     }
   ],
-  "summary": "This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, language-model science framing, developer-economy signals, and several technology, work, philosophy, and habit claims routed here indirectly. The newest graduate-finance source reaches the topic only through health-plan deductible risk and supplies no general medical finding; none of the indirect material supports a broad health, climate, or natural-science conclusion.",
+  "summary": "This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.",
   "topic_id": "science-health-and-climate"
 }

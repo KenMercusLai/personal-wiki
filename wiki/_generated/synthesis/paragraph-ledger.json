@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "18cb5103243d72a2d57f3d7fc909d601ca28b913e08b53a782a66ba73cf06723",
       "e238c2b79f3ab105e8cace752b02622847b99b51569702e7a61f26c609a785b3",
       "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
       "b03c8f95040fd51199d5945a21ab709456003a8d08d1d0d52d3cf01495023c49",
@@ -605,11 +606,27 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 603
+    "paragraph_count": 604
   },
-  "overview_commit": "a6bb2da8517c6425af8c1b2c25c8f9a0477e165a",
-  "overview_digest": "7b9a1876d624f24b1027aba7d7108a58c2d2a5d79787f7915b6e0230915095e8",
+  "overview_commit": "62a128c2641b441c2d741af683d19ac2a8c7da8c",
+  "overview_digest": "23d959213216654982f7375d9cc38e3bd0b6494026d2d0346b2194e4c16f8fb0",
   "paragraphs": [
+    {
+      "id": "18cb5103243d72a2d57f3d7fc909d601ca28b913e08b53a782a66ba73cf06723",
+      "primary_topic": "science-health-and-climate",
+      "secondary_topics": [],
+      "text": "The newest [[Dropbox]] source adds [[DataCenterSiteSelection]] as a staged evidence and commitment process beneath large-scale hybrid infrastructure. Forecast services and cabinets become explicit power, space, and online-date gates; surviving providers face a facility RFP, bid leveling, detailed technical questions, site walks, weighted scoring, fiber-route diligence, and lease counterproposals. The durable control is evidence escalation: a proposal can claim redundancy, access, monitoring, or equipment that physical inspection and route review reveal to have short backup duration, construction exposure, weak alerts, unsuitable loading, exposed fiber, shared fate, or another single point of failure. Reliability, sustainability, and economics therefore meet in one decision model spanning Tier III-oriented design, PUE, airflow containment, energy sourcing, rent, electricity, escalation, capacity ramps, incentives, and tenant obligations. The account is first-party and covers three recent selection processes without disclosing candidate identities, weights, realized uptime, lifecycle environmental outcomes, or evidence for its “best in class” claim. Its retained example scorecard ranks Site D highest at 283 but supplies no definitions, thresholds, uncertainty, or final decision; the decorative promotional badge was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 2
+      },
+      "wikilinks": [
+        "DataCenterSiteSelection",
+        "Dropbox"
+      ]
+    },
     {
       "id": "e238c2b79f3ab105e8cace752b02622847b99b51569702e7a61f26c609a785b3",
       "primary_topic": "ai-and-technology",

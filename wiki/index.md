@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How the data center site selection process works at Dropbox](sources/how-the-data-center-site-selection-process-works-at-dropbox.md) - Dropbox describes a staged facility-selection process combining capacity gates, RFP diligence, site verification, weighted scoring, fiber-path review, PUE, and lease negotiation.
 - [How NAT traversal works](sources/how-nat-traversal-works.md) - Tailscale explains direct UDP traversal through stateful firewalls and NATs, endpoint discovery and mapping limits, encrypted relay fallback, CGNAT/NAT64, and ICE-style candidate racing and recovery.
 - [How I use Obsidian](sources/how-i-use-obsidian.md) - Steph Ango describes a bottom-up Markdown vault built from few folders, dense links, reusable properties and templates, layered review, random revisits, and a file-based publishing path.
 - [How I turned a cheap weather station into a personal DevOps dashboard](sources/how-i-turned-a-cheap-weather-station-into-a-personal-devops-dashboard.md) - Brian R. Jackson connects a 433 MHz weather sensor to Home Assistant, InfluxDB, and Grafana, then uses Flux, wind roses, heatmaps, and percentile bands to explore noisy history with explicit analytical limits.
@@ -1827,7 +1828,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
 - [Sam Altman](entities/SamAltman.md) - OpenAI CEO and startup advisor represented through early-hiring discipline, ChatGPT launch judgment, gradual-AGI expectations, and release governance.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
-- [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
+- [Dropbox](entities/Dropbox.md) - File-platform company represented through early discipline, referral growth, founder learning, international expansion, and exabyte-scale hybrid-infrastructure operations.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
 - [Slack](entities/Slack.md) - Collaboration software represented through its pivot, staged launch, bottom-up team adoption, feedback and measurement systems, developer ecosystem, and technical architecture.
@@ -2253,6 +2254,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Data Center Site Selection](concepts/DataCenterSiteSelection.md) - Staged conversion of capacity needs into a physically verified, risk-weighted, efficient, and commercially viable facility choice.
 - [Fractal Journaling](concepts/FractalJournaling.md) - Layered review practice that condenses timestamped fragments into progressively broader summaries while preserving traceability.
 - [File Over App](concepts/FileOverApp.md) - Principle that durable digital artifacts should remain user-controlled, retrievable files independent of the current application.
 - [Personal Telemetry Pipeline](concepts/PersonalTelemetryPipeline.md) - User-operated path from sensor acquisition and normalization through durable history, explicit transformations, analysis, and visualization.
