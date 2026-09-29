@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
       "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
       "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
       "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
@@ -631,11 +632,30 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 629
+    "paragraph_count": 630
   },
-  "overview_commit": "213f0368f5edbaad81a008fc5850d9eeae42162a",
-  "overview_digest": "bea9f6aaca2df71a0956e5b6eac6072e2e03006a398b7373cb2519d98ce96e3a",
+  "overview_commit": "f2691f40006b7ffea52e7704a7c0b639bc465cfc",
+  "overview_digest": "1981ef337c7727c27bf5f35dd9e0269e8cf8c86c31e892047e15c81ed639b80e",
   "paragraphs": [
+    {
+      "id": "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Merissa Marr source adds [[TheInformation]] as an early newsroom-scale case of [[NicheSubscriptionPublishing]]. In the 2016 profile, [[JessicaLessin]] combines a hard $399 paywall, roughly two exclusive or deeply reported stories a day, forums, a private Slack channel, informal events, and a $10,000 investor tier that includes calls and briefings. The durable operating logic is sequential: use a dense professional network and representative customer interviews to become indispensable to a core audience, then expand into adjacent sectors and geographies while funding growth through subscriptions, founder capital, conservative spending, and retained control. This strengthens [[DigitalMediaMonetization]] with tiered professional willingness to pay, but sharpens [[AccessJournalism]] by showing that direct reader revenue changes rather than removes incentive conflict when subscribers, sources, covered executives, and member access overlap. Tough reporting can itself preserve subscriber trust, so proximity is an incentive and appearance risk rather than proof of compromised work. The article reports cash-flow positivity and more-than-doubled subscriptions but withholds the member count, investment, churn, acquisition cost, margins, and cohort retention; the estimate near 10,000 members comes from observers, and the evidence is only a 2016 snapshot. All five remote images were unreachable from the workspace and had no archived local copies, so no visual evidence or asset was retained.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AccessJournalism",
+        "DigitalMediaMonetization",
+        "JessicaLessin",
+        "NicheSubscriptionPublishing",
+        "TheInformation"
+      ]
+    },
     {
       "id": "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
       "primary_topic": "business-and-markets",

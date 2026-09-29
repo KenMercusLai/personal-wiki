@@ -44,6 +44,10 @@ Added [[NicoleNguyen]]'s 2017 consumer guide to the privacy and business-model t
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-30] ingest | Inside (The) Information
+
+Added Merissa Marr's 2016 profile of [[JessicaLessin]] and [[TheInformation]] as an early premium technology-news business built from scarce reporting, $399 subscriptions, a $10,000 investor tier, member community, founder funding, and core-audience-first expansion. Created Jessica Lessin and The Information; updated [[NicheSubscriptionPublishing]], [[DigitalMediaMonetization]], and [[AccessJournalism]] from their complete ordered evidence inventories. Preserved undisclosed subscriber, churn, acquisition-cost, margin, and investment data; the outside estimate near 10,000 members; the point-in-time scope; and the unresolved tension between subscriber-valued tough reporting and access to the industry being covered. All five remote images were unreachable from the workspace and no archived local copies were found, so no visual evidence or assets were retained.
+
 ## [2026-09-29] ingest | Here's How Trello Nailed Localization and Global Marketing
 
 Added [[PatrickYip]]'s account of [[AlexiaOhannessian]] leading [[Trello]] from demand-led country experiments to a managed volunteer translation system and broad language launch. Created [[Trello]], [[AlexiaOhannessian]], [[PatrickYip]], and [[CrowdsourcedLocalization]], and updated [[InternationalExpansionStrategy]] from its complete ordered evidence inventory. Preserved the historical, vendor-published, self-reported, causally uncontrolled, inconsistent language-count, volunteer-cost, quality, fairness, and generalization limits. Opened all ten effective image references; retained the language-coverage map, Japanese localization board, and survey infographic under descriptive canonical filenames, and omitted the decorative hero, two Alexia portraits, Patrick portrait, Trello logo, and promotional banner.
@@ -6724,6 +6728,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Innovative Ways to Increase Newsletter Subscriptions (with examples)
 
 Added Optimizely's 2016 catalogue of newsletter-acquisition ideas spanning offer clarity, visitor-state targeting, contextual prompts, choice, social proof, form interaction, and double-opt-in confirmation. Created [[NewsletterSignupOptimization]]; updated [[Optimizely]], [[Litmus]], and [[TheGuardian]] from their complete ordered evidence inventories. Preserved the distinction between interface examples and measured conversion evidence, and qualified the article's broad legal and identity-provider claims as historical and jurisdiction-sensitive. Opened all 12 unique archived image files, retained nine evidence-bearing screenshots or animations under descriptive canonical filenames, and omitted two duplicate title-card sizes and the decorative money-bag icon.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 

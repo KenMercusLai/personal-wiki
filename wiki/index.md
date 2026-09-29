@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside (The) Information](sources/inside-the-information-columbia-journalism-review.md) - Merissa Marr profiles The Information's premium reporting, tiered subscriptions, community-led growth, founder funding, and access-versus-independence tension.
 - [Innovative Ways to Increase Newsletter Subscriptions (with examples)](sources/innovative-ways-to-increase-newsletter-subscriptions-with-examples-optimizely-blog.md) - Optimizely's 2016 example catalogue treats newsletter acquisition as one path from value and context through form interaction and confirmation, without reporting measured outcomes.
 - [Inevitability in technology](sources/inevitability-in-technology-benedict-evans.md) - Benedict Evans separates structural technology drivers from contingent winners through Facebook acquisitions, Chinese portals, incumbent constraints, and Apple's mobile rise.
 - [Incident management at Google — adventures in SRE-land](sources/incident-management-at-google-adventures-in-sre-land-google-cloud-blog.md) - Paul Newson's first on-call incident shows Google's trained, role-based response, progressive rollout and rollback, and blameless postmortem learning loop.
@@ -855,6 +856,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [The Information](entities/TheInformation.md) - Premium technology-news publication represented through its early reporting, subscription, community, funding, and expansion model.
+- [Jessica Lessin](entities/JessicaLessin.md) - Technology journalist and founder represented through The Information's editorial strategy, operating model, and access tension.
 - [Indie.vc](entities/IndieVC.md) - Investment program using capped distributions, contingent equity, revenue thresholds, and peer support to fund founder-controlled profitable companies.
 - [Bryce Roberts](entities/BryceRoberts.md) - Investor represented through Indie.vc's alternative-finance design and commentary on founder-versus-fund return arithmetic.
 - [Paul Newson](entities/PaulNewson.md) - Google SRE Mission Controller who documented his first primary on-call incident and the supported command, mitigation, and learning process around it.
