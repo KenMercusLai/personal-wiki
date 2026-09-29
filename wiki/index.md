@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Imaging, Snapchat and mobile](sources/imaging-snapchat-and-mobile-benedict-evans.md) - Benedict Evans reframes the smartphone camera as a programmable input method connecting mobile-native interaction, Snapchat Lenses, computer vision, and augmented reality.
 - [If the internet is addictive, why don’t we regulate it?](sources/if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays.md) - Michael Schulson connects variable rewards and weak stopping cues to attention-funded incentives and argues for regulation that expands user control while preserving diagnostic and policy uncertainty.
 - [Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine](sources/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine.md) - IAmMandatory combines iOS Vision OCR, sampled video frames, a used-iPhone cluster, PostgreSQL, PGSync, and Elasticsearch into a cost-constrained search pipeline reportedly covering about 17 million memes.
 - [If Management Is the Only Way Up, We're All F'd](sources/if-management-is-the-only-way-up-were-all-fd-sparktoro.md) - Rand Fishkin argues for parallel, comparably rewarded IC and people-management tracks so advancement reflects role fit rather than direct-report count.
@@ -1688,7 +1689,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product spanning CRM-like ads, chatbot and micro-app ambitions, hybrid interfaces, and Messenger Day's broadcast-context conflict.
 - [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
 - [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
-- [Snapchat](entities/Snapchat.md) - Camera-centered social app connecting Stories, ephemerality, Lenses, temporary self-expression, acquired capabilities, and partial shared presence.
+- [Snapchat](entities/Snapchat.md) - Camera-centered social app connecting sensor-screen interaction, Stories, ephemerality, Lenses, temporary self-expression, acquired capabilities, and partial shared presence.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
@@ -1996,7 +1997,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
-- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about ecosystem-scale disruption, mobile computing, platform-native media, autonomous vehicles, voice assistants, Apple's trust positioning, and task-specific machine-learning data moats.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about ecosystem-scale disruption, mobile computing, programmable imaging, platform-native media, autonomous vehicles, voice assistants, and task-specific machine-learning data moats.
 - [Waymo](entities/Waymo.md) - Autonomous-driving technology company used to illustrate real-world testing, simulation scale, and potential platform power in a 2017 strategy essay.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path, valuation caution, and later argument about intangible software economics.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
@@ -2308,6 +2309,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Image Sensor as Input](concepts/ImageSensorAsInput.md) - Camera sensor treated as a general software-interpreted input channel for transformation, recognition, and interaction rather than only photography.
 - [Visual Text Indexing](concepts/VisualTextIndexing.md) - Extracting text from images and sampled video frames and carrying it through a recoverable search pipeline.
 - [Cost-Constrained Infrastructure](concepts/CostConstrainedInfrastructure.md) - Trading convenience and redundancy for sustainable cost while preserving explicit restart and reconstruction paths.
 - [Rebuildable Derived Index](concepts/RebuildableDerivedIndex.md) - Retrieval-optimized state treated as a reproducible projection of canonical records rather than a second authority.

@@ -6505,6 +6505,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Imaging, Snapchat and mobile
+
+Added [[BenedictEvans]]'s 2016 reframing of the smartphone camera as a programmable input method rather than only a photographic device. Created [[ImageSensorAsInput]] from the new article and the existing Snapchat Lens source, then updated [[BenedictEvans]], [[Snapchat]], [[AuthenticallyMobile]], and [[AugmentedReality]] from their complete ordered evidence inventories. Preserved the historical scope of the device-scale estimates, product examples, computer-vision claims, and head-worn AR forecast, and added privacy, consent, recognition-error, accessibility, and platform-control qualifications absent from the source. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -6614,5 +6618,9 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
