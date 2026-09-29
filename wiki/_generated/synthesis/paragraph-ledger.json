@@ -610,12 +610,13 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b",
       "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0",
-      "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d"
+      "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
+      "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814"
     ],
-    "paragraph_count": 610
+    "paragraph_count": 611
   },
-  "overview_commit": "cf498f84b1fdab381446684d63f556c068870f1d",
-  "overview_digest": "72ea381f7f4f47f06a2e848b8107657a88b5ad563443e6e9ef2efca95f11ccc6",
+  "overview_commit": "e056b743efcb1be5b583eb951c341e57dd9d5210",
+  "overview_digest": "af8355c74b9de218367970fbc17f1a15ee9a3891704a8aeb15f47c1f9b6f52ad",
   "paragraphs": [
     {
       "id": "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
@@ -12355,6 +12356,23 @@
         "DeliberateNetworkBuilding",
         "LuckAndEffortInSuccess",
         "TimFerriss"
+      ]
+    },
+    {
+      "id": "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[KheHy]] source adds [[PersonalCRM]] as a relationship-retrieval system distinct from a commercial sales pipeline. Hy's Google Sheets implementation combines name and email with up to ten descriptors drawn from industry, job function, passions, and personal traits, then uses a controlled vocabulary, validation-backed typeahead, cell A1, and a named filter view to retrieve people for introductions, targeted information sharing, and events. This gives [[EndUserComputing]] a concrete data-oriented case: a non-specialist composes familiar spreadsheet primitives into a small personal database without conventional application code. The durable tradeoff is consistency versus expressiveness. Hard-coded tags reduce variants such as “Crossfit” and “Xfit,” while comments, domain-sensitive granularity, delayed tag promotion, and a free-form notes field preserve limited flexibility. The account remains one self-reported 2014 implementation of roughly 500 contacts; it does not measure retrieval quality, relationship depth, maintenance burden, privacy or security risk, or comparative outcomes, and a contact index does not establish that Dunbar-style cognitive limits have been surpassed. Seven local images were opened, six evidence-bearing taxonomy and workflow screenshots were retained, and one cropped duplicate was omitted. Two duplicate remote cover-image references returned HTTP 403 and could not be inspected, so no visual claim relies on them.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "EndUserComputing",
+        "KheHy",
+        "PersonalCRM"
       ]
     }
   ],

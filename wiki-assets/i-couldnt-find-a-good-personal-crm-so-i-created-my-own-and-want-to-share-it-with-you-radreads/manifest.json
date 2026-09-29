@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "i-couldnt-find-a-good-personal-crm-so-i-created-my-own-and-want-to-share-it-with-you-radreads",
+  "images": [
+    {
+      "file": "four-part-contact-tag-taxonomy.jpg",
+      "alt": "Four-column personal CRM taxonomy covering industry, job function, passions, and traits"
+    },
+    {
+      "file": "controlled-tag-list.png",
+      "alt": "Google Sheets tag list with categories, controlled values, and a comment field"
+    },
+    {
+      "file": "contact-entry-grid.png",
+      "alt": "Personal CRM rows containing contact details and ten validated tag columns"
+    },
+    {
+      "file": "search-tag-typeahead.png",
+      "alt": "Typeahead selection of an Angel or Seed Investor tag in the search cell"
+    },
+    {
+      "file": "search-filter-menu.png",
+      "alt": "Google Sheets filter menu with the custom Search view selected"
+    },
+    {
+      "file": "filtered-contact-results.png",
+      "alt": "Filtered personal CRM results for the Angel or Seed Investor tag"
+    }
+  ]
+}

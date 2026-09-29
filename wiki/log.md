@@ -6512,3 +6512,11 @@ Added [[ArnoldSchwarzenegger]]'s autobiographical rejection of solitary-success 
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I couldn’t find a good Personal CRM — So I created my own and want to share it with you
+
+Added [[KheHy]]'s 2014 Google Sheets relationship-retrieval system and created [[PersonalCRM]] around its four-part controlled tag vocabulary, validation-backed typeahead, free-form exception field, and filter-view workflow. Updated [[EndUserComputing]] from its complete two-source evidence inventory to include data validation and query composition alongside formula-centered programming. Preserved the case's self-reported scope, lack of measured relationship or retrieval outcomes, manual maintenance and category-judgment burden, privacy and security omissions, and unsupported Dunbar's Number interpretation. Opened all seven local images, retained six evidence-bearing screenshots under descriptive canonical filenames, and omitted one cropped duplicate. Two duplicate remote cover-image references returned HTTP 403 and could not be inspected, so they were omitted and no visual claim relies on them.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
