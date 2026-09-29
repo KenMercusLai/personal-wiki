@@ -4,7 +4,7 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-30
-as_of_overview_commit: 139a0edffdbce573c22aec36d0526586e31fdda8
+as_of_overview_commit: f20f834e9fc81827894f27e883de60c5f5d78cf2
 input_digest: 0794974c582ab04267c5b592b23a89ef2b494f9bfd55cb1deb25b6b04c44987d
 ---
 

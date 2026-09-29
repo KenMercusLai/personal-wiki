@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
       "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
       "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
       "672ac5b5a39e9c1d014fa357678d82348ed5d96ab5c6d13d2c41ec8e225b71f9",
@@ -626,11 +627,30 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 624
+    "paragraph_count": 625
   },
-  "overview_commit": "139a0edffdbce573c22aec36d0526586e31fdda8",
-  "overview_digest": "5320a26234cf544c55c2e7b1388ed4479099fb5eb6dfb9d40e4ef0e5bf128e3a",
+  "overview_commit": "f20f834e9fc81827894f27e883de60c5f5d78cf2",
+  "overview_digest": "b6f22fa822f17c98e3feaeefa56a42ad496cfbdfc0ef9c269c5843916422948e",
   "paragraphs": [
+    {
+      "id": "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Better Everyday source extends [[ProductFlowFriction]] from a conversion and usability cost into a system-design variable. Its negative cases show why a local reduction cannot be evaluated in isolation: easier [[Slack]] messaging can increase low-value volume and [[InformationOverload]], open publishing can weaken quality gates while expanding participation, and rapid [[DocuSign]] agreement can remove a pause in which a recipient might question fraud. Its constructive cases make deliberate friction an exchange rather than a virtue: non-obvious interactions in [[Snapchat]] and [[MusicalLy]] can prompt peer teaching and [[ViralLoops]], while [[MealPal]] moves choice and commitment earlier, limits menu variety, and requires pickup in return for lower customer cost, more predictable restaurant demand, and less point-of-sale delay. The durable rule is to measure total burden and downstream outcomes across time, participants, and system boundaries rather than minimize raw steps. The evidence remains an anecdotal 2017 practitioner essay with no comparative funnel, retention, message-volume, misinformation, fraud, throughput, or unit-economics data; extra steps can exclude users or become empty ceremony instead of safety. All three effective local images were opened and omitted as duplicate sizes of one decorative rock-climbing photograph.",
+      "topic_scores": {
+        "business-and-markets": 2
+      },
+      "wikilinks": [
+        "DocuSign",
+        "InformationOverload",
+        "MealPal",
+        "MusicalLy",
+        "ProductFlowFriction",
+        "Slack",
+        "Snapchat",
+        "ViralLoops"
+      ]
+    },
     {
       "id": "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
       "primary_topic": "governance-and-institutions",

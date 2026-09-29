@@ -6664,3 +6664,11 @@ Added a *Freakonomics Radio* synthesis of accumulated artistic and scholarly con
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | In Products, as in Life, Not All Friction Is Bad
+
+Added a 2017 Better Everyday argument for treating friction as a deliberate product and system-design variable rather than a universally negative step count. Created [[MealPal]] and [[DocuSign]]; updated [[ProductFlowFriction]] from its complete ordered evidence inventory with second-order effects, peer-teaching virality, time-shifted service economics, and security deliberation. Preserved the distinction between useful constraints and arbitrary burden, and qualified every company example as anecdotal rather than causal or measured evidence. Opened all three effective local images and omitted them as duplicate sizes of the same decorative rock-climbing photograph; no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

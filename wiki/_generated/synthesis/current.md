@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 139a0edffdbce573c22aec36d0526586e31fdda8
+as_of_overview_commit: f20f834e9fc81827894f27e883de60c5f5d78cf2
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 826
-source_count: 826
-paragraph_count: 624
+episode_count: 827
+source_count: 827
+paragraph_count: 625
 topic_count: 9
 ---
 
@@ -18,11 +18,11 @@ topic_count: 9
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[EnterpriseIntegrationBusinessModel]] creates value when fragmented open technologies leave customers needing one accountable operator: Gerstner-era [[IBM]] combined breadth, trust, services, and middleware, while [[BobYoung]] says the lesson helped [[RedHat]] monetize freely reusable software through subscriptions and service outcomes; [[HybridCloudStrategy]] was IBM's 2018 attempt to reuse that logic above public clouds.
+- [[ProductFlowFriction]] should be judged across time, participants, and system boundaries: easier [[Slack]] messaging can amplify [[InformationOverload]], rapid [[DocuSign]] agreement can reduce protective deliberation, peer teaching can feed [[ViralLoops]], and [[MealPal]] can trade advance choice and pickup for lower cost and more predictable demand.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - Automation becomes governable when systems expose intended state, observed state, logs, metrics, replayable evidence, validation checks, staged activation, and explicit recovery boundaries. [[ProgressiveInfrastructureRollout]] adds representative production cohorts and [[Tsunami]]'s time-based desired-state allocation, audit, role-aware percentage bounds, and service-level-objective stopping after [[Docker]] became critical at [[Spotify]]. [[GitOps]] adds pull-request governance plus repository-to-runtime drift detection and [[WeaveFlux]] convergence around [[Kubernetes]]; [[Cloudflare]] separately shows why stopping or reverting automation does not reconstruct deleted bindings or restore actual operational state.
 - [[IdeaDebt]] links [[Perfectionism]], [[ProlificPractice]], [[SunkCostFallacy]], and [[AttentionManagement]]: idealizing a future project can make present ability feel unacceptable, while recurring finished work can develop skill and conscious abandonment can release stale commitments.
-- [[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope and equivalent compensation while [[ManagementRoleFit]] reserves people management for those able and motivated to enable others through mentoring, staffing, feedback, team health, and organizational context. This extends [[EngineeringCareerArchitecture]], [[ProductDesignCareerLadder]], and [[EngineeringTeamMotivation]] without making the two roles identical.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, evidence quality, and incentives that fit the work.
+Durable value joins customer outcomes, sustainable economics, governed distribution, lifecycle trust, aligned capital, evidence quality, and friction assessed across the whole system.
 
 - [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].

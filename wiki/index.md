@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [In Praise of Incrementalism (Ep. 264)](sources/in-praise-of-incrementalism-ep-264-freakonomics-freakonomics.md) - Freakonomics connects cumulative artistic, legal, financial, and athletic progress while preserving foundation, causality, ethics, and unfinished-change limits.
+- [In Products, as in Life, Not All Friction Is Bad](sources/in-products-as-in-life-not-all-friction-is-bad-better-everyday.md) - A Better Everyday essay treats friction as a design variable whose removal or addition can reshape noise, virality, service economics, and security.
 - [Improving Critical Infrastructure Rollouts](sources/improving-critical-infrastructure-rollouts-labs.md) - Spotify's Docker failures motivated Tsunami, a central desired-state service for gradual, auditable, health-aware infrastructure rollouts across thousands of hosts.
 - [Improve cache performance with optimized API design](sources/improve-cache-performance-with-optimized-api-design.md) - Fastly connects cache-friendly HTTP and REST boundaries with bounded variants, surrogate-key purging, and stale serving for faster, more resilient APIs.
 - [Immutable Infrastructure Using Packer, Ansible, and Terraform](sources/immutable-infrastructure-using-packer-ansible-and-terraform.md) - A 2018 tutorial connects Terraform networking, a Packer/Ansible AMI build, and Terraform EC2 creation while exposing state, security, and image-promotion qualifications.
@@ -847,6 +848,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [MealPal](entities/MealPal.md) - Lunch subscription that time-shifts demand through advance choice, limited menus, and pickup in exchange for price and operational benefits.
+- [DocuSign](entities/DocuSign.md) - Electronic-signature product used to examine the tradeoff between convenient agreement and protective deliberation.
 - [Dave Brailsford](entities/DaveBrailsford.md) - Cycling performance director who frames marginal gains as decomposition, measurement, shared culture, and foundation-first execution.
 - [David Laibson](entities/DavidLaibson.md) - Behavioral economist connecting retirement compounding with passive diversification and supportive workplace-plan defaults.
 - [Linda Hirshman](entities/LindaHirshman.md) - Legal scholar interpreting gay-rights victories through sequenced organizing, classification change, legislation, litigation, and public opinion.
