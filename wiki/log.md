@@ -6656,3 +6656,11 @@ Added Spotify's account of Docker's transition from prototype runtime to critica
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | In Praise of Incrementalism (Ep. 264)
+
+Added a *Freakonomics Radio* synthesis of accumulated artistic and scholarly contribution, sequenced civil-rights change, retirement compounding and defaults, and cycling's marginal-gains method. Created [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], and [[DaveBrailsford]]; updated [[IndexFundStrategy]] from its complete ordered evidence inventory. Preserved foundation-first, causal-attribution, unfinished-progress, access, ethical, and Team Sky therapeutic-use-exemption qualifications. Opened the duplicated remote Team Sky photograph and omitted it as contextual rather than evidentiary; no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

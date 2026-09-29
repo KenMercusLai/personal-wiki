@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
       "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
       "672ac5b5a39e9c1d014fa357678d82348ed5d96ab5c6d13d2c41ec8e225b71f9",
       "b240a952546bd5d216b3190b9990df0008794b51be5d3081b221289e379d3bb4",
@@ -625,11 +626,29 @@
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 623
+    "paragraph_count": 624
   },
-  "overview_commit": "3c6db7a2e89cfb76b924310d8156ca1ddc926279",
-  "overview_digest": "f3f89a8e4ef80104f5981ec0d4816529975efa2c9bbd18f737433fe44b091f57",
+  "overview_commit": "139a0edffdbce573c22aec36d0526586e31fdda8",
+  "overview_digest": "5320a26234cf544c55c2e7b1388ed4479099fb5eb6dfb9d40e4ef0e5bf128e3a",
   "paragraphs": [
+    {
+      "id": "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest *Freakonomics Radio* source adds [[Incrementalism]] as a cross-domain mechanism of accumulation, sequencing, decomposition, and continuity. [[EdGlaeser]] uses Renaissance perspective, economics scholarship, everyday governance, and decades of NAACP litigation to challenge isolated-genius and leader-as-silver-bullet narratives. [[LindaHirshman]] traces U.S. gay-rights change through resistance, organization, research criticism, psychiatric declassification, state-law reform, *Lawrence v. Texas*, state marriage victories, and public opinion before the national marriage ruling. [[DavidLaibson]] connects early recurring contributions, employer matches, diversified low-fee funds, and compounding to auto-enrollment, escalation, suitable defaults, and balance preservation; this deepens [[IndexFundStrategy]] by making continuity and access part of implementation. [[DaveBrailsford]] describes marginal gains as measured performance decomposition and a shared culture of controllable improvement, not merely gadgets. The durable synthesis is foundation-first: peripheral optimization cannot replace talent, willingness, major constraints, institutional capacity, or direction. Nor does a successful outcome prove attribution, ethical legitimacy, inevitability, or completion; the Team Sky therapeutic-use-exemption controversy, incomplete LGBTQ nondiscrimination protections, and the episode's selective 2016 narratives preserve those limits. The duplicated Team Sky photograph was opened and omitted as contextual rather than evidentiary.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 4
+      },
+      "wikilinks": [
+        "DaveBrailsford",
+        "DavidLaibson",
+        "EdGlaeser",
+        "Incrementalism",
+        "IndexFundStrategy",
+        "LindaHirshman"
+      ]
+    },
     {
       "id": "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
       "primary_topic": "governance-and-institutions",
