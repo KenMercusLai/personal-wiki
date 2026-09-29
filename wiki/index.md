@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Understand Google Better than Google](sources/i-understand-google-better-than-google-elephate-medium.md) - Bartosz Goralewicz diagnoses Google Flights' 2018 visibility collapse through interacting JavaScript rendering, URL, redirect, linking, and indexing failures while preserving the limits of third-party SEO data.
 - [I Got Scammed By A Silicon Valley Startup](sources/i-got-scammed-by-a-silicon-valley-startup-startup-grind-medium.md) - A marketing director's anonymized account connects startup recruiting red flags with unpaid wages, alleged forged transfer records, evidence preservation, and alleged retaliation.
 - [I Am a 9 to 5 Developer (And So Can You!)](sources/i-am-a-9-to-5-developer-and-so-can-you-exception-not-found.md) - A developer argues that bounded work hours, breaks, and freedom from extracurricular coding expectations can support competence, family life, and protection from burnout and impostor feelings.
 - [How to Write a Note That You Will Actually Understand](sources/how-to-write-a-note-that-you-will-actually-understand.md) - Sascha Fast argues that long-lived notes need simple prose, content-specific templates, descriptive titles, and opening summaries for future comprehension.
@@ -822,6 +823,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Bartosz Goralewicz](entities/BartoszGoralewicz.md) - Elephate cofounder and technical SEO practitioner represented through his 2018 Google Flights analysis.
+- [Google Flights](entities/GoogleFlights.md) - Google's flight-search product represented through a historical JavaScript, URL consolidation, and indexing failure case.
 - [Sascha Fast](entities/SaschaFast.md) - Zettelkasten.de writer advocating durable, explicitly structured notes for one's future self.
 - [RunCloud](entities/RunCloud.md) - Linux server-management product represented through its educational port-diagnostics guide and firewall configuration interface.
 - [Tailscale](entities/Tailscale.md) - Encrypted mesh-networking product represented through relay-first NAT traversal and a private phone-to-cloud development path.
@@ -2261,6 +2264,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Technical SEO](concepts/TechnicalSEO.md) - Site-level discipline joining rendering, crawling, URL identity, redirects, internal links, and indexing with evidence-based change governance.
 - [Durable Note Writing](concepts/DurableNoteWriting.md) - Writing and editing notes so their meaning, relevance, and retrieval cues survive the loss of immediate context.
 - [Data Center Site Selection](concepts/DataCenterSiteSelection.md) - Staged conversion of capacity needs into a physically verified, risk-weighted, efficient, and commercially viable facility choice.
 - [Fractal Journaling](concepts/FractalJournaling.md) - Layered review practice that condenses timestamped fragments into progressively broader summaries while preserving traceability.

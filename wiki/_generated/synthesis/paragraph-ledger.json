@@ -607,12 +607,13 @@
       "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb",
       "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
-      "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
+      "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b",
+      "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0"
     ],
-    "paragraph_count": 607
+    "paragraph_count": 608
   },
-  "overview_commit": "c45a5c23139990a8de563a8ac6d20d58388ac48c",
-  "overview_digest": "ea41d4a1f8a9dae759ddc632bbf2f4a4f6f074f5fed90ddf1e0e48ffc9f5a1c9",
+  "overview_commit": "687fc4f4b0b88fcb64b202018b801327604470b2",
+  "overview_digest": "8dea6117a5fe801ec1381df84a1116e64189a98d5522b76a59cfb52b37811973",
   "paragraphs": [
     {
       "id": "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
@@ -12296,6 +12297,24 @@
         "PeterThiel",
         "RyanHoliday",
         "TechnologyElitePower"
+      ]
+    },
+    {
+      "id": "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[BartoszGoralewicz]] source adds [[TechnicalSEO]] as a coupled discovery path rather than a collection of ranking tricks. In his 2018 [[GoogleFlights]] case, a client-rendered relaunch is said to combine inaccessible or unindexed content, blocked JavaScript, redirect chains, footer links, and inconsistent trailing-slash handling; SearchMetrics reportedly fell from about 20,000 to 47 and Sistrix reportedly showed the competing URL forms moving in opposite directions. This turns Google's own [[SEOConsultantSelection]] guidance back on a Google product: platform expertise and a visually improved interface do not ensure that a product team has verified crawler access, rendered output, canonical URL identity, direct redirects, internal-link priority, and index coverage. The durable measurement boundary is equally important. Visibility scores and rank checks can trigger investigation, but the article discloses no first-party analytics, logs, Search Console data, source code, Google confirmation, booking conversion, or revenue evidence, so its six-figure-loss framing and allocation of cause remain unverified. All five local images were opened; duplicate decorative airplane photographs and the author avatar were omitted, while the only potentially evidentiary comparison graphic was just 60 by 9 pixels and could not be read or retained.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BartoszGoralewicz",
+        "GoogleFlights",
+        "SEOConsultantSelection",
+        "TechnicalSEO"
       ]
     }
   ],

@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | I Understand Google Better than Google
+
+Added [[BartoszGoralewicz]]'s 2018 diagnosis of [[GoogleFlights]]' reported organic-visibility collapse after a JavaScript-heavy relaunch. Created Bartosz Goralewicz, Google Flights, and [[TechnicalSEO]], and updated [[Google]] from its complete ordered 20-source evidence inventory with the rendering, crawling, trailing-slash URL, redirect, internal-link, and indexing case. Preserved the distinction between third-party visibility proxies and direct traffic, conversion, booking, or revenue evidence, and qualified the diagnosis through its lack of raw exports, first-party telemetry, Google confirmation, and readable chart detail. Opened all five effective local image references; omitted three duplicate decorative airplane photographs and one author-avatar GIF, while the only potentially evidentiary graphic was 60 by 9 pixels and could not be reliably interpreted or retained.
+
 ## [2026-09-29] ingest | I Got Scammed By A Silicon Valley Startup
 
 Added an anonymized marketing director's first-person account of rushed recruiting, unsupported funding and budget claims, unclear role authority, unpaid wages, employee lending, alleged forged transfer confirmations, evidence preservation, wage complaints, and alleged retaliation. Updated [[StartupJobDiligence]] from its complete ordered seven-source evidence inventory and expanded [[StartupGrind]] from its complete two-source inventory while preserving retrospective, anonymity, legal-scope, and independent-verification limits. Opened all 11 effective local image references; omitted three duplicate or decorative hero images and one decorative reaction strip, while seven evidence-bearing screenshots were only 60 pixels wide and could not be reliably interpreted or usefully retained, so the visual portion of the source remains incomplete.
@@ -6464,6 +6468,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Productivity Hack: Read One Chapter of a Book to Get 90% of the Value
 
 Added [[HunterWalk]]'s thesis-chapter-first heuristic for formulaic self-help, management, and broad social-analysis books. Updated [[FocusedReading]] and [[SpeedReadingMethod]] from their complete ordered evidence inventories, treating the table of contents as a chapter-selection tool while preserving the limits of the essay's rhetorical, unmeasured “90%” claim and its narrow book-structure assumption. Updated [[HunterWalk]] from all six of his source notes. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 
