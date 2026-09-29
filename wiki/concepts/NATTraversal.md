@@ -4,35 +4,44 @@ type: concept
 tags: [networking, remote-access, tunneling]
 sources:
   - shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu
-last_updated: 2026-09-13
+  - how-nat-traversal-works
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[NATTraversal]] is the set of techniques that let a service on a private network become reachable from another network despite address translation or firewall boundaries.
+[[NATTraversal]] is the set of direct-connect, mapping, coordination, and relay techniques that let peers communicate across address translation and stateful firewall boundaries.
 
 ## Current Synthesis
-This source shows NAT traversal through a concrete FRP tunnel. The IP camera remains on a private LAN address, `192.168.0.241`, while [[OpenWrt]] runs `frpc` rules that connect to a remote server and expose selected local TCP ports. The pattern is useful because the camera does not need a public IP address, but the article also implies the usual tradeoff: forwarding service ports makes private-device interfaces newly reachable and therefore security-sensitive.
+The evidence now spans two distinct strategies. An [[FRP]] client can initiate a durable tunnel from a private network to a reachable server, which is simple for selected TCP services but turns the public endpoint into an exposure and relay boundary. Direct peer-to-peer traversal instead uses UDP, a shared application socket, a coordination side channel, simultaneous outbound packets, endpoint discovery, and parallel candidate probing. Easy NAT mappings can often support a direct path; endpoint-dependent NAT, blocked UDP, failed CGNAT hairpinning, or path loss require a relay and recovery path.
+
+The robust pattern is therefore not hole punching alone. Start with a working encrypted relay, gather LAN, IPv6, STUN-derived, port-mapped, and operator-provided endpoints, probe them concurrently, upgrade to the best authenticated direct route, send keepalives, and fall back before rediscovery when that route disappears. [[Tailscale]] supplies the source's concrete relay-first implementation, while IPv6 simplifies address reachability without removing stateful-firewall coordination.
 
 ## Key Claims
-- NAT traversal can be implemented by a client on the private network initiating a tunnel to a reachable server.
-- Port-level forwarding is enough for simple services such as camera web access and RTSP streaming.
-- The tunnel decouples the private device address from the remote endpoint used by clients.
-- Tunneling improves reachability but does not by itself solve authentication, authorization, encryption, or exposure risk.
+- NAT traversal includes both server-mediated tunnels and direct UDP paths; relay service remains the reliability floor when direct paths fail.
+- Direct traversal depends on control of the application socket, coordinated simultaneous transmission, and discovery of candidate endpoints.
+- NAT mapping behavior matters more than old cone labels: endpoint-independent mappings are reusable, while endpoint-dependent mappings can invalidate STUN observations.
+- Port mapping, IPv6, NAT64 handling, and CGNAT hairpinning add candidates or remove barriers but are conditional rather than universal solutions.
+- Candidate racing should select and continuously verify the best working route, with keepalive, downgrade, and rediscovery behavior.
+- Dynamic paths require end-to-end authentication and encryption; reachability mechanisms do not establish application trust.
 
 ## Evidence
-- Private address: [[shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu]] configures `local_ip = 192.168.0.241` for the camera.
-- Forwarded services: [[shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu]] maps local ports `80` and `554` to remote ports `2418` and `554`.
-- Use case: [[shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu]] reads the forwarded RTSP stream from the server with FFmpeg.
+- Relay and tunnel patterns: [[shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu]] maps a camera's private ports `80` and `554` through FRP, while [[how-nat-traversal-works]] uses DERP or TURN-like relays when direct traversal fails.
+- Firewall traversal: [[how-nat-traversal-works]] explains that matching outbound UDP state permits return traffic and that coordinated peers can open opposing stateful firewalls.
+- Endpoint discovery and mapping: [[how-nat-traversal-works]] covers STUN, endpoint-independent versus endpoint-dependent mapping, UPnP IGD, NAT-PMP, PCP, CGNAT hairpinning, and NAT64/DNS64.
+- Path selection and recovery: [[how-nat-traversal-works]] gathers multiple candidates, probes them concurrently, upgrades from relay to a better path, and falls back after failure.
+- Exposure boundary: [[shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu]] exposes camera services through public server ports, while [[how-nat-traversal-works]] requires upper-layer end-to-end authentication and encryption across changing paths.
 
 ## Counterevidence & Qualifications
-The source presents FRP as a working tunnel, not a general taxonomy of NAT traversal. It does not discuss hole punching, relay tradeoffs, TLS, firewall scoping, credential rotation, or whether public port `554` should be exposed directly.
+The Tailscale source is a first-party 2020 technical explanation rather than a representative device survey; its connectivity estimate, IPv6 snapshot, relay preference, and implementation details are historical and source-scoped. Direct traversal cannot defeat networks that block outbound UDP, and birthday-style probing can resemble a port scan or exhaust NAT session tables. The FRP source proves a small TCP tunnel works but does not cover authentication, TLS, firewall scoping, or whether exposing camera web and RTSP ports is acceptable.
 
 ## What Changed
-- Created the concept page for NAT traversal.
+- Expanded the judgment from one FRP tunnel to a layered direct-connect, relay, candidate-selection, and recovery model.
+- Added NAT behavior, CGNAT/NAT64, and end-to-end security as explicit traversal boundaries.
 
 ## Related Concepts
 - [[RTSPStreaming]] - the RTSP service is the tunneled workload.
 - [[RemoteVideoRecording]] - NAT traversal lets a remote server record a private camera.
 - [[RemoteAdministrationExposure]] - newly reachable private services become exposure surfaces.
-- [[NetworkLoadBalancing]] - both concern packet/service reachability, but NAT traversal focuses on crossing private/public boundaries rather than distributing traffic.
+- [[QUIC]] - supplies stream semantics above UDP while retaining a traversal-friendly transport substrate.
+- [[SystemReliability]] - relay-first startup, health probes, fallback, and rediscovery treat path loss as recoverable state.

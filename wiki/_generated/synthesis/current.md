@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: c74de8dcf33cb7c8e54a5b25bd00ede0032ba5e2
+as_of_overview_commit: a6bb2da8517c6425af8c1b2c25c8f9a0477e165a
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 796
-source_count: 796
-paragraph_count: 602
+episode_count: 797
+source_count: 797
+paragraph_count: 603
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and power-aware participation rather than capability alone.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and resilient path management rather than capability alone.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
@@ -57,7 +57,7 @@ Media and culture combine expression, identity, distribution, monetization, plat
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, bounded stewardship, and ethical accountability when private capability becomes consequential action.
+Institutions need explicit authority, evidence, appeal, transparency, bounded stewardship, and ethical accountability when private capability or infrastructure becomes consequential action.
 
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].

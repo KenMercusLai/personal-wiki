@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How NAT traversal works](sources/how-nat-traversal-works.md) - Tailscale explains direct UDP traversal through stateful firewalls and NATs, endpoint discovery and mapping limits, encrypted relay fallback, CGNAT/NAT64, and ICE-style candidate racing and recovery.
 - [How I use Obsidian](sources/how-i-use-obsidian.md) - Steph Ango describes a bottom-up Markdown vault built from few folders, dense links, reusable properties and templates, layered review, random revisits, and a file-based publishing path.
 - [How I turned a cheap weather station into a personal DevOps dashboard](sources/how-i-turned-a-cheap-weather-station-into-a-personal-devops-dashboard.md) - Brian R. Jackson connects a 433 MHz weather sensor to Home Assistant, InfluxDB, and Grafana, then uses Flux, wind roses, heatmaps, and percentile bands to explore noisy history with explicit analytical limits.
 - [How I Made Twitter Back-end](sources/how-i-made-twitter-back-end.md) - Leo Antony sketches a Twitter-like microservice backend with asymmetric JWT verification, queued tweet processing, Redis timelines, and threshold-based push/pull fan-out while leaving production and measurement gaps explicit.
@@ -815,6 +816,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Tailscale](entities/Tailscale.md) - Encrypted mesh-networking product represented through relay-first NAT traversal and a private phone-to-cloud development path.
 - [Steph Ango](entities/StephAngo.md) - Author documenting a file-based, link-heavy Obsidian vault and Markdown publishing workflow.
 - [Brian R. Jackson](entities/BrianRJackson.md) - Engineering manager using personal home-automation builds as cross-layer DevOps learning projects.
 - [Home Assistant](entities/HomeAssistant.md) - Home-automation integration layer that discovers, normalizes, displays, and forwards the weather-station entities.
@@ -3243,7 +3245,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [PR Review Hygiene](concepts/PRReviewHygiene.md) - Practices that keep code changes small, explainable, and inspectable for reviewers.
 - [Player Guidance](concepts/PlayerGuidance.md) - Cues, mechanics, timing, and layout that steer player attention and action without explicit instruction.
 - [Production Agent Infrastructure](concepts/ProductionAgentInfrastructure.md) - Infrastructure for long-running, high-permission AI agents with nondeterministic decisions and real side effects.
-- [QUIC](concepts/QUIC.md) - UDP-based transport protocol used by HTTP/3 for multiplexing, reliability, TLS integration, and connection identity.
+- [QUIC](concepts/QUIC.md) - UDP-based stream transport used by HTTP/3 and traversal-aware applications for reliability, TLS, multiplexing, and connection identity.
 - [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - Recursive curve-simplification algorithm that retains points according to maximum deviation from segment chords.
 - [Reliability Investment](concepts/ReliabilityInvestment.md) - Sustained staffing, time, process enforcement, and business priority needed to make reliability practices real.
 - [Reverse Learning](concepts/ReverseLearning.md) - Negative learning in which aversive context associations suppress valuation and memory consolidation.
@@ -3333,7 +3335,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [RTSP Streaming](concepts/RTSPStreaming.md) - Direct network-video stream access pattern used by IP cameras and consumed by players or FFmpeg.
 - [Remote Video Recording](concepts/RemoteVideoRecording.md) - Capturing a live network stream on a remote machine through tunneling and scheduled command-line recording.
 - [Self-Hosted Surveillance Storage](concepts/SelfHostedSurveillanceStorage.md) - Keeping camera footage on user-controlled infrastructure rather than in a vendor cloud or bundled recorder.
-- [NAT Traversal](concepts/NATTraversal.md) - Techniques such as tunneling that make private-network services reachable from a remote endpoint.
+- [NAT Traversal](concepts/NATTraversal.md) - Direct probing, endpoint mapping, coordination, and relay techniques for connectivity across address translators and stateful firewalls.
 - [Double-Entry Accounting](concepts/DoubleEntryAccounting.md) - Accounting system presented as a useful model for developers building software that tracks money.
 - [Accounting Software Architecture](concepts/AccountingSoftwareArchitecture.md) - Design choice between modeling accounting directly and deriving reports from business-document records.
 - [Financial Software Design](concepts/FinancialSoftwareDesign.md) - Building software that represents money and business events with financially correct models.

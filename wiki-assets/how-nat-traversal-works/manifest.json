@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "how-nat-traversal-works",
+  "images": [
+    {
+      "file": "shared-udp-socket.png",
+      "alt": "Application protocol and NAT traversal logic sharing one UDP socket"
+    },
+    {
+      "file": "stateful-firewall-response-rule.png",
+      "alt": "Stateful firewall accepting a response only after matching outbound traffic"
+    },
+    {
+      "file": "simultaneous-firewall-traversal.png",
+      "alt": "Bidirectional peer traffic after both stateful firewalls have observed outbound packets"
+    },
+    {
+      "file": "nat-address-rewrite.png",
+      "alt": "Home router rewriting a private source address to a public NAT mapping"
+    },
+    {
+      "file": "stun-endpoint-discovery.png",
+      "alt": "STUN server reporting the public endpoint created by the home router"
+    },
+    {
+      "file": "endpoint-dependent-nat.png",
+      "alt": "Endpoint-dependent NAT assigning different public ports for different destinations"
+    },
+    {
+      "file": "cgnat-hairpin-path.png",
+      "alt": "CGNAT hairpin path attempting to turn traffic back toward another subscriber network"
+    },
+    {
+      "file": "nat64-dns64-translation.png",
+      "alt": "IPv6-only client reaching IPv4 services through DNS64 and a NAT64 gateway"
+    }
+  ]
+}

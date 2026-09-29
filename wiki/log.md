@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | How NAT traversal works
+
+Added Tailscale's first-principles account of UDP traversal through stateful firewalls, NAT endpoint discovery, mapping behavior, relay fallback, CGNAT hairpinning, NAT64, and ICE-style path selection and recovery. Created [[Tailscale]], updated [[NATTraversal]] from its complete two-source evidence inventory, and updated [[QUIC]] from its complete two-source inventory to include traversal-aware stream use over a shared UDP socket. Preserved the first-party, historical, device-variability, blocked-UDP, probabilistic-probing, session-table, and security qualifications. Opened all 21 local diagrams; retained eight non-redundant architecture and edge-case diagrams under descriptive canonical filenames and omitted sequential or repeated topology variants.
+
 ## [2026-09-29] ingest | Here's Why There Won't Be an Uber for Accounting
 
 Added Going Concern's 2016 argument that [[Uber]]'s short, bounded, on-demand transaction model does not transfer automatically to scheduled, diagnostic, trust-heavy accounting relationships. Created [[ServiceMarketplaceFit]] and updated [[Uber]] and [[HumanPremiumServices]] from their complete ordered evidence inventories, separating marketplace intermediation from direct automation of standardized tax and bookkeeping work. Preserved the article's practitioner, historical, forecast, category-simplification, hybrid-marketplace, credential-governance, and later-AI limitations. The source Markdown contains no effective image references, so no visual asset or manifest was required.
@@ -6420,6 +6424,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | How I use Obsidian
 
 Added [[StephAngo]]'s bottom-up Obsidian workflow built from ordinary Markdown files, few folders, overlapping category views, reusable properties and templates, dense and sometimes unresolved links, layered periodic review, random revisits, and a Git-to-Jekyll publishing path. Created [[StephAngo]], [[FileOverApp]], and [[FractalJournaling]], and updated [[Obsidian]] and [[PersonalKnowledgeManagement]] from their complete ordered evidence inventories. Preserved the source's explicitly personal and non-dogmatic scope, its separate publishing-vault exception, and the lack of comparative evidence that minimal folders, manual review, plugin choices, or a seven-point scale improve outcomes. The source contains no image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

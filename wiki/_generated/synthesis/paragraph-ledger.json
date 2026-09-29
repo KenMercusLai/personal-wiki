@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e238c2b79f3ab105e8cace752b02622847b99b51569702e7a61f26c609a785b3",
       "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
       "b03c8f95040fd51199d5945a21ab709456003a8d08d1d0d52d3cf01495023c49",
       "995bb2bc737455283d985755e17f4267b2bf66d79ba8aa96bf15bd9e885e2a8a",
@@ -604,11 +605,28 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 602
+    "paragraph_count": 603
   },
-  "overview_commit": "c74de8dcf33cb7c8e54a5b25bd00ede0032ba5e2",
-  "overview_digest": "b97fb313443569f86e646f48099522e72898b1003759a3390ddf56b8d71d8ec7",
+  "overview_commit": "a6bb2da8517c6425af8c1b2c25c8f9a0477e165a",
+  "overview_digest": "7b9a1876d624f24b1027aba7d7108a58c2d2a5d79787f7915b6e0230915095e8",
   "paragraphs": [
+    {
+      "id": "e238c2b79f3ab105e8cace752b02622847b99b51569702e7a61f26c609a785b3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[Tailscale]] source turns the wiki's existing FRP tunnel example into a broader [[NATTraversal]] model. A traversal-aware application controls one UDP socket, uses a side channel to coordinate simultaneous outbound packets, discovers public mappings with STUN, requests extra candidates through UPnP IGD, NAT-PMP, or PCP where available, and races LAN, IPv6, WAN, mapped, and operator-provided endpoints. Endpoint-dependent NAT, blocked UDP, failed CGNAT hairpinning, NAT64, expiring firewall state, and route loss make direct connectivity conditional, so the durable architecture starts through an authenticated encrypted relay, upgrades to the best measured direct path, keeps it alive, and falls back before rediscovery. This also sharpens [[QUIC]]: it can provide streams while preserving the shared UDP socket needed for traversal. The article is a first-party 2020 design explanation rather than a representative device study; its success estimate, IPv6 snapshot, relay choices, and port-probing tactics remain source-scoped. All 21 diagrams were opened; eight non-redundant architecture and edge-case diagrams were retained under descriptive canonical filenames.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "NATTraversal",
+        "QUIC",
+        "Tailscale"
+      ]
+    },
     {
       "id": "da773ace08084cbde53bfc0f82b868d20f5f755a4dd91a3f1924f14736f1b26a",
       "primary_topic": "business-and-markets",
