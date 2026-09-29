@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
       "aa6a9d7188571028567726a0d1c2373f0cdda18bbf4817dcc0b3ba06dc258abc",
       "18cb5103243d72a2d57f3d7fc909d601ca28b913e08b53a782a66ba73cf06723",
       "e238c2b79f3ab105e8cace752b02622847b99b51569702e7a61f26c609a785b3",
@@ -608,11 +609,27 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 606
+    "paragraph_count": 607
   },
-  "overview_commit": "0b469004f43d3e227ab6e30ac0f77b795ddea57f",
-  "overview_digest": "e53d265ee90c8499dcca680e33f719c542e24a9cb24b41e874d283cda8e2c20e",
+  "overview_commit": "c45a5c23139990a8de563a8ac6d20d58388ac48c",
+  "overview_digest": "ea41d4a1f8a9dae759ddc632bbf2f4a4f6f074f5fed90ddf1e0e48ffc9f5a1c9",
   "paragraphs": [
+    {
+      "id": "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[StartupGrind]] source extends [[StartupJobDiligence]] from pre-offer questions into continued verification after joining. An anonymized marketing director reports that rushed travel and relocation, unusually generous promises, pre-start boundary tests, unclear role authority, founder biography-selling, weak product differentiation, and unexplained investor pursuit preceded missing bonuses and pay stubs, cashier's checks, prolonged unpaid wages, employee loans to a founder, shifting payment stories, alleged forged transfer confirmations, and alleged retaliation after wage claims. The durable distinction is between ordinary startup uncertainty and evidence that compensation or employment representations may be unreliable: candidates and workers can verify funding and payroll claims, pause new personal exposure when contractual payments fail, preserve contracts and contemporaneous work and payment records, protect personal runway, and consult authoritative remedies. The account is a retrospective, anonymized first-person narrative rather than prevalence or predictive evidence; its California wage, retaliation, and H-1B discussion reflects the author's 2016 circumstances, not current legal guidance. All 11 local images were opened, but seven evidence-bearing screenshots survive only as 60-pixel-wide thumbnails whose text and fine details cannot be independently interpreted; duplicate, decorative, and unusably small images were omitted, leaving the visual portion incomplete.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "StartupGrind",
+        "StartupJobDiligence"
+      ]
+    },
     {
       "id": "aa6a9d7188571028567726a0d1c2373f0cdda18bbf4817dcc0b3ba06dc258abc",
       "primary_topic": "work-education-and-society",

@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | I Got Scammed By A Silicon Valley Startup
+
+Added an anonymized marketing director's first-person account of rushed recruiting, unsupported funding and budget claims, unclear role authority, unpaid wages, employee lending, alleged forged transfer confirmations, evidence preservation, wage complaints, and alleged retaliation. Updated [[StartupJobDiligence]] from its complete ordered seven-source evidence inventory and expanded [[StartupGrind]] from its complete two-source inventory while preserving retrospective, anonymity, legal-scope, and independent-verification limits. Opened all 11 effective local image references; omitted three duplicate or decorative hero images and one decorative reaction strip, while seven evidence-bearing screenshots were only 60 pixels wide and could not be reliably interpreted or usefully retained, so the visual portion of the source remains incomplete.
+
 ## [2026-09-29] ingest | How the data center site selection process works at Dropbox
 
 Added Dropbox's staged facility-selection process from capacity gates through RFP diligence, technical questionnaires, physical site verification, weighted scoring, fiber shared-fate review, PUE and sustainability terms, and lease negotiation. Created [[DataCenterSiteSelection]] and updated [[Dropbox]] from its complete ordered five-source evidence inventory. Preserved the first-party, unquantified outcome, undisclosed scoring, PUE-boundary, transferability, and realized-performance limitations. Opened both effective local image references; retained the technical scorecard under a descriptive canonical filename and omitted the tiny promotional “New” badge as decorative.
@@ -6460,6 +6464,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Productivity Hack: Read One Chapter of a Book to Get 90% of the Value
 
 Added [[HunterWalk]]'s thesis-chapter-first heuristic for formulaic self-help, management, and broad social-analysis books. Updated [[FocusedReading]] and [[SpeedReadingMethod]] from their complete ordered evidence inventories, treating the table of contents as a chapter-selection tool while preserving the limits of the essay's rhetorical, unmeasured “90%” claim and its narrow book-structure assumption. Updated [[HunterWalk]] from all six of his source notes. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

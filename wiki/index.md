@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Got Scammed By A Silicon Valley Startup](sources/i-got-scammed-by-a-silicon-valley-startup-startup-grind-medium.md) - A marketing director's anonymized account connects startup recruiting red flags with unpaid wages, alleged forged transfer records, evidence preservation, and alleged retaliation.
 - [I Am a 9 to 5 Developer (And So Can You!)](sources/i-am-a-9-to-5-developer-and-so-can-you-exception-not-found.md) - A developer argues that bounded work hours, breaks, and freedom from extracurricular coding expectations can support competence, family life, and protection from burnout and impostor feelings.
 - [How to Write a Note That You Will Actually Understand](sources/how-to-write-a-note-that-you-will-actually-understand.md) - Sascha Fast argues that long-lived notes need simple prose, content-specific templates, descriptive titles, and opening summaries for future comprehension.
 - [How to Check if TCP Port is Open, Closed or in Use on Linux?](sources/how-to-check-if-tcp-port-is-open-closed-or-in-use-on-linux.md) - RunCloud demonstrates local socket inventory, process attribution, TCP endpoint probes, and firewall-rule deployment while exposing the distinctions among listening, allowed, reachable, and vulnerable states.
@@ -1384,7 +1385,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Homepage](entities/GoogleHomepage.md) - Search-first Google interface used as the source's digital example of a recognizable product core surviving long-term iteration.
 - [HODINKEE](entities/HODINKEE.md) - Watch and design media/company context that prompted the source's comparison between physical and digital timelessness.
 - [Porsche 911](entities/Porsche911.md) - Physical product comparator used to show recognizable design continuity through decades of iteration.
-- [Startup Grind](entities/StartupGrind.md) - Publication context for the digital-product timelessness essay.
+- [Startup Grind](entities/StartupGrind.md) - Publication venue represented through product-design commentary and a first-person startup employment cautionary account.
 - [Andy Jassy](entities/AndyJassy.md) - AWS CEO quoted criticizing Oracle's cloud position and citing AWS Database Migration Service adoption.
 - [CNBC](entities/CNBC.md) - Business-news publisher of the 2018 Amazon-Oracle database migration report.
 - [Jordan Novet](entities/JordanNovet.md) - CNBC technology reporter credited on the Amazon-Oracle database migration article.
@@ -3313,7 +3314,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity, product-scope constraint, and survival time rather than only calendar months before cash runs out.
-- [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate-side evaluation of startup viability and personal fit across risk, management structure, equity, autonomy, networks, and learning rate.
+- [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate and employee verification of startup viability, payroll, conduct, role conditions, fit, learning returns, and escalation signals.
 - [Vanity Metrics](concepts/VanityMetrics.md) - Attention or activity metrics that look impressive but weakly evidence durable business progress unless tied to revenue, customers, retention, or active use.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path or differentiated wedge when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
 - [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.
