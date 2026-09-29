@@ -6584,3 +6584,11 @@ Added [[DanWolch]]'s question-led workflow for locating activation, heavy-use, d
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Idiomatic Python: EAFP versus LBYL
+
+Added [[BrettCannon]]'s comparison of exception-driven EAFP with precondition-checking LBYL and created Brett Cannon plus [[EAFPAndLBYL]]. Updated [[Python]] from its complete ordered six-source evidence inventory with expected-path communication, specific exception handling, and narrow `try` scope. Preserved LBYL as a legitimate clarity choice and qualified the article's unbenchmarked 2016 performance claim, concurrency and side-effect omissions, and practitioner-source scope. The local capture omitted the code blocks, so the surviving official Microsoft post was checked to recover the dictionary membership, `try`/`except KeyError`, and `try`/`else` examples. The source's only image is a remote header reference that returned HTTP 404 and could not be inspected or retained; no visual claim relies on it.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
