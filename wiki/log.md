@@ -6765,6 +6765,14 @@ Ran lint. See lint-report.md for details.
 
 Added Mark Bergen and Josh Eidelson's 2018 investigation of Google's large temp, vendor, and contractor layer. Created [[ContingentWorkforce]] and updated [[Google]] and [[DataAnnotationLabor]] from their complete ordered evidence inventories, connecting flexible capacity, headcount budgeting, rapid staffing, and specialist access with divided responsibility, badge-based hierarchy, unequal benefits and information, weak grievance pathways, and hidden human work in mapping, moderation, and AI exception handling. Preserved the variation in pay, union coverage, team treatment, and career value; Google's missing contractor and agency counts; the point-in-time reporting boundary; and the unresolved legal question of joint-employer responsibility. Opened all 14 unique local image files, retained the full-resolution lead illustration under a descriptive canonical filename, and omitted two smaller duplicates, ten recommendation thumbnails, and two tiny contextual photographs.
 
+## [2026-09-30] ingest | Inside HBO’s Plan to Win the Streaming Wars
+
+Added Joy Press's two-paragraph 2019 Vanity Fair excerpt marking HBO's transition from uncontested Emmy dominance to a 23-award tie with Netflix under new corporate oversight after AT&T's reported $85 billion Time Warner acquisition. Created [[HBO]], [[RichardPlepler]], and [[JohnStankey]]; updated [[ATT]] and [[StreamingContentEconomics]] from their complete ordered evidence inventories. Preserved the distinction between cultural prestige, financial performance, and strategic success, and treated the excerpt as a narrow historical snapshot rather than the full article's streaming-strategy argument. Opened the sole local image and omitted the editorial event photograph as decorative because it added no material evidence beyond the prose.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

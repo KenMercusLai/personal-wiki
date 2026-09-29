@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside HBO’s Plan to Win the Streaming Wars](sources/inside-hbos-plan-to-win-the-streaming-wars-vanity-fair.md) - A two-paragraph Vanity Fair excerpt marks HBO's 2018 Emmy tie with Netflix and AT&T's new oversight after acquiring Time Warner.
 - [Inside Google’s Shadow Workforce](sources/inside-googles-shadow-workforce-bloomberg.md) - Bloomberg's 2018 investigation connects Google's large contractor layer to flexible capacity and hidden digital labor as well as divided responsibility, unequal benefits, and workplace hierarchy.
 - [Inside Amazon's Fake Review Economy](sources/inside-amazons-fake-review-economy.md) - Nicole Nguyen maps paid-review recruitment, verified-purchase evasion, consumer and seller harm, and Amazon's incomplete enforcement response.
 - [Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI](sources/inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic.md) - TechRepublic connects AMT's low-paid, opaque platform labor with the human labeling, cleaning, moderation, and exception work behind AI systems.
@@ -860,6 +861,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [HBO](entities/HBO.md) - Prestige television network shown at the 2018 intersection of Netflix competition and new AT&T ownership.
+- [Richard Plepler](entities/RichardPlepler.md) - HBO chairman and CEO represented as the relationship-oriented leader of its prestige culture during an ownership transition.
+- [John Stankey](entities/JohnStankey.md) - AT&T and Warner Media executive linked to oversight of HBO after the Time Warner acquisition.
 - [Disney](entities/Disney.md) - Entertainment company represented through its 2016 retreat from internal major-game publishing toward intellectual-property licensing.
 - [Alex Seropian](entities/AlexSeropian.md) - Bungie cofounder and former Disney game executive who frames publishing as a patient, multi-bet portfolio.
 - [Disney Infinity](entities/DisneyInfinity.md) - Toys-to-life franchise whose scale, cost, category outlook, and cancellation anchor Disney's game-business case.
@@ -2216,7 +2220,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nathan Bashaw](entities/NathanBashaw.md) - Hardbound founder-author reflecting on failed fundraising, team responsibility, and learning from failure.
 - [Hardbound](entities/Hardbound.md) - Mobile illustrated nonfiction-summary startup with strong engagement but unresolved growth, revenue, and content-production economics.
 - [General Assembly](entities/GeneralAssembly.md) - Bashaw's pre-Hardbound employment context in the Hardbound update.
-- [AT&T](entities/ATT.md) - Telecommunications company and research context for push-button telephone keyset studies, also present as a Unix source-licensing constraint.
+- [AT&T](entities/ATT.md) - Telecommunications company represented through keypad research, Unix source licensing, and the Time Warner acquisition that placed HBO under its ownership.
 - [Jean-Baptiste Schwilgue](entities/JeanBaptisteSchwilgue.md) - French inventor credited with an 1844 working key-driven calculator prototype.
 - [James Ritty](entities/JamesRitty.md) - Dayton saloon owner and cash-register inventor used to qualify simple keypad-origin stories.
 - [Dorr Felt](entities/DorrFelt.md) - Comptometer inventor whose 9-to-1 multi-column layout shaped calculator-keypad history.
@@ -2981,7 +2985,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Middle Age Strategy](concepts/AppleMiddleAgeStrategy.md) - Ben Thompson's frame for mature Apple using ASPs, Services, additional devices, and engagement to grow inside a saturated premium smartphone market.
 - [Apple Real World Social Network](concepts/AppleRealWorldSocialNetwork.md) - Thompson's frame for Today at Apple as controlled, retail-based social engagement around Apple's installed base.
 - [Apple Product Theory](concepts/AppleProductTheory.md) - Above Avalon's framework for Apple's product line as increasingly personal alternatives to prior computing tasks.
-- [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
+- [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, cultural competition, ownership, and platform leverage.
 - [Apple Music Culture Platform](concepts/AppleMusicCulturePlatform.md) - Strategy of making Apple Music a home for artists, radio, brand, and shared cultural moments rather than only a streaming catalog.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
 - [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile marketplace reach, spending, geography, category mix, growth rates, and ranking durability.
