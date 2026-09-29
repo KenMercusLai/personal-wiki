@@ -6453,6 +6453,14 @@ Added RunCloud's practical Linux port-diagnostics guide and created [[RunCloud]]
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | Productivity Hack: Read One Chapter of a Book to Get 90% of the Value
+
+Added [[HunterWalk]]'s thesis-chapter-first heuristic for formulaic self-help, management, and broad social-analysis books. Updated [[FocusedReading]] and [[SpeedReadingMethod]] from their complete ordered evidence inventories, treating the table of contents as a chapter-selection tool while preserving the limits of the essay's rhetorical, unmeasured “90%” claim and its narrow book-structure assumption. Updated [[HunterWalk]] from all six of his source notes. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

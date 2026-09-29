@@ -4,7 +4,8 @@ type: concept
 tags: [reading, learning, methodology]
 sources:
   - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
-last_updated: 2026-09-14
+  - hunter-walk-productivity-hack-read-one-chapter-of-a-book-to-get-90-percent-of-the-value
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,10 +17,12 @@ The source presents speed reading as a judgment-and-attention method rather than
 
 The speed-reading pass builds a map. Instead of pursuing full comprehension immediately, the reader scans visually, moves by semantic units, notices topic sentences and contrast markers, and asks what the author is trying to prove. The point is to locate structure and priority: new concepts, old concepts whose importance has been underweighted, and replacement concepts that challenge previous assumptions. Deep reading follows only when the book has enough value to merit conversion into memory, explanation, notes, writing, or teaching.
 
+Walk adds a narrower shortcut for formulaic idea-driven nonfiction: inspect the table of contents, locate the chapter that presents the thesis—often chapter two or three—and start there. This compresses the mapping pass from a whole-book scan to chapter selection, but it does not establish that later evidence and examples are dispensable or that the claimed 90% value share is literal.
+
 ## Key Claims
 - Speed reading begins with evaluation because time and attention are the real reading costs.
 - A useful reader can respect books without treating every sentence as equally valuable.
-- The first pass should judge topic, author promise, table of contents, and review quality before committing to deep reading.
+- The first pass should judge topic, author promise, table of contents, review quality, and likely thesis location before committing to deep reading.
 - Fast reading means selective visual and semantic navigation, not simply processing every word faster.
 - The reader should hunt for new concepts, neglected familiar concepts, and concepts that revise prior assumptions.
 - Deep reading is most useful when it is oriented toward remembering, explaining, writing, or teaching.
@@ -32,12 +35,13 @@ The speed-reading pass builds a map. Instead of pursuing full comprehension imme
 - Speed-reading technique: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] recommends visual scanning, semantic-unit movement, keyword locations, contrast markers, and attention to nouns and verbs.
 - Concept hunting: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] identifies new concepts, underweighted old concepts, and replacement concepts as the three main things to find.
 - Output test: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] defines effective deep reading by whether the reader can remember and output the material.
+- Chapter-first shortcut: [[hunter-walk-productivity-hack-read-one-chapter-of-a-book-to-get-90-percent-of-the-value]] suggests that a table of contents can identify the central-idea chapter in formulaic self-help, management, or social-analysis books.
 
 ## Counterevidence & Qualifications
-The method is aimed at nonfiction and practical reading, not at fiction, poetry, or other reading whose value may depend on lingering with style, atmosphere, or experience. It assumes the reader can make reasonable judgments from prefaces, tables of contents, and reviews, which may fail when a field is unfamiliar or when marketing copy is misleading. The source also presents a practitioner method, not empirical evidence that the sequence works better for every reader or every book.
+The method is aimed at nonfiction and practical reading, not at fiction, poetry, or other reading whose value may depend on lingering with style, atmosphere, or experience. It assumes the reader can make reasonable judgments from prefaces, tables of contents, and reviews, which may fail when a field is unfamiliar or when marketing copy is misleading. Both sources present practitioner heuristics rather than comparative evidence. Walk's chapter-two pattern applies only to a stereotyped book structure, and skipping supporting argument can sacrifice evidence, nuance, retention, and the ability to assess whether the thesis is actually justified.
 
 ## What Changed
-- Created the concept for Wulc's three-stage nonfiction reading workflow.
+- Added a thesis-chapter-first shortcut as a more aggressive structural triage method, bounded by the lack of empirical support for its “90%” claim.
 
 ## Related Concepts
 - [[FocusedReading]] - speed reading is a targeted intake mode that searches for structure, questions, and high-value concepts.

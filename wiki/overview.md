@@ -582,9 +582,12 @@ sources:
   - graphql-vs-rest-apollo-graphql
   - graphql-a-success-story-for-paypal-checkout-paypal-engineering-medium
   - ground-control-to-silicon-valley
+  - hunter-walk-productivity-hack-read-one-chapter-of-a-book-to-get-90-percent-of-the-value
 last_updated: 2026-09-29
 ---
 # Overview
+
+The newest [[HunterWalk]] source adds a deliberately aggressive chapter-level tactic to [[FocusedReading]] and [[SpeedReadingMethod]]. For formulaic self-help, management, and broad social-analysis books, Walk suggests using the table of contents to locate the chapter that states the central idea—often chapter two or three—before investing in the foreword, author credentials, and later examples. The durable contribution is structural triage, not the literal promise that one chapter contains 90% of a book's value. The essay supplies no book sample, comprehension test, retention measure, or method for deciding when examples are necessary evidence rather than padding; its pattern should not be generalized to fiction, technical reference, history, cumulative argument, or works whose value lies in method, style, evidence, or sustained development. The supplied Markdown contains no effective image references.
 
 The newest [[RunCloud]] source adds an observation layer to [[DefensivePortTriage]] before port numbers are interpreted as service risks. `ss` and `netstat` inventory local TCP and UDP sockets, process-aware output links listeners to programs, `nc -zv` tests one TCP endpoint from one observation point, and the retained firewall screenshot shows that configured rules may not yet be deployed. The combined synthesis is deliberately staged: “listening locally,” “allowed by policy,” “reachable from this client,” “the expected service,” and “vulnerable” are separate claims. Bind address, protocol, IPv4 versus IPv6, NAT, filtering, routing, and deployment state can make those observations diverge, while UDP has no TCP-style connection handshake. The source is beginner-oriented vendor content rather than an independent security assessment; it collapses some open/closed/in-use states, omits bind-scope and socket-reuse exceptions when saying only one program can use a port, and recommends a textual `grep :PORT` filter whose own screenshots overmatch multiple port numbers. All six effective images were opened and retained under descriptive canonical names because they provide evidence about firewall state, `netstat` and `ss` output, local and remote `nc` results, and listener-to-process attribution.
 
