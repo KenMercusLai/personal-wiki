@@ -822,6 +822,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
+- [I Used AI To Clone My Voice And Trick My Mom Into Thinking It Was Me](sources/i-used-ai-to-clone-my-voice-and-trick-my-mom-into-thinking-it-was-me.md) - Charlie Warzel shows that a recognizable but imperfect voice clone can fool a familiar listener when a short scripted call, shared context, and a bad-reception pretext hide its defects.
+
 ## Entities
 - [Bartosz Goralewicz](entities/BartoszGoralewicz.md) - Elephate cofounder and technical SEO practitioner represented through his 2018 Google Flights analysis.
 - [Google Flights](entities/GoogleFlights.md) - Google's flight-search product represented through a historical JavaScript, URL consolidation, and indexing failure case.
@@ -2263,6 +2265,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mariano Rodriguez Colombelli](entities/MarianoRodriguezColombelli.md) - Hibox and Beamer co-founder advocating narrow buyer focus, rapid iteration, automation, and constrained headcount.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
+- [Charlie Warzel](entities/CharlieWarzel.md) - Technology journalist represented through a first-person test of accessible voice cloning and contextual impersonation.
+- [Lyrebird](entities/Lyrebird.md) - Historical vocal-avatar service that learned from prompted recordings and rendered typed text in the enrolled speaker's voice.
+- [Aviv Ovadya](entities/AvivOvadya.md) - Disinformation researcher warning that accessible synthetic media can falsify perceived events and weaken confidence in reality.
+
 ## Concepts
 - [Technical SEO](concepts/TechnicalSEO.md) - Site-level discipline joining rendering, crawling, URL identity, redirects, internal links, and indexing with evidence-based change governance.
 - [Durable Note Writing](concepts/DurableNoteWriting.md) - Writing and editing notes so their meaning, relevance, and retrieval cues survive the loss of immediate context.
@@ -3433,5 +3439,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Whistleblower Reporting Systems](concepts/WhistleblowerReportingSystems.md) - Training, reporting channels, anonymity controls, escalation, and recurring communication for surfacing serious misconduct.
 
 - [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining independently controlled data copies and proving they can restore the required scope and point in time.
+
+- [Voice Clone Impersonation](concepts/VoiceCloneImpersonation.md) - Use of cloned speech with scripted scope, familiar context, and plausible channel defects to make a listener accept a false speaker identity.
 
 ## Syntheses

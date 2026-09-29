@@ -6488,3 +6488,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | I Used AI To Clone My Voice And Trick My Mom Into Thinking It Was Me
+
+Added [[CharlieWarzel]]'s 2018 demonstration of [[VoiceCloneImpersonation]] using [[Lyrebird]] and created source-scoped profiles for Warzel, Lyrebird, and [[AvivOvadya]]. The synthesis distinguishes raw voice fidelity from practical deception: about sixty prompted recordings produced recognizable but audibly imperfect speech, while a familiar dinner-plan pretext, prepared clips, a brief interaction, and a bad-reception explanation hid the remaining defects. Preserved the single-target, first-person scope, lack of blinded comparison or independently inspectable audio, and the difference between consented self-cloning and the article's prospective misuse warning. Opened and retained all six effective local images under descriptive canonical filenames because they document the synthetic-media context, recording workflow, editor feedback, scripted call, and reported success.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

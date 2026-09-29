@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: 687fc4f4b0b88fcb64b202018b801327604470b2
+as_of_overview_commit: c23deda4aabfc6b6e175ef5f4f63297e1598494b
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, boundaries, and choice."
-episode_count: 804
-source_count: 804
+episode_count: 805
+source_count: 805
 paragraph_count: 608
 topic_count: 9
 ---

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "i-used-ai-to-clone-my-voice-and-trick-my-mom-into-thinking-it-was-me",
+  "images": [
+    {
+      "file": "synthetic-face-video-editing.jpg",
+      "alt": "Video-editing screen combining a recorded face with a synthetic Donald Trump face model"
+    },
+    {
+      "file": "lyrebird-recording-prompt.jpg",
+      "alt": "Lyrebird recording interface asking the user to read and validate a prompted sentence"
+    },
+    {
+      "file": "editor-first-clone-reaction.png",
+      "alt": "Editor reacts with surprise after hearing a voice clone trained on sixty recorded sentences"
+    },
+    {
+      "file": "editor-improved-clone-assessment.png",
+      "alt": "Editor says the improving voice clone resembles a bad phone connection and could benefit from audio cleanup"
+    },
+    {
+      "file": "scripted-call-clips.jpg",
+      "alt": "Lyrebird history showing short prerecorded phrases scripted for the impersonation call"
+    },
+    {
+      "file": "editor-call-success-reaction.png",
+      "alt": "Editor conversation confirming that the live call using the cloned voice fooled the author's mother"
+    }
+  ]
+}
