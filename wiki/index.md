@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I told a senior developer at Microsoft he was wrong.](sources/i-told-a-senior-developer-at-microsoft-he-was-wrong.md) - A Microsoft intern describes how repeated review, persistent questions, and diagnosing a senior engineer's memory-management defect turned deference into independent engineering judgment.
 - [I studied the Zappos CEO’s schedule for a year. Here’s what I learned.](sources/i-studied-the-zappos-ceos-schedule-for-a-year-heres-what-i-learned.md) - Daniel Rodic uses Tony Hsieh's public 2015 schedule to examine bounded email triage, calendar capacity, delegation, and transparency while preserving causal limits around Holacracy.
 - [I Quit My Job and I Have One Year to Get to Profitability](sources/i-quit-my-job-and-i-have-one-year-to-get-to-profitability.md) - Andrey Azimov frames quitting employment as a one-year, low-burn, publicly accountable search for $1,000 in monthly product revenue and later reports seven launches and goal attainment.
 - [I know why rejection emails suck. I write them.](sources/i-know-why-rejection-emails-suck-i-write-them-triplebyte-blog.md) - Kelsey Piper explains why useful rejection feedback requires structured evidence, careful wording, editorial capacity, and iteration rather than detail alone.
@@ -2017,6 +2018,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Android](entities/Android.md) - Google's broad mobile ecosystem, combining reach and distribution with fragmentation, monetization, app-governance, and passive telemetry tradeoffs.
 - [iOS](entities/IOS.md) - Apple's mobile ecosystem, service-control surface, interaction-design environment, and high-spending App Store base.
 - [Microsoft](entities/Microsoft.md) - Software and platform company framed through profitable origins, intangible economics, mobile-era adaptation, product innovation, and OpenAI partnership safeguards.
+- [Microsoft Groove](entities/MicrosoftGroove.md) - Microsoft's peer-to-peer business collaboration product and SharePoint synchronization environment in a 2008 internship account.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Social, media, advertising, and data platform whose graph, persistent identity, distribution power, and engagement model create context-dependent strengths and tensions.

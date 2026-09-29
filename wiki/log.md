@@ -6141,6 +6141,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | I told a senior developer at Microsoft he was wrong.
+
+Added a first-person Microsoft internship account in which repeated code review, daily questions, and a memory-leak investigation moved a junior engineer from deference to evidence-backed disagreement. Created [[MicrosoftGroove]] with a disambiguated key because [[Groove]] already names an unrelated company, and updated [[Microsoft]], [[JuniorEngineerLearning]], [[WorkplaceLearning]], [[EngineeringExpertise]], [[PsychologicalSafety]], and [[ImposterSyndrome]] from their complete ordered evidence inventories. Preserved the retrospective, single-person, unmeasured-outcome, mentoring-cost, and non-diagnostic limits. The source's three remote images could not be opened because their original hosts were unreachable or returned 404 responses; they were omitted and no visual claim depends on them, so the source was not fully visually ingested.
+
 ## [2026-09-29] ingest | I Am a 9 to 5 Developer (And So Can You!)
 
 Added a first-person defense of bounded software work that separates engineering competence from routine overtime, marathon coding, blogging, open-source contribution, and technical talks. Updated [[WorkLifeBalance]], [[BurnoutPrevention]], and [[ImposterSyndrome]] from their complete ordered evidence inventories to connect daily stopping rules with family attention, recovery, endless technical problem queues, impossible knowledge standards, and social-media comparison. Preserved the source's allowance for rare critical overtime, its personal rather than comparative evidence, and the distinction between a useful boundary and a universally enforceable schedule. Opened both unique local images, omitted the clock and stop-sign illustrations as decorative, and omitted the clock's repeated embed as a duplicate.
@@ -6552,6 +6556,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | I Quit My Job and I Have One Year to Get to Profitability
 
 Added [[AndreyAzimov]]'s 2018 one-year independent-maker experiment built around a $1,000 monthly revenue target, roughly $500 in monthly personal expenses, repeated launches, public progress reporting, and a tolerable fallback. Created Andrey Azimov and [[PieterLevels]], updated [[IndependentCreator]] and [[SmallProductPortfolio]] from their complete ordered evidence inventories, and distinguished a temporary pre-fit search portfolio from durable multi-product operation and later single-product focus. Preserved the first-person, survivor-narrative, missing product-level economics, workload, causality, and independent-verification limits. Opened all five local images and omitted them as decorative or duplicate portraits and illustrations; no visual evidence or asset manifest was required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

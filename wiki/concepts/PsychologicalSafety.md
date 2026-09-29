@@ -7,7 +7,8 @@ sources:
   - your-product-manager-super-power-not-knowing-everything-mind-the-product
   - being-a-junior-developer-at-30-by
   - dont-be-a-hypocrite-about-failure-2
-last_updated: 2026-09-27
+  - i-told-a-senior-developer-at-microsoft-he-was-wrong
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,6 +22,8 @@ A product-management essay adds a related boundary: admitting that one does not 
 
 The failure-hypocrisy essay sharpens the authority signal. It argues that a leader can verbally permit failure while visibly resenting staff mistakes, thereby discouraging disclosure and experimentation without imposing a formal penalty. Its positive mechanism is not celebration of every failure but leaders admitting specific mistakes, inviting outside perspectives, and showing how feedback changed the next attempt. This connects [[FailureOwnership]] to team climate while leaving open whether public disclosure is always safe or appropriate.
 
+The Microsoft internship narrative adds a concrete status-crossing interaction. An intern who had received extensive corrective feedback asked basic questions, investigated a defect, and then challenged a senior engineer's implementation. The senior engineer accepted the evidence without defensiveness and handed over the fix. That response did not prove team-wide safety, but it reduced the interpersonal penalty for accurate disagreement and helped convert deference into responsible participation.
+
 ## Key Claims
 - People need room to express disagreement and ask questions before group advice can be genuinely informative.
 - Recording dissent and making changed decisions visible can turn an error into organizational learning rather than a reason to conceal it.
@@ -28,6 +31,7 @@ The failure-hypocrisy essay sharpens the authority signal. It argues that a lead
 - Leaders and peers shape whether uncertainty, feedback, and learning are practically safe to surface.
 - Formal permission to fail can be overridden by leaders' visible reactions and by incentives that still punish exploratory setbacks.
 - Safety supports candid discussion without requiring consensus, removing decision ownership, or excusing harmful behavior.
+- Calm, evidence-responsive treatment of a junior colleague's correction can make status-crossing disagreement safer and more useful.
 
 ## Evidence
 - Dissent and decision ownership: [[blog-andrew-harmel-law-martinfowler-com-scaling-the-practice-of-architecture-conversationally]] calls for affected people and experts to be consulted, for disagreement to be sought and recorded, and for the originator to retain the decision.
@@ -36,13 +40,14 @@ The failure-hypocrisy essay sharpens the authority signal. It argues that a lead
 - Feedback in a junior role: [[being-a-junior-developer-at-30-by]] describes asking questions, discussing insecurities with a boss, and learning through feedback from supportive teammates.
 - Failure signals: [[dont-be-a-hypocrite-about-failure-2]] argues that leaders who hide their own mistakes or react negatively to staff failures can suppress experimentation even when they avoid formal punishment.
 - Modeled candor: [[dont-be-a-hypocrite-about-failure-2]] describes a leader disclosing a failed event, receiving difficult feedback, and changing the next organizing attempt.
+- Status-crossing correction: [[i-told-a-senior-developer-at-microsoft-he-was-wrong]] reports that a senior developer accepted an intern's memory-leak diagnosis without humiliation or a status contest.
 
 ## Counterevidence & Qualifications
-These are practitioner and personal accounts, not controlled comparisons or measurements of psychological safety. The architecture author discusses safety, dissent, trust, and learning without using the exact term "psychological safety"; the label here is a cross-source synthesis, not a quotation or a finding attributed to that article. The product-management source addresses questioning, the junior-developer account describes one person's supportive environment, and the failure essay generalizes from one event plus informal podcast observations; none establishes a universal causal effect. A forum or failure policy can be formally open while hierarchy, incentives, confidentiality, legal exposure, time, retaliation risk, or exclusion still discourage participation. Some decisions also need clear authority, accountability, and non-negotiable safeguards, not unlimited debate or indiscriminate disclosure.
+These are practitioner and personal accounts, not controlled comparisons or measurements of psychological safety. The architecture author discusses safety, dissent, trust, and learning without formally testing the construct; the product-management source addresses questioning; the two junior-engineer accounts describe supportive interactions; and the failure essay generalizes from one event plus informal observations. A single senior colleague's gracious response does not prove that a wider team is safe. Formal openness can coexist with hierarchy, incentives, confidentiality, legal exposure, time pressure, retaliation risk, or exclusion, and some decisions still need clear authority and non-negotiable safeguards.
 
 ## What Changed
-- Added the distinction between formally permitting failure and responding in ways that make disclosure or experimentation practically unsafe.
-- Connected leader-owned mistakes and changed action to the repeated authority signals that shape team candor.
+- Added an intern-to-senior correction as a concrete status-crossing test of how authority responds to evidence.
+- Distinguished one supportive interaction from proof of team-wide psychological safety.
 
 ## Related Concepts
 - [[AdviceProcess]] - seeks dissenting advice while keeping decision ownership with the originator.
