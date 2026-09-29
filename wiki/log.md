@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | I Have Forgotten How to Read
+
+Added [[MichaelHarris]]'s 2018 first-person argument that abundant text consumption can coexist with weaker [[DeepReading]] when links, feeds, alerts, and novelty train fragmented, impatient, and instrumental reading. Created Michael Harris and Deep Reading, and updated [[FocusedReading]] from its complete ordered six-source evidence inventory to distinguish useful goal-directed selection from a universal extraction mindset that can erase literary, emotional, stylistic, and cumulative value. Preserved the essay's introspective, secondary, causally uncontrolled, medium-versus-mode, genre, accessibility, and individual-difference limits. Opened both local image embeds, retained the fuller editorial illustration of app icons over an open novel under a descriptive canonical filename, and omitted the tighter duplicate crop.
+
 ## [2026-09-29] ingest | I Understand Google Better than Google
 
 Added [[BartoszGoralewicz]]'s 2018 diagnosis of [[GoogleFlights]]' reported organic-visibility collapse after a JavaScript-heavy relaunch. Created Bartosz Goralewicz, Google Flights, and [[TechnicalSEO]], and updated [[Google]] from its complete ordered 20-source evidence inventory with the rendering, crawling, trailing-slash URL, redirect, internal-link, and indexing case. Preserved the distinction between third-party visibility proxies and direct traffic, conversion, booking, or revenue evidence, and qualified the diagnosis through its lack of raw exports, first-party telemetry, Google confirmation, and readable chart detail. Opened all five effective local image references; omitted three duplicate decorative airplane photographs and one author-avatar GIF, while the only potentially evidentiary graphic was 60 by 9 pixels and could not be reliably interpreted or retained.
@@ -6524,6 +6528,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | I hate the term ‘open source’
 
 Added [[NadiaEghbal]]'s distinction between license-backed open-source rights and the broader culture of public building, collaboration, stewardship, and compensation. Created [[PublicSoftware]] as her proposed umbrella while preserving the follow-up's insistence that the legal definition and user freedoms remain essential, and expanded [[OpenSourceProjectMaintenance]] from its complete two-source evidence inventory. Opened both unique local image files, retained the readable Open Source Initiative definition screenshot under a descriptive canonical filename, and omitted its tiny repeated copy as a duplicate.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5366b48267f4664e85ab183b0b3c56eae6e213e4ac91be3d33f82e7133685dd6",
       "ce3a806fb8a25d919a1a21409dc264ee97804dc00ac196c839c36fcc562b0cd3",
       "3c8aceb42d3c1fda0770a8546a5eb9849f11e55ce1255661a6fc06dea8677604",
       "312410909eee12a00121df9645c9dc9a9bafff0837613bdc60b6266cbb8c8ec8",
@@ -614,11 +615,27 @@
       "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
       "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814"
     ],
-    "paragraph_count": 612
+    "paragraph_count": 613
   },
-  "overview_commit": "731c230b74017227ec397fbb70430d7a606c630f",
-  "overview_digest": "61c579ce09361f2ac1baedad5bca93d321347d7d2b3ddb5b1134f32be6af4541",
+  "overview_commit": "f99756f2781da99a1d9643dcae9e9fc7612385de",
+  "overview_digest": "67411e0e6008d7c31397e78e754f7b76622eb829b2237c1c546ba14dab34dd1c",
   "paragraphs": [
+    {
+      "id": "5366b48267f4664e85ab183b0b3c56eae6e213e4ac91be3d33f82e7133685dd6",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest [[MichaelHarris]] source adds [[DeepReading]] as a learned attentional mode distinct from both text volume and immediate information extraction. Harris's first-person case contrasts patient immersion in books with a screen-trained habit of searching for useful facts, shareable fragments, comments, points, and rapid novelty; the durable claim is that repeated expectations of interruption can follow a reader across formats, so a text-saturated person may still read worse. This supplies a boundary for [[FocusedReading]] and [[SpeedReadingMethod]]: question-led selection and structural triage are useful for lookup and practical nonfiction, but literature and cumulative arguments can lose their value when every passage must justify itself through immediate utility or output. The essay also proposes a creator feedback loop in which compressed, provocative consumption encourages compressed, provocative writing. Its remedy is patient, slow, sometimes non-instrumental book reading, but the evidence remains one introspective cultural essay with secondary references rather than measured neurological change, population prevalence, or a controlled print-screen comparison. Both local embeds were opened; the fuller editorial illustration of app icons and notification badges over an open novel was retained, and its tighter duplicate crop was omitted.",
+      "topic_scores": {
+        "culture-and-media": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DeepReading",
+        "FocusedReading",
+        "MichaelHarris",
+        "SpeedReadingMethod"
+      ]
+    },
     {
       "id": "ce3a806fb8a25d919a1a21409dc264ee97804dc00ac196c839c36fcc562b0cd3",
       "primary_topic": "work-education-and-society",

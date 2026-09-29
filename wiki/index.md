@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Have Forgotten How to Read](sources/i-have-forgotten-how-to-read-the-globe-and-mail.md) - Michael Harris argues that text abundance can coexist with declining deep reading when digital habits train fragmented, impatient, and instrumental attention.
 - [I hate the term ‘open source’](sources/i-hate-the-term-open-source-nadia-eghbal-medium.md) - Nadia Eghbal separates license-backed open-source rights from public-development culture and proposes “public software” for broader discussion of participation, stewardship, and paid labor.
 - [I couldn’t find a good Personal CRM — So I created my own and want to share it with you](sources/i-couldnt-find-a-good-personal-crm-so-i-created-my-own-and-want-to-share-it-with-you-radreads.md) - Khe Hy turns Google Sheets validation, controlled tags, notes, and filters into a personal relationship-retrieval system while leaving outcomes, maintenance, privacy, and scale unmeasured.
 - [I am an investor in 9 companies: How and why I started angel investing](sources/i-am-an-investor-in-9-companies-how-and-why-i-started-angel-investing.md) - Joel Gascoigne explains a relationship-led, fixed-check angel practice designed around loss tolerance, founder support, follow-on investment, impact, and learning.
@@ -830,6 +831,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Michael Harris](entities/MichaelHarris.md) - Author and first-person critic of how digitally trained attention can alter book reading and writing.
 - [Nadia Eghbal](entities/NadiaEghbal.md) - Open-source writer and Feast cofounder distinguishing legal user rights from the culture, labor, and stewardship of public development.
 - [Khe Hy](entities/KheHy.md) - RadReads author represented through his controlled-tag Google Sheets personal CRM and relationship-maintenance rationale.
 - [Bartosz Goralewicz](entities/BartoszGoralewicz.md) - Elephate cofounder and technical SEO practitioner represented through his 2018 Google Flights analysis.
@@ -2279,6 +2281,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Arnold Schwarzenegger](entities/ArnoldSchwarzenegger.md) - Bodybuilder, actor, businessman, and former governor who rejects solitary-success attribution and treats continued learning as essential.
 
 ## Concepts
+- [Deep Reading](concepts/DeepReading.md) - Sustained, patient engagement that lets extended meaning develop beyond immediate extraction, novelty, or utility.
 - [Public Software](concepts/PublicSoftware.md) - Umbrella for publicly accessible software and collaboration that preserves open source as a narrower license-backed rights category.
 - [Personal CRM](concepts/PersonalCRM.md) - Personally maintained relationship system using structured context and retrieval to support introductions, targeted sharing, and follow-up.
 - [Technical SEO](concepts/TechnicalSEO.md) - Site-level discipline joining rendering, crawling, URL identity, redirects, internal links, and indexing with evidence-based change governance.

@@ -4,8 +4,8 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-29
-as_of_overview_commit: 2423eaf934a565b97f57508beb93ac08ef0e859c
-input_digest: 93a3a3325dde7efb43e0df8fcac5775e86a3481e1aa6a72f2bf88815e52f4634
+as_of_overview_commit: f99756f2781da99a1d9643dcae9e9fc7612385de
+input_digest: 12c52894c214b2f147011142e4599a1361d4ef630b7676e10ed388f958386c44
 ---
 
 # Culture and Media
@@ -116,13 +116,14 @@ Account access is also a participation boundary: [[MikeHearn]] separates stable 
 
 ### Media Form Shapes Systematic Learning
 
-[[LearningMediaChoice]], [[SpeedReadingMethod]], and [[FocusedReading]] treat selection and reading mode as part of learning design. [[ChristianTietze]], [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], [[NoteGranularity]], and [[LearningByWriting]] add a capture-to-synthesis path in which slips can be regrouped by purpose before overview and detail notes separate reusable concerns and test understanding through rewriting. [[HerbertLui]] adds a longer paper-first lifecycle in which regular placement drives review, digitization responds to retrieval friction, and [[NoteToolFit]] includes exportability. [[AcademicResearchWorkflow]] adds a publication layer in which [[Zotero]] records enter [[Obsidian]] under stable citekeys before [[Pandoc]] converts citation-bearing drafts, preserving the boundary between comprehensive capture and synthesis.
+[[LearningMediaChoice]], [[SpeedReadingMethod]], and [[FocusedReading]] treat selection and reading mode as part of learning design, while [[MichaelHarris]] and [[DeepReading]] bound that instrumental approach by distinguishing useful extraction from sustained engagement whose literary or cumulative value emerges without immediate utility. [[ChristianTietze]], [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], [[NoteGranularity]], and [[LearningByWriting]] add a capture-to-synthesis path in which slips can be regrouped by purpose before overview and detail notes separate reusable concerns and test understanding through rewriting. [[HerbertLui]] adds a longer paper-first lifecycle in which regular placement drives review, digitization responds to retrieval friction, and [[NoteToolFit]] includes exportability. [[AcademicResearchWorkflow]] adds a publication layer in which [[Zotero]] records enter [[Obsidian]] under stable citekeys before [[Pandoc]] converts citation-bearing drafts, preserving the boundary between comprehensive capture and synthesis.
 
-**Evidence:** [[LearningMediaChoice]], [[SpeedReadingMethod]], [[FocusedReading]], [[SystematicLearning]], [[ActiveLearning]], [[FeynmanTechnique]], [[CrossDomainWisdom]], [[DIKWModel]], [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], [[LearningByWriting]], [[NoteToolFit]], [[Obsidian]], [[AcademicResearchWorkflow]], [[Zotero]], [[Pandoc]], [[PersonalKnowledgeManagement]], [[ChristianTietze]], [[NoteGranularity]], [[HerbertLui]], [[NiklasLuhmann]]
+**Evidence:** [[LearningMediaChoice]], [[SpeedReadingMethod]], [[FocusedReading]], [[MichaelHarris]], [[DeepReading]], [[SystematicLearning]], [[ActiveLearning]], [[FeynmanTechnique]], [[CrossDomainWisdom]], [[DIKWModel]], [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], [[LearningByWriting]], [[NoteToolFit]], [[Obsidian]], [[AcademicResearchWorkflow]], [[Zotero]], [[Pandoc]], [[PersonalKnowledgeManagement]], [[ChristianTietze]], [[NoteGranularity]], [[HerbertLui]], [[NiklasLuhmann]]
 
 **Qualifications:**
 
-- The book-centered, speed-reading, and card-note recommendations are qualitative workflow accounts rather than comparative learning studies.
+- The book-centered, speed-reading, deep-reading, and card-note recommendations are qualitative workflow or reflective accounts rather than comparative learning studies.
+- Harris's first-person essay does not measure neurological change, population prevalence, or causal differences between print and screen; it supports a distinction between reading modes rather than an inherent ranking of media.
 - The Zettelkasten source is a secondary book note with shifting three-note taxonomies and broad psychological claims that should remain hypotheses rather than universal findings.
 - The academic toolchain is one practitioner's 2023 plugin configuration; it does not establish comparative productivity, current compatibility, or that imported annotations produce understanding.
 - Tietze describes one 2013 paper-first workflow demonstrated with a short book read in one sitting; it does not compare capture media, learning outcomes, retrieval quality, or scale.

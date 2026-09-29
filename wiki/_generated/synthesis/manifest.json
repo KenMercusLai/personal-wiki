@@ -1,27 +1,27 @@
 {
   "content_date": "2026-09-29",
   "corpus": {
-    "episode_count": 809,
-    "source_count": 809
+    "episode_count": 810,
+    "source_count": 810
   },
   "generated": true,
   "global": {
-    "candidate_digest": "be93b7247092aa0a4b7ad92e420b80f4b57e28bbd28c57e01f32c68f87f6d9ee",
-    "compacted_at": "2026-09-29T06:18:46.651758Z",
+    "candidate_digest": "f55cbf0b364a9211150b5b8f254be479e6db2cb0c918e94545f6e280df25d068",
+    "compacted_at": "2026-09-29T07:29:40.099833Z",
     "content_date": "2026-09-29",
     "corpus": {
-      "episode_count": 809,
-      "source_count": 809
+      "episode_count": 810,
+      "source_count": 810
     },
-    "output_digest": "6d1c5d769718255745c15036f816699e2b7b6f104d13e410254dcb4c440e9a12",
-    "overview_commit": "731c230b74017227ec397fbb70430d7a606c630f",
-    "overview_digest": "61c579ce09361f2ac1baedad5bca93d321347d7d2b3ddb5b1134f32be6af4541",
+    "output_digest": "f9406c95524cf27c771a189e845b2cd17dc6ab86a15c4089b4296f9c7e6bfed2",
+    "overview_commit": "f99756f2781da99a1d9643dcae9e9fc7612385de",
+    "overview_digest": "67411e0e6008d7c31397e78e754f7b76622eb829b2237c1c546ba14dab34dd1c",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "731c230b74017227ec397fbb70430d7a606c630f",
-  "overview_digest": "61c579ce09361f2ac1baedad5bca93d321347d7d2b3ddb5b1134f32be6af4541",
-  "paragraph_count": 612,
+  "overview_commit": "f99756f2781da99a1d9643dcae9e9fc7612385de",
+  "overview_digest": "67411e0e6008d7c31397e78e754f7b76622eb829b2237c1c546ba14dab34dd1c",
+  "paragraph_count": 613,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -43,9 +43,9 @@
       "title": "Cross-domain"
     },
     "culture-and-media": {
-      "claim_digest": "7710e7d77d83d7eec107ed683137203eb34bbec3983f0664173a9dd03b7fea03",
-      "input_digest": "93a3a3325dde7efb43e0df8fcac5775e86a3481e1aa6a72f2bf88815e52f4634",
-      "output_digest": "82a0839d1b0d560961861d9d28e94d79bccf47726e3f1033f29968312eb91070",
+      "claim_digest": "38c1b14ef6214169326e6f58091a92d09de2c4cab8f13d0b270d310de6f44c48",
+      "input_digest": "12c52894c214b2f147011142e4599a1361d4ef630b7676e10ed388f958386c44",
+      "output_digest": "755cc8794c76f1fcdc467b9ae3fe82061d552fcf518d37f062ca036c7d185c3b",
       "title": "Culture and Media"
     },
     "governance-and-institutions": {
