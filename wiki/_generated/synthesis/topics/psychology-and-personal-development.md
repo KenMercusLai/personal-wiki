@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-29
-as_of_overview_commit: e056b743efcb1be5b583eb951c341e57dd9d5210
-input_digest: a4804461033d0ab5af8d14d3d7a392bf0edc9b9143a92062a8805387cd752f81
+as_of_overview_commit: 30dd3ed201a7ab1284418089b66c53e852eb71a9
+input_digest: f09f82dfe455bf14e79e37ee254591752d76ba5c235cdcc1043f97b42a6535a6
 ---
 
 # Psychology and Personal Development
@@ -516,3 +516,15 @@ The [[GoogleFlights]] case illustrates a general evidence-calibration rule throu
 
 - The evidence is one self-reported 2014 spreadsheet implementation with roughly 500 contacts and no measured retrieval, maintenance, privacy, or relationship outcomes.
 - Controlled tags reduce spelling variants but can become stale, reductive, overlapping, or sensitive, while free-form notes restore flexibility at the cost of consistency.
+
+### Bounded Communication Needs Ownership And Shared Context
+
+[[Yesterbox]] and [[EmailTaskManagement]] show that personal communication load becomes more tractable when the queue has a time boundary, explicit ownership, delegation, urgency exceptions, and calendar capacity; [[OrganizationalTransparency]] extends the same logic to teams by making priorities, decisions, and meeting context inspectable, while the [[TonyHsieh]] and [[Zappos]] case does not establish that transparency or Holacracy caused the reported workload decline.
+
+**Evidence:** [[Yesterbox]], [[EmailTaskManagement]], [[OrganizationalTransparency]], [[TonyHsieh]], [[Zappos]]
+
+**Qualifications:**
+
+- The evidence is one secondary analysis of one executive's public 2015 schedule, and the saved source does not provide the underlying dataset or reproducible coding method.
+- The reported year-over-year decline in email and work hours uses selected months and cannot isolate Holacracy or transparency from delegation, staffing, seasonality, or other organizational changes.
+- A delayed email queue and broad transparency can be inappropriate for urgent work, sensitive personnel matters, legal duties, proprietary information, privacy, or security boundaries.

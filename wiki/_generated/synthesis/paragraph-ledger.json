@@ -614,12 +614,13 @@
       "c501c3f0de7c8d3432c051cfc4807b706d8aac7fa0e2b4fc5104fd4c20265bd0",
       "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
       "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814",
-      "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93"
+      "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
+      "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
     ],
-    "paragraph_count": 614
+    "paragraph_count": 615
   },
-  "overview_commit": "d1fd82e654fb7504804d3fdc64a3a3c018c4e32a",
-  "overview_digest": "bc027b146a81763813f0d46122c76e97023b8e4e6d038ebe4b3f2b8dc2e58e57",
+  "overview_commit": "30dd3ed201a7ab1284418089b66c53e852eb71a9",
+  "overview_digest": "c7f3beff0638606b472578b7a903c2ea7fd2bf473c500775749982710fcb82a9",
   "paragraphs": [
     {
       "id": "5366b48267f4664e85ab183b0b3c56eae6e213e4ac91be3d33f82e7133685dd6",
@@ -12427,6 +12428,23 @@
         "HiringSystemDesign",
         "KelseyPiper",
         "Triplebyte"
+      ]
+    },
+    {
+      "id": "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The Tony Hsieh schedule analysis adds a management-and-productivity bridge between individual workflow and organizational information design. [[Yesterbox]] makes yesterday's inbox a bounded daily queue, but the [[TonyHsieh]] case also shows that high-volume executive email depends on delegation and chief-of-staff triage rather than individual discipline alone; [[EmailTaskManagement]] therefore needs explicit scope, ownership, urgency exceptions, and calendar capacity as well as flags or inbox-zero rituals. At the organizational level, [[OrganizationalTransparency]] treats shared priorities, calendars, decisions, and meeting records as infrastructure for decentralized judgment and fewer avoidable questions. [[Zappos]]'s 2015 Holacracy rollout is a suggestive but weak causal case: the article reports 54% fewer emails and 15% fewer daily work hours in selected year-over-year months, yet supplies no raw analysis and cannot separate transparency or Holacracy from delegation, staffing, seasonality, or other change.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "EmailTaskManagement",
+        "OrganizationalTransparency",
+        "TonyHsieh",
+        "Yesterbox",
+        "Zappos"
       ]
     }
   ],

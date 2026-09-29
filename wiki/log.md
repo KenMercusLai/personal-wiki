@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | I studied the Zappos CEO’s schedule for a year. Here’s what I learned.
+
+Added Daniel Rodic's analysis of [[TonyHsieh]]'s public 2015 schedule and created Tony Hsieh, [[Yesterbox]], and [[OrganizationalTransparency]]. Updated [[EmailTaskManagement]] from its complete three-source evidence inventory and expanded [[Zappos]] from its complete ordered three-source inventory with customer-service participation, radical transparency, and the company-wide Holacracy rollout. Preserved the source's internally inconsistent email-throughput figures, missing raw analysis, selected-month comparison, one-executive scope, and the distinction between correlation and causal evidence: the reported 54% email decline and 15% work-hour decline cannot be assigned to Holacracy alone. Opened all four effective local image files; omitted the repeated promotional Tony Hsieh/Zappos photograph, its thumbnail duplicate, and the repeated subscription button as decorative or duplicate.
+
 ## [2026-09-29] ingest | I Have Forgotten How to Read
 
 Added [[MichaelHarris]]'s 2018 first-person argument that abundant text consumption can coexist with weaker [[DeepReading]] when links, feeds, alerts, and novelty train fragmented, impatient, and instrumental reading. Created Michael Harris and Deep Reading, and updated [[FocusedReading]] from its complete ordered six-source evidence inventory to distinguish useful goal-directed selection from a universal extraction mindset that can erase literary, emotional, stylistic, and cumulative value. Preserved the essay's introspective, secondary, causally uncontrolled, medium-versus-mode, genre, accessibility, and individual-difference limits. Opened both local image embeds, retained the fuller editorial illustration of app icons over an open novel under a descriptive canonical filename, and omitted the tighter duplicate crop.
@@ -6548,6 +6552,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | I Quit My Job and I Have One Year to Get to Profitability
 
 Added [[AndreyAzimov]]'s 2018 one-year independent-maker experiment built around a $1,000 monthly revenue target, roughly $500 in monthly personal expenses, repeated launches, public progress reporting, and a tolerable fallback. Created Andrey Azimov and [[PieterLevels]], updated [[IndependentCreator]] and [[SmallProductPortfolio]] from their complete ordered evidence inventories, and distinguished a temporary pre-fit search portfolio from durable multi-product operation and later single-product focus. Preserved the first-person, survivor-narrative, missing product-level economics, workload, causality, and independent-verification limits. Opened all five local images and omitted them as decorative or duplicate portraits and illustrations; no visual evidence or asset manifest was required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I studied the Zappos CEO’s schedule for a year. Here’s what I learned.](sources/i-studied-the-zappos-ceos-schedule-for-a-year-heres-what-i-learned.md) - Daniel Rodic uses Tony Hsieh's public 2015 schedule to examine bounded email triage, calendar capacity, delegation, and transparency while preserving causal limits around Holacracy.
 - [I Quit My Job and I Have One Year to Get to Profitability](sources/i-quit-my-job-and-i-have-one-year-to-get-to-profitability.md) - Andrey Azimov frames quitting employment as a one-year, low-burn, publicly accountable search for $1,000 in monthly product revenue and later reports seven launches and goal attainment.
 - [I know why rejection emails suck. I write them.](sources/i-know-why-rejection-emails-suck-i-write-them-triplebyte-blog.md) - Kelsey Piper explains why useful rejection feedback requires structured evidence, careful wording, editorial capacity, and iteration rather than detail alone.
 - [I Have Forgotten How to Read](sources/i-have-forgotten-how-to-read-the-globe-and-mail.md) - Michael Harris argues that text abundance can coexist with declining deep reading when digital habits train fragmented, impatient, and instrumental attention.
@@ -833,6 +834,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 
 ## Entities
+- [Tony Hsieh](entities/TonyHsieh.md) - Zappos executive represented through a 2015 schedule analysis of email, meetings, delegation, transparency, and distributed authority.
 - [Andrey Azimov](entities/AndreyAzimov.md) - Independent product maker represented through a one-year, low-burn profitability experiment and reported seven-app outcome.
 - [Pieter Levels](entities/PieterLevels.md) - Independent product maker represented as Azimov's adviser and repeated-launch role model.
 - [Michael Harris](entities/MichaelHarris.md) - Author and first-person critic of how digitally trained attention can alter book reading and writing.
@@ -2286,6 +2288,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Yesterbox](concepts/Yesterbox.md) - Email workflow that makes yesterday's inbox a bounded daily queue and pairs it with quick handling, delegation, team triage, and calendar capacity.
+- [Organizational Transparency](concepts/OrganizationalTransparency.md) - Availability of priorities, decisions, calendars, and operating context so people can coordinate and decide with less dependence on private access.
 - [Candidate Rejection Feedback](concepts/CandidateRejectionFeedback.md) - Individualized post-interview explanation whose value depends on bounded evidence, decision clarity, review capacity, and careful wording.
 - [Deep Reading](concepts/DeepReading.md) - Sustained, patient engagement that lets extended meaning develop beyond immediate extraction, novelty, or utility.
 - [Public Software](concepts/PublicSoftware.md) - Umbrella for publicly accessible software and collaboration that preserves open source as a narrower license-backed rights category.
