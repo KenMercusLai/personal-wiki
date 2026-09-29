@@ -5,19 +5,23 @@ tags: [dataset, benchmark, computer-vision, deep-learning]
 sources:
   - from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune
   - from-not-working-to-neural-networking-technology
-last_updated: 2026-09-28
+  - inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[ImageNet]] is presented as a free collection of millions of hand-labeled images and an annual computer-vision competition that made data scale and model progress publicly comparable.
+[[ImageNet]] is presented as a free collection of millions of hand-labeled images and an annual computer-vision competition that made data scale and model progress publicly comparable, while depending on a large and often hidden annotation workforce.
 
 ## Current Profile
-Fei-Fei Li launched ImageNet to test the view that larger labeled datasets would change machine learning. The dataset went live in 2009 and gained an annual contest in 2010, training entrants on labeled examples before evaluating them on unseen test images and convening a follow-up workshop to exchange methods. The sources place its historical importance in the 2012 competition: one says a deep network built by Geoffrey Hinton's students performed almost twice as accurately as its nearest competitor, while the shorter Economist excerpt reports winning accuracy moving from 72% in 2010 to 85% in 2012 and then 96% in 2015. Both treat the 2012 discontinuity as a field-level opinion shift, but only the Economist excerpt extends that effect to rehabilitation of the broader “AI” label.
+Fei-Fei Li launched ImageNet to test the view that larger labeled datasets would change machine learning. The dataset went live in 2009 and gained an annual contest in 2010, training entrants on labeled examples before evaluating them on unseen test images and convening a follow-up workshop to exchange methods. A later journalistic account makes the construction layer explicit: nearly 50,000 people, most recruited through [[AmazonMechanicalTurk]], reportedly checked, sorted, and labeled almost one billion candidate images over two years to produce more than 14 million categorized images.
+
+The sources place ImageNet's historical importance in the 2012 competition: one says a deep network built by Geoffrey Hinton's students performed almost twice as accurately as its nearest competitor, while the shorter Economist excerpt reports winning accuracy moving from 72% in 2010 to 85% in 2012 and then 96% in 2015. Both treat the 2012 discontinuity as a field-level opinion shift, but only the Economist excerpt extends that effect to rehabilitation of the broader “AI” label. The labor account qualifies that technical narrative: benchmark scale depended not only on models and compute, but also on the task design, screening, and repetitive judgments of a distributed workforce.
 
 ## Key Characteristics
 - Combined a very large labeled-image collection with open access for research.
 - Supplied supervised training data rather than asking systems to learn solely from unlabeled imagery.
+- Required nearly 50,000 people to screen and label a much larger candidate pool, according to the TechRepublic account.
 - Used an annual contest to create a common evaluation and publication event.
 - Made the 2012 deep-learning performance discontinuity visible to the broader field.
 - Supplied a public progress narrative through reported winning results of 72% in 2010, 85% in 2012, and 96% in 2015.
@@ -31,13 +35,14 @@ Fei-Fei Li launched ImageNet to test the view that larger labeled datasets would
 - Evaluation institution: [[from-not-working-to-neural-networking-technology]] describes labeled training images, previously unseen test images, and a follow-up workshop where winners shared techniques.
 - Reported progression: [[from-not-working-to-neural-networking-technology]] gives winning accuracy as 72% in 2010, 85% in 2012, and 96% in 2015 against a stated 95% human average.
 - Broader reputation: [[from-not-working-to-neural-networking-technology]] treats the 2012 result as a catalyst for renewed public use of the “AI” label.
+- Annotation workforce: [[inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic]] reports that nearly 50,000 people, most recruited through [[AmazonMechanicalTurk]], checked, sorted, and labeled almost one billion candidate images over two years.
 
 ## Qualifications
-Both magazine accounts simplify competition results to “accuracy” without consistently naming the error metric or experimental details. The Economist excerpt does not explain the class scope, evaluation protocol, or construction of its 95% human average, and its 96% machine result cannot be generalized beyond the benchmark task. ImageNet success measures performance on a curated labeled benchmark, not robust open-world vision, causal understanding, fairness, or safe deployment.
+The sources simplify competition results to “accuracy” without consistently naming the error metric or experimental details. The Economist excerpt does not explain the class scope, evaluation protocol, or construction of its 95% human average, and its 96% machine result cannot be generalized beyond the benchmark task. The TechRepublic account reports labor scale but does not document task instructions, sampling, worker pay, annotation disagreement, quality controls, or whose categories shaped the dataset. ImageNet success measures performance on a curated labeled benchmark, not robust open-world vision, causal understanding, fairness, safe deployment, or fair labor conditions.
 
 ## What Changed
-- Created a source-bounded profile of ImageNet as both data infrastructure and a public evaluation institution.
-- Added the reported 2010, 2012, and 2015 result sequence plus the contest's training, testing, workshop, and AI-reputation roles.
+- Added the scale and platform provenance of the human labor used to screen and label ImageNet's candidate images.
+- Reframed dataset scale as an achievement of task design and distributed judgment as well as data, models, and compute.
 
 ## Relationships
 - [[FeiFeiLi]] - founder who organized the dataset and competition.
@@ -45,3 +50,5 @@ Both magazine accounts simplify competition results to “accuracy” without co
 - [[GeoffreyHinton]] - led the group whose students produced the highlighted winning system.
 - [[NeuralNetworkTraining]] - uses ImageNet's labeled examples for supervised fitting.
 - [[UnsupervisedLearning]] - contrasts with ImageNet's explicit labeling regime.
+- [[DataAnnotationLabor]] - captures the screening, sorting, and labeling work that made the dataset usable.
+- [[AmazonMechanicalTurk]] - platform through which most of the reported annotation workforce was recruited.

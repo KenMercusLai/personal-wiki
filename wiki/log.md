@@ -6641,6 +6641,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI
+
+Added Hope Reese and Nick Heath's 2016 account of [[AmazonMechanicalTurk]] as both AI infrastructure and an asymmetric labor marketplace. Created Amazon Mechanical Turk, [[Turkopticon]], [[PlatformMicrowork]], and [[DataAnnotationLabor]]; updated [[ImageNet]] from its complete ordered three-source evidence inventory with the reported workforce behind its candidate screening and labeling. Preserved distinctions between registrations and active workers, paid task time and unpaid coordination, continuing human-in-the-loop demand and fair work, and worker testimony and representative evidence. Opened all six unique remote images through the publisher's current asset host; retained the workforce infographic, active-population chart, home-work photograph, and 45-day earnings table under descriptive canonical filenames, and omitted the title photograph plus its derivative cover as duplicates.
+
 ## [2026-09-30] ingest | Indie.vc v.2 Release Notes
 
 Added [[BryceRoberts]]'s 2016 account of [[IndieVC]] as a dedicated, rolling investment program for revenue-generating companies pursuing profitability and founder-controlled growth. Created Bryce Roberts and Indie.vc; updated [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] from their complete ordered evidence inventories with capped distributions, contingent equity conversion, a fast-repayment conversion reduction, explicit operating-control limits, and the distinction between term design and validated outcomes. Preserved qualifications around the selected eight-company pilot, first-party reporting, missing legal and financial detail, and unmeasured long-run company and fund performance. Opened the sole local image and omitted it as a tiny decorative author avatar; no asset manifest was required.
@@ -6728,6 +6732,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Innovative Ways to Increase Newsletter Subscriptions (with examples)
 
 Added Optimizely's 2016 catalogue of newsletter-acquisition ideas spanning offer clarity, visitor-state targeting, contextual prompts, choice, social proof, form interaction, and double-opt-in confirmation. Created [[NewsletterSignupOptimization]]; updated [[Optimizely]], [[Litmus]], and [[TheGuardian]] from their complete ordered evidence inventories. Preserved the distinction between interface examples and measured conversion evidence, and qualified the article's broad legal and identity-provider claims as historical and jurisdiction-sensitive. Opened all 12 unique archived image files, retained nine evidence-bearing screenshots or animations under descriptive canonical filenames, and omitted two duplicate title-card sizes and the decorative money-bag icon.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 

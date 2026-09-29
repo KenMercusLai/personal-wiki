@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI](sources/inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic.md) - TechRepublic connects AMT's low-paid, opaque platform labor with the human labeling, cleaning, moderation, and exception work behind AI systems.
 - [Inside (The) Information](sources/inside-the-information-columbia-journalism-review.md) - Merissa Marr profiles The Information's premium reporting, tiered subscriptions, community-led growth, founder funding, and access-versus-independence tension.
 - [Innovative Ways to Increase Newsletter Subscriptions (with examples)](sources/innovative-ways-to-increase-newsletter-subscriptions-with-examples-optimizely-blog.md) - Optimizely's 2016 example catalogue treats newsletter acquisition as one path from value and context through form interaction and confirmation, without reporting measured outcomes.
 - [Inevitability in technology](sources/inevitability-in-technology-benedict-evans.md) - Benedict Evans separates structural technology drivers from contingent winners through Facebook acquisitions, Chinese portals, incumbent constraints, and Apple's mobile rise.
@@ -856,6 +857,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Turkopticon](entities/Turkopticon.md) - Worker-built requester reputation tool that counters some of Amazon Mechanical Turk's native information asymmetry.
+- [Amazon Mechanical Turk](entities/AmazonMechanicalTurk.md) - Amazon marketplace that turns data, moderation, research, and AI-support work into globally distributed Human Intelligence Tasks.
 - [The Information](entities/TheInformation.md) - Premium technology-news publication represented through its early reporting, subscription, community, funding, and expansion model.
 - [Jessica Lessin](entities/JessicaLessin.md) - Technology journalist and founder represented through The Information's editorial strategy, operating model, and access tension.
 - [Indie.vc](entities/IndieVC.md) - Investment program using capped distributions, contingent equity, revenue thresholds, and peer support to fund founder-controlled profitable companies.
@@ -2345,6 +2348,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Data Annotation Labor](concepts/DataAnnotationLabor.md) - Human labeling, checking, cleaning, moderation, and judgment that makes machine-learning data and outputs usable.
+- [Platform Microwork](concepts/PlatformMicrowork.md) - Software-mediated decomposition, allocation, evaluation, and payment of small tasks across a distributed workforce.
 - [Technological Inevitability](concepts/TechnologicalInevitability.md) - Distinguishing structurally likely directions from contingent winners, timing, decisions, execution, and institutional forms.
 - [Incident Management](concepts/IncidentManagement.md) - Prepared coordination system for declaring, commanding, communicating, mitigating, closing, and learning from significant service failures.
 - [Blameless Postmortem](concepts/BlamelessPostmortem.md) - System-focused incident review that pairs psychological safety with concrete corrective actions, owners, and shared learning.

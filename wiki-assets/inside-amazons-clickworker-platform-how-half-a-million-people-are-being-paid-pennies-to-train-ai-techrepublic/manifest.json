@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "inside-amazons-clickworker-platform-how-half-a-million-people-are-being-paid-pennies-to-train-ai-techrepublic",
+  "images": [
+    {
+      "file": "mturk-workforce-infographic.jpg",
+      "alt": "Infographic summarizing registered workers, geography, pay, market revenue, requesters, and ImageNet labeling labor on Amazon Mechanical Turk"
+    },
+    {
+      "file": "active-mturk-population-2015-2016.jpg",
+      "alt": "Estimated active Amazon Mechanical Turk population fluctuating from about 11,000 to 18,500 between mid-2015 and late 2016"
+    },
+    {
+      "file": "kristy-milland-home-workstation.jpg",
+      "alt": "Amazon Mechanical Turk worker Kristy Milland at a multi-monitor workstation in her home"
+    },
+    {
+      "file": "kristy-milland-45-day-hit-earnings.jpg",
+      "alt": "Kristy Milland earnings table showing 734 submitted HITs and 203.56 dollars earned over the displayed 45-day period"
+    }
+  ]
+}

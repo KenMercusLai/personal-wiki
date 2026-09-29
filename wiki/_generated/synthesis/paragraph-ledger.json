@@ -630,12 +630,13 @@
       "51cbb484039a97f44c8c1e9ba2c0c908d428625171899c8cfdd718ddd0fd2e0d",
       "f63d18c04a98b524f104f4c43ace11cc6b6f588dc4c6db592682596175f36814",
       "5c6788d1474ff46e0cb75333cf2d2e4b5367d5d9f651cf9fc80e360172f35f93",
-      "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b"
+      "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b",
+      "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c"
     ],
-    "paragraph_count": 630
+    "paragraph_count": 631
   },
-  "overview_commit": "f2691f40006b7ffea52e7704a7c0b639bc465cfc",
-  "overview_digest": "1981ef337c7727c27bf5f35dd9e0269e8cf8c86c31e892047e15c81ed639b80e",
+  "overview_commit": "690d7e2fc3e9e26fcd70c19d38e4b71dbd239675",
+  "overview_digest": "9f0bf110dd790cc668dc8da637e6caf0316dca854b781226bb454e0f0d95f56f",
   "paragraphs": [
     {
       "id": "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
@@ -12767,6 +12768,26 @@
         "TonyHsieh",
         "Yesterbox",
         "Zappos"
+      ]
+    },
+    {
+      "id": "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest TechRepublic source makes the human production layer of AI visible through [[AmazonMechanicalTurk]]. [[DataAnnotationLabor]] now covers not only assigning labels but screening candidates, cleaning data, resolving ambiguity, and moderating disturbing content; [[ImageNet]] gains the reported labor provenance behind its scale, with nearly 50,000 people—most recruited through AMT—checking and labeling almost one billion candidate images. [[PlatformMicrowork]] explains how software turns larger jobs into globally allocated pieces while transferring search, waiting, interruption, rejection, equipment, payment-conversion, and health risks to workers. The source also complicates a simple automation-replacement story: easy cases can move to machines while people continue to label, correct, and handle exceptions, but continued demand does not establish fair pay or meaningful control. Its 2016 figures and named worker accounts remain historically and methodologically bounded; registrations are not active employment, interview cases are not a representative sample, and the article does not measure later wages, hours, task quality, or net displacement. Four inspected evidence-bearing images were retained, while a duplicate title photograph and derivative cover were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AmazonMechanicalTurk",
+        "DataAnnotationLabor",
+        "ImageNet",
+        "PlatformMicrowork"
       ]
     }
   ],
