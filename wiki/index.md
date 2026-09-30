@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Things I Wished More Developers Knew About Databases](sources/jaana-dogan-things-i-wished-more-developers-knew-about-databases.md) - Jaana Dogan connects database guarantees with concrete transaction anomalies, distributed-system tradeoffs, operation-level performance, and staged migration.
 - [It's a Tesla](sources/its-a-tesla-stratechery-by-ben-thompson.md) - Ben Thompson argues that Tesla's premium product and brand created Model 3 demand outside classic low-end disruption while preserving funding and execution risks.
 - [It’s Ugly, But It Works: On Designing for Usability](sources/its-ugly-but-it-works-on-designing-for-usability.md) - A My Tabata case argues that useful, reliable, context-sensitive interaction can outweigh weak visual polish while preserving aesthetics as a separate product-quality dimension.
 - [It’s time to get rid of traditional release notes](sources/its-time-to-get-rid-of-traditional-release-notes-colm-doyle-medium.md) - Colm Doyle argues that contextual in-app feature communication better matches segmented, auto-updated consumer software while preserving documentation needs outside that scope.
@@ -900,6 +901,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jaana Dogan](entities/JaanaDogan.md) - Software practitioner translating database failure modes and tradeoffs for application developers.
 - [Colm Doyle](entities/ColmDoyle.md) - Author of a 2016 practitioner argument for contextual in-app feature communication over traditional App Store release notes.
 - [Clayton Christensen](entities/ClaytonChristensen.md) - Strategy scholar represented through Thompson's qualified critique of applying low-end disruption theory mechanically to consumer markets.
 - [My Tabata](entities/MyTabata.md) - Mobile interval timer represented through a one-screen workout flow, tap-anywhere pause, audio countdown, and visible progress cues.
@@ -2455,6 +2457,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Database Engineering Tradeoffs](concepts/DatabaseEngineeringTradeoffs.md) - Coupled correctness, availability, latency, coordination, operability, and scaling consequences of database design choices.
 - [Release Communication](concepts/ReleaseCommunication.md) - Explaining product changes through channels and timing suited to the users who can actually encounter them.
 - [Consumer Market Disruption Limits](concepts/ConsumerMarketDisruptionLimits.md) - Boundary on low-end disruption theory when consumer choice depends on brand, identity, integration, and other hard-to-measure attributes.
 - [Startup Tarpit](concepts/StartupTarpit.md) - Commercial inertia created when product expansion consumes the runway needed to identify and scale the actual growth constraint.

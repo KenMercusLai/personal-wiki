@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "jaana-dogan-things-i-wished-more-developers-knew-about-databases",
+  "images": [
+    {
+      "file": "crash-durability-window.webp",
+      "alt": "A crash after the first fsync persists write one while write two remains only in memory"
+    },
+    {
+      "file": "consistency-model-hierarchy.webp",
+      "alt": "A hierarchy of consistency models from weak read guarantees through strict serializability"
+    },
+    {
+      "file": "isolation-behavior-comparison.webp",
+      "alt": "A partial Hermitage table comparing advertised and actual PostgreSQL and MySQL isolation behavior"
+    },
+    {
+      "file": "sharding-proxy-architecture.webp",
+      "alt": "Application servers route requests through a shard service to independent database nodes"
+    },
+    {
+      "file": "stale-read-geography.webp",
+      "alt": "An application reads a nearby five-second-old replica instead of crossing the Pacific for the latest data"
+    },
+    {
+      "file": "truetime-uncertainty-wait.webp",
+      "alt": "Spanner waits past the upper bound of a TrueTime interval before completing a transaction"
+    }
+  ]
+}

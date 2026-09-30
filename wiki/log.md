@@ -7087,3 +7087,11 @@ Added [[RespectfulRefusal]] from a `sneakerheadVC` writer's three venture-capita
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Things I Wished More Developers Knew About Databases
+
+Added [[DatabaseEngineeringTradeoffs]] from [[JaanaDogan]]'s practitioner account of database guarantees, transaction semantics, network and clock uncertainty, operation-level performance, online migration, and growth. Updated [[DatabaseTransactionIsolation]] from its complete ordered evidence inventory with engine-specific isolation interpretation, optimistic version checks, and write-skew risk. Preserved the article's 2020 product details and broad recommendations as source-scoped rather than current universal guidance. Inspected and retained all six evidence-bearing visuals under descriptive canonical filenames with a matching asset manifest.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

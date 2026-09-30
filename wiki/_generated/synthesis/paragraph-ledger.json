@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b11d023d2fc834d20f1bbb0b6ec42fa85b01b446188cf5a8c57047fcfb3d94cb",
       "c74511507a28c95fd963e7aa70d1b1a38bbe36b9ca105a6431624b64fe3e3ca2",
       "58decbac0239439db0139da0d2ca27e5773da5c4c75e561f571cc4e77a0de69d",
       "a5c4e0f16a914a732823de8c985f41f9018b4d6e9046ebbec6bb5087fde9c2b3",
@@ -658,11 +659,31 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 656
+    "paragraph_count": 657
   },
-  "overview_commit": "71778a5cccee18659d1e3cfb3e07e727ae5850cd",
-  "overview_digest": "1a32140ea133306a8a94208b22b2cbe9e62f17b53435793ec8527064b267e562",
+  "overview_commit": "1c3ee402bc8a3db9313e9a0e5d7399af030c181f",
+  "overview_digest": "5be8c977413d27fc1822db25cd8d9e936ffbc3aa1d82d5025a9038b110446255",
   "paragraphs": [
+    {
+      "id": "b11d023d2fc834d20f1bbb0b6ec42fa85b01b446188cf5a8c57047fcfb3d94cb",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[JaanaDogan]] source adds [[DatabaseEngineeringTradeoffs]] as a developer-facing model of databases whose guarantees, performance, and failure behavior must be verified at the level of a concrete engine, configuration, workload, and operation. ACID is useful vocabulary but not a uniform contract; [[DatabaseTransactionIsolation]] names can mask different implementations, and correctness threats include write skew even when no dirty read or lost write occurs. Optimistic version guards, explicit transaction ownership, retry-safe inputs, and constraints or serializability connect application structure to database behavior. The distributed examples make the exchanges visible: stronger coordination can increase contention, a nearby stale MVCC snapshot can avoid a cross-region read, TrueTime-style confidence intervals convert clock uncertainty into waiting, external shard routing adds flexibility and another component, and sequential IDs can concentrate or coordinate writes. Performance and change therefore need operational evidence from critical-query benchmarks, plans, slow-query logs, traces, staged dual-running migrations, backfills, and continued observation as growth invalidates earlier assumptions. The source remains one broad 2020 practitioner essay without workload files, comparative benchmarks, incident records, or migration outcomes; product details may be historical, and its design suggestions are questions to test rather than universal prescriptions. All six referenced visuals were opened and retained at their semantic positions: crash durability, consistency hierarchy, partial isolation comparison, sharding proxy, stale-read geography, and TrueTime uncertainty.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DatabaseEngineeringTradeoffs",
+        "DatabaseTransactionIsolation",
+        "JaanaDogan"
+      ]
+    },
     {
       "id": "c74511507a28c95fd963e7aa70d1b1a38bbe36b9ca105a6431624b64fe3e3ca2",
       "primary_topic": "governance-and-institutions",
