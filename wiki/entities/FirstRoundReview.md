@@ -9,15 +9,16 @@ sources:
   - content-is-eating-the-world-contentlys-ceo-on-winning-at-marketings-new-hotness-first-round-review
   - develop-your-hiring-system-like-a-product-to-eliminate-bias-and-boost-retention-first-round-review
   - find-vet-and-close-the-best-product-managers-first-round-review
-last_updated: 2026-09-28
+  - instagram-co-founder-mike-krieger-on-engineering-team-growth-first-round-review
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[FirstRoundReview]] is the startup-operating publication represented in this wiki by founder and operator material about executive hiring, marketplace product-market fit, product design, content marketing, and startup scaling decisions.
+[[FirstRoundReview]] is the startup-operating publication represented in this wiki by founder and operator material about executive and functional hiring, marketplace product-market fit, product design, content marketing, and engineering-organization scaling.
 
 ## Current Profile
-Within this wiki, First Round Review functions as a source of practitioner startup advice. The Zappacosta source converts Thumbtack's experience into a process founders can use for executive role design, interviews, references, and final fit checks. The Kadakia source turns ClassPass' pivots from search to Passport to subscription into lessons about customer behavior, marketplace transactions, metrics, and founder conviction. The Lieb source uses Bump, Flock, Google Photos, WhatsApp, and Twitter Moments to show how teams can reduce cognitive overhead. The Coleman article broadens the publication's operating scope into marketing through Contently's audience and distribution framework. The Pupius interview treats hiring as a product that can be specified, measured, calibrated, and iterated, while the Jackson interview applies role definition, structured evidence, reciprocal selling, and motivation-aware closing specifically to product managers.
+Within this wiki, First Round Review functions as a source of practitioner startup advice. The Zappacosta source converts Thumbtack's experience into a process founders can use for executive role design, interviews, references, and final fit checks. The Kadakia source turns ClassPass' pivots from search to Passport to subscription into lessons about customer behavior, marketplace transactions, metrics, and founder conviction. The Lieb source uses Bump, Flock, Google Photos, WhatsApp, and Twitter Moments to show how teams can reduce cognitive overhead. The Coleman article broadens the publication's operating scope into marketing through Contently's audience and distribution framework. The Pupius interview treats hiring as a product that can be specified, measured, calibrated, and iterated, while the Jackson interview applies role definition, structured evidence, reciprocal selling, and motivation-aware closing specifically to product managers. The Krieger interview extends that operating coverage into engineering growth through early generalists, specialists, management layers, platform culture, and product-team boundaries.
 
 ## Key Characteristics
 - Publishes startup leadership and operating advice through founder and operator interviews.
@@ -26,7 +27,7 @@ Within this wiki, First Round Review functions as a source of practitioner start
 - Frames Lieb's Bump/Flock/Google Photos story as advice for product teams designing for cognitive simplicity.
 - Frames Coleman's Contently experience as a content-marketing operating system for startups.
 - Frames Pupius's Medium and Range experience as a product-style hiring-system playbook and Jackson's experience as a PM-specific selection and closing process.
-- Supplies source context across leadership, product, marketing, people operations, and product talent.
+- Frames Krieger's Instagram experience as a stage-sensitive engineering-organization playbook.
 
 ## Evidence
 - Publisher role: [[assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review]] is a First Round Review interview with Zappacosta.
@@ -38,13 +39,14 @@ Within this wiki, First Round Review functions as a source of practitioner start
 - Content-marketing system: [[content-is-eating-the-world-contentlys-ceo-on-winning-at-marketings-new-hotness-first-round-review]] organizes [[JoeColeman]]'s [[Contently]] experience into nine operating themes spanning fit, cadence, differentiation, distribution, quality, metrics, design, and experiments.
 - Hiring-system playbook: [[develop-your-hiring-system-like-a-product-to-eliminate-bias-and-boost-retention-first-round-review]] translates [[DanPupius]]'s Medium and Range experience into vision, evidence criteria, candidate experience, metrics, and iteration.
 - PM hiring playbook: [[find-vet-and-close-the-best-product-managers-first-round-review]] translates [[ToddJackson]]'s experience into a PM role model, varied candidate profiles, structured prompts, a panel exercise, and a motivation-aware close.
+- Engineering-organization playbook: [[instagram-co-founder-mike-krieger-on-engineering-team-growth-first-round-review]] translates [[MikeKrieger]]'s Instagram retrospective into generalist hiring, specialization, management, platform-team, and product-team transitions.
 
 ## Qualifications
-The page is based on six source notes. It identifies First Round Review's role as publisher and advice context, not its ownership, business model, editorial history, or broader catalog. Its articles translate selected operator experience into guidance and should not be mistaken for controlled comparative research.
+The page is based on seven source notes. It identifies First Round Review's role as publisher and advice context, not its ownership, business model, editorial history, or broader catalog. Its articles translate selected operator experience into guidance and should not be mistaken for controlled comparative research. The Instagram case also benefited from exceptional growth, brand strength, and Facebook support that narrow its transferability.
 
 ## What Changed
-- Extended the profile from product, executive hiring, and marketing into repeatable hiring-system design.
-- Added product-manager selection and candidate-specific closing as a role-focused extension of that hiring coverage.
+- Extended the profile into stage-sensitive engineering organization design.
+- Added generalist-to-platform-to-product evolution alongside the publication's existing role and hiring frameworks.
 
 ## Relationships
 - [[MarcoZappacosta]] - interview subject.
@@ -63,3 +65,5 @@ The page is based on six source notes. It identifies First Round Review's role a
 - [[HiringSystemDesign]] - fifth article topic.
 - [[ToddJackson]] - interview subject in the product-manager hiring source.
 - [[ProductManagerHiring]] - sixth article topic.
+- [[MikeKrieger]] - interview subject in the engineering-organization source.
+- [[EngineeringOrganizationEvolution]] - seventh article topic.

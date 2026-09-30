@@ -6843,3 +6843,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People
+
+Added First Round Review's 2017 interview with [[MikeKrieger]] about growing [[Instagram]] engineering from six generalists at acquisition to more than 300 engineers. Created Mike Krieger and [[EngineeringOrganizationEvolution]]; updated Instagram and [[FirstRoundReview]] from their complete ordered evidence inventories with the transitions from pragmatic generalists to specialists, early manager behavior, platform identity, and product teams. Preserved the value of end-to-end knowledge after specialization, the path dependence of early inclusion, and the source's retrospective, exceptional-company, Facebook-support, unmeasured-outcome, and non-universal-threshold limits. Opened and retained the sole local image as a context photograph under a descriptive canonical filename; it adds no independent organizational evidence.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

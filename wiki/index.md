@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People](sources/instagram-co-founder-mike-krieger-on-engineering-team-growth-first-round-review.md) - Mike Krieger maps Instagram engineering from pragmatic generalists through specialists, management layers, platform culture, and product teams.
 - [Inspiring Women: Meet the Co-Founder of Winnie, a Yelp-Type App for Parents](sources/inspiring-women-meet-the-co-founder-of-winnie-a-yelp-type-app-for-parents-inspiring-women-livingly.md) - Sara Mauskopf connects Winnie's parent-led origin, Silicon Valley network, distributed team, and family support while acknowledging privilege and a promotional evidence boundary.
 - [Inside the store that only accepts personal data as currency](sources/inside-the-store-that-only-accepts-personal-data-as-currency-engadget.md) - Nick Summers reports how Kaspersky Lab's Data Dollar Store priced merchandise in phone data, making privacy cost tangible without establishing a market value or fair compensation model.
 - [Inside the Wild West World of Gift Card Bitcoin Brokering](sources/inside-the-wild-west-world-of-gift-card-bitcoin-brokering.md) - A 2018 investigation maps a Bitcoin-to-gift-card conversion loop, its narrow broker spreads, trust controls, fraud exposure, and gaps between Walmart policy and checkout enforcement.
@@ -870,6 +871,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Mike Krieger](entities/MikeKrieger.md) - Instagram co-founder and CTO represented through the stage-sensitive growth of its engineering organization.
 - [Sara Mauskopf](entities/SaraMauskopf.md) - Winnie co-founder whose parenting experience shaped the product and whose family crisis exposed the value of support and team autonomy.
 - [Anne Halsall](entities/AnneHalsall.md) - Winnie co-founder represented through company formation, fundraising relationships, and continuity during Sara Mauskopf's absence.
 - [Winnie](entities/Winnie.md) - Family information and local-discovery product designed around changing parenting needs and nationwide reach.
@@ -1659,7 +1661,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Speed of Trust](entities/TheSpeedOfTrust.md) - Book cited as support for high-trust relationships improving efficiency and effectiveness.
 - [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
 - [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
-- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication translating operator experience across leadership, product, marketing, and hiring-system design.
+- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication translating operator experience across leadership, product, marketing, hiring, and engineering-management design.
 - [Dan Pupius](entities/DanPupius.md) - Engineering leader applying product-development mechanics to evidence-based, candidate-centered hiring.
 - [Range](entities/Range.md) - Early-stage startup case for team-composition criteria, pedigree exclusion, observable behavior, and offer-acceptance measurement.
 - [Manuel Matuzovic](entities/ManuelMatuzovic.md) - Teacher, friend, and mentor in the junior-developer career-transition source.
@@ -1846,7 +1848,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Docs](entities/GoogleDocs.md) - Collaboration-product example where sharing documents creates an invitation loop.
 - [Airtable](entities/Airtable.md) - Specialized collaboration SaaS example that can spread internally after team adoption.
 - [Good Eggs](entities/GoodEggs.md) - Grocery-delivery example of two-sided referral rewards and gifting psychology.
-- [Instagram](entities/Instagram.md) - Visual product whose artifacts, targeted discovery, and Stories implementation illustrate distribution, contextual fit, and Facebook's ephemeral turn.
+- [Instagram](entities/Instagram.md) - Visual product and engineering-growth case spanning artifact distribution, targeted discovery, Stories fit, and stage-sensitive organization design.
 - [Lyft](entities/Lyft.md) - Ride-hailing marketplace used as both a product-sharing growth example and a marketing-automation platform case.
 - [GroupMe](entities/GroupMe.md) - Messaging product example that used SMS as a first-message onboarding surface.
 - [Nest Cam](entities/NestCam.md) - Visible-hardware example where outdoor security cameras create awareness.
@@ -2392,6 +2394,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Engineering Organization Evolution](concepts/EngineeringOrganizationEvolution.md) - Stage-sensitive redesign of engineering hiring, specialization, management, and team boundaries from generalists through platform and product teams.
 - [Gift Card Fraud](concepts/GiftCardFraud.md) - Theft, compromise, double spending, or laundering of stored-value card balances across digital codes, resale markets, and retailer checkout.
 - [Peer-to-Peer Crypto Trading](concepts/PeerToPeerCryptoTrading.md) - Direct cryptocurrency exchange through negotiated marketplace offers and nonstandard settlement instruments such as gift-card codes.
 - [Playlist Manipulation](concepts/PlaylistManipulation.md) - Purchase or inflation of playlist access, placement, and engagement signals to create streams, credibility, revenue, or further platform distribution.
