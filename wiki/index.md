@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Just Landed Is Shutting Down](sources/just-landed-is-shutting-down-jon-grall-medium.md) - Jon Grall explains how supplier dependence, professional-user cost skew, one-time pricing, app-store pressure, and limited resources led to a planned shutdown despite meaningful adoption.
 - [Just How Much is Your Website Worth, Anyhow? An Easy Guide to Valuation](sources/just-how-much-is-your-website-worth-anyhow-an-easy-guide-to-valuation-moz.md) - Greg Elfrink links rolling net profit to a buyer-confidence multiple shaped by earnings history, transferability, concentration risk, operating effort, and defensibility.
 - [AirPods Live Listen: Hearing Aid or Spy Tool?](sources/juli-clover-airpods-live-listen-hearing-aid-or-spy-tool.md) - Juli Clover explains how iOS 12 Live Listen turns an iPhone into a remote microphone for AirPods, supporting hearing access while creating a covert-listening path.
 - [Judge less, observe more](sources/judge-less-observe-more-personal-growth-medium.md) - Alex Mathers argues that gently replacing premature judgment with concrete observation can preserve creative openness and reduce self-conscious rumination, while offering personal reflection rather than causal evidence.
@@ -926,6 +927,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [You know your product team is failing — do you know why?](sources/johnathan-nightingale-you-know-your-product-team-is-failing-do-you-know-why.md) - Johnathan Nightingale argues that experienced product managers turn busy product output into predictable, instrumented progress by synthesizing context, choosing trade-offs, and orchestrating delivery without CEO authority.
 
 ## Entities
+- [Jon Grall](entities/JonGrall.md) - Independent iOS developer who explained the economic and dependency rationale for winding down Just Landed.
+- [Just Landed](entities/JustLanded.md) - Paid airport-pickup app whose adoption and App Store recognition did not overcome continuing data costs and pay-once economics.
 - [Greg Elfrink](entities/GregElfrink.md) - Empire Flippers representative presenting a historical online-business valuation and exit-readiness framework.
 - [Empire Flippers](entities/EmpireFlippers.md) - Online-business brokerage represented through its monthly-profit multiple, seller-preparation advice, and transaction support.
 - [Live Listen](entities/LiveListen.md) - Apple remote-microphone feature that relays iPhone audio to AirPods or compatible hearing devices, with both accessibility value and covert-listening risk.
@@ -2511,6 +2514,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [External Service Dependency](concepts/ExternalServiceDependency.md) - Operational and business exposure created when core product value depends on another organization's data, infrastructure, policy, pricing, or continuity.
 - [Website Business Valuation](concepts/WebsiteBusinessValuation.md) - Estimating a transferable online business from normalized earnings and a buyer-confidence multiple adjusted for durability, risk, operating burden, and defensibility.
 - [Assistive Technology Dual Use](concepts/AssistiveTechnologyDualUse.md) - Condition in which an access-improving capability can enable surveillance or other harm through substantially the same mechanism.
 - [Nonjudgmental Observation](concepts/NonjudgmentalObservation.md) - Delaying premature evaluative labeling so concrete observation and alternative meanings remain available without abandoning useful judgment.

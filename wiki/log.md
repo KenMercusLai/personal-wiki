@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Just Landed Is Shutting Down
+
+Added [[JonGrall]], [[JustLanded]], and [[ExternalServiceDependency]] from a 2016 founder-authored shutdown retrospective. Updated [[UnitEconomics]], [[MobileAppStoreEconomics]], [[ProductLifecycleTrust]], and [[AppStore]] from their complete ordered evidence inventories with professional-user cost skew, pay-once versus recurring supplier cost, the boundary between marketplace success and app sustainability, and planned wind-down stewardship. Preserved the absence of audited financials, supplier verification, user evidence, and tested pricing alternatives. Opened all four local images and omitted the three duplicate or thumbnail airplane-branding variants plus the tiny phone/app promotional image because they added no recoverable evidence beyond the prose.
+
 ## [2026-10-01] ingest | Jeff Dean on Large-Scale Deep Learning at Google
 
 Added [[GoogleBrain]], [[EndToEndLearning]], and [[DistributedNeuralNetworkTraining]] from a 2016 summary of [[JeffDean]]'s talk. Updated Jeff Dean, [[DeepLearning]], and [[DeepLearningScaling]] from their complete ordered evidence inventories with research-product integration, model- and data-parallel training, on-device inference, and the boundary between task-level scaling and broad capability. Retained the storefront photograph as evidence for the visual-text understanding problem; the second referenced transparent spacer was unavailable and omitted as non-evidentiary. Preserved all product metrics, benchmark errors, replica counts, and training-time claims as attributed historical snapshots.

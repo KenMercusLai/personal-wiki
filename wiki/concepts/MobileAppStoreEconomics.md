@@ -6,7 +6,8 @@ sources:
   - app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat
   - 74-of-no-1-iphone-apps-dont-last-a-month-in-the-top-25
   - apples-ios-app-store-users-spent-11-5-billion-in-q4-95-more-than-google-play
-last_updated: 2026-09-25
+  - just-landed-is-shutting-down-jon-grall-medium
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,14 +17,16 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The App Annie reports show that app-store advantage can split across different metrics and persist over time. In 2015, [[GooglePlay]] had twice as many downloads as Apple's [[AppStore]], but Apple's store generated 75% more revenue. In Q4 2017, Google Play again led new downloads by more than 19 billion to roughly 8 billion, while the App Store generated $11.5 billion in consumer spend and was reported at 95% above Google Play. [[Android]] and [[IOS]] therefore represent different economic profiles rather than a single winner-take-all ranking: Android/Google Play held broader reach, especially through emerging markets, while iOS/App Store concentrated higher direct spending. The Q4 snapshot also shows spending growing 20% year over year against 7% download growth. The Sensor Tower source adds a third dimension: even the most visible download-chart rank can decay quickly, so acquisition spend that buys a No. 1 position may not produce lasting discovery.
 
+At the individual-app level, [[JustLanded]] places a developer boundary around those marketplace totals. Hundreds of thousands of users, strong reviews, press, and Apple featuring did not make the pay-once utility sustainable when app prices were under pressure, discovery was crowded, external data imposed continuing cost, and professional users consumed far more than casual buyers. Store revenue strength therefore does not imply that every paid app can capture enough value to fund continuing service.
+
 ## Key Claims
 - Download volume and store revenue can point to different platform winners.
 - The Google Play download lead and App Store monetization lead persisted across the 2015 and Q4 2017 snapshots.
 - Emerging-market growth can expand app-store downloads without immediately erasing monetization gaps.
 - iOS App Store revenue strength reflected higher-spending user bases and country mix in the source.
-- Games dominated mobile app-store revenue on both platforms, especially on Google Play.
-- Consumer spending can grow materially faster than download volume.
+- Games dominated mobile app-store revenue in the 2015 snapshot, while total consumer spending later grew materially faster than download volume.
 - Ranking visibility has its own half-life: reaching No. 1 in downloads does not necessarily preserve top-25 placement or long-term discovery.
+- Marketplace-wide spending, usage, reviews, and featuring do not by themselves prove sustainable economics for a continuing-cost independent app.
 
 ## Evidence
 - Download/revenue split: [[app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat]] reports Google Play at 100% more downloads while Apple's App Store had 75% more revenue.
@@ -35,14 +38,16 @@ The App Annie reports show that app-store advantage can split across different m
 - Growth-rate divergence: [[apples-ios-app-store-users-spent-11-5-billion-in-q4-95-more-than-google-play]] reports downloads growing 7% year over year while app and subscription spending grew 20%.
 - Ranking decay: [[74-of-no-1-iphone-apps-dont-last-a-month-in-the-top-25]] reports that among 53 first-time No. 1 U.S. iPhone apps in 2015-2016, 74% fell out of the top 25 within a month and only 8% remained after three months.
 - Acquisition-return limit: [[74-of-no-1-iphone-apps-dont-last-a-month-in-the-top-25]] argues that resources used to drive apps to No. 1 through traditional user acquisition often did not create lasting chart visibility.
+- Indie-app boundary: [[just-landed-is-shutting-down-jon-grall-medium]] reports that Just Landed closed despite hundreds of thousands of users, favorable reviews, press, and repeated App Store featuring because continuing supplier cost and user-consumption skew no longer fit one-time pricing.
 
 ## Counterevidence & Qualifications
-The App Annie/VentureBeat source reports relative metrics from a 2015 retrospective without the original methodology or absolute totals. The AppleInsider source adds Q4 2017 absolute estimates but Google Play's limited China presence makes it an incomplete measure of the Android app economy; its rounded spending figures do not exactly reconcile with its +95% chart, and its later claims about subscriptions, piracy, and developer prioritization are not directly evidenced. The Sensor Tower source reports U.S. iPhone chart retention for first-time No. 1 apps in 2015-2016 without acquisition costs, revenue, category mix, paid-ranking behavior, or later cohorts. Together, the sources are historical snapshots rather than current comprehensive market data.
+The App Annie/VentureBeat source reports relative metrics from a 2015 retrospective without the original methodology or absolute totals. The AppleInsider source adds Q4 2017 absolute estimates but Google Play's limited China presence makes it an incomplete measure of the Android app economy; its rounded spending figures do not exactly reconcile with its +95% chart, and its later claims about subscriptions, piracy, and developer prioritization are not directly evidenced. The Sensor Tower source reports U.S. iPhone chart retention for first-time No. 1 apps in 2015-2016 without acquisition costs, revenue, category mix, paid-ranking behavior, or later cohorts. The Just Landed source is a founder-authored shutdown explanation without audited financials, price tests, or app-market data; it shows one mechanism, not an industry failure rate. Together, the sources are historical snapshots rather than current comprehensive market data.
 
 ## What Changed
 - Created the concept to capture the 2015 split between Google Play's download scale and Apple's App Store revenue concentration.
 - Added ranking-duration economics: No. 1 download rank often decayed too quickly to be treated as durable visibility.
 - Extended the reach-versus-monetization pattern through Q4 2017 and added the faster growth of consumer spending than downloads.
+- Added a paid indie-app case separating marketplace-level spending and visible success from sustainable continuing-service economics.
 
 ## Related Concepts
 - [[MobileEcosystem]] - app-store economics are one way the mobile ecosystem turns scale into business value.
@@ -51,3 +56,4 @@ The App Annie/VentureBeat source reports relative metrics from a 2015 retrospect
 - [[DeveloperEconomySegmentation]] - geography shapes which developer and user economies dominate platform metrics.
 - [[Android]] - Google Play's download advantage reflects Android's broad ecosystem reach.
 - [[IOS]] - Apple's App Store revenue advantage reflects iOS's higher-spending ecosystem in the source.
+- [[UnitEconomics]] - determines whether an individual app captures enough revenue to cover acquisition and continuing service cost.
