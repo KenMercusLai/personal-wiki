@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "adf6a2ac1f0c5db7e0816da2818b13409b86f9d26fd7614900de91e9b59de637",
       "0704f9cbab71e75bf76c5789758111c70b46ffd0b806627d639be7c065c225d8",
       "b11d023d2fc834d20f1bbb0b6ec42fa85b01b446188cf5a8c57047fcfb3d94cb",
       "c74511507a28c95fd963e7aa70d1b1a38bbe36b9ca105a6431624b64fe3e3ca2",
@@ -660,11 +661,27 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 658
+    "paragraph_count": 659
   },
-  "overview_commit": "f7a9fe274a8ae67149d1098bf6708d738274b229",
-  "overview_digest": "b78c365b8e593d8d8c379917bb1775278de0753c01edc6cc90c93f2e1932cadd",
+  "overview_commit": "be252b4672de51ba6fc47e412f7756c93b90a747",
+  "overview_digest": "24aae0c14b489d25068e064afb0b0ec4627e88d82f82eef9d7a1ce8732010c40",
   "paragraphs": [
+    {
+      "id": "adf6a2ac1f0c5db7e0816da2818b13409b86f9d26fd7614900de91e9b59de637",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[JasonRoberts]] source extends [[LuckAndEffortInSuccess]] from preparation and action into public discoverability. Its `L = D * T` heuristic treats luck surface area as the interaction of doing substantive work and telling other people effectively: doing develops expertise and visible enthusiasm, while telling creates more social routes through which employers, partners, investors, or collaborators may recognize and act on that value. This also connects [[PersonalBranding]], [[DeliberateNetworkBuilding]], and [[KnowledgeOutput]] without reducing them to audience size; useful work and communication are complements, and relevant trusted attention matters more than undifferentiated reach. The source is a short practitioner essay with no definitions, measurements, denominator, comparison group, or outcome data. Its equation does not establish proportionality, and “make your own luck” remains bounded by timing, network position, platform distribution, language, safety, discrimination, caregiving, discretionary time, and the possibility that visibility produces noise, distraction, harassment, or reputational risk. The supplied Markdown contains no image references.",
+      "topic_scores": {
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DeliberateNetworkBuilding",
+        "JasonRoberts",
+        "KnowledgeOutput",
+        "LuckAndEffortInSuccess",
+        "PersonalBranding"
+      ]
+    },
     {
       "id": "0704f9cbab71e75bf76c5789758111c70b46ffd0b806627d639be7c065c225d8",
       "primary_topic": "business-and-markets",

@@ -8,7 +8,8 @@ sources:
   - dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com
   - heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday
   - i-am-not-a-self-made-man-facebook
-last_updated: 2026-09-29
+  - jason-roberts-increasing-your-luck-surface-area
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,12 +25,14 @@ The 1Byte essay adds judgment between effort and outcome. [[ShanWeijian]] argues
 
 Social infrastructure broadens that account beyond a contest between luck and effort. Instruction, shelter, coaching, role models, sponsorship, introductions, career breaks, and votes are inputs that individual drive does not generate alone. [[ArnoldSchwarzenegger]] still credits vision, work, and active mentor-seeking, so dependence is not a denial of agency. The synthesis instead asks which other people and institutions made a trajectory possible. Acknowledging luck and help therefore has practical and moral consequences: remain teachable, resist confusing privilege with merit, preserve gratitude toward contributors, treat weaker starting positions with compassion, and inspect success stories before copying or buying them.
 
+Effective communication adds a second mechanism to opportunity exposure. The `L = D * T` heuristic in [[jason-roberts-increasing-your-luck-surface-area]] says substantive, interest-driven work develops expertise and visible enthusiasm, while telling other people makes that value discoverable to potential employers, partners, investors, or collaborators. Doing and telling are therefore complements: publicity without useful work is weak evidence, while valuable work that remains invisible has fewer social routes to an unexpected response. The equation does not establish literal proportionality, however, and audience relevance, trust, timing, network position, platform distribution, structural access, and the costs of public visibility all mediate the result.
+
 ## Key Claims
 - Attribution depends on the reference class: global comparisons foreground unequal starting conditions, while local comparisons make behavior more discriminating.
 - Extreme success is especially vulnerable to skill-only stories because rare outcomes often combine ability with unusual timing, access, genes, networks, instruction, sponsorship, or collective participation.
 - Starting position and trajectory are different: people inherit much of the former but can influence part of the latter through choices and habits.
 - Persistent experimentation can turn a contingent clue into a repeatable result, as the source presents through Tu Youyou's work on artemisinin.
-- Preparation, repeated action, and specific proposals can increase exposure and responsiveness to opportunity without making luck or recipient decisions controllable.
+- Preparation, repeated action, effective communication, and specific proposals can increase exposure and responsiveness to opportunity without making luck, audience attention, or recipient decisions controllable.
 - Judgment determines where effort is applied and can be improved through sustained learning, evidence, and feedback, but it does not remove contingency.
 - Effort cannot reliably overcome every illness, institutional barrier, financial shock, or compounding advantage, so the slope metaphor is a qualified agency claim rather than a promise.
 
@@ -48,16 +51,17 @@ Social infrastructure broadens that account beyond a contest between luck and ef
 - Prepared opportunity use: [[heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday]] presents researched plans from coaching interviews and a meeting with Thiel as ways to make capability visible, while explicitly acknowledging that many comparable attempts will still fail.
 - Social infrastructure: [[i-am-not-a-self-made-man-facebook]] credits parents, teachers, coaches, temporary hosts, mentors, role models, Joe Weider, Lucille Ball, and California voters as necessary contributors across Schwarzenegger's career.
 - Agency within dependence: [[i-am-not-a-self-made-man-facebook]] pairs drive and vision with deliberate efforts to learn from mentors and idols rather than treating assistance as a substitute for action.
+- Doing and telling: [[jason-roberts-increasing-your-luck-surface-area]] argues that substantive work creates expertise and enthusiasm while communication makes them available for other people to recognize and act upon.
 
 ## Counterevidence & Qualifications
-The sources offer attribution heuristics, not an empirical decomposition of luck, judgment, effort, social support, and structural advantage. "Similar" peers can still differ materially in wealth, discrimination, health, caregiving, risk capacity, network access, and cumulative opportunity, so local comparison does not isolate hard work. The slope model can also understate feedback loops: early advantage may improve both later opportunity and the apparent return to effort, while hardship can reduce the time, safety, or health needed to sustain habits. Tu Youyou, Shan, Gates, Microsoft, the unnamed author's admission, SJO's family comparison, Saban, Reid, Holiday's unnamed proposer, and Schwarzenegger are retrospectively selected examples; they do not show how often comparable preparation fails or how much wider teams and institutions contributed. Schwarzenegger's essay is an autobiographical attribution and the saved comments show that “self-made” can also mean self-directed advancement rather than literal solitude. Holiday concedes that rejection remains common, but his article supplies no denominator and may normalize extensive unpaid preparation that people have unequal capacity to perform. Hard work is not literally necessary for every inherited, accidental, or extractive outcome, and the sources provide no general threshold for when more effort becomes irrational. Increasing exposure to opportunity raises chances, not guarantees, and may impose unequal costs.
+The sources offer attribution heuristics, not an empirical decomposition of luck, judgment, effort, communication, social support, and structural advantage. "Similar" peers can still differ materially in wealth, discrimination, health, caregiving, risk capacity, network access, and cumulative opportunity, so local comparison does not isolate hard work. The slope model can also understate feedback loops: early advantage may improve both later opportunity and the apparent return to effort, while hardship can reduce the time, safety, or health needed to sustain habits. Tu Youyou, Shan, Gates, Microsoft, the unnamed author's admission, SJO's family comparison, Saban, Reid, Holiday's unnamed proposer, Schwarzenegger, and Roberts's hypothetical opportunity recipients are retrospectively selected or unmeasured examples; they do not show how often comparable preparation and communication fail or how much wider teams and institutions contributed. Schwarzenegger's essay is an autobiographical attribution and the saved comments show that “self-made” can also mean self-directed advancement rather than literal solitude. Holiday concedes that rejection remains common, but his article supplies no denominator and may normalize extensive unpaid preparation that people have unequal capacity to perform. Roberts's multiplicative equation likewise does not define its variables, establish proportionality, or distinguish relevant trusted attention from raw reach, noise, harassment, and reputational risk. Hard work is not literally necessary for every inherited, accidental, or extractive outcome, and the sources provide no general threshold for when more effort or publicity becomes irrational. Increasing exposure to opportunity raises chances, not guarantees, and may impose unequal costs.
 
 ## What Changed
+- Added effective communication as a complement to substantive work in increasing exposure to opportunity, while rejecting literal interpretation of `L = D * T`.
 - Added instruction, shelter, mentorship, sponsorship, gatekeepers, and collective participation as social inputs that individual effort alone does not create.
 - Made the necessary-versus-sufficient distinction explicit and added evidence quality, practice quality, and direction as constraints on effort.
 - Added judgment as the learned mechanism that directs effort and added humility, compassion, and imitation skepticism as consequences of recognizing luck.
 - Added the Briefcase Technique as a concrete but survivor-biased form of prepared opportunity use.
-- Created the concept by combining comparison scale, starting position, trajectory, and opportunity exposure into one qualified attribution framework.
 
 ## Related Concepts
 - [[RepeatableLearningFromHistory]] - separates transferable behavior from the non-repeatable circumstances surrounding an outcome.

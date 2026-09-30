@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Increasing Your Luck Surface Area](sources/jason-roberts-increasing-your-luck-surface-area.md) - Jason Roberts models serendipitous opportunity as the interaction of substantive doing and effective telling while leaving the equation, audience effects, and access constraints unmeasured.
 - [How to Figure Out Your Competitors' Revenues in About 70 Seconds](sources/jason-lemkin-how-to-figure-out-your-competitors-revenues-in-about-70-seconds.md) - Jason Lemkin proposes a funding- and business-model-adjusted revenue-per-employee shortcut for estimating private SaaS scale while leaving substantial data and validation limits.
 - [You don't have what it takes](sources/jason-calacanis-you-dont-have-what-it-takes.md) - Jason Calacanis treats extreme personal and team sacrifice as a founder-readiness test while providing no evidence that the test predicts sound judgment or startup success.
 - [Jamie Siminoff, Ring](sources/jamie-siminoff-ring-dfjvc-medium.md) - Jamie Siminoff connects Ring's problem-led origin and Shark Tank exposure to a longer founder apprenticeship and a qualified critique of venture groupthink.
@@ -904,6 +905,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jason Roberts](entities/JasonRoberts.md) - Writer represented through the “Luck Surface Area” heuristic linking substantive work, visible enthusiasm, and effective communication with opportunity exposure.
 - [Jason Calacanis](entities/JasonCalacanis.md) - Investor and startup practitioner represented through a contested 2015 argument about founder readiness, efficiency, apprenticeship, and sacrifice.
 - [Jamie Siminoff](entities/JamieSiminoff.md) - Ring founder represented through solution-oriented invention, accumulated entrepreneurial experience, and a critique of conventional founder selection.
 - [Ring](entities/Ring.md) - Home-security hardware company whose DoorBot origin, Shark Tank exposure, product expansion, and reported 2017 scale form the source's central case.

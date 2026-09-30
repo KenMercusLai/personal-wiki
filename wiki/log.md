@@ -7119,3 +7119,11 @@ Added [[RevenuePerEmployee]] as a qualified headcount-based estimator of private
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Increasing Your Luck Surface Area
+
+Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective communication as a complement to substantive work in increasing exposure to serendipitous opportunity. Connected the doing-and-telling heuristic to [[PersonalBranding]], [[DeliberateNetworkBuilding]], and [[KnowledgeOutput]] while preserving audience relevance, structural access, survivorship, visibility cost, and the unmeasured nature of `L = D * T` as explicit boundaries. The supplied Markdown contains no image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
