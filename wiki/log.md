@@ -7047,3 +7047,11 @@ Added [[WorkplaceMentalHealthSupport]] from [[BenCongleton]]'s account of [[Mada
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It’s Not a Feature Problem—Avoiding Startup Tarpits
+
+Added [[StartupTarpit]] as a resource-allocation loop in which feature development consumes the runway needed to test distribution and conversion. Created source-bounded profiles for [[DanielTawfik]] and [[Vonjour]], and updated [[FeatureCreep]], [[CustomerAcquisitionCost]], and [[StartupDistributionStrategy]] from their complete ordered evidence inventories. Preserved the reported $130-to-$70 CAC improvement, $35 monthly subscription revenue, paid-search signup increase, and signup bottleneck while qualifying the under-two-month payback and $1 million run-rate projection for missing gross margin, churn, cohorts, marginal channel cost, and independent verification. The sole remote image was a generic HackerNoon `/stat` title-image endpoint that returned a Cloudflare challenge; it was classified as decorative/tracking, so no asset or manifest was created.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

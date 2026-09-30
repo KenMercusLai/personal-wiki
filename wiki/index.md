@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It’s Not a Feature Problem—Avoiding Startup Tarpits](sources/its-not-a-feature-problem-avoiding-startup-tarpits-by.md) - Daniel Tawfik uses Vonjour's shift from feature spending to paid acquisition and signup optimization to argue that startups should test distribution before assuming slow growth is a product-scope problem.
 - [It’s 2017 and Mental Health is still an issue in the workplace.](sources/its-2017-and-mental-health-is-still-an-issue-in-the-workplace.md) - Ben Congleton uses Madalyn Parker’s direct mental-health leave message and his supportive reply to argue that humane leadership should be routine rather than remarkable.
 - [It's time to end the cult of the CEO](sources/its-time-to-end-the-cult-of-the-ceo.md) - Ab Banerjee argues that CEO-centered company narratives obscure distributed management work, increase executive burden, and create perceived transition risk that wider team visibility may reduce.
 - [It's not a promotion - it's a career change](sources/its-not-a-promotion-its-a-career-change-fractional-by-lindsay-holmwood.md) - Lindsay Holmwood reframes engineering management as a career change centered on group performance, interpersonal skill, deliberate learning, and multiplied human impact.
@@ -895,6 +896,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Daniel Tawfik](entities/DanielTawfik.md) - Founder-author represented through Vonjour's product-allocation, paid-acquisition, and funnel-learning retrospective.
+- [Vonjour](entities/Vonjour.md) - Subscription software company used as a case of feature-heavy spending followed by paid-search and signup-conversion experiments.
 - [Ben Congleton](entities/BenCongleton.md) - Olark CEO represented through his public argument for ordinary workplace support of mental-health leave.
 - [Madalyn Parker](entities/MadalynParker.md) - Olark employee whose direct mental-health leave message became a widely shared workplace example.
 - [Olark](entities/Olark.md) - Company context for a 2017 mental-health leave exchange between Madalyn Parker and CEO Ben Congleton.
@@ -2445,6 +2448,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Startup Tarpit](concepts/StartupTarpit.md) - Commercial inertia created when product expansion consumes the runway needed to identify and scale the actual growth constraint.
 - [Workplace Mental Health Support](concepts/WorkplaceMentalHealthSupport.md) - Leave access, disclosure norms, and leadership responses that treat mental health as an ordinary health need without avoidable penalty.
 - [CEO-Centric Leadership](concepts/CEOCentricLeadership.md) - Narrative that concentrates company identity, performance attribution, and continuity risk around one chief executive while obscuring the wider management system.
 - [Historical Analogy in Investing](concepts/HistoricalAnalogyInInvesting.md) - Using cross-period resemblance to generate portfolio stress scenarios while preserving causal, base-rate, and timing limits.
