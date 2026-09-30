@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Building an AI Agent to Parse Resumes and Job Descriptions and Recommend the Best Candidates
+
+Added [[JayKim]]'s 2025 starter pipeline for resume ingestion, text and skill extraction, Sentence Transformers embeddings, cosine-similarity ranking, and an optional Streamlit or Gradio interface. Updated [[Embeddings]] and [[SemanticSearch]] from their complete ordered evidence inventories, preserving the distinction between semantic proximity and validated candidate suitability; the tutorial provides no labeled evaluation, calibration, field weighting, fairness or adverse-impact analysis, privacy design, human-review procedure, or evidence of job-performance prediction. Opened both effective local images and omitted the author avatar and generic human-resources stock illustration as decorative, so no asset manifest was required.
+
 ## [2026-09-30] ingest | Jamie Siminoff, Ring
 
 Added [[JamieSiminoff]] and [[Ring]] through DoorBot's problem-led garage origin, the rejected [[SharkTank]] financing pitch and reported post-broadcast sales, product expansion, and the article's historical 2017 scale claims. Created source-bounded profiles for [[DFJ]] and Shark Tank; updated [[FounderOriginStories]] and [[VentureCapitalBlindSpots]] from their complete ordered evidence inventories with the distinction between a genuine triggering problem and a full causal history, plus founder-mold homogeneity and investor groupthink. Preserved all customer, sales, financing, application, and causal claims as attributed retrospective testimony from an investor-published interview. Opened all three local image embeds; retained the full-resolution Jamie Siminoff portrait once under a descriptive canonical filename and omitted the two lower-resolution duplicates.
@@ -7135,6 +7139,10 @@ Added [[JayAlammar]] and [[PositionalEncoding]], and updated [[TransformerArchit
 ## [2026-10-01] ingest | A Peek Inside Alphabet's Investing Universe
 
 Added [[CorporateVentureInvesting]] and source-bounded profiles for [[JasonRowley]], [[Alphabet]], [[CapitalG]], and [[GradientVentures]]. Updated [[GV]] and [[Google]] from their complete ordered evidence inventories with Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment roles. Preserved the 2017 Crunchbase snapshot boundary: deal and network counts do not establish capital deployed, ownership, returns, coordination, or current program structure. The supplied Markdown contains no image references, so the network visualization mentioned in the prose could not be inspected or retained.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

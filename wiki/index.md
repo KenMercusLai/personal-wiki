@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Building an AI Agent to Parse Resumes and Job Descriptions and Recommend the Best Candidates](sources/jay-kim-building-an-ai-agent-to-parse-resumes-and-job-descriptions-and-recommend-the-best-candidates.md) - Jay Kim sketches a resume-ranking pipeline built from text extraction, sentence embeddings, and cosine similarity while leaving accuracy, fairness, privacy, and hiring validity untested.
 - [The Illustrated Transformer](sources/jay-alammar-the-illustrated-transformer.md) - Jay Alammar visually decomposes the original encoder-decoder Transformer from embeddings and scaled multi-head attention through positional signals, autoregressive decoding, and training targets.
 - [A Peek Inside Alphabet's Investing Universe](sources/jason-rowley-a-peek-inside-alphabets-investing-universe.md) - Jason Rowley maps Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment entities using qualified 2017 Crunchbase data.
 - [Increasing Your Luck Surface Area](sources/jason-roberts-increasing-your-luck-surface-area.md) - Jason Roberts models serendipitous opportunity as the interaction of substantive doing and effective telling while leaving the equation, audience effects, and access constraints unmeasured.
@@ -907,6 +908,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jay Kim](entities/JayKim.md) - Technical author represented through a starter Python pipeline for embedding and ranking resumes against job descriptions.
 - [Jay Alammar](entities/JayAlammar.md) - Machine-learning author represented through a visual, progressively layered explanation of the original Transformer architecture.
 - [Jason Rowley](entities/JasonRowley.md) - Technology and venture-capital writer represented through a historical Crunchbase analysis of Alphabet's investment network.
 - [Alphabet](entities/Alphabet.md) - Google parent represented through a distributed system of venture, growth, AI, direct, accelerator, and impact investment.
