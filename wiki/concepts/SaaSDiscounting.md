@@ -4,7 +4,8 @@ type: concept
 tags: [saas, pricing, marketing]
 sources:
   - a-comprehensive-data-guide-to-why-you-shouldnt-discount
-last_updated: 2026-09-13
+  - jeremy-a-boyd-tricks-to-monetize-your-side-project
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[SaaSDiscounting]] is the practice of reducing software subscription prices to increase conversion, close deals, create urgency, or shift customers toward particular contract terms.
 
 ## Current Synthesis
-The source treats SaaS discounting as a risky acquisition shortcut. In subscription software, discounted customers do not merely reduce first-month revenue; they can reset perceived value, increase price sensitivity, weaken renewal behavior, lengthen [[CustomerAcquisitionCost]] recovery, and lower [[CustomerLifetimeValue]]. Discounting is not banned, but it should be discrete, segmented, limited, varied, and preferably tied to annual plans when the cash-flow benefit justifies the tradeoff.
+The sources frame SaaS discounting as a risky acquisition lever whose effect depends on targeting, duration, and the behavior it is meant to unlock. Broad or predictable discounts can reset perceived value, increase price sensitivity, weaken renewal behavior, lengthen [[CustomerAcquisitionCost]] recovery, and lower [[CustomerLifetimeValue]]. [[JeremyABoyd]] offers a narrower countercase: give active, email-engaged trial users one discounted month of Pro so they can experience premium value and later downgrade. That design is discrete and behavior-targeted, but the article does not isolate its conversion or renewal effect, so it remains a hypothesis rather than evidence that deep introductory discounts avoid long-term harm.
 
 ## Key Claims
 - Discounting can make near-term acquisition or quarterly goals look better while degrading later retention.
@@ -21,6 +22,7 @@ The source treats SaaS discounting as a risky acquisition shortcut. In subscript
 - Discounts can encourage sales teams to close by lowering price instead of defending product value.
 - Discounts should be targeted only at segments that need a closing push, not at customers already willing to pay.
 - Annual-plan discounts can provide upfront cash flow while avoiding a permanent monthly-price anchor.
+- A short premium-tier trial discount may be defensible when it unlocks product experience, but it still requires cohort-level conversion, downgrade, churn, and retained-revenue measurement.
 
 ## Evidence
 - Short-term versus long-term performance: [[a-comprehensive-data-guide-to-why-you-shouldnt-discount]] says aggressive discounting can appear attractive when only quarterly goal progress is considered.
@@ -29,12 +31,14 @@ The source treats SaaS discounting as a risky acquisition shortcut. In subscript
 - Internal value erosion: [[a-comprehensive-data-guide-to-why-you-shouldnt-discount]] warns that sales teams may use discounts as the easiest close.
 - Discount rules: [[a-comprehensive-data-guide-to-why-you-shouldnt-discount]] recommends discretion, segmentation, scope/time limits, and varied offers.
 - Annual-plan use: [[a-comprehensive-data-guide-to-why-you-shouldnt-discount]] recommends annual-plan discounting as a way to increase upfront cash flow.
+- Targeted introductory offer: [[jeremy-a-boyd-tricks-to-monetize-your-side-project]] recommends a one-month 50% Pro coupon for active non-converters, expecting some users to experience premium value and then downgrade to Basic.
 
 ## Counterevidence & Qualifications
-The source is a practitioner argument and does not provide full methodological detail in the local article text. It also does not claim discounts are never useful. The strongest safe reading is conditional: discounts become dangerous when they are broad, predictable, used as first resort, or detached from retention strategy and unit economics.
+Both sources are practitioner arguments without disclosed cohort data. They agree that discounts need constraints but differ in emphasis: Price Intelligently warns that low-price acquisition can damage willingness to pay and retention, while Boyd recommends a 50% introductory offer inside an onboarding sequence. Boyd reports the sequence's aggregate conversion change but not the coupon's incremental effect, downgrade rate, churn, support cost, or retained revenue. The strongest safe reading is conditional: discounts become dangerous when broad, predictable, used as first resort, or detached from retention and unit economics.
 
 ## What Changed
-- Added a new concept for discounting as a pricing, retention, and unit-economics issue rather than only an acquisition tactic.
+- Added a targeted one-month premium discount as a qualified countercase to broad-discount warnings.
+- Made downgrade, churn, and retained-revenue measurement explicit requirements for evaluating introductory offers.
 
 ## Related Concepts
 - [[SaaSPricing]] - discounting changes how customers interpret and accept price.

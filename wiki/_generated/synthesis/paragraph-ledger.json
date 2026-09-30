@@ -461,6 +461,7 @@
       "6d036eb9df0cc4d05ad19639f6c62bf1c4baeb9aad2ac4546ab0094b90d94a73",
       "895343a0cac46cb954467e706ea9b71369e771e74fa4b90ec2e2f33caeb62be2",
       "ae3c32a82a700ed13c784a6b0780ff168f00f9b0912cb94d39b5d8555fc9e6ee",
+      "6c04192dbf2d0a6c147ae45de849de30753773958860d694b60cc99120516d31",
       "cedf49e41697a1f9a734b3cef07360241e3cd0c17be3b8f2cfeae33a748aa702",
       "e6ed3471285a6de6420b21726ef8f78b2268d163d998585b8326ef70fef86db8",
       "3a4c581da47e3995cc5d4684e89a312ca497b91735ff35eeda7429b837e7c971",
@@ -662,10 +663,10 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 660
+    "paragraph_count": 661
   },
-  "overview_commit": "1076d707690672c81e95f40bbd75f5384fe76215",
-  "overview_digest": "85ec33a7305a5a215b42e7f5bcbdc7ad4da0d207ca5e308207c906b4713e3759",
+  "overview_commit": "9308bf11816fe7470f0a846ac5fe64acdc5e62db",
+  "overview_digest": "a44ee21ef56f0a8b29d062170d21d7b6f35623a556b1555f616da1861aaaecb9",
   "paragraphs": [
     {
       "id": "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
@@ -9480,6 +9481,25 @@
         "CustomerLifetimeValue",
         "SaaSDiscounting",
         "SaaSMarketing",
+        "SaaSPricing"
+      ]
+    },
+    {
+      "id": "6c04192dbf2d0a6c147ae45de849de30753773958860d694b60cc99120516d31",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "[[JeremyABoyd]]'s [[Duet]]-focused essay adds a constrained-operator implementation layer to that SaaS material. [[ConversionRateOptimization]] can begin with random landing-page assignment persisted to payment attribution, while deployment-time comparisons remain a weaker before-and-after fallback exposed to traffic and context changes. [[FreemiumAcquisition]] extends past free entry into behavior-conditioned onboarding: Boyd reports that a staged email sequence coincided with free-to-paid conversion rising from 6% to 18% and customer lifetime value reaching $80, but supplies no sample, control, cohort window, or message-level effect. [[SaaSPricing]] gains a qualified plan-design hypothesis around premium anchoring, comparison tables, highlighted plans, and materially different support or capability bundles. His one-month 50% Pro coupon creates a direct tension inside [[SaaSDiscounting]]: it is targeted and intended to unlock product experience, yet its incremental conversion, downgrade, churn, and retained-revenue effects are not disclosed. Payment-processing spread, annual upgrade licensing, hosted SaaS premiums, add-ons, and integrations broaden the revenue menu without establishing that every small project can operate the resulting support, compliance, quality, and staffing load. The supplied Markdown contains no image references.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ConversionRateOptimization",
+        "Duet",
+        "FreemiumAcquisition",
+        "JeremyABoyd",
+        "SaaSDiscounting",
         "SaaSPricing"
       ]
     },

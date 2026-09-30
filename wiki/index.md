@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Tricks to Monetize Your Side Project](sources/jeremy-a-boyd-tricks-to-monetize-your-side-project.md) - Jeremy A Boyd combines lightweight conversion tests, behavior-triggered trial onboarding, tiered pricing, and additional revenue streams while leaving cohort, retention, and causal evidence undisclosed.
 - [Jeff Dean on Large-Scale Deep Learning at Google](sources/jeff-dean-on-large-scale-deep-learning-at-google-high-scalability.md) - A 2016 talk summary connects Google Brain's research-product integration with end-to-end models, distributed training, on-device inference, and historically scoped product gains.
 - [Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders](sources/jeff-bezos-why-getting-8-hours-of-sleep-is-good-for-amazon-shareholders.md) - Jeff Bezos links eight hours of sleep to energy, consequential decision quality, and reciprocal work-life harmony while offering personal testimony rather than causal outcome evidence.
 - [Building an AI Agent to Parse Resumes and Job Descriptions and Recommend the Best Candidates](sources/jay-kim-building-an-ai-agent-to-parse-resumes-and-job-descriptions-and-recommend-the-best-candidates.md) - Jay Kim sketches a resume-ranking pipeline built from text extraction, sentence embeddings, and cosine similarity while leaving accuracy, fairness, privacy, and hiring validity untested.
@@ -910,6 +911,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jeremy A Boyd](entities/JeremyABoyd.md) - Software practitioner presenting experiment, onboarding, pricing, and revenue advice for monetizing small products.
+- [Duet](entities/Duet.md) - Side-project software product used as the source-bounded prompt for Boyd's monetization recommendations.
 - [Google Brain](entities/GoogleBrain.md) - Google research project presented through its 2011 origin, product-team collaboration, shared learning methods, and distributed training infrastructure.
 - [Jay Kim](entities/JayKim.md) - Technical author represented through a starter Python pipeline for embedding and ranking resumes against job descriptions.
 - [Jay Alammar](entities/JayAlammar.md) - Machine-learning author represented through a visual, progressively layered explanation of the original Transformer architecture.

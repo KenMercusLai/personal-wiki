@@ -7167,3 +7167,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Tricks to Monetize Your Side Project
+
+Added source-bounded profiles for [[JeremyABoyd]] and [[Duet]], and updated [[ConversionRateOptimization]], [[FreemiumAcquisition]], [[SaaSPricing]], and [[SaaSDiscounting]] from their complete ordered evidence inventories. Added lightweight landing-page assignment and payment attribution, behavior-conditioned trial onboarding, premium-tier anchoring, differentiated plan packaging, and supplementary revenue streams while preserving the missing sample, control, retention, and causal evidence. Recorded the tension between Boyd's one-month 50% Pro offer and broader discounting evidence about willingness to pay, churn, CAC recovery, and lifetime value. The supplied Markdown contains no image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
