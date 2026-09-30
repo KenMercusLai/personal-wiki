@@ -269,21 +269,6 @@
     },
     {
       "global_candidate": false,
-      "id": "developer-marketing-needs-technical-credibility",
-      "qualifications": [
-        "The evidence is one first-party [[PostHog]] account rather than comparative evidence that developer-writers, engineer event participation, personal social accounts, product-like website governance, or peer review improve acquisition or trust.",
-        "The recommended practices may transfer unevenly across open-source, self-serve, enterprise, infrastructure, and consumer-developer products, and platform performance changes over time."
-      ],
-      "statement": "[[DeveloperMarketing]] makes technical credibility an organizational design choice: [[PostHog]] connects useful reviewed content, a product-like website, a developer who writes, engineers at events, selective outsourcing, and focused channel experiments to audience trust, while [[ProductMarketFit]] bounds when paid expansion becomes appropriate.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "DeveloperMarketing",
-        "PostHog",
-        "ProductMarketFit"
-      ]
-    },
-    {
-      "global_candidate": false,
       "id": "data-science-creativity-combines-novelty-interpretation-and-uncertainty",
       "qualifications": [
         "The 4.5/5 classification is a subjective 2014 heuristic based on interviews and prior occupational mapping, not a direct or comparative measurement of creativity.",

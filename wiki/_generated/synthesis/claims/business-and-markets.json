@@ -432,18 +432,20 @@
       "global_candidate": false,
       "id": "developer-marketing-sequences-trust-and-channels",
       "qualifications": [
-        "The evidence is one first-party [[PostHog]] playbook without controlled comparisons, cohort outcomes, or stable benchmarks for channel cost, platform behavior, content performance, or the reported Hacker News hit rate.",
-        "The pre- and post-fit boundary is directional rather than measured, and self-reported discovery is incomplete, recall-sensitive, and subject to selection bias."
+        "Both sources are first-party practitioner accounts without controlled comparisons, cohort retention, or stable benchmarks for channel cost, platform behavior, content performance, or generalizability across developer-tool categories.",
+        "The [[FlawlessApp]] case cannot separate [[ProductHunt]] discovery from user email, founder audiences, or targeted external communities, and its selected success outcome supplies no baseline traffic, later revenue, failed-launch comparison, or independent verification.",
+        "The pre- and post-fit boundary is directional rather than measured, while the zero-cash launch framing excludes two years of relationship building and 40 combined founder hours on launch day."
       ],
-      "statement": "[[DeveloperMarketing]] sequences technical-audience trust before expensive distribution: [[PostHog]] places useful maintained content, product-like web governance, substantive review, selective outsourcing, and direct discovery questions before [[ProductMarketFit]], then treats [[DeveloperToolPaidAdvertising]], sponsorships, events, and social experiments as bounded later layers; [[MarketingAttribution]] and [[HackerNews]] qualify traffic or last-touch credit as weaker evidence than repeatable qualified demand.",
-      "status": "source-scoped",
+      "statement": "[[DeveloperMarketing]] joins a stage-dependent trust foundation with a concentrated launch mode: [[PostHog]] places useful maintained content, product-like web governance, substantive review, selective outsourcing, and direct discovery questions before [[ProductMarketFit]], then treats paid media, sponsorships, events, and social experiments as bounded later layers; [[FlawlessApp]] adds a timed [[ProductHunt]] campaign built on prior relevant-community participation, prepared outreach, user email, and live support. [[MarketingAttribution]] and [[SocialProof]] separate reported rank, votes, sessions, trials, sales, feedback, and press rather than treating platform attention as repeatable qualified demand.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "DeveloperMarketing",
         "PostHog",
         "ProductMarketFit",
-        "DeveloperToolPaidAdvertising",
+        "FlawlessApp",
+        "ProductHunt",
         "MarketingAttribution",
-        "HackerNews"
+        "SocialProof"
       ]
     },
     {

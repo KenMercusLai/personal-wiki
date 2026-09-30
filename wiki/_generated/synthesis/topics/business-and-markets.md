@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-30
-as_of_overview_commit: eddff38f6e8f71fbf2a4320a8a4f0bb30bdf982e
-input_digest: 57d8507fda7aac277d787010974b9961d5d1de574e04210427d37da9ee06dfe4
+as_of_overview_commit: b12a070a2a075f9b96a9c40001ed6bdac3344a3a
+input_digest: ce3c8af83990833488bca47246fec34567ef256d5f25fc66b6103ab9f71099f2
 ---
 
 # Business and Markets
@@ -298,14 +298,15 @@ Startup survival can require either visible leadership or a leader's ability to 
 
 ### Developer Marketing Sequences Trust And Channels
 
-[[DeveloperMarketing]] sequences technical-audience trust before expensive distribution: [[PostHog]] places useful maintained content, product-like web governance, substantive review, selective outsourcing, and direct discovery questions before [[ProductMarketFit]], then treats [[DeveloperToolPaidAdvertising]], sponsorships, events, and social experiments as bounded later layers; [[MarketingAttribution]] and [[HackerNews]] qualify traffic or last-touch credit as weaker evidence than repeatable qualified demand.
+[[DeveloperMarketing]] joins a stage-dependent trust foundation with a concentrated launch mode: [[PostHog]] places useful maintained content, product-like web governance, substantive review, selective outsourcing, and direct discovery questions before [[ProductMarketFit]], then treats paid media, sponsorships, events, and social experiments as bounded later layers; [[FlawlessApp]] adds a timed [[ProductHunt]] campaign built on prior relevant-community participation, prepared outreach, user email, and live support. [[MarketingAttribution]] and [[SocialProof]] separate reported rank, votes, sessions, trials, sales, feedback, and press rather than treating platform attention as repeatable qualified demand.
 
-**Evidence:** [[DeveloperMarketing]], [[PostHog]], [[ProductMarketFit]], [[DeveloperToolPaidAdvertising]], [[MarketingAttribution]], [[HackerNews]]
+**Evidence:** [[DeveloperMarketing]], [[PostHog]], [[ProductMarketFit]], [[FlawlessApp]], [[ProductHunt]], [[MarketingAttribution]], [[SocialProof]]
 
 **Qualifications:**
 
-- The evidence is one first-party [[PostHog]] playbook without controlled comparisons, cohort outcomes, or stable benchmarks for channel cost, platform behavior, content performance, or the reported Hacker News hit rate.
-- The pre- and post-fit boundary is directional rather than measured, and self-reported discovery is incomplete, recall-sensitive, and subject to selection bias.
+- Both sources are first-party practitioner accounts without controlled comparisons, cohort retention, or stable benchmarks for channel cost, platform behavior, content performance, or generalizability across developer-tool categories.
+- The [[FlawlessApp]] case cannot separate [[ProductHunt]] discovery from user email, founder audiences, or targeted external communities, and its selected success outcome supplies no baseline traffic, later revenue, failed-launch comparison, or independent verification.
+- The pre- and post-fit boundary is directional rather than measured, while the zero-cash launch framing excludes two years of relationship building and 40 combined founder hours on launch day.
 
 ### Website Personalization Needs Deep Outcome Measures
 

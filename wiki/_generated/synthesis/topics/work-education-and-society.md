@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-30
-as_of_overview_commit: 0aa53a5e827f399fc9f95bfe6737ee25b325ddc2
-input_digest: fa7a3838afe886253a643bacffccceab91e8f133be9bbfc84b77a7e6d95f7a2c
+as_of_overview_commit: b12a070a2a075f9b96a9c40001ed6bdac3344a3a
+input_digest: 30dd91445de2906f33618b914d08ec9bda6b3ae97b0d06c6c057aa17c629842c
 ---
 
 # Work, Education, and Society
@@ -192,17 +192,6 @@ input_digest: fa7a3838afe886253a643bacffccceab91e8f133be9bbfc84b77a7e6d95f7a2c
 
 - The evidence is one first-person [[Uber]] retrospective rather than comparative evidence that these concepts improve team learning, delivery, or reliability.
 - The account omits organizational process, topology, incidents, reconciliation, compliance, security, and measured outcomes, and its SLA, delivery, and locking terminology is loose.
-
-### Developer Marketing Needs Technical Credibility
-
-[[DeveloperMarketing]] makes technical credibility an organizational design choice: [[PostHog]] connects useful reviewed content, a product-like website, a developer who writes, engineers at events, selective outsourcing, and focused channel experiments to audience trust, while [[ProductMarketFit]] bounds when paid expansion becomes appropriate.
-
-**Evidence:** [[DeveloperMarketing]], [[PostHog]], [[ProductMarketFit]]
-
-**Qualifications:**
-
-- The evidence is one first-party [[PostHog]] account rather than comparative evidence that developer-writers, engineer event participation, personal social accounts, product-like website governance, or peer review improve acquisition or trust.
-- The recommended practices may transfer unevenly across open-source, self-serve, enterprise, infrastructure, and consumer-developer products, and platform performance changes over time.
 
 ### Data Science Creativity Combines Novelty Interpretation And Uncertainty
 

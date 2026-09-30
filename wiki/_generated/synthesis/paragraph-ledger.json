@@ -108,7 +108,7 @@
       "bda207d2bf80c7f5af6929a3713888cb04b88c7d65085a263905788bfa6c9281",
       "4c14a484aabe38dbe4d4703cd3074b8d0b36e41880403607351139ac4d95bbe4",
       "678f0835c760af35ac2d6319491c9a52799bd7d01728a3c1382b97a404de7ed3",
-      "252ce087e8a097280121c01c2bd546da68eff7fa51da0282032d60f8ab5386b7",
+      "2adf8a1e4e06dc2e518e8306d52468ed9b68b63330e876327ea0b5034f890ce4",
       "ee78d27648e9e72e434ce56f9d3fcb0e389ed8461e51d4d6b1ac58f0431a8753",
       "8e09b14f941c1ac204aceb48f463645d887e9a00ce3c3dc2e06134e87002aab9",
       "edea3289c48b55bd043335dcea367e070bb549632d6a7840642dfb419200dfd9",
@@ -652,8 +652,8 @@
     ],
     "paragraph_count": 648
   },
-  "overview_commit": "69d1c241e2c2980a1b381ad406fb8d4e4cc82ffa",
-  "overview_digest": "47e72f738e469c4b9c0b1c8ed0dfb010635c723dfe6abace1832355a07d013ad",
+  "overview_commit": "b12a070a2a075f9b96a9c40001ed6bdac3344a3a",
+  "overview_digest": "75335d8d2badb70cdded69b8787ff54f788d77a61947fbc139441579ca6e23e2",
   "paragraphs": [
     {
       "id": "a9e4e244f41d0fbbe0ccf6ecb9e5b638cb5d8bf36da12a073cc0a875537e3c3a",
@@ -2720,25 +2720,25 @@
       ]
     },
     {
-      "id": "252ce087e8a097280121c01c2bd546da68eff7fa51da0282032d60f8ab5386b7",
+      "id": "2adf8a1e4e06dc2e518e8306d52468ed9b68b63330e876327ea0b5034f890ce4",
       "primary_topic": "business-and-markets",
-      "secondary_topics": [
-        "work-education-and-society"
-      ],
-      "text": "The newest [[PostHog]] source adds [[DeveloperMarketing]] as a stage-dependent system for earning technical-audience trust rather than a generic channel checklist. Before [[ProductMarketFit]], it prioritizes a small number of genuinely useful articles, maintained search assets, tutorials, product-like website governance, substantive peer review, selective outsourcing, and direct signup attribution; after fit, it adds a developer-writer, paid ads, newsletter sponsorships, events, and focused social experiments. This sharpens [[DeveloperToolPaidAdvertising]] by making fit the boundary for expensive channel learning, sharpens [[MarketingAttribution]] with the branded-search last-touch mirage and an optional free-text correction, and adds a distribution qualification to [[HackerNews]]: front-page traffic can be large while signup lift remains small and the result remains unreliable. The source is a first-party playbook without controlled comparisons, cohort outcomes, or stable evidence for its reported hit rates, platform prices, or channel rankings, and its Markdown contains no image references.",
+      "secondary_topics": [],
+      "text": "The developer-tool marketing sources now join a stage-dependent foundation with a concentrated launch mode. [[PostHog]] recommends earning technical-audience trust before [[ProductMarketFit]] through a small number of genuinely useful articles, maintained search assets, tutorials, product-like website governance, substantive peer review, selective outsourcing, and direct signup attribution; after fit, it adds a developer-writer, paid ads, newsletter sponsorships, events, and focused social experiments. [[FlawlessApp]] adds a timed [[ProductHunt]] campaign built on roughly two years of prior participation in iOS, macOS, design, and startup communities, plus strategy, prepared materials, founder posts, user email, live support, and personal follow-up. Its reported number-one rank, more than 1,300 votes, 3,200 launch-day sessions, 97 two-day trials, nine two-day sales, extensive feedback, and absent major-media outreach sharpen [[DeveloperMarketing]], [[MarketingAttribution]], and [[SocialProof]] by separating visibility, learning, conversion, and publicity. Both sources are first-party practitioner accounts without controlled comparisons or retention evidence; Flawless additionally cannot isolate platform discovery from external outreach, and its zero-cash framing excludes accumulated relationship investment and 40 combined founder hours on launch day. The PostHog source contains no image references; nine Flawless references were inspected, with one high-resolution product-and-launch hero retained and duplicate, decorative, founder-photo, and unreadable 60-pixel result images omitted.",
       "topic_scores": {
-        "business-and-markets": 2,
+        "business-and-markets": 5,
+        "culture-and-media": 1,
         "governance-and-institutions": 1,
-        "psychology-and-personal-development": 1,
+        "psychology-and-personal-development": 2,
         "work-education-and-society": 2
       },
       "wikilinks": [
         "DeveloperMarketing",
-        "DeveloperToolPaidAdvertising",
-        "HackerNews",
+        "FlawlessApp",
         "MarketingAttribution",
         "PostHog",
-        "ProductMarketFit"
+        "ProductHunt",
+        "ProductMarketFit",
+        "SocialProof"
       ]
     },
     {
