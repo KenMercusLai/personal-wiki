@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3c4ace0038c7c4d95443a3c7dc6f0f1e162a0eedd47638734d861bf5bf9ac458",
       "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
       "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
       "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
@@ -640,11 +641,26 @@
       "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
       "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5"
     ],
-    "paragraph_count": 638
+    "paragraph_count": 639
   },
-  "overview_commit": "2dbf5ef4d9ec795c71d367401884b4173dc4b08f",
-  "overview_digest": "e20e29cf92e21c6d8538198b1c093a0a878de77fa9915cb778f6ba0bd54cef03",
+  "overview_commit": "b6cdb41b350bc0460dfbaba52fb6a5488c73e2bf",
+  "overview_digest": "a73ec6cb2d450c292ebe84fd46becc825c629917448a7be5e18c2955b7d38035",
   "paragraphs": [
+    {
+      "id": "3c4ace0038c7c4d95443a3c7dc6f0f1e162a0eedd47638734d861bf5bf9ac458",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[TimPeterson]] source adds a contemporaneous March 2017 checkpoint between chatbot-platform optimism and later postmortems. It sharpens [[ConversationalUI]] around a workable middle ground: users brought Siri-like expectations to narrow utilities, so effective bots needed bounded natural-language coverage, explicit statements of scope, graceful recovery to supported paths, and quick replies or menus when typing added needless guesswork. Those controls were not an unconditional victory for GUI, because an entirely menu-driven bot could become a weaker website inside messaging. The source also separates reach from distribution in [[MessagingAsPlatform]]: [[FacebookMessenger]] reportedly had more than one billion monthly users but weak bot merchandising, while [[Kik]] paired a smaller, younger audience with a Bot Shop, platform promotion, and inline Mentions. [[MobileMessagingAdvertising]] gains the durable CRM case—support, linked-account personalization, lead retention, later notification, and relationships extending beyond one campaign—but the engagement examples use incompatible denominators and come from interested participants, and Kik directly disputed one subscriber claim. All five unique remote screenshots were blocked by the publisher's anti-bot layer and had no local copies, so they could not be inspected or retained and no image-derived evidence is claimed.",
+      "topic_scores": {},
+      "wikilinks": [
+        "ConversationalUI",
+        "FacebookMessenger",
+        "Kik",
+        "MessagingAsPlatform",
+        "MobileMessagingAdvertising",
+        "TimPeterson"
+      ]
+    },
     {
       "id": "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
       "primary_topic": "culture-and-media",

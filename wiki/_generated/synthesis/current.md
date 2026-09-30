@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 2dbf5ef4d9ec795c71d367401884b4173dc4b08f
-summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, ecosystem boundaries, risk, and choice."
-episode_count: 844
-source_count: 844
-paragraph_count: 638
+as_of_overview_commit: b6cdb41b350bc0460dfbaba52fb6a5488c73e2bf
+summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, risk, and choice."
+episode_count: 845
+source_count: 845
+paragraph_count: 639
 topic_count: 9
 ---
 
@@ -43,7 +43,7 @@ Durable value joins customer outcomes, sustainable economics, governed distribut
 
 ### Cross-domain
 
-Cross-domain findings connect inspectable infrastructure, transferable models, feedback loops, human constraints, and governance while preserving context and evidentiary limits.
+Cross-domain findings connect inspectable infrastructure, transferable models, recovery and feedback loops, human constraints, bounded interfaces, active discovery, and governance while preserving context and evidentiary limits.
 
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Inside an Amazon Warehouse That Ships Your Supersized Purchases](sources/inside-an-amazon-warehouse-that-ships-your-supersized-purchases-cnet.md) - Ben Fox Rubin shows how Amazon's Fall River non-sort facility combines specialized storage, manual handling, industrial trucks, and custom packaging for large and irregular products.
+- [Inside chatbots’ year of growing pains: ‘We’re at an inflection point’](sources/inside-chatbots-year-of-growing-pains-were-at-an-inflection-point-marketing-land.md) - Tim Peterson reports that early chatbots needed bounded language, explicit recovery, structured controls, CRM continuity, and active discovery rather than scale or open text alone.
 - [Inside The NBA’s Virtual Reality Strategy](sources/inside-the-nbas-virtual-reality-strategy.md) - Manouk Akopyan traces the NBA's shift from one-off VR experiments to recurring NextVR broadcasts, global access, portfolio expansion, and qualified adoption bets.
 - [Inside Palantir, Silicon Valley's Most Secretive Company](sources/inside-palantir-silicon-valleys-most-secretive-company.md) - William Alden reports a widening gap between Palantir's bookings and cash, mixed enterprise-client outcomes, and workforce pressure inside its high-touch software-and-consulting model.
 - [Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under](sources/inside-netflixs-project-griffin-the-forgotten-history-of-roku-under.md) - A retrospective of Netflix's near-launch player and its Roku spinout frames hardware neutrality as a deliberate choice to protect broad device distribution.
@@ -1751,10 +1752,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Greylock Partners](entities/GreylockPartners.md) - Venture-capital publication context for Josh Elman's platform-distribution startup advice.
 - [Eric Seufert](entities/EricSeufert.md) - Mobile Dev Memo author classifying advertising models in mobile messaging apps.
 - [Mobile Dev Memo](entities/MobileDevMemo.md) - Mobile app and advertising publication context for Seufert's messaging-ad taxonomy.
+- [Tim Peterson](entities/TimPeterson.md) - Marketing Land reporter documenting first-wave chatbot interaction, CRM, discovery, and platform constraints.
 - [David Marcus](entities/DavidMarcus.md) - Facebook Messenger leader quoted on Hipmunk's early chatbot experience being better than mobile web.
-- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product spanning CRM-like ads, chatbot and micro-app ambitions, hybrid interfaces, and Messenger Day's broadcast-context conflict.
+- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product spanning CRM-like ads, bot scale and discovery tension, hybrid interfaces, and Messenger Day's broadcast-context conflict.
 - [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
-- [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
+- [Kik](entities/Kik.md) - Messaging app combining promoted brand chats, Bot Shop merchandising, suggested responses, inline Mentions, and early chatbot-platform tooling.
 - [Snapchat](entities/Snapchat.md) - Camera-centered social app connecting sensor-screen interaction, Stories, ephemerality, Lenses, temporary self-expression, acquired capabilities, and partial shared presence.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
@@ -3301,7 +3303,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
-- [Conversational UI](concepts/ConversationalUI.md) - Chat-like interaction pattern spanning first-wave bot and micro-app naming disputes, hybrid visual interfaces, and the later LLM revival.
+- [Conversational UI](concepts/ConversationalUI.md) - Chat-like interaction pattern spanning first-wave expectation failures, bounded language and recovery, hybrid visual controls, and the later LLM revival.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, product behavior, recovery paths, and possible actions.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
@@ -3372,7 +3374,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LLM Sycophancy](concepts/LLMSycophancy.md) - Model tendency to validate or agree with users when premises, intent, or self-understanding should be questioned.
 - [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
-- [Mobile Messaging Advertising](concepts/MobileMessagingAdvertising.md) - Messaging-app ad formats built around brand chats, content channels, feeds, sticker stores, and CRM-like conversations.
+- [Mobile Messaging Advertising](concepts/MobileMessagingAdvertising.md) - Messaging-app ad formats built around brand chats, content channels, feeds, sticker stores, and persistent CRM relationships.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
 - [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
 - [Mixed-Method UX Research](concepts/MixedMethodUXResearch.md) - Combining user behavior, subjective experience, expert inference, and interface-design evidence into one explanatory UX research structure.
@@ -3488,7 +3490,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for preventing harassment and coordinated attacks beyond personal filters.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service and monetization surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
-- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a shared-capability runtime, development environment, discovery layer, acquisition channel, and monetization surface.
+- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a shared-capability runtime, discovery and acquisition layer, CRM channel, and monetization surface.
 - [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.
 - [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
 - [Volunteer Campaign Technology](concepts/VolunteerCampaignTechnology.md) - Campaign-supporting software and data work built by loosely affiliated supporters rather than only official staff or vendors.

@@ -3,16 +3,16 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-28
-as_of_overview_commit: 2800c3b6098a8661aa4ae67f6cdaef85efa4ea25
-input_digest: 980f54295c2c56557e0379a6457bd5adaf0306340e01c024f35f8983fa664cad
+last_updated: 2026-09-30
+as_of_overview_commit: b6cdb41b350bc0460dfbaba52fb6a5488c73e2bf
+input_digest: 06d58ff8a83b5652de90e58a7c8c5a968bef353301fee1decaab3aeb95db4fc1
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize infrastructure thinking across process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, and managed-service composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, evidence limits, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources emphasize infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, and managed-service composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs explicit enough to inspect and reuse.
 
 ## Cross-source Findings
 
@@ -65,6 +65,16 @@ Good interfaces make recovery possible: [[APIErrorHandling]] gives developers ac
 **Qualifications:**
 
 - API errors address integration recovery; personal data mirrors address user continuity, so the common pattern is conceptual rather than a shared implementation.
+
+### Conversational Platforms Need Bounds And Discovery
+
+[[ConversationalUI]] and [[MessagingAsPlatform]] become usable only when capability boundaries, failure recovery, visible controls, and service discovery are designed together; large installed reach such as [[FacebookMessenger]] does not itself create awareness or habit.
+
+**Evidence:** [[ConversationalUI]], [[FacebookMessenger]], [[Kik]], [[MessagingAsPlatform]], [[MobileMessagingAdvertising]]
+
+**Qualifications:**
+
+- The 2017 evidence is an attributed industry snapshot with incompatible campaign denominators, a disputed Kik subscriber claim, and five screenshots that could not be inspected during ingest.
 
 ### Platform Growth Mixes Near Term And Durable Levers
 

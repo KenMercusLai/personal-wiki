@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-30] ingest | Inside chatbots’ year of growing pains: ‘We’re at an inflection point’
+
+Added [[TimPeterson]]'s March 2017 report on first-wave chatbot interaction, marketing, and distribution. Created Tim Peterson; updated [[ConversationalUI]], [[MessagingAsPlatform]], [[MobileMessagingAdvertising]], [[FacebookMessenger]], and [[Kik]] from their complete ordered evidence inventories with the expectation gap between general-assistant behavior and narrow bots, bounded natural language, explicit recovery, structured controls, CRM continuity, platform merchandising, inline Mentions, and the distinction between installed scale and service discoverability. Preserved the source's attributed and non-comparable engagement figures, Kik's direct subscriber-count dispute, and the distinction between reducing input friction and replacing conversation with a weaker menu interface. The Markdown contains six remote image embeds representing five unique assets, but all publisher and migrated MarTech URLs returned HTTP 403 and no local copies existed, so the visual portion could not be inspected or retained and no image-derived evidence is claimed.
+
 ## [2026-09-29] ingest | Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine
 
 Added IAmMandatory's 2023 account of building [[FindThatMeme]] from iOS Vision OCR workers, ten-frame video sampling, a used-iPhone cluster behind Raspberry Pi and NGINX, canonical [[PostgreSQL]] records, and a PGSync-fed single-node Elasticsearch index. Created FindThatMeme, [[VisualTextIndexing]], [[CostConstrainedInfrastructure]], and [[RebuildableDerivedIndex]] while preserving the first-person, unbenchmarked, point-in-time, availability, temporal-sampling, and total-cost limitations. Opened all nine effective local image references and retained every evidence-bearing OCR example, screenshot, physical-cluster photograph, price listing, and architecture diagram under descriptive canonical filenames with a complete manifest.
@@ -6800,6 +6804,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Inside an Amazon Warehouse That Ships Your Supersized Purchases
 
 Added Ben Fox Rubin's 2018 tour of [[AmazonFallRiverFulfillmentCenter]] and its non-sort operating model for large, heavy, low-volume, and irregular products. Created [[OversizedEcommerceFulfillment]], the Fall River facility, [[Wayfair]], [[StandSteady]], [[BenFoxRubin]], [[RichHanna]], and [[CNET]]; updated [[Amazon]], [[AmazonPrime]], [[Shippo]], [[LauraBehrensWu]], [[LogisticsVerticalIntegration]], and [[AmazonCapabilityLedExpansion]] from their complete ordered evidence inventories. Preserved reported-versus-audited boundaries around throughput, packaging capacity, service quality, unit economics, automation, labor, safety, and later outcomes. Both remote CNET images were unavailable: the captioned Rich Hanna portrait repeated prose and was omitted, while the generic title image could not be independently interpreted and contributed no image-derived claim or retained asset.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
