@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [It's a Tesla](sources/its-a-tesla-stratechery-by-ben-thompson.md) - Ben Thompson argues that Tesla's premium product and brand created Model 3 demand outside classic low-end disruption while preserving funding and execution risks.
 - [It’s Ugly, But It Works: On Designing for Usability](sources/its-ugly-but-it-works-on-designing-for-usability.md) - A My Tabata case argues that useful, reliable, context-sensitive interaction can outweigh weak visual polish while preserving aesthetics as a separate product-quality dimension.
+- [It’s time to get rid of traditional release notes](sources/its-time-to-get-rid-of-traditional-release-notes-colm-doyle-medium.md) - Colm Doyle argues that contextual in-app feature communication better matches segmented, auto-updated consumer software while preserving documentation needs outside that scope.
 - [It’s Not a Feature Problem—Avoiding Startup Tarpits](sources/its-not-a-feature-problem-avoiding-startup-tarpits-by.md) - Daniel Tawfik uses Vonjour's shift from feature spending to paid acquisition and signup optimization to argue that startups should test distribution before assuming slow growth is a product-scope problem.
 - [It’s 2017 and Mental Health is still an issue in the workplace.](sources/its-2017-and-mental-health-is-still-an-issue-in-the-workplace.md) - Ben Congleton uses Madalyn Parker’s direct mental-health leave message and his supportive reply to argue that humane leadership should be routine rather than remarkable.
 - [It's time to end the cult of the CEO](sources/its-time-to-end-the-cult-of-the-ceo.md) - Ab Banerjee argues that CEO-centered company narratives obscure distributed management work, increase executive burden, and create perceived transition risk that wider team visibility may reduce.
@@ -898,6 +899,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Colm Doyle](entities/ColmDoyle.md) - Author of a 2016 practitioner argument for contextual in-app feature communication over traditional App Store release notes.
 - [Clayton Christensen](entities/ClaytonChristensen.md) - Strategy scholar represented through Thompson's qualified critique of applying low-end disruption theory mechanically to consumer markets.
 - [My Tabata](entities/MyTabata.md) - Mobile interval timer represented through a one-screen workout flow, tap-anywhere pause, audio countdown, and visible progress cues.
 - [Daniel Tawfik](entities/DanielTawfik.md) - Founder-author represented through Vonjour's product-allocation, paid-acquisition, and funnel-learning retrospective.
@@ -2452,6 +2454,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Release Communication](concepts/ReleaseCommunication.md) - Explaining product changes through channels and timing suited to the users who can actually encounter them.
 - [Consumer Market Disruption Limits](concepts/ConsumerMarketDisruptionLimits.md) - Boundary on low-end disruption theory when consumer choice depends on brand, identity, integration, and other hard-to-measure attributes.
 - [Startup Tarpit](concepts/StartupTarpit.md) - Commercial inertia created when product expansion consumes the runway needed to identify and scale the actual growth constraint.
 - [Workplace Mental Health Support](concepts/WorkplaceMentalHealthSupport.md) - Leave access, disclosure norms, and leadership responses that treat mental health as an ordinary health need without avoidable penalty.

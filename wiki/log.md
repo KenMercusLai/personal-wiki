@@ -7071,3 +7071,11 @@ Added [[ConsumerMarketDisruptionLimits]] as Ben Thompson's qualified argument th
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It’s time to get rid of traditional release notes
+
+Added [[ReleaseCommunication]] as a distinction between durable change records and contextual feature introduction for segmented, auto-updated consumer software. Created a source-bounded [[ColmDoyle]] profile and connected the argument to [[ContinuousDelivery]], [[DeploymentReleaseSeparation]], [[ProductUserSegmentation]], and [[MobilePlatformDiscovery]]. Preserved the explicit API/SDK exception and the missing readership, adoption, accessibility, support, compliance, and audit evidence. Opened both unique local JPEGs, retained the full-size in-app announcement comparison under a descriptive canonical filename, and omitted its tiny thumbnail plus the repeated full-size reference as duplicates.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
