@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inspiring Women: Meet the Co-Founder of Winnie, a Yelp-Type App for Parents](sources/inspiring-women-meet-the-co-founder-of-winnie-a-yelp-type-app-for-parents-inspiring-women-livingly.md) - Sara Mauskopf connects Winnie's parent-led origin, Silicon Valley network, distributed team, and family support while acknowledging privilege and a promotional evidence boundary.
 - [Inside the store that only accepts personal data as currency](sources/inside-the-store-that-only-accepts-personal-data-as-currency-engadget.md) - Nick Summers reports how Kaspersky Lab's Data Dollar Store priced merchandise in phone data, making privacy cost tangible without establishing a market value or fair compensation model.
 - [Inside the Wild West World of Gift Card Bitcoin Brokering](sources/inside-the-wild-west-world-of-gift-card-bitcoin-brokering.md) - A 2018 investigation maps a Bitcoin-to-gift-card conversion loop, its narrow broker spreads, trust controls, fraud exposure, and gaps between Walmart policy and checkout enforcement.
 - [Inside the Black Market for Spotify Playlists](sources/inside-the-black-market-for-spotify-playlists.md) - Austin Powell maps paid curator access, direct placement, fake engagement, and the feedback loop from independent Spotify playlists into algorithmic and editorial discovery.
@@ -869,6 +870,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Sara Mauskopf](entities/SaraMauskopf.md) - Winnie co-founder whose parenting experience shaped the product and whose family crisis exposed the value of support and team autonomy.
+- [Anne Halsall](entities/AnneHalsall.md) - Winnie co-founder represented through company formation, fundraising relationships, and continuity during Sara Mauskopf's absence.
+- [Winnie](entities/Winnie.md) - Family information and local-discovery product designed around changing parenting needs and nationwide reach.
 - [Nick Summers](entities/NickSummers.md) - Engadget reporter whose participation in the Data Dollar Store provides a first-person example of explicit disclosure changing privacy behavior.
 - [Kaspersky Lab](entities/KasperskyLab.md) - Cybersecurity company represented through its 2017 personal-data-for-merchandise awareness campaign.
 - [Ben Eine](entities/BenEine.md) - Street artist who supplied the Data Dollar Store's goods and argued that people should recognize and share in information's value.
@@ -1639,7 +1643,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publisher and investor represented by consumer-product demand and CPG disruption theses.
 - [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by seetd office seating optimization and by early manual personal-shopping demand.
 - [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
-- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem whose mobility, dense relationships, and opportunity coexist with high costs, access dependence, and concentrated elite power.
+- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem whose mobility and dense relationships can form companies while coexisting with high costs, bubble effects, access dependence, and concentrated power.
 - [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
 - [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
 - [Vox](entities/Vox.md) - Explanatory journalism publication source for the automation-and-human-labor article.
@@ -2496,7 +2500,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform rules that prevent deflation, controller oscillation, and strategic misalignment across competing content formats.
 - [Unsupervised Learning](concepts/UnsupervisedLearning.md) - Learning recurring structure without explicit per-example labels, promising broader data use while retaining interpretation and transfer limits.
 - [Browser Platform Strategy](concepts/BrowserPlatformStrategy.md) - Expanding a browser into a developer, application, distribution, enterprise, identity, and standards platform.
-- [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating an existential startup threat through credible sacrifice, candor, team commitment, strategic boundaries, and explicit fairness limits.
+- [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating company threats or leader-availability shocks through candor, distributed capability, credible priorities, support, and ethical limits.
 - [Open-Source Commercialization](concepts/OpenSourceCommercialization.md) - Revenue and licensing arrangements intended to fund public software development without abandoning community participation.
 - [Developer-Led Technical Culture](concepts/DeveloperLedTechnicalCulture.md) - Organizational pattern combining hands-on technical leadership, visible work-sample hiring, delegated responsibility, and contributor autonomy.
 - [Startup Board Governance](concepts/StartupBoardGovernance.md) - Balancing founder operating knowledge with director challenge, evaluation, coaching boundaries, and stage-dependent leadership decisions.
@@ -2730,7 +2734,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Digital Purchase Durability](concepts/DigitalPurchaseDurability.md) - Persistence of a digital purchase across changes in compatible devices, operating systems, stores, services, interface conventions, and user habits.
 - [Entrepreneurial Quality and Scale](concepts/EntrepreneurialQualityAndScale.md) - Source-scoped standard that entrepreneurial products should deepen customer benefit while extending it to more people.
 - [Knowledge as Code](concepts/KnowledgeAsCode.md) - Managing a Markdown knowledge base through versioning, executable workflows, validation, derived artifacts, and controlled publishing.
-- [Work-Life Balance](concepts/WorkLifeBalance.md) - Situated allocation of work, family, rest, and support across concurrent weeks or longer life phases.
+- [Work-Life Balance](concepts/WorkLifeBalance.md) - Situated allocation of work, caregiving, health, rest, and support across days, weeks, crises, and longer life phases.
 - [Venture Capital Blind Spots](concepts/VentureCapitalBlindSpots.md) - Cognitive and market-model errors that cause investors to overlook exceptional companies within opportunities they could reasonably evaluate.
 - [Social Driver Hierarchy](concepts/SocialDriverHierarchy.md) - Christian Limon's proposed ordering of utility, content, community, and vanity as progressively stronger consumer social-network motivations.
 - [Attention Economy](concepts/AttentionEconomy.md) - Media incentive system in which measured human attention becomes a commodity and route to revenue.

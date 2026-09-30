@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8d0aea64e816c9424f399f61743991cd3c038ce192dc3ba8dc3c23ac825fe2ba",
       "0bad5b70c08121339ffda658c28f6ff9e9449f6ceaaa2e5bf164c32568c32b02",
       "3c4ace0038c7c4d95443a3c7dc6f0f1e162a0eedd47638734d861bf5bf9ac458",
       "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
@@ -642,11 +643,32 @@
       "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
       "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5"
     ],
-    "paragraph_count": 640
+    "paragraph_count": 641
   },
-  "overview_commit": "e6ae099e0923395c88141a506eb37427bc45936f",
-  "overview_digest": "6e2d672a1d4c597c5deec3bcb4fbd559cc1bff886062ee239ca9ad6d17f6cfe8",
+  "overview_commit": "d1b1816e4b48d52ee730b2e8c23b0aea0adb58ac",
+  "overview_digest": "fce8ec6fedb8f222b83e1c07ec98404a5ba44e5ee8687edde0c9d8d77ab97cfc",
   "paragraphs": [
+    {
+      "id": "8d0aea64e816c9424f399f61743991cd3c038ce192dc3ba8dc3c23ac825fe2ba",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[SaraMauskopf]] source adds [[Winnie]] as a parent-led product case connecting lived problem discovery, ecosystem access, and organizational resilience. Motherhood exposed fragmented childcare, child-development, and family-place information; Mauskopf says that need motivated her to leave employment and build a service for changing ages and stages with [[AnneHalsall]]. Her account strengthens [[SiliconValley]]'s relationship-density thesis by crediting the ecosystem for a co-founder, engineers, early investors, and fundraising connections, while also naming its bubble risk: a family product had to work beyond local assumptions and was reported in more than 3,000 U.S. cities. [[WorkLifeBalance]] gains a crisis horizon rather than another fixed schedule. During her husband's cancer treatment, family help, Winnie-supported outings, and a team that delivered through her two-week absence made company leadership and largely solo parenting coexist; this also extends [[StartupCrisisLeadership]] from founder sacrifice to the capacity for founder absence. The profile's strongest corrective is Mauskopf's rejection of a self-made account in favor of hard work interacting with upbringing, education, spouse, networks, and privilege. Its scale, loyalty, and team-performance claims remain founder-reported and unverified, the publication date is absent, and the remote lead image's host no longer resolves, so no visual evidence was used or retained.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "AnneHalsall",
+        "SaraMauskopf",
+        "SiliconValley",
+        "StartupCrisisLeadership",
+        "Winnie",
+        "WorkLifeBalance"
+      ]
+    },
     {
       "id": "0bad5b70c08121339ffda658c28f6ff9e9449f6ceaaa2e5bf164c32568c32b02",
       "primary_topic": "business-and-markets",

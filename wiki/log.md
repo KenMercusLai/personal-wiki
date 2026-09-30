@@ -6645,6 +6645,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Inspiring Women: Meet the Co-Founder of Winnie, a Yelp-Type App for Parents
+
+Added Livingly's interview with [[SaraMauskopf]] about parent-led problem discovery, building [[Winnie]] with [[AnneHalsall]], Silicon Valley talent and investor access, acknowledged privilege, and the family and team support that sustained work during her husband's cancer treatment. Created Sara Mauskopf, Anne Halsall, and Winnie; updated [[WorkLifeBalance]], [[StartupCrisisLeadership]], and [[SiliconValley]] from their complete ordered evidence inventories. Preserved the promotional, first-person, historical, missing-publication-date, unverified-scale, and generalizability limits. The sole remote lead image could not be opened because its original host no longer resolves, so it contributed no image-derived evidence and no asset was retained.
+
 ## [2026-09-30] ingest | Inside the store that only accepts personal data as currency
 
 Added Nick Summers's 2017 report on [[DataDollarStore]], a Kaspersky Lab pop-up that priced mugs, shirts, and prints in photos, messages, or staff-selected phone content. Created [[NickSummers]], [[KasperskyLab]], [[BenEine]], and the store entity; updated [[DataMonetization]] from its complete ordered evidence inventory to distinguish visibility and deliberation from market valuation, informed consent, and fair compensation. Opened both referenced images, retained the evidence-bearing storefront under a descriptive canonical filename, and omitted the Ben Eine portrait as non-evidentiary illustration.
@@ -6827,6 +6831,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Inside the Wild West World of Gift Card Bitcoin Brokering
 
 Added The Intercept's 2018 investigation of a broker using [[Paxful]] and [[Walmart]] to cycle [[Bitcoin]] through remotely supplied gift-card codes and fresh gaming cards. Created Paxful, [[GiftCardFraud]], and [[PeerToPeerCryptoTrading]]; updated Walmart and Bitcoin from their complete ordered evidence inventories. Preserved the difference between broker self-protection and lawful provenance, gross markups and residual spread, stated policy and store-level enforcement, and one observed trade versus representative market evidence. The sole remote lead image returned HTTP 404 and no reliable duplicate was found, so it could not be inspected or retained and contributed no image-derived claim.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
