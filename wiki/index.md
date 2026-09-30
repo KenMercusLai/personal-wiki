@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Jamie Siminoff, Ring](sources/jamie-siminoff-ring-dfjvc-medium.md) - Jamie Siminoff connects Ring's problem-led origin and Shark Tank exposure to a longer founder apprenticeship and a qualified critique of venture groupthink.
 - [Things I Wished More Developers Knew About Databases](sources/jaana-dogan-things-i-wished-more-developers-knew-about-databases.md) - Jaana Dogan connects database guarantees with concrete transaction anomalies, distributed-system tradeoffs, operation-level performance, and staged migration.
 - [It's a Tesla](sources/its-a-tesla-stratechery-by-ben-thompson.md) - Ben Thompson argues that Tesla's premium product and brand created Model 3 demand outside classic low-end disruption while preserving funding and execution risks.
 - [It’s Ugly, But It Works: On Designing for Usability](sources/its-ugly-but-it-works-on-designing-for-usability.md) - A My Tabata case argues that useful, reliable, context-sensitive interaction can outweigh weak visual polish while preserving aesthetics as a separate product-quality dimension.
@@ -901,6 +902,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jamie Siminoff](entities/JamieSiminoff.md) - Ring founder represented through solution-oriented invention, accumulated entrepreneurial experience, and a critique of conventional founder selection.
+- [Ring](entities/Ring.md) - Home-security hardware company whose DoorBot origin, Shark Tank exposure, product expansion, and reported 2017 scale form the source's central case.
+- [DFJ](entities/DFJ.md) - Ring investor and interview publisher characterized by Siminoff as willing to back ideas that initially appear strange.
+- [Shark Tank](entities/SharkTank.md) - Television investment program whose rejected DoorBot pitch reportedly became a large customer-exposure event.
 - [Jaana Dogan](entities/JaanaDogan.md) - Software practitioner translating database failure modes and tradeoffs for application developers.
 - [Colm Doyle](entities/ColmDoyle.md) - Author of a 2016 practitioner argument for contextual in-app feature communication over traditional App Store release notes.
 - [Clayton Christensen](entities/ClaytonChristensen.md) - Strategy scholar represented through Thompson's qualified critique of applying low-end disruption theory mechanically to consumer markets.

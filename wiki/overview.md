@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - jamie-siminoff-ring-dfjvc-medium
   - jaana-dogan-things-i-wished-more-developers-knew-about-databases
   - im-sorry-i-cant-sneakerheadvc
   - its-time-to-get-rid-of-traditional-release-notes-colm-doyle-medium
@@ -637,6 +638,8 @@ sources:
 last_updated: 2026-09-30
 ---
 # Overview
+
+The newest [[JamieSiminoff]] source adds [[Ring]] as a founder-origin and venture-selection case. DoorBot's memorable beginning—a Wi-Fi doorbell built because Siminoff could not hear the door from his garage—remains meaningful, but [[FounderOriginStories]] now places it after childhood selling and factory work, hands-on invention, six prior startups, failed fundraising, and investor-network formation. The 2013 [[SharkTank]] episode adds another threshold: the judges rejected a $700,000-for-10% request, yet Siminoff attributes at least $5 million in sales to the broadcast and says that cash funded engineers and the next product. [[VentureCapitalBlindSpots]] gains the founder-side claim that standard academic and career molds plus socially homogeneous networks can create correlated groupthink, while [[DFJ]] is presented as a counterexample through earlier SpaceX and Tesla bets. The synthesis preserves strict limits: “weird” is not a prospective quality rule; investor rejection and customer demand evaluate different questions; and the one edited portfolio-founder interview supplies no underlying customer, sales, financing, applicant, comparison, or causal data. The article's one unique photograph was retained from the highest-resolution of three duplicate embeds under a descriptive canonical filename.
 
 The newest [[BenThompson]] source adds [[ConsumerMarketDisruptionLimits]] as a scope boundary on low-end disruption theory rather than a claim that [[Tesla]] was itself disruptive. Thompson accepts Tesla's classification as sustaining innovation but argues that consumer choice often includes integration, design, emotion, identity, and [[BrandEquity]] that cannot be reduced to documented attributes on which modular alternatives become good enough. Tesla's path from Roadster through Model S and Model X toward Model 3 therefore supplies a premium-to-lower-price entry case: the inspected company-report table shows 25,202 U.S. Model S sales in 2015, up 51.01% while every listed large-luxury rival declined, and the article reports 276,000 refundable Model 3 deposits after three days, including 115,000 before the reveal. The synthesis remains prospective and financially qualified. Reservations are not deliveries, profit, or mass-market share; the selected luxury segment does not isolate brand as the cause; high-end vehicle sales did not fund R&D alone because Tesla also issued stock and debt; and Thompson's claim that the name would earn patience for late or more expensive delivery was a 2016 forecast. The sole local image was opened and retained at its semantic position as a descriptive copy of the luxury-sales comparison.
 

@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 1c3ee402bc8a3db9313e9a0e5d7399af030c181f
+as_of_overview_commit: 7d719eb8810a9ff897fb26c6c2b43c162e9cd2e7
 summary: "Current knowledge connects calibrated evidence, reliable operations, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 880
-source_count: 880
+episode_count: 881
+source_count: 881
 paragraph_count: 657
 topic_count: 9
 ---
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, workload fit, durable depth, and governed human control; database guarantees likewise require concrete engine-, configuration-, operation-, and failure-specific testing.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, workload fit, durable depth, and governed human control.
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles. Evidence: [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], [[JaanaDogan]].
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, and visible operating capability; database service levels and migrations connect infrastructure choices to customer-visible reliability.
+Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible capability, and independent judgment under uncertainty.
 
 - [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome. Evidence: [[ProgressiveEquity]], [[EmployeeEquityGrantSizing]], [[Detour]], [[AndrewMason]], [[Groupon]], [[EmployeeEquityRisk]].
 - [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment. Evidence: [[EverydayEconomy]], [[TechnologyEnablerStack]], [[NextViewVentures]].
@@ -50,7 +50,7 @@ Cross-domain findings connect inspectable infrastructure, failure-independent re
 
 ### Culture and Media
 
-Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, access, and participation; infrastructure enables new forms without proving audience or business outcomes.
+Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, access, and participation.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -64,7 +64,7 @@ Institutions and infrastructure need explicit authority, clear boundaries, seque
 
 ### History and Geopolitics
 
-Historical spillovers require attention to lineage, path dependence, institutional context, and causal humility; the new 2020 database material is technical operations history rather than geopolitical evidence.
+Historical spillovers require attention to lineage, path dependence, institutional context, and causal humility.
 
 ### Psychology and Personal Development
 
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating observed health a
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, psychologically safe support, and career systems that separate senior contribution from authority while treating management as learnable group-centered work.
+Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, safe support, and career systems separating contribution from authority.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

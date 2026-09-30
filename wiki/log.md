@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-30] ingest | Jamie Siminoff, Ring
+
+Added [[JamieSiminoff]] and [[Ring]] through DoorBot's problem-led garage origin, the rejected [[SharkTank]] financing pitch and reported post-broadcast sales, product expansion, and the article's historical 2017 scale claims. Created source-bounded profiles for [[DFJ]] and Shark Tank; updated [[FounderOriginStories]] and [[VentureCapitalBlindSpots]] from their complete ordered evidence inventories with the distinction between a genuine triggering problem and a full causal history, plus founder-mold homogeneity and investor groupthink. Preserved all customer, sales, financing, application, and causal claims as attributed retrospective testimony from an investor-published interview. Opened all three local image embeds; retained the full-resolution Jamie Siminoff portrait once under a descriptive canonical filename and omitted the two lower-resolution duplicates.
+
 ## [2026-09-30] ingest | It's Okay Not To Lead
 
 Added [[ErikDietrich]]'s 2016 retrospective distinguishing autonomy from authority, formal title from technical competence, and hands-on contribution from organizational rank. Updated Erik Dietrich, [[ManagementRoleFit]], and [[DualCareerTracks]] from their complete ordered evidence inventories with the implementation, delegation, escalation-pressure, and status trade-offs of leadership. Preserved the first-person, retrospective, selected-comment, and freelancing-comparison limits. Opened both effective images and omitted the football-player sketch and smiley emoji as decorative, so no asset manifest was required.
@@ -7091,6 +7095,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Things I Wished More Developers Knew About Databases
 
 Added [[DatabaseEngineeringTradeoffs]] from [[JaanaDogan]]'s practitioner account of database guarantees, transaction semantics, network and clock uncertainty, operation-level performance, online migration, and growth. Updated [[DatabaseTransactionIsolation]] from its complete ordered evidence inventory with engine-specific isolation interpretation, optimistic version checks, and write-skew risk. Preserved the article's 2020 product details and broad recommendations as source-scoped rather than current universal guidance. Inspected and retained all six evidence-bearing visuals under descriptive canonical filenames with a matching asset manifest.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
