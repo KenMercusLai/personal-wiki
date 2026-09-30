@@ -6,15 +6,16 @@ sources:
   - building-to-independence-on-top-of-other-platforms-greylock-perspectives
   - you-are-not-your-customer-greylock-perspectives
   - from-campus-drive-to-cisco-our-journey-with-appdynamics
-last_updated: 2026-09-28
+  - john-lilly-simplify-your-message-and-repeat-often-the-new-york-times
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[GreylockPartners]] appears as both a venture-capital publication context for founder advice and an early institutional investor supporting [[AppDynamics]] from Series A through executive succession and acquisition.
+[[GreylockPartners]] appears as a venture-capital publication context, an early institutional investor supporting [[AppDynamics]] from Series A through executive succession and acquisition, and the firm through which [[JohnLilly]] describes founder assessment and investor attention.
 
 ## Current Profile
-Two sources use Greylock Perspectives as a venue for founder-facing strategy. [[JoshElman]] explains how startups can use platform leverage while building independent demand; an unattributed essay argues that employees and early adopters become too fluent to represent newcomers reliably. [[AsheemChandna]]'s AppDynamics retrospective adds the firm's operating-investor role: trusted-network sourcing, fast Series A conviction, early office space, board participation, and recruitment of a scaling CEO before a planned IPO and sale to [[Cisco]].
+Two sources use Greylock Perspectives as a venue for founder-facing strategy. [[JoshElman]] explains how startups can use platform leverage while building independent demand; an unattributed essay argues that employees and early adopters become too fluent to represent newcomers reliably. [[AsheemChandna]]'s AppDynamics retrospective adds the firm's operating-investor role: trusted-network sourcing, fast Series A conviction, early office space, board participation, and recruitment of a scaling CEO before a planned IPO and sale to [[Cisco]]. Lilly's interview adds a partner-level decision lens: investor diligence tests both founder reasoning and the prospective working relationship, while the role itself repeatedly exposes investors to fear of opportunities missed.
 
 ## Key Characteristics
 - Venture-capital publication venue for founder advice.
@@ -22,6 +23,7 @@ Two sources use Greylock Perspectives as a venue for founder-facing strategy. [[
 - Presents both platform dependence and feedback representativeness as practical founder decisions rather than purely technical issues.
 - Co-led AppDynamics' Series A and supplied early office and board support in Chandna's account.
 - Participated in the CEO succession used to prepare AppDynamics for public-company scale.
+- Represents investor assessment as both company diligence and reciprocal founder-partner fit.
 
 ## Evidence
 - Publication context: [[building-to-independence-on-top-of-other-platforms-greylock-perspectives]] is labeled Greylock Perspectives and presents Elman's platform advice.
@@ -31,13 +33,15 @@ Two sources use Greylock Perspectives as a venue for founder-facing strategy. [[
 - Investment formation: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] says Chandna brought Bansal to Greylock's partner meeting and co-led the Series A with Lightspeed.
 - Company support: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] says the first AppDynamics team worked in Greylock's Campus Drive offices and that Greylock participated on the board.
 - Executive succession: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] places Chandna and Greylock's talent partner inside the search that recruited Wadhwani as CEO.
+- Founder assessment: [[john-lilly-simplify-your-message-and-repeat-often-the-new-york-times]] presents Greylock partner [[JohnLilly]] using open-ended pressure questions to observe reasoning, candor, listening, and working fit.
 
 ## Qualifications
-This page remains source-scoped and does not evaluate Greylock's full fund history, portfolio, returns, or comparative investment performance. The customer essay lacks a named individual author. The AppDynamics account is written by the sponsoring investor around a successful exit and does not provide an independent view of the firm's contribution, financing terms, missed opportunities, or post-acquisition outcomes.
+This page remains source-scoped and does not evaluate Greylock's full fund history, portfolio, returns, or comparative investment performance. The customer essay lacks a named individual author. The AppDynamics account is written by the sponsoring investor around a successful exit and does not provide an independent view of the firm's contribution, financing terms, missed opportunities, or post-acquisition outcomes. Lilly's condensed interview supplies no founder comparison, deal outcomes, or evidence that meeting behavior predicts investment performance.
 
 ## What Changed
 - Added Greylock's AppDynamics sourcing, Series A, early-office, board, and executive-search roles.
 - Broadened the page from publication context to source-bounded operating-investor evidence.
+- Added Lilly's reciprocal founder-fit assessment and operator-versus-investor attention contrast.
 
 ## Relationships
 - [[JoshElman]] - Greylock-associated author and presenter in the source.
@@ -48,3 +52,5 @@ This page remains source-scoped and does not evaluate Greylock's full fund histo
 - [[AsheemChandna]] - Greylock investor who authored the AppDynamics retrospective.
 - [[AppDynamics]] - portfolio company used to illustrate Greylock's early and scaling-stage support.
 - [[ExecutiveHiring]] - Greylock participated in the CEO succession described by Chandna.
+- [[JohnLilly]] - Greylock partner whose interview supplies the firm's source-bounded assessment lens.
+- [[FounderInvestorFit]] - Lilly treats investment selection as a test of reasoning and working compatibility.

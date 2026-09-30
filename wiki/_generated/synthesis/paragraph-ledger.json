@@ -665,12 +665,13 @@
       "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198",
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf",
-      "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b"
+      "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
+      "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 665
+    "paragraph_count": 666
   },
-  "overview_commit": "ea9dec7768057430d0c7b8061f0323495114b4a8",
-  "overview_digest": "2f729822244d365037b0f2c9b6d581021a2b6af6958e99b534ace2428107f012",
+  "overview_commit": "1394edb62cae73f0eecb80fcdc354854ad1ec6fd",
+  "overview_digest": "7dfa02d90df2985f5eb5057ccd5f7918df37b6d867889512e66b3c3fe23d8a56",
   "paragraphs": [
     {
       "id": "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
@@ -13469,6 +13470,26 @@
         "FunctionDesign",
         "FunctionalProgramming",
         "JohnCarmack"
+      ]
+    },
+    {
+      "id": "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[JohnLilly]] source connects leadership communication, venture diligence, and professional affiliation through explicit framing. [[ScalingCommunication]] gains a concrete failure mechanism: changing the wording of an unchanged message for novelty caused employees to infer different priorities, so leaders should keep the formulation stable until the judgment genuinely changes and then make the break conspicuous. [[FounderInvestorFit]] gains the reciprocal investor test: Lilly separately asks who the founder is and whether he can work productively with that person, using expanding questions to observe reasoning, listening, candor, aggression, and defensiveness. Because interviewer power and ambiguity can produce the reaction being measured, his later practice explains that awkward probes are exploratory and may be wrong. [[DeliberateNetworkBuilding]] gains commitment and boundary-setting from the advice to choose whose team to join, invest in those relationships, and treat people well. The article is a condensed first-person practitioner account without employee, founder-comparison, rejected-deal, or outcome evidence; its preference for makers over finance remains a value judgment. The sole local image was opened and omitted as a decorative headshot.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DeliberateNetworkBuilding",
+        "FounderInvestorFit",
+        "JohnLilly",
+        "ScalingCommunication"
       ]
     }
   ],

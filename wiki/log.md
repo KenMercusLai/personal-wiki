@@ -7223,3 +7223,11 @@ Added [[ExecutionPathTransparency]] and [[FunctionalProgramming]], and updated [
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | John Lilly: Simplify Your Message, and Repeat Often
+
+Updated [[JohnLilly]] and [[GreylockPartners]] from their complete ordered evidence inventories, grounding the repeated-message rule in Lilly's own account of how cosmetic wording changes fragmented employee understanding. Extended [[ScalingCommunication]], [[FounderInvestorFit]], and [[DeliberateNetworkBuilding]] with conspicuous policy change, reciprocal founder-investor assessment, explicit framing of pressure questions, and community commitment while preserving interviewer power, selection bias, missing outcome evidence, and the value-laden maker-versus-finance claim. Opened the sole local image and omitted it as a decorative headshot, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

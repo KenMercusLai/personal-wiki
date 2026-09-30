@@ -917,6 +917,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jessica Livingston's Pretty Complete List on How Not to Fail](sources/jessica-livingstons-pretty-complete-list-on-how-not-to-fail.md) - Jessica Livingston links user demand, founder focus, measured growth, default-alive status, conservative hiring, and fundraising-stage expectations into a qualified startup survival framework.
 - [John Carmack on Inlined Code](sources/john-carmack-on-inlined-code.md) - John Carmack argues for visible stateful execution and consistent frame paths while treating pure functions as the safer reusable boundary.
 
+- [John Lilly: Simplify Your Message, and Repeat Often](sources/john-lilly-simplify-your-message-and-repeat-often-the-new-york-times.md) - John Lilly connects stable repeated leadership messages with organizational alignment, frames founder diligence as reciprocal working-fit assessment, and contrasts operator focus with venture investors' fear of missed opportunities.
+
 ## Entities
 - [Jimmy Bogard](entities/JimmyBogard.md) - Software practitioner defining microservices through contextual service autonomy rather than technology or fixed size.
 - [Marc Lore](entities/MarcLore.md) - Jet CEO advocating transparent, level-based compensation as a trust and fairness mechanism.

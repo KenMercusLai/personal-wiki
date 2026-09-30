@@ -9,7 +9,8 @@ sources:
   - 9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium
   - cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium
   - guide-37signals-how-we-communicate
-last_updated: 2026-09-29
+  - john-lilly-simplify-your-message-and-repeat-often-the-new-york-times
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,6 +19,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Synthesis
 Communication becomes unnatural but necessary once a company grows quickly enough that many employees missed earlier debates; Stripe's 2015 account places that transition around its move from roughly 160–170 people toward 330. Founders and executives must repeat priorities, write updates, run all-hands, and make message changes obvious so decentralized teams can make aligned decisions without being in the same room. The deeper constraint is asymmetric context: a CEO is learning on a tighter internal loop than everyone else, while new employees inherit conclusions without the discussions that produced them.
+
+Lilly's interview explains why novelty itself can become a communication defect. When he changed the wording because he was tired of saying the same thing, employees inferred different positions. Stable wording is therefore not merely a mnemonic; it prevents accidental policy variation. If the underlying judgment really changes, the leader should make the break large and explicit enough that the organization can update deliberately.
 
 Written strategic plans add the deeper mechanism behind that broadcast need. They preserve the framework, rationale, and logic behind a choice so that people making daily micro-decisions can make consistent tradeoffs after execution inevitably diverges from the original plan. Collison's interview makes the persistence contrast explicit: speech happens once and to a bounded audience, while writing remains available, gains rigor through concreteness, and can be corrected. Writing also creates usable corporate history. The shared qualification is that communication systems become harmful when they turn into empty ritual: repeated messages, all-hands, written updates, or six-page memos are valuable only when they carry real decisions and reasoning.
 
@@ -38,7 +41,7 @@ The 37signals guide supplies an alternative to meeting-heavy broadcast. One cent
 
 ## Evidence
 - Context loss: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[PatrickCollison]] that past 150 employees, Stripe needed formal broadcast communication because many people had missed prior debates.
-- Repetition rule: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[JohnLilly]] on simple repeated messages and visible message changes.
+- Repetition rule: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[JohnLilly]] on simple repeated messages and visible message changes; [[john-lilly-simplify-your-message-and-repeat-often-the-new-york-times]] adds that small wording variations led employees to infer different views.
 - Written reports: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[DianeGreene]] on weekly VMware cross-team updates.
 - Operating cadence: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[MarissaMayer]] on Google's weekly staff, strategy, one-on-one, and company meeting rhythm.
 - All-hands: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[JeffWeiner]] on LinkedIn's global every-other-week all-hands.
@@ -59,10 +62,13 @@ Mission repetition can also become slogan-like if leaders do not connect it to r
 
 The Stripe headcount threshold is a historical company observation, not a universal breakpoint; communication needs depend on growth rate, distribution, function boundaries, and how much context work already makes explicit. The 37signals model is likewise a first-party operating account, not evidence that meeting-light asynchronous systems outperform broadcast meetings across organizations.
 
+Stable wording can preserve alignment, but repetition can also harden an obsolete judgment, suppress useful local interpretation, or become empty branding. Lilly's rule therefore depends on the paired requirement to announce genuine changes conspicuously; his interview does not measure whether message stability improved employee understanding or company outcomes.
+
 ## What Changed
 - Expanded alignment infrastructure from leader broadcasts and meetings to predictable asynchronous prompts, summaries, and contextual records.
 - Added audience segmentation: company-wide awareness need not require company-wide exposure to every project detail.
 - Added cadence, medium, location, and response expectation as joint communication-system choices.
+- Added accidental wording variation as a mechanism for false policy divergence, with conspicuous change as the corrective boundary.
 
 ## Related Concepts
 - [[StartupCulture]] - repeated communication reinforces values and priorities.

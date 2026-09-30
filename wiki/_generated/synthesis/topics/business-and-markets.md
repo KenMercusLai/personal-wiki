@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-01
-as_of_overview_commit: e3573709ae3cbadd0f2834f8ea85577ac5ef2fa5
-input_digest: 33a07eb6b1075ad2579db3d4527840a2947ccaee91d059e754190e8c6187c5d3
+as_of_overview_commit: 1394edb62cae73f0eecb80fcdc354854ad1ec6fd
+input_digest: 44bbc08be20e6fc669282f897970c085aed648876541d06f69116458bf2774ad
 ---
 
 # Business and Markets
@@ -568,15 +568,16 @@ Startup survival can require either visible leadership or a leader's ability to 
 
 ### Founder Investor Fit Bounds Persuasion Effort
 
-[[FounderInvestorFit]] makes fundraising a mutual selection problem whose consequences continue through [[FounderInvestorRelations]] and formal [[StartupBoardGovernance]]: a founder may stop a low-information persuasion contest before commitment, but afterward reporting, LP references, diligence, events, and board challenge can become recurring work that is harder to decline. Respect for founder operating context is therefore different from unconditional loyalty, and [[FounderTimeLeverage]] depends on both selective partner choice and bounded delegation.
+[[FounderInvestorFit]] makes fundraising a mutual selection problem whose consequences continue through [[FounderInvestorRelations]] and formal [[StartupBoardGovernance]]: founders can test whether investor skepticism is grounded, while [[JohnLilly]] separately assesses a founder's reasoning and whether the pair can work productively together. Difficult questions reveal less cleanly when power and ambiguity produce the reaction being measured, so explaining that probes are exploratory and may be wrong makes investor conduct part of the evidence. A founder may stop a low-information persuasion contest before commitment, but afterward reporting, LP references, diligence, events, and board challenge can become recurring work that is harder to decline; [[FounderTimeLeverage]] therefore depends on selective partner choice and bounded delegation.
 
-**Evidence:** [[FounderInvestorFit]], [[FounderInvestorRelations]], [[FounderTimeLeverage]], [[StartupBoardGovernance]]
+**Evidence:** [[FounderInvestorFit]], [[FounderInvestorRelations]], [[FounderTimeLeverage]], [[StartupBoardGovernance]], [[JohnLilly]]
 
 **Qualifications:**
 
 - The pre-investment evidence is one successful founder's anecdote relayed by an investor-author, while the post-close evidence is one founder's retrospective using apparently anonymized counterparties; neither includes the other participants' accounts.
 - An oversubscribed founder can disengage more readily than one with few financing alternatives, and after financing closes the founder may have less freedom to refuse requests; the sources do not distinguish contractual rights from courtesy requests or perceived relationship pressure.
 - Gerstenzang's board-governance evidence is one normative practitioner essay that does not specify who defines the company's interests, when directors have enough information to intervene, or how to distinguish warranted accountability from investor preference or faulty pattern matching.
+- Lilly's condensed first-person interview supplies no founder comparison or investment outcomes, and pressure questions can create the defensiveness they appear to measure; explicit framing reduces but does not remove that power and attribution problem.
 
 ### Early Stage Valuations And Round Sizes Can Decouple
 
@@ -904,13 +905,14 @@ Startup survival can require either visible leadership or a leader's ability to 
 
 ### Strategic Writing Preserves Execution Context
 
-[[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], and [[Amazon]] show written plans functioning as business alignment infrastructure: they preserve rationale, stakeholder implications, and execution logic while warning that memo rituals can become status artifacts when copied from successful companies.
+[[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], and [[Amazon]] show written plans functioning as business alignment infrastructure: they preserve rationale, stakeholder implications, and execution logic while warning that memo rituals can become status artifacts when copied from successful companies. [[JohnLilly]] adds that cosmetic wording variation can be mistaken for a policy change, making stable repetition and conspicuous real revision complementary alignment controls.
 
-**Evidence:** [[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], [[Amazon]]
+**Evidence:** [[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], [[Amazon]], [[JohnLilly]]
 
 **Qualifications:**
 
 - The Sinofsky evidence is an operator essay; it argues from management experience and explicitly warns that writing rituals can be slow, gamed, over-attributed to success, or confused with the work itself.
+- Lilly's message-stability rule is a first-person lesson without employee-comprehension or company-outcome measurement; repetition can preserve an obsolete judgment unless genuine changes are made conspicuous.
 
 ### Time Leverage Can Buy Back Scarce Capacity
 
