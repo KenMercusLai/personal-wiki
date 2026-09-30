@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "jeff-dean-on-large-scale-deep-learning-at-google-high-scalability",
+  "images": [
+    {
+      "file": "street-scene-text-understanding.png",
+      "alt": "Street scene with storefront signs illustrating the text and context a vision system must interpret"
+    }
+  ]
+}

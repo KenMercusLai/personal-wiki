@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Jeff Dean on Large-Scale Deep Learning at Google
+
+Added [[GoogleBrain]], [[EndToEndLearning]], and [[DistributedNeuralNetworkTraining]] from a 2016 summary of [[JeffDean]]'s talk. Updated Jeff Dean, [[DeepLearning]], and [[DeepLearningScaling]] from their complete ordered evidence inventories with research-product integration, model- and data-parallel training, on-device inference, and the boundary between task-level scaling and broad capability. Retained the storefront photograph as evidence for the visual-text understanding problem; the second referenced transparent spacer was unavailable and omitted as non-evidentiary. Preserved all product metrics, benchmark errors, replica counts, and training-time claims as attributed historical snapshots.
+
 ## [2026-10-01] ingest | Building an AI Agent to Parse Resumes and Job Descriptions and Recommend the Best Candidates
 
 Added [[JayKim]]'s 2025 starter pipeline for resume ingestion, text and skill extraction, Sentence Transformers embeddings, cosine-similarity ranking, and an optional Streamlit or Gradio interface. Updated [[Embeddings]] and [[SemanticSearch]] from their complete ordered evidence inventories, preserving the distinction between semantic proximity and validated candidate suitability; the tutorial provides no labeled evaluation, calibration, field weighting, fairness or adverse-impact analysis, privacy design, human-review procedure, or evidence of job-performance prediction. Opened both effective local images and omitted the author avatar and generic human-resources stock illustration as decorative, so no asset manifest was required.
@@ -7143,6 +7147,10 @@ Added [[JayAlammar]] and [[PositionalEncoding]], and updated [[TransformerArchit
 ## [2026-10-01] ingest | A Peek Inside Alphabet's Investing Universe
 
 Added [[CorporateVentureInvesting]] and source-bounded profiles for [[JasonRowley]], [[Alphabet]], [[CapitalG]], and [[GradientVentures]]. Updated [[GV]] and [[Google]] from their complete ordered evidence inventories with Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment roles. Preserved the 2017 Crunchbase snapshot boundary: deal and network counts do not establish capital deployed, ownership, returns, coordination, or current program structure. The supplied Markdown contains no image references, so the network visualization mentioned in the prose could not be inspected or retained.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

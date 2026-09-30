@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Jeff Dean on Large-Scale Deep Learning at Google](sources/jeff-dean-on-large-scale-deep-learning-at-google-high-scalability.md) - A 2016 talk summary connects Google Brain's research-product integration with end-to-end models, distributed training, on-device inference, and historically scoped product gains.
 - [Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders](sources/jeff-bezos-why-getting-8-hours-of-sleep-is-good-for-amazon-shareholders.md) - Jeff Bezos links eight hours of sleep to energy, consequential decision quality, and reciprocal work-life harmony while offering personal testimony rather than causal outcome evidence.
 - [Building an AI Agent to Parse Resumes and Job Descriptions and Recommend the Best Candidates](sources/jay-kim-building-an-ai-agent-to-parse-resumes-and-job-descriptions-and-recommend-the-best-candidates.md) - Jay Kim sketches a resume-ranking pipeline built from text extraction, sentence embeddings, and cosine similarity while leaving accuracy, fairness, privacy, and hiring validity untested.
 - [The Illustrated Transformer](sources/jay-alammar-the-illustrated-transformer.md) - Jay Alammar visually decomposes the original encoder-decoder Transformer from embeddings and scaled multi-head attention through positional signals, autoregressive decoding, and training targets.
@@ -909,6 +910,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Google Brain](entities/GoogleBrain.md) - Google research project presented through its 2011 origin, product-team collaboration, shared learning methods, and distributed training infrastructure.
 - [Jay Kim](entities/JayKim.md) - Technical author represented through a starter Python pipeline for embedding and ranking resumes against job descriptions.
 - [Jay Alammar](entities/JayAlammar.md) - Machine-learning author represented through a visual, progressively layered explanation of the original Transformer architecture.
 - [Jason Rowley](entities/JasonRowley.md) - Technology and venture-capital writer represented through a historical Crunchbase analysis of Alphabet's investment network.
@@ -2477,6 +2479,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [End-to-End Learning](concepts/EndToEndLearning.md) - Training a relatively direct input-to-output mapping to replace some hand-built features, intermediate rules, and subsystem integration.
+- [Distributed Neural Network Training](concepts/DistributedNeuralNetworkTraining.md) - Model- and data-parallel optimization across devices or machines, including parameter-server and synchronization tradeoffs.
 - [Decision Quality](concepts/DecisionQuality.md) - Prioritizing the value of consequential judgments over decision count, visible activity, or nominal working hours.
 - [Corporate Venture Investing](concepts/CorporateVentureInvesting.md) - Startup investing through corporation-affiliated vehicles differentiated by stage, sector, strategic purpose, or non-equity program.
 - [Revenue Per Employee](concepts/RevenuePerEmployee.md) - Aggregate productivity ratio used here as a calibrated but highly qualified headcount-based estimator of private SaaS revenue.
