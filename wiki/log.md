@@ -7295,3 +7295,11 @@ Added [[KennethFriedman]] and [[EmailBatching]], and updated [[Gmail]] and [[Com
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 搞懂异地多活，看这篇就够了
+
+Added [[Kaito]], [[MultiSiteHighAvailability]], and [[TrafficUnitization]] from a 2021 practitioner explanation of the progression from backup and same-city disaster recovery to cross-city active-active and multi-site operation. Preserved the core boundaries: wide-area synchronous access is slow and fragile; bidirectional eventual replication creates conflict risk; stable traffic ownership and storage-side checks prevent many conflicting writers; global strongly consistent data may remain single-writer; and added sites do not prove RTO, RPO, capacity, or failover safety without operational validation. Opened all 23 local images, retained 11 distinct availability, topology, routing, and sharding diagrams under descriptive names with a canonical asset manifest, and omitted the outline plus intermediate diagrams whose information was repeated by the prose or later retained architecture states.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

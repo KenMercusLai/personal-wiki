@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [搞懂异地多活，看这篇就够了](sources/kaito-gao-dong-yi-di-duo-huo-kan-zhe-pian-jiu-gou-le.md) - Kaito develops high availability from backups and same-city redundancy into unitized cross-city active-active and multi-site replication, while preserving consistency, latency, capacity, and operational limits.
 - [KF: Batch Gmail](sources/kf-batch-gmail.md) - Kenneth Friedman uses a Gmail filter and timed Apps Script to batch inbox visibility while leaving productivity effects, current compatibility, and broad mailbox-permission risk unresolved.
 - [Just how big is the podcast discovery gap?](sources/just-how-big-is-the-podcast-discovery-gap-startup-grind-medium.md) - David Kadavy links one podcast's downloads to Product Hunt exposure and its category shutdown while preserving bot, attribution, listening, and market-size limits.
 - [Just Landed Is Shutting Down](sources/just-landed-is-shutting-down-jon-grall-medium.md) - Jon Grall explains how supplier dependence, professional-user cost skew, one-time pricing, app-store pressure, and limited resources led to a planned shutdown despite meaningful adoption.
@@ -931,6 +932,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Focus on Your Own Shit](sources/justin-jackson-focus-on-your-own-shit.md) - Justin Jackson argues that comparison-driven monitoring displaces creative work and should give way to customer understanding, craft, and product improvement.
 
 ## Entities
+- [Kaito](entities/Kaito.md) - Pseudonymous practitioner-author explaining multi-site active-active architecture and cross-data-center storage synchronization.
 - [Kenneth Friedman](entities/KennethFriedman.md) - Practitioner who documented a historical Gmail filter-and-script workflow for scheduled email visibility.
 - [Justin Jackson](entities/JustinJackson.md) - Creator and entrepreneur who redirects comparison-driven attention toward customers, craft, and product improvement.
 - [Jon Grall](entities/JonGrall.md) - Independent iOS developer who explained the economic and dependency rationale for winding down Just Landed.
@@ -2520,6 +2522,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Multi-Site High Availability](concepts/MultiSiteHighAvailability.md) - Layered design for surviving machine, facility, network, and city-scale failures through redundant serving stacks, state replication, routing, and practiced failover.
+- [Traffic Unitization](concepts/TrafficUnitization.md) - Stable routing and ownership of related workloads so normal reads and writes complete inside one site while units remain movable during failure.
 - [Email Batching](concepts/EmailBatching.md) - Grouping email review into scheduled windows, sometimes by withholding new messages from the visible inbox between releases.
 - [Podcast Discovery](concepts/PodcastDiscovery.md) - Matching listeners with unfamiliar shows through search, recommendation, communities, or platforms while distinguishing downloads from durable human listening.
 - [External Service Dependency](concepts/ExternalServiceDependency.md) - Operational and business exposure created when core product value depends on another organization's data, infrastructure, policy, pricing, or continuity.

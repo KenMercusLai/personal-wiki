@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "11af0e3361cc5832a64b67f98990f0b1619b7708a08af295ac11ea660121dcfc",
       "d17c76c302c6b15966f1eb6673f9d44f5e99fa8df07679871605d04ba5aded51",
       "0c7c7a33c94ef7bc7e8573ec4c26430d8bfc3a36ca1de287ef34aed5db5052fd",
       "41299595e9a98ca7f5dff3dd25bc5e5ff8ff047d840cf86cb9bcbbd8857fe192",
@@ -671,11 +672,30 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 669
+    "paragraph_count": 670
   },
-  "overview_commit": "a68532ff03e7853bc78ad23410ab0df4241dbd81",
-  "overview_digest": "e6839a0f414c8aa101f622a368559450b814109af72cc8d274e5cd033df0e888",
+  "overview_commit": "8250aaf65be0bf71bf9ecff2288661214f5c0404",
+  "overview_digest": "35c544fd34b97c6d16ef2702a35e41cd34ca9e4d01a817271647948a47c215b8",
   "paragraphs": [
+    {
+      "id": "11af0e3361cc5832a64b67f98990f0b1619b7708a08af295ac11ea660121dcfc",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[Kaito]] source adds [[MultiSiteHighAvailability]] as a progression of protected failure boundaries rather than a single “active-active” pattern. Backups and replicas reduce instance-level data loss and recovery time; cold and hot standby extend protection to a second facility; same-city active-active continuously exercises both serving stacks; and cross-city operation forces a deeper change because synchronous remote writes inherit wide-area latency, jitter, packet loss, and link failure. [[TrafficUnitization]] is the source's conflict-avoidance mechanism: route a stable business, user-hash, or geographic cohort to one active site, complete its normal read-write loop locally, validate ownership again near storage, and replicate state asynchronously to other sites. This strengthens the wiki's [[SystemReliability]] and [[CloudHighAvailability]] material while preserving a harder boundary: bidirectional convergence is not a universal substitute for strong consistency, global data may remain single-writer, and neither extra sites nor architecture diagrams establish RTO, RPO, capacity, or safe failover without routing convergence, fencing, reconciliation, observability, and disaster exercises. Eleven inspected diagrams were retained to document availability targets, same-city and cross-city topologies, three routing strategies, and mesh versus hub-and-spoke replication; the outline and intermediate states repeated by later diagrams or prose were omitted.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "CloudHighAvailability",
+        "Kaito",
+        "MultiSiteHighAvailability",
+        "SystemReliability",
+        "TrafficUnitization"
+      ]
+    },
     {
       "id": "d17c76c302c6b15966f1eb6673f9d44f5e99fa8df07679871605d04ba5aded51",
       "primary_topic": "business-and-markets",

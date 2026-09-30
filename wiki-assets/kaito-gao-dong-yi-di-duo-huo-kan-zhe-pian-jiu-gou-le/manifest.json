@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "source_key": "kaito-gao-dong-yi-di-duo-huo-kan-zhe-pian-jiu-gou-le",
+  "images": [
+    {"file": "availability-nine-table.png", "alt": "Table mapping availability nines to annual and daily outage time"},
+    {"file": "same-city-active-active-read-write-split.jpg", "alt": "Same-city active-active architecture with local reads and writes directed to the primary site"},
+    {"file": "two-city-three-center.jpg", "alt": "Two active same-city data centers plus a remote backup center"},
+    {"file": "cross-city-pseudo-active-active.jpg", "alt": "Pseudo cross-city active-active architecture that still sends writes to remote primary storage"},
+    {"file": "cross-city-active-active-bidirectional-sync.jpg", "alt": "Cross-city active-active architecture with local read-write loops and bidirectional storage synchronization"},
+    {"file": "traffic-routing-layer.jpg", "alt": "Routing layer assigning traffic to data centers before local processing"},
+    {"file": "business-type-sharding.jpg", "alt": "Business-type sharding routes related applications to one active site"},
+    {"file": "user-hash-sharding.jpg", "alt": "User-hash sharding assigns stable user cohorts to different sites"},
+    {"file": "geographic-sharding.jpg", "alt": "Geographic sharding routes regional users to a nearby site"},
+    {"file": "multi-site-mesh-replication.jpg", "alt": "Multi-site active-active architecture with mesh replication among storage layers"},
+    {"file": "multi-site-hub-spoke-replication.jpg", "alt": "Multi-site active-active architecture using a central replication hub"}
+  ]
+}
