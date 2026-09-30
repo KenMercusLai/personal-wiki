@@ -6967,3 +6967,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Is Programming Art?
+
+Added [[ProgrammingAsArt]] as a purpose-sensitive distinction between creative implementation and software whose primary end is aesthetic or expressive experience. Updated [[ErikDietrich]] from his complete ordered evidence inventory with his account of programming as context-dependent art, science, engineering, craft, routine production, and algorithmic delegation. Preserved the comment thread's challenges from self-expression, metaphor, code beauty, correctness, standardization, and safety-critical rigor. Inspected the remote lead caricature and the repeated local smiley SVG; both were decorative, so neither was retained and no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

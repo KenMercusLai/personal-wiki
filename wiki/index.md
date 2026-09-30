@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Is Programming Art?](sources/is-programming-art-daedtech.md) - Erik Dietrich argues that programming is sometimes art but usually functional algorithmic delegation, while commenters complicate the boundary through craft, expression, correctness, and engineering.
 - [Is Product Hunt useful for developer tools?](sources/is-product-hunt-useful-for-developer-tools-flawless-ios-medium.md) - Flawless App's founders report a first-place, zero-cash Product Hunt launch driven by prior community relationships and intensive live operations, while separating votes and feedback from modest sales and absent major press.
 - [Is NordVPN a Honeypot? - VPNscam.com](sources/is-nordvpn-a-honeypot-vpnscam-com.md) - VPNscam.com combines review incentives, advertising, Tesonet claims, and alleged failures into a honeypot theory that the supplied evidence does not prove and a named reviewer directly disputes.
 - [Investor VCs and Operator VCs](sources/investor-vcs-and-operator-vcs-avc.md) - Fred Wilson argues that operator-first and investor-developed paths can both produce strong VCs, while distinguishing strategic portfolio support from taking over management execution.
@@ -980,7 +981,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Houseparty](entities/Houseparty.md) - Synchronous group video-chat app shaped through school-based teenage feedback and spread through dense local relationships.
 - [Alex Zhu](entities/AlexZhu.md) - Musical.ly founder represented through deliberate youth targeting and continuous pre-code user participation.
 - [Yiren Lu](entities/YirenLu.md) - Journalist examining demographic distance, teenage product participation, and social-app adoption.
-- [Erik Dietrich](entities/ErikDietrich.md) - Software-industry author and consultant who frames developer hiring as an organizational-design problem and advocates relationship-led evidence over trivia screens.
+- [Erik Dietrich](entities/ErikDietrich.md) - Software-industry author and consultant who examines hiring systems and classifies programming through purpose-sensitive art, craft, science, and engineering frames.
 - [Ryan Holiday](entities/RyanHoliday.md) - Author presenting the Briefcase Technique through coaching, career, and Thiel-Gawker examples while acknowledging failure and self-protective underpreparation.
 - [Ramit Sethi](entities/RamitSethi.md) - Career adviser credited in the source with naming a researched, candidate-led interview presentation the Briefcase Technique.
 - [ProPublica](entities/ProPublica.md) - Investigative newsroom represented through a journey-based audit of TurboTax's commercial and IRS-backed filing paths.
@@ -2426,6 +2427,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Programming as Art](concepts/ProgrammingAsArt.md) - Contextual claim that programming becomes art when aesthetic or expressive experience is a primary end, not merely because implementation is creative.
 - [Affiliate Review Conflict](concepts/AffiliateReviewConflict.md) - Risk that referral economics, sponsorship, approval conditions, or commercial access compromise or appear to compromise product rankings.
 - [Consumer VPN Trust](concepts/ConsumerVPNTrust.md) - Evidence framework for assessing the provider, software, infrastructure, ownership, failure behavior, and assurance behind a consumer VPN.
 - [Progressive Equity](concepts/ProgressiveEquity.md) - Exit-triggered equity design that caps part of exceptional participant upside and redistributes released value to eligible employees.
