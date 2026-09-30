@@ -5,7 +5,8 @@ tags: [database, transactions, concurrency]
 sources:
   - anze-pecar-gotchas-with-sqlite-in-production
   - jaana-dogan-things-i-wished-more-developers-knew-about-databases
-last_updated: 2026-09-30
+  - laisky-reading-notes-on-designing-data-intensive-applications
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,14 +20,16 @@ In SQLite, the stronger isolation model interacts with file-level write locking.
 
 Dogan extends the concern beyond dirty reads, non-repeatable reads, and phantoms. Write skew can preserve every individual write yet violate a cross-row business invariant when concurrent transactions make decisions from compatible snapshots. Serializable isolation, database constraints, or schema design can prevent some such anomalies; optimistic version checks can also avoid holding an exclusive lock when the application can detect and retry a conflicting row update.
 
+Laisky's notes add a mechanism-level comparison. MVCC gives transactions a stable versioned view; explicit row locks can prevent lost updates; predicate locks protect matching sets against phantoms; two-phase locking can provide serializability while creating blocking and deadlocks; and serializable snapshot isolation lets work proceed optimistically but may abort transactions when dangerous dependencies appear. Safe retrying and idempotent effects remain part of correctness because stronger isolation does not decide what an application should do after an abort or uncertain outcome.
+
 ## Key Claims
 - Isolation names do not guarantee identical behavior across database engines or implementations.
 - Stronger isolation prevents more concurrency anomalies but can increase coordination, contention, and latency.
-- SQLite's WAL mode allows concurrent read transactions while still limiting writes to one transaction per database.
-- Web applications can often approximate read-committed behavior by starting transactions only when writes are needed.
+- SQLite's WAL mode allows concurrent readers but only one writer, so web applications should keep write-capable transactions short and start them only when needed.
 - `BEGIN IMMEDIATE` can make SQLite write-lock acquisition explicit and reduce surprising database-locked failures.
 - Optimistic version checks can detect row-level conflicts without holding a long-lived exclusive lock.
 - Write skew shows that correctness can fail even when there is no dirty read or lost write.
+- MVCC, explicit locks, predicate locks, 2PL, and SSI offer different ways to preserve invariants, with different blocking, abort, and implementation costs.
 
 ## Evidence
 - Isolation table: [[anze-pecar-gotchas-with-sqlite-in-production]] includes a table showing serializable as preventing dirty reads, non-repeatable reads, and phantom reads.
@@ -37,14 +40,14 @@ Dogan extends the concern beyond dirty reads, non-repeatable reads, and phantoms
 - Engine variation: [[jaana-dogan-things-i-wished-more-developers-knew-about-databases]] includes a partial Hermitage table where advertised PostgreSQL and MySQL levels map to different actual isolation behavior.
 - Optimistic locking: [[jaana-dogan-things-i-wished-more-developers-knew-about-databases]] demonstrates an atomic update guarded by an expected version number.
 - Invariant anomaly: [[jaana-dogan-things-i-wished-more-developers-knew-about-databases]] gives a concurrent on-call assignment example where both transactions commit but the intended cardinality rule is violated.
+- Mechanism comparison: [[laisky-reading-notes-on-designing-data-intensive-applications]] relates MVCC and snapshot isolation to version visibility, row and predicate locks to conflicting writes and phantoms, 2PL to blocking, and SSI to optimistic aborts.
 
 ## Counterevidence & Qualifications
-The sources provide practitioner explanations, not an exhaustive or current engine conformance study. The cross-engine screenshot is cropped, the article's database details date to 2020, and nominal serializability may be implemented differently. Optimistic locking detects only conflicts represented by its guard, while multi-row invariants may still require constraints, schema changes, or stronger isolation. The best choice depends on actual application invariants, contention, retries, and workload cost rather than framework defaults alone.
+The sources provide practitioner explanations, not an exhaustive or current engine conformance study. The cross-engine screenshot is cropped, several database details are historical, and nominal serializability may be implemented differently. Optimistic locking detects only conflicts represented by its guard, predicate protection can be expensive, and SSI may trade blocking for aborts. Multi-row invariants may still require constraints or schema changes, so the best choice depends on actual invariants, contention, retries, and workload cost rather than framework defaults alone.
 
 ## What Changed
-- Expanded the concept from SQLite behavior to engine-specific interpretation of isolation labels.
-- Added optimistic version checks and write skew as practical concurrency patterns.
-- Qualified the partial Hermitage comparison and the limits of row-level conflict detection.
+- Added a mechanism-level comparison of MVCC, explicit locking, predicate protection, 2PL, and SSI.
+- Added retry safety as an application responsibility after aborts or uncertain outcomes.
 
 ## Related Concepts
 - [[SQLite]] - SQLite's serializable transactions and one-writer behavior motivate the concept here.
@@ -53,3 +56,4 @@ The sources provide practitioner explanations, not an exhaustive or current engi
 - [[SoftwareVerification]] - concurrent transaction assumptions need tests when application correctness depends on them.
 - [[DatabaseEngineeringTradeoffs]] - isolation guarantees trade anomaly prevention against coordination and contention.
 - [[DistributedConsensus]] - distributed ordering, partitions, and clocks constrain stronger consistency guarantees.
+- [[DataIntensiveSystems]] - places transaction isolation among the wider correctness and coordination boundaries of data systems.

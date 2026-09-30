@@ -88,6 +88,10 @@ Added [[NicoleNguyen]]'s 2017 consumer guide to the privacy and business-model t
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-10-01] ingest | Reading Notes on 'Designing Data-Intensive Applications'
+
+Added [[Laisky]]'s chapter-spanning synthesis of reliable, scalable, and maintainable data systems. Created [[DataIntensiveSystems]] and updated [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], and [[DistributedConsensus]] from their complete ordered evidence inventories with workload-specific data models and storage engines, concurrency-control mechanisms, consistency boundaries, ordered replication, atomic-commit limits, and batch-versus-stream recovery patterns. Preserved the source's secondary reading-note scope, simplified protocol descriptions, and time-sensitive product examples. Opened both local images and retained the book cover and text-bearing social-media joke under readable canonical filenames with a complete manifest.
+
 ## [2026-09-30] ingest | Inside (The) Information
 
 Added Merissa Marr's 2016 profile of [[JessicaLessin]] and [[TheInformation]] as an early premium technology-news business built from scarce reporting, $399 subscriptions, a $10,000 investor tier, member community, founder funding, and core-audience-first expansion. Created Jessica Lessin and The Information; updated [[NicheSubscriptionPublishing]], [[DigitalMediaMonetization]], and [[AccessJournalism]] from their complete ordered evidence inventories. Preserved undisclosed subscriber, churn, acquisition-cost, margin, and investment data; the outside estimate near 10,000 members; the point-in-time scope; and the unresolved tension between subscriber-valued tough reporting and access to the industry being covered. All five remote images were unreachable from the workspace and no archived local copies were found, so no visual evidence or assets were retained.
@@ -7387,6 +7391,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Kubernetes: maybe a few Bash/Python scripts is enough
 
 Updated [[Kubernetes]], [[GoogleCloudRun]], [[ModularMonolith]], [[InfrastructureAsCode]], and [[EssentialAndAccidentalComplexity]] from their complete ordered evidence inventories. Recorded a requirements-first comparison among Kubernetes, managed container services, and reproducible script-driven infrastructure for small, predictable systems. Preserved the boundary that DIY automation transfers rather than eliminates operating responsibilities, while global autoscaled ingestion and thousands of intermittently connected edge sites remain positive Kubernetes cases. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

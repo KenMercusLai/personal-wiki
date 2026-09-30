@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Reading Notes on 'Designing Data-Intensive Applications'](sources/laisky-reading-notes-on-designing-data-intensive-applications.md) - Laisky connects data models, storage engines, replication, transactions, consensus, and batch and stream processing through their reliability and coordination tradeoffs.
 - [Kubernetes: maybe a few Bash/Python scripts is enough](sources/kubernetes-maybe-a-few-bashpython-scripts-is-enough.md) - A Binary Igor essay argues that small, predictable container systems should compare Kubernetes' complete operating stack with managed containers or reproducible scripts, while preserving orchestration for workloads that justify it.
 - [Knowledge Processing System for Marketers, Creators, and Knowledge Workers](sources/knowledge-processing-system-for-marketers-creators-and-knowledge-workers.md) - André Chaperon places PKM upstream of writing and demonstrates fleeting capture, own-words permanent notes, contextual retrieval, open files, linking, and optional visual maps.
 - [Knowing when, and how, to pivot (or, why didn’t news apps work?)](sources/knowing-when-and-how-to-pivot-or-why-didnt-news-apps-work.md) - Jason Calacanis explains Inside.com's app-to-email pivot through weak app growth, stronger email engagement, reusable audience assets, lower operating complexity, and early but incomplete newsletter evidence.
@@ -943,6 +944,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Laisky](entities/Laisky.md) - Author represented through a chapter-spanning synthesis of database and distributed-systems mechanisms and tradeoffs.
 - [André Chaperon](entities/AndreChaperon.md) - Marketer and creator documenting a context-oriented Zettelkasten and PKM workflow for idea development and writing.
 - [The Archive](entities/TheArchive.md) - Plain-text macOS note application used for timestamp-identified, linked permanent notes.
 - [Tinderbox](entities/Tinderbox.md) - Visual note environment used to map typed relationships among concepts and qualifications.
@@ -2549,6 +2551,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Data-Intensive Systems](concepts/DataIntensiveSystems.md) - Applications whose central design challenge is reliable storage, movement, transformation, and coordination of data at the required scale.
 - [First-Principles Thinking](concepts/FirstPrinciplesThinking.md) - Decomposing a problem into fundamental parts through abstraction, then recombining those parts from a changed perspective.
 - [Startup Pivot Strategy](concepts/StartupPivotStrategy.md) - Redirecting a non-growing startup toward its strongest observed behavior, reusable asset, and simpler test while keeping early segment evidence distinct from durable fit.
 - [10x Thinking](concepts/TenXThinking.md) - Order-of-magnitude outcome framing that exposes assumptions and searches for a different mechanism while relying on bounded experiments and cumulative execution.

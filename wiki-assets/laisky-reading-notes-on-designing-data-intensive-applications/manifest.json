@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "laisky-reading-notes-on-designing-data-intensive-applications",
+  "images": [
+    {
+      "file": "designing-data-intensive-applications-cover.png",
+      "alt": "Cover of Designing Data-Intensive Applications by Martin Kleppmann"
+    },
+    {
+      "file": "ddia-reading-joke.png",
+      "alt": "Social media joke claiming software engineers buy Designing Data-Intensive Applications for display rather than reading it"
+    }
+  ]
+}
