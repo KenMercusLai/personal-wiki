@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0704f9cbab71e75bf76c5789758111c70b46ffd0b806627d639be7c065c225d8",
       "b11d023d2fc834d20f1bbb0b6ec42fa85b01b446188cf5a8c57047fcfb3d94cb",
       "c74511507a28c95fd963e7aa70d1b1a38bbe36b9ca105a6431624b64fe3e3ca2",
       "58decbac0239439db0139da0d2ca27e5773da5c4c75e561f571cc4e77a0de69d",
@@ -659,11 +660,31 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 657
+    "paragraph_count": 658
   },
-  "overview_commit": "7d719eb8810a9ff897fb26c6c2b43c162e9cd2e7",
-  "overview_digest": "a6158e1e802db66c064580672c13724d908045c1ce2c16828e832ad7b595cf84",
+  "overview_commit": "bcf357830104095c4e85feca8e8186c3292830b8",
+  "overview_digest": "b78c365b8e593d8d8c379917bb1775278de0753c01edc6cc90c93f2e1932cadd",
   "paragraphs": [
+    {
+      "id": "0704f9cbab71e75bf76c5789758111c70b46ffd0b806627d639be7c065c225d8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JasonCalacanis]] source adds [[FounderSacrificeNorm]] as a contested startup-culture claim rather than a validated founder-selection rule. Calacanis argues that most people should not lead startups, distinguishes hard work from solving difficult problems efficiently, and recommends mid-sized-company apprenticeship for someone not yet ready to found. His stronger litmus test asks whether a founder would sell personal assets, assume $20,000 of credit-card debt, and request 90 days of deferred team salary to preserve payroll. The synthesis retains the essay's admission that sacrifice buys only a chance at an extraordinary outcome and adds the missing boundaries: one polemical anecdote supplies no comparison between successful and unsuccessful founders; wealth changes who can appear committed; deferred compensation transfers risk to workers; and unbounded sacrifice may indicate coercion, burnout, or [[SunkCostFallacy]] rather than capability. This directly conflicts with categorical readings of [[WorkLifeBalance]], [[BurnoutPrevention]], [[StartupCrisisLeadership]], and [[FounderSuccessDefinition]]. Both local embeds were opened and classified as non-evidentiary illustration—a small author avatar and a Star Wars reaction GIF—so neither was retained.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "FounderSacrificeNorm",
+        "FounderSuccessDefinition",
+        "JasonCalacanis",
+        "StartupCrisisLeadership",
+        "SunkCostFallacy",
+        "WorkLifeBalance"
+      ]
+    },
     {
       "id": "b11d023d2fc834d20f1bbb0b6ec42fa85b01b446188cf5a8c57047fcfb3d94cb",
       "primary_topic": "ai-and-technology",

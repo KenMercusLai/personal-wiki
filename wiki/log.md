@@ -7103,3 +7103,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | You don't have what it takes
+
+Added [[FounderSacrificeNorm]] as a contested account of using personal loss, debt, and deferred team compensation as founder-readiness signals. Created a source-bounded [[JasonCalacanis]] profile and connected the essay's mid-sized-company apprenticeship advice to [[StartupOpportunitySelection]]. Preserved the internal distinction between efficient problem solving and raw effort, the admission that sacrifice guarantees no outcome, and the missing comparative, consent, labor, wealth, health, family, and survivorship evidence. Opened both effective local embeds and omitted the small author avatar and Star Wars reaction GIF as non-evidentiary decoration.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

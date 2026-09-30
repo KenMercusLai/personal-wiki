@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You don't have what it takes](sources/jason-calacanis-you-dont-have-what-it-takes.md) - Jason Calacanis treats extreme personal and team sacrifice as a founder-readiness test while providing no evidence that the test predicts sound judgment or startup success.
 - [Jamie Siminoff, Ring](sources/jamie-siminoff-ring-dfjvc-medium.md) - Jamie Siminoff connects Ring's problem-led origin and Shark Tank exposure to a longer founder apprenticeship and a qualified critique of venture groupthink.
 - [Things I Wished More Developers Knew About Databases](sources/jaana-dogan-things-i-wished-more-developers-knew-about-databases.md) - Jaana Dogan connects database guarantees with concrete transaction anomalies, distributed-system tradeoffs, operation-level performance, and staged migration.
 - [It's a Tesla](sources/its-a-tesla-stratechery-by-ben-thompson.md) - Ben Thompson argues that Tesla's premium product and brand created Model 3 demand outside classic low-end disruption while preserving funding and execution risks.
@@ -902,6 +903,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jason Calacanis](entities/JasonCalacanis.md) - Investor and startup practitioner represented through a contested 2015 argument about founder readiness, efficiency, apprenticeship, and sacrifice.
 - [Jamie Siminoff](entities/JamieSiminoff.md) - Ring founder represented through solution-oriented invention, accumulated entrepreneurial experience, and a critique of conventional founder selection.
 - [Ring](entities/Ring.md) - Home-security hardware company whose DoorBot origin, Shark Tank exposure, product expansion, and reported 2017 scale form the source's central case.
 - [DFJ](entities/DFJ.md) - Ring investor and interview publisher characterized by Siminoff as willing to back ideas that initially appear strange.
@@ -2462,6 +2464,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Founder Sacrifice Norm](concepts/FounderSacrificeNorm.md) - Contested belief that willingness to absorb extreme personal loss or transfer risk to a team demonstrates founder readiness.
 - [Database Engineering Tradeoffs](concepts/DatabaseEngineeringTradeoffs.md) - Coupled correctness, availability, latency, coordination, operability, and scaling consequences of database design choices.
 - [Release Communication](concepts/ReleaseCommunication.md) - Explaining product changes through channels and timing suited to the users who can actually encounter them.
 - [Consumer Market Disruption Limits](concepts/ConsumerMarketDisruptionLimits.md) - Boundary on low-end disruption theory when consumer choice depends on brand, identity, integration, and other hard-to-measure attributes.

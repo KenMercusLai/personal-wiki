@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 7d719eb8810a9ff897fb26c6c2b43c162e9cd2e7
+as_of_overview_commit: bcf357830104095c4e85feca8e8186c3292830b8
 summary: "Current knowledge connects calibrated evidence, reliable operations, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 881
-source_count: 881
-paragraph_count: 657
+episode_count: 882
+source_count: 882
+paragraph_count: 658
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible capability, and independent judgment under uncertainty.
+Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible capability, and independent judgment; extreme founder sacrifice remains a contested norm rather than evidence of quality.
 
 - [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome. Evidence: [[ProgressiveEquity]], [[EmployeeEquityGrantSizing]], [[Detour]], [[AndrewMason]], [[Groupon]], [[EmployeeEquityRisk]].
 - [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment. Evidence: [[EverydayEconomy]], [[TechnologyEnablerStack]], [[NextViewVentures]].
