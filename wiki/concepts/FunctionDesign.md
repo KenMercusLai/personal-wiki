@@ -5,50 +5,49 @@ tags: [software-quality, python, programming]
 sources:
   - bob-belderbos-10-tips-to-write-better-functions-in-python
   - do-one-thing
-last_updated: 2026-09-27
+  - john-carmack-on-inlined-code
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[FunctionDesign]] is the practice of shaping individual functions so their names, responsibilities, inputs, outputs, state effects, and defaults make behavior easy to read, reuse, test, and maintain.
+[[FunctionDesign]] is the practice of choosing function boundaries, names, inputs, outputs, state effects, and reuse surfaces so code remains understandable, testable, and safe in its actual execution context.
 
 ## Current Synthesis
-Belderbos frames functions as Python's primary building blocks: they package input, transformation, and output while giving code modularity, scope boundaries, reuse, documentation hooks, and testability. Good function design is therefore not only a local readability preference; it is a small-scale form of [[InternalSoftwareQuality]].
+Good function design begins with interface discipline: descriptive names, small argument surfaces, early validation, predictable returns, close variable placement, useful type information, and minimal hidden state. Small isolated functions often improve reuse and [[SoftwareVerification]], but neither size nor operation count establishes a good boundary.
 
-The practical center of gravity is interface discipline. A function should usually expose a small argument surface, validate bad input early, keep variables close to use, use Python's argument controls where they clarify calls, and make return types predictable. Type hints strengthen this interface by making expected inputs and outputs visible to readers and tools.
+“Do one thing” is an interpretive question about abstraction and change. Batchelder shows how a cohesive unit can later yield a better reusable abstraction; Carmack supplies the inverse pressure. In sequential, mutation-heavy real-time code, a single-use helper can hide execution order, skipped updates, latency, and global dependencies. Keeping that work visible in the controlling path may improve system-level reasoning even when it produces a long function.
 
-“Do one thing” is a useful design question but not an objective sizing test. Batchelder shows that several operations can be grouped as one responsibility at a chosen abstraction level, and that a seemingly cohesive unit can later yield a better boundary when new reuse or change needs appear. Function design should therefore compare clarity, coherence, reuse, testing, and change isolation rather than count steps or treat responsibility as binary compliance.
-
-The strongest caution is about hidden state. Globals and mutable default arguments make function behavior depend on prior calls or outer-scope mutation, which undermines the clean input-transform-output model and makes bugs harder to localize.
+The strongest reconciliation is to separate pure computation from orchestration. Extract work that can accept explicit inputs and return a value without permanent-state mutation; keep essential ordering and mutation visible enough that readers can see when state changes and whether expected work runs. Function boundaries should therefore be selected by coherence, reuse, testing, state visibility, execution order, and change isolation rather than a universal line limit.
 
 ## Key Claims
-- Function names are a major readability surface and should describe behavior clearly.
-- A function should usually have a coherent responsibility, a small interface, and early input validation.
-- Keyword-only or positional-only arguments, type hints, and consistent return types can make function contracts clearer.
-- Variables are easier to follow when they are defined close to where they are used.
-- Hidden state from globals or mutable default arguments makes function behavior surprising.
-- Small, isolated functions improve reuse and [[SoftwareVerification]] by making behavior easier to test.
-- Responsibility boundaries require judgment and may change as surrounding uses reveal independently reusable behavior.
+- Function names and explicit input-output contracts are major readability and tooling surfaces.
+- Hidden global state and mutable defaults make behavior depend on context and prior execution.
+- Small pure functions usually improve reuse, testing, and local reasoning.
+- “One thing” has no objective operation-count or line-count test; boundaries can change as reuse and understanding evolve.
+- Single-use stateful helpers can reduce [[ExecutionPathTransparency]] by hiding ordering, latency, and skipped updates.
+- Pure computation and stateful orchestration often deserve different decomposition strategies.
 
 ## Evidence
-- Naming and responsibility: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] recommends descriptive names and invokes the single-responsibility principle for function scope.
-- Interface contract: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] recommends small argument lists, sparse use of arbitrary args or keyword args, early validation, and clear caller contracts.
-- Python API clarity: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] points to keyword-only and positional-only arguments, type hints, and consistent return types as readability and tooling aids.
-- State hazards: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] warns against `global` and mutable default arguments because they create side effects or reused cross-call data.
-- Testability link: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] repeatedly connects modular, single-purpose functions with easier testing.
-- Responsibility ambiguity: [[do-one-thing]] shows that operation count, names containing “and,” stakeholder counts, and reasons to change do not produce a mechanical boundary test.
-- Evolutionary boundary: [[do-one-thing]] uses Zellij's `PointMap`-to-`Defuzzer` refactoring to show how new reuse needs can reveal a smaller, more useful abstraction.
+- Interface discipline: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] recommends descriptive names, small argument lists, early validation, clear calling conventions, type hints, and consistent returns.
+- State hazards and testability: [[bob-belderbos-10-tips-to-write-better-functions-in-python]] warns against globals and mutable defaults while connecting isolated functions to easier testing.
+- Boundary ambiguity: [[do-one-thing]] shows that operation count, stakeholder count, and reasons to change do not mechanically define one responsibility.
+- Evolutionary extraction: [[do-one-thing]] uses Zellij's `PointMap`-to-`Defuzzer` refactoring to show how new reuse needs can reveal a smaller abstraction.
+- Stateful counterpressure: [[john-carmack-on-inlined-code]] argues that single-use helpers in a frame loop can conceal sequence, mutation, conditional skipping, and latency.
+- Pure-function reconciliation: [[john-carmack-on-inlined-code]] recommends explicit parameters, `const`, and complete purity for work that can avoid permanent state.
 
 ## Counterevidence & Qualifications
-The sources offer practitioner heuristics rather than universal laws. A 15-line pause point and return-type consistency are useful defaults, while “one thing” is inherently interpretive. Excessive splitting can scatter a coherent flow across many tiny units; real systems may also need exceptions for performance, API compatibility, framework conventions, or clarity at a larger scale.
+All three sources provide practitioner heuristics rather than comparative defect or maintenance studies. Inlining can create very long functions, weaken modularity, complicate shared work and rebuilds, and make large conditional blocks harder to scan. Conversely, aggressive decomposition can scatter one stateful sequence across call layers. Performance, API stability, framework conventions, code ownership, power use, testing strategy, and team familiarity can all change the preferred boundary.
 
 ## What Changed
-- Reframed “do one thing” from a simple rule into a judgment-dependent, change-sensitive heuristic.
-- Added reuse pressure and surrounding-code evolution as signals for revisiting a function boundary.
+- Added the counterpressure that single-use stateful helpers may hide important execution order and mutation.
+- Reconciled small-function advice with long sequential orchestration by favoring pure extraction and visible state transitions.
+- Removed any implication that function length alone determines design quality.
 
 ## Related Concepts
-- [[InternalSoftwareQuality]] - function design is a local code-quality practice that can lower change cost.
-- [[SoftwareVerification]] - small explicit functions are easier to test and reason about.
-- [[PythonConcurrencyLibraries]] - Python functions may become task boundaries in concurrent or distributed code.
-- [[DeveloperTooling]] - type hints and strict interfaces give tools more useful structure to inspect.
-- [[SingleResponsibilityPrinciple]] - supplies the responsibility heuristic while making its ambiguity explicit.
+- [[InternalSoftwareQuality]] - function boundaries affect readability, maintenance cost, and defect localization.
+- [[SoftwareVerification]] - explicit, isolated computations are easier to test and reason about.
+- [[SingleResponsibilityPrinciple]] - supplies a useful but interpretation-dependent boundary heuristic.
+- [[ExecutionPathTransparency]] - stateful orchestration benefits when ordering and mutations remain inspectable.
+- [[FunctionalProgramming]] - purity provides a safer reusable boundary than stateful helper extraction.
+- [[DeveloperTooling]] - type hints and explicit interfaces give tools more structure to inspect.

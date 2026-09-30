@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - john-carmack-on-inlined-code
   - jimmy-bogard-my-microservices-faq
   - jet-employees-know-each-others-salaries-business-insider
   - jessica-alter-34-questions-to-ask-a-potential-co-founder
@@ -2185,7 +2186,11 @@ The newest [[AbBanerjee]] source adds [[CEOCentricLeadership]] as a distinction 
 
 The newest [[BenCongleton]] source adds [[WorkplaceMentalHealthSupport]] as a combination of leave access, voluntary disclosure, and authority response rather than a generic statement of care. At [[Olark]], [[MadalynParker]] told an internal out-of-office list that she was taking two days to focus on her mental health; Congleton affirmed the decision, and Parker asked to share his reply publicly. Congleton read the resulting thousands of reactions and stories from people wishing their own CEO responded similarly as evidence that basic support was still treated as exceptional. The case extends [[PsychologicalSafety]] into a health disclosure: a leader's response can lower the interpersonal penalty for candor, but one exchange cannot prove organization-wide safety, adequate policy, or improved health outcomes. It also connects [[CompassionateManagement]] and [[HumanResourcesGovernance]] by showing that paid leave and the norms governing its use must work together. The article is a CEO-authored account with no workforce comparison, formal policy, follow-up outcome, or representative survey; viral engagement is not prevalence evidence, and its medication and sick-leave statistics are historical contextual claims. The local export ends abruptly after “It’s.” Its sole image was inspected and retained because it shows Parker's explicit leave wording, Congleton as respondent, and visible engagement counts, while cropping Congleton's response after the greeting.
 
+The newest [[JohnCarmack]] source adds [[ExecutionPathTransparency]] as a counterweight to mechanically small-function design. In sequential, mutation-heavy frame code, nested single-use helpers and conditional execution can hide ordering, skipped state updates, timing variance, and a full frame of latency; keeping orchestration visible or consolidating mutation at one controlled point can therefore improve system-level reasoning. This qualifies [[FunctionDesign]] without reversing its existing synthesis: pure computation with explicit inputs remains the safest extraction boundary, while “do one thing” and function length remain judgment calls shaped by reuse, testing, state, and execution order. New [[FunctionalProgramming]] records Carmack's own change of mind between the skeptical 2007 email and his more favorable 2014 preface, where he says purity addresses unexpected dependency and mutation more directly than inlining. The advice remains one practitioner's account, the Saab Gripen defect claim is secondhand, large inline functions can weaken modularity and scanning, and execute-and-inhibit trades simpler control flow for additional time, power, and thermal cost. The supplied Markdown contains no effective image references.
+
 ## Open Questions
+- Which combinations of state mutation, ordering sensitivity, reuse, test strategy, latency risk, and team ownership justify inlining a single-use helper rather than preserving a named function boundary?
+- When does execute-and-inhibit reduce reliability risk enough to justify its additional compute, energy, and thermal cost?
 - Which observable ownership, availability, failure-containment, data, and change-coupling measures distinguish a genuinely autonomous service from a separately deployed module?
 - When does synchronous RPC preserve enough bounded independence, and when does temporal or process coupling move the true service boundary outward?
 - When should consumer products combine contextual in-app guidance with public release notes, support documentation, accessibility notices, and durable audit records rather than choosing one channel?

@@ -664,12 +664,13 @@
       "49d0b77df178a59fd132690cdb9241fc86befdebd289fd86e864196dcd37eafe",
       "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198",
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
-      "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
+      "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf",
+      "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b"
     ],
-    "paragraph_count": 664
+    "paragraph_count": 665
   },
-  "overview_commit": "7d5dc3841ef9bb2ff4801b3d2a829984d6689ef0",
-  "overview_digest": "e80ebfb203d7d664bd079a79448ba3856e7f900cdc71760782ae2b69e086a657",
+  "overview_commit": "ea9dec7768057430d0c7b8061f0323495114b4a8",
+  "overview_digest": "2f729822244d365037b0f2c9b6d581021a2b6af6958e99b534ace2428107f012",
   "paragraphs": [
     {
       "id": "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
@@ -13452,6 +13453,22 @@
         "Olark",
         "PsychologicalSafety",
         "WorkplaceMentalHealthSupport"
+      ]
+    },
+    {
+      "id": "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[JohnCarmack]] source adds [[ExecutionPathTransparency]] as a counterweight to mechanically small-function design. In sequential, mutation-heavy frame code, nested single-use helpers and conditional execution can hide ordering, skipped state updates, timing variance, and a full frame of latency; keeping orchestration visible or consolidating mutation at one controlled point can therefore improve system-level reasoning. This qualifies [[FunctionDesign]] without reversing its existing synthesis: pure computation with explicit inputs remains the safest extraction boundary, while “do one thing” and function length remain judgment calls shaped by reuse, testing, state, and execution order. New [[FunctionalProgramming]] records Carmack's own change of mind between the skeptical 2007 email and his more favorable 2014 preface, where he says purity addresses unexpected dependency and mutation more directly than inlining. The advice remains one practitioner's account, the Saab Gripen defect claim is secondhand, large inline functions can weaken modularity and scanning, and execute-and-inhibit trades simpler control flow for additional time, power, and thermal cost. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ExecutionPathTransparency",
+        "FunctionDesign",
+        "FunctionalProgramming",
+        "JohnCarmack"
       ]
     }
   ],

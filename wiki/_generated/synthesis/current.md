@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 7d5dc3841ef9bb2ff4801b3d2a829984d6689ef0
+as_of_overview_commit: ea9dec7768057430d0c7b8061f0323495114b4a8
 summary: "Current knowledge links calibrated evidence, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 895
-source_count: 895
-paragraph_count: 664
+episode_count: 896
+source_count: 896
+paragraph_count: 665
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Media and culture combine expression and craft with institutions, identity, dist
 
 ### Governance and Institutions
 
-Institutions need explicit authority, clear boundaries, sequenced change, observable state, bounded rollout, recovery, appeal, and ethical accountability.
+Institutions and operational systems need explicit authority, visible state and execution, clear boundaries, sequenced change, bounded rollout, recovery, appeal, and ethical accountability.
 
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].

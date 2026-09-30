@@ -7215,3 +7215,11 @@ Added [[JimmyBogard]] and [[ServiceAutonomy]] from a 2018 FAQ defining microserv
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | John Carmack on Inlined Code
+
+Added [[ExecutionPathTransparency]] and [[FunctionalProgramming]], and updated [[FunctionDesign]], [[JohnCarmack]], and [[IdSoftware]] from their complete ordered evidence inventories. Reconciled small-function guidance with Carmack's claim that single-use stateful helpers can hide ordering, skipped updates, timing variance, and frame latency, while preserving pure functions as the safer reusable boundary. Recorded Carmack's 2014 revision of his 2007 skepticism, the secondhand status of the Saab Gripen claim, and the time, power, thermal, modularity, and readability limits of execute-and-inhibit and large inline functions. The supplied Markdown contains no effective image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

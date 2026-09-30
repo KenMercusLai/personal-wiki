@@ -915,6 +915,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 - [Jessica Livingston's Pretty Complete List on How Not to Fail](sources/jessica-livingstons-pretty-complete-list-on-how-not-to-fail.md) - Jessica Livingston links user demand, founder focus, measured growth, default-alive status, conservative hiring, and fundraising-stage expectations into a qualified startup survival framework.
+- [John Carmack on Inlined Code](sources/john-carmack-on-inlined-code.md) - John Carmack argues for visible stateful execution and consistent frame paths while treating pure functions as the safer reusable boundary.
 
 ## Entities
 - [Jimmy Bogard](entities/JimmyBogard.md) - Software practitioner defining microservices through contextual service autonomy rather than technology or fixed size.
@@ -1565,7 +1566,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Debezium](entities/Debezium.md) - Change-data-capture tool that can stream database changes into event logs.
 - [Bungie](entities/Bungie.md) - game developer connecting Marathon, Halo, console FPS controls, and Destiny's live-service co-op model.
 - [Epic Games](entities/EpicGames.md) - game developer associated here with Unreal Tournament and fast online arena FPS design.
-- [Id Software](entities/IdSoftware.md) - game developer whose Wolfenstein 3D, Doom, and Quake popularized and deepened PC FPS design.
+- [Id Software](entities/IdSoftware.md) - Game developer represented through its influential PC FPS lineage and real-time engineering constraints around frame order, latency, and state.
 - [Rare](entities/Rare.md) - game developer credited here with legitimizing console FPS through GoldenEye 007.
 - [Valve](entities/Valve.md) - game developer whose Half-Life advanced narrative FPS design and whose mod ecosystem produced Counter-Strike.
 - [Chris Bailey](entities/ChrisBailey.md) - Productivity author represented by advice on work-break timing, energy restoration, and attention recovery.
@@ -1728,7 +1729,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vineet Joshi](entities/VineetJoshi.md) - Author represented by the REST API error-handling source.
 - [Cloud Elements](entities/CloudElements.md) - Original article host and documentation example in the API error-handling source.
 - [Christian Maioli M.](entities/ChristianMaioliM.md) - Practitioner author arguing for versatile hacker-style web-development judgment over framework memorization.
-- [John Carmack](entities/JohnCarmack.md) - Programmer cited as the bridge between antifragility and hacker-style technical work.
+- [John Carmack](entities/JohnCarmack.md) - Programmer connecting technical curiosity with visible stateful execution, pure functional boundaries, and real-time reliability.
 - [Antifragile](entities/Antifragile.md) - Taleb book cited as the conceptual source for thriving under disorder and volatility.
 - [Algorithmia](entities/Algorithmia.md) - Machine-learning company and publisher represented by the data-science engineering-practice article.
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
@@ -3738,5 +3739,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Respectful Refusal](concepts/RespectfulRefusal.md) - Declining promptly and unambiguously so a requester can reallocate effort without mistaking courtesy for a future commitment.
 
 - [Default Alive](concepts/DefaultAlive.md) - Assumption-sensitive test of whether current revenue growth reaches breakeven before a startup exhausts its cash.
+- [Execution Path Transparency](concepts/ExecutionPathTransparency.md) - Visibility of what executes, in what order, under which conditions, and with which state changes along a consequential control path.
+- [Functional Programming](concepts/FunctionalProgramming.md) - Structuring computation around explicit inputs and returned values while minimizing hidden dependencies and persistent-state mutation.
 
 ## Syntheses
