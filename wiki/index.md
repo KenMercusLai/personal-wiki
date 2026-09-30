@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Investor VCs and Operator VCs](sources/investor-vcs-and-operator-vcs-avc.md) - Fred Wilson argues that operator-first and investor-developed paths can both produce strong VCs, while distinguishing strategic portfolio support from taking over management execution.
 - [Introductions and the “forward intro email”](sources/introductions-and-the-forward-intro-email-also-by-roy-bahat.md) - Roy Bahat specifies an opt-in, requester-written email workflow that preserves recipient choice while reducing introducer editing and coordination work.
 - [Introducing Progressive Equity](sources/introducing-progressive-equity-detour-blog-medium.md) - Andrew Mason proposes a threshold-based RSU and kicker-pool design that redistributes part of exceptional employee equity gains at a major liquidity event.
 - [Introducing NextView III and Our Focus on the Everyday Economy](sources/introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures.md) - NextView announces a $50 million third fund and a thesis for redesigning seven recurring domains of daily life on mature internet infrastructure.
@@ -2002,9 +2003,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, metrics checklists, and an attributed norm of emotionally steady competition.
-- [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing, household diversification, venture-market analysis, founder dilution, employee-equity design, and direct product-demonstration evidence.
-- [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing frameworks, household-risk lessons, venture-market analysis, founder dilution, startup compensation, and startup retrospectives.
-- [Flatiron Partners](entities/FlatironPartners.md) - Venture firm Fred Wilson co-founded before the Internet-boom wealth accumulation and loss behind his diversification lesson.
+- [Jerry Colonna](entities/JerryColonna.md) - Former operator and Flatiron Partners co-founder represented through an early board lesson about helping management without taking over execution.
+- [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing, VC career paths and role discipline, household diversification, venture-market analysis, founder dilution, and employee-equity design.
+- [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing and VC-career frameworks, household-risk lessons, venture-market analysis, founder dilution, and startup management guidance.
+- [Flatiron Partners](entities/FlatironPartners.md) - Venture firm Fred Wilson formed with Jerry Colonna, represented through dot-com concentration and an early board-role lesson.
 - [Union Square Ventures](entities/UnionSquareVentures.md) - Early-stage venture firm represented through Del.icio.us financing, a valuation sample, and a customer-aligned trusted-brand thesis.
 - [SV Angel](entities/SVAngel.md) - Seed investor whose observation about larger rounds and higher valuations prompted Wilson's analysis.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
@@ -2579,7 +2581,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [PERT Estimation](concepts/PERTEstimation.md) - Three-scenario estimation method that makes optimistic, realistic, and pessimistic conditions, risk, and team disagreement explicit.
 - [Software Estimation](concepts/SoftwareEstimation.md) - Forecasting delivery effort through inspectable decomposition, explicit assumptions, codebase-informed review, and uncertainty-aware resource judgment.
 - [Time Series Database](concepts/TimeSeriesDatabase.md) - Database model built around named and labeled timestamp-value vectors, temporal operators, alignment, and domain-aware aggregation.
-- [Entrepreneurial Career Paths](concepts/EntrepreneurialCareerPaths.md) - Branching founder transitions across operating, acquisition, rest, serial founding, investing, larger-company work, and retirement.
+- [Entrepreneurial Career Paths](concepts/EntrepreneurialCareerPaths.md) - Branching founder transitions across operating, acquisition, rest, serial founding, investor-developed and operator-first VC routes, larger-company work, and retirement.
 - [Data Science Platform Engineering](concepts/DataSciencePlatformEngineering.md) - Horizontal services, abstractions, and safeguards that enable data scientists to own domain pipelines, algorithms, and APIs through production.
 - [Marketing Incrementality](concepts/MarketingIncrementality.md) - Counterfactual marketing effect beyond outcomes that would have occurred without the intervention.
 - [Marketing Asset Pipeline](concepts/MarketingAssetPipeline.md) - Coordinated workflow turning creative masters into localized, encoded, delivered, and observable campaign assets.
@@ -2621,7 +2623,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Direct Sponsorship](concepts/DirectSponsorship.md) - Paid placement with a known publisher, combining selected audience and context with direct response and harder-to-attribute distribution effects.
 - [SEO Consultant Selection](concepts/SEOConsultantSelection.md) - Evaluation and governance of SEO providers through relevant experience, transparent methods, staged access, realistic outcomes, and owner accountability.
 - [Single Responsibility Principle](concepts/SingleResponsibilityPrinciple.md) - Design guideline for assigning one coherent concern to a unit without pretending that responsibility boundaries are mechanically measurable.
-- [Venture Capital Value Add](concepts/VentureCapitalValueAdd.md) - Founder-perceived usefulness of investor judgment, access, responsiveness, operating help, and relationship quality beyond supplied capital.
+- [Venture Capital Value Add](concepts/VentureCapitalValueAdd.md) - Founder-perceived usefulness of investor judgment, access, responsiveness, strategic help, role discipline, and relationship quality beyond supplied capital.
 - [Search-Assisted Programming](concepts/SearchAssistedProgramming.md) - Deliberate technical lookup for details, candidate solutions, and reasoning checks, bounded by evaluation and verification.
 - [Distributed Payment Architecture](concepts/DistributedPaymentArchitecture.md) - Multi-node payment-system design driven by measurable reliability targets and no-loss, no-duplicate financial invariants.
 - [Idempotent Payment Processing](concepts/IdempotentPaymentProcessing.md) - Payment handling that turns retries and duplicate deliveries into one financial effect.

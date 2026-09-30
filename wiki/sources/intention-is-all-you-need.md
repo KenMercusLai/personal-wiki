@@ -2,7 +2,7 @@
 title: "Intention Is All You Need"
 type: source
 tags: [ai, software-engineering, vibe-coding, agents, collaboration]
-date: 2026-04-21
+date: 2026-03-09
 source_file: "/mnt/ken_personal_wiki/Articles/Intention Is All You Need.md"
 ---
 

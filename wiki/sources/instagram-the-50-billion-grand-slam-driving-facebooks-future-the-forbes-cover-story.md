@@ -2,7 +2,7 @@
 title: "Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story"
 type: source
 tags: [instagram, facebook, acquisitions, advertising, product-strategy]
-date: 2016-08-23
+date: 2016-08-01
 source_file: "/mnt/ken_personal_wiki/Articles/Instagram, The $50 Billion Grand Slam Driving Facebook's Future- The Forbes Cover Story.md"
 ---
 

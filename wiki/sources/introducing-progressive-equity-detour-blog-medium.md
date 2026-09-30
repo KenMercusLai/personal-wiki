@@ -2,7 +2,7 @@
 title: "Introducing Progressive Equity"
 type: source
 tags: [startup, equity, compensation, employee-ownership]
-date: 2015-04-08
+date: 2015-04-07
 source_file: "/mnt/ken_personal_wiki/Articles/Introducing Progressive Equity - Detour Blog - Medium.md"
 ---
 

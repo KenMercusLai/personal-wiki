@@ -2,7 +2,7 @@
 title: "Interview: Building the Latest Campaign for David Guetta -- Serverless Code"
 type: source
 tags: [serverless, aws, digital-campaign, web-audio, deployment]
-date: 2016-01-20
+date: 2016-01-13
 source_file: "/mnt/ken_personal_wiki/Articles/Interview- Building the Latest Campaign for David Guetta -- Serverless Code.md"
 ---
 

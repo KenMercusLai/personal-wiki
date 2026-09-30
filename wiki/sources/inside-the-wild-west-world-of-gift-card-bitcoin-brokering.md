@@ -2,7 +2,7 @@
 title: "Inside the Wild West World of Gift Card Bitcoin Brokering"
 type: source
 tags: [bitcoin, gift-cards, fraud, peer-to-peer-markets, retail]
-date: 2018-11-21
+date: 2018-11-23
 source_file: "/mnt/ken_personal_wiki/Articles/Inside the Wild West World of Gift Card Bitcoin Brokering.md"
 ---
 

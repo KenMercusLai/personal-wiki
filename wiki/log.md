@@ -6678,6 +6678,10 @@ Added a 2018 implementation of [[ImmutableInfrastructure]] that creates an AWS n
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Investor VCs and Operator VCs
+
+Added Fred Wilson's comparison of operator-first and investor-developed routes into venture capital, framing strategic guidance, portfolio-wide context switching, and respect for management authority as investor capabilities. Created [[JerryColonna]]; updated [[FredWilson]], [[UnionSquareVentures]], [[FlatironPartners]], [[AVC]], [[VentureCapitalValueAdd]], and [[EntrepreneurialCareerPaths]] from their complete ordered evidence inventories. Preserved the essay's selected-success, anecdotal, non-comparative evidence limits and treated strategy versus execution as a role distinction rather than a proven opposition. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-09-30] ingest | Improve cache performance with optimized API design
 
 Added Fastly's guidance that API cacheability depends on shared response boundaries, HTTP-aligned reads, bounded filter and pagination variants, event-driven purging, surrogate-key tagging, and explicit stale-serving policy. Created [[APIResponseCaching]]; updated [[RESTAPI]], [[DynamicContentCaching]], and [[Fastly]] from their complete ordered evidence inventories. Preserved the tradeoff between atomic cache reuse and client round trips, and qualified authentication safety, purge completeness, data-specific freshness limits, vendor-source scope, and the article's dated HTTP/2 and QUIC context. Opened the sole local image and omitted the decorative Fastly rocket illustration; no asset manifest was required.
@@ -6939,6 +6943,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Introductory bullshit detection for non-technical managers
 
 Expanded [[TechnicalDecisionReview]] from change review to project governance through concrete user problems, operating constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence. Updated [[SoftwareEstimation]] from its complete ordered evidence inventory to distinguish engineer-led decomposition from non-technical manager-led task interrogation. Preserved the source's unsupported memory, maintenance, and “80/50” generalizations as qualifications. Opened all three local images and omitted them as duplicate handwritten-title crops with no evidence beyond the prose.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 

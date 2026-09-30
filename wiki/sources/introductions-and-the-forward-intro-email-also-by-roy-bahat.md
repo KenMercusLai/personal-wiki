@@ -2,7 +2,7 @@
 title: "Introductions and the “forward intro email”"
 type: source
 tags: [networking, introductions, email, startup]
-date: 2016-10-27
+date: 2014-07-22
 source_file: "/mnt/ken_personal_wiki/Articles/Introductions and the “forward intro email” - Also by Roy Bahat.md"
 ---
 
