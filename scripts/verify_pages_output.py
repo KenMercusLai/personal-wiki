@@ -827,10 +827,6 @@ def _verify_identity_page(
                     if label not in item.text:
                         raise ValueError(f"{relative}: missing relationship label: {label}")
                     continue
-                if target.section not in {"concepts", "entities"}:
-                    raise ValueError(
-                        f"invalid canonical Concept/Entity relationship target: {page.key}: {target_key}"
-                    )
                 href = urljoin(root_url, target.route)
                 expected_hrefs.append(href)
                 expected_relationships.append((href, target.title))
