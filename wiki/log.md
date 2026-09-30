@@ -7023,3 +7023,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It's not a promotion - it's a career change
+
+Added [[LindsayHolmwood]]'s argument that engineering management is a career change centered on group performance, interpersonal skill, and multiplied human impact. Updated [[ManagementRoleFit]], [[DualCareerTracks]], and [[EngineeringManagerRoleDesign]] from their complete ordered evidence inventories with the manager-as-multiplier model, deliberate capability development, and a qualification that some manager variants retain technical work. Preserved the article's industry-culture and Dunning-Kruger claims as practitioner hypotheses rather than measured findings. The supplied Markdown contains no image references, so no visual asset or manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

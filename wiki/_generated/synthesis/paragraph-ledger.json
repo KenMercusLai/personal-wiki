@@ -650,12 +650,13 @@
       "85591b4f2545b4f69a349402f20ff97cb11a498a4f7e49e6b3957ca046d16519",
       "bfc9ef00e27245a121e728406283b90a7b770e774472b7b8f98705bf6731dffe",
       "3e927f8d19764d3b81811bc9ee9e4d7aaf40fab098bf442a8ba8f85ee4840160",
-      "49d0b77df178a59fd132690cdb9241fc86befdebd289fd86e864196dcd37eafe"
+      "49d0b77df178a59fd132690cdb9241fc86befdebd289fd86e864196dcd37eafe",
+      "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198"
     ],
-    "paragraph_count": 650
+    "paragraph_count": 651
   },
-  "overview_commit": "2020612494a14d7d1e3c4d0708fd40d1dd41ce6c",
-  "overview_digest": "cf07ce8a1ee38be4cb8634e976da95e2abdf4d08c9e5397fce0f9a14570a8163",
+  "overview_commit": "69ad3490b47482765cdfb4498d15ed1ed1906a6f",
+  "overview_digest": "f80efc854d5bbd273318224edfc8895c284982f73d75b46f796bea2218c33be4",
   "paragraphs": [
     {
       "id": "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
@@ -13169,6 +13170,24 @@
         "EmployeeEquityRisk",
         "MarkSuster",
         "StartupJobDiligence"
+      ]
+    },
+    {
+      "id": "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[LindsayHolmwood]] source sharpens the career boundary around engineering management. [[ManagementRoleFit]] now treats the move as adoption of different daily work and success criteria: listening, trust, difficult communication, just conflict resolution, advocacy, roadblock removal, strategic translation, and systemic improvement matter because the manager's output is the team's performance rather than personal code. [[DualCareerTracks]] gains a stronger rationale for keeping engineering progression credible: candidates who do not want the people-leadership career should not need it as a status or compensation promotion. [[EngineeringManagerRoleDesign]] reconciles Holmwood's categorical identity correction with existing topology evidence: every manager variant needs a group-enablement function, but functional tech-lead managers may still contribute technically. The development prescription combines professional training, multiple mentors, transition peers, broad reading, critique, reflection, and practice. The source is a first-person practitioner argument, so its industry-wide non-technical-skill claim, application of Dunning-Kruger, and recommended methods remain unmeasured; management fit should stay learnable and reversible rather than becoming a permanent personality label. The supplied Markdown contains no image references.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DualCareerTracks",
+        "EngineeringManagerRoleDesign",
+        "LindsayHolmwood",
+        "ManagementRoleFit"
       ]
     }
   ],

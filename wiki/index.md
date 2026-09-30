@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It's not a promotion - it's a career change](sources/its-not-a-promotion-its-a-career-change-fractional-by-lindsay-holmwood.md) - Lindsay Holmwood reframes engineering management as a career change centered on group performance, interpersonal skill, deliberate learning, and multiplied human impact.
 - [It's Beginning To Look A Lot Like 1937](sources/its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha.md) - Daniel Carter uses a selective 1937 analogy to frame political-market feedback as portfolio risk while leaving data, causality, and timing materially unresolved.
 - [It's Okay Not To Lead](sources/its-okay-not-to-lead-daedtech.md) - Erik Dietrich distinguishes autonomy from authority and argues that hands-on team contribution is a complete career rather than a lower rank than leadership.
 - [It Costs $50k to Hire a Software Engineer](sources/it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog.md) - A practitioner decomposes a rough $50,000 engineering hire into recruiting, interview labor, and ramp-up, then uses the uncertain estimate to examine referrals and retention spending.
@@ -892,6 +893,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Lindsay Holmwood](entities/LindsayHolmwood.md) - Technology leader and writer framing engineering management as a learned career centered on group effectiveness.
 - [Daniel Carter](entities/DanielCarter.md) - Seeking Alpha author represented through a 2017 historical analogy about macro-political market risk.
 - [Ray Dalio](entities/RayDalio.md) - Investor represented through regime-diversified allocation and a 1937 analogy connecting populism, conflict, and market risk.
 - [John Saito](entities/JohnSaito.md) - Product writer and designer represented through a contextual framework for grammatical perspective in interfaces.
