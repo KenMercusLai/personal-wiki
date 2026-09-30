@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 331b7720774a15f01c9fc8d2901f45f3b7e41de0
-summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, risk, and choice."
-episode_count: 840
-source_count: 840
-paragraph_count: 634
+as_of_overview_commit: 7e989c36c4144749dd547c4dc1ffce6e609e2b94
+summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, ecosystem boundaries, risk, and choice."
+episode_count: 841
+source_count: 841
+paragraph_count: 635
 topic_count: 9
 ---
 
@@ -19,7 +19,7 @@ topic_count: 9
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[DataAnnotationLabor]] makes supervised AI a socio-technical production system: [[AmazonMechanicalTurk]] can distribute screening, cleaning, moderation, and labeling at scale, while [[ImageNet]] shows that benchmark data depends on human judgment and a much larger candidate pool as well as models and compute; [[PlatformMicrowork]] therefore makes pay, qualification, requester transparency, rejection, and worker protection part of AI infrastructure governance.
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
-- [[GamePublishingPortfolioEconomics]] treats major game publishing as a patient portfolio of uncertain bets rather than individually predictable projects; [[Disney]] shows how weak domain knowledge, shifting mandates, capital competition, and [[CorporateRiskAversion]] can break that commitment, while [[DisneyInfinity]] preserves the possibility that licensing and closure also reflected rational risk transfer.
+- [[PlatformNeutrality]] can increase ecosystem reach when owning an adjacent endpoint would make desired distributors into competitors: [[Netflix]] stopped the launch-ready [[ProjectGriffin]] player and spun the team led by [[AnthonyWood]] out as [[Roku]], treating broad device availability as more valuable than first-party hardware control and refusing to let [[SunkCostFallacy]] determine the organizational boundary.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - Automation becomes governable when systems expose intended state, observed state, logs, metrics, replayable evidence, validation checks, staged activation, and explicit recovery boundaries. [[ProgressiveInfrastructureRollout]] adds representative production cohorts and [[Tsunami]]'s time-based desired-state allocation, audit, role-aware percentage bounds, and service-level-objective stopping after [[Docker]] became critical at [[Spotify]]. [[GitOps]] adds pull-request governance plus repository-to-runtime drift detection and [[WeaveFlux]] convergence around [[Kubernetes]]; [[Cloudflare]] separately shows why stopping or reverting automation does not reconstruct deleted bindings or restore actual operational state.
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, patient portfolio commitments, governed distribution, lifecycle trust, risk allocation, and resistance to adversarial manipulation without hiding incentive conflicts.
+Durable value joins customer outcomes, sustainable economics, governed distribution, ecosystem boundary choices, lifecycle trust, risk allocation, and resistance to adversarial manipulation without hiding incentive conflicts.
 
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 - [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].

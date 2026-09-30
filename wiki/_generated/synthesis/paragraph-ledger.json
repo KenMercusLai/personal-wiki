@@ -634,12 +634,13 @@
       "e8702984938abae9487eabbbd4f3293a023a56e434efa698a21b955d0e3c7d1b",
       "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c",
       "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af",
-      "b49ee6e0dc15c360f2a4745e0cca3c1f80776ec2af505f4f5653a90237e9ac8b"
+      "b49ee6e0dc15c360f2a4745e0cca3c1f80776ec2af505f4f5653a90237e9ac8b",
+      "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194"
     ],
-    "paragraph_count": 634
+    "paragraph_count": 635
   },
-  "overview_commit": "331b7720774a15f01c9fc8d2901f45f3b7e41de0",
-  "overview_digest": "13060665f0b5f1c2943d86ffa44fab981f3dda357d818747ded0ad3eac5be9ec",
+  "overview_commit": "7e989c36c4144749dd547c4dc1ffce6e609e2b94",
+  "overview_digest": "52fc094c30ff8019a0697ab9820b43c0fb500b5d943b641371e68a9a3561197d",
   "paragraphs": [
     {
       "id": "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
@@ -12849,6 +12850,27 @@
         "ContingentWorkforce",
         "DataAnnotationLabor",
         "Google"
+      ]
+    },
+    {
+      "id": "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[ProjectGriffin]] source adds [[PlatformNeutrality]] as a boundary choice between controlling an endpoint and remaining welcome across an ecosystem. By December 2007, [[Netflix]] had taken its compact streaming player through engineering, design, and production validation, internal beta, pricing, advertising, and Foxconn preparation, yet [[ReedHastings]] stopped the branded launch because owning hardware could turn desired partners such as Apple, Sony, LG, and Samsung into competitors. Spinning the roughly twenty-person team led by [[AnthonyWood]] out as [[Roku]] preserved the device effort while Netflix pursued distribution across many rival hardware surfaces. The case strengthens [[SunkCostFallacy]] as future-facing strategy rather than mere completion discipline: extensive investment and internal enthusiasm did not make the project's organizational location correct. It also sharpens [[PlatformDistributionDependence]], because neutrality can increase reach while surrendering hardware margin, differentiation, data, bargaining power, and direct experience control. The evidence is a 2013 retrospective relying partly on anonymous sources; later Netflix and Roku success creates hindsight bias, no partner refusal is measured, and the article cannot establish the outcome of launching the Netflix Player. Two product photographs were retained to show the prototype and subsequent Roku player; a duplicate prototype and three parody-video or facility stills were omitted as duplicate or prose-repeated illustration.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AnthonyWood",
+        "Netflix",
+        "PlatformDistributionDependence",
+        "PlatformNeutrality",
+        "ProjectGriffin",
+        "ReedHastings",
+        "Roku",
+        "SunkCostFallacy"
       ]
     }
   ],

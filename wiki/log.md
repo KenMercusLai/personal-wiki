@@ -6776,3 +6776,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under
+
+Added the retrospective history of Netflix's near-launch 2007 streaming player and the decision to spin its team out as [[Roku]]. Created [[AnthonyWood]], [[Roku]], [[ProjectGriffin]], and [[PlatformNeutrality]]; updated [[Netflix]] and [[ReedHastings]] from their complete ordered evidence inventories with the tradeoff between first-party hardware control and broad partner distribution. Preserved the retrospective, anonymous-source, hindsight, unmeasured-partner-response, and counterfactual limits. Opened all six local images, retained the Netflix Player prototype and later Roku player under descriptive canonical filenames, and omitted a duplicate prototype plus three parody-video or facility stills that repeated the prose.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
