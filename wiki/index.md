@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It's a Tesla](sources/its-a-tesla-stratechery-by-ben-thompson.md) - Ben Thompson argues that Tesla's premium product and brand created Model 3 demand outside classic low-end disruption while preserving funding and execution risks.
 - [It’s Ugly, But It Works: On Designing for Usability](sources/its-ugly-but-it-works-on-designing-for-usability.md) - A My Tabata case argues that useful, reliable, context-sensitive interaction can outweigh weak visual polish while preserving aesthetics as a separate product-quality dimension.
 - [It’s Not a Feature Problem—Avoiding Startup Tarpits](sources/its-not-a-feature-problem-avoiding-startup-tarpits-by.md) - Daniel Tawfik uses Vonjour's shift from feature spending to paid acquisition and signup optimization to argue that startups should test distribution before assuming slow growth is a product-scope problem.
 - [It’s 2017 and Mental Health is still an issue in the workplace.](sources/its-2017-and-mental-health-is-still-an-issue-in-the-workplace.md) - Ben Congleton uses Madalyn Parker’s direct mental-health leave message and his supportive reply to argue that humane leadership should be routine rather than remarkable.
@@ -897,6 +898,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Clayton Christensen](entities/ClaytonChristensen.md) - Strategy scholar represented through Thompson's qualified critique of applying low-end disruption theory mechanically to consumer markets.
 - [My Tabata](entities/MyTabata.md) - Mobile interval timer represented through a one-screen workout flow, tap-anywhere pause, audio countdown, and visible progress cues.
 - [Daniel Tawfik](entities/DanielTawfik.md) - Founder-author represented through Vonjour's product-allocation, paid-acquisition, and funnel-learning retrospective.
 - [Vonjour](entities/Vonjour.md) - Subscription software company used as a case of feature-heavy spending followed by paid-search and signup-conversion experiments.
@@ -1633,7 +1635,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
 - [Elon Musk](entities/ElonMusk.md) - Founder represented through risk-taking, demanding operations, concentrated organizational control, and charismatic future-setting authority.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
-- [Tesla](entities/Tesla.md) - Electric-vehicle company represented through founder commitment, a 2017 camera-led autonomy data strategy, and a 2018 Model 3 capacity-ramp memo.
+- [Tesla](entities/Tesla.md) - Electric-vehicle company represented through premium market entry, Model 3 brand demand, a camera-led autonomy data strategy, and coupled production capacity.
 - [Mark Zuckerberg](entities/MarkZuckerberg.md) - Founder example used to show learning by quickly launching Thefacebook and responding to real problems.
 - [Mahesh Balakrishnan](entities/MaheshBalakrishnan.md) - Distributed-systems academic and Delos tech lead represented by production database leadership lessons.
 - [Delos](entities/Delos.md) - Facebook production storage system used as the case for production infrastructure leadership, reliability, API migration, and observability lessons.
@@ -1888,7 +1890,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, aggregation, monopoly power, publishing infrastructure, and transportation-service capability stacks.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, theory scope, aggregation, monopoly power, publishing infrastructure, and capability stacks.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -2450,6 +2452,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Consumer Market Disruption Limits](concepts/ConsumerMarketDisruptionLimits.md) - Boundary on low-end disruption theory when consumer choice depends on brand, identity, integration, and other hard-to-measure attributes.
 - [Startup Tarpit](concepts/StartupTarpit.md) - Commercial inertia created when product expansion consumes the runway needed to identify and scale the actual growth constraint.
 - [Workplace Mental Health Support](concepts/WorkplaceMentalHealthSupport.md) - Leave access, disclosure norms, and leadership responses that treat mental health as an ordinary health need without avoidable penalty.
 - [CEO-Centric Leadership](concepts/CEOCentricLeadership.md) - Narrative that concentrates company identity, performance attribution, and continuity risk around one chief executive while obscuring the wider management system.
@@ -2658,7 +2661,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wake-on-LAN](concepts/WakeOnLAN.md) - Magic-packet wake mechanism whose extension across a WAN depends on firewall admission, LAN relay behavior, and ARP or broadcast handling.
 - [Adtech](concepts/Adtech.md) - Tracking, targeting, delivery, and measurement infrastructure whose audience-first optimization can weaken context, privacy, and placement control.
 - [Brand Advertising](concepts/BrandAdvertising.md) - Advertising that builds broad awareness and association through deliberately selected media context and sponsorship.
-- [Brand Equity](concepts/BrandEquity.md) - Accumulated customer belief and referability earned through consistent delivery across product, price, channel, and marketing.
+- [Brand Equity](concepts/BrandEquity.md) - Accumulated customer belief expressed through referability, trust, willingness to pay, anticipatory demand, and limited patience.
 - [Direct Sponsorship](concepts/DirectSponsorship.md) - Paid placement with a known publisher, combining selected audience and context with direct response and harder-to-attribute distribution effects.
 - [SEO Consultant Selection](concepts/SEOConsultantSelection.md) - Evaluation and governance of SEO providers through relevant experience, transparent methods, staged access, realistic outcomes, and owner accountability.
 - [Single Responsibility Principle](concepts/SingleResponsibilityPrinciple.md) - Design guideline for assigning one coherent concern to a unit without pretending that responsibility boundaries are mechanically measurable.

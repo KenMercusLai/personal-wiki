@@ -7063,3 +7063,11 @@ Added [[MyTabata]] as a source-bounded case of single-purpose, context-sensitive
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It's a Tesla
+
+Added [[ConsumerMarketDisruptionLimits]] as Ben Thompson's qualified argument that low-end disruption theory is less predictive when consumer choice depends on brand, identity, integration, design, and other hard-to-measure attributes. Created a source-bounded [[ClaytonChristensen]] profile and updated [[Tesla]], [[BenThompson]], and [[BrandEquity]] from their complete ordered evidence inventories with Tesla's premium-to-lower-price path, sight-unseen Model 3 reservations, and limited customer-grace hypothesis. Preserved refundable deposits, selected company-reported luxury sales, external financing, delivery, price, and manufacturing scale as material qualifications. Inspected and retained the sole evidence-bearing sales table under a descriptive canonical filename with a matching asset manifest.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
