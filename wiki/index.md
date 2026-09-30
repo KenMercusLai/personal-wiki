@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Is There Any Room For The Not-Passionate Developer?](sources/is-there-any-room-for-the-not-passionate-developer-philippe-bourgaus-blog.md) - Philippe Bourgau separates varied technical learning from repetitive overwork while exposing how parenthood, stable-income needs, and weak evidence complicate passion-based career norms.
 - [Is Programming Art?](sources/is-programming-art-daedtech.md) - Erik Dietrich argues that programming is sometimes art but usually functional algorithmic delegation, while commenters complicate the boundary through craft, expression, correctness, and engineering.
 - [Is Product Hunt useful for developer tools?](sources/is-product-hunt-useful-for-developer-tools-flawless-ios-medium.md) - Flawless App's founders report a first-place, zero-cash Product Hunt launch driven by prior community relationships and intensive live operations, while separating votes and feedback from modest sales and absent major press.
 - [Is NordVPN a Honeypot? - VPNscam.com](sources/is-nordvpn-a-honeypot-vpnscam-com.md) - VPNscam.com combines review incentives, advertising, Tesonet claims, and alleged failures into a honeypot theory that the supplied evidence does not prove and a named reviewer directly disputes.
@@ -1812,7 +1813,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
 - [Drazen Prelec](entities/DrazenPrelec.md) - Behavioral economist whose survey methods use predictions about others to improve crowd judgment.
 - [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
-- [Philippe Bourgau](entities/PhilippeBourgau.md) - Software-engineering blogger proposing ordinary TODO comments as a lightweight technical-debt tracking convention.
+- [Philippe Bourgau](entities/PhilippeBourgau.md) - Software-engineering blogger writing about lightweight technical-debt workflow, continued learning, sustainable effort, and developer-career constraints.
 - [CodeClimate](entities/CodeClimate.md) - Code-quality dashboard cited as surfacing TODO comments as issues with file context.
 - [Creative Cloud](entities/CreativeCloud.md) - Adobe subscription model replacing packaged Creative Suite purchases in the source's framing.
 - [SonarQube](entities/SonarQube.md) - Code-quality analyzer cited as listing TODOs while assigning potentially misleading fixed remediation costs.

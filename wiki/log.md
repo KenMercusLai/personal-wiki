@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-30] ingest | Is There Any Room For The Not-Passionate Developer?
+
+Added [[PhilippeBourgau]]'s 2016 reflection on passion, varied technical learning, sustainable effort, and the career constraints of parenthood. Updated Philippe Bourgau, [[WorkLifeBalance]], [[EngineeringExpertise]], and [[DeliberatePractice]] from their complete ordered evidence inventories; preserved the direct conflict with the 9-to-5 developer account and rejected passion, extracurricular coding, or hours beyond paid work as universal competence signals. Opened the sole local image and retained its evidence-bearing productivity-and-overtime chart under a descriptive canonical filename, while qualifying it as an uncited illustration rather than measured evidence.
+
 ## [2026-09-30] ingest | Inside chatbots’ year of growing pains: ‘We’re at an inflection point’
 
 Added [[TimPeterson]]'s March 2017 report on first-wave chatbot interaction, marketing, and distribution. Created Tim Peterson; updated [[ConversationalUI]], [[MessagingAsPlatform]], [[MobileMessagingAdvertising]], [[FacebookMessenger]], and [[Kik]] from their complete ordered evidence inventories with the expectation gap between general-assistant behavior and narrow bots, bounded natural language, explicit recovery, structured controls, CRM continuity, platform merchandising, inline Mentions, and the distinction between installed scale and service discoverability. Preserved the source's attributed and non-comparable engagement figures, Kik's direct subscriber-count dispute, and the distinction between reducing input friction and replacing conversation with a weaker menu interface. The Markdown contains six remote image embeds representing five unique assets, but all publisher and migrated MarTech URLs returned HTTP 403 and no local copies existed, so the visual portion could not be inspected or retained and no image-derived evidence is claimed.
@@ -6971,6 +6975,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Is Programming Art?
 
 Added [[ProgrammingAsArt]] as a purpose-sensitive distinction between creative implementation and software whose primary end is aesthetic or expressive experience. Updated [[ErikDietrich]] from his complete ordered evidence inventory with his account of programming as context-dependent art, science, engineering, craft, routine production, and algorithmic delegation. Preserved the comment thread's challenges from self-expression, metaphor, code beauty, correctness, standardization, and safety-critical rigor. Inspected the remote lead caricature and the repeated local smiley SVG; both were decorative, so neither was retained and no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
