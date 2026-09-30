@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Internal Facebook Note: Here Is A ‘Psychological Trick’ To Target Teens](sources/internal-facebook-note-here-is-a-psychological-trick-to-target-teens.md) - Ryan Mac reports TBH's school-by-school Instagram launch method, its attempt to synchronize teen adoption, and the unverified transfer of that playbook to Facebook.
 - [Intention Is All You Need](sources/intention-is-all-you-need.md) - A practitioner argues that LLMs make intention an increasingly direct software interface, using Slock's group-chat agent coordination while preserving the engineering gap to dependable systems.
 - [Instapaper Outage Cause & Recovery](sources/instapaper-outage-cause-recovery-making-instapaper-medium.md) - Instapaper traces a 31-hour outage to an inherited RDS ext3 file limit, common-mode snapshots, untested restore timing, and delayed escalation, then documents provider-assisted recovery without reported data loss.
 - [Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story](sources/instagram-the-50-billion-grand-slam-driving-facebooks-future-the-forbes-cover-story.md) - Forbes's 2016 profile links Instagram's post-acquisition scale to focused leadership, cautious monetization, selective product change, and Facebook's operating leverage.
@@ -875,6 +876,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [TBH](entities/TBH.md) - Teen polling app whose founders documented a synchronized, school-by-school launch process after Facebook acquired the company.
+- [Ryan Mac](entities/RyanMac.md) - Technology reporter who obtained and contextualized TBH's internal Facebook launch memo.
 - [Slock](entities/Slock.md) - Agent-native group-chat application whose messages and channels form a high-level coordination surface for agents across machines.
 - [Kevin Systrom](entities/KevinSystrom.md) - Instagram co-founder and 2016 CEO represented through focused product leadership, cautious advertising, selective evolution, and post-acquisition autonomy.
 - [Pamela Rutledge](entities/PamelaRutledge.md) - Media psychologist quoted on validation, self-worth, performance, and positive memory in Instagram Stories use.
@@ -2401,6 +2404,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Synchronized Community Launch](concepts/SynchronizedCommunityLaunch.md) - Coordinating product exposure inside a bounded existing group so connected users can experience a social product together.
 - [Intention-Driven Software](concepts/IntentionDrivenSoftware.md) - Software creation and interaction organized around desired outcomes, with LLMs translating high-level intent while engineering supplies clarification and assurance.
 - [Performative Self-Presentation](concepts/PerformativeSelfPresentation.md) - Adapting or staging lived behavior for an imagined or measurable audience and a desirable public identity.
 - [Engineering Organization Evolution](concepts/EngineeringOrganizationEvolution.md) - Stage-sensitive redesign of engineering hiring, specialization, management, and team boundaries from generalists through platform and product teams.

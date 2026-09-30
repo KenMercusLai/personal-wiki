@@ -6645,6 +6645,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Internal Facebook Note: Here Is A “Psychological Trick” To Target Teens
+
+Added [[TBH]] and [[SynchronizedCommunityLaunch]] from Ryan Mac's report and the reproduced internal memo, and updated [[GrowthHacking]] from its complete ordered evidence inventory. The synthesis distinguishes concentrated school-level acquisition from durable [[ProductMarketFit]], preserves that Facebook received but was not shown to have used the tactic, and flags the privacy and manipulation concerns around inferred school identity, ambiguous invitations, behavioral timing, and targeting minors. Opened all four local images: two duplicate hero photographs were omitted, while two Instagram screenshots were retained under descriptive canonical names to document the private invitation state and the later public profile with an app link.
+
 
 ## [2026-09-30] ingest | Instapaper Outage Cause & Recovery
 
@@ -6884,6 +6888,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Intention Is All You Need
 
 Added a practitioner thesis that capable LLMs make human intent an increasingly direct software interface while preserving the engineering distance to reliable, maintainable, and secure systems. Created [[IntentionDrivenSoftware]] and [[Slock]]; updated [[VibeCoding]] and [[AIAgentCollaboration]] from their complete ordered evidence inventories. Opened and retained both local screenshots under descriptive canonical names: a 711-contribution GitHub activity calendar and a Slock conversation containing a conventional multi-agent orchestration proposal used as a contrast case, not as evidence of Slock's implementation.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
