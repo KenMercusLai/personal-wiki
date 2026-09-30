@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AirPods Live Listen: Hearing Aid or Spy Tool?](sources/juli-clover-airpods-live-listen-hearing-aid-or-spy-tool.md) - Juli Clover explains how iOS 12 Live Listen turns an iPhone into a remote microphone for AirPods, supporting hearing access while creating a covert-listening path.
 - [Judge less, observe more](sources/judge-less-observe-more-personal-growth-medium.md) - Alex Mathers argues that gently replacing premature judgment with concrete observation can preserve creative openness and reduce self-conscious rumination, while offering personal reflection rather than causal evidence.
 - [My Microservices FAQ](sources/jimmy-bogard-my-microservices-faq.md) - Jimmy Bogard defines microservices by the smallest viable autonomous boundary and rejects technology, repository, or deployment topology as sufficient proof of service independence.
 - [Jim Scheinman's Maven Ventures: 10 Key Lessons Facebook Learned from Friendster](sources/jim-scheinmans-maven-ventures-10-key-lessons-facebook-learned-from-friendster.md) - Jim Scheinman compares Friendster, Facebook, and Bebo across audience focus, feature cadence, performance, technology, virality, hiring, leadership, politics, and monetization timing.
@@ -924,6 +925,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [You know your product team is failing — do you know why?](sources/johnathan-nightingale-you-know-your-product-team-is-failing-do-you-know-why.md) - Johnathan Nightingale argues that experienced product managers turn busy product output into predictable, instrumented progress by synthesizing context, choosing trade-offs, and orchestrating delivery without CEO authority.
 
 ## Entities
+- [Live Listen](entities/LiveListen.md) - Apple remote-microphone feature that relays iPhone audio to AirPods or compatible hearing devices, with both accessibility value and covert-listening risk.
 - [Alex Mathers](entities/AlexMathers.md) - Writer represented through a personal practice of interrupting rapid labels with receptive observation to support creativity and calm.
 - [Jimmy Bogard](entities/JimmyBogard.md) - Software practitioner defining microservices through contextual service autonomy rather than technology or fixed size.
 - [Marc Lore](entities/MarcLore.md) - Jet CEO advocating transparent, level-based compensation as a trust and fairness mechanism.
@@ -2506,6 +2508,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Assistive Technology Dual Use](concepts/AssistiveTechnologyDualUse.md) - Condition in which an access-improving capability can enable surveillance or other harm through substantially the same mechanism.
 - [Nonjudgmental Observation](concepts/NonjudgmentalObservation.md) - Delaying premature evaluative labeling so concrete observation and alternative meanings remain available without abandoning useful judgment.
 - [Service Autonomy](concepts/ServiceAutonomy.md) - Independent ownership, operation, information control, contract evolution, and failure handling used to determine a viable service boundary.
 - [Salary Transparency](concepts/SalaryTransparency.md) - Making pay rules or outcomes inspectable while preserving classification, promotion, privacy, and calibration limits.

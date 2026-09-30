@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0c7c7a33c94ef7bc7e8573ec4c26430d8bfc3a36ca1de287ef34aed5db5052fd",
       "41299595e9a98ca7f5dff3dd25bc5e5ff8ff047d840cf86cb9bcbbd8857fe192",
       "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
       "71c7dd35e555548f86359ad603819914b42b5e6744d0ad781f6b4cb51ad9d825",
@@ -669,11 +670,29 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 667
+    "paragraph_count": 668
   },
-  "overview_commit": "55f93ab6730a52f06a88f3e9665539922a2aa234",
-  "overview_digest": "bedfd37c6cb043dfa13b430e834d44d691f08a03182f89675d75d899576397cd",
+  "overview_commit": "e4149522c26403cba99cefb0ba3f300221bf59f0",
+  "overview_digest": "f3a155a82a8abe5737058e8ae50391924a18e6173732ee004a58312708f25f63",
   "paragraphs": [
+    {
+      "id": "0c7c7a33c94ef7bc7e8573ec4c26430d8bfc3a36ca1de287ef34aed5db5052fd",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The Juli Clover source adds [[LiveListen]] as a concrete privacy boundary for [[AirPods]] and [[PersonalAudioComputing]]. In iOS 12, a user could place an iPhone near a sound source and relay its microphone audio to AirPods or another compatible Bluetooth listening device; the same remote path that could assist someone with hearing difficulties could also carry an unaware conversation to a listener in another room. [[AssistiveTechnologyDualUse]] captures the durable judgment: accessibility value and misuse risk can arise from one mechanism, so evaluation must consider placement, awareness, consent, range, and safeguards without treating possible abuse as proof that the assistive capability should disappear. The evidence is a short 2019 technology-news article demonstrating technical possibility, not measured accessibility benefit or spying prevalence, and it does not test later iOS protections or model-specific behavior. The supplied Markdown contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "AirPods",
+        "AssistiveTechnologyDualUse",
+        "LiveListen",
+        "PersonalAudioComputing"
+      ]
+    },
     {
       "id": "41299595e9a98ca7f5dff3dd25bc5e5ff8ff047d840cf86cb9bcbbd8857fe192",
       "primary_topic": "ai-and-technology",

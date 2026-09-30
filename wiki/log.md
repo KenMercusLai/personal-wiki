@@ -7255,3 +7255,11 @@ Added [[AlexMathers]] and [[NonjudgmentalObservation]] from a 2017 personal-grow
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | AirPods Live Listen: Hearing Aid or Spy Tool?
+
+Added [[LiveListen]] and [[AssistiveTechnologyDualUse]], and updated [[AirPods]] from its complete ordered evidence inventory. Recorded the iPhone-to-headphone remote-microphone path, its earlier MFi hearing-aid context, iOS 12 AirPods support, Control Center activation, Bluetooth-range boundary, and the distinction between accessibility value and covert-listening misuse. Preserved the article's limited evidence: it demonstrates technical possibility but provides no accessibility outcomes, abuse prevalence, later safeguard analysis, or model-specific testing. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

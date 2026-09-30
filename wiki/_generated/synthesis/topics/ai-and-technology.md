@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-01
-as_of_overview_commit: 4d42c89b3ec3cc66c097609c95b9177c143ca829
-input_digest: 11b4db31375643d833105c62176025e2acb932662883d4a73e41529bee27255c
+as_of_overview_commit: e4149522c26403cba99cefb0ba3f300221bf59f0
+input_digest: 78209a4ba98f80c9d225763a2243d95897eb005d8055b9060c32457f1f015811
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.
+[[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.
 
 ## Cross-source Findings
 
@@ -912,3 +912,14 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is [[JohnLilly]]'s personal remembrance rather than comparative product, financial, or workplace research.
 - The 1997 stock-price detail is explicitly uncertain, the leak account has no company or dismissed-employee record, and the treatment claims rely partly on friends' experiences.
 - The source does not show whether Jobs's harshness caused, accompanied, or impeded Apple's outcomes.
+
+### Assistive Remote Audio Is Dual Use
+
+[[LiveListen]] shows that [[AssistiveTechnologyDualUse]] can arise from one remote-audio mechanism: an iPhone microphone relayed to [[AirPods]] may bring speech closer for hearing access or carry an unaware conversation to a listener in another room, so [[PersonalAudioComputing]] must evaluate accessibility and privacy together rather than infer safety from intended use or harm from technical possibility alone.
+
+**Evidence:** [[LiveListen]], [[AssistiveTechnologyDualUse]], [[AirPods]], [[PersonalAudioComputing]]
+
+**Qualifications:**
+
+- The evidence is one short 2019 technology-news article that demonstrates a technically possible misuse path but does not measure accessibility outcomes, covert-listening prevalence, practical range, user awareness, or later safeguards.
+- A plausible abuse path does not make the accessibility capability inherently harmful or establish that removal is preferable to visible state, consent, range, and abuse-resistant design controls.

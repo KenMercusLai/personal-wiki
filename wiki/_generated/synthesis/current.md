@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 55f93ab6730a52f06a88f3e9665539922a2aa234
+as_of_overview_commit: e4149522c26403cba99cefb0ba3f300221bf59f0
 summary: "Current knowledge links calibrated evidence, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 900
-source_count: 900
-paragraph_count: 667
+episode_count: 901
+source_count: 901
+paragraph_count: 668
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, verification, observable state, recovery, and accountable human control.
+Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, verification, recovery, accountable control, and joint accessibility and privacy analysis.
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles. Evidence: [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], [[JaanaDogan]].
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
@@ -68,7 +68,7 @@ Historical spillovers require attention to lineage, path dependence, institution
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, evidence calibration, privacy-aware control, recovery, durable learning, and choice within structural constraints.
+Human outcomes depend on bounded attention, evidence calibration, consent and context, privacy-aware control, recovery, durable learning, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].
