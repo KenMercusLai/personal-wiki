@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "71c7dd35e555548f86359ad603819914b42b5e6744d0ad781f6b4cb51ad9d825",
       "0a6c37d455c844af1c73054c587a2fc47d558cca81ba3a29b48fe032b1f559d9",
       "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
       "adf6a2ac1f0c5db7e0816da2818b13409b86f9d26fd7614900de91e9b59de637",
@@ -664,11 +665,28 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 662
+    "paragraph_count": 663
   },
-  "overview_commit": "b48df22dd0056469d5065bbee305825fb102a398",
-  "overview_digest": "9afa6dad628ce96bbc241d9eeefa874f855d5af36f68767684729e5d1efacc28",
+  "overview_commit": "a1afdee4f22806acb692fbe4fe031a889093294b",
+  "overview_digest": "f50543396149818dcc9695509e9e6ebfbc26f2ce16627ab9a5d7b26a0ac03528",
   "paragraphs": [
+    {
+      "id": "71c7dd35e555548f86359ad603819914b42b5e6744d0ad781f6b4cb51ad9d825",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Tim Stenovec source adds [[SalaryTransparency]] as a compensation-specific form of [[OrganizationalTransparency]]. At [[JetCom]], employees reportedly knew one another's pay; 13 levels fixed salaries from $40,000 to $300,000; every full-time worker received equity standardized within a level; bonuses were absent; and promotion was the only route to a raise. [[MarcLore]] argues that this structure reduces bargaining-driven differences, prevents managers from allocating scarce raises according to who complains or threatens to leave, and lets employees challenge perceived unfairness. The synthesis preserves the distinction between inspectability and fairness: fixed levels move discretion into job classification, level assignment, promotion, market calibration, and equity valuation, while individual disclosure adds privacy and context risks. The article is a point-in-time CEO account of a 266-person workforce, with no employee testimony, demographic audit, promotion distribution, equity terms, retention comparison, productivity evidence, or later-policy outcome. Its single local image was opened and omitted as a non-evidentiary office photograph.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "JetCom",
+        "MarcLore",
+        "OrganizationalTransparency",
+        "SalaryTransparency"
+      ]
+    },
     {
       "id": "0a6c37d455c844af1c73054c587a2fc47d558cca81ba3a29b48fe032b1f559d9",
       "primary_topic": "work-education-and-society",

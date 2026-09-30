@@ -7191,3 +7191,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Jet employees know each others' salaries
+
+Added [[SalaryTransparency]] and source-bounded profiles for [[MarcLore]] and [[JetCom]], and updated [[OrganizationalTransparency]] from its complete ordered evidence inventory. Recorded Jet's reported 13 salary levels, $40,000-$300,000 range, standardized level-based equity, absent bonuses, promotion-only raises, and 266-person workforce while preserving the distinction between visible rules and fairness in classification, promotion, market calibration, and equity value. Treated trust, empowerment, retention, and effort as Lore's unmeasured claims because the article supplies no employee testimony, demographic audit, comparison, or outcome data. Opened the sole local image and omitted it as a non-evidentiary office photograph, so no asset manifest was required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

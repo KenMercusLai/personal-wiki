@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-01
-as_of_overview_commit: e3573709ae3cbadd0f2834f8ea85577ac5ef2fa5
-input_digest: c3439ac9f71eaec22cf10e58cd5990b8a35e0f1fb8d004e60590ccce2d6b52da
+as_of_overview_commit: a1afdee4f22806acb692fbe4fe031a889093294b
+input_digest: c628819a60ac735737a77acc152cc0ec52857d5f9fa8e04394aad1d23e040469
 ---
 
 # Work, Education, and Society
@@ -1063,3 +1063,14 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 
 - The evidence is one 2016 team interview whose million-participant target and unlimited-scaling language are not backed by achieved traffic, load tests, cost, reliability, or campaign outcome data.
 - The six referenced images were unavailable, so no claim depends on unseen architecture, deployment, Unicode, or device-testing detail.
+
+### Salary Visibility Shifts Rather Than Removes Discretion
+
+[[SalaryTransparency]] can make pay differences and advancement rules inspectable, while the [[JetCom]] case shows that fixed salary levels, standardized level-based equity, absent bonuses, and promotion-only raises shift rather than eliminate discretion; [[MarcLore]]'s trust and empowerment rationale therefore extends [[OrganizationalTransparency]] without proving fair classification or better outcomes.
+
+**Evidence:** [[SalaryTransparency]], [[JetCom]], [[MarcLore]], [[OrganizationalTransparency]]
+
+**Qualifications:**
+
+- The evidence is a point-in-time CEO interview about a 266-person startup, with no employee testimony, demographic pay audit, retention comparison, productivity measure, promotion distribution, or later-policy outcome.
+- Equal pay within a level does not establish fair level assignment, promotion, external-market calibration, or equity value, and individual disclosure also creates privacy and context risks.

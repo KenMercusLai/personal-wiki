@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Jet employees know each others' salaries](sources/jet-employees-know-each-others-salaries-business-insider.md) - Tim Stenovec reports Jet's visible 13-level salary and equity system while leaving its fairness, employee response, and outcomes unmeasured.
 - [34 Questions to Ask a Potential Co-Founder](sources/jessica-alter-34-questions-to-ask-a-potential-co-founder.md) - Jessica Alter turns co-founder fit into a broad pre-commitment discussion while treating joint work and references as stronger behavioral evidence than answers alone.
 - [Tricks to Monetize Your Side Project](sources/jeremy-a-boyd-tricks-to-monetize-your-side-project.md) - Jeremy A Boyd combines lightweight conversion tests, behavior-triggered trial onboarding, tiered pricing, and additional revenue streams while leaving cohort, retention, and causal evidence undisclosed.
 - [Jeff Dean on Large-Scale Deep Learning at Google](sources/jeff-dean-on-large-scale-deep-learning-at-google-high-scalability.md) - A 2016 talk summary connects Google Brain's research-product integration with end-to-end models, distributed training, on-device inference, and historically scoped product gains.
@@ -914,6 +915,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jessica Livingston's Pretty Complete List on How Not to Fail](sources/jessica-livingstons-pretty-complete-list-on-how-not-to-fail.md) - Jessica Livingston links user demand, founder focus, measured growth, default-alive status, conservative hiring, and fundraising-stage expectations into a qualified startup survival framework.
 
 ## Entities
+- [Marc Lore](entities/MarcLore.md) - Jet CEO advocating transparent, level-based compensation as a trust and fairness mechanism.
+- [Jet.com](entities/JetCom.md) - E-commerce startup represented through its visible salary bands, standardized level equity, and promotion-only raises.
 - [Jessica Alter](entities/JessicaAlter.md) - FounderDating co-founder represented through a structured, behavior-aware framework for prospective co-founder diligence.
 - [FounderDating](entities/FounderDating.md) - Co-founder network serving as the practice context for Jessica Alter's checklist and reference-checking advice.
 - [Jeremy A Boyd](entities/JeremyABoyd.md) - Software practitioner presenting experiment, onboarding, pricing, and revenue advice for monetizing small products.
@@ -2487,6 +2490,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Salary Transparency](concepts/SalaryTransparency.md) - Making pay rules or outcomes inspectable while preserving classification, promotion, privacy, and calibration limits.
 - [End-to-End Learning](concepts/EndToEndLearning.md) - Training a relatively direct input-to-output mapping to replace some hand-built features, intermediate rules, and subsystem integration.
 - [Distributed Neural Network Training](concepts/DistributedNeuralNetworkTraining.md) - Model- and data-parallel optimization across devices or machines, including parameter-server and synchronization tradeoffs.
 - [Decision Quality](concepts/DecisionQuality.md) - Prioritizing the value of consequential judgments over decision count, visible activity, or nominal working hours.
