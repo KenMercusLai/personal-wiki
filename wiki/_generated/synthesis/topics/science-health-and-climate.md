@@ -3,16 +3,16 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-30
-as_of_overview_commit: 6af6e0045f09f2a2bb1601d9ea9e2519e09e7ba6
-input_digest: e1bc5a78163d383838a3d2b59488e76f557ff7274527a09aaf9ab40df227c86a
+last_updated: 2026-10-01
+as_of_overview_commit: 29aa06911707b6401bfbe52b0eb5e74ad72cd1db
+input_digest: 48f2e5d23007b7f172d4dc58fc6521ebaf3ad3f4e53d47d9303cfcca8f8dce07
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.
+The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
 
@@ -83,14 +83,15 @@ This topic contains one direct but source-scoped mental-health synthesis, beginn
 
 ### Progressive Practice Can Build Self Efficacy
 
-[[SelfEfficacy]] is framed as a feedback loop in which [[GoalSetting]] identifies a path and progressively demanding [[WorkHabits]] create repeated mastery experiences that can make future participation feel easier.
+[[SelfEfficacy]] is framed as a feedback loop in which [[GoalSetting]] identifies a path and progressively demanding [[WorkHabits]] create repeated mastery experiences; [[JournalingPractice]] can preserve small completed actions as reviewable evidence that might otherwise be forgotten or discounted.
 
-**Evidence:** [[SelfEfficacy]], [[GoalSetting]], [[WorkHabits]]
+**Evidence:** [[GoalSetting]], [[GratitudePractice]], [[JournalingPractice]], [[LarsManbu]], [[SelfEfficacy]], [[WorkHabits]]
 
 **Qualifications:**
 
 - This is a practitioner claim rather than a health or psychological outcome study, and perceived capability is not the same as measured competence.
 - Continuity should be adapted for recovery, disability, health, caregiving, structural constraints, and feedback quality rather than interpreted as identical daily physical effort.
+- The Lars漫步 source does not identify enough primary-study detail to verify its simplified brain mechanism or claims about emotional relief, health, happiness, confidence, or behavior change; recording an achievement does not prove competence or readiness for a harder task.
 
 ### Science Does Not Settle Intrinsic Value
 

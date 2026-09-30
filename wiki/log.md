@@ -7399,3 +7399,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 新年新开始：从为什么到写什么，带你重新认识日记
+
+Added [[LarsManbu|Lars漫步]] and updated [[JournalingPractice]], [[GratitudePractice]], and [[SelfEfficacy]] from their complete ordered evidence inventories. Recorded selective event capture, emotional clarification, gratitude, small-achievement evidence, retrospective review, and choice reconstruction against goals while preserving the practitioner nature of the advice and the incomplete primary-study support for neuroscience, health, happiness, confidence, and behavior-change claims. Opened the sole local image and retained its Apple Notes folders and dated reflective entry under a descriptive canonical filename with a matching asset manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

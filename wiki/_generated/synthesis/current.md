@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 83671390e503876ebf7357d6ed97ab3a7c91321e
+as_of_overview_commit: 29aa06911707b6401bfbe52b0eb5e74ad72cd1db
 summary: "Current knowledge links calibrated evidence, bounded experimentation, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 919
-source_count: 919
-paragraph_count: 678
+episode_count: 920
+source_count: 920
+paragraph_count: 679
 topic_count: 9
 ---
 
@@ -68,21 +68,21 @@ Historical spillovers require attention to lineage, path dependence, institution
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, practice-grounded identity, calibrated risk judgment, consent and context, recovery, durable learning, and structural constraints.
+Human outcomes depend on bounded attention, inspectable reflection, practice-grounded identity, calibrated judgment, consent, recovery, durable learning, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].
 
 ### Science, Health, and Climate
 
-Direct conclusions remain narrow and source-scoped, separating observed health and efficiency evidence from proposed mechanisms and causal speculation.
+Direct conclusions remain narrow and source-scoped, separating observed health and efficiency evidence from proposed mechanisms, practitioner claims, and causal speculation.
 
 - [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]], [[PerformativeSelfPresentation]], [[HereAndNowMedia]], [[SocialDriverHierarchy]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, fair rules, durable knowledge processing, enforceable limits, recovery, support, and safeguards.
+Work and learning depend on accessible tools, active practice, inspectable records, fair rules, durable knowledge processing, enforceable limits, recovery, support, and safeguards.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

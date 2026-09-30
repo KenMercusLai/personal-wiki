@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "65ee66c2bc5d9e8cb56a8dd903622327a55ec5f6be6bb212a826c00f74657997",
       "5f7c48123fbbc8f3a7bdf8289d1d57d4a3767f69ae9de700bc0aad809b99db24",
       "5379222796c70539632fc864e5282434ae3ac2db0380617ad60857231aabf8ab",
       "81410720b18d7bbfcd99086a46793d1f4641120ff3692d1e361690f3a435f95d",
@@ -680,11 +681,31 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 678
+    "paragraph_count": 679
   },
-  "overview_commit": "83671390e503876ebf7357d6ed97ab3a7c91321e",
-  "overview_digest": "76703996f54a7e747e472c54b301674eeee8fb0bc407b15fda3ce39dce8835f0",
+  "overview_commit": "29aa06911707b6401bfbe52b0eb5e74ad72cd1db",
+  "overview_digest": "eccd240d83665bd686d1e3b1a5b17b702ac2592d5d5cc91afd0c6b5f896bd210",
   "paragraphs": [
+    {
+      "id": "65ee66c2bc5d9e8cb56a8dd903622327a55ec5f6be6bb212a826c00f74657997",
+      "primary_topic": "science-health-and-climate",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[LarsManbu|Lars漫步]] source broadens [[JournalingPractice]] from T.L.C. prompts, programming records, and work-transition entries into a flexible sequence of retrospective, emotional, gratitude, achievement, and choice-focused reflection. Its common design principle is selective specificity: preserve meaningful events rather than an exhaustive chronology; turn vague fear into named concerns, possible actions, and bounded outcomes; record concrete support and small completed actions; and reconstruct why daily decisions were made and whether repeated behavior advances longer-term goals. This adds an evidence-retention mechanism to [[SelfEfficacy]] and a relational variant to [[GratitudePractice]], but the strongest outcome claims remain source-scoped. The article is a practitioner essay using personal examples, popular books, a video, and an incompletely specified 91-person gratitude study; it does not independently establish its simplified neuroscience, health, happiness, confidence, or behavior-change claims. Morning writing and a ten-to-fifteen-minute duration are practical preferences rather than universal requirements. The sole local image was opened and retained because its Apple Notes folders and dated entry visually demonstrate separate achievement, gratitude, and goal journals alongside retrospective writing.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "GratitudePractice",
+        "JournalingPractice",
+        "LarsManbu",
+        "SelfEfficacy"
+      ]
+    },
     {
       "id": "5f7c48123fbbc8f3a7bdf8289d1d57d4a3767f69ae9de700bc0aad809b99db24",
       "primary_topic": "business-and-markets",
