@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Kent Beck: I get paid for code that works, not for tests](sources/kent-beck-i-get-paid-for-code-that-works-not-for-tests.md) - A saved Beck quotation and comment debate frame testing as confidence gained per cost while preserving maintenance, regression, metric, and test-layer disputes.
 - [10x Not 10%](sources/ken-norton-10x-not-10-percent.md) - Ken Norton argues that order-of-magnitude outcomes require problem reframing, bounded failure, evidence-led experimentation, trend awareness, and impact measures rather than familiar effort counts.
 - [Keep earning your title, or it expires](sources/keep-earning-your-title-or-it-expires-derek-sivers.md) - Derek Sivers argues that present-tense role titles should remain accountable to current conduct because identity claims can provide premature satisfaction without action.
 - [Kara Swisher Is Silicon Valley's Most Feared and Well-Liked Journalist. How Does That Work?](sources/kara-swisher-is-silicon-valleys-most-feared-and-well-liked-journalist-how-does-that-work.md) - A 2014 profile explains Swisher's influence through sourcing, institutional memory, confrontation, discretion, and conference power while preserving the conflicts created by elite access.
@@ -1692,7 +1693,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Learning a Day](entities/ALearningADay.md) - Publication context for Rohan Rajiv's short personal-growth essay on high-stakes searches.
 - [Paulo Caroli](entities/PauloCaroli.md) - Agile and Lean facilitator behind the Product Backlog Building Canvas article.
 - [Fábio Aguiar](entities/FabioAguiar.md) - Co-author of the Product Backlog Building technique with Paulo Caroli.
-- [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner credited here with introducing the User Story term.
+- [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner associated here with user stories, simple design, iterative development, and confidence-based testing.
 - [Mike Cohn](entities/MikeCohn.md) - User-story reference author cited for User Stories Applied and INVEST sizing refinement.
 - [Mountain Goat Software](entities/MountainGoatSoftware.md) - Agile and Scrum publisher represented by a practical start-stop-continue sprint-retrospective guide.
 - [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
@@ -3078,6 +3079,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.
 - [Agile Fluency Model](concepts/AgileFluencyModel.md) - Shore-Larsen model Fowler cites for distinguishing levels of team agile capability.
 - [Internal Software Quality](concepts/InternalSoftwareQuality.md) - Practical codebase and design quality that protects operation and change without treating aesthetic perfection as the goal.
+- [Confidence-Based Testing](concepts/ConfidenceBasedTesting.md) - Testing strategy that chooses checks by confidence gained against plausible failures relative to their lifecycle cost.
 - [Social Livestreaming](concepts/SocialLivestreaming.md) - Real-time media whose chat, gifts, requests, recognition, and audience participation help produce the content and shared presence.
 - [Digital Gifting](concepts/DigitalGifting.md) - Paid virtual goods used as social signals, payments, and attention-seeking messages inside platforms.
 - [Livestream Commerce](concepts/LivestreamCommerce.md) - Ecommerce conducted through live video demonstrations, seller interaction, launches, and limited-time offers.

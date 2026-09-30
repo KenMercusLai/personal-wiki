@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Kent Beck: I get paid for code that works, not for tests
+
+Added [[ConfidenceBasedTesting]] and updated [[KentBeck]] from his complete ordered evidence inventory. Recorded Beck's confidence threshold, individual and team error targeting, and experimental stance while preserving commenters' maintainability, regression, coverage-metric, static-type, and test-layer objections. Flagged the unresolved tension with [[TestPyramid]] over substituting smoke or integration tests for unit checks. Opened both local images and omitted the small author portrait and emoji as decorative, so no asset manifest was created.
+
 ## [2026-10-01] ingest | Just how big is the podcast discovery gap?
 
 Added [[PodcastDiscovery]] and updated [[DavidKadavy]], [[ProductHunt]], and [[PlatformDistributionDependence]] from their complete ordered evidence inventories. Recorded the omitted-submission decline, delayed-submission rebound, Product Hunt Podcasts shutdown, and reported immediate 20–30% download loss while preserving the absence of raw referral data, episode controls, unique listeners, completion, retention, and a market-wide counterfactual. Distinguished page-load behavior from bots and downloads from meaningful human listening. Opened all twelve local image references; retained the sole readable evidence-bearing download chart under a descriptive canonical filename, omitted three decorative hero variants and eight 60-pixel thumbnails, and used no unreadable visual detail as evidence.
@@ -7331,6 +7335,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | 10x Not 10%
 
 Added [[KenNorton]], [[Kodak]], and [[TenXThinking]], and updated [[LossAversion]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] from their complete ordered evidence inventories. Recorded the distinction between radical outcome framing and incremental execution, the roles of incumbent economics, hierarchy, expected value, experimentation, openness, trend awareness, and impact measures, and the boundary that variance, ruin, timing, and selected anecdotes place on the essay's claims. No direct contradiction was found; the apparent 10x-versus-incremental conflict was preserved as a scope tension. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

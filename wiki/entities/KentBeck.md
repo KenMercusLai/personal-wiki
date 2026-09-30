@@ -1,46 +1,51 @@
 ---
 title: "Kent Beck"
 type: entity
-tags: [agile, extreme-programming, user-stories]
+tags: [agile, extreme-programming, user-stories, software-testing]
 sources:
   - blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas
   - dont-make-it-perfect-make-it-work-and-refine-8th-light
   - finding-time-to-become-a-better-developer
-last_updated: 2026-09-28
+  - kent-beck-i-get-paid-for-code-that-works-not-for-tests
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[KentBeck]] is represented in the wiki as an [[ExtremeProgramming]] practitioner associated with the origin of [[UserStories]] and with simple-design rules for incremental software development.
+[[KentBeck]] is represented in the wiki as an [[ExtremeProgramming]] practitioner associated with the origin of [[UserStories]], simple design, iterative development, and a confidence-oriented philosophy of software testing.
 
 ## Current Profile
-The PBB article uses Beck as a historical anchor, crediting him with introducing user stories inside Extreme Programming and linking contemporary backlog practice to conversational requirements. Nick Dyer's essay cites Beck's Four Rules of Simple Design as a companion to test-driven, incremental work: make the simplest tested solution first, then iterate rather than trying to resolve every design choice in advance. The developer-time essay additionally attributes the sequence “make it work, make it right, make it fast” to Beck and uses it to separate initial function, design refinement, and performance optimization.
+The PBB article uses Beck as a historical anchor, crediting him with introducing user stories inside Extreme Programming and linking contemporary backlog practice to conversational requirements. Nick Dyer cites Beck's Four Rules of Simple Design as support for making the simplest tested solution first and then iterating, while the developer-time essay attributes “make it work, make it right, make it fast” to Beck as a sequence separating function, design refinement, and performance optimization.
+
+The new thread supplies Beck's own testing allocation rule: he aims to write the least testing needed for a chosen confidence level, pays particular attention to mistakes he or his team repeatedly makes, and treats test-selection knowledge as immature enough to warrant experimentation. The surrounding comments qualify that personal-error emphasis with regression, maintenance, project-longevity, test-cost, coverage-metric, type-system, and test-layer concerns.
 
 ## Key Characteristics
-- Introduced the term User Story in the source's account.
-- Associated with [[ExtremeProgramming]] as the practice context for user stories.
-- Serves as a historical bridge between agile requirements gathering and modern backlog-writing techniques.
-- Credited with simple-design rules used to support small tested steps and later refinement.
+- Introduced the term User Story in the source's account and is associated with its conversational requirements context.
+- Associated with [[ExtremeProgramming]] as the practice context for user stories and test-guided incremental design.
+- Credited with simple-design rules that favor small tested steps followed by refinement.
 - Credited by a practitioner essay with the “make it work, make it right, make it fast” development sequence.
+- Advocates adapting test effort to required confidence and recurring individual or team error patterns rather than maximizing test quantity.
 
 ## Evidence
-- User-story origin: [[blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas]] says Beck introduced the User Story term as part of Extreme Programming.
-- Requirements framing: [[blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas]] says this origin was meant to foster a more agile and conversational requirements style.
-- Contemporary connection: [[blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas]] connects Beck's term to later PBB practice for collaborative backlog writing.
-- Simple-design connection: [[dont-make-it-perfect-make-it-work-and-refine-8th-light]] cites Beck's Four Rules of Simple Design as support for passing a test simply before iterating on the code.
-- Decision connection: [[dont-make-it-perfect-make-it-work-and-refine-8th-light]] places Beck's rules inside an argument that small changeable steps can reduce analysis paralysis.
+- User-story lineage: [[blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas]] says Beck introduced the User Story term as part of Extreme Programming to foster conversational requirements.
+- Simple-design connection: [[dont-make-it-perfect-make-it-work-and-refine-8th-light]] cites Beck's Four Rules of Simple Design in an argument for the smallest tested solution, reversible decisions, and later refinement.
 - Phase-order attribution: [[finding-time-to-become-a-better-developer]] credits Beck with a work-right-fast sequence and applies it to iterative software design.
+- Confidence rule: [[kent-beck-i-get-paid-for-code-that-works-not-for-tests]] quotes Beck choosing the minimum testing needed for a confidence level and targeting error-prone logic.
+- Team adaptation: [[kent-beck-i-get-paid-for-code-that-works-not-for-tests]] quotes Beck changing the strategy around mistakes the team collectively tends to make.
+- Epistemic boundary: [[kent-beck-i-get-paid-for-code-that-works-not-for-tests]] quotes Beck treating universal test-selection theory as immature and recommending experimentation.
 
 ## Qualifications
-This page records only the roles attributed to Beck by three secondary practitioner articles. It does not independently verify the exact wording or origin of the work-right-fast aphorism, or reconstruct Beck's broader work on XP, test-driven development, patterns, or software design. Dyer notes that the cited practices were not necessarily designed specifically to prevent analysis paralysis.
+This page records roles and statements attributed to Beck by four saved practitioner sources. It does not independently verify the exact origin of every aphorism or reconstruct Beck's broader work on XP, test-driven development, patterns, or software design. The testing source preserves Beck's explicit uncertainty, while commenters dispute whether individual and team mistake histories adequately cover long-term regression and maintenance risk. Their alternative claims about smoke tests, integration tests, coverage targets, and static types are not comparative evidence about Beck's full method.
 
 ## What Changed
-- Added simple design and small tested steps to the source-bounded profile.
-- Added the source-bounded attribution of the work-right-fast sequence while marking its origin as unverified here.
+- Added Beck's confidence-based test-selection rule and its adaptation to collective team mistakes.
+- Added the source's explicit uncertainty about a universal theory of worthwhile tests.
+- Preserved maintainability and regression objections as qualifications rather than attributing them to Beck.
 
 ## Relationships
-- [[ExtremeProgramming]] - practice tradition in which the User Story term was introduced.
-- [[UserStories]] - requirements format attributed to Beck in the source.
+- [[ExtremeProgramming]] - practice tradition in which the User Story term was introduced and tested incremental design is situated.
+- [[UserStories]] - conversational requirements format attributed to Beck in the source.
 - [[ProductBacklogBuilding]] - later canvas technique that builds on the user-story tradition.
-- [[IterativeRefinement]] - Dyer uses Beck's simple-design rules to support implementation followed by improvement.
-- [[AnalysisParalysis]] - Dyer presents small tested steps as one possible defense against stalled software decisions.
+- [[IterativeRefinement]] - Beck's cited simple-design rules and phase sequence support implementation followed by improvement.
+- [[ConfidenceBasedTesting]] - formalizes the testing allocation philosophy quoted from Beck and debated by commenters.
+- [[InternalSoftwareQuality]] - maintainability and change cost qualify the amount and kind of testing that is sufficient.

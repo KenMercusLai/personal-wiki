@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 2db88dcf9a97b9bac270c0ae11b8d9d17fcdbd4b
+as_of_overview_commit: 9862d17b9ee664b13a284bb4711e2ba9674abf5e
 summary: "Current knowledge links calibrated evidence, bounded experimentation, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 911
-source_count: 911
-paragraph_count: 673
+episode_count: 912
+source_count: 912
+paragraph_count: 674
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, verification, recovery, accountable control, and joint accessibility and privacy analysis.
+Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, risk-based verification, recovery, accountable control, accessibility, and privacy.
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles. Evidence: [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], [[JaanaDogan]].
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible operating capability, and ambitious framing bounded by evidence and survival.
+Durable value joins customer outcomes, sustainable economics, risk-calibrated quality investment, governed distribution, fair allocation, evidence, and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
@@ -50,7 +50,7 @@ Cross-domain findings connect inspectable infrastructure, failure-independent re
 
 ### Culture and Media
 
-Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, and accountable access.
+Media, culture, and technical practice combine expression, purpose, evidence, institutions, identity, distribution, economics, platform power, and accountable access.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].

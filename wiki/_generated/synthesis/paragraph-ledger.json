@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f9c1f6e2a75c5cc01ffb3242b51c7bb8a401f7430532062add4d4386166093e6",
       "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
       "5ee22c7c6cc4fcc058dc34df6df9d09c383ef73e2cb9cdd29a51d54afa493ac1",
       "11af0e3361cc5832a64b67f98990f0b1619b7708a08af295ac11ea660121dcfc",
@@ -675,11 +676,32 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 673
+    "paragraph_count": 674
   },
-  "overview_commit": "2db88dcf9a97b9bac270c0ae11b8d9d17fcdbd4b",
-  "overview_digest": "59269952e577d76f316cd393f45e65921950d38c63a9b32081660529224390fc",
+  "overview_commit": "9862d17b9ee664b13a284bb4711e2ba9674abf5e",
+  "overview_digest": "76446e86fc85903bdfc70d51ed95afcd7b1f2a6de804e21f5f2e63eb806e3990",
   "paragraphs": [
+    {
+      "id": "f9c1f6e2a75c5cc01ffb3242b51c7bb8a401f7430532062add4d4386166093e6",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "culture-and-media"
+      ],
+      "text": "The newest [[KentBeck]] source adds [[ConfidenceBasedTesting]] as a test-allocation principle rather than an argument against testing. Beck's quoted rule is to write the least testing needed for a chosen confidence level, concentrate on mistakes that he or the team repeatedly makes, and experiment because test selection lacks a settled universal theory. The surrounding comments widen the time horizon: regression protection, future maintainers, project longevity, customer outcomes, test execution and maintenance cost, and failure consequence can all change which checks are worthwhile. This sharpens [[SoftwareVerification]] by rejecting test count and coverage percentage as sufficient quality signals while still requiring explicit confidence evidence. It also creates a useful tension with [[TestPyramid]]: commenters propose replacing some unit checks with smoke or integration tests and static typing, whereas the existing pyramid source warns that higher-level suites can be slow, brittle, and hard to diagnose. The durable synthesis is to ask what risk a check covers and what decision its result enables, then choose the cheapest reliable layer for that failure mode. The evidence remains a saved Beck quotation and heterogeneous practitioner comments without defect rates, suite timings, maintenance measures, or comparative outcomes; intuition about familiar mistakes can miss novel, interacting, or rare catastrophic failures. Both local images were opened and omitted as decorative—a small author portrait and an emoji—so no asset manifest was created.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ConfidenceBasedTesting",
+        "KentBeck",
+        "SoftwareVerification",
+        "TestPyramid"
+      ]
+    },
     {
       "id": "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
       "primary_topic": "psychology-and-personal-development",

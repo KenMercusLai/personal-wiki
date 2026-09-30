@@ -1451,8 +1451,26 @@
         "AirPods",
         "PersonalAudioComputing"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "test-selection-optimizes-confidence-not-volume",
+      "qualifications": [
+        "The evidence is a saved Beck quotation plus heterogeneous practitioner comments, not a controlled comparison of test strategies, defect rates, suite costs, or maintenance outcomes.",
+        "Personal and team error history can miss novel, interaction, security, concurrency, accessibility, data-integrity, and rare catastrophic failures; confidence can also be miscalibrated.",
+        "Claims that smoke tests, integration tests, or static types can replace many unit tests remain language-, architecture-, risk-, and implementation-dependent."
+      ],
+      "statement": "[[ConfidenceBasedTesting]] treats test selection as an allocation problem: [[KentBeck]] proposes writing the least testing needed for a chosen confidence level and targeting recurring individual or team errors, while [[SoftwareVerification]], [[InternalSoftwareQuality]], and [[TestPyramid]] preserve regression, maintainability, failure-consequence, feedback-speed, and diagnostic-cost constraints that test counts or coverage targets cannot settle.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ConfidenceBasedTesting",
+        "KentBeck",
+        "SoftwareVerification",
+        "InternalSoftwareQuality",
+        "TestPyramid"
+      ]
     }
   ],
-  "summary": "[[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.",
+  "summary": "[[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.",
   "topic_id": "ai-and-technology"
 }

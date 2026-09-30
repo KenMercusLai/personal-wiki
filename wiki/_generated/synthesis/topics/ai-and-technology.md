@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-01
-as_of_overview_commit: e4149522c26403cba99cefb0ba3f300221bf59f0
-input_digest: 78209a4ba98f80c9d225763a2243d95897eb005d8055b9060c32457f1f015811
+as_of_overview_commit: 9862d17b9ee664b13a284bb4711e2ba9674abf5e
+input_digest: 8034fe3e5da1164016b846c4f74acb6e9385137acca02fc88cb4a05d5fe19188
 ---
 
 # AI and Technology
 
 ## Current State
 
-[[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.
+[[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.
 
 ## Cross-source Findings
 
@@ -923,3 +923,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 - The evidence is one short 2019 technology-news article that demonstrates a technically possible misuse path but does not measure accessibility outcomes, covert-listening prevalence, practical range, user awareness, or later safeguards.
 - A plausible abuse path does not make the accessibility capability inherently harmful or establish that removal is preferable to visible state, consent, range, and abuse-resistant design controls.
+
+### Test Selection Optimizes Confidence Not Volume
+
+[[ConfidenceBasedTesting]] treats test selection as an allocation problem: [[KentBeck]] proposes writing the least testing needed for a chosen confidence level and targeting recurring individual or team errors, while [[SoftwareVerification]], [[InternalSoftwareQuality]], and [[TestPyramid]] preserve regression, maintainability, failure-consequence, feedback-speed, and diagnostic-cost constraints that test counts or coverage targets cannot settle.
+
+**Evidence:** [[ConfidenceBasedTesting]], [[KentBeck]], [[SoftwareVerification]], [[InternalSoftwareQuality]], [[TestPyramid]]
+
+**Qualifications:**
+
+- The evidence is a saved Beck quotation plus heterogeneous practitioner comments, not a controlled comparison of test strategies, defect rates, suite costs, or maintenance outcomes.
+- Personal and team error history can miss novel, interaction, security, concurrency, accessibility, data-integrity, and rare catastrophic failures; confidence can also be miscalibrated.
+- Claims that smoke tests, integration tests, or static types can replace many unit tests remain language-, architecture-, risk-, and implementation-dependent.
