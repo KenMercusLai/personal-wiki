@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
       "71c7dd35e555548f86359ad603819914b42b5e6744d0ad781f6b4cb51ad9d825",
       "0a6c37d455c844af1c73054c587a2fc47d558cca81ba3a29b48fe032b1f559d9",
       "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
@@ -665,11 +666,28 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 663
+    "paragraph_count": 664
   },
-  "overview_commit": "fcc0a6bc17a522bfda1129e928931e2ef5a0800c",
-  "overview_digest": "f50543396149818dcc9695509e9e6ebfbc26f2ce16627ab9a5d7b26a0ac03528",
+  "overview_commit": "7d5dc3841ef9bb2ff4801b3d2a829984d6689ef0",
+  "overview_digest": "e80ebfb203d7d664bd079a79448ba3856e7f900cdc71760782ae2b69e086a657",
   "paragraphs": [
+    {
+      "id": "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[JimmyBogard]] source adds [[ServiceAutonomy]] as the defining boundary test for microservices. A service must be independently owned, built, deployed, run, secured, and recovered while controlling its information and honoring external contracts; its smallest viable size therefore depends on domain, people, technology, and business goals rather than containers, languages, protocols, repository layout, or a fixed code measure. This sharpens [[MicroservicePlatformEngineering]] by treating shared infrastructure as an enabler rather than proof of independence: RPC-only communication, lockstep changes, or direct exposure of internal state can make separately deployed units modules inside one larger service. It also strengthens [[ModularMonolith]] by separating deployment topology from domain cohesion - a single application and database are not inherently a harmful monolith when their model remains coherent and meets operational needs. The adoption gate is a demonstrated delivery-value-stream constraint plus organizational capacity for more services, not fashion. The evidence is a concise 2018 practitioner FAQ without comparative metrics or an implementation case, and its strict treatment of RPC leaves room for systems with partial autonomy and graceful degradation. The supplied Markdown contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "JimmyBogard",
+        "MicroservicePlatformEngineering",
+        "ModularMonolith",
+        "ServiceAutonomy"
+      ]
+    },
     {
       "id": "71c7dd35e555548f86359ad603819914b42b5e6744d0ad781f6b4cb51ad9d825",
       "primary_topic": "work-education-and-society",

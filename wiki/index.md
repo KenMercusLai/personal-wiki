@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [My Microservices FAQ](sources/jimmy-bogard-my-microservices-faq.md) - Jimmy Bogard defines microservices by the smallest viable autonomous boundary and rejects technology, repository, or deployment topology as sufficient proof of service independence.
 - [Jim Scheinman's Maven Ventures: 10 Key Lessons Facebook Learned from Friendster](sources/jim-scheinmans-maven-ventures-10-key-lessons-facebook-learned-from-friendster.md) - Jim Scheinman compares Friendster, Facebook, and Bebo across audience focus, feature cadence, performance, technology, virality, hiring, leadership, politics, and monetization timing.
 - [Jet employees know each others' salaries](sources/jet-employees-know-each-others-salaries-business-insider.md) - Tim Stenovec reports Jet's visible 13-level salary and equity system while leaving its fairness, employee response, and outcomes unmeasured.
 - [34 Questions to Ask a Potential Co-Founder](sources/jessica-alter-34-questions-to-ask-a-potential-co-founder.md) - Jessica Alter turns co-founder fit into a broad pre-commitment discussion while treating joint work and references as stronger behavioral evidence than answers alone.
@@ -916,6 +917,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jessica Livingston's Pretty Complete List on How Not to Fail](sources/jessica-livingstons-pretty-complete-list-on-how-not-to-fail.md) - Jessica Livingston links user demand, founder focus, measured growth, default-alive status, conservative hiring, and fundraising-stage expectations into a qualified startup survival framework.
 
 ## Entities
+- [Jimmy Bogard](entities/JimmyBogard.md) - Software practitioner defining microservices through contextual service autonomy rather than technology or fixed size.
 - [Marc Lore](entities/MarcLore.md) - Jet CEO advocating transparent, level-based compensation as a trust and fairness mechanism.
 - [Jet.com](entities/JetCom.md) - E-commerce startup represented through its visible salary bands, standardized level equity, and promotion-only raises.
 - [Jessica Alter](entities/JessicaAlter.md) - FounderDating co-founder represented through a structured, behavior-aware framework for prospective co-founder diligence.
@@ -2494,6 +2496,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Service Autonomy](concepts/ServiceAutonomy.md) - Independent ownership, operation, information control, contract evolution, and failure handling used to determine a viable service boundary.
 - [Salary Transparency](concepts/SalaryTransparency.md) - Making pay rules or outcomes inspectable while preserving classification, promotion, privacy, and calibration limits.
 - [End-to-End Learning](concepts/EndToEndLearning.md) - Training a relatively direct input-to-output mapping to replace some hand-built features, intermediate rules, and subsystem integration.
 - [Distributed Neural Network Training](concepts/DistributedNeuralNetworkTraining.md) - Model- and data-parallel optimization across devices or machines, including parameter-server and synchronization tradeoffs.

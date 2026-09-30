@@ -7207,3 +7207,11 @@ Added source-bounded profiles for [[JimScheinman]], [[Friendster]], and [[Bebo]]
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | My Microservices FAQ
+
+Added [[JimmyBogard]] and [[ServiceAutonomy]] from a 2018 FAQ defining microservices through the smallest viable independently owned, operated, secured, and failure-contained boundary. Updated [[MicroservicePlatformEngineering]] and [[ModularMonolith]] from their complete ordered evidence inventories, separating enabling technologies from autonomy and distinguishing a cohesive single application from a harmful collision of domain models. Preserved the contextual, normative, and unmeasured nature of the guidance, including the qualification that strict RPC coupling may admit degrees rather than a binary loss of autonomy. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
