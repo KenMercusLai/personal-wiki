@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Is NordVPN a Honeypot? - VPNscam.com](sources/is-nordvpn-a-honeypot-vpnscam-com.md) - VPNscam.com combines review incentives, advertising, Tesonet claims, and alleged failures into a honeypot theory that the supplied evidence does not prove and a named reviewer directly disputes.
 - [Investor VCs and Operator VCs](sources/investor-vcs-and-operator-vcs-avc.md) - Fred Wilson argues that operator-first and investor-developed paths can both produce strong VCs, while distinguishing strategic portfolio support from taking over management execution.
 - [Introductions and the “forward intro email”](sources/introductions-and-the-forward-intro-email-also-by-roy-bahat.md) - Roy Bahat specifies an opt-in, requester-written email workflow that preserves recipient choice while reducing introducer editing and coordination work.
 - [Introducing Progressive Equity](sources/introducing-progressive-equity-detour-blog-medium.md) - Andrew Mason proposes a threshold-based RSU and kicker-pool design that redistributes part of exceptional employee equity gains at a major liquidity event.
@@ -883,6 +884,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [NordVPN](entities/NordVPN.md) - Consumer VPN provider represented through a source-scoped dispute over review incentives, marketing, corporate relationships, product failures, and unsupported surveillance allegations.
+- [Tesonet](entities/Tesonet.md) - Technology company alleged by VPNscam.com to own or back NordVPN, with the exact relationship and claimed data-mining role unresolved in the supplied source.
+- [VPNscam.com](entities/VPNscamCom.md) - Adversarial VPN-review publication whose useful diligence questions are mixed with weak inference about covert intent.
 - [Roy Bahat](entities/RoyBahat.md) - Investor-author defining a low-friction, opt-in workflow for forwardable introduction emails.
 - [Andrew Mason](entities/AndrewMason.md) - Founder who turned a retrospective concern about concentrated Groupon employee outcomes into Detour's Progressive Equity proposal.
 - [Detour](entities/Detour.md) - Startup represented through its published threshold-based employee-equity redistribution design.
@@ -2419,6 +2423,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Affiliate Review Conflict](concepts/AffiliateReviewConflict.md) - Risk that referral economics, sponsorship, approval conditions, or commercial access compromise or appear to compromise product rankings.
+- [Consumer VPN Trust](concepts/ConsumerVPNTrust.md) - Evidence framework for assessing the provider, software, infrastructure, ownership, failure behavior, and assurance behind a consumer VPN.
 - [Progressive Equity](concepts/ProgressiveEquity.md) - Exit-triggered equity design that caps part of exceptional participant upside and redistributes released value to eligible employees.
 - [Everyday Economy](concepts/EverydayEconomy.md) - NextView investment framework for technology-enabled redesign across seven recurring spending and experience domains.
 - [Content Moderation Operations](concepts/ContentModerationOperations.md) - Sociotechnical system connecting platform rules with risk classification, review queues, trained judgment, enforcement, and reviewer care.

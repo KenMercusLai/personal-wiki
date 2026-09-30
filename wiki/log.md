@@ -6645,6 +6645,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Is NordVPN a Honeypot? - VPNscam.com
+
+Added a source-scoped account of [[VPNscamCom]]'s allegations about [[NordVPN]], [[Tesonet]], review manipulation, and possible covert monitoring. Created NordVPN, Tesonet, VPNscam.com, [[AffiliateReviewConflict]], and [[ConsumerVPNTrust]] while preserving the direct PCMag reviewer rebuttal and separating diligence signals from proof of payment, deliberate leakage, or intelligence coordination. Inspected all eight distinct referenced assets: seven supposed PNG screenshots are expired `vpnscam.com` parking-page HTML and could not supply visual evidence, while the remaining SVG is a decorative emoji; no asset or manifest was retained.
+
 ## [2026-09-30] ingest | Internal Facebook Note: Here Is A “Psychological Trick” To Target Teens
 
 Added [[TBH]] and [[SynchronizedCommunityLaunch]] from Ryan Mac's report and the reproduced internal memo, and updated [[GrowthHacking]] from its complete ordered evidence inventory. The synthesis distinguishes concentrated school-level acquisition from durable [[ProductMarketFit]], preserves that Facebook received but was not shown to have used the tactic, and flags the privacy and manipulation concerns around inferred school identity, ambiguous invitations, behavioral timing, and targeting minors. Opened all four local images: two duplicate hero photographs were omitted, while two Instagram screenshots were retained under descriptive canonical names to document the private invitation state and the later public profile with an app link.
@@ -6943,6 +6947,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Introductory bullshit detection for non-technical managers
 
 Expanded [[TechnicalDecisionReview]] from change review to project governance through concrete user problems, operating constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence. Updated [[SoftwareEstimation]] from its complete ordered evidence inventory to distinguish engineer-led decomposition from non-technical manager-led task interrogation. Preserved the source's unsupported memory, maintenance, and “80/50” generalizations as qualifications. Opened all three local images and omitted them as duplicate handwritten-title crops with no evidence beyond the prose.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
