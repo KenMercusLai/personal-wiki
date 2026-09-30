@@ -4,8 +4,8 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-30
-as_of_overview_commit: 6437725b7116796c1b34061e045f845bf2578030
-input_digest: ad80bc9766b0acbcf8d9501a33749d0d67159ec6089d4c099d734dbcdcbae842
+as_of_overview_commit: 6af6e0045f09f2a2bb1601d9ea9e2519e09e7ba6
+input_digest: 9d99b60ac98ec700632a56384f732c00a78b1283b4f307d0e43a451a91bde71a
 ---
 
 # Culture and Media
@@ -84,25 +84,26 @@ Account access is also a participation boundary: [[MikeHearn]] separates stable 
 
 ### Visible Status Can Drive Social Distribution
 
-[[SocialDriverHierarchy]] treats likes, follows, performance, and redistribution as visible recognition or identity-association signals, with [[MusicalLy]], [[Flipagram]], [[Twitter]], and the [[Facebook]]-[[Snapchat]] contrast illustrating how platform incentives and changing norms may enable new self-presentation behavior.
+[[SocialDriverHierarchy]] treats likes, follows, performance, and redistribution as recognition or identity-association signals, while [[PerformativeSelfPresentation]] shows that private viewer identity can also make attention legible: disappearing [[Instagram]] Stories may lower archive and public-like pressure yet encourage staging, monitoring, and continuous personal broadcasting.
 
-**Evidence:** [[SocialDriverHierarchy]], [[MusicalLy]], [[Flipagram]], [[Twitter]], [[Facebook]], [[Snapchat]], [[PumpUp]]
+**Evidence:** [[SocialDriverHierarchy]], [[MusicalLy]], [[Flipagram]], [[Twitter]], [[Facebook]], [[Snapchat]], [[PumpUp]], [[Instagram]], [[PerformativeSelfPresentation]], [[DepressionAndSocialMedia]]
 
 **Qualifications:**
 
-- One 2016 practitioner essay supplies no comparative retention, well-being, network-strength, or business data.
-- Its vanity label collapses distinct motives, and the proposed four layers may coexist rather than form a strict hierarchy.
+- The evidence combines one 2016 practitioner model with a 2018 journalistic essay built from a few interviews and secondary research, not comparative retention, well-being, network-strength, prevalence, or business data.
+- The vanity label collapses distinct motives, the proposed four layers may coexist, and viewer awareness can support connection or positive memory as well as performance pressure.
 
 ### Presence Can Become Part Of Media Value
 
-[[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.
+[[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works make presence, location, agency, or time variation part of media value; [[PerformativeSelfPresentation]] adds that immediate capture can preserve positive edited memory while pulling attention from the lived moment toward its audience-facing version.
 
-**Evidence:** [[HereAndNowMedia]], [[EmergentLayerTheory]], [[Twitch]], [[AugmentedReality]], [[Facebook]], [[Snapchat]], [[Instagram]], [[AlexDanco]]
+**Evidence:** [[HereAndNowMedia]], [[EmergentLayerTheory]], [[Twitch]], [[AugmentedReality]], [[Facebook]], [[Snapchat]], [[Instagram]], [[AlexDanco]], [[PerformativeSelfPresentation]], [[SocialDriverHierarchy]]
 
 **Qualifications:**
 
 - The claim comes from one speculative 2016 essay that supplies no comparative adoption, retention, identity, market, or profit evidence and whose author disclaims firsthand Twitch use.
-- Ephemerality does not guarantee authenticity or intimacy, live products can remain passive or placeless, and search, feeds, archives, asynchronous exchange, and fixed works remain valuable.
+- The added 2018 Stories essay supplies anecdotes and secondary research rather than a representative test of attention, performance, well-being, or feature-level causality.
+- Ephemerality does not guarantee authenticity, intimacy, or unselfconscious presence; live products can remain passive or placeless, and search, feeds, archives, asynchronous exchange, and fixed works remain valuable.
 
 ### Platform Publishing Can Reward Harvesting Over Authorship
 

@@ -50,10 +50,10 @@
       "global_candidate": true,
       "id": "depression-and-social-media-is-condition-specific",
       "qualifications": [
-        "The evidence is a personal essay supported by clinician interviews, acquaintance reports, and testimony rather than a representative sample, causal study, tested neurobiological mechanism, or treatment protocol.",
-        "The source does not establish that social media causes depression, and supportive online communities show that effects depend on condition, purpose, design, and mode of use."
+        "The evidence combines a personal essay with clinician interviews and a later journalistic feature built from a few interviews, expert comment, platform figures, and secondary research rather than a representative sample, causal study, tested neurobiological mechanism, or treatment protocol.",
+        "The broader Instagram mental-health ranking does not isolate Stories, the feature-specific essay explicitly acknowledges missing causal research, and supportive communities or positive edited memories show that effects depend on condition, purpose, design, and mode of use."
       ],
-      "statement": "[[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.",
+      "statement": "[[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value.",
       "status": "qualified",
       "supporting_wikilinks": [
         "DepressionAndSocialMedia",
@@ -61,7 +61,10 @@
         "DeannaZandt",
         "AttentionManagement",
         "SocialMediaCuration",
-        "SocialMediaClinicalCare"
+        "SocialMediaClinicalCare",
+        "PerformativeSelfPresentation",
+        "HereAndNowMedia",
+        "SocialDriverHierarchy"
       ]
     },
     {

@@ -3,9 +3,9 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-29
-as_of_overview_commit: 62a128c2641b441c2d741af683d19ac2a8c7da8c
-input_digest: 07f768908ec1b05af6956e167e629946188e470cd07453bbb7fbc7c8ef715a84
+last_updated: 2026-09-30
+as_of_overview_commit: 6af6e0045f09f2a2bb1601d9ea9e2519e09e7ba6
+input_digest: e1bc5a78163d383838a3d2b59488e76f557ff7274527a09aaf9ab40df227c86a
 ---
 
 # Science, Health, and Climate
@@ -51,14 +51,14 @@ This topic contains one direct but source-scoped mental-health synthesis, beginn
 
 ### Depression And Social Media Is Condition Specific
 
-[[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
+[[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value.
 
-**Evidence:** [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]]
+**Evidence:** [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]], [[PerformativeSelfPresentation]], [[HereAndNowMedia]], [[SocialDriverHierarchy]]
 
 **Qualifications:**
 
-- The evidence is a personal essay supported by clinician interviews, acquaintance reports, and testimony rather than a representative sample, causal study, tested neurobiological mechanism, or treatment protocol.
-- The source does not establish that social media causes depression, and supportive online communities show that effects depend on condition, purpose, design, and mode of use.
+- The evidence combines a personal essay with clinician interviews and a later journalistic feature built from a few interviews, expert comment, platform figures, and secondary research rather than a representative sample, causal study, tested neurobiological mechanism, or treatment protocol.
+- The broader Instagram mental-health ranking does not isolate Stories, the feature-specific essay explicitly acknowledges missing causal research, and supportive communities or positive edited memories show that effects depend on condition, purpose, design, and mode of use.
 
 ### Scientific Python Depends On Array Tooling
 

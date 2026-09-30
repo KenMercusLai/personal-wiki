@@ -6851,3 +6851,11 @@ Added First Round Review's 2017 interview with [[MikeKrieger]] about growing [[I
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Instagram Stories At Two: What Price Have We Paid For Recording Everything?
+
+Added a 2018 essay on Instagram Stories' shift from public likes and persistent archives toward private viewer feedback, continuous documentation, staged activity, and edited memory. Created [[PerformativeSelfPresentation]] and [[PamelaRutledge]]; updated [[Instagram]], [[SocialDriverHierarchy]], [[HereAndNowMedia]], and [[DepressionAndSocialMedia]] from their complete ordered evidence inventories. Preserved the difference between ordinary recognition and audience-defined self-worth, the possible value of positive edited memories, and the article's anecdotal, secondary, non-causal, and Stories-specific research limits. Opened the sole local GIF and retained it under a descriptive canonical filename as an editorial illustration of an Instagram post projected before a theater audience.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

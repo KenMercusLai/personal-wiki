@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Instagram Stories At Two: What Price Have We Paid For Recording Everything?](sources/instagram-stories-at-two-what-price-have-we-paid-for-recording-everything.md) - A 2018 essay connects Instagram Stories' private viewer feedback with continuous performance, edited memory, and unresolved feature-specific mental-health effects.
 - [How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People](sources/instagram-co-founder-mike-krieger-on-engineering-team-growth-first-round-review.md) - Mike Krieger maps Instagram engineering from pragmatic generalists through specialists, management layers, platform culture, and product teams.
 - [Inspiring Women: Meet the Co-Founder of Winnie, a Yelp-Type App for Parents](sources/inspiring-women-meet-the-co-founder-of-winnie-a-yelp-type-app-for-parents-inspiring-women-livingly.md) - Sara Mauskopf connects Winnie's parent-led origin, Silicon Valley network, distributed team, and family support while acknowledging privilege and a promotional evidence boundary.
 - [Inside the store that only accepts personal data as currency](sources/inside-the-store-that-only-accepts-personal-data-as-currency-engadget.md) - Nick Summers reports how Kaspersky Lab's Data Dollar Store priced merchandise in phone data, making privacy cost tangible without establishing a market value or fair compensation model.
@@ -871,6 +872,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Pamela Rutledge](entities/PamelaRutledge.md) - Media psychologist quoted on validation, self-worth, performance, and positive memory in Instagram Stories use.
 - [Mike Krieger](entities/MikeKrieger.md) - Instagram co-founder and CTO represented through the stage-sensitive growth of its engineering organization.
 - [Sara Mauskopf](entities/SaraMauskopf.md) - Winnie co-founder whose parenting experience shaped the product and whose family crisis exposed the value of support and team autonomy.
 - [Anne Halsall](entities/AnneHalsall.md) - Winnie co-founder represented through company formation, fundraising relationships, and continuity during Sara Mauskopf's absence.
@@ -2394,6 +2396,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Performative Self-Presentation](concepts/PerformativeSelfPresentation.md) - Adapting or staging lived behavior for an imagined or measurable audience and a desirable public identity.
 - [Engineering Organization Evolution](concepts/EngineeringOrganizationEvolution.md) - Stage-sensitive redesign of engineering hiring, specialization, management, and team boundaries from generalists through platform and product teams.
 - [Gift Card Fraud](concepts/GiftCardFraud.md) - Theft, compromise, double spending, or laundering of stored-value card balances across digital codes, resale markets, and retailer checkout.
 - [Peer-to-Peer Crypto Trading](concepts/PeerToPeerCryptoTrading.md) - Direct cryptocurrency exchange through negotiated marketplace offers and nonstandard settlement instruments such as gift-card codes.

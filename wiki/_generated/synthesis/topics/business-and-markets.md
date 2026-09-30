@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-30
-as_of_overview_commit: d1b1816e4b48d52ee730b2e8c23b0aea0adb58ac
-input_digest: 43931bffdc052c235ed58dc1dc1955bebd52d2adfc96d7b1ac0b983eb7de5265
+as_of_overview_commit: 6af6e0045f09f2a2bb1601d9ea9e2519e09e7ba6
+input_digest: 2f882f6e6475461f26be7c65cb1fbab3c50a3e23f50c08a9af2eba4464052ee4
 ---
 
 # Business and Markets
@@ -1123,14 +1123,15 @@ The [[JellyButtonGames]] case extends [[CloudCostOptimization]] into analytics b
 
 ### Visible Status Can Drive Social Distribution
 
-[[SocialDriverHierarchy]] proposes that utility, content, community, and visible self-regard become progressively stronger consumer-network motivations; [[MusicalLy]], [[Flipagram]], [[Twitter]], and [[PumpUp]] illustrate performer, association, and affirmation loops, while the [[Facebook]] and [[Snapchat]] comparison shows how incumbent incentives and shifting norms may open space for new self-presentation behavior.
+[[SocialDriverHierarchy]] proposes that utility, content, community, and visible self-regard become progressively stronger consumer-network motivations; [[MusicalLy]], [[Flipagram]], [[Twitter]], and [[PumpUp]] illustrate performer, association, and affirmation loops, while [[PerformativeSelfPresentation]] shows that identifiable private viewers can sustain recognition and monitoring even without public likes, and that edited memory can coexist with staged behavior and audience-defined self-worth.
 
-**Evidence:** [[SocialDriverHierarchy]], [[MusicalLy]], [[Flipagram]], [[Twitter]], [[PumpUp]], [[Facebook]], [[Snapchat]]
+**Evidence:** [[SocialDriverHierarchy]], [[MusicalLy]], [[Flipagram]], [[Twitter]], [[PumpUp]], [[Facebook]], [[Snapchat]], [[PerformativeSelfPresentation]], [[HereAndNowMedia]], [[DepressionAndSocialMedia]]
 
 **Qualifications:**
 
 - The hierarchy is a single 2016 practitioner model without comparative retention, network-strength, well-being, or business-outcome evidence.
-- Utility, content, community, self-expression, affiliation, reputation, and status can coexist rather than form a strict ladder, and stronger status loops can also create manipulation, comparison pressure, or low-quality contribution.
+- Utility, content, community, self-expression, affiliation, reputation, memory, and status can coexist rather than form a strict ladder, and stronger status loops can also create manipulation, comparison pressure, or low-quality contribution.
+- The 2018 Instagram Stories essay adds a few interviews and secondary research rather than representative or causal evidence that viewer lists produce staged behavior or mental-health harm.
 
 ### Audience Relevance Requires Representative Design
 

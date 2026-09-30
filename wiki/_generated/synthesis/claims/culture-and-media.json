@@ -110,10 +110,10 @@
       "global_candidate": false,
       "id": "visible-status-can-drive-social-distribution",
       "qualifications": [
-        "One 2016 practitioner essay supplies no comparative retention, well-being, network-strength, or business data.",
-        "Its vanity label collapses distinct motives, and the proposed four layers may coexist rather than form a strict hierarchy."
+        "The evidence combines one 2016 practitioner model with a 2018 journalistic essay built from a few interviews and secondary research, not comparative retention, well-being, network-strength, prevalence, or business data.",
+        "The vanity label collapses distinct motives, the proposed four layers may coexist, and viewer awareness can support connection or positive memory as well as performance pressure."
       ],
-      "statement": "[[SocialDriverHierarchy]] treats likes, follows, performance, and redistribution as visible recognition or identity-association signals, with [[MusicalLy]], [[Flipagram]], [[Twitter]], and the [[Facebook]]-[[Snapchat]] contrast illustrating how platform incentives and changing norms may enable new self-presentation behavior.",
+      "statement": "[[SocialDriverHierarchy]] treats likes, follows, performance, and redistribution as recognition or identity-association signals, while [[PerformativeSelfPresentation]] shows that private viewer identity can also make attention legible: disappearing [[Instagram]] Stories may lower archive and public-like pressure yet encourage staging, monitoring, and continuous personal broadcasting.",
       "status": "qualified",
       "supporting_wikilinks": [
         "SocialDriverHierarchy",
@@ -122,7 +122,10 @@
         "Twitter",
         "Facebook",
         "Snapchat",
-        "PumpUp"
+        "PumpUp",
+        "Instagram",
+        "PerformativeSelfPresentation",
+        "DepressionAndSocialMedia"
       ]
     },
     {
@@ -130,9 +133,10 @@
       "id": "presence-can-become-part-of-media-value",
       "qualifications": [
         "The claim comes from one speculative 2016 essay that supplies no comparative adoption, retention, identity, market, or profit evidence and whose author disclaims firsthand Twitch use.",
-        "Ephemerality does not guarantee authenticity or intimacy, live products can remain passive or placeless, and search, feeds, archives, asynchronous exchange, and fixed works remain valuable."
+        "The added 2018 Stories essay supplies anecdotes and secondary research rather than a representative test of attention, performance, well-being, or feature-level causality.",
+        "Ephemerality does not guarantee authenticity, intimacy, or unselfconscious presence; live products can remain passive or placeless, and search, feeds, archives, asynchronous exchange, and fixed works remain valuable."
       ],
-      "statement": "[[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.",
+      "statement": "[[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works make presence, location, agency, or time variation part of media value; [[PerformativeSelfPresentation]] adds that immediate capture can preserve positive edited memory while pulling attention from the lived moment toward its audience-facing version.",
       "status": "qualified",
       "supporting_wikilinks": [
         "HereAndNowMedia",
@@ -142,7 +146,9 @@
         "Facebook",
         "Snapchat",
         "Instagram",
-        "AlexDanco"
+        "AlexDanco",
+        "PerformativeSelfPresentation",
+        "SocialDriverHierarchy"
       ]
     },
     {

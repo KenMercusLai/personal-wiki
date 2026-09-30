@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 16aa20958902db0c3b0e1ced95713434de748329
-summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, risk, and choice."
-episode_count: 850
-source_count: 850
-paragraph_count: 641
+as_of_overview_commit: 6af6e0045f09f2a2bb1601d9ea9e2519e09e7ba6
+summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
+episode_count: 851
+source_count: 851
+paragraph_count: 642
 topic_count: 9
 ---
 
@@ -17,12 +17,12 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[DataAnnotationLabor]] makes supervised AI a socio-technical production system: [[AmazonMechanicalTurk]] can distribute screening, cleaning, moderation, and labeling at scale, while [[ImageNet]] shows that benchmark data depends on human judgment and a much larger candidate pool as well as models and compute; [[PlatformMicrowork]] therefore makes pay, qualification, requester transparency, rejection, and worker protection part of AI infrastructure governance.
-- [[EnterpriseIntegrationBusinessModel]] creates value when fragmented technologies leave customers needing one accountable operator: Gerstner-era [[IBM]] combined breadth, trust, services, and middleware, while [[BobYoung]] says the lesson helped [[RedHat]] monetize freely reusable software through subscriptions and service outcomes. [[Palantir]] adds a proprietary-software and embedded-engineer variant whose large commitments were offset by costly delivery, mixed client outcomes, and a reported gap between bookings and cash, so [[BookingsToCashConversion]] makes adoption, contract conditions, collections, and delivery cost part of the model test.
-- [[PlaylistManipulation]] shows how curator access, placement, follower counts, streams, royalties, and recommendation can form a circular market: [[SpotLister]] and [[SubmitHub]] reduce search costs in different ways, but nominal reach is weaker than engaged listening and attributed outcomes, and both human and algorithmic discovery can inherit commercially distorted signals.
-- [[PlatformNeutrality]] can increase ecosystem reach when owning an adjacent endpoint would make desired distributors into competitors: [[Netflix]] stopped the launch-ready [[ProjectGriffin]] player and spun the team led by [[AnthonyWood]] out as [[Roku]], treating broad device availability as more valuable than first-party hardware control and refusing to let [[SunkCostFallacy]] determine the organizational boundary.
+- [[SocialDriverHierarchy]] proposes that utility, content, community, and visible self-regard become progressively stronger consumer-network motivations; [[MusicalLy]], [[Flipagram]], [[Twitter]], and [[PumpUp]] illustrate performer, association, and affirmation loops, while [[PerformativeSelfPresentation]] shows that identifiable private viewers can sustain recognition and monitoring even without public likes, and that edited memory can coexist with staged behavior and audience-defined self-worth.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
-- [[InfrastructureAsCode]] should distinguish reproducible provisioning, live-machine [[ConfigurationManagement]], build-and-replace [[ImmutableInfrastructure]], and [[GitOps]] reconciliation: the last makes versioned declarative intent reviewable while diff and sync tooling compare it with live state and drive convergence. [[DeploymentAutomation]] therefore remains responsible for artifact and declaration correctness, staged activation, drift visibility, capacity, recovery, and persistent-state compatibility.
+- [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works make presence, location, agency, or time variation part of media value; [[PerformativeSelfPresentation]] adds that immediate capture can preserve positive edited memory while pulling attention from the lived moment toward its audience-facing version.
+- [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
+- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.
+- [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value.
 - [[ContingentWorkforce]] can give [[Google]] specialist access, temporary capacity, faster staffing, and headcount flexibility while dividing formal employment responsibility from practical control over tasks, access, intellectual property, and organizational status. The same structure extends [[DataAnnotationLabor]] into outsourced mapping labels, contract content moderation, and human exception handling, so flexibility must be assessed alongside benefits, information access, grievance power, continuity, conversion paths, and heterogeneous worker outcomes.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, ecosystem boundaries, lifecycle trust, and risk allocation.
+Durable value joins customer outcomes, sustainable economics, governed distribution, ecosystem boundaries, lifecycle trust, and risk allocation; social-platform value also needs welfare boundaries around feedback and performance.
 
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 - [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].
@@ -50,7 +50,7 @@ Cross-domain findings connect inspectable infrastructure, transferable models, r
 
 ### Culture and Media
 
-Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, access, and participation.
+Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, access, and participation; ephemeral presence can preserve memory while intensifying audience-aware performance.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -75,9 +75,9 @@ Human outcomes depend on bounded attention, evidence calibration, privacy-aware 
 
 ### Science, Health, and Climate
 
-Direct conclusions remain narrow and source-scoped, separating observed health and efficiency evidence from proposed mechanisms.
+Direct conclusions remain narrow and source-scoped, separating observed health and efficiency evidence from proposed mechanisms and feature-level causal speculation.
 
-- [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
+- [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]], [[PerformativeSelfPresentation]], [[HereAndNowMedia]], [[SocialDriverHierarchy]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
