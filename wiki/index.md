@@ -875,6 +875,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
+- [Interview: Building the Latest Campaign for David Guetta -- Serverless Code](sources/interview-building-the-latest-campaign-for-david-guetta-serverless-code.md) - James Hall explains how Parallax built a multilingual fan-recording campaign with static edge delivery, narrow Lambda APIs, direct S3 uploads, generated social artwork, and real-device compatibility testing.
 
 ## Entities
 - [TBH](entities/TBH.md) - Teen polling app whose founders documented a synchronized, school-by-school launch process after Facebook acquired the company.
@@ -2403,6 +2404,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Arnold Schwarzenegger](entities/ArnoldSchwarzenegger.md) - Bodybuilder, actor, businessman, and former governor who rejects solitary-success attribution and treats continued learning as essential.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
+- [David Guetta](entities/DavidGuetta.md) - Artist at the center of the participatory web campaign for the UEFA EURO 2016 anthem "This One's for You."
+- [James Hall](entities/JamesHall.md) - Parallax backend developer and cloud architect interviewed about the campaign's serverless implementation.
+- [Parallax Agency](entities/ParallaxAgency.md) - Digital agency whose five-person team built the multilingual fan-recording campaign.
+- [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
 - [Content Moderation Operations](concepts/ContentModerationOperations.md) - Sociotechnical system connecting platform rules with risk classification, review queues, trained judgment, enforcement, and reviewer care.

@@ -6904,3 +6904,11 @@ Added [[ContentModerationOperations]] as a policy, dynamic-classification, queue
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Interview: Building the Latest Campaign for David Guetta -- Serverless Code
+
+Added a 2016 interview with [[JamesHall]] about the five-person [[ParallaxAgency]] team that built [[ThisOnesForYouCampaign]] in roughly six or seven weeks. Created source-scoped profiles for Hall, Parallax, [[DavidGuetta]], and the campaign; updated [[ServerlessComputing]], [[InfrastructureAsCode]], and [[AWS]] from their complete ordered evidence inventories with static-edge delivery, direct S3 media uploads, narrow Lambda endpoints, burst scaling, branch-stage isolation, compatibility fallbacks, monitoring, and multilingual image-rendering constraints. Preserved the lack of measured traffic, cost, latency, availability, and campaign outcomes. All six local image references were unresolved because the supplied export lacks its sidecar directory, so no visual evidence was inferred or retained.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

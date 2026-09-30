@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: ef1b0f75493c65e135a7a6c2808b2ebd961c7361
+as_of_overview_commit: 0aa53a5e827f399fc9f95bfe6737ee25b325ddc2
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 856
-source_count: 856
-paragraph_count: 643
+episode_count: 857
+source_count: 857
+paragraph_count: 644
 topic_count: 9
 ---
 
@@ -21,8 +21,6 @@ topic_count: 9
 - Managed-service recovery is dependable only when copies, timing assumptions, degraded modes, and escalation paths escape the relevant failure: [[Instapaper]] needed a new filesystem, write reconciliation, [[Pinterest]] SRE, and [[AWS]] intervention because [[AmazonRDS]] snapshots preserved the production limit.
 - [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works make presence, location, agency, or time variation part of media value; [[PerformativeSelfPresentation]] adds that immediate capture can preserve positive edited memory while pulling attention from the lived moment toward its audience-facing version.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.
-- [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value.
 - [[ContingentWorkforce]] can give [[Google]] specialist access, temporary capacity, faster staffing, and headcount flexibility while dividing formal employment responsibility from practical control over tasks, access, intellectual property, and organizational status. The same structure extends [[DataAnnotationLabor]] into outsourced mapping labels, contract content moderation, and human exception handling, so flexibility must be assessed alongside benefits, information access, grievance power, continuity, conversion paths, and heterogeneous worker outcomes.
 
 ## Synthesis by Domain
@@ -36,7 +34,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, ecosystem boundaries, lifecycle trust, and risk allocation; social-platform value also needs welfare boundaries around feedback and performance.
+Durable value joins customer outcomes, sustainable economics, governed distribution, ecosystem boundaries, lifecycle trust, and risk allocation.
 
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 - [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].
@@ -50,7 +48,7 @@ Cross-domain findings connect inspectable infrastructure, failure-independent re
 
 ### Culture and Media
 
-Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, access, and participation; ephemeral presence can preserve memory while intensifying audience-aware performance.
+Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, access, and participation; infrastructure enables new forms without proving audience or business outcomes.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -82,7 +80,7 @@ Direct conclusions remain narrow and source-scoped, separating observed health a
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, distributed support, and visibility into risk and control.
+Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, distributed support, and visibility into risk and control; managed infrastructure changes rather than eliminates skilled delivery work.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

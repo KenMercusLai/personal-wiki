@@ -13,6 +13,7 @@ sources:
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
   - hacker-puts-hosting-service-code-spaces-out-of-business-threatpost
   - immutable-infrastructure-using-packer-ansible-and-terraform
+  - interview-building-the-latest-campaign-for-david-guetta-serverless-code
 last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
@@ -38,6 +39,8 @@ The bmpi.dev implementation adds a small hybrid [[ServerlessComputing]] profile.
 The 2014 Code Spaces incident adds the security boundary of that composability. Threatpost reports that an attacker with EC2 control-panel access created backup logins and deleted EBS snapshots and volumes, S3 buckets, AMIs, instances, configurations, and most backups even without the private keys needed for direct machine access. The source says AWS supplied two-factor authentication and IAM controls, while customers remained responsible for credential management; it does not establish which controls Code Spaces had configured or how the initial access occurred.
 
 The immutable-infrastructure tutorial adds a small AMI delivery chain. Terraform creates a VPC, public subnet, internet routing, and key pair; Packer launches an EBS-backed builder in that subnet and uses Ansible to prepare Nginx; Terraform then selects the latest available image carrying a shared tag and creates EC2 capacity with security groups and an Elastic IP. The example shows how AWS resource identity connects infrastructure and image stages, while its public builder, local state, credential variables, and mutable image selector remain historical tutorial choices.
+
+The 2016 Parallax campaign adds an early bursty consumer-media composition. CloudFront and S3 served the static experience; Lambda and API Gateway handled locale, subscriber, upload-token, and image-generation work; DynamoDB and SES stored subscribers and sent welcome mail; direct S3 uploads kept recording bytes out of the API path; and CloudWatch monitored the functions. The source frames AWS elasticity as a substitute for operating a queue and image-worker EC2 fleet, while its browser fallbacks, Unicode-font packaging, stage isolation, and split monitoring show work that remained above the cloud layer.
 
 ## Key Characteristics
 - Provides EC2 virtual server infrastructure with lower-level deployment control than Vercel's integrated platform workflow.
@@ -75,19 +78,23 @@ The immutable-infrastructure tutorial adds a small AMI delivery chain. Terraform
 - Hybrid serverless composition: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] combines scheduled ECS Fargate, Lambda, API Gateway, SNS, S3, CloudFront, Route53, IAM, VPC, ECR, and CloudWatch in one small application.
 - Workload placement: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] chooses Fargate for the longer-running core task and Lambda for the narrow subscription API.
 - Network and cost tradeoff: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] uses Fargate Spot and a public-subnet task with a public IP while warning about NAT gateway and interface-endpoint charges.
+- Bursty campaign composition: [[interview-building-the-latest-campaign-for-david-guetta-serverless-code]] combines CloudFront, S3, Lambda, API Gateway, DynamoDB, SES, and CloudWatch for a static-first recording and personalized-image application.
+- Direct media path: [[interview-building-the-latest-campaign-for-david-guetta-serverless-code]] has a Lambda endpoint issue path-scoped S3 upload tokens so browsers send recordings directly to object storage.
+- Managed-scaling boundary: [[interview-building-the-latest-campaign-for-david-guetta-serverless-code]] contrasts Lambda image generation with a queue and dedicated EC2 workers but reports no achieved traffic, cost, latency, availability, or load-test result.
 - Control-plane blast radius: [[hacker-puts-hosting-service-code-spaces-out-of-business-threatpost]] reports that compromised account access let an attacker delete Code Spaces' EBS, S3, AMI, instance, configuration, repository, and backup assets.
 - Customer security boundary: [[hacker-puts-hosting-service-code-spaces-out-of-business-threatpost]] says AWS supported two-factor authentication and IAM-based individual credentials, role separation, and least privilege while assigning credential management to customers.
 - AMI build chain: [[immutable-infrastructure-using-packer-ansible-and-terraform]] connects a Terraform-created subnet, a Packer Amazon EBS builder, Ansible configuration, and Terraform-launched EC2 capacity.
 - Image discovery: [[immutable-infrastructure-using-packer-ansible-and-terraform]] filters available AMIs by the `Packer-Ansible` tag and selects the most recent match.
 
 ## Qualifications
-The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 managed-service pipeline; and the bmpi.dev source presents one small hybrid serverless implementation with historical prices. The Code Spaces source is a 2014 secondary report based largely on the customer's statement; it does not establish the initial-access method, configured safeguards, or a general AWS failure. The immutable example uses 2018 syntax and practices and does not evaluate current AMI build, identity, network, state, or deployment controls. None is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, service-version changes, or total ownership cost.
+The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 managed-service pipeline; the bmpi.dev source presents one small hybrid serverless implementation with historical prices; and the Parallax source presents a 2016 campaign design without measured production outcomes. The Code Spaces source is a 2014 secondary report based largely on the customer's statement; it does not establish the initial-access method, configured safeguards, or a general AWS failure. The immutable example uses 2018 syntax and practices and does not evaluate current AMI build, identity, network, state, or deployment controls. The campaign's six local images were unavailable, so their architecture and UI content could not be inspected. None is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, service-version changes, or total ownership cost.
 
 ## What Changed
 - Added a hybrid serverless application profile spanning scheduled Fargate, Lambda/API Gateway, SNS, S3, CloudFront, and their supporting AWS services.
 - Added AWS central logging as a multi-account managed-service composition pattern for operational evidence collection.
 - Added the customer-side control-plane security boundary: account credentials and IAM scope can make production and recovery assets jointly destructible.
 - Added a concrete VPC-to-Packer-to-AMI-to-EC2 delivery chain and its artifact-selection boundary.
+- Added an early burst-demand media campaign using static edge delivery, direct S3 uploads, narrow Lambda APIs, and on-demand image generation while retaining application-level compatibility and isolation work.
 
 ## Relationships
 - [[NextJSDeployment]] - AWS EC2 hosts the PM2 and Docker deployment examples.
@@ -117,3 +124,5 @@ The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC
 - [[Packer]] - uses an Amazon EBS builder to create the configured AMI.
 - [[Terraform]] - provisions the network and EC2 resources and discovers the tagged image.
 - [[ImmutableInfrastructure]] - uses AWS AMIs as replaceable, versioned server artifacts.
+- [[ThisOnesForYouCampaign]] - early consumer campaign composing AWS edge, storage, function, API, database, email, and monitoring services.
+- [[ParallaxAgency]] - agency that selected the AWS serverless architecture for the campaign.
