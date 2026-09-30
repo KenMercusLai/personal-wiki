@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Just how big is the podcast discovery gap?](sources/just-how-big-is-the-podcast-discovery-gap-startup-grind-medium.md) - David Kadavy links one podcast's downloads to Product Hunt exposure and its category shutdown while preserving bot, attribution, listening, and market-size limits.
 - [Just Landed Is Shutting Down](sources/just-landed-is-shutting-down-jon-grall-medium.md) - Jon Grall explains how supplier dependence, professional-user cost skew, one-time pricing, app-store pressure, and limited resources led to a planned shutdown despite meaningful adoption.
 - [Just How Much is Your Website Worth, Anyhow? An Easy Guide to Valuation](sources/just-how-much-is-your-website-worth-anyhow-an-easy-guide-to-valuation-moz.md) - Greg Elfrink links rolling net profit to a buyer-confidence multiple shaped by earnings history, transferability, concentration risk, operating effort, and defensibility.
 - [AirPods Live Listen: Hearing Aid or Spy Tool?](sources/juli-clover-airpods-live-listen-hearing-aid-or-spy-tool.md) - Juli Clover explains how iOS 12 Live Listen turns an iPhone into a remote microphone for AirPods, supporting hearing access while creating a covert-listening path.
@@ -969,7 +970,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ray Dalio](entities/RayDalio.md) - Investor represented through regime-diversified allocation and a 1937 analogy connecting populism, conflict, and market risk.
 - [John Saito](entities/JohnSaito.md) - Product writer and designer represented through a contextual framework for grammatical perspective in interfaces.
 - [Flawless App](entities/FlawlessApp.md) - iOS design-comparison developer tool represented through a high-attention, feedback-rich, but modestly converting Product Hunt launch.
-- [Product Hunt](entities/ProductHunt.md) - Community product-discovery platform whose rankings can concentrate launch attention and social proof without proving durable demand.
+- [Product Hunt](entities/ProductHunt.md) - Community discovery platform whose launches and former podcast category could concentrate attention while leaving creators exposed to attribution limits and category removal.
 - [NordVPN](entities/NordVPN.md) - Consumer VPN provider represented through a source-scoped dispute over review incentives, marketing, corporate relationships, product failures, and unsupported surveillance allegations.
 - [Tesonet](entities/Tesonet.md) - Technology company alleged by VPNscam.com to own or back NordVPN, with the exact relationship and claimed data-mining role unresolved in the supplied source.
 - [VPNscam.com](entities/VPNscamCom.md) - Adversarial VPN-review publication whose useful diligence questions are mixed with weak inference about covert intent.
@@ -1329,7 +1330,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Spinks](entities/DavidSpinks.md) - Community-company founder whose Feast and CMX experiences frame funding as a strategic fit decision rather than a startup default.
 - [Feast](entities/Feast.md) - Cooking-education startup whose accelerator fundraising failure shaped Spinks's later customer-funded approach.
 - [CMX](entities/CMX.md) - Bootstrapped events, media, training, research, and community business for community professionals.
-- [David Kadavy](entities/DavidKadavy.md) - Author and bootstrapped solopreneur using repeated identical-email tests to question casual interpretation of conversion experiments.
+- [David Kadavy](entities/DavidKadavy.md) - Author, solopreneur, and podcast creator using email experiments and channel changes to question whether observed metrics represent valuable human outcomes.
 - [Dave Teare](entities/DaveTeare.md) - AgileBits cofounder represented through 1Password's origin, platform adaptation, and privacy-aware product judgment.
 - [Jeff Shiner](entities/JeffShiner.md) - AgileBits interview participant documenting 1Password's document sync, Mac roadmap, and early beta demand.
 - [Roustem Karimov](entities/RoustemKarimov.md) - Dave Teare's cofounder in the AgileBits and 1Password origin story.
@@ -2514,6 +2515,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Podcast Discovery](concepts/PodcastDiscovery.md) - Matching listeners with unfamiliar shows through search, recommendation, communities, or platforms while distinguishing downloads from durable human listening.
 - [External Service Dependency](concepts/ExternalServiceDependency.md) - Operational and business exposure created when core product value depends on another organization's data, infrastructure, policy, pricing, or continuity.
 - [Website Business Valuation](concepts/WebsiteBusinessValuation.md) - Estimating a transferable online business from normalized earnings and a buyer-confidence multiple adjusted for durability, risk, operating burden, and defensibility.
 - [Assistive Technology Dual Use](concepts/AssistiveTechnologyDualUse.md) - Condition in which an access-improving capability can enable surveillance or other harm through substantially the same mechanism.
@@ -3313,7 +3315,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tool Familiarity](concepts/ToolFamiliarity.md) - Practical advantage from using languages, frameworks, and workflows a team already understands well.
 - [Simple Made Easy](concepts/SimpleMadeEasy.md) - Simple-versus-easy software-design distinction, treated here as valuable but risky when used to excuse poor tool usability.
 - [Developer Platform Trust](concepts/DeveloperPlatformTrust.md) - Developer confidence that a platform's APIs, policies, tools, and posture are stable enough to build on.
-- [Platform Distribution Dependence](concepts/PlatformDistributionDependence.md) - Risk and leverage pattern where borrowed APIs, undocumented interfaces, feeds, or rankings create reach that should become direct user demand.
+- [Platform Distribution Dependence](concepts/PlatformDistributionDependence.md) - Risk and leverage pattern where borrowed APIs, feeds, rankings, discovery categories, or undocumented interfaces create reach that should become direct user demand.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned infrastructure automation whose cross-tool state, ownership, and artifact identities are part of reproducibility.

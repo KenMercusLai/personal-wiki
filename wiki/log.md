@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Just how big is the podcast discovery gap?
+
+Added [[PodcastDiscovery]] and updated [[DavidKadavy]], [[ProductHunt]], and [[PlatformDistributionDependence]] from their complete ordered evidence inventories. Recorded the omitted-submission decline, delayed-submission rebound, Product Hunt Podcasts shutdown, and reported immediate 20–30% download loss while preserving the absence of raw referral data, episode controls, unique listeners, completion, retention, and a market-wide counterfactual. Distinguished page-load behavior from bots and downloads from meaningful human listening. Opened all twelve local image references; retained the sole readable evidence-bearing download chart under a descriptive canonical filename, omitted three decorative hero variants and eight 60-pixel thumbnails, and used no unreadable visual detail as evidence.
+
 ## [2026-10-01] ingest | Just Landed Is Shutting Down
 
 Added [[JonGrall]], [[JustLanded]], and [[ExternalServiceDependency]] from a 2016 founder-authored shutdown retrospective. Updated [[UnitEconomics]], [[MobileAppStoreEconomics]], [[ProductLifecycleTrust]], and [[AppStore]] from their complete ordered evidence inventories with professional-user cost skew, pay-once versus recurring supplier cost, the boundary between marketplace success and app sustainability, and planned wind-down stewardship. Preserved the absence of audited financials, supplier verification, user evidence, and tested pricing alternatives. Opened all four local images and omitted the three duplicate or thumbnail airplane-branding variants plus the tiny phone/app promotional image because they added no recoverable evidence beyond the prose.
@@ -7271,6 +7275,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Just How Much is Your Website Worth, Anyhow? An Easy Guide to Valuation
 
 Added [[WebsiteBusinessValuation]], [[GregElfrink]], and [[EmpireFlippers]] from a 2018 broker-authored guide to online-business valuation and exit readiness. Preserved the historical rolling-profit multiple, the distinction between legitimate add-backs and value-reducing cost cuts, and the effects of earnings history, transferability, owner workload, concentration risk, buyer upside, and defensibility. Recorded the source's internal SEO tension: organic traffic can widen buyer demand while exclusive Google dependence remains a critical failure point. Opened all three effective images, recovering two missing local assets from their original CDN URLs; retained the author-identifying lead graphic and valuation-formula graphic under descriptive filenames, and omitted the SEO illustration because it duplicated the adjacent prose.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
