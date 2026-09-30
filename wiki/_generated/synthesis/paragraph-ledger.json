@@ -644,12 +644,13 @@
       "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194",
       "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
       "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5",
-      "85591b4f2545b4f69a349402f20ff97cb11a498a4f7e49e6b3957ca046d16519"
+      "85591b4f2545b4f69a349402f20ff97cb11a498a4f7e49e6b3957ca046d16519",
+      "bfc9ef00e27245a121e728406283b90a7b770e774472b7b8f98705bf6731dffe"
     ],
-    "paragraph_count": 644
+    "paragraph_count": 645
   },
-  "overview_commit": "0aa53a5e827f399fc9f95bfe6737ee25b325ddc2",
-  "overview_digest": "e90cdc8ec0c4e7cc34385743f0bbbd3fea2461ff7911e84b3c24821937750f8c",
+  "overview_commit": "fd06368a153fa9bbed13bb7466c2bd5e3931add7",
+  "overview_digest": "ff3da64d11527c87d6f322c95903bb115533011af85072abc51d79db1806e611",
   "paragraphs": [
     {
       "id": "86920e6722503c4072ae9483bf639cf027444d7eda664cd7400def077f919f3a",
@@ -13057,6 +13058,23 @@
         "ParallaxAgency",
         "ServerlessComputing",
         "ThisOnesForYouCampaign"
+      ]
+    },
+    {
+      "id": "bfc9ef00e27245a121e728406283b90a7b770e774472b7b8f98705bf6731dffe",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[NextViewVentures]] source adds [[EverydayEconomy]] as a 2017 venture thesis rather than a neutral market taxonomy. It groups home, transportation, food, work and money, health, apparel, and entertainment as large recurring domains where mature internet infrastructure can change the product or service itself, not merely discovery and checkout. This extends [[TechnologyEnablerStack]] from a mobile-era inventory into an infrastructure-to-platform-to-application sequence: broadband, search, mobile, cloud, social systems, smartphones, and real-time location become ordinary dependencies on which later products reorganize meals, mobility, homes, and work. NextView’s investment screens are narrower than its broad category list - step-function redesign, habitual use or persistent daily presence, and eventual relevance to mass consumers or large business-user populations - while still permitting B2B enablers and narrow initial beachheads. The firm also states that its $50 million third fund will remain focused on seed and pre-seed investments before meaningful traction. The evidence boundary is substantial: the article is a self-interested fund announcement; its spending figures are not decomposed into consistently defined addressable markets; its adoption curves have no units or observed data; and no portfolio outcomes test whether the thesis predicts returns. Four substantive graphics were retained: the generic three-stage adoption curve, paired conventional-versus-second-wave internet forecasts, and a seven-category spending chart with portfolio examples; the duplicated branded hero image was omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "EverydayEconomy",
+        "NextViewVentures",
+        "TechnologyEnablerStack"
       ]
     }
   ],

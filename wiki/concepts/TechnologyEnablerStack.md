@@ -4,60 +4,59 @@ type: concept
 tags: [technology, innovation, product-development, platform]
 sources:
   - yesterdays-failures-are-todays-successes-learning-by-shipping
-last_updated: 2026-09-17
+  - introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[TechnologyEnablerStack]] is the set of widely available platform capabilities - compute, power, interface, connectivity, location, identity, storage, payments, and social norms - whose maturity decides whether a given product idea can be built usefully and adopted broadly at a particular time.
+[[TechnologyEnablerStack]] is the set of widely available technical capabilities and social conditions whose maturity determines whether a product idea can be built, distributed, trusted, and adopted at a particular time.
 
 ## Current Synthesis
-The page rests on a 2016 essay explaining why ideas that failed during the dot-com bust had become fundable products years later. [[StevenSinofsky]] argues that the difference is not "what is old is new again" but a changed foundation everyone can now rely on, and he names the layers: roughly ten times the compute of early-2000s PCs carried by two billion people, 16-20 hours of use per charge instead of 4-6, touch interfaces whose constraints force simplicity, cellular bandwidth treated as effectively unlimited, GPS-based location and maps, an authenticated identity and social graph, cheap and reliable flash storage, web payments that made buying and selling safe, and a culture that finally accepted sharing user-generated work. He pairs that list with the recombination claim in [[InnovationAtIntersection]]: there are few true inventions, and each wave realizes older ideas in new combinations. The practical consequence is that an earlier failure is weak evidence about the idea and stronger evidence about the stack, while execution stays decisive - the essay defines execution as the complete commercial mix of product, price, place, and promotion, which it equates with [[ProductMarketFit]], and treats a remembered screenshot as no substitute for having built the thing.
+The two practitioner sources describe the stack at different levels. [[StevenSinofsky]] inventories specific smartphone-era enablers: mobile compute, long battery life, touch, abundant connectivity, location and maps, authenticated identity, flash storage, web payments, and a culture willing to share. [[NextViewVentures]] groups broadband, search, mobile, cloud, and social systems as the internet’s already-laid infrastructure and argues that the next wave consists of applications that reorganize daily services on top. Together they make timing a layered argument: ideas can fail before their dependencies become ordinary, then reappear when builders can assume those dependencies rather than invent them. The stack creates an opportunity surface, not an outcome; execution, product-market fit, distribution, business economics, regulation, and customer behavior still decide which applications work.
 
 ## Key Claims
-- An idea becomes viable when enough of the enabling foundation exists, so the same concept can be impractical at one time and ordinary at another.
-- An earlier failure is not disproof: it is evidence about context, such as timing, infrastructure, culture, or distribution, at least as much as about the idea.
-- The stack is plural and heterogeneous, and any single layer - compute, battery, interface, connectivity, location, identity, storage, payment, or social acceptance - can be the binding constraint.
-- Identity and trust infrastructure belongs in the stack, because an authenticated profile changed what people could assume about each other and what counted as social proof.
-- Cultural acceptance is an enabler in its own right, since sharing user-generated work became mainstream only once the technology and the norms moved together.
-- Stack maturity explains diffusion rather than success: execution across product, price, place, and promotion remains the work that turns an available foundation into a business.
-- The framing complicates both directions of a success story, because a first failure need not mean a bad idea and a later success need not mean superior insight.
+- Product viability depends on a plural stack of technical and social enablers, any one of which can be the binding constraint.
+- Earlier failure may reveal immature context rather than a permanently invalid idea.
+- Infrastructure becomes strategically generative when application builders can treat it as an ordinary dependency.
+- Mobile compute, power, interface, connectivity, location, identity, storage, payment, cloud, search, and social norms jointly expanded the feasible product space.
+- Mature infrastructure can produce long second-order waves that alter products, services, industries, and daily behavior beyond the initial platform.
+- Stack maturity explains what is possible and diffusible, but does not substitute for execution or demonstrate that a particular market will exist.
 
 ## Evidence
-Foundation rather than the idea:
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says much of what mid-2010s startups were building had been tried and had failed spectacularly during the dot-com bust.
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] attributes the change to technologies that "form the foundation everyone can rely on" rather than to newly invented ideas.
+Concrete enabling layers:
+- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] lists two billion people carrying substantially more compute than early-2000s PCs, 16-20 hours of phone battery, touch interfaces, cellular bandwidth, GPS and maps, authenticated profiles, flash storage, web payments, and mainstream sharing.
+- [[introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures]] adds broadband, search, mobile and cloud computing, and the social mesh as core internet infrastructure.
 
-Recombination:
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says there are few true inventions and describes innovation as a stream in which each step builds on earlier work in novel recombinations.
+Timing and revived ideas:
+- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] argues that many dot-com-era ideas became viable only after the surrounding foundation changed.
+- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] describes innovation as recombination, making a later product’s novelty partly a new arrangement of older ideas on a changed base.
 
-Compute, power, interface, connectivity, and location:
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] describes two billion people carrying about ten times the compute of early-2000s PCs, with 16-20 hours of phone battery against 4-6 hours for laptops.
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says touch was not new as technology, but that its design constraints forced simplicity compared with menus and toolbars and expanded the reach of applications.
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] credits [[Apple]]'s decision to treat cellular bandwidth as effectively unlimited rather than rationed, and cites GPS, Wi-Fi positioning, and mobile maps for making on-demand services ordinary where printed street directories were the norm.
+Infrastructure-to-application transition:
+- The retained first diagram in [[introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures]] divides an adoption S-curve into infrastructure, enabling platforms, and applications.
+- [[introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures]] uses [[Uber]] and [[Lyft]] as applications that depend on smartphones and real-time location rather than as inventors of a new computing platform.
 
-Identity, storage, and payments:
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says an authenticated [[Facebook]] profile replaced the anonymous screen name and changed how people thought about identity.
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says flash storage made devices more reliable by removing moving parts and grew fast enough to make video, photos, and games integral rather than space-constrained.
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] credits [[PayPal]] with making it reliable and secure to pay and accept money on the web, and reports it processing over $80 billion per quarter at the time.
+Second-order effects:
+- [[introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures]] compares internet-connected computing with electricity, railroads, and automobiles, whose later effects changed factories, buildings, food systems, housing, retail, and mobility.
+- The paired forecast diagrams in [[introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures]] contrast a conventional plateau with a proposed second, steeper application-era curve.
 
-Culture and execution:
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says sharing only became mainstream with Wikipedia and [[YouTube]], and calls that cultural shift perhaps the biggest change of all.
-- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] defines execution as the complete set of product, price, place, and promotion, equates it with product-market fit, and rejects a remembered idea as evidence that its holder executed anything.
+Execution boundary:
+- [[yesterdays-failures-are-todays-successes-learning-by-shipping]] defines execution as the complete product, price, place, and promotion mix rather than an idea or code alone.
+- [[introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures]] adds investment filters - redesign, lived frequency, and eventual mass relevance - that an available platform does not itself satisfy.
 
 ## Counterevidence & Qualifications
-This concept rests on a single 2016 essay, and its evidence is a retrospective list chosen by looking at later winners, which cannot show how much of any outcome the enabling stack explains relative to team, distribution, capital, or luck. It gives no account of ideas that had the same foundation and still failed, and no method for telling whether a missing enabler or a bad product is the real blocker. The figures are rounded author estimates, the sharing and payment examples are named without data, and the essay predates later platform shifts the wiki documents elsewhere, so the stack should be read as one practitioner's dated snapshot rather than a measured model of adoption.
+Both sources are retrospective practitioner arguments, and the evidence is selected around successful examples. Neither provides a method for measuring stack readiness, identifying the binding dependency in advance, or separating infrastructure effects from team, capital, distribution, regulation, and luck. Sinofsky’s numerical examples are rounded and time-bound; NextView’s adoption curves have no units, observations, or tested forecast horizon. The “supertechnology” analogy can hide major differences among electricity, rail, automobiles, and software, while application growth does not necessarily imply broad welfare gains or investable returns. The concept should therefore guide dependency and timing analysis, not function as a deterministic law of adoption.
 
 ## What Changed
-- Created the concept to hold the source's enabler list and its claim that a changed technology context, rather than the idea alone, made earlier failures viable.
+- Added the infrastructure-to-platform-to-application sequence and the claim that mature internet foundations can generate a long second-order application wave.
+- Extended the stack from a list of mobile-era capabilities to the industry-level transition those capabilities may enable.
+- Strengthened the forecast boundary: the retained curves express NextView’s thesis but do not measure or validate it.
 
 ## Related Concepts
-- [[InnovationAtIntersection]] - the same essay's companion claim that innovation recombines older ideas instead of inventing from nothing.
-- [[LongNoseInnovation]] - long gestation and repeated attempts are the technology-history view of an immature enabler stack.
-- [[ProductMarketFit]] - the source defines execution through the complete commercial mix and equates it with fit.
-- [[IdeaVersusExecution]] - an earlier failed attempt is treated as weak evidence about the idea itself.
-- [[MobileEcosystem]] - most of the listed enablers are the smartphone-era foundation the wiki documents as a platform shift.
-- [[MobileInternet]] - connectivity, location, and cheap mobile compute are what made mobile the primary internet surface.
-- [[TrustMinimizationTechnology]] - reliable web payment is one layer that reduced the trust strangers needed to transact.
-- [[SocialProof]] - authenticated profiles changed which signals people could read off a stranger.
-- [[StartupFailurePatterns]] - timing and platform dependence are the failure side of a stack that is not ready yet.
+- [[EverydayEconomy]] - applies the mature-stack thesis to recurring consumer and business experiences.
+- [[InnovationAtIntersection]] - recombination is the mechanism by which existing enablers support new products.
+- [[LongNoseInnovation]] - repeated attempts and long gestation are the historical pattern of a stack becoming ready.
+- [[ProductMarketFit]] - available infrastructure cannot establish customer demand by itself.
+- [[IdeaVersusExecution]] - an available idea still requires a complete product and commercial system.
+- [[MobileEcosystem]] - supplies many of the stack’s concrete device, software, and distribution layers.
+- [[StartupFailurePatterns]] - bad timing and platform dependence are failure modes when required enablers are not ready.

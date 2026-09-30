@@ -6912,3 +6912,11 @@ Added a 2016 interview with [[JamesHall]] about the five-person [[ParallaxAgency
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Introducing NextView III and Our Focus on the Everyday Economy
+
+Added [[EverydayEconomy]] as NextView Ventures' 2017 framework for technology-enabled redesign across seven recurring spending and experience domains. Updated [[NextViewVentures]] and [[TechnologyEnablerStack]] from their complete ordered evidence inventories with the $50 million third fund, seed and pre-seed focus, selection screens, and the infrastructure-to-application second-order-effects thesis. Inspected all five distinct remote graphics despite the publisher's expired TLS certificate; retained four evidence-bearing adoption and spending charts under canonical descriptive names and omitted the duplicated branded hero image as decorative.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

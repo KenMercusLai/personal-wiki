@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Introducing NextView III and Our Focus on the Everyday Economy](sources/introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures.md) - NextView announces a $50 million third fund and a thesis for redesigning seven recurring domains of daily life on mature internet infrastructure.
 - [Internet Content Moderation 101](sources/internet-content-moderation-101-hunter-walk.md) - Hunter Walk explains moderation as a policy, classification, queueing, staffing, and reviewer-care system rather than a technology-only filter.
 - [Internal Facebook Note: Here Is A ‘Psychological Trick’ To Target Teens](sources/internal-facebook-note-here-is-a-psychological-trick-to-target-teens.md) - Ryan Mac reports TBH's school-by-school Instagram launch method, its attempt to synchronize teen adoption, and the unverified transfer of that playbook to Facebook.
 - [Intention Is All You Need](sources/intention-is-all-you-need.md) - A practitioner argues that LLMs make intention an increasingly direct software interface, using Slock's group-chat agent coordination while preserving the engineering gap to dependable systems.
@@ -1434,7 +1435,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dan Saffer](entities/DanSaffer.md) - Interaction-design author credited with the trigger, rules, feedback, and loops or modes model of microinteractions.
 - [Hacker News](entities/HackerNews.md) - Technology and startup discussion community useful for technical critique but, in the source's analysis, limited as a proxy for mass-market demand.
 - [Dan McKinley](entities/DanMcKinley.md) - Software practitioner who argues that deployment recovery must account for persistent and mixed-version system state rather than relying on a universal rollback control.
-- [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
+- [NextView Ventures](entities/NextViewVentures.md) - Early-stage investor combining inspectable market reasoning with a 2017 Everyday Economy thesis for its $50 million third fund.
 - [Hunter Walk](entities/HunterWalk.md) - Investor-author analyzing media credibility, creator economics, moderation operations, founder-investor fit, and upside-first venture judgment.
 - [Ellen Chisa](entities/EllenChisa.md) - Product leader framing creator compensation through content-specific revenue models, direct audience relationships, discovery, and meaningful metrics.
 - [Nick Rockwell](entities/NickRockwell.md) - Media technology executive advocating subscription-first economics while accepting mixed advertising and subscription portfolios.
@@ -2410,6 +2411,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Everyday Economy](concepts/EverydayEconomy.md) - NextView investment framework for technology-enabled redesign across seven recurring spending and experience domains.
 - [Content Moderation Operations](concepts/ContentModerationOperations.md) - Sociotechnical system connecting platform rules with risk classification, review queues, trained judgment, enforcement, and reviewer care.
 - [Synchronized Community Launch](concepts/SynchronizedCommunityLaunch.md) - Coordinating product exposure inside a bounded existing group so connected users can experience a social product together.
 - [Intention-Driven Software](concepts/IntentionDrivenSoftware.md) - Software creation and interaction organized around desired outcomes, with LLMs translating high-level intent while engineering supplies clarification and assurance.
@@ -3554,7 +3556,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cardiorespiratory Fitness](concepts/CardiorespiratoryFitness.md) - Aerobic capacity frame in which higher fitness creates more reserve for future activities such as stair climbing.
 - [VPLS](concepts/VPLS.md) - Multipoint Ethernet L2VPN service whose IOS XR passthrough mode does not insert dummy VLAN tags in the source.
 - [Automated Content Farming](concepts/AutomatedContentFarming.md) - High-volume, low-cost production optimized for platform attention or advertising while judgment, originality, fidelity, or delivered user value remain weak.
-- [Technology Enabler Stack](concepts/TechnologyEnablerStack.md) - Widely available platform capabilities whose maturity decides whether a product idea can be built usefully and adopted broadly at a given time.
+- [Technology Enabler Stack](concepts/TechnologyEnablerStack.md) - Technical capabilities and social conditions whose maturity shapes which products can be built, diffused, and layered into later application waves.
 
 - [Incremental Framework Upgrade](concepts/IncrementalFrameworkUpgrade.md) - Migration strategy that keeps old and new framework versions runnable, advances through CI compatibility milestones, and uses staged production evidence.
 - [Value-Based Product Scoping](concepts/ValueBasedProductScoping.md) - Testing why proposed components are needed and dividing work into the smallest coherent deliverables that create value or learning.

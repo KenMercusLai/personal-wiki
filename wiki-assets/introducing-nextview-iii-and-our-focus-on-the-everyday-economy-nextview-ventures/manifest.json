@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures",
+  "images": [
+    {
+      "file": "innovation-wave-stages.png",
+      "alt": "S-curve of technology adoption divided into infrastructure, enabling platforms, and applications"
+    },
+    {
+      "file": "conventional-internet-adoption-forecast.png",
+      "alt": "Conventional VC forecast showing internet adoption flattening after its first S-curve"
+    },
+    {
+      "file": "second-order-internet-adoption-forecast.png",
+      "alt": "NextView forecast showing a second steep internet-adoption curve above the conventional plateau"
+    },
+    {
+      "file": "us-consumer-spending-categories.png",
+      "alt": "Stacked chart of U.S. consumer spending categories with NextView portfolio examples"
+    }
+  ]
+}
