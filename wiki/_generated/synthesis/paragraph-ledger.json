@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d17c76c302c6b15966f1eb6673f9d44f5e99fa8df07679871605d04ba5aded51",
       "0c7c7a33c94ef7bc7e8573ec4c26430d8bfc3a36ca1de287ef34aed5db5052fd",
       "41299595e9a98ca7f5dff3dd25bc5e5ff8ff047d840cf86cb9bcbbd8857fe192",
       "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
@@ -670,11 +671,27 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 668
+    "paragraph_count": 669
   },
-  "overview_commit": "e4149522c26403cba99cefb0ba3f300221bf59f0",
-  "overview_digest": "f3a155a82a8abe5737058e8ae50391924a18e6173732ee004a58312708f25f63",
+  "overview_commit": "f11429f087d19f75f8eb4052757b5bde03ef4b59",
+  "overview_digest": "e6839a0f414c8aa101f622a368559450b814109af72cc8d274e5cd033df0e888",
   "paragraphs": [
+    {
+      "id": "d17c76c302c6b15966f1eb6673f9d44f5e99fa8df07679871605d04ba5aded51",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[GregElfrink]] source adds [[WebsiteBusinessValuation]] as a buyer-confidence model layered on normalized business earnings. The brokerage's 2018 baseline multiplies rolling 12-month average net profit by a monthly multiple, but the article makes that multiple depend on earnings direction, transferability, owner dependence, concentrated risks, buyer upside, and [[StartupDefensibility]]. It distinguishes legitimate add-backs from removing fulfillment or systems that make a company easier to operate, and it recommends diversified traffic, monetization, suppliers, and products plus documented teams and processes. Organic search captures the central qualification: SEO may attract a wider buyer market without automatically increasing intrinsic value, while exclusive Google dependence remains a critical failure point under [[PlatformDistributionDependence]]. The evidence is a broker-authored marketing article and comment thread rather than an audited transaction dataset; its 20-50x headline range, lower declining-business range, 24-35x discussion norm, fee tiers, and high-multiple examples are dated and commercially interested. All three effective images were opened after two missing local assets were recovered from their original CDN URLs; the author-identifying lead and valuation-formula graphics were retained, while the SEO graphic was omitted because it duplicated the adjacent prose.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4
+      },
+      "wikilinks": [
+        "GregElfrink",
+        "PlatformDistributionDependence",
+        "StartupDefensibility",
+        "WebsiteBusinessValuation"
+      ]
+    },
     {
       "id": "0c7c7a33c94ef7bc7e8573ec4c26430d8bfc3a36ca1de287ef34aed5db5052fd",
       "primary_topic": "ai-and-technology",

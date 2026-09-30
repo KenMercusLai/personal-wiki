@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: e4149522c26403cba99cefb0ba3f300221bf59f0
+as_of_overview_commit: f11429f087d19f75f8eb4052757b5bde03ef4b59
 summary: "Current knowledge links calibrated evidence, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 901
-source_count: 901
-paragraph_count: 668
+episode_count: 902
+source_count: 902
+paragraph_count: 669
 topic_count: 9
 ---
 
@@ -36,10 +36,10 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible capability, and independent judgment.
+Durable value joins normalized earnings, buyer confidence, customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible capability, and independent judgment.
 
+- [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
 - [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome. Evidence: [[ProgressiveEquity]], [[EmployeeEquityGrantSizing]], [[Detour]], [[AndrewMason]], [[Groupon]], [[EmployeeEquityRisk]].
-- [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment. Evidence: [[EverydayEconomy]], [[TechnologyEnablerStack]], [[NextViewVentures]].
 
 ### Cross-domain
 

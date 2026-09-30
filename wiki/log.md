@@ -7263,3 +7263,11 @@ Added [[LiveListen]] and [[AssistiveTechnologyDualUse]], and updated [[AirPods]]
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Just How Much is Your Website Worth, Anyhow? An Easy Guide to Valuation
+
+Added [[WebsiteBusinessValuation]], [[GregElfrink]], and [[EmpireFlippers]] from a 2018 broker-authored guide to online-business valuation and exit readiness. Preserved the historical rolling-profit multiple, the distinction between legitimate add-backs and value-reducing cost cuts, and the effects of earnings history, transferability, owner workload, concentration risk, buyer upside, and defensibility. Recorded the source's internal SEO tension: organic traffic can widen buyer demand while exclusive Google dependence remains a critical failure point. Opened all three effective images, recovering two missing local assets from their original CDN URLs; retained the author-identifying lead graphic and valuation-formula graphic under descriptive filenames, and omitted the SEO illustration because it duplicated the adjacent prose.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
