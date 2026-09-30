@@ -6812,3 +6812,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inside the Black Market for Spotify Playlists
+
+Added Austin Powell's 2018 investigation of paid Spotify playlist review, direct placement, fake streams, inflated followers, and attempts to turn independent activity into algorithmic and editorial reach. Created [[PlaylistManipulation]], [[SpotLister]], and [[SubmitHub]]; updated [[Spotify]] and [[MusicDiscovery]] from their complete ordered evidence inventories. Preserved the distinction between paid review and guaranteed placement, Spotify's denial and enforcement position, independent versus official playlists, and the source's unaudited prices, scale claims, and causal examples. The source references seven images, but its four local files are absent and the five attempted original URLs for the lead and substantive images return HTTP 404, so no visual evidence could be interpreted or retained.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

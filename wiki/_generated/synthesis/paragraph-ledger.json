@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0bad5b70c08121339ffda658c28f6ff9e9449f6ceaaa2e5bf164c32568c32b02",
       "3c4ace0038c7c4d95443a3c7dc6f0f1e162a0eedd47638734d861bf5bf9ac458",
       "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
       "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
@@ -641,11 +642,30 @@
       "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
       "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5"
     ],
-    "paragraph_count": 639
+    "paragraph_count": 640
   },
-  "overview_commit": "b6cdb41b350bc0460dfbaba52fb6a5488c73e2bf",
-  "overview_digest": "a73ec6cb2d450c292ebe84fd46becc825c629917448a7be5e18c2955b7d38035",
+  "overview_commit": "6437725b7116796c1b34061e045f845bf2578030",
+  "overview_digest": "6e2d672a1d4c597c5deec3bcb4fbd559cc1bff886062ee239ca9ad6d17f6cfe8",
   "paragraphs": [
+    {
+      "id": "0bad5b70c08121339ffda658c28f6ff9e9449f6ceaaa2e5bf164c32568c32b02",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest Austin Powell source adds [[PlaylistManipulation]] as a feedback-system risk inside music discovery rather than only a case of direct payola. In the 2018 account, artist spending ranges from guaranteed curator attention through direct placement, position tiers, retainers, fake streams, and follower inflation; [[SpotLister]] and [[SubmitHub]] reduce search costs but differ in how they make curator value legible. The durable measurement lesson is that nominal playlist followers are weaker than engaged listening and attributed streams, while even those outcomes need validation. The platform risk is circular: independent placement can generate saves and plays that may influence Release Radar, Discover Weekly, or editorial attention, and the resulting royalties can partly finance more promotion. This sharpens [[MusicDiscovery]] and [[PlatformCulturalMetrics]] by showing that human and algorithmic curation can share contaminated commercial signals. The account preserves key boundaries: Spotify denied selling its own playlists, prohibited compensated influence, and later disabled SpotLister's API key; paid review is not identical to guaranteed placement; and reported prices, scale, follower authenticity, stream outcomes, and escalation into official playlists were not systematically audited. All seven referenced images were unavailable—the four article-relative files are absent and the five attempted original URLs for the lead and substantive images return HTTP 404—so no visual evidence or asset was retained.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "MusicDiscovery",
+        "PlatformCulturalMetrics",
+        "PlaylistManipulation",
+        "SpotLister",
+        "SubmitHub"
+      ]
+    },
     {
       "id": "3c4ace0038c7c4d95443a3c7dc6f0f1e162a0eedd47638734d861bf5bf9ac458",
       "primary_topic": "cross-domain",

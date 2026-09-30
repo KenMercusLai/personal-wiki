@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside the Black Market for Spotify Playlists](sources/inside-the-black-market-for-spotify-playlists.md) - Austin Powell maps paid curator access, direct placement, fake engagement, and the feedback loop from independent Spotify playlists into algorithmic and editorial discovery.
 - [Inside an Amazon Warehouse That Ships Your Supersized Purchases](sources/inside-an-amazon-warehouse-that-ships-your-supersized-purchases-cnet.md) - Ben Fox Rubin shows how Amazon's Fall River non-sort facility combines specialized storage, manual handling, industrial trucks, and custom packaging for large and irregular products.
 - [Inside chatbots’ year of growing pains: ‘We’re at an inflection point’](sources/inside-chatbots-year-of-growing-pains-were-at-an-inflection-point-marketing-land.md) - Tim Peterson reports that early chatbots needed bounded language, explicit recovery, structured controls, CRM continuity, and active discovery rather than scale or open text alone.
 - [Inside The NBA’s Virtual Reality Strategy](sources/inside-the-nbas-virtual-reality-strategy.md) - Manouk Akopyan traces the NBA's shift from one-off VR experiments to recurring NextVR broadcasts, global access, portfolio expansion, and qualified adoption bets.
@@ -866,6 +867,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [SpotLister](entities/SpotLister.md) - Paid playlist-curator review and matching marketplace that shut down after Spotify disabled its API access.
+- [SubmitHub](entities/SubmitHub.md) - Music-submission marketplace using curator behavior and artist-supplied stream outcomes to make reach more legible.
 - [NBA](entities/NBA.md) - Basketball league represented as an early adopter of recurring live virtual-reality production and a broader immersive-content portfolio.
 - [NextVR](entities/NextVR.md) - NBA partner for scheduled live virtual-reality games and on-demand Finals highlights.
 - [Jeff Marsilio](entities/JeffMarsilio.md) - NBA digital-media executive articulating its repeatable-production, engagement, and adoption thesis for virtual reality.
@@ -1868,7 +1871,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wedge](entities/Wedge.md) - Shopify tool that measures cross-component calls, associations, public interfaces, and isolation progress.
 - [WP Engine](entities/WPEngine.md) - WordPress hosting company used as a generous affiliate-incentive growth case.
 - [TripAdvisor](entities/TripAdvisor.md) - Travel-review platform used as an SEO, review, badge, and partnership growth case.
-- [Spotify](entities/Spotify.md) - Music-streaming company represented through product growth, workplace practices, design-system governance, and Apple's counterfactual choice between buying scale and buying vision.
+- [Spotify](entities/Spotify.md) - Music-streaming company represented through product growth, playlist discovery and manipulation risk, workplace practices, design governance, and infrastructure operations.
 - [Tobias van Schneider](entities/TobiasVanSchneider.md) - Designer-author using writing, .Mail, and product examples to explain sunk-cost decision traps.
 - [.Mail App](entities/DotMailApp.md) - Abandoned email-client project used as Tobias van Schneider's personal sunk-cost example.
 - [Semplice](entities/Semplice.md) - Designer portfolio platform named in Tobias van Schneider's author biography.
@@ -2378,6 +2381,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Playlist Manipulation](concepts/PlaylistManipulation.md) - Purchase or inflation of playlist access, placement, and engagement signals to create streams, credibility, revenue, or further platform distribution.
 - [Virtual Reality Sports](concepts/VirtualRealitySports.md) - Immersive sports production and distribution for remote presence, repeated broadcast learning, and prospective interaction.
 - [Bookings to Cash Conversion](concepts/BookingsToCashConversion.md) - Discipline of separating booked commitments from collected cash after timing, conditions, adoption, and cancellation risk.
 - [Platform Neutrality](concepts/PlatformNeutrality.md) - Avoiding competition in an adjacent layer when broad cooperation there creates more value for the core product than first-party control.
@@ -2496,7 +2500,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [User Trust Capital](concepts/UserTrustCapital.md) - Accumulated goodwill from reliable product experiences and communication that shapes how users interpret failures and major changes.
 - [First-Mover Strategy](concepts/FirstMoverStrategy.md) - Turning uncontested early entry into durable market leadership through capability building, adaptation, and competitor learning.
 - [Online Dating Social Integration](concepts/OnlineDatingSocialIntegration.md) - Hypothesis that dating platforms add ties beyond existing social circles and can alter population-level partner matching.
-- [Music Discovery](concepts/MusicDiscovery.md) - Encountering unfamiliar music through interacting platform, human, editorial, physical, live, and historical pathways.
+- [Music Discovery](concepts/MusicDiscovery.md) - Encountering unfamiliar music through interacting platform, human, editorial, physical, live, and historical pathways whose signals may also be commercially distorted.
 - [Graduate Student Financial Planning](concepts/GraduateStudentFinancialPlanning.md) - Coordination of cash flow, taxes, liquidity, debt, insurance, housing, and long-horizon investing around graduate-school constraints and career transitions.
 - [Real-Time Collaborative Editing](concepts/RealtimeCollaborativeEditing.md) - Responsive multi-client editing whose concurrent operations must converge on one shared document state.
 - [Operational Transformation](concepts/OperationalTransformation.md) - Collaborative sequence-editing method that rewrites concurrent operations to preserve their intended effects.
