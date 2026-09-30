@@ -7319,3 +7319,11 @@ Updated [[KaraSwisher]], [[CodeConference]], and [[AccessJournalism]] from their
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Keep earning your title, or it expires
+
+Added [[ActionGroundedIdentity]] and updated [[DerekSivers]] from his complete ordered evidence inventory. Recorded Sivers's distinction between legitimate past accomplishment and present role status, his warning that identity labels can provide satisfaction without action, and his present-versus-past-tense self-audit. Preserved durable qualifications, relationships, constrained inactivity, and aspirational identity as limits on the rule, and treated the essay as normative reflection rather than causal evidence. Opened the sole local image and omitted it as a decorative author portrait, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

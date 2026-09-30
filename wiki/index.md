@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Keep earning your title, or it expires](sources/keep-earning-your-title-or-it-expires-derek-sivers.md) - Derek Sivers argues that present-tense role titles should remain accountable to current conduct because identity claims can provide premature satisfaction without action.
 - [Kara Swisher Is Silicon Valley's Most Feared and Well-Liked Journalist. How Does That Work?](sources/kara-swisher-is-silicon-valleys-most-feared-and-well-liked-journalist-how-does-that-work.md) - A 2014 profile explains Swisher's influence through sourcing, institutional memory, confrontation, discretion, and conference power while preserving the conflicts created by elite access.
 - [搞懂异地多活，看这篇就够了](sources/kaito-gao-dong-yi-di-duo-huo-kan-zhe-pian-jiu-gou-le.md) - Kaito develops high availability from backups and same-city redundancy into unitized cross-city active-active and multi-site replication, while preserving consistency, latency, capacity, and operational limits.
 - [KF: Batch Gmail](sources/kf-batch-gmail.md) - Kenneth Friedman uses a Gmail filter and timed Apps Script to batch inbox visibility while leaving productivity effects, current compatibility, and broad mailbox-permission risk unresolved.
@@ -2194,7 +2195,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dan Shipper](entities/DanShipper.md) - Author and entrepreneur connecting future-oriented note taking with learning-based startup decisions.
 - [Firefly](entities/Firefly.md) - Company used in Dan Shipper's example of desired learning sustaining early entrepreneurial work through discouraging results.
 - [Derek Lieu](entities/DerekLieu.md) - Game-trailer creator and educator whose course influenced the source author's tutorial-writing practice.
-- [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer cited for product-idea filtering, business creativity, and open email connection.
+- [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer connecting selective commitment, business creativity, openness, and present-tense identity with action.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
 - [E2B](entities/E2B.md) - Agent code-execution sandbox discussed as useful execution isolation but insufficient for capability and side-effect semantics.
 - [EasyCV](entities/EasyCV.md) - Zhang Xuan's programmer resume-builder product and product-development experiment.
@@ -2529,6 +2530,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Action-Grounded Identity](concepts/ActionGroundedIdentity.md) - Principle that present-tense roles should remain answerable to present conduct rather than rest only on past achievement or declaration.
 - [Preimplementation Feature Discovery](concepts/PreimplementationFeatureDiscovery.md) - Mapping and questioning user and operator flows to expose necessary product scope before implementation.
 - [Multi-Site High Availability](concepts/MultiSiteHighAvailability.md) - Layered design for surviving machine, facility, network, and city-scale failures through redundant serving stacks, state replication, routing, and practiced failover.
 - [Traffic Unitization](concepts/TrafficUnitization.md) - Stable routing and ownership of related workloads so normal reads and writes complete inside one site while units remain movable during failure.

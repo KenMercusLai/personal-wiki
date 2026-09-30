@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
       "5ee22c7c6cc4fcc058dc34df6df9d09c383ef73e2cb9cdd29a51d54afa493ac1",
       "11af0e3361cc5832a64b67f98990f0b1619b7708a08af295ac11ea660121dcfc",
       "d17c76c302c6b15966f1eb6673f9d44f5e99fa8df07679871605d04ba5aded51",
@@ -673,11 +674,28 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 671
+    "paragraph_count": 672
   },
-  "overview_commit": "2059a02bdb21b6db1253b6d3bd85a4c51af10fc9",
-  "overview_digest": "70b270ce1073000f92ff296270fd1f814a596e471beeba7ee08f02d3b9ebf297",
+  "overview_commit": "7e595b27159a413c671f49eb840775aa6143abbf",
+  "overview_digest": "faaf90e4fcb2f767c06f2a3bf7f4fe2850b32b881863634e20abfa4b352c6567",
   "paragraphs": [
+    {
+      "id": "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[DerekSivers]] source adds [[ActionGroundedIdentity]] as an accountability rule for self-description: a present-tense title such as entrepreneur, athlete, leader, risk-taker, success, or good friend should remain supported by present conduct rather than persist automatically from an earlier achievement. Sivers's decision to stop calling himself an entrepreneur separates legitimate past accomplishment from current role status and proposes explicit tense as a self-audit: describe what was done in the past tense and reserve the present tense for what is still practiced. This connects [[GoalSetting]], [[SelfDiscipline]], and [[WorkHabits]] through a motivational warning that flattering labels can provide premature satisfaction and let declaration substitute for action. The synthesis is deliberately qualified. The source is a short first-person normative essay with no causal evidence; durable qualifications, relationships, constrained inactivity, and aspirational identities do not always expire when visible output pauses. Its useful boundary is correspondence between identity and conduct, not compulsory denial of every role or erasure of past achievement. The sole local image was opened and omitted as a decorative author portrait.",
+      "topic_scores": {
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ActionGroundedIdentity",
+        "DerekSivers",
+        "GoalSetting",
+        "SelfDiscipline",
+        "WorkHabits"
+      ]
+    },
     {
       "id": "5ee22c7c6cc4fcc058dc34df6df9d09c383ef73e2cb9cdd29a51d54afa493ac1",
       "primary_topic": "business-and-markets",

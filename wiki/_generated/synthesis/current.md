@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 2059a02bdb21b6db1253b6d3bd85a4c51af10fc9
+as_of_overview_commit: 7e595b27159a413c671f49eb840775aa6143abbf
 summary: "Current knowledge links calibrated evidence, reliable systems, sustainable value, accountable institutions and media, durable learning, and human limits."
-episode_count: 909
-source_count: 909
-paragraph_count: 671
+episode_count: 910
+source_count: 910
+paragraph_count: 672
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible operating capability, and business models whose access and continuity claims remain independently testable.
+Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible operating capability, and independently testable continuity.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
@@ -50,7 +50,7 @@ Cross-domain findings connect inspectable infrastructure, failure-independent re
 
 ### Culture and Media
 
-Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, and participation; journalistic access can improve information while creating conflicts that safeguards constrain but do not erase.
+Media and culture combine expression and craft with institutions, identity, distribution, monetization, platform power, and accountable access.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -68,7 +68,7 @@ Historical spillovers require attention to lineage, path dependence, institution
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, evidence calibration, consent and context, privacy-aware control, recovery, durable learning, and structural constraints.
+Human outcomes depend on bounded attention, practice-grounded identity, evidence calibration, consent and context, recovery, durable learning, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating observed health a
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, fair rules, bounded knowledge sharing, consent, enforceable limits, recovery, safe support, and structural safeguards as professional power expands.
+Work and learning depend on accessible tools, active practice, fair rules, bounded knowledge sharing, consent, enforceable limits, recovery, safe support, and structural safeguards.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].
