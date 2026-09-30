@@ -4,7 +4,8 @@ type: concept
 tags: [attention, productivity, email, instant-messaging]
 sources:
   - communication-multitasking-you-only-get-1h-12min-day-without-email
-last_updated: 2026-09-26
+  - kf-batch-gmail
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[CommunicationMultitasking]] is repeated switching between a primary work task and email, instant messaging, or similar communication, including both alert-driven interruption and self-initiated checking.
 
 ## Current Synthesis
-The available source frames always-open communication as a form of task switching rather than true parallel work. In [[RescueTime]]'s observational dataset, email and IM overlapped with a large share of productive time and left relatively little communication-free focus. The practical cost is not only time inside the inbox: a message can force mental reorientation, trigger intervening activities, elevate perceived urgency, and delay return to the original task. Batching and alert suppression can protect longer focus blocks, but useful policy must preserve genuine responsiveness and account for differences among roles.
+The available sources frame always-open communication as a form of task switching rather than true parallel work. In [[RescueTime]]'s observational dataset, email and IM overlapped with a large share of productive time and left relatively little communication-free focus. The practical cost is not only time inside the inbox: a message can force mental reorientation, trigger intervening activities, elevate perceived urgency, and delay return to the original task. [[KennethFriedman]] supplies a concrete but unmeasured intervention: hide arrivals from the inbox and release them periodically. Batching and alert suppression can protect longer focus blocks, but useful policy must preserve genuine responsiveness and account for differences among roles.
 
 ## Key Claims
 - Always-open email and IM fragment primary work even when each individual check feels brief.
@@ -20,6 +21,7 @@ The available source frames always-open communication as a form of task switchin
 - Both external notifications and self-interruption contribute to the pattern.
 - Complex work is especially exposed because task-switching costs rise with cognitive demand.
 - Batching communication and suppressing non-urgent alerts can create longer uninterrupted blocks, subject to role-specific response needs.
+- Delivery and visibility can be decoupled so messages keep arriving while the inbox exposes them only at scheduled intervals.
 
 ## Evidence
 Observed overlap and focus time:
@@ -33,14 +35,14 @@ Internal and external interruption:
 
 Complexity and mitigation:
 - [[communication-multitasking-you-only-get-1h-12min-day-without-email]] argues that switching losses grow with task complexity and presents deliberate communication timing as a way to protect focus.
+- [[kf-batch-gmail]] implements deliberate timing with a historical Gmail filter and scheduled Apps Script, including exception rules for important senders or keywords.
 
 ## Counterevidence & Qualifications
-The source combines RescueTime observational aggregates with findings cited from other studies, so those strands do not establish that communication use caused every measured productivity loss. It does not provide its sampling frame, definitions, measurement protocol, distribution, uncertainty, or enough graph data to resolve a reader's criticism that medians were described as averages. The reported figures are therefore source-scoped and dated, not universal benchmarks. Email and IM also enable necessary coordination, support, operational response, accessibility, and care; the right balance depends on urgency, role, team norms, and the cost of delayed response.
+The RescueTime source combines observational aggregates with findings cited from other studies, so those strands do not establish that communication use caused every measured productivity loss. It does not provide its sampling frame, definitions, measurement protocol, distribution, uncertainty, or enough graph data to resolve a reader's criticism that medians were described as averages. The reported figures are therefore source-scoped and dated, not universal benchmarks. Friedman's tutorial likewise measures no focus or wellbeing outcomes, uses historical product interfaces, and can be bypassed through other views or fail in ways that delay mail. Email and IM also enable necessary coordination, support, operational response, accessibility, and care; the right balance depends on urgency, role, team norms, and the cost of delayed response.
 
 ## What Changed
-- Established communication multitasking as a distinct interaction between task switching, communication tools, and response expectations.
-- Added source-scoped estimates for communication overlap, uninterrupted productive time, and task-resumption delays.
-- Qualified interruption reduction by measurement limits and role-specific responsiveness needs.
+- Added scheduled inbox release as a concrete environmental intervention beyond alert suppression or personal intention.
+- Added bypass, automation-failure, historical-interface, and unmeasured-outcome limits to batching.
 
 ## Related Concepts
 - [[AttentionManagement]] - communication multitasking consumes limited focus and task-resumption capacity.
@@ -48,3 +50,4 @@ The source combines RescueTime observational aggregates with findings cited from
 - [[PersonalProductivity]] - batching is a practical intervention for preserving focus blocks.
 - [[WorkplaceCollaboration]] - team response norms determine which communication interruptions are necessary or avoidable.
 - [[InformationOverload]] - a high volume of incoming messages increases the filtering and prioritization burden.
+- [[EmailBatching]] - operationalizes deliberate review windows by withholding visible arrivals between releases.

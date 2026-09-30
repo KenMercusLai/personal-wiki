@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "kf-batch-gmail",
+  "images": [
+    {"file": "incoming-mail-filter.png", "alt": "Historical Gmail filter import showing unread mail skipped from the inbox and labeled toBatch"},
+    {"file": "restore-to-inbox-script.png", "alt": "Historical Apps Script that returns toBatch threads to the Gmail inbox"},
+    {"file": "time-driven-trigger.png", "alt": "Historical Apps Script time-driven trigger with an hourly frequency selector"},
+    {"file": "gmail-permission-scope.png", "alt": "Historical Google authorization screen granting broad Gmail access to the Batch Gmail script"}
+  ]
+}

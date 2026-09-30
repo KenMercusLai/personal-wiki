@@ -7288,6 +7288,10 @@ Ran lint. See lint-report.md for details.
 
 Added [[JustinJackson]] and updated [[CreatorAnxiety]] and [[StartupFocus]] from their complete ordered evidence inventories. Recorded the essay's comparison-to-stress-to-displaced-work sequence, its redirection toward users and craft, and the qualification that bounded competitive research may still inform decisions. The supplied Markdown contains no image references, so no visual assets or manifest were required.
 
+## [2026-10-01] ingest | KF: Batch Gmail
+
+Added [[KennethFriedman]] and [[EmailBatching]], and updated [[Gmail]] and [[CommunicationMultitasking]] from their complete ordered evidence inventories. Recorded the two-stage historical mechanism: unread arrivals are skipped from the inbox and labeled `toBatch`, then a time-driven Apps Script marks the batch unread, restores it to the inbox, and removes the label. Preserved urgent-message exceptions, broad mailbox authorization, automation-failure risk, bypass paths, absent outcome measurement, and the 2018 interface boundary. Opened the local lead image and omitted it as a decorative logo; recovered and inspected all 20 missing tutorial screenshots from the original article, retaining four representative filter, script, trigger, and permission views with a canonical asset manifest.
+
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
