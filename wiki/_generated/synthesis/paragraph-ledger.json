@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
       "a9e4e244f41d0fbbe0ccf6ecb9e5b638cb5d8bf36da12a073cc0a875537e3c3a",
       "86920e6722503c4072ae9483bf639cf027444d7eda664cd7400def077f919f3a",
       "f20b6f7a635a86dd7e32d175825cb342616abbd2fca544ffa8d5a1ab3c23526c",
@@ -651,11 +652,26 @@
       "3e927f8d19764d3b81811bc9ee9e4d7aaf40fab098bf442a8ba8f85ee4840160",
       "49d0b77df178a59fd132690cdb9241fc86befdebd289fd86e864196dcd37eafe"
     ],
-    "paragraph_count": 649
+    "paragraph_count": 650
   },
-  "overview_commit": "91ee2341d392a39d9f55b80b483700c54b5c076e",
-  "overview_digest": "ed37c612edbdeb76cedcc281c5f111b0210f85399e18905ec601cafd95317ae1",
+  "overview_commit": "2020612494a14d7d1e3c4d0708fd40d1dd41ce6c",
+  "overview_digest": "cf07ce8a1ee38be4cb8634e976da95e2abdf4d08c9e5397fce0f9a14570a8163",
   "paragraphs": [
+    {
+      "id": "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[ErikDietrich]] source strengthens the wiki's distinction between [[ManagementRoleFit]] and [[DualCareerTracks]] through a personal career reversal. Dietrich says he pursued technical leadership partly because he wanted freedom from micromanagement and poor technical decisions, then discovered that authority over those decisions reduced his own implementation time and made him the final escalation point. Moving from CIO work into freelance development, coaching, and consulting restored proximity to building without requiring him to treat team membership or another person's technical direction as diminished rank. The durable organizational implication is that autonomy and authority are separate needs: credible senior-contributor paths should preserve pay, influence, respect, and meaningful execution control without requiring direct reports, while leadership should be chosen for its actual delegation, enabling, and accountability work. The preserved comments add a useful but definition-sensitive distinction between appointed management and influence that emerges because peers value someone's judgment. The evidence remains one 2016 retrospective and selected comments; it does not compare career satisfaction or performance across organizations, and its favorable freelancing outcome omits client control, income volatility, sales work, benefits, and other constraints. Both effective images were opened and omitted as decorative: a football-player sketch illustrating the opening metaphor and a smiley emoji after a comment.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DualCareerTracks",
+        "ErikDietrich",
+        "ManagementRoleFit"
+      ]
+    },
     {
       "id": "a9e4e244f41d0fbbe0ccf6ecb9e5b638cb5d8bf36da12a073cc0a875537e3c3a",
       "primary_topic": "business-and-markets",

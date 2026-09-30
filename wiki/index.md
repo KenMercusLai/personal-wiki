@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [It's Beginning To Look A Lot Like 1937](sources/its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha.md) - Daniel Carter uses a selective 1937 analogy to frame political-market feedback as portfolio risk while leaving data, causality, and timing materially unresolved.
+- [It's Okay Not To Lead](sources/its-okay-not-to-lead-daedtech.md) - Erik Dietrich distinguishes autonomy from authority and argues that hands-on team contribution is a complete career rather than a lower rank than leadership.
 - [It Costs $50k to Hire a Software Engineer](sources/it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog.md) - A practitioner decomposes a rough $50,000 engineering hire into recruiting, interview labor, and ramp-up, then uses the uncertain estimate to examine referrals and retention spending.
 - [Is this my interface or yours?](sources/is-this-my-interface-or-yours-john-saito-medium.md) - John Saito frames “my,” “your,” neutral, and collective interface language as contextual choices about ownership, guidance, ambiguity, and human presence.
 - [Is There Any Room For The Not-Passionate Developer?](sources/is-there-any-room-for-the-not-passionate-developer-philippe-bourgaus-blog.md) - Philippe Bourgau separates varied technical learning from repetitive overwork while exposing how parenthood, stable-income needs, and weak evidence complicate passion-based career norms.

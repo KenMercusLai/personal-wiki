@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-30] ingest | It's Okay Not To Lead
+
+Added [[ErikDietrich]]'s 2016 retrospective distinguishing autonomy from authority, formal title from technical competence, and hands-on contribution from organizational rank. Updated Erik Dietrich, [[ManagementRoleFit]], and [[DualCareerTracks]] from their complete ordered evidence inventories with the implementation, delegation, escalation-pressure, and status trade-offs of leadership. Preserved the first-person, retrospective, selected-comment, and freelancing-comparison limits. Opened both effective images and omitted the football-player sketch and smiley emoji as decorative, so no asset manifest was required.
+
 ## [2026-09-30] ingest | Is There Any Room For The Not-Passionate Developer?
 
 Added [[PhilippeBourgau]]'s 2016 reflection on passion, varied technical learning, sustainable effort, and the career constraints of parenthood. Updated Philippe Bourgau, [[WorkLifeBalance]], [[EngineeringExpertise]], and [[DeliberatePractice]] from their complete ordered evidence inventories; preserved the direct conflict with the 9-to-5 developer account and rejected passion, extracurricular coding, or hours beyond paid work as universal competence signals. Opened the sole local image and retained its evidence-bearing productivity-and-overtime chart under a descriptive canonical filename, while qualifying it as an uncited illustration rather than measured evidence.
@@ -7011,6 +7015,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | It's Beginning To Look A Lot Like 1937
 
 Added [[DanielCarter]]'s 2017 comparison of the late-2010s economic and political climate with 1937. Created Daniel Carter, [[RayDalio]], and [[HistoricalAnalogyInInvesting]]; updated [[InvestmentRiskDiscipline]] from its complete ordered evidence inventory with severe macro-political scenario awareness while preserving the distinction between stress testing and a validated forecast or timing signal. Retained all three evidence-bearing charts under descriptive canonical filenames and qualified the ShadowStats unemployment series, undocumented populism-index construction, selective war annotations, causal ambiguity, missing base rates, and cross-period structural differences.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 

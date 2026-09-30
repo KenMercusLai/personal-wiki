@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 91ee2341d392a39d9f55b80b483700c54b5c076e
+as_of_overview_commit: 2020612494a14d7d1e3c4d0708fd40d1dd41ce6c
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 870
-source_count: 870
-paragraph_count: 649
+episode_count: 871
+source_count: 871
+paragraph_count: 650
 topic_count: 9
 ---
 
@@ -18,11 +18,11 @@ topic_count: 9
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome.
-- [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment.
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
 - Managed-service recovery is dependable only when copies, timing assumptions, degraded modes, and escalation paths escape the relevant failure: [[Instapaper]] needed a new filesystem, write reconciliation, [[Pinterest]] SRE, and [[AWS]] intervention because [[AmazonRDS]] snapshots preserved the production limit.
 - [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works make presence, location, agency, or time variation part of media value; [[PerformativeSelfPresentation]] adds that immediate capture can preserve positive edited memory while pulling attention from the lived moment toward its audience-facing version.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
+- [[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope, equivalent compensation, status, and meaningful autonomy while [[ManagementRoleFit]] reserves people management for those able and motivated to enable others through mentoring, staffing, feedback, team health, delegation, and final accountability. [[ErikDietrich]] adds that resistance to micromanagement can be mistaken for desire to lead and that authority may displace hands-on implementation, extending [[EngineeringCareerArchitecture]], [[ProductDesignCareerLadder]], and [[EngineeringTeamMotivation]] without making the two roles identical.
 - [[ContingentWorkforce]] can give [[Google]] specialist access, temporary capacity, faster staffing, and headcount flexibility while dividing formal employment responsibility from practical control over tasks, access, intellectual property, and organizational status. The same structure extends [[DataAnnotationLabor]] into outsourced mapping labels, contract content moderation, and human exception handling, so flexibility must be assessed alongside benefits, information access, grievance power, continuity, conversion paths, and heterogeneous worker outcomes.
 
 ## Synthesis by Domain
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating observed health a
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, distributed support, and visibility into risk and control; career choices also need realistic tests of learning value, ownership upside, and personal risk capacity.
+Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, distributed support, and visibility into risk and control; career systems should distinguish autonomy and senior contribution from authority over people while testing learning value, ownership upside, and personal risk capacity.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].
