@@ -329,7 +329,7 @@
       "398fab4967518b19ba40a056b29626cffceba0f31193721978caed2d7b19314e",
       "5856d0f8ce20be27daaa35d53e8a75cfd959e24eb4781c54dc0d9a61a3e4f8ae",
       "3804e300e6227a66ba3a8b6eb5f7a26ce13173eb153f3540adb66b66f6dfa73e",
-      "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
+      "06f8f4d0e32a2095ff31370d40e0f67c9404417179249202348e405c575320a6",
       "85293d045fa450f3f611e55e9a034689d54c743303a6c10ec80020a842ef7596",
       "b928b473400e32f70b22764d60796a54d65e1582c4c6693707bbc3198aad0822",
       "4d89461978b279456befae35430cca9bff5a4396e3e90aaa9b5948827cf7df04",
@@ -664,8 +664,8 @@
     ],
     "paragraph_count": 660
   },
-  "overview_commit": "39064ca0daa36c333472a0f6ee2e31e1e39ae2a2",
-  "overview_digest": "7ab62d15869628e3b8cc95a6c18302d8aef526cb7f710ec37119a05feff645df",
+  "overview_commit": "cf7f882e52b4e5a4201a817289bbc491458aaf22",
+  "overview_digest": "f18fed397fd863faa0c23d021ccae37fb37d5378a43559044ee9423b95adb7f6",
   "paragraphs": [
     {
       "id": "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
@@ -6985,22 +6985,28 @@
       ]
     },
     {
-      "id": "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
+      "id": "06f8f4d0e32a2095ff31370d40e0f67c9404417179249202348e405c575320a6",
       "primary_topic": "work-education-and-society",
-      "secondary_topics": [],
-      "text": "The newest The Early Hour interview adds a sleep-and-recovery layer to the wiki's productivity and work-environment material. [[AriannaHuffington]] frames [[SleepAsPerformanceEnhancer]] as the \"ultimate performance enhancer,\" linking sufficient rest to natural waking, joy, decision making, emotional intelligence, cognition, and creativity. [[MorningRecoveryRoutine]] captures her device-free start-of-day pattern of gratitude or intentions, movement, meditation, coffee, and flexible adaptation while traveling. [[BurnoutPrevention]] extends the point from individual habit to workplace systems: [[HuffingtonPost]] is described as a 24-hour newsroom that used nap rooms, after-hours email norms, and a vacation email deletion tool to reduce the temptation to work during time off. [[TheSleepRevolution]] supplies the book-and-campaign context, while the source remains interview-based and its remote lead image could not be inspected because the URL returned 404.",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Jeff Bezos questionnaire extends the wiki's sleep-and-recovery layer from general performance to consequential judgment. [[AriannaHuffington]] frames [[SleepAsPerformanceEnhancer]] as the \"ultimate performance enhancer,\" linking sufficient rest to natural waking, joy, decision making, emotional intelligence, cognition, and creativity; [[JeffBezos]] independently says eight hours leaves him energized and that extra waking time can be illusory productivity when a small number of key decisions and interactions need quality more than volume. [[DecisionQuality]] captures that value-over-count distinction, while [[WorkLifeBalance]] now includes Bezos's harmony model in which positive work and home experience can reinforce one another without erasing finite time, care, health, power, or resource constraints. [[MorningRecoveryRoutine]] captures Huffington's device-free start-of-day pattern, and [[BurnoutPrevention]] extends recovery into workplace systems through [[HuffingtonPost]] nap rooms, after-hours email norms, and vacation email deletion. Both sources remain interview testimony rather than clinical or causal evidence; the Bezos source's three local images were duplicate non-evidentiary portraits, and Huffington's remote lead image returned 404.",
       "topic_scores": {
-        "culture-and-media": 1,
-        "psychology-and-personal-development": 1,
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1,
         "work-education-and-society": 2
       },
       "wikilinks": [
         "AriannaHuffington",
         "BurnoutPrevention",
+        "DecisionQuality",
         "HuffingtonPost",
+        "JeffBezos",
         "MorningRecoveryRoutine",
         "SleepAsPerformanceEnhancer",
-        "TheSleepRevolution"
+        "WorkLifeBalance"
       ]
     },
     {

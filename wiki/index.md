@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders](sources/jeff-bezos-why-getting-8-hours-of-sleep-is-good-for-amazon-shareholders.md) - Jeff Bezos links eight hours of sleep to energy, consequential decision quality, and reciprocal work-life harmony while offering personal testimony rather than causal outcome evidence.
 - [Building an AI Agent to Parse Resumes and Job Descriptions and Recommend the Best Candidates](sources/jay-kim-building-an-ai-agent-to-parse-resumes-and-job-descriptions-and-recommend-the-best-candidates.md) - Jay Kim sketches a resume-ranking pipeline built from text extraction, sentence embeddings, and cosine similarity while leaving accuracy, fairness, privacy, and hiring validity untested.
 - [The Illustrated Transformer](sources/jay-alammar-the-illustrated-transformer.md) - Jay Alammar visually decomposes the original encoder-decoder Transformer from embeddings and scaled multi-head attention through positional signals, autoregressive decoding, and training targets.
 - [A Peek Inside Alphabet's Investing Universe](sources/jason-rowley-a-peek-inside-alphabets-investing-universe.md) - Jason Rowley maps Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment entities using qualified 2017 Crunchbase data.
@@ -2476,6 +2477,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Decision Quality](concepts/DecisionQuality.md) - Prioritizing the value of consequential judgments over decision count, visible activity, or nominal working hours.
 - [Corporate Venture Investing](concepts/CorporateVentureInvesting.md) - Startup investing through corporation-affiliated vehicles differentiated by stage, sector, strategic purpose, or non-equity program.
 - [Revenue Per Employee](concepts/RevenuePerEmployee.md) - Aggregate productivity ratio used here as a calibrated but highly qualified headcount-based estimator of private SaaS revenue.
 - [Founder Sacrifice Norm](concepts/FounderSacrificeNorm.md) - Contested belief that willingness to absorb extreme personal loss or transfer risk to a team demonstrates founder readiness.

@@ -7132,6 +7132,10 @@ Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective co
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-01] ingest | Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders
+
+Added [[DecisionQuality]] as a qualified distinction between consequential judgment and raw activity volume. Updated [[JeffBezos]], [[Amazon]], [[SleepAsPerformanceEnhancer]], and [[WorkLifeBalance]] from their complete ordered evidence inventories with Bezos's eight-hour sleep priority, concern about illusory productivity, and reciprocal work-life-harmony framing. Preserved the source as brief personal testimony rather than evidence of a universal sleep duration, causal shareholder benefit, or conflict-free work-home relationship. Inspected all three local images and omitted the lead crop, tiny thumbnail, and larger portrait as duplicate non-evidentiary photographs from the same Bezos photo session.
+
 ## [2026-10-01] ingest | The Illustrated Transformer
 
 Added [[JayAlammar]] and [[PositionalEncoding]], and updated [[TransformerArchitecture]] and [[AttentionMechanism]] from their complete ordered evidence inventories. Distinguished the original encoder-decoder Transformer from decoder-only GPT models; added scaled query-key-value attention, multi-head output projection, causal masking, cross-attention, residual normalization, position signals, autoregressive decoding, and supervised output distributions. Preserved the source's 2017 base-model scope, its corrected Tensor2Tensor-versus-paper positional visualization, the pedagogical shortcut in its loss discussion, and the interpretability limits of attention maps. Opened and retained all 36 substantive diagrams and animations under descriptive canonical filenames with matching manifest alt text.
@@ -7139,6 +7143,10 @@ Added [[JayAlammar]] and [[PositionalEncoding]], and updated [[TransformerArchit
 ## [2026-10-01] ingest | A Peek Inside Alphabet's Investing Universe
 
 Added [[CorporateVentureInvesting]] and source-bounded profiles for [[JasonRowley]], [[Alphabet]], [[CapitalG]], and [[GradientVentures]]. Updated [[GV]] and [[Google]] from their complete ordered evidence inventories with Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment roles. Preserved the 2017 Crunchbase snapshot boundary: deal and network counts do not establish capital deployed, ownership, returns, coordination, or current program structure. The supplied Markdown contains no image references, so the network visualization mentioned in the prose could not be inspected or retained.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
