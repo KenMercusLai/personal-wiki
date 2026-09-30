@@ -930,8 +930,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [You know your product team is failing — do you know why?](sources/johnathan-nightingale-you-know-your-product-team-is-failing-do-you-know-why.md) - Johnathan Nightingale argues that experienced product managers turn busy product output into predictable, instrumented progress by synthesizing context, choosing trade-offs, and orchestrating delivery without CEO authority.
 
 - [Focus on Your Own Shit](sources/justin-jackson-focus-on-your-own-shit.md) - Justin Jackson argues that comparison-driven monitoring displaces creative work and should give way to customer understanding, craft, and product improvement.
+- [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Kannan Chandrasegaran](entities/KannanChandrasegaran.md) - Practitioner-author advocating low-fidelity user-flow and specification discovery before software implementation.
 - [Kaito](entities/Kaito.md) - Pseudonymous practitioner-author explaining multi-site active-active architecture and cross-data-center storage synchronization.
 - [Kenneth Friedman](entities/KennethFriedman.md) - Practitioner who documented a historical Gmail filter-and-script workflow for scheduled email visibility.
 - [Justin Jackson](entities/JustinJackson.md) - Creator and entrepreneur who redirects comparison-driven attention toward customers, craft, and product improvement.
@@ -2522,6 +2524,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Preimplementation Feature Discovery](concepts/PreimplementationFeatureDiscovery.md) - Mapping and questioning user and operator flows to expose necessary product scope before implementation.
 - [Multi-Site High Availability](concepts/MultiSiteHighAvailability.md) - Layered design for surviving machine, facility, network, and city-scale failures through redundant serving stacks, state replication, routing, and practiced failover.
 - [Traffic Unitization](concepts/TrafficUnitization.md) - Stable routing and ownership of related workloads so normal reads and writes complete inside one site while units remain movable during failure.
 - [Email Batching](concepts/EmailBatching.md) - Grouping email review into scheduled windows, sometimes by withholding new messages from the visible inbox between releases.

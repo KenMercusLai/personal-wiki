@@ -7303,3 +7303,11 @@ Added [[Kaito]], [[MultiSiteHighAvailability]], and [[TrafficUnitization]] from 
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Your App is an Onion: Why Software Projects Spiral Out of Control
+
+Added [[KannanChandrasegaran]] and [[PreimplementationFeatureDiscovery]], and updated [[FeatureCreep]] from its complete ordered evidence inventory. Recorded the distinction between unrelated capability accumulation and the profiles, data, validation, communication, payment, operator, and workflow detail required to fulfill an original product objective. Preserved the method's limits: the marketplace and week-versus-month comparison are illustrative, static flows can rationalize overbuilding, and technical, market, accessibility, abuse, and live-use uncertainty remain. Opened all 11 local images, retained five distinct feature-expansion, scale, cycle, and user-flow diagrams under descriptive filenames with a canonical asset manifest, and omitted the author avatar, opening and closing illustrations, initial list, and compact duplicate cycle diagrams as decorative or redundant.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

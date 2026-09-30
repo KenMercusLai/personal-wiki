@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control",
+  "images": [
+    {
+      "file": "expanded-book-marketplace-features.webp",
+      "alt": "A simple two-item book-request feature list expands into profiles, a book database, proximity matching, chat, payments, verification, and maps"
+    },
+    {
+      "file": "route-detail-at-different-scales.webp",
+      "alt": "A straight line across a city map becomes a constrained street route when viewed at implementation scale"
+    },
+    {
+      "file": "app-revision-cycle.webp",
+      "alt": "A feature list produces an unhappy first app and two month-long build-and-revision cycles before a satisfactory third version"
+    },
+    {
+      "file": "specification-revision-cycle.webp",
+      "alt": "Three increasingly detailed feature maps are revised in one-day cycles before producing a satisfactory first app"
+    },
+    {
+      "file": "hand-drawn-user-flow.webp",
+      "alt": "A hand-drawn screen flow branches through choices and forms to expose screens, fields, and interaction paths"
+    }
+  ]
+}
