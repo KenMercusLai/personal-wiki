@@ -7199,3 +7199,11 @@ Added [[SalaryTransparency]] and source-bounded profiles for [[MarcLore]] and [[
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Jim Scheinman's Maven Ventures: 10 Key Lessons Facebook Learned from Friendster
+
+Added source-bounded profiles for [[JimScheinman]], [[Friendster]], and [[Bebo]], and updated [[Facebook]], [[MarkZuckerberg]], [[StartupFocus]], and [[ViralLoops]] from their complete ordered evidence inventories. Connected narrow audience choice, bounded product experiments, proven technology, site-speed protection, explicit viral-growth ownership, selective hiring, leadership continuity, product-engineering alignment, and delayed social-network monetization while preserving the retrospective, unverified, and context-specific nature of Scheinman's causal account. Opened all three local images and omitted the author headshot and two 16×16 Tumblr interface icons as decorative, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

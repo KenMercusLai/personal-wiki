@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Jim Scheinman's Maven Ventures: 10 Key Lessons Facebook Learned from Friendster](sources/jim-scheinmans-maven-ventures-10-key-lessons-facebook-learned-from-friendster.md) - Jim Scheinman compares Friendster, Facebook, and Bebo across audience focus, feature cadence, performance, technology, virality, hiring, leadership, politics, and monetization timing.
 - [Jet employees know each others' salaries](sources/jet-employees-know-each-others-salaries-business-insider.md) - Tim Stenovec reports Jet's visible 13-level salary and equity system while leaving its fairness, employee response, and outcomes unmeasured.
 - [34 Questions to Ask a Potential Co-Founder](sources/jessica-alter-34-questions-to-ask-a-potential-co-founder.md) - Jessica Alter turns co-founder fit into a broad pre-commitment discussion while treating joint work and references as stronger behavioral evidence than answers alone.
 - [Tricks to Monetize Your Side Project](sources/jeremy-a-boyd-tricks-to-monetize-your-side-project.md) - Jeremy A Boyd combines lightweight conversion tests, behavior-triggered trial onboarding, tiered pricing, and additional revenue streams while leaving cohort, retention, and causal evidence undisclosed.
@@ -1674,7 +1675,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Elon Musk](entities/ElonMusk.md) - Founder represented through risk-taking, demanding operations, concentrated organizational control, and charismatic future-setting authority.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
 - [Tesla](entities/Tesla.md) - Electric-vehicle company represented through premium market entry, Model 3 brand demand, a camera-led autonomy data strategy, and coupled production capacity.
-- [Mark Zuckerberg](entities/MarkZuckerberg.md) - Founder example used to show learning by quickly launching Thefacebook and responding to real problems.
+- [Mark Zuckerberg](entities/MarkZuckerberg.md) - Facebook founder represented through fast launch, product-led continuity, portfolio strategy, and a source-attributed emphasis on performance and growth before revenue.
+- [Jim Scheinman](entities/JimScheinman.md) - Former Friendster and Bebo operator comparing early social networks across product, growth, technology, organization, and monetization choices.
 - [Mahesh Balakrishnan](entities/MaheshBalakrishnan.md) - Distributed-systems academic and Delos tech lead represented by production database leadership lessons.
 - [Delos](entities/Delos.md) - Facebook production storage system used as the case for production infrastructure leadership, reliability, API migration, and observability lessons.
 - [ZooKeeper](entities/ZooKeeper.md) - Coordination/storage system referenced as the incumbent Facebook infrastructure Delos was replacing.
@@ -2217,7 +2219,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Groove](entities/MicrosoftGroove.md) - Microsoft's peer-to-peer business collaboration product and SharePoint synchronization environment in a 2008 internship account.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
-- [Facebook](entities/Facebook.md) - Social, media, advertising, and data platform whose graph, persistent identity, distribution power, and engagement model create context-dependent strengths and tensions.
+- [Friendster](entities/Friendster.md) - Early social-network pioneer represented through broad targeting, costly features, performance failure, organizational instability, and premature monetization.
+- [Facebook](entities/Facebook.md) - Social, media, advertising, and data platform whose narrow early rollout, graph, persistent identity, distribution power, and engagement model create context-dependent strengths and tensions.
+- [Bebo](entities/Bebo.md) - Student-focused social network represented as applying Friendster lessons through performance discipline, small experiments, measured virality, and delayed advertising.
 - [Ted Livingston](entities/TedLivingston.md) - Kik leader and author arguing that chat could become the new browser and bots the new websites.
 - [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example, sponsored Moments ad surface, and chat-payments proof case.
 - [Xiaoice](entities/Xiaoice.md) - Conversational chatbot used by Botnerds as an example where the chatbot label accurately fits a chat-first product.
@@ -3219,7 +3223,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Next Next Job Framework](concepts/NextNextJobFramework.md) - Andrew Chen's career-decision method of choosing the next role by working backward from the role after it.
 - [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice joining acquisition judgment with product behavior, engineering, experiments, instrumentation, channels, incentives, and trust.
-- [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
+- [Viral Loops](concepts/ViralLoops.md) - Product-mediated acquisition mechanisms whose success depends on natural sharing, retained value, explicit ownership, measurement, and audience fit.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using valuable or memorable content, deliberate distribution, owned audience, and measurement to turn attention into product growth.
 - [Multi-Product Content Strategy](concepts/MultiProductContentStrategy.md) - Mapping products, audiences, or use cases against funnel stages to expose and prioritize content-coverage gaps.
@@ -3613,7 +3617,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity, product-scope constraint, and survival time rather than only calendar months before cash runs out.
 - [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate and employee verification of startup viability, payroll, conduct, role conditions, fit, learning returns, and escalation signals.
 - [Vanity Metrics](concepts/VanityMetrics.md) - Attention or activity metrics that look impressive but weakly evidence durable business progress unless tied to revenue, customers, retention, or active use.
-- [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path or differentiated wedge when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
+- [Startup Focus](concepts/StartupFocus.md) - Discipline of protecting a coherent customer, product, performance, and business sequence when competing opportunities consume scarce attention.
 - [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing system whose new-market scale redirected investment and innovation away from PCs while seeding adjacent and post-phone technologies.
 - [Osborne Effect](concepts/OsborneEffect.md) - Product-transition failure mode where announcing the next platform too early collapses demand for the current one before the replacement is ready.

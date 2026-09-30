@@ -7,7 +7,8 @@ sources:
   - 9-ways-to-build-virality-into-your-product-gabor-cselle-medium
   - being-a-product-manager-how-to-get-your-products-built
   - finding-your-startups-customer-acquisition-channels
-last_updated: 2026-09-28
+  - jim-scheinmans-maven-ventures-10-key-lessons-facebook-learned-from-friendster
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,12 +20,15 @@ The sources present viral loops as product-mediated distribution, not ordinary w
 
 A product-management prioritization lens adds a warning: invite loops should be built only when the core experience is already sticky enough that users can invite friends without feeling spammy or embarrassed. Two-sided incentives can help, as with [[Uber]]'s ride-credit example, but both inviter and invitee need to feel real value. The channel-selection source further separates generic referral prompts from amplification of an existing behavior: people already ride together, pay one another, collaborate, share files, or observe branded products in public. Incentives can increase the frequency or speed of that behavior, while badges, signatures, uniforms, stickers, and visible hardware can make private or ambiguous use legible to non-users. These loops still need recipient relevance, low-friction conversion, cohort-quality economics, and a product good enough to retain the users who arrive.
 
+Scheinman's social-network comparison adds operating ownership and propagation boundaries. He says Facebook maintained a dedicated growth function, while [[Bebo]] made virality a team-wide responsibility and continuously A/B-tested features such as “share the love.” He also describes disabling Bebo's viral features outside target countries and contrasts this with [[Friendster]]'s rapid growth among users who did not fit its stated US-first strategy. A viral loop can therefore be effective at propagation yet strategically harmful when it overloads the product, attracts a community the company is not prepared to serve, or spreads beyond the market the business model and social context were designed around.
+
 ## Key Claims
 - Viral loops work when sharing amplifies an existing social behavior, creates enough value or social capital for the user, and remains a natural part of product use rather than a separate campaign.
 - Public artifacts such as profiles, badges, embeds, links, sent messages, and socially noticeable offline use can become acquisition surfaces.
 - Incentives can strengthen a viral loop when both parties receive relevant value, the core product is sticky enough to justify invitation, and cohort-adjusted economics include cannibalization and gaming.
 - Collaboration loops work when inviting another person unlocks more product value for the inviter.
 - Viral-loop examples are vulnerable to hindsight bias when sources do not measure conversion paths directly.
+- Viral growth needs explicit ownership, continuous measurement, and audience controls because propagation volume alone does not establish strategic fit or retained value.
 
 ## Evidence
 - Built into communication: [[51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses]] describes [[Hotmail]] adding a signup link to outgoing emails and [[Dropbox]] exposing recipients to the service through file sharing; [[9-ways-to-build-virality-into-your-product-gabor-cselle-medium]] adds [[Mailchimp]] signatures and [[GroupMe]] first-message onboarding.
@@ -37,11 +41,13 @@ A product-management prioritization lens adds a warning: invite loops should be 
 - Existing behavior and social capital: [[finding-your-startups-customer-acquisition-channels]] uses rides, payments, file sharing, shared meals, and visible scooters to argue that loops should amplify behavior already inherent in the product.
 - Referral test economics: [[finding-your-startups-customer-acquisition-channels]] recommends starting from cohort-adjusted LTV, accounting for cannibalization and gamers, then testing a break-even incentive before optimizing CAC.
 - Public exposure: [[finding-your-startups-customer-acquisition-channels]] describes badges, window stickers, uniforms, branded equipment, signatures, and free-tier branding as ways to make use visible beyond the current customer.
+- Growth ownership and boundaries: [[jim-scheinmans-maven-ventures-10-key-lessons-facebook-learned-from-friendster]] describes Facebook's dedicated viral-growth work, Bebo's team-wide A/B testing and geographic controls, and Friendster's mismatch between rapid propagation and intended audience strategy.
 
 ## Counterevidence & Qualifications
-The sources rarely supply funnel-level evidence for each loop. Some cases may have grown because of product utility, novelty, market timing, press, search ranking, or advertising support. Viral loops can also decay when platforms restrict sharing surfaces, users perceive invitations as spam, recipients no longer find the artifact novel, or the product fails to convert and retain users after exposure. Incentives are especially fragile when the reward substitutes for product value instead of amplifying it. The newest source's claim that every large social network scaled through virality is an illustrative generalization, and some cited cold-start or visibility tactics involved unauthorized content, automation, or platform gaming that should not be treated as acceptable current practice.
+The sources rarely supply funnel-level evidence for each loop. Some cases may have grown because of product utility, novelty, market timing, press, search ranking, or advertising support. Viral loops can also decay when platforms restrict sharing surfaces, users perceive invitations as spam, recipients no longer find the artifact novel, or the product fails to convert and retain users after exposure. Incentives are especially fragile when the reward substitutes for product value instead of amplifying it. A geographically or demographically bounded loop can also exclude willing users, while unrestricted propagation can overload infrastructure or create a user mix the product and business are not prepared to support. The claims about Facebook, Bebo, and Friendster come from Scheinman's retrospective without experiment data or independently verified growth-team history. The broader claim that every large social network scaled through virality remains an illustrative generalization, and some cited cold-start or visibility tactics involved unauthorized content, automation, or platform gaming that should not be treated as acceptable current practice.
 
 ## What Changed
+- Added explicit growth ownership, continuous A/B testing, and audience-boundary control from the Facebook, Bebo, and Friendster comparison.
 - Added existing social behavior and social-capital effects as referral-design tests.
 - Added cohort-adjusted LTV, cannibalization, and incentive gaming to paid-referral economics.
 - Expanded visible-use loops from hardware to badges, uniforms, signatures, and free-tier branding.
@@ -56,3 +62,5 @@ The sources rarely supply funnel-level evidence for each loop. Some cases may ha
 - [[CustomerAcquisitionCost]] - paid referrals need a cohort-adjusted acquisition-cost model.
 - [[CustomerLifetimeValue]] - incentive ceilings depend on the value of referred cohorts, not overall average value.
 - [[StartupDistributionStrategy]] - virality is one channel family whose fit depends on product mechanics and user behavior.
+- [[Bebo]] - case where product-loved features, team-wide testing, and geographic controls were combined.
+- [[Friendster]] - case where rapid propagation reportedly diverged from audience and infrastructure strategy.
