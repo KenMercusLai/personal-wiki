@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-01
-as_of_overview_commit: 9862d17b9ee664b13a284bb4711e2ba9674abf5e
-input_digest: 5b6c5103126cc9349f5cba4afa63deba638be3c653b9ce036bc9da78dd7a0875
+as_of_overview_commit: 08bbc7b443b5ac63a1bfa0194eb2992af5782521
+input_digest: 4982fe4c0126bbe98624129f04a624f54304397f070a928b9482b11e05a11bf3
 ---
 
 # Business and Markets
@@ -89,15 +89,16 @@ input_digest: 5b6c5103126cc9349f5cba4afa63deba638be3c653b9ce036bc9da78dd7a0875
 
 ### Ceo Accountability Needs A Visible Management System
 
-[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues that wider management visibility can make distributed capability and continuity more legible, while [[JohnLilly]] uses [[SteveJobs]] to show how posthumous imitation can flatten team contribution and contradictory evidence about interpersonal harm without erasing the CEO's real influence under [[CEOScalingRole]].
+[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues for visible distributed capability, [[JohnLilly]] uses [[SteveJobs]] to resist hero imitation while preserving mixed judgment, and [[YanceyStrickler]] reframes strong independent team performance as an output of [[CEOScalingRole]], with deliberate strategic distance serving direction rather than control of every detail.
 
-**Evidence:** [[CEOCentricLeadership]], [[AbBanerjee]], [[JohnLilly]], [[SteveJobs]], [[CEOScalingRole]], [[CoCEOLeadership]], [[TeamBasedOrganizationalDesign]]
+**Evidence:** [[CEOCentricLeadership]], [[AbBanerjee]], [[JohnLilly]], [[SteveJobs]], [[YanceyStrickler]], [[CEOScalingRole]], [[FounderTimeLeverage]], [[CoCEOLeadership]], [[TeamBasedOrganizationalDesign]]
 
 **Qualifications:**
 
-- The evidence combines one short practitioner argument with [[JohnLilly]]'s personal remembrance; Banerjee's supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.
+- The evidence combines two short practitioner arguments with [[JohnLilly]]'s personal remembrance; Banerjee's supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.
 - Market reactions to CEO departure or death may contain rational information about strategy, relationships, succession readiness, and operating capability as well as excessive identification with one person.
-- Neither source supplies a comparison showing that wider visibility or resistance to hero imitation improves performance or conduct; Lilly's 1997 details are retrospective, the stock-price figure is uncertain, and the claims of harmful treatment are partly secondhand.
+- Strickler's account concerns one unnamed founder and supplies no team, company, outcome, governance, or succession evidence; strategic distance can become detachment when leaders lose operational, customer, employee, or governance information.
+- No source supplies a comparison showing that wider visibility, resistance to hero imitation, or deliberate strategic distance improves performance or conduct; Lilly's 1997 details are retrospective, the stock-price figure is uncertain, and the claims of harmful treatment are partly secondhand.
 
 ### Progressive Equity Precommits Employee Upside Redistribution
 

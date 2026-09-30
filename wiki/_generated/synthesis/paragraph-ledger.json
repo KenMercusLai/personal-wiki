@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "81410720b18d7bbfcd99086a46793d1f4641120ff3692d1e361690f3a435f95d",
       "f9c1f6e2a75c5cc01ffb3242b51c7bb8a401f7430532062add4d4386166093e6",
       "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
       "5ee22c7c6cc4fcc058dc34df6df9d09c383ef73e2cb9cdd29a51d54afa493ac1",
@@ -676,11 +677,28 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 674
+    "paragraph_count": 675
   },
-  "overview_commit": "9862d17b9ee664b13a284bb4711e2ba9674abf5e",
-  "overview_digest": "76446e86fc85903bdfc70d51ed95afcd7b1f2a6de804e21f5f2e63eb806e3990",
+  "overview_commit": "08bbc7b443b5ac63a1bfa0194eb2992af5782521",
+  "overview_digest": "c482b3aa480a248c69261396ecd4406526a4251e0521f13ee68161bfde4d0b1a",
   "paragraphs": [
+    {
+      "id": "81410720b18d7bbfcd99086a46793d1f4641120ff3692d1e361690f3a435f95d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[YanceyStrickler]] source sharpens [[CEOScalingRole]] at the moment when a successful founder mistakes reduced direct contribution for uselessness. Strickler treats the team's stronger independent performance as an organizational output the CEO helped create, shifting the role from supplying the best idea or controlling every detail toward choosing direction, building leaders, and keeping vision in continuing conversation with team judgment. His distinctive mechanism is deliberate strategic distance: time away from office detail, combined with peers, customers, reading, solitude, or other perspective-changing experiences, can help a leader interpret present choices through the intended future. This also qualifies [[CEOCentricLeadership]] by crediting distributed execution without erasing the CEO's responsibility for direction and organizational design, and it connects delegation to [[FounderTimeLeverage]]. The evidence remains one short first-person anecdote about an unnamed founder. It supplies no team, company, outcome, governance, or succession data; distance can become detachment; and growth into a changed role, role redesign, or departure still require evidence from the particular organization. The supplied Markdown contains no image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CEOCentricLeadership",
+        "CEOScalingRole",
+        "FounderTimeLeverage",
+        "YanceyStrickler"
+      ]
+    },
     {
       "id": "f9c1f6e2a75c5cc01ffb3242b51c7bb8a401f7430532062add4d4386166093e6",
       "primary_topic": "ai-and-technology",

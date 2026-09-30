@@ -7343,3 +7343,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Know your job
+
+Added [[YanceyStrickler]] and updated [[CEOScalingRole]] and [[Kickstarter]] from their complete ordered evidence inventories. Recorded Strickler's reframe that a capable team's independent performance can be evidence of successful CEO organization-building, and added deliberate distance from operational detail as a practice for direction-setting and future-oriented judgment. Preserved the boundary between strategic perspective and detachment, as well as role adaptation, redesign, or departure as company-specific choices. No direct contradiction was found; the source instead qualifies CEO models centered on personal ideas and control. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

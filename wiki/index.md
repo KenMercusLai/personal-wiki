@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Know your job](sources/know-your-job-yancey-strickler-medium.md) - Yancey Strickler reframes a founder's reduced direct usefulness as a shift toward direction, team-building, delegation, and deliberate strategic perspective.
 - [Kent Beck: I get paid for code that works, not for tests](sources/kent-beck-i-get-paid-for-code-that-works-not-for-tests.md) - A saved Beck quotation and comment debate frame testing as confidence gained per cost while preserving maintenance, regression, metric, and test-layer disputes.
 - [10x Not 10%](sources/ken-norton-10x-not-10-percent.md) - Ken Norton argues that order-of-magnitude outcomes require problem reframing, bounded failure, evidence-led experimentation, trend awareness, and impact measures rather than familiar effort counts.
 - [Keep earning your title, or it expires](sources/keep-earning-your-title-or-it-expires-derek-sivers.md) - Derek Sivers argues that present-tense role titles should remain accountable to current conduct because identity claims can provide premature satisfaction without action.
@@ -937,6 +938,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Yancey Strickler](entities/YanceyStrickler.md) - Former Kickstarter CEO represented through a team-centered account of direction, delegation, and strategic perspective.
 - [Ken Norton](entities/KenNorton.md) - Product-management writer advocating order-of-magnitude ambition, evidence-led experimentation, and impact-oriented goals.
 - [Kodak](entities/Kodak.md) - Photography incumbent used as a case of profitable product defense obstructing strategic renewal despite early digital invention.
 - [Walt Mossberg](entities/WaltMossberg.md) - Consumer-technology reviewer and Kara Swisher's long-term partner in AllThingsD, Recode, and their live-journalism conference.
@@ -2024,7 +2026,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Firebox](entities/Firebox.md) - Gift and gadget retailer used as an affiliate-network growth example.
 - [Fog Creek](entities/FogCreek.md) - Software company context for Anil Dash's Twitter critique and Glitch example.
 - [Pokemon Go](entities/PokemonGo.md) - Mobile AR game used as a familiar-IP and free-download adoption example.
-- [Kickstarter](entities/Kickstarter.md) - Crowdfunding platform used as a community-growth case and a reported unlimited-vacation reversal.
+- [Kickstarter](entities/Kickstarter.md) - Crowdfunding platform represented through community growth, governance, workplace policy, and Yancey Strickler's 2017 CEO transition.
 - [RAND Corporation](entities/RANDCorporation.md) - Research organization cited for rewarding employees who use their full vacation allowance.
 - [Tribune Publishing](entities/TribunePublishing.md) - Media company cited as dropping an unlimited-vacation policy after one week.
 - [Booking.com](entities/BookingCom.md) - Hotel-booking platform used as a paid-search acquisition and repeat-direct-channel example.
@@ -3309,7 +3311,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow early hiring to recruiting systems that preserve standards through role clarity, evidence, and decision checks under growth pressure.
 - [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, repetition, rituals, feedback, and strategic commitment.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.
-- [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
+- [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward direction, team-building, strategic perspective, culture, hiring, coaching, and communication.
 - [Co-CEO Leadership](concepts/CoCEOLeadership.md) - Shared executive-leadership structure where two or more top leaders divide responsibility, monitor each other, and sustain unified decisions.
 - [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into coaching and humane accountability while refusing to treat vision or results as justification for dehumanizing conduct.
 - [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.

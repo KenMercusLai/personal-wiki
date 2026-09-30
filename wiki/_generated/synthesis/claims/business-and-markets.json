@@ -108,18 +108,21 @@
       "global_candidate": false,
       "id": "ceo-accountability-needs-a-visible-management-system",
       "qualifications": [
-        "The evidence combines one short practitioner argument with [[JohnLilly]]'s personal remembrance; Banerjee's supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.",
+        "The evidence combines two short practitioner arguments with [[JohnLilly]]'s personal remembrance; Banerjee's supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.",
         "Market reactions to CEO departure or death may contain rational information about strategy, relationships, succession readiness, and operating capability as well as excessive identification with one person.",
-        "Neither source supplies a comparison showing that wider visibility or resistance to hero imitation improves performance or conduct; Lilly's 1997 details are retrospective, the stock-price figure is uncertain, and the claims of harmful treatment are partly secondhand."
+        "Strickler's account concerns one unnamed founder and supplies no team, company, outcome, governance, or succession evidence; strategic distance can become detachment when leaders lose operational, customer, employee, or governance information.",
+        "No source supplies a comparison showing that wider visibility, resistance to hero imitation, or deliberate strategic distance improves performance or conduct; Lilly's 1997 details are retrospective, the stock-price figure is uncertain, and the claims of harmful treatment are partly secondhand."
       ],
-      "statement": "[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues that wider management visibility can make distributed capability and continuity more legible, while [[JohnLilly]] uses [[SteveJobs]] to show how posthumous imitation can flatten team contribution and contradictory evidence about interpersonal harm without erasing the CEO's real influence under [[CEOScalingRole]].",
+      "statement": "[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues for visible distributed capability, [[JohnLilly]] uses [[SteveJobs]] to resist hero imitation while preserving mixed judgment, and [[YanceyStrickler]] reframes strong independent team performance as an output of [[CEOScalingRole]], with deliberate strategic distance serving direction rather than control of every detail.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "CEOCentricLeadership",
         "AbBanerjee",
         "JohnLilly",
         "SteveJobs",
+        "YanceyStrickler",
         "CEOScalingRole",
+        "FounderTimeLeverage",
         "CoCEOLeadership",
         "TeamBasedOrganizationalDesign"
       ]
