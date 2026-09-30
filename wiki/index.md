@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside the store that only accepts personal data as currency](sources/inside-the-store-that-only-accepts-personal-data-as-currency-engadget.md) - Nick Summers reports how Kaspersky Lab's Data Dollar Store priced merchandise in phone data, making privacy cost tangible without establishing a market value or fair compensation model.
 - [Inside the Wild West World of Gift Card Bitcoin Brokering](sources/inside-the-wild-west-world-of-gift-card-bitcoin-brokering.md) - A 2018 investigation maps a Bitcoin-to-gift-card conversion loop, its narrow broker spreads, trust controls, fraud exposure, and gaps between Walmart policy and checkout enforcement.
 - [Inside the Black Market for Spotify Playlists](sources/inside-the-black-market-for-spotify-playlists.md) - Austin Powell maps paid curator access, direct placement, fake engagement, and the feedback loop from independent Spotify playlists into algorithmic and editorial discovery.
 - [Inside an Amazon Warehouse That Ships Your Supersized Purchases](sources/inside-an-amazon-warehouse-that-ships-your-supersized-purchases-cnet.md) - Ben Fox Rubin shows how Amazon's Fall River non-sort facility combines specialized storage, manual handling, industrial trucks, and custom packaging for large and irregular products.
@@ -868,6 +869,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Nick Summers](entities/NickSummers.md) - Engadget reporter whose participation in the Data Dollar Store provides a first-person example of explicit disclosure changing privacy behavior.
+- [Kaspersky Lab](entities/KasperskyLab.md) - Cybersecurity company represented through its 2017 personal-data-for-merchandise awareness campaign.
+- [Ben Eine](entities/BenEine.md) - Street artist who supplied the Data Dollar Store's goods and argued that people should recognize and share in information's value.
+- [Data Dollar Store](entities/DataDollarStore.md) - London pop-up that made personal data the sole currency for tiered merchandise exchanges.
 - [Paxful](entities/Paxful.md) - Peer-to-peer marketplace coordinating the documented bitcoin-for-gift-card trade through reputation history and dispute resolution.
 - [SpotLister](entities/SpotLister.md) - Paid playlist-curator review and matching marketplace that shut down after Spotify disabled its API access.
 - [SubmitHub](entities/SubmitHub.md) - Music-submission marketplace using curator behavior and artist-supplied stream outcomes to make reach more legible.

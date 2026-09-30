@@ -6645,6 +6645,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Inside the store that only accepts personal data as currency
+
+Added Nick Summers's 2017 report on [[DataDollarStore]], a Kaspersky Lab pop-up that priced mugs, shirts, and prints in photos, messages, or staff-selected phone content. Created [[NickSummers]], [[KasperskyLab]], [[BenEine]], and the store entity; updated [[DataMonetization]] from its complete ordered evidence inventory to distinguish visibility and deliberation from market valuation, informed consent, and fair compensation. Opened both referenced images, retained the evidence-bearing storefront under a descriptive canonical filename, and omitted the Ben Eine portrait as non-evidentiary illustration.
+
 ## [2026-09-30] ingest | Inside Amazon's clickworker platform: How half a million people are being paid pennies to train AI
 
 Added Hope Reese and Nick Heath's 2016 account of [[AmazonMechanicalTurk]] as both AI infrastructure and an asymmetric labor marketplace. Created Amazon Mechanical Turk, [[Turkopticon]], [[PlatformMicrowork]], and [[DataAnnotationLabor]]; updated [[ImageNet]] from its complete ordered three-source evidence inventory with the reported workforce behind its candidate screening and labeling. Preserved distinctions between registrations and active workers, paid task time and unpaid coordination, continuing human-in-the-loop demand and fair work, and worker testimony and representative evidence. Opened all six unique remote images through the publisher's current asset host; retained the workforce infographic, active-population chart, home-work photograph, and 45-day earnings table under descriptive canonical filenames, and omitted the title photograph plus its derivative cover as duplicates.
@@ -6823,6 +6827,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Inside the Wild West World of Gift Card Bitcoin Brokering
 
 Added The Intercept's 2018 investigation of a broker using [[Paxful]] and [[Walmart]] to cycle [[Bitcoin]] through remotely supplied gift-card codes and fresh gaming cards. Created Paxful, [[GiftCardFraud]], and [[PeerToPeerCryptoTrading]]; updated Walmart and Bitcoin from their complete ordered evidence inventories. Preserved the difference between broker self-protection and lawful provenance, gross markups and residual spread, stated policy and store-level enforcement, and one observed trade versus representative market evidence. The sole remote lead image returned HTTP 404 and no reliable duplicate was found, so it could not be inspected or retained and contributed no image-derived claim.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
