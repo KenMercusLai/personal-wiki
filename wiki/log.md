@@ -6784,3 +6784,7 @@ Added the retrospective history of Netflix's near-launch 2007 streaming player a
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inside Palantir, Silicon Valley's Most Secretive Company
+
+Added William Alden's 2016 investigation of [[Palantir]] as a high-touch software-and-consulting company with $1.7 billion in reported bookings, $420 million in cash collections, more than $500 million in spending, mixed corporate-client outcomes, and accelerating employee departures. Created Palantir, [[AlexKarp]], and [[BookingsToCashConversion]]; updated [[PeterThiel]], [[EnterpriseIntegrationBusinessModel]], and [[EmployeeEquityRisk]] from their complete ordered evidence inventories. Preserved Palantir's responses, the distinction between contract timing and failed conversion, and the investigation's leaked-record, anonymous-source, historical, and unaudited boundaries. Opened all five local images, retained the evidence-bearing client-codename table under a descriptive canonical filename, and omitted two near-duplicate office/logo photographs plus portraits of Karp and Thiel as non-evidentiary illustration.

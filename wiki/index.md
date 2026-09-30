@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside Palantir, Silicon Valley's Most Secretive Company](sources/inside-palantir-silicon-valleys-most-secretive-company.md) - William Alden reports a widening gap between Palantir's bookings and cash, mixed enterprise-client outcomes, and workforce pressure inside its high-touch software-and-consulting model.
 - [Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under](sources/inside-netflixs-project-griffin-the-forgotten-history-of-roku-under.md) - A retrospective of Netflix's near-launch player and its Roku spinout frames hardware neutrality as a deliberate choice to protect broad device distribution.
 - [Inside HBO’s Plan to Win the Streaming Wars](sources/inside-hbos-plan-to-win-the-streaming-wars-vanity-fair.md) - A two-paragraph Vanity Fair excerpt marks HBO's 2018 Emmy tie with Netflix and AT&T's new oversight after acquiring Time Warner.
 - [Inside Google’s Shadow Workforce](sources/inside-googles-shadow-workforce-bloomberg.md) - Bloomberg's 2018 investigation connects Google's large contractor layer to flexible capacity and hidden digital labor as well as divided responsibility, unequal benefits, and workplace hierarchy.
@@ -862,6 +863,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Alex Karp](entities/AlexKarp.md) - Palantir cofounder and CEO who responded to 2016 customer economics and workforce pressure.
+- [Palantir](entities/Palantir.md) - Data-analysis company whose embedded-engineer model produced large commitments alongside difficult conversion, delivery, and retention tradeoffs.
 - [Anthony Wood](entities/AnthonyWood.md) - Project Griffin leader and Roku CEO who later endorsed separating Netflix's service strategy from hardware ownership.
 - [Roku](entities/Roku.md) - Streaming-hardware company presented as the continuation of Netflix's spun-out Project Griffin team and player work.
 - [Project Griffin](entities/ProjectGriffin.md) - Netflix's late-stage 2007 streaming-player program, cancelled as a branded launch and spun out as Roku.
@@ -2362,6 +2365,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Bookings to Cash Conversion](concepts/BookingsToCashConversion.md) - Discipline of separating booked commitments from collected cash after timing, conditions, adoption, and cancellation risk.
 - [Platform Neutrality](concepts/PlatformNeutrality.md) - Avoiding competition in an adjacent layer when broad cooperation there creates more value for the core product than first-party control.
 - [Contingent Workforce](concepts/ContingentWorkforce.md) - Labor obtained through temporary appointments, staffing agencies, vendors, or contractors, separating flexible capacity from direct employment and its protections.
 - [Corporate Risk Aversion](concepts/CorporateRiskAversion.md) - Preference for predictable outcomes that can narrow, redirect, transfer, or end uncertain investment despite abundant capital.

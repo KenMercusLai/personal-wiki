@@ -635,12 +635,13 @@
       "4b0eafcf31985b5c6748870c39eae701eaee971ddf20b5aca90f015f474d010c",
       "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af",
       "b49ee6e0dc15c360f2a4745e0cca3c1f80776ec2af505f4f5653a90237e9ac8b",
-      "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194"
+      "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194",
+      "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74"
     ],
-    "paragraph_count": 635
+    "paragraph_count": 636
   },
-  "overview_commit": "7e989c36c4144749dd547c4dc1ffce6e609e2b94",
-  "overview_digest": "52fc094c30ff8019a0697ab9820b43c0fb500b5d943b641371e68a9a3561197d",
+  "overview_commit": "18254f53bf83927b40edf5ec400e7ad8a68fb420",
+  "overview_digest": "e465494068db43a5084852d566209bca94c1d369ffdd814355fd6b518d718112",
   "paragraphs": [
     {
       "id": "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
@@ -12871,6 +12872,27 @@
         "ReedHastings",
         "Roku",
         "SunkCostFallacy"
+      ]
+    },
+    {
+      "id": "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "work-education-and-society"
+      ],
+      "text": "The newest William Alden source adds [[Palantir]] as a high-touch enterprise-software case and [[BookingsToCashConversion]] as a financial-quality boundary. The company paired proprietary data-analysis software with forward deployed engineers inside client organizations, strengthening [[EnterpriseIntegrationBusinessModel]] by showing how embedded technical labor can translate fragmented data and domain context into operational systems. The same model exposed repeatability and fit constraints: the investigation reports prices above $1 million per month, losses of Coca-Cola, American Express, and Nasdaq, hesitation at Kimberly-Clark and Hershey, and demands for stronger industry expertise, smoother working relationships, executive support, and lasting user value. Reported 2015 bookings of $1.7 billion therefore cannot be read as equivalent to $420 million in collected cash, especially when contracts included trials, multi-year schedules, discretionary bonuses, and cancellation opportunities and spending exceeded $500 million. A reported $1.2 billion BP memorandum shows the upside of bespoke integration but not its 2015 cash contribution. The workforce layer deepens [[EmployeeEquityRisk]]: below-market salary caps and large stock-option grants made employees sensitive to targets and liquidity while departures accelerated, prompting [[AlexKarp]] to announce a tenure-based 20% raise, cancel annual reviews, and promise another liquidity event. The evidence remains a May 2016 investigative snapshot using leaked records, six anonymous current or former employees, selected client responses, and company statements rather than audited accounts or representative outcome data. The retained client-codename table adds relationships not fully repeated in prose; two office/logo photographs and executive portraits were omitted as duplicate or non-evidentiary illustration.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AlexKarp",
+        "BookingsToCashConversion",
+        "EmployeeEquityRisk",
+        "EnterpriseIntegrationBusinessModel",
+        "Palantir"
       ]
     }
   ],
