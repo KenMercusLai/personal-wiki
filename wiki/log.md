@@ -7383,3 +7383,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Kubernetes: maybe a few Bash/Python scripts is enough
+
+Updated [[Kubernetes]], [[GoogleCloudRun]], [[ModularMonolith]], [[InfrastructureAsCode]], and [[EssentialAndAccidentalComplexity]] from their complete ordered evidence inventories. Recorded a requirements-first comparison among Kubernetes, managed container services, and reproducible script-driven infrastructure for small, predictable systems. Preserved the boundary that DIY automation transfers rather than eliminates operating responsibilities, while global autoscaled ingestion and thousands of intermittently connected edge sites remain positive Kubernetes cases. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

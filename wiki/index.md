@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Kubernetes: maybe a few Bash/Python scripts is enough](sources/kubernetes-maybe-a-few-bashpython-scripts-is-enough.md) - A Binary Igor essay argues that small, predictable container systems should compare Kubernetes' complete operating stack with managed containers or reproducible scripts, while preserving orchestration for workloads that justify it.
 - [Knowledge Processing System for Marketers, Creators, and Knowledge Workers](sources/knowledge-processing-system-for-marketers-creators-and-knowledge-workers.md) - André Chaperon places PKM upstream of writing and demonstrates fleeting capture, own-words permanent notes, contextual retrieval, open files, linking, and optional visual maps.
 - [Knowing when, and how, to pivot (or, why didn’t news apps work?)](sources/knowing-when-and-how-to-pivot-or-why-didnt-news-apps-work.md) - Jason Calacanis explains Inside.com's app-to-email pivot through weak app growth, stronger email engagement, reusable audience assets, lower operating complexity, and early but incomplete newsletter evidence.
 - [Knowing What You Are Looking For](sources/knowing-what-you-are-looking-for-avc.md) - Fred Wilson uses USV's advance job-search thesis, recognition of Indeed, and persistent founder courtship to argue for prepared opportunity selection while leaving hindsight and selection limits unresolved.
