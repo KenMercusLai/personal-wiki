@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It's time to end the cult of the CEO](sources/its-time-to-end-the-cult-of-the-ceo.md) - Ab Banerjee argues that CEO-centered company narratives obscure distributed management work, increase executive burden, and create perceived transition risk that wider team visibility may reduce.
 - [It's not a promotion - it's a career change](sources/its-not-a-promotion-its-a-career-change-fractional-by-lindsay-holmwood.md) - Lindsay Holmwood reframes engineering management as a career change centered on group performance, interpersonal skill, deliberate learning, and multiplied human impact.
 - [It's Beginning To Look A Lot Like 1937](sources/its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha.md) - Daniel Carter uses a selective 1937 analogy to frame political-market feedback as portfolio risk while leaving data, causality, and timing materially unresolved.
 - [It's Okay Not To Lead](sources/its-okay-not-to-lead-daedtech.md) - Erik Dietrich distinguishes autonomy from authority and argues that hands-on team contribution is a complete career rather than a lower rank than leadership.
@@ -893,6 +894,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Ab Banerjee](entities/AbBanerjee.md) - ViewsHub founder and CEO represented through a team-centered critique of solitary-CEO narratives.
+- [ViewsHub](entities/ViewsHub.md) - Team-to-team ratings and feedback tool identified through its founder's author biography.
 - [Lindsay Holmwood](entities/LindsayHolmwood.md) - Technology leader and writer framing engineering management as a learned career centered on group effectiveness.
 - [Daniel Carter](entities/DanielCarter.md) - Seeking Alpha author represented through a 2017 historical analogy about macro-political market risk.
 - [Ray Dalio](entities/RayDalio.md) - Investor represented through regime-diversified allocation and a 1937 analogy connecting populism, conflict, and market risk.
@@ -2438,6 +2441,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [CEO-Centric Leadership](concepts/CEOCentricLeadership.md) - Narrative that concentrates company identity, performance attribution, and continuity risk around one chief executive while obscuring the wider management system.
 - [Historical Analogy in Investing](concepts/HistoricalAnalogyInInvesting.md) - Using cross-period resemblance to generate portfolio stress scenarios while preserving causal, base-rate, and timing limits.
 - [Engineering Hiring Economics](concepts/EngineeringHiringEconomics.md) - Cost model connecting engineering sourcing, evaluation, ramp-up, replacement, referrals, and evidence-based retention investment.
 - [Programming as Art](concepts/ProgrammingAsArt.md) - Contextual claim that programming becomes art when aesthetic or expressive experience is a primary end, not merely because implementation is creative.

@@ -651,12 +651,13 @@
       "bfc9ef00e27245a121e728406283b90a7b770e774472b7b8f98705bf6731dffe",
       "3e927f8d19764d3b81811bc9ee9e4d7aaf40fab098bf442a8ba8f85ee4840160",
       "49d0b77df178a59fd132690cdb9241fc86befdebd289fd86e864196dcd37eafe",
-      "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198"
+      "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198",
+      "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497"
     ],
-    "paragraph_count": 651
+    "paragraph_count": 652
   },
-  "overview_commit": "69ad3490b47482765cdfb4498d15ed1ed1906a6f",
-  "overview_digest": "f80efc854d5bbd273318224edfc8895c284982f73d75b46f796bea2218c33be4",
+  "overview_commit": "1b91024cbbf005856f6b2361916708a2882e9b52",
+  "overview_digest": "204094f3d1758d145e21644d5342153379255ebfd6354ebb39d04aef91069aea",
   "paragraphs": [
     {
       "id": "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
@@ -13188,6 +13189,24 @@
         "EngineeringManagerRoleDesign",
         "LindsayHolmwood",
         "ManagementRoleFit"
+      ]
+    },
+    {
+      "id": "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[AbBanerjee]] source adds [[CEOCentricLeadership]] as a distinction between legitimate chief-executive responsibility and the narrative that one person embodies an entire company's identity, decisions, success, and failure. Banerjee argues that media attention and corporate communication reinforce each other: management teams already make consequential daily decisions, yet annual reports, market statements, interviews, and public appearances keep the CEO dominant and other executives interchangeable. The proposed remedy is to make collective capability legible through executive-team imagery, distributed public engagements, functional-leader investor updates, and team-centered recognition deeper in the organization. This qualifies [[CEOScalingRole]] rather than rejecting it: strategy, communication, talent, cash, and hard decisions can remain distinctive CEO responsibilities without making one leader the sole cause of performance. It also connects to [[CoCEOLeadership]] and [[TeamBasedOrganizationalDesign]] by separating visibility from authority and individual accountability from collective execution. The evidence remains a short practitioner argument. Its reported stress, insomnia, valuation, resignation, and death effects lack study titles, methods, samples, time windows, and links in the supplied document; market reactions may reflect rational information as well as excessive identification, and no outcome comparison shows that broader executive visibility reduces stress or volatility. The sole local image was inspected and omitted as a decorative portrait of Elon Musk.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AbBanerjee",
+        "CEOCentricLeadership",
+        "CEOScalingRole",
+        "CoCEOLeadership",
+        "TeamBasedOrganizationalDesign"
       ]
     }
   ],

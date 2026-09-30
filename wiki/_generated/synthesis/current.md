@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 69ad3490b47482765cdfb4498d15ed1ed1906a6f
+as_of_overview_commit: 1b91024cbbf005856f6b2361916708a2882e9b52
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 872
-source_count: 872
-paragraph_count: 651
+episode_count: 873
+source_count: 873
+paragraph_count: 652
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, mature enabling infrastructure, governed distribution, ecosystem boundaries, lifecycle trust, fair risk allocation, and realistic distinctions between career capital and ownership upside.
+Durable value joins customer outcomes, sustainable economics, mature infrastructure, governed distribution, visible organizational capability, fair risk allocation, and realistic ownership upside.
 
 - [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome. Evidence: [[ProgressiveEquity]], [[EmployeeEquityGrantSizing]], [[Detour]], [[AndrewMason]], [[Groupon]], [[EmployeeEquityRisk]].
 - [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment. Evidence: [[EverydayEconomy]], [[TechnologyEnablerStack]], [[NextViewVentures]].

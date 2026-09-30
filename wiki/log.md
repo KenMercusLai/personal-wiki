@@ -7031,3 +7031,11 @@ Added [[LindsayHolmwood]]'s argument that engineering management is a career cha
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It's time to end the cult of the CEO
+
+Added [[CEOCentricLeadership]] as Ab Banerjee's distinction between legitimate CEO responsibility and exaggerated single-person attribution of company identity, decisions, success, and failure. Created [[AbBanerjee]] and [[ViewsHub]] from the source-bounded author biography, connected the argument to [[CEOScalingRole]], [[CoCEOLeadership]], and [[TeamBasedOrganizationalDesign]], and preserved the article's valuation, stress, insomnia, resignation, and death figures as unverified source-reported claims because the supplied document contains no study titles, methods, samples, dates, or links. Inspected the sole local image and omitted it as a decorative portrait of Elon Musk, so no asset manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
