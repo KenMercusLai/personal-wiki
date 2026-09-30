@@ -6788,3 +6788,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Inside Palantir, Silicon Valley's Most Secretive Company
 
 Added William Alden's 2016 investigation of [[Palantir]] as a high-touch software-and-consulting company with $1.7 billion in reported bookings, $420 million in cash collections, more than $500 million in spending, mixed corporate-client outcomes, and accelerating employee departures. Created Palantir, [[AlexKarp]], and [[BookingsToCashConversion]]; updated [[PeterThiel]], [[EnterpriseIntegrationBusinessModel]], and [[EmployeeEquityRisk]] from their complete ordered evidence inventories. Preserved Palantir's responses, the distinction between contract timing and failed conversion, and the investigation's leaked-record, anonymous-source, historical, and unaudited boundaries. Opened all five local images, retained the evidence-bearing client-codename table under a descriptive canonical filename, and omitted two near-duplicate office/logo photographs plus portraits of Karp and Thiel as non-evidentiary illustration.
+
+## [2026-09-30] ingest | Inside The NBA’s Virtual Reality Strategy
+
+Added Manouk Akopyan's 2017 account of the NBA's move from one-off VR experiments to a recurring NextVR production schedule spanning live games, Finals highlights, global access, storytelling, training, promotion, and exploratory esports work. Created [[NBA]], [[NextVR]], [[JeffMarsilio]], and [[VirtualRealitySports]], preserving modest contemporary reach, unquantified engagement, hardware and camera constraints, skeptical counterclaims, and the source-scoped nature of mass-adoption forecasts. Opened all six local images, retained five evidence-bearing product and promotional examples under descriptive canonical filenames, and omitted the generic basketball action photograph as decorative.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

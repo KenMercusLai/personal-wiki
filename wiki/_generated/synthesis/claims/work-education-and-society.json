@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "scheduled-immersive-production-connects-media-learning-and-training",
+      "qualifications": [
+        "The NBA account is a 2017 strategy snapshot rather than evidence that recurring production improved measurable viewer, referee-training, or organizational outcomes.",
+        "The source supplies no adoption, retention, accessibility, production-cost, or comparative learning measures, and its esports and spatial-interaction uses remained exploratory."
+      ],
+      "statement": "[[VirtualRealitySports]] supplies a source-scoped bridge between media and workplace learning: the [[NBA]], [[NextVR]], and [[JeffMarsilio]] framed repeated broadcasts as production practice while placing referee training and exploratory interactive uses beside fan viewing and storytelling.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "VirtualRealitySports",
+        "NBA",
+        "NextVR",
+        "JeffMarsilio"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "marketplace-ranking-dependence-can-coerce-review-manipulation",
       "qualifications": [
         "The supporting evidence is a May 2018 investigation based on five anonymous reviewers and selected seller and customer cases, not a representative labor or marketplace study.",

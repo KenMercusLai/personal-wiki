@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
       "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
       "66ec51e57676feae7495bc0e8887f12c5c5122d9d871dbe13ea17a2c9a1cf81b",
       "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
@@ -638,11 +639,30 @@
       "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194",
       "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74"
     ],
-    "paragraph_count": 636
+    "paragraph_count": 637
   },
-  "overview_commit": "18254f53bf83927b40edf5ec400e7ad8a68fb420",
-  "overview_digest": "e465494068db43a5084852d566209bca94c1d369ffdd814355fd6b518d718112",
+  "overview_commit": "5b03a62605f1343665e0014605f14b72a7ca2c51",
+  "overview_digest": "2b7b1e32fd81c4aef342083a4c70d3109422b9c20cf29d454d7758498911a40e",
   "paragraphs": [
+    {
+      "id": "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest NBA strategy source adds [[VirtualRealitySports]] as an immersive-media production and learning system rather than a one-off headset experiment. In 2017 the [[NBA]] and [[NextVR]] had committed to 25 broadcasts covering all 30 teams, weekly League Pass games, and on-demand Finals highlights; [[JeffMarsilio]] argued that a recurring partner and schedule let each production improve. Live games were the priority, but Oculus storytelling, House of Legends, referee training, prospective spatial movement, exploratory NBA 2K work, and team or player promotions show a wider portfolio spanning viewing, training, interaction, and marketing. The access thesis is plausible because the source reports 155 million core fans and less than one percent attending arenas, yet it is not adoption evidence: contemporary reach was modest beside two-dimensional video, social enthusiasm and engagement were unquantified, headsets were hard to demonstrate without direct use, and Mark Cuban disputed the quality of the front-row experience and live cameras. Predictions of universal VR game production and a headset-driven tipping point therefore remain source-scoped 2017 forecasts without retention, satisfaction, cost, revenue, or later-outcome data. Five evidence-bearing product and promotional images were retained; the generic game-action hero was omitted as decorative.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 3,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "JeffMarsilio",
+        "NBA",
+        "NextVR",
+        "VirtualRealitySports"
+      ]
+    },
     {
       "id": "7627b5ecd63b5dcd83588f9bc4e7e26f234c00dcbcc325d4eb02520db2f777ce",
       "primary_topic": "culture-and-media",

@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "recurring-production-turns-sports-vr-into-a-learning-system",
+      "qualifications": [
+        "The evidence is one 2017 trade article centered on the NBA and its executive, with no quantified retention, satisfaction, cost, revenue, or later adoption outcomes.",
+        "Modest reach, headset access and demonstration friction, disputed camera quality, and source-scoped mass-adoption forecasts prevent early enthusiasm from establishing a durable third viewing medium."
+      ],
+      "statement": "[[VirtualRealitySports]] joins remote presence with a recurring production-learning loop: the [[NBA]] and [[NextVR]] used a committed schedule to improve live broadcasts while [[JeffMarsilio]] treated games, highlights, storytelling, training, promotion, and prospective interaction as an additive media portfolio rather than an immediate replacement for television, mobile, or attendance.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "VirtualRealitySports",
+        "NBA",
+        "NextVR",
+        "JeffMarsilio"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "online-disinhibition-meme-compresses-a-multifactor-pattern",
       "qualifications": [
         "The Know Your Meme source documents cultural circulation through selected examples and remixes rather than measuring prevalence, causality, or the effect of identity disclosure.",
