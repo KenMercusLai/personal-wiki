@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "its-ugly-but-it-works-on-designing-for-usability",
+  "images": [
+    {
+      "file": "popular-utility-first-sites.png",
+      "alt": "Wikipedia, Reddit, Hacker News, and Craigslist shown as visually plain but popular websites"
+    },
+    {
+      "file": "my-tabata-session.gif",
+      "alt": "My Tabata animation moving from its one-screen start state to completion"
+    },
+    {
+      "file": "my-tabata-reviews.png",
+      "alt": "My Tabata review distribution showing a 4.4 rating from 4,243 reviews and selected user comments"
+    },
+    {
+      "file": "tap-anywhere-pause.png",
+      "alt": "My Tabata paused at 18 seconds after a user taps anywhere on the screen"
+    },
+    {
+      "file": "interval-progress-indicator.png",
+      "alt": "Annotated My Tabata timer showing the current position through eight interval dots"
+    },
+    {
+      "file": "ux-hierarchy-of-needs.png",
+      "alt": "UX hierarchy of needs from functional, reliable, and usable through convenient, pleasurable, and meaningful"
+    }
+  ]
+}

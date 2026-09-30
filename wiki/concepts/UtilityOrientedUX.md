@@ -6,7 +6,8 @@ sources:
   - users-always-choose-the-path-of-least-resistance
   - does-it-really-matter-in-search-of-tech
   - engineers-build-ugly-products-techcrunch
-last_updated: 2026-09-27
+  - its-ugly-but-it-works-on-designing-for-usability
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,14 +19,16 @@ The sources reject technology and engagement as universal ends. Most people do n
 
 Outcome orientation does not make experience irrelevant. The grocery-store analogy shows that two paths to the same nominal result can differ in price and felt quality, and that users can reasonably weight those dimensions differently. Its appended discussion goes further: experience can be part of the benefit, technical novelty fades when useful content is absent, and user skill can sometimes turn cheaper inputs into an excellent outcome. [[CognitiveOverheadInProductDesign]] similarly shows that a visible button, familiar step, or short delay can reduce total burden when it creates control, trust, or comprehension. [[ProductEngagementLadder]] distinguishes optional deeper learning from first-value obstruction. The useful standard is the best total value for the intended user, including outcome, justified burden, experience, price, and context—not minimum interface count or technology sophistication in isolation.
 
+[[MyTabata]] turns that standard into a narrow physical-task case. A one-screen start flow, tap-anywhere pause, audio countdown, and visible interval progress keep the software subordinate to the workout. The example also adds a sequencing heuristic: functional usefulness, reliability, and usability provide a foundation on which convenience, pleasure, and meaning can build. That hierarchy should guide dependency thinking rather than excuse poor aesthetics or imply that higher-order experience never affects adoption.
+
 ## Key Claims
 - Users usually value the outcome enabled by a digital product more than its underlying technology, configurable breadth, or time spent inside its interface.
-- Ease can differentiate a product when it reduces the total work of reaching the user's goal.
+- Ease can differentiate a product when it reduces the total work of reaching the user's goal in the context where the task occurs.
 - Experience can be part of the benefit even when competing products deliver the same nominal functional result.
 - Price, user skill, and supporting content can change whether a technically richer or more polished path creates more value.
 - Product insiders can overestimate customer attention and flexibility needs because the offering and its technical possibilities occupy far more of the team's life than the user's.
 - Engagement is instrumental when it helps users obtain value; maximizing it without that link can work against the user's interest.
-- The shortest visible flow is not always the lowest-burden flow when control, safety, comprehension, or trust requires an explicit step.
+- The shortest visible flow is not always the lowest-burden flow when control, safety, comprehension, trust, physical conditions, or divided attention requires different controls or feedback.
 
 ## Evidence
 - Tool orientation: [[users-always-choose-the-path-of-least-resistance]] says websites and apps are tools for goals and that users want to get the needed result and leave.
@@ -39,15 +42,18 @@ Outcome orientation does not make experience irrelevant. The grocery-store analo
 - Skill as a moderator: [[does-it-really-matter-in-search-of-tech]] argues that capable users can sometimes produce excellent results from cheaper inputs.
 - Technology-versus-purpose: [[engineers-build-ugly-products-techcrunch]] calls technology the product's plumbing and argues that exposed feature breadth can distract from helping people live better.
 - Subtraction: [[engineers-build-ugly-products-techcrunch]] presents removing unneeded functionality and making grounded choices as the harder half of usable product development.
+- Contextual task focus: [[its-ugly-but-it-works-on-designing-for-usability]] shows [[MyTabata]] using a one-screen flow, whole-screen pause target, countdown audio, and progress marks to keep attention on exercise rather than navigation.
+- Quality sequencing: [[its-ugly-but-it-works-on-designing-for-usability]] presents functional usefulness, reliability, and usability as foundations for convenience, pleasure, and meaning.
 
 ## Counterevidence & Qualifications
-The evidence consists of three short practitioner essays and appended anecdotes rather than controlled research. “Least resistance” should not be read as a universal behavioral law: price, habit, identity, accessibility, safety, trust, social value, pleasure, and switching costs can outweigh immediate ease. Nor does a shared nominal outcome prove equivalent quality, reliability, maintainability, or risk, and the grocery analogy does not show that higher price causes better experience. Utility orientation does not justify concealing consequential choices or removing the explanation, agency, and expert depth users need; Schippers' generalized engineer-versus-product contrast supplies no measured team comparison. The Apple Pay prediction is historically bounded and unsupported by adoption data in the captured source, while the 3D-phone and Twitter observations are unattributed personal examples rather than measured behavior.
+The evidence consists of four short practitioner essays and appended anecdotes rather than controlled research. “Least resistance” should not be read as a universal behavioral law: price, habit, identity, accessibility, safety, trust, social value, pleasure, and switching costs can outweigh immediate ease. Nor does a shared nominal outcome prove equivalent quality, reliability, maintainability, or risk, and the grocery analogy does not show that higher price causes better experience. Utility orientation does not justify concealing consequential choices or removing the explanation, agency, and expert depth users need; Schippers' generalized engineer-versus-product contrast supplies no measured team comparison. The Apple Pay prediction is historically bounded and unsupported by adoption data in the captured source, while the 3D-phone and Twitter observations are unattributed personal examples rather than measured behavior. My Tabata's selected review snapshot and popular-site montage cannot isolate design causality; visual appeal can affect trust, comprehension, first use, accessibility, and satisfaction even when task utility is strong.
 
 ## What Changed
 - Added product subtraction as a response to builder incentives for technical breadth and flexibility.
 - Established task completion and minimum justified burden as an alternative to engagement maximization.
 - Qualified raw step reduction by separating visible interface count from total cognitive and practical effort.
 - Expanded utility from task completion alone to total user value, including experience, price, skill, and the supporting content around a technology.
+- Added physical task context, multimodal feedback, and a qualified hierarchy from functional utility through meaningful experience.
 
 ## Related Concepts
 - [[ProductFlowFriction]] - operationalizes how each ask spends user intent before value.

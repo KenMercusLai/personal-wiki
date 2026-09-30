@@ -7055,3 +7055,11 @@ Added [[StartupTarpit]] as a resource-allocation loop in which feature developme
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It’s Ugly, But It Works: On Designing for Usability
+
+Added [[MyTabata]] as a source-bounded case of single-purpose, context-sensitive interaction design. Updated [[Usability]] and [[UtilityOrientedUX]] from their complete ordered evidence inventories with whole-screen exercise controls, audio countdowns, visible interval progress, and a qualified hierarchy from functional usefulness through meaningful experience. Preserved the boundaries between usability and visual design and treated the 4.4 rating, selected reviews, and popular-site montage as historical observational evidence rather than causal proof. Inspected all nine effective embeds representing eight distinct local files; retained six evidence-bearing assets, omitted the prose-redundant exercise illustration and duplicate start screen, and recorded canonical filenames and alt text in the asset manifest.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

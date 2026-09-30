@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a5c4e0f16a914a732823de8c985f41f9018b4d6e9046ebbec6bb5087fde9c2b3",
       "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
       "a9e4e244f41d0fbbe0ccf6ecb9e5b638cb5d8bf36da12a073cc0a875537e3c3a",
       "86920e6722503c4072ae9483bf639cf027444d7eda664cd7400def077f919f3a",
@@ -655,11 +656,30 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 653
+    "paragraph_count": 654
   },
-  "overview_commit": "b68caa91aadffb7ccfccc78e30b06e800aa44f80",
-  "overview_digest": "2502c518dc2f8cc2fea1b2b6181b1025301cf154bcdb858ea87a623184dd91e2",
+  "overview_commit": "a1847ebf9d2bea406970b687325117a35d9debb3",
+  "overview_digest": "46388725e5c00ca9cc7a516f36ad38815996601dd7f8ae9f3a1d5460aa5ce0cd",
   "paragraphs": [
+    {
+      "id": "a5c4e0f16a914a732823de8c985f41f9018b4d6e9046ebbec6bb5087fde9c2b3",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[MyTabata]] source sharpens the boundary among [[UtilityOrientedUX]], [[Usability]], and visual polish. A one-screen interval timer keeps the exercise rather than the interface as the primary experience: the whole active screen becomes a start-and-pause target during movement, audio counts down when visual attention may be unavailable, and remaining time plus eight progress dots preserve orientation. This adds physical and attentional context to the wiki’s existing goal-completion model and gives [[Microinteractions]] a compact multimodal case. The article’s UX hierarchy usefully treats functional usefulness, reliability, and usability as foundations for convenience, pleasure, and meaning, but not as a law that aesthetics never affect trust, discovery, accessibility, or satisfaction. Its 4.4 rating across 4,243 reviews, selected comments, and montage of Wikipedia, Reddit, Hacker News, and Craigslist are historical observational evidence rather than controlled comparisons: product popularity can also reflect content, familiarity, network effects, price, brand, and switching costs. Six evidence-bearing images were retained at their semantic positions; the prose-redundant Tabata exercise illustration and duplicate start screen were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Microinteractions",
+        "MyTabata",
+        "Usability",
+        "UtilityOrientedUX"
+      ]
+    },
     {
       "id": "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
       "primary_topic": "work-education-and-society",

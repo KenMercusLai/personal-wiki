@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It’s Ugly, But It Works: On Designing for Usability](sources/its-ugly-but-it-works-on-designing-for-usability.md) - A My Tabata case argues that useful, reliable, context-sensitive interaction can outweigh weak visual polish while preserving aesthetics as a separate product-quality dimension.
 - [It’s Not a Feature Problem—Avoiding Startup Tarpits](sources/its-not-a-feature-problem-avoiding-startup-tarpits-by.md) - Daniel Tawfik uses Vonjour's shift from feature spending to paid acquisition and signup optimization to argue that startups should test distribution before assuming slow growth is a product-scope problem.
 - [It’s 2017 and Mental Health is still an issue in the workplace.](sources/its-2017-and-mental-health-is-still-an-issue-in-the-workplace.md) - Ben Congleton uses Madalyn Parker’s direct mental-health leave message and his supportive reply to argue that humane leadership should be routine rather than remarkable.
 - [It's time to end the cult of the CEO](sources/its-time-to-end-the-cult-of-the-ceo.md) - Ab Banerjee argues that CEO-centered company narratives obscure distributed management work, increase executive burden, and create perceived transition risk that wider team visibility may reduce.
@@ -896,6 +897,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [My Tabata](entities/MyTabata.md) - Mobile interval timer represented through a one-screen workout flow, tap-anywhere pause, audio countdown, and visible progress cues.
 - [Daniel Tawfik](entities/DanielTawfik.md) - Founder-author represented through Vonjour's product-allocation, paid-acquisition, and funnel-learning retrospective.
 - [Vonjour](entities/Vonjour.md) - Subscription software company used as a case of feature-heavy spending followed by paid-search and signup-conversion experiments.
 - [Ben Congleton](entities/BenCongleton.md) - Olark CEO represented through his public argument for ordinary workplace support of mental-health leave.
