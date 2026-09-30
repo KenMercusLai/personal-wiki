@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It Costs $50k to Hire a Software Engineer](sources/it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog.md) - A practitioner decomposes a rough $50,000 engineering hire into recruiting, interview labor, and ramp-up, then uses the uncertain estimate to examine referrals and retention spending.
 - [Is this my interface or yours?](sources/is-this-my-interface-or-yours-john-saito-medium.md) - John Saito frames “my,” “your,” neutral, and collective interface language as contextual choices about ownership, guidance, ambiguity, and human presence.
 - [Is There Any Room For The Not-Passionate Developer?](sources/is-there-any-room-for-the-not-passionate-developer-philippe-bourgaus-blog.md) - Philippe Bourgau separates varied technical learning from repetitive overwork while exposing how parenthood, stable-income needs, and weak evidence complicate passion-based career norms.
 - [Is Programming Art?](sources/is-programming-art-daedtech.md) - Erik Dietrich argues that programming is sometimes art but usually functional algorithmic delegation, while commenters complicate the boundary through craft, expression, correctness, and engineering.
@@ -2431,6 +2432,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Engineering Hiring Economics](concepts/EngineeringHiringEconomics.md) - Cost model connecting engineering sourcing, evaluation, ramp-up, replacement, referrals, and evidence-based retention investment.
 - [Programming as Art](concepts/ProgrammingAsArt.md) - Contextual claim that programming becomes art when aesthetic or expressive experience is a primary end, not merely because implementation is creative.
 - [Affiliate Review Conflict](concepts/AffiliateReviewConflict.md) - Risk that referral economics, sponsorship, approval conditions, or commercial access compromise or appear to compromise product rankings.
 - [Consumer VPN Trust](concepts/ConsumerVPNTrust.md) - Evidence framework for assessing the provider, software, infrastructure, ownership, failure behavior, and assurance behind a consumer VPN.
@@ -3348,7 +3350,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Simulated Annealing](concepts/SimulatedAnnealing.md) - Probabilistic optimization method that explores neighboring solutions and sometimes accepts worse moves while a temperature schedule cools.
 - [Linear Programming](concepts/LinearProgramming.md) - Optimization approach for linear objectives under linear constraints, used here for simpler seating assignment formulations.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, utilization, operations burden, and resource-shape assumptions.
-- [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Rough-number system-design method for comparing performance before implementation.
+- [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Decomposed rough-number method for testing technical or organizational decisions before exact measurement.
 - [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.
 - [Web Performance Optimization](concepts/WebPerformanceOptimization.md) - Whole-system practice of reducing page-load time across frontend rendering, network latency, backend processing, caching, and capacity.
 - [Critical Rendering Path](concepts/CriticalRenderingPath.md) - Browser sequence that turns HTML, CSS, JavaScript, layout, and main-thread work into visible and usable page state.

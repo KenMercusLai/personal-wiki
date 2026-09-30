@@ -1,43 +1,47 @@
 ---
 title: "Back-of-Envelope Estimation"
 type: concept
-tags: [system-design, performance, estimation]
+tags: [estimation, decision-making, system-design, performance, economics]
 sources:
   - back-of-the-envelope-calculation-better-programmer
-last_updated: 2026-09-14
+  - it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[BackOfEnvelopeEstimation]] is the practice of using rough reference numbers, workload decomposition, and order-of-magnitude arithmetic to compare system designs before implementation.
+[[BackOfEnvelopeEstimation]] is the practice of decomposing a decision into material terms, attaching plausible rough values, and using order-of-magnitude arithmetic to test choices before exact measurement is available.
 
 ## Current Synthesis
-The Better Programmer source frames back-of-envelope estimation as a system-design skill: an engineer should be able to break a proposed design into primitive operations, attach approximate costs, and decide whether the result is plausibly fast enough. The point is not precise benchmarking; it is early judgment that prevents building a design whose bottleneck is visible from first principles.
+The Better Programmer source frames back-of-envelope estimation as a system-design skill: break a proposed design into primitive operations, attach approximate costs, and decide whether the result is plausibly fast enough. The hiring-cost source applies the same structure to an organizational decision by adding recruiter expense, internal coordination, interview labor, ramp-up, and package costs. Across both domains, the point is not precise forecasting; it is early judgment that reveals the dominant terms, makes assumptions inspectable, and prevents treating an attractive headline as unexplained fact.
 
-The method combines two forms of knowledge. First, the engineer needs reference numbers for basic operations such as cache access, memory reads, mutex operations, compression, datacenter round trips, disk seeks, sequential reads, and long-haul packets. Second, the engineer needs enough systems and algorithmic understanding to decompose the design into those operations, as shown in the thumbnail-generation and quicksort examples.
+The method combines reference values with causal decomposition. In software, the reference values include cache, memory, mutex, compression, network, and disk costs, while system knowledge determines which operations occur. In hiring, salary-based recruiter percentages and labor rates are combined with process assumptions about interview hours and ramp time. A useful estimate then varies the uncertain inputs, distinguishes observed values from hypotheses, and directs later measurement toward the terms most capable of changing the decision.
 
 ## Key Claims
-- Estimation is useful because it can reject weak designs before implementation.
-- A design must be decomposed into basic operations before the reference numbers become useful.
-- Order-of-magnitude gaps matter more than exact figures from any one hardware generation.
-- Bottleneck reasoning improves designs by showing whether disk, memory, network, CPU branch behavior, or algorithmic complexity dominates.
-- Estimation complements measurement; it gives a plausibility check before benchmarks exist.
+- Rough estimation can reject weak technical or organizational choices before expensive implementation.
+- A decision must be decomposed into material operations or cost terms before reference numbers become useful.
+- Order-of-magnitude gaps and dominant terms usually matter more than false precision in any one input.
+- Sensitivity analysis should expose which assumptions can change the conclusion and therefore deserve measurement.
+- Estimation complements measurement; it provides a plausibility check and measurement plan rather than proof.
 
 ## Evidence
-- Pre-build design choice: [[back-of-the-envelope-calculation-better-programmer]] says rough performance estimates help choose a better design without building every option.
-- Decomposition method: [[back-of-the-envelope-calculation-better-programmer]] decomposes thumbnail rendering into disk seeks and sequential reads, then compares serial, parallel, and in-memory designs.
-- Magnitude over precision: [[back-of-the-envelope-calculation-better-programmer]] notes that Jeff Dean's table used 2009 mid-range PC numbers and should be read mainly for differences in scale.
-- Bottleneck diagnosis: [[back-of-the-envelope-calculation-better-programmer]] treats disk as the bottleneck in thumbnail generation, then memory bandwidth and branch misprediction as key terms in the quicksort estimate.
-- Measurement boundary: [[back-of-the-envelope-calculation-better-programmer]] presents the calculations as intuitive assessments, not replacements for implementation-specific measurement.
+- Early choice: [[back-of-the-envelope-calculation-better-programmer]] uses rough performance estimates to compare designs without building every option; [[it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog]] uses rough cost arithmetic to compare recruiting, referral, quality-bar, and retention choices.
+- Technical decomposition: [[back-of-the-envelope-calculation-better-programmer]] breaks thumbnail rendering into disk seeks and sequential reads, then compares serial, parallel, and in-memory designs.
+- Organizational decomposition: [[it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog]] adds external and internal recruiting, engineering interviews, ramp-up, and package costs.
+- Magnitude and bottlenecks: [[back-of-the-envelope-calculation-better-programmer]] emphasizes scale differences in old timing figures, while [[it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog]] makes recruiting and ramp-up the dominant terms in its worked example.
+- Measurement boundary: both [[back-of-the-envelope-calculation-better-programmer]] and [[it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog]] present their numbers as intuitive assessments rather than universal measurements.
 
 ## Counterevidence & Qualifications
-The source is explicitly based on older timing numbers, so its numeric constants should not be reused as modern benchmark facts without updating them for current hardware, workload, storage, and network conditions. The worked examples also simplify variance, concurrency overhead, queueing, cache effects, filesystem behavior, and real deployment noise.
+Both sources use dated, illustrative inputs. The performance constants should not be reused as modern benchmarks without updating hardware, workload, storage, and network conditions; the hiring figures should not be reused without local salary, sourcing, labor-rate, interview, and ramp evidence. Their worked examples simplify variance and interaction effects: concurrency, queueing, caches, and deployment noise in systems; candidate contribution during ramp, mentor effects, institutional knowledge, hiring quality, and causal attrition drivers in organizations. A rough model can illuminate a decision while still being confidently wrong if it omits a dominant term or embeds an unsupported causal assumption.
 
 ## What Changed
-- Created the concept from the Better Programmer article's system-design estimation method.
+- Generalized the concept from performance estimation to technical and organizational decision arithmetic.
+- Added dominant-cost and sensitivity reasoning from the software-engineer hiring example.
+- Strengthened the boundary between an inspectable estimate and measured or causal evidence.
 
 ## Related Concepts
 - [[LatencyHierarchy]] - supplies the rough operation costs used in performance estimates.
 - [[ComputationalThinking]] - decomposition makes the rough arithmetic possible.
 - [[CloudCostOptimization]] - uses a similar rough-number sanity check, but for money rather than latency.
+- [[EngineeringHiringEconomics]] - applies the method to sourcing, interview, ramp-up, replacement, and retention costs.
 - [[SystemReliability]] - performance estimates are one way to prevent capacity and latency failures.

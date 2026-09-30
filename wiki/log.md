@@ -6999,3 +6999,11 @@ Added [[JohnSaito]] and expanded [[InterfaceCopywriting]] from action clarity in
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It Costs $50k to Hire a Software Engineer
+
+Added [[EngineeringHiringEconomics]] as a decomposed model of recruiting, interview labor, ramp-up, replacement, referral, and retention costs. Expanded [[BackOfEnvelopeEstimation]] from performance-only calculation to technical and organizational decision arithmetic while preserving both pages' complete ordered evidence inventories. Retained the best-resolution hiring-cost comparison infographic under a descriptive canonical name; omitted its duplicate thumbnail and the Journal promotional graphic. Preserved the article's $50,000 figure, candidate-quality comparison, reasons-for-leaving claim, and office-improvement ROI as illustrative assumptions rather than representative or causal evidence.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
