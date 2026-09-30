@@ -9,18 +9,19 @@ sources:
   - expert-revenue-models-for-new-media
   - for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk
   - hunter-walk-productivity-hack-read-one-chapter-of-a-book-to-get-90-percent-of-the-value
-last_updated: 2026-09-29
+  - internet-content-moderation-101-hunter-walk
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[HunterWalk]] is a technology-community author and investor in the wiki whose essays examine media credibility, creator-payment economics, platform responsibility, founder judgment during fundraising, venture-capital decision quality, and selective reading.
+[[HunterWalk]] is a technology-community author and investor in the wiki whose essays examine media credibility, creator-payment economics, content-moderation operations, platform responsibility, founder judgment during fundraising, venture-capital decision quality, and selective reading.
 
 ## Current Profile
-Across the six sources, Walk writes as a technology-community practitioner interested in incentives, credibility, asymmetric relationships, and forceful decision heuristics. On reporting, he argues that anonymity is a serious concession whose protective value should be reserved for important information and genuine source risk. On monetization, he connects direct content payment to normalized checkout, closer creator-audience relationships, stronger niche per-customer revenue, and the transaction gap left by advertising platforms. He also places responsibility on platforms themselves: monetization tools, advertiser demand, commerce, interpretable data, community, education, and recognition can help retain creators whose expanded marketing and operational work otherwise produces burnout. On fundraising, he treats founder-investor meetings as mutual evaluation and defends ending low-value persuasion contests. On venture selection and failure, he argues that risk identification must be paired with a credible account of outcome scale, then judged retrospectively against what was foreseeable and what the original bull case assumed. His reading note applies the same selective style to formulaic nonfiction by locating the main-idea chapter before investing in the rest of the book.
+Across the seven sources, Walk writes as a technology-community practitioner interested in incentives, credibility, asymmetric relationships, operating systems, and forceful decision heuristics. On reporting, he argues that anonymity is a serious concession whose protective value should be reserved for important information and genuine source risk. On monetization, he connects direct content payment to normalized checkout, closer creator-audience relationships, stronger niche per-customer revenue, and the transaction gap left by advertising platforms. He also places responsibility on platforms themselves: creator monetization and support must be designed, while content safety requires policy thresholds, dynamic risk scoring, prioritized review queues, trained reviewers, executive metrics, and management exposure to frontline work. On fundraising, he treats founder-investor meetings as mutual evaluation and defends ending low-value persuasion contests. On venture selection and failure, he argues that risk identification must be paired with a credible account of outcome scale, then judged retrospectively against what was foreseeable and what the original bull case assumed. His reading note applies the same selective style to formulaic nonfiction by locating the main-idea chapter before investing in the rest of the book.
 
 ## Key Characteristics
-- Technology-community investor-commentator focused on media practice, platform responsibility, creator economics, venture judgment, and concise decision heuristics.
+- Technology-community investor-commentator focused on media practice, platform operations and responsibility, creator economics, venture judgment, and concise decision heuristics.
 - Critic of controversy-seeking anonymous quotations that hide a source's knowledge, role, and incentives.
 - Defender of source protection when consequential disclosure creates genuine jeopardy.
 - Proponent of direct creator payment as a distinct relationship and business model from corporate media purchase.
@@ -42,12 +43,14 @@ Across the six sources, Walk writes as a technology-community practitioner inter
 - Venture decision frame: [[for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk]] argues that a plausible risk is not dispositive when rare large outcomes drive portfolio returns; the bull case's scale and credibility must also be evaluated.
 - Failure analysis: [[for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk]] proposes examining predictability, venture-scale assumptions, execution difficulty, and the firm's experience with comparable risk.
 - Selective reading: [[hunter-walk-productivity-hack-read-one-chapter-of-a-book-to-get-90-percent-of-the-value]] recommends locating the main-idea chapter of formulaic nonfiction through its table of contents before reading the surrounding credentials and examples.
+- Moderation architecture: [[internet-content-moderation-101-hunter-walk]] separates dynamic algorithmic risk scoring, management-set thresholds, specialist review queues, and reviewer throughput.
+- Safety governance: [[internet-content-moderation-101-hunter-walk]] recommends executive dashboards, absolute harm counts, repeat-offender control, management time in queues, response-time attention, and worker support.
 
 ## Qualifications
-This profile is based on six brief opinion or panel sources from 2015 and 2017, not a full biography or comprehensive account of Walk's views. The journalism essay supplies no newsroom case studies, the monetization sources offer selected examples and predictions without comparative adoption, income, retention, burnout, or causal data, and the platform market has since changed. The fundraising essay relies on one founder anecdote, omits the investor's perspective, and offers no reliable test for separating a legitimate stress question from a power move. The venture-post-mortem essay supplies no fund data, deal comparisons, memo examples, or prospective method for deciding when upside assumptions are credible. The reading essay is playful and unsupported by a book sample or comprehension evidence; its structure does not generalize to every kind of book.
+This profile is based on seven brief opinion or panel sources from 2015 and 2017, not a full biography or comprehensive account of Walk's views. The journalism essay supplies no newsroom case studies, the monetization sources offer selected examples and predictions without comparative adoption, income, retention, burnout, or causal data, and the platform market has since changed. The moderation essay is explicitly a simplified account based on YouTube experience that ended almost five years earlier; it gives no production thresholds, accuracy, queue, appeal, or outcome data and should not be treated as a current description of YouTube, Facebook, or Twitter. The fundraising essay relies on one founder anecdote and omits the investor's perspective. The venture-post-mortem essay supplies no fund data or prospective scoring method. The reading essay is playful and unsupported by comprehension evidence.
 
 ## What Changed
-- Added selective nonfiction reading as another example of Walk's preference for concise, high-leverage decision heuristics.
+- Added content-moderation operations and reviewer welfare as a platform-responsibility domain grounded in Walk's historical YouTube experience.
 
 ## Relationships
 - [[AnonymousSourcing]] - central journalistic practice he evaluates as a tradeoff between protection and credibility context.
@@ -62,3 +65,5 @@ This profile is based on six brief opinion or panel sources from 2015 and 2017, 
 - [[StartupFailurePatterns]] - his post-mortem framework distinguishes foreseeable mechanisms from novel changes and hindsight blame.
 - [[FocusedReading]] - his chapter-first heuristic targets the section most likely to contain a formulaic nonfiction book's thesis.
 - [[SpeedReadingMethod]] - his use of the table of contents is a compressed structural evaluation pass.
+- [[ContentModerationOperations]] - formalizes his account of policy thresholds, risk scoring, queues, staffing, and reviewer care.
+- [[YouTube]] - historical operating context for his moderation model and earlier product leadership.

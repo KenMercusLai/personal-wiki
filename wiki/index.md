@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Internet Content Moderation 101](sources/internet-content-moderation-101-hunter-walk.md) - Hunter Walk explains moderation as a policy, classification, queueing, staffing, and reviewer-care system rather than a technology-only filter.
 - [Internal Facebook Note: Here Is A ‘Psychological Trick’ To Target Teens](sources/internal-facebook-note-here-is-a-psychological-trick-to-target-teens.md) - Ryan Mac reports TBH's school-by-school Instagram launch method, its attempt to synchronize teen adoption, and the unverified transfer of that playbook to Facebook.
 - [Intention Is All You Need](sources/intention-is-all-you-need.md) - A practitioner argues that LLMs make intention an increasingly direct software interface, using Slock's group-chat agent coordination while preserving the engineering gap to dependable systems.
 - [Instapaper Outage Cause & Recovery](sources/instapaper-outage-cause-recovery-making-instapaper-medium.md) - Instapaper traces a 31-hour outage to an inherited RDS ext3 file limit, common-mode snapshots, untested restore timing, and delayed escalation, then documents provider-assisted recovery without reported data loss.
@@ -1433,7 +1434,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hacker News](entities/HackerNews.md) - Technology and startup discussion community useful for technical critique but, in the source's analysis, limited as a proxy for mass-market demand.
 - [Dan McKinley](entities/DanMcKinley.md) - Software practitioner who argues that deployment recovery must account for persistent and mixed-version system state rather than relying on a universal rollback control.
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
-- [Hunter Walk](entities/HunterWalk.md) - Investor-author analyzing media credibility, creator economics, founder-investor fit, and upside-first venture judgment.
+- [Hunter Walk](entities/HunterWalk.md) - Investor-author analyzing media credibility, creator economics, moderation operations, founder-investor fit, and upside-first venture judgment.
 - [Ellen Chisa](entities/EllenChisa.md) - Product leader framing creator compensation through content-specific revenue models, direct audience relationships, discovery, and meaningful metrics.
 - [Nick Rockwell](entities/NickRockwell.md) - Media technology executive advocating subscription-first economics while accepting mixed advertising and subscription portfolios.
 - [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who explains Paxos, replicated logs, and two-phase commit through concise problem-and-solution patterns.
@@ -1982,7 +1983,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hack Career](entities/HackCareer.md) - Career-advice publisher/source for the job-application side-project framework.
 - [Feross Aboukhadijeh](entities/FerossAboukhadijeh.md) - Developer cited for the rare attention-generating YouTube Instant side project.
 - [YouTube Instant](entities/YouTubeInstant.md) - Side project used as the source's exceptional viral project and job-offer example.
-- [YouTube](entities/YouTube.md) - Creator and cultural platform used as a comparison case for Twitter's metrics and tool strategy.
+- [YouTube](entities/YouTube.md) - Creator, cultural, advertising, search, and historically described content-moderation platform.
 - [Wistia](entities/Wistia.md) - B2B video company used as the startup case for growing beside YouTube through specialized business-video tooling.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Diogo Mónica](entities/DiogoMonica.md) - Security practitioner connecting Docker filesystem controls with incident investigation, rapid restoration, and bounded persistence resistance.
@@ -2404,6 +2405,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Content Moderation Operations](concepts/ContentModerationOperations.md) - Sociotechnical system connecting platform rules with risk classification, review queues, trained judgment, enforcement, and reviewer care.
 - [Synchronized Community Launch](concepts/SynchronizedCommunityLaunch.md) - Coordinating product exposure inside a bounded existing group so connected users can experience a social product together.
 - [Intention-Driven Software](concepts/IntentionDrivenSoftware.md) - Software creation and interaction organized around desired outcomes, with LLMs translating high-level intent while engineering supplies clarification and assurance.
 - [Performative Self-Presentation](concepts/PerformativeSelfPresentation.md) - Adapting or staging lived behavior for an imagined or measurable audience and a desirable public identity.
