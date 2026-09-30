@@ -7136,6 +7136,10 @@ Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective co
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-01] ingest | Jessica Livingston's Pretty Complete List on How Not to Fail
+
+Added [[DefaultAlive]] as an assumption-sensitive cash-survival test and updated [[JessicaLivingston]], [[YCombinator]], [[StartupFocus]], and [[StartupGrowthSignalQuality]] from their complete ordered evidence inventories. Connected user demand, product focus, measured revenue growth, runway, conservative hiring, and fundraising-stage expectations while preserving the conflict between growth as an anti-denial forcing function and short-window growth as weak standalone evidence. Qualified the 10% monthly benchmark, constant-growth and constant-expense assumptions, and the under-evidenced claim that gender barriers rarely determine founder outcomes. The YC logo and duplicated play-icon URLs returned HTTP 404, so none of the three effective remote image references could be inspected or retained and no visual claim was used.
+
 ## [2026-10-01] ingest | Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders
 
 Added [[DecisionQuality]] as a qualified distinction between consequential judgment and raw activity volume. Updated [[JeffBezos]], [[Amazon]], [[SleepAsPerformanceEnhancer]], and [[WorkLifeBalance]] from their complete ordered evidence inventories with Bezos's eight-hour sleep priority, concern about illusory productivity, and reciprocal work-life-harmony framing. Preserved the source as brief personal testimony rather than evidence of a universal sleep duration, causal shareholder benefit, or conflict-free work-home relationship. Inspected all three local images and omitted the lead crop, tiny thumbnail, and larger portrait as duplicate non-evidentiary photographs from the same Bezos photo session.
@@ -7179,6 +7183,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | 34 Questions to Ask a Potential Co-Founder
 
 Added source-bounded profiles for [[JessicaAlter]] and [[FounderDating]], and updated [[CoFounderFit]] from its complete ordered evidence inventory. Extended founder diligence across motivation, personal constraints, culture, governance, ownership, legal conflicts, and exit mechanics while distinguishing discussion prompts from behavioral evidence supplied by joint work and references. Preserved the checklist's unvalidated practitioner scope, its 34-versus-35 count mismatch, and privacy, bias, consent, and jurisdiction-specific legal limits around sensitive questions. Opened and retained the single local photograph under a descriptive canonical filename with matching manifest alt text; it illustrates face-to-face discussion but verifies no outcome claim.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

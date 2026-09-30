@@ -911,6 +911,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Interview: Building the Latest Campaign for David Guetta -- Serverless Code](sources/interview-building-the-latest-campaign-for-david-guetta-serverless-code.md) - James Hall explains how Parallax built a multilingual fan-recording campaign with static edge delivery, narrow Lambda APIs, direct S3 uploads, generated social artwork, and real-device compatibility testing.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
+- [Jessica Livingston's Pretty Complete List on How Not to Fail](sources/jessica-livingstons-pretty-complete-list-on-how-not-to-fail.md) - Jessica Livingston links user demand, founder focus, measured growth, default-alive status, conservative hiring, and fundraising-stage expectations into a qualified startup survival framework.
+
 ## Entities
 - [Jessica Alter](entities/JessicaAlter.md) - FounderDating co-founder represented through a structured, behavior-aware framework for prospective co-founder diligence.
 - [FounderDating](entities/FounderDating.md) - Co-founder network serving as the practice context for Jessica Alter's checklist and reference-checking advice.
@@ -1079,7 +1081,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Stacy Mitchell](entities/StacyMitchell.md) - Local-economy advocate interpreting restaurant-platform intermediation as gatekeeping that warrants policy attention.
 - [Seamless](entities/Seamless.md) - Grubhub subsidiary reported to have registered thousands of restaurant-linked domains.
 - [Gojek](entities/Gojek.md) - Indonesian mobility company presented by an employee-author as expanding from ride-sharing into food, ticketing, and other adjacent services.
-- [Jessica Livingston](entities/JessicaLivingston.md) - Y Combinator cofounder whose social judgment, operations, events, candor, and founder care shaped its early model and culture.
+- [Jessica Livingston](entities/JessicaLivingston.md) - Y Combinator cofounder whose social judgment and founder care shaped its model and whose operating advice joins user focus, growth, runway, hiring, and fundraising discipline.
 - [Nitasha Tiku](entities/NitashaTiku.md) - BuzzFeed News journalist examining access, media incentives, and technology power at Code Conference.
 - [Code Conference](entities/CodeConference.md) - Exclusive technology gathering represented as both a valuable access venue and a protected elite social environment.
 - [Kara Swisher](entities/KaraSwisher.md) - Technology journalist and Code Conference co-founder represented through combative interviewing, mentorship, and institutional access tensions.
@@ -3723,5 +3725,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Voice Clone Impersonation](concepts/VoiceCloneImpersonation.md) - Use of cloned speech with scripted scope, familiar context, and plausible channel defects to make a listener accept a false speaker identity.
 - [Respectful Refusal](concepts/RespectfulRefusal.md) - Declining promptly and unambiguously so a requester can reallocate effort without mistaking courtesy for a future commitment.
+
+- [Default Alive](concepts/DefaultAlive.md) - Assumption-sensitive test of whether current revenue growth reaches breakeven before a startup exhausts its cash.
 
 ## Syntheses

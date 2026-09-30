@@ -4,7 +4,8 @@ type: entity
 tags: [startup, investor, y-combinator, author]
 sources:
   - grow-the-puzzle-around-you-jessica-livingston
-last_updated: 2026-09-29
+  - jessica-livingstons-pretty-complete-list-on-how-not-to-fail
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,7 +15,7 @@ knowledge_schema: synthesis-v1
 ## Current Profile
 Livingston describes a nonlinear path from an encouraging but unconventional childhood through an unremarkable academic period and a series of customer service, investor relations, publishing, consulting, event, and investment-bank marketing roles. Those experiences became useful when she and [[PaulGraham]] turned repeated conversations about broken seed funding into YC. Graham and the other technical cofounders evaluated technology and expanded ideas; Livingston created the entity and legal templates, organized dinners and speakers, handled logistics, assessed founder character and relationships, and supported people through the emotional strain of company building.
 
-Her broader thesis is that these apparently atypical founder qualities were not deficiencies to overcome. They fit the unusual institution YC was becoming and helped determine its culture. The profile is therefore both a correction to accounts that reduce her role to Graham's spouse and a source-bounded argument for building work around a person's distinctive strengths.
+Her broader thesis is that these apparently atypical founder qualities were not deficiencies to overcome. They fit the unusual institution YC was becoming and helped determine its culture. In her 2016 Female Founders Conference keynote, she translates that institutional experience into a failure-avoidance sequence: find real user demand, protect product and customer focus, measure growth, know whether the company is [[DefaultAlive]], control hiring, and do not assume later funding will rescue weak performance. The profile is therefore both a correction to accounts that reduce her role to Graham's spouse and a source-bounded account of how she evaluates founder behavior.
 
 ## Key Characteristics
 - Uses subtle social cues to assess earnestness, determination, flexibility, and cofounder dynamics.
@@ -23,6 +24,7 @@ Her broader thesis is that these apparently atypical founder qualities were not 
 - Values autonomy and resists being controlled by institutions or conventional expectations.
 - Describes complementary expertise and a shared moral compass as the basis of her partnership with Graham.
 - Prioritizes the institution and founders over personal fame, brand, or maximizing small financial recoveries.
+- Uses customer, growth, runway, and hiring disciplines to confront founder denial before it becomes a financing crisis.
 
 ## Evidence
 - Founder evaluation: [[grow-the-puzzle-around-you-jessica-livingston]] says Livingston usually observed applicants while technical partners discussed the idea, then judged character and the relationship between cofounders.
@@ -30,13 +32,16 @@ Her broader thesis is that these apparently atypical founder qualities were not 
 - Community and care: [[grow-the-puzzle-around-you-jessica-livingston]] credits her selection against conceited applicants, event production, listening, and relationship counseling with shaping a family-like founder community.
 - Complementary partnership: [[grow-the-puzzle-around-you-jessica-livingston]] presents Graham's problem solving and technical network alongside Livingston's organization and social judgment, with each deferring to the other's expertise.
 - Distinctive fit: [[grow-the-puzzle-around-you-jessica-livingston]] identifies social perception, empathy, maternal care, candor, events, and low interest in money or fame as qualities that unexpectedly matched YC's needs.
+- Founder operating discipline: [[jessica-livingstons-pretty-complete-list-on-how-not-to-fail]] orders user need, focus, revenue growth, default-alive status, conservative hiring, and fundraising-stage realism into a connected survival framework.
+- Attention allocation: [[jessica-livingstons-pretty-complete-list-on-how-not-to-fail]] puts building and user conversation above investor coffees, premature PR, speculative partnerships, conferences, social-media disputes, and acquisition talk.
 
 ## Qualifications
-This profile is based on Livingston's retrospective first-person account and is not a complete biography or independent causal history of YC. The essay may compress other contributors, selection errors, later institutional changes, and the effects of market timing, capital, networks, or luck. Its claim that her qualities were critical is strongest as insider evidence about role design and weakest as proof that the same combination will produce success elsewhere.
+This profile is based on Livingston's retrospective first-person accounts and is not a complete biography or independent causal history of YC. The sources may compress other contributors, selection errors, later institutional changes, and the effects of market timing, capital, networks, or luck. Her operating advice likewise supplies no comparison group validating a 10% monthly growth threshold, revenue as the best universal metric, or pessimistic hiring across startup types. Her claim that women should not let controversy distract them acknowledges real obstacles but offers no evidence that discrimination, access, caregiving, safety, capital, or network constraints rarely determine outcomes.
 
 ## What Changed
 - Created a profile that makes Livingston's operational, evaluative, cultural, and founder-support work explicit.
 - Connected her personal-history argument to person-strategy fit and complementary cofounder design.
+- Added her user-focus, growth, cash-survival, expense, and fundraising framework while qualifying its thresholds and gender claims.
 
 ## Relationships
 - [[YCombinator]] - institution Livingston cofounded and operationally shaped.
@@ -45,3 +50,5 @@ This profile is based on Livingston's retrospective first-person account and is 
 - [[CoFounderFit]] - partnership pattern combining different expertise with shared moral priorities.
 - [[StartupCulture]] - domain shaped through founder selection, events, candor, and care.
 - [[DoingThingsThatDoNotScale]] - describes the high-touch early work Livingston performed for each batch.
+- [[DefaultAlive]] - cash-survival test Livingston asks YC founders to report.
+- [[StartupFocus]] - operating discipline that places product and users above progress-like distractions.
