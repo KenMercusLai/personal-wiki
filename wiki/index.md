@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Knowing when, and how, to pivot (or, why didn’t news apps work?)](sources/knowing-when-and-how-to-pivot-or-why-didnt-news-apps-work.md) - Jason Calacanis explains Inside.com's app-to-email pivot through weak app growth, stronger email engagement, reusable audience assets, lower operating complexity, and early but incomplete newsletter evidence.
 - [Knowing What You Are Looking For](sources/knowing-what-you-are-looking-for-avc.md) - Fred Wilson uses USV's advance job-search thesis, recognition of Indeed, and persistent founder courtship to argue for prepared opportunity selection while leaving hindsight and selection limits unresolved.
 - [Knowing When It's Time to Move On](sources/knowing-when-its-time-to-move-on-ryan-hoover-medium.md) - Ryan Hoover explains leaving a successful PlayHaven role when specialization, fading domain interest, and a desire for faster learning outweighed pay, growth, and team attachment.
 - [Know your job](sources/know-your-job-yancey-strickler-medium.md) - Yancey Strickler reframes a founder's reduced direct usefulness as a shift toward direction, team-building, delegation, and deliberate strategic perspective.
@@ -940,6 +941,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Inside.com](entities/InsideCom.md) - Digital-news startup represented through its shift from a praised but non-growing app to a smaller email-brief operation built on an existing audience.
 - [Ryan Hoover](entities/RyanHoover.md) - Early PlayHaven product manager represented through a startup turnaround and a learning- and fit-led decision to leave.
 - [PlayHaven](entities/PlayHaven.md) - Mobile-gaming startup represented through contraction, a product rebuild, reported commercial growth, and later role specialization.
 - [Brad Burnham](entities/BradBurnham.md) - Union Square Ventures partner who articulated the search-style job-listing model that preceded the firm's Indeed investment.
@@ -2542,6 +2544,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Startup Pivot Strategy](concepts/StartupPivotStrategy.md) - Redirecting a non-growing startup toward its strongest observed behavior, reusable asset, and simpler test while keeping early segment evidence distinct from durable fit.
 - [10x Thinking](concepts/TenXThinking.md) - Order-of-magnitude outcome framing that exposes assumptions and searches for a different mechanism while relying on bounded experiments and cumulative execution.
 - [Action-Grounded Identity](concepts/ActionGroundedIdentity.md) - Principle that present-tense roles should remain answerable to present conduct rather than rest only on past achievement or declaration.
 - [Preimplementation Feature Discovery](concepts/PreimplementationFeatureDiscovery.md) - Mapping and questioning user and operator flows to expose necessary product scope before implementation.

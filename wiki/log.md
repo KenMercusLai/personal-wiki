@@ -7367,3 +7367,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Knowing when, and how, to pivot (or, why didn’t news apps work?)
+
+Added [[InsideCom|Inside.com]] and [[StartupPivotStrategy]], and updated [[JasonCalacanis]] from his complete ordered evidence inventory. Recorded the distinction between acclaim and behavioral traction, the app-to-email reuse of an existing 180,000-address list, one-platform sequencing, and the reported reduction from a 12-role cross-platform model to a three-role newsletter operation. Preserved the experiment's narrow top-10% segment, early time window, self-reported metrics, and missing retention, revenue, profitability, and later-outcome evidence. Opened the sole local GIF and omitted it as a decorative reaction meme, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: aabfd004aba9dc0872d3bffe25d8597c32a02fae
+as_of_overview_commit: fab38e3cfcc18ec421b3e3e87975cb518c19f4a3
 summary: "Current knowledge links calibrated evidence, bounded experimentation, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 915
-source_count: 915
-paragraph_count: 676
+episode_count: 916
+source_count: 916
+paragraph_count: 677
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins prepared opportunity selection, customer outcomes, sustainable economics, risk-calibrated quality, governed distribution, fair allocation, evidence, and survival.
+Durable value joins prepared opportunity selection, customer outcomes, sustainable economics, governed distribution, fair allocation, evidence, and survival; traction-led pivots can preserve a customer proposition while changing medium and operating scope, but early segment signals do not establish durable fit.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].

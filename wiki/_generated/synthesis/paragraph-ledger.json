@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5f7c48123fbbc8f3a7bdf8289d1d57d4a3767f69ae9de700bc0aad809b99db24",
       "5379222796c70539632fc864e5282434ae3ac2db0380617ad60857231aabf8ab",
       "81410720b18d7bbfcd99086a46793d1f4641120ff3692d1e361690f3a435f95d",
       "f9c1f6e2a75c5cc01ffb3242b51c7bb8a401f7430532062add4d4386166093e6",
@@ -678,11 +679,31 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 676
+    "paragraph_count": 677
   },
-  "overview_commit": "aabfd004aba9dc0872d3bffe25d8597c32a02fae",
-  "overview_digest": "a23931203b1031af54a3f1782a81598677d19a9e0379dd42c6a13274faa365ec",
+  "overview_commit": "fab38e3cfcc18ec421b3e3e87975cb518c19f4a3",
+  "overview_digest": "8e08fb0abd131733ca3a64ab646d557d0b0a9cfcdcdd30f5bdfd5bf673d4009a",
   "paragraphs": [
+    {
+      "id": "5f7c48123fbbc8f3a7bdf8289d1d57d4a3767f69ae9de700bc0aad809b99db24",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JasonCalacanis]] source adds [[StartupPivotStrategy]] as concentration around observed traction rather than a complete restart. [[InsideCom|Inside.com]] had a praised and Apple-featured news app but no breakout growth, while email alerts produced stronger behavior and the company had accumulated 180,000 addresses; it therefore moved the same summarized-news proposition into the twice-daily Inside Daily Brief. The decision pattern combines a non-growing current model, selected peers' shutdowns, a stronger internal engagement signal, a reusable distribution asset, a simpler experiment, and lower reported operating scope. This sharpens [[ProductMarketFit]] by separating reviews, publicity, featuring, and positive feedback from recurring use, and it connects [[StartupFocus]] with [[PlatformDistributionDependence]]: Calacanis attributed dedicated news apps' weakness to social networks absorbing news discovery and recommended proving one platform before expanding. The early evidence does not establish durable fit. The reported 50% open rate applied only to the most interested 10% segment, the list additions covered less than two months, and the founder-authored account supplies no full-audience opens, clicks, retention, unsubscribes, revenue, margins, acquisition costs, or later outcomes. Its 12-person app versus three-role email comparison is a rough 2016 estimate with potentially different scope. The sole local GIF was opened and omitted as a decorative reaction meme.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "InsideCom",
+        "JasonCalacanis",
+        "PlatformDistributionDependence",
+        "ProductMarketFit",
+        "StartupFocus",
+        "StartupPivotStrategy"
+      ]
+    },
     {
       "id": "5379222796c70539632fc864e5282434ae3ac2db0380617ad60857231aabf8ab",
       "primary_topic": "business-and-markets",
