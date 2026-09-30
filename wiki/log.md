@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Knowledge Processing System for Marketers, Creators, and Knowledge Workers
+
+Added [[AndreChaperon]], [[TheArchive]], [[Tinderbox]], and [[FirstPrinciplesThinking]], and updated [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[NoteToolFit]], [[SecondBrain]], [[NiklasLuhmann]], and [[ChristianTietze]] from their complete ordered evidence inventories. Recorded the upstream PKM-to-workflow-to-writing model, the fleeting-to-permanent note boundary, own-words comprehension test, contextual retrieval, open-file preference, optional visual mapping, and the qualification that one enthusiastic 2019 macOS workflow does not demonstrate cognitive or creative gains. Opened all nine distinct remote images plus the duplicated lead reference; retained eight evidence-bearing workflow, capture, card, search, note, application, and relationship images under descriptive canonical filenames, omitted the Luhmann portrait as decorative, and noted that the final local author avatar was missing but decorative.
+
 ## [2026-10-01] ingest | Knowing When It's Time to Move On
 
 Added [[RyanHoover]] and [[PlayHaven]] from Hoover's 2013 account of a cash-constrained product rebuild, reported company growth, later role specialization, fading interest in gaming, and his learning- and fit-led decision to leave. Updated [[StrategicJobMobility]] from its complete ordered two-source evidence inventory to distinguish successful-company departure from calendar-driven job hopping while preserving switching costs, structural constraints, introspection limits, and the lack of comparative career evidence. Opened both effective local JPEGs and omitted the lower-resolution duplicate plus the full-size archival photograph as illustrative rather than evidentiary, so no asset manifest was created.
@@ -7371,6 +7375,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Knowing when, and how, to pivot (or, why didn’t news apps work?)
 
 Added [[InsideCom|Inside.com]] and [[StartupPivotStrategy]], and updated [[JasonCalacanis]] from his complete ordered evidence inventory. Recorded the distinction between acclaim and behavioral traction, the app-to-email reuse of an existing 180,000-address list, one-platform sequencing, and the reported reduction from a 12-role cross-platform model to a three-role newsletter operation. Preserved the experiment's narrow top-10% segment, early time window, self-reported metrics, and missing retention, revenue, profitability, and later-outcome evidence. Opened the sole local GIF and omitted it as a decorative reaction meme, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

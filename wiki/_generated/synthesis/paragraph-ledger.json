@@ -435,6 +435,7 @@
       "511145bebf037d1b273546474fd9253cb3af06d1c68807c51a1eaabf90ff7425",
       "a62d3e81294945663f9368b9098cd242d63a8ed7cfe6da523d9679e4c87d727b",
       "d1b52f15b28c68379ce70a1ac5e0d78ab4388c0d762605646b127bcd1a4bfa01",
+      "905e3866ae7cb9dcdc634dc6ebf5a37bb84630911a7080e02c9ccf9834776e40",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
@@ -679,10 +680,10 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 677
+    "paragraph_count": 678
   },
-  "overview_commit": "fab38e3cfcc18ec421b3e3e87975cb518c19f4a3",
-  "overview_digest": "8e08fb0abd131733ca3a64ab646d557d0b0a9cfcdcdd30f5bdfd5bf673d4009a",
+  "overview_commit": "029daf4483a78406290afd00adb025f63210492a",
+  "overview_digest": "76703996f54a7e747e472c54b301674eeee8fb0bc407b15fda3ce39dce8835f0",
   "paragraphs": [
     {
       "id": "5f7c48123fbbc8f3a7bdf8289d1d57d4a3767f69ae9de700bc0aad809b99db24",
@@ -8974,6 +8975,29 @@
         "LearningByWriting",
         "PersonalKnowledgeManagement",
         "SaschaFast",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "905e3866ae7cb9dcdc634dc6ebf5a37bb84630911a7080e02c9ccf9834776e40",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The André Chaperon source adds a creator-oriented processing layer to that note-taking cluster. [[PersonalKnowledgeManagement]] sits upstream of tool workflow and drafting: a circled podcast timestamp or handwritten fragment remains only fleeting capture until it is rewritten in the author's own words, made retrievable through context, stable identity, search terms, and links, and connected to later work. [[ZettelkastenMethod]] gains a concrete but optional visual adaptation through [[Tinderbox]], while [[TheArchive]] supplies the source's non-AI [[SecondBrain]] example through plain Markdown files, timestamp IDs, direct links, and search. A three-representation [[FirstPrinciplesThinking]] example moves from exploratory paper notes to a compact permanent note and then a directed concept map. This strengthens [[NoteToolFit]] by assigning capture, permanent storage, visualization, and long-form output to different media, but it also creates handoff, platform, cost, and learning burdens. The evidence remains one enthusiastic 2019 macOS workflow and does not show that its one-to-two-day processing target, flat filing, chosen products, or visual layer improves comprehension, creativity, or output. Eight distinct diagrams and screenshots were retained; duplicate lead art, portraits, and a missing decorative author avatar were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "FirstPrinciplesThinking",
+        "NoteToolFit",
+        "PersonalKnowledgeManagement",
+        "SecondBrain",
+        "TheArchive",
+        "Tinderbox",
         "ZettelkastenMethod"
       ]
     },

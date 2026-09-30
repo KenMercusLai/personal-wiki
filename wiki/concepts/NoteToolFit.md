@@ -9,7 +9,8 @@ sources:
   - wei-shen-me-yi-ji-ru-he-chu-li-gu-er-bi-ji
   - daniel-wessel-devonthink-second-impression-and-some-tips
   - herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten
-last_updated: 2026-09-29
+  - knowledge-processing-system-for-marketers-creators-and-knowledge-workers
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,14 +18,14 @@ knowledge_schema: synthesis-v1
 [[NoteToolFit]] is the alignment between a note-taking method and the software features that make that method easy to create, navigate, maintain, and reuse.
 
 ## Current Synthesis
-The sources' shared conclusion is that note-taking tools are not neutral containers, but they are also not ends in themselves. Small-note systems need features that make many small files usable, such as backlinks, link suggestions, graph analysis, metadata, templates, quick capture, and fast switching. Big-note systems need features that make long documents manageable, such as outlines, heading navigation, folding, table-of-contents generation, visual anchors, block links, and text transport. Wessel broadens tool fit beyond notes: a heterogeneous archive benefits from same-name coexistence, content-based duplicate detection, synchronized references, smart groups, thumbnail browsing, and preservation-aware import. The reading-note source adds that tool fit is also domain-specific, while the orphan-note source adds a lifecycle view in which graph views, orphan-listing scripts, standalone databases, and Anki-style review serve different integration stages. Lui supplies a medium-transition case: paper earns its place through focus and physical brevity, digital storage becomes useful when retrieval slows, and exportability limits lock-in even when the chosen application is imperfect. Liang Mouyin's essay adds the final personal-friction test: tool choice works when it simplifies the user's real workflow, not when it extends comparison, imitation, and setup.
+The sources' shared conclusion is that note-taking tools are not neutral containers, but they are also not ends in themselves. Small-note systems need features that make many small files usable, such as backlinks, link suggestions, graph analysis, metadata, templates, quick capture, and fast switching. Big-note systems need features that make long documents manageable, such as outlines, heading navigation, folding, table-of-contents generation, visual anchors, block links, and text transport. Chaperon adds a division-of-labor case: paper or a one-tap mobile tool handles fleeting capture, The Archive handles stable plain-text notes and links, Tinderbox handles optional visual relationships, and a separate writing app handles long-form output. Wessel broadens tool fit beyond notes: a heterogeneous archive benefits from same-name coexistence, content-based duplicate detection, synchronized references, smart groups, thumbnail browsing, and preservation-aware import. The reading-note source adds that tool fit is also domain-specific, while the orphan-note source adds a lifecycle view in which graph views, orphan-listing scripts, standalone databases, and Anki-style review serve different integration stages. Lui supplies a medium-transition case: paper earns its place through focus and physical brevity, digital storage becomes useful when retrieval slows, and exportability limits lock-in even when the chosen application is imperfect. Liang Mouyin's essay adds the final personal-friction test: tool choice works when it simplifies the user's real workflow, not when it extends comparison, imitation, and setup.
 
 ## Key Claims
 - Small-note workflows benefit most from tools that create, discover, type, and navigate links among many notes.
 - Small-note workflows also need templates, quick capture, metadata, and database-like views because note volume rises quickly.
 - Big-note workflows benefit most from internal navigation features such as outlines, heading search, folding, tables of contents, and visual anchors.
 - Big-note workflows also benefit from tools that append, prepend, or move text into existing notes without excessive manual rearrangement.
-- The note method, medium, and tool should be chosen together because each makes some actions cheaper and others more awkward, and their fit can change as the archive grows.
+- The note method, medium, and tool should be chosen together because each makes some stages cheaper and others more awkward; one system may deliberately assign capture, storage, visualization, and output to different tools.
 - Domain-specific workflows may need specialized affordances such as graph filtering, spoiler controls, orphan inspection, duplicate detection, virtual views, preservation, or visual triage.
 - A personally fitting smaller stack can be better than a fashionable or comprehensive one when the larger stack consumes attention.
 
@@ -40,14 +41,17 @@ The sources' shared conclusion is that note-taking tools are not neutral contain
 - File-archive fit: [[daniel-wessel-devonthink-second-impression-and-some-tips]] uses [[DEVONthink]] for same-name imports, content-based duplicate detection, replicants, smart groups, tags, three-pane browsing, and icon-based image sorting.
 - Medium transition: [[herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten]] uses 4×6 paper cards for focus and brevity, then digitizes when physical retrieval becomes too slow.
 - Portability test: [[herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten]] tolerates Notion's sluggishness because its cards can be exported quickly as Markdown files.
+- Stage-specific stack: [[knowledge-processing-system-for-marketers-creators-and-knowledge-workers]] assigns rapid capture to paper or mobile tools, permanent linked notes to The Archive, visualization to Tinderbox, and long-form writing to Ulysses.
+- Open-format preference: [[knowledge-processing-system-for-marketers-creators-and-knowledge-workers]] prefers reliable plain-text files over a proprietary subscription database for the durable archive.
 
 ## Counterevidence & Qualifications
-The sources warn against chasing fashionable plugins or graph views for their own sake. Tool fit matters because tools support or frustrate a method and domain, not because every new feature is worth adopting; the reading-note example is valuable because the features solve concrete reading problems rather than merely decorating a note graph. The orphan-note source makes the same point negatively: graph aesthetics can invite meaningless links unless tools are used to inspect and cultivate real relationships. Liang Mouyin's simplified stack and Lui's paper-to-Notion workflow are personal rather than universal evidence; a larger toolchain can still fit someone with heavier research, collaboration, or archival needs. Lui's successful Markdown export does not show whether relationships, properties, attachments, or later migrations remain complete. Wessel's recommendations describe one 2011 product version and personal workflow, so they do not establish current DEVONthink behavior or universal advantages over filesystem, cloud, database, or note-centered alternatives.
+The sources warn against chasing fashionable plugins or graph views for their own sake. Tool fit matters because tools support or frustrate a method and domain, not because every new feature is worth adopting; the reading-note example is valuable because the features solve concrete reading problems rather than merely decorating a note graph. The orphan-note source makes the same point negatively: graph aesthetics can invite meaningless links unless tools are used to inspect and cultivate real relationships. Chaperon's multi-tool workflow fits his visual style but increases handoffs, platform dependence, cost, synchronization assumptions, and learning burden; its 2019 product descriptions are not current specifications. Liang Mouyin's simplified stack and Lui's paper-to-Notion workflow are personal rather than universal evidence; a larger toolchain can still fit someone with heavier research, collaboration, or archival needs. Lui's successful Markdown export does not show whether relationships, properties, attachments, or later migrations remain complete. Wessel's recommendations describe one 2011 product version and personal workflow, so they do not establish current DEVONthink behavior or universal advantages over filesystem, cloud, database, or note-centered alternatives.
 
 ## What Changed
 - Added medium changes over time: paper can fit initial capture while digital files fit later retrieval.
 - Added practical portability as an exit criterion for accepting an imperfect application.
 - Qualified Markdown export as a limited migration demonstration rather than proof of complete interoperability.
+- Added stage-specific tool composition and the corresponding handoff, platform, cost, and learning tradeoffs.
 
 ## Related Concepts
 - [[PersonalKnowledgeManagement]] - tool fit shapes how a personal knowledge system is captured, retrieved, and maintained.
@@ -58,3 +62,5 @@ The sources warn against chasing fashionable plugins or graph views for their ow
 - [[OrphanNotes]] - isolated notes require tools for diagnosis, review, and containment.
 - [[DigitalArchiveOrganization]] - file archives require primary structure plus overlapping views and safe duplicate handling.
 - [[DEVONthink]] - supplies the source-scoped product example for file-archive fit.
+- [[TheArchive]] - supplies the source-scoped plain-text permanent-note example.
+- [[Tinderbox]] - supplies the source-scoped visual relationship-mapping example.
