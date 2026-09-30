@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Knowing What You Are Looking For](sources/knowing-what-you-are-looking-for-avc.md) - Fred Wilson uses USV's advance job-search thesis, recognition of Indeed, and persistent founder courtship to argue for prepared opportunity selection while leaving hindsight and selection limits unresolved.
+- [Knowing When It's Time to Move On](sources/knowing-when-its-time-to-move-on-ryan-hoover-medium.md) - Ryan Hoover explains leaving a successful PlayHaven role when specialization, fading domain interest, and a desire for faster learning outweighed pay, growth, and team attachment.
 - [Know your job](sources/know-your-job-yancey-strickler-medium.md) - Yancey Strickler reframes a founder's reduced direct usefulness as a shift toward direction, team-building, delegation, and deliberate strategic perspective.
 - [Kent Beck: I get paid for code that works, not for tests](sources/kent-beck-i-get-paid-for-code-that-works-not-for-tests.md) - A saved Beck quotation and comment debate frame testing as confidence gained per cost while preserving maintenance, regression, metric, and test-layer disputes.
 - [10x Not 10%](sources/ken-norton-10x-not-10-percent.md) - Ken Norton argues that order-of-magnitude outcomes require problem reframing, bounded failure, evidence-led experimentation, trend awareness, and impact measures rather than familiar effort counts.
@@ -939,6 +940,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Ryan Hoover](entities/RyanHoover.md) - Early PlayHaven product manager represented through a startup turnaround and a learning- and fit-led decision to leave.
+- [PlayHaven](entities/PlayHaven.md) - Mobile-gaming startup represented through contraction, a product rebuild, reported commercial growth, and later role specialization.
 - [Brad Burnham](entities/BradBurnham.md) - Union Square Ventures partner who articulated the search-style job-listing model that preceded the firm's Indeed investment.
 - [Indeed](entities/Indeed.md) - Job-search company represented as a close match to USV's prepared opportunity model and a persistently pursued 2005 investment.
 - [Yancey Strickler](entities/YanceyStrickler.md) - Former Kickstarter CEO represented through a team-centered account of direction, delegation, and strategic perspective.

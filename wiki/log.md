@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Knowing When It's Time to Move On
+
+Added [[RyanHoover]] and [[PlayHaven]] from Hoover's 2013 account of a cash-constrained product rebuild, reported company growth, later role specialization, fading interest in gaming, and his learning- and fit-led decision to leave. Updated [[StrategicJobMobility]] from its complete ordered two-source evidence inventory to distinguish successful-company departure from calendar-driven job hopping while preserving switching costs, structural constraints, introspection limits, and the lack of comparative career evidence. Opened both effective local JPEGs and omitted the lower-resolution duplicate plus the full-size archival photograph as illustrative rather than evidentiary, so no asset manifest was created.
+
 ## [2026-10-01] ingest | Kent Beck: I get paid for code that works, not for tests
 
 Added [[ConfidenceBasedTesting]] and updated [[KentBeck]] from his complete ordered evidence inventory. Recorded Beck's confidence threshold, individual and team error targeting, and experimental stance while preserving commenters' maintainability, regression, coverage-metric, static-type, and test-layer objections. Flagged the unresolved tension with [[TestPyramid]] over substituting smoke or integration tests for unit checks. Opened both local images and omitted the small author portrait and emoji as decorative, so no asset manifest was created.
@@ -7355,6 +7359,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Knowing What You Are Looking For
 
 Added [[BradBurnham]] and [[Indeed]], and updated [[FredWilson]], [[UnionSquareVentures]], [[AVC]], and [[StartupOpportunitySelection]] from their complete ordered evidence inventories. Recorded thesis formation, opportunity recognition, and persistent founder pursuit as distinct parts of USV's Indeed investment case. Preserved the opposing risk that rigid thesis filters create blind spots, and treated company-quality, success-frequency, return, and hypothetical independent-valuation claims as retrospective and unverified. No direct contradiction was found; the source instead creates a useful tension between prepared attention and thesis-driven exclusion. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
