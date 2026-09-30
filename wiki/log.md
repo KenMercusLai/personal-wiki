@@ -6991,3 +6991,11 @@ Added [[EarnLearnCareerFramework]] as Mark Suster's distinction between startup 
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Is this my interface or yours?
+
+Added [[JohnSaito]] and expanded [[InterfaceCopywriting]] from action clarity into grammatical perspective, including ownership-oriented “my,” assistant-like “your,” neutral wording where unambiguous, and collective language where real people meaningfully provide the service. Preserved these emotional effects as practitioner hypotheses rather than measured universal responses. Opened all fourteen effective local image embeds; retained the Windows label evolution and the clear cross-product pronoun comparison, and omitted duplicate thumbnails, decorative material, and low-resolution prose-repeating examples.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

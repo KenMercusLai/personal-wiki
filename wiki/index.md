@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Is this my interface or yours?](sources/is-this-my-interface-or-yours-john-saito-medium.md) - John Saito frames “my,” “your,” neutral, and collective interface language as contextual choices about ownership, guidance, ambiguity, and human presence.
 - [Is There Any Room For The Not-Passionate Developer?](sources/is-there-any-room-for-the-not-passionate-developer-philippe-bourgaus-blog.md) - Philippe Bourgau separates varied technical learning from repetitive overwork while exposing how parenthood, stable-income needs, and weak evidence complicate passion-based career norms.
 - [Is Programming Art?](sources/is-programming-art-daedtech.md) - Erik Dietrich argues that programming is sometimes art but usually functional algorithmic delegation, while commenters complicate the boundary through craft, expression, correctness, and engineering.
 - [Is Product Hunt useful for developer tools?](sources/is-product-hunt-useful-for-developer-tools-flawless-ios-medium.md) - Flawless App's founders report a first-place, zero-cash Product Hunt launch driven by prior community relationships and intensive live operations, while separating votes and feedback from modest sales and absent major press.
@@ -888,6 +889,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [John Saito](entities/JohnSaito.md) - Product writer and designer represented through a contextual framework for grammatical perspective in interfaces.
 - [Flawless App](entities/FlawlessApp.md) - iOS design-comparison developer tool represented through a high-attention, feedback-rich, but modestly converting Product Hunt launch.
 - [Product Hunt](entities/ProductHunt.md) - Community product-discovery platform whose rankings can concentrate launch attention and social proof without proving durable demand.
 - [NordVPN](entities/NordVPN.md) - Consumer VPN provider represented through a source-scoped dispute over review incentives, marketing, corporate relationships, product failures, and unsupported surveillance allegations.

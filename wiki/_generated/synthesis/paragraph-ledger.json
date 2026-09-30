@@ -63,7 +63,7 @@
       "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
       "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
       "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
-      "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
+      "d34dc67ab6e70c26d296b201e49386ea09a4685bb0434b86dc989fbf24378fc8",
       "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
       "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
       "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
@@ -653,8 +653,8 @@
     ],
     "paragraph_count": 649
   },
-  "overview_commit": "437e61a5c8785a10db490171380307bae32a52f0",
-  "overview_digest": "ec654bee2b980a084dd5a7601fd0a1375594ffa63c597178258f9fc9e9e2319a",
+  "overview_commit": "dd20d783d4eccde85132e97bdbfc942ef73bc21b",
+  "overview_digest": "ed37c612edbdeb76cedcc281c5f111b0210f85399e18905ec601cafd95317ae1",
   "paragraphs": [
     {
       "id": "a9e4e244f41d0fbbe0ccf6ecb9e5b638cb5d8bf36da12a073cc0a875537e3c3a",
@@ -1870,19 +1870,21 @@
       ]
     },
     {
-      "id": "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
+      "id": "d34dc67ab6e70c26d296b201e49386ea09a4685bb0434b86dc989fbf24378fc8",
       "primary_topic": "business-and-markets",
-      "secondary_topics": [],
-      "text": "The newest GV Library source adds [[InterfaceCopywriting]] as functional product design rather than final-stage decoration. Task-critical language should prioritize clarity over raw brevity or conspicuous personality: distinguish actions such as filtering, searching, saving, and submitting; expand avoidable abbreviations; front-load labels; replace generic confirmation controls with explicit outcomes; and preview what a multi-page flow will ask next. Headlines, buttons, links, and field labels deserve disproportionate attention because people use them to understand and act, while supporting explanations can strengthen trust when they address relevant security, privacy, or company context. The source also extends [[GV]]'s test-oriented design profile: early prototypes should contain real copy so [[UserTesting]] or A/B experiments can revise language alongside interactions and visuals. The synthesis remains practitioner guidance, not a universal reading model or comparative experiment; comprehension varies by audience and context, longer explanations can add cognitive load, and the essay supplies no sample sizes or outcome measures. All four local images were opened and omitted as duplicate crops or tiny versions of the same hand-drawn web sketch whose reliable lesson is already repeated in the prose and caption.",
+      "secondary_topics": [
+        "culture-and-media",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[JohnSaito]] source broadens [[InterfaceCopywriting]] from action clarity into the relationship implied by grammatical perspective. The GV Library source still supplies the functional baseline: distinguish actions such as filtering, searching, saving, and submitting; expand avoidable abbreviations; front-load labels; replace generic confirmation controls with explicit outcomes; preview multi-page requests; and test real copy alongside interactions and visuals. Saito adds that “my” can frame a product as the user's extension and emphasize ownership or control, while “your” can make the product sound like an assistant addressing or guiding the user. Neutral wording reduces clutter only when the referent remains clear, and “we” most credibly signals meaningful human service rather than automated processing. The combined test is whether users understand the speaker, referent, action, and consequence in the complete interface, not whether wording is maximally short or personal in isolation. Both sources remain practitioner guidance rather than comparative experimental evidence; pronoun effects can vary by language, culture, task, and product expectations. All fourteen effective image embeds in Saito's supplied Markdown were opened: two clear evidence-bearing composites were retained at their semantic positions, while duplicate thumbnails, decorative images, and low-resolution prose-repeating examples were omitted.",
       "topic_scores": {
-        "ai-and-technology": 1,
-        "business-and-markets": 2,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
         "psychology-and-personal-development": 1
       },
       "wikilinks": [
-        "GV",
         "InterfaceCopywriting",
-        "UserTesting"
+        "JohnSaito"
       ]
     },
     {

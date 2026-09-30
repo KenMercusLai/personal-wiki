@@ -4,24 +4,28 @@ type: concept
 tags: [product-design, ux-writing, usability, content-design]
 sources:
   - five-principles-for-great-interface-copywriting-gv-library
-last_updated: 2026-09-28
+  - is-this-my-interface-or-yours-john-saito-medium
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[InterfaceCopywriting]] is the design of labels, buttons, descriptions, instructions, and other product text so people can understand available actions, consequences, and context while using an interface.
+[[InterfaceCopywriting]] is the design of labels, buttons, descriptions, instructions, and other product text so people can understand available actions, consequences, context, and their relationship to the product while using an interface.
 
 ## Current Synthesis
-The GV Library essay treats interface language as functional design material rather than decoration added after interaction and visual work. Its priority order is clarity first, restrained personality second: use the exact action word, avoid needless jargon and abbreviations, put distinguishing words early, label otherwise ambiguous content, and tell people what a control will do or what the next step will ask.
+The sources treat interface language as functional design material rather than decoration added after interaction and visual work. Their shared priority is contextual clarity: use the exact action word, avoid needless jargon and abbreviations, put distinguishing words early, label otherwise ambiguous content, and tell people what a control will do or what the next step will ask.
 
-This makes real copy part of prototyping. Headlines, buttons, links, and field labels receive attention because people rely on them to act, while supporting explanations can strengthen trust when they address a consequential concern such as security or privacy. The practical test is not whether copy is maximally short or distinctive in isolation, but whether it helps intended users understand and proceed when evaluated with the complete interface.
+Saito adds that grammatical perspective also positions the product relative to the user. “My” can make the interface feel like an extension of the user and emphasize ownership or control; “your” can make the product sound like an assistant addressing and guiding the user; neutral labels reduce verbal clutter only when the referent stays clear; and “we” should imply actual human participation rather than automated processing. These are hypotheses about tone and relationship, not substitutes for comprehension.
+
+Together, the sources make real copy part of prototyping. Headlines, buttons, links, and field labels receive attention because people rely on them to act, while supporting explanations and carefully chosen perspective can shape trust and expectations. The practical test is not whether copy is maximally short, personal, or distinctive in isolation, but whether intended users can understand the speaker, object, action, and consequence in the complete interface.
 
 ## Key Claims
 - Clarity outranks both raw brevity and brand personality in task-critical interface text.
 - Specific verbs, expanded terms, front-loaded labels, and explicit button outcomes reduce avoidable ambiguity.
 - Direct headings and next-step explanations can supply missing context in feeds and multi-page flows.
-- Prominent and interactive text is likely to be read and therefore deserves disproportionate design attention.
-- Supporting copy can contribute to credibility and trust when it explains relevant safeguards or context.
+- Pronoun choice establishes perspective: “my” can signal user ownership, while “your” can signal product-authored conversation or guidance.
+- Neutral labels work when the referent is obvious; “we” is most credible when real people meaningfully provide the service.
+- Prominent and interactive text deserves disproportionate design attention, while supporting copy can contribute context and trust.
 - Real copy should be drafted, tested, and revised throughout prototyping rather than inserted after the interface is fixed.
 
 ## Evidence
@@ -31,6 +35,13 @@ Clarity and action specificity:
 Direct context and progression:
 - [[five-principles-for-great-interface-copywriting-gv-library]] reports that labeling an otherwise unexplained update feed clarified its contents and recommends previewing the next request in a multi-page flow.
 
+Perspective and product relationship:
+- [[is-this-my-interface-or-yours-john-saito-medium]] contrasts “My Channel” and “My Drive” with “Your Music” and “Your Account,” framing first person as user-owned and second person as product-authored.
+- [[is-this-my-interface-or-yours-john-saito-medium]] uses the progression from “My Computer” through “Computer” to “This PC” to show that removing perspective can require another way to identify the intended object.
+
+Human and automated speakers:
+- [[is-this-my-interface-or-yours-john-saito-medium]] argues that “we” can reassure users of people-powered services but can mislead when an automated system performs the work.
+
 Attention and trust:
 - [[five-principles-for-great-interface-copywriting-gv-library]] says people read headlines and interactive elements and cites company-story, security, and privacy explanations as trust-building uses of copy.
 
@@ -38,11 +49,13 @@ Copy inside design iteration:
 - [[five-principles-for-great-interface-copywriting-gv-library]] argues that early sketches should use real text so user studies or experiments can improve language alongside interactions and visuals.
 
 ## Counterevidence & Qualifications
-The evidence is one practitioner's retrospective and set of heuristics, not a controlled comparison of wording variants or a universal style standard. Reading behavior varies with task, literacy, language, accessibility needs, risk, screen size, and visual hierarchy; clear supporting text does not guarantee that it will be noticed or that trust claims will be believed. Longer explanations can also increase cognitive load, while personality may carry more functional value in entertainment, community, or identity-oriented products. The source recommends user studies and A/B tests but reports no sample sizes, measures, or experimental results for the five principles.
+The evidence consists of two practitioner essays and historical product examples, not controlled comparisons of wording variants or a universal style standard. Reading and interpretation vary with task, literacy, language, localization, accessibility needs, risk, screen size, visual hierarchy, and existing product expectations. Saito's links from pronouns to feelings of ownership, assistance, or human presence are plausible interpretations but lack reported user research or outcome measures; the same pronoun may function differently across languages and cultures. Clear supporting text does not guarantee attention or trust, longer explanations can add cognitive load, and personality may carry more functional value in entertainment, community, or identity-oriented products. The GV essay recommends user studies and A/B tests but reports no sample sizes, measures, or experimental results.
 
 ## What Changed
-- Created a product-language concept centered on clarity, action specificity, direct context, trust, and iterative testing.
-- Preserved the distinction between likely-to-be-read interface elements and a claim that every user reads every word.
+- Expanded the synthesis from action clarity to the speaker-user relationship implied by grammatical perspective.
+- Added neutral and collective wording as contextual choices governed by ambiguity and genuine human participation.
+- Reframed the testable unit as whether users understand the speaker, referent, action, and consequence in the complete interface.
+- Preserved pronoun effects as practitioner hypotheses rather than measured universal responses.
 
 ## Related Concepts
 - [[EditingForClarity]] - supplies broader revision heuristics for precision, concision, audience context, tone, and scan design.
