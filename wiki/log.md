@@ -6920,3 +6920,10 @@ Added [[EverydayEconomy]] as NextView Ventures' 2017 framework for technology-en
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-30] ingest | Introducing Progressive Equity
+
+Added [[ProgressiveEquity]] as Andrew Mason and Detour's threshold-based program for redistributing part of exceptional employee-equity gains through capped progressive RSUs and a one-time kicker pool. Created [[AndrewMason]] and [[Detour]]; updated [[Groupon]] from its complete ordered evidence inventory with Mason's retrospective on concentrated employee outcomes and the difficulty of redistribution after success. Preserved investor exclusion, mandatory participation, leaver ineligibility, pro-rata ambiguity, the unrealized trigger, fictional arithmetic, and missing legal, tax, accounting, governance, employee-preference, and outcome evidence. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

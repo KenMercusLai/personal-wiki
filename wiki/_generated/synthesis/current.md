@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: fd06368a153fa9bbed13bb7466c2bd5e3931add7
+as_of_overview_commit: eddff38f6e8f71fbf2a4320a8a4f0bb30bdf982e
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 858
-source_count: 858
-paragraph_count: 645
+episode_count: 859
+source_count: 859
+paragraph_count: 646
 topic_count: 9
 ---
 
@@ -17,6 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
+- [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome.
 - [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment.
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
 - Managed-service recovery is dependable only when copies, timing assumptions, degraded modes, and escalation paths escape the relevant failure: [[Instapaper]] needed a new filesystem, write reconciliation, [[Pinterest]] SRE, and [[AWS]] intervention because [[AmazonRDS]] snapshots preserved the production limit.
@@ -35,10 +36,10 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, mature enabling infrastructure, governed distribution, ecosystem boundaries, lifecycle trust, and risk allocation.
+Durable value joins customer outcomes, sustainable economics, mature enabling infrastructure, governed distribution, ecosystem boundaries, lifecycle trust, and fair risk allocation.
 
+- [[ProgressiveEquity]] separates initial [[EmployeeEquityGrantSizing]] from payoff-shape design: [[Detour]] proposed capping half of participating employee RSU appreciation above a financial-independence threshold and routing released value pro rata at a major liquidity event, using [[AndrewMason]]'s [[Groupon]] experience to argue that redistribution should be committed before success makes board and tax barriers harder to overcome. Evidence: [[ProgressiveEquity]], [[EmployeeEquityGrantSizing]], [[Detour]], [[AndrewMason]], [[Groupon]], [[EmployeeEquityRisk]].
 - [[EverydayEconomy]] applies [[TechnologyEnablerStack]] to business opportunity: [[NextViewVentures]] argues that broadband, search, mobile, cloud, social systems, smartphones, and location services have become mature dependencies on which consumer and B2B applications can redesign recurring experiences across home, transportation, food, work and money, health, apparel, and entertainment. Evidence: [[EverydayEconomy]], [[TechnologyEnablerStack]], [[NextViewVentures]].
-- [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 
 ### Cross-domain
 

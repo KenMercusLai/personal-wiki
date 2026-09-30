@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Introducing Progressive Equity](sources/introducing-progressive-equity-detour-blog-medium.md) - Andrew Mason proposes a threshold-based RSU and kicker-pool design that redistributes part of exceptional employee equity gains at a major liquidity event.
 - [Introducing NextView III and Our Focus on the Everyday Economy](sources/introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures.md) - NextView announces a $50 million third fund and a thesis for redesigning seven recurring domains of daily life on mature internet infrastructure.
 - [Internet Content Moderation 101](sources/internet-content-moderation-101-hunter-walk.md) - Hunter Walk explains moderation as a policy, classification, queueing, staffing, and reviewer-care system rather than a technology-only filter.
 - [Internal Facebook Note: Here Is A ‘Psychological Trick’ To Target Teens](sources/internal-facebook-note-here-is-a-psychological-trick-to-target-teens.md) - Ryan Mac reports TBH's school-by-school Instagram launch method, its attempt to synchronize teen adoption, and the unverified transfer of that playbook to Facebook.
@@ -879,6 +880,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Interview: Building the Latest Campaign for David Guetta -- Serverless Code](sources/interview-building-the-latest-campaign-for-david-guetta-serverless-code.md) - James Hall explains how Parallax built a multilingual fan-recording campaign with static edge delivery, narrow Lambda APIs, direct S3 uploads, generated social artwork, and real-device compatibility testing.
 
 ## Entities
+- [Andrew Mason](entities/AndrewMason.md) - Founder who turned a retrospective concern about concentrated Groupon employee outcomes into Detour's Progressive Equity proposal.
+- [Detour](entities/Detour.md) - Startup represented through its published threshold-based employee-equity redistribution design.
 - [TBH](entities/TBH.md) - Teen polling app whose founders documented a synchronized, school-by-school launch process after Facebook acquired the company.
 - [Ryan Mac](entities/RyanMac.md) - Technology reporter who obtained and contextualized TBH's internal Facebook launch memo.
 - [Slock](entities/Slock.md) - Agent-native group-chat application whose messages and channels form a high-level coordination surface for agents across machines.
@@ -1884,7 +1887,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition, product-evolution, and explicit vacation-policy example.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as a startup-category map and as the undocumented distribution surface behind Airbnb's early listing integration.
-- [Groupon](entities/Groupon.md) - Daily-deals company whose consumer distribution loops can conflict with merchant unit economics and customer quality.
+- [Groupon](entities/Groupon.md) - Daily-deals company represented through consumer growth loops, contested merchant economics, and concentrated employee outcomes.
 - [PayPal](entities/PayPal.md) - Payments company represented through referral growth, web-payment infrastructure, prototype payments, and Checkout API evolution.
 - [Ahmad Iqbal](entities/AhmadIqbal.md) - Merchant-founder who turned Nadeef customer-call experiments into Shopify apps such as Scout, Raven Callback, and Pizza Party.
 - [Nadeef](entities/Nadeef.md) - Shopify bidet store where abandoned-checkout calls, VIP thank-yous, and customer-experience app ideas were tested.
@@ -2411,6 +2414,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Progressive Equity](concepts/ProgressiveEquity.md) - Exit-triggered equity design that caps part of exceptional participant upside and redistributes released value to eligible employees.
 - [Everyday Economy](concepts/EverydayEconomy.md) - NextView investment framework for technology-enabled redesign across seven recurring spending and experience domains.
 - [Content Moderation Operations](concepts/ContentModerationOperations.md) - Sociotechnical system connecting platform rules with risk classification, review queues, trained judgment, enforcement, and reviewer care.
 - [Synchronized Community Launch](concepts/SynchronizedCommunityLaunch.md) - Coordinating product exposure inside a bounded existing group so connected users can experience a social product together.
