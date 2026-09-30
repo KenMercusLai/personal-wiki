@@ -6935,3 +6935,11 @@ Added [[RoyBahat]]'s opt-in, requester-written introduction workflow and updated
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Introductory bullshit detection for non-technical managers
+
+Expanded [[TechnicalDecisionReview]] from change review to project governance through concrete user problems, operating constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence. Updated [[SoftwareEstimation]] from its complete ordered evidence inventory to distinguish engineer-led decomposition from non-technical manager-led task interrogation. Preserved the source's unsupported memory, maintenance, and “80/50” generalizations as qualifications. Opened all three local images and omitted them as duplicate handwritten-title crops with no evidence beyond the prose.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

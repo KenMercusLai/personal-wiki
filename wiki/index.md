@@ -879,6 +879,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [I Am Not a Self-Made Man](sources/i-am-not-a-self-made-man-facebook.md) - Arnold Schwarzenegger attributes his career to ambition interacting with family, teachers, coaches, shelter, mentors, sponsors, role models, and voters, then argues for gratitude and continued learning.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 - [Interview: Building the Latest Campaign for David Guetta -- Serverless Code](sources/interview-building-the-latest-campaign-for-david-guetta-serverless-code.md) - James Hall explains how Parallax built a multilingual fan-recording campaign with static edge delivery, narrow Lambda APIs, direct S3 uploads, generated social artwork, and real-device compatibility testing.
+- [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
 - [Roy Bahat](entities/RoyBahat.md) - Investor-author defining a low-friction, opt-in workflow for forwardable introduction emails.
