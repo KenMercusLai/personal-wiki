@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Is Programming Art?](sources/is-programming-art-daedtech.md) - Erik Dietrich argues that programming is sometimes art but usually functional algorithmic delegation, while commenters complicate the boundary through craft, expression, correctness, and engineering.
 - [Is Product Hunt useful for developer tools?](sources/is-product-hunt-useful-for-developer-tools-flawless-ios-medium.md) - Flawless App's founders report a first-place, zero-cash Product Hunt launch driven by prior community relationships and intensive live operations, while separating votes and feedback from modest sales and absent major press.
 - [Is NordVPN a Honeypot? - VPNscam.com](sources/is-nordvpn-a-honeypot-vpnscam-com.md) - VPNscam.com combines review incentives, advertising, Tesonet claims, and alleged failures into a honeypot theory that the supplied evidence does not prove and a named reviewer directly disputes.
+- [Is it Time for You to Earn or to Learn?](sources/is-it-time-for-you-to-earn-or-to-learn-both-sides-of-the-table.md) - Mark Suster separates learning-led startup jobs from credible ownership-level earn opportunities and urges candidates to test equity upside against realistic payout math and life constraints.
 - [Investor VCs and Operator VCs](sources/investor-vcs-and-operator-vcs-avc.md) - Fred Wilson argues that operator-first and investor-developed paths can both produce strong VCs, while distinguishing strategic portfolio support from taking over management execution.
 - [Introductions and the “forward intro email”](sources/introductions-and-the-forward-intro-email-also-by-roy-bahat.md) - Roy Bahat specifies an opt-in, requester-written email workflow that preserves recipient choice while reducing introducer editing and coordination work.
 - [Introducing Progressive Equity](sources/introducing-progressive-equity-detour-blog-medium.md) - Andrew Mason proposes a threshold-based RSU and kicker-pool design that redistributes part of exceptional employee equity gains at a major liquidity event.
@@ -1736,7 +1737,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
 - [Tall West](entities/TallWest.md) - Design agency context for Brad Ellis's reach-navigation essay.
 - [Bird](entities/Bird.md) - Electric scooter service framed as a category-creating micromobility startup with rapid demand and a bundled operating moat.
-- [Mark Suster](entities/MarkSuster.md) - Investor-author reasoning from local observation about Bird, hiring, networking, and relocation-first job search.
+- [Mark Suster](entities/MarkSuster.md) - Investor-author and former CEO reasoning about Bird, hiring, networks, employee equity, and earn-versus-learn career choices.
 - [Upfront Ventures](entities/UpfrontVentures.md) - Los Angeles venture firm that backed Bird across multiple recent rounds.
 - [Travis VanderZanden](entities/TravisVanderZanden.md) - Bird founder presented as an experienced operator behind the company's fast rollout and fundraising.
 - [Tom Tunguz](entities/TomTunguz.md) - SaaS strategy writer connecting cross-field innovation with team expertise and organizational data sharing.
@@ -3219,6 +3220,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
 - [Employee Termination](concepts/EmployeeTermination.md) - End-to-end process spanning expectations, dismissal, secure offboarding, communication, separation terms, and alumni relations.
 - [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
+- [Earn-Learn Career Framework](concepts/EarnLearnCareerFramework.md) - Career heuristic separating roles primarily justified by credible wealth upside from those justified by responsibility, skills, relationships, mission, and future options.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Startup Financing Mechanics](concepts/StartupFinancingMechanics.md) - Practical system of shares, valuation, investor instruments, conversion terms, and ownership math that determines how fundraising changes a startup cap table.
 - [Unpriced Seed Financing](concepts/UnpricedSeedFinancing.md) - Early-stage financing structure where investors provide capital before a priced valuation in exchange for future equity rights.

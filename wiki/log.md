@@ -6983,3 +6983,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Is it Time for You to Earn or to Learn?
+
+Added [[EarnLearnCareerFramework]] as Mark Suster's distinction between startup roles justified by credible ownership-level wealth potential and roles justified by responsibility, peers, skills, relationships, mission, enjoyment, and future options. Updated [[MarkSuster]] and [[EmployeeEquityRisk]] from their complete ordered evidence inventories with small-grant payout scenarios, capitalization and option-pool diligence, vesting and preference constraints, and life-stage risk capacity. Preserved that earn and learn can overlap, founder or executive status does not guarantee success, and the article's valuation, tax, exit, and dilution examples are simplified 2009 illustrations rather than current benchmarks. Opened both unique local images, including the repeated first image, and omitted the generic cash-in-pocket and Stanford campus photographs as decorative, so no asset manifest was created.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
