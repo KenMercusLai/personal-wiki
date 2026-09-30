@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c74511507a28c95fd963e7aa70d1b1a38bbe36b9ca105a6431624b64fe3e3ca2",
       "58decbac0239439db0139da0d2ca27e5773da5c4c75e561f571cc4e77a0de69d",
       "a5c4e0f16a914a732823de8c985f41f9018b4d6e9046ebbec6bb5087fde9c2b3",
       "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
@@ -657,11 +658,25 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 655
+    "paragraph_count": 656
   },
-  "overview_commit": "0a95c6abecae237b86b734017a71ec4d523606e5",
-  "overview_digest": "40ba7e93789f0551dc3b85925a2bb15404126921b6474f604f2d9cb1a4cf775d",
+  "overview_commit": "71778a5cccee18659d1e3cfb3e07e727ae5850cd",
+  "overview_digest": "1a32140ea133306a8a94208b22b2cbe9e62f17b53435793ec8527064b267e562",
   "paragraphs": [
+    {
+      "id": "c74511507a28c95fd963e7aa70d1b1a38bbe36b9ca105a6431624b64fe3e3ca2",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest `sneakerheadVC` source adds [[RespectfulRefusal]] as the communication counterpart to commitment filtering. In the writer's three venture-capital outreach examples, silence leaves priority to be inferred, repeated postponement after expressed enthusiasm creates months of follow-up and uncertainty, and a prompt “I’m sorry. I can’t.” supplies usable closure despite disappointment. The durable claim is two-sided: a responder protects [[OpportunityCost]] and [[AttentionManagement]] by refusing requests that are not priorities, while clarity lets the requester reallocate effort instead of carrying an indefinite possibility. Respect therefore does not require availability, but it does require more than brevity alone. This is one retrospective anecdote; the narrator cannot establish why others were silent or delayed, and tone, power, duty, accessibility, prior commitments, and changing circumstances can make either a terse no or a delayed answer inappropriate. The full-size hand-drawn “Sorry, I can’t…” illustration was retained once, while its repeated embed and 30-pixel thumbnail were omitted as duplicates.",
+      "topic_scores": {
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "OpportunityCost",
+        "RespectfulRefusal"
+      ]
+    },
     {
       "id": "58decbac0239439db0139da0d2ca27e5773da5c4c75e561f571cc4e77a0de69d",
       "primary_topic": "business-and-markets",

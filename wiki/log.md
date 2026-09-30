@@ -7079,3 +7079,11 @@ Added [[ReleaseCommunication]] as a distinction between durable change records a
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | I’m sorry, I can’t
+
+Added [[RespectfulRefusal]] from a `sneakerheadVC` writer's three venture-capital outreach examples: prompt and unambiguous closure can respect both parties' priorities better than silence or enthusiastic but indefinite postponement. Connected the argument to [[OpportunityCost]], [[AttentionManagement]], [[PersonalProductivity]], and [[WorkplaceCollaboration]] while preserving its anecdotal scope, the narrator's uncertain inferences about others' motives, and the effects of tone, power, duty, accessibility, prior commitments, and changing circumstances. Opened all three effective embeds representing two local JPEGs; retained the full-size hand-drawn “Sorry, I can’t…” illustration once under a descriptive canonical filename and omitted its repeated embed and 30-by-29-pixel thumbnail as duplicates.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

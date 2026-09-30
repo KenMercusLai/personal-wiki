@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 0a95c6abecae237b86b734017a71ec4d523606e5
+as_of_overview_commit: 71778a5cccee18659d1e3cfb3e07e727ae5850cd
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 878
-source_count: 878
-paragraph_count: 655
+episode_count: 879
+source_count: 879
+paragraph_count: 656
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Media and culture combine expression and craft with institutions, identity, dist
 
 ### Governance and Institutions
 
-Institutions and infrastructure need explicit authority, sequenced change, concrete purpose and constraints, observable state, usable entitlements, bounded rollout, recovery, appeal, and ethical accountability.
+Institutions, infrastructure, and interpersonal commitments need explicit authority, clear boundaries, sequenced change, concrete purpose and constraints, observable state, usable entitlements, bounded rollout, recovery, appeal, and ethical accountability.
 
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].

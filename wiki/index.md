@@ -59,6 +59,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Improving Critical Infrastructure Rollouts](sources/improving-critical-infrastructure-rollouts-labs.md) - Spotify's Docker failures motivated Tsunami, a central desired-state service for gradual, auditable, health-aware infrastructure rollouts across thousands of hosts.
 - [Improve cache performance with optimized API design](sources/improve-cache-performance-with-optimized-api-design.md) - Fastly connects cache-friendly HTTP and REST boundaries with bounded variants, surrogate-key purging, and stale serving for faster, more resilient APIs.
 - [Immutable Infrastructure Using Packer, Ansible, and Terraform](sources/immutable-infrastructure-using-packer-ansible-and-terraform.md) - A 2018 tutorial connects Terraform networking, a Packer/Ansible AMI build, and Terraform EC2 creation while exposing state, security, and image-promotion qualifications.
+- [I’m sorry, I can’t](sources/im-sorry-i-cant-sneakerheadvc.md) - A `sneakerheadVC` writer argues that prompt, honest refusal respects both parties' priorities better than vague enthusiasm and repeated postponement.
 - [Imagining your future projects is holding you back.](sources/imagining-your-future-projects-is-holding-you-back.md) - Jessica Abel defines idea debt as fantasized but unmade creative work and argues for either imperfect action or conscious abandonment.
 - [Imaging, Snapchat and mobile](sources/imaging-snapchat-and-mobile-benedict-evans.md) - Benedict Evans reframes the smartphone camera as a programmable input method connecting mobile-native interaction, Snapchat Lenses, computer vision, and augmented reality.
 - [If the internet is addictive, why don’t we regulate it?](sources/if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays.md) - Michael Schulson connects variable rewards and weak stopping cues to attention-funded incentives and argues for regulation that expands user control while preserving diagnostic and policy uncertainty.
@@ -3683,5 +3684,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining failure-independent copies and proving restore scope, timing, point-in-time coverage, and degraded-service reconciliation.
 
 - [Voice Clone Impersonation](concepts/VoiceCloneImpersonation.md) - Use of cloned speech with scripted scope, familiar context, and plausible channel defects to make a listener accept a false speaker identity.
+- [Respectful Refusal](concepts/RespectfulRefusal.md) - Declining promptly and unambiguously so a requester can reallocate effort without mistaking courtesy for a future commitment.
 
 ## Syntheses
