@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-01
-as_of_overview_commit: 7d5dc3841ef9bb2ff4801b3d2a829984d6689ef0
-input_digest: 0af38ff634d43522f654b2ad3e7849e400e2e29795c0097e3ce0d11ce33c7a55
+as_of_overview_commit: 4d42c89b3ec3cc66c097609c95b9177c143ca829
+input_digest: 11b4db31375643d833105c62176025e2acb932662883d4a73e41529bee27255c
 ---
 
 # AI and Technology
@@ -900,3 +900,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 - The evidence is one May 2018 reported tour with company-supplied operating figures, not a controlled comparison of automated and manual warehouse designs.
 - The source provides no audited unit economics, damage, safety, labor, environmental, or service-quality data, and its generic remote title image could not be inspected.
+
+### Human Centered Products Do Not Prove Humane Organizations
+
+[[HumanCenteredDesign]] can make technology culturally desirable, economically valuable, and enabling for creative work, but [[SteveJobs]] provides a source-scoped warning that humane products do not establish humane organizational conduct; [[CompassionateManagement]] requires evaluating how people are treated as well as what the technology achieves.
+
+**Evidence:** [[HumanCenteredDesign]], [[SteveJobs]], [[CompassionateManagement]], [[JohnLilly]]
+
+**Qualifications:**
+
+- The evidence is [[JohnLilly]]'s personal remembrance rather than comparative product, financial, or workplace research.
+- The 1997 stock-price detail is explicitly uncertain, the leak account has no company or dismissed-employee record, and the treatment claims rely partly on friends' experiences.
+- The source does not show whether Jobs's harshness caused, accompanied, or impeded Apple's outcomes.

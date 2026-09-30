@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "41299595e9a98ca7f5dff3dd25bc5e5ff8ff047d840cf86cb9bcbbd8857fe192",
       "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
       "71c7dd35e555548f86359ad603819914b42b5e6744d0ad781f6b4cb51ad9d825",
       "0a6c37d455c844af1c73054c587a2fc47d558cca81ba3a29b48fe032b1f559d9",
@@ -668,11 +669,33 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 666
+    "paragraph_count": 667
   },
-  "overview_commit": "1394edb62cae73f0eecb80fcdc354854ad1ec6fd",
-  "overview_digest": "7dfa02d90df2985f5eb5057ccd5f7918df37b6d867889512e66b3c3fe23d8a56",
+  "overview_commit": "4d42c89b3ec3cc66c097609c95b9177c143ca829",
+  "overview_digest": "bedfd37c6cb043dfa13b430e834d44d691f08a03182f89675d75d899576397cd",
   "paragraphs": [
+    {
+      "id": "41299595e9a98ca7f5dff3dd25bc5e5ff8ff047d840cf86cb9bcbbd8857fe192",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[JohnLilly]] source makes [[SteveJobs]] a deliberately mixed leadership case rather than a model to copy. Lilly credits Jobs with beautiful, human-centered hardware and software, creative-enablement tools, and proof that design could carry economic as well as cultural value. His Apple ATG recollections add a 1997 turnaround speech that joined defiance, repriced options, renewed vesting, and a demand for commitment, followed by a rapid crackdown on four alleged leakers. Yet the same essay says Jobs could be dehumanizing, belittling, and personally destructive. This sharpens [[CompassionateManagement]] by separating vision, motivation, operational force, and results from humane treatment; it widens [[HumanCenteredDesign]] from user experience into cultural and commercial impact while refusing to infer a humane workplace from a humane product; and it qualifies [[CEOCentricLeadership]] by crediting teams and rejecting posthumous imitation. The evidence is a personal remembrance written years after the events: the stock-price figure is uncertain, the leak account has no company or dismissed-employee record, and the treatment claims rely partly on friends' experiences. The sole local image was opened and omitted as a decorative author portrait.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CEOCentricLeadership",
+        "CompassionateManagement",
+        "HumanCenteredDesign",
+        "JohnLilly",
+        "SteveJobs"
+      ]
+    },
     {
       "id": "63e2eafa1428705c1386470d0588cf17e5a4324f9acf6f5badfc68550aad294f",
       "primary_topic": "ai-and-technology",

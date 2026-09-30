@@ -1418,6 +1418,23 @@
         "WorkplaceAutomation",
         "AmazonPrime"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "human-centered-products-do-not-prove-humane-organizations",
+      "qualifications": [
+        "The evidence is [[JohnLilly]]'s personal remembrance rather than comparative product, financial, or workplace research.",
+        "The 1997 stock-price detail is explicitly uncertain, the leak account has no company or dismissed-employee record, and the treatment claims rely partly on friends' experiences.",
+        "The source does not show whether Jobs's harshness caused, accompanied, or impeded Apple's outcomes."
+      ],
+      "statement": "[[HumanCenteredDesign]] can make technology culturally desirable, economically valuable, and enabling for creative work, but [[SteveJobs]] provides a source-scoped warning that humane products do not establish humane organizational conduct; [[CompassionateManagement]] requires evaluating how people are treated as well as what the technology achieves.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "HumanCenteredDesign",
+        "SteveJobs",
+        "CompassionateManagement",
+        "JohnLilly"
+      ]
     }
   ],
   "summary": "AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.",

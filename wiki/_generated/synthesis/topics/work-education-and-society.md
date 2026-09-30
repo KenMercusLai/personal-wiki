@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-01
-as_of_overview_commit: 1394edb62cae73f0eecb80fcdc354854ad1ec6fd
-input_digest: 6b3f3981166436fc1bc89eeae4abef25d483e4dda645063556c3bfa0cf28f4a5
+as_of_overview_commit: 4d42c89b3ec3cc66c097609c95b9177c143ca829
+input_digest: 7bb839fb157de78f308bfd062d226468a6c32228e550c82daf1ff52ff7092106
 ---
 
 # Work, Education, and Society
@@ -1076,3 +1076,15 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 
 - The evidence is a point-in-time CEO interview about a 266-person startup, with no employee testimony, demographic pay audit, retention comparison, productivity measure, promotion distribution, or later-policy outcome.
 - Equal pay within a level does not establish fair level assignment, promotion, external-market calibration, or equity value, and individual disclosure also creates privacy and context risks.
+
+### Leadership Results Do Not Establish Humane Treatment
+
+[[CompassionateManagement]] cannot be inferred from vision, charisma, standards, operational force, or organizational results: [[JohnLilly]] credits [[SteveJobs]] with intense motivation and design impact while also describing dehumanizing treatment, and [[CEOCentricLeadership]] preserves team contribution and mixed judgment against hero imitation.
+
+**Evidence:** [[CompassionateManagement]], [[JohnLilly]], [[SteveJobs]], [[CEOCentricLeadership]]
+
+**Qualifications:**
+
+- The evidence is [[JohnLilly]]'s retrospective remembrance, not comparative leadership or employee-outcome research.
+- The treatment claims rely partly on friends' experiences, and the source does not establish whether harsh behavior caused, accompanied, or impeded Apple's achievements.
+- The leak-crackdown recollection supplies no company record, dismissed-employee perspective, or evidence about proportionality, process, or legality.

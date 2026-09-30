@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-01
-as_of_overview_commit: 1394edb62cae73f0eecb80fcdc354854ad1ec6fd
-input_digest: 44bbc08be20e6fc669282f897970c085aed648876541d06f69116458bf2774ad
+as_of_overview_commit: 4d42c89b3ec3cc66c097609c95b9177c143ca829
+input_digest: 23ac3cff7bca791654ad7c471d5765c57e6cf9f30fff7230869be54fe71d0053
 ---
 
 # Business and Markets
@@ -65,15 +65,15 @@ input_digest: 44bbc08be20e6fc669282f897970c085aed648876541d06f69116458bf2774ad
 
 ### Ceo Accountability Needs A Visible Management System
 
-[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues that wider management visibility can make distributed capability and continuity more legible while preserving the CEO's distinctive role under [[CEOScalingRole]].
+[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues that wider management visibility can make distributed capability and continuity more legible, while [[JohnLilly]] uses [[SteveJobs]] to show how posthumous imitation can flatten team contribution and contradictory evidence about interpersonal harm without erasing the CEO's real influence under [[CEOScalingRole]].
 
-**Evidence:** [[CEOCentricLeadership]], [[AbBanerjee]], [[CEOScalingRole]], [[CoCEOLeadership]], [[TeamBasedOrganizationalDesign]]
+**Evidence:** [[CEOCentricLeadership]], [[AbBanerjee]], [[JohnLilly]], [[SteveJobs]], [[CEOScalingRole]], [[CoCEOLeadership]], [[TeamBasedOrganizationalDesign]]
 
 **Qualifications:**
 
-- The evidence is one short practitioner argument, and the supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.
+- The evidence combines one short practitioner argument with [[JohnLilly]]'s personal remembrance; Banerjee's supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.
 - Market reactions to CEO departure or death may contain rational information about strategy, relationships, succession readiness, and operating capability as well as excessive identification with one person.
-- The source supplies no comparison showing that team photographs, distributed public engagements, or functional-leader investor updates reduce CEO stress, improve performance, or stabilize valuation; wider communication also needs coherent responsibility and governance.
+- Neither source supplies a comparison showing that wider visibility or resistance to hero imitation improves performance or conduct; Lilly's 1997 details are retrospective, the stock-price figure is uncertain, and the claims of harmful treatment are partly secondhand.
 
 ### Progressive Equity Precommits Employee Upside Redistribution
 

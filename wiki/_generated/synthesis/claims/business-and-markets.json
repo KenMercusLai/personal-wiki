@@ -73,15 +73,17 @@
       "global_candidate": false,
       "id": "ceo-accountability-needs-a-visible-management-system",
       "qualifications": [
-        "The evidence is one short practitioner argument, and the supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.",
+        "The evidence combines one short practitioner argument with [[JohnLilly]]'s personal remembrance; Banerjee's supplied document does not identify the cited stress, insomnia, valuation, resignation, and death studies with titles, methods, samples, time windows, or links.",
         "Market reactions to CEO departure or death may contain rational information about strategy, relationships, succession readiness, and operating capability as well as excessive identification with one person.",
-        "The source supplies no comparison showing that team photographs, distributed public engagements, or functional-leader investor updates reduce CEO stress, improve performance, or stabilize valuation; wider communication also needs coherent responsibility and governance."
+        "Neither source supplies a comparison showing that wider visibility or resistance to hero imitation improves performance or conduct; Lilly's 1997 details are retrospective, the stock-price figure is uncertain, and the claims of harmful treatment are partly secondhand."
       ],
-      "statement": "[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues that wider management visibility can make distributed capability and continuity more legible while preserving the CEO's distinctive role under [[CEOScalingRole]].",
+      "statement": "[[CEOCentricLeadership]] distinguishes legitimate chief-executive accountability from treating one person as the sole embodiment of company identity and performance: [[AbBanerjee]] argues that wider management visibility can make distributed capability and continuity more legible, while [[JohnLilly]] uses [[SteveJobs]] to show how posthumous imitation can flatten team contribution and contradictory evidence about interpersonal harm without erasing the CEO's real influence under [[CEOScalingRole]].",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "CEOCentricLeadership",
         "AbBanerjee",
+        "JohnLilly",
+        "SteveJobs",
         "CEOScalingRole",
         "CoCEOLeadership",
         "TeamBasedOrganizationalDesign"

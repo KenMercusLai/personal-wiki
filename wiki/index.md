@@ -916,6 +916,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Jessica Livingston's Pretty Complete List on How Not to Fail](sources/jessica-livingstons-pretty-complete-list-on-how-not-to-fail.md) - Jessica Livingston links user demand, founder focus, measured growth, default-alive status, conservative hiring, and fundraising-stage expectations into a qualified startup survival framework.
 - [John Carmack on Inlined Code](sources/john-carmack-on-inlined-code.md) - John Carmack argues for visible stateful execution and consistent frame paths while treating pure functions as the safer reusable boundary.
+- [John's Tumblr - Steve Jobs](sources/johns-tumblr-steve-jobs.md) - John Lilly holds Steve Jobs's design and motivational impact together with the human cost of demeaning leadership, rejecting imitation in favor of self-directed contribution.
 
 - [John Lilly: Simplify Your Message, and Repeat Often](sources/john-lilly-simplify-your-message-and-repeat-often-the-new-york-times.md) - John Lilly connects stable repeated leadership messages with organizational alignment, frames founder diligence as reciprocal working-fit assessment, and contrasts operator focus with venture investors' fear of missed opportunities.
 
@@ -2021,7 +2022,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brian Chesky](entities/BrianChesky.md) - Airbnb founder cited for competition-triggered scaling, unscalable host work, culture, post-fit CEO priorities, and early trust focus.
 - [Diane Greene](entities/DianeGreene.md) - VMware operator cited for early hiring difficulty, hiring standards, and written scaling communication.
 - [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, mission codification, culture reinforcement, all-hands communication, coaching, compassionate management, economic graph strategy, and product-led CEOs.
-- [John Lilly](entities/JohnLilly.md) - CS183C instructor cited for scaling stages, support-team formation, competition timing, and repeated CEO messages.
+- [John Lilly](entities/JohnLilly.md) - Former Apple ATG employee, operator, instructor, and investor connecting design value, leadership ethics, scaling communication, and founder assessment.
 - [Fred Kofman](entities/FredKofman.md) - Leadership coach and conceptual-tools influence on Jeff Weiner's coaching and compassionate-management model.
 - [Mike Gamson](entities/MikeGamson.md) - LinkedIn enterprise-sales leader used as an example of member-first business leadership and diversity as decision advantage.
 - [Lynda.com](entities/LyndaCom.md) - LinkedIn-acquired learning platform used in the economic-graph skills and education strategy.
@@ -2211,7 +2212,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
 - [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product, independence precedent, and mature ASP-driven revenue case.
 - [Today at Apple](entities/TodayAtApple.md) - Apple's free retail session program framed by Thompson as a relationship and real-world engagement layer.
-- [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in brand-history narratives and as a campus-design example for informal interaction.
+- [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader represented through design influence, motivational force, operating control, team achievement, and contested treatment of people.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the humble-origin narrative and the Homebrew Computer Club informal-exchange example.
 - [Nokia](entities/Nokia.md) - Handset incumbent that understood the smartphone ecosystem war but damaged its transition by announcing the Windows Phone move before successor devices were ready.
 - [Palm](entities/Palm.md) - Mobile incumbent that built WebOS faster than BlackBerry rebuilt its platform but still arrived too late to gain ecosystem momentum.
@@ -2512,7 +2513,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Consumer Market Disruption Limits](concepts/ConsumerMarketDisruptionLimits.md) - Boundary on low-end disruption theory when consumer choice depends on brand, identity, integration, and other hard-to-measure attributes.
 - [Startup Tarpit](concepts/StartupTarpit.md) - Commercial inertia created when product expansion consumes the runway needed to identify and scale the actual growth constraint.
 - [Workplace Mental Health Support](concepts/WorkplaceMentalHealthSupport.md) - Leave access, disclosure norms, and leadership responses that treat mental health as an ordinary health need without avoidable penalty.
-- [CEO-Centric Leadership](concepts/CEOCentricLeadership.md) - Narrative that concentrates company identity, performance attribution, and continuity risk around one chief executive while obscuring the wider management system.
+- [CEO-Centric Leadership](concepts/CEOCentricLeadership.md) - Narrative that concentrates company identity, performance attribution, continuity risk, and imitation around one chief executive while obscuring teams and contradictory evidence.
 - [Historical Analogy in Investing](concepts/HistoricalAnalogyInInvesting.md) - Using cross-period resemblance to generate portfolio stress scenarios while preserving causal, base-rate, and timing limits.
 - [Engineering Hiring Economics](concepts/EngineeringHiringEconomics.md) - Cost model connecting engineering sourcing, evaluation, ramp-up, replacement, referrals, and evidence-based retention investment.
 - [Programming as Art](concepts/ProgrammingAsArt.md) - Contextual claim that programming becomes art when aesthetic or expressive experience is a primary end, not merely because implementation is creative.
@@ -2669,7 +2670,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rapid Organizational Restructuring](concepts/RapidOrganizationalRestructuring.md) - Compressed change to leadership, staffing, decision rights, working conditions, and priorities, evaluated beyond speed and immediate continuity.
 - [Organizational Secrecy](concepts/OrganizationalSecrecy.md) - Restricted information flow that becomes a governance risk when it blocks challenge, verification, or correction of consequential claims.
 - [Augmented Intelligence](concepts/AugmentedIntelligence.md) - AI design aimed at extending human capability through continuing collaboration among people, data, and algorithms.
-- [Human-Centered Design](concepts/HumanCenteredDesign.md) - Iterative inquiry into people's needs, contexts, interactions, and outcomes across products and sociotechnical systems.
+- [Human-Centered Design](concepts/HumanCenteredDesign.md) - Iterative inquiry into people's needs and outcomes that can create cultural and economic value without by itself ensuring humane organizational conduct.
 - [Algorithmic Bias](concepts/AlgorithmicBias.md) - Systematic disparity or distortion arising across an algorithmic system's data, objectives, operation, deployment, or outcomes.
 - [Artificial General Intelligence](concepts/ArtificialGeneralIntelligence.md) - Broad AI capability framed as a gradual, disputed transition with economic concentration, access, profit-sharing, and governance consequences.
 - [Responsible AI Release](concepts/ResponsibleAIRelease.md) - Layered governance of public AI products, APIs, open-source artifacts, contracts, and downstream accountability.
@@ -3264,7 +3265,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
 - [Co-CEO Leadership](concepts/CoCEOLeadership.md) - Shared executive-leadership structure where two or more top leaders divide responsibility, monitor each other, and sustain unified decisions.
-- [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into coaching and humane accountability while preserving fair process.
+- [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into coaching and humane accountability while refusing to treat vision or results as justification for dehumanizing conduct.
 - [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.
 - [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers shaped by selection governance, meaningful opportunity, retention, and corrective capacity.
 - [Employee Opportunity Design](concepts/EmployeeOpportunityDesign.md) - Organizational practice of giving employees meaningful responsibility so talent can become real contribution.

@@ -7231,3 +7231,11 @@ Updated [[JohnLilly]] and [[GreylockPartners]] from their complete ordered evide
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | John's Tumblr - Steve Jobs
+
+Updated [[SteveJobs]] and [[JohnLilly]] from their complete ordered evidence inventories, adding Lilly's Apple ATG recollections of Jobs's 1997 turnaround message and confidentiality crackdown alongside his judgment that Jobs made human-centered design culturally desirable and economically consequential. Updated [[HumanCenteredDesign]], [[CompassionateManagement]], and [[CEOCentricLeadership]] to separate product humanity, motivational force, and organizational results from humane employee treatment, preserve team contribution, and reject hero imitation as the transferable lesson. Kept the speech, stock-price, leak, and harmful-treatment details bounded as retrospective or partly secondhand claims. Opened the sole local image and omitted it as a decorative author portrait, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
