@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Illustrated Transformer](sources/jay-alammar-the-illustrated-transformer.md) - Jay Alammar visually decomposes the original encoder-decoder Transformer from embeddings and scaled multi-head attention through positional signals, autoregressive decoding, and training targets.
 - [A Peek Inside Alphabet's Investing Universe](sources/jason-rowley-a-peek-inside-alphabets-investing-universe.md) - Jason Rowley maps Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment entities using qualified 2017 Crunchbase data.
 - [Increasing Your Luck Surface Area](sources/jason-roberts-increasing-your-luck-surface-area.md) - Jason Roberts models serendipitous opportunity as the interaction of substantive doing and effective telling while leaving the equation, audience effects, and access constraints unmeasured.
 - [How to Figure Out Your Competitors' Revenues in About 70 Seconds](sources/jason-lemkin-how-to-figure-out-your-competitors-revenues-in-about-70-seconds.md) - Jason Lemkin proposes a funding- and business-model-adjusted revenue-per-employee shortcut for estimating private SaaS scale while leaving substantial data and validation limits.
@@ -906,6 +907,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jay Alammar](entities/JayAlammar.md) - Machine-learning author represented through a visual, progressively layered explanation of the original Transformer architecture.
 - [Jason Rowley](entities/JasonRowley.md) - Technology and venture-capital writer represented through a historical Crunchbase analysis of Alphabet's investment network.
 - [Alphabet](entities/Alphabet.md) - Google parent represented through a distributed system of venture, growth, AI, direct, accelerator, and impact investment.
 - [CapitalG](entities/CapitalG.md) - Alphabet growth-equity fund focused primarily on later-stage deals in the source's 2017 portfolio snapshot.
@@ -2889,8 +2891,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning How to Learn](concepts/LearningHowToLearn.md) - Trainable ability to find, evaluate, retain, and apply knowledge with less wasted time and attention.
 - [Neural Network](concepts/NeuralNetwork.md) - Layered weighted units whose composition computes a fitted mathematical function, with attractor basins, learned internal features, and capacity that depends on the task.
 - [Neural Network Training](concepts/NeuralNetworkTraining.md) - The loop of examples, loss, and weight updates that fits a network, including data acquisition, epochs, augmentation, hyperparameters, and GPU-bound scaling.
-- [Transformer Architecture](concepts/TransformerArchitecture.md) - Embedding module plus stacked attention blocks and a decode step to next-token probabilities, scaled through embedding width, block count, and head count.
-- [Attention Mechanism](concepts/AttentionMechanism.md) - The transformer's look-back weighting that lets each position draw on earlier tokens, with nested-structure successes and parenthesis-matching limits.
+- [Transformer Architecture](concepts/TransformerArchitecture.md) - Sequence architecture combining embeddings, attention, positionwise transformations, residual normalization, and task-specific encoder-decoder or decoder-only dataflow.
+- [Attention Mechanism](concepts/AttentionMechanism.md) - Scaled query-key relevance and weighted-value aggregation across self-attention, causal attention, cross-attention, and multiple learned heads.
+- [Positional Encoding](concepts/PositionalEncoding.md) - Explicit order signal added to token embeddings, illustrated by the original Transformer's sinusoidal position vectors.
 - [Meaning Space](concepts/MeaningSpace.md) - The geometric picture in which text is a point in an embedding space, a continuation is a trajectory, and probable next words fan out in a direction.
 - [Computational Irreducibility](concepts/ComputationalIrreducibility.md) - The property of processes whose outcome requires tracing every step, used to bound what training can absorb and explain why models need external tools.
 - [Semantic Grammar](concepts/SemanticGrammar.md) - Proposed rules about how meaningful units combine, finer than syntax, resting on a model of the world and generalizing logic's small corner of meaning.

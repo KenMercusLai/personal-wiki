@@ -4,45 +4,50 @@ type: concept
 tags: [ai, neural-networks, language, mechanism]
 sources:
   - what-is-chatgpt-doing-and-why-does-it-work
-last_updated: 2026-09-17
+  - jay-alammar-the-illustrated-transformer
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[AttentionMechanism]] is the part of a transformer that lets each position in a sequence look back at earlier positions and recombine their embedding vectors with learned weights, so that the representation of the current token depends on selected parts of everything written before it.
+[[AttentionMechanism]] maps queries against keys to normalized relevance weights and uses those weights to combine values, letting each sequence position build a context-dependent representation from selected positions in the same or another sequence.
 
 ## Current Synthesis
-The source explains attention by contrast with n-grams. A bigram model chooses a word from its immediate predecessor; attention lets the model attend to tokens much further back, which is how it can, for example, connect a verb to a noun that appeared many words earlier. An attention block contains several heads that operate independently on different chunks of the embedding vector, and their weights are inspectable: the essay plots the look-back patterns of the twelve heads in GPT-2's first block on a fixed string, showing a lower-triangular structure in which each position distributes its attention over the past.
+Scaled dot-product attention makes the mechanism explicit. Learned matrices project input states into queries, keys, and values; query-key dot products measure compatibility, division by the square root of key width stabilizes their scale, softmax turns them into weights, and the weighted values are summed. Self-attention draws all three projections from one sequence. Encoder-decoder cross-attention draws queries from the decoder but keys and values from the encoder. A causal mask prevents decoder self-attention from reading future output positions.
 
-The essay's most concrete test of the mechanism is a toy language of balanced parentheses. With one attention block the network cannot learn much; with two blocks and about ten million examples it converges, and it then assigns sensible probabilities to continuations - but it also reports a 15% probability for a closing parenthesis in a position where that must unbalance the sequence, and its highest-probability completions start failing at longer lengths. The source reads this as the mechanism capturing nested tree-like structure approximately rather than performing an explicit count, and notes that even the full ChatGPT at the time struggled with long parenthesis matching. Attention is thus powerful for the regularities that show up in language, and not a substitute for algorithmic computation.
+Multi-head attention performs this calculation through several independent projection sets, concatenates the resulting matrices, and applies another learned output projection. This gives the layer several representation subspaces rather than one compulsory mixture. The visual examples show one head linking “it” to “animal” and another to “tired,” but all heads overlaid are harder to interpret; attention weights expose routing patterns, not a complete causal explanation of model behavior.
+
+The broader evidence preserves a competence boundary. In Wolfram's balanced-parentheses experiment, a two-block model learns useful nested-sequence regularities after roughly ten million examples but still assigns probability to impossible continuations and degrades at longer lengths. Attention therefore expands context beyond fixed n-gram windows and can approximate structured dependencies, yet it does not automatically implement exact symbolic counting.
 
 ## Key Claims
-- Attention weights how much of the past each position uses, which is a generalisation of the fixed local context used by n-gram models.
-- A block splits its embedding vector across multiple heads that operate independently, and the split itself is a practical choice without a known explanation.
-- Attention patterns are inspectable: the plotted look-back weights form structured, mostly upper-bounded patterns rather than uniform mixtures.
-- Attention helps a model learn nested, tree-like structure, which the source argues is a major reason it works for human language.
-- Attention is approximate rather than algorithmic: on parenthesis matching, a two-block transformer with about 400,000 weights still assigns substantial probability to a token that must break the grammar, and degrades as sequences lengthen.
-- More training data is not automatically better - the source reports that beyond roughly ten million examples the parenthesis experiment's performance got worse.
-- Knowing which parts of the sequence the model attends to does not explain what those parts mean, so attention inspection is not on its own an explanation of behaviour.
+- Attention computes a context-sensitive weighted sum of value vectors from query-key compatibility scores.
+- Scaling scores by the square root of key width before softmax improves numerical and gradient stability in the illustrated formulation.
+- Self-attention relates positions within one sequence, cross-attention connects decoder states to encoded input, and causal masking restricts access to future outputs.
+- Multi-head attention uses independent learned projections, then concatenates and projects their outputs into one representation.
+- Attention removes the fixed context window of an n-gram and lets positions directly use distant sequence information.
+- Attention maps are inspectable but do not, by themselves, establish stable linguistic roles or explain the model's final decision.
+- Learned attention can approximate nested dependencies while still failing exact algorithmic constraints at longer lengths.
 
 ## Evidence
-- Look-back framing: [[what-is-chatgpt-doing-and-why-does-it-work]] says attention heads "package up the past" in a form useful for finding the next token, generalising bigram prediction to much earlier words.
-- Head structure: [[what-is-chatgpt-doing-and-why-does-it-work]] says GPT-2 has 12 heads per block operating on different chunks of the embedding vector, and states that the reason for splitting the vector is unknown.
-- Inspected patterns: [[what-is-chatgpt-doing-and-why-does-it-work]] shows the first block's twelve look-back-all-the-way-to-the-beginning recombination patterns for a hello/bye string, and a later figure shows the first head's attention weights across all twelve blocks.
-- Parenthesis experiment setup: [[what-is-chatgpt-doing-and-why-does-it-work]] describes training a transformer on balanced parenthesis sequences with an End token, and says one attention block with eight heads and 128-wide feature vectors cannot learn much while two blocks converge after about ten million examples.
-- Probability outputs: [[what-is-chatgpt-doing-and-why-does-it-work]] shows two next-token distributions - one where the sequence cannot end (roughly 46% open, 54% close, 0.038% End) and one where it can (51% open, 15% close, 34% End).
-- Failure at length: [[what-is-chatgpt-doing-and-why-does-it-work]] lists highest-probability completions for progressively longer runs of open parentheses and marks the outputs that become unbalanced.
-- Limits of counting: [[what-is-chatgpt-doing-and-why-does-it-work]] says cases needing explicit counting are "too computationally shallow" for the network, and that even the current ChatGPT struggled with long parentheses.
+- Query-key-value calculation: [[jay-alammar-the-illustrated-transformer]] walks from per-token projections and dot products through scaling, softmax, weighted values, and the compact matrix formula `softmax(QKᵀ / √dₖ)V`.
+- Attention variants: [[jay-alammar-the-illustrated-transformer]] distinguishes encoder self-attention, masked decoder self-attention, and encoder-decoder attention whose queries come from the decoder while keys and values come from the encoder.
+- Multiple heads: [[jay-alammar-the-illustrated-transformer]] shows eight independent projection sets, eight outputs, concatenation, and the learned output matrix, then visualizes different heads emphasizing “animal” and “tired.”
+- Long-range context: [[what-is-chatgpt-doing-and-why-does-it-work]] contrasts attention with bigram prediction and describes heads as packaging the past for next-token prediction.
+- Inspected GPT patterns: [[what-is-chatgpt-doing-and-why-does-it-work]] plots GPT-2 attention weights across heads and blocks, revealing structured causal look-back patterns.
+- Nested-sequence test: [[what-is-chatgpt-doing-and-why-does-it-work]] reports that one attention block learns little on balanced parentheses, while two blocks converge but retain invalid continuation probability and fail as sequences lengthen.
 
 ## Counterevidence & Qualifications
-The evidence for attention as a language mechanism is one small toy task plus inspected weight plots; the source offers no quantitative benchmark and states that the reason splitting into heads helps is unknown. The parenthesis result is a negative example that bounds the mechanism's competence, not a general account of what attention computes, and the plotted weights are from GPT-2 rather than ChatGPT.
+The pronoun diagrams are individual visualizations, not evidence that heads always implement a fixed grammatical function; attention weights can be distributed, layer-dependent, and insufficient as a causal explanation. The original article's dimensions and eight-head configuration describe one model, not requirements of attention generally. Wolfram's parenthesis experiment is a small constructed task rather than a general benchmark, and its negative result bounds one trained configuration rather than proving that every attention-based system cannot count.
 
 ## What Changed
-- Created the concept page for attention as the transformer's sequence-mixing mechanism.
+- Added the scaled query-key-value computation and matrix formulation.
+- Distinguished self-attention, causal masked attention, and encoder-decoder cross-attention.
+- Reframed head visualizations as useful routing evidence with an explicit interpretability limit.
 
 ## Related Concepts
-- [[TransformerArchitecture]] - attention blocks are the repeating unit of this architecture.
-- [[NeuralNetwork]] - attention is implemented with ordinary learned weights.
-- [[Embeddings]] - attention recombines embedding vectors across positions.
-- [[NGramLanguageModel]] - fixed local context is the baseline attention generalises.
-- [[ComputationalIrreducibility]] - explicit counting is the kind of computation attention cannot approximate reliably.
+- [[TransformerArchitecture]] - organizes attention into encoder, decoder, or decoder-only blocks.
+- [[PositionalEncoding]] - supplies order information that attention scores do not contain on their own.
+- [[Embeddings]] - provides the vectors projected into queries, keys, and values.
+- [[NGramLanguageModel]] - fixed local context is the baseline that attention generalizes.
+- [[ComputationalIrreducibility]] - helps frame why approximate sequence weighting need not perform exact computation.
+- [[NeuralNetworkTraining]] - learns every projection and output matrix used by attention.
