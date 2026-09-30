@@ -7239,3 +7239,11 @@ Updated [[SteveJobs]] and [[JohnLilly]] from their complete ordered evidence inv
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | You know your product team is failing — do you know why?
+
+Added [[JohnathanNightingale]] and updated [[ProductManagement]], [[ProductManagerHiring]], [[ProductManagerAsCEO]], and [[ModernProductTeamDesign]] from their complete ordered evidence inventories. Added busy-but-failing team symptoms, operational competence and mentorship capacity for early PM hiring, instrumented outcome learning, and the hub-of-the-wheel model of PM synthesis, decisions, and orchestration while preserving executive, structural, technical, staffing, market, and evidence-quality qualifications. Opened the sole local image and omitted it as a decorative aerial shoreline photograph, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

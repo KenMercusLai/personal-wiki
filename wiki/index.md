@@ -920,6 +920,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [John Lilly: Simplify Your Message, and Repeat Often](sources/john-lilly-simplify-your-message-and-repeat-often-the-new-york-times.md) - John Lilly connects stable repeated leadership messages with organizational alignment, frames founder diligence as reciprocal working-fit assessment, and contrasts operator focus with venture investors' fear of missed opportunities.
 
+- [You know your product team is failing — do you know why?](sources/johnathan-nightingale-you-know-your-product-team-is-failing-do-you-know-why.md) - Johnathan Nightingale argues that experienced product managers turn busy product output into predictable, instrumented progress by synthesizing context, choosing trade-offs, and orchestrating delivery without CEO authority.
+
 ## Entities
 - [Jimmy Bogard](entities/JimmyBogard.md) - Software practitioner defining microservices through contextual service autonomy rather than technology or fixed size.
 - [Marc Lore](entities/MarcLore.md) - Jet CEO advocating transparent, level-based compensation as a trust and fairness mechanism.
@@ -2499,6 +2501,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Parallax Agency](entities/ParallaxAgency.md) - Digital agency whose five-person team built the multilingual fan-recording campaign.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
+- [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
+
 ## Concepts
 - [Service Autonomy](concepts/ServiceAutonomy.md) - Independent ownership, operation, information control, contract evolution, and failure handling used to determine a viable service boundary.
 - [Salary Transparency](concepts/SalaryTransparency.md) - Making pay rules or outcomes inspectable while preserving classification, promotion, privacy, and calibration limits.
@@ -2742,7 +2746,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Website Personalization](concepts/WebsitePersonalization.md) - Audience-led variation of website messages, creative, proof, content, promotions, and calls to action through a modular design system.
 - [Account-Based Marketing](concepts/AccountBasedMarketing.md) - B2B strategy that tailors acquisition and sales experiences to selected accounts or account groups and judges success through fit and progression.
 - [User-Centered Design](concepts/UserCenteredDesign.md) - Product-design discipline that replaces designer self-reference with explicit audience understanding, grounded personas, and challengeable decisions.
-- [Modern Product Team Design](concepts/ModernProductTeamDesign.md) - Product-team operating model combining cross-functional capability, customer context, strategic autonomy, iterative learning, and outcome accountability.
+- [Modern Product Team Design](concepts/ModernProductTeamDesign.md) - Product-team operating model combining cross-functional capability, customer context, strategic autonomy, instrumented learning, delivery reliability, and outcome accountability.
 - [Design Business Literacy](concepts/DesignBusinessLiteracy.md) - Practical understanding of company value, operations, competition, resources, and growth used to direct design toward consequential problems.
 - [Personal Growth Planning](concepts/PersonalGrowthPlanning.md) - Recurring practice connecting self-knowledge, measurable goals, energy, alignment, and attention across multiple review cadences.
 - [Product Design Principles](concepts/ProductDesignPrinciples.md) - Product-specific commitments that guide difficult design tradeoffs while expressing intended experience, audience priorities, and brand character.
@@ -3203,8 +3207,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Design Career Ladder](concepts/ProductDesignCareerLadder.md) - Structured model of product-designer levels, seniority signals, and promotion planning.
 - [Design Skill Axes](concepts/DesignSkillAxes.md) - Product-design growth dimensions spanning product thinking, interaction design, visual design, intentionality, drive, and self-awareness.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
-- [Product Management](concepts/ProductManagement.md) - Cross-functional role integrating customer, business, technical, and organizational constraints while owning unresolved product trade-offs without boss authority.
-- [Product Manager as CEO](concepts/ProductManagerAsCEO.md) - Controversial metaphor for product-manager breadth that must be bounded by humility, earned trust, and no formal team authority.
+- [Product Management](concepts/ProductManagement.md) - Cross-functional role integrating customer, business, technical, and organizational constraints through synthesis, trade-off judgment, instrumentation, and delivery orchestration without boss authority.
+- [Product Manager as CEO](concepts/ProductManagerAsCEO.md) - Controversial metaphor whose accountability intent can obscure the PM's narrower authority, whole-company scope, and integrator role.
 - [Product Leadership](concepts/ProductLeadership.md) - Product role of setting and communicating vision and strategy strongly enough to move organizations through risky product change.
 - [Product Review Meetings](concepts/ProductReviewMeetings.md) - Product-review discussions facilitated to improve judgment while preserving presenter agency, team ownership, trust, and explicit stewardship of meeting time.
 - [Product Idea Prioritization](concepts/ProductIdeaPrioritization.md) - Ranking product ideas by KPI impact, build difficulty, and whether they improve growth, activation, engagement, reactivation, or revenue.
@@ -3725,7 +3729,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Employee Equity Grant Sizing](concepts/EmployeeEquityGrantSizing.md) - Stage-sensitive method for translating role, salary, company value, and fully diluted capitalization into a proposed employee share grant.
 
-- [Product Manager Hiring](concepts/ProductManagerHiring.md) - Role-specific hiring system linking PM responsibilities to varied sourcing, structured evidence, reciprocal evaluation, and honest candidate closing.
+- [Product Manager Hiring](concepts/ProductManagerHiring.md) - Stage-sensitive hiring system linking PM operating responsibilities to structured evidence, mentorship capacity, reciprocal evaluation, and honest candidate closing.
 - [Technical Decision Review](concepts/TechnicalDecisionReview.md) - Structured inquiry testing a technical plan's purpose, failure modes, detection signals, response options, and reversibility.
 
 - [Workplace Automation](concepts/WorkplaceAutomation.md) - Activity-level framework for automating parts of jobs while redesigning processes, roles, skills, controls, and accountability.
