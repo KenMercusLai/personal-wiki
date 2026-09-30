@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-30
-as_of_overview_commit: 7d642c279d2afd968edda0824a1bee04aef0913a
-input_digest: 8423868a76b31118aa6c827b5664b5c0e8916088e21cc30573f6fcceb32ffd66
+as_of_overview_commit: 5a871637b3febd2408caae7d096f2e4db4bb7c2b
+input_digest: e368b846197d2ab5cb1fe1e1a61792984507a40556ee7b8002a526ee934e942f
 ---
 
 # Psychology and Personal Development
@@ -278,13 +278,14 @@ input_digest: 8423868a76b31118aa6c827b5664b5c0e8916088e21cc30573f6fcceb32ffd66
 
 ### Networks Shape Growth And Judgment
 
-[[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], and [[ProfessionalRelationshipCompounding]] treat relationships and recurring information inputs as formative environments whose learning, trust, friendship, and opportunity may accumulate through repeated participation; [[VujaDe]] adds that experience should remain open to materially changed conditions, while default or prestigious networks can narrow judgment and ambition through conformity.
+[[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], and [[ProfessionalRelationshipCompounding]] treat relationships and recurring information inputs as formative environments whose learning, trust, friendship, and opportunity may accumulate through repeated participation. [[RoyBahat]] adds an opt-in coordination pattern: requester-written context, introducer judgment, recipient choice, and recipient-specific threads reduce editing and disclosure costs without guaranteeing access or relationship value. [[VujaDe]] adds that experience should remain open to materially changed conditions, while default or prestigious networks can narrow judgment and ambition through conformity.
 
-**Evidence:** [[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], [[ProfessionalRelationshipCompounding]], [[VujaDe]], [[SiliconValley]]
+**Evidence:** [[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], [[ProfessionalRelationshipCompounding]], [[RoyBahat]], [[VujaDe]], [[SiliconValley]]
 
 **Qualifications:**
 
 - The network-building evidence consists of reflective practitioner essays that do not separate peer influence from self-selection or establish causal personal-development outcomes; deliberate curation and high-volume outreach can become status seeking, exhaustion, instrumental contact collection, or an ideological bubble, and access is materially constrained.
+- Bahat's workflow is one investor's practice without comparative response or meeting outcomes; opt-in and forwardable context reduce coordination burden but do not ensure relevance, fair access, a reply, or a useful relationship, and email norms vary by context and culture.
 - Vuja de can become indiscriminate optimism unless the evaluator states which conditions changed, preserves relevant base rates, and identifies disconfirming evidence; Chen's examples are selected retrospectively from later winners.
 
 ### Product Discovery Sequence Should Follow Uncertainty

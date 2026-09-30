@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Introductions and the “forward intro email”](sources/introductions-and-the-forward-intro-email-also-by-roy-bahat.md) - Roy Bahat specifies an opt-in, requester-written email workflow that preserves recipient choice while reducing introducer editing and coordination work.
 - [Introducing Progressive Equity](sources/introducing-progressive-equity-detour-blog-medium.md) - Andrew Mason proposes a threshold-based RSU and kicker-pool design that redistributes part of exceptional employee equity gains at a major liquidity event.
 - [Introducing NextView III and Our Focus on the Everyday Economy](sources/introducing-nextview-iii-and-our-focus-on-the-everyday-economy-nextview-ventures.md) - NextView announces a $50 million third fund and a thesis for redesigning seven recurring domains of daily life on mature internet infrastructure.
 - [Internet Content Moderation 101](sources/internet-content-moderation-101-hunter-walk.md) - Hunter Walk explains moderation as a policy, classification, queueing, staffing, and reviewer-care system rather than a technology-only filter.
@@ -880,6 +881,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Interview: Building the Latest Campaign for David Guetta -- Serverless Code](sources/interview-building-the-latest-campaign-for-david-guetta-serverless-code.md) - James Hall explains how Parallax built a multilingual fan-recording campaign with static edge delivery, narrow Lambda APIs, direct S3 uploads, generated social artwork, and real-device compatibility testing.
 
 ## Entities
+- [Roy Bahat](entities/RoyBahat.md) - Investor-author defining a low-friction, opt-in workflow for forwardable introduction emails.
 - [Andrew Mason](entities/AndrewMason.md) - Founder who turned a retrospective concern about concentrated Groupon employee outcomes into Detour's Progressive Equity proposal.
 - [Detour](entities/Detour.md) - Startup represented through its published threshold-based employee-equity redistribution design.
 - [TBH](entities/TBH.md) - Teen polling app whose founders documented a synchronized, school-by-school launch process after Facebook acquired the company.

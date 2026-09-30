@@ -6927,3 +6927,11 @@ Added [[ProgressiveEquity]] as Andrew Mason and Detour's threshold-based program
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Introductions and the “forward intro email”
+
+Added [[RoyBahat]]'s opt-in, requester-written introduction workflow and updated [[FounderNetworkBuilding]] from its complete ordered evidence inventory with the requester-introducer division of labor, fresh recipient-specific subjects and threads, sufficient context, independent endorsement, and one message per proposed contact. Preserved the source's practitioner-evidence boundary and the qualifications that opt-in does not ensure relevance, fair access, a reply, or a useful meeting. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -566,6 +566,7 @@
       "8fc52e6b628c66f5457206ec05d64b77fd91e0f823b180a0ac3a6b774c01550f",
       "4795b3ebb7581796eb4c9cb569fb63368db456c5b3029d357e27ad0833dd99f8",
       "855f0e686bb95cf5f254e7857e21fa34c2e30292736b221c2ba0133479d78870",
+      "ec2e699dbd4009f42a19ecd5652d3e8de6bf49d70dbcc3abd32b540fd8324340",
       "dab33ffc07346011bca5fc51b0a72b48810fd9029d0bac9c12bc82b4a2c3f7fb",
       "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
@@ -648,10 +649,10 @@
       "85591b4f2545b4f69a349402f20ff97cb11a498a4f7e49e6b3957ca046d16519",
       "bfc9ef00e27245a121e728406283b90a7b770e774472b7b8f98705bf6731dffe"
     ],
-    "paragraph_count": 646
+    "paragraph_count": 647
   },
-  "overview_commit": "eddff38f6e8f71fbf2a4320a8a4f0bb30bdf982e",
-  "overview_digest": "360e2366bde1aa3b5dc332aafeeb308717011db345e31fcb1b89e429a0fe0abf",
+  "overview_commit": "5a871637b3febd2408caae7d096f2e4db4bb7c2b",
+  "overview_digest": "5dbe717f5e1611cb2156bae1a1db4abab2436a0e820215ff4261e612e129dd04",
   "paragraphs": [
     {
       "id": "a9e4e244f41d0fbbe0ccf6ecb9e5b638cb5d8bf36da12a073cc0a875537e3c3a",
@@ -11545,6 +11546,22 @@
         "FounderNetworkBuilding",
         "NoahJessop",
         "StartupVisionSelling"
+      ]
+    },
+    {
+      "id": "ec2e699dbd4009f42a19ecd5652d3e8de6bf49d70dbcc3abd32b540fd8324340",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[RoyBahat]] source makes the operating design behind a forwardable introduction explicit. The requester supplies a concise email in their own voice that explains identity, organization, relevance, and the ask; the introducer adds recipient knowledge and independent judgment; and the recipient opts in before the requester joins the chain. [[FounderNetworkBuilding]] therefore gains more than a message template: a fresh recipient-specific subject and thread, enough context to evaluate the request without reconstruction, and one message per proposed contact prevent editing work, delay, and accidental disclosure between recipients. The request for an introduction can itself be the forwardable message, removing another coordination step. This extends rather than contradicts Jessop's double-opt-in guidance, but it remains one investor's practitioner workflow with no comparative response or meeting outcomes; opt-in does not ensure relevance, fair access, a reply, or a useful relationship, and the norms may vary by context and culture. The source Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FounderNetworkBuilding",
+        "RoyBahat"
       ]
     },
     {
