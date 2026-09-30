@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 7e595b27159a413c671f49eb840775aa6143abbf
-summary: "Current knowledge links calibrated evidence, reliable systems, sustainable value, accountable institutions and media, durable learning, and human limits."
-episode_count: 910
-source_count: 910
-paragraph_count: 672
+as_of_overview_commit: 2db88dcf9a97b9bac270c0ae11b8d9d17fcdbd4b
+summary: "Current knowledge links calibrated evidence, bounded experimentation, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
+episode_count: 911
+source_count: 911
+paragraph_count: 673
 topic_count: 9
 ---
 
@@ -19,11 +19,11 @@ topic_count: 9
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles.
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
-- Managed-service recovery is dependable only when copies, timing assumptions, degraded modes, and escalation paths escape the relevant failure: [[Instapaper]] needed a new filesystem, write reconciliation, [[Pinterest]] SRE, and [[AWS]] intervention because [[AmazonRDS]] snapshots preserved the production limit.
+- [[TenXThinking]] can expose when local optimization assumes the wrong product or mechanism, but [[Kodak]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] together show that radical outcome framing needs survivable experiments, cumulative execution, and evidence that can change the plan rather than a literal multiplication of effort.
 - [[AccessJournalism]] is an incentive structure rather than an automatic verdict: [[KaraSwisher]] shows how long relationships, continual contact, historical knowledge, confrontation, discretion, and repeated scoops can make proximity produce both information and accountability, while [[AllThingsD]] and [[Recode]] show conferences, funding, boards, and social ties turning a reporter into an institutional power broker. [[MichaelArrington]] supplies a sharper investing-and-reporting contrast, but structural safeguards and story-level evidence remain necessary before inferring compromise.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
+- [[LossAversion]] can make probable modest gains and protection of incumbent profit feel more compelling than uncertain large upside, but [[BehavioralRiskJudgment]] and [[TenXThinking]] require expected value to be interpreted alongside variance, reversibility, learning value, and survival rather than treated as a complete choice rule.
 - [[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope, equivalent compensation, status, and meaningful autonomy while [[ManagementRoleFit]] reserves people management for those willing to adopt group-performance criteria and learn listening, trust, conflict, advocacy, context, staffing, delegation, and final accountability. [[ErikDietrich]] adds that resistance to micromanagement can be mistaken for desire to lead, while [[LindsayHolmwood]] treats management as a learnable and reversible career change; [[EngineeringManagerRoleDesign]] qualifies that common group-enablement purpose with variants that may retain technical work.
-- [[ContingentWorkforce]] can give [[Google]] specialist access, temporary capacity, faster staffing, and headcount flexibility while dividing formal employment responsibility from practical control over tasks, access, intellectual property, and organizational status. The same structure extends [[DataAnnotationLabor]] into outsourced mapping labels, contract content moderation, and human exception handling, so flexibility must be assessed alongside benefits, information access, grievance power, continuity, conversion paths, and heterogeneous worker outcomes.
 
 ## Synthesis by Domain
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible operating capability, and independently testable continuity.
+Durable value joins customer outcomes, sustainable economics, governed distribution, fair risk allocation, visible operating capability, and ambitious framing bounded by evidence and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
@@ -68,7 +68,7 @@ Historical spillovers require attention to lineage, path dependence, institution
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, practice-grounded identity, evidence calibration, consent and context, recovery, durable learning, and structural constraints.
+Human outcomes depend on bounded attention, practice-grounded identity, calibrated risk judgment, consent and context, recovery, durable learning, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [10x Not 10%](sources/ken-norton-10x-not-10-percent.md) - Ken Norton argues that order-of-magnitude outcomes require problem reframing, bounded failure, evidence-led experimentation, trend awareness, and impact measures rather than familiar effort counts.
 - [Keep earning your title, or it expires](sources/keep-earning-your-title-or-it-expires-derek-sivers.md) - Derek Sivers argues that present-tense role titles should remain accountable to current conduct because identity claims can provide premature satisfaction without action.
 - [Kara Swisher Is Silicon Valley's Most Feared and Well-Liked Journalist. How Does That Work?](sources/kara-swisher-is-silicon-valleys-most-feared-and-well-liked-journalist-how-does-that-work.md) - A 2014 profile explains Swisher's influence through sourcing, institutional memory, confrontation, discretion, and conference power while preserving the conflicts created by elite access.
 - [搞懂异地多活，看这篇就够了](sources/kaito-gao-dong-yi-di-duo-huo-kan-zhe-pian-jiu-gou-le.md) - Kaito develops high availability from backups and same-city redundancy into unitized cross-city active-active and multi-site replication, while preserving consistency, latency, capacity, and operational limits.
@@ -935,6 +936,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Ken Norton](entities/KenNorton.md) - Product-management writer advocating order-of-magnitude ambition, evidence-led experimentation, and impact-oriented goals.
+- [Kodak](entities/Kodak.md) - Photography incumbent used as a case of profitable product defense obstructing strategic renewal despite early digital invention.
 - [Walt Mossberg](entities/WaltMossberg.md) - Consumer-technology reviewer and Kara Swisher's long-term partner in AllThingsD, Recode, and their live-journalism conference.
 - [Michael Arrington](entities/MichaelArrington.md) - TechCrunch founder represented as Swisher's scoop rival and an ethical contrast through disclosed investing while reporting.
 - [AllThingsD](entities/AllThingsD.md) - Dow Jones technology publication and conference operation combining live executive interviews with an editorial blog.
@@ -2530,6 +2533,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [10x Thinking](concepts/TenXThinking.md) - Order-of-magnitude outcome framing that exposes assumptions and searches for a different mechanism while relying on bounded experiments and cumulative execution.
 - [Action-Grounded Identity](concepts/ActionGroundedIdentity.md) - Principle that present-tense roles should remain answerable to present conduct rather than rest only on past achievement or declaration.
 - [Preimplementation Feature Discovery](concepts/PreimplementationFeatureDiscovery.md) - Mapping and questioning user and operator flows to expose necessary product scope before implementation.
 - [Multi-Site High Availability](concepts/MultiSiteHighAvailability.md) - Layered design for surviving machine, facility, network, and city-scale failures through redundant serving stacks, state replication, routing, and practiced failover.

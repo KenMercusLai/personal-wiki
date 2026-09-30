@@ -672,12 +672,13 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf",
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
-      "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
+      "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
+      "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 672
+    "paragraph_count": 673
   },
-  "overview_commit": "7e595b27159a413c671f49eb840775aa6143abbf",
-  "overview_digest": "faaf90e4fcb2f767c06f2a3bf7f4fe2850b32b881863634e20abfa4b352c6567",
+  "overview_commit": "2db88dcf9a97b9bac270c0ae11b8d9d17fcdbd4b",
+  "overview_digest": "59269952e577d76f316cd393f45e65921950d38c63a9b32081660529224390fc",
   "paragraphs": [
     {
       "id": "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
@@ -13612,6 +13613,29 @@
         "FounderInvestorFit",
         "JohnLilly",
         "ScalingCommunication"
+      ]
+    },
+    {
+      "id": "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[KenNorton]] source adds [[TenXThinking]] as an order-of-magnitude outcome frame rather than a literal instruction to multiply effort. [[Kodak]] is the central warning: the company reportedly held dominant film economics and produced Steven Sasson's early digital camera internally, yet fear of harming film sales obstructed the successor. This strengthens [[InnovatorsDilemma]], [[LossAversion]], and [[CorporateRiskAversion]] by showing that recognition and invention can coexist with defensive allocation, hierarchy, and product identity. The constructive side combines impact-defined goals, broad information sharing, employee voice and mobility, empirical tests, trend awareness, and permission for informative failure. The resulting judgment is deliberately narrower than the essay's rhetoric: [[Incrementalism]] and 10x framing operate at different levels. A radical outcome can expose an inadequate path, while repeated bounded attempts, feedback, and cumulative execution discover and build the alternative. The expected-value thought experiment also does not settle concentrated decisions where variance, timing, liquidity, correlated failure, or organizational survival matters. The article is a 2015 keynote-derived practitioner essay whose Kodak, quartz-watch, Amazon, DHL, Gmail, aging, and ceramics examples are selected illustrations rather than comparative evidence; its market and cost figures are historically bounded. The supplied Markdown contains no image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CorporateRiskAversion",
+        "Incrementalism",
+        "InnovatorsDilemma",
+        "KenNorton",
+        "Kodak",
+        "LossAversion",
+        "TenXThinking"
       ]
     }
   ],

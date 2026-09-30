@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-01
-as_of_overview_commit: 7e595b27159a413c671f49eb840775aa6143abbf
-input_digest: ac3af46db778d853b5bfb7c211fe37f098deda340e5d14529278aceece3ad081
+as_of_overview_commit: 2db88dcf9a97b9bac270c0ae11b8d9d17fcdbd4b
+input_digest: 9b732b1d87b9f543ad6f72786136a8ddcd71f580bf55130ead1b90fcfcfcd5fc
 ---
 
 # Psychology and Personal Development
@@ -632,3 +632,15 @@ The [[IBM]] case adds an organizational boundary to strategic judgment: an exter
 
 - The evidence is one short 2019 technology-news article, not research on accessibility benefit, consent behavior, covert-listening prevalence, or safeguard effectiveness.
 - Possible misuse should not stigmatize hearing support or be treated as proof that the capability itself is harmful; placement, awareness, consent, range, feedback, and context mediate the outcome.
+
+### Loss Salience Does Not Settle Risky Choice
+
+[[LossAversion]] can make probable modest gains and protection of incumbent profit feel more compelling than uncertain large upside, but [[BehavioralRiskJudgment]] and [[TenXThinking]] require expected value to be interpreted alongside variance, reversibility, learning value, and survival rather than treated as a complete choice rule.
+
+**Evidence:** [[LossAversion]], [[BehavioralRiskJudgment]], [[TenXThinking]], [[CorporateRiskAversion]], [[Kodak]], [[KenNorton]]
+
+**Qualifications:**
+
+- The expected-value comparison is an illustrative thought experiment rather than behavioral evidence, and the Kodak narrative compresses a much larger corporate history.
+- Motivation strength, decision quality, worker welfare, organizational learning, and long-run value are distinct outcomes.
+- A preference for a safer project may be rational when a decision is one-shot, failure threatens survival, or upside cannot be repeated or diversified.

@@ -7327,3 +7327,11 @@ Added [[ActionGroundedIdentity]] and updated [[DerekSivers]] from his complete o
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 10x Not 10%
+
+Added [[KenNorton]], [[Kodak]], and [[TenXThinking]], and updated [[LossAversion]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] from their complete ordered evidence inventories. Recorded the distinction between radical outcome framing and incremental execution, the roles of incumbent economics, hierarchy, expected value, experimentation, openness, trend awareness, and impact measures, and the boundary that variance, ruin, timing, and selected anecdotes place on the essay's claims. No direct contradiction was found; the apparent 10x-versus-incremental conflict was preserved as a scope tension. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

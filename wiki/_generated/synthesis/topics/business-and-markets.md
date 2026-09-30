@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-01
-as_of_overview_commit: 2059a02bdb21b6db1253b6d3bd85a4c51af10fc9
-input_digest: 5fef87fe0d052bfcb41b131a09d5b875d76eb26a878d3f7d881f816882140588
+as_of_overview_commit: 2db88dcf9a97b9bac270c0ae11b8d9d17fcdbd4b
+input_digest: 7d590457fa47936a2d4cf635a17aea8dc67f8bf94256dc7db650a8931ff33bd2
 ---
 
 # Business and Markets
@@ -2073,3 +2073,15 @@ Founder workload is not one growth norm: [[EvWilliams]] reports varied hours, co
 - The evidence is one February 2018 analysis of 2017 Crunchbase records rather than audited disclosure or a current organizational map.
 - Announced deal counts do not weight capital, ownership, reserves, risk, returns, or strategic value, and low overlap can reflect mandate separation, incomplete data, decentralized selection, or coincidence.
 - The missing network visualization could not be independently inspected from the supplied Markdown.
+
+### Radical Outcome Frames Need Bounded Learning
+
+[[TenXThinking]] can expose when local optimization assumes the wrong product or mechanism, but [[Kodak]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] together show that radical outcome framing needs survivable experiments, cumulative execution, and evidence that can change the plan rather than a literal multiplication of effort.
+
+**Evidence:** [[TenXThinking]], [[Kodak]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], [[Incrementalism]], [[KenNorton]]
+
+**Qualifications:**
+
+- The evidence is one 2015 keynote-derived practitioner essay built from selected business and historical anecdotes rather than a comparative study of goal systems or innovation portfolios.
+- Arithmetic expected value does not settle concentrated decisions where variance, timing, liquidity, correlated failure, irreversible harm, or organizational survival matters.
+- Extreme goals can encourage fantasy forecasts, unsafe shortcuts, burnout, or effort inflation unless impact, downside, evidence, and stopping conditions remain explicit.
