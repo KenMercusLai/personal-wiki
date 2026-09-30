@@ -6645,6 +6645,7 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+
 ## [2026-09-30] ingest | Instapaper Outage Cause & Recovery
 
 Added Instapaper's detailed account of its 2017 database outage, tracing the failure to a legacy ext3 2 TB single-file limit inherited through an [[AmazonRDS]] read replica and preserved in ten days of filesystem snapshots. Updated [[Instapaper]], [[Pinterest]], Amazon RDS, [[AmazonAurora]], [[BackupAndRecovery]], [[IncidentManagement]], [[IncidentCommunication]], and [[SystemReliability]] from their complete ordered evidence inventories with infrastructure-lineage risk, provider-limit visibility, common-mode backups, representative restore timing, degraded-service reconciliation, and early specialist escalation. Preserved the unresolved conflict between the detailed postmortem's 31 hours to limited service and [[10-years-of-instapaper]]'s 20-hour figure, plus the source's incorrect weekday labels for February 9 and 10, 2017. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
@@ -6875,6 +6876,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Intention Is All You Need
+
+Added a practitioner thesis that capable LLMs make human intent an increasingly direct software interface while preserving the engineering distance to reliable, maintainable, and secure systems. Created [[IntentionDrivenSoftware]] and [[Slock]]; updated [[VibeCoding]] and [[AIAgentCollaboration]] from their complete ordered evidence inventories. Opened and retained both local screenshots under descriptive canonical names: a 711-contribution GitHub activity calendar and a Slock conversation containing a conventional multi-agent orchestration proposal used as a contrast case, not as evidence of Slock's implementation.
 
 ## [2026-09-30] lint | Wiki health check
 

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "intention-is-all-you-need",
+  "images": [
+    {
+      "file": "github-contribution-activity.png",
+      "alt": "GitHub contribution calendar showing 711 contributions and increased activity in early 2026"
+    },
+    {
+      "file": "agent-orchestration-proposal-in-slock.png",
+      "alt": "Slock conversation where an agent proposes a task graph, event log, scheduler, shared artifacts, safety gates, and recovery paths for multi-agent orchestration"
+    }
+  ]
+}

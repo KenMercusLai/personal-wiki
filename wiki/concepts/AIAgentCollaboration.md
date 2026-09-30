@@ -8,7 +8,8 @@ sources:
   - du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong
-last_updated: 2026-09-13
+  - intention-is-all-you-need
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ The sources contrast collaboration with blind delegation. Piglei argues that col
 
 At project scale, collaboration can be mediated through durable documents rather than one chat: PM, Architect, Engineer, and QA agents collaborate by writing and consuming roadmaps, gap analyses, ADRs, specs, test plans, and CI status files. Multi-agent collaboration also has consensus limits because prompt interpretation is underspecified, agent progress is asynchronous, and misunderstood requirements can function like Byzantine faults. Collaboration therefore includes not only better conversation, but explicit coordination protocols, verification gates, and escalation paths back to humans when intent cannot be inferred.
 
+The Slock example adds a deliberately simpler visible coordination model. Ordinary group-chat messages carry agent communication, and channels separate context across agents and machines. This suggests that agent collaboration interfaces can reuse familiar human social primitives instead of requiring users to manipulate task graphs or schedulers directly, while the existing consensus and reliability evidence cautions that interface simplicity does not remove underlying ambiguity, concurrency, permissions, verification, or recovery work.
+
 ## Key Claims
 - Collaboration and delegation are different mental models for AI agent use.
 - Product-manager-style natural-language requests are insufficient for responsible engineering work.
@@ -27,7 +30,7 @@ At project scale, collaboration can be mediated through durable documents rather
 - Skepticism and counter-questioning prevent the engineer from being led passively by AI output.
 - Curiosity about unfamiliar agent-generated libraries or patterns can expand the engineer's capability boundary, but collaboration style should still vary with task risk, codebase familiarity, and whether the work is maintenance, exploration, or detailed natural-language implementation specification.
 - Multi-agent collaboration works best when each role owns clear artifacts, follows an explicit decision hierarchy, and has escalation paths for ambiguous intent.
-- Multi-agent collaboration has structural consensus limits; better models can improve pass rates but cannot remove prompt ambiguity, liveness tradeoffs, or misunderstood-agent failure modes.
+- Multi-agent collaboration has structural consensus limits; familiar group-chat messages and channels can simplify its visible coordination surface, but better interfaces or models cannot remove prompt ambiguity, liveness tradeoffs, misunderstood-agent failure modes, or safety requirements.
 
 ## Evidence
 - Mental models: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] defines collaboration as joint decision-making based on understanding, while delegation focuses on results.
@@ -42,16 +45,15 @@ At project scale, collaboration can be mediated through durable documents rather
 - Role-mediated collaboration: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] coordinates agent roles through ADRs, specs, roadmaps, and test plans with file ownership.
 - Consensus framing: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] argues that agents must converge on the same interpretation of an underspecified prompt.
 - Intent escalation: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] says no gate can verify true user intent directly, so pipelines need escalation paths to humans.
+- Chat-based orchestration: [[intention-is-all-you-need]] says [[Slock]] uses ordinary messages for agent communication and channels for context separation across agents and machines.
+- Abstraction contrast: [[intention-is-all-you-need]] includes an inspected screenshot where an agent proposes a task graph, event log, scheduler, artifacts, safety gates, and recovery paths, then contrasts that proposal with Slock's simpler visible group-chat model.
 
 ## Counterevidence & Qualifications
-The sources do not fully map when delegation is acceptable for low-risk or disposable work. Their strongest warnings apply to production code, maintainability, and learning contexts where misunderstanding has real cost; Onevcat's prototype exception should not be generalized to safety-critical or long-lived systems. The newest source adds a different limit: even skilled collaborators cannot fully eliminate underspecification before code exists, so coordination mechanisms manage ambiguity rather than abolishing it.
+The sources do not fully map when delegation is acceptable for low-risk or disposable work. Their strongest warnings apply to production code, maintainability, and learning contexts where misunderstanding has real cost; Onevcat's prototype exception should not be generalized to safety-critical or long-lived systems. Even skilled collaborators cannot fully eliminate underspecification before code exists, so coordination mechanisms manage ambiguity rather than abolishing it. Slock is described by one enthusiastic user account rather than a protocol or reliability study, and familiar channels may conceal unresolved ordering, authority, audit, recovery, and context-boundary problems.
 
 ## What Changed
-- Created the concept page for collaboration-first use of AI coding agents.
-- Added a situational distinction between planning-heavy collaboration and exploratory prototype loops.
-- Added the independent-developer source's intern-management and convention-file model of collaboration.
-- Added document-mediated Agent Team collaboration as a project-scale pattern.
-- Added distributed-consensus and oracle-routing limits for multi-agent collaboration.
+- Added group chat and channels as a high-level, intent-aligned multi-agent coordination surface.
+- Distinguished visible interface simplicity from the underlying orchestration, consensus, and safety requirements it may conceal.
 
 ## Related Concepts
 - [[AICodingPractice]] - agent collaboration is the source's preferred working model for AI coding.
@@ -63,3 +65,5 @@ The sources do not fully map when delegation is acceptable for low-risk or dispo
 - [[AgentTeam]] - multi-agent role separation is a document-mediated collaboration pattern.
 - [[DistributedConsensus]] - multi-agent collaboration must converge on a shared interpretation.
 - [[OracleRouting]] - agent pipelines need human escalation when intent cannot be inferred.
+- [[IntentionDrivenSoftware]] - collaboration interfaces can be organized around goals and familiar coordination behavior.
+- [[Slock]] - concrete group-chat example for cross-agent, cross-machine collaboration.

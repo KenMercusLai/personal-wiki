@@ -10,7 +10,8 @@ sources:
   - write-less-code-be-more-responsible-orhuns-blog
   - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
   - blog-peter-steinberger-shipping-at-inference-speed
-last_updated: 2026-09-25
+  - intention-is-all-you-need
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,6 +31,8 @@ Hu Yuanming supplies an extreme expert-user case close to the original no-review
 
 A second expert, low-code-reading case has a different operating shape. [[PeterSteinberger]] queues conversational work across one main project and several satellite projects, lets [[Codex]] spend substantial time inspecting repositories, keeps durable subsystem docs, reuses examples from neighboring codebases, and starts products with a CLI that the agent can execute and check. His account sharpens the bottleneck shift: implementation can become cheap enough that architecture, dependencies, system boundaries, product feel, inference time, and human attention dominate. It also sharpens the unresolved risk, because knowing the system map and checking behavior are not equivalent to reviewing the generated implementation.
 
+The intention-centered source supplies the broadest interpretation of that bottleneck shift. It argues that sufficiently capable models make the desired outcome, rather than implementation instructions, the primary development interface. The author's reported output and contribution activity make this plausible as one practitioner experience, but the same source concedes that vague, contradictory, and evolving goals still need clarification and that reliability, maintenance, and security preserve a substantial engineering distance between a wish and dependable software.
+
 ## Key Claims
 - Vibe coding's most visible effect is faster product iteration and lower scope cost, but local activity measures such as commits or agent completions do not by themselves establish delivery value.
 - Command-line agents can produce a deeper vibe-coding experience than editor-bound AI when they understand and modify whole projects.
@@ -37,7 +40,7 @@ A second expert, low-code-reading case has a different operating shape. [[PeterS
 - Small, reviewable iterations and fine-grained natural-language implementation instructions usually beat large uncontrolled generations because they preserve understanding and rollback ability.
 - Context windows, documentation, codebase exploration, compaction, and session boundaries become workflow constraints whose best handling can vary by model and task.
 - Verification, human pace, and reviewability matter: accelerated tools should not eliminate compilation, tests, linting, thinking time, formal roles, specs, CI, or production responsibility.
-- Pure no-review vibe coding is especially risky for non-programmers and public-software maintainers because security, subscription, API-key, database, comprehension, later-release, user-trust, and review failures can arrive faster than the builder can understand or safely maintain them.
+- Pure no-review vibe coding is especially risky for non-programmers and public-software maintainers because security, subscription, API-key, database, comprehension, later-release, user-trust, and review failures can arrive faster than the builder can understand or safely maintain them; shifting the human contribution toward intent does not make a natural-language wish a complete specification or proof of reliability.
 
 ## Evidence
 - Iteration speed: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] says AI-assisted development can compress product work from days to hours and intensify competition.
@@ -63,15 +66,17 @@ A second expert, low-code-reading case has a different operating shape. [[PeterS
 - Conversational planning: [[blog-peter-steinberger-shipping-at-inference-speed]] replaces a separate Plan Mode with research, code exploration, dialogue, plan refinement, and an explicit instruction to build.
 - Agent-verifiable interfaces: [[blog-peter-steinberger-shipping-at-inference-speed]] recommends starting with a CLI so the model can invoke the product and inspect its output directly.
 - Solo workflow boundary: [[blog-peter-steinberger-shipping-at-inference-speed]] describes direct-to-main work, limited checkpointing, and three-to-eight concurrent projects while explicitly warning that the pattern would not transfer unchanged to a larger team.
+- Intent as interface: [[intention-is-all-you-need]] argues that LLMs compress requirements, architecture, and implementation enough for desired outcomes to become the visible development surface.
+- Activity signal: [[intention-is-all-you-need]] includes an inspected GitHub calendar showing 711 contributions and denser early-2026 activity after the author's reported shift away from writing code directly; this does not establish delivered value or causality.
+- Engineering boundary: [[intention-is-all-you-need]] explicitly retains clarification, reliability, maintainability, security, and bug prevention as work that a high-level wish does not remove.
 
 ## Counterevidence & Qualifications
-The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's and Steinberger's cases benefit from deep expertise, personal infrastructure, and mostly solo or single-user conditions, so they cannot establish that routine non-review is safe for shared or consequential software. Steinberger's one-shot refactor and speed claims lack independent defect, maintenance, security, and lifecycle measurements. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, or human responsibility.
+The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's, Steinberger's, and the intention-centered author's cases benefit from deep expertise, personal infrastructure, and mostly solo or single-user conditions, so they cannot establish that routine non-review is safe for shared or consequential software. Commit activity, one-shot refactors, and self-reported output lack independent defect, maintenance, security, product-value, and lifecycle measurements. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, clarification, or human responsibility.
 
 ## What Changed
-- Added Steinberger's contrasting expert workflow: ordinary conversation, deep repository reading, durable docs, cross-project examples, and CLI-first verification rather than a custom worker pool.
-- Shifted the current bottleneck account from code production toward inference time, architecture, dependencies, system boundaries, product judgment, and human attention.
-- Qualified Plan Mode and session-reset prescriptions as model- and task-dependent rather than universal.
-- Strengthened the warning that system-level awareness and executable checks do not by themselves prove generated-code maintainability or safety.
+- Added intention as the highest-level account of the human role after implementation becomes cheap.
+- Added one inspected contribution-calendar activity signal while separating it from product quality and causal productivity.
+- Strengthened the boundary between expressing a desired outcome and delivering reliable, maintainable, secure software.
 
 ## Related Concepts
 - [[AICodingPractice]] - vibe coding needs disciplined norms for human judgment, review, and maintainability.
@@ -85,3 +90,4 @@ The sources are personal practitioner accounts rather than comparative studies. 
 - [[OpenSourceProjectMaintenance]] - public release turns generated-code comprehension and future safety into maintainer obligations.
 - [[PersonalSoftware]] - single-user scope can make aggressive vibe coding cheaper while avoiding many public-product obligations.
 - [[BottleneckAwareAICoding]] - parallel agents move rather than eliminate constraints in planning, integration, review, and verification.
+- [[IntentionDrivenSoftware]] - frames desired outcomes as the primary interface for model-mediated software creation.

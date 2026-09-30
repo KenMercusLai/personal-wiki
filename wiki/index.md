@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Intention Is All You Need](sources/intention-is-all-you-need.md) - A practitioner argues that LLMs make intention an increasingly direct software interface, using Slock's group-chat agent coordination while preserving the engineering gap to dependable systems.
 - [Instapaper Outage Cause & Recovery](sources/instapaper-outage-cause-recovery-making-instapaper-medium.md) - Instapaper traces a 31-hour outage to an inherited RDS ext3 file limit, common-mode snapshots, untested restore timing, and delayed escalation, then documents provider-assisted recovery without reported data loss.
 - [Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story](sources/instagram-the-50-billion-grand-slam-driving-facebooks-future-the-forbes-cover-story.md) - Forbes's 2016 profile links Instagram's post-acquisition scale to focused leadership, cautious monetization, selective product change, and Facebook's operating leverage.
 - [Instagram Stories At Two: What Price Have We Paid For Recording Everything?](sources/instagram-stories-at-two-what-price-have-we-paid-for-recording-everything.md) - A 2018 essay connects Instagram Stories' private viewer feedback with continuous performance, edited memory, and unresolved feature-specific mental-health effects.
@@ -874,6 +875,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Slock](entities/Slock.md) - Agent-native group-chat application whose messages and channels form a high-level coordination surface for agents across machines.
 - [Kevin Systrom](entities/KevinSystrom.md) - Instagram co-founder and 2016 CEO represented through focused product leadership, cautious advertising, selective evolution, and post-acquisition autonomy.
 - [Pamela Rutledge](entities/PamelaRutledge.md) - Media psychologist quoted on validation, self-worth, performance, and positive memory in Instagram Stories use.
 - [Mike Krieger](entities/MikeKrieger.md) - Instagram co-founder and CTO represented through the stage-sensitive growth of its engineering organization.
@@ -2399,6 +2401,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Intention-Driven Software](concepts/IntentionDrivenSoftware.md) - Software creation and interaction organized around desired outcomes, with LLMs translating high-level intent while engineering supplies clarification and assurance.
 - [Performative Self-Presentation](concepts/PerformativeSelfPresentation.md) - Adapting or staging lived behavior for an imagined or measurable audience and a desirable public identity.
 - [Engineering Organization Evolution](concepts/EngineeringOrganizationEvolution.md) - Stage-sensitive redesign of engineering hiring, specialization, management, and team boundaries from generalists through platform and product teams.
 - [Gift Card Fraud](concepts/GiftCardFraud.md) - Theft, compromise, double spending, or laundering of stored-value card balances across digital codes, resale markets, and retailer checkout.
