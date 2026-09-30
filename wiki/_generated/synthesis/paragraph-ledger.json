@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
       "adf6a2ac1f0c5db7e0816da2818b13409b86f9d26fd7614900de91e9b59de637",
       "0704f9cbab71e75bf76c5789758111c70b46ffd0b806627d639be7c065c225d8",
       "b11d023d2fc834d20f1bbb0b6ec42fa85b01b446188cf5a8c57047fcfb3d94cb",
@@ -661,11 +662,33 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 659
+    "paragraph_count": 660
   },
-  "overview_commit": "be252b4672de51ba6fc47e412f7756c93b90a747",
-  "overview_digest": "24aae0c14b489d25068e064afb0b0ec4627e88d82f82eef9d7a1ce8732010c40",
+  "overview_commit": "d9dffb0153372e1bcefdf0046789dc5095a2c73d",
+  "overview_digest": "7ab62d15869628e3b8cc95a6c18302d8aef526cb7f710ec37119a05feff645df",
   "paragraphs": [
+    {
+      "id": "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[JasonRowley]] source adds [[CorporateVentureInvesting]] as a multi-vehicle organizational model rather than a single corporate fund. In the article's 2017 Crunchbase snapshot, [[Alphabet]] participated in 103 deals through [[GV]], [[CapitalG]], [[GradientVentures]], and direct [[Google]] investment; GV supplied broad venture activity, CapitalG emphasized later-stage growth, Gradient focused on AI, and Google also operated equity-free accelerator and impact programs. Only Gusto and Pindrop overlapped between GV and CapitalG, while acquisitions and public exits created a different relationship network: Alphabet had acquired seven previously backed companies and twelve portfolio companies had gone public. The durable synthesis is that differentiated vehicles can widen strategic option exposure without requiring one selection mandate, but breadth and low overlap do not prove coordination, diversification benefits, or performance. Announced deal counts do not measure capital, ownership, returns, reserves, or strategic value; the database may omit transactions or misresolve entities; and the eclectic portfolio can indicate optionality, decentralization, or weak thematic coherence. The supplied Markdown contains no image references, so the network visualization described in the prose could not be independently inspected or retained.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Alphabet",
+        "CapitalG",
+        "CorporateVentureInvesting",
+        "GV",
+        "Google",
+        "GradientVentures",
+        "JasonRowley"
+      ]
+    },
     {
       "id": "adf6a2ac1f0c5db7e0816da2818b13409b86f9d26fd7614900de91e9b59de637",
       "primary_topic": "work-education-and-society",

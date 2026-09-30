@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Peek Inside Alphabet's Investing Universe](sources/jason-rowley-a-peek-inside-alphabets-investing-universe.md) - Jason Rowley maps Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment entities using qualified 2017 Crunchbase data.
 - [Increasing Your Luck Surface Area](sources/jason-roberts-increasing-your-luck-surface-area.md) - Jason Roberts models serendipitous opportunity as the interaction of substantive doing and effective telling while leaving the equation, audience effects, and access constraints unmeasured.
 - [How to Figure Out Your Competitors' Revenues in About 70 Seconds](sources/jason-lemkin-how-to-figure-out-your-competitors-revenues-in-about-70-seconds.md) - Jason Lemkin proposes a funding- and business-model-adjusted revenue-per-employee shortcut for estimating private SaaS scale while leaving substantial data and validation limits.
 - [You don't have what it takes](sources/jason-calacanis-you-dont-have-what-it-takes.md) - Jason Calacanis treats extreme personal and team sacrifice as a founder-readiness test while providing no evidence that the test predicts sound judgment or startup success.
@@ -905,6 +906,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jason Rowley](entities/JasonRowley.md) - Technology and venture-capital writer represented through a historical Crunchbase analysis of Alphabet's investment network.
+- [Alphabet](entities/Alphabet.md) - Google parent represented through a distributed system of venture, growth, AI, direct, accelerator, and impact investment.
+- [CapitalG](entities/CapitalG.md) - Alphabet growth-equity fund focused primarily on later-stage deals in the source's 2017 portfolio snapshot.
+- [Gradient Ventures](entities/GradientVentures.md) - Google-affiliated venture fund distinguished by an artificial-intelligence focus in the 2018 source.
 - [Jason Roberts](entities/JasonRoberts.md) - Writer represented through the “Luck Surface Area” heuristic linking substantive work, visible enthusiasm, and effective communication with opportunity exposure.
 - [Jason Calacanis](entities/JasonCalacanis.md) - Investor and startup practitioner represented through a contested 2015 argument about founder readiness, efficiency, apprenticeship, and sacrifice.
 - [Jamie Siminoff](entities/JamieSiminoff.md) - Ring founder represented through solution-oriented invention, accumulated entrepreneurial experience, and a critique of conventional founder selection.
@@ -2467,6 +2472,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Corporate Venture Investing](concepts/CorporateVentureInvesting.md) - Startup investing through corporation-affiliated vehicles differentiated by stage, sector, strategic purpose, or non-equity program.
 - [Revenue Per Employee](concepts/RevenuePerEmployee.md) - Aggregate productivity ratio used here as a calibrated but highly qualified headcount-based estimator of private SaaS revenue.
 - [Founder Sacrifice Norm](concepts/FounderSacrificeNorm.md) - Contested belief that willingness to absorb extreme personal loss or transfer risk to a team demonstrates founder readiness.
 - [Database Engineering Tradeoffs](concepts/DatabaseEngineeringTradeoffs.md) - Coupled correctness, availability, latency, coordination, operability, and scaling consequences of database design choices.

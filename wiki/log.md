@@ -7127,3 +7127,11 @@ Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective co
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | A Peek Inside Alphabet's Investing Universe
+
+Added [[CorporateVentureInvesting]] and source-bounded profiles for [[JasonRowley]], [[Alphabet]], [[CapitalG]], and [[GradientVentures]]. Updated [[GV]] and [[Google]] from their complete ordered evidence inventories with Alphabet's differentiated venture, growth, AI, direct, accelerator, and impact-investment roles. Preserved the 2017 Crunchbase snapshot boundary: deal and network counts do not establish capital deployed, ownership, returns, coordination, or current program structure. The supplied Markdown contains no image references, so the network visualization mentioned in the prose could not be inspected or retained.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
