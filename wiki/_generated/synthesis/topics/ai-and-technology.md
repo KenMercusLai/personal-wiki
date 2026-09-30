@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-01
-as_of_overview_commit: 9862d17b9ee664b13a284bb4711e2ba9674abf5e
-input_digest: 8034fe3e5da1164016b846c4f74acb6e9385137acca02fc88cb4a05d5fe19188
+as_of_overview_commit: 4a1cd1bb5ce932153aed3d642c882f40e13712ca
+input_digest: 2e4c7d65ddaacb1c295b4dae25fe1cc97908d71ead400097e20beff81439fc6c
 ---
 
 # AI and Technology
 
 ## Current State
 
-[[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.
+[[FileTimestampFiltering]] adds a small but representative automation boundary: reference-file and direct-date predicates are composable, but timestamp type, parser support, timezone, locale, and comparison inclusivity must be explicit before a convenient shell expression becomes a reliable script. [[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden.
 
 ## Cross-source Findings
 
@@ -935,3 +935,14 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is a saved Beck quotation plus heterogeneous practitioner comments, not a controlled comparison of test strategies, defect rates, suite costs, or maintenance outcomes.
 - Personal and team error history can miss novel, interaction, security, concurrency, accessibility, data-integrity, and rare catastrophic failures; confidence can also be miscalibrated.
 - Claims that smoke tests, integration tests, or static types can replace many unit tests remain language-, architecture-, risk-, and implementation-dependent.
+
+### Filesystem Time Filters Need Explicit Boundaries
+
+[[FileTimestampFiltering]] extends [[CLICommandGrammar]] through composable filesystem predicates: a timestamped reference file or directly parsed date can supply a modification-time cutoff, negation selects the complementary at-or-before set, and paired bounds form a time window; [[AutomationFriendlyCLI]] requires scripts to make implementation support, timestamp type, parsing context, and inclusivity explicit.
+
+**Evidence:** [[FileTimestampFiltering]], [[CLICommandGrammar]], [[AutomationFriendlyCLI]]
+
+**Qualifications:**
+
+- The evidence is one short Server Fault capture that does not identify the find implementation, demonstrate a standalone older-than command, or test timezone, locale, daylight-saving, and date-only behavior.
+- Negating a strict newer-than predicate includes equality, and the workaround inaccurately calls an ordinary modification-time reference a creation date, so timestamp field and interval boundaries must be chosen explicitly.

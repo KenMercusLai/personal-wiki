@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Linux: Using find to Locate Files Older Than a Date](sources/linux-using-find-to-locate-files-older-than.md) - A Server Fault capture explains reference-file and direct-date modification-time filters while exposing equality, timestamp-type, and parser-portability boundaries.
 - [新年新开始：从为什么到写什么，带你重新认识日记](sources/larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji.md) - Lars漫步 organizes journaling around retrospective review, emotional clarification, gratitude, achievement evidence, and choice reflection while preserving the limits of its practitioner and secondary evidence.
 - [Reading Notes on 'Designing Data-Intensive Applications'](sources/laisky-reading-notes-on-designing-data-intensive-applications.md) - Laisky connects data models, storage engines, replication, transactions, consensus, and batch and stream processing through their reliability and coordination tradeoffs.
 - [Kubernetes: maybe a few Bash/Python scripts is enough](sources/kubernetes-maybe-a-few-bashpython-scripts-is-enough.md) - A Binary Igor essay argues that small, predictable container systems should compare Kubernetes' complete operating stack with managed containers or reproducible scripts, while preserving orchestration for workloads that justify it.
@@ -2553,6 +2554,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [File Timestamp Filtering](concepts/FileTimestampFiltering.md) - Selecting files around modification-time cutoffs with reference files or direct date parsing while making comparison boundaries and portability explicit.
 - [Data-Intensive Systems](concepts/DataIntensiveSystems.md) - Applications whose central design challenge is reliable storage, movement, transformation, and coordination of data at the required scale.
 - [First-Principles Thinking](concepts/FirstPrinciplesThinking.md) - Decomposing a problem into fundamental parts through abstraction, then recombining those parts from a changed perspective.
 - [Startup Pivot Strategy](concepts/StartupPivotStrategy.md) - Redirecting a non-growing startup toward its strongest observed behavior, reusable asset, and simpler test while keeping early segment evidence distinct from durable fit.

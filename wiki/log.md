@@ -7407,3 +7407,11 @@ Added [[LarsManbu|Lars漫步]] and updated [[JournalingPractice]], [[GratitudePr
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Linux: Using find to Locate Files Older Than a Date
+
+Added [[FileTimestampFiltering]] from a short Server Fault capture of reference-file and direct `-newermt` modification-time comparisons. Recorded negation and bounded-range composition while preserving the equality boundary, implementation and date-parser uncertainty, and the source's inaccurate use of “creation date” for an ordinary modification-time comparison. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

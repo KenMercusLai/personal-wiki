@@ -439,6 +439,7 @@
       "905e3866ae7cb9dcdc634dc6ebf5a37bb84630911a7080e02c9ccf9834776e40",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
+      "6cd33e4865ed4daf4dc78b6c4561907697bbae27e29aacc62557b1ea44324351",
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
       "e3fcd2209563ed4b4a13479a52459407e8033b02fcb4badc8f3f45aa0003e4e4",
       "10937c6f00454293b88366870cd19f7ff2512f570bbeab585fc3b0eca8835791",
@@ -681,10 +682,10 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 679
+    "paragraph_count": 680
   },
-  "overview_commit": "29aa06911707b6401bfbe52b0eb5e74ad72cd1db",
-  "overview_digest": "eccd240d83665bd686d1e3b1a5b17b702ac2592d5d5cc91afd0c6b5f896bd210",
+  "overview_commit": "4a1cd1bb5ce932153aed3d642c882f40e13712ca",
+  "overview_digest": "198776999ce23de5c23af7420705b4fcd2ca7db02ef5f99c037faef48eb0807e",
   "paragraphs": [
     {
       "id": "65ee66c2bc5d9e8cb56a8dd903622327a55ec5f6be6bb212a826c00f74657997",
@@ -9068,6 +9069,20 @@
         "JeffDickey",
         "Oclif",
         "StructuredCLIOutput"
+      ]
+    },
+    {
+      "id": "6cd33e4865ed4daf4dc78b6c4561907697bbae27e29aacc62557b1ea44324351",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Linux `find` source adds [[FileTimestampFiltering]] as a compact filesystem-query pattern. A timestamped reference file can feed the ordinary `-newer` predicate, while implementations with `-newermt` can parse an absolute or relative date directly; negating the strict newer-than test selects its at-or-before complement, and pairing a positive lower predicate with a negated upper predicate creates a time window. This extends [[CLICommandGrammar]] and [[AutomationFriendlyCLI]] through predicate composition, but the short Server Fault capture is not a portable runbook: it does not name the implementation, show a standalone older-than command, or resolve timezone, locale, daylight-saving, and date-only boundaries. Its workaround also calls the assigned reference timestamp a creation date even though the shown default comparison concerns modification time, so scripts must choose their timestamp field and inclusivity deliberately.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "AutomationFriendlyCLI",
+        "CLICommandGrammar",
+        "FileTimestampFiltering"
       ]
     },
     {
