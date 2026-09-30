@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-01
-as_of_overview_commit: 4d42c89b3ec3cc66c097609c95b9177c143ca829
-input_digest: 7bb839fb157de78f308bfd062d226468a6c32228e550c82daf1ff52ff7092106
+as_of_overview_commit: 2059a02bdb21b6db1253b6d3bd85a4c51af10fc9
+input_digest: 24e02fa7dae1136c076140d7a0d248e1c470e8dfe07a3e9951738098b9400480
 ---
 
 # Work, Education, and Society
@@ -1088,3 +1088,15 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 - The evidence is [[JohnLilly]]'s retrospective remembrance, not comparative leadership or employee-outcome research.
 - The treatment claims rely partly on friends' experiences, and the source does not establish whether harsh behavior caused, accompanied, or impeded Apple's achievements.
 - The leak-crackdown recollection supplies no company record, dismissed-employee perspective, or evidence about proportionality, process, or legality.
+
+### Professional Proximity Needs Structural Boundaries
+
+[[KaraSwisher]] adds a professional-practice case to [[AccessJournalism]]: continual non-transactional source contact, industry memory, direct questioning, confirmation thresholds, and selective discretion can support consequential reporting, while [[WaltMossberg]], [[AllThingsD]], and [[Recode]] show that publication ownership, event revenue, boards, backers, family ties, friendships, and future access require explicit structural boundaries as a journalist's role and power expand.
+
+**Evidence:** [[KaraSwisher]], [[AccessJournalism]], [[WaltMossberg]], [[AllThingsD]], [[Recode]]
+
+**Qualifications:**
+
+- The evidence is one 2014 profile of an unusually established journalist, so its combination of historical access, confrontation, discretion, and durable relationships is not a general career prescription for reporters with less security or institutional power.
+- Maintaining sources between stories can improve context and trust while also producing conformity, exclusion, selective restraint, or perceived conflict; the source does not measure which effect dominated across coverage.
+- Recusal, disclosure, separate finances, funding choices, confirmation thresholds, and editorial willingness are safeguards rather than guarantees, and the retained photographs provide context rather than professional-outcome evidence.

@@ -3,9 +3,9 @@
 generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
-last_updated: 2026-09-30
-as_of_overview_commit: dd20d783d4eccde85132e97bdbfc942ef73bc21b
-input_digest: c1041f8c62011a93e2a05cfc4ad4e6bec7e65b3f3e62b7415a56ba7af5bd7f37
+last_updated: 2026-10-01
+as_of_overview_commit: 2059a02bdb21b6db1253b6d3bd85a4c51af10fc9
+input_digest: b2c475a4705b83a737e5f839cca69d8bb66a834447cd3abe72df0f500b39bc8d
 ---
 
 # Culture and Media
@@ -319,3 +319,15 @@ Games as cultural products depend on publishing institutions as well as creative
 
 - The evidence consists of two practitioner essays and historical product examples rather than controlled cross-cultural or behavioral research.
 - Pronoun interpretation can vary by language, culture, task, accessibility needs, and prior product expectations, while neutral wording remains useful when the referent is clear.
+
+### Access Journalism Is Incentive Not Verdict
+
+[[AccessJournalism]] is an incentive structure rather than an automatic verdict: [[KaraSwisher]] shows how long relationships, continual contact, historical knowledge, confrontation, discretion, and repeated scoops can make proximity produce both information and accountability, while [[AllThingsD]] and [[Recode]] show conferences, funding, boards, and social ties turning a reporter into an institutional power broker. [[MichaelArrington]] supplies a sharper investing-and-reporting contrast, but structural safeguards and story-level evidence remain necessary before inferring compromise.
+
+**Evidence:** [[AccessJournalism]], [[KaraSwisher]], [[WaltMossberg]], [[AllThingsD]], [[Recode]], [[MichaelArrington]]
+
+**Qualifications:**
+
+- The evidence is a 2014 magazine profile built from interviews, reputation, and anecdote rather than a comparison of published and suppressed stories, corrections, source accuracy, or later practice.
+- Disclosure, recusal, financial separation, non-venture funding, and adversarial reporting constrain conflicts without removing the influence or appearance risks created by conferences, boards, backers, family ties, friendships, and future access.
+- The profile reports that rivals could not identify a major suppressed story, but absence of an example does not resolve story selection, recusal, or institutional agenda-setting; both retained photographs are contextual rather than evidence of editorial outcomes.

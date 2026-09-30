@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5ee22c7c6cc4fcc058dc34df6df9d09c383ef73e2cb9cdd29a51d54afa493ac1",
       "11af0e3361cc5832a64b67f98990f0b1619b7708a08af295ac11ea660121dcfc",
       "d17c76c302c6b15966f1eb6673f9d44f5e99fa8df07679871605d04ba5aded51",
       "0c7c7a33c94ef7bc7e8573ec4c26430d8bfc3a36ca1de287ef34aed5db5052fd",
@@ -672,11 +673,35 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09"
     ],
-    "paragraph_count": 670
+    "paragraph_count": 671
   },
-  "overview_commit": "bdf4a29e9c946dabfec7ea50f343e3c09b7465d8",
-  "overview_digest": "35c544fd34b97c6d16ef2702a35e41cd34ca9e4d01a817271647948a47c215b8",
+  "overview_commit": "2059a02bdb21b6db1253b6d3bd85a4c51af10fc9",
+  "overview_digest": "70b270ce1073000f92ff296270fd1f814a596e471beeba7ee08f02d3b9ebf297",
   "paragraphs": [
+    {
+      "id": "5ee22c7c6cc4fcc058dc34df6df9d09c383ef73e2cb9cdd29a51d54afa493ac1",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[KaraSwisher]] profile turns the wiki's [[AccessJournalism]] critique into a more conditional operating model. Swisher's long industry memory, continual source contact, social fluency, direct pressure, selective discretion, and repeated scoops show how proximity can produce both information and accountability; the fact that she retained relationships with people she attacked also weakens any deterministic claim that access requires favorable coverage. Her partnership with [[WaltMossberg]] adds an institutional layer: [[AllThingsD]] and later [[Recode]] joined editorial reporting, live executive interviews, product debuts, and a profitable conference business, while their rejection of sponsor-controlled talks and venture backing, extensive disclosure, Google recusal, and financial separation supplied real but incomplete safeguards. Conference participation, board composition, media backers, friendships, family ties, and future access still shaped what could be covered or appear independent. [[MichaelArrington]] provides the sharper contrast through disclosed investing while reporting and CrunchFund, but the article also notes the two rivals' shared aggressive style. The durable judgment is that funding, disclosure, recusal, confirmation thresholds, and willingness to publish adverse stories can constrain conflicts without erasing them; particular compromise requires story-level evidence. The source is a 2014 magazine profile based on interviews, reputation, and anecdote rather than a coverage audit. Both unique photographs were inspected and retained for their contextual record of Swisher's on-set role and recognizable informal presentation; a duplicate crop was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4,
+        "culture-and-media": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AccessJournalism",
+        "AllThingsD",
+        "KaraSwisher",
+        "MichaelArrington",
+        "Recode",
+        "WaltMossberg"
+      ]
+    },
     {
       "id": "11af0e3361cc5832a64b67f98990f0b1619b7708a08af295ac11ea660121dcfc",
       "primary_topic": "business-and-markets",

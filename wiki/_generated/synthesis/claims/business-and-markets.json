@@ -3327,18 +3327,24 @@
       "global_candidate": true,
       "id": "premium-subscriptions-change-not-remove-incentive-conflicts",
       "qualifications": [
-        "The evidence is one 2016 profile rather than a current or longitudinal company assessment, and proximity identifies an incentive and appearance risk rather than proof of compromised reporting.",
+        "The evidence consists of one 2014 magazine profile and one 2016 publication profile rather than current or longitudinal assessments, and proximity identifies incentives and appearance risks rather than proof of compromised reporting.",
         "The profile reports cash-flow positivity and more-than-doubled subscriptions but withholds subscriber totals, founder investment, churn, acquisition cost, margins, and cohort retention; the estimate near 10,000 members came from observers.",
-        "All five remote images were unavailable and had no archived local copies, so the synthesis includes no visual evidence."
+        "The Recode account documents no specific suppressed story, does not audit selection or unpublished decisions, and relies on interviews, reputation, and anecdote; its conflict safeguards and business details are source-scoped to 2014.",
+        "The Information's five remote images were unavailable, while the Swisher profile retained two unique contextual photographs after a duplicate crop was omitted; neither image set independently establishes editorial outcomes."
       ],
-      "statement": "[[TheInformation]] extends [[NicheSubscriptionPublishing]] and [[DigitalMediaMonetization]] from solo analysis to a newsroom model built on scarce reporting, tiered professional pricing, community, founder control, and core-audience-first expansion, while [[AccessJournalism]] shows that overlapping subscribers, sources, and member access replace advertiser pressure with a different editorial-independence risk.",
+      "statement": "[[TheInformation]] extends [[NicheSubscriptionPublishing]] and [[DigitalMediaMonetization]] from solo analysis to a newsroom model built on scarce reporting, tiered professional pricing, community, founder control, and core-audience-first expansion. [[AllThingsD]] and [[Recode]] add a reporting-plus-conference model in which media backing, editorial control, disclosure, recusal, and financial separation constrain some conflicts, while [[AccessJournalism]] shows that overlapping subscribers, sources, speakers, boards, funders, relationships, and member or event access replace advertiser or venture pressure with different editorial-independence risks.",
       "status": "qualified",
       "supporting_wikilinks": [
         "TheInformation",
         "NicheSubscriptionPublishing",
         "DigitalMediaMonetization",
         "AccessJournalism",
-        "JessicaLessin"
+        "JessicaLessin",
+        "KaraSwisher",
+        "WaltMossberg",
+        "AllThingsD",
+        "Recode",
+        "MichaelArrington"
       ]
     },
     {

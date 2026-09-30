@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Kara Swisher Is Silicon Valley's Most Feared and Well-Liked Journalist. How Does That Work?](sources/kara-swisher-is-silicon-valleys-most-feared-and-well-liked-journalist-how-does-that-work.md) - A 2014 profile explains Swisher's influence through sourcing, institutional memory, confrontation, discretion, and conference power while preserving the conflicts created by elite access.
 - [搞懂异地多活，看这篇就够了](sources/kaito-gao-dong-yi-di-duo-huo-kan-zhe-pian-jiu-gou-le.md) - Kaito develops high availability from backups and same-city redundancy into unitized cross-city active-active and multi-site replication, while preserving consistency, latency, capacity, and operational limits.
 - [KF: Batch Gmail](sources/kf-batch-gmail.md) - Kenneth Friedman uses a Gmail filter and timed Apps Script to batch inbox visibility while leaving productivity effects, current compatibility, and broad mailbox-permission risk unresolved.
 - [Just how big is the podcast discovery gap?](sources/just-how-big-is-the-podcast-discovery-gap-startup-grind-medium.md) - David Kadavy links one podcast's downloads to Product Hunt exposure and its category shutdown while preserving bot, attribution, listening, and market-size limits.
@@ -933,6 +934,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Walt Mossberg](entities/WaltMossberg.md) - Consumer-technology reviewer and Kara Swisher's long-term partner in AllThingsD, Recode, and their live-journalism conference.
+- [Michael Arrington](entities/MichaelArrington.md) - TechCrunch founder represented as Swisher's scoop rival and an ethical contrast through disclosed investing while reporting.
+- [AllThingsD](entities/AllThingsD.md) - Dow Jones technology publication and conference operation combining live executive interviews with an editorial blog.
+- [Recode](entities/Recode.md) - Independent technology publication and conference business launched by Kara Swisher and Walt Mossberg in 2014.
 - [Kannan Chandrasegaran](entities/KannanChandrasegaran.md) - Practitioner-author advocating low-fidelity user-flow and specification discovery before software implementation.
 - [Kaito](entities/Kaito.md) - Pseudonymous practitioner-author explaining multi-site active-active architecture and cross-data-center storage synchronization.
 - [Kenneth Friedman](entities/KennethFriedman.md) - Practitioner who documented a historical Gmail filter-and-script workflow for scheduled email visibility.
@@ -1115,8 +1120,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gojek](entities/Gojek.md) - Indonesian mobility company presented by an employee-author as expanding from ride-sharing into food, ticketing, and other adjacent services.
 - [Jessica Livingston](entities/JessicaLivingston.md) - Y Combinator cofounder whose social judgment and founder care shaped its model and whose operating advice joins user focus, growth, runway, hiring, and fundraising discipline.
 - [Nitasha Tiku](entities/NitashaTiku.md) - BuzzFeed News journalist examining access, media incentives, and technology power at Code Conference.
-- [Code Conference](entities/CodeConference.md) - Exclusive technology gathering represented as both a valuable access venue and a protected elite social environment.
-- [Kara Swisher](entities/KaraSwisher.md) - Technology journalist and Code Conference co-founder represented through combative interviewing, mentorship, and institutional access tensions.
+- [Code Conference](entities/CodeConference.md) - Live-journalism technology gathering whose editorial interview model produces both rare access and a protected elite social environment.
+- [Kara Swisher](entities/KaraSwisher.md) - Technology journalist whose sourcing, institutional memory, confrontation, discretion, and conference power create both accountability and access tensions.
 - [Greg Brockman](entities/GregBrockman.md) - OpenAI co-founder represented as a founding organizer and hands-on research engineer whose CTO work followed the current bottleneck.
 - [Ilya Sutskever](entities/IlyaSutskever.md) - OpenAI founding research leader represented through complementary institution design and flexible responsibility sharing with Greg Brockman.
 - [OpenAI Gym](entities/OpenAIGym.md) - Standardized reinforcement-learning environment library whose software abstractions and quality shaped early research iteration.
@@ -2628,7 +2633,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Value Hacking](concepts/ValueHacking.md) - Product-growth practice that tests segment-specific value propositions and adjacent use cases instead of indefinitely optimizing one aggregate growth proxy.
 - [Growth Engineering](concepts/GrowthEngineering.md) - Measured acquisition, activation, retention, and revenue improvement backed by product experiments, instrumentation, reliable software, and enabling platform architecture.
 - [Person-Strategy Fit](concepts/PersonStrategyFit.md) - Alignment between a person's distinctive strengths and the method, goal, environment, or venture they can sustain effectively.
-- [Access Journalism](concepts/AccessJournalism.md) - Reporting incentive problem in which valuable proximity to powerful subjects can discourage scrutiny that threatens future access.
+- [Access Journalism](concepts/AccessJournalism.md) - Reporting incentive problem in which proximity improves information while creating social, commercial, and institutional pressure against scrutiny.
 - [Technology Elite Power](concepts/TechnologyElitePower.md) - Combined economic, platform, investment, legal, social, and agenda-setting influence among technology leaders.
 - [Escapist Technofuturism](concepts/EscapistTechnofuturism.md) - Distant technological future used as a clean slate that can displace present accountability and distribution questions.
 - [Machine Learning Research Engineering](concepts/MachineLearningResearchEngineering.md) - Software, infrastructure, interfaces, and workflows that make machine-learning experiments feasible and fast enough to support research progress.

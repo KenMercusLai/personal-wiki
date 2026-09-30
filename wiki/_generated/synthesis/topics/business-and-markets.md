@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-01
-as_of_overview_commit: 8250aaf65be0bf71bf9ecff2288661214f5c0404
-input_digest: a74427e1f8287d0a4543149a68ffc9ccfc60c3d4d430982f2f52b2bf78367778
+as_of_overview_commit: 2059a02bdb21b6db1253b6d3bd85a4c51af10fc9
+input_digest: 5fef87fe0d052bfcb41b131a09d5b875d76eb26a878d3f7d881f816882140588
 ---
 
 # Business and Markets
@@ -2016,15 +2016,16 @@ Founder workload is not one growth norm: [[EvWilliams]] reports varied hours, co
 
 ### Premium Subscriptions Change Not Remove Incentive Conflicts
 
-[[TheInformation]] extends [[NicheSubscriptionPublishing]] and [[DigitalMediaMonetization]] from solo analysis to a newsroom model built on scarce reporting, tiered professional pricing, community, founder control, and core-audience-first expansion, while [[AccessJournalism]] shows that overlapping subscribers, sources, and member access replace advertiser pressure with a different editorial-independence risk.
+[[TheInformation]] extends [[NicheSubscriptionPublishing]] and [[DigitalMediaMonetization]] from solo analysis to a newsroom model built on scarce reporting, tiered professional pricing, community, founder control, and core-audience-first expansion. [[AllThingsD]] and [[Recode]] add a reporting-plus-conference model in which media backing, editorial control, disclosure, recusal, and financial separation constrain some conflicts, while [[AccessJournalism]] shows that overlapping subscribers, sources, speakers, boards, funders, relationships, and member or event access replace advertiser or venture pressure with different editorial-independence risks.
 
-**Evidence:** [[TheInformation]], [[NicheSubscriptionPublishing]], [[DigitalMediaMonetization]], [[AccessJournalism]], [[JessicaLessin]]
+**Evidence:** [[TheInformation]], [[NicheSubscriptionPublishing]], [[DigitalMediaMonetization]], [[AccessJournalism]], [[JessicaLessin]], [[KaraSwisher]], [[WaltMossberg]], [[AllThingsD]], [[Recode]], [[MichaelArrington]]
 
 **Qualifications:**
 
-- The evidence is one 2016 profile rather than a current or longitudinal company assessment, and proximity identifies an incentive and appearance risk rather than proof of compromised reporting.
+- The evidence consists of one 2014 magazine profile and one 2016 publication profile rather than current or longitudinal assessments, and proximity identifies incentives and appearance risks rather than proof of compromised reporting.
 - The profile reports cash-flow positivity and more-than-doubled subscriptions but withholds subscriber totals, founder investment, churn, acquisition cost, margins, and cohort retention; the estimate near 10,000 members came from observers.
-- All five remote images were unavailable and had no archived local copies, so the synthesis includes no visual evidence.
+- The Recode account documents no specific suppressed story, does not audit selection or unpublished decisions, and relies on interviews, reputation, and anecdote; its conflict safeguards and business details are source-scoped to 2014.
+- The Information's five remote images were unavailable, while the Swisher profile retained two unique contextual photographs after a duplicate crop was omitted; neither image set independently establishes editorial outcomes.
 
 ### Game Publishing Needs Patient Portfolio Commitment
 

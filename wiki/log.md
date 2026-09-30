@@ -7311,3 +7311,11 @@ Added [[KannanChandrasegaran]] and [[PreimplementationFeatureDiscovery]], and up
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Kara Swisher Is Silicon Valley's Most Feared and Well-Liked Journalist. How Does That Work?
+
+Updated [[KaraSwisher]], [[CodeConference]], and [[AccessJournalism]] from their complete ordered evidence inventories, and added [[WaltMossberg]], [[MichaelArrington]], [[AllThingsD]], and [[Recode]]. Recorded how industry memory, continual sourcing, confrontation, discretion, live journalism, and institutional ownership produce both accountability and access power. Preserved the source's central qualification: disclosure, recusal, confirmation thresholds, non-venture funding, and adverse reporting constrain conflicts without erasing them, while close relationships do not by themselves prove compromised coverage. Opened all three local images, retained the full on-set photograph and distinct portrait under descriptive filenames with a canonical manifest, and omitted the square duplicate crop.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
