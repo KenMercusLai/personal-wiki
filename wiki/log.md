@@ -6796,3 +6796,11 @@ Added Manouk Akopyan's 2017 account of the NBA's move from one-off VR experiment
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Inside an Amazon Warehouse That Ships Your Supersized Purchases
+
+Added Ben Fox Rubin's 2018 tour of [[AmazonFallRiverFulfillmentCenter]] and its non-sort operating model for large, heavy, low-volume, and irregular products. Created [[OversizedEcommerceFulfillment]], the Fall River facility, [[Wayfair]], [[StandSteady]], [[BenFoxRubin]], [[RichHanna]], and [[CNET]]; updated [[Amazon]], [[AmazonPrime]], [[Shippo]], [[LauraBehrensWu]], [[LogisticsVerticalIntegration]], and [[AmazonCapabilityLedExpansion]] from their complete ordered evidence inventories. Preserved reported-versus-audited boundaries around throughput, packaging capacity, service quality, unit economics, automation, labor, safety, and later outcomes. Both remote CNET images were unavailable: the captioned Rich Hanna portrait repeated prose and was omitted, while the generic title image could not be independently interpreted and contributed no image-derived claim or retained asset.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 5b03a62605f1343665e0014605f14b72a7ca2c51
+as_of_overview_commit: 2dbf5ef4d9ec795c71d367401884b4173dc4b08f
 summary: "A qualified map of technology, labor, markets, institutions, culture, and human limits through evidence, incentives, infrastructure, trust, ecosystem boundaries, risk, and choice."
-episode_count: 843
-source_count: 843
-paragraph_count: 637
+episode_count: 844
+source_count: 844
+paragraph_count: 638
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, durable depth, and governed labor; embedded platforms also need repeatable customer value and viable delivery economics.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload and product-geometry fit, durable depth, and governed labor; embedded platforms also need repeatable customer value and viable delivery economics.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, ecosystem boundaries, lifecycle trust, and risk allocation, with bookings, collected cash, delivery cost, and adversarial marketplace behavior kept distinct.
+Durable value joins customer outcomes, sustainable economics, governed distribution, category-specific infrastructure, ecosystem boundaries, lifecycle trust, and risk allocation, with bookings, collected cash, delivery cost, and adversarial marketplace behavior kept distinct.
 
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform. Evidence: [[MarketplaceReviewFraud]], [[MarketplaceTrust]], [[Amazon]], [[NicoleNguyen]].
 - [[IndieVC]] makes [[MissionAlignedCapital]] and [[VentureBackedGrowthPressure]] concrete at the financing-term level: [[BryceRoberts]] describes capped distributions, equity conversion only after follow-on financing or acquisition, a reduced conversion percentage after fast repayment, and an explicit boundary against investor hiring or firing authority as an attempt to fund profitable independent companies without requiring repeated venture milestones. Evidence: [[IndieVC]], [[MissionAlignedCapital]], [[VentureBackedGrowthPressure]], [[BryceRoberts]].

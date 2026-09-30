@@ -2,7 +2,7 @@
 title: "Imaging, Snapchat and mobile"
 type: source
 tags: [mobile, imaging, cameras, computer-vision, augmented-reality]
-date: 2016-08-15
+date: 2016-08-16
 source_file: "/mnt/ken_personal_wiki/Articles/Imaging, Snapchat and mobile — Benedict Evans.md"
 ---
 

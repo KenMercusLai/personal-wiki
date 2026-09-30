@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside an Amazon Warehouse That Ships Your Supersized Purchases](sources/inside-an-amazon-warehouse-that-ships-your-supersized-purchases-cnet.md) - Ben Fox Rubin shows how Amazon's Fall River non-sort facility combines specialized storage, manual handling, industrial trucks, and custom packaging for large and irregular products.
 - [Inside The NBA’s Virtual Reality Strategy](sources/inside-the-nbas-virtual-reality-strategy.md) - Manouk Akopyan traces the NBA's shift from one-off VR experiments to recurring NextVR broadcasts, global access, portfolio expansion, and qualified adoption bets.
 - [Inside Palantir, Silicon Valley's Most Secretive Company](sources/inside-palantir-silicon-valleys-most-secretive-company.md) - William Alden reports a widening gap between Palantir's bookings and cash, mixed enterprise-client outcomes, and workforce pressure inside its high-touch software-and-consulting model.
 - [Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under](sources/inside-netflixs-project-griffin-the-forgotten-history-of-roku-under.md) - A retrospective of Netflix's near-launch player and its Roku spinout frames hardware neutrality as a deliberate choice to protect broad device distribution.
@@ -1467,11 +1468,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Daniel Yanisse](entities/DanielYanisse.md) - Checkr founder/operator cited for generous exit packages when letting people go.
 - [Howie Liu](entities/HowieLiu.md) - Airtable founder cited for treating advice as context-dependent signal.
 - [Jared Smith](entities/JaredSmith.md) - Qualtrics operator cited for one-way/two-way decision advice and founder instinct.
-- [Laura Behrens Wu](entities/LauraBehrensWu.md) - Shippo founder cited for the toxic-fit versus open-role personnel warning.
+- [Laura Behrens Wu](entities/LauraBehrensWu.md) - Shippo founder represented through personnel advice and analysis of bulky-delivery complexity and retail-channel power.
 - [Paul Buchheit](entities/PaulBuchheit.md) - Early Google engineer, Gmail creator, startup founder, and YC partner whose advice favors cross-layer practice, consequential work, and demonstrated learning or growth.
 - [Peter Reinhardt](entities/PeterReinhardt.md) - Segment founder/operator cited for repeating the mission at every all-hands.
 - [Qualtrics](entities/Qualtrics.md) - Company context for Jared Smith's decision and founder-instinct advice.
-- [Shippo](entities/Shippo.md) - Company context for Laura Behrens Wu's personnel advice.
+- [Shippo](entities/Shippo.md) - Shipping-software company represented through Laura Behrens Wu's logistics and personnel perspectives.
 - [Simon Sinek](entities/SimonSinek.md) - Purpose-first leadership author cited to support mission repetition.
 - [Disco](entities/Disco.md) - Japanese chip-equipment maker represented by Bloomberg's Personal Will internal market case.
 - [Kazuma Sekiya](entities/KazumaSekiya.md) - Disco CEO associated with the game-inspired management experiment and Colosseum idea review.
@@ -1698,7 +1699,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Eastgate Centre](entities/EastgateCentre.md) - Harare building used as a biomimetic architecture example for innovation at intersections.
 - [Benjamin Jones](entities/BenjaminJones.md) - Economist cited for the burden-of-knowledge argument behind complementary-team innovation.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
-- [Amazon](entities/Amazon.md) - Retail, infrastructure, and ecosystem company using internal capabilities and partners while governing marketplace trust, sellers, rankings, and reviews.
+- [Amazon](entities/Amazon.md) - Retail, infrastructure, and ecosystem company whose capabilities span marketplaces, trust systems, specialized fulfillment, cloud, payments, and partner services.
+- [Amazon Fall River Fulfillment Center](entities/AmazonFallRiverFulfillmentCenter.md) - Non-sort facility designed for large, heavy, low-volume, and irregular inventory.
+- [Ben Fox Rubin](entities/BenFoxRubin.md) - CNET reporter who documented Amazon's Fall River warehouse and the wider bulky-ecommerce delivery challenge.
+- [CNET](entities/CNET.md) - Technology publication that published the reported Fall River warehouse tour.
+- [Rich Hanna](entities/RichHanna.md) - Fall River general manager and operating source for the facility tour.
+- [Stand Steady](entities/StandSteady.md) - Standing-desk company using outsourced Amazon warehousing and shipping to move beyond founder-run fulfillment.
+- [Wayfair](entities/Wayfair.md) - Online home-goods retailer represented through its dedicated large-item delivery network.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
 - [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, strategy, behavioral judgment, repeatability, and durable knowledge.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and investing-firm context for essays on durable strategy, behavioral judgment, repeatable learning, and person-strategy fit.
@@ -2713,7 +2720,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Social Driver Hierarchy](concepts/SocialDriverHierarchy.md) - Christian Limon's proposed ordering of utility, content, community, and vanity as progressively stronger consumer social-network motivations.
 - [Attention Economy](concepts/AttentionEconomy.md) - Media incentive system in which measured human attention becomes a commodity and route to revenue.
 - [Password Hashing](concepts/PasswordHashing.md) - One-way credential storage using a purpose-built adaptive hash and unique salt, treated as one control within a larger authentication system.
-- [Logistics Vertical Integration](concepts/LogisticsVerticalIntegration.md) - Selective internalization of transportation, sorting, fulfillment, or last-mile capacity when outside networks constrain a customer promise.
+- [Logistics Vertical Integration](concepts/LogisticsVerticalIntegration.md) - Selective internalization of transport, warehousing, packaging, fulfillment, or delivery capacity when a customer promise or product category requires it.
+- [Oversized Ecommerce Fulfillment](concepts/OversizedEcommerceFulfillment.md) - Specialized storage, handling, packaging, transportation, and delivery for large, heavy, fragile, long, or irregular products.
 - [Event Analytics Pipeline](concepts/EventAnalyticsPipeline.md) - System for receiving, buffering, transforming, storing, and querying product or behavioral events.
 - [Personal Audio Computing](concepts/PersonalAudioComputing.md) - Ear-worn, private, always-near computing whose platform potential depends on low interaction friction, novel scenarios, and third-party extensibility.
 - [User Behavior Debugging](concepts/UserBehaviorDebugging.md) - Investigation of unexpected product use through minimal assumption tests, behavioral traces, experiments, and direct observation.

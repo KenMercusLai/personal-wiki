@@ -2,7 +2,7 @@
 title: "Inevitability in technology"
 type: source
 tags: [technology-strategy, counterfactuals, competition, mobile, platforms]
-date: 2016-05-02
+date: 2016-05-03
 source_file: "/mnt/ken_personal_wiki/Articles/Inevitability in technology — Benedict Evans.md"
 ---
 

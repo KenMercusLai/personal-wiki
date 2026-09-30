@@ -637,12 +637,13 @@
       "c64af0ca0dce4aab284cfea5c9384af2057d7127bf6272ef5aceef211eb437af",
       "b49ee6e0dc15c360f2a4745e0cca3c1f80776ec2af505f4f5653a90237e9ac8b",
       "8e497337a5cb1ef34335be787c8258af8e7ff862be35bfcb5ef15e4463aac194",
-      "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74"
+      "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
+      "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5"
     ],
-    "paragraph_count": 637
+    "paragraph_count": 638
   },
-  "overview_commit": "5b03a62605f1343665e0014605f14b72a7ca2c51",
-  "overview_digest": "2b7b1e32fd81c4aef342083a4c70d3109422b9c20cf29d454d7758498911a40e",
+  "overview_commit": "2dbf5ef4d9ec795c71d367401884b4173dc4b08f",
+  "overview_digest": "e20e29cf92e21c6d8538198b1c093a0a878de77fa9915cb778f6ba0bd54cef03",
   "paragraphs": [
     {
       "id": "d4cf56aef6cba526fe00de29195a7b9ae7e3f82e8719ae57a965209d5791d51e",
@@ -12913,6 +12914,31 @@
         "EmployeeEquityRisk",
         "EnterpriseIntegrationBusinessModel",
         "Palantir"
+      ]
+    },
+    {
+      "id": "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[BenFoxRubin]] source adds [[OversizedEcommerceFulfillment]] as an operating model distinct from standard parcel automation. At [[AmazonFallRiverFulfillmentCenter]], large, long, heavy, low-volume, or irregular inventory changed the warehouse architecture: fewer conveyors and no warehouse robots, more hands-on picking, multi-story pallet racks, geometry-specific holders, 230 powered industrial trucks, and box-on-demand equipment reportedly supported 80,000 to 100,000 daily boxes and near-double holiday peaks. The last mile was similarly differentiated through appointments, apartment carry-in, unboxing, assembly, specialist carriers, freight charges, store pickup, or compact-product packaging. This broadens [[LogisticsVerticalIntegration]] from carrier capacity into selective warehousing, packaging, and category-specific delivery: [[Wayfair]] operated a dedicated bulky-goods network, while other retailers mixed owned and outsourced layers. It also grounds [[AmazonCapabilityLedExpansion]] in a merchant case because [[StandSteady]] transferred warehousing and shipping to Amazon after founder-run packing became a growth constraint. [[AmazonPrime]] could present one speed promise while relying on materially different fulfillment systems underneath. The evidence remains a May 2018 tour and set of company statements without audited unit economics, damage, safety, labor, environmental, or service-quality data. Both remote CNET images were unavailable; the captioned [[RichHanna]] portrait repeated prose and was omitted, while the generic title image could not be independently interpreted and supplied no visual claim.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AmazonCapabilityLedExpansion",
+        "AmazonFallRiverFulfillmentCenter",
+        "AmazonPrime",
+        "BenFoxRubin",
+        "LogisticsVerticalIntegration",
+        "OversizedEcommerceFulfillment",
+        "RichHanna",
+        "StandSteady",
+        "Wayfair"
       ]
     }
   ],
