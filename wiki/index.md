@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Knowing What You Are Looking For](sources/knowing-what-you-are-looking-for-avc.md) - Fred Wilson uses USV's advance job-search thesis, recognition of Indeed, and persistent founder courtship to argue for prepared opportunity selection while leaving hindsight and selection limits unresolved.
 - [Know your job](sources/know-your-job-yancey-strickler-medium.md) - Yancey Strickler reframes a founder's reduced direct usefulness as a shift toward direction, team-building, delegation, and deliberate strategic perspective.
 - [Kent Beck: I get paid for code that works, not for tests](sources/kent-beck-i-get-paid-for-code-that-works-not-for-tests.md) - A saved Beck quotation and comment debate frame testing as confidence gained per cost while preserving maintenance, regression, metric, and test-layer disputes.
 - [10x Not 10%](sources/ken-norton-10x-not-10-percent.md) - Ken Norton argues that order-of-magnitude outcomes require problem reframing, bounded failure, evidence-led experimentation, trend awareness, and impact measures rather than familiar effort counts.
@@ -938,6 +939,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Brad Burnham](entities/BradBurnham.md) - Union Square Ventures partner who articulated the search-style job-listing model that preceded the firm's Indeed investment.
+- [Indeed](entities/Indeed.md) - Job-search company represented as a close match to USV's prepared opportunity model and a persistently pursued 2005 investment.
 - [Yancey Strickler](entities/YanceyStrickler.md) - Former Kickstarter CEO represented through a team-centered account of direction, delegation, and strategic perspective.
 - [Ken Norton](entities/KenNorton.md) - Product-management writer advocating order-of-magnitude ambition, evidence-led experimentation, and impact-oriented goals.
 - [Kodak](entities/Kodak.md) - Photography incumbent used as a case of profitable product defense obstructing strategic renewal despite early digital invention.
@@ -2117,10 +2120,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, metrics checklists, and an attributed norm of emotionally steady competition.
 - [Jerry Colonna](entities/JerryColonna.md) - Former operator and Flatiron Partners co-founder represented through an early board lesson about helping management without taking over execution.
-- [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing, VC career paths and role discipline, household diversification, venture-market analysis, founder dilution, and employee-equity design.
-- [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing and VC-career frameworks, household-risk lessons, venture-market analysis, founder dilution, and startup management guidance.
+- [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing, thesis-driven opportunity recognition, VC role discipline, household diversification, venture-market analysis, founder dilution, and employee-equity design.
+- [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing, opportunity-recognition, VC-career, household-risk, venture-market, founder-ownership, and startup-management frameworks.
 - [Flatiron Partners](entities/FlatironPartners.md) - Venture firm Fred Wilson formed with Jerry Colonna, represented through dot-com concentration and an early board-role lesson.
-- [Union Square Ventures](entities/UnionSquareVentures.md) - Early-stage venture firm represented through Del.icio.us financing, a valuation sample, and a customer-aligned trusted-brand thesis.
+- [Union Square Ventures](entities/UnionSquareVentures.md) - Early-stage venture firm represented through Del.icio.us and Indeed financing, valuation analysis, evolving theses, and investor-role reflections.
 - [SV Angel](entities/SVAngel.md) - Seed investor whose observation about larger rounds and higher valuations prompted Wilson's analysis.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
@@ -3724,7 +3727,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Attention-Based Advertising](concepts/AttentionBasedAdvertising.md) - Advertising design that locally matches optional ads and shares attention value among users, publishers, and advertisers.
 - [Professional Relationship Compounding](concepts/ProfessionalRelationshipCompounding.md) - Long-term accumulation of learning, trust, friendship, audience, and opportunity through repeated participation in a durable professional community.
 - [Vuja De](concepts/VujaDe.md) - Practice of seeing a familiar situation afresh so experience informs judgment without automatically closing off changed possibilities.
-- [Startup Opportunity Selection](concepts/StartupOpportunitySelection.md) - Judgment that distinguishes commonplace startup activity from the rarer opportunity to found, join, or fund an exceptional company.
+- [Startup Opportunity Selection](concepts/StartupOpportunitySelection.md) - Judgment combining prior models, direct evidence, diligence, and action to distinguish commonplace startup activity from rarer exceptional-company opportunities.
 
 - [Professional Blogging](concepts/ProfessionalBlogging.md) - Sustained public writing that combines audience fit, useful ideas, repeatable practice, durable distribution, and delayed professional opportunity.
 - [Serverless Computing](concepts/ServerlessComputing.md) - Managed cloud execution and service composition across functions, containers, events, storage, messaging, and delivery infrastructure.

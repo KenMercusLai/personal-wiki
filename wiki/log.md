@@ -7351,3 +7351,11 @@ Added [[YanceyStrickler]] and updated [[CEOScalingRole]] and [[Kickstarter]] fro
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Knowing What You Are Looking For
+
+Added [[BradBurnham]] and [[Indeed]], and updated [[FredWilson]], [[UnionSquareVentures]], [[AVC]], and [[StartupOpportunitySelection]] from their complete ordered evidence inventories. Recorded thesis formation, opportunity recognition, and persistent founder pursuit as distinct parts of USV's Indeed investment case. Preserved the opposing risk that rigid thesis filters create blind spots, and treated company-quality, success-frequency, return, and hypothetical independent-valuation claims as retrospective and unverified. No direct contradiction was found; the source instead creates a useful tension between prepared attention and thesis-driven exclusion. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

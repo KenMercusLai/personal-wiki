@@ -12,15 +12,16 @@ sources:
   - founder-dilution-how-much-is-normal-avc
   - getting-human-resources-right-avc
   - investor-vcs-and-operator-vcs-avc
-last_updated: 2026-09-30
+  - knowing-what-you-are-looking-for-avc
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AVC]] is the publication context for [[FredWilson]]'s essays on investing practice and career paths, household risk, venture-market conditions, startup compensation and founder dilution, competitive strategy, and people governance during startup growth.
+[[AVC]] is the publication context for [[FredWilson]]'s essays on investing practice, career paths, thesis-driven opportunity recognition, household risk, venture-market conditions, startup compensation and founder dilution, competitive strategy, and people governance during startup growth.
 
 ## Current Profile
-The ingested sources use AVC as the venue for conceptual investor frameworks, a personal crash-survival lesson, data-based and experience-based financing reflections, a startup-compensation method, a founder-pitch retrospective, a first-mover strategy argument, and an HR-governance checklist. One essay distinguishes active from passive investing; another contrasts operator-first and investor-developed paths into venture capital while emphasizing strategy, portfolio work, and management autonomy; another uses Wilson's roughly 90% dot-com-era household loss to argue for diversification before a crash; and the remaining sources address [[UnionSquareVentures]] valuation data, cumulative founder dilution, employee-equity grant sizing, [[JeffLawson]]'s [[Twilio]] demonstration, sustained first-mover leadership, and people governance. AVC remains an authorial and publishing context here rather than a separately analyzed media business.
+The ingested sources use AVC as the venue for conceptual investor frameworks, a personal crash-survival lesson, data-based and experience-based financing reflections, startup-compensation methods, founder and investment retrospectives, a first-mover strategy argument, and an HR-governance checklist. One essay distinguishes active from passive investing; another contrasts operator-first and investor-developed paths into venture capital while emphasizing strategy, portfolio work, and management autonomy; the Indeed retrospective presents advance thesis formation as preparation for opportunity recognition and pursuit; another uses Wilson's roughly 90% dot-com-era household loss to argue for diversification before a crash; and the remaining sources address [[UnionSquareVentures]] valuation data, cumulative founder dilution, employee-equity grant sizing, [[JeffLawson]]'s [[Twilio]] demonstration, sustained first-mover leadership, and people governance. AVC remains an authorial and publishing context here rather than a separately analyzed media business.
 
 ## Key Characteristics
 - Publishes investor-oriented reflections by Wilson.
@@ -29,6 +30,7 @@ The ingested sources use AVC as the venue for conceptual investor frameworks, a 
 - Publishes practical startup-management frameworks with explicit historical and market limits.
 - Uses practitioner estimates to frame startup ownership outcomes while acknowledging the need for stronger data.
 - Uses short strategic and organizational essays to connect growth with the capabilities, governance, and reporting systems needed to sustain it.
+- Uses successful investment retrospectives to explain judgment practices while leaving causal and selection limits visible.
 
 ## Evidence
 - Publication context: [[active-vs-passive-investing-avc]] is titled as an AVC article and presents Wilson's investing examples and conclusion.
@@ -41,13 +43,14 @@ The ingested sources use AVC as the venue for conceptual investor frameworks, a 
 - Founder-ownership role: [[founder-dilution-how-much-is-normal-avc]] frames cumulative dilution through financing rounds, management equity, valuation, capital needs, timing, and exit horizon while calling for survey evidence.
 - People-governance role: [[getting-human-resources-right-avc]] presents a direct-to-CEO HR model plus handbook, feedback, onboarding, hotline, anonymity, training, and recurring-communication practices.
 - Investor-career role: [[investor-vcs-and-operator-vcs-avc]] contrasts operator and non-operator preparation while framing strategy, portfolio context switching, and restraint as investor capabilities.
+- Opportunity-recognition role: [[knowing-what-you-are-looking-for-avc]] uses USV's prior job-search model, discovery of Indeed, and founder courtship to argue for thesis-driven preparation.
 
 ## Qualifications
-This page captures only AVC's role in nine ingested sources. It should not be treated as a complete profile of AVC, its history, readership, editorial process, or business model. The employee-equity article's numerical multipliers and founder-dilution article's ownership ranges are historical practitioner examples rather than current market guidance, the first-mover and investor-background articles are illustrative arguments rather than comparative evidence, and the HR article is a practitioner checklist without organizational outcome data or a complete investigation and anti-retaliation model.
+This page captures only AVC's role in ten ingested sources. It should not be treated as a complete profile of AVC, its history, readership, editorial process, or business model. The employee-equity article's numerical multipliers and founder-dilution article's ownership ranges are historical practitioner examples rather than current market guidance; the first-mover and investor-background articles are illustrative arguments rather than comparative evidence; the Indeed story is a hindsight-selected winner without failed-match or missed-opportunity data; and the HR article is a practitioner checklist without organizational outcome data or a complete investigation and anti-retaliation model.
 
 ## What Changed
-- Added AVC's role as the venue for Wilson's comparison of operator-first and non-operator venture-capital careers.
-- Added the distinction between active investor contribution and taking over portfolio-company execution.
+- Added AVC's role as the venue for Wilson's thesis-driven opportunity-recognition argument.
+- Added the Indeed retrospective while preserving hindsight, selection, and counterfactual limits.
 
 ## Relationships
 - [[FredWilson]] - author associated with the source.
@@ -66,3 +69,5 @@ This page captures only AVC's role in nine ingested sources. It should not be tr
 - [[WhistleblowerReportingSystems]] - misconduct-reporting system described in the same essay.
 - [[VentureCapitalValueAdd]] - investor contribution is framed around strategy, role discipline, and portfolio support rather than capital alone.
 - [[EntrepreneurialCareerPaths]] - AVC hosts Wilson's account of multiple routes into venture investing.
+- [[Indeed]] - company used to illustrate recognition of a prepared investment model.
+- [[StartupOpportunitySelection]] - investment judgment developed through thesis formation and decisive pursuit.

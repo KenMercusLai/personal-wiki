@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5379222796c70539632fc864e5282434ae3ac2db0380617ad60857231aabf8ab",
       "81410720b18d7bbfcd99086a46793d1f4641120ff3692d1e361690f3a435f95d",
       "f9c1f6e2a75c5cc01ffb3242b51c7bb8a401f7430532062add4d4386166093e6",
       "6869d61749cbe19ae4b4532b210bae7d0fdd529bf434dfef7ba3b312e5b3d1aa",
@@ -677,11 +678,31 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 675
+    "paragraph_count": 676
   },
-  "overview_commit": "08bbc7b443b5ac63a1bfa0194eb2992af5782521",
-  "overview_digest": "c482b3aa480a248c69261396ecd4406526a4251e0521f13ee68161bfde4d0b1a",
+  "overview_commit": "eddd9fbbb380c95464d5cbeb50657acd271c63ab",
+  "overview_digest": "a23931203b1031af54a3f1782a81598677d19a9e0379dd42c6a13274faa365ec",
   "paragraphs": [
+    {
+      "id": "5379222796c70539632fc864e5282434ae3ac2db0380617ad60857231aabf8ab",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[FredWilson]] source adds a successful prepared-recognition case to [[StartupOpportunitySelection]]. While raising [[UnionSquareVentures]]' first fund, Wilson and [[BradBurnham]] moved from a broad applications-layer thesis to a specific search-style job-listing model: employers would host openings and pay for traffic rather than pay a centralized board to host each listing. Their advance decision to pursue such a company made [[Indeed]] immediately legible when Wilson encountered it through a John Battelle post, but recognition did not complete the investment; USV still had to persist with self-funded founders who initially did not need its money. This complements [[VentureCapitalBlindSpots]] by showing how a prepared thesis can focus attention, while preserving the opposite risk that a rigid filter can exclude category-changing opportunities. The evidence is one hindsight-selected winner without failed-match, missed-deal, return, or causal comparisons, and Wilson's claim that an independent public Indeed might have exceeded a $10 billion valuation is counterfactual. The supplied Markdown contains no image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BradBurnham",
+        "FredWilson",
+        "Indeed",
+        "StartupOpportunitySelection",
+        "UnionSquareVentures",
+        "VentureCapitalBlindSpots"
+      ]
+    },
     {
       "id": "81410720b18d7bbfcd99086a46793d1f4641120ff3692d1e361690f3a435f95d",
       "primary_topic": "business-and-markets",

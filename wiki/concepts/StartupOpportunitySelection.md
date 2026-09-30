@@ -5,7 +5,8 @@ tags: [startups, career, decision-making, companies]
 sources:
   - andrewchen-10-years-in-the-bay-area
   - avoiding-zombie-startups
-last_updated: 2026-09-25
+  - knowing-what-you-are-looking-for-avc
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ knowledge_schema: synthesis-v1
 
 That distinction changes career choice. Founding is not automatically more valuable than joining, and persistence is not automatically superior to switching. Chen frames his move to Uber as choosing a high-potential “rocketship” over continuing with a mediocre opportunity; Pastor frames staying at a [[ZombieStartup]] as a concentrated opportunity cost because employees cannot diversify their working years across a portfolio. Both acknowledge uncertainty, but Pastor supplies operational questions for testing the opportunity before and during employment.
 
+Investor selection adds a prepared-recognition case. While raising [[UnionSquareVentures]]' first fund, [[FredWilson]] and [[BradBurnham]] converted a broad applications-layer thesis into a more specific model for search-style job listings and agreed they would pursue a matching company. A later blog post made [[Indeed]] legible as that match, but selection still required persistent founder courtship. Together the sources suggest that opportunity selection combines a prior model, direct evidence, willingness to act, and continued testing; advance clarity can focus attention, but a rigid thesis can also hide companies that redefine the category.
+
 ## Key Claims
 - Startup formation and external funding are weaker quality signals than outsiders may assume.
 - A larger ecosystem produces more attempts across the whole quality distribution, not uniformly better founders.
@@ -24,7 +27,7 @@ That distinction changes career choice. Founding is not automatically more valua
 - Joining a strong company can offer a more distinctive experience than founding a weak one.
 - Fundraising, awards, publicity, and survival can sustain startup appearance without demonstrating product, sales, or execution momentum.
 - Employee selection should test backer quality, team incentives, hiring intent, and information access alongside company trajectory.
-- Missed opportunities are inevitable because exceptional outcomes are difficult to recognize early.
+- Prepared theses can improve recognition and speed, but missed opportunities remain inevitable and overly rigid filters can create new blind spots.
 
 ## Evidence
 - Base-rate correction: [[andrewchen-10-years-in-the-bay-area]] says starting and funding a company became visibly commonplace after several years in the Bay Area.
@@ -34,14 +37,16 @@ That distinction changes career choice. Founding is not automatically more valua
 - Weak-proxy warning: [[avoiding-zombie-startups]] treats funding headlines, competitions, and press as insufficient and sometimes negative signals when output and customers are missing.
 - Concentrated employee risk: [[avoiding-zombie-startups]] argues that time at a stagnant company displaces the chance to test another startup and recommends examining investors, team equity, hiring intent, and transparency.
 - Recognition uncertainty: [[andrewchen-10-years-in-the-bay-area]] cites Chen dismissing early Facebook and acquaintances passing on Uber's seed round as missed-opportunity examples.
+- Prepared recognition: [[knowing-what-you-are-looking-for-avc]] says Wilson and Burnham specified a desirable job-search model before recognizing Indeed through a John Battelle post.
+- Action after fit: [[knowing-what-you-are-looking-for-avc]] says USV persisted after Indeed's self-funded founders initially showed little need for its capital.
 
 ## Counterevidence & Qualifications
-Chen's essay is a retrospective from a participant in a highly selected ecosystem and uses later winners to define what was exceptional. Pastor supplies prospective questions, but his framework is also practitioner advice without validated predictive weights and can mistake deliberate small scale, slow research, or public-interest funding for stagnation. “Rocketship” judgments can rationalize prestige chasing, expose workers to concentrated equity and culture risk, or undervalue durable smaller companies. Outcomes depend on role, team, timing, compensation, learning, ethics, personal constraints, and luck as well as company trajectory.
+Chen's and Wilson's essays are retrospectives from participants in highly selected ecosystems and use later winners to define what was exceptional. Wilson provides no denominator of thesis-matched failures, no direct return data, and no evidence for the hypothetical value Indeed might have reached as an independent public company. Pastor supplies prospective questions, but his framework is also practitioner advice without validated predictive weights and can mistake deliberate small scale, slow research, or public-interest funding for stagnation. “Rocketship” and “strike zone” judgments can rationalize prestige chasing, expose workers or investors to concentrated risk, undervalue durable smaller companies, or make a thesis filter look more predictive after success. Outcomes depend on role, team, timing, compensation, learning, ethics, personal constraints, diligence, and luck as well as company trajectory.
 
 ## What Changed
-- Added a candidate-side screen for distinguishing operating momentum from fundraising, awards, publicity, and survival alone.
-- Made an employee's non-diversifiable time and the cost of staying central to opportunity selection.
-- Preserved deliberate small scale and patient work as qualifications to the "zombie" label.
+- Extended the framework from founder and employee choices to thesis-driven investor selection.
+- Added prior model formation, recognition through external information, and persistent pursuit as distinct stages.
+- Preserved rigid-thesis, hindsight, selection, and missing-denominator risks around the successful Indeed case.
 
 ## Related Concepts
 - [[CareerPlanning]] - places company quality alongside role fit, constraints, values, and future options.
@@ -51,3 +56,4 @@ Chen's essay is a retrospective from a participant in a highly selected ecosyste
 - [[OpportunityCost]] - captures what is sacrificed by founding, joining, staying, or passing on an uncertain company.
 - [[StartupJobDiligence]] - provides the evidence-gathering process used before choosing an opportunity.
 - [[ZombieStartup]] - names the mismatch between startup appearance and weak operating momentum.
+- [[VentureCapitalBlindSpots]] - explains how a useful prepared thesis can become an exclusionary filter when treated too rigidly.
