@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It's Beginning To Look A Lot Like 1937](sources/its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha.md) - Daniel Carter uses a selective 1937 analogy to frame political-market feedback as portfolio risk while leaving data, causality, and timing materially unresolved.
 - [It Costs $50k to Hire a Software Engineer](sources/it-costs-50k-to-hire-a-software-engineer-noteworthy-the-journal-blog.md) - A practitioner decomposes a rough $50,000 engineering hire into recruiting, interview labor, and ramp-up, then uses the uncertain estimate to examine referrals and retention spending.
 - [Is this my interface or yours?](sources/is-this-my-interface-or-yours-john-saito-medium.md) - John Saito frames “my,” “your,” neutral, and collective interface language as contextual choices about ownership, guidance, ambiguity, and human presence.
 - [Is There Any Room For The Not-Passionate Developer?](sources/is-there-any-room-for-the-not-passionate-developer-philippe-bourgaus-blog.md) - Philippe Bourgau separates varied technical learning from repetitive overwork while exposing how parenthood, stable-income needs, and weak evidence complicate passion-based career norms.
@@ -890,6 +891,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Daniel Carter](entities/DanielCarter.md) - Seeking Alpha author represented through a 2017 historical analogy about macro-political market risk.
+- [Ray Dalio](entities/RayDalio.md) - Investor represented through regime-diversified allocation and a 1937 analogy connecting populism, conflict, and market risk.
 - [John Saito](entities/JohnSaito.md) - Product writer and designer represented through a contextual framework for grammatical perspective in interfaces.
 - [Flawless App](entities/FlawlessApp.md) - iOS design-comparison developer tool represented through a high-attention, feedback-rich, but modestly converting Product Hunt launch.
 - [Product Hunt](entities/ProductHunt.md) - Community product-discovery platform whose rankings can concentrate launch attention and social proof without proving durable demand.
@@ -2432,6 +2435,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Historical Analogy in Investing](concepts/HistoricalAnalogyInInvesting.md) - Using cross-period resemblance to generate portfolio stress scenarios while preserving causal, base-rate, and timing limits.
 - [Engineering Hiring Economics](concepts/EngineeringHiringEconomics.md) - Cost model connecting engineering sourcing, evaluation, ramp-up, replacement, referrals, and evidence-based retention investment.
 - [Programming as Art](concepts/ProgrammingAsArt.md) - Contextual claim that programming becomes art when aesthetic or expressive experience is a primary end, not merely because implementation is creative.
 - [Affiliate Review Conflict](concepts/AffiliateReviewConflict.md) - Risk that referral economics, sponsorship, approval conditions, or commercial access compromise or appear to compromise product rankings.

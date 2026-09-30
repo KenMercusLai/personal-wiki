@@ -7007,3 +7007,11 @@ Added [[EngineeringHiringEconomics]] as a decomposed model of recruiting, interv
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It's Beginning To Look A Lot Like 1937
+
+Added [[DanielCarter]]'s 2017 comparison of the late-2010s economic and political climate with 1937. Created Daniel Carter, [[RayDalio]], and [[HistoricalAnalogyInInvesting]]; updated [[InvestmentRiskDiscipline]] from its complete ordered evidence inventory with severe macro-political scenario awareness while preserving the distinction between stress testing and a validated forecast or timing signal. Retained all three evidence-bearing charts under descriptive canonical filenames and qualified the ShadowStats unemployment series, undocumented populism-index construction, selective war annotations, causal ambiguity, missing base rates, and cross-period structural differences.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

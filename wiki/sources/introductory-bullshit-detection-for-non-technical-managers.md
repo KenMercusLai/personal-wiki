@@ -2,7 +2,7 @@
 title: "Introductory bullshit detection for non-technical managers"
 type: source
 tags: [engineering-management, software-projects, decision-making, delivery-risk]
-date: 2017-06-10
+date: 2017-06-09
 source_file: "/mnt/ken_personal_wiki/Articles/Introductory bullshit detection for non-technical managers.md"
 ---
 

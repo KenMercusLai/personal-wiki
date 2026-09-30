@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha",
+  "images": [
+    {
+      "file": "unemployment-measures-1994-2017.png",
+      "alt": "Line chart comparing official U-3, broad U-6, and ShadowStats alternative US unemployment measures from 1994 through 2017"
+    },
+    {
+      "file": "developed-world-populism-index.png",
+      "alt": "Developed World Populism Index chart showing populist and anti-establishment vote share from 1900 through the late 2010s"
+    },
+    {
+      "file": "stock-prices-and-wars-long-run.png",
+      "alt": "Long-run logarithmic stock-price chart annotated with the American Revolution, Civil War, World War II, and a speculative future decline"
+    }
+  ]
+}
