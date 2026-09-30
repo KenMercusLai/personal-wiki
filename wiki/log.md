@@ -6859,3 +6859,15 @@ Added a 2018 essay on Instagram Stories' shift from public likes and persistent 
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story
+
+Added Forbes's 2016 profile of [[Instagram]] as a focused visual product and cautious advertising business accelerated by [[Facebook]]'s infrastructure, engineers, distribution, advertiser base, targeting data, and sales operation. Created [[KevinSystrom]]; updated Instagram, [[MikeKrieger]], [[MarkZuckerberg]], Facebook, and [[AcquisitionStrategy]] from their complete ordered evidence inventories with the selective-autonomy integration model. Preserved the article's favorable-profile, company-voice, historical-estimate, non-comparable-campaign, forecast, and attribution limits. Opened all four local images: the decorative hero mockup and cover were omitted, while two materially placed 96-pixel infographics remained unreadable after enlargement and contributed no visual claim or retained asset.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

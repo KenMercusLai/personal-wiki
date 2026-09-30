@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 6af6e0045f09f2a2bb1601d9ea9e2519e09e7ba6
+as_of_overview_commit: c7e32ea753d843b788c401428e22328634978969
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 851
-source_count: 851
+episode_count: 852
+source_count: 852
 paragraph_count: 642
 topic_count: 9
 ---
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[SocialDriverHierarchy]] proposes that utility, content, community, and visible self-regard become progressively stronger consumer-network motivations; [[MusicalLy]], [[Flipagram]], [[Twitter]], and [[PumpUp]] illustrate performer, association, and affirmation loops, while [[PerformativeSelfPresentation]] shows that identifiable private viewers can sustain recognition and monitoring even without public likes, and that edited memory can coexist with staged behavior and audience-defined self-worth.
+- [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works make presence, location, agency, or time variation part of media value; [[PerformativeSelfPresentation]] adds that immediate capture can preserve positive edited memory while pulling attention from the lived moment toward its audience-facing version.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story](sources/instagram-the-50-billion-grand-slam-driving-facebooks-future-the-forbes-cover-story.md) - Forbes's 2016 profile links Instagram's post-acquisition scale to focused leadership, cautious monetization, selective product change, and Facebook's operating leverage.
 - [Instagram Stories At Two: What Price Have We Paid For Recording Everything?](sources/instagram-stories-at-two-what-price-have-we-paid-for-recording-everything.md) - A 2018 essay connects Instagram Stories' private viewer feedback with continuous performance, edited memory, and unresolved feature-specific mental-health effects.
 - [How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People](sources/instagram-co-founder-mike-krieger-on-engineering-team-growth-first-round-review.md) - Mike Krieger maps Instagram engineering from pragmatic generalists through specialists, management layers, platform culture, and product teams.
 - [Inspiring Women: Meet the Co-Founder of Winnie, a Yelp-Type App for Parents](sources/inspiring-women-meet-the-co-founder-of-winnie-a-yelp-type-app-for-parents-inspiring-women-livingly.md) - Sara Mauskopf connects Winnie's parent-led origin, Silicon Valley network, distributed team, and family support while acknowledging privilege and a promotional evidence boundary.
@@ -872,6 +873,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Kevin Systrom](entities/KevinSystrom.md) - Instagram co-founder and 2016 CEO represented through focused product leadership, cautious advertising, selective evolution, and post-acquisition autonomy.
 - [Pamela Rutledge](entities/PamelaRutledge.md) - Media psychologist quoted on validation, self-worth, performance, and positive memory in Instagram Stories use.
 - [Mike Krieger](entities/MikeKrieger.md) - Instagram co-founder and CTO represented through the stage-sensitive growth of its engineering organization.
 - [Sara Mauskopf](entities/SaraMauskopf.md) - Winnie co-founder whose parenting experience shaped the product and whose family crisis exposed the value of support and team autonomy.
@@ -2719,7 +2721,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Strategic Job Mobility](concepts/StrategicJobMobility.md) - Deliberate employer changes pursued for learning, responsibility, fit, or market position rather than a fixed switching timer.
 - [Founder-Investor Fit](concepts/FounderInvestorFit.md) - Two-way assessment of informed conviction, mutual respect, and working compatibility before a founder and investor enter a long-term financing relationship.
 - [Research-to-Product Transfer](concepts/ResearchToProductTransfer.md) - Organizational capability that moves ideas and prototypes from research into products, operations, and measurable impact.
-- [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Use of acquisitions to fill capability gaps and advance a coherent direction while sustaining post-close authority, resources, product focus, and integration.
+- [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Strategic capability and endpoint purchases whose outcomes depend on rationale, integration depth, autonomy, resources, culture, and execution.
 - [Service-Lifetime Background Tasks](concepts/ServiceLifetimeBackgroundTasks.md) - In-process workers deliberately bound to service startup and shutdown rather than to one request.
 - [Visual Attention](concepts/VisualAttention.md) - Selective perceptual processing shaped by stimulus-driven signals, learned cues, viewer goals, and cognitive load.
 - [Data-Driven Operations](concepts/DataDrivenOperations.md) - Operational loop that decomposes one outcome into a funnel, diagnoses the weak stage by dimension, and tests interventions while preserving contextual judgment.
