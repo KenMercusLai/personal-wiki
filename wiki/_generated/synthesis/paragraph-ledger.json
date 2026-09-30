@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0a6c37d455c844af1c73054c587a2fc47d558cca81ba3a29b48fe032b1f559d9",
       "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
       "adf6a2ac1f0c5db7e0816da2818b13409b86f9d26fd7614900de91e9b59de637",
       "0704f9cbab71e75bf76c5789758111c70b46ffd0b806627d639be7c065c225d8",
@@ -663,11 +664,33 @@
       "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 661
+    "paragraph_count": 662
   },
-  "overview_commit": "9308bf11816fe7470f0a846ac5fe64acdc5e62db",
-  "overview_digest": "a44ee21ef56f0a8b29d062170d21d7b6f35623a556b1555f616da1861aaaecb9",
+  "overview_commit": "e3573709ae3cbadd0f2834f8ea85577ac5ef2fa5",
+  "overview_digest": "9afa6dad628ce96bbc241d9eeefa874f855d5af36f68767684729e5d1efacc28",
   "paragraphs": [
+    {
+      "id": "0a6c37d455c844af1c73054c587a2fc47d558cca81ba3a29b48fe032b1f559d9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[JessicaAlter]] source extends [[CoFounderFit]] from general compatibility into a concrete pre-commitment diligence agenda. Its prompts connect motivation and desired outcome with cash needs, unpaid-work tolerance, time, location, family commitments, fundraising, adaptability, culture, hiring, feedback, conflict, role ownership, voting, firing, departure, CEO choice, cash investment, and founder and employee equity. The useful mechanism is early exposure of assumptions that otherwise become operating disputes, but discussion is not validation: the article itself recommends a side project or actual joint work as the best evidence of conflict behavior and adds references as third-party context. [[FounderDating]] supplies that practice setting, while [[SocialCapital]] appears only as Alter's role context. The checklist remains unvalidated practitioner guidance; answers can be aspirational or change over time, and sensitive questions about family, criminal history, references, conflicts, and non-compete obligations require relevance, consent, and jurisdiction-specific care. The title says 34 questions even though the supplied page visibly numbers 35 top-level prompts. The retained lead photograph documents a generic face-to-face conversation but verifies no compatibility or outcome claim.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "CoFounderFit",
+        "FounderDating",
+        "JessicaAlter",
+        "SocialCapital"
+      ]
+    },
     {
       "id": "2fd36c3a3eae7a404326176f3fa258a3a14d98694135c79110e18d57143072f0",
       "primary_topic": "business-and-markets",

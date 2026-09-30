@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [34 Questions to Ask a Potential Co-Founder](sources/jessica-alter-34-questions-to-ask-a-potential-co-founder.md) - Jessica Alter turns co-founder fit into a broad pre-commitment discussion while treating joint work and references as stronger behavioral evidence than answers alone.
 - [Tricks to Monetize Your Side Project](sources/jeremy-a-boyd-tricks-to-monetize-your-side-project.md) - Jeremy A Boyd combines lightweight conversion tests, behavior-triggered trial onboarding, tiered pricing, and additional revenue streams while leaving cohort, retention, and causal evidence undisclosed.
 - [Jeff Dean on Large-Scale Deep Learning at Google](sources/jeff-dean-on-large-scale-deep-learning-at-google-high-scalability.md) - A 2016 talk summary connects Google Brain's research-product integration with end-to-end models, distributed training, on-device inference, and historically scoped product gains.
 - [Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders](sources/jeff-bezos-why-getting-8-hours-of-sleep-is-good-for-amazon-shareholders.md) - Jeff Bezos links eight hours of sleep to energy, consequential decision quality, and reciprocal work-life harmony while offering personal testimony rather than causal outcome evidence.
@@ -911,6 +912,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Jessica Alter](entities/JessicaAlter.md) - FounderDating co-founder represented through a structured, behavior-aware framework for prospective co-founder diligence.
+- [FounderDating](entities/FounderDating.md) - Co-founder network serving as the practice context for Jessica Alter's checklist and reference-checking advice.
 - [Jeremy A Boyd](entities/JeremyABoyd.md) - Software practitioner presenting experiment, onboarding, pricing, and revenue advice for monetizing small products.
 - [Duet](entities/Duet.md) - Side-project software product used as the source-bounded prompt for Boyd's monetization recommendations.
 - [Google Brain](entities/GoogleBrain.md) - Google research project presented through its 2011 origin, product-team collaboration, shared learning methods, and distributed training infrastructure.

@@ -7175,3 +7175,11 @@ Added source-bounded profiles for [[JeremyABoyd]] and [[Duet]], and updated [[Co
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 34 Questions to Ask a Potential Co-Founder
+
+Added source-bounded profiles for [[JessicaAlter]] and [[FounderDating]], and updated [[CoFounderFit]] from its complete ordered evidence inventory. Extended founder diligence across motivation, personal constraints, culture, governance, ownership, legal conflicts, and exit mechanics while distinguishing discussion prompts from behavioral evidence supplied by joint work and references. Preserved the checklist's unvalidated practitioner scope, its 34-versus-35 count mismatch, and privacy, bias, consent, and jurisdiction-specific legal limits around sensitive questions. Opened and retained the single local photograph under a descriptive canonical filename with matching manifest alt text; it illustrates face-to-face discussion but verifies no outcome claim.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
