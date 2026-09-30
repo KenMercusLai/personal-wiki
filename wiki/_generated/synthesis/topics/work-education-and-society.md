@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-30
-as_of_overview_commit: 69ad3490b47482765cdfb4498d15ed1ed1906a6f
-input_digest: 6974ad767f96585b768732b40956f12177bd77099a41da1cd72894570259a6df
+as_of_overview_commit: 882504e7187ab7c56cf7546bb6267ba4a8f0ff35
+input_digest: 9060f74eba0fa8ee9743e0f7d464798cca1c50135a3e51c7896361f6ff2aa67e
 ---
 
 # Work, Education, and Society
@@ -365,15 +365,16 @@ Public technical work such as [[OpenSourceProjectMaintenance]] can build [[Perso
 
 ### Workplace Incentives Shape Behavior And Pressure
 
-[[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], [[Disco]], and [[Even]] show that explicit prices, policy ambiguity, and ordinary amenities all steer work: auctions, penalties, game-like scoring, unwritten leave ceilings, food, recreation, alcohol, social events, and pets can change attention, movement, presence, participation, and pressure, so actual use and distributional effects are better tests than stated generosity alone.
+[[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], [[Disco]], and [[Even]] show that explicit prices, policy ambiguity, and ordinary amenities all steer work: auctions, penalties, game-like scoring, unwritten leave ceilings, food, recreation, alcohol, social events, and pets can change attention, movement, presence, participation, and pressure, so actual use and distributional effects are better tests than stated generosity alone. [[WorkplaceMentalHealthSupport]] adds that policy use also depends on disclosure choice and managerial response: [[MadalynParker]] named mental health when taking leave at [[Olark]], and [[BenCongleton]]'s affirmation made the entitlement socially usable in that interaction without proving organization-wide [[PsychologicalSafety]].
 
-**Evidence:** [[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[Gamification]], [[Disco]], [[Even]]
+**Evidence:** [[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[Gamification]], [[Disco]], [[Even]], [[WorkplaceMentalHealthSupport]], [[MadalynParker]], [[Olark]], [[BenCongleton]], [[PsychologicalSafety]], [[HumanResourcesGovernance]]
 
 **Qualifications:**
 
 - The Disco evidence is one Bloomberg company profile rather than a general proof; internal prices may clarify opportunity cost while also creating short-termism, research distraction, cultural-transfer problems, and continuous pressure when tied to pay and status.
 - The vacation-policy evidence is a practitioner essay that acknowledges unsettled comparative leave-use evidence; staffing, manager example, labor law, and bargaining power may outweigh the formal policy label.
 - Even's anti-perks evidence is one company-authored 2017 account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data; its exclusions are local design hypotheses, not a universal blacklist.
+- The Olark evidence is one CEO-authored interaction with no workforce comparison, formal policy, representative survey, retaliation measure, or health outcome; viral praise is not prevalence evidence, and the local article is truncated.
 
 ### Continuous Feedback Needs Distinct Support Relationships
 

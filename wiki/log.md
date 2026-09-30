@@ -7039,3 +7039,11 @@ Added [[CEOCentricLeadership]] as Ab Banerjee's distinction between legitimate C
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | It’s 2017 and Mental Health is still an issue in the workplace.
+
+Added [[WorkplaceMentalHealthSupport]] from [[BenCongleton]]'s account of [[MadalynParker]] explicitly taking mental-health leave at [[Olark]] and receiving a supportive CEO reply. Created source-bounded pages for Congleton, Parker, and Olark; connected the exchange to [[PsychologicalSafety]], [[CompassionateManagement]], and [[HumanResourcesGovernance]] while qualifying one viral interaction as insufficient evidence of organization-wide safety or health outcomes. Retained the sole evidence-bearing screenshot under a descriptive canonical filename. The supplied Markdown ends abruptly after “It’s,” so the missing conclusion was not reconstructed.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-30
-as_of_overview_commit: 060f6ece286c7ee47b6b5e2b93254d9f789de16e
-input_digest: 80b627a346427984100a295e56a7d4f6da6470ac73b6538913679c66871868b8
+as_of_overview_commit: 882504e7187ab7c56cf7546bb6267ba4a8f0ff35
+input_digest: 65004820fc58c88145a0f149423e8c8f6f5a5e34992004da9209b052f414172e
 ---
 
 # Governance and Institutions
@@ -300,15 +300,16 @@ Technical systems that look operationally narrow can carry social consequences w
 
 ### Workplace Policy Needs Behavioral Accountability
 
-[[VacationPolicy]] and [[WorkplacePerkDesign]] show that workplace governance depends on usable entitlements, distributional effects, and observed behavior rather than policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while explicit floors, workload relief, employee control, and evaluation of who benefits or bears costs make the institution's real expectations more accountable. The 9-to-5 developer account extends this boundary beyond formal leave: routine overtime and extracurricular technical visibility can become informal competence tests that undermine [[WorkLifeBalance]], intensify [[ImposterSyndrome]], and weaken the practical protection promised by [[BurnoutPrevention]].
+[[VacationPolicy]] and [[WorkplacePerkDesign]] show that workplace governance depends on usable entitlements, distributional effects, and observed behavior rather than policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while explicit floors, workload relief, employee control, and evaluation of who benefits or bears costs make the institution's real expectations more accountable. The 9-to-5 developer account extends this boundary beyond formal leave: routine overtime and extracurricular technical visibility can become informal competence tests that undermine [[WorkLifeBalance]], intensify [[ImposterSyndrome]], and weaken the practical protection promised by [[BurnoutPrevention]]. The [[Olark]] exchange adds [[WorkplaceMentalHealthSupport]] as a further policy-use boundary: [[MadalynParker]] could name mental health when taking leave because [[BenCongleton]] affirmed the disclosure, showing how authority response and [[PsychologicalSafety]] help determine whether a formal entitlement is usable without avoidable stigma.
 
-**Evidence:** [[VacationPolicy]], [[WorkplacePerkDesign]], [[WorkplaceIncentiveDesign]], [[Even]], [[BurnoutPrevention]], [[Kickstarter]], [[TribunePublishing]], [[HubSpot]], [[RANDCorporation]], [[WorkLifeBalance]], [[ImposterSyndrome]]
+**Evidence:** [[VacationPolicy]], [[WorkplacePerkDesign]], [[WorkplaceIncentiveDesign]], [[Even]], [[BurnoutPrevention]], [[Kickstarter]], [[TribunePublishing]], [[HubSpot]], [[RANDCorporation]], [[WorkLifeBalance]], [[ImposterSyndrome]], [[Olark]], [[WorkplaceMentalHealthSupport]], [[MadalynParker]], [[BenCongleton]], [[PsychologicalSafety]], [[HumanResourcesGovernance]]
 
 **Qualifications:**
 
 - The vacation-policy evidence is a practitioner essay, its company examples are reported rather than independently compared, and the author says broader evidence on leave use was unsettled in 2016.
 - The perk-design evidence is one company-authored 2017 account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data.
 - The added 9-to-5 evidence is one developer's personal account, not a comparison of employer policies or outcomes; it supports scrutiny of informal norms without proving that one schedule fits every role or that workers can enforce boundaries without sufficient authority and staffing.
+- The Olark evidence is one CEO-authored 2017 interaction amplified by social media, not a workforce comparison, policy audit, prevalence measure, or health-outcome study; its medication and paid-leave statistics are historical context, the screenshot crops the CEO's reply, and the supplied article ends mid-sentence.
 
 ### Notification Governance Distributes Attention Control
 

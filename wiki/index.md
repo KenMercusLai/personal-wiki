@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [It’s 2017 and Mental Health is still an issue in the workplace.](sources/its-2017-and-mental-health-is-still-an-issue-in-the-workplace.md) - Ben Congleton uses Madalyn Parker’s direct mental-health leave message and his supportive reply to argue that humane leadership should be routine rather than remarkable.
 - [It's time to end the cult of the CEO](sources/its-time-to-end-the-cult-of-the-ceo.md) - Ab Banerjee argues that CEO-centered company narratives obscure distributed management work, increase executive burden, and create perceived transition risk that wider team visibility may reduce.
 - [It's not a promotion - it's a career change](sources/its-not-a-promotion-its-a-career-change-fractional-by-lindsay-holmwood.md) - Lindsay Holmwood reframes engineering management as a career change centered on group performance, interpersonal skill, deliberate learning, and multiplied human impact.
 - [It's Beginning To Look A Lot Like 1937](sources/its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha.md) - Daniel Carter uses a selective 1937 analogy to frame political-market feedback as portfolio risk while leaving data, causality, and timing materially unresolved.
@@ -894,6 +895,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Introductory bullshit detection for non-technical managers](sources/introductory-bullshit-detection-for-non-technical-managers.md) - A practitioner checklist for governing technical projects through concrete user problems, constraints, value ceilings, alternatives, lifecycle cost, fallback paths, independent verification, and off-script failure evidence.
 
 ## Entities
+- [Ben Congleton](entities/BenCongleton.md) - Olark CEO represented through his public argument for ordinary workplace support of mental-health leave.
+- [Madalyn Parker](entities/MadalynParker.md) - Olark employee whose direct mental-health leave message became a widely shared workplace example.
+- [Olark](entities/Olark.md) - Company context for a 2017 mental-health leave exchange between Madalyn Parker and CEO Ben Congleton.
 - [Ab Banerjee](entities/AbBanerjee.md) - ViewsHub founder and CEO represented through a team-centered critique of solitary-CEO narratives.
 - [ViewsHub](entities/ViewsHub.md) - Team-to-team ratings and feedback tool identified through its founder's author biography.
 - [Lindsay Holmwood](entities/LindsayHolmwood.md) - Technology leader and writer framing engineering management as a learned career centered on group effectiveness.
@@ -2441,6 +2445,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Workplace Mental Health Support](concepts/WorkplaceMentalHealthSupport.md) - Leave access, disclosure norms, and leadership responses that treat mental health as an ordinary health need without avoidable penalty.
 - [CEO-Centric Leadership](concepts/CEOCentricLeadership.md) - Narrative that concentrates company identity, performance attribution, and continuity risk around one chief executive while obscuring the wider management system.
 - [Historical Analogy in Investing](concepts/HistoricalAnalogyInInvesting.md) - Using cross-period resemblance to generate portfolio stress scenarios while preserving causal, base-rate, and timing limits.
 - [Engineering Hiring Economics](concepts/EngineeringHiringEconomics.md) - Cost model connecting engineering sourcing, evaluation, ramp-up, replacement, referrals, and evidence-based retention investment.

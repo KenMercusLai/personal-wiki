@@ -652,12 +652,13 @@
       "3e927f8d19764d3b81811bc9ee9e4d7aaf40fab098bf442a8ba8f85ee4840160",
       "49d0b77df178a59fd132690cdb9241fc86befdebd289fd86e864196dcd37eafe",
       "10f55794fb150a25f49945e91596b43603795f6b4f89cd40f27031750b594198",
-      "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497"
+      "4c1e421096311c3ab9e9e3eaa3f49f363e321dba7de79de6ddd1ad31c626f497",
+      "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf"
     ],
-    "paragraph_count": 652
+    "paragraph_count": 653
   },
-  "overview_commit": "1b91024cbbf005856f6b2361916708a2882e9b52",
-  "overview_digest": "204094f3d1758d145e21644d5342153379255ebfd6354ebb39d04aef91069aea",
+  "overview_commit": "882504e7187ab7c56cf7546bb6267ba4a8f0ff35",
+  "overview_digest": "2502c518dc2f8cc2fea1b2b6181b1025301cf154bcdb858ea87a623184dd91e2",
   "paragraphs": [
     {
       "id": "6de8af24007bb12b3e9b8ab0a013cda413f299c96ea34b476cd8dab91ee364a0",
@@ -13207,6 +13208,30 @@
         "CEOScalingRole",
         "CoCEOLeadership",
         "TeamBasedOrganizationalDesign"
+      ]
+    },
+    {
+      "id": "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[BenCongleton]] source adds [[WorkplaceMentalHealthSupport]] as a combination of leave access, voluntary disclosure, and authority response rather than a generic statement of care. At [[Olark]], [[MadalynParker]] told an internal out-of-office list that she was taking two days to focus on her mental health; Congleton affirmed the decision, and Parker asked to share his reply publicly. Congleton read the resulting thousands of reactions and stories from people wishing their own CEO responded similarly as evidence that basic support was still treated as exceptional. The case extends [[PsychologicalSafety]] into a health disclosure: a leader's response can lower the interpersonal penalty for candor, but one exchange cannot prove organization-wide safety, adequate policy, or improved health outcomes. It also connects [[CompassionateManagement]] and [[HumanResourcesGovernance]] by showing that paid leave and the norms governing its use must work together. The article is a CEO-authored account with no workforce comparison, formal policy, follow-up outcome, or representative survey; viral engagement is not prevalence evidence, and its medication and sick-leave statistics are historical contextual claims. The local export ends abruptly after “It’s.” Its sole image was inspected and retained because it shows Parker's explicit leave wording, Congleton as respondent, and visible engagement counts, while cropping Congleton's response after the greeting.",
+      "topic_scores": {
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BenCongleton",
+        "CompassionateManagement",
+        "HumanResourcesGovernance",
+        "MadalynParker",
+        "Olark",
+        "PsychologicalSafety",
+        "WorkplaceMentalHealthSupport"
       ]
     }
   ],

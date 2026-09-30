@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-30
-as_of_overview_commit: 1b91024cbbf005856f6b2361916708a2882e9b52
+as_of_overview_commit: 882504e7187ab7c56cf7546bb6267ba4a8f0ff35
 summary: "A qualified map of technology, markets, institutions, culture, work, and human limits through evidence, incentives, infrastructure, trust, and choice."
-episode_count: 873
-source_count: 873
-paragraph_count: 652
+episode_count: 874
+source_count: 874
+paragraph_count: 653
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Media and culture combine expression and craft with institutions, identity, dist
 
 ### Governance and Institutions
 
-Institutions and infrastructure need explicit authority, sequenced change, concrete purpose and constraints, observable state, bounded rollout, recovery, appeal, and ethical accountability.
+Institutions and infrastructure need explicit authority, sequenced change, concrete purpose and constraints, observable state, usable entitlements, bounded rollout, recovery, appeal, and ethical accountability.
 
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, separating observed health a
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, distributed support, and visibility into risk and control; career systems should separate senior contribution from authority and treat management as learnable, group-centered work rather than automatic promotion.
+Work and learning depend on accessible tools, active practice, fair incentives, consent, enforceable boundaries, psychologically safe support, and visibility into risk and control; career systems should separate senior contribution from authority and treat management as learnable, group-centered work rather than automatic promotion.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].
