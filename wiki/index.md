@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Judge less, observe more](sources/judge-less-observe-more-personal-growth-medium.md) - Alex Mathers argues that gently replacing premature judgment with concrete observation can preserve creative openness and reduce self-conscious rumination, while offering personal reflection rather than causal evidence.
 - [My Microservices FAQ](sources/jimmy-bogard-my-microservices-faq.md) - Jimmy Bogard defines microservices by the smallest viable autonomous boundary and rejects technology, repository, or deployment topology as sufficient proof of service independence.
 - [Jim Scheinman's Maven Ventures: 10 Key Lessons Facebook Learned from Friendster](sources/jim-scheinmans-maven-ventures-10-key-lessons-facebook-learned-from-friendster.md) - Jim Scheinman compares Friendster, Facebook, and Bebo across audience focus, feature cadence, performance, technology, virality, hiring, leadership, politics, and monetization timing.
 - [Jet employees know each others' salaries](sources/jet-employees-know-each-others-salaries-business-insider.md) - Tim Stenovec reports Jet's visible 13-level salary and equity system while leaving its fairness, employee response, and outcomes unmeasured.
@@ -923,6 +924,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [You know your product team is failing — do you know why?](sources/johnathan-nightingale-you-know-your-product-team-is-failing-do-you-know-why.md) - Johnathan Nightingale argues that experienced product managers turn busy product output into predictable, instrumented progress by synthesizing context, choosing trade-offs, and orchestrating delivery without CEO authority.
 
 ## Entities
+- [Alex Mathers](entities/AlexMathers.md) - Writer represented through a personal practice of interrupting rapid labels with receptive observation to support creativity and calm.
 - [Jimmy Bogard](entities/JimmyBogard.md) - Software practitioner defining microservices through contextual service autonomy rather than technology or fixed size.
 - [Marc Lore](entities/MarcLore.md) - Jet CEO advocating transparent, level-based compensation as a trust and fairness mechanism.
 - [Jet.com](entities/JetCom.md) - E-commerce startup represented through its visible salary bands, standardized level equity, and promotion-only raises.
@@ -2504,6 +2506,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Nonjudgmental Observation](concepts/NonjudgmentalObservation.md) - Delaying premature evaluative labeling so concrete observation and alternative meanings remain available without abandoning useful judgment.
 - [Service Autonomy](concepts/ServiceAutonomy.md) - Independent ownership, operation, information control, contract evolution, and failure handling used to determine a viable service boundary.
 - [Salary Transparency](concepts/SalaryTransparency.md) - Making pay rules or outcomes inspectable while preserving classification, promotion, privacy, and calibration limits.
 - [End-to-End Learning](concepts/EndToEndLearning.md) - Training a relatively direct input-to-output mapping to replace some hand-built features, intermediate rules, and subsystem integration.

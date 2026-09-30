@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: d3c77464e67707f4153724ff07a9a713227be737
+as_of_overview_commit: 55f93ab6730a52f06a88f3e9665539922a2aa234
 summary: "Current knowledge links calibrated evidence, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 899
-source_count: 899
+episode_count: 900
+source_count: 900
 paragraph_count: 667
 topic_count: 9
 ---

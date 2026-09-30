@@ -7247,3 +7247,11 @@ Added [[JohnathanNightingale]] and updated [[ProductManagement]], [[ProductManag
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Judge less, observe more
+
+Added [[AlexMathers]] and [[NonjudgmentalObservation]] from a 2017 personal-growth essay about interrupting premature labels with receptive attention. Updated [[CreativePresence]] from its complete ordered evidence inventory by adding concrete observation to the existing loop of openness, regular practice, rich inputs, idea capture, draft completion, and creative recovery. Preserved labeling as useful for communication and decisions, and treated the claimed creativity, calm, and wisdom benefits as personal testimony rather than demonstrated causal effects. Opened all three distinct local image files; omitted the repeated abstract city-and-trees illustration and the author/book promotion as decorative, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
