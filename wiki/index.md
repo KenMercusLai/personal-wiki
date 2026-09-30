@@ -927,7 +927,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [You know your product team is failing — do you know why?](sources/johnathan-nightingale-you-know-your-product-team-is-failing-do-you-know-why.md) - Johnathan Nightingale argues that experienced product managers turn busy product output into predictable, instrumented progress by synthesizing context, choosing trade-offs, and orchestrating delivery without CEO authority.
 
+- [Focus on Your Own Shit](sources/justin-jackson-focus-on-your-own-shit.md) - Justin Jackson argues that comparison-driven monitoring displaces creative work and should give way to customer understanding, craft, and product improvement.
+
 ## Entities
+- [Justin Jackson](entities/JustinJackson.md) - Creator and entrepreneur who redirects comparison-driven attention toward customers, craft, and product improvement.
 - [Jon Grall](entities/JonGrall.md) - Independent iOS developer who explained the economic and dependency rationale for winding down Just Landed.
 - [Just Landed](entities/JustLanded.md) - Paid airport-pickup app whose adoption and App Store recognition did not overcome continuing data costs and pay-once economics.
 - [Greg Elfrink](entities/GregElfrink.md) - Empire Flippers representative presenting a historical online-business valuation and exit-readiness framework.
@@ -3395,7 +3398,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
 - [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
 - [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that makes an unnamed or fragmented workflow legible as a category and associates the creator with its solution.
-- [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around topic choice, expertise, perfectionism, audience data, and future ideas.
+- [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around comparison, topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
 - [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
 - [Creator Economy Startups](concepts/CreatorEconomyStartups.md) - Creator-monetization companies analyzed through distribution scarcity, power-law supply, take-rate pressure, and defensibility.

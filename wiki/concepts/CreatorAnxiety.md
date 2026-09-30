@@ -6,7 +6,8 @@ sources:
   - xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui
   - too-many-people-already-do-what-i-want-to-do-seanwes-tv-medium
   - evolving-as-an-artist-and-overcoming-art-block-talk-illustration
-last_updated: 2026-09-24
+  - justin-jackson-focus-on-your-own-shit
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,11 +15,11 @@ knowledge_schema: synthesis-v1
 [[CreatorAnxiety]] is recurring emotional pressure around what to make, whether one is qualified or distinctive, whether the work is good enough, how audiences respond, and whether future ideas or opportunities will remain available.
 
 ## Current Synthesis
-The sources treat creator anxiety as a set of distortions and uncertain decisions rather than one problem with one cure. It can arise before topic choice, during self-assessment and perfectionist research, after weak platform feedback, when inspiration feels scarce, when a feed makes a field appear saturated with exceptional creators, or when an artist judges current flaws against professional work while overlooking personal improvement. The shared response is to shift attention from imagined judgment and uncontrollable outcomes toward purpose, process, audience value, publishable experiments, direct relationships, reusable systems, and one's own longer trajectory. Loish's visual-art case adds two pressure-reducing moves: compare current work with older work to make progress visible, and permit the next attempt to be poor or playful so it need not prove professional competence.
+The sources treat creator anxiety as a set of distortions and uncertain decisions rather than one problem with one cure. It can arise before topic choice, during self-assessment and perfectionist research, after weak platform feedback, when inspiration feels scarce, when a feed makes a field appear saturated with exceptional creators, when peer success or similar work triggers jealousy, or when an artist judges current flaws against professional work while overlooking personal improvement. The shared response is to shift attention from imagined judgment and uncontrollable outcomes toward purpose, process, audience value, publishable experiments, direct relationships, reusable systems, skill improvement, and one's own longer trajectory. Jackson adds a concrete morning sequence in which competitor and peer monitoring produces agitation before work begins, then redirects attention toward helping users and improving craft. Loish's visual-art case adds two pressure-reducing moves: compare current work with older work to make progress visible, and permit the next attempt to be poor or playful so it need not prove professional competence.
 
 ## Key Claims
 - Creator anxiety often signals care about audience value, identity, competence, distinctiveness, and creative continuity.
-- Curated feeds intensify comparison anxiety by overrepresenting active and exceptional creators.
+- Curated feeds intensify comparison anxiety by overrepresenting active and exceptional creators, while unstructured monitoring of peer success and similar work can turn that comparison into rumination that displaces creative effort.
 - Topic and competition anxiety are reduced when creators define whom they help, why the work matters, and what personal angle they can credibly add.
 - Expertise and perfectionism anxiety can be eased by publishing as a curious learner, structuring research, and testing drafts before treating them as final.
 - In visual art, retrospective self-comparison can expose progress that professional comparison and flaw-focused attention conceal.
@@ -29,6 +30,7 @@ The sources treat creator anxiety as a set of distortions and uncertain decision
 Anxiety as signal and distorted comparison:
 - [[xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui]] treats anxiety as normal information about what the creator values.
 - [[too-many-people-already-do-what-i-want-to-do-seanwes-tv-medium]] argues that creator feeds form a selective “bubble of awesomeness” because non-creators remain invisible.
+- [[justin-jackson-focus-on-your-own-shit]] describes a morning feed-checking loop in which product launches, peer success, and similar writing trigger jealousy and stress before creative work begins.
 
 Purpose, expertise, and publishable progress:
 - [[xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui]] uses purpose-led positioning, learner-mode publishing, outlines, reader testing, and short-cycle feedback to reduce uncertainty and perfectionism.
@@ -43,11 +45,11 @@ Inspiration systems:
 - [[xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui]] combines a centralized idea database with broader inputs, comments, conversations, and relaxed activities.
 
 ## Counterevidence & Qualifications
-All three sources are personal or motivational creator essays rather than clinical evidence or comparative workflow studies. Their advice fits independent writing, online publishing, and personal visual-art practice most directly; creators facing contractual deadlines, editorial control, legal exposure, harassment, disability, burnout, or high-stakes factual obligations may need different support. The claim that visible competition mostly reflects a tiny creator minority does not establish reachable demand, attention availability, or economic viability in a particular niche. Selected before-and-after drawings show change but cannot isolate how much came from practice, feedback, instruction, time, or curation.
+All four sources are personal or motivational creator essays rather than clinical evidence or comparative workflow studies. Their advice fits independent writing, online publishing, startup creation, and personal visual-art practice most directly; creators facing contractual deadlines, editorial control, legal exposure, harassment, disability, burnout, or high-stakes factual obligations may need different support. Jackson's claims about stress hormones and creative impairment are not clinically sourced in the captured text, and bounded competitor research can inform positioning or product decisions even when habitual comparison is harmful. The claim that visible competition mostly reflects a tiny creator minority does not establish reachable demand, attention availability, or economic viability in a particular niche. Selected before-and-after drawings show change but cannot isolate how much came from practice, feedback, instruction, time, or curation.
 
 ## What Changed
-- Added expectation-driven art block as a domain-specific outcome of perfectionism and fear of failure.
-- Added retrospective self-comparison and permission for imperfect work as ways to lower creative pressure.
+- Added peer-success and similar-work monitoring as a comparison loop that can create stress before creative work begins.
+- Added customer help and deliberate craft improvement as actionable alternatives to rumination.
 
 ## Related Concepts
 - [[CreatorPositioning]] - clear purpose and personal angle reduce topic and competition uncertainty.
@@ -57,3 +59,4 @@ All three sources are personal or motivational creator essays rather than clinic
 - [[CreativePresence]] - relaxed attention supports inspiration without forcing it.
 - [[ArtBlock]] - visual-art inhibition can express the expectation, comparison, and failure pressures described here.
 - [[PersonalBranding]] - public audience-building can create both relationship value and comparison pressure.
+- [[AttentionManagement]] - feed-checking can allocate scarce creative attention to uncontrollable external signals.

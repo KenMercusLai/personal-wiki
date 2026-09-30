@@ -7283,3 +7283,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Focus on Your Own Shit
+
+Added [[JustinJackson]] and updated [[CreatorAnxiety]] and [[StartupFocus]] from their complete ordered evidence inventories. Recorded the essay's comparison-to-stress-to-displaced-work sequence, its redirection toward users and craft, and the qualification that bounded competitive research may still inform decisions. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
