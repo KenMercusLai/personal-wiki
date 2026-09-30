@@ -72,6 +72,23 @@
     },
     {
       "global_candidate": true,
+      "id": "managed-recovery-needs-failure-independence",
+      "qualifications": [
+        "The evidence is one first-party 2017 incident involving legacy RDS infrastructure; its weekday labels are wrong, its service-restoration duration conflicts with a later Instapaper retrospective, and proposed follow-ups do not prove later outcomes."
+      ],
+      "statement": "Managed-service recovery is dependable only when copies, timing assumptions, degraded modes, and escalation paths escape the relevant failure: [[Instapaper]] needed a new filesystem, write reconciliation, [[Pinterest]] SRE, and [[AWS]] intervention because [[AmazonRDS]] snapshots preserved the production limit.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AWS",
+        "AmazonRDS",
+        "BackupAndRecovery",
+        "IncidentManagement",
+        "Instapaper",
+        "Pinterest"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "conversational-platforms-need-bounds-and-discovery",
       "qualifications": [
         "The 2017 evidence is an attributed industry snapshot with incompatible campaign denominators, a disputed Kik subscriber claim, and five screenshots that could not be inspected during ingest."
@@ -126,13 +143,13 @@
       "statement": "[[PlatformDistributionDependence]] can produce [[AlgorithmicFeastAndFamine]] even as nominal audiences grow: the [[ChicagoTribune]] case shows why medians and distribution buckets can reveal severe reach misses hidden by follower totals and aggregate averages.",
       "status": "qualified",
       "supporting_wikilinks": [
-        "PlatformDistributionDependence",
         "AlgorithmicFeastAndFamine",
         "ChicagoTribune",
-        "KurtGessler"
+        "KurtGessler",
+        "PlatformDistributionDependence"
       ]
     }
   ],
-  "summary": "Cross-domain sources emphasize infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, and managed-service composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs explicit enough to inspect and reuse.",
+  "summary": "Cross-domain sources emphasize explicit infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.",
   "topic_id": "cross-domain"
 }

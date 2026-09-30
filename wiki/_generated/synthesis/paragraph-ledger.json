@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "86920e6722503c4072ae9483bf639cf027444d7eda664cd7400def077f919f3a",
       "f20b6f7a635a86dd7e32d175825cb342616abbd2fca544ffa8d5a1ab3c23526c",
       "8d0aea64e816c9424f399f61743991cd3c038ce192dc3ba8dc3c23ac825fe2ba",
       "0bad5b70c08121339ffda658c28f6ff9e9449f6ceaaa2e5bf164c32568c32b02",
@@ -644,11 +645,28 @@
       "f15098dcb0d68ab92aeff4f3acf01d46c5096a4801a70fab4fa64b6049bf5c74",
       "5a8e7fad390364ea746634c08f001717bae7423203f7ac59c280700906f0e3b5"
     ],
-    "paragraph_count": 642
+    "paragraph_count": 643
   },
-  "overview_commit": "c7e32ea753d843b788c401428e22328634978969",
-  "overview_digest": "637744da1c1d8a53844ffa75d49fc2d4b0e1237ff99c3f3a1ab753f0eb532525",
+  "overview_commit": "f9e3d7e170bb784be86343116983f92facf7dd9a",
+  "overview_digest": "59f45dfadc395aa2d176d6188d44bec0932de54d1c61ae7e0778beaef777e518",
   "paragraphs": [
+    {
+      "id": "86920e6722503c4072ae9483bf639cf027444d7eda664cd7400def077f919f3a",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[Instapaper]] source adds infrastructure lineage and common-mode recovery failure to the wiki's reliability material. A 2015 [[AmazonRDS]] MySQL read replica inherited its 2013 source instance's ext3 filesystem and 2 TB single-file limit despite being created after RDS had moved new instances to ext4; the console exposed neither the legacy constraint nor proximity to it. When the bookmarks table crossed the limit, writes failed and ten days of filesystem snapshots retained the same boundary, so [[BackupAndRecovery]] required a new substrate rather than merely selecting a backup. The recovery joined a limited-archive production database, parallel dumps, an [[AmazonAurora]] replica, MySQL import without secondary indexes, AWS-assisted ext4 mounting and `rsync`, and row-based replication of interim writes before final promotion without reported data loss. This sharpens [[IncidentManagement]] because a six-to-eight-hour dump estimate became 24 hours, delaying degraded-service activation, while late [[Pinterest]] SRE and [[AWS]] escalation postponed access to specialist and provider-only operations. The durable controls are representative restore tests, data-shape-aware timing, explicit degraded modes with write reconciliation, observable hard limits, and prearranged escalation across ownership and managed-service boundaries. The evidence remains a first-party 2017 retrospective about legacy RDS infrastructure; its weekday labels for February 9 and 10 are wrong, its 31 hours to limited service conflicts with [[10-years-of-instapaper]]'s 20-hour figure, and its proposed monthly backup tests and escalation workflow do not themselves prove later reliability. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {},
+      "wikilinks": [
+        "10-years-of-instapaper",
+        "AWS",
+        "AmazonAurora",
+        "AmazonRDS",
+        "BackupAndRecovery",
+        "IncidentManagement",
+        "Instapaper",
+        "Pinterest"
+      ]
+    },
     {
       "id": "f20b6f7a635a86dd7e32d175825cb342616abbd2fca544ffa8d5a1ab3c23526c",
       "primary_topic": "business-and-markets",

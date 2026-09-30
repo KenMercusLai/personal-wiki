@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Instapaper Outage Cause & Recovery](sources/instapaper-outage-cause-recovery-making-instapaper-medium.md) - Instapaper traces a 31-hour outage to an inherited RDS ext3 file limit, common-mode snapshots, untested restore timing, and delayed escalation, then documents provider-assisted recovery without reported data loss.
 - [Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story](sources/instagram-the-50-billion-grand-slam-driving-facebooks-future-the-forbes-cover-story.md) - Forbes's 2016 profile links Instagram's post-acquisition scale to focused leadership, cautious monetization, selective product change, and Facebook's operating leverage.
 - [Instagram Stories At Two: What Price Have We Paid For Recording Everything?](sources/instagram-stories-at-two-what-price-have-we-paid-for-recording-everything.md) - A 2018 essay connects Instagram Stories' private viewer feedback with continuous performance, edited memory, and unresolved feature-specific mental-health effects.
 - [How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People](sources/instagram-co-founder-mike-krieger-on-engineering-team-growth-first-round-review.md) - Mike Krieger maps Instagram engineering from pragmatic generalists through specialists, management layers, platform culture, and product teams.
@@ -1808,9 +1809,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mathilde Collin](entities/MathildeCollin.md) - Front founder/CEO represented through a firsthand Series A retrospective, retention evidence, and founder-operator advice.
 - [Crazy Egg](entities/CrazyEgg.md) - Analytics SaaS used as a heatmap-led product-message alignment case.
 - [Google Analytics](entities/GoogleAnalytics.md) - Incumbent analytics product contrasted with Crazy Egg's heatmap positioning.
-- [Amazon Aurora](entities/AmazonAurora.md) - AWS PostgreSQL-compatible database option named for pgvector-backed generative AI applications.
+- [Amazon Aurora](entities/AmazonAurora.md) - AWS relational database represented through pgvector, enterprise competition, and a fast but application-risky Instapaper recovery replica.
 - [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
-- [Amazon RDS](entities/AmazonRDS.md) - Managed PostgreSQL environment used for the source's pgvector index tests.
+- [Amazon RDS](entities/AmazonRDS.md) - Managed relational database service represented through PostgreSQL vector-search tests and Instapaper's inherited MySQL filesystem-limit incident.
 - [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
 - [SQLite](entities/SQLite.md) - Single-file relational database presented as production-ready for some web apps but constrained by availability, file-system, concurrency, transaction, backup, and migration needs.
 - [Anže Pečar](entities/AnzePecar.md) - Software-engineering writer explaining practical SQLite production gotchas for web applications.
@@ -2001,10 +2002,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tandem Capital](entities/TandemCapital.md) - Venture firm whose anonymized YC Demo Day analysis illustrates the limits of constant-rate growth extrapolation.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
-- [Instapaper](entities/Instapaper.md) - Read-later service that grew from a narrow offline-reading side project through mixed early revenue, platform expansion, acquisitions, and a mature reading workflow.
+- [Instapaper](entities/Instapaper.md) - Read-later service spanning a narrow offline-reading origin, mixed early revenue, platform expansion, acquisitions, mature workflows, and a provider-assisted 2017 database recovery.
 - [Marco Arment](entities/MarcoArment.md) - Instapaper founder who moved from a five-hour prototype and evening development to a deliberately small full-time software business.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
-- [Pinterest](entities/Pinterest.md) - Visual-discovery company represented through acquisition, growth systems, mobile-web investment, feature discipline, organization design, trust, and strategic resilience.
+- [Pinterest](entities/Pinterest.md) - Visual-discovery company represented through acquisition, growth systems, mobile-web investment, feature discipline, organization design, trust, and SRE support for Instapaper.
 - [Sophia Feng](entities/SophiaFeng.md) - Pinterest Growth software engineer who documented experiments on onboarding, signal coverage, and personalization.
 - [App Store](entities/AppStore.md) - Apple's mobile marketplace, combining app distribution, editorial and chart-mediated discovery, and stronger spending than Google Play in historical snapshots.
 - [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 and Q4 2017 estimates frame the Google Play versus App Store download and spending split.
@@ -2413,7 +2414,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Data Annotation Labor](concepts/DataAnnotationLabor.md) - Human labeling, checking, cleaning, moderation, and judgment that makes machine-learning data and outputs usable.
 - [Platform Microwork](concepts/PlatformMicrowork.md) - Software-mediated decomposition, allocation, evaluation, and payment of small tasks across a distributed workforce.
 - [Technological Inevitability](concepts/TechnologicalInevitability.md) - Distinguishing structurally likely directions from contingent winners, timing, decisions, execution, and institutional forms.
-- [Incident Management](concepts/IncidentManagement.md) - Prepared coordination system for declaring, commanding, communicating, mitigating, closing, and learning from significant service failures.
+- [Incident Management](concepts/IncidentManagement.md) - Prepared coordination system for declaring, commanding, escalating, communicating, selecting recovery modes, mitigating, closing, and learning from service failures.
 - [Blameless Postmortem](concepts/BlamelessPostmortem.md) - System-focused incident review that pairs psychological safety with concrete corrective actions, owners, and shared learning.
 - [Technology Normalization](concepts/TechnologyNormalization.md) - Process by which a once-novel technical capability becomes an expected baseline and loses categorical signaling power.
 - [Persuasion Work](concepts/PersuasionWork.md) - Selling, branding, advertising, relationship, and experience work that may expand after automation but has contested social value.
@@ -2494,7 +2495,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Authentically Mobile](concepts/AuthenticallyMobile.md) - Product category whose core experience depends on coupled mobile capabilities and context rather than simply adapting a desktop interaction.
 - [Incremental MVP Modernization](concepts/IncrementalMVPModernization.md) - Post-validation transition from prototype structure to tested modules and safer delivery while customer-facing work continues.
 - [Get Out Of The Way Design Philosophy](concepts/GetOutOfTheWayDesignPhilosophy.md) - Product-discovery loop that finds recurring user adaptations, supports the valuable behavior, and removes obstructive founder assumptions.
-- [Incident Communication](concepts/IncidentCommunication.md) - Timely, candid, actionable, and audience-appropriate communication during service failure.
+- [Incident Communication](concepts/IncidentCommunication.md) - Timely, candid audience updates and reachable internal or provider escalation during service failure.
 - [Lateral Thinking with Withered Technology](concepts/LateralThinkingWithWitheredTechnology.md) - Product philosophy that creates new user value by recombining mature technology rather than maximizing specifications.
 - [Hardware Afterlives](concepts/HardwareAfterlives.md) - Repair, customization, repurposing, and selective preservation that give physical products useful post-market roles.
 - [Chiptune](concepts/Chiptune.md) - Music made through characteristic game-system sound hardware, represented here by portable Game Boy composition and performance.
@@ -3462,7 +3463,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
 - [Staging Environment](concepts/StagingEnvironment.md) - Pre-production environment for verifying software under production-like architecture, data, monitoring, traffic, internet exposure, and failure conditions.
 - [Smart Contracts](concepts/SmartContracts.md) - Code-mediated contractual mechanisms used here as a trust-minimization example for aggregator markets.
-- [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, architecture, dependencies, capacity, staging realism, change, recovery, and organizational investment.
+- [System Reliability](concepts/SystemReliability.md) - Keeping services dependable across code, architecture, inherited infrastructure, dependencies, capacity, staging realism, change, recovery, and investment.
 - [TF-IDF Ranking](concepts/TFIDFRanking.md) - Search ranking method that weights terms by document frequency and inverse corpus frequency before similarity scoring.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Language Model](concepts/StatisticalLanguageModel.md) - Count-based or rule-based language-modeling approach using techniques such as N-grams, HMMs, and linguistic rules.
@@ -3608,7 +3609,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Human Resources Governance](concepts/HumanResourcesGovernance.md) - Design of HR leadership, reporting, scope, rules, feedback, and onboarding for growing organizations.
 - [Whistleblower Reporting Systems](concepts/WhistleblowerReportingSystems.md) - Training, reporting channels, anonymity controls, escalation, and recurring communication for surfacing serious misconduct.
 
-- [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining independently controlled data copies and proving they can restore the required scope and point in time.
+- [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining failure-independent copies and proving restore scope, timing, point-in-time coverage, and degraded-service reconciliation.
 
 - [Voice Clone Impersonation](concepts/VoiceCloneImpersonation.md) - Use of cloned speech with scripted scope, familiar context, and plausible channel defects to make a listener accept a false speaker identity.
 

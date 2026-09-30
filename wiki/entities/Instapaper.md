@@ -6,7 +6,8 @@ sources:
   - 10-years-of-instapaper
   - blog-martin-fowler-how-i-use-twitter
   - entrepreneurs-who-go-it-alone-by-choice-ideas-for-small-business-time
-last_updated: 2026-09-27
+  - instapaper-outage-cause-recovery-making-instapaper-medium
+last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ Fowler's Twitter workflow adds an external-use case: Instapaper acts as the down
 
 The 2011 profile supplies the missing early operating and economic context. Arment first built a minimal web version around his own lost-link problem, then used evenings to add offline iPhone reading for subway trips. Before leaving Tumblr in September 2010, he reportedly combined paid-app sales, website advertising, and a small optional subscription; by the profile's publication, the product was described as profitable, used by 1.8 million people, and still operated without employees or investors.
 
+The detailed 2017 outage account makes reliability part of the operating profile rather than only a retrospective milestone. A legacy [[AmazonRDS]] MySQL instance inherited an ext3 2 TB file limit through a read-replica migration; when the bookmarks table crossed it, writes stopped and snapshot backups retained the same constraint. Instapaper restored limited archives after 31 hours, used [[Pinterest]] SRE and [[AWS]] engineering support to migrate and synchronize the database, and reports completing recovery without data loss. The company kept RDS but moved toward earlier SRE escalation and monthly backup testing.
+
 ## Key Characteristics
 - Began as a deliberately narrow response to losing articles and needing offline commuter reading.
 - Depends on parser quality as a foundational capability for turning web pages into readable articles.
@@ -27,7 +30,7 @@ The 2011 profile supplies the missing early operating and economic context. Arme
 - Expands user workflows from saving and reading into search, highlighting, notes, exports, public profiles, curated discovery, and social-link handoff.
 - Moved through paid-app, advertising, optional subscription, freemium, sponsorship, and developer API business models.
 - Maintains standalone product identity across acquisitions by Betaworks and Pinterest.
-- Treats reliability as a visible product concern after a major 2017 outage.
+- Treats database lineage, degraded service, restore timing, provider escalation, and backup testing as visible product concerns after a major 2017 outage.
 
 ## Evidence
 - Product origin: [[10-years-of-instapaper]] says Marco Arment announced Instapaper as a side project on January 28, 2008.
@@ -39,15 +42,19 @@ The 2011 profile supplies the missing early operating and economic context. Arme
 - Workflow expansion: [[10-years-of-instapaper]] lists offline mode, Archive, Daily/Weekly discovery, folders, highlights, notes, speed reading, search filters, local offline search, thumbnails, and video support.
 - Business-model evolution: [[10-years-of-instapaper]] records Instapaper Pro pricing, optional subscription, freemium transition, Weekly Sponsorship, Instaparser developer API, and free Premium after Pinterest.
 - Ownership continuity: [[10-years-of-instapaper]] says Betaworks acquired Instapaper in 2013, Pinterest acquired it in 2016, and it continued as a separate standalone product.
-- Reliability incident: [[10-years-of-instapaper]] reports a 20-hour outage in 2017 and almost five days to fully restore the service.
+- Reliability overview: [[10-years-of-instapaper]] reports a 20-hour outage in 2017 and almost five days to fully restore the service.
+- Root cause and common-mode backups: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says an inherited ext3 2 TB file-size limit stopped bookmarks-table writes and also constrained ten days of filesystem snapshots.
+- Degraded restoration: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says limited archive access returned after 31 hours while full database rebuilding continued.
+- Recovery outcome: [[instapaper-outage-cause-recovery-making-instapaper-medium]] describes ext4 migration, replication of interim writes, final promotion, and no reported loss of old, changed, or newly saved articles.
+- Follow-up: [[instapaper-outage-cause-recovery-making-instapaper-medium]] commits to immediate Pinterest SRE escalation for system-wide outages and monthly backup tests while acknowledging that neither would have prevented the storage-limit failure.
 - Social-feed handoff: [[blog-martin-fowler-how-i-use-twitter]] says Fowler saves interesting article announcements from Twitter into his Instapaper feed.
 
 ## Qualifications
-The main product-history source is an anniversary retrospective by Instapaper, so it emphasizes product milestones and gratitude more than competitive analysis, financial results, or user-retention evidence. Fowler's source adds one prominent user workflow but not broad usage data. The TIME profile adds historical user and revenue claims, but no audited financials, costs, retention data, workload accounting, or comparison with failed solo products; its “recession-proof” language is not established by the case. Its one-person description is also only a 2011 snapshot before the later acquisitions and teams documented by the retrospective. The screenshots show interface evolution, but they are curated examples rather than full usability evidence.
+The product-history and outage sources are first-party retrospectives, so their milestones, causal account, timing, and recovery outcome are not independently verified. They conflict on the duration before service returned: the anniversary post says 20 hours, while the detailed incident account says 31 hours before limited service. The latter also mislabels the weekdays attached to February 9 and 10, 2017. Fowler's source adds one prominent workflow but not broad usage data. The TIME profile supplies historical user and revenue claims without audited financials, costs, retention, workload accounting, or comparison with failed solo products; its profitable one-person description is only a 2011 snapshot before later teams and ownership changes.
 
 ## What Changed
-- Added the five-hour problem-led prototype, offline subway use case, mixed early revenue model, and transition from side project to full-time work.
-- Qualified the profitable one-person description as a historical 2011 state before later teams and ownership changes.
+- Replaced the outage milestone with a causal operating profile covering inherited storage limits, common-mode snapshots, degraded restoration, provider-assisted recovery, and follow-up practice.
+- Preserved the unresolved 20-hour versus 31-hour service-restoration discrepancy between Instapaper's two retrospectives.
 
 ## Relationships
 - [[MarcoArment]] - founder who launched Instapaper.
@@ -60,3 +67,6 @@ The main product-history source is an anniversary retrospective by Instapaper, s
 - [[SocialMediaCuration]] - Instapaper receives links from curated social discovery.
 - [[SideProjectIncubation]] - the product grew through evening work before replacing Arment's Tumblr employment.
 - [[BootstrappedCompanyBuilding]] - early revenue supported an investor-free operating model.
+- [[AmazonRDS]] - hosted the MySQL database whose inherited filesystem limit caused the 2017 outage.
+- [[BackupAndRecovery]] - the incident exposed the difference between snapshot availability and a proven escape from common-mode storage failure.
+- [[IncidentManagement]] - late escalation and uncertain restore duration delayed limited-service activation.

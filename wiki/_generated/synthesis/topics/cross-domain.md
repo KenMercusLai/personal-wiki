@@ -4,15 +4,15 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-30
-as_of_overview_commit: b6cdb41b350bc0460dfbaba52fb6a5488c73e2bf
-input_digest: 06d58ff8a83b5652de90e58a7c8c5a968bef353301fee1decaab3aeb95db4fc1
+as_of_overview_commit: f9e3d7e170bb784be86343116983f92facf7dd9a
+input_digest: 0b2f529ca52cad3329549c342347fdac2de34ca5e8a8638cc570d5fbeddcd15e
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, and managed-service composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources emphasize explicit infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.
 
 ## Cross-source Findings
 
@@ -66,6 +66,16 @@ Good interfaces make recovery possible: [[APIErrorHandling]] gives developers ac
 
 - API errors address integration recovery; personal data mirrors address user continuity, so the common pattern is conceptual rather than a shared implementation.
 
+### Managed Recovery Needs Failure Independence
+
+Managed-service recovery is dependable only when copies, timing assumptions, degraded modes, and escalation paths escape the relevant failure: [[Instapaper]] needed a new filesystem, write reconciliation, [[Pinterest]] SRE, and [[AWS]] intervention because [[AmazonRDS]] snapshots preserved the production limit.
+
+**Evidence:** [[AWS]], [[AmazonRDS]], [[BackupAndRecovery]], [[IncidentManagement]], [[Instapaper]], [[Pinterest]]
+
+**Qualifications:**
+
+- The evidence is one first-party 2017 incident involving legacy RDS infrastructure; its weekday labels are wrong, its service-restoration duration conflicts with a later Instapaper retrospective, and proposed follow-ups do not prove later outcomes.
+
 ### Conversational Platforms Need Bounds And Discovery
 
 [[ConversationalUI]] and [[MessagingAsPlatform]] become usable only when capability boundaries, failure recovery, visible controls, and service discovery are designed together; large installed reach such as [[FacebookMessenger]] does not itself create awareness or habit.
@@ -100,7 +110,7 @@ Platform growth can combine near-term extraction with longer-term compounding, a
 
 [[PlatformDistributionDependence]] can produce [[AlgorithmicFeastAndFamine]] even as nominal audiences grow: the [[ChicagoTribune]] case shows why medians and distribution buckets can reveal severe reach misses hidden by follower totals and aggregate averages.
 
-**Evidence:** [[PlatformDistributionDependence]], [[AlgorithmicFeastAndFamine]], [[ChicagoTribune]], [[KurtGessler]]
+**Evidence:** [[AlgorithmicFeastAndFamine]], [[ChicagoTribune]], [[KurtGessler]], [[PlatformDistributionDependence]]
 
 **Qualifications:**
 

@@ -11,6 +11,7 @@ sources:
   - gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time
   - gitlab-com-database-incident-gitlab
   - incident-management-at-google-adventures-in-sre-land-google-cloud-blog
+  - instapaper-outage-cause-recovery-making-instapaper-medium
 last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
@@ -37,11 +38,13 @@ GitLab adds the complementary recovery-validity boundary. A service can name mul
 
 Google's SRE account adds incident readiness and organizational learning to this technical stack. Scenario practice, shadowing, supported on-call escalation, defined response roles, a central incident record, and dedicated communications make failure response a designed system. Progressive rollout and rollback restored service in the case; a blameless postmortem then created nine owned improvements and fed weekly review and trend analysis.
 
+Instapaper adds infrastructure lineage and provider-access boundaries. A read replica created after an RDS filesystem cutoff still inherited its source's ext3 limit, while the managed console exposed neither the constraint nor proximity to it. Snapshot backups reproduced the same failure condition, and the customer's MySQL-only interface could not perform the decisive ext4 mount and `rsync`. Reliability therefore requires inventory of inherited substrate, alerting on hard limits, backups that escape the relevant common mode, representative restore-time tests, a write-reconcilable degraded mode, and early escalation to specialists who control inaccessible layers.
+
 ## Key Claims
 - Reliability spans code, design, change, operations, and recovery rather than one technical layer.
 - Known principles are necessary but insufficient without concrete implementation details.
 - Fail-fast behavior and deliberate load shedding protect online services from resource exhaustion, nonlinear collapse, and uncontrolled backlog.
-- Dependency classification, degradation, capacity protection, and granular, practiced, independently validated recovery are design-level reliability controls.
+- Dependency classification, degradation, capacity protection, infrastructure-lineage awareness, and granular, practiced, independently validated recovery are design-level reliability controls.
 - Change-related incidents require canarying, monitoring, rollback, blast-radius reduction, tests, probes, observability, playbooks, and failover exercises.
 - Production-like staging and clear observability can reveal architecture, data, traffic, saturation, and failure-mode risks before or during incidents.
 - Reliability is difficult because it requires sustained investment even when avoided failures are hard to see.
@@ -66,13 +69,17 @@ Google's SRE account adds incident readiness and organizational learning to this
 - Organizational layer: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] argues that postmortem recommendations repeat known principles, but teams struggle to sustain the investment needed to implement them.
 - Business priority: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] uses Taobao and high-stakes businesses as examples where making reliability a top business target changed outcomes.
 - Response readiness and learning: [[incident-management-at-google-adventures-in-sre-land-google-cloud-blog]] links drills, supported on-call work, explicit incident roles, shared state, mitigation, owned postmortem actions, and recurring review into one reliability loop.
+- Inherited substrate: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says a newer RDS read replica inherited the older source instance's ext3 filesystem and 2 TB file-size limit.
+- Invisible hard limit: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says RDS offered no console monitoring, alert, or log that identified the limit or warned that the bookmarks table was approaching it.
+- Common-mode backup: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says ten days of filesystem snapshots remained subject to the same constraint.
+- Recovery realism: [[instapaper-outage-cause-recovery-making-instapaper-medium]] reports a 24-hour initial dump, 10-hour parallel dump, limited service after 31 hours, provider-assisted ext4 migration, and later replication of interim writes.
 
 ## Counterevidence & Qualifications
-The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. Load shedding also encodes a product-policy choice: Asana protected paying customers and most free users rather than treating all requests equally. The staging article recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0, Asana, Google, and GitLab are company-authored accounts, while the Atlassian source is second-party reporting with a broad affected-user estimate; all are source-date-specific and none proves current controls. Google's account omits impact, duration, technical root cause, and follow-up completion, so it demonstrates a process more clearly than an outcome. GitLab's source was a live account later superseded by a formal postmortem, so its causal detail remains provisional.
+The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is strongest for online services; queueing, batch, streaming, or safety-critical systems may require different semantics. Load shedding encodes product policy: Asana protected paying customers and most free users. Production-like staging may preserve behavioral structure without matching production size exactly. Auth0, Asana, Google, GitLab, and Instapaper are company-authored, while Atlassian is second-party; all are source-date-specific. Instapaper's incident concerns a legacy RDS filesystem and does not establish current service limits or controls. Google's account omits detailed impact and root cause, GitLab's live account preceded its formal postmortem, and Instapaper's 20-hour versus 31-hour outage descriptions conflict.
 
 ## What Changed
-- Added incident preparation, role clarity, shared response state, and supported escalation as reliability controls.
-- Connected mitigation to blameless postmortems, owned corrective actions, and cross-incident learning.
+- Added inherited infrastructure state and invisible provider limits as reliability risks that can survive nominal upgrades.
+- Added common-mode snapshot constraints, representative restore timing, reconciled degraded service, and provider-only recovery operations to the recovery model.
 
 ## Related Concepts
 - [[RobustProgramming]] - code-level reliability is one layer of system reliability.

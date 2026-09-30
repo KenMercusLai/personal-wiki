@@ -6645,6 +6645,10 @@ Added [[JessicaAbel]]'s 2016 account of [[IdeaDebt]] as creative fantasy, identi
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-30] ingest | Instapaper Outage Cause & Recovery
+
+Added Instapaper's detailed account of its 2017 database outage, tracing the failure to a legacy ext3 2 TB single-file limit inherited through an [[AmazonRDS]] read replica and preserved in ten days of filesystem snapshots. Updated [[Instapaper]], [[Pinterest]], Amazon RDS, [[AmazonAurora]], [[BackupAndRecovery]], [[IncidentManagement]], [[IncidentCommunication]], and [[SystemReliability]] from their complete ordered evidence inventories with infrastructure-lineage risk, provider-limit visibility, common-mode backups, representative restore timing, degraded-service reconciliation, and early specialist escalation. Preserved the unresolved conflict between the detailed postmortem's 31 hours to limited service and [[10-years-of-instapaper]]'s 20-hour figure, plus the source's incorrect weekday labels for February 9 and 10, 2017. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-09-30] ingest | Inspiring Women: Meet the Co-Founder of Winnie, a Yelp-Type App for Parents
 
 Added Livingly's interview with [[SaraMauskopf]] about parent-led problem discovery, building [[Winnie]] with [[AnneHalsall]], Silicon Valley talent and investor access, acknowledged privilege, and the family and team support that sustained work during her husband's cancer treatment. Created Sara Mauskopf, Anne Halsall, and Winnie; updated [[WorkLifeBalance]], [[StartupCrisisLeadership]], and [[SiliconValley]] from their complete ordered evidence inventories. Preserved the promotional, first-person, historical, missing-publication-date, unverified-scale, and generalizability limits. The sole remote lead image could not be opened because its original host no longer resolves, so it contributed no image-derived evidence and no asset was retained.
@@ -6863,6 +6867,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-30] ingest | Instagram, The $50 Billion Grand Slam Driving Facebook's Future: The Forbes Cover Story
 
 Added Forbes's 2016 profile of [[Instagram]] as a focused visual product and cautious advertising business accelerated by [[Facebook]]'s infrastructure, engineers, distribution, advertiser base, targeting data, and sales operation. Created [[KevinSystrom]]; updated Instagram, [[MikeKrieger]], [[MarkZuckerberg]], Facebook, and [[AcquisitionStrategy]] from their complete ordered evidence inventories with the selective-autonomy integration model. Preserved the article's favorable-profile, company-voice, historical-estimate, non-comparable-campaign, forecast, and attribution limits. Opened all four local images: the decorative hero mockup and cover were omitted, while two materially placed 96-pixel infographics remained unreadable after enlargement and contributed no visual claim or retained asset.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-30] lint | Wiki health check
 
