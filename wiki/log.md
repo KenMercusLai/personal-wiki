@@ -6820,3 +6820,10 @@ Added Austin Powell's 2018 investigation of paid Spotify playlist review, direct
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-30] ingest | Inside the Wild West World of Gift Card Bitcoin Brokering
+
+Added The Intercept's 2018 investigation of a broker using [[Paxful]] and [[Walmart]] to cycle [[Bitcoin]] through remotely supplied gift-card codes and fresh gaming cards. Created Paxful, [[GiftCardFraud]], and [[PeerToPeerCryptoTrading]]; updated Walmart and Bitcoin from their complete ordered evidence inventories. Preserved the difference between broker self-protection and lawful provenance, gross markups and residual spread, stated policy and store-level enforcement, and one observed trade versus representative market evidence. The sole remote lead image returned HTTP 404 and no reliable duplicate was found, so it could not be inspected or retained and contributed no image-derived claim.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

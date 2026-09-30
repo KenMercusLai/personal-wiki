@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Inside the Wild West World of Gift Card Bitcoin Brokering](sources/inside-the-wild-west-world-of-gift-card-bitcoin-brokering.md) - A 2018 investigation maps a Bitcoin-to-gift-card conversion loop, its narrow broker spreads, trust controls, fraud exposure, and gaps between Walmart policy and checkout enforcement.
 - [Inside the Black Market for Spotify Playlists](sources/inside-the-black-market-for-spotify-playlists.md) - Austin Powell maps paid curator access, direct placement, fake engagement, and the feedback loop from independent Spotify playlists into algorithmic and editorial discovery.
 - [Inside an Amazon Warehouse That Ships Your Supersized Purchases](sources/inside-an-amazon-warehouse-that-ships-your-supersized-purchases-cnet.md) - Ben Fox Rubin shows how Amazon's Fall River non-sort facility combines specialized storage, manual handling, industrial trucks, and custom packaging for large and irregular products.
 - [Inside chatbots’ year of growing pains: ‘We’re at an inflection point’](sources/inside-chatbots-year-of-growing-pains-were-at-an-inflection-point-marketing-land.md) - Tim Peterson reports that early chatbots needed bounded language, explicit recovery, structured controls, CRM continuity, and active discovery rather than scale or open text alone.
@@ -867,6 +868,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Indie.vc v.2 Release Notes](sources/indie-vc-v-2-release-notes-strong-words-medium.md) - Bryce Roberts presents Indie.vc's dedicated fund, rolling selection, revenue filters, founder-control boundary, and capped-distribution terms as an alternative path for profitable independent companies.
 
 ## Entities
+- [Paxful](entities/Paxful.md) - Peer-to-peer marketplace coordinating the documented bitcoin-for-gift-card trade through reputation history and dispute resolution.
 - [SpotLister](entities/SpotLister.md) - Paid playlist-curator review and matching marketplace that shut down after Spotify disabled its API access.
 - [SubmitHub](entities/SubmitHub.md) - Music-submission marketplace using curator behavior and artist-supplied stream outcomes to make reach more legible.
 - [NBA](entities/NBA.md) - Basketball league represented as an early adopter of recurring live virtual-reality production and a broader immersive-content portfolio.
@@ -2381,6 +2383,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kelsey Piper](entities/KelseyPiper.md) - Triplebyte employee who designed and iterated individualized rejection feedback from structured engineering interviews.
 
 ## Concepts
+- [Gift Card Fraud](concepts/GiftCardFraud.md) - Theft, compromise, double spending, or laundering of stored-value card balances across digital codes, resale markets, and retailer checkout.
+- [Peer-to-Peer Crypto Trading](concepts/PeerToPeerCryptoTrading.md) - Direct cryptocurrency exchange through negotiated marketplace offers and nonstandard settlement instruments such as gift-card codes.
 - [Playlist Manipulation](concepts/PlaylistManipulation.md) - Purchase or inflation of playlist access, placement, and engagement signals to create streams, credibility, revenue, or further platform distribution.
 - [Virtual Reality Sports](concepts/VirtualRealitySports.md) - Immersive sports production and distribution for remote presence, repeated broadcast learning, and prospective interaction.
 - [Bookings to Cash Conversion](concepts/BookingsToCashConversion.md) - Discipline of separating booked commitments from collected cash after timing, conditions, adoption, and cancellation risk.
