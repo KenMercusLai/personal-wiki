@@ -7111,3 +7111,11 @@ Added [[FounderSacrificeNorm]] as a contested account of using personal loss, de
 ## [2026-09-30] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-30] ingest | How to Figure Out Your Competitors' Revenues in About 70 Seconds
+
+Added [[RevenuePerEmployee]] as a qualified headcount-based estimator of private SaaS scale and updated [[JasonLemkin]], [[LinkedIn]], [[HubSpot]], and [[CompetitiveIntelligence]] from their complete ordered evidence inventories. Preserved the distinction between ARR and GAAP revenue, the selected-example and adjustable-multiplier limits, the untested LinkedIn headcount assumption, and the need to align sector, date, business model, and workforce boundaries. Inspected and retained both embedded mature-technology benchmark charts under descriptive canonical filenames with matching manifest alt text; their wide cross-sector dispersion qualifies rather than validates a universal SaaS multiplier.
+
+## [2026-09-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

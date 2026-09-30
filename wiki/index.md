@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to Figure Out Your Competitors' Revenues in About 70 Seconds](sources/jason-lemkin-how-to-figure-out-your-competitors-revenues-in-about-70-seconds.md) - Jason Lemkin proposes a funding- and business-model-adjusted revenue-per-employee shortcut for estimating private SaaS scale while leaving substantial data and validation limits.
 - [You don't have what it takes](sources/jason-calacanis-you-dont-have-what-it-takes.md) - Jason Calacanis treats extreme personal and team sacrifice as a founder-readiness test while providing no evidence that the test predicts sound judgment or startup success.
 - [Jamie Siminoff, Ring](sources/jamie-siminoff-ring-dfjvc-medium.md) - Jamie Siminoff connects Ring's problem-led origin and Shark Tank exposure to a longer founder apprenticeship and a qualified critique of venture groupthink.
 - [Things I Wished More Developers Knew About Databases](sources/jaana-dogan-things-i-wished-more-developers-knew-about-databases.md) - Jaana Dogan connects database guarantees with concrete transaction anomalies, distributed-system tradeoffs, operation-level performance, and staged migration.
@@ -1454,7 +1455,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Kubernetes Engine](entities/GoogleKubernetesEngine.md) - Managed Kubernetes service hosting the multi-region, autoscaled ingestion tier.
 - [Aaron Batalion](entities/AaronBatalion.md) - Investor and author who proposed the "micro app" frame for application-like services built inside messaging platforms.
 - [Shyp](entities/Shyp.md) - Mobile shipping service used to decompose a product into platform-provided camera, location, payment, support, and tracking capabilities plus physical fulfillment.
-- [Jason Lemkin](entities/JasonLemkin.md) - SaaS author who treats demonstrated direct-report recruiting ability as a defining VP qualification.
+- [Jason Lemkin](entities/JasonLemkin.md) - SaaS author represented through practical but qualified heuristics for executive recruiting and private-company revenue estimation.
 - [SaaStr](entities/SaaStr.md) - Publication and event context represented by practical advice about scaling SaaS leadership teams.
 - [Edmond Lau](entities/EdmondLau.md) - Engineer and author connecting software-debugging discipline to product learning and shared-context team design.
 - [Zebras Unite](entities/ZebrasUnite.md) - Founder-and-funder movement promoting durable companies that pursue profit and social benefit together.
@@ -1934,7 +1935,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, continuous-feedback, and founder-vision-alignment case.
 - [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
-- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition, product-evolution, and explicit vacation-policy example.
+- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used for free-tool acquisition, product evolution, explicit vacation policy, and a qualified revenue-per-employee estimate.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as a startup-category map and as the undocumented distribution surface behind Airbnb's early listing integration.
 - [Groupon](entities/Groupon.md) - Daily-deals company represented through consumer growth loops, contested merchant economics, and concentrated employee outcomes.
 - [PayPal](entities/PayPal.md) - Payments company represented through referral growth, web-payment infrastructure, prototype payments, and Checkout API evolution.
@@ -2000,7 +2001,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Avneesh Saluja](entities/AvneeshSaluja.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Alok Gupta](entities/AlokGupta.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Cuky Perez](entities/CukyPerez.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
-- [LinkedIn](entities/LinkedIn.md) - Company context for scaling lessons, mission and culture codification, economic graph strategy, public connection-count virality, and Sachin Rekhi's NPS product-planning practice.
+- [LinkedIn](entities/LinkedIn.md) - Company context for scaling, economic-graph strategy, virality, NPS product planning, and public headcount as a competitive signal.
 - [Sachin Rekhi](entities/SachinRekhi.md) - Product leader and author whose LinkedIn NPS work shows how customer-loyalty measurement can feed product planning.
 - [SurveyMonkey](entities/SurveyMonkey.md) - Survey-tool example cited for cross-channel NPS collection and analysis.
 - [Bill Macaitis](entities/BillMacaitis.md) - SaaS marketing executive using attribution systems at Salesforce, Zendesk, and Slack to make growth spend measurable.
@@ -2464,6 +2465,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 ## Concepts
+- [Revenue Per Employee](concepts/RevenuePerEmployee.md) - Aggregate productivity ratio used here as a calibrated but highly qualified headcount-based estimator of private SaaS revenue.
 - [Founder Sacrifice Norm](concepts/FounderSacrificeNorm.md) - Contested belief that willingness to absorb extreme personal loss or transfer risk to a team demonstrates founder readiness.
 - [Database Engineering Tradeoffs](concepts/DatabaseEngineeringTradeoffs.md) - Coupled correctness, availability, latency, coordination, operability, and scaling consequences of database design choices.
 - [Release Communication](concepts/ReleaseCommunication.md) - Explaining product changes through channels and timing suited to the users who can actually encounter them.
@@ -2619,7 +2621,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Depression and Social Media](concepts/DepressionAndSocialMedia.md) - Interaction between existing depression and reward seeking, attention, comparison, performative identity, intimacy, and platform boundaries.
 - [Open-Closed Platform Cycle](concepts/OpenClosedPlatformCycle.md) - Proposed pattern in which controlled platforms simplify adoption but later face pressure to open or be displaced by outside technologies and ecosystems.
 - [Engagement Incentive Conflict](concepts/EngagementIncentiveConflict.md) - Tension between revenue that benefits from more usage and user welfare that may require less compulsive, more bounded engagement.
-- [Competitive Intelligence](concepts/CompetitiveIntelligence.md) - Use of rival and market signals for strategic decisions, with consumer telemetry adding consent, purpose, and power concerns.
+- [Competitive Intelligence](concepts/CompetitiveIntelligence.md) - Use of public company data, product signals, and behavioral telemetry to infer rival scale and momentum under distinct evidence and governance limits.
 - [Context Collapse](concepts/ContextCollapse.md) - The compression of distinct audiences into one setting can suppress personal disclosure even while overall platform use remains high.
 - [Aggregator Monopoly Power](concepts/AggregatorMonopolyPower.md) - Multi-sided platform power expressed through supplier surplus, attribution, advertising scarcity, information advantage, or innovation even when users pay no monetary price.
 - [Facebook Advertising Costs](concepts/FacebookAdvertisingCosts.md) - Auction-determined campaign prices whose meaning depends on objective, audience, competition, placement, relevance, timing, volume, and downstream value.
