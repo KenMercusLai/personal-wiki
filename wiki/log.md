@@ -7579,3 +7579,11 @@ Added [[AbhijitTomar]] and [[SearchListingImpersonation]], and updated [[Google]
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Niche Networks
+
+Added [[NicheSocialNetworks]] and updated [[MGSiegler]] and [[SocialPlatformNetworkEffects]] from their complete ordered evidence inventories. Recorded the 2017 argument that smartphone and app saturation made broad social entry harder without a platform reset, while targeted passion could concentrate relevance, repeat use, and specialized monetization within a meaningful fraction of a huge installed base. Preserved the lack of comparative launch, retention, attention, and revenue evidence, plus cold-start, moderation, incumbent-response, ceiling, and expansion risks. Opened all four effective image references and omitted them as decorative or duplicate Everest photographs illustrating the article's mountain metaphor.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Niche Networks](sources/niche-networks-500ish.md) - M.G. Siegler argues that mature mobile habits favor passion-centered social products and focused monetization over immediate pursuit of billion-user scale.
 - [New form of Google banking scam](sources/new-form-of-google-banking-scam.md) - Abhijit Tomar documents a bank impersonation scam routed through fraudulent Google business-listing contact data.
 - [Never Ask Two People to do One Person's Job](sources/never-ask-two-people-to-do-one-persons-job-both-sides-of-the-table.md) - Mark Suster argues that one-person requests need one named owner, with copied recipients treated as informed rather than ambiguously responsible.
 - [Network effects on social platforms: why the quality of user matters](sources/network-effects-on-social-platforms-why-the-quality-of-user-matters-version-one.md) - A Version One essay reframes social-platform network effects around relationship relevance, contribution, and product-specific critical mass rather than user count alone.
@@ -2602,6 +2603,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Niche Social Networks](concepts/NicheSocialNetworks.md) - Social products that pursue depth, density, and repeat use within a bounded passion or identity before undifferentiated scale.
 - [Search Listing Impersonation](concepts/SearchListingImpersonation.md) - Social engineering that manipulates search or directory contact data to route users to an impersonator.
 - [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
 - [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
