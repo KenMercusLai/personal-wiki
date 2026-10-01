@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Boosting Sales With Machine Learning](sources/per-harald-borgen-boosting-sales-with-machine-learning.md) - Per Harald Borgen describes a Xeneta experiment using company-description NLP and a Random Forest to triage sales leads, with important data and evaluation limits.
 - [People Need My Product! (But Do They Want It?)](sources/people-need-my-product-but-do-they-want-it.md) - Justin Jackson argues that useful products need demonstrated demand, an immediate desired reward, and a quick path to continuing value rather than a beneficial need alone.
 - [People Don’t Want Something Truly New, They Want the Familiar Done Differently](sources/people-dont-want-something-truly-new-they-want-the-familiar-done-differently.md) - Nir Eyal argues that recognizable ingredients, metaphors, and controls can provide a qualified gateway into unfamiliar products and behaviors.
 - [Paul Graham - Write Simply](sources/paul-graham-write-simply.md) - Paul Graham argues that ordinary words, simple sentences, and extensive cutting reduce reader effort, widen access, expose weak ideas, and improve durability.
@@ -994,6 +995,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Xeneta](entities/Xeneta.md) - Sea-freight market-intelligence company represented through a 2016 experiment in machine-assisted lead qualification.
 - [Dating Ring](entities/DatingRing.md) - Dating service represented through a qualified relaunch case in which profile photos and preference controls returned after weak signup demand.
 - [Rob Walling](entities/RobWalling.md) - Entrepreneur represented through the Minimum Path to Awesome heuristic for outcome-centered onboarding.
 - [Jony Ive](entities/JonyIve.md) - Apple designer represented through familiar physical forms that scaffold new digital interactions and can recede after learning.
@@ -2651,6 +2653,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Text Classification](concepts/TextClassification.md) - Assigning predefined labels to text through a bounded pipeline of data acquisition, representation, supervised learning, evaluation, and human review.
 - [Product Demand Alignment](concepts/ProductDemandAlignment.md) - Connecting durable product value to an immediate result, experience, or identity that customers want enough to act on.
 - [California Roll Rule](concepts/CaliforniaRollRule.md) - Product-design heuristic for introducing novel value through an accurate and recognizable initial frame.
 - [Database Overload Protection](concepts/DatabaseOverloadProtection.md) - Layered admission, pooling, caching, isolation, query control, and load shedding that prevent database saturation from cascading.

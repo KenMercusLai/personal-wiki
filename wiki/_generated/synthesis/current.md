@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: b0e1e76add15cc9e6688b988c97b9a96efaa3ab3
+as_of_overview_commit: 88f5d60a82988a6db3304a764aef40b46b2885ec
 summary: "Durable outcomes require demonstrated demand, explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
-episode_count: 969
-source_count: 969
-paragraph_count: 703
+episode_count: 970
+source_count: 970
+paragraph_count: 704
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit interfaces, workload fit, verification, recovery, accessibility, privacy, and accountable control.
+Technical outcomes depend on explicit interfaces, workload fit, verification, recovery, accessibility, privacy, accountable control, and operational evidence that includes upstream data and human decision costs.
 
 - [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact. Evidence: [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]].
 - [[NickCraver]]'s [[StackOverflow]] case makes high-frequency delivery a compatibility system: [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] shorten integration and promotion, [[ForwardOnlyDatabaseMigration]] stages schema use and removal around adjacent versions, and [[RollingDeployment]] uses [[HAProxy]] drainage, repeated readiness checks, and static-assets-first ordering to bound mixed-version failure. Evidence: [[NickCraver]], [[StackOverflow]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], [[HAProxy]].
 
 ### Business and Markets
 
-Durable value joins demonstrated customer demand, continuing outcomes, sustainable economics, operating capability, governed distribution, and risks matched to the work.
+Durable value joins demonstrated demand, continuing outcomes, sustainable economics, operating capability, governed distribution, and risks matched to the work, with predictive tools judged by workflow and business outcomes rather than model scores alone.
 
 - [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms. Evidence: [[ProductDemandAlignment]], [[JustinJackson]], [[DatingRing]], [[JamesClear]], [[RobWalling]].
 - [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution. Evidence: [[BenjaminHardy]], [[DanSullivan]], [[DanMartell]], [[NassimNicholasTaleb]], [[ResultsEconomy]], [[ForcingFunctions]], [[SkinInTheGame]], [[ThomasStanley]].

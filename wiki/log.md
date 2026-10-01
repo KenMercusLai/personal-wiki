@@ -7795,3 +7795,11 @@ Created [[ProductDemandAlignment]], [[RobWalling]], and [[DatingRing]], and upda
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Boosting Sales With Machine Learning
+
+Created [[Xeneta]] and [[TextClassification]], and updated [[PerHaraldBorgen]], [[NaturalLanguageProcessing]], [[BagOfWordsModel]], and [[TFIDFRanking]] from their complete ordered evidence inventories. Recorded the end-to-end lead-triage pipeline from company-name resolution and description retrieval through balanced labels, preprocessing, count and tf-idf features, model comparison, and a reported 86.4% test accuracy. Preserved the single-split, accuracy-only, upstream-data, labeling-bias, class-prevalence, generalization, and missing-sales-outcome limits, and kept human qualification inside the intended workflow. Opened both effective local images; omitted the illustrative port photograph and retained the text-bearing sparse company-list screenshot under a descriptive canonical filename with a complete manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

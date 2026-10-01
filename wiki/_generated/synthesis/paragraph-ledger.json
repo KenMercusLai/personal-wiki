@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
       "a5ed303d403b8f990707a0f0211758459469334580cb89b267c90ff5666a45be",
       "ec3d96d1dfdf9e03ba9282955d5d1b74adf9cb46a641f655538cd3fc805d2a08",
       "881357cfa31f0895ef477d953a2d658f7704a88d48643c67ffa2f211b881c3b5",
@@ -705,11 +706,29 @@
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
     ],
-    "paragraph_count": 703
+    "paragraph_count": 704
   },
-  "overview_commit": "b0e1e76add15cc9e6688b988c97b9a96efaa3ab3",
-  "overview_digest": "260948d9631b64f9827d4d7969f8f8b79a7ea53ba3dc66d107006ae48c97c17d",
+  "overview_commit": "88f5d60a82988a6db3304a764aef40b46b2885ec",
+  "overview_digest": "717245cc71696a40a5e8ee4c0c5bf400b967325d1db7c6b704c4c12b9f9a9cf5",
   "paragraphs": [
+    {
+      "id": "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[PerHaraldBorgen]] source adds a bounded applied-ML case at [[Xeneta]]. A sparse company-name sheet first has to become usable text through search-based URL resolution and FullContact descriptions; 1,000 existing customers and 1,000 manually rejected firms then supply balanced labels; regex cleaning, stemming, stop-word removal, [[BagOfWordsModel]], and tf-idf produce features for [[TextClassification]]. A Random Forest reportedly outperformed K-nearest neighbors and reached 86.4% accuracy on a 70/30 split after tuning vocabulary size, one-to-three-word grams, and estimator count. The durable lesson is system-level rather than algorithmic: upstream entity resolution, third-party description coverage, labeling choices, class prevalence, and human review are part of the prediction workflow. Accuracy alone does not reveal false-positive sales effort or missed prospects, and the source reports no cross-validation, confusion matrix, calibration, production drift, or sales outcome. The intended use therefore remains rough prioritization before human qualification, not demonstrated autonomous selling. Both local images were opened; the decorative port photograph was omitted, while the text-bearing sparse company-list screenshot was retained canonically because it shows the manual input problem.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "BagOfWordsModel",
+        "PerHaraldBorgen",
+        "TextClassification",
+        "Xeneta"
+      ]
+    },
     {
       "id": "a5ed303d403b8f990707a0f0211758459469334580cb89b267c90ff5666a45be",
       "primary_topic": "business-and-markets",
