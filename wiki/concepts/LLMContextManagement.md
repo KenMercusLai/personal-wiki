@@ -12,7 +12,8 @@ sources:
   - agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin
   - blog-guangzhengli-vibe-coding-and-context-coding
   - context-engineering-from-the-inside-out
-last_updated: 2026-09-26
+  - philipp-schmid-gemini-3-prompting-best-practices-for-general-usage
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -36,14 +37,16 @@ Guangzhengli turns context management into a practical history of AI coding tool
 
 The newest source makes this practice explicit as context engineering and gives it two coupled objectives: curate what the model can use effectively, and keep the reusable prefix stable enough for KV-cache reuse. It maps always-on project instructions to the beginning of context, task-selected skills and action-triggered hooks to timely loading near the current action, and recursive CLI discovery to a way of avoiding large always-loaded tool-schema catalogs. It also treats pattern pollution as distinct from factual noise: examples of undesirable behavior in the trajectory can become implicit instructions that the model repeats.
 
+Schmid's Gemini 3 guide adds a prompt-level placement rule that fits this architecture. Stable roles and behavioral constraints belong at the beginning or in the system instruction, while the concrete question over a large document, codebase, or media context belongs after that material and should explicitly point back to it. This separates persistent policy from the recency-sensitive task. The same guide treats modalities as one context rather than isolated channels: if text, images, audio, or video must jointly inform the result, the instruction should name that synthesis requirement.
+
 ## Key Claims
 - LLMs generate from probability distributions over tokens, so context strongly shapes both reasoning and action.
 - Skills, MCP, RAG, Memory, and Computer Use can be understood as different context-management and action-interface patterns.
-- Longer context windows reduce capacity pressure but do not remove noise, irrelevant material, misleading traces, tool-call outputs, or messy source formats that pollute later reasoning.
-- Context quality can degrade through accumulated failed attempts, contradictory instructions, emotional pressure, lossy summarization, or overloaded sessions.
+- Longer context windows reduce capacity pressure but do not prevent degradation from irrelevant material, messy formats, failed attempts, contradictory instructions, emotional pressure, lossy summaries, or misleading tool traces.
 - Stable system/tool prefixes, deterministic tool results, dynamic conversation suffixes, and provider-side cache edits offer ways to balance context adaptation with prompt-cache reuse.
 - Long coding-agent and group-chat sessions create practical failure modes when auto-compaction happens mid-task, topics run in parallel, or a task is too large for one session.
-- Always-on project files, on-demand skills, action-triggered hooks, append-only history, milestone resets, file-backed state, and interface-delivered diagnostics can put information closer to the moment when it is useful without carrying every past state forward.
+- Always-on project files, on-demand skills, action-triggered hooks, append-only history, milestone resets, and file-backed state can avoid carrying every past state forward; persistent constraints belong early, while a query over long supplied evidence benefits from recency and an explicit final anchor.
+- Multimodal context needs explicit cross-modal instructions when text, images, audio, or video must inform one answer.
 
 ## Evidence
 - Shared framing: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] explicitly says Skills, MCP, and coding-agent command execution are different openings from LLM text generation into the outside world, then frames them as solving context pollution.
@@ -65,6 +68,8 @@ The newest source makes this practice explicit as context engineering and gives 
 - Placement and loading: [[context-engineering-from-the-inside-out]] assigns broad project rules to concise `AGENTS.md`/`CLAUDE.md` files, task-specific procedures to on-demand skills, and action-specific guardrails to hooks immediately around tool execution.
 - Pattern and cache hygiene: [[context-engineering-from-the-inside-out]] warns that trajectories teach behavior by example and recommends stable ordering plus removal of irrelevant timestamps, UUIDs, and metadata from tool results when cross-request reuse matters.
 - Lossy handoff: [[context-engineering-from-the-inside-out]] frames compaction and subagents as sequential and parallel uses of fresh context that both compress information at the handoff boundary.
+- Prompt-layer placement: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] recommends placing role and behavior constraints at the beginning while putting the specific task after a large context block with an explicit bridge to the preceding material.
+- Multimodal coherence: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] says prompts should reference the modalities to be synthesized rather than leave them as disconnected inputs.
 
 ## Counterevidence & Qualifications
 The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the interface-as-context claim remains a design argument rather than a validated UI standard. Guangzhengli's tool comparison is also experience-based and may change with pricing, model quality, and product behavior. The newest source's tagging-agent accuracy is self-reported without a published evaluation protocol, and its claims about thinking-token removal depend on a particular runtime.
@@ -73,10 +78,12 @@ The tape-and-anchors model is also conceptual: it gives a useful alternative to 
 
 The humanities-workflow source gives practical heuristics but not measured thresholds for how much text different models can reliably use, or when RAG, batching, and manual source preparation outperform each other.
 
+Schmid's placement and multimodal recommendations are likewise model-specific practitioner guidance without controlled comparisons. Beginning-and-end placement may improve salience, but it does not guarantee faithful use of the intervening material, and added planning or anchoring language consumes context and latency that simple tasks may not need.
+
 ## What Changed
-- Added effective attention, pattern pollution, and stable-prefix reuse as joint context-engineering concerns.
-- Distinguished always-on project files, task-selected skills, and action-triggered hooks by loading time and context position.
-- Added deterministic tool-response normalization and the lossy-handoff equivalence between compaction and subagents.
+- Added the distinction between early durable constraints and end-positioned questions over long evidence blocks.
+- Added explicit cross-modal synthesis as a context-management requirement.
+- Qualified both recommendations as unmeasured, model-specific practitioner guidance.
 
 ## Related Concepts
 - [[LLMToolingSkills]] - Skills manage context by adding expert instructions.
@@ -92,3 +99,4 @@ The humanities-workflow source gives practical heuristics but not measured thres
 - [[AIWorkflowDesign]] - workflow design turns context preparation into a repeatable production practice.
 - [[AgentInterfaceAsContext]] - interfaces can deliver timely diagnostic context during agent action.
 - [[ContextCoding]] - context coding applies these context-management concerns directly to AI-assisted software development.
+- [[PromptEngineering]] - turns context selection, boundaries, placement, and output requirements into a task-facing instruction contract.

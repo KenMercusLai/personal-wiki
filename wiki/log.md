@@ -7803,3 +7803,11 @@ Created [[Xeneta]] and [[TextClassification]], and updated [[PerHaraldBorgen]], 
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Gemini 3 Prompting: Best Practices for General Usage
+
+Added [[PhilippSchmid]] and [[PromptEngineering]], and updated [[Gemini]] and [[LLMContextManagement]] from their complete ordered evidence inventories. Recorded direct instruction, consistent boundaries, explicit output requirements, early durable constraints, end-positioned questions over long context, cross-modal synthesis, planning, self-review, and persistent tool recovery as practitioner patterns rather than universal laws. Preserved the lack of controlled comparisons, model-version specificity, token and latency costs, and the need for external verification in consequential work. The supplied Markdown contains no effective image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
