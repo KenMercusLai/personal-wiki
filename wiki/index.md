@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to Use Obsidian as a Zettelkasten: The Ultimate Tutorial](sources/matt-giaro-how-to-use-obsidian-as-a-zettelkasten.md) - Matt Giaro presents a minimalist Bear-to-Obsidian workflow built from short incubation, own-words permanent notes, meaningful links, flat Markdown storage, and output reuse.
 - [Bottleneck #02: Talent](sources/martin-fowler-thoughtworks-bottleneck-02-talent.md) - Tim Cochran and Roni Smith frame scaleup hiring as a forecasted operating system spanning strain signals, recruiting capacity, talent mix, inclusion, candidate feedback, and time-to-effectiveness.
 - [Bottleneck #01: Tech Debt](sources/martin-fowler-thoughtworks-bottleneck-01-tech-debt.md) - Martin Fowler frames technical debt as a stage-sensitive startup tradeoff requiring diagnosis, warning signals, shared product-engineering judgment, clear ownership, and continuous repayment rather than blanket cleanup.
 - [Marc Benioff: Win Customers by Treating Them Like Partners](sources/marc-benioff-win-customers-by-treating-them-like-partners.md) - Benioff links pioneer targeting, network-led sales, free design partners, prioritized feedback, rapid shipping, and low-risk monthly conversion in Salesforce's first-customer account.
@@ -954,6 +955,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [What if you don't need MCP at all?](sources/mario-zechner-what-if-you-dont-need-mcp-at-all.md) - Mario Zechner uses a small Puppeteer-backed browser CLI to argue that task-specific shell tools can be more context-efficient, composable, and extensible than broad MCP servers.
 
 ## Entities
+- [Matt Giaro](entities/MattGiaro.md) - Writer and creator documenting a minimalist capture, filtering, linked-note, and content-production workflow.
+- [Bear](entities/Bear.md) - Rapid-capture application used as a short-term idea inbox before selected material moves to Obsidian.
 - [Tim Cochran](entities/TimCochran.md) - Thoughtworks technical director represented through a system-level account of scaleup talent constraints, developer experience, and capacity forecasting.
 - [Roni Smith](entities/RoniSmith.md) - Thoughtworks recruiting leader represented through operational guidance on recruiting capacity, candidate experience, inclusion, and talent development.
 - [Marc Benioff](entities/MarcBenioff.md) - Salesforce founder represented through a trust-first, customer-partnership account of early sales and product learning.
