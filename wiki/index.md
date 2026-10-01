@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Resilience Problem](sources/russ-white-the-resilience-problem.md) - Russ White frames network resilience as a trade-off among redundancy, cost, traffic efficiency, state, interaction surfaces, and software-network responsibility.
 - [Research: Off-Path TCP Attacks](sources/rule-11-reader-research-off-path-tcp-attacks.md) - Rule 11 Reader explains how TCP duplicate ACKs and wireless contention can form a timing oracle for receive-window inference and attempted off-path injection.
 - [Ship / Show / Ask](sources/rouan-wilsenach-ship-show-ask.md) - Rouan Wilsenach separates direct mainline shipping, non-blocking pull-request visibility, and feedback-blocked review according to change risk, uncertainty, and learning needs.
 - [计算机领域的三个重要思想：抽象，分层和高阶](sources/ray-eldath-ji-suan-ji-ling-yu-de-san-ge-zhong-yao-si-xiang-chou-xiang-fen-ceng-he-gao-jie.md) - Ray Eldath connects pragmatic software abstraction, Hyrum's Law, higher-order reasoning, partial evaluation, and the three Futamura projections while later retracting his broader concern about mathematical prerequisites.
@@ -1017,7 +1018,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning from the Post-Mortem](sources/rule-11-reader-learning-from-the-post-mortem.md) - Russ White proposes mapping setup, detection, and troubleshooting workflows so postmortems change systems and preserve reusable incident knowledge.
 
 ## Entities
-- [Russ White](entities/RussWhite.md) - Network engineer and Rule 11 Reader author represented through a systems-oriented three-workflow method for incident learning.
+- [Russ White](entities/RussWhite.md) - Network engineer and Rule 11 Reader author connecting workflow-based incident learning with multi-objective resilient network design.
 - [Rouan Wilsenach](entities/RouanWilsenach.md) - Software practitioner represented through a per-change framework for integration, visibility, feedback, and merge authority.
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
 - [Michael Lopp](entities/MichaelLopp.md) - Technology leader and Rands in Repose writer represented through purpose-driven approaches to meetings, organizational information, workspace design, and focus.
@@ -2696,6 +2697,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robin Marx](entities/RobinMarx.md) - Web-performance and protocol researcher represented through packet-level analysis of HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking.
 
 ## Concepts
+- [Network Resilience Trade-offs](concepts/NetworkResilienceTradeoffs.md) - Multi-objective design of failure tolerance, cost, throughput, state, simplicity, and interaction surfaces across software and networking.
 - [Ship / Show / Ask](concepts/ShipShowAsk.md) - Per-change framework separating direct integration, non-blocking visibility, and pre-merge discussion.
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.
 - [Abstraction Leakage](concepts/AbstractionLeakage.md) - Exposure of implementation behavior through compatibility, correctness, performance, or operational dependencies beyond a stated interface contract.
@@ -2736,7 +2738,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
 - [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
 - [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.
-- [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture whose internal STP replacement does not automatically protect edge attachments.
+- [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture whose path redundancy does not automatically prevent edge loops or systemic control-plane failures.
 - [Edge Network Loop Protection](concepts/EdgeNetworkLoopProtection.md) - Layered detection and containment of accidental bridging loops at endpoint and adjacent-network boundaries.
 - [Dead Code Tombstones](concepts/DeadCodeTombstones.md) - Bounded runtime probes used to test whether apparently unused code executes before maintainers delete or refactor it.
 - [Business Naming](concepts/BusinessNaming.md) - Framing, generating, screening, and testing a company name for brand fit, comprehension, distinctiveness, and operational usability.

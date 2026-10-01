@@ -7971,3 +7971,11 @@ Created [[OffPathTCPInjection]] and [[ProtocolMetadataSideChannels]] from the ar
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | The Resilience Problem
+
+Created [[NetworkResilienceTradeoffs]] and updated [[RussWhite]] and [[DataCenterNetworkFabric]] from their complete ordered evidence inventories. Recorded the contrast between a low-state single-link design and a high-throughput parallel fabric, the costs of added redundancy, control-plane and grey-failure exposure, selective simplification, and allocation of resilience across software and networking as one system. Preserved the essay's conceptual practitioner scope, undefined metrics, absent topology and failure measurements, and the qualification that more state or abstraction does not necessarily reduce resilience. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
