@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Questions to Ask Your Interviewer](sources/questions-to-ask-your-interviewer.md) - Randall Koutnik turns technical interviews into two-way diligence through specific questions, concrete examples, and probes into role scope, engineering operations, authority, communication, feedback, and growth.
 - [Questions startup Founders should ask Angel Investors and VC’s, but rarely do](sources/questions-startup-founders-should-ask-angel-investors-and-vcs-but-rarely-do.md) - An investor-screening checklist turns fundraising into two-way diligence over deployment activity, authority, terms, follow-on behavior, pace, and value-add while qualifying urgency tactics as unmeasured practitioner advice.
 - [Question: exactly when is someone going to use your app/service?](sources/question-exactly-when-is-someone-going-to-use-your-app-service.md) - A 2016 product-strategy essay argues that consumer products need a specific recurring state or routine that triggers use, while qualifying “state ownership” as an unmeasured practitioner model.
 - [Pokémon Recognition](sources/pokemon-recognition.md) - Dmitrii Petukhov uses an 80-image Pokémon example to show raw-pixel classification, PCA compression, eigenpokemon, and a qualified speed-accuracy tradeoff.
@@ -1001,6 +1002,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Randall Koutnik](entities/RandallKoutnik.md) - Software-industry writer presenting specific questions and recent examples as tools for candidate-side employer diligence.
 - [Dmitrii Petukhov](entities/DmitriiPetukhov.md) - Tutorial author represented through a small classical image-classification and PCA experiment.
 - [Pierce Freeman](entities/PierceFreeman.md) - Software practitioner arguing from a first-person production case for qualified self-hosted PostgreSQL operation.
 - [Pia Silva](entities/PiaSilva.md) - Entrepreneur and former Forbes contributor represented through the autonomy-dependent 1-6 work-schedule experiment she calls SpainBrain.
@@ -3845,7 +3847,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity, product-scope constraint, and survival time rather than only calendar months before cash runs out.
-- [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate and employee verification of startup viability, payroll, conduct, role conditions, fit, learning returns, and escalation signals.
+- [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate and employee verification of viability, operating practice, role conditions, fit, learning returns, payroll, conduct, and escalation signals.
 - [Vanity Metrics](concepts/VanityMetrics.md) - Surface attention or activity counts that weakly evidence value unless tied to authentic users, defined behavior, and downstream outcomes.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of protecting a coherent customer, product, performance, and business sequence when competing opportunities consume scarce attention.
 - [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.

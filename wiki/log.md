@@ -7851,3 +7851,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Questions to Ask Your Interviewer
+
+Created [[RandallKoutnik]] and updated [[StartupJobDiligence]] from its complete ordered evidence inventory. Recorded specific questions, recent examples, and follow-up probes as a method for testing role scope, unsupported change expectations, task interruption, engineering and deployment practice, decision authority, communication, feedback, and employee development. Preserved the source's practitioner, selection-bias, team-variation, candidate-leverage, and context limits. Opened the sole effective local image and omitted it as a decorative author mark, so no visual asset or manifest was required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

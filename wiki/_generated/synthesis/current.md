@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 22af573212807076aa16cbe4c377c531cdea998d
+as_of_overview_commit: 8e39d02694fc504e1cafffc55337632c579a2719
 summary: "Durable outcomes require demonstrated demand, explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
-episode_count: 976
-source_count: 976
+episode_count: 977
+source_count: 977
 paragraph_count: 708
 topic_count: 9
 ---
