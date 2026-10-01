@@ -687,12 +687,13 @@
       "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83",
       "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf",
       "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4",
-      "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b"
+      "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b",
+      "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e"
     ],
-    "paragraph_count": 687
+    "paragraph_count": 688
   },
-  "overview_commit": "5d2e9111d56b90223d9871062f9b000763e10bde",
-  "overview_digest": "d0b3b2163ecef7918f8b44384123fa054849999e752cb47e43f376c0453074e5",
+  "overview_commit": "8fba8586a0ef49fe8c3d379d66fd002867b2c036",
+  "overview_digest": "7a243eb0b3bdd638990ea4ca19f3702c392cd4add90c383754c5b4b1d8cc3b7e",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13916,6 +13917,21 @@
         "HashiCorp",
         "MitchellHashimoto",
         "StartupTreasuryManagement"
+      ]
+    },
+    {
+      "id": "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest business-naming source adds [[BusinessNaming]] as a staged design process within [[StartupBrandStrategy]]. Define and discover turn mission, values, customer language, competitor patterns, and category conventions into evaluation criteria; develop separates high-volume collaborative ideation from judgment; and deliver filters candidates for meaning, spelling, typing, pronunciation, first impressions, domain and social availability before comparing finalists. This strengthens the wiki's behavioral view of brand by treating a name as an early, durable identity signal without mistaking it for the brand itself: product, price, channel, communication, and service still have to make the implied promise credible. The article's landing-page tests and social polls provide only conditional evidence because targeting, creative execution, sampling, and short-run response can distort the result, while trademark, linguistic, accessibility, and international review remain unaddressed. All ten local images were opened and omitted as decorative illustrations, standalone logos, or examples whose substantive point was already repeated in prose.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BusinessNaming",
+        "StartupBrandStrategy"
       ]
     }
   ],

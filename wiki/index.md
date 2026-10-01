@@ -958,6 +958,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 - [What if you don't need MCP at all?](sources/mario-zechner-what-if-you-dont-need-mcp-at-all.md) - Mario Zechner uses a small Puppeteer-backed browser CLI to argue that task-specific shell tools can be more context-efficient, composable, and extensible than broad MCP servers.
 - [Your first 500 users](sources/mitchell-lee-your-first-500-users.md) - Mitchell Lee describes Penny's staged path from observed onboarding and founder networks to a marketing page, community channels, incidental press, and 500 reported signups.
+- [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 
 ## Entities
 - [Mitchell Hashimoto](entities/MitchellHashimoto.md) - HashiCorp cofounder represented through a self-critical account of early business-banking mistakes and delegation to professional finance leadership.
@@ -2589,6 +2590,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Business Naming](concepts/BusinessNaming.md) - Framing, generating, screening, and testing a company name for brand fit, comprehension, distinctiveness, and operational usability.
 - [Startup Treasury Management](concepts/StartupTreasuryManagement.md) - Safeguarding, monitoring, allocating, migrating, and retiring startup cash accounts across financial institutions and payment routes.
 - [Linux Bandwidth Monitoring](concepts/LinuxBandwidthMonitoring.md) - Reset-aware collection and interpretation of Linux interface traffic for quota accounting, rate visibility, and automated thresholds.
 - [Deep Preparation](concepts/DeepPreparation.md) - Concentrated research, expert consultation, active questioning, review, and synthesis intended to improve understanding, conversation quality, and durable trust.

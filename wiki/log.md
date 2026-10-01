@@ -7519,3 +7519,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Need help with business naming? Apply these design thinking exercises
+
+Added [[BusinessNaming]] and updated [[StartupBrandStrategy]] from its complete ordered evidence inventory. Recorded the define-discover-develop-deliver sequence from mission, customer language, competitor patterns, and naming conventions through divergent ideation, usability and availability screening, and finalist testing. Preserved the limits of polls and landing-page tests plus gaps around trademark, linguistic, accessibility, and international review. Opened all ten local images and omitted them as decorative illustrations, standalone logos, or examples whose substantive content was already stated in the prose.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

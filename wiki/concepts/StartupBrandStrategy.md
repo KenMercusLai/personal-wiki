@@ -6,7 +6,8 @@ sources:
   - credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review
   - four-promises-a-brand-makes-to-its-customers-lightspeed-venture-partners-medium
   - gibson-biddle-branding-for-builders
-last_updated: 2026-09-28
+  - need-help-with-business-naming-apply-these-design-thinking-exercises
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ A direction-setting layer comes from [[GibsonBiddle]]'s [[BrandPositioning]] and
 
 The external loop is equally important: founders engage critics directly, test explanations in candid communities, study the audience's own language, measure delight and advocacy, and convert promoter feedback into product work. Word of mouth is therefore not assumed; it is tied to repeat use, referrals, sharing, public defense, and improvements that give advocates something worth recommending.
 
+A company name is an early identity decision within this operating model. It should emerge from mission, values, customer language, category context, and deliberate positioning; broad ideation is followed by tests of meaning, spelling, pronunciation, first impressions, domain and social availability, and limited behavioral or preference evidence. The name can introduce the brand and constrain later expression, but it remains one signal whose promise must still be made credible through product, price, channel, communication, and service. [[BusinessNaming]] describes that staged process.
+
 ## Key Claims
 - Brand identity is more credible when it starts from demonstrated team behavior rather than aspirational adjectives.
 - Admired brands should function as positioning foils that clarify both desired and rejected attributes.
@@ -29,7 +32,7 @@ The external loop is equally important: founders engage critics directly, test e
 - Product, price, channel, marketing, features, and service behavior are brand evidence; consistent delivery can accumulate brand equity even when some investments create trust or habitual engagement rather than immediate revenue.
 - Direct exposure to candid criticism can reveal objections, improve explanations, and test whether stated values survive scrutiny.
 - Delight and advocacy require multiple signals and responsive action, not an isolated brand campaign or a single score.
-- Advocates can become a product-learning community when the company seeks their problems and closes the feedback loop, while brand positioning and emotional aspiration provide a stable-enough “true north” for evolving product attributes and presentation.
+- Brand direction should connect positioning and emotional aspiration with concrete identity choices such as the company name, while product attributes and presentation continue to evolve.
 
 ## Evidence
 - Identity and contrast exercises: [[credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review]] recommends surveying shared team traits and comparing borrowed versus rejected attributes from admired brands.
@@ -41,14 +44,16 @@ The external loop is equally important: founders engage critics directly, test e
 - Effect rather than surface cause: [[four-promises-a-brand-makes-to-its-customers-lightspeed-venture-partners-medium]] says visual branding can enhance an earned brand but should not stand alone.
 - Directional frameworks: [[gibson-biddle-branding-for-builders]] connects a three-part positioning model with a four-level pyramid from attributes to long-term aspiration.
 - Product/marketing co-evolution: [[gibson-biddle-branding-for-builders]] describes Netflix changing its product and homepage presentation while retaining ease, delight, and escape as organizing ideas.
+- Naming as an identity decision: [[need-help-with-business-naming-apply-these-design-thinking-exercises]] connects mission, audience language, category research, divergent ideation, usability screening, availability, and testing in a four-stage naming process.
 
 ## Counterevidence & Qualifications
-The frameworks come from successful-company retrospectives and a short investor essay rather than comparative studies. They do not isolate the causal contribution of brand from product-market fit, pricing, financing, distribution, partnerships, category dynamics, or selection effects among vocal advocates. Forum participants and promoters may not represent the broader market, direct founder engagement may not scale, non-revenue features have opportunity costs, and repeated testing can optimize local signals without proving durable trust. Homepage experiments identify the effect of tested presentations on selected conversion metrics, not the independent long-term effect of a brand framework. Claims connecting high NPS with growth or market leadership lack underlying research details and should not be treated as causal evidence. The four-promise and pyramid models are normative and leave measurement and tradeoff rules under-specified.
+The frameworks come from successful-company retrospectives and short practitioner or investor essays rather than comparative studies. They do not isolate the causal contribution of brand from product-market fit, pricing, financing, distribution, partnerships, category dynamics, or selection effects among vocal advocates. Forum participants, promoters, and social poll respondents may not represent the broader market; direct founder engagement may not scale; and non-revenue features have opportunity costs. Homepage or naming experiments identify the effect of tested presentations on selected short-run metrics, not the independent long-term effect of a brand framework or name. Claims connecting high NPS with growth or market leadership lack underlying research details and should not be treated as causal evidence. The four-promise, pyramid, and naming models are normative and leave important measurement and tradeoff rules under-specified; domain checks also do not replace trademark, linguistic, accessibility, or international review.
 
 ## What Changed
 - Created a startup-brand model connecting real identity, explicit prohibitions, product behavior, direct criticism, advocacy, and measurement.
 - Added product, price, channel, and marketing as a customer-promise model that distinguishes earned brand equity from visual branding.
 - Added positioning and brand-pyramid layers that connect changing product attributes with more durable functional, emotional, and aspirational direction.
+- Added business naming as an early brand decision shaped by mission and category context, then screened for usability, availability, and audience response.
 
 ## Related Concepts
 - [[BrandDistinctiveness]] - audience attention and memory are outcomes, while startup brand strategy specifies how company behavior earns them.
@@ -60,3 +65,4 @@ The frameworks come from successful-company retrospectives and a short investor 
 - [[BrandEquity]] - names the accumulated customer belief that consistent operational delivery is intended to earn.
 - [[BrandPositioning]] - clarifies the relative idea, benefit, and personality the operating system should express.
 - [[BrandPyramid]] - links changing attributes to functional, emotional, and aspirational meaning.
+- [[BusinessNaming]] - turns brand direction into an early identity choice that must remain usable and credible across later touchpoints.

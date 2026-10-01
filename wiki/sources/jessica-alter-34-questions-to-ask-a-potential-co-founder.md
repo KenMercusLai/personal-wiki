@@ -2,7 +2,7 @@
 title: "34 Questions to Ask a Potential Co-Founder"
 type: source
 tags: [startup, co-founders, founder-diligence, governance]
-date: 2024-02-27
+date: 2012-12-03
 source_file: "/mnt/ken_personal_wiki/Articles/Jessica Alter - 34 Questions to Ask a Potential Co-Founder.md"
 ---
 

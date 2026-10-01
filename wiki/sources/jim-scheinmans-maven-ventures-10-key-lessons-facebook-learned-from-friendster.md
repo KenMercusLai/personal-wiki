@@ -2,7 +2,7 @@
 title: "Jim Scheinman's Maven Ventures: 10 Key Lessons Facebook Learned from Friendster"
 type: source
 tags: [startups, social-networks, product-strategy, growth]
-date: 2026-04-06
+date: 2014-01-03
 source_file: "/mnt/ken_personal_wiki/Articles/Jim Scheinman's Maven Ventures, 10 Key Lessons Facebook Learned from Friendster .md"
 ---
 

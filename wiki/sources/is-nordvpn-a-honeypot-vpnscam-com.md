@@ -2,7 +2,7 @@
 title: "Is NordVPN a Honeypot? - VPNscam.com"
 type: source
 tags: [nordvpn, vpn, affiliate-marketing, review-integrity, surveillance-allegation]
-date: 2026-04-09
+date: 2018-08-28
 source_file: "/mnt/ken_personal_wiki/Articles/Is NordVPN a Honeypot- – VPNscam.com.md"
 ---
 

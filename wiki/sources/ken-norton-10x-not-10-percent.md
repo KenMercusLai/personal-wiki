@@ -2,7 +2,7 @@
 title: "10x Not 10%"
 type: source
 tags: [product-management, innovation, moonshot-thinking, organizational-learning]
-date: 2015-12-18
+date: 2015-12-17
 source_file: "/mnt/ken_personal_wiki/Articles/Ken Norton - 10x Not 10 Percent.md"
 ---
 

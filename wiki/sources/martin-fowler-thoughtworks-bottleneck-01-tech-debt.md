@@ -2,7 +2,7 @@
 title: "Bottleneck #01: Tech Debt"
 type: source
 tags: [technical-debt, startup-scaling, engineering-management, software-quality]
-date: 2026-02-10
+date: 2022-03-09
 source_file: "/mnt/ken_personal_wiki/Articles/Martin Fowler (Thoughtworks) - Bottleneck 01 Tech Debt.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "John Carmack on Inlined Code"
 type: source
 tags: [programming, code-style, inlining, game-development]
-date: 2007-03-13
+date: 2014-09-26
 source_file: "/mnt/ken_personal_wiki/Articles/John Carmack on Inlined Code.md"
 ---
 

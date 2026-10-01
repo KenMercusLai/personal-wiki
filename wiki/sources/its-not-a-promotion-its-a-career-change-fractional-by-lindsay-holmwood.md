@@ -2,7 +2,7 @@
 title: "It's not a promotion - it's a career change"
 type: source
 tags: [engineering-management, career-development, leadership, people-management]
-date: 2026-04-09
+date: 2014-09-19
 source_file: "/mnt/ken_personal_wiki/Articles/It's not a promotion - it's a career change - Fractional by Lindsay Holmwood.md"
 ---
 

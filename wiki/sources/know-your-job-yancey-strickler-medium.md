@@ -2,7 +2,7 @@
 title: "Know your job"
 type: source
 tags: [leadership, management, career]
-date: 2017-11-01
+date: 2017-09-04
 source_file: "/mnt/ken_personal_wiki/Articles/Know your job - Yancey Strickler - Medium.md"
 ---
 

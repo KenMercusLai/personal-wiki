@@ -2,7 +2,7 @@
 title: "A Peek Inside Alphabet's Investing Universe"
 type: source
 tags: [alphabet, google, venture-capital, corporate-investing]
-date: 2018-02-17
+date: 2018-02-14
 source_file: "/mnt/ken_personal_wiki/Articles/Jason Rowley - A Peek Inside Alphabet's Investing Universe.md"
 ---
 

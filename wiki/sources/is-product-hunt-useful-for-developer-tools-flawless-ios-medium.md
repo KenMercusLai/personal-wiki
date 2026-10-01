@@ -2,7 +2,7 @@
 title: "Is Product Hunt useful for developer tools?"
 type: source
 tags: [product-hunt, developer-tools, product-launch, community-marketing, bootstrapping]
-date: 2017-07-07
+date: 2017-07-06
 source_file: "/mnt/ken_personal_wiki/Articles/Is Product Hunt useful for developer tools- - Flawless iOS - Medium.md"
 ---
 

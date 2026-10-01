@@ -2,7 +2,7 @@
 title: "How to Use Obsidian as a Zettelkasten: The Ultimate Tutorial"
 type: source
 tags: [zettelkasten, obsidian, pkm, note-taking]
-date: 2026-02-27
+date: 2022-11-13
 source_file: "/mnt/ken_personal_wiki/Articles/Matt Giaro - How to Use Obsidian as a Zettelkasten.md"
 ---
 

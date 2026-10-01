@@ -2,7 +2,7 @@
 title: "It’s Not a Feature Problem—Avoiding Startup Tarpits"
 type: source
 tags: [startup, saas, product-development, customer-acquisition, unit-economics]
-date: 2026-04-08
+date: 2017-07-20
 source_file: "/mnt/ken_personal_wiki/Articles/It’s Not a Feature Problem—Avoiding Startup Tarpits - By.md"
 ---
 

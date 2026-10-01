@@ -2,7 +2,7 @@
 title: "Linux: Using find to Locate Files Older Than a Date"
 type: source
 tags: [linux, find, filesystems, command-line]
-date: 2026-03-17
+date: 2010-03-16
 source_file: "/mnt/ken_personal_wiki/Articles/Linux using find to locate files older than.md"
 ---
 

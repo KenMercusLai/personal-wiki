@@ -2,7 +2,7 @@
 title: "Jeff Bezos: Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders"
 type: source
 tags: [sleep, decision-making, productivity, work-life]
-date: 2017-04-27
+date: 2016-11-30
 source_file: "/mnt/ken_personal_wiki/Articles/Jeff Bezos- Why Getting 8 Hours of Sleep Is Good for Amazon Shareholders.md"
 ---
 

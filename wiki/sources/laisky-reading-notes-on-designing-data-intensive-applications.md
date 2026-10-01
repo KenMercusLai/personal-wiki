@@ -2,7 +2,7 @@
 title: "Reading Notes on 'Designing Data-Intensive Applications'"
 type: source
 tags: [databases, distributed-systems, transactions, data-processing]
-date: 2026-01-13
+date: 2025-03-21
 source_file: /mnt/ken_personal_wiki/Articles/Laisky - Reading Notes on Designing Data-Intensive Applications.md
 ---
 

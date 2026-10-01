@@ -2,7 +2,7 @@
 title: "I’m sorry, I can’t"
 type: source
 tags: [communication, boundaries, priorities, time-management, venture-capital]
-date: 2017-04-12
+date: 2017-04-11
 source_file: "/mnt/ken_personal_wiki/Articles/I’m sorry, I can’t - sneakerheadVC.md"
 ---
 

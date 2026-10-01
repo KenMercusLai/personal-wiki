@@ -2,7 +2,7 @@
 title: "Focus on Your Own Shit"
 type: source
 tags: [productivity, mindset, startup, creativity]
-date: 2016-03-01
+date: 2016-02-29
 source_file: "/mnt/ken_personal_wiki/Articles/Justin Jackson - Focus on Your Own Shit.md"
 ---
 

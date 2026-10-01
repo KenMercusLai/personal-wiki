@@ -2,7 +2,7 @@
 title: "Just how big is the podcast discovery gap?"
 type: source
 tags: [podcasts, discovery, product-hunt, distribution, analytics]
-date: 2017-03-17
+date: 2017-03-16
 source_file: "/mnt/ken_personal_wiki/Articles/Just how big is the podcast discovery gap- - Startup Grind - Medium.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Kara Swisher Is Silicon Valley's Most Feared and Well-Liked Journalist. How Does That Work?"
 type: source
 tags: [journalism, technology, media-ethics, silicon-valley]
-date: 2014-07-14
+date: 2014-07-15
 source_file: "/mnt/ken_personal_wiki/Articles/Kara Swisher Is Silicon Valley’s Most Feared and Well-Liked Journalist. How Does That Work-.md"
 ---
 
