@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [No Parking Here](sources/no-parking-here-mother-jones.md) - Clive Thompson argues that parking's hidden urban costs can be reduced through pricing, shared mobility, and land-use reform, while private autonomous cars could instead increase empty travel and induced demand.
 - [Pricing: A List of Tactics](sources/nick-kolenda-pricing-a-list-of-tactics.md) - Nick Kolenda organizes conditional pricing tactics around perceptual magnitude, number fluency, reference points, assortment, and promotion framing.
 - [Stack Overflow: The Architecture - 2016 Edition](sources/nick-craver-stack-overflow-the-architecture-2016-edition.md) - Nick Craver maps Stack Overflow's redundant edge, web, service, cache, websocket, search, and database tiers in a first-party 2016 operating snapshot.
 - [Stack Overflow: How We Do Deployment - 2016 Edition](sources/nick-craver-stack-overflow-how-we-do-deployment-2016-edition.md) - Nick Craver traces Stack Overflow's small mainline changes through TeamCity, database migration, tier promotion, and HAProxy-coordinated rolling deployment.
@@ -976,6 +977,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [No Meetings, No Deadlines, No Full-Time Employees](sources/no-meetings-no-deadlines-no-full-time-employees.md) - Sahil Lavingia describes Gumroad's asynchronous contractor-only model, its incremental delivery system and reported results, and its explicit tradeoffs in benefits and advancement.
 
 ## Entities
+- [Clive Thompson](entities/CliveThompson.md) - Writer represented through a systems account of parking, autonomous mobility, urban land use, and transportation policy.
 - [Abhijit Tomar](entities/AbhijitTomar.md) - Author who documented a 2018 listing-mediated telephone-banking scam affecting his cousin.
 - [Network Janitor](entities/NetworkJanitor.md) - Pseudonymous networking practitioner arguing for scoped STP retirement and explicit edge-loop safeguards.
 - [David Lowe](entities/DavidLowe.md) - Nestoria engineering author presenting a production-safe instrumentation method for evidence-led dead-code removal.
@@ -2613,6 +2615,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gumroad](entities/Gumroad.md) - Creator-commerce company represented through its January 2021 asynchronous, contractor-only operating design.
 
 ## Concepts
+- [Parking Policy](concepts/ParkingPolicy.md) - Rules and prices governing parking supply, curb access, hidden costs, land reuse, and the traffic effects of changing mobility technology.
 - [Forward-Only Database Migration](concepts/ForwardOnlyDatabaseMigration.md) - Compatibility-first schema evolution using staged additions and removals, an applied-migration ledger, and later forward repair.
 - [Rolling Deployment](concepts/RollingDeployment.md) - Incremental fleet update that drains, replaces, verifies, and restores bounded serving capacity while managing mixed-version dependencies.
 - [Smart Defaults](concepts/SmartDefaults.md) - Editable initial values inferred from context or history to reduce avoidable work while preserving attention, welfare, and user control.

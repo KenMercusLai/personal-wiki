@@ -7192,6 +7192,10 @@ Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective co
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-01] ingest | No Parking Here
+
+Added [[CliveThompson]] and [[ParkingPolicy]], and updated [[AutomobilitySecondOrderEffects]] and [[MobilityOnDemand]] from their complete ordered evidence inventories. Recorded parking's hidden housing, land, traffic, emissions, and equity costs; minimum-rule and curb-pricing reforms; shared-fleet utilization; urban infill; and the opposing induced-demand and empty-vehicle scenarios under private autonomy. Preserved the article's 2016 forecasting scope and its dependence on ownership, pricing, transit integration, accessibility, and public data rules. Eight local article-image targets were absent and could not be interpreted independently; the available vine-covered parking-meter illustration was opened and omitted as decorative.
+
 ## [2026-10-01] ingest | Never Ask Two People to do One Person's Job
 
 Added [[ResponsibilityDiffusion]] as the coordination risk created when several people could act but no individual owns the request. Updated [[EmailTaskManagement]] from its complete ordered evidence inventory with sender-side action assignment, and updated [[MarkSuster]] from his complete ordered evidence inventory with the one-owner rule, restrained copying, explicit routing, and sequential escalation. Preserved exceptions for parallel review, collective decisions, incident response, and deliberate redundancy, as well as the article's anecdotal practitioner scope. Opened both unique local image files and omitted them as the same decorative envelope-overload illustration at different resolutions; one resolution was embedded twice, so no asset manifest was created.
@@ -7647,6 +7651,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | No Meetings, No Deadlines, No Full-Time Employees
 
 Added [[SahilLavingia]] and [[Gumroad]], and updated [[AsynchronousWorkplaceCommunication]], [[ContingentWorkforce]], and [[RemoteWork]] from their complete ordered evidence inventories. Recorded Gumroad's writing-led coordination, 24-hour response norm, shared task queue, incremental release practice, worldwide hourly rates, internal pay visibility, and reported preference for reduced-hour contracting while preserving the founder-authored, historical, selected-workforce, benefit-transfer, classification, and causality limits. Opened all five effective local images and retained the three operating charts, Memberships roadmap, and illustrated team roster under descriptive canonical filenames at their semantic positions.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
