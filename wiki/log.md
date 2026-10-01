@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Angel Investor Ron Conway Emails His Portfolio Companies Over Financial Meltdown
+
+Added [[RonConway]] and updated [[MichaelArrington]], [[AngelInvesting]], and [[StartupRunway]] from their complete ordered evidence inventories. Recorded Conway's cross-cycle advice to treat burn reduction as an internal financing round, raise earlier and more broadly, expect valuation pressure, seek corporate capital, and explore M&A before cash becomes too short, while preserving the tension between calendar survival and the learning and execution capacity lost through cuts. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
 ## [2026-10-01] ingest | How to Use Obsidian as a Zettelkasten: The Ultimate Tutorial
 
 Added [[MattGiaro]] and [[Bear]], and updated [[Obsidian]], [[ZettelkastenMethod]], and [[NoteToolFit]] from their complete ordered evidence inventories. Recorded the Bear-to-Obsidian division of labor, two-to-three-day capture filter, own-words permanent-note standard, one-link minimum, flat Markdown vault, minimal-plugin stance, and use of notes as content building blocks. Preserved the disagreement between early filtering and broad low-pressure capture, the risk that link quotas produce weak relationships, the source's creator-specific Apple-centered scope, its time-sensitive product claims, and the absence of evidence that the workflow caused the reported note count or business result. The supplied Markdown contains no image references, so no visual assets or manifest were required.
@@ -7467,6 +7471,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | What if you don't need MCP at all?
 
 Added [[MarioZechner]] and [[Puppeteer]], and updated [[ModelContextProtocol]], [[BashAsMetaTool]], [[LLMToolingSkills]], and [[CodingAgentMinimalTooling]] from their complete ordered evidence inventories. Recorded the task-specific browser CLI, reported 225-token README versus 13.7k- and 18.0k-token MCP catalogs, shell/file composability, on-demand tool generation, and explicit README loading across agents. Preserved MCP's value for focused structured integrations and the limits of an uncontrolled practitioner comparison, including maintenance, permission, credential, safety, and portability tradeoffs. Opened and retained all three source images with descriptive canonical filenames at their semantic positions: the MCP context budget, the live cookie-tool creation and test, and the CLI context budget.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
