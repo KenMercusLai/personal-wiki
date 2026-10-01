@@ -7747,3 +7747,11 @@ Added [[LectureNoteTaking]], [[PaulineNye]], [[TerenceCrooks]], [[MelaniePowley]
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | One Decision Separates The Wealthy From The Non-Wealthy
+
+Added [[BenjaminHardy]], [[DanSullivan]], [[ThomasStanley]], [[DanMartell]], [[NassimNicholasTaleb]], [[ResultsEconomy]], [[ForcingFunctions]], [[SkinInTheGame]], and [[TransformationalRelationships]]. Recorded the distinction between time or visible effort and useful results; deadlines, public commitments, immediate feedback, and consequence as situational mechanisms; risk exposure as an alignment question; and voluntary mutual accountability in relationships. Preserved that the source is a motivational practitioner essay without comparative evidence for its broad claims about wealth, courage, flow, motivation, pay, happiness, or relationship quality, and added boundaries around noisy or collective outcomes, metric gaming, coercion, unsafe stakes, unequal risk, explicit agreements, and non-performance-based care. Opened both effective local images and omitted the unrelated hero portrait and author avatar as non-evidentiary.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

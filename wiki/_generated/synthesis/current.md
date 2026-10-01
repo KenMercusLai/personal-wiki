@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 9e3d35953c3bd03fdb149a2f9037a20ea8dc4367
-summary: "Durable outcomes depend on explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human-centered judgment."
-episode_count: 963
-source_count: 963
-paragraph_count: 700
+as_of_overview_commit: 0f2ec64d04bf1c50990f45cd27ba10af189e8e50
+summary: "Durable outcomes require boundaries, calibrated evidence, sustainable systems, accountable institutions, and human judgment; pressure helps only with agency and fair risk."
+episode_count: 964
+source_count: 964
+paragraph_count: 701
 topic_count: 9
 ---
 
@@ -16,11 +16,11 @@ topic_count: 9
 
 ## Executive Summary
 
+- [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution.
 - [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact.
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
 - [[TenXThinking]] can expose when local optimization assumes the wrong product or mechanism, but [[Kodak]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] together show that radical outcome framing needs survivable experiments, cumulative execution, and evidence that can change the plan rather than a literal multiplication of effort.
-- [[AccessJournalism]] is an incentive structure rather than an automatic verdict: [[KaraSwisher]] shows how long relationships, continual contact, historical knowledge, confrontation, discretion, and repeated scoops can make proximity produce both information and accountability, while [[AllThingsD]] and [[Recode]] show conferences, funding, boards, and social ties turning a reporter into an institutional power broker. [[MichaelArrington]] supplies a sharper investing-and-reporting contrast, but structural safeguards and story-level evidence remain necessary before inferring compromise.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
 - [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience. Sustainable exposure also matters: leverage can force financial exit, while an experienced drawdown can trigger psychological exit, so [[BurnoutPrevention]] and continued participation become conditions for long-horizon compounding.
 - [[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope, equivalent compensation, status, and meaningful autonomy while [[ManagementRoleFit]] reserves people management for those willing to adopt group-performance criteria and learn listening, trust, conflict, advocacy, context, staffing, delegation, and final accountability. [[ErikDietrich]] adds that resistance to micromanagement can be mistaken for desire to lead, while [[LindsayHolmwood]] treats management as a learnable and reversible career change; [[EngineeringManagerRoleDesign]] qualifies that common group-enablement purpose with variants that may retain technical work.
@@ -36,10 +36,10 @@ Technical outcomes depend on explicit interfaces, workload fit, verification, re
 
 ### Business and Markets
 
-Durable value joins meaningful customer and audience outcomes, sustainable economics, operating capability, governed distribution, and accountable control.
+Durable value joins meaningful customer outcomes, sustainable economics, operating capability, governed distribution, and accountability whose measures and risks match the work.
 
+- [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution. Evidence: [[BenjaminHardy]], [[DanSullivan]], [[DanMartell]], [[NassimNicholasTaleb]], [[ResultsEconomy]], [[ForcingFunctions]], [[SkinInTheGame]], [[ThomasStanley]].
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
-- [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
 
 ### Cross-domain
 
@@ -68,10 +68,10 @@ Historical spillovers require attention to lineage, dated context, path dependen
 
 ### Psychology and Personal Development
 
-Human learning and behavior depend on bounded attention, calibrated evidence, reflection, restorative recovery, consent, and structural constraints.
+Human learning and behavior depend on bounded attention, calibrated evidence, reflection, restorative recovery, consent, and structural constraints; situational pressure remains useful only with agency and proportional stakes.
 
+- [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].
 
 ### Science, Health, and Climate
 

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "881357cfa31f0895ef477d953a2d658f7704a88d48643c67ffa2f211b881c3b5",
       "304e6afb0b7b4f5ef4d9bec1124666be0b178c01c3c236bf35fe671f88770e4c",
       "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
       "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
@@ -702,11 +703,36 @@
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
     ],
-    "paragraph_count": 700
+    "paragraph_count": 701
   },
-  "overview_commit": "9e3d35953c3bd03fdb149a2f9037a20ea8dc4367",
-  "overview_digest": "f9ff60dbd04708d20e9f2904f1cdbe7c84d4a4217979e2a2a2c92060456244ee",
+  "overview_commit": "0f2ec64d04bf1c50990f45cd27ba10af189e8e50",
+  "overview_digest": "b1a914a1984714c7d2bb26d4b27278a816c0429356d7c3a8927d22dcc1a12540",
   "paragraphs": [
+    {
+      "id": "881357cfa31f0895ef477d953a2d658f7704a88d48643c67ffa2f211b881c3b5",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[BenjaminHardy]] source adds a consequence-centered cluster spanning work, motivation, risk, and relationships. [[ResultsEconomy]], attributed to [[DanSullivan]], separates customer or business outcomes from elapsed time and visible effort; the durable point is that busyness does not establish value, while the stronger claim that incentive pay is universally superior does not survive work that is collective, preventive, exploratory, care-oriented, safety-critical, delayed, or noisy. [[ForcingFunctions]], attributed to [[DanMartell]], turns situational motivation into environmental design through short deadlines, public commitments, promised delivery, and immediate feedback. It now carries explicit boundaries around proportional stakes, consent, reversibility, goal validity, quality checks, and gaming because pressure can accelerate a wrong target or produce fear and shortcuts. [[SkinInTheGame]] uses ideas attributed to [[NassimNicholasTaleb]] to ask who decides, benefits, and bears downside; exposure may improve alignment but cannot prove expertise, truth, or fair distribution of risk. [[TransformationalRelationships]] captures voluntary contribution, candor, shared consequence, and mutual change while rejecting the essay's false binary: explicit transactions, compensation, boundaries, exit rights, and non-performance-based care can also support healthy relationships. [[ThomasStanley]]'s attributed association among incentive pay, courage, and affluence remains methodologically unevaluable because the article supplies no underlying study. More broadly, the essay offers forceful practitioner hypotheses rather than comparative evidence that consequence causes wealth, flow, performance, confidence, happiness, or relationship quality. The unrelated hero portrait and author avatar were opened and omitted as non-evidentiary.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BenjaminHardy",
+        "DanMartell",
+        "DanSullivan",
+        "ForcingFunctions",
+        "NassimNicholasTaleb",
+        "ResultsEconomy",
+        "SkinInTheGame",
+        "ThomasStanley",
+        "TransformationalRelationships"
+      ]
+    },
     {
       "id": "304e6afb0b7b4f5ef4d9bec1124666be0b178c01c3c236bf35fe671f88770e4c",
       "primary_topic": "psychology-and-personal-development",

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [One Decision Separates The Wealthy From The Non-Wealthy](sources/one-decision-separates-the-wealthy-from-the-non-wealthy.md) - Benjamin Hardy argues for outcome accountability, forcing functions, risk exposure, and reciprocal relationships while leaving broad wealth, flow, and motivation claims untested.
 - [Numbers Don’t Matter, Influence Does](sources/numbers-dont-matter-influence-does-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that impressions and follower totals only gain meaning through authentic attention, platform context, redistribution, and downstream action.
 - [大量的上下文切换拉爆我们的专注能力——《自控力》读书随想](sources/nova-kwok-da-liang-de-shang-xia-wen-qie-huan-la-bao-wo-men-de-zhuan-zhu-neng-li-zi-kong-li-du-shu-sui-xiang.md) - Nova Kwok connects engineering interruptions, reward-seeking, stress, and self-criticism to a qualified, long-term-goal account of attention and self-control.
 - [Notifications: A Tragedy Of the Digital Commons](sources/notifications-a-tragedy-of-the-digital-commons-positive-slope-medium.md) - Scott Belsky frames notification overload as a tragedy of the commons and proposes contextual operating-system mediation to change sender incentives.
@@ -988,6 +989,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Benjamin Hardy](entities/BenjaminHardy.md) - Author represented through a consequence-centered account of performance, motivation, risk, and relationships.
+- [Dan Sullivan](entities/DanSullivan.md) - Entrepreneurial coach cited for distinguishing a results economy from a time-and-effort economy.
+- [Thomas Stanley](entities/ThomasStanley.md) - Wealth researcher cited for an under-specified association among incentive pay, business ownership, courage, and affluence.
+- [Dan Martell](entities/DanMartell.md) - Entrepreneur cited for defining forcing functions as situational constraints that compel action and results.
+- [Nassim Nicholas Taleb](entities/NassimNicholasTaleb.md) - Risk author cited for skin in the game, consequence-bearing conviction, and critiques of bureaucratic insulation.
 - [Nova Kwok](entities/NovaKwok.md) - Engineer-author represented through a critical reflection on context switching, attention, and self-control.
 - [François Chollet](entities/FrancoisChollet.md) - Software practitioner represented through a principle-led account of engineering, API design, technical careers, and ethical responsibility.
 - [Bugsnag](entities/Bugsnag.md) - Application-stability monitoring company represented through its impact-based approach to deciding between feature work and bug repair.
@@ -2637,6 +2643,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Results Economy](concepts/ResultsEconomy.md) - Outcome-oriented work model distinguishing produced value from elapsed time or visible effort while preserving measurement and incentive limits.
+- [Forcing Functions](concepts/ForcingFunctions.md) - Deliberate commitments, constraints, deadlines, or events that change the cost of inaction and make selected behavior more likely.
+- [Skin in the Game](concepts/SkinInTheGame.md) - Alignment between judgment or action and meaningful exposure to the benefits and harms that follow.
+- [Transformational Relationships](concepts/TransformationalRelationships.md) - Voluntary, reciprocal relationships built through shared consequence, candor, contribution, and mutual change.
 - [Self-Control Psychology](concepts/SelfControlPsychology.md) - State- and feedback-based account of how physiology, reward cues, stress, self-evaluation, and long-term aims shape deliberate choice.
 - [API Design](concepts/APIDesign.md) - Shaping software interfaces around user workflows, domain mental models, progressive expressiveness, feedback, naming, and documentation.
 - [Application Stability](concepts/ApplicationStability.md) - Release- and user-centered measure of successful or crash-free interactions used with explicit risk-aware targets.
