@@ -1008,6 +1008,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 - [Real-world Engineering Challenges #8: Breaking up a Monolith](sources/real-world-engineering-challenges-8-breaking-up-a-monolith.md) - Gergely Orosz reconstructs Khan Academy's 3.5-year field-level migration from a Python monolith to more than 40 mostly Go services behind federated GraphQL.
+- [Progressive Product Building 与元认知类比](sources/reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi.md) - Reorx proposes a metacognitive reset for personal product work: freeze simple ideas, branch later complexity, build immediately where feasible, and monitor delivery state explicitly.
 
 ## Entities
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
@@ -2680,6 +2681,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Brian Genisio](entities/BrianGenisio.md) - Khan Academy engineer and manager represented through his leadership and retrospective analysis of the migration endgame.
 - [Kevin Dangoor](entities/KevinDangoor.md) - Former Khan Academy principal software architect represented through the language, architecture, and incremental-delivery choices of the rewrite.
+- [Reorx](entities/Reorx.md) - Author proposing a constrained, AI-assisted workflow for turning small product ideas into implemented projects.
 
 ## Concepts
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.
@@ -4001,5 +4003,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Incremental Monolith Migration](concepts/IncrementalMonolithMigration.md) - Staged movement of legacy behavior through coexistence, shadowing, comparison, canaries, cutover, fallback, and removal.
 - [Minimum Viable Experience](concepts/MinimumViableExperience.md) - Identity-preserving scope boundary for migrating an established product without treating the milestone as total completion.
+- [Progressive Product Building](concepts/ProgressiveProductBuilding.md) - Personal-project workflow that freezes a simple idea, branches later complexity, moves toward implementation, and tracks delivery state.
 
 ## Syntheses

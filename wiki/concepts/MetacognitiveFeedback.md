@@ -7,7 +7,8 @@ sources:
   - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su
   - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji
   - dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com
-last_updated: 2026-09-27
+  - reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,7 +16,9 @@ knowledge_schema: synthesis-v1
 [[MetacognitiveFeedback]] is the loop through which people observe their own thinking, detect gaps or automatic reactions, and use that awareness to revise later information intake, reasoning, or action.
 
 ## Current Synthesis
-The education source argues that ability growth needs to become visible before it can sustain internal motivation. Research reports, portfolios, reviews, and written analyses are records learners can revisit to compare earlier and current thinking. Wulc's two reading notes add an in-the-moment correction loop: observe a cognitive or emotional reaction, ask what belief, motive, or capability gap may be involved, select a more suitable response, and carry it into action. The first note's inspected information-flow diagram extends metacognition across input filtering, storage of concepts and values, selection of thinking methods, and behavioral output; the second applies the same principle to emotional regulation and deliberate choice. SJO applies this mechanism to intuition: a gut response is not self-validating, but can become more useful when experience is paired with data, precise practice, outcome feedback, and correction. Together the sources present reflection artifacts, momentary self-monitoring, externalized decision records, and calibrated domain feedback as complementary channels.
+The education source argues that ability growth needs to become visible before it can sustain internal motivation. Research reports, portfolios, reviews, and written analyses are records learners can revisit to compare earlier and current thinking. Wulc's two reading notes add an in-the-moment correction loop: observe a cognitive or emotional reaction, ask what belief, motive, or capability gap may be involved, select a more suitable response, and carry it into action. The first note's inspected information-flow diagram extends metacognition across input filtering, storage of concepts and values, selection of thinking methods, and behavioral output; the second applies the same principle to emotional regulation and deliberate choice. SJO applies this mechanism to intuition: a gut response is not self-validating, but can become more useful when experience is paired with data, precise practice, outcome feedback, and correction.
+
+Reorx provides a concrete workflow application. After observing that repeated product-note refinement increased scope while reducing finished output, he models habitual cognition as lower-level firmware and metacognition as the system that can pause, inspect, rewrite, and reinstall it. His replacement rule, [[ProgressiveProductBuilding]], converts reflection into changed defaults around idea capture, branching, implementation, and monitoring. Together the sources present reflection artifacts, momentary self-monitoring, externalized decision records, calibrated domain feedback, and behavioral rule redesign as complementary channels.
 
 ## Key Claims
 - Cognitive growth needs an internal feedback loop, not only external project activity.
@@ -24,7 +27,7 @@ The education source argues that ability growth needs to become visible before i
 - Intuition, experience, and taste can be explained as trained patterns whose reliability depends on relevant practice and feedback rather than mysterious gifts.
 - Metacognition can interrupt automatic reactions by making the current thought process available for evaluation and replacement.
 - Deliberate practice, regular reflection, and attention exercises are proposed as ways to strengthen the correction loop.
-- Writing down options, criteria, and assumptions can move a choice from automatic reaction toward slower, inspectable reasoning.
+- Written criteria, project state, and replacement rules can move choices from automatic reaction toward slower, inspectable reasoning and changed behavior.
 
 ## Evidence
 - Internal loop: [[jiao-yu-de-xia-yi-bu-qi-er-luo-li-li-de-shu-ju-zhong-xin]] says PBL supplies an external training field, but learners still need to see their own change.
@@ -38,15 +41,17 @@ The education source argues that ability growth needs to become visible before i
 - Deliberate choice: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji]] recommends activating slower thought, externalizing the comparison, using reminders, and inspecting cognitive bias.
 - Intuition calibration: [[dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com]] argues that leaders should develop gut judgment through data, science, experience, and feedback rather than use a feeling to override evidence.
 - Domain failure: [[dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com]] reproduces a researcher's report that many self-described lie-detection experts perform no better than chance and can perform worse when relying on untrained gut sense.
+- Workflow replacement: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] identifies repeated product-document refinement as a rule producing low output, uses the firmware analogy to make that rule replaceable, and specifies new defaults for implementation and monitoring.
 
 ## Counterevidence & Qualifications
-The education source distinguishes real participation and visible change from empty self-congratulation, but it does not define an assessment rubric for telling the two apart. The Wulc sources are secondary reading notes whose examples are motivational rather than psychometric; they do not establish that all thoughts or emotions are voluntarily controllable, that negative emotion has only two roots, or that the proposed exercises reliably strengthen a distinct cognitive mechanism. SJO's intuition argument is plausible but draws heavily on one specialized deception-detection example; feedback can be delayed, noisy, biased, manipulable, or unavailable, and expert intuition may be valuable where patterns are stable and repeatedly tested. Negative affect can accurately signal danger, harm, grief, or violated values rather than a belief error or capability deficit. Reflection can also become suppression, rumination, or post-hoc rationalization unless it is bounded and checked against evidence or behavior.
+The education source distinguishes real participation and visible change from empty self-congratulation, but it does not define an assessment rubric for telling the two apart. The Wulc sources are secondary reading notes whose examples are motivational rather than psychometric; they do not establish that all thoughts or emotions are voluntarily controllable, that negative emotion has only two roots, or that the proposed exercises reliably strengthen a distinct cognitive mechanism. SJO's intuition argument is plausible but draws heavily on one specialized deception-detection example; feedback can be delayed, noisy, biased, manipulable, or unavailable, and expert intuition may be valuable where patterns are stable and repeatedly tested. Reorx's firmware model and replacement workflow are a personal analogy and announced intention, with no evidence yet that the new rule improves completion or product quality. Negative affect can accurately signal danger, harm, grief, or violated values rather than a belief error or capability deficit. Reflection can also become suppression, rumination, post-hoc rationalization, or premature action unless it is bounded and checked against evidence or behavior.
 
 ## What Changed
 - Added calibrated intuition as a feedback product and qualified it by domain stability and feedback quality.
 - Extended moment-by-moment correction from cognition to emotional reaction and deliberate choice.
 - Added externalized comparison as a way to make assumptions and options inspectable.
 - Narrowed the emotional-regulation claim by preserving legitimate negative affect and limits on voluntary control.
+- Added behavioral rule replacement as a product-work application while preserving its untested personal scope.
 
 ## Related Concepts
 - [[ProjectBasedLearning]] - projects create artifacts and cycles that feedback can operate on.
@@ -55,3 +60,4 @@ The education source distinguishes real participation and visible change from em
 - [[LearnDrive]] - visible growth can support the desire to keep learning.
 - [[StructuredProblemSolving]] - metacognitive interruption creates room to redefine the problem and compare responses.
 - [[CognitiveBiasTaxonomy]] - bias labels can prompt inspection of the shortcut shaping an automatic judgment.
+- [[ProgressiveProductBuilding]] - applies metacognitive rule replacement to an idea-to-implementation workflow.
