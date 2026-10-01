@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ec3d96d1dfdf9e03ba9282955d5d1b74adf9cb46a641f655538cd3fc805d2a08",
       "881357cfa31f0895ef477d953a2d658f7704a88d48643c67ffa2f211b881c3b5",
       "304e6afb0b7b4f5ef4d9bec1124666be0b178c01c3c236bf35fe671f88770e4c",
       "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
@@ -703,11 +704,29 @@
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
     ],
-    "paragraph_count": 701
+    "paragraph_count": 702
   },
-  "overview_commit": "0f2ec64d04bf1c50990f45cd27ba10af189e8e50",
-  "overview_digest": "b1a914a1984714c7d2bb26d4b27278a816c0429356d7c3a8927d22dcc1a12540",
+  "overview_commit": "3af3b60ddbd53ca381c92fd7cc7795b6c5ca7fc1",
+  "overview_digest": "28cd78070a93e6267b56016a43f28f72a49e0c8632c48d31f34903f43cebbc65",
   "paragraphs": [
+    {
+      "id": "ec3d96d1dfdf9e03ba9282955d5d1b74adf9cb46a641f655538cd3fc805d2a08",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[OpenAI]] infrastructure case adds [[PostgreSQLReadScaling]] as a workload-qualified alternative to treating user count as a database architecture. One unsharded [[PostgreSQL]] primary reportedly supports millions of QPS by offloading reads to nearly 50 regional replicas, co-locating clients and PgBouncer, retaining regional and writer headroom, and using a hot standby; the same system moves shardable write-heavy workloads elsewhere because MVCC amplification and one-writer serialization remain hard boundaries. New [[DatabaseOverloadProtection]] captures the nonlinear failure loop around that architecture: cache misses, expensive joins, write surges, or connection storms raise latency, timeouts trigger retries, and retries deepen saturation. Cache leases, pooling, workload tiers, query review and digest blocking, multi-layer rate limits, backfill throttles, cautious schema changes, and deliberate load shedding are therefore one cross-layer reliability policy rather than isolated tuning tricks. The account is first-party and omits workload traces, instance economics, and independent verification; its five-nines availability, low double-digit p99 latency, near-zero lag, and 800-million-user framing are reported production claims, while cascading replication was still prospective.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "DatabaseOverloadProtection",
+        "OpenAI",
+        "PostgreSQL",
+        "PostgreSQLReadScaling"
+      ]
+    },
     {
       "id": "881357cfa31f0895ef477d953a2d658f7704a88d48643c67ffa2f211b881c3b5",
       "primary_topic": "business-and-markets",

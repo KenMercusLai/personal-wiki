@@ -8,7 +8,8 @@ sources:
   - anze-pecar-gotchas-with-sqlite-in-production
   - valentin-mouret-simple-authentication-with-only-postgresql
   - blog-timescale-rag-is-more-than-just-vector-search
-last_updated: 2026-09-23
+  - openai-scaling-postgresql-to-power-800-million-chatgpt-users
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -28,14 +29,16 @@ PostgreSQL also serves as the contrast case for embedded-database simplicity. Wh
 
 The `pgcrypto` extension adds another narrowly useful workload: password-hash creation and verification can live in the database through salted bcrypt hashes. That mechanism reduces application-side code for a small system, but it does not turn PostgreSQL into a complete authentication platform, and the source's sample function shows how SQL name resolution and incorrect volatility declarations can undermine an otherwise reasonable storage pattern.
 
+OpenAI supplies a scale boundary to the consolidation thesis. Its unsharded primary reportedly supports millions of QPS for ChatGPT and API workloads by pushing reads to nearly 50 regional replicas and surrounding the database with caching, pooling, isolation, rate limits, query controls, failover, and capacity headroom. The same case refuses to treat that success as general write scalability: MVCC amplifies heavy updates, all writes still converge on one primary, shardable write-heavy workloads move to other systems, and no new tables are allowed in the deployment.
+
 ## Key Characteristics
 - Acts as a consolidation-first default for transactional and adjacent data workloads.
-- Supports mixed semantic, relational, temporal, and analytical retrieval through extensions such as pgvector and pgvectorscale.
-- Has mature production history, deployment patterns, recovery approaches, and high-availability practices.
-- Reduces operational and reasoning complexity when it replaces premature multi-database choices.
-- Can still be outgrown when workloads exceed its design envelope or require critical missing capabilities.
-- Provides a conventional escape hatch when SQLite's single-file, one-writer, or migration constraints do not fit a production workload.
-- Can create and verify per-credential bcrypt hashes through `pgcrypto`, while leaving the wider authentication lifecycle to the application and its surrounding infrastructure.
+- Supports mixed semantic, relational, temporal, analytical, and narrowly specialized workloads through extensions.
+- Can scale read-heavy global traffic through regional replicas, locality, pooling, caching, and strict workload controls.
+- Retains a single-writer and MVCC boundary that makes sustained write-heavy demand a candidate for sharding or another system.
+- Has mature deployment, recovery, replication, and high-availability practices, while still requiring application-level overload protection.
+- Reduces operational complexity when it replaces premature datastore proliferation but can be outgrown when workload shape or critical capabilities demand it.
+- Provides a conventional escape hatch when SQLite's single-file, one-writer, migration, or multi-machine constraints do not fit.
 
 ## Evidence
 - Consolidation role: [[shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog]] argues that one capable database can replace multiple specialized systems in early or moderate architectures.
@@ -50,16 +53,19 @@ The `pgcrypto` extension adds another narrowly useful workload: password-hash cr
 - Authentication boundary: [[valentin-mouret-simple-authentication-with-only-postgresql]] explicitly omits recovery and other full-system concerns, while its final SQL function demonstrates name-resolution, volatility, and null-result hazards.
 - Mixed RAG retrieval: [[blog-timescale-rag-is-more-than-just-vector-search]] stores raw issues, summaries, labels, timestamps, and embeddings together so tools can choose semantic search or SQL analysis.
 - Vector scaling extension: [[blog-timescale-rag-is-more-than-just-vector-search]] adds pgvectorscale DiskANN indexes to pgvector-backed tables.
+- Read-heavy production scale: [[openai-scaling-postgresql-to-power-800-million-chatgpt-users]] reports one primary, nearly 50 regional read replicas, millions of QPS, near-zero lag, low double-digit millisecond p99 client latency, and five-nines availability.
+- Write boundary: [[openai-scaling-postgresql-to-power-800-million-chatgpt-users]] attributes heavy-update costs to PostgreSQL MVCC and moves shardable write-heavy workloads to sharded systems.
+- Operational envelope: [[openai-scaling-postgresql-to-power-800-million-chatgpt-users]] combines pooling, caching, workload isolation, rate limits, query controls, HA failover, cautious schema changes, and strict backfill limits.
 
 ## Qualifications
-The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, not a universal rule. The authentication source is a short tutorial whose final function should not be copied as written. The RAG tutorial likewise contains a `label`/`issue_label` mismatch and omits important query-safety controls. Together they support PostgreSQL's maturity and extensibility but do not prove that PostgreSQL is always better than specialized systems or that extension support replaces domain-specific design and review.
+The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, and the authentication tutorial's final function should not be copied as written. OpenAI's scale figures are first-party claims without query mix, dataset size, instance cost, or independent audit; user count is not a transferable capacity unit. Together the sources support PostgreSQL's maturity and breadth, but not that it is always better than specialized systems. The OpenAI case instead demonstrates a sharp limit: replication scales reads, while unsuitable writes are migrated away.
 
 ## What Changed
-- Created the PostgreSQL entity page as a database-consolidation anchor.
 - Added pgvector-backed vector search as a concrete extension workload.
 - Added SQLite as a contrasting simplicity path whose limits can push teams back toward PostgreSQL.
 - Added `pgcrypto` password hashing as a compact extension workload, with explicit limits around the wider authentication lifecycle and the article's flawed function example.
 - Added mixed semantic, relational, and time-series retrieval as a PostgreSQL-centered RAG workload.
+- Added OpenAI's read-heavy global deployment and its explicit single-writer, MVCC, overload-control, and workload-migration boundaries.
 
 ## Relationships
 - [[DatabaseConsolidation]] - PostgreSQL is the source's preferred consolidation platform.
@@ -74,3 +80,5 @@ The PostgreSQL-first and Timescale RAG sources are advocacy material connected t
 - [[AuthenticationInfrastructure]] - PostgreSQL can perform credential verification but does not supply the complete login, recovery, session, and abuse-control system.
 - [[Pgvectorscale]] - pgvectorscale adds the DiskANN vector indexes used in the mixed-retrieval tutorial.
 - [[TextToSQL]] - generated SQL provides an analytical retrieval path over PostgreSQL data.
+- [[PostgreSQLReadScaling]] - OpenAI's case uses regional replicas to extend one primary for a read-heavy workload.
+- [[DatabaseOverloadProtection]] - pooling, cache leases, query controls, isolation, and rate limits protect the deployment.

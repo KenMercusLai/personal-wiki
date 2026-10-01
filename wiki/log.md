@@ -7755,3 +7755,11 @@ Added [[BenjaminHardy]], [[DanSullivan]], [[ThomasStanley]], [[DanMartell]], [[N
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Scaling PostgreSQL to power 800 million ChatGPT users
+
+Added [[PostgreSQLReadScaling]] and [[DatabaseOverloadProtection]], and updated [[PostgreSQL]] and [[OpenAI]] from their complete ordered evidence inventories. Recorded the distinction between read-replica scale and single-writer capacity; MVCC write amplification and workload migration; regional locality, hot-standby failover, and WAL fan-out; and layered protection through PgBouncer, cache leases, query controls, isolation, rate limits, backfill throttles, schema constraints, and load shedding. Preserved the source's first-party scope, omitted workload and cost detail, partial-service boundary during writer failure, and prospective status of cascading replication. The supplied Markdown contains no effective image references, and its saved date is used because no separate publication date appears in the file.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

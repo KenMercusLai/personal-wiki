@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Scaling PostgreSQL to power 800 million ChatGPT users](sources/openai-scaling-postgresql-to-power-800-million-chatgpt-users.md) - OpenAI describes scaling one PostgreSQL writer across nearly 50 read replicas while bounding write load, cache stampedes, connections, expensive queries, retries, and failure domains.
 - [One Decision Separates The Wealthy From The Non-Wealthy](sources/one-decision-separates-the-wealthy-from-the-non-wealthy.md) - Benjamin Hardy argues for outcome accountability, forcing functions, risk exposure, and reciprocal relationships while leaving broad wealth, flow, and motivation claims untested.
 - [Numbers Don’t Matter, Influence Does](sources/numbers-dont-matter-influence-does-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that impressions and follower totals only gain meaning through authentic attention, platform context, redistribution, and downstream action.
 - [大量的上下文切换拉爆我们的专注能力——《自控力》读书随想](sources/nova-kwok-da-liang-de-shang-xia-wen-qie-huan-la-bao-wo-men-de-zhuan-zhu-neng-li-zi-kong-li-du-shu-sui-xiang.md) - Nova Kwok connects engineering interruptions, reward-seeking, stress, and self-criticism to a qualified, long-term-goal account of attention and self-control.
@@ -2035,7 +2036,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amazon Aurora](entities/AmazonAurora.md) - AWS relational database represented through pgvector, enterprise competition, and a fast but application-risky Instapaper recovery replica.
 - [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
 - [Amazon RDS](entities/AmazonRDS.md) - Managed relational database service represented through PostgreSQL vector-search tests and Instapaper's inherited MySQL filesystem-limit incident.
-- [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
+- [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database that can consolidate diverse workloads and scale read-heavy traffic widely while retaining a single-writer boundary.
 - [SQLite](entities/SQLite.md) - Single-file relational database presented as production-ready for some web apps but constrained by availability, file-system, concurrency, transaction, backup, and migration needs.
 - [Anže Pečar](entities/AnzePecar.md) - Software-engineering writer explaining practical SQLite production gotchas for web applications.
 - [Photoshop](entities/Photoshop.md) - Adobe image-editing product used to explain productivity-app value variance and subscription fit.
@@ -2406,7 +2407,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
-- [OpenAI](entities/OpenAI.md) - AI research organization represented from its early engineering/research design through GPT, APIs, tool calling, ChatGPT, and AGI-oriented governance.
+- [OpenAI](entities/OpenAI.md) - AI organization represented across early research engineering, GPT and APIs, ChatGPT productization, governance, and global production infrastructure.
 - [OpenClaw](entities/OpenClaw.md) - Local-first personal-agent runtime combining IM channels, durable sessions, tools, and Skills with substantial permission, isolation, and recovery risks.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
@@ -2643,6 +2644,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Database Overload Protection](concepts/DatabaseOverloadProtection.md) - Layered admission, pooling, caching, isolation, query control, and load shedding that prevent database saturation from cascading.
+- [PostgreSQL Read Scaling](concepts/PostgreSQLReadScaling.md) - Extending a single PostgreSQL writer with regional replicas while preserving explicit write and WAL fan-out boundaries.
 - [Results Economy](concepts/ResultsEconomy.md) - Outcome-oriented work model distinguishing produced value from elapsed time or visible effort while preserving measurement and incentive limits.
 - [Forcing Functions](concepts/ForcingFunctions.md) - Deliberate commitments, constraints, deadlines, or events that change the cost of inaction and make selected behavior more likely.
 - [Skin in the Game](concepts/SkinInTheGame.md) - Alignment between judgment or action and meaningful exposure to the benefits and harms that follow.
