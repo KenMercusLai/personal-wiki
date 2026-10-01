@@ -7867,3 +7867,11 @@ Created [[Quip]] and updated [[TeamBasedOrganizationalDesign]] and [[TechnologyT
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Compensation at Startups
+
+Created [[StartupCompensationDesign]] and [[Homebrew]], and updated [[MarketBasedCompensation]], [[EmployeeEquityGrantSizing]], and [[StartupEquityTransparency]] from their complete ordered evidence inventories. Recorded compensation as a values-linked operating system of levels, market bands, cash-equity allocation, negotiation boundaries, exception approvals, promotion and refresher cadence, and offer handling. Preserved the article's practitioner status, the small and dated 2015 survey segment, private-equity risk, missing outcome and fairness evidence, and privacy, consent, pressure, and legal limits around recruiting tactics. Opened the sole effective local image and omitted it as a decorative Homebrew wordmark, so no visual asset or manifest was required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
