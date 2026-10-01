@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Neil Hunt on Netflix and the Story of Netflix Streaming
+
+Added [[NeilHunt]] and updated [[Netflix]], [[ReedHastings]], [[Roku]], [[PlatformNeutrality]], [[EnterpriseCloudMigration]], and [[StrategicSelfCannibalization]] from their complete ordered evidence inventories. Recorded the queue-enabled subscription, recommendation-driven inventory economics, HTTP streaming choice, neutral device distribution, failure-triggered AWS re-architecture, Open Connect boundary, behavioral-data advantage, creative-data boundary, and Qwikster as necessary but overly abrupt self-disruption. Preserved the interview's retrospective chronology uncertainty, first-person and unaudited scope, content-strategy boundary, and lack of customer, studio, and device-partner perspectives. Opened and retained the sole source image as a contextual photograph of Neil Hunt speaking in front of Netflix signage under a descriptive canonical filename with a matching manifest.
+
 ## [2026-10-01] ingest | My Startup Banking Story
 
 Added [[MitchellHashimoto]], [[HashiCorp]], [[Chase]], and [[StartupTreasuryManagement]] from Hashimoto's first-person account of an original business account growing from a $20,000 founder loan to roughly $35 million, a finance-led bank migration, an unclosed legacy payment route, more than $100,000 in recurring fraudulent wires, and a lock-constrained closure through a roughly $1 million cashier's check. Preserved the distinction between direct experience and unverified second-hand claims about branch incentives, the author's responsibility for non-engagement and delayed closure, Chase's full recovery of the reported loss, and the limits of one retrospective case. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -7523,6 +7527,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Need help with business naming? Apply these design thinking exercises
 
 Added [[BusinessNaming]] and updated [[StartupBrandStrategy]] from its complete ordered evidence inventory. Recorded the define-discover-develop-deliver sequence from mission, customer language, competitor patterns, and naming conventions through divergent ideation, usability and availability screening, and finalist testing. Preserved the limits of polls and landing-page tests plus gaps around trademark, linguistic, accessibility, and international review. Opened all ten local images and omitted them as decorative illustrations, standalone logos, or examples whose substantive content was already stated in the prose.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Neil Hunt on Netflix and the Story of Netflix Streaming](sources/neil-hunt-on-netflix-and-the-story-of-netflix-streaming-internet-history-podcast.md) - Neil Hunt connects Netflix's queue-enabled subscription, recommendation economics, device-neutral streaming, AWS migration, behavioral data, Open Connect, and qualified self-disruption.
 - [My Startup Banking Story](sources/my-startup-banking-story.md) - Mitchell Hashimoto recounts how HashiCorp's founder-run bank account, incomplete migration, weak monitoring, and later fraud response exposed the need for professional treasury controls.
 - [Keep It Going](sources/morgan-housel-keep-it-going.md) - Morgan Housel argues that sustainable returns, low leverage, and psychologically tolerable drawdowns preserve the time that makes compounding powerful.
 - [Monitor Internet Bandwidth Usage on Linux](sources/monitor-internet-bandwidth-usage-on-linux-baeldung-on-linux.md) - A Baeldung tutorial contrasts persistent vnStat accounting and alerts with reset-prone Linux interface counters, including retained monthly and recent-rate visual summaries.
@@ -961,6 +962,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 
 ## Entities
+- [Neil Hunt](entities/NeilHunt.md) - Netflix product and technology executive represented through the company's DVD subscription, streaming, device, cloud, and recommendation transitions.
 - [Mitchell Hashimoto](entities/MitchellHashimoto.md) - HashiCorp cofounder represented through a self-critical account of early business-banking mistakes and delegation to professional finance leadership.
 - [HashiCorp](entities/HashiCorp.md) - Software company whose original bank account illustrates the transition from founder-managed cash to monitored and diversified treasury operations.
 - [Chase](entities/Chase.md) - Original HashiCorp business bank represented through relationship outreach, fraud recovery, and branch-based account-closure constraints.
@@ -2128,7 +2130,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zendesk](entities/Zendesk.md) - SaaS case where attribution showed display and content influenced long nurture cycles, lead creation, velocity, deal size, and revenue growth.
 - [Clearbit](entities/Clearbit.md) - Data-enrichment SaaS example used to show audience-based full-funnel content segmentation.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
-- [Netflix](entities/Netflix.md) - Culture, personalization, signup growth engineering, notebook and immutable-image infrastructure, early subscription product management, and an acquisition-strategy counterfactual.
+- [Netflix](entities/Netflix.md) - Culture, queue and recommendation economics, device-neutral streaming, cloud migration, personalization, internal platforms, and self-cannibalization.
 - [Jupyter](entities/Jupyter.md) - Open-source notebook ecosystem whose protocol, file format, kernel model, and computational narrative pattern underpin Netflix's notebook platform.
 - [nteract](entities/Nteract.md) - React-based notebook UI chosen by Netflix for simple, composable notebook interaction and data exploration.
 - [Papermill](entities/Papermill.md) - Notebook parameterization and execution library used by Netflix to turn notebooks into reusable templates and scheduled artifacts.
@@ -2643,7 +2645,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Playlist Manipulation](concepts/PlaylistManipulation.md) - Purchase or inflation of playlist access, placement, and engagement signals to create streams, credibility, revenue, or further platform distribution.
 - [Virtual Reality Sports](concepts/VirtualRealitySports.md) - Immersive sports production and distribution for remote presence, repeated broadcast learning, and prospective interaction.
 - [Bookings to Cash Conversion](concepts/BookingsToCashConversion.md) - Discipline of separating booked commitments from collected cash after timing, conditions, adoption, and cancellation risk.
-- [Platform Neutrality](concepts/PlatformNeutrality.md) - Avoiding competition in an adjacent layer when broad cooperation there creates more value for the core product than first-party control.
+- [Platform Neutrality](concepts/PlatformNeutrality.md) - Avoiding competition in an adjacent layer when broad cooperation there creates more value for the core product than first-party control, while accepting lost integration benefits.
 - [Contingent Workforce](concepts/ContingentWorkforce.md) - Labor obtained through temporary appointments, staffing agencies, vendors, or contractors, separating flexible capacity from direct employment and its protections.
 - [Corporate Risk Aversion](concepts/CorporateRiskAversion.md) - Preference for predictable outcomes that can narrow, redirect, transfer, or end uncertain investment despite abundant capital.
 - [Game Publishing Portfolio Economics](concepts/GamePublishingPortfolioEconomics.md) - Hit-driven model in which several long-cycle game bets are needed because one success may offset multiple failures.
@@ -3091,7 +3093,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Standard of Care](concepts/StandardOfCare.md) - professional-practice benchmark that may shift when patient-targeted online search becomes common.
 - [Subsidized Unit Economics](concepts/SubsidizedUnitEconomics.md) - Growth pattern where customers pay less than the full cost to serve and investors, workers, suppliers, or future price increases are expected to cover the gap.
 - [Digital Product Timelessness](concepts/DigitalProductTimelessness.md) - Possibility that a website, app, or interface can remain culturally recognizable and functionally strong across long periods of digital change.
-- [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
+- [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Staged workload and operating-model transition shaped by failure triggers, re-architecture, scaffolding, supplier displacement, and sequencing risk.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
 - [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by back-end coverage, discoverability, hands-free context, ecosystem economics, privacy, naming, and visible-interface limits.
