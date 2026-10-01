@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "martin-fowler-thoughtworks-bottleneck-01-tech-debt",
+  "images": [
+    {
+      "file": "business-product-engineering-alignment.png",
+      "alt": "Business strategy directing overlapping product and engineering responsibilities"
+    }
+  ]
+}

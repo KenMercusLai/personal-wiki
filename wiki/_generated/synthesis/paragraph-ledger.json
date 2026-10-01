@@ -683,12 +683,13 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f",
       "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec",
-      "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83"
+      "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83",
+      "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf"
     ],
-    "paragraph_count": 683
+    "paragraph_count": 684
   },
-  "overview_commit": "8c18b87d27dfc9ac80ae2151a11bb498781f351d",
-  "overview_digest": "cdd87d7db01012d35a1e88d324ec3e13a5e498dcfed85a866dc97728d6336057",
+  "overview_commit": "2de8437e72eee9b2bc86e7530d8fc0380e7dbf23",
+  "overview_digest": "9b0d0178a75218d1f5d43f71f1fea09407d60f94eb35622b6dcc81696cf9ae51",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13840,6 +13841,27 @@
         "MarioZechner",
         "ModelContextProtocol",
         "Puppeteer"
+      ]
+    },
+    {
+      "id": "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[MartinFowler]] source adds [[TechnicalDebt]] as a stage-sensitive scaling constraint rather than a synonym for bad code. Prudent shortcuts can accelerate [[ProductMarketFit]] discovery, while an MVP allowed to become undocumented core infrastructure can make feature effort rise nonlinearly; the opposite failure is architecture, automation, or optimization built for hypothetical scale before demand is proven. The article broadens debt across code, tests, coupling, unused features, dependencies, tooling, reliability, manual operations, deployment, and knowledge, and separates it from missing platform functionality that has direct KPI value and needs ordinary product planning. Warning signals include value lead time, user impact, engineering satisfaction, onboarding, infrastructure cost, performance, and availability. The proposed response strengthens [[StartupScaling]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] through a quality bar, limited blast radius, transparent business and platform evidence, end-to-end ownership, empowered teams, and lightweight governance, with product and engineering overlapping under business strategy. Its four phases, daily-deployment advice, and remedies remain practitioner heuristics from unspecified composite Thoughtworks clients without comparative outcomes or validated thresholds. The sole local diagram was opened and retained at its semantic position because it makes the product-engineering overlap and business-strategy direction explicit.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "ContinuousDelivery",
+        "InternalSoftwareQuality",
+        "MartinFowler",
+        "ProductMarketFit",
+        "StartupScaling",
+        "TechnicalDebt"
       ]
     }
   ],

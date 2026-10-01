@@ -7168,6 +7168,10 @@ Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective co
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-01] ingest | Bottleneck #01: Tech Debt
+
+Added [[TechnicalDebt]] and updated [[MartinFowler]] from his complete ordered evidence inventory. Recorded prudent early-stage shortcuts, the nonlinear scaling bottleneck, a broad debt taxonomy, observable warning signals, the boundary between debt and missing platform functionality, and a response based on quality standards, constrained blast radius, product-engineering collaboration, transparent evidence, ownership, empowered teams, and lightweight governance. Preserved the counterweight that premature architecture, automation, and optimization can obstruct product learning, and the source's lack of comparative outcomes or validated thresholds. Opened the sole local diagram and retained it under a descriptive canonical filename at its product-and-engineering collaboration position.
+
 ## [2026-10-01] ingest | Jessica Livingston's Pretty Complete List on How Not to Fail
 
 Added [[DefaultAlive]] as an assumption-sensitive cash-survival test and updated [[JessicaLivingston]], [[YCombinator]], [[StartupFocus]], and [[StartupGrowthSignalQuality]] from their complete ordered evidence inventories. Connected user demand, product focus, measured revenue growth, runway, conservative hiring, and fundraising-stage expectations while preserving the conflict between growth as an anti-denial forcing function and short-window growth as weak standalone evidence. Qualified the 10% monthly benchmark, constant-growth and constant-expense assumptions, and the under-evidenced claim that gender barriers rarely determine founder outcomes. The YC logo and duplicated play-icon URLs returned HTTP 404, so none of the three effective remote image references could be inspected or retained and no visual claim was used.
@@ -7455,6 +7459,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | What if you don't need MCP at all?
 
 Added [[MarioZechner]] and [[Puppeteer]], and updated [[ModelContextProtocol]], [[BashAsMetaTool]], [[LLMToolingSkills]], and [[CodingAgentMinimalTooling]] from their complete ordered evidence inventories. Recorded the task-specific browser CLI, reported 225-token README versus 13.7k- and 18.0k-token MCP catalogs, shell/file composability, on-demand tool generation, and explicit README loading across agents. Preserved MCP's value for focused structured integrations and the limits of an uncontrolled practitioner comparison, including maintenance, permission, credential, safety, and portability tradeoffs. Opened and retained all three source images with descriptive canonical filenames at their semantic positions: the MCP context budget, the live cookie-tool creation and test, and the CLI context budget.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

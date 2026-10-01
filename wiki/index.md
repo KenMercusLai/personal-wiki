@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Bottleneck #01: Tech Debt](sources/martin-fowler-thoughtworks-bottleneck-01-tech-debt.md) - Martin Fowler frames technical debt as a stage-sensitive startup tradeoff requiring diagnosis, warning signals, shared product-engineering judgment, clear ownership, and continuous repayment rather than blanket cleanup.
 - [Marc Benioff: Win Customers by Treating Them Like Partners](sources/marc-benioff-win-customers-by-treating-them-like-partners.md) - Benioff links pioneer targeting, network-led sales, free design partners, prioritized feedback, rapid shipping, and low-risk monthly conversion in Salesforce's first-customer account.
 - [24 岁就能采访顶级大佬：Dwarkesh 如何用 AI 做深度准备？](sources/mai-yang-dwarkesh-ru-he-yong-ai-zuo-shen-du-zhun-bei.md) - Mai Yang presents Dwarkesh Patel's depth-first preparation, trust-building, conversational LLM reading, spaced review, and knowledge-integration workflow while preserving its secondary and unmeasured evidence base.
 - [Dear friend, you have built a Kubernetes](sources/mac-chaffee-dear-friend-you-have-built-a-kubernetes.md) - Mac Chaffee warns that avoiding Kubernetes can recreate its deployment, networking, discovery, immutable-node, and control-plane responsibilities as a less standardized custom stack.
@@ -1734,7 +1735,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
 - [Nicholas Carlini](entities/NicholasCarlini.md) - Machine-learning security researcher and programmer represented here by a concrete, caveated taxonomy of practical LLM use.
 - [Courtney Seiter](entities/CourtneySeiter.md) - Buffer author represented by practitioner accounts of remote work and continuous, question-led employee coaching.
-- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice, architecture-governance, and online-information habits.
+- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer and Thoughtworks practitioner connecting technical practice, contextual architecture governance, product learning, and stage-sensitive technical-debt strategy.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
 - [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
 - [Connie Chan](entities/ConnieChan.md) - Author of the a16z analysis on China's livestreaming boom.
@@ -3446,6 +3447,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Programmer Mindset](concepts/ProgrammerMindset.md) - Learned habit of reasoning precisely about code and transferring lesson patterns into independently chosen, integrated, and debugged systems.
 - [Skill Stacking](concepts/SkillStacking.md) - Career strategy of combining multiple useful skills into a distinctive profile rather than competing only on one axis.
 - [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and interpreting item-level liabilities and aggregate debt trends to support context-sensitive maintenance decisions.
+- [Technical Debt](concepts/TechnicalDebt.md) - Stage-sensitive tradeoff in which shortcuts exchange long-term quality or efficiency for near-term delivery and learning, with risk controlled through diagnosis, ownership, evidence, and continuous investment.
 - [TODO Comments](concepts/TodoComments.md) - Source-code comments used to mark future work, refactoring ideas, or unresolved code smells.
 - [Continuous Game Server Updates](concepts/ContinuousGameServerUpdates.md) - Progressive online-game update model where old and new versions coexist while traffic gradually moves with minimal player-visible maintenance.
 - [Game Server Cloud-Native Delivery](concepts/GameServerCloudNativeDelivery.md) - Applying service units, standardized runtime environments, container delivery, and DevOps ownership to game-server architecture.
