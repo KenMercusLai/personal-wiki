@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "martin-fowler-thoughtworks-bottleneck-02-talent",
+  "images": [
+    {
+      "file": "talent-bottleneck-signals.png",
+      "alt": "Flow from project planning through sourcing and interviewing to delivery and product output, annotated with talent-bottleneck signals"
+    },
+    {
+      "file": "candidate-experience-nps-dashboard.png",
+      "alt": "Candidate-experience dashboard showing rolling six-month NPS of 87 and this-month NPS of 80"
+    },
+    {
+      "file": "three-week-hiring-process.png",
+      "alt": "Three-week hiring sequence from application through recruiter and technical screens, briefing, interview day, debrief, and offer"
+    }
+  ]
+}

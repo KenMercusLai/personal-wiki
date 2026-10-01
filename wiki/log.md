@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Bottleneck #02: Talent
+
+Added [[TimCochran]] and [[RoniSmith]], and updated [[StartupHiringAtScale]] from its complete ordered evidence inventory. Corrected the archive's misleading Martin Fowler attribution against the official article, recorded talent-strain signals, forecasted recruiting capacity, ramp time, talent-mix expansion, remote readiness, candidate feedback, and deliberate inclusion, and preserved the limits of numerical heuristics, NPS, small hiring datasets, and a company-authored case study. Opened and retained all three substantive images under descriptive canonical filenames at their semantic positions: the end-to-end talent-bottleneck signal flow, candidate-experience NPS dashboard, and three-week hiring sequence.
+
 ## [2026-10-01] ingest | Marc Benioff: Win Customers by Treating Them Like Partners
 
 Added [[MarcBenioff]] and [[BlueMartiniSoftware]], and updated [[Salesforce]], [[FounderLedSales]], [[CustomerLedProductDevelopment]], and [[FreemiumAcquisition]] from their complete ordered evidence inventories. Recorded pioneer targeting, network-led prospecting, rapid hosted-CRM deployment, free design partners, in-product idea capture, prioritized request tracking, fast response, satisfaction checks, observed use, and low-risk monthly conversion while preserving the absence of rejected-request, conversion-denominator, retention, security, comparison, and independent causal evidence. The supplied Markdown contains no image references, so no visual assets or manifest were required.
@@ -7459,6 +7463,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | What if you don't need MCP at all?
 
 Added [[MarioZechner]] and [[Puppeteer]], and updated [[ModelContextProtocol]], [[BashAsMetaTool]], [[LLMToolingSkills]], and [[CodingAgentMinimalTooling]] from their complete ordered evidence inventories. Recorded the task-specific browser CLI, reported 225-token README versus 13.7k- and 18.0k-token MCP catalogs, shell/file composability, on-demand tool generation, and explicit README loading across agents. Preserved MCP's value for focused structured integrations and the limits of an uncontrolled practitioner comparison, including maintenance, permission, credential, safety, and portability tradeoffs. Opened and retained all three source images with descriptive canonical filenames at their semantic positions: the MCP context budget, the live cookie-tool creation and test, and the CLI context budget.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
