@@ -7731,3 +7731,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Numbers Don’t Matter, Influence Does
+
+Updated [[GaryVaynerchuk]], [[CreatorPlatformMetrics]], and [[VanityMetrics]] from their complete ordered evidence inventories. Recorded the distinction between nominal reach and attentive consumption, accidental negative interaction, authentic versus purchased followers, small-audience redistribution, platform-specific consumption context, and downstream action. Preserved the source's 2016 practitioner scope, hypothetical examples, self-reported influencer tactic, and missing analytics, costs, controls, conversion, and current-platform evidence. Opened all four effective local images; omitted three decorative or duplicate “like over chart” illustrations and retained the distinct text-bearing starting-over quote card under a descriptive canonical filename with a matching manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

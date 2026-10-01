@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 0872ab491b52c44729c6559882df65f38bd73acb
+as_of_overview_commit: 758a64b0da3019fd7fd3588b0cd0de572da9dc6f
 summary: "Durable outcomes depend on explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human-centered judgment."
-episode_count: 961
-source_count: 961
-paragraph_count: 698
+episode_count: 962
+source_count: 962
+paragraph_count: 699
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit interfaces, workload fit, verification, re
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, operating capability, governed distribution, aligned partners, and accountable control.
+Durable value joins meaningful customer and audience outcomes, sustainable economics, operating capability, governed distribution, and accountable control.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].

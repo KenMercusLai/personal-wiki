@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Numbers Don’t Matter, Influence Does](sources/numbers-dont-matter-influence-does-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that impressions and follower totals only gain meaning through authentic attention, platform context, redistribution, and downstream action.
 - [大量的上下文切换拉爆我们的专注能力——《自控力》读书随想](sources/nova-kwok-da-liang-de-shang-xia-wen-qie-huan-la-bao-wo-men-de-zhuan-zhu-neng-li-zi-kong-li-du-shu-sui-xiang.md) - Nova Kwok connects engineering interruptions, reward-seeking, stress, and self-criticism to a qualified, long-term-goal account of attention and self-control.
 - [Notifications: A Tragedy Of the Digital Commons](sources/notifications-a-tragedy-of-the-digital-commons-positive-slope-medium.md) - Scott Belsky frames notification overload as a tragedy of the commons and proposes contextual operating-system mediation to change sender incentives.
 - [Notifications run our lives now. Is there room for any more?](sources/notifications-run-our-lives-now-is-there-room-for-any-more-alexdanco-com.md) - Alex Danco argues that notifications should resolve uncertainty for immediate triage and speculates that spatial interfaces could expand capacity beyond a saturated notification tray.
@@ -2545,7 +2546,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [John Collison](entities/JohnCollison.md) - Stripe co-founder who built the early payment prototype with Patrick Collison after a long history of working through problems together.
 - [Steve Lopez](entities/SteveLopez.md) - Los Angeles Times columnist represented through his 2017 reporting and argument on housing affordability and cost-driven migration.
 - [Las Vegas](entities/LasVegas.md) - Nevada city presented as a nearby lower-cost job and housing destination for Californians.
-- [Gary Vaynerchuk](entities/GaryVaynerchuk.md) - Marketing practitioner represented by value-first, platform-aware content strategy and brand-coherence advice.
+- [Gary Vaynerchuk](entities/GaryVaynerchuk.md) - Marketing practitioner represented by value-first, platform-aware content strategy and attention-over-reach measurement advice.
 - [Art Kleiner](entities/ArtKleiner.md) - Management author represented by an early Internet-company account of emergent culture, hype and craft, and persistent teams.
 - [Jocelyn Goldfein](entities/JocelynGoldfein.md) - Author and VMware offsite participant explaining culture through observable rewards, consequences, and role models.
 - [Charles O'Reilly](entities/CharlesOReilly.md) - Stanford GSB professor represented through a diagnostic that asks what behavior actually produces success inside a company.
@@ -3549,7 +3550,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that makes an unnamed or fragmented workflow legible as a category and associates the creator with its solution.
 - [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around comparison, topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
-- [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
+- [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Impressions, views, likes, followers, and distribution signals interpreted through attention, audience quality, outcomes, and psychological risk.
 - [Creator Economy Startups](concepts/CreatorEconomyStartups.md) - Creator-monetization companies analyzed through distribution scarcity, power-law supply, take-rate pressure, and defensibility.
 - [Creator Power Law](concepts/CreatorPowerLaw.md) - Concentration pattern where a small number of creators capture most audience, earnings, and platform revenue.
 - [Link-In-Bio Competition](concepts/LinkInBioCompetition.md) - Zero-sum fight for scarce organic traffic from the prominent external link on a creator's social profile.
@@ -3796,7 +3797,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity, product-scope constraint, and survival time rather than only calendar months before cash runs out.
 - [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate and employee verification of startup viability, payroll, conduct, role conditions, fit, learning returns, and escalation signals.
-- [Vanity Metrics](concepts/VanityMetrics.md) - Attention or activity metrics that look impressive but weakly evidence durable business progress unless tied to revenue, customers, retention, or active use.
+- [Vanity Metrics](concepts/VanityMetrics.md) - Surface attention or activity counts that weakly evidence value unless tied to authentic users, defined behavior, and downstream outcomes.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of protecting a coherent customer, product, performance, and business sequence when competing opportunities consume scarce attention.
 - [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing system whose new-market scale redirected investment and innovation away from PCs while seeding adjacent and post-phone technologies.

@@ -698,12 +698,13 @@
       "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea",
       "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd",
       "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d",
-      "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd"
+      "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
+      "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
     ],
-    "paragraph_count": 698
+    "paragraph_count": 699
   },
-  "overview_commit": "0872ab491b52c44729c6559882df65f38bd73acb",
-  "overview_digest": "334b175682544bf3fc1cba672a60bb2329ae3b27cfed2a69f047d9f5e811a341",
+  "overview_commit": "758a64b0da3019fd7fd3588b0cd0de572da9dc6f",
+  "overview_digest": "e404b22fca57a82af265dfa7fe0cbd23a63e344e5fb8483f4afb96f6d8e43b06",
   "paragraphs": [
     {
       "id": "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
@@ -14135,6 +14136,23 @@
         "FrancoisChollet",
         "InternalSoftwareQuality",
         "SoftwareEngineering"
+      ]
+    },
+    {
+      "id": "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[GaryVaynerchuk]] source connects the creator and business-measurement threads through a distinction between counted reach and actual influence. [[CreatorPlatformMetrics]] now treats impressions, clicks, and follower totals as behaviorally ambiguous: exposure can occur without attention, accidental interaction can express frustration, and purchased or indifferent audiences can add volume without response. [[VanityMetrics]] generalizes the test beyond startup press and registrations: a surface number becomes decision-useful when it is tied to authentic people, attentive consumption, relevant action, and downstream outcomes. The source also keeps platform context visible by comparing Instagram, Twitter, and Snapchat consumption and reporting an Instagram influencer book tactic, but those claims remain historically bounded to 2016 and lack disclosed campaign analytics, costs, controls, or conversion results. Its useful contribution is therefore an interpretation rule—depth before width—not a current platform ranking or demonstrated causal playbook. Three duplicate or decorative “like over chart” illustrations were omitted; a distinct quote card about portable influence and starting over was retained as a source-scoped aside.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CreatorPlatformMetrics",
+        "GaryVaynerchuk",
+        "VanityMetrics"
       ]
     }
   ],
