@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [New form of Google banking scam](sources/new-form-of-google-banking-scam.md) - Abhijit Tomar documents a bank impersonation scam routed through fraudulent Google business-listing contact data.
 - [Never Ask Two People to do One Person's Job](sources/never-ask-two-people-to-do-one-persons-job-both-sides-of-the-table.md) - Mark Suster argues that one-person requests need one named owner, with copied recipients treated as informed rather than ambiguously responsible.
 - [Network effects on social platforms: why the quality of user matters](sources/network-effects-on-social-platforms-why-the-quality-of-user-matters-version-one.md) - A Version One essay reframes social-platform network effects around relationship relevance, contribution, and product-specific critical mass rather than user count alone.
 - [On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries](sources/network-janitor-on-the-premature-death-of-spanning-tree-and-the-indiscriminate-killing-of-canaries.md) - Network Janitor argues that fabric-core STP removal does not eliminate edge-loop risk and that replacement detection and containment must be explicit.
@@ -967,6 +968,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 
 ## Entities
+- [Abhijit Tomar](entities/AbhijitTomar.md) - Author who documented a 2018 listing-mediated telephone-banking scam affecting his cousin.
 - [Network Janitor](entities/NetworkJanitor.md) - Pseudonymous networking practitioner arguing for scoped STP retirement and explicit edge-loop safeguards.
 - [David Lowe](entities/DavidLowe.md) - Nestoria engineering author presenting a production-safe instrumentation method for evidence-led dead-code removal.
 - [Nestoria](entities/Nestoria.md) - Company engineering context for a Perl tombstone system combining bounded local probes, central collection, retention, and reporting.
@@ -2600,6 +2602,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Search Listing Impersonation](concepts/SearchListingImpersonation.md) - Social engineering that manipulates search or directory contact data to route users to an impersonator.
 - [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
 - [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
 - [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.

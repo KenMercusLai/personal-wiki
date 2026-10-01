@@ -8,7 +8,8 @@ sources:
   - unethical-growth-hacks-youtube-news-bot-epidemic
   - the-linux-of-social-media-how-livejournal-pioneered-then-lost-blogging-ars-technica
   - internet-content-moderation-101-hunter-walk
-last_updated: 2026-09-30
+  - new-form-of-google-banking-scam
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,8 +27,10 @@ LiveJournal's “Nipplegate” adds adversarial reporting and policy context. A 
 
 Walk supplies the operating layer beneath those cases. Algorithms can assign fluid risk states as account, content, consumption, sharing, and flag signals accumulate, but people still choose the thresholds, trust defaults, queue priorities, escalation rules, staffing, training, and tools. Review capacity has separate inflow and throughput controls: lower thresholds route more content to humans, while more or better-supported reviewers can shorten latency. Effective response therefore also requires executive metrics, absolute harm counts, repeat-offender controls, frontline management exposure, and worker welfare rather than a model-accuracy number alone.
 
+Tomar's banking-scam report extends abuse response beyond hosted content and interpersonal behavior to identity-bearing directory data. A false bank phone number allegedly converted a user-initiated support search into credential theft; reuse of the same number across several branches offered a cross-listing signal, while warning reviews apparently did not trigger correction. For high-consequence listings, ownership verification, anomaly detection, non-owner fraud reporting, provenance, and correction latency are therefore part of safety operations.
+
 ## Key Claims
-- Abuse response starts with an accurate threat model and policies that distinguish materially different contexts.
+- Abuse response starts with an accurate threat model and policies that distinguish materially different contexts, including identity and contact-data integrity rather than content alone.
 - Blocking or self-curation cannot replace platform action when targets need threat visibility or coordinated mobs exploit product features.
 - Industrial abuse requires pattern-level enforcement because cheap automated production can outpace individual reports and takedowns.
 - Reporting systems can themselves become abuse tools when malicious users exploit literal rules against contextually different content.
@@ -51,13 +54,17 @@ Walk supplies the operating layer beneath those cases. Algorithms can assign flu
 - Classification and routing: [[internet-content-moderation-101-hunter-walk]] describes fluid green, yellow, and red states whose thresholds and review priorities are set by management rather than discovered by technology alone.
 - Capacity levers: [[internet-content-moderation-101-hunter-walk]] separates threshold-driven queue volume from staffing-, training-, quality-, and tooling-driven review speed.
 - Governance and care: [[internet-content-moderation-101-hunter-walk]] recommends executive dashboards, absolute counts, repeat-offender controls, management time in queues, response-time attention, and reviewer support.
+- Listing identity abuse: [[new-form-of-google-banking-scam]] reports that a fraudulent number in a Google bank-branch card routed a user to an impersonator who obtained card credentials and stole INR 9,000.
+- Pattern signal: [[new-form-of-google-banking-scam]] says the same number appeared across several bank branches in one region.
+- Correction latency: [[new-form-of-google-banking-scam]] reports warning reviews alongside a still-visible false number and no obvious fraud-reporting channel for non-owners.
 
 ## Counterevidence & Qualifications
-The sources provide a strategic and operational model, not a full moderation architecture, legal analysis, international safety procedure, or validated measurement system. Interventions create unresolved tradeoffs around speech, due process, appeals, moderator discretion, false positives, transparency, and incentives to under-record flags. Fowler's self-description is a privileged user case; the news-bot source lacks platform data; and the LiveJournal account does not reproduce the full policy record. Walk's taxonomy is a simplified historical explanation based on YouTube experience that ended around 2012, with no disclosed thresholds, accuracy, queue volumes, response distributions, or outcome measures. The retained worker-care response is firsthand but not representative.
+The sources provide a strategic and operational model, not a full moderation architecture, legal analysis, international safety procedure, or validated measurement system. Interventions create unresolved tradeoffs around speech, due process, appeals, moderator discretion, false positives, transparency, and incentives to under-record flags. Fowler's self-description is a privileged user case; the news-bot source lacks platform data; and the LiveJournal account does not reproduce the full policy record. Tomar supplies one 2018 incident without platform telemetry, a verified listing-change history, or inspectable screenshots, so it establishes a plausible attack path rather than prevalence or current controls. Walk's taxonomy is a simplified historical explanation based on YouTube experience that ended around 2012, with no disclosed thresholds, accuracy, queue volumes, response distributions, or outcome measures. The retained worker-care response is firsthand but not representative.
 
 ## What Changed
-- Added the operating layer connecting policy and threat models to dynamic classification, thresholds, queues, reviewers, and escalation.
-- Distinguished review coverage from review latency and added executive accountability, repeat-infringement control, and reviewer welfare.
+- Extended abuse response from content and behavior to identity-bearing directory data.
+- Added cross-listing anomaly detection, non-owner fraud reporting, provenance, and correction latency as controls for high-consequence listings.
+- Preserved the distinction between a documented attack path and platform-wide prevalence or current effectiveness.
 
 ## Related Concepts
 - [[SemanticIsolation]] - both concepts concern limiting damage from hostile inputs or actors in high-permission systems.
@@ -68,3 +75,4 @@ The sources provide a strategic and operational model, not a full moderation arc
 - [[AutomatedContentFarming]] - mass-produced stolen content is a second abuse shape with a different enforcement bottleneck.
 - [[CommunityGovernanceDebt]] - ambiguous rules and accumulated precedent make contextual enforcement harder and more contested.
 - [[ContentModerationOperations]] - supplies the classification, queueing, staffing, and reviewer-care machinery behind response.
+- [[SearchListingImpersonation]] - shows how manipulated directory data can route a user to an impersonator before ordinary content moderation begins.

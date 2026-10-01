@@ -7571,3 +7571,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | New form of Google banking scam
+
+Added [[AbhijitTomar]] and [[SearchListingImpersonation]], and updated [[Google]] and [[PlatformAbuseResponse]] from their complete ordered evidence inventories. Recorded the reported path from a fraudulent bank-branch phone number through user-initiated contact, credential disclosure, and INR 9,000 loss; separated user caution from platform verification, anomaly detection, reporting, provenance, and correction duties; and preserved the single-case, historical-control, and missing-evidence limits. Opened and omitted the generic lead photograph as decorative; the two referenced business-card screenshots were absent from the source vault and could not be inspected or retained.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
