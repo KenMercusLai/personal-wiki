@@ -7535,3 +7535,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Nestoria Dev Blog: Tombstones for Dead Code
+
+Added [[DavidLowe]], [[Nestoria]], and [[DeadCodeTombstones]] from Lowe's account of marking suspected dead paths with bounded production probes before deletion. Recorded author-and-date identifiers, source locations, stack traces, per-probe file quotas, fail-open error handling, non-blocking locks, scheduled central collection and expiry, and a web report separating uncalled tombstones from live “vampires.” Preserved the boundary that silence proves little without representative observation coverage and reliable telemetry, and that the reported cleanup benefits are unquantified and company-authored. Opened both effective image references, recognized them as the same screenshot, retained one evidence-bearing report view under a descriptive canonical filename at its semantic position, and omitted the duplicate.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

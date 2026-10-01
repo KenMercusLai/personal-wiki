@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "nestoria-dev-blog-tombstones-for-dead-code",
+  "images": [
+    {
+      "file": "tombstones-and-vampires-report.png",
+      "alt": "Tombstones and Vampires report distinguishing uncalled probes from live code paths"
+    }
+  ]
+}

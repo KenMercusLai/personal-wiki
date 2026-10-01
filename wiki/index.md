@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Nestoria Dev Blog: Tombstones for Dead Code](sources/nestoria-dev-blog-tombstones-for-dead-code.md) - David Lowe describes Nestoria's bounded runtime probes and reporting workflow for distinguishing genuinely dead code from live “vampires” before deletion.
 - [Neil Hunt on Netflix and the Story of Netflix Streaming](sources/neil-hunt-on-netflix-and-the-story-of-netflix-streaming-internet-history-podcast.md) - Neil Hunt connects Netflix's queue-enabled subscription, recommendation economics, device-neutral streaming, AWS migration, behavioral data, Open Connect, and qualified self-disruption.
 - [My Startup Banking Story](sources/my-startup-banking-story.md) - Mitchell Hashimoto recounts how HashiCorp's founder-run bank account, incomplete migration, weak monitoring, and later fraud response exposed the need for professional treasury controls.
 - [Keep It Going](sources/morgan-housel-keep-it-going.md) - Morgan Housel argues that sustainable returns, low leverage, and psychologically tolerable drawdowns preserve the time that makes compounding powerful.
@@ -962,6 +963,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 
 ## Entities
+- [David Lowe](entities/DavidLowe.md) - Nestoria engineering author presenting a production-safe instrumentation method for evidence-led dead-code removal.
+- [Nestoria](entities/Nestoria.md) - Company engineering context for a Perl tombstone system combining bounded local probes, central collection, retention, and reporting.
 - [Neil Hunt](entities/NeilHunt.md) - Netflix product and technology executive represented through the company's DVD subscription, streaming, device, cloud, and recommendation transitions.
 - [Mitchell Hashimoto](entities/MitchellHashimoto.md) - HashiCorp cofounder represented through a self-critical account of early business-banking mistakes and delegation to professional finance leadership.
 - [HashiCorp](entities/HashiCorp.md) - Software company whose original bank account illustrates the transition from founder-managed cash to monitored and diversified treasury operations.
@@ -2592,6 +2595,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Dead Code Tombstones](concepts/DeadCodeTombstones.md) - Bounded runtime probes used to test whether apparently unused code executes before maintainers delete or refactor it.
 - [Business Naming](concepts/BusinessNaming.md) - Framing, generating, screening, and testing a company name for brand fit, comprehension, distinctiveness, and operational usability.
 - [Startup Treasury Management](concepts/StartupTreasuryManagement.md) - Safeguarding, monitoring, allocating, migrating, and retiring startup cash accounts across financial institutions and payment routes.
 - [Linux Bandwidth Monitoring](concepts/LinuxBandwidthMonitoring.md) - Reset-aware collection and interpretation of Linux interface traffic for quota accounting, rate visibility, and automated thresholds.

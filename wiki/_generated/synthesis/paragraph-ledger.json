@@ -688,12 +688,13 @@
       "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf",
       "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4",
       "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b",
-      "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e"
+      "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e",
+      "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69"
     ],
-    "paragraph_count": 688
+    "paragraph_count": 689
   },
-  "overview_commit": "f77241767961e79cdd9d632a06fa9f0069474eb8",
-  "overview_digest": "7a243eb0b3bdd638990ea4ca19f3702c392cd4add90c383754c5b4b1d8cc3b7e",
+  "overview_commit": "f3a8feff581a960c7389bdaaaa9d5d5e3ad02640",
+  "overview_digest": "2fddffc7ec094c955603cfae005550dbe5a617aa107f15cd482106b4d5469a2f",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13932,6 +13933,25 @@
       "wikilinks": [
         "BusinessNaming",
         "StartupBrandStrategy"
+      ]
+    },
+    {
+      "id": "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[DavidLowe]] source adds [[DeadCodeTombstones]] as bounded production instrumentation for safer code removal. In [[Nestoria]]'s Perl implementation, a dated and attributed marker records invocation time, source location, subroutine, and stack trace when supposedly dead code runs; separate files, per-probe size limits, non-blocking locks, and return-on-error behavior keep telemetry below application correctness in priority. Scheduled collection, expiry, and a web report turn local events into a maintenance queue that distinguishes uncalled tombstones from live “vampires,” strengthening [[ServiceObservability]], [[CentralizedLogging]], [[TechnicalDebt]], and [[SoftwareVerification]] with a decision-specific feedback loop. The method changes the deletion standard from visual suspicion to runtime evidence, but silence remains conditional on representative traffic, hosts, schedules, feature states, rare recovery paths, collection reliability, and a sufficient observation window. Nestoria reports both removing genuinely dead code and avoiding erroneous deletion, but provides no counts, overhead measurements, false-negative analysis, or controlled comparison. The two effective raw image references were identical; one evidence-bearing report screenshot was retained at its semantic position, showing commit context, time since placement, first and last sightings, locations, and stack-trace access, while the duplicate was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "CentralizedLogging",
+        "DavidLowe",
+        "DeadCodeTombstones",
+        "Nestoria",
+        "ServiceObservability",
+        "SoftwareVerification",
+        "TechnicalDebt"
       ]
     }
   ],

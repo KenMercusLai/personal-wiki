@@ -2,6 +2,26 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "runtime-probes-turn-dead-code-belief-into-bounded-evidence",
+      "qualifications": [
+        "The evidence is one unquantified company-authored retrospective and a partial implementation; Nestoria did not publish its collection jobs or reporting code.",
+        "A quiet probe supports deletion only when the observation window covers relevant traffic, hosts, schedules, feature states, rare recovery paths, and collection reliability; fail-open behavior protects production while increasing false-negative risk.",
+        "Stack traces and process context can contain sensitive operational data, so access control, retention, redaction, and storage policy remain part of the design."
+      ],
+      "statement": "[[DeadCodeTombstones]] turn a maintainer's belief that code is unused into a falsifiable runtime hypothesis: [[Nestoria]] records bounded invocation context and centralizes it for deletion or refactoring decisions, while [[ServiceObservability]], [[CentralizedLogging]], [[TechnicalDebt]], and [[SoftwareVerification]] frame why production safety and representative coverage matter more than exact event counts.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DeadCodeTombstones",
+        "DavidLowe",
+        "Nestoria",
+        "ServiceObservability",
+        "CentralizedLogging",
+        "TechnicalDebt",
+        "SoftwareVerification"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "action-grounded-identity-links-titles-to-present-practice",
       "qualifications": [
         "The evidence is one short first-person motivational essay and does not show that identity labels causally reduce effort or that retiring them improves performance.",
