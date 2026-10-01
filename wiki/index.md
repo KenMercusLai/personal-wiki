@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [23andMe Founder Anne Wojcicki Berates Stanford and Valley Med on Behalf of Sick Friend](sources/lisa-krieger-23andme-founder-anne-wojcicki-berates-stanford-and-valley-med.md) - Lisa M. Krieger reports how insurance, payment, medical-record, and specialist-navigation barriers compounded in one critical-care transfer, and how unusually prominent advocacy helped overcome them.
 - [Linux: Using find to Locate Files Older Than a Date](sources/linux-using-find-to-locate-files-older-than.md) - A Server Fault capture explains reference-file and direct-date modification-time filters while exposing equality, timestamp-type, and parser-portability boundaries.
 - [新年新开始：从为什么到写什么，带你重新认识日记](sources/larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji.md) - Lars漫步 organizes journaling around retrospective review, emotional clarification, gratitude, achievement evidence, and choice reflection while preserving the limits of its practitioner and secondary evidence.
 - [Reading Notes on 'Designing Data-Intensive Applications'](sources/laisky-reading-notes-on-designing-data-intensive-applications.md) - Laisky connects data models, storage engines, replication, transactions, consensus, and batch and stream processing through their reliability and coordination tradeoffs.
@@ -946,6 +947,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Anne Wojcicki](entities/AnneWojcicki.md) - 23andMe founder represented through a source-bounded case of prominent patient advocacy and healthcare-system criticism.
+- [23andMe](entities/23andMe.md) - Consumer-genetics company whose founder affiliation amplified Anne Wojcicki's visibility in the reported hospital-transfer case.
+- [Stanford Medical Center](entities/StanfordMedicalCenter.md) - Advanced-care destination that reportedly required payment assurance before accepting an uninsured critical patient.
+- [Santa Clara Valley Medical Center](entities/SantaClaraValleyMedicalCenter.md) - Initial treating hospital in a disputed case involving delayed family access to records and transfer for a second opinion.
 - [Lars漫步](entities/LarsManbu.md) - Practitioner-author presenting selective reflective journaling through event, emotion, gratitude, achievement, and choice-focused prompts.
 - [Laisky](entities/Laisky.md) - Author represented through a chapter-spanning synthesis of database and distributed-systems mechanisms and tradeoffs.
 - [André Chaperon](entities/AndreChaperon.md) - Marketer and creator documenting a context-oriented Zettelkasten and PKM workflow for idea development and writing.
@@ -2554,6 +2559,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Patient Advocacy](concepts/PatientAdvocacy.md) - Coordinated escalation, information gathering, coverage help, and care navigation whose availability is itself unequally distributed.
+- [Healthcare Access Barriers](concepts/HealthcareAccessBarriers.md) - Interacting financial, informational, administrative, institutional, and navigation obstacles to evaluation and treatment.
 - [File Timestamp Filtering](concepts/FileTimestampFiltering.md) - Selecting files around modification-time cutoffs with reference files or direct date parsing while making comparison boundaries and portability explicit.
 - [Data-Intensive Systems](concepts/DataIntensiveSystems.md) - Applications whose central design challenge is reliable storage, movement, transformation, and coordination of data at the required scale.
 - [First-Principles Thinking](concepts/FirstPrinciplesThinking.md) - Decomposing a problem into fundamental parts through abstraction, then recombining those parts from a changed perspective.

@@ -7415,3 +7415,11 @@ Added [[FileTimestampFiltering]] from a short Server Fault capture of reference-
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 23andMe Founder Anne Wojcicki Berates Stanford and Valley Med on Behalf of Sick Friend
+
+Added [[AnneWojcicki]], [[23andMe]], [[StanfordMedicalCenter]], [[SantaClaraValleyMedicalCenter]], [[PatientAdvocacy]], and [[HealthcareAccessBarriers]]. Recorded how insurance, a reported deposit demand, delayed record access, and specialist discovery compounded in one critical-care transfer; distinguished emergency coverage, legal and counseling help, phone-photo workarounds, public pressure, and personal networks from equitable access infrastructure; and preserved the hospitals' privacy-based nonresponse, their general explanations, the unnamed patient's undisclosed illness and outcome, and the case's attribution limits. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

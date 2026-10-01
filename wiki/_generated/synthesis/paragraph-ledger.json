@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
       "65ee66c2bc5d9e8cb56a8dd903622327a55ec5f6be6bb212a826c00f74657997",
       "5f7c48123fbbc8f3a7bdf8289d1d57d4a3767f69ae9de700bc0aad809b99db24",
       "5379222796c70539632fc864e5282434ae3ac2db0380617ad60857231aabf8ab",
@@ -682,11 +683,33 @@
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
     ],
-    "paragraph_count": 680
+    "paragraph_count": 681
   },
-  "overview_commit": "4a1cd1bb5ce932153aed3d642c882f40e13712ca",
-  "overview_digest": "198776999ce23de5c23af7420705b4fcd2ca7db02ef5f99c037faef48eb0807e",
+  "overview_commit": "b5d53af6921f1e1ab6c34cdb48ee1681eceb92ad",
+  "overview_digest": "f48028fa780aac37b52dba0d9b4db86d57a8be9c40920cb31c03ea0caf80e749",
   "paragraphs": [
+    {
+      "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[AnneWojcicki]] source adds [[PatientAdvocacy]] and [[HealthcareAccessBarriers]] through a 2018 case in which an uninsured, critically ill patient sought transfer from [[SantaClaraValleyMedicalCenter]] to [[StanfordMedicalCenter]]. The reported obstacles were cumulative: no insurance, a $1 million deposit demand, a five-to-ten-business-day wait for records, and uncertainty about which specialist could offer treatment unavailable at the current hospital. Wojcicki's public campaign, Bay Area Legal Aid, Covered California counselors, temporary Hospital Presumptive Eligibility, phone photographs of available clinical data, and personal clinician search reportedly preceded coverage and transfer. The durable judgment is institutional rather than celebratory: navigation must join payment, records, second-opinion access, and specialist discovery, while a system that responds to fame and social-media pressure distributes care partly through advocacy power. The evidence remains one attributed news case with an unnamed patient, undisclosed illness, no outcome data, and no case-specific hospital responses because of privacy rules; Stanford's continuing-care funding explanation and Valley Medical's claim that electronic records transfer between doctors therefore remain unresolved against the family's account. [[23andMe]] is contextual to Wojcicki's prominence, not a reported participant. The supplied Markdown contains no image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "23andMe",
+        "AnneWojcicki",
+        "HealthcareAccessBarriers",
+        "PatientAdvocacy",
+        "SantaClaraValleyMedicalCenter",
+        "StanfordMedicalCenter"
+      ]
+    },
     {
       "id": "65ee66c2bc5d9e8cb56a8dd903622327a55ec5f6be6bb212a826c00f74657997",
       "primary_topic": "science-health-and-climate",
