@@ -2,6 +2,24 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "user-centered-api-design-bounds-software-complexity",
+      "qualifications": [
+        "The evidence is one 2018 personal practitioner checklist without comparative API usability, maintenance, career-satisfaction, or organizational outcomes.",
+        "Agency, decision speed, simplicity, automation, testing, and values-led work remain constrained by role power, resources, risk, accessibility, regulation, and the cost of error."
+      ],
+      "statement": "[[FrancoisChollet]] connects [[APIDesign]] and [[SoftwareEngineering]] to a wider work ethic: teams should communicate through readable code, limit feature and cognition costs, formalize recurring knowledge, preserve reversible learning, calibrate decision speed to error cost, and judge technical careers by teamwork, agency, user impact, and ethical direction rather than title or visible activity alone.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "FrancoisChollet",
+        "APIDesign",
+        "SoftwareEngineering",
+        "InternalSoftwareQuality",
+        "DeveloperExperience",
+        "CognitiveOverheadInProductDesign"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "healthcare-access-depends-on-routine-navigation-not-exceptional-influence",
       "qualifications": [
         "The evidence is one 2018 news case with an unnamed patient, undisclosed illness and outcome, no causal comparison among interventions, and no case-specific hospital response because of privacy rules.",

@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-01
-as_of_overview_commit: ca425da5e8a6b01840263cfb1e76008bd97294f6
-input_digest: 1ff4022d6857bf91851b125d7ae9f78861a9752cad2d2a767ac1b13d68712132
+as_of_overview_commit: 1336140081f595669349582b1b1e71948cf13a27
+input_digest: 83845631b7d585c63f2b8e17912692d218f7a68b2149223098287b6a6483e7e9
 ---
 
 # AI and Technology
@@ -15,6 +15,17 @@ input_digest: 1ff4022d6857bf91851b125d7ae9f78861a9752cad2d2a767ac1b13d68712132
 [[NickCraver]] adds a qualified high-frequency-delivery boundary: [[StackOverflow]] joined [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], and [[HAProxy]] into a reported sub-nine-minute path, but the first-party 2016 topology and timings do not establish comparative safety or current practice. [[MarioZechner]] adds a qualified browser-tool boundary: task-specific [[Puppeteer]] commands and an explicitly loaded README can reduce always-on schema cost and improve shell/file composition, but one custom workflow does not establish superiority over focused [[ModelContextProtocol]] integrations on reliability, safety, portability, or maintenance. [[FileTimestampFiltering]] adds a small but representative automation boundary: reference-file and direct-date predicates are composable, but timestamp type, parser support, timezone, locale, and comparison inclusivity must be explicit before a convenient shell expression becomes a reliable script. [[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden. [[TechnicalDebt]] adds a stage-sensitive architecture and delivery boundary: prudent shortcuts can fund early [[ProductMarketFit]] learning, but core-path debt becomes a nonlinear [[StartupScaling]] constraint when lead time, user outcomes, engineering experience, onboarding, cost, performance, or availability deteriorate; premature automation or distributed design can impose the opposite mismatch, and the proposed quality-bar, ownership, collaboration, and governance response remains practitioner guidance without validated thresholds. [[SQLFirstBusinessAutomation]] adds a qualified adoption gate: deterministic queries are a transparent baseline for legible business rules, while orchestration, governance, and outcome measurement remain separate requirements and ML needs demonstrated incremental value.
 
 ## Cross-source Findings
+
+### User Centered Api Design Bounds Software Complexity
+
+[[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact.
+
+**Evidence:** [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]]
+
+**Qualifications:**
+
+- The evidence is one 2018 personal practitioner checklist without comparative API usability, maintenance, delivery, career, or organizational outcomes.
+- Low cognitive load, simplicity, automation, and broad unit-test coverage can conceal consequential behavior or misallocate effort unless they are adapted to safety, accessibility, consent, expert control, architecture, and failure cost.
 
 ### High Frequency Delivery Needs Compatible Change Boundaries
 

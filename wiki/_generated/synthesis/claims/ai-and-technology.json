@@ -2,6 +2,24 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "user-centered-api-design-bounds-software-complexity",
+      "qualifications": [
+        "The evidence is one 2018 personal practitioner checklist without comparative API usability, maintenance, delivery, career, or organizational outcomes.",
+        "Low cognitive load, simplicity, automation, and broad unit-test coverage can conceal consequential behavior or misallocate effort unless they are adapted to safety, accessibility, consent, expert control, architecture, and failure cost."
+      ],
+      "statement": "[[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "APIDesign",
+        "DeveloperExperience",
+        "FrancoisChollet",
+        "SoftwareEngineering",
+        "InternalSoftwareQuality",
+        "CognitiveOverheadInProductDesign"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "high-frequency-delivery-needs-compatible-change-boundaries",
       "qualifications": [
         "The evidence is one first-party 2016 [[StackOverflow]] account without comparative defect, failure-rate, customer-impact, or long-run reliability data.",

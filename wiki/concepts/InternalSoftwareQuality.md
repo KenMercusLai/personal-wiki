@@ -8,7 +8,8 @@ sources:
   - dont-waste-time-writing-perfect-code-dzone-devops
   - finding-time-to-become-a-better-developer
   - gal-zellermayer-0-bugs-policy
-last_updated: 2026-09-28
+  - notes-to-myself-on-software-engineering-featured-stories-medium
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -28,14 +29,16 @@ The developer-time essay reinforces the economic frame by expanding a feature's 
 
 Zellermayer adds defect inventory and decision latency to that lifecycle frame. In-sprint defects are unfinished feature work; other defects should be repaired promptly when their value warrants the effort or explicitly closed. His central mechanism aligns with lifecycle economics: memory, environments, and code context decay while old defects keep consuming triage attention. The policy does not prove that all known defects deserve repair, and “zero bugs” describes an empty open queue rather than defect-free software.
 
+Chollet adds communication and confidence as quality mechanisms. Readable factoring, self-explanatory names, comments for implicit context, explicit shared rules, CI, and unit tests reduce the amount of hidden knowledge required to understand and change a system. His preference for full coverage is best read as a strong confidence-seeking default rather than a universal metric target: meaningful verification still depends on risk, test quality, architecture, and failure modes.
+
 ## Key Claims
-- High internal quality can decrease total lifecycle cost by reducing downstream debugging, defect aging, and change work rather than merely adding polish.
-- Internal quality increases delivery speed by making change safer.
+- High internal quality can decrease total lifecycle cost and increase delivery speed by reducing downstream debugging, defect aging, and unsafe change rather than merely adding polish.
 - Testing, refactoring, design, and collaborative development are key quality practices in the source.
 - Frequent production delivery turns quality into a product-learning accelerator.
 - Local [[FunctionDesign]] choices can improve readability, reuse, maintainability, and testability.
 - Marginal polish should be proportional to expected change and risk; correctness, understandability, and safe failure remain baseline requirements.
 - Known defects need explicit, risk-aware decisions; zero open inventory must not be confused with zero product defects.
+- Readability and explicit process knowledge are quality infrastructure because code must communicate intent across a team as well as execute.
 
 ## Evidence
 - Cost claim: [[blog-martin-fowler-foreword-to-the-art-of-agile-development]] says high internal quality decreases cost and increases delivery speed.
@@ -49,14 +52,18 @@ Zellermayer adds defect inventory and decision latency to that lifecycle frame. 
 - Testability and performance: [[finding-time-to-become-a-better-developer]] presents test-first design as a route to smaller, simpler dependencies and limits optimization to speed that materially affects the user experience.
 - Defect aging: [[gal-zellermayer-0-bugs-policy]] argues that later fixes cost more as memory fades, environments disappear, code changes, and repeated triage accumulates.
 - Fix-or-close boundary: [[gal-zellermayer-0-bugs-policy]] explicitly permits closing low-value defects rather than treating maximal defect repair as synonymous with quality.
+- Communication quality: [[notes-to-myself-on-software-engineering-featured-stories-medium]] treats factoring, names, and comments for implicit context as fundamental because code communicates a solution to other people.
+- Confidence infrastructure: [[notes-to-myself-on-software-engineering-featured-stories-medium]] recommends CI, broad unit-test coverage, explicit shared rules, documented recurring workflows, and automation of mechanical checks.
 
 ## Counterevidence & Qualifications
-The sources argue strongly for internal quality but do not provide quantitative cost evidence. Bird's change-frequency model, the developer-time essay's lifecycle claims, and Zellermayer's bug-policy results are practitioner heuristics rather than measured allocation rules, and teams often cannot predict which apparently peripheral code will become critical. Test-driven development can improve feedback and testability, but its net value varies with legacy constraints, exploratory work, test quality, and failure cost. Function-level heuristics are useful defaults, yet context can justify exceptions when API compatibility, performance, framework conventions, or larger-scale clarity matter more. Security, data integrity, safety, accessibility, regulatory exposure, customer disclosure, and expensive failure can require both stronger engineering and durable known-issue records even when repair is deferred or rejected.
+The sources argue strongly for internal quality but do not provide quantitative cost evidence. Bird's change-frequency model, the developer-time essay's lifecycle claims, Zellermayer's bug-policy results, and Chollet's coverage and readability prescriptions are practitioner heuristics rather than measured allocation rules, and teams often cannot predict which apparently peripheral code will become critical. Test-driven development and high unit coverage can improve feedback and testability, but their net value varies with legacy constraints, exploratory work, test quality, integration behavior, and failure cost; coverage percentage alone does not prove useful verification. Function-level and readability heuristics are useful defaults, yet context can justify exceptions when API compatibility, performance, framework conventions, generated code, or larger-scale clarity matter more. Security, data integrity, safety, accessibility, regulatory exposure, customer disclosure, and expensive failure can require both stronger engineering and durable known-issue records even when repair is deferred or rejected.
 
 ## What Changed
 - Added defect age and recurring triage to the lifecycle cost of quality decisions.
 - Distinguished zero open bug inventory from defect-free software.
 - Added explicit fix, close, trace, and bounded-deferral decisions to risk-sensitive quality practice.
+- Added code-as-communication and explicit workflow knowledge as internal-quality mechanisms.
+- Qualified full unit-test coverage as a confidence-seeking heuristic rather than proof of correctness.
 
 ## Related Concepts
 - [[AgileSoftwareDevelopment]] - internal quality is part of real agile capability.
@@ -68,3 +75,4 @@ The sources argue strongly for internal quality but do not provide quantitative 
 - [[IterativeRefinement]] - turns provisional code into sufficient quality while supplying a stopping rule against endless polish.
 - [[CodeReviewPractice]] - directs human attention toward practical quality signals and material risk.
 - [[ZeroBugsPolicy]] - removes indefinite defect queues through prompt fix-or-close decisions.
+- [[SoftwareEngineering]] - places internal quality inside wider product, delivery, operational, and ethical responsibility.

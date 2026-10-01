@@ -697,12 +697,13 @@
       "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e",
       "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea",
       "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd",
-      "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d"
+      "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d",
+      "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd"
     ],
-    "paragraph_count": 697
+    "paragraph_count": 698
   },
-  "overview_commit": "513afd3169eb99eeb658501ad473c7e399e66ec7",
-  "overview_digest": "68711066ab9387cace6d874af1e8ec0247f26e4c77b3afae8eb4a4f652446974",
+  "overview_commit": "1336140081f595669349582b1b1e71948cf13a27",
+  "overview_digest": "a613961d4d6ed9b679c6f39e9a3297a28fe64bd0434035032ca6dbbae81a9d20",
   "paragraphs": [
     {
       "id": "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
@@ -14112,6 +14113,28 @@
         "GrowthEngineering",
         "Konga",
         "SQLFirstBusinessAutomation"
+      ]
+    },
+    {
+      "id": "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[FrancoisChollet]] source adds [[APIDesign]] as user-experience design for software interfaces. Public objects, data structures, arguments, naming, feedback, documentation, and examples should follow user workflows and domain mental models rather than expose incidental implementation choices; simple tasks should stay simple while modular hierarchy progressively supports complex use. This sharpens [[DeveloperExperience]] and [[CognitiveOverheadInProductDesign]] by treating feature restraint as lifecycle design: each option adds implementation, maintenance, documentation, and comprehension costs, so a coherent extension can be better than a literal response to a request. [[SoftwareEngineering]] now includes deciding what not to build, formalizing recurring work, automating mechanical checks, preserving early reversibility, and considering ethical effects on access, incentives, benefit, and harm. [[InternalSoftwareQuality]] gains code-as-communication, explicit shared rules, CI, and broad testing as confidence mechanisms, while qualifying full unit-test coverage as a practitioner heuristic rather than proof of correctness. The article is one 2018 personal checklist without comparative usability, career, or organizational outcomes; simplicity, automation, agency, decision speed, and values-led work remain context-dependent. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "APIDesign",
+        "CognitiveOverheadInProductDesign",
+        "DeveloperExperience",
+        "FrancoisChollet",
+        "InternalSoftwareQuality",
+        "SoftwareEngineering"
       ]
     }
   ],
