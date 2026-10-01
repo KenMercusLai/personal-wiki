@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Network effects on social platforms: why the quality of user matters
+
+Added [[SocialPlatformNetworkEffects]] from Version One's relationship- and contribution-weighted account of social-product growth. Distinguished participation-volume communities, meaningful-tie private networks, contributor-led public networks, and pairwise messaging; reframed critical mass as a product-specific configuration of roles, relationships, activity, and content rather than a universal user count. Preserved the essay's conceptual, unmeasured, and overlapping taxonomy, and explicitly rejected interpreting “quality” as a person's intrinsic worth. Opened the sole local image and omitted it as a blank decorative square, so no asset manifest was created.
+
 ## [2026-10-01] ingest | Neil Hunt on Netflix and the Story of Netflix Streaming
 
 Added [[NeilHunt]] and updated [[Netflix]], [[ReedHastings]], [[Roku]], [[PlatformNeutrality]], [[EnterpriseCloudMigration]], and [[StrategicSelfCannibalization]] from their complete ordered evidence inventories. Recorded the queue-enabled subscription, recommendation-driven inventory economics, HTTP streaming choice, neutral device distribution, failure-triggered AWS re-architecture, Open Connect boundary, behavioral-data advantage, creative-data boundary, and Qwikster as necessary but overly abrupt self-disruption. Preserved the interview's retrospective chronology uncertainty, first-person and unaudited scope, content-strategy boundary, and lack of customer, studio, and device-partner perspectives. Opened and retained the sole source image as a contextual photograph of Neil Hunt speaking in front of Netflix signage under a descriptive canonical filename with a matching manifest.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Network effects on social platforms: why the quality of user matters](sources/network-effects-on-social-platforms-why-the-quality-of-user-matters-version-one.md) - A Version One essay reframes social-platform network effects around relationship relevance, contribution, and product-specific critical mass rather than user count alone.
 - [On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries](sources/network-janitor-on-the-premature-death-of-spanning-tree-and-the-indiscriminate-killing-of-canaries.md) - Network Janitor argues that fabric-core STP removal does not eliminate edge-loop risk and that replacement detection and containment must be explicit.
 - [Netflix is on F***ing Fire](sources/netflix-is-on-f-ing-fire-the-startup-medium.md) - A 2016 commentary uses Netflix's scale, original-programming run, and a streaming-dominated Rotten Tomatoes snapshot to argue that television incumbents faced structural pressure.
 - [Nestoria Dev Blog: Tombstones for Dead Code](sources/nestoria-dev-blog-tombstones-for-dead-code.md) - David Lowe describes Nestoria's bounded runtime probes and reporting workflow for distinguishing genuinely dead code from live “vampires” before deletion.
@@ -2598,6 +2599,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
 - [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.
 - [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture whose internal STP replacement does not automatically protect edge attachments.
 - [Edge Network Loop Protection](concepts/EdgeNetworkLoopProtection.md) - Layered detection and containment of accidental bridging loops at endpoint and adjacent-network boundaries.
