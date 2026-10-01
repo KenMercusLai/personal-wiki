@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | 大量的上下文切换拉爆我们的专注能力——《自控力》读书随想
+
+Added [[NovaKwok]] and [[SelfControlPsychology]], and updated [[AttentionManagement]] and [[ProgrammerInterruptionRecovery]] from their complete ordered evidence inventories. Recorded external and self-initiated context switching, transition-point novelty seeking, physiological-state and future-discounting claims, reward anticipation, stress-relief prediction, guilt loops, self-compassion, and long-term goal alignment. Preserved the essay's personal and secondary scope, the unmethoded nature of its switching-cost percentages, the 65-person and task-specific boundary of its glucose evidence, and the author's own warning that the cited reward paper does not establish every popular-book interpretation. Opened and retained all four substantive images under descriptive canonical filenames at their semantic positions: the switching-cost illustration, citation-dense book page, future-discounting result, and monetary-incentive-delay task design.
+
 ## [2026-10-01] ingest | Notifications run our lives now. Is there room for any more?
 
 Updated [[AlexDanco]], [[NotificationDesign]], and [[AmbiguityReduction]] from their complete ordered evidence inventories. Recorded the criterion that an alert should resolve enough uncertainty for dismissal, deferral, triage, or action; the Outlook-to-apps-to-notification-tray unbundle-rebundle-saturate cycle; and the speculative use of glanceable or spatial objects to expand interface bandwidth. Preserved the argument's 2015 product context, absent controlled outcome evidence, privacy, clutter, distraction, accessibility, and finite-attention limits, and treated the capture's unidentified closing heat-map paragraph as an unattributed appended note. Opened the sole effective local image and retained its evidence-bearing hand-drawn process diagram under a descriptive canonical filename at its semantic position.
@@ -7719,6 +7723,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Notifications: A Tragedy Of the Digital Commons
 
 Updated [[NotificationDesign]] and [[ScottBelsky]] from their complete ordered evidence inventories. Recorded Belsky's tragedy-of-the-commons account of notification overload, the distinction between app-level improvement and channel-level governance, and his proposal for contextual operating-system ranking using schedule, location, urgency, relevance, relationships, and response history. Preserved the essay's historical practitioner scope and the privacy, consent, bias, opacity, alignment, mistaken-suppression, explanation, appeal, and urgent-exception questions left unresolved. Opened all six local images; omitted five decorative or duplicate bell and badge illustrations, while the materially relevant Slack logic diagram was only a 60-by-57-pixel thumbnail whose labels and flows could not be interpreted reliably. The publisher original was inaccessible, so no image was retained or used as independent evidence.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

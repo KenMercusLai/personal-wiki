@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "nova-kwok-da-liang-de-shang-xia-wen-qie-huan-la-bao-wo-men-de-zhuan-zhu-neng-li-zi-kong-li-du-shu-sui-xiang",
+  "images": [
+    {
+      "file": "context-switching-cost-by-project-count.png",
+      "alt": "Illustrative chart showing less time available per project and more time lost as the number of concurrent projects rises"
+    },
+    {
+      "file": "intimate-relationships-citation-example.png",
+      "alt": "Page from Intimate Relationships using dense inline academic citations to qualify claims about adolescent sexual experience"
+    },
+    {
+      "file": "future-discounting-before-after-drink.png",
+      "alt": "Future-discounting rates before and after control and glucose-containing drinks in the reported experiment"
+    },
+    {
+      "file": "monetary-incentive-delay-task-design.png",
+      "alt": "Monetary incentive delay task design separating anticipation, response, feedback, reward, and punishment regressors"
+    }
+  ]
+}

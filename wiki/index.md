@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [大量的上下文切换拉爆我们的专注能力——《自控力》读书随想](sources/nova-kwok-da-liang-de-shang-xia-wen-qie-huan-la-bao-wo-men-de-zhuan-zhu-neng-li-zi-kong-li-du-shu-sui-xiang.md) - Nova Kwok connects engineering interruptions, reward-seeking, stress, and self-criticism to a qualified, long-term-goal account of attention and self-control.
 - [Notifications: A Tragedy Of the Digital Commons](sources/notifications-a-tragedy-of-the-digital-commons-positive-slope-medium.md) - Scott Belsky frames notification overload as a tragedy of the commons and proposes contextual operating-system mediation to change sender incentives.
 - [Notifications run our lives now. Is there room for any more?](sources/notifications-run-our-lives-now-is-there-room-for-any-more-alexdanco-com.md) - Alex Danco argues that notifications should resolve uncertainty for immediate triage and speculates that spatial interfaces could expand capacity beyond a saturated notification tray.
 - [Notes to Myself on Software Engineering](sources/notes-to-myself-on-software-engineering-featured-stories-medium.md) - François Chollet connects readable code, product restraint, reversible iteration, user-centered API design, ethical responsibility, and risk-sensitive decision speed in a personal engineering checklist.
@@ -985,6 +986,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Not all VCs are assholes](sources/not-all-vcs-are-assholes-mitchell-harper-medium.md) - Mitchell Harper uses BigCommerce's rejection-heavy fundraising history to define investor fit through conduct, operating experience, reserves, governance support, and understandable terms.
 
 ## Entities
+- [Nova Kwok](entities/NovaKwok.md) - Engineer-author represented through a critical reflection on context switching, attention, and self-control.
 - [François Chollet](entities/FrancoisChollet.md) - Software practitioner represented through a principle-led account of engineering, API design, technical careers, and ethical responsibility.
 - [Bugsnag](entities/Bugsnag.md) - Application-stability monitoring company represented through its impact-based approach to deciding between feature work and bug repair.
 - [Celestine Omin](entities/CelestineOmin.md) - Technology writer and former e-commerce practitioner advocating SQL-first solutions for legible business workflows.
@@ -2629,6 +2631,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BigCommerce](entities/BigCommerce.md) - E-commerce software company represented through Mitchell Harper's account of raising $125 million across four venture rounds.
 
 ## Concepts
+- [Self-Control Psychology](concepts/SelfControlPsychology.md) - State- and feedback-based account of how physiology, reward cues, stress, self-evaluation, and long-term aims shape deliberate choice.
 - [API Design](concepts/APIDesign.md) - Shaping software interfaces around user workflows, domain mental models, progressive expressiveness, feedback, naming, and documentation.
 - [Application Stability](concepts/ApplicationStability.md) - Release- and user-centered measure of successful or crash-free interactions used with explicit risk-aware targets.
 - [SQL-First Business Automation](concepts/SQLFirstBusinessAutomation.md) - Implementing legible business conditions as transparent database queries and deterministic workflows before predictive modeling is justified.
