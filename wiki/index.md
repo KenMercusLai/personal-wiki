@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Sam Altman：十年很短，一日很长](sources/sam-altman-shi-nian-hen-duan-yi-ri-hen-chang.md) - A translated age-30 reflection connects finite time, close relationships, meaningful work, learning, financial freedom, protected attention, and action under uncertainty.
 - [Sam Altman的创业手册](sources/sam-altman-de-chuang-ye-shou-ce.md) - Sam Altman links idea testing, founder quality, intense early user love, direct customer learning, focused execution, retained growth, hiring, profitability, and financing into a qualified startup playbook.
 - [The Resilience Problem](sources/russ-white-the-resilience-problem.md) - Russ White frames network resilience as a trade-off among redundancy, cost, traffic efficiency, state, interaction surfaces, and software-network responsibility.
 - [Research: Off-Path TCP Attacks](sources/rule-11-reader-research-off-path-tcp-attacks.md) - Rule 11 Reader explains how TCP duplicate ACKs and wireless contention can form a timing oracle for receive-window inference and attempted off-path injection.
@@ -2232,7 +2233,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
 - [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
-- [Sam Altman](entities/SamAltman.md) - Startup advisor and OpenAI CEO represented through YC's idea-team-product-execution playbook, ChatGPT launch judgment, gradual-AGI expectations, and release governance.
+- [Sam Altman](entities/SamAltman.md) - Startup advisor and OpenAI CEO represented through startup execution, ChatGPT launch judgment, gradual-AGI governance, and an action-oriented philosophy of life priorities.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - File-platform company represented through early discipline, referral growth, founder learning, international expansion, and exabyte-scale hybrid-infrastructure operations.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
@@ -2698,6 +2699,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robin Marx](entities/RobinMarx.md) - Web-performance and protocol researcher represented through packet-level analysis of HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking.
 
 ## Concepts
+- [Intentional Life Design](concepts/IntentionalLifeDesign.md) - Allocating finite time, attention, money, health, and relationships by chosen values while retaining freedom to act on worthwhile opportunities.
 - [Network Resilience Trade-offs](concepts/NetworkResilienceTradeoffs.md) - Multi-objective design of failure tolerance, cost, throughput, state, simplicity, and interaction surfaces across software and networking.
 - [Ship / Show / Ask](concepts/ShipShowAsk.md) - Per-change framework separating direct integration, non-blocking visibility, and pre-merge discussion.
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.

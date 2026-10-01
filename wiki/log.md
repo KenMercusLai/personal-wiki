@@ -7987,3 +7987,11 @@ Updated [[SamAltman]], [[YCombinator]], [[ProductMarketFit]], and [[DoingThingsT
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Sam Altman：十年很短，一日很长
+
+Created [[IntentionalLifeDesign]] and updated [[SamAltman]] from his complete ordered evidence inventory. Recorded finite-time prioritization, close relationships and health, meaningful work, multi-horizon goals, opportunism, regret-sensitive action, money as freedom, restrained consumption, reduced cognitive load, learning, novelty, empathy, gratitude, and generosity. Preserved the tension between strenuous effort and a life beyond work, the introduction's warning that aphorisms depend on context, and the translated personal essay's lack of comparative or causal evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
