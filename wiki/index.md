@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [My Startup Banking Story](sources/my-startup-banking-story.md) - Mitchell Hashimoto recounts how HashiCorp's founder-run bank account, incomplete migration, weak monitoring, and later fraud response exposed the need for professional treasury controls.
 - [Keep It Going](sources/morgan-housel-keep-it-going.md) - Morgan Housel argues that sustainable returns, low leverage, and psychologically tolerable drawdowns preserve the time that makes compounding powerful.
 - [Monitor Internet Bandwidth Usage on Linux](sources/monitor-internet-bandwidth-usage-on-linux-baeldung-on-linux.md) - A Baeldung tutorial contrasts persistent vnStat accounting and alerts with reset-prone Linux interface counters, including retained monthly and recent-rate visual summaries.
 - [Angel Investor Ron Conway Emails His Portfolio Companies Over Financial Meltdown](sources/michael-arrington-angel-investor-ron-conway-emails-his-portfolio-companies-over-financial-meltdown.md) - Michael Arrington publishes Ron Conway's 2000 and 2008 downturn emails urging startups to extend runway, raise early, accept valuation pressure, and preserve strategic options.
@@ -959,6 +960,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your first 500 users](sources/mitchell-lee-your-first-500-users.md) - Mitchell Lee describes Penny's staged path from observed onboarding and founder networks to a marketing page, community channels, incidental press, and 500 reported signups.
 
 ## Entities
+- [Mitchell Hashimoto](entities/MitchellHashimoto.md) - HashiCorp cofounder represented through a self-critical account of early business-banking mistakes and delegation to professional finance leadership.
+- [HashiCorp](entities/HashiCorp.md) - Software company whose original bank account illustrates the transition from founder-managed cash to monitored and diversified treasury operations.
+- [Chase](entities/Chase.md) - Original HashiCorp business bank represented through relationship outreach, fraud recovery, and branch-based account-closure constraints.
 - [Ron Conway](entities/RonConway.md) - Angel investor represented through cross-cycle portfolio guidance on runway, fundraising, valuation, partnerships, and M&A during capital shocks.
 - [Matt Giaro](entities/MattGiaro.md) - Writer and creator documenting a minimalist capture, filtering, linked-note, and content-production workflow.
 - [Bear](entities/Bear.md) - Rapid-capture application used as a short-term idea inbox before selected material moves to Obsidian.
@@ -2585,6 +2589,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Startup Treasury Management](concepts/StartupTreasuryManagement.md) - Safeguarding, monitoring, allocating, migrating, and retiring startup cash accounts across financial institutions and payment routes.
 - [Linux Bandwidth Monitoring](concepts/LinuxBandwidthMonitoring.md) - Reset-aware collection and interpretation of Linux interface traffic for quota accounting, rate visibility, and automated thresholds.
 - [Deep Preparation](concepts/DeepPreparation.md) - Concentrated research, expert consultation, active questioning, review, and synthesis intended to improve understanding, conversation quality, and durable trust.
 - [Patient Advocacy](concepts/PatientAdvocacy.md) - Coordinated escalation, information gathering, coverage help, and care navigation whose availability is itself unequally distributed.

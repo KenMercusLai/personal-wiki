@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | My Startup Banking Story
+
+Added [[MitchellHashimoto]], [[HashiCorp]], [[Chase]], and [[StartupTreasuryManagement]] from Hashimoto's first-person account of an original business account growing from a $20,000 founder loan to roughly $35 million, a finance-led bank migration, an unclosed legacy payment route, more than $100,000 in recurring fraudulent wires, and a lock-constrained closure through a roughly $1 million cashier's check. Preserved the distinction between direct experience and unverified second-hand claims about branch incentives, the author's responsibility for non-engagement and delayed closure, Chase's full recovery of the reported loss, and the limits of one retrospective case. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-01] ingest | Angel Investor Ron Conway Emails His Portfolio Companies Over Financial Meltdown
 
 Added [[RonConway]] and updated [[MichaelArrington]], [[AngelInvesting]], and [[StartupRunway]] from their complete ordered evidence inventories. Recorded Conway's cross-cycle advice to treat burn reduction as an internal financing round, raise earlier and more broadly, expect valuation pressure, seek corporate capital, and explore M&A before cash becomes too short, while preserving the tension between calendar survival and the learning and execution capacity lost through cuts. The supplied Markdown contains no image references, so no visual assets or manifest were required.
@@ -7216,10 +7220,6 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
-## [2026-10-01] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
-
 ## [2026-10-01] ingest | Tricks to Monetize Your Side Project
 
 Added source-bounded profiles for [[JeremyABoyd]] and [[Duet]], and updated [[ConversionRateOptimization]], [[FreemiumAcquisition]], [[SaaSPricing]], and [[SaaSDiscounting]] from their complete ordered evidence inventories. Added lightweight landing-page assignment and payment attribution, behavior-conditioned trial onboarding, premium-tier anchoring, differentiated plan packaging, and supplementary revenue streams while preserving the missing sample, control, retention, and causal evidence. Recorded the tension between Boyd's one-month 50% Pro offer and broader discounting evidence about willingness to pay, churn, CAC recovery, and lifetime value. The supplied Markdown contains no image references.
@@ -7511,6 +7511,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Keep It Going
 
 Updated [[MorganHousel]], [[InvestmentRiskDiscipline]], and [[BehavioralRiskJudgment]] from their complete ordered evidence inventories. Recorded the article's endurance-first compounding argument, the distinction between leverage-driven financial exit and drawdown-driven psychological exit, the reported 88.7% low-intensity training share used as an analogy, and housing as a long-holding example. Preserved the limits of the analogy and the absence of comparative portfolio, housing-cost, tax, or risk-adjusted-return evidence. The source Markdown contains no image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

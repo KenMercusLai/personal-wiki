@@ -686,12 +686,13 @@
       "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec",
       "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83",
       "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf",
-      "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4"
+      "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4",
+      "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b"
     ],
-    "paragraph_count": 686
+    "paragraph_count": 687
   },
-  "overview_commit": "0b35efe9dc6bd8f4108b1f54a9f51e30ac78ebf7",
-  "overview_digest": "e9380f62dc419c242d11a8db453e7440d1f4acb290b2be321d1abec4f2159e0f",
+  "overview_commit": "5d2e9111d56b90223d9871062f9b000763e10bde",
+  "overview_digest": "d0b3b2163ecef7918f8b44384123fa054849999e752cb47e43f376c0453074e5",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13899,6 +13900,22 @@
         "BurnoutPrevention",
         "InvestmentRiskDiscipline",
         "MorganHousel"
+      ]
+    },
+    {
+      "id": "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[MitchellHashimoto]] source adds [[StartupTreasuryManagement]] as an operating discipline that begins when a founder-opened account becomes a material corporate cash position. [[HashiCorp]]'s original [[Chase]] account reportedly grew from a $20,000 personal loan to roughly $35 million after seed through Series B financing before a new finance leader improved safeguarding, moved primary banking, and later diversified balances. The migration remained incomplete: the old account stayed open, some customers kept paying it, and more than $100,000 in recurring fraudulent wires escaped notice until an internal audit. A fraud lock then disabled electronic transfer, requiring advance branch funding and a roughly $1 million cashier's check to close the account; Chase ultimately recovered all reported stolen funds. The case connects strategic concentration risk with mundane account inventory, reconciliation, payment-route retirement, monitoring, relationship escalation, and incident liquidity. It is one retrospective without bank records, audit findings, fraud mechanics, or a Chase response; Hashimoto explicitly labels branch-incentive claims as second-hand, accepts responsibility for disengagement and delayed closure, and says Chase might have been an excellent partner. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "Chase",
+        "HashiCorp",
+        "MitchellHashimoto",
+        "StartupTreasuryManagement"
       ]
     }
   ],

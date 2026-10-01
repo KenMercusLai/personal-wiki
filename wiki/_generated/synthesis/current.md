@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 0b35efe9dc6bd8f4108b1f54a9f51e30ac78ebf7
+as_of_overview_commit: 5d2e9111d56b90223d9871062f9b000763e10bde
 summary: "Knowledge advances through calibrated evidence, stage-matched investment, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 934
-source_count: 934
-paragraph_count: 686
+episode_count: 935
+source_count: 935
+paragraph_count: 687
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins customer learning, stage-matched technical and organizational investment, sustainable economics, governed distribution, fair allocation, calibrated evidence, and survival.
+Durable value joins customer learning, stage-matched technical and organizational investment, sustainable economics, governed distribution, fair allocation, calibrated evidence, treasury discipline, and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
