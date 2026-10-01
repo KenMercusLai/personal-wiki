@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "no-meetings-no-deadlines-no-full-time-employees",
+  "images": [
+    {
+      "file": "creator-earnings-growth-2012-2020.png",
+      "alt": "Monthly Gumroad creator earnings rising from near zero in 2012 to about $14.5 million in late 2020"
+    },
+    {
+      "file": "post-layoff-creator-earnings-growth.png",
+      "alt": "Monthly Gumroad creator earnings continuing to rise after the 2015 layoffs"
+    },
+    {
+      "file": "operating-expenses-vs-creator-earnings.png",
+      "alt": "Gumroad operating expenses falling sharply while monthly creator earnings continue rising from 2015 through 2019"
+    },
+    {
+      "file": "memberships-roadmap.png",
+      "alt": "Gumroad Memberships roadmap showing completed and pending incremental features"
+    },
+    {
+      "file": "gumroad-team-illustration.png",
+      "alt": "Illustrated 25-person Gumroad team roster"
+    }
+  ]
+}

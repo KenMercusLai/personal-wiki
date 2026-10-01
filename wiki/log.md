@@ -7643,3 +7643,11 @@ Added [[PricingPsychology]] and updated [[NickKolenda]] from his complete ordere
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | No Meetings, No Deadlines, No Full-Time Employees
+
+Added [[SahilLavingia]] and [[Gumroad]], and updated [[AsynchronousWorkplaceCommunication]], [[ContingentWorkforce]], and [[RemoteWork]] from their complete ordered evidence inventories. Recorded Gumroad's writing-led coordination, 24-hour response norm, shared task queue, incremental release practice, worldwide hourly rates, internal pay visibility, and reported preference for reduced-hour contracting while preserving the founder-authored, historical, selected-workforce, benefit-transfer, classification, and causality limits. Opened all five effective local images and retained the three operating charts, Memberships roadmap, and illustrated team roster under descriptive canonical filenames at their semantic positions.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

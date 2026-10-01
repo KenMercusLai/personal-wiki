@@ -973,6 +973,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 - [Niche to Win, Baby.](sources/niche-to-win-baby-500-hats.md) - Dave McClure argues that a startup should pair a narrow customer segment with a focused product and message, then expand only after earning an initial foothold.
 - [HTTPS on Stack Overflow: The End of a Long Road](sources/nick-craver-https-on-stack-overflow-the-end-of-a-long-road.md) - Nick Craver explains Stack Overflow's four-year, cross-layer migration to HTTPS by default across domains, edge infrastructure, applications, content, and rollout controls.
+- [No Meetings, No Deadlines, No Full-Time Employees](sources/no-meetings-no-deadlines-no-full-time-employees.md) - Sahil Lavingia describes Gumroad's asynchronous contractor-only model, its incremental delivery system and reported results, and its explicit tradeoffs in benefits and advancement.
 
 ## Entities
 - [Abhijit Tomar](entities/AbhijitTomar.md) - Author who documented a 2018 listing-mediated telephone-banking scam affecting his cousin.
@@ -2608,6 +2609,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mitchell Lee](entities/MitchellLee.md) - Penny cofounder documenting a learning-first, multi-channel path to the app's first 500 reported signups.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 - [Nick Craver](entities/NickCraver.md) - Stack Overflow infrastructure engineer represented through first-person accounts of rapid deployment and multi-year HTTPS migration.
+- [Sahil Lavingia](entities/SahilLavingia.md) - Gumroad founder represented through his account of shifting the company from growth at all costs to a flexibility-first contractor model.
+- [Gumroad](entities/Gumroad.md) - Creator-commerce company represented through its January 2021 asynchronous, contractor-only operating design.
 
 ## Concepts
 - [Forward-Only Database Migration](concepts/ForwardOnlyDatabaseMigration.md) - Compatibility-first schema evolution using staged additions and removals, an applied-migration ledger, and later forward repair.
