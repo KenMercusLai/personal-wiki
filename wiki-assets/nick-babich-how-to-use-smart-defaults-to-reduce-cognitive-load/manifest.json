@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load",
+  "images": [
+    {
+      "file": "dropbox-typical-setup-default.png",
+      "alt": "Dropbox setup preselects the recommended Typical configuration while leaving Advanced available"
+    },
+    {
+      "file": "newsletter-opt-in-unchecked-default.png",
+      "alt": "Newsletter consent comparison marks a prechecked opt-in as wrong and an unchecked opt-in as right"
+    },
+    {
+      "file": "ryanair-hidden-decline-insurance.png",
+      "alt": "Ryanair insurance selector hides Don't Insure Me among countries in a residence menu"
+    },
+    {
+      "file": "skyscanner-nearest-airport-default.png",
+      "alt": "Skyscanner flight form preselects New York John F Kennedy as the origin airport"
+    },
+    {
+      "file": "whatsapp-country-code-default.png",
+      "alt": "WhatsApp phone-number form preselects United States and country code plus one"
+    },
+    {
+      "file": "michael-j-fox-donation-default.png",
+      "alt": "Michael J. Fox Foundation donation form offers several amounts with 75 dollars preselected"
+    },
+    {
+      "file": "twitter-search-autocomplete.png",
+      "alt": "Twitter autocomplete suggests Shopify topics and matching accounts as the user types"
+    },
+    {
+      "file": "hotel-location-override-comparison.png",
+      "alt": "Hotel search comparison adds current-location and manual destination choices instead of forcing geolocation"
+    },
+    {
+      "file": "chrome-restore-defaults.png",
+      "alt": "Chrome settings includes a control to restore settings to their original defaults"
+    }
+  ]
+}

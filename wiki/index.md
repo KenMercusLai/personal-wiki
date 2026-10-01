@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to Use Smart Defaults to Reduce Cognitive Load](sources/nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load.md) - Nick Babich argues that contextual defaults can reduce choice and repeated entry when they are research-based, welfare-aligned, visible, editable, and inappropriate for sensitive or attention-critical decisions.
 - [Niche Networks](sources/niche-networks-500ish.md) - M.G. Siegler argues that mature mobile habits favor passion-centered social products and focused monetization over immediate pursuit of billion-user scale.
 - [New form of Google banking scam](sources/new-form-of-google-banking-scam.md) - Abhijit Tomar documents a bank impersonation scam routed through fraudulent Google business-listing contact data.
 - [Never Ask Two People to do One Person's Job](sources/never-ask-two-people-to-do-one-persons-job-both-sides-of-the-table.md) - Mark Suster argues that one-person requests need one named owner, with copied recipients treated as informed rather than ambiguously responsible.
@@ -1336,7 +1337,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bonnie Nardi](entities/BonnieNardi.md) - Anthropologist and human-computer interaction researcher whose 1993 book anchors the source's programming-literacy argument.
 - [Cisco NX-OS](entities/CiscoNXOS.md) - Cisco network operating system represented through Ansible command, configuration, template, SSH, and NX-API automation surfaces.
 - [Cisco Nexus](entities/CiscoNexus.md) - Cisco data-center switching platform presented as the target for NX-OS automation across provisioning and ongoing operations.
-- [Nick Babich](entities/NickBabich.md) - Product-design writer represented through a 2016 framework for informative, contextual, and actionable mobile empty states.
+- [Nick Babich](entities/NickBabich.md) - Product-design writer represented through frameworks for actionable empty states and welfare-aligned, reversible interface defaults.
 - [Nick Neuman](entities/NickNeuman.md) - Writer represented through a late-2017 thesis on liquid employee tokens, internal peer markets, and their alignment and governance risks.
 - [Cassie Marketos](entities/CassieMarketos.md) - Kickstarter's first employee, represented through early community operations, editorial curation, broad generalist work, and later lessons about feedback and managing up.
 - [Emily Reinhold](entities/EmilyReinhold.md) - Author of a 2016 Uber Engineering account of Tincup and the platform surrounding microservice development.
@@ -2604,6 +2605,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Smart Defaults](concepts/SmartDefaults.md) - Editable initial values inferred from context or history to reduce avoidable work while preserving attention, welfare, and user control.
 - [Niche Social Networks](concepts/NicheSocialNetworks.md) - Social products that pursue depth, density, and repeat use within a bounded passion or identity before undifferentiated scale.
 - [Search Listing Impersonation](concepts/SearchListingImpersonation.md) - Social engineering that manipulates search or directory contact data to route users to an impersonator.
 - [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
@@ -2710,7 +2712,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Participatory Product Design](concepts/ParticipatoryProductDesign.md) - Involving intended users in ideas, artifacts, and product choices before and during implementation, with explicit sampling and power boundaries.
 - [Hierarchy of Trust](concepts/HierarchyOfTrust.md) - Five-level UX framework for calibrating website requests to established relevance, preference, information trust, and relationship readiness.
 - [Briefcase Technique](concepts/BriefcaseTechnique.md) - Researched, concrete proposal used to demonstrate judgment and initiative in a consequential meeting without guaranteeing acceptance or ethical merit.
-- [Dark Patterns](concepts/DarkPatterns.md) - Journey-level deceptive design using claims, naming, routing, disclosure timing, friction, and control hierarchy to steer choices.
+- [Dark Patterns](concepts/DarkPatterns.md) - Journey-level deceptive design using claims, defaults, naming, routing, disclosure timing, friction, and control hierarchy to steer choices.
 - [Service Marketplace Fit](concepts/ServiceMarketplaceFit.md) - Degree to which a service's transaction, trust, capacity, relationship, and delivery characteristics suit on-demand matching.
 - [App Permission Governance](concepts/AppPermissionGovernance.md) - Continuing practice of matching application access to purpose and trust, then reviewing and revoking it as conditions change.
 - [Crowdsourced Localization](concepts/CrowdsourcedLocalization.md) - Managed use of community translators through tooling, terminology, context, review, motivation, governance, and professional fallback.
@@ -3593,7 +3595,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Conversational UI](concepts/ConversationalUI.md) - Chat-like interaction pattern spanning first-wave expectation failures, bounded language and recovery, hybrid visual controls, and the later LLM revival.
-- [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, product behavior, recovery paths, and possible actions.
+- [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand state and act, including choice and entry burdens that defaults can reduce or conceal.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.

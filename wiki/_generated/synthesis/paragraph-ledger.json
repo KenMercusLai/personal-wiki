@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
       "d1e31392d3d2b52b3b8e8be2089332691bb06f0e6a9ce67d2055b325546ed15e",
       "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
       "65ee66c2bc5d9e8cb56a8dd903622327a55ec5f6be6bb212a826c00f74657997",
@@ -694,11 +695,29 @@
       "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45",
       "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e"
     ],
-    "paragraph_count": 692
+    "paragraph_count": 693
   },
-  "overview_commit": "1f131ab4f04f65d0f03dee147db476cc85f438de",
-  "overview_digest": "285a0e079626865b09b5d8cb1f727aefa70cbaabb2a0a37acfca80f894a12964",
+  "overview_commit": "5ede1d37fe598643fc1287d9e4aacfd3c650960b",
+  "overview_digest": "e949df8cb36b587a0cbc90ba4eb67fa11176d4dab93d0cf1b9a80ac39add25a1",
   "paragraphs": [
+    {
+      "id": "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[NickBabich]] source adds [[SmartDefaults]] as a choice-architecture pattern for reducing repeated entry, search, and low-risk decisions through contextual initial values. Setup recommendations, saved payment details, nearby airports, phone country codes, donation presets, and autocomplete illustrate the convenience side; prechecked marketing consent and a Ryanair insurance selector that hides refusal illustrate the same mechanism serving provider interests. This sharpens [[CognitiveLoadInUXResearch]] by distinguishing avoidable questions from sensitive or consequential judgments that require attention, and it extends [[DarkPatterns]] with default and refusal asymmetry. The durable rule is not merely to predict well: a default should be research-based, visible, safe, aligned with user welfare, easy to override, and recoverable, while uncertainty, privacy, stale history, shared devices, accessibility, and anchoring bound personalization. The article is a 2018 practitioner essay rather than an outcome study; its 95% rule and claim that fewer than 5% of users change settings are not established by the supplied evidence. All nine embedded UI screenshots were opened and retained once under descriptive filenames at their semantic positions as product examples, not outcome proof.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "CognitiveLoadInUXResearch",
+        "DarkPatterns",
+        "NickBabich",
+        "SmartDefaults"
+      ]
+    },
     {
       "id": "d1e31392d3d2b52b3b8e8be2089332691bb06f0e6a9ce67d2055b325546ed15e",
       "primary_topic": "cross-domain",

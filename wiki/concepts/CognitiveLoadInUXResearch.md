@@ -5,7 +5,8 @@ tags: [ux-research, cognition]
 sources:
   - yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin
   - cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review
-last_updated: 2026-09-15
+  - nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ In RORIRI's article, cognitive load is the hidden middle layer that connects int
 
 Lieb's product-design article adds an adoption-level version of the same phenomenon: a product can be technically smoother yet cognitively harder if users cannot explain what it is for, how it works, or why the system made a decision. This connects UX research's hidden mental-work layer to product strategy choices about automation, familiarity, consistency, and visible user control.
 
+Babich adds choice and data-entry costs. Defaults can reduce the number of questions, selections, and repeated facts a user must process, but a prefilled answer can also disappear from attention when people scan. Cognitive-load reduction is therefore not sufficient by itself: a design must distinguish avoidable work from consequential judgment and preserve inspection and correction when the system guesses.
+
 ## Key Claims
 - Cognitive load can be invisible in behavior logs because the failed task happens in the user's understanding rather than as a discrete action.
 - Interface design elements such as feedback, consistency, wording, error recovery, and help shape cognitive load.
@@ -24,6 +27,7 @@ Lieb's product-design article adds an adoption-level version of the same phenome
 - Expert walkthrough methods can expose cognitive prerequisites that users themselves may not report.
 - Cognitive load should be treated as one possible explanatory layer, not as a fixed report template.
 - Product adoption can fail when automation or novelty hides the logic users need to feel control and trust.
+- Defaults can remove avoidable choice and memory work, while incorrect or consequential prefills can create unnoticed error.
 
 ## Evidence
 - Hidden cognition: [[yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin]] says the "user did not identify data type" failure cannot be directly logged because it happens in the mind.
@@ -32,12 +36,15 @@ Lieb's product-design article adds an adoption-level version of the same phenome
 - Expert inference: [[yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin]] uses PURE to model what users must understand, infer, and remember at each task step.
 - Product comprehension: [[cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review]] says users must make logical connections to contextualize what they see, and the burden grows on mobile under distraction.
 - Hidden automation logic: [[cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review]] says [[Flock]] confused users because they could not tell how photos were selected for sharing.
+- Choice and repeated-entry cost: [[nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load]] uses saved details, location-derived values, presets, and autocomplete to reduce questions, typing, and search.
+- Attention qualification: [[nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load]] warns that people may scan past prefilled fields, making explicit input preferable for sensitive or consequential questions.
 
 ## Counterevidence & Qualifications
-The sources treat cognitive load and overhead as explanatory product/UX layers rather than direct physiological measurements. RORIRI's source is grounded in a specific Jamovi study; Lieb's source is practitioner advice from product cases. Neither source proves a universal threshold for acceptable cognitive burden, and the right remedy may be better feedback, clearer language, familiar patterns, deliberate user control, or removing unnecessary work depending on the flow.
+The sources treat cognitive load and overhead as explanatory product/UX layers rather than direct physiological measurements. RORIRI's source is grounded in a specific Jamovi study; Lieb and Babich provide practitioner advice from selected product cases. None proves a universal threshold for acceptable burden or that lower effort always improves outcomes. Defaults may introduce privacy, anchoring, stale-data, consent, or unnoticed-error costs, so the right remedy may be feedback, clearer language, familiar patterns, deliberate control, explicit attention, or removal of unnecessary work depending on the flow.
 
 ## What Changed
 - Added Lieb's adoption-level cognitive-overhead framing alongside RORIRI's UX-research cognitive-load chain.
+- Added the distinction between avoidable choice or entry work and consequential questions that require attention.
 
 ## Related Concepts
 - [[UXResearchInformationDesign]] - cognitive load can organize otherwise conflicting report evidence.
@@ -45,3 +52,4 @@ The sources treat cognitive load and overhead as explanatory product/UX layers r
 - [[HeuristicEvaluation]] - design-principle violations can be upstream causes of cognitive load.
 - [[Jamovi]] - the case where a hidden data-type recognition failure produced repeated visible drag errors.
 - [[CognitiveOverheadInProductDesign]] - product-design version focused on comprehension, control, familiarity, consistency, and trust.
+- [[SmartDefaults]] - contextual initial values can reduce mental work while creating attention and correction risks.

@@ -7603,3 +7603,11 @@ Reconciled the existing canonical source note with the renamed local source file
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | How to Use Smart Defaults to Reduce Cognitive Load
+
+Added [[SmartDefaults]] and updated [[NickBabich]], [[CognitiveLoadInUXResearch]], and [[DarkPatterns]] from their complete ordered evidence inventories. Recorded the distinction between static and contextual defaults, reductions in repeated entry and low-risk choice, attention and consent boundaries, welfare alignment, easy override, and restoration. Preserved privacy, stale-history, shared-device, accessibility, anchoring, and evidence-quality limits, including that the article's 95% rule and settings-change claim are not established by the supplied evidence. Opened all nine effective image references and retained each text-bearing product or design example once under a descriptive canonical filename at its semantic position.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

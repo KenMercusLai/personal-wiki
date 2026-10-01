@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 19aa105ef29661db879b9f5425b0c205eecb1d4e
+as_of_overview_commit: 5ede1d37fe598643fc1287d9e4aacfd3c650960b
 summary: "Knowledge advances through calibrated evidence, explicit boundaries, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 945
-source_count: 945
-paragraph_count: 692
+episode_count: 946
+source_count: 946
+paragraph_count: 693
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins coherent identity, customer learning, stage-matched technical and organizational investment, sustainable economics, governed distribution, fair allocation, calibrated evidence, treasury discipline, and survival.
+Durable value joins coherent identity, customer learning, welfare-aligned choice architecture, stage-matched investment, sustainable economics, governed distribution, fair allocation, calibrated evidence, treasury discipline, and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
