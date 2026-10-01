@@ -6,56 +6,51 @@ sources:
   - chen-hao-http-de-qian-shi-jin-sheng
   - building-a-shop-with-sub-second-page-loads-lessons-learned
   - nick-craver-https-on-stack-overflow-the-end-of-a-long-road
-last_updated: 2026-10-01
+  - robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[HTTP2]] is the HTTP version that improves performance through binary framing, concurrent streams over one TCP connection, header compression, server push, and more complex request scheduling.
+[[HTTP2]] is the HTTP version that uses binary frames, stream identifiers, header compression, and scheduling to multiplex resource transfers over one TCP connection.
 
 ## Current Synthesis
-The source presents HTTP/2 as the major performance response to HTTP/1.1. Where HTTP/1.1 could reuse TCP connections but still serialized request handling, HTTP/2 can multiplex multiple HTTP requests over one TCP connection. It also reduces overhead by using binary framing and HPACK header compression, while server push allows related resources to be sent before the client explicitly requests them.
+HTTP/2 responds to [[HTTP11]]'s response serialization by placing HEADERS or DATA frames with stream identity and length before resource chunks. Those frames let a receiver separate interleaved resources and let a sender schedule bandwidth across streams. HPACK reduces repeated headers, and server push was designed to send dependencies before separate client requests.
 
-The article's qualification is that HTTP/2 pays for these improvements with much higher protocol complexity. Priority trees and invisible scheduling mechanisms make the protocol harder to maintain and extend, and [[HeadOfLineBlocking]] remains possible because the multiplexed streams still share TCP.
+This application-layer concurrency does not remove transport-layer [[HeadOfLineBlocking]]. TCP sees one opaque, ordered byte stream: if a packet is lost, later bytes remain buffered even when their HTTP/2 frames belong to an unaffected stream. The practical penalty is conditional. Loss is often rare, and HTTP/2 is generally competitive through lower connection overhead, but several HTTP/1.1 or HTTP/2 connections can isolate some loss and congestion effects that a single connection concentrates.
 
-For webshop performance, HTTP/2 matters because a page commonly loads many resources and each connection setup, header exchange, request, and round trip can delay first render. HTTP/2's multiplexing, header compression, and server push reduce request overhead, but caching and CDNs can be more decisive because avoiding the network round trip beats making the round trip more efficient.
-
-The [[StackOverflow]] HTTPS retrospective adds deployment constraints. Major browsers made encryption the practical route to HTTP/2, so HTTPS became a performance enabler as well as a security control. Stack Overflow also arranged shared edge IPs and a combined certificate across application and static-content origins so HTTP/2-capable clients could reuse the connection and potentially receive cross-origin pushes, while HTTP/1.1 clients retained domain sharding. This was preparation rather than evidence that server push was deployed or beneficial.
+For webshop performance, protocol efficiency is only one lever. Caching and CDNs can matter more because avoiding a round trip beats optimizing it. HTTPS was also the practical browser deployment gate for HTTP/2 in Stack Overflow's 2017 case, where shared edge IPs and certificate coverage enabled cross-origin connection reuse while preserving HTTP/1.1 sharding.
 
 ## Key Claims
-- HTTP/2 was based on Google's SPDY experiment and became the standardized successor to that work.
-- Binary framing improves transfer efficiency compared with HTTP/1.1's textual framing.
-- Multiplexing lets multiple HTTP requests share one TCP connection concurrently.
-- HPACK header compression reduces repeated request-header overhead across similar requests.
-- Server push can pre-position dependent resources, while cross-origin connection reuse depends on certificate coverage and origin co-location.
-- HTTP/2 can reduce page-load overhead for request-heavy web pages, especially when combined with caching and CDN delivery.
-- HTTP/2 increases protocol complexity and still inherits TCP-level [[HeadOfLineBlocking]].
+- HTTP/2 standardized ideas developed through Google's SPDY work.
+- Binary HEADERS and DATA frames identify streams and chunk lengths, enabling multiplexing over one TCP connection.
+- HPACK reduces repeated header overhead, while stream scheduling distributes shared connection bandwidth.
+- HTTP/2 still inherits TCP-level [[HeadOfLineBlocking]] because TCP cannot deliver later bytes across a loss gap.
+- A single connection reduces setup overhead but concentrates congestion response and packet-loss impact; parallel connections trade more overhead for partial isolation.
+- HTTP/2 can reduce page-load overhead, especially with caching and CDN delivery, but protocol features do not replace those systems.
+- HTTPS, certificate coverage, origin co-location, and browser behavior shaped practical deployment and cross-origin reuse.
 
 ## Evidence
-- SPDY lineage: [[chen-hao-http-de-qian-shi-jin-sheng]] says Google's SPDY became the basis or close copy for [[HTTP2]].
-- Binary framing: [[chen-hao-http-de-qian-shi-jin-sheng]] identifies HTTP/2 as a binary protocol for improved transfer efficiency.
-- Multiplexing: [[chen-hao-http-de-qian-shi-jin-sheng]] says HTTP/2 can concurrently send multiple HTTP requests over one TCP connection.
-- Header compression: [[chen-hao-http-de-qian-shi-jin-sheng]] names HPACK as the mechanism that removes repeated header parts.
-- Server push: [[chen-hao-http-de-qian-shi-jin-sheng]] describes servers sending dependent resources before the client separately requests them.
-- Web-performance use: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] recommends HTTP/2 for server push, header compression, pipelining, and multiplexing when reducing network overhead for page loads.
-- Complexity and blocking: [[chen-hao-http-de-qian-shi-jin-sheng]] notes priority-tree complexity and later explains that TCP packet loss can block all multiplexed streams.
-- HTTPS dependency in practice: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] says major browsers effectively required secure connections for HTTP/2 features.
-- Origin coordination: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes matching edge IPs and a shared certificate for Stack Overflow and `cdn.sstatic.net`, preserving HTTP/1.1 sharding while preparing HTTP/2 connection reuse and push.
+- Framing and multiplexing: [[chen-hao-http-de-qian-shi-jin-sheng]] describes binary framing and concurrent streams; [[robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details]] shows stream IDs and lengths separating interleaved resource chunks.
+- TCP mismatch and loss: [[chen-hao-http-de-qian-shi-jin-sheng]] and [[robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details]] explain that HTTP/2 sees independent streams while TCP tracks one byte sequence; the latter's inspected diagram makes the mapping explicit.
+- Performance context: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] recommends HTTP/2 among several network optimizations, while the Marx source explains why multiple connections can sometimes outperform one under loss.
+- HTTPS and origin coordination: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes browser encryption requirements, shared edge IPs, and a combined certificate for connection reuse and planned push.
+- Compression, push, and complexity: [[chen-hao-http-de-qian-shi-jin-sheng]] covers HPACK, server push, and priority-tree complexity.
 
 ## Counterevidence & Qualifications
-The Chen Hao source reports broad adoption and strong performance benefits but does not provide benchmark data. It also emphasizes that HTTP/2's complexity created maintainability and extensibility concerns. The Baqend source treats HTTP/2 as one useful network optimization among several, not a substitute for caching, CDN placement, or dynamic-cache correctness. The Stack Overflow account is a 2017 deployment snapshot: cross-origin server push was still planned, provider support was incomplete, and the source does not measure whether push later improved performance. Current browser connection-coalescing and server-push behavior require current documentation.
+The sources do not supply controlled protocol benchmarks. The Baqend account treats HTTP/2 as one optimization among caching, CDN placement, and backend design; the Stack Overflow account describes planned rather than measured server-push benefit. Marx argues that TCP-level blocking is real but often smaller than HTTP/1.1 application-layer serialization because packet loss is comparatively rare. Current browser connection-coalescing, server-push, priority, and deployment behavior require current documentation.
 
 ## What Changed
-- Added HTTPS as HTTP/2's practical browser deployment gate in the 2017 Stack Overflow case.
-- Added shared-certificate and edge-IP constraints for connection reuse across application and static-content origins.
-- Qualified server push as a planned, unmeasured capability rather than a demonstrated outcome.
+- Added packet-level framing and the mismatch between independent HTTP streams and TCP's single byte stream.
+- Qualified single-connection efficiency with concentrated loss and congestion-control effects.
+- Distinguished protocol capability from measured page-load benefit under real scheduling and loss.
 
 ## Related Concepts
 - [[HTTP]] - HTTP/2 is a performance-oriented version in the HTTP family.
-- [[HTTP11]] - HTTP/2 responds to HTTP/1.1's serial request and textual-transfer limits.
-- [[HTTP3]] - HTTP/3 keeps the HTTP/2-style application model while changing transport via QUIC.
-- [[QUIC]] - QUIC is used by HTTP/3 to address transport limits that HTTP/2 could not solve over TCP.
-- [[HeadOfLineBlocking]] - TCP-level blocking is the central unresolved HTTP/2 problem in the source.
-- [[WebPerformanceOptimization]] - HTTP/2 is one network-performance lever for request-heavy pages.
-- [[HTTPSMigration]] - HTTPS deployment enabled browser use of HTTP/2 in the Stack Overflow case.
+- [[HTTP11]] - HTTP/2 adds stream framing to overcome HTTP/1.1 response serialization.
+- [[HTTP3]] - HTTP/3 retains framed HTTP semantics while moving stream handling into QUIC.
+- [[QUIC]] - QUIC addresses the cross-stream transport constraint that HTTP/2 cannot remove over TCP.
+- [[HeadOfLineBlocking]] - TCP-level blocking is HTTP/2's central remaining ordering problem.
+- [[WebPerformanceOptimization]] - HTTP/2 is one network-performance lever among caching, CDN, frontend, and backend work.
+- [[HTTPSMigration]] - HTTPS deployment enabled practical browser use of HTTP/2 in the Stack Overflow case.
 - [[Fastly]] - edge provider involved in certificate placement and planned cross-origin push support.

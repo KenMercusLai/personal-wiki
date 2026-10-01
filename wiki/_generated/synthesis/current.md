@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-02
-as_of_overview_commit: 1b92e58da5ccfaa1491f6836c3ae73b04cd29893
+as_of_overview_commit: 9ec0bdc6dfe7d2402de477317faaefbecbd3deb1
 summary: "Durable systems align demand, workload, people, and institutions through explicit boundaries, staged change, calibrated evidence, accountable governance, and tested recovery."
-episode_count: 987
-source_count: 987
-paragraph_count: 715
+episode_count: 988
+source_count: 988
+paragraph_count: 716
 topic_count: 9
 ---
 

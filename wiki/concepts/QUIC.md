@@ -5,45 +5,46 @@ tags: [networking, protocol, transport, udp]
 sources:
   - chen-hao-http-de-qian-shi-jin-sheng
   - how-nat-traversal-works
-last_updated: 2026-09-29
+  - robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[QUIC]] is a UDP-based transport protocol used by [[HTTP3]] to provide reliable delivery behavior, TLS integration, multiplexing, congestion control, and connection identity above UDP.
+[[QUIC]] is a UDP-based secure transport protocol that provides reliable independent streams, integrated TLS, congestion control, and connection identity for applications including [[HTTP3]].
 
 ## Current Synthesis
-The sources present QUIC as a way to retain UDP's deployment and [[NATTraversal]] properties while rebuilding stream transport above it. For [[HTTP3]], that means retransmission, congestion control, connection establishment, TLS integration, multiplexing, and connection identity without TCP's transport-level [[HeadOfLineBlocking]]. For a peer-to-peer application, it means traversal logic can control the UDP socket while the application still receives reliable stream semantics.
+QUIC retains UDP's deployable datagram substrate while rebuilding reliable stream transport above it. For HTTP/3, STREAM frames carry stream IDs and byte ranges so loss creates a gap only inside affected streams rather than in one connection-wide TCP byte sequence. For peer-to-peer applications, the same UDP substrate lets traversal logic share and control the socket while the application receives stream semantics.
 
-The article also emphasizes that QUIC's strength creates infrastructure challenges. Existing network devices often route, map, or balance traffic using IP and port tuples; QUIC's connection ID gives applications a better identity mechanism, but devices that cannot understand it may split a connection across backends or mishandle UDP traffic.
+Independence is bounded. QUIC preserves ordering inside each stream, uses a single connection-wide congestion controller, and implementations often place one stream's data in a packet; burst loss can therefore block one or many streams depending on the scheduler. Per-packet encryption avoids TLS-record blocking but costs CPU. QUIC's connection IDs also support continuity across network changes while challenging NATs and load balancers built around IP-and-port tuples.
 
 ## Key Claims
-- QUIC is the transport foundation that lets [[HTTP3]] run over UDP instead of TCP.
-- QUIC avoids TCP-level [[HeadOfLineBlocking]] by managing streams above UDP.
-- QUIC includes its own retransmission and congestion-control behavior.
-- QUIC can reduce HTTPS connection setup by integrating transport and TLS handshakes.
-- QUIC connection IDs support continuity across IP or network-interface changes.
-- QUIC deployment is constrained by network infrastructure that only understands UDP packets and four-tuples.
-- QUIC is a practical alternative when NAT-traversing applications want streams but need traversal logic to share and control a UDP socket.
+- QUIC is the secure transport foundation that lets [[HTTP3]] run reliable streams over UDP.
+- STREAM frames track byte ranges per stream, avoiding TCP-style cross-stream delivery blocking.
+- Ordering and [[HeadOfLineBlocking]] remain within each stream, while congestion control remains shared across the connection.
+- Scheduling and loss placement determine how many streams a packet-loss burst blocks.
+- Integrated TLS and per-packet encryption change setup, recovery, and CPU tradeoffs relative to TCP plus TLS records.
+- Connection IDs support continuity across address changes but require infrastructure that can route QUIC correctly.
+- QUIC can provide streams while preserving the shared UDP socket needed for [[NATTraversal]].
 
 ## Evidence
-- HTTP/3 foundation: [[chen-hao-http-de-qian-shi-jin-sheng]] says QUIC entered the standardization path as the basis for [[HTTP3]].
-- Blocking behavior: [[chen-hao-http-de-qian-shi-jin-sheng]] says UDP avoids TCP's ordered-delivery blocking, while QUIC supplies its own reliability.
-- Congestion control: [[chen-hao-http-de-qian-shi-jin-sheng]] discusses QUIC using CUBIC and potentially BBR-style congestion control.
-- Handshake integration: [[chen-hao-http-de-qian-shi-jin-sheng]] contrasts TCP plus TLS handshakes with QUIC's integrated setup.
-- Connection identity: [[chen-hao-http-de-qian-shi-jin-sheng]] describes connection ID as a way to keep a connection through mobile/Wi-Fi changes.
-- Infrastructure constraints: [[chen-hao-http-de-qian-shi-jin-sheng]] explains how NATs and four-tuple load balancers can fail to preserve QUIC's intended routing.
-- Traversal fit: [[how-nat-traversal-works]] recommends QUIC instead of TCP when a stream-oriented application also needs direct UDP NAT traversal.
+- Stream-aware recovery: [[robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details]] shows QUIC delivering an unaffected stream immediately while retaining data after a gap in another stream.
+- Shared limits and encryption: [[robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details]] describes intra-stream ordering, one congestion controller, scheduler-dependent loss, and per-packet encryption cost.
+- HTTP/3, handshake, and connection identity: [[chen-hao-http-de-qian-shi-jin-sheng]] describes QUIC's HTTP role, integrated setup, congestion control, and network-change continuity.
+- Infrastructure constraints: [[chen-hao-http-de-qian-shi-jin-sheng]] explains four-tuple NAT and load-balancer mismatches.
+- Traversal fit: [[how-nat-traversal-works]] recommends QUIC when an application wants reliable streams while traversal logic controls the same UDP socket.
 
 ## Counterevidence & Qualifications
-The sources are conceptually favorable toward QUIC but provide no comparative production measurements. UDP is necessary for the described traversal model but not sufficient for connectivity: networks may block it, NATs may create endpoint-dependent mappings, and relays may still be required. Network devices and backend routing that do not understand QUIC connection IDs can also mishandle paths.
+The sources are mechanism explanations rather than comparative production measurements. QUIC removes connection-wide delivery ordering across independent streams, not every form of blocking or coupling. UDP does not guarantee reachability: networks may block it, endpoint-dependent NAT may defeat learned mappings, and relays may still be required. Per-packet cryptography and user-space implementation can add CPU cost, while routing devices that ignore connection IDs can mishandle paths. Implementation and deployment claims from 2019-2020 are historical snapshots.
 
 ## What Changed
-- Extended QUIC from an HTTP/3 transport profile to a stream layer compatible with direct UDP NAT traversal.
+- Reframed QUIC's benefit as per-stream loss recovery rather than elimination of all head-of-line blocking.
+- Added intra-stream ordering, connection-wide congestion control, scheduling, and encryption-cost boundaries.
+- Connected packet-level stream identity to HTTP/3's removal of a duplicate HTTP stream layer.
 
 ## Related Concepts
-- [[HTTP3]] - HTTP/3 uses QUIC as its transport layer.
-- [[HTTP2]] - QUIC carries an HTTP/2-like multiplexing model while avoiding TCP constraints.
-- [[HeadOfLineBlocking]] - QUIC is presented as a response to TCP-level blocking.
-- [[HTTP]] - QUIC changes the transport layer beneath the HTTP family.
+- [[HTTP3]] - HTTP/3 maps HTTP semantics onto QUIC streams.
+- [[HTTP2]] - QUIC removes the single TCP byte-stream constraint beneath HTTP/2-style multiplexing.
+- [[HeadOfLineBlocking]] - QUIC narrows transport blocking to streams with missing byte ranges.
+- [[HTTP]] - QUIC changes the transport foundation beneath the HTTP family.
 - [[NATTraversal]] - QUIC preserves a UDP socket substrate that traversal logic can probe and map.

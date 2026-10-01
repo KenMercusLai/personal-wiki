@@ -1011,6 +1011,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Progressive Product Building 与元认知类比](sources/reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi.md) - Reorx proposes a metacognitive reset for personal product work: freeze simple ideas, branch later complexity, build immediately where feasible, and monitor delivery state explicitly.
 - [Microservices Essentials for Executives: The Key to High Velocity Software Development](sources/richard-li-microservices-essentials-for-executives.md) - Richard Li links independently shippable team boundaries to delivery speed while making automation, resilience, tracing, organizational capacity, and monolith-first restraint explicit.
 - [Designing a Microservices Architecture for Failure](sources/risingstack-designing-a-microservices-architecture-for-failure.md) - RisingStack joins safe change, degraded service, health-aware routing, bounded retries, load shedding, bulkheads, circuit breakers, and failure testing into a qualified microservice reliability playbook.
+- [Head-of-Line Blocking in QUIC and HTTP/3: The Details](sources/robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details.md) - Robin Marx explains how HTTP/1.1, HTTP/2 over TCP, and HTTP/3 over QUIC create different blocking boundaries, with scheduling- and loss-dependent performance gains.
 
 ## Entities
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
@@ -2687,6 +2688,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Li](entities/RichardLi.md) - Datawire cofounder and executive author framing microservices through independent delivery and operating prerequisites.
 - [Datawire](entities/Datawire.md) - Company represented through its 2016 focus on open-source microservice infrastructure and tools.
 - [RisingStack](entities/RisingStack.md) - Software consultancy represented through its 2017 practitioner guide to fault-tolerant microservice operations.
+- [Robin Marx](entities/RobinMarx.md) - Web-performance and protocol researcher represented through packet-level analysis of HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking.
 
 ## Concepts
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.

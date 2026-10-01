@@ -7939,3 +7939,11 @@ Created [[RisingStack]] and [[MicroserviceFailureContainment]] from the article'
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Head-of-Line Blocking in QUIC and HTTP/3: The Details
+
+Added [[RobinMarx]] and updated [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] from their complete ordered evidence inventories. Distinguished HTTP/1.1 response serialization, HTTP/2's TCP-level cross-stream blocking, and QUIC's remaining intra-stream blocking; recorded the roles of framing, byte-range tracking, pipelining, parallel connections, congestion control, resource scheduling, burst loss, QPACK, and per-packet encryption. Preserved the article's central qualification that cross-stream recovery expands scheduling options but does not guarantee faster page loads without useful concurrency and favorable loss placement. Opened all 12 local images, retained 11 evidence-bearing packet, stack, scheduling, and sequence diagrams under descriptive canonical filenames at their semantic positions, and omitted the author portrait as decorative.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

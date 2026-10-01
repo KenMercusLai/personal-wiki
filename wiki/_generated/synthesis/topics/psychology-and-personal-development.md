@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-02
-as_of_overview_commit: 1b92e58da5ccfaa1491f6836c3ae73b04cd29893
-input_digest: e69dbba51cbcfcd31afedba83420eaa43eb01b909141e78973fa2fb9deb39b2b
+as_of_overview_commit: 9ec0bdc6dfe7d2402de477317faaefbecbd3deb1
+input_digest: d147968552e2b9e86e74d8349e9edd79bd9908f1fd7b3a1305a569324e29260f
 ---
 
 # Psychology and Personal Development
@@ -707,3 +707,14 @@ The [[IBM]] case adds an organizational boundary to strategic judgment: an exter
 
 - The deterministic router cross-classified a software-reliability paragraph; it supplies no psychological, behavioral, or personal-development finding.
 - The underlying evidence is a company-authored 2017 practitioner overview without comparative reliability outcomes.
+
+### Web Protocol Blocking Is Router Spillover
+
+[[RobinMarx]], [[HTTP11]], [[HTTP2]], [[HTTP3]], and [[QUIC]] are routed here only as a source-scoped spillover: their substantive claim distinguishes application response serialization, TCP cross-stream blocking, and QUIC intra-stream ordering rather than informing psychology or personal development.
+
+**Evidence:** [[RobinMarx]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]]
+
+**Qualifications:**
+
+- The deterministic router cross-classified a networking paragraph; it supplies no psychological or personal-development finding.
+- The underlying evidence is a 2020 protocol-researcher explanation without controlled browser benchmarks, and the performance effect depends on loss, scheduling, concurrency, and resource type.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8bf579be719b84fd8951595539240dd91b85d84605ceb28e4415efdaeeec4f69",
       "0a2f522372a17442ec27df29e26d9f8841dd8c22042761a88b3b5b030e969ef8",
       "493e0db1cfd2001b8c7fee21f0334ddd177f69d3bdf40c850894a09c044dc436",
       "e33db06cc867babbf78e08298b12ed86bd4d0116ea847ab939d4a0d8899a6edb",
@@ -717,11 +718,29 @@
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
       "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279"
     ],
-    "paragraph_count": 715
+    "paragraph_count": 716
   },
-  "overview_commit": "1b92e58da5ccfaa1491f6836c3ae73b04cd29893",
-  "overview_digest": "0a972d8487f57d8e48589ccfdac2fcbb6a7cbdf594ace2841f46589aad69f26c",
+  "overview_commit": "9ec0bdc6dfe7d2402de477317faaefbecbd3deb1",
+  "overview_digest": "ff596720e4a2d7f780335d43d8b1ad606379fafb4bcbb6d6eba3e61025d430fc",
   "paragraphs": [
+    {
+      "id": "8bf579be719b84fd8951595539240dd91b85d84605ceb28e4415efdaeeec4f69",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[RobinMarx]] source sharpens the wiki's web-protocol history by separating four different blocking boundaries. [[HTTP11]] serializes complete responses because its framing cannot identify interleaved resource chunks; pipelining overlaps requests but preserves response order, and parallel TCP connections buy isolation with setup, state, TLS, and congestion-control cost. [[HTTP2]] moves stream identity into HEADERS and DATA frames, yet TCP still exposes one ordered byte stream, so one missing packet withholds later bytes belonging to otherwise independent streams. [[HTTP3]] and [[QUIC]] move byte-range tracking into transport, allowing a stream without a gap to progress while another waits, but they do not remove intra-stream ordering or connection-wide congestion coupling. The retained packet, stack, scheduling, and sequence diagrams make those boundaries visible. The performance judgment is deliberately conditional: packet loss is often rare, burst loss can affect several streams, and round-robin multiplexing can delay completion of render-blocking JavaScript, CSS, or fonts. QUIC's cross-stream recovery therefore expands scheduling options rather than guaranteeing a faster page. The source is a 2020 researcher explanation without controlled browser benchmarks; all 12 local images were opened, 11 evidence-bearing diagrams were retained, and the author portrait was omitted as decorative.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "HTTP11",
+        "HTTP2",
+        "HTTP3",
+        "QUIC",
+        "RobinMarx"
+      ]
+    },
     {
       "id": "0a2f522372a17442ec27df29e26d9f8841dd8c22042761a88b3b5b030e969ef8",
       "primary_topic": "business-and-markets",
