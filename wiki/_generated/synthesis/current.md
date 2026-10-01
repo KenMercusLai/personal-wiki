@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 1336140081f595669349582b1b1e71948cf13a27
+as_of_overview_commit: 237e588225998f53a3a18eb9f0ce214d986ec556
 summary: "Durable outcomes depend on explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human-centered judgment."
-episode_count: 958
-source_count: 958
+episode_count: 959
+source_count: 959
 paragraph_count: 698
 topic_count: 9
 ---

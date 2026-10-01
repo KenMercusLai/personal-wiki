@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Notifications run our lives now. Is there room for any more?](sources/notifications-run-our-lives-now-is-there-room-for-any-more-alexdanco-com.md) - Alex Danco argues that notifications should resolve uncertainty for immediate triage and speculates that spatial interfaces could expand capacity beyond a saturated notification tray.
 - [Notes to Myself on Software Engineering](sources/notes-to-myself-on-software-engineering-featured-stories-medium.md) - François Chollet connects readable code, product restraint, reversible iteration, user-centered API design, ethical responsibility, and risk-sensitive decision speed in a personal engineering checklist.
 - [Not all bugs are worth fixing and that's okay](sources/not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog.md) - Bugsnag argues for achievable crash-free stability targets and user-impact-based defect allocation rather than an impossible commitment to repair every bug.
 - [No, you don't need ML/AI. You need SQL](sources/no-you-dont-need-ml-ai-you-need-sql.md) - Celestine Omin argues that small e-commerce teams should use transparent SQL queries and scheduled workflows for legible retention, service, and risk rules before adopting machine learning.
@@ -1360,7 +1361,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cassie Marketos](entities/CassieMarketos.md) - Kickstarter's first employee, represented through early community operations, editorial curation, broad generalist work, and later lessons about feedback and managing up.
 - [Emily Reinhold](entities/EmilyReinhold.md) - Author of a 2016 Uber Engineering account of Tincup and the platform surrounding microservice development.
 - [Tincup](entities/Tincup.md) - Uber currency and exchange-rate service used as a small production case for its microservice stack.
-- [Alex Danco](entities/AlexDanco.md) - Strategy writer connecting scarcity, abundance, layered customer purposes, platform power, and presence-based media.
+- [Alex Danco](entities/AlexDanco.md) - Strategy writer connecting scarcity, abundance, bottleneck shifts, bundling cycles, interface bandwidth, and presence-based media.
 - [Andrei Rebrov](entities/AndreiRebrov.md) - Scentbird CTO represented through a 2016 engineering account of mass, transactional, and drip email systems.
 - [Scentbird](entities/Scentbird.md) - Subscription-commerce company represented through its historical customer-state-driven email architecture.
 - [Sendy](entities/Sendy.md) - Self-hosted mass-email application used with Amazon SES in Scentbird's reported 2016 stack.
@@ -3022,7 +3023,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Developer Documentation](concepts/DeveloperDocumentation.md) - Task guidance, concepts, examples, reference facts, links, and feedback loops that help developers begin, act, recover, and gain mastery.
 - [Expectation-Breaking Content](concepts/ExpectationBreakingContent.md) - Creative strategy that makes an idea interesting through a recognizable assumption and credible reversal, without guaranteeing virality or conversion.
 - [Filesystem Unmounting](concepts/FilesystemUnmounting.md) - Releasing or accounting for active filesystem dependencies before removing a mount, with explicit limits on lazy, forced, and backing-volume operations.
-- [Ambiguity Reduction](concepts/AmbiguityReduction.md) - Turning vague goals into explicit problems, users, assumptions, downside, priorities, and bounded executable decisions.
+- [Ambiguity Reduction](concepts/AmbiguityReduction.md) - Converting consequential uncertainty into enough explicit information, constraints, and choices for a bounded decision or next action.
 - [Interstitial Journaling](concepts/InterstitialJournaling.md) - Work-transition practice that records cognitive closure, a literal first action, and strategy before the next project begins.
 - [High-Concurrency Inventory Deduction](concepts/HighConcurrencyInventoryDeduction.md) - Coordinating simultaneous purchase attempts across order, inventory, cache, and database boundaries while bounding overselling, underselling, latency, and availability loss.
 - [Video as Content Container](concepts/VideoAsContentContainer.md) - Use of audiovisual media as a portable wrapper for text, motion, sound, live action, interface-like sequences, and advertising.
@@ -3073,7 +3074,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Market Sizing](concepts/MarketSizing.md) - Evidence-backed estimation of existing, expanding, or newly created business opportunity through explicit sources, assumptions, and calculations.
 - [Anonymous Sourcing](concepts/AnonymousSourcing.md) - Journalistic use of identity protection, balancing access and source safety against lost credibility context and reputational risk.
 - [Paxos](concepts/Paxos.md) - Distributed-consensus protocol family that preserves one chosen value across competing proposals and partial failures.
-- [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.
+- [Notification Design](concepts/NotificationDesign.md) - Design of notification clarity, timing, prioritization, controls, interaction surfaces, and the incentives that govern interruption.
 - [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing formative relationships and information inputs while recognizing the unchosen teachers, sponsors, gatekeepers, and communities that also shape opportunity.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
 - [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring, curiosity-led conversations that combine listening, explicit purpose, strength recognition, and employee self-evaluation.
