@@ -704,12 +704,13 @@
       "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd",
       "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d",
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
-      "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
+      "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3",
+      "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9"
     ],
-    "paragraph_count": 704
+    "paragraph_count": 705
   },
-  "overview_commit": "5d5dd6a5fb1a2a2ba83914e5a1c4e9cd93476cb4",
-  "overview_digest": "717245cc71696a40a5e8ee4c0c5bf400b967325d1db7c6b704c4c12b9f9a9cf5",
+  "overview_commit": "c338aa15c64d50b5045e8525fbec3cca844bda61",
+  "overview_digest": "31dbe4b7c95d679d3db7e1c12ba46909af94c3bd1c80c4609b8b321ac1908c1a",
   "paragraphs": [
     {
       "id": "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
@@ -14256,6 +14257,24 @@
         "CreatorPlatformMetrics",
         "GaryVaynerchuk",
         "VanityMetrics"
+      ]
+    },
+    {
+      "id": "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[PiaSilva]] source adds an autonomy-dependent compressed-day case to [[PersonalProductivity]] and [[WorkLifeBalance]]. After a two-month Europe experiment, Silva reports adopting a 1-6 weekday schedule in which a hard five-hour window forces owner-only task selection, outsourcing with training, explicit weekly and daily objectives, and control of social-media and news distraction. [[ParkinsonsLaw]] captures her interpretation that long days can absorb ambiguity, procrastination, and undelegated work, while the durable synthesis is narrower: time compression works here as organizational redesign rather than mere acceleration. Leisure, reading, and unrelated learning are presented as inputs to creativity, but the essay supplies no defined output, baseline, revenue, customer, employee, or comparison evidence and does not isolate schedule length from owner authority, staffing, travel novelty, time-zone alignment, or demand. The pattern may not transfer to shift, care, coverage-dependent, tightly coupled, or low-autonomy work. The Monday-morning illustration was retained because it visually contrasts relaxed café time with exhausted commuting; the author headshot was omitted as decorative.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "ParkinsonsLaw",
+        "PersonalProductivity",
+        "PiaSilva",
+        "WorkLifeBalance"
       ]
     }
   ],

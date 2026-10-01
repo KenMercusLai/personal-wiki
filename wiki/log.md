@@ -7811,3 +7811,11 @@ Added [[PhilippSchmid]] and [[PromptEngineering]], and updated [[Gemini]] and [[
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 9-5 Is Out. Try The 1-6 Instead.
+
+Added [[PiaSilva]] and [[ParkinsonsLaw]], and updated [[PersonalProductivity]], [[WorkLifeBalance]], and [[Forbes]] from their complete ordered evidence inventories. Recorded the 1-6 schedule as an autonomy-dependent redesign combining delegation, training, explicit objectives, task filtering, and distraction control rather than as proof that fewer hours universally improve output. Preserved the missing output, revenue, customer, employee, comparison, and causal evidence, plus the limits for coverage-dependent and low-autonomy work. Opened both effective local images; retained the evidence-bearing Monday commute and café illustration under a descriptive canonical filename with a matching manifest, and omitted the author headshot as decorative.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

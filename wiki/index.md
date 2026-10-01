@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [9-5 Is Out. Try The 1-6 Instead.](sources/pia-silva-9-5-is-out-try-the-1-6-instead.md) - Pia Silva presents a five-hour entrepreneur schedule built on delegation, planning, and distraction control while leaving its productivity gains self-reported and autonomy-dependent.
 - [Gemini 3 Prompting: Best Practices for General Usage](sources/philipp-schmid-gemini-3-prompting-best-practices-for-general-usage.md) - Philipp Schmid presents direct, structured, context-aware prompting patterns for Gemini 3 while framing them as empirical baselines rather than universal rules.
 - [Boosting Sales With Machine Learning](sources/per-harald-borgen-boosting-sales-with-machine-learning.md) - Per Harald Borgen describes a Xeneta experiment using company-description NLP and a Random Forest to triage sales leads, with important data and evaluation limits.
 - [People Need My Product! (But Do They Want It?)](sources/people-need-my-product-but-do-they-want-it.md) - Justin Jackson argues that useful products need demonstrated demand, an immediate desired reward, and a quick path to continuing value rather than a beneficial need alone.
@@ -996,6 +997,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Pia Silva](entities/PiaSilva.md) - Entrepreneur and former Forbes contributor represented through the autonomy-dependent 1-6 work-schedule experiment she calls SpainBrain.
 - [Philipp Schmid](entities/PhilippSchmid.md) - AI practitioner represented through an experience-based Gemini 3 prompting playbook.
 - [Xeneta](entities/Xeneta.md) - Sea-freight market-intelligence company represented through a 2016 experiment in machine-assisted lead qualification.
 - [Dating Ring](entities/DatingRing.md) - Dating service represented through a qualified relaunch case in which profile photos and preference controls returned after weak signup demand.
@@ -2655,6 +2657,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Parkinson's Law](concepts/ParkinsonsLaw.md) - Heuristic that work expands to fill available time, represented here through a qualified five-hour entrepreneur schedule.
 - [Prompt Engineering](concepts/PromptEngineering.md) - Empirical design of instructions, context boundaries, process cues, and output constraints for language-model tasks.
 - [Text Classification](concepts/TextClassification.md) - Assigning predefined labels to text through a bounded pipeline of data acquisition, representation, supervised learning, evaluation, and human review.
 - [Product Demand Alignment](concepts/ProductDemandAlignment.md) - Connecting durable product value to an immediate result, experience, or identity that customers want enough to act on.

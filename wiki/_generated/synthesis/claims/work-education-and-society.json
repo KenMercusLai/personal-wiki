@@ -1571,9 +1571,10 @@
         "The 9-to-5 account is one practitioner's retrospective shaped by distractibility, family responsibilities, and prior conflict over overwork; it does not compare schedule outcomes, and the author allows rare critical overtime.",
         "Fixed boundaries also depend on workload, staffing, authority, and economic security, so personal discipline should not be used to individualize structural overwork.",
         "Mauskopf's account is a celebratory founder interview without independent family, team, workload, wellbeing, or company evidence; it combines acknowledged privilege, education, professional networks, family help, and a capable team that are not equally available.",
-        "Bezos's harmony and eight-hour sleep claims are brief first-person executive testimony without spouse, family, colleague, employee, decision, wellbeing, or shareholder-outcome evidence; unusual authority and resources may limit transfer."
+        "Bezos's harmony and eight-hour sleep claims are brief first-person executive testimony without spouse, family, colleague, employee, decision, wellbeing, or shareholder-outcome evidence; unusual authority and resources may limit transfer.",
+        "Silva's five-hour schedule is a self-reported entrepreneur case without defined output, revenue, customer, employee, comparison, or causal evidence; owner authority, delegation, travel novelty, time-zone alignment, staffing, and demand may limit transfer to coverage-dependent or low-autonomy work."
       ],
-      "statement": "[[WorkLifeBalance]] includes life-phase sequencing, concurrent weekly allocation, daily stopping rules, crisis absorption, and reciprocal work-home spillover. [[EvWilliams]] makes childcare support visible, the 9-to-5 account legitimizes bounded work, [[SaraMauskopf]]'s [[Winnie]] case adds family help and team autonomy during founder absence, and [[JeffBezos]] links [[SleepAsPerformanceEnhancer]] with [[DecisionQuality]] without making any sleep target, schedule, or harmony model universal.",
+      "statement": "[[WorkLifeBalance]] includes life-phase sequencing, concurrent weekly allocation, daily stopping rules, crisis absorption, and reciprocal work-home spillover. [[EvWilliams]] makes childcare support visible, the 9-to-5 account legitimizes bounded work, [[SaraMauskopf]]'s [[Winnie]] case adds family help and team autonomy during founder absence, and [[JeffBezos]] links [[SleepAsPerformanceEnhancer]] with [[DecisionQuality]]. [[PiaSilva]] adds an autonomy-dependent five-hour case in which [[ParkinsonsLaw]], planning, and delegation make time compression an organizational redesign rather than proof that any schedule universally improves [[PersonalProductivity]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "WorkLifeBalance",
@@ -1585,7 +1586,10 @@
         "StartupCrisisLeadership",
         "JeffBezos",
         "SleepAsPerformanceEnhancer",
-        "DecisionQuality"
+        "DecisionQuality",
+        "PiaSilva",
+        "ParkinsonsLaw",
+        "PersonalProductivity"
       ]
     },
     {

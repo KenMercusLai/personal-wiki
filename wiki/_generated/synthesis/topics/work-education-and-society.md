@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-01
-as_of_overview_commit: 1336140081f595669349582b1b1e71948cf13a27
-input_digest: 322d6dcdc11924d17014879bc8aa58574c2a0d20ef72437eb989d574c35d2a23
+as_of_overview_commit: c338aa15c64d50b5045e8525fbec3cca844bda61
+input_digest: 485d4e828acf674fca24832575ff7aa9a2aeb40396fd8980e6a5eb48fc7f2a88
 ---
 
 # Work, Education, and Society
@@ -943,9 +943,9 @@ Growing workplaces need repeated people and reporting infrastructure: [[HumanRes
 
 ### Work Life Balance Combines Time Phases And Support
 
-[[WorkLifeBalance]] includes life-phase sequencing, concurrent weekly allocation, daily stopping rules, crisis absorption, and reciprocal work-home spillover. [[EvWilliams]] makes childcare support visible, the 9-to-5 account legitimizes bounded work, [[SaraMauskopf]]'s [[Winnie]] case adds family help and team autonomy during founder absence, and [[JeffBezos]] links [[SleepAsPerformanceEnhancer]] with [[DecisionQuality]] without making any sleep target, schedule, or harmony model universal.
+[[WorkLifeBalance]] includes life-phase sequencing, concurrent weekly allocation, daily stopping rules, crisis absorption, and reciprocal work-home spillover. [[EvWilliams]] makes childcare support visible, the 9-to-5 account legitimizes bounded work, [[SaraMauskopf]]'s [[Winnie]] case adds family help and team autonomy during founder absence, and [[JeffBezos]] links [[SleepAsPerformanceEnhancer]] with [[DecisionQuality]]. [[PiaSilva]] adds an autonomy-dependent five-hour case in which [[ParkinsonsLaw]], planning, and delegation make time compression an organizational redesign rather than proof that any schedule universally improves [[PersonalProductivity]].
 
-**Evidence:** [[WorkLifeBalance]], [[EvWilliams]], [[BurnoutPrevention]], [[ImposterSyndrome]], [[SaraMauskopf]], [[Winnie]], [[StartupCrisisLeadership]], [[JeffBezos]], [[SleepAsPerformanceEnhancer]], [[DecisionQuality]]
+**Evidence:** [[WorkLifeBalance]], [[EvWilliams]], [[BurnoutPrevention]], [[ImposterSyndrome]], [[SaraMauskopf]], [[Winnie]], [[StartupCrisisLeadership]], [[JeffBezos]], [[SleepAsPerformanceEnhancer]], [[DecisionQuality]], [[PiaSilva]], [[ParkinsonsLaw]], [[PersonalProductivity]]
 
 **Qualifications:**
 
@@ -955,6 +955,7 @@ Growing workplaces need repeated people and reporting infrastructure: [[HumanRes
 - Fixed boundaries also depend on workload, staffing, authority, and economic security, so personal discipline should not be used to individualize structural overwork.
 - Mauskopf's account is a celebratory founder interview without independent family, team, workload, wellbeing, or company evidence; it combines acknowledged privilege, education, professional networks, family help, and a capable team that are not equally available.
 - Bezos's harmony and eight-hour sleep claims are brief first-person executive testimony without spouse, family, colleague, employee, decision, wellbeing, or shareholder-outcome evidence; unusual authority and resources may limit transfer.
+- Silva's five-hour schedule is a self-reported entrepreneur case without defined output, revenue, customer, employee, comparison, or causal evidence; owner authority, delegation, travel novelty, time-zone alignment, staffing, and demand may limit transfer to coverage-dependent or low-autonomy work.
 
 ### Service Capacity Feedback Bounds Distributed Work
 
