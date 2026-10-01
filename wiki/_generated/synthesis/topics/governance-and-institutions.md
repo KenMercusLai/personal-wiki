@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-01
-as_of_overview_commit: 860badf50696dec53a613eb1bd161efbedf64f6e
-input_digest: c21c0bf8ebfa11686c1d33acd35f193d241407d15f09d82775aee7da3791aef4
+as_of_overview_commit: de6eb2e0c36960d16f265eda1df5a30eae5b9d16
+input_digest: 62fe739213a3abd082cc4ffba71d7f0a4314131a038ac5b239b4c1289f8bc55a
 ---
 
 # Governance and Institutions
@@ -18,15 +18,15 @@ input_digest: c21c0bf8ebfa11686c1d33acd35f193d241407d15f09d82775aee7da3791aef4
 
 ### Multi Site Ha Needs Locality Ownership And Tested Failover
 
-[[MultiSiteHighAvailability]] makes ownership and recovery controls part of technical governance: [[TrafficUnitization]] can keep related operations under one active site, but safe failover still requires routing convergence, fencing, replication-lag decisions, capacity, reconciliation, and rehearsed procedures.
+[[MultiSiteHighAvailability]] makes ownership and recovery controls part of technical governance: [[TrafficUnitization]] can keep related operations under one active site, while [[StackOverflow]]'s paired local paths, alternate inter-site routes, and asynchronous replicas show that safe failover still requires routing convergence, replication-lag decisions, capacity, reconciliation, and rehearsed procedures.
 
-**Evidence:** [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]]
+**Evidence:** [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]], [[StackOverflow]], [[NickCraver]]
 
 **Qualifications:**
 
-- The source provides one conceptual practitioner architecture, not independent evidence of achieved availability or governance outcomes.
+- The evidence combines one conceptual practitioner architecture with one first-party 2016 Stack Overflow operating snapshot, not independent proof of achieved availability or governance outcomes.
 - Unit ownership does not automatically resolve shared global records, cross-unit workflows, compliance, or strongly consistent resources.
-- Mesh and hub-and-spoke replication move coordination dependencies rather than eliminating them; promotion and failback behavior remain unmeasured.
+- Alternate routes and asynchronous replicas move or bound failure exposure rather than eliminating recovery time, replication lag, promotion, and failback risk.
 
 ### Respectful Refusal Preserves Mutual Agency
 

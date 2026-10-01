@@ -5,49 +5,50 @@ tags: [infrastructure, web-performance, stack-overflow]
 sources:
   - nick-craver-https-on-stack-overflow-the-end-of-a-long-road
   - nick-craver-stack-overflow-how-we-do-deployment-2016-edition
+  - nick-craver-stack-overflow-the-architecture-2016-edition
 last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[NickCraver]] is represented as a [[StackOverflow]] infrastructure engineer who documented both the network's rapid deployment path and its four-year transition to HTTPS by default.
+[[NickCraver]] is represented as a [[StackOverflow]] infrastructure engineer documenting the platform's architecture, rapid deployment path, and four-year transition to HTTPS by default.
 
 ## Current Profile
-Craver's accounts combine architecture, application, measurement, and rollout detail. The 2016 deployment article follows a developer push through GitLab, TeamCity, database migration, localization, tier promotion, and an HAProxy-coordinated rolling update. It connects short lead time to small changes, fast local checkout, automated builds, compatible schema evolution, and explicit handling of mixed server and static-asset versions.
+Craver's accounts join architecture, application performance, measurement, and rollout detail. The architecture overview describes a modest server fleet handling large traffic through multi-tenancy, specialized service tiers, layered caches, redundant network and power paths, and derived Redis and Elasticsearch stores over a SQL source of truth. Spare capacity is presented as support for deployment, headroom, and failure tolerance rather than proof that normal traffic needs every machine.
 
-The 2017 HTTPS retrospective presents security migration as a cross-team dependency program involving certificates, DNS, CDNs, load balancers, cookies, login, mixed content, internal APIs, redirects, search traffic, and operational testing rather than as a single endpoint configuration. Both accounts disclose local compromises and failure modes instead of presenting tooling as universally transferable.
+The deployment article follows a push through GitLab, TeamCity, database migration, localization, tier promotion, and an HAProxy-coordinated rolling update. The HTTPS retrospective expands the boundary to certificates, DNS, CDNs, cookies, login, mixed content, APIs, redirects, search traffic, and operational testing. Across all three, Craver favors simple mechanisms, direct measurement, compatible change, and explicit disclosure of local compromises and failure modes.
 
 ## Key Characteristics
 - Writes from direct operational involvement in Stack Overflow infrastructure.
-- Treats security migrations as cross-layer dependency and rollout problems.
-- Uses real-user performance measurements to compare infrastructure choices.
-- Connects HTTPS adoption to HTTP/2 performance, DDoS protection, and user privacy.
-- Documents failures and rejected designs alongside the deployed architecture.
-- Explains high-frequency deployment through concrete human, build, database, traffic, and compatibility steps.
-- Treats simple mechanisms as valuable only when their failure direction and operating context are explicit.
+- Explains architecture through component relationships, workload placement, capacity, and failure boundaries.
+- Uses request metrics, real-user timings, dashboards, and utilization data to evaluate systems.
+- Treats security and deployment changes as cross-layer compatibility and rollout problems.
+- Distinguishes technical feasibility from operational prudence, especially around redundancy and spare capacity.
+- Documents failures, constraints, and rejected designs alongside deployed mechanisms.
+- Presents simple technology choices as context-dependent rather than universally transferable.
 
 ## Evidence
-- Migration scope: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes four years of certificate, domain, edge, application, and content work before the final feature-flag activation.
-- Measurement practice: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes browser timing collection from about 5% of traffic and more than five billion stored measurements.
-- Failure disclosure: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] details Railgun's retirement, protocol-relative URL problems, an infinite redirect, and a faulty Help Center backfill.
-- Deployment path: [[nick-craver-stack-overflow-how-we-do-deployment-2016-edition]] traces a push through development, Meta, and production in under nine reported minutes.
-- Compatibility practice: [[nick-craver-stack-overflow-how-we-do-deployment-2016-edition]] describes staged database and API evolution, HAProxy drainage, readiness polls, and static-assets-first rollout.
+- Architecture and capacity: [[nick-craver-stack-overflow-the-architecture-2016-edition]] connects edge routing, HAProxy, IIS, specialized services, Redis, websockets, Elasticsearch, and SQL Server while showing traffic distribution and tier utilization.
+- Redundancy boundary: [[nick-craver-stack-overflow-the-architecture-2016-edition]] describes paired racks, power and network paths, alternate inter-site routes, and asynchronous Colorado replicas while acknowledging that not every path is intrinsically redundant.
+- Migration scope: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes four years of certificate, domain, edge, application, and content work before final activation.
+- Measurement practice: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes browser timing collection from about 5% of traffic and billions of stored measurements; [[nick-craver-stack-overflow-the-architecture-2016-edition]] adds per-request HAProxy timing capture and infrastructure dashboards.
+- Failure disclosure: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] details Railgun instability, protocol-relative URL problems, an infinite redirect, and a faulty backfill.
+- Deployment and compatibility: [[nick-craver-stack-overflow-how-we-do-deployment-2016-edition]] traces a reported sub-nine-minute push through development, Meta, and production using staged schema change, HAProxy drainage, readiness polls, and static-assets-first rollout.
 
 ## Qualifications
-The profile is based on two first-person 2016-2017 retrospectives and does not establish Craver's complete role, later work, or the independent contribution of other engineers. Technical choices, operating figures, and product capabilities are historical to the deployment periods. Direct-to-main work, forward-only migration, and the particular deployment topology are presented as local practice rather than universal recommendations.
+The profile is based on three first-person 2016-2017 accounts and does not establish Craver's complete role, later work, or the independent contributions of other engineers. Traffic, timing, utilization, topology, software-version, and reliability figures are historical operational snapshots without independent datasets. Direct-to-main work, forward-only migration, on-premises redundancy, and the particular tier design are local practices rather than universal recommendations.
 
 ## What Changed
-- Created the profile around Craver's operational account of Stack Overflow's HTTPS migration.
-- Identified measurement-led infrastructure selection and candid failure reporting as recurring characteristics of the source.
-- Added the end-to-end deployment account and its emphasis on small batches, compatibility, and explicit traffic state.
+- Added the 2016 whole-system architecture account and its emphasis on workload placement and bounded redundancy.
+- Identified capacity headroom and component-level measurement as recurring parts of Craver's operational reasoning.
+- Strengthened the profile's distinction between demonstrated feasibility and recommended production practice.
 
 ## Relationships
-- [[StackOverflow]] - platform whose HTTPS migration Craver documents.
-- [[HTTPSMigration]] - principal systems program described in his account.
-- [[Fastly]] - edge provider selected during the migration.
-- [[Cloudflare]] - earlier edge provider evaluated and operated during the migration.
-- [[HAProxy]] - local load-balancing and TLS-termination layer in the architecture.
-- [[HTTP2]] - performance driver that strengthened the case for HTTPS.
-- [[DeploymentPipeline]] - staged source-to-production process Craver documents.
-- [[RollingDeployment]] - HAProxy-coordinated web-server rollout in the deployment account.
-- [[ForwardOnlyDatabaseMigration]] - schema-change strategy described in the deployment account.
+- [[StackOverflow]] - platform whose architecture, deployment, and HTTPS transition Craver documents.
+- [[HAProxy]] - traffic, TLS, measurement, and deployment-control layer in all three operational accounts.
+- [[Redis]] - cache and pub/sub layer described in the architecture overview.
+- [[MultiSiteHighAvailability]] - failure-boundary design illustrated by New York and Colorado infrastructure.
+- [[DynamicContentCaching]] - L1/L2 cache and invalidation pattern described in the architecture.
+- [[HTTPSMigration]] - cross-layer security program described in the later retrospective.
+- [[DeploymentPipeline]] - staged source-to-production process documented in the deployment account.
+- [[RollingDeployment]] - HAProxy-coordinated server rollout used by Stack Overflow.

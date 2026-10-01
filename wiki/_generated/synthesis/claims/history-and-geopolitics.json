@@ -4,15 +4,18 @@
       "global_candidate": false,
       "id": "stack-overflow-deployment-is-operations-history-spillover",
       "qualifications": [
-        "The paragraph belongs substantively to AI and technology plus business operations; its relevance here is limited to a dated 2016 deployment snapshot.",
-        "The first-party account supplies no comparative defect, reliability, customer-impact, or economic evidence and makes no geopolitical claim.",
-        "Its tooling, branch practice, migration policy, server counts, timings, and localization machinery are historical rather than current Stack Overflow documentation."
+        "The paragraphs belong substantively to AI and technology plus business operations; their relevance here is limited to dated 2016 architecture and deployment snapshots.",
+        "The first-party accounts supply no comparative defect, failover, reliability, customer-impact, or economic evidence and make no geopolitical claim.",
+        "Their topology, tooling, branch practice, migration policy, server counts, timings, utilization figures, and software versions are historical rather than current Stack Overflow documentation."
       ],
-      "statement": "[[NickCraver]], [[StackOverflow]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], and [[HAProxy]] add a source-scoped 2016 web-operations history of small mainline changes, tiered builds, compatible schema evolution, and load-balancer-coordinated fleet updates rather than a substantive geopolitical finding.",
+      "statement": "[[NickCraver]], [[StackOverflow]], [[HAProxy]], [[Redis]], [[MultiSiteHighAvailability]], [[DynamicContentCaching]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], and [[RollingDeployment]] add a source-scoped 2016 web-operations history of a tiered production architecture, layered caching, bounded redundancy, compatible schema evolution, and load-balancer-coordinated updates rather than a substantive geopolitical finding.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "NickCraver",
         "StackOverflow",
+        "Redis",
+        "MultiSiteHighAvailability",
+        "DynamicContentCaching",
         "DeploymentPipeline",
         "TrunkBasedDevelopment",
         "ForwardOnlyDatabaseMigration",

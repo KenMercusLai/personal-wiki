@@ -5,51 +5,51 @@ tags: [caching, web-performance, distributed-systems]
 sources:
   - building-a-shop-with-sub-second-page-loads-lessons-learned
   - improve-cache-performance-with-optimized-api-design
-last_updated: 2026-09-30
+  - nick-craver-stack-overflow-the-architecture-2016-edition
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[DynamicContentCaching]] is the practice of caching application data that can change at runtime while preserving freshness guarantees strong enough for user-facing correctness.
+[[DynamicContentCaching]] is the practice of reusing application data that changes at runtime while keeping freshness, invalidation, tenant isolation, and source-of-truth recovery explicit.
 
 ## Current Synthesis
-The Baqend source frames dynamic content as the unresolved gap in ordinary web caching. Static assets can use long TTLs and filename hashes, but runtime data such as profiles, posts, comments, stock counts, and product data can change unpredictably. Invalidation-based caches such as CDNs and Varnish can be purged proactively, but expiration-based browser caches cannot be directly invalidated by the server after a response has been cached.
+The sources show three complementary cache layers. Baqend addresses the browser boundary: static assets can use hashes and long TTLs, but runtime data changes unpredictably and browser caches cannot be directly purged. Its Bloom-filter cache sketch lets the client use definitely-fresh local objects and revalidate objects that might be stale, accepting false-positive network work while avoiding false-negative stale reads.
 
-Baqend's cache-sketch approach tries to keep browser-cache speed without serving stale dynamic data. At the start of a session, the client fetches a small Bloom filter representing stale resources. If a URL is definitely absent from the filter, the browser cache can serve it as fresh. If the URL might be present, the client bypasses the browser cache and fetches from the CDN, whose stale entries are proactively purged. False positives may cause unnecessary revalidation, but false negatives are avoided, so the design trades a small amount of extra network work for correctness.
+Fastly addresses shared edge representations. Cache-friendly resource boundaries and surrogate-key tags let one mutation purge every list or detail response containing an entity without flushing unrelated objects. Serving stale content during origin failure then becomes an explicit availability-versus-freshness policy.
 
-Fastly's API guidance operates at a complementary edge-cache layer. It reduces invalidation scope by separating data with different audiences or change rates, then tags each composite representation with the entities it contains. A mutation can purge an entity key across lists and detail responses while unrelated cache objects remain warm. Serving stale data during origin failure introduces an explicit availability-versus-freshness choice rather than treating every expired or unreachable dynamic response as equally unusable.
+Stack Overflow supplies an application-tier hierarchy. Each server kept an L1 cache and fell back to shared Redis L2; a miss at both layers fetched from the source and filled both. Redis pub/sub propagated invalidation so other servers could evict local entries, while site prefixes and database IDs separated tenants. SQL remained the source of truth, making Redis a fast derived layer rather than the canonical record.
 
 ## Key Claims
-- Static-resource caching is easier than dynamic-resource caching because deploy-time hashes and long TTLs work when content changes only on release.
-- Browser caches are hard to use for dynamic data because expiration-based caches cannot be proactively invalidated by the server.
-- CDN and Varnish-style invalidation caches can purge stale resources, while surrogate-key tagging can invalidate every cached representation containing one changed entity without flushing unrelated content.
-- Bloom-filter cache sketches let clients distinguish definitely-fresh resources from potentially-stale resources.
-- False positives are acceptable because they only cause extra revalidation, while false negatives would serve stale data.
-- Dynamic caching requires backend machinery for query matching, TTL estimation, distributed coordination, and scalable freshness metadata.
-- Stale serving can preserve read availability when the origin fails, provided the application's correctness limits tolerate the age.
+- Cache design must state which layer is authoritative and how derived entries are refilled or invalidated.
+- Local L1 caches reduce process latency, while a shared L2 cache can prevent repeated source work across servers.
+- Multi-layer caches need cross-node invalidation or bounded staleness because local entries diverge after mutation.
+- Browser-cache freshness is harder than server or CDN invalidation because the origin cannot directly purge every client.
+- Surrogate tags can invalidate all representations containing one changed entity while keeping unrelated objects warm.
+- Tenant or site namespaces must prevent cache-key collisions and cross-tenant reuse.
+- Stale serving is an availability policy, not a universally safe fallback.
 
 ## Evidence
-- Caching taxonomy: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] distinguishes invalidation-based caches from expiration-based browser caches.
-- Static contrast: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] says static assets can use hashed filenames and long cache lifetimes because they mostly change on deployment.
-- Cache-sketch mechanism: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] says Baqend fetches a small Bloom filter at session start so clients can check whether a resource might be stale before using the browser cache.
-- Correctness property: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] says the Bloom filter may revalidate fresh resources because of false positives but will not drop a stale item that was added.
-- Size example: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] says about 11KB can represent 20,000 distinct updates at a low false-positive rate.
-- Architecture diagram: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] shows Baqend purging CDN/Varnish while clients use Bloom-filter checks before browser-cache reads.
-- Invalidation scope: [[improve-cache-performance-with-optimized-api-design]] separates booking from flight-seat data and product listings from review aggregates according to audience and change rate.
-- Entity tagging: [[improve-cache-performance-with-optimized-api-design]] shows category and product surrogate keys attached to a response so mutations can purge every affected representation.
-- Availability policy: [[improve-cache-performance-with-optimized-api-design]] recommends stale cached responses during origin failure or for requesters that do not need the latest data.
+- Application hierarchy: [[nick-craver-stack-overflow-the-architecture-2016-edition]] describes local L1 caches, shared Redis L2, source refill after a double miss, and per-site namespaces.
+- Cross-server invalidation: [[nick-craver-stack-overflow-the-architecture-2016-edition]] uses Redis pub/sub to clear L1 entries on other servers after removal.
+- Source boundary: [[nick-craver-stack-overflow-the-architecture-2016-edition]] treats SQL Server as canonical while Redis and Elasticsearch remain derived.
+- Browser boundary: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] distinguishes invalidation-based shared caches from expiration-based browser caches.
+- Cache-sketch correctness: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] uses a Bloom filter whose false positives cause revalidation while avoiding false negatives for inserted stale objects.
+- Entity tagging: [[improve-cache-performance-with-optimized-api-design]] attaches surrogate keys to composite responses so one mutation can purge every affected representation.
+- Availability policy: [[improve-cache-performance-with-optimized-api-design]] recommends stale cached responses during origin failure only where the requester can tolerate age.
 
 ## Counterevidence & Qualifications
-Both sources are vendor-authored guidance and do not compare their approaches against all modern alternatives such as service workers, stale-while-revalidate policies, edge compute, private caches, or framework-level data caches. Surrogate tags require complete dependency tagging, purge delivery, and cache-key correctness; a missing tag can leave a stale composite response. Stale serving is unsuitable where even brief age can violate booking, inventory, price, entitlement, or safety requirements. The Bloom-filter design remains most useful as a concrete pattern for combining browser-cache speed with dynamic-data freshness.
+The three sources are first-party practitioner or vendor accounts rather than controlled comparisons. Stack Overflow's 2016 utilization and operation counts do not establish current Redis performance or prove that pub/sub invalidation cannot be missed; restart, message loss, eviction, stampede, and versioning behavior are not detailed. Surrogate tagging requires complete dependency metadata, while Bloom filters and stale serving preserve correctness only within their stated assumptions. Inventory, entitlement, price, and safety-critical data may need stronger read-after-write or transactional guarantees than these patterns provide.
 
 ## What Changed
-- Added edge-cache boundary design, surrogate-key invalidation, and stale-serving policy alongside the existing browser cache-sketch mechanism.
+- Added the application-tier L1/L2 hierarchy, source refill, tenant namespacing, and Redis pub/sub invalidation.
+- Made source-of-truth placement explicit across browser, edge, local-process, and shared-cache layers.
 
 ## Related Concepts
-- [[WebPerformanceOptimization]] - dynamic caching reduces user-visible page-load latency.
-- [[LatencyHierarchy]] - using browser cache avoids high-cost network round trips.
-- [[HTTP2]] - protocol improvements reduce overhead but do not by themselves solve freshness for dynamic browser caches.
-- [[Redis]] - stores Baqend's expiring Bloom filter in the source architecture.
-- [[Baqend]] - platform that implements the cache-sketch approach.
-- [[APIResponseCaching]] - applies dynamic-cache freshness and invalidation decisions to API representations.
-- [[Fastly]] - source and platform context for surrogate-key purging and stale edge responses.
+- [[WebPerformanceOptimization]] - caching removes network, serialization, and origin work from user-visible paths.
+- [[LatencyHierarchy]] - local and shared caches trade freshness machinery for lower access cost.
+- [[APIResponseCaching]] - applies reuse and invalidation rules to HTTP representations.
+- [[Redis]] - shared L2 and invalidation channel in the Stack Overflow design.
+- [[BrowserCaching]] - client-side layer with expiration and validation constraints.
+- [[Fastly]] - edge platform associated with surrogate-key purging and stale responses.
+- [[MultiTenantArchitecture]] - requires namespaced cache ownership and isolation across sites.

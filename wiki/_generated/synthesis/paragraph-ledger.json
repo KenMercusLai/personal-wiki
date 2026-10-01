@@ -694,12 +694,13 @@
       "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69",
       "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45",
       "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e",
-      "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea"
+      "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea",
+      "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd"
     ],
-    "paragraph_count": 694
+    "paragraph_count": 695
   },
-  "overview_commit": "5715cf084f1e6eb648d9fb25a81da198e4fb744f",
-  "overview_digest": "3de0799ad4325f78bf4808aaf776fc69df467c75d91231c135233061fba2f102",
+  "overview_commit": "de6eb2e0c36960d16f265eda1df5a30eae5b9d16",
+  "overview_digest": "6c845803bbdd2d205e9160db04590c5a049b23d443727aa7680eb32b4ecd1786",
   "paragraphs": [
     {
       "id": "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
@@ -14046,6 +14047,26 @@
         "RollingDeployment",
         "StackOverflow",
         "TrunkBasedDevelopment"
+      ]
+    },
+    {
+      "id": "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[NickCraver]] source adds the 2016 architecture underneath that deployment path. [[StackOverflow]] combined a multi-tenant IIS web application, specialized tag and indexing services, [[Redis]] L1/L2 caching and pub/sub invalidation, raw-socket websockets, per-site Elasticsearch indexes, and SQL Server as the canonical store. The reported scale—about 209 million daily load-balancer requests, 5.8 billion Redis hits, and roughly 500,000 peak concurrent websockets—ran on a modest fleet whose observed CPU headroom served rolling builds, traffic bursts, and failure tolerance rather than only normal demand. [[HAProxy]] joined TLS termination, host routing, rate limiting, per-request timing capture, and web-tier distribution, while [[MultiSiteHighAvailability]] gains a concrete boundary: paired local power, network, rack, ISP, and router paths plus asynchronous Colorado replicas and two routed alternatives to one preferred MPLS link. This strengthens [[DynamicContentCaching]] through local L1, shared L2, source refill, tenant namespacing, and cross-server invalidation while keeping SQL authoritative. The source remains a first-party historical snapshot without independent benchmarks, failover results, replication-lag bounds, incident rates, or current-platform relevance. Seven missing local screenshots were recovered from the exact publisher paths and retained for tier placement, traffic, utilization, and time-series evidence; two duplicate rack photographs were inspected and omitted as non-evidentiary.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "DynamicContentCaching",
+        "HAProxy",
+        "MultiSiteHighAvailability",
+        "NickCraver",
+        "Redis",
+        "StackOverflow"
       ]
     }
   ],

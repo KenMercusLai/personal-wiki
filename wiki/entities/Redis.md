@@ -8,55 +8,53 @@ sources:
   - blog-wulc-pa-chong-zhua-qu-dai-li-ip
   - building-a-shop-with-sub-second-page-loads-lessons-learned
   - kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian
-last_updated: 2026-09-23
+  - nick-craver-stack-overflow-the-architecture-2016-edition
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Redis]] is an in-memory data system used across the sources for queue coordination, Lua-scripted atomic transitions, proxy-pool persistence, cache-freshness metadata, and latency-critical ecommerce inventory snapshots. Its speed and flexible primitives support narrow, high-throughput designs, while its replication and failover model require application-level decisions about durability, freshness, fencing, and availability.
+[[Redis]] is an in-memory data system used across the sources for layered caching, pub/sub invalidation, queue coordination, Lua-scripted atomic transitions, proxy-pool persistence, cache-freshness metadata, and latency-critical inventory snapshots.
 
 ## Current Profile
-The sources show Redis in several roles unified by fast state access and atomic server-side operations. Wang Ziting stores task-queue state in Redis and uses Lua for atomic coordination, while Wulc uses a Redis set as a persistent, randomly sampled proxy pool. Baqend stores an expiring Bloom filter in Redis to support dynamic browser-cache freshness checks. These uses keep Redis's responsibility bounded to coordination or quickly changing metadata rather than treating it as an undifferentiated general database.
+The sources show Redis in bounded high-speed roles. Wang Ziting stores task-queue state in Redis and uses Lua for atomic coordination; Wulc uses a set as a reusable proxy pool; Baqend stores an expiring Bloom filter for dynamic browser-cache freshness. Stack Overflow adds a large-scale application cache: local L1 entries fall back to shared Redis L2, double misses refill both from the source, and pub/sub clears L1 entries across servers. SQL remains canonical, tenant identifiers namespace cache entries, and the 2016 dashboard shows instance CPU mostly below 2% despite a reported 160 billion monthly operations.
 
-Kikcat's inventory design places more correctness pressure on Redis. The synchronous order path checks and decrements an in-memory SKU snapshot with Lua, while database order items and stock events later reconcile durable goods state. That reduces latency and database contention, but the snapshot is trustworthy only while its freshness and failover generation are known. The design therefore rejects writes when `is_stale` is set, checks Sentinel configuration epochs as fencing-like tokens, consults a Sentinel majority, and uses a coordinator to drain pending events and rebuild Redis before restoring service.
+Kikcat places more correctness pressure on Redis by using it as the synchronous inventory-admission snapshot while database records and events reconcile durable state. That design fails closed on stale snapshots, checks Sentinel epochs, consults a Sentinel majority, and rebuilds Redis only after draining pending events. Sentinel failover can still leave old and new masters writable during a partition because ordinary writes lack quorum confirmation. Redis therefore provides speed and atomic local primitives, while durability, freshness, fencing, recovery, and business correctness remain responsibilities of the surrounding protocol.
 
-The same source establishes an important limit. Sentinel failover can create an old and new master during a network partition because ordinary writes do not require quorum confirmation. Replica-health configuration, client circuit breakers, epoch checks, freshness deadlines, and delayed recovery narrow the exposure but do not remove it, especially around long process pauses or clock anomalies. Redis can therefore support very high-throughput inventory admission only by making residual inconsistency and deliberate unavailability explicit system-level tradeoffs.
-
-Antirez's essay supplies a different view of Redis as a mature systems project: [[ClaudeCode]] reproduced transient test failures and Redis Streams internal changes from a design document under expert direction. This is evidence about maintenance practice rather than Redis's runtime guarantees.
+Antirez's essay presents Redis as a mature systems-code project where AI reproduced transient test failures and internal Streams changes under expert direction; this concerns maintenance practice rather than runtime guarantees.
 
 ## Key Characteristics
 - Provides low-latency shared state and atomic multi-step transitions through Lua scripts.
-- Supports bounded coordination roles including task queues, proxy pools, cache-freshness sketches, and inventory snapshots.
-- Can remove a relational database from a latency-critical admission path while leaving durable state to event-driven reconciliation.
-- Requires explicit stale-state, failover-generation, and recovery controls when business correctness depends on the in-memory snapshot.
-- Sentinel improves failover availability but cannot by itself prevent split-brain writes or guarantee zero overselling.
-- Its narrow primitives and positioning make it adaptable, but correctness comes from the surrounding protocol rather than Redis alone.
-- Serves as both production infrastructure and a mature systems-code context for expert-supervised AI maintenance.
+- Supports local/shared cache hierarchies, cross-server invalidation, queues, proxy pools, freshness sketches, and inventory snapshots.
+- Can remove repeated source work from hot paths while remaining a derived layer over canonical storage.
+- Uses pub/sub to distribute invalidation or events, but delivery and recovery guarantees must be designed explicitly.
+- Requires stale-state, failover-generation, and reconciliation controls when business correctness depends on an in-memory snapshot.
+- Sentinel improves failover availability but cannot alone prevent split-brain writes or guarantee zero inconsistency.
+- Its narrow primitives are adaptable, while correctness comes from the surrounding architecture.
 
 ## Evidence
-- Atomic coordination and queue state: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] uses Redis-maintained task state and Lua scripts so Node.js workers can coordinate and recover interrupted work; [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] uses Lua for conditional inventory deduction, snapshot-freshness checks, and epoch comparison.
-- Bounded high-change data roles: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] persists and prunes proxy candidates in a Redis set, while [[building-a-shop-with-sub-second-page-loads-lessons-learned]] stores Baqend's high-write-throughput expiring Bloom filter.
-- Inventory snapshot and recovery: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] places synchronous stock in Redis, rejects writes to stale snapshots, and rebuilds state only after a coordinator drains pending order and stock events.
-- Failover boundary: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] shows that Sentinel network partitions can leave two writable masters and that epoch, majority, timeout, and replica-health controls only reduce the unsafe window.
-- Product and project character: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] praises Redis's narrow positioning and interprets Streams as promising for queues; [[blog-antirez-dont-fall-into-the-anti-ai-hype]] describes AI-assisted Redis test debugging and internal-change reproduction.
+- Layered caching: [[nick-craver-stack-overflow-the-architecture-2016-edition]] uses Redis as shared L2 beneath local L1 caches, refills both after a double miss, and namespaces site data.
+- Invalidation and scale: [[nick-craver-stack-overflow-the-architecture-2016-edition]] uses Redis pub/sub to clear remote L1 caches and reports about 160 billion monthly operations with instances mostly under 2% CPU in the retained chart.
+- Atomic queue coordination: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] uses Redis state and Lua so Node.js workers can coordinate and recover interrupted work.
+- Bounded high-change storage: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] persists proxy candidates in a set, while [[building-a-shop-with-sub-second-page-loads-lessons-learned]] stores Baqend's expiring Bloom filter.
+- Inventory and recovery: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] conditionally deducts inventory with Lua, rejects stale snapshots, and rebuilds only after draining pending events.
+- Failover boundary: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] shows Sentinel partitions leaving two writable masters and treats epoch, majority, timeout, and replica-health controls as mitigation rather than proof.
+- Project maintenance: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] describes expert-supervised AI reproduction of Redis test and internal-change work.
 
 ## Qualifications
-The sources are practitioner reflections and a vendor case study rather than a complete Redis evaluation. Kikcat reports an expected inventory throughput of roughly ten thousand to tens of thousands of TPS without an independently reproduced benchmark, and explicitly concedes residual overselling and underselling windows. The inventory design's guarantees belong to its whole protocol - durable events, idempotency, fencing, circuit breaking, recovery, and reconciliation - not to Redis alone.
+The sources are practitioner narratives and vendor cases rather than a complete Redis evaluation. Stack Overflow's operations and utilization are 2016 first-party snapshots without workload distribution, latency percentiles, persistence configuration, eviction behavior, or independent verification. Pub/sub invalidation is described functionally but the source does not specify missed-message recovery, cold-start refill, stampede control, or version skew. Kikcat's inventory throughput is expected rather than independently benchmarked and explicitly retains overselling and underselling risk. Modern Redis modes and guarantees require current documentation.
 
 ## What Changed
-- Reframed Redis as a bounded coordination and fast-changing-state substrate across several use cases.
-- Added the inventory snapshot path, stale-state rejection, Sentinel epoch checking, and coordinator recovery.
-- Qualified Sentinel availability with split-brain, long-pause, and residual inconsistency risks.
+- Added Stack Overflow's local-L1/shared-L2 cache hierarchy and cross-server invalidation pattern.
+- Added large-scale but historical operations and CPU-utilization evidence.
+- Clarified the distinction between Redis as a derived performance layer and canonical durable state.
 
 ## Relationships
-- [[TaskQueueDesign]] - Redis is the queue state and atomicity substrate.
-- [[NodeJS]] - Node.js workers use Redis-managed state in the author's implementation.
-- [[LeanCloud]] - platform context where the task queue was implemented.
-- [[DatabaseServiceExposure]] - separate security concept where Redis appears as a sensitive exposed data service.
-- [[Antirez]] - Redis creator and source author using Redis examples to discuss AI coding.
-- [[ClaudeCode]] - coding agent used in the Redis debugging and Streams examples.
-- [[WebScrapingProxyPool]] - Redis stores, samples, and prunes proxy candidates in Wulc's scraper workflow.
-- [[DynamicContentCaching]] - Redis maintains the Bloom-filter freshness metadata in Baqend's approach.
-- [[Baqend]] - platform using Redis in the Thinks performance stack.
-- [[HighConcurrencyInventoryDeduction]] - Redis provides the synchronous stock snapshot and atomic Lua checks in the proposed design.
-- [[EventDrivenConsistency]] - durable stock events reconcile Redis-side decisions with the goods database.
+- [[DynamicContentCaching]] - uses Redis as shared cache, freshness metadata, and invalidation infrastructure.
+- [[StackOverflow]] - platform using Redis for L2 caching, pub/sub, and machine-learning data.
+- [[TaskQueueDesign]] - uses Redis state and Lua for atomic worker coordination.
+- [[HighConcurrencyInventoryDeduction]] - places Redis on the synchronous stock-admission path.
+- [[EventDrivenConsistency]] - reconciles Redis snapshots with durable database state.
+- [[WebScrapingProxyPool]] - stores and samples reusable proxies in a Redis set.
+- [[Baqend]] - stores an expiring cache-sketch Bloom filter in Redis.
+- [[Antirez]] - Redis creator discussing project maintenance and AI coding.

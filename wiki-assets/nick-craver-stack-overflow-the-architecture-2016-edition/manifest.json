@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "nick-craver-stack-overflow-the-architecture-2016-edition",
+  "images": [
+    {
+      "file": "primary-web-iis-sites.png",
+      "alt": "IIS primary web server listing shared Stack Exchange applications and network sites"
+    },
+    {
+      "file": "dev-meta-iis-sites.png",
+      "alt": "IIS development and Meta server listing staging, monitoring, logs, and test applications"
+    },
+    {
+      "file": "haproxy-web-distribution.png",
+      "alt": "Opserver HAProxy dashboard showing Stack Overflow traffic distributed across nine web servers"
+    },
+    {
+      "file": "web-tier-utilization.png",
+      "alt": "Opserver web-tier dashboard showing low CPU use with memory and network headroom across servers"
+    },
+    {
+      "file": "redis-cpu-utilization.png",
+      "alt": "Bosun chart showing Redis instance CPU utilization mostly below two percent"
+    },
+    {
+      "file": "websocket-connections-week.png",
+      "alt": "Bosun chart showing weekly websocket sessions cycling between about 300000 and 500000"
+    },
+    {
+      "file": "database-tier-utilization.png",
+      "alt": "Opserver database-tier dashboard showing New York and Colorado SQL server CPU memory and network use"
+    }
+  ]
+}

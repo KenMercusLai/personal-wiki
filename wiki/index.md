@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Stack Overflow: The Architecture - 2016 Edition](sources/nick-craver-stack-overflow-the-architecture-2016-edition.md) - Nick Craver maps Stack Overflow's redundant edge, web, service, cache, websocket, search, and database tiers in a first-party 2016 operating snapshot.
 - [Stack Overflow: How We Do Deployment - 2016 Edition](sources/nick-craver-stack-overflow-how-we-do-deployment-2016-edition.md) - Nick Craver traces Stack Overflow's small mainline changes through TeamCity, database migration, tier promotion, and HAProxy-coordinated rolling deployment.
 - [How to Use Smart Defaults to Reduce Cognitive Load](sources/nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load.md) - Nick Babich argues that contextual defaults can reduce choice and repeated entry when they are research-based, welfare-aligned, visible, editable, and inappropriate for sensitive or attention-critical decisions.
 - [Niche Networks](sources/niche-networks-500ish.md) - M.G. Siegler argues that mature mobile habits favor passion-centered social products and focused monetization over immediate pursuit of billion-user scale.

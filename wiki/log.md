@@ -7627,3 +7627,11 @@ Added [[ForwardOnlyDatabaseMigration]] and [[RollingDeployment]], and updated [[
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Stack Overflow: The Architecture - 2016 Edition
+
+Updated [[NickCraver]], [[StackOverflow]], [[HAProxy]], [[Redis]], [[MultiSiteHighAvailability]], and [[DynamicContentCaching]] from their complete ordered evidence inventories. Recorded the 2016 edge-to-database topology, workload placement, SQL authority, L1/L2 cache and pub/sub invalidation, websocket scale, request measurement, capacity headroom, and layered New York/Colorado redundancy while preserving asynchronous-replica, preferred-link, historical-version, first-party, and missing-outcome limits. Seven absent local screenshots were recovered from the exact publisher paths, opened, and retained at their semantic positions; two duplicate rack photographs were opened and omitted as non-evidentiary.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
