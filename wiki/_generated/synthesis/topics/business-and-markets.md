@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-02
-as_of_overview_commit: cc8d905126ddb914cdaacfad9bbff82724f08037
-input_digest: 673d387ab48d72048bfd0ec6ec01935c8706caa523ee84f524684bd8b4e7db58
+as_of_overview_commit: 9b6c2fa11eab765fd919e21b9110111cd21d23fd
+input_digest: 4b287a207ecbb0e90ce8ab1abea43175378dee40d56041dc2f80ce0f7d2d35c4
 ---
 
 # Business and Markets
@@ -652,15 +652,16 @@ Startup survival can require either visible leadership or a leader's ability to 
 
 ### Architecture Is A Business Operating Capability
 
-[[SystemArchitecturePrinciples]] treats architecture as a business operating capability when it improves delivery throughput, service stability, and total human, time, or financial cost; [[ContextualTechnologySelection]] keeps mature ecosystem and staffing advantages subordinate to diagnosis and fit, while standard [[APIErrorHandling]] lets generic monitoring and recovery infrastructure act on failures. [[Cloudflare]] adds the continuity cost of configuration architecture: [[ChangeSafety]] and [[DeploymentAutomation]] need typed selection, staged health mediation, circuit breakers, recoverable snapshots, and dependent-state reconstruction when authoritative data can directly alter customer reachability.
+[[SystemArchitecturePrinciples]] treats architecture as a business operating capability when it improves delivery throughput, service stability, and total human, time, or financial cost; [[ContextualTechnologySelection]] keeps mature ecosystem and staffing advantages subordinate to diagnosis and fit, while standard [[APIErrorHandling]] lets generic monitoring and recovery infrastructure act on failures. [[RichardLi]] makes the microservice business case conditional: independently shippable teams can shorten feedback cycles, isolate change, narrow compliance scope, and scale bottlenecks selectively only when decision rights, [[MicroservicePlatformEngineering]], and parallel operating capacity support them. [[Cloudflare]] adds the continuity cost of configuration architecture: [[ChangeSafety]] and [[DeploymentAutomation]] need typed selection, staged health mediation, circuit breakers, recoverable snapshots, and dependent-state reconstruction when authoritative data can directly alter customer reachability.
 
-**Evidence:** [[SystemArchitecturePrinciples]], [[ContextualTechnologySelection]], [[APIErrorHandling]], [[ChenHao]], [[Cloudflare]], [[ChangeSafety]], [[DeploymentAutomation]]
+**Evidence:** [[SystemArchitecturePrinciples]], [[ContextualTechnologySelection]], [[APIErrorHandling]], [[ChenHao]], [[RichardLi]], [[MicroservicePlatformEngineering]], [[Cloudflare]], [[ChangeSafety]], [[DeploymentAutomation]]
 
 **Qualifications:**
 
 - The source is a practitioner retrospective rather than comparative evidence, and its scope is explicitly complex systems; control-plane centralization, standards work, and debt repayment can impose costs or bottlenecks when applied without local need.
 - The article's Java recommendation is adoption-based and should not replace contextual workload, team, runtime, migration, and deployment analysis.
 - Cloudflare's postmortem is first-party, provides no independent customer-impact estimate, and describes remediation commitments rather than measured completed controls.
+- Li's 2016 executive argument supplies no comparative delivery, cost, onboarding, hiring, or reliability outcomes, and independent service releases can add platform and coordination cost rather than improve throughput when teams lack parallel operating capacity.
 
 ### Founder Investor Fit Bounds Persuasion Effort
 

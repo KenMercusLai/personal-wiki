@@ -1009,6 +1009,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Real-world Engineering Challenges #8: Breaking up a Monolith](sources/real-world-engineering-challenges-8-breaking-up-a-monolith.md) - Gergely Orosz reconstructs Khan Academy's 3.5-year field-level migration from a Python monolith to more than 40 mostly Go services behind federated GraphQL.
 - [Progressive Product Building 与元认知类比](sources/reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi.md) - Reorx proposes a metacognitive reset for personal product work: freeze simple ideas, branch later complexity, build immediately where feasible, and monitor delivery state explicitly.
+- [Microservices Essentials for Executives: The Key to High Velocity Software Development](sources/richard-li-microservices-essentials-for-executives.md) - Richard Li links independently shippable team boundaries to delivery speed while making automation, resilience, tracing, organizational capacity, and monolith-first restraint explicit.
 
 ## Entities
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
@@ -2682,6 +2683,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brian Genisio](entities/BrianGenisio.md) - Khan Academy engineer and manager represented through his leadership and retrospective analysis of the migration endgame.
 - [Kevin Dangoor](entities/KevinDangoor.md) - Former Khan Academy principal software architect represented through the language, architecture, and incremental-delivery choices of the rewrite.
 - [Reorx](entities/Reorx.md) - Author proposing a constrained, AI-assisted workflow for turning small product ideas into implemented projects.
+- [Richard Li](entities/RichardLi.md) - Datawire cofounder and executive author framing microservices through independent delivery and operating prerequisites.
+- [Datawire](entities/Datawire.md) - Company represented through its 2016 focus on open-source microservice infrastructure and tools.
 
 ## Concepts
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.

@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-02
-as_of_overview_commit: cc8d905126ddb914cdaacfad9bbff82724f08037
-input_digest: 91501e5c512a945ad9233eb739507ff99af44c6426c1889e94db29574e5bed07
+as_of_overview_commit: 9b6c2fa11eab765fd919e21b9110111cd21d23fd
+input_digest: d1ca1a779d8accac621db54fef02506ec5aa81ec499a3e2f8e0765f453637407
 ---
 
 # Governance and Institutions
@@ -163,15 +163,16 @@ input_digest: 91501e5c512a945ad9233eb739507ff99af44c6426c1889e94db29574e5bed07
 
 ### Technical Standards Create Operational Governance
 
-[[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them.
+[[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[RichardLi]] adds that [[ServiceAutonomy]] reallocates ship-date, testing, process, and technology decisions toward teams, making training, clear ownership, automated controls, tracing, and recovery accountability part of microservice governance. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them.
 
-**Evidence:** [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]]
+**Evidence:** [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[RichardLi]], [[ServiceAutonomy]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]]
 
 **Qualifications:**
 
 - The evidence is one practitioner's framework for complex systems rather than comparative governance research, and centralized control capabilities can become coupling, ownership, or outage bottlenecks.
 - Standards need documented domain policies for ambiguous cases; HTTP status classes alone do not settle every business rejection, missing resource, retry, or disclosure decision.
 - The zero-bugs rule is one manager's 2016 practitioner proposal rather than a universal control: known defects may require traceability, formal risk acceptance, customer disclosure, or bounded deferral even when repair is rejected.
+- Li's 2016 account is an executive practitioner argument without comparative organizational outcomes; delegating release, test, process, and technology decisions requires capable owners, training, shared controls, and explicit recovery accountability.
 
 ### Email Magic Links Relocate Authentication Trust
 

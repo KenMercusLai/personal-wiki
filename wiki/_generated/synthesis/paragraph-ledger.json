@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "493e0db1cfd2001b8c7fee21f0334ddd177f69d3bdf40c850894a09c044dc436",
       "e33db06cc867babbf78e08298b12ed86bd4d0116ea847ab939d4a0d8899a6edb",
       "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
       "d6294545c95fe59b24702e83837007b7f49ea0746c299521acf173f7b634d297",
@@ -715,11 +716,31 @@
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
       "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279"
     ],
-    "paragraph_count": 713
+    "paragraph_count": 714
   },
-  "overview_commit": "cc8d905126ddb914cdaacfad9bbff82724f08037",
-  "overview_digest": "3dff816e991d51b03c12d9635816b99ade13939d44901023e94ee8014dee0c7d",
+  "overview_commit": "9b6c2fa11eab765fd919e21b9110111cd21d23fd",
+  "overview_digest": "00555b390f70b9c8542d113f30dbdb1f7c9d08a04df9dafa3bdf5a1b0a288351",
   "paragraphs": [
+    {
+      "id": "493e0db1cfd2001b8c7fee21f0334ddd177f69d3bdf40c850894a09c044dc436",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[RichardLi]] source adds an executive adoption frame to [[ServiceAutonomy]] and [[MicroservicePlatformEngineering]]. Its defining mechanism is not code size but an independently shippable team boundary: removing a shared monolithic release train can shorten feedback cycles, isolate changes, narrow compliance scope, scale bottlenecks selectively, and reduce onboarding surface area. The retained Yelp visual maps homepage functions such as search, login, reviews, events, location, and ratings to separate service calls, while the iteration-cycle comparison makes the claimed release advantage explicit. The benefit is conditional because autonomy reallocates ship-date, testing, process, and technology decisions to teams and multiplies runtime dependencies. Li therefore separates automated build, packaging, deployment, and elastic scaling from developer infrastructure for communication protocols, distributed tracing, load balancing, circuit breaking, isolation, and recovery. This strengthens [[DistributedSystemRestraint]]: small engineering teams that cannot develop and operate multiple features independently should begin with a monolith. The evidence remains a 2016 practitioner argument without comparative delivery, reliability, cost, onboarding, or hiring measurements; its falling-adoption-cost forecast is time-bound, and its synchronous-HTTP analogy compresses dependency structure, timeout, retry, fallback, and graceful-degradation differences. Both evidence-bearing images were retained under canonical descriptive filenames.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "DistributedSystemRestraint",
+        "MicroservicePlatformEngineering",
+        "RichardLi",
+        "ServiceAutonomy"
+      ]
+    },
     {
       "id": "e33db06cc867babbf78e08298b12ed86bd4d0116ea847ab939d4a0d8899a6edb",
       "primary_topic": "business-and-markets",

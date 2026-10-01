@@ -218,15 +218,18 @@
       "qualifications": [
         "The evidence is one practitioner's framework for complex systems rather than comparative governance research, and centralized control capabilities can become coupling, ownership, or outage bottlenecks.",
         "Standards need documented domain policies for ambiguous cases; HTTP status classes alone do not settle every business rejection, missing resource, retry, or disclosure decision.",
-        "The zero-bugs rule is one manager's 2016 practitioner proposal rather than a universal control: known defects may require traceability, formal risk acceptance, customer disclosure, or bounded deferral even when repair is rejected."
+        "The zero-bugs rule is one manager's 2016 practitioner proposal rather than a universal control: known defects may require traceability, formal risk acceptance, customer disclosure, or bounded deferral even when repair is rejected.",
+        "Li's 2016 account is an executive practitioner argument without comparative organizational outcomes; delegating release, test, process, and technology decisions requires capable owners, training, shared controls, and explicit recovery accountability."
       ],
-      "statement": "[[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them.",
+      "statement": "[[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[RichardLi]] adds that [[ServiceAutonomy]] reallocates ship-date, testing, process, and technology decisions toward teams, making training, clear ownership, automated controls, tracing, and recovery accountability part of microservice governance. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them.",
       "status": "qualified",
       "supporting_wikilinks": [
         "SystemArchitecturePrinciples",
         "APIErrorHandling",
         "ContextualTechnologySelection",
         "ChenHao",
+        "RichardLi",
+        "ServiceAutonomy",
         "ZeroBugsPolicy",
         "AgileSoftwareDevelopment",
         "InternalSoftwareQuality"

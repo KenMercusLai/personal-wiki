@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "richard-li-microservices-essentials-for-executives",
+  "images": [
+    {
+      "file": "yelp-homepage-service-map.png",
+      "alt": "Yelp homepage annotated with search, login, review, events, location, ratings, and review-retrieval service functions"
+    },
+    {
+      "file": "monolith-and-microservice-iteration-cycles.png",
+      "alt": "Single long monolithic iteration cycle contrasted with multiple faster independent microservice iteration cycles"
+    }
+  ]
+}

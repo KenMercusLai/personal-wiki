@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-02
-as_of_overview_commit: cc8d905126ddb914cdaacfad9bbff82724f08037
-input_digest: 7af597a8a51b14956e29d32e26e949acee3704da024eec056da873733b2d7000
+as_of_overview_commit: 9b6c2fa11eab765fd919e21b9110111cd21d23fd
+input_digest: fb613b219991194556afedf0060de28bbdd0ef41b34b140b5a2c30289333c01e
 ---
 
 # AI and Technology
@@ -41,15 +41,15 @@ input_digest: 7af597a8a51b14956e29d32e26e949acee3704da024eec056da873733b2d7000
 
 ### Service Boundaries Follow Operational Autonomy
 
-[[ServiceAutonomy]] makes a microservice boundary a contextual operational property rather than a technology or topology label: independent ownership, deployment, runtime operation, information control, contract evolution, and failure handling determine whether a unit is a service, [[MicroservicePlatformEngineering]] can enable but not manufacture that independence, and [[ModularMonolith]] remains coherent when one application fits the domain better than separately operated units.
+[[ServiceAutonomy]] makes a microservice boundary a contextual operational property rather than a technology or topology label: independent ownership, deployment, runtime operation, information control, contract evolution, and failure handling determine whether a unit is a service. [[RichardLi]] adds the organizational mechanism—independently shippable team release cycles—and separates automated delivery and elastic scaling from [[MicroservicePlatformEngineering]] for communication, tracing, isolation, and recovery; [[DistributedSystemRestraint]] and [[ModularMonolith]] remain appropriate when a cohesive runtime fits the domain or a small team cannot exploit parallel service development.
 
-**Evidence:** [[ServiceAutonomy]], [[JimmyBogard]], [[MicroservicePlatformEngineering]], [[ModularMonolith]]
+**Evidence:** [[ServiceAutonomy]], [[JimmyBogard]], [[RichardLi]], [[MicroservicePlatformEngineering]], [[DistributedSystemRestraint]], [[ModularMonolith]]
 
 **Qualifications:**
 
-- The defining evidence is one concise 2018 practitioner FAQ without comparative metrics, migration evidence, or an implementation case.
+- The defining evidence combines a concise 2018 practitioner FAQ with a 2016 executive adoption argument; neither supplies comparative delivery, reliability, cost, onboarding, or hiring measurements.
 - Autonomy is multidimensional, so RPC, a monorepo, shared infrastructure, or coordinated change may reduce independence without proving that every affected unit belongs to one larger service.
-- Microservices are justified only when finer autonomous boundaries address a demonstrated delivery constraint and the organization can support the resulting operational obligations.
+- Microservices are justified only when finer autonomous boundaries address a demonstrated delivery constraint, teams can exploit parallel release cycles, and the organization can support the resulting platform and operational obligations.
 
 ### Database Guarantees Require Operational Verification
 
