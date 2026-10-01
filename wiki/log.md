@@ -7916,6 +7916,10 @@ Created [[BrianGenisio]], [[KevinDangoor]], [[IncrementalMonolithMigration]], an
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-02] ingest | Learning from the Post-Mortem
+
+Created [[RussWhite]] and updated [[BlamelessPostmortem]], [[IncidentManagement]], and [[ServiceObservability]] from their complete ordered evidence inventories. Recorded setup, detection, and troubleshooting workflow mapping; the distinction between system learning and “mean time to innocence”; detection dwell time and false-positive trade-offs; preserved diagnostic reasoning; and instrumentation improvement. Preserved the source's short practitioner scope, personal-experience basis, lack of a worked incident or outcome data, and the continuing need for complementary technical root-cause analysis. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-02] ingest | Progressive Product Building 与元认知类比
 
 Added [[Reorx]]'s proposed reset for personal product work. Created [[ProgressiveProductBuilding]] and [[Reorx]], and updated [[IdeaManagement]] and [[MetacognitiveFeedback]] from their complete ordered evidence inventories with stable simple-idea records, linked complex branches, immediate implementation as a default, explicit project-state monitoring, and deliberate replacement of an unproductive behavioral rule. Preserved the article's first-person, prospective, unmeasured scope and qualified its one-day vibe-coding target by product discovery, safety, privacy, regulation, collaboration, maintenance, and technical uncertainty. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -7951,6 +7955,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-02] ingest | Ship / Show / Ask
 
 Created [[RouanWilsenach]] and [[ShipShowAsk]], and updated [[TrunkBasedDevelopment]], [[CodeReviewPractice]], and [[ContinuousDelivery]] from their complete ordered evidence inventories. Distinguished direct mainline Ship, non-blocking self-merged Show, and feedback-blocked Ask; recorded short-lived branches, automated checks, feature toggles, releasable-mainline discipline, early conversation, queue pressure, team trust, and risk-sensitive approval. Preserved the source's practitioner scope, missing comparative outcome data, the possibility that self-merge shifts defects or coordination downstream, and regulatory or high-consequence requirements for independent approval. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-02] lint | Wiki health check
 

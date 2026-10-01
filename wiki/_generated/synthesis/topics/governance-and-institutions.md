@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-02
-as_of_overview_commit: 9b6c2fa11eab765fd919e21b9110111cd21d23fd
-input_digest: d1ca1a779d8accac621db54fef02506ec5aa81ec499a3e2f8e0765f453637407
+as_of_overview_commit: 92597d8de992154ad8b11bf4c8888a24baa1336f
+input_digest: dc51b43f59789844555e7a34860cd96fb979f8b4ec22320060efa8b4f4c6cc0b
 ---
 
 # Governance and Institutions
@@ -665,6 +665,17 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - This is one first-party success account rather than comparative evidence that the same phasing or downtime is optimal elsewhere.
 - Rollback remained partial: it protected the application phases but not the final data move, and the source does not independently verify recovery, data integrity, or customer impact.
+
+### Postmortems Need Workflow Level Accountability
+
+[[BlamelessPostmortem]] makes incident learning a governance boundary when it examines more than individual fault or a proximate configuration error: [[RussWhite]] proposes mapping the setup decisions and commitments that created exposure, the detection path and its false-positive trade-offs, and the troubleshooting checks that should become reusable [[IncidentManagement]] and [[ServiceObservability]] knowledge.
+
+**Evidence:** [[BlamelessPostmortem]], [[RussWhite]], [[IncidentManagement]], [[ServiceObservability]]
+
+**Qualifications:**
+
+- The evidence is one short 2020 practitioner essay grounded in personal network-engineering experience rather than a worked incident, comparison, or measured change in recurrence, detection, or repair time.
+- Workflow mapping complements rather than replaces technical causal analysis, and retrospective reconstruction remains vulnerable to missing records, hindsight bias, and ritual documentation without owned follow-through.
 
 ### Personal Project Rules Need Visible State And Revision
 

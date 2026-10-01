@@ -1013,8 +1013,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microservices Essentials for Executives: The Key to High Velocity Software Development](sources/richard-li-microservices-essentials-for-executives.md) - Richard Li links independently shippable team boundaries to delivery speed while making automation, resilience, tracing, organizational capacity, and monolith-first restraint explicit.
 - [Designing a Microservices Architecture for Failure](sources/risingstack-designing-a-microservices-architecture-for-failure.md) - RisingStack joins safe change, degraded service, health-aware routing, bounded retries, load shedding, bulkheads, circuit breakers, and failure testing into a qualified microservice reliability playbook.
 - [Head-of-Line Blocking in QUIC and HTTP/3: The Details](sources/robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details.md) - Robin Marx explains how HTTP/1.1, HTTP/2 over TCP, and HTTP/3 over QUIC create different blocking boundaries, with scheduling- and loss-dependent performance gains.
+- [Learning from the Post-Mortem](sources/rule-11-reader-learning-from-the-post-mortem.md) - Russ White proposes mapping setup, detection, and troubleshooting workflows so postmortems change systems and preserve reusable incident knowledge.
 
 ## Entities
+- [Russ White](entities/RussWhite.md) - Network engineer and Rule 11 Reader author represented through a systems-oriented three-workflow method for incident learning.
 - [Rouan Wilsenach](entities/RouanWilsenach.md) - Software practitioner represented through a per-change framework for integration, visibility, feedback, and merge authority.
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
 - [Michael Lopp](entities/MichaelLopp.md) - Technology leader and Rands in Repose writer represented through purpose-driven approaches to meetings, organizational information, workspace design, and focus.

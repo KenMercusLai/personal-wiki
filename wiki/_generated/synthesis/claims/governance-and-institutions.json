@@ -1010,6 +1010,22 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "postmortems-need-workflow-level-accountability",
+      "qualifications": [
+        "The evidence is one short 2020 practitioner essay grounded in personal network-engineering experience rather than a worked incident, comparison, or measured change in recurrence, detection, or repair time.",
+        "Workflow mapping complements rather than replaces technical causal analysis, and retrospective reconstruction remains vulnerable to missing records, hindsight bias, and ritual documentation without owned follow-through."
+      ],
+      "statement": "[[BlamelessPostmortem]] makes incident learning a governance boundary when it examines more than individual fault or a proximate configuration error: [[RussWhite]] proposes mapping the setup decisions and commitments that created exposure, the detection path and its false-positive trade-offs, and the troubleshooting checks that should become reusable [[IncidentManagement]] and [[ServiceObservability]] knowledge.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "BlamelessPostmortem",
+        "RussWhite",
+        "IncidentManagement",
+        "ServiceObservability"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "personal-project-rules-need-visible-state-and-revision",
       "qualifications": [

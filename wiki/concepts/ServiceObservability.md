@@ -7,7 +7,8 @@ sources:
   - asanas-september-8-outage
   - blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database
   - details-on-the-january-9th-2017-asana-outage
-last_updated: 2026-09-27
+  - rule-11-reader-learning-from-the-post-mortem
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,10 +26,12 @@ Asana's January capacity incident adds an actionability boundary. Other provisio
 
 Balakrishnan's Delos source adds a design-placement rule for infrastructure systems. Observability should live above APIs and outside implementations where possible, so teams can switch implementations and compare behavior without embedding measurement bugs in each implementation. It also warns that hard-to-measure properties such as consistency are easy to forget unless critical checks are pushed into deployment itself.
 
+White adds post-incident reconstruction as a way to improve this operating system. Teams should map how a failure moved from occurrence to detection, identify where it could have surfaced earlier, and evaluate lower dwell time against the collateral cost of false positives. Mapping the troubleshooting path then reveals what evidence was hard to find and what instrumentation could shorten diagnosis next time.
+
 ## Key Claims
 - Observability should combine infrastructure metrics, service metrics, external probes, logs, audit trails, and escalation policy.
 - Different monitoring tools can have distinct roles: provider metrics, time-series service metrics, external checks, and log analysis.
-- Alert routing should distinguish informational signals from pages while escalating control-plane failures that can predict later customer impact.
+- Alert routing should distinguish informational signals from pages, escalate control-plane failures that can predict later customer impact, and balance shorter detection dwell time against false-positive cost.
 - Low-level metrics and high-level service states both matter for operating distributed systems.
 - Manual metric and dashboard work becomes a scaling problem as the service mesh and engineering organization grow.
 - Observability must connect internal alerts to customer impact, because healthy internal or dogfooding environments can hide production-only overload.
@@ -47,15 +50,18 @@ Balakrishnan's Delos source adds a design-placement rule for infrastructure syst
 - Implementation-independent measurement: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] says observability should be above APIs and external to implementations where possible.
 - Comparison support: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] says this placement helps teams switch implementations and compare performance without measurement-code bugs.
 - Correctness checks: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] says difficult-to-measure attributes such as consistency require special attention and that critical checks should be pushed into deployment when possible.
+- Detection-path review: [[rule-11-reader-learning-from-the-post-mortem]] asks where a failure should have been detected sooner and explicitly qualifies dwell-time reduction by false-positive collateral damage.
+- Troubleshooting instrumentation: [[rule-11-reader-learning-from-the-post-mortem]] uses a recorded diagnostic flow to identify evidence that should be instrumented or made easier to find.
 
 ## Counterevidence & Qualifications
-The sources list tools and examples rather than a full observability taxonomy. Auth0 admits fragmentation: it was evaluating centralizing logging and automating metrics because manual dashboards and multiple providers had become operational overhead. Asana's two postmortems show distinct limits: pages and dashboards can mislead when user impact or environment differences are obscure, while technically correct alerts still fail when routing does not match the risk of an impaired control plane. Balakrishnan's placement rule is strongest for infrastructure with multiple implementations; simpler applications may not need the same abstraction boundary.
+The sources list tools, incidents, and practitioner guidance rather than a full observability taxonomy. Auth0 admits fragmentation: it was evaluating centralizing logging and automating metrics because manual dashboards and multiple providers had become operational overhead. Asana's two postmortems show distinct limits: pages and dashboards can mislead when user impact or environment differences are obscure, while technically correct alerts still fail when routing does not match the risk of an impaired control plane. Balakrishnan's placement rule is strongest for infrastructure with multiple implementations. White does not quantify an acceptable dwell-time or false-positive frontier, and retrospective maps remain vulnerable to missing records and hindsight bias.
 
 ## What Changed
 - Created the concept from Auth0's monitoring, alerting, logging, and metrics practices.
 - Added Asana's outage as a case where partial signals, dogfooding divergence, and customer-support escalation shaped diagnosis.
 - Added Delos-derived guidance on implementation-independent observability and deployment-integrated correctness checks.
 - Added Asana's capacity incident as a case where non-paging alerts detected a stuck provisioning path without producing action.
+- Added detection-path and troubleshooting-flow review as mechanisms for reducing dwell time and targeting new instrumentation.
 
 ## Related Concepts
 - [[SystemReliability]] - observability reveals reliability problems and supports response.

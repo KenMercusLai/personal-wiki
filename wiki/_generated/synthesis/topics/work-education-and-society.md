@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-02
-as_of_overview_commit: f50dbd4337affc5e8c718aac6609480374f3fbe9
-input_digest: 730dc3b9a4c78614dd37a68a629a70d31d19461b05c8387fea212bca54a96ead
+as_of_overview_commit: 92597d8de992154ad8b11bf4c8888a24baa1336f
+input_digest: 08aaf148b04655f2be8bfe9f921122c46b114767e5f937e9b66c9b8cc77cfa58
 ---
 
 # Work, Education, and Society
@@ -1053,13 +1053,14 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 
 ### Incident Response Is A Prepared Learning System
 
-[[IncidentManagement]] joins trained responders, explicit command and communication roles, shared operational state, [[ChangeSafety]] controls, and [[BlamelessPostmortem]] follow-through into one reliability learning loop.
+[[IncidentManagement]] joins trained responders, explicit command and communication roles, shared operational state, [[ChangeSafety]] controls, and [[BlamelessPostmortem]] follow-through into one reliability learning loop. [[RussWhite]] extends that loop by mapping the setup, detection, and troubleshooting workflows so organizational conditions, dwell-time and false-positive trade-offs, missing instrumentation, and diagnostic reasoning remain available for future response.
 
-**Evidence:** [[IncidentManagement]], [[ChangeSafety]], [[BlamelessPostmortem]], [[IncidentCommunication]], [[SystemReliability]]
+**Evidence:** [[IncidentManagement]], [[ChangeSafety]], [[BlamelessPostmortem]], [[IncidentCommunication]], [[SystemReliability]], [[RussWhite]], [[ServiceObservability]]
 
 **Qualifications:**
 
-- The supporting Google Compute Engine account is a company-published 2017 success case without impact measures, detailed root cause, comparative outcomes, or evidence that its nine follow-up actions were completed.
+- The Google Compute Engine account is a company-published 2017 success case without impact measures, detailed root cause, comparative outcomes, or evidence that its nine follow-up actions were completed.
+- White's three-workflow proposal is a short 2020 practitioner essay based on personal network-engineering experience; it supplies no worked incident or measured effect on recurrence, detection, or repair time, and workflow reconstruction does not replace technical causal analysis.
 
 ### Platform Microwork Transfers Coordination Risk To Workers
 

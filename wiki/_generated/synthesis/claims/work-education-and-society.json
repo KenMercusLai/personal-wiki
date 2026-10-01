@@ -1747,16 +1747,19 @@
       "global_candidate": false,
       "id": "incident-response-is-a-prepared-learning-system",
       "qualifications": [
-        "The supporting Google Compute Engine account is a company-published 2017 success case without impact measures, detailed root cause, comparative outcomes, or evidence that its nine follow-up actions were completed."
+        "The Google Compute Engine account is a company-published 2017 success case without impact measures, detailed root cause, comparative outcomes, or evidence that its nine follow-up actions were completed.",
+        "White's three-workflow proposal is a short 2020 practitioner essay based on personal network-engineering experience; it supplies no worked incident or measured effect on recurrence, detection, or repair time, and workflow reconstruction does not replace technical causal analysis."
       ],
-      "statement": "[[IncidentManagement]] joins trained responders, explicit command and communication roles, shared operational state, [[ChangeSafety]] controls, and [[BlamelessPostmortem]] follow-through into one reliability learning loop.",
-      "status": "source-scoped",
+      "statement": "[[IncidentManagement]] joins trained responders, explicit command and communication roles, shared operational state, [[ChangeSafety]] controls, and [[BlamelessPostmortem]] follow-through into one reliability learning loop. [[RussWhite]] extends that loop by mapping the setup, detection, and troubleshooting workflows so organizational conditions, dwell-time and false-positive trade-offs, missing instrumentation, and diagnostic reasoning remain available for future response.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "IncidentManagement",
         "ChangeSafety",
         "BlamelessPostmortem",
         "IncidentCommunication",
-        "SystemReliability"
+        "SystemReliability",
+        "RussWhite",
+        "ServiceObservability"
       ]
     },
     {
