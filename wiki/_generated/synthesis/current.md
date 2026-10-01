@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 3af3b60ddbd53ca381c92fd7cc7795b6c5ca7fc1
+as_of_overview_commit: d1d60bce35e443513dee8e2dfab1266140193758
 summary: "Durable outcomes require explicit boundaries, workload fit, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
-episode_count: 965
-source_count: 965
+episode_count: 966
+source_count: 966
 paragraph_count: 702
 topic_count: 9
 ---

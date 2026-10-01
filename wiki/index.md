@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [OpenClaw Architecture, Explained: How It Works](sources/openclaw-architecture-explained-how-it-works.md) - A code-oriented overview maps OpenClaw's Gateway, channels, runtime, plugins, prompt assembly, sessions, memory, security controls, and deployment patterns while exposing ambiguity around sandbox defaults.
 - [Scaling PostgreSQL to power 800 million ChatGPT users](sources/openai-scaling-postgresql-to-power-800-million-chatgpt-users.md) - OpenAI describes scaling one PostgreSQL writer across nearly 50 read replicas while bounding write load, cache stampedes, connections, expensive queries, retries, and failure domains.
 - [One Decision Separates The Wealthy From The Non-Wealthy](sources/one-decision-separates-the-wealthy-from-the-non-wealthy.md) - Benjamin Hardy argues for outcome accountability, forcing functions, risk exposure, and reciprocal relationships while leaving broad wealth, flow, and motivation claims untested.
 - [Numbers Don’t Matter, Influence Does](sources/numbers-dont-matter-influence-does-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that impressions and follower totals only gain meaning through authentic attention, platform context, redistribution, and downstream action.
@@ -2408,7 +2409,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI organization represented across early research engineering, GPT and APIs, ChatGPT productization, governance, and global production infrastructure.
-- [OpenClaw](entities/OpenClaw.md) - Local-first personal-agent runtime combining IM channels, durable sessions, tools, and Skills with substantial permission, isolation, and recovery risks.
+- [OpenClaw](entities/OpenClaw.md) - Peter Steinberger's local-first personal-agent platform centers a Gateway over channels, sessions, memory, tools, plugins, and configurable security boundaries.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as a credential-competition example, governance-exit reference, and source of seven startup-evaluation questions.
@@ -2518,7 +2519,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [bmpi.dev](entities/BMPIDev.md) - Developer-author documenting a low-cost hybrid AWS serverless application and its infrastructure tradeoffs.
 - [Orhun Parmaksız](entities/OrhunParmaksiz.md) - Rust and open-source developer advocating selective AI assistance, retained craft, and accountable software publication.
 - [Codex](entities/Codex.md) - OpenAI coding agent profiled through contrasting review-centered and high-autonomy practitioner workflows.
-- [Peter Steinberger](entities/PeterSteinberger.md) - Software developer running a high-throughput, CLI-first, coding-agent-centered solo workflow.
+- [Peter Steinberger](entities/PeterSteinberger.md) - OpenClaw creator and software developer running a high-throughput, CLI-first, coding-agent-centered solo workflow.
 
 - [Vine](entities/Vine.md) - Six-second looping-video platform whose creator culture, weak monetization, and creator churn outpaced Twitter's strategy.
 - [Edsger W. Dijkstra](entities/EdsgerWDijkstra.md) - Dutch computer scientist who designed and published the greedy shortest-path algorithm bearing his name.
@@ -3877,7 +3878,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dijkstra's Algorithm](concepts/DijkstrasAlgorithm.md) - Greedy single-source shortest-path procedure for graphs with non-negative edge weights.
 - [Graph Modeling](concepts/GraphModeling.md) - Representation of entities and relationships as nodes and directed or undirected, optionally weighted edges.
 - [Backpropagation](concepts/Backpropagation.md) - Backward credit-assignment procedure that turns output error into earlier-layer deltas and parameter gradients.
-- [Headless Agent Architecture](concepts/HeadlessAgentArchitecture.md) - IM- or API-first agent runtime combining an event-driven daemon, tools, durable state, scheduled work, and explicit observability and permission controls.
+- [Headless Agent Architecture](concepts/HeadlessAgentArchitecture.md) - IM- or API-first runtime combining adapters, a Gateway control plane, session boundaries, tools, durable state, triggers, and explicit observability and permission controls.
 - [Personal Software](concepts/PersonalSoftware.md) - Software built around one person's exact workflow without necessarily taking on the generalization, scale, and support obligations of a multi-user product.
 
 - [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.

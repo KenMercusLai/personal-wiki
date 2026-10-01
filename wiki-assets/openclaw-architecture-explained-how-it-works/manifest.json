@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source_key": "openclaw-architecture-explained-how-it-works",
+  "images": [
+    {
+      "file": "github-star-growth.png",
+      "alt": "Chart compares cumulative GitHub stars for OpenClaw, React, Vue, Linux, and Next.js and depicts OpenClaw rising almost vertically to roughly 180,000 stars in early 2026"
+    },
+    {
+      "file": "system-architecture.png",
+      "alt": "OpenClaw hub-and-spoke architecture routes desktop, CLI, web, mobile, and messaging channels through a Gateway, access control, and session manager into the Pi agent runtime, memory, prompt builder, tool executor, and capabilities"
+    },
+    {
+      "file": "prompt-assembly.png",
+      "alt": "Prompt assembly combines built-in and plugin tool definitions, session history, selected Skills, memory search, AGENTS.md, SOUL.md, TOOLS.md, and Pi Agent Core instructions into conversation history, user message, and system prompt for model invocation"
+    },
+    {
+      "file": "message-flow.jpg",
+      "alt": "End-to-end message sequence checks channel permissions, returns a pairing code when access fails, or resolves a session, builds a prompt, streams model and tool calls, saves state, and formats response chunks when access succeeds"
+    },
+    {
+      "file": "plugin-extension-flow.png",
+      "alt": "Plugin loader and registry discover package metadata and TypeBox schemas, then integrate channel, tool, memory, and provider plugins with the channel router, tool executor, memory search, and agent runtime"
+    },
+    {
+      "file": "multi-agent-routing.jpg",
+      "alt": "Multi-agent routing maps WhatsApp, Discord, and Telegram sessions to default, community, and support agents with different models, workspaces, AGENTS.md, SOUL.md, and Skills"
+    },
+    {
+      "file": "canvas-a2ui-sequence.jpg",
+      "alt": "Canvas and A2UI sequence sends agent HTML to the Canvas server and browser, returns a user action as a canvas tool call, and pushes the agent's updated state back to the display"
+    },
+    {
+      "file": "storage-layout.png",
+      "alt": "OpenClaw storage layout separates workspace files and Skills, environment-overridden configuration, credentials, sessions, and memory databases around Gateway and agent runtime processes"
+    },
+    {
+      "file": "local-development.png",
+      "alt": "Local development keeps browser, CLI, and Gateway on one loopback-bound developer machine"
+    },
+    {
+      "file": "macos-production.png",
+      "alt": "macOS production runs the loopback-bound Gateway as a LaunchAgent managed by a menu bar app with WebChat and Voice Wake"
+    },
+    {
+      "file": "vps-ssh-tunnel.png",
+      "alt": "Remote VPS deployment connects local web and CLI clients to a loopback-bound systemd Gateway through an encrypted SSH port-forward"
+    },
+    {
+      "file": "vps-tailscale.png",
+      "alt": "Tailscale deployment connects macOS, web, and CLI clients over tailnet HTTPS to a Gateway exposed by Tailscale Serve on a VPS"
+    },
+    {
+      "file": "flyio-deployment.png",
+      "alt": "Fly.io deployment places a persistent OpenClaw volume and containerized Gateway behind public managed HTTPS ingress"
+    }
+  ]
+}

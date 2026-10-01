@@ -7763,3 +7763,11 @@ Added [[PostgreSQLReadScaling]] and [[DatabaseOverloadProtection]], and updated 
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | OpenClaw Architecture, Explained: How It Works
+
+Updated [[OpenClaw]], [[PeterSteinberger]], and [[HeadlessAgentArchitecture]] from their complete ordered evidence inventories. Added the Gateway-centered channel-to-session-to-runtime flow, plugin extension surfaces, selective prompt assembly, multi-agent routing, Canvas/A2UI interaction, state layout, layered security controls, and local, macOS, VPS, Tailscale, and Fly.io deployment patterns. Preserved that the article is a secondary point-in-time architecture account, its growth chart lacks a reproducible method, self-hosted orchestration still uses configured external providers, and its descriptions of DM/group sandbox defaults conflict internally. Opened all 14 effective local images; omitted the event collage as decorative and retained the evidence-bearing growth chart plus 12 architecture, sequence, storage, routing, and deployment diagrams under descriptive canonical filenames with a complete manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
