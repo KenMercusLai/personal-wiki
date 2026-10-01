@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Stack Overflow: How We Do Deployment - 2016 Edition](sources/nick-craver-stack-overflow-how-we-do-deployment-2016-edition.md) - Nick Craver traces Stack Overflow's small mainline changes through TeamCity, database migration, tier promotion, and HAProxy-coordinated rolling deployment.
 - [How to Use Smart Defaults to Reduce Cognitive Load](sources/nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load.md) - Nick Babich argues that contextual defaults can reduce choice and repeated entry when they are research-based, welfare-aligned, visible, editable, and inappropriate for sensitive or attention-critical decisions.
 - [Niche Networks](sources/niche-networks-500ish.md) - M.G. Siegler argues that mature mobile habits favor passion-centered social products and focused monetization over immediate pursuit of billion-user scale.
 - [New form of Google banking scam](sources/new-form-of-google-banking-scam.md) - Abhijit Tomar documents a bank impersonation scam routed through fraudulent Google business-listing contact data.
@@ -1170,7 +1171,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Herbert Lui](entities/HerbertLui.md) - Writer represented through a paper-first, review-driven, portable Zettelkasten practice developed over roughly 800 cards.
 - [Imgix](entities/Imgix.md) - Real-time image-processing company used as the setting for the Spillway adaptive-load case.
 - [Spillway](entities/Spillway.md) - Imgix reverse proxy and request broker coordinating variable-cost transformation work through worker feedback and bounded queues.
-- [HAProxy](entities/HAProxy.md) - Load balancer represented through service routing, adaptive backend feedback, and Stack Overflow's high-volume TLS termination.
+- [HAProxy](entities/HAProxy.md) - Load balancer represented through service routing, adaptive backend feedback, high-volume TLS termination, and rolling-deployment traffic control.
 - [Envoy](entities/Envoy.md) - Proxy and service-mesh data-plane example of health-aware routing beyond discovery membership.
 - [Andrew Baumann](entities/AndrewBaumann.md) - Microsoft Research systems researcher arguing that x86 extension complexity and microcode blur the hardware–software boundary.
 - [Intel](entities/Intel.md) - Processor company represented through x86 extension growth, backward compatibility, security-feature interactions, and hardware deployment lag.
@@ -2014,7 +2015,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
 - [pgvectorscale](entities/Pgvectorscale.md) - Timescale PostgreSQL extension presented as a DiskANN performance and scaling layer for pgvector workloads.
 - [pgai](entities/Pgai.md) - Timescale project positioned around embedding creation and LLM operations near PostgreSQL data.
-- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A, lookup, and data platform whose multi-domain infrastructure also illustrates the complexity of large-scale HTTPS migration.
+- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A, lookup, and data platform whose infrastructure illustrates rapid deployment and large-scale HTTPS migration.
 - [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
 - [Bram Moolenaar](entities/BramMoolenaar.md) - Dutch programmer who created and maintained Vim from STEVIE-derived open-source code.
@@ -2604,9 +2605,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Puppeteer](entities/Puppeteer.md) - Browser automation library used beneath a minimal agent-facing Chrome CLI.
 - [Mitchell Lee](entities/MitchellLee.md) - Penny cofounder documenting a learning-first, multi-channel path to the app's first 500 reported signups.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
-- [Nick Craver](entities/NickCraver.md) - Stack Overflow infrastructure engineer represented through a first-person account of the network's multi-year HTTPS migration.
+- [Nick Craver](entities/NickCraver.md) - Stack Overflow infrastructure engineer represented through first-person accounts of rapid deployment and multi-year HTTPS migration.
 
 ## Concepts
+- [Forward-Only Database Migration](concepts/ForwardOnlyDatabaseMigration.md) - Compatibility-first schema evolution using staged additions and removals, an applied-migration ledger, and later forward repair.
+- [Rolling Deployment](concepts/RollingDeployment.md) - Incremental fleet update that drains, replaces, verifies, and restores bounded serving capacity while managing mixed-version dependencies.
 - [Smart Defaults](concepts/SmartDefaults.md) - Editable initial values inferred from context or history to reduce avoidable work while preserving attention, welfare, and user control.
 - [Niche Social Networks](concepts/NicheSocialNetworks.md) - Social products that pursue depth, density, and repeat use within a bounded passion or identity before undifferentiated scale.
 - [Search Listing Impersonation](concepts/SearchListingImpersonation.md) - Social engineering that manipulates search or directory contact data to route users to an impersonator.
@@ -3245,10 +3248,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
 - [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.
 - [Continuous Delivery](concepts/ContinuousDelivery.md) - Release capability for frequent, reliable, low-friction software delivery through architecture, tests, staged activation, automation, and visible flow.
-- [Deployment Pipeline](concepts/DeploymentPipeline.md) - Automated visible flow from source control to production that increases release confidence at each stage.
+- [Deployment Pipeline](concepts/DeploymentPipeline.md) - Visible staged flow that joins automated validation and deployment with explicit promotion decisions from source to production.
 - [CD Componentization](concepts/CDComponentization.md) - Component extraction used to improve continuous-delivery feedback, ownership, and deployment throughput.
 - [Test Pyramid](concepts/TestPyramid.md) - Test-suite strategy that favors fast unit tests, a smaller integration layer, and limited end-to-end acceptance checks.
-- [Trunk-Based Development](concepts/TrunkBasedDevelopment.md) - Small frequent integration on a shared mainline so CI and delivery pipelines can validate current product state.
+- [Trunk-Based Development](concepts/TrunkBasedDevelopment.md) - Small frequent mainline integration with bounded branching when review, risk, or multi-person coordination warrants it.
 - [Privacy Poverty Divide](concepts/PrivacyPovertyDivide.md) - Unequal distribution of privacy protection, privacy burden, and privacy harm across class and marginalization.
 - [Welfare Surveillance](concepts/WelfareSurveillance.md) - Monitoring, verification, and data collection imposed on people seeking public benefits or poverty relief.
 - [Data Broker Persistence](concepts/DataBrokerPersistence.md) - Personal records continuing through commercial databases after becoming outdated, incomplete, corrected, or expunged.

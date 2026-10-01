@@ -693,12 +693,13 @@
       "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e",
       "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69",
       "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45",
-      "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e"
+      "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e",
+      "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea"
     ],
-    "paragraph_count": 693
+    "paragraph_count": 694
   },
-  "overview_commit": "6251f95714959a8ebae8fdafa41f7a2baf486338",
-  "overview_digest": "6d45411a1e9a1716012efb547bf7a481d5dac722d3150dc10a711a64e6ad1e02",
+  "overview_commit": "5715cf084f1e6eb648d9fb25a81da198e4fb744f",
+  "overview_digest": "3de0799ad4325f78bf4808aaf776fc69df467c75d91231c135233061fba2f102",
   "paragraphs": [
     {
       "id": "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
@@ -14021,6 +14022,30 @@
         "MarkSuster",
         "ResponsibilityDiffusion",
         "Yesterbox"
+      ]
+    },
+    {
+      "id": "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[NickCraver]] source adds a concrete 2016 operating path behind [[StackOverflow]]'s high-frequency delivery. Roughly 15 contributors usually integrated small changes on `master`; TeamCity polled an on-premises GitLab repository, reused agent-side mirrors, and moved a revision through database migration, localization extraction and import, compilation, development deployment, human Meta promotion, and production rollout in a reported total under nine minutes. This grounds [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] without making the topology universal: Craver reserves branches for bounded review, risk, or coordination cases and explicitly frames direct-to-main work as local practice. New [[ForwardOnlyDatabaseMigration]] captures the schema boundary—number reservation, real-runner testing, idempotent scripts, per-database filename and hash ledgers, additions before use, removals after callers stop, and later forward repair—while preserving locking, transaction, data-loss, ordering, and parallel-blast-radius limits. New [[RollingDeployment]] captures the traffic boundary: [[HAProxy]] drains one IIS server, holds it down during replacement, requires three successful polls before return, and repeats with capacity still serving; static assets deploy first so mixed web-server versions cannot cache old bytes under a new hash. The source is a first-party historical snapshot without comparative defect, failure-rate, or customer-impact data, and its tooling, server counts, timings, and compile-time localization machinery are not current platform documentation. All 12 effective local image targets were absent; the exact publisher-hosted originals were opened, ten evidence-bearing workflow and implementation screenshots were retained at their semantic positions, and a redundant folder listing plus the decorative Pinbot joke were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DeploymentPipeline",
+        "ForwardOnlyDatabaseMigration",
+        "HAProxy",
+        "NickCraver",
+        "RollingDeployment",
+        "StackOverflow",
+        "TrunkBasedDevelopment"
       ]
     }
   ],

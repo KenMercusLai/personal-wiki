@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_key": "nick-craver-stack-overflow-how-we-do-deployment-2016-edition",
+  "images": [
+    {
+      "file": "migration-number-reservation-chat.png",
+      "alt": "Chat stars used to reserve numbered database migrations before coding"
+    },
+    {
+      "file": "local-migration-run.png",
+      "alt": "Local migration runner applying pending scripts and reporting skipped and successful migrations"
+    },
+    {
+      "file": "teamcity-build-configurations.png",
+      "alt": "TeamCity view showing separate development, Meta, production, API, and socket-server build configurations"
+    },
+    {
+      "file": "development-build-steps.png",
+      "alt": "TeamCity configuration listing the nine development build steps"
+    },
+    {
+      "file": "development-build-log.png",
+      "alt": "Completed TeamCity log showing a development build finishing in about two minutes"
+    },
+    {
+      "file": "tier-promotion-chat.png",
+      "alt": "Team chat coordinating promotion from a successful development build into the Meta tier"
+    },
+    {
+      "file": "migration-history-table.png",
+      "alt": "Migration ledger recording filenames, hashes, execution dates, and durations out of numeric order"
+    },
+    {
+      "file": "localized-razor-source.png",
+      "alt": "Razor source wrapping a tokenized sentence in the Moonspeak localization helper"
+    },
+    {
+      "file": "compiled-localization-call.png",
+      "alt": "Compiled Razor output calling a generated localization method with request and page context"
+    },
+    {
+      "file": "generated-culture-switch.png",
+      "alt": "Generated culture switch writing translated string fragments and the runtime site-name token"
+    }
+  ]
+}

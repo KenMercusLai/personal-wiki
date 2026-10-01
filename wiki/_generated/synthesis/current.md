@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 6251f95714959a8ebae8fdafa41f7a2baf486338
+as_of_overview_commit: 5715cf084f1e6eb648d9fb25a81da198e4fb744f
 summary: "Knowledge advances through calibrated evidence, explicit boundaries, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 947
-source_count: 947
-paragraph_count: 693
+episode_count: 948
+source_count: 948
+paragraph_count: 694
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles.
+- [[NickCraver]]'s [[StackOverflow]] case makes high-frequency delivery a compatibility system: [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] shorten integration and promotion, [[ForwardOnlyDatabaseMigration]] stages schema use and removal around adjacent versions, and [[RollingDeployment]] uses [[HAProxy]] drainage, repeated readiness checks, and static-assets-first ordering to bound mixed-version failure.
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
 - [[MarketplaceReviewFraud]] shows that [[MarketplaceTrust]] is adversarial economic infrastructure: sellers, recruiters, moderators, and reviewers can use real purchases, off-platform refunds, private groups, commissions, and resale to imitate stars, prose, photos, histories, and verified-purchase badges, while [[Amazon]] combines policy, detection, sanctions, investigation, and litigation against abuse whose ranking incentives and coordination extend beyond the platform.
 - [[TenXThinking]] can expose when local optimization assumes the wrong product or mechanism, but [[Kodak]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] together show that radical outcome framing needs survivable experiments, cumulative execution, and evidence that can change the plan rather than a literal multiplication of effort.
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, stage-matched investment, risk-based verification, recovery, accountable control, accessibility, and privacy.
+Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, compatible change, risk-based verification, recovery, accountable control, accessibility, and privacy.
 
+- [[NickCraver]]'s [[StackOverflow]] case makes high-frequency delivery a compatibility system: [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] shorten integration and promotion, [[ForwardOnlyDatabaseMigration]] stages schema use and removal around adjacent versions, and [[RollingDeployment]] uses [[HAProxy]] drainage, repeated readiness checks, and static-assets-first ordering to bound mixed-version failure. Evidence: [[NickCraver]], [[StackOverflow]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], [[HAProxy]].
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles. Evidence: [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], [[JaanaDogan]].
-- [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 
 ### Business and Markets
 
-Durable value joins coherent identity, customer learning, welfare-aligned choice architecture, stage-matched investment, sustainable economics, governed distribution, fair allocation, calibrated evidence, treasury discipline, and survival.
+Durable value joins coherent identity, customer learning, stage-matched investment, sustainable economics, governed distribution, operating capability, fair allocation, and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].
@@ -64,11 +64,11 @@ Institutions and operational systems need explicit authority and ownership, visi
 
 ### History and Geopolitics
 
-Historical spillovers require attention to lineage, path dependence, institutional context, and causal humility.
+Historical spillovers require attention to lineage, dated operating context, path dependence, institutional setting, and causal humility.
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, salient responsibility, inspectable reflection, practice-grounded identity, calibrated evidence and risk, sustainable participation, consent, recovery, durable learning, and structural constraints.
+Human outcomes depend on bounded attention, salient responsibility, reflection, practice-grounded identity, calibrated risk, sustainable participation, consent, recovery, durable learning, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].

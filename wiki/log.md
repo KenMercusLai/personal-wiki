@@ -7619,3 +7619,11 @@ Added [[NickCraver]] and [[HTTPSMigration]], and updated [[StackOverflow]], [[Fa
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Stack Overflow: How We Do Deployment - 2016 Edition
+
+Added [[ForwardOnlyDatabaseMigration]] and [[RollingDeployment]], and updated [[NickCraver]], [[StackOverflow]], [[HAProxy]], [[DeploymentPipeline]], and [[TrunkBasedDevelopment]] from their complete ordered evidence inventories. Recorded the reported sub-nine-minute development-to-Meta-to-production path, small mainline changes, TeamCity build stages, numbered and hashed idempotent migrations, compatibility-first database and API sequencing, HAProxy drain and readiness behavior, static-assets-first rollout, and compile-time localization. Preserved the first-party 2016 scope, lack of comparative failure data, and explicit warning that direct-to-main work is a local fit rather than universal advice. All 12 local image targets were absent; retrieved and opened the exact publisher-hosted originals, retained ten evidence-bearing screenshots under descriptive canonical names at their semantic positions, and omitted the redundant migration-folder view and decorative Pinbot joke.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
