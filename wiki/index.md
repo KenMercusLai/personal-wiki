@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Paul Graham - Write Simply](sources/paul-graham-write-simply.md) - Paul Graham argues that ordinary words, simple sentences, and extensive cutting reduce reader effort, widen access, expose weak ideas, and improve durability.
 - [OpenClaw Architecture, Explained: How It Works](sources/openclaw-architecture-explained-how-it-works.md) - A code-oriented overview maps OpenClaw's Gateway, channels, runtime, plugins, prompt assembly, sessions, memory, security controls, and deployment patterns while exposing ambiguity around sandbox defaults.
 - [Scaling PostgreSQL to power 800 million ChatGPT users](sources/openai-scaling-postgresql-to-power-800-million-chatgpt-users.md) - OpenAI describes scaling one PostgreSQL writer across nearly 50 read replicas while bounding write load, cache stampedes, connections, expensive queries, retries, and failure domains.
 - [One Decision Separates The Wealthy From The Non-Wealthy](sources/one-decision-separates-the-wealthy-from-the-non-wealthy.md) - Benjamin Hardy argues for outcome accountability, forcing functions, risk exposure, and reciprocal relationships while leaving broad wealth, flow, and motivation claims untested.
@@ -2223,7 +2224,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator built around batch investing, shared founder infrastructure, complementary evaluation, and high-touch support.
 - [Andrew Chen](entities/AndrewChen.md) - Startup writer framing engineering-led growth, founder struggle, cadence-aware product metrics, pitching, creator-economy dynamics, writing, relationship compounding, and career choices.
-- [Paul Graham](entities/PaulGraham.md) - Y Combinator cofounder associated with technical judgment, direct founder advice, program design, and startup-stage models.
+- [Paul Graham](entities/PaulGraham.md) - Y Combinator cofounder and essayist associated with technical judgment, founder advice, program design, startup-stage models, and simple prose.
 - [Doug Renert](entities/DougRenert.md) - Tandem Capital cofounder arguing that brief early growth should be tested against persistence, retention, engagement, and economics.
 - [Tandem Capital](entities/TandemCapital.md) - Venture firm whose anonymized YC Demo Day analysis illustrates the limits of constant-rate growth extrapolation.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
@@ -2866,7 +2867,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Responsible AI Release](concepts/ResponsibleAIRelease.md) - Layered governance of public AI products, APIs, open-source artifacts, contracts, and downstream accountability.
 - [Art Block](concepts/ArtBlock.md) - Creative inhibition linked here to unrealistic expectations, flaw-focused comparison, and fear of failure.
 - [Venture-Backed Growth Pressure](concepts/VentureBackedGrowthPressure.md) - Incentive risk that external equity and expected liquidity can make expansion or exit more salient than a smaller stable product.
-- [Editing for Clarity](concepts/EditingForClarity.md) - Intent-first revision that reduces ambiguity across language, reader context, tone, and visual structure.
+- [Editing for Clarity](concepts/EditingForClarity.md) - Intent-first revision that reduces reader effort and ambiguity across language, context, tone, and visual structure.
 - [Production Ownership](concepts/ProductionOwnership.md) - Continuing responsibility for observing, operating, and improving software after the people who build it deploy it.
 - [PERT Estimation](concepts/PERTEstimation.md) - Three-scenario estimation method that makes optimistic, realistic, and pessimistic conditions, risk, and team disagreement explicit.
 - [Software Estimation](concepts/SoftwareEstimation.md) - Forecasting delivery effort through inspectable decomposition, explicit assumptions, codebase-informed review, and uncertainty-aware resource judgment.

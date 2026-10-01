@@ -7771,3 +7771,11 @@ Updated [[OpenClaw]], [[PeterSteinberger]], and [[HeadlessAgentArchitecture]] fr
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Paul Graham - Write Simply
+
+Updated [[PaulGraham]] and [[EditingForClarity]] from their complete ordered evidence inventories. Recorded simple prose as a reader-effort, second-language access, honesty, and durability practice produced through fast drafting followed by extensive editing and cutting. Preserved deliberate complexity for precision or effect and qualified the essay's engagement, completion, accessibility, and longevity claims as unmeasured practitioner arguments. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
