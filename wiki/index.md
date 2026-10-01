@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [计算机领域的三个重要思想：抽象，分层和高阶](sources/ray-eldath-ji-suan-ji-ling-yu-de-san-ge-zhong-yao-si-xiang-chou-xiang-fen-ceng-he-gao-jie.md) - Ray Eldath connects pragmatic software abstraction, Hyrum's Law, higher-order reasoning, partial evaluation, and the three Futamura projections while later retracting his broader concern about mathematical prerequisites.
 - [Your Best Work](sources/rands-your-best-work.md) - Michael Lopp argues that workplace design should balance real-estate cost and open-office benefits against the unmeasured productivity cost of interrupting focused work.
 - [How to be an effective CTO](sources/rajiv-pant-how-to-be-an-effective-cto.md) - Rajiv Pant frames CTO effectiveness as the integration of culture, technology, and operations through technical credibility, stakeholder connection, delivery discipline, and continuous learning.
 - [How and why we migrated from Heroku to Kubernetes](sources/rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes.md) - Rainforest QA's 2019 retrospective connects a staged Heroku-to-GKE migration with workload fit, rollback boundaries, CPU-throttling failure, and a rehearsed six-hour PostgreSQL cutover.
@@ -1007,6 +1008,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
 - [Michael Lopp](entities/MichaelLopp.md) - Technology leader and Rands in Repose writer represented through purpose-driven approaches to meetings, organizational information, workspace design, and focus.
 - [Rajiv Pant](entities/RajivPant.md) - Technology executive represented through an integrated Culture–Technology–Operations model of CTO leadership.
 - [Rainforest QA](entities/RainforestQA.md) - Software-testing company represented through its managed-platform choices, staged application cutover, and rehearsed database migration.
@@ -2675,6 +2677,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.
+- [Abstraction Leakage](concepts/AbstractionLeakage.md) - Exposure of implementation behavior through compatibility, correctness, performance, or operational dependencies beyond a stated interface contract.
+- [Higher-Order Abstraction](concepts/HigherOrderAbstraction.md) - Reapplication of a concept-forming operation to objects of the same kind, including functions over functions and program transformers over programs.
+- [Partial Evaluation](concepts/PartialEvaluation.md) - Specialization of a program against known inputs to produce a residual program for the remaining inputs.
+- [Futamura Projections](concepts/FutamuraProjections.md) - Three staged specializations deriving target programs, compilers, and compiler generators from interpreters and partial evaluators.
 - [Focus-Supportive Workspace Design](concepts/FocusSupportiveWorkspaceDesign.md) - Physical workplace design that balances relevant collaboration, interruption protection, worker needs, and real-estate constraints.
 - [CTO Operating Model](concepts/CTOOperatingModel.md) - Framework treating culture, technology, and operations as interdependent technology-executive accountabilities.
 - [Usage Moment Fit](concepts/UsageMomentFit.md) - Alignment between a product and the recurring state, routine, or transition that makes it salient at a specific moment of choice.

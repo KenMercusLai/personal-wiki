@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 88c2f3cfbcdbd6d69ec2ef2399885f592403fff2
+as_of_overview_commit: 3cbb961dbc6b329d7bbbb96cf90955c26bb0f863
 summary: "Durable systems match demand and workload to explicit boundaries, staged change, calibrated evidence, accountable governance, human limits, and tested recovery."
-episode_count: 982
-source_count: 982
+episode_count: 983
+source_count: 983
 paragraph_count: 711
 topic_count: 9
 ---

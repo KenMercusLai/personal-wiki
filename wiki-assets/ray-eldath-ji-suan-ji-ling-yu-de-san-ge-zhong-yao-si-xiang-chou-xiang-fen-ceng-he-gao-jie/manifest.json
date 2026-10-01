@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "ray-eldath-ji-suan-ji-ling-yu-de-san-ge-zhong-yao-si-xiang-chou-xiang-fen-ceng-he-gao-jie",
+  "images": [
+    {
+      "file": "observable-behavior-workflow-breakage.png",
+      "alt": "xkcd workflow complaints showing users depending on undocumented observable behavior after an update"
+    }
+  ]
+}

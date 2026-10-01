@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | 计算机领域的三个重要思想：抽象，分层和高阶
+
+Added [[RayEldath]], [[SoftwareAbstraction]], [[AbstractionLeakage]], [[HigherOrderAbstraction]], [[PartialEvaluation]], and [[FutamuraProjections]]. Recorded abstraction as pragmatic generalization, Hyrum's Law as dependency on observable behavior at scale, TCP and cache locality as layer-crossing examples, currying and partial application as the bridge to specialization, and the three projections as target-program, compiler, and compiler-generator constructions. Preserved the author's 2024 retraction of his broader mathematical-prerequisite concern, distinguished Hyrum's Law from the broader Law of Leaky Abstractions, narrowed the claim that leakage makes layers meaningless, and recorded the formal and engineering limits omitted by the exposition. Opened and retained the sole local xkcd image under a descriptive canonical filename at the Hyrum's Law claim because it evidences dependence on undocumented behavior.
+
 ## [2026-10-01] ingest | Questions startup Founders should ask Angel Investors and VC’s, but rarely do
 
 Updated [[FounderInvestorFit]] and [[FundraisingMomentum]] from their complete ordered evidence inventories. Recorded two-way investor diligence over current deployment, cheque and ownership fit, lead behavior, decision authority, committee timing, terms, follow-on history, time to cash, sector metrics, next steps, and concrete value-add, plus preparation through sufficient targets, warm introductions, ready diligence material, and concentrated meetings. Preserved the source's unattributed practitioner scope, malformed imported list formatting, missing founder, investor, deal, and outcome evidence, and unmeasured claims about delay, herd behavior, data mining, and competitor diligence; bounded FOMO by truthful disclosure and substantive fit. Opened the repeated effective image target and omitted the decorative “excellent question” reaction GIF, so no asset manifest was required.
@@ -7895,6 +7899,10 @@ Ran lint; the report was printed but not saved. Deterministic and graph-aware ch
 ## [2026-10-01] ingest | Your Best Work
 
 Created [[MichaelLopp]] and [[FocusSupportiveWorkspaceDesign]], and updated [[ProgrammerInterruptionRecovery]] from its complete ordered evidence inventory. Recorded open-office serendipity, hierarchy, team-identity, density, and focus trade-offs; team-controlled pods as a qualified middle form; and physical layout as an upstream influence on programmer interruption. Preserved the source's practitioner status, missing comparative productivity and cost evidence, worker and task variation, and the risk that enclosure creates silos or inequitable access. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
