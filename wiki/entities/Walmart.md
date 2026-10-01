@@ -5,7 +5,8 @@ tags: [retail, company, discounting]
 sources:
   - why-you-should-ignore-every-founders-story-about-how-they-started-their-company-trevor-mckendrick
   - inside-the-wild-west-world-of-gift-card-bitcoin-brokering
-last_updated: 2026-09-30
+  - sarah-gibbons-kate-kaplan-brand-vocabulary-in-the-context-of-ux-key-terms-defined
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ The company's later scale can make its beginning look inevitable, but the source
 
 The 2018 gift-card investigation adds a very different operational profile. An anonymous broker used Walmart checkout to turn remotely supplied Walmart codes into fresh PlayStation and Steam cards without presenting the physical card or identification. Card-for-card conversion protected him against a counterparty draining the original balance, but could also turn stolen or counterfeit value into newly activated cards. Walmart joined Target and Best Buy in announcing limits and employee training after state investigations, yet the broker reported that denomination-level implementation still allowed multiple restricted purchases. The source therefore distinguishes stated policy from store-level enforcement and places fraud incentives across consumers, issuers, retailers, and intermediaries.
 
+A reproduced brand-book spread supplies an intended interaction standard: “caring” means welcoming families, showing local warmth and compassion, remaining helpful and engaged, earning trust, and persisting. It documents Walmart's stated personality rather than proving uniform employee or customer experience.
+
 ## Key Characteristics
 - Emerged from Walton's long retail apprenticeship rather than from a sudden first attempt.
 - Established its early position through low prices and operational economy rather than polished store design.
@@ -26,6 +29,7 @@ The 2018 gift-card investigation adds a very different operational profile. An a
 - Received limited national-press attention during its early years.
 - Provided checkout and gift-card infrastructure that enabled rapid conversion of remotely transferred stored value.
 - Announced fraud controls whose reported store-level implementation conflicted with the company's stated restriction.
+- Defines “caring” as a brand attribute through welcome, compassion, helpfulness, engagement, trust, and persistence.
 
 ## Evidence
 - Prehistory: [[why-you-should-ignore-every-founders-story-about-how-they-started-their-company-trevor-mckendrick]] says Walton had operated stores for 15 years before the first Walmart opened.
@@ -37,13 +41,15 @@ The 2018 gift-card investigation adds a very different operational profile. An a
 - Control rationale: [[inside-the-wild-west-world-of-gift-card-bitcoin-brokering]] explains how card-for-card purchases can launder stolen, cloned, counterfeit, or compromised value.
 - Announced response: [[inside-the-wild-west-world-of-gift-card-bitcoin-brokering]] reports limits on loads and purchases, restrictions on certain gaming cards, and employee training after state investigations.
 - Enforcement conflict: [[inside-the-wild-west-world-of-gift-card-bitcoin-brokering]] contrasts the spokesperson's prohibition with the broker's reported ability to buy two cards at each of several denominations.
+- Intended interaction behavior: [[sarah-gibbons-kate-kaplan-brand-vocabulary-in-the-context-of-ux-key-terms-defined]] reproduces Walmart's contextual definition of its “caring” personality attribute.
 
 ## Qualifications
-These sources remain narrow historical cases, not an assessment of Walmart's full growth, financial performance, labor practices, supplier power, logistics, community effects, governance, or current operations. The origin account can understate contributors other than Walton and cannot establish causal weight among pricing, location, capital, execution, and market conditions. The gift-card investigation documents one broker and an observed 2018 purchase; it does not measure Walmart-wide fraud, implementation consistency, later policy, or the lawful versus illicit share of card-for-card transactions.
+These sources remain narrow historical cases, not an assessment of Walmart's full growth, financial performance, labor practices, supplier power, logistics, community effects, governance, or current operations. The origin account can understate contributors other than Walton and cannot establish causal weight among pricing, location, capital, execution, and market conditions. The gift-card investigation documents one broker and an observed 2018 purchase; it does not measure Walmart-wide fraud, implementation consistency, later policy, or the lawful versus illicit share of card-for-card transactions. The brand guide expresses intended conduct and supplies no evidence of consistency, employee incentives, or customer perception.
 
 ## What Changed
 - Created the entity profile as the company outcome of Walton's long pre-founding retail apprenticeship.
 - Added Walmart's role as a gift-card conversion boundary and the gap between announced controls and reported checkout enforcement.
+- Added the contextualized “caring” attribute as an intended customer-interaction standard.
 
 ## Relationships
 - [[SamWalton]] - founder whose accumulated operating experience preceded the first store.
@@ -53,3 +59,4 @@ These sources remain narrow historical cases, not an assessment of Walmart's ful
 - [[GiftCardFraud]] - Walmart checkout could convert exposed stored value into newly activated cards.
 - [[PeerToPeerCryptoTrading]] - retailer rules determined whether the profiled broker could replenish bitcoin inventory.
 - [[Paxful]] - upstream marketplace through which the broker received Walmart gift-card codes.
+- [[BrandFramework]] - Walmart illustrates how an abstract attribute can be defined as observable interaction behavior.

@@ -7995,3 +7995,11 @@ Created [[IntentionalLifeDesign]] and updated [[SamAltman]] from his complete or
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Brand Vocabulary in the Context of UX: Key Terms Defined
+
+Created [[BrandFramework]], [[SarahGibbons]], [[KateKaplan]], and [[NielsenNormanGroup]]; updated [[BrandPositioning]], [[StartupBrandStrategy]], [[Mailchimp]], [[Walmart]], and [[Spotify]] from their complete ordered evidence inventories. Distinguished enduring brand promise from branding expression; mapped promise to personality, attributes, vision, mission, principles, positioning, and UX decision scales; and preserved terminology variance, written-versus-lived behavior, and the source's selected-example limits. Inspected and retained all six substantive local images with canonical filenames and manifest-backed alt text: the framework relationship diagram plus Mailchimp, Walmart, Spotify, Sesame Street, and Lexus examples.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

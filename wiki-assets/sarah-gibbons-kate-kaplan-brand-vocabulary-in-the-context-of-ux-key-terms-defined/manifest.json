@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "sarah-gibbons-kate-kaplan-brand-vocabulary-in-the-context-of-ux-key-terms-defined",
+  "images": [
+    {
+      "file": "brand-framework-relationships.png",
+      "alt": "Brand framework showing promise connected internally to vision, mission, and principles and externally to personality, attributes, and positioning"
+    },
+    {
+      "file": "mailchimp-freddie-brand-personality.png",
+      "alt": "Mailchimp brand-personality guide explaining how Freddie's appearance, humor, and restraint express a fun but workflow-conscious product"
+    },
+    {
+      "file": "walmart-caring-brand-attribute.png",
+      "alt": "Walmart brand guide defining caring through welcome, compassion, helpfulness, engagement, trust, and persistence"
+    },
+    {
+      "file": "spotify-brand-attributes.png",
+      "alt": "Spotify brand guide defining easy, personal, and fun as product and communication attributes"
+    },
+    {
+      "file": "sesame-street-vision-and-mission.png",
+      "alt": "Sesame Street images pairing its vision of a better world with its mission to help all children reach their highest potential"
+    },
+    {
+      "file": "lexus-guiding-principles.png",
+      "alt": "Lexus guiding principles emphasizing sensory ownership experience, anticipatory service, respect for customer time, and celebration of customer goals"
+    }
+  ]
+}

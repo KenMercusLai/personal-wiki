@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Brand Vocabulary in the Context of UX: Key Terms Defined](sources/sarah-gibbons-kate-kaplan-brand-vocabulary-in-the-context-of-ux-key-terms-defined.md) - Sarah Gibbons and Kate Kaplan connect brand promise, personality, attributes, vision, mission, and principles to UX decisions at different scales.
 - [Sam Altman：十年很短，一日很长](sources/sam-altman-shi-nian-hen-duan-yi-ri-hen-chang.md) - A translated age-30 reflection connects finite time, close relationships, meaningful work, learning, financial freedom, protected attention, and action under uncertainty.
 - [Sam Altman的创业手册](sources/sam-altman-de-chuang-ye-shou-ce.md) - Sam Altman links idea testing, founder quality, intense early user love, direct customer learning, focused execution, retained growth, hiring, profitability, and financing into a qualified startup playbook.
 - [The Resilience Problem](sources/russ-white-the-resilience-problem.md) - Russ White frames network resilience as a trade-off among redundancy, cost, traffic efficiency, state, interaction surfaces, and software-network responsibility.
@@ -1020,6 +1021,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning from the Post-Mortem](sources/rule-11-reader-learning-from-the-post-mortem.md) - Russ White proposes mapping setup, detection, and troubleshooting workflows so postmortems change systems and preserve reusable incident knowledge.
 
 ## Entities
+- [Nielsen Norman Group](entities/NielsenNormanGroup.md) - UX research and guidance organization represented as publisher of the six-part brand-vocabulary framework.
+- [Kate Kaplan](entities/KateKaplan.md) - Nielsen Norman Group coauthor connecting shared brand terminology to UX decisions.
+- [Sarah Gibbons](entities/SarahGibbons.md) - Nielsen Norman Group coauthor connecting shared brand terminology to UX decisions.
 - [Russ White](entities/RussWhite.md) - Network engineer and Rule 11 Reader author connecting workflow-based incident learning with multi-objective resilient network design.
 - [Rouan Wilsenach](entities/RouanWilsenach.md) - Software practitioner represented through a per-change framework for integration, visibility, feedback, and merge authority.
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
@@ -2699,6 +2703,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robin Marx](entities/RobinMarx.md) - Web-performance and protocol researcher represented through packet-level analysis of HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking.
 
 ## Concepts
+- [Brand Framework](concepts/BrandFramework.md) - Shared decision vocabulary connecting a durable promise to personality, attributes, vision, mission, principles, positioning, and UX execution.
 - [Intentional Life Design](concepts/IntentionalLifeDesign.md) - Allocating finite time, attention, money, health, and relationships by chosen values while retaining freedom to act on worthwhile opportunities.
 - [Network Resilience Trade-offs](concepts/NetworkResilienceTradeoffs.md) - Multi-objective design of failure tolerance, cost, throughput, state, simplicity, and interaction surfaces across software and networking.
 - [Ship / Show / Ask](concepts/ShipShowAsk.md) - Per-change framework separating direct integration, non-blocking visibility, and pre-merge discussion.
