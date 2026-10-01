@@ -5,6 +5,7 @@ tags: [databases, reliability, performance, distributed-systems]
 sources:
   - jaana-dogan-things-i-wished-more-developers-knew-about-databases
   - laisky-reading-notes-on-designing-data-intensive-applications
+  - pierce-freeman-go-ahead-self-host-postgres
 last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
@@ -21,13 +22,15 @@ Operational practice is therefore part of database design. Query plans and trace
 
 The broader reading notes extend this tradeoff map down into storage and up into derived-data systems. LSM trees exchange write locality for compaction and read work; B-trees exchange page-oriented updates for different amplification and concurrency costs; document, relational, and graph models fit different relationship shapes; and row, column, warehouse, batch, and stream designs optimize distinct access and update patterns. The right comparison is therefore workload-specific and end to end.
 
+Freeman adds deployment ownership to that map. A managed and a self-hosted PostgreSQL instance may execute the same application SQL, yet differ in configuration access, pooling, storage, monitoring, backup automation, failover, support, compliance, incident response, and total cost. His concrete parameter guidance also reinforces the need to translate generic advice into a workload-specific memory, connection, storage, checkpoint, and durability budget.
+
 ## Key Claims
 - Database labels and advertised guarantees must be translated into engine-, configuration-, and failure-specific behavior.
 - Correctness, coordination, availability, contention, and latency are coupled rather than independently selectable.
 - Critical queries and transactions should be benchmarked individually against realistic data sizes, constraints, and access patterns.
 - Transaction boundaries, retry behavior, ordering, and application state are part of database correctness.
 - Sharding, identifier design, stale reads, and migration strategy change both application behavior and operational burden.
-- Query plans, traces, slow-query evidence, and growth monitoring are required because estimates and early assumptions can fail.
+- Query plans, traces, slow-query evidence, growth monitoring, and restore tests are required because estimates and early assumptions can fail.
 - Data model, storage engine, indexing, analytical layout, and processing mode should follow relationship and access patterns rather than category labels.
 
 ## Evidence
@@ -38,12 +41,15 @@ The broader reading notes extend this tradeoff map down into storage and up into
 - Performance evaluation: [[jaana-dogan-things-i-wished-more-developers-knew-about-databases]] recommends per-operation tests, query-plan inspection, logs, traces, and operation-level service objectives.
 - Evolution and growth: [[jaana-dogan-things-i-wished-more-developers-knew-about-databases]] presents dual-running migration and warns that scale can expose hotspots, skew, capacity limits, and new partitions.
 - Storage and workload fit: [[laisky-reading-notes-on-designing-data-intensive-applications]] contrasts document, relational, and graph models; LSM trees and B-trees; row and column layouts; and OLTP, OLAP, batch, and stream workloads.
+- Ownership model: [[pierce-freeman-go-ahead-self-host-postgres]] contrasts managed and self-hosted PostgreSQL around direct cost, configuration freedom, operational work, support, compliance, and incident responsibility.
+- Hardware-aware configuration: [[pierce-freeman-go-ahead-self-host-postgres]] connects memory allocation, connection pooling, NVMe planner costs, WAL sizing, and checkpoint behavior to the deployed machine and workload.
 
 ## Counterevidence & Qualifications
-The sources are broad practitioner syntheses rather than controlled database comparisons. Several examples are historical, implementation details may have changed, and neither source provides workload files, comparative benchmarks, or complete protocol specifications. Their recommendations are best treated as questions to test against a specific engine, version, configuration, workload, and risk tolerance—not as universal choices such as always preferring UUIDs, stale reads, stronger isolation, LSM trees, or an external sharding service.
+The sources are broad practitioner syntheses rather than controlled database comparisons. Several examples are historical, implementation details may have changed, and none provides complete workload files, comparative benchmarks, or protocol specifications. Freeman's reliability, performance, maintenance, and price claims are first-person and do not isolate the effects of hardware, storage, configuration, provider support, or operator experience. The recommendations are best treated as questions to test against a specific engine, version, configuration, workload, ownership model, and risk tolerance—not as universal choices such as always preferring UUIDs, stale reads, stronger isolation, LSM trees, an external sharding service, or self-hosting.
 
 ## What Changed
 - Extended the tradeoff map across data models, storage engines, analytical layouts, and batch-versus-stream processing.
+- Added managed-versus-self-hosted ownership and hardware-aware configuration to the end-to-end database tradeoff map.
 
 ## Related Concepts
 - [[DatabaseTransactionIsolation]] - isolation choices are a central correctness-versus-contention tradeoff.
@@ -53,3 +59,5 @@ The sources are broad practitioner syntheses rather than controlled database com
 - [[ParallelRunning]] - online migrations temporarily operate old and new databases together.
 - [[SystemReliability]] - database failure modes and recovery behavior shape whole-system reliability.
 - [[DataIntensiveSystems]] - places database choices inside the larger reliability, distribution, and processing system.
+- [[SelfHostedDatabaseOperations]] - makes database configuration, maintenance, recovery, and incident response direct team responsibilities.
+- [[CloudCostOptimization]] - hosting price is one coupled variable rather than a complete database decision.

@@ -705,12 +705,13 @@
       "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d",
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3",
-      "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9"
+      "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9",
+      "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12"
     ],
-    "paragraph_count": 705
+    "paragraph_count": 706
   },
-  "overview_commit": "c338aa15c64d50b5045e8525fbec3cca844bda61",
-  "overview_digest": "31dbe4b7c95d679d3db7e1c12ba46909af94c3bd1c80c4609b8b321ac1908c1a",
+  "overview_commit": "80a09cfd7bb3ca205ec410151b0fcf585224df4f",
+  "overview_digest": "04bd241a0f6af1517278bd9875c231884b0566e7acd944ec8e7ec282661f0a15",
   "paragraphs": [
     {
       "id": "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
@@ -14275,6 +14276,26 @@
         "PersonalProductivity",
         "PiaSilva",
         "WorkLifeBalance"
+      ]
+    },
+    {
+      "id": "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[PierceFreeman]] source adds [[SelfHostedDatabaseOperations]] as an explicit ownership model within the wiki's PostgreSQL and cloud-cost material. Freeman reports moving an application from [[AmazonRDS]] to a 16-vCPU, 32-GB, 400-GB [[DigitalOcean]] server, observing it for several weeks before cutover, and then operating self-hosted [[PostgreSQL]] for thousands of users and tens of millions of daily queries with limited hands-on maintenance. The durable claim is narrower than his recommendation to self-host in most cases: engine portability and lower direct server cost can make self-hosting feasible for a skilled operator, but viability depends on supplying the complete operating envelope—memory and storage-aware configuration, PgBouncer, WAL and checkpoint policy, verified backups, slow-query and disk monitoring, security updates, capacity planning, recovery tests, and incident response. This extends [[CloudCostOptimization]] and [[DatabaseEngineeringTradeoffs]] by distinguishing direct infrastructure price from total ownership cost, configuration freedom, support, compliance, availability, and provider-only recovery capability. The performance, reliability, maintenance, price, and RDS-internals claims remain time-sensitive first-person evidence without a published benchmark, availability series, incident log, labor valuation, or matched managed-service study; the parameter values are workload-specific starting points rather than universal production settings. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AmazonRDS",
+        "CloudCostOptimization",
+        "DatabaseEngineeringTradeoffs",
+        "DigitalOcean",
+        "PierceFreeman",
+        "PostgreSQL",
+        "SelfHostedDatabaseOperations"
       ]
     }
   ],

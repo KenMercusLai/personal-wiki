@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: c338aa15c64d50b5045e8525fbec3cca844bda61
+as_of_overview_commit: 80a09cfd7bb3ca205ec410151b0fcf585224df4f
 summary: "Durable outcomes require demonstrated demand, explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
-episode_count: 972
-source_count: 972
-paragraph_count: 705
+episode_count: 973
+source_count: 973
+paragraph_count: 706
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Culture and media join form, infrastructure, audience practice, governance, econ
 
 ### Governance and Institutions
 
-Institutions need explicit authority, visible execution, sequenced change, tested recovery, appeal, and accountability.
+Institutions need explicit authority, visible execution, sequenced change, tested recovery, appeal, accountability, and clear ownership of operational responsibilities.
 
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].

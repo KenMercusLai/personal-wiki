@@ -8,7 +8,8 @@ sources:
   - ben-houston-i-didnt-need-kubernetes
   - vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
-last_updated: 2026-09-23
+  - pierce-freeman-go-ahead-self-host-postgres
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,10 +25,12 @@ Cost optimization also works as a pre-migration design heuristic: programmers sh
 
 The bmpi.dev case adds low-frequency serverless composition: Fargate Spot runs a short daily container task, Lambda and API Gateway handle assumed request volume, and SNS charges follow subscriber email delivery. It also shows how network topology can erase savings, because NAT gateways and per-availability-zone interface endpoints can cost more than the application workload itself.
 
+Freeman's PostgreSQL migration adds a stateful-service version of the same build-versus-buy decision. He reports moving from RDS to a dedicated server with much more hardware for the direct price, then accepting ownership of tuning, pooling, backup checks, security updates, disk and query review, capacity planning, recovery tests, and incidents. This sharpens total-cost reasoning: managed database markup pays for a ready operational envelope and escalation capability, while self-hosting is economical only when the team can supply those capabilities at acceptable risk and attention cost.
+
 ## Key Claims
 - Cloud bills can grow through many small metered features, not only base hosting fees.
 - Convenience platforms trade operations effort for higher and sometimes less predictable cost.
-- Self-hosting can lower direct platform spend but increases responsibility for process management, reverse proxying, TLS, and maintenance.
+- Self-hosting can lower direct platform spend but increases responsibility for configuration, maintenance, observability, backup, recovery, security, and incidents.
 - Cloudflare can reduce cost by bundling low-cost hosting, DNS, security, object storage, workers, and database options.
 - Compatibility, migration effort, operations labor, reliability, and feature parity must be counted as part of build-versus-buy cost decisions.
 - Order-of-magnitude unit costs help test whether an architecture could be affordable before exact provider estimates are available.
@@ -53,14 +56,17 @@ The bmpi.dev case adds low-frequency serverless composition: Fargate Spot runs a
 - Serverless cost composition: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] estimates Lambda, Fargate, API Gateway, and SNS separately under an assumed 100,000 monthly page views, daily core execution, and 1,000 subscribers.
 - Spot and network choices: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] chooses Fargate Spot and a public-subnet task, while warning that NAT gateways and interface endpoints can create disproportionate charges.
 - Historical comparison: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] totals its simplified estimate at about $1.02 per month versus a cited $2.50 entry VPS, excluding a complete labor, security, reliability, and service-change analysis.
+- Managed-database comparison: [[pierce-freeman-go-ahead-self-host-postgres]] contrasts a stated RDS instance price with a much larger dedicated server and reports migrating after an application-level performance comparison.
+- Ownership transfer: [[pierce-freeman-go-ahead-self-host-postgres]] makes the self-hosting team responsible for PostgreSQL configuration, connection pooling, monitoring, patching, backup verification, capacity planning, disaster recovery, and incident response.
 
 ## Counterevidence & Qualifications
-The Vercel migration source emphasizes cost savings for a small independent web product and does not quantify labor cost, reliability risk, support needs, compliance needs, or the value of an integrated workflow for teams with different constraints. The AWS reference source explicitly warns that its numbers are not accurate budget estimates; prices, regions, discounts, and workloads can change the result. The Cloud Run source is a practitioner report, so its costs and autoscaling experience should be treated as workload-specific rather than universal. The Mixpanel replacement is likewise a 2017 vendor-authored case with no disclosed former bill, plan, feature-parity analysis, internal labor cost, incident data, or ongoing maintenance total. The bmpi.dev total is also illustrative: it applies historical prices to simplified traffic and runtime assumptions and does not price engineering labor, observability, failures, security, or every supporting AWS resource.
+The Vercel migration source emphasizes cost savings for a small independent web product and does not quantify labor cost, reliability risk, support needs, compliance needs, or the value of an integrated workflow for teams with different constraints. The AWS reference source explicitly warns that its numbers are not accurate budget estimates; prices, regions, discounts, and workloads can change the result. The Cloud Run source is a practitioner report, so its costs and autoscaling experience should be treated as workload-specific rather than universal. The Mixpanel replacement is likewise a 2017 vendor-authored case with no disclosed former bill, plan, feature-parity analysis, internal labor cost, incident data, or ongoing maintenance total. The bmpi.dev total is also illustrative: it applies historical prices to simplified traffic and runtime assumptions and does not price engineering labor, observability, failures, security, or every supporting AWS resource. Freeman's database case has the same boundary: its price and maintenance claims are time-sensitive self-reporting by a skilled operator, without full labor valuation, availability data, or a matched support, compliance, and recovery comparison.
 
 ## What Changed
 - Added a low-frequency AWS serverless case where Fargate Spot, request volume, subscriber count, and network topology jointly determine cost.
 - Added Cloud Run as a managed-container cost case where scale-to-zero, faster autoscaling, and lower cluster-management labor reduce total cost for suitable workloads.
 - Added managed-analytics replacement as a build-versus-buy case and made total ownership cost an explicit qualification.
+- Added self-hosted PostgreSQL as a stateful build-versus-buy case where lower direct spend transfers the complete operating envelope to the team.
 
 ## Related Concepts
 - [[NextJSDeployment]] - deployment model is the main lever used to reduce cost in the source.
@@ -72,3 +78,5 @@ The Vercel migration source emphasizes cost savings for a small independent web 
 - [[Mixpanel]] - managed analytics service replaced in the Jelly Button cost case.
 - [[EventAnalyticsPipeline]] - custom alternative whose service and ownership costs must be evaluated together.
 - [[ServerlessComputing]] - usage-linked managed services can lower direct cost while introducing provider and network-specific cost traps.
+- [[SelfHostedDatabaseOperations]] - exposes the labor, expertise, and risk that must be counted when database hosting moves in-house.
+- [[AmazonRDS]] - managed database whose direct price is compared with self-hosted infrastructure in Freeman's case.

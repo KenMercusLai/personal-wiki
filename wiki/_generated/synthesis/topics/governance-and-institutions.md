@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-01
-as_of_overview_commit: 3af3b60ddbd53ca381c92fd7cc7795b6c5ca7fc1
-input_digest: fd281ad7e004178bd8f5748aa6a96ce40b3abc39e9acdc225a1de7a4fd478f89
+as_of_overview_commit: 80a09cfd7bb3ca205ec410151b0fcf585224df4f
+input_digest: 3eccbc7e9025aa7b14bc093b3724e457f695f19527bdc5315fb3f40e8a2cec0b
 ---
 
 # Governance and Institutions
@@ -641,3 +641,15 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The evidence is one practitioner's 2007 coding-style argument with a 2014 qualification rather than a controlled comparison of defect rates, maintenance cost, or team comprehension.
 - Large inline functions can weaken modularity and scanning, the Saab Gripen claim is secondhand, and execute-and-inhibit can impose unacceptable time, power, and thermal costs.
+
+### Self Hosted Databases Transfer Operational Governance
+
+[[SelfHostedDatabaseOperations]] makes database hosting an operational-governance choice: [[PierceFreeman]] reports that direct [[PostgreSQL]] operation can trade [[AmazonRDS]] cost and configuration limits for explicit ownership of pooling, tuning, monitoring, patching, backups, capacity, recovery, and incidents, while [[CloudCostOptimization]] and [[DatabaseEngineeringTradeoffs]] require those labor, support, compliance, and reliability boundaries to remain in the comparison.
+
+**Evidence:** [[SelfHostedDatabaseOperations]], [[PierceFreeman]], [[PostgreSQL]], [[AmazonRDS]], [[DigitalOcean]], [[CloudCostOptimization]], [[DatabaseEngineeringTradeoffs]]
+
+**Qualifications:**
+
+- The evidence is one infrastructure-capable operator's first-person account without independent availability, incident, labor-cost, recovery, or matched managed-service data.
+- The source's prices and platform descriptions are time-sensitive, and its PostgreSQL parameter values are workload-specific starting points rather than universal production settings.
+- Managed platforms can add support, compliance, automated failover, and provider-only recovery capabilities that direct server-price comparisons do not capture.

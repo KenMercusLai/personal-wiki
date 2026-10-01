@@ -7819,3 +7819,11 @@ Added [[PiaSilva]] and [[ParkinsonsLaw]], and updated [[PersonalProductivity]], 
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Go ahead, self-host Postgres
+
+Created [[PierceFreeman]] and [[SelfHostedDatabaseOperations]], and updated [[PostgreSQL]], [[AmazonRDS]], [[DigitalOcean]], [[CloudCostOptimization]], and [[DatabaseEngineeringTradeoffs]] from their complete ordered evidence inventories. Recorded self-hosting as a transfer of the production database operating envelope—configuration, pooling, observability, maintenance, backup, recovery, capacity, and incident response—rather than as universally cheaper or safer infrastructure. Preserved the source's time-sensitive pricing and platform claims, first-person reliability and workload evidence, configuration-specific limits, and missing total-cost comparison. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
