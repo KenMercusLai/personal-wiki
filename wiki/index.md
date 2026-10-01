@@ -977,6 +977,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Niche to Win, Baby.](sources/niche-to-win-baby-500-hats.md) - Dave McClure argues that a startup should pair a narrow customer segment with a focused product and message, then expand only after earning an initial foothold.
 - [HTTPS on Stack Overflow: The End of a Long Road](sources/nick-craver-https-on-stack-overflow-the-end-of-a-long-road.md) - Nick Craver explains Stack Overflow's four-year, cross-layer migration to HTTPS by default across domains, edge infrastructure, applications, content, and rollout controls.
 - [No Meetings, No Deadlines, No Full-Time Employees](sources/no-meetings-no-deadlines-no-full-time-employees.md) - Sahil Lavingia describes Gumroad's asynchronous contractor-only model, its incremental delivery system and reported results, and its explicit tradeoffs in benefits and advancement.
+- [Not Saying Winter is Coming, But Where's Your Coat?](sources/not-saying-winter-is-coming-but-wheres-your-coat-facebook.md) - Kent Beck uses his post-boom consulting reversal to argue for cash, lower commitments, sustainable work, and rehearsed responses before a downturn narrows options.
 
 ## Entities
 - [Celestine Omin](entities/CelestineOmin.md) - Technology writer and former e-commerce practitioner advocating SQL-first solutions for legible business workflows.
@@ -1772,7 +1773,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Learning a Day](entities/ALearningADay.md) - Publication context for Rohan Rajiv's short personal-growth essay on high-stakes searches.
 - [Paulo Caroli](entities/PauloCaroli.md) - Agile and Lean facilitator behind the Product Backlog Building Canvas article.
 - [Fábio Aguiar](entities/FabioAguiar.md) - Co-author of the Product Backlog Building technique with Paulo Caroli.
-- [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner associated here with user stories, simple design, iterative development, and confidence-based testing.
+- [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner associated here with user stories, simple design, confidence-based testing, and downturn-preparedness advice.
 - [Mike Cohn](entities/MikeCohn.md) - User-story reference author cited for User Stories Applied and INVEST sizing refinement.
 - [Mountain Goat Software](entities/MountainGoatSoftware.md) - Agile and Scrum publisher represented by a practical start-stop-continue sprint-retrospective guide.
 - [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
@@ -3905,5 +3906,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Functional Programming](concepts/FunctionalProgramming.md) - Structuring computation around explicit inputs and returned values while minimizing hidden dependencies and persistent-state mutation.
 - [Niche to Win](concepts/NicheToWin.md) - Early-stage strategy pairing a narrow customer definition with a focused product and message to earn a survival-and-learning foothold before expansion.
 - [HTTPS Migration](concepts/HTTPSMigration.md) - Coordinated transition of domains, certificates, edge routing, applications, content, identity, and rollout controls from HTTP to HTTPS.
+- [Downturn Preparedness](concepts/DownturnPreparedness.md) - Preserving liquidity, manageable commitments, employability, and advance decision rules before adverse conditions narrow options.
 
 ## Syntheses

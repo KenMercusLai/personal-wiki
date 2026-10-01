@@ -7675,3 +7675,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Not Saying Winter is Coming, But Where's Your Coat?
+
+Added [[DownturnPreparedness]] and updated [[KentBeck]] from his complete ordered evidence inventory. Recorded the source's distinction between vulnerability and external shock, Beck's post-boom consulting reversal, and incremental defenses through cash reserves, lower fixed commitments, sustainable work, downside-response planning, and small learning bets. Preserved the essay's anecdotal and historical scope, the uncertain original Facebook publication date, the feasibility limits of a six-month reserve, and the difference between scenario planning and prediction. The source contains no effective image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
