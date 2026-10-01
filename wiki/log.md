@@ -7543,3 +7543,11 @@ Added [[DavidLowe]], [[Nestoria]], and [[DeadCodeTombstones]] from Lowe's accoun
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Netflix is on F***ing Fire
+
+Updated [[Netflix]] and [[StreamingContentEconomics]] with a qualified January 2016 snapshot of subscriber and viewing scale, original-programming momentum, and streaming-native prestige competition. Retained the evidence-bearing Rotten Tomatoes display plus six poster-only Netflix-original examples under descriptive canonical filenames with a matching manifest. Omitted decorative Netflix title art, a logo, a meme and its avatar crop, and a duplicate ratings thumbnail; preserved the limits of unattributed estimates, audience ratings, promotional examples, and speculative television-replacement claims.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Netflix is on F***ing Fire](sources/netflix-is-on-f-ing-fire-the-startup-medium.md) - A 2016 commentary uses Netflix's scale, original-programming run, and a streaming-dominated Rotten Tomatoes snapshot to argue that television incumbents faced structural pressure.
 - [Nestoria Dev Blog: Tombstones for Dead Code](sources/nestoria-dev-blog-tombstones-for-dead-code.md) - David Lowe describes Nestoria's bounded runtime probes and reporting workflow for distinguishing genuinely dead code from live “vampires” before deletion.
 - [Neil Hunt on Netflix and the Story of Netflix Streaming](sources/neil-hunt-on-netflix-and-the-story-of-netflix-streaming-internet-history-podcast.md) - Neil Hunt connects Netflix's queue-enabled subscription, recommendation economics, device-neutral streaming, AWS migration, behavioral data, Open Connect, and qualified self-disruption.
 - [My Startup Banking Story](sources/my-startup-banking-story.md) - Mitchell Hashimoto recounts how HashiCorp's founder-run bank account, incomplete migration, weak monitoring, and later fraud response exposed the need for professional treasury controls.

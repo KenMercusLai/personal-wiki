@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-01
-as_of_overview_commit: 8fba8586a0ef49fe8c3d379d66fd002867b2c036
-input_digest: bf43907a13f0074313f05d9ec8e46a0d4962871304dd60d1bbd4247a9f2678f5
+as_of_overview_commit: 7448e9c0ad5de86f3b6c5fa8f826f548cc630415
+input_digest: f423c29ea1d12628ea91dcbbabae541c733c93f998b62e5e85f8a95b6f5fc6d3
 ---
 
 # Business and Markets
@@ -2159,3 +2159,15 @@ Early [[Salesforce]] joins [[FounderLedSales]], [[CustomerLedProductDevelopment]
 - The evidence is one founder retrospective without bank statements, audit findings, fraud mechanics, finance-team testimony, or a Chase response.
 - The reported branch incentives are explicitly second-hand and unverified, while Chase ultimately recovered all reported stolen funds.
 - The case supports lifecycle and monitoring principles but does not establish that relationship banking, diversification, or any single control would have prevented the fraud.
+
+### Streaming Original Prestige Does Not Prove Economics
+
+[[StreamingContentEconomics]] gains an early prestige snapshot: a January 2016 commentary reports [[Netflix]] at an estimated 69 million subscribers and 100 million daily viewing hours, while an inspected ratings display places three Netflix originals and two [[Amazon]] originals in its first five entries, showing streaming-native companies competing through owned programming as well as distribution without proving sustainable economics or television replacement.
+
+**Evidence:** [[StreamingContentEconomics]], [[Netflix]], [[Amazon]]
+
+**Qualifications:**
+
+- The subscriber and viewing-hour figures are unattributed January 2016 estimates, while the Rotten Tomatoes display is a point-in-time audience-rating snapshot rather than a stable or representative quality measure.
+- Visible original-programming momentum does not establish content cost, churn, profitability, incumbent response, or eventual replacement of television.
+- The commentary's data-driven framing does not prove that behavioral data caused creative quality; Netflix's separate participant history distinguishes audience and feasibility analysis from writing stories through data.

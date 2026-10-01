@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "netflix-is-on-f-ing-fire-the-startup-medium",
+  "images": [
+    {
+      "file": "rotten-tomatoes-top-series-snapshot.png",
+      "alt": "Rotten Tomatoes series snapshot showing three Netflix and two Amazon titles in the displayed top five"
+    },
+    {
+      "file": "house-of-cards-poster.jpg",
+      "alt": "House of Cards poster included among Netflix original productions"
+    },
+    {
+      "file": "orange-is-the-new-black-poster.jpg",
+      "alt": "Orange Is the New Black poster included among Netflix original productions"
+    },
+    {
+      "file": "marco-polo-poster.jpg",
+      "alt": "Marco Polo poster included among Netflix original productions"
+    },
+    {
+      "file": "daredevil-poster.jpg",
+      "alt": "Daredevil poster included among Netflix original productions"
+    },
+    {
+      "file": "narcos-poster.jpg",
+      "alt": "Narcos poster included among Netflix original productions"
+    },
+    {
+      "file": "unbreakable-kimmy-schmidt-poster.jpg",
+      "alt": "Unbreakable Kimmy Schmidt poster included among Netflix original productions"
+    }
+  ]
+}

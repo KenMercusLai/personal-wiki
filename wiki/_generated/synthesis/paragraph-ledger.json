@@ -689,12 +689,13 @@
       "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4",
       "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b",
       "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e",
-      "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69"
+      "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69",
+      "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45"
     ],
-    "paragraph_count": 689
+    "paragraph_count": 690
   },
-  "overview_commit": "f3a8feff581a960c7389bdaaaa9d5d5e3ad02640",
-  "overview_digest": "2fddffc7ec094c955603cfae005550dbe5a617aa107f15cd482106b4d5469a2f",
+  "overview_commit": "7448e9c0ad5de86f3b6c5fa8f826f548cc630415",
+  "overview_digest": "d09faecf4cbf6e3509feae2c421f9f4ea206d021d806a7807ecc6f28a5f2caa1",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13952,6 +13953,21 @@
         "ServiceObservability",
         "SoftwareVerification",
         "TechnicalDebt"
+      ]
+    },
+    {
+      "id": "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest 2016 [[Netflix]] commentary adds an early original-content and prestige snapshot to [[StreamingContentEconomics]]. It reports an estimated 69 million subscribers and 100 million daily viewing hours, then uses an inspected Rotten Tomatoes display whose first five entries include three Netflix originals and two [[Amazon]] originals to argue that streaming-native companies were competing with television incumbents through owned programming as well as distribution. Six retained poster thumbnails identify additional Netflix originals, while decorative Netflix title art, a logo, a meme and its avatar crop, and a duplicate ratings thumbnail were omitted. The durable conclusion is narrower than the article's rhetoric: the snapshot documents visible streaming-original momentum, not that audience data caused creative quality or that streaming would completely replace television. The company figures are unattributed, ratings are point-in-time audience measures, and the source supplies no content-cost, churn, profitability, incumbent-response, or causal evidence.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "Amazon",
+        "Netflix",
+        "StreamingContentEconomics"
       ]
     }
   ],
