@@ -7659,3 +7659,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | No, I Don't Want To Configure Your App!
+
+Added [[Quil]] and [[ApplicationConfigurationDesign]], and updated [[CLIApplicationDesign]] and [[SmartDefaults]] from their complete ordered evidence inventories. Recorded the distinction between library-level composition and application-level task completion, convention and visible defaults for low-risk common paths, guided first use, safe in-flow prerequisite repair, and actionable error messages. Preserved the essay's polemical scope, historical screenshots, lack of controlled usability evidence, and the need for configuration, documentation, and explicit control around accessibility, consent, security, compliance, automation, ambiguity, and consequential state changes. Opened all 21 effective image references; recovered the 20 missing publisher images from exact archived copies, retained 11 evidence-bearing screenshots under descriptive canonical filenames, and omitted ten decorative or redundant images.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

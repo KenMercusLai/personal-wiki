@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source_key": "no-i-dont-want-to-configure-your-app-quils-fluffy-world",
+  "images": [
+    {
+      "file": "nvm-undirected-help-output.png",
+      "alt": "nvm prints a long command catalogue without identifying the first action needed to install and use Node"
+    },
+    {
+      "file": "nvm-use-uninstalled-version-error.png",
+      "alt": "nvm use reports that version 5.0 is not installed but does not offer the required install command"
+    },
+    {
+      "file": "proposed-nvm-first-run-guidance.png",
+      "alt": "Quil's proposed nvm first-run screen states that no Node version is installed and recommends nvm use stable"
+    },
+    {
+      "file": "proposed-nvm-install-and-default-flow.png",
+      "alt": "Quil's proposed nvm use flow installs a missing stable version and asks whether to make it the default"
+    },
+    {
+      "file": "v8-vague-json-parse-error.png",
+      "alt": "V8 JSON.parse reports an unexpected token b without locating which token is wrong or explaining the expected syntax"
+    },
+    {
+      "file": "proposed-actionable-json-parse-error.png",
+      "alt": "Quil's proposed JSON.parse error identifies line and column, marks the unquoted key, explains the quoting rule, and shows a corrected object"
+    },
+    {
+      "file": "elm-actionable-type-error.png",
+      "alt": "Elm type mismatch output highlights the relevant record fields and suggests the likely phoneNumber typo"
+    },
+    {
+      "file": "amber-interactive-tutorial.png",
+      "alt": "Amber's ProfStef tutorial embeds an executable first Smalltalk lesson and names the next button to press"
+    },
+    {
+      "file": "babel5-zero-config-success.png",
+      "alt": "Babel 5 compiles an arrow-function example immediately after package installation"
+    },
+    {
+      "file": "babel6-missing-transform-error.png",
+      "alt": "Babel 6 fails on the same arrow-function example when no transformation preset is configured"
+    },
+    {
+      "file": "babel6-explicit-preset-requirement.png",
+      "alt": "Babel 6 installation guidance says the package ships with no transformations enabled and requires an explicit preset"
+    }
+  ]
+}
