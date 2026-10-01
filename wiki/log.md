@@ -7635,3 +7635,11 @@ Updated [[NickCraver]], [[StackOverflow]], [[HAProxy]], [[Redis]], [[MultiSiteHi
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Pricing: A List of Tactics
+
+Added [[PricingPsychology]] and updated [[NickKolenda]] from his complete ordered evidence inventory. Recorded conditional effects from perceptual magnitude, number fluency, left-digit anchoring, reference prices, decoys, bundles, and promotion framing while distinguishing published findings from pilots, failed replications, and speculative extensions. Opened all 80 effective image references (64 unique raster assets and four unique SVG icons), retained four evidence-bearing charts or comparison tables under descriptive canonical filenames, and omitted navigation, lock, social, logo, decorative, and redundant example art. Preserved that the saved capture exposes only 22 of 102 advertised tactics.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

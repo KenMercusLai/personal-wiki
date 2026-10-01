@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Pricing: A List of Tactics](sources/nick-kolenda-pricing-a-list-of-tactics.md) - Nick Kolenda organizes conditional pricing tactics around perceptual magnitude, number fluency, reference points, assortment, and promotion framing.
 - [Stack Overflow: The Architecture - 2016 Edition](sources/nick-craver-stack-overflow-the-architecture-2016-edition.md) - Nick Craver maps Stack Overflow's redundant edge, web, service, cache, websocket, search, and database tiers in a first-party 2016 operating snapshot.
 - [Stack Overflow: How We Do Deployment - 2016 Edition](sources/nick-craver-stack-overflow-how-we-do-deployment-2016-edition.md) - Nick Craver traces Stack Overflow's small mainline changes through TeamCity, database migration, tier promotion, and HAProxy-coordinated rolling deployment.
 - [How to Use Smart Defaults to Reduce Cognitive Load](sources/nick-babich-how-to-use-smart-defaults-to-reduce-cognitive-load.md) - Nick Babich argues that contextual defaults can reduce choice and repeated entry when they are research-based, welfare-aligned, visible, editable, and inappropriate for sensitive or attention-critical decisions.
@@ -3698,6 +3699,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives and future optionality given up when scarce time, attention, or resources are committed to one direction.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment, also framed as a fast-action completion shortcut.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
+- [Pricing Psychology](concepts/PricingPsychology.md) - How perceptual, numerical, linguistic, and comparative context shapes price evaluation and choice.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes, work logs, and source material while keeping the system accountable to output.
 - [Project-Based Learning](concepts/ProjectBasedLearning.md) - Inquiry-oriented learning where students pursue a concrete question, gather evidence, build methods, and present conclusions.

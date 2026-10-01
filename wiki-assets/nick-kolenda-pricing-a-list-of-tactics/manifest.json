@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "nick-kolenda-pricing-a-list-of-tactics",
+  "images": [
+    {
+      "file": "primitive-plan-label-choice-results.webp",
+      "alt": "Plan-label experiment showing different tier-choice distributions for Bronze-Silver-Gold and Silver-Gold-Platinum labels"
+    },
+    {
+      "file": "sale-price-font-size-discount-interaction.webp",
+      "alt": "Chart comparing purchase intention for larger and smaller sale-price fonts across discount levels"
+    },
+    {
+      "file": "descending-price-order-sales-results.webp",
+      "alt": "Field results showing higher average beer-menu sales when prices were sorted from high to low"
+    },
+    {
+      "file": "incidental-anchor-willingness-to-pay-results.webp",
+      "alt": "Table showing willingness to pay rising across groups assigned by higher final Social Security number digits"
+    }
+  ]
+}
