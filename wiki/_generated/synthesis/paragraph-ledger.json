@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
       "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
       "d1e31392d3d2b52b3b8e8be2089332691bb06f0e6a9ce67d2055b325546ed15e",
       "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -698,11 +699,32 @@
       "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd",
       "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d"
     ],
-    "paragraph_count": 696
+    "paragraph_count": 697
   },
-  "overview_commit": "3c9f86cbb714dc79cd7731eabe458392d0504e2f",
-  "overview_digest": "5f3def23274c470bd7d158034ec05993c1b44f39d626b24756c8f59f14f31741",
+  "overview_commit": "376a87302d9e26b1e2dd8322c3b888c007cba340",
+  "overview_digest": "60417df36889178d88c772fd1035384ff5dff8f8ec26b2fb961a4251ad0c2633",
   "paragraphs": [
+    {
+      "id": "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[MitchellHarper]] source turns [[BigCommerce]]'s reported fundraising history—about 150 VC pitches, roughly one yes per 40 rejections, and $125 million across four rounds—into a long-horizon investor-selection framework. [[FounderInvestorFit]] now includes operating experience, geographic flexibility, follow-on reserves, direct candor, advice boundaries, team-protective change-of-control terms, readable documents, and consistency before and after closing; [[FounderInvestorRelations]] and [[VentureCapitalValueAdd]] add reserved capital, pivot support, and restraint as possible post-close contributions. [[StartupFinancingMechanics]] gains a founder-side terms boundary between 1x non-participating preference and 2x participating preference, while preserving legal review as distinct from document legibility. The sharpest result is a recorded contradiction in [[StartupBoardGovernance]]: Harper wants investors who back the CEO every time, whereas Gerstenzang's existing evidence rejects unconditional founder loyalty when performance, stage fit, or conduct threatens the company. Support through an ordinary miss or sensible pivot therefore remains distinct from immunity from accountability. The source is one founder's 2016 retrospective without contracts, counterparty views, outcome comparisons, or verification of its reported figures, and its claim that capital was cheap and everywhere is historically bounded. All four local image files were opened; duplicate Monopoly/corruption artwork and a repeated tiny book-promotion banner were omitted as non-evidentiary.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "BigCommerce",
+        "FounderInvestorFit",
+        "FounderInvestorRelations",
+        "MitchellHarper",
+        "StartupBoardGovernance",
+        "StartupFinancingMechanics",
+        "VentureCapitalValueAdd"
+      ]
+    },
     {
       "id": "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
       "primary_topic": "business-and-markets",

@@ -978,6 +978,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HTTPS on Stack Overflow: The End of a Long Road](sources/nick-craver-https-on-stack-overflow-the-end-of-a-long-road.md) - Nick Craver explains Stack Overflow's four-year, cross-layer migration to HTTPS by default across domains, edge infrastructure, applications, content, and rollout controls.
 - [No Meetings, No Deadlines, No Full-Time Employees](sources/no-meetings-no-deadlines-no-full-time-employees.md) - Sahil Lavingia describes Gumroad's asynchronous contractor-only model, its incremental delivery system and reported results, and its explicit tradeoffs in benefits and advancement.
 - [Not Saying Winter is Coming, But Where's Your Coat?](sources/not-saying-winter-is-coming-but-wheres-your-coat-facebook.md) - Kent Beck uses his post-boom consulting reversal to argue for cash, lower commitments, sustainable work, and rehearsed responses before a downturn narrows options.
+- [Not all VCs are assholes](sources/not-all-vcs-are-assholes-mitchell-harper-medium.md) - Mitchell Harper uses BigCommerce's rejection-heavy fundraising history to define investor fit through conduct, operating experience, reserves, governance support, and understandable terms.
 
 ## Entities
 - [Celestine Omin](entities/CelestineOmin.md) - Technology writer and former e-commerce practitioner advocating SQL-first solutions for legible business workflows.
@@ -2619,6 +2620,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nick Craver](entities/NickCraver.md) - Stack Overflow infrastructure engineer represented through first-person accounts of rapid deployment and multi-year HTTPS migration.
 - [Sahil Lavingia](entities/SahilLavingia.md) - Gumroad founder represented through his account of shifting the company from growth at all costs to a flexibility-first contractor model.
 - [Gumroad](entities/Gumroad.md) - Creator-commerce company represented through its January 2021 asynchronous, contractor-only operating design.
+- [BigCommerce](entities/BigCommerce.md) - E-commerce software company represented through Mitchell Harper's account of raising $125 million across four venture rounds.
 
 ## Concepts
 - [SQL-First Business Automation](concepts/SQLFirstBusinessAutomation.md) - Implementing legible business conditions as transparent database queries and deterministic workflows before predictive modeling is justified.

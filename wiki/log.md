@@ -7683,3 +7683,11 @@ Added [[DownturnPreparedness]] and updated [[KentBeck]] from his complete ordere
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Not all VCs are assholes
+
+Added [[BigCommerce]] and updated [[MitchellHarper]], [[FounderInvestorFit]], [[FounderInvestorRelations]], [[StartupBoardGovernance]], [[StartupFinancingMechanics]], and [[VentureCapitalValueAdd]] from their complete ordered evidence inventories. Recorded Harper's reported 150-pitch, $125-million, four-round BigCommerce history; investor-selection criteria around conduct, operating experience, reserves, geography, advice, team protections, and term clarity; and the distinction between 1x non-participating and 2x participating preferences. Preserved the direct disagreement between unconditional CEO backing and company-centered board accountability, along with anecdotal, historical-market, legal-review, and outcome-evidence limits. Opened all four distinct local image files and omitted duplicate editorial artwork and repeated book-promotion material as non-evidentiary.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
