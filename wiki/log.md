@@ -7551,3 +7551,11 @@ Updated [[Netflix]] and [[StreamingContentEconomics]] with a qualified January 2
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries
+
+Added [[NetworkJanitor]], [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], and [[EdgeNetworkLoopProtection]], and updated [[VMware]] from its complete ordered evidence inventory. Recorded the boundary between legitimate STP removal inside a controlled fabric core and continuing edge-loop risk, MSTP's planning-versus-instance-scale tradeoff, BPDU Guard containment, BPDU Filter's signal suppression, a guest-bridging incident across VLANs, and storm, MAC, and CPU indicators as partial alternatives. Preserved the article's 2012 practitioner scope, missing topology and configuration evidence, containment blast radius, and undocumented attribution of BPDU Filter guidance to VMware. Opened the sole local image and omitted it as a decorative canary photograph, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

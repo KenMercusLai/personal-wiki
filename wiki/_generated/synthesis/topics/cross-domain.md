@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-30
-as_of_overview_commit: f9e3d7e170bb784be86343116983f92facf7dd9a
-input_digest: 0b2f529ca52cad3329549c342347fdac2de34ca5e8a8638cc570d5fbeddcd15e
+last_updated: 2026-10-01
+as_of_overview_commit: 9a6885aea5e919f2bc8c80fa3a9ea7b0a7892d79
+input_digest: 03900e8b452ba7f780d7da3dfa78f6fac0977fa29515c12955708eea38cb4ac0
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize explicit infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.
+Cross-domain sources emphasize explicit boundary and infrastructure thinking across network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.
 
 ## Cross-source Findings
+
+### Control Removal Requires Replacement Signals
+
+Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
+
+**Evidence:** [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[SpanningTreeProtocol]], [[VMware]]
+
+**Qualifications:**
+
+- The network evidence is one polemical 2012 practitioner essay without topology, configuration, timing, false-positive, or comparative data, and its attribution of VMware guidance is undocumented.
 
 ### Lifecycle Ownership Prevents Resource Leaks
 

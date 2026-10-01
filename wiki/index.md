@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries](sources/network-janitor-on-the-premature-death-of-spanning-tree-and-the-indiscriminate-killing-of-canaries.md) - Network Janitor argues that fabric-core STP removal does not eliminate edge-loop risk and that replacement detection and containment must be explicit.
 - [Netflix is on F***ing Fire](sources/netflix-is-on-f-ing-fire-the-startup-medium.md) - A 2016 commentary uses Netflix's scale, original-programming run, and a streaming-dominated Rotten Tomatoes snapshot to argue that television incumbents faced structural pressure.
 - [Nestoria Dev Blog: Tombstones for Dead Code](sources/nestoria-dev-blog-tombstones-for-dead-code.md) - David Lowe describes Nestoria's bounded runtime probes and reporting workflow for distinguishing genuinely dead code from live “vampires” before deletion.
 - [Neil Hunt on Netflix and the Story of Netflix Streaming](sources/neil-hunt-on-netflix-and-the-story-of-netflix-streaming-internet-history-podcast.md) - Neil Hunt connects Netflix's queue-enabled subscription, recommendation economics, device-neutral streaming, AWS migration, behavioral data, Open Connect, and qualified self-disruption.
@@ -964,6 +965,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 
 ## Entities
+- [Network Janitor](entities/NetworkJanitor.md) - Pseudonymous networking practitioner arguing for scoped STP retirement and explicit edge-loop safeguards.
 - [David Lowe](entities/DavidLowe.md) - Nestoria engineering author presenting a production-safe instrumentation method for evidence-led dead-code removal.
 - [Nestoria](entities/Nestoria.md) - Company engineering context for a Perl tombstone system combining bounded local probes, central collection, retention, and reporting.
 - [Neil Hunt](entities/NeilHunt.md) - Netflix product and technology executive represented through the company's DVD subscription, streaming, device, cloud, and recommendation transitions.
@@ -2596,6 +2598,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.
+- [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture whose internal STP replacement does not automatically protect edge attachments.
+- [Edge Network Loop Protection](concepts/EdgeNetworkLoopProtection.md) - Layered detection and containment of accidental bridging loops at endpoint and adjacent-network boundaries.
 - [Dead Code Tombstones](concepts/DeadCodeTombstones.md) - Bounded runtime probes used to test whether apparently unused code executes before maintainers delete or refactor it.
 - [Business Naming](concepts/BusinessNaming.md) - Framing, generating, screening, and testing a company name for brand fit, comprehension, distinctiveness, and operational usability.
 - [Startup Treasury Management](concepts/StartupTreasuryManagement.md) - Safeguarding, monitoring, allocating, migrating, and retiring startup cash accounts across financial institutions and payment routes.

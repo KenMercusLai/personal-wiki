@@ -1,6 +1,21 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "control-removal-requires-replacement-signals",
+      "qualifications": [
+        "The network evidence is one polemical 2012 practitioner essay without topology, configuration, timing, false-positive, or comparative data, and its attribution of VMware guidance is undocumented."
+      ],
+      "statement": "Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DataCenterNetworkFabric",
+        "EdgeNetworkLoopProtection",
+        "SpanningTreeProtocol",
+        "VMware"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "lifecycle-ownership-prevents-resource-leaks",
       "qualifications": [
@@ -150,6 +165,6 @@
       ]
     }
   ],
-  "summary": "Cross-domain sources emphasize explicit infrastructure thinking across conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.",
+  "summary": "Cross-domain sources emphasize explicit boundary and infrastructure thinking across network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.",
   "topic_id": "cross-domain"
 }

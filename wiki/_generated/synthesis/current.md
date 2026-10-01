@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 7448e9c0ad5de86f3b6c5fa8f826f548cc630415
-summary: "Knowledge advances through calibrated evidence, stage-matched investment, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 939
-source_count: 939
-paragraph_count: 690
+as_of_overview_commit: 9a6885aea5e919f2bc8c80fa3a9ea7b0a7892d79
+summary: "Knowledge advances through calibrated evidence, explicit boundaries, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
+episode_count: 940
+source_count: 940
+paragraph_count: 691
 topic_count: 9
 ---
 
@@ -43,10 +43,10 @@ Durable value joins coherent identity, customer learning, stage-matched technica
 
 ### Cross-domain
 
-Cross-domain findings connect inspectable infrastructure, failure-independent recovery, transferable models, feedback loops, human constraints, and bounded interfaces.
+Cross-domain findings connect explicit replacement signals, inspectable infrastructure, failure-independent recovery, transferable models, human constraints, and bounded interfaces.
 
+- Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries. Evidence: [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[SpanningTreeProtocol]], [[VMware]].
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
-- Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].
 
 ### Culture and Media
 
