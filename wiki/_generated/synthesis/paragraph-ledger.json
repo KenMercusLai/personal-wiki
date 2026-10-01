@@ -710,12 +710,13 @@
       "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9",
       "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12",
       "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f",
-      "b35a69526aa59f530e71c13c24d7110187d5079602d8d78b73193b95d89b2577"
+      "b35a69526aa59f530e71c13c24d7110187d5079602d8d78b73193b95d89b2577",
+      "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67"
     ],
-    "paragraph_count": 710
+    "paragraph_count": 711
   },
-  "overview_commit": "8185d2ee5b2085148d08d9d6c85a959e617a1163",
-  "overview_digest": "617bf03b52fcae17977a0f168f21377c2d1dc175f513d12461c00520b73a35c2",
+  "overview_commit": "88c2f3cfbcdbd6d69ec2ef2399885f592403fff2",
+  "overview_digest": "eaedce4db1955b22148929e25e33e38479ea0f08e2195f50a40e4c0e10378192",
   "paragraphs": [
     {
       "id": "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
@@ -14375,6 +14376,25 @@
         "CTOOperatingModel",
         "RajivPant",
         "TechnicalLeadershipRoleDesign"
+      ]
+    },
+    {
+      "id": "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[MichaelLopp]] source adds [[FocusSupportiveWorkspaceDesign]] as a trade-off among uninterrupted work, relevant collaboration, hierarchy signals, team identity, and real-estate cost. Open space can create serendipity and visible belonging, but the source argues that meeting-heavy managers may experience quiet conference rooms while exposing desk-based workers to visual and auditory interruption. Its proposed middle form is team-controlled common space: enclosed pods or claimed rooms shared by related workers but protected from unrelated traffic. This extends [[ProgrammerInterruptionRecovery]] upstream from resumption behavior to environmental exposure and qualifies generic collaboration claims in [[WorkplaceCollaboration]]: proximity is valuable when the interaction is relevant, not automatically whenever more people share a floor. The argument is a 2015 practitioner observation without comparative output, survey, acoustic, floor-plan, cost, or worker-outcome evidence; pods can also create silos or unequal space access, and different work modes may favor open, private, remote, or mixed settings. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "FocusSupportiveWorkspaceDesign",
+        "MichaelLopp",
+        "ProgrammerInterruptionRecovery",
+        "WorkplaceCollaboration"
       ]
     }
   ],

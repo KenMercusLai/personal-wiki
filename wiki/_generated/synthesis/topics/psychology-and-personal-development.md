@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-01
-as_of_overview_commit: 8185d2ee5b2085148d08d9d6c85a959e617a1163
-input_digest: 0dd9dfd76f3aed0638bfaa61e193cef94a555972c6520a3fb5b4967e8c29e786
+as_of_overview_commit: 88c2f3cfbcdbd6d69ec2ef2399885f592403fff2
+input_digest: ae180dccd6b62f598062b3e7559e2418e92ebf1266f5a4ccacd283f77f4d18ff
 ---
 
 # Psychology and Personal Development
@@ -179,9 +179,9 @@ input_digest: 0dd9dfd76f3aed0638bfaa61e193cef94a555972c6520a3fb5b4967e8c29e786
 
 ### Attention Is Scarce And Must Be Allocated
 
-[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[FundraisingMomentum]] adds a bounded process case where pre-qualification, prepared diligence, explicit authority, and concentrated meetings can reduce delay, but FOMO must remain truthful. [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.
+[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[FundraisingMomentum]] adds a bounded process case where pre-qualification, prepared diligence, explicit authority, and concentrated meetings can reduce delay, but FOMO must remain truthful. [[FocusSupportiveWorkspaceDesign]] and [[ProgrammerInterruptionRecovery]] move the same principle into the physical environment by treating visual and auditory exposure as possible claims on cognitive state while keeping team-controlled space a testable option rather than a universal optimum. [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.
 
-**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[FundraisingMomentum]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]]
+**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[FundraisingMomentum]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]], [[FocusSupportiveWorkspaceDesign]], [[ProgrammerInterruptionRecovery]], [[MichaelLopp]]
 
 **Qualifications:**
 
@@ -191,6 +191,7 @@ input_digest: 0dd9dfd76f3aed0638bfaa61e193cef94a555972c6520a3fb5b4967e8c29e786
 - [[JohnValJohn]] offers a popular synthesis rather than a systematic review: its daily exposure counts lack documented methodology, and reported conditioning effects do not establish durable purchasing, aggregate social harm, or immunity failure for every screened-out ad.
 - The digital-compulsion addition is a popular essay using interviews and gambling analogies; it explicitly preserves diagnostic uncertainty and does not show that long or frequent use alone is harmful.
 - The fundraising checklist is unattributed practitioner advice without evidence that compressed meetings, FOMO, or a later price increase improve decisions; urgency can become manipulation when competing interest is not real.
+- The workspace-design addition is one 2015 practitioner observation without comparative productivity, acoustic, cost, preference, or worker-outcome evidence; enclosure can protect focus while also creating silos or unequal access.
 
 ### Small Designed Loops Support Change
 

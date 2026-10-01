@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Your Best Work](sources/rands-your-best-work.md) - Michael Lopp argues that workplace design should balance real-estate cost and open-office benefits against the unmeasured productivity cost of interrupting focused work.
 - [How to be an effective CTO](sources/rajiv-pant-how-to-be-an-effective-cto.md) - Rajiv Pant frames CTO effectiveness as the integration of culture, technology, and operations through technical credibility, stakeholder connection, delivery discipline, and continuous learning.
 - [How and why we migrated from Heroku to Kubernetes](sources/rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes.md) - Rainforest QA's 2019 retrospective connects a staged Heroku-to-GKE migration with workload fit, rollback boundaries, CPU-throttling failure, and a rehearsed six-hour PostgreSQL cutover.
 - [Quip - Why Quip doesn't have platform-specific engineering teams](sources/quip-why-quip-doesnt-have-platform-specific-engineering-teams.md) - Quip argues that shared C++ data infrastructure, selective web views, expert enablement, and limited native glue can support feature ownership across clients while leaving its claimed outcomes unmeasured.
@@ -1006,6 +1007,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Michael Lopp](entities/MichaelLopp.md) - Technology leader and Rands in Repose writer represented through purpose-driven approaches to meetings, organizational information, workspace design, and focus.
 - [Rajiv Pant](entities/RajivPant.md) - Technology executive represented through an integrated Culture–Technology–Operations model of CTO leadership.
 - [Rainforest QA](entities/RainforestQA.md) - Software-testing company represented through its managed-platform choices, staged application cutover, and rehearsed database migration.
 - [Quip](entities/Quip.md) - Cross-platform productivity-software company represented through its feature-oriented, shared-infrastructure engineering model.
@@ -2673,6 +2675,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Focus-Supportive Workspace Design](concepts/FocusSupportiveWorkspaceDesign.md) - Physical workplace design that balances relevant collaboration, interruption protection, worker needs, and real-estate constraints.
 - [CTO Operating Model](concepts/CTOOperatingModel.md) - Framework treating culture, technology, and operations as interdependent technology-executive accountabilities.
 - [Usage Moment Fit](concepts/UsageMomentFit.md) - Alignment between a product and the recurring state, routine, or transition that makes it salient at a specific moment of choice.
 - [Image Classification](concepts/ImageClassification.md) - Assigning images to predefined labels, illustrated through a qualified raw-pixel and PCA-based Pokémon experiment.

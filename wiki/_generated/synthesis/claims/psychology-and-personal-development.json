@@ -257,9 +257,10 @@
         "The visual-attention source is a marketer's secondary review that combines heterogeneous laboratory findings, neural observations, evolutionary explanations, and design extrapolations; capturing a fixation does not establish comprehension, preference, trust, conversion, or value.",
         "[[JohnValJohn]] offers a popular synthesis rather than a systematic review: its daily exposure counts lack documented methodology, and reported conditioning effects do not establish durable purchasing, aggregate social harm, or immunity failure for every screened-out ad.",
         "The digital-compulsion addition is a popular essay using interviews and gambling analogies; it explicitly preserves diagnostic uncertainty and does not show that long or frequent use alone is harmful.",
-        "The fundraising checklist is unattributed practitioner advice without evidence that compressed meetings, FOMO, or a later price increase improve decisions; urgency can become manipulation when competing interest is not real."
+        "The fundraising checklist is unattributed practitioner advice without evidence that compressed meetings, FOMO, or a later price increase improve decisions; urgency can become manipulation when competing interest is not real.",
+        "The workspace-design addition is one 2015 practitioner observation without comparative productivity, acoustic, cost, preference, or worker-outcome evidence; enclosure can protect focus while also creating silos or unequal access."
       ],
-      "statement": "[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[FundraisingMomentum]] adds a bounded process case where pre-qualification, prepared diligence, explicit authority, and concentrated meetings can reduce delay, but FOMO must remain truthful. [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.",
+      "statement": "[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[FundraisingMomentum]] adds a bounded process case where pre-qualification, prepared diligence, explicit authority, and concentrated meetings can reduce delay, but FOMO must remain truthful. [[FocusSupportiveWorkspaceDesign]] and [[ProgrammerInterruptionRecovery]] move the same principle into the physical environment by treating visual and auditory exposure as possible claims on cognitive state while keeping team-controlled space a testable option rather than a universal optimum. [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable.",
       "status": "supported",
       "supporting_wikilinks": [
         "PersonalProductivity",
@@ -282,7 +283,10 @@
         "JohnValJohn",
         "DigitalCompulsionRegulation",
         "EngagementIncentiveConflict",
-        "MichaelSchulson"
+        "MichaelSchulson",
+        "FocusSupportiveWorkspaceDesign",
+        "ProgrammerInterruptionRecovery",
+        "MichaelLopp"
       ]
     },
     {

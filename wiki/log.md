@@ -7891,3 +7891,11 @@ Created [[RajivPant]] and [[CTOOperatingModel]], and updated [[TechnicalLeadersh
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint; the report was printed but not saved. Deterministic and graph-aware checks completed, while semantic checks were unavailable because the configured LiteLLM model lacked a provider prefix.
+
+## [2026-10-01] ingest | Your Best Work
+
+Created [[MichaelLopp]] and [[FocusSupportiveWorkspaceDesign]], and updated [[ProgrammerInterruptionRecovery]] from its complete ordered evidence inventory. Recorded open-office serendipity, hierarchy, team-identity, density, and focus trade-offs; team-controlled pods as a qualified middle form; and physical layout as an upstream influence on programmer interruption. Preserved the source's practitioner status, missing comparative productivity and cost evidence, worker and task variation, and the risk that enclosure creates silos or inequitable access. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

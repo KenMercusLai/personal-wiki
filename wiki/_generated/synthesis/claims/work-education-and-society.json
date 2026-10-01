@@ -171,14 +171,18 @@
       "id": "programmer-interruptions-require-context-reconstruction",
       "qualifications": [
         "The evidence is an incomplete practitioner-facing excerpt whose reported session and survey findings omit distributions, uncertainty, interruption types, comparison groups, and enough methods for universal benchmarks.",
-        "Time to the next edit can include legitimate reading and navigation, compile-error reminders can obstruct collaborators or later task switching, and the pupil and EMG figures do not establish a validated safe-interruption threshold."
+        "Time to the next edit can include legitimate reading and navigation, compile-error reminders can obstruct collaborators or later task switching, and the pupil and EMG figures do not establish a validated safe-interruption threshold.",
+        "The workspace evidence is a 2015 practitioner observation without comparative output, survey, acoustic, floor-plan, cost, or worker-outcome data; enclosed pods can also reduce cross-team awareness or distribute space inequitably."
       ],
-      "statement": "[[ProgrammerInterruptionRecovery]] treats interruptions as loss of task state as well as elapsed time: [[ChrisParnin]] reports multi-minute editing delays, code navigation, deliberate compile failures, and diff review as evidence of reconstruction work, while [[AttentionManagement]] gains a workload-sensitive timing boundary and a role for explicit resumption cues.",
+      "statement": "[[ProgrammerInterruptionRecovery]] treats interruptions as loss of task state as well as elapsed time: [[ChrisParnin]] reports multi-minute editing delays, code navigation, deliberate compile failures, and diff review as evidence of reconstruction work, while [[AttentionManagement]] gains a workload-sensitive timing boundary and a role for explicit resumption cues. [[MichaelLopp]] extends the problem upstream through [[FocusSupportiveWorkspaceDesign]]: team-controlled space may preserve relevant collaboration while reducing unrelated visual and auditory interruption, but layout must be tested against work mode, worker preference, access, and actual outcomes.",
       "status": "qualified",
       "supporting_wikilinks": [
         "ProgrammerInterruptionRecovery",
         "ChrisParnin",
-        "AttentionManagement"
+        "AttentionManagement",
+        "MichaelLopp",
+        "FocusSupportiveWorkspaceDesign",
+        "WorkplaceCollaboration"
       ]
     },
     {

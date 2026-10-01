@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-01
-as_of_overview_commit: c338aa15c64d50b5045e8525fbec3cca844bda61
-input_digest: 485d4e828acf674fca24832575ff7aa9a2aeb40396fd8980e6a5eb48fc7f2a88
+as_of_overview_commit: 88c2f3cfbcdbd6d69ec2ef2399885f592403fff2
+input_digest: 51e2e6e4823ecee87de5e0246354102c85bb2484d6146d434ede30160a72491e
 ---
 
 # Work, Education, and Society
@@ -128,14 +128,15 @@ input_digest: 485d4e828acf674fca24832575ff7aa9a2aeb40396fd8980e6a5eb48fc7f2a88
 
 ### Programmer Interruptions Require Context Reconstruction
 
-[[ProgrammerInterruptionRecovery]] treats interruptions as loss of task state as well as elapsed time: [[ChrisParnin]] reports multi-minute editing delays, code navigation, deliberate compile failures, and diff review as evidence of reconstruction work, while [[AttentionManagement]] gains a workload-sensitive timing boundary and a role for explicit resumption cues.
+[[ProgrammerInterruptionRecovery]] treats interruptions as loss of task state as well as elapsed time: [[ChrisParnin]] reports multi-minute editing delays, code navigation, deliberate compile failures, and diff review as evidence of reconstruction work, while [[AttentionManagement]] gains a workload-sensitive timing boundary and a role for explicit resumption cues. [[MichaelLopp]] extends the problem upstream through [[FocusSupportiveWorkspaceDesign]]: team-controlled space may preserve relevant collaboration while reducing unrelated visual and auditory interruption, but layout must be tested against work mode, worker preference, access, and actual outcomes.
 
-**Evidence:** [[ProgrammerInterruptionRecovery]], [[ChrisParnin]], [[AttentionManagement]]
+**Evidence:** [[ProgrammerInterruptionRecovery]], [[ChrisParnin]], [[AttentionManagement]], [[MichaelLopp]], [[FocusSupportiveWorkspaceDesign]], [[WorkplaceCollaboration]]
 
 **Qualifications:**
 
 - The evidence is an incomplete practitioner-facing excerpt whose reported session and survey findings omit distributions, uncertainty, interruption types, comparison groups, and enough methods for universal benchmarks.
 - Time to the next edit can include legitimate reading and navigation, compile-error reminders can obstruct collaborators or later task switching, and the pupil and EMG figures do not establish a validated safe-interruption threshold.
+- The workspace evidence is a 2015 practitioner observation without comparative output, survey, acoustic, floor-plan, cost, or worker-outcome data; enclosed pods can also reduce cross-team awareness or distribute space inequitably.
 
 ### Crisis Cohesion Needs A Fairness Boundary
 
