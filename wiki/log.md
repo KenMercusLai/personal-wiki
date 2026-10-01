@@ -7595,3 +7595,11 @@ Added [[NicheToWin]] and updated [[DaveMcClure]], [[BeachheadStrategy]], and [[D
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint without saving a report. Deterministic and graph-aware checks completed; semantic checks were unavailable because the configured LiteLLM model lacks a provider prefix.
+
+## [2026-10-01] ingest | How I Use "AI"
+
+Reconciled the existing canonical source note with the renamed local source file. The article's contents were already represented by [[NicholasCarlini]] and [[PracticalLLMUse]], so no duplicate source, evidence entry, entity, concept, or overview paragraph was created. Confirmed that the source contains no effective embedded image assets; the apparent HTML image element is transcript code rather than source media.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
