@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Sam Altman的创业手册](sources/sam-altman-de-chuang-ye-shou-ce.md) - Sam Altman links idea testing, founder quality, intense early user love, direct customer learning, focused execution, retained growth, hiring, profitability, and financing into a qualified startup playbook.
 - [The Resilience Problem](sources/russ-white-the-resilience-problem.md) - Russ White frames network resilience as a trade-off among redundancy, cost, traffic efficiency, state, interaction surfaces, and software-network responsibility.
 - [Research: Off-Path TCP Attacks](sources/rule-11-reader-research-off-path-tcp-attacks.md) - Rule 11 Reader explains how TCP duplicate ACKs and wireless contention can form a timing oracle for receive-window inference and attempted off-path injection.
 - [Ship / Show / Ask](sources/rouan-wilsenach-ship-show-ask.md) - Rouan Wilsenach separates direct mainline shipping, non-blocking pull-request visibility, and feedback-blocked review according to change risk, uncertainty, and learning needs.
@@ -2231,7 +2232,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
 - [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
-- [Sam Altman](entities/SamAltman.md) - OpenAI CEO and startup advisor represented through early-hiring discipline, ChatGPT launch judgment, gradual-AGI expectations, and release governance.
+- [Sam Altman](entities/SamAltman.md) - Startup advisor and OpenAI CEO represented through YC's idea-team-product-execution playbook, ChatGPT launch judgment, gradual-AGI expectations, and release governance.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - File-platform company represented through early discipline, referral growth, founder learning, international expansion, and exabyte-scale hybrid-infrastructure operations.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
@@ -2265,7 +2266,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SV Angel](entities/SVAngel.md) - Seed investor whose observation about larger rounds and higher valuations prompted Wilson's analysis.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
-- [Y Combinator](entities/YCombinator.md) - Startup accelerator built around batch investing, shared founder infrastructure, complementary evaluation, and high-touch support.
+- [Y Combinator](entities/YCombinator.md) - Startup accelerator combining batch investing and high-touch support with a public operating doctrine for idea, team, product, execution, growth, and survival.
 - [Andrew Chen](entities/AndrewChen.md) - Startup writer framing engineering-led growth, founder struggle, cadence-aware product metrics, pitching, creator-economy dynamics, writing, relationship compounding, and career choices.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator cofounder and essayist associated with technical judgment, founder advice, program design, startup-stage models, and simple prose.
 - [Doug Renert](entities/DougRenert.md) - Tandem Capital cofounder arguing that brief early growth should be tested against persistence, retention, engagement, and economics.
@@ -3520,10 +3521,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Smart Glasses](concepts/SmartGlasses.md) - Eye-worn computing category framed as Apple's likely next personal-computing frontier after wrists and ears.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
-- [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull, willingness to pay, and repeatable value justifies shifting from discovery toward growth and organization-building.
+- [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where converging evidence of love, return use, referrals, payment, retention, and repeatable value justifies shifting from discovery toward growth and organization-building.
 - [Startup Growth Signal Quality](concepts/StartupGrowthSignalQuality.md) - Standard for interpreting early growth through base size, time window, repeatability, retention, and unit economics.
 - [Trough of Sorrow](concepts/TroughOfSorrow.md) - Pre-product-market-fit startup phase after launch excitement fades and before market pull becomes clear.
-- [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual, high-touch startup work used to create early customer love and learn before automation.
+- [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual acquisition, sales, support, and observation used to create early customer love and learn before automation.
 - [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow early hiring to recruiting systems that preserve standards through role clarity, evidence, and decision checks under growth pressure.
 - [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, repetition, rituals, feedback, and strategic commitment.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.

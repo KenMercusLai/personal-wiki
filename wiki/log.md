@@ -7979,3 +7979,11 @@ Created [[NetworkResilienceTradeoffs]] and updated [[RussWhite]] and [[DataCente
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Sam Altman的创业手册
+
+Updated [[SamAltman]], [[YCombinator]], [[ProductMarketFit]], and [[DoingThingsThatDoNotScale]] from their complete ordered evidence inventories. Recorded the linked idea-team-product-execution framework, stage-specific idea tests, intense early user love, founder-led customer contact, rapid product improvement, retained growth, CEO accountability, selective hiring, profitability, cash control, and fundraising discipline. Preserved the translated practitioner scope, unsupported numerical and categorical heuristics, jurisdiction-specific equity caveat, and the direct tension between the playbook's office-first claim and successful deliberately remote operating models. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

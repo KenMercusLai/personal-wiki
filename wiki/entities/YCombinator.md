@@ -12,7 +12,8 @@ sources:
   - grow-the-puzzle-around-you-jessica-livingston
   - growth-as-a-false-signal-in-y-combinator-startups-techcrunch
   - jessica-livingstons-pretty-complete-list-on-how-not-to-fail
-last_updated: 2026-10-01
+  - sam-altman-de-chuang-ye-shou-ce
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,9 +27,11 @@ The equity source presents YC as a signal that extended exercise periods had mov
 
 Livingston's keynote adds YC's linked operating doctrine: build and talk to users, protect focus, use revenue growth to confront denial, report whether the company is [[DefaultAlive]], keep headcount conservative, and recognize that Series A investors require visible performance rather than seed-stage promise. Renert supplies the needed outside qualification: short-window growth may be real while remaining weak evidence of durable demand when its base, persistence, retention, and economics are unclear. Together the sources support measurement as a forcing function but reject a headline rate as a complete company judgment.
 
+Altman's Startup Playbook turns much of that doctrine into an end-to-end sequence for first-time founders. It asks whether the idea can be stated clearly, who needs it urgently, and how the market could become large; then moves through cofounder quality, direct user contact, product love, manual acquisition, rapid iteration, retained growth, selective hiring, profitability, cash discipline, and financing. The result is not a new accelerator model but a compact account of the advice YC sought to generalize beyond one-to-one founder conversations.
+
 ## Key Characteristics
 - Pioneered a batch model joining small early investments, peer support, shared education, common legal infrastructure, and Demo Day.
-- Combined technical evaluation with character and cofounder-relationship judgment at a stage where mature metrics did not exist, then used growth and cash-survival reporting as operating forcing functions while leaving short-window growth an incomplete signal.
+- Combined technical evaluation with character and cofounder-relationship judgment at a stage where mature metrics did not exist, then translated those judgments into a playbook spanning idea, team, product, execution, growth, hiring, profitability, and financing.
 - Made high-touch operational and emotional support part of its early investment model, while later promoting similarly unscalable customer work at portfolio companies.
 - Used founder selection and repeated events to shape a community culture, not only to choose individual investments.
 - Acts as a startup-ecosystem reference point on equity policy, recommending 10-year exercise periods for new companies.
@@ -58,14 +61,17 @@ Livingston's keynote adds YC's linked operating doctrine: build and talk to user
 - Failure-avoidance doctrine: [[jessica-livingstons-pretty-complete-list-on-how-not-to-fail]] connects user demand, founder focus, measured revenue growth, default-alive status, expense control, and fundraising-stage expectations.
 - Investor-update discipline: [[jessica-livingstons-pretty-complete-list-on-how-not-to-fail]] says YC asks founders to begin updates by stating whether they reach breakeven before cash exhaustion under current expense and growth assumptions.
 - Financing-stage distinction: [[jessica-livingstons-pretty-complete-list-on-how-not-to-fail]] characterizes seed investors as evaluating promise and Series A investors as evaluating performance.
+- Generalized playbook: [[sam-altman-de-chuang-ye-shou-ce]] says YC distilled recurring one-to-one founder advice into a public guide for first-time founders.
+- Product doctrine: [[sam-altman-de-chuang-ye-shou-ce]] makes intense early user love, direct observation, manual acquisition, rapid iteration, retention, and referrals the foundation for growth.
+- Company-building sequence: [[sam-altman-de-chuang-ye-shou-ce]] connects founder quality and communication with focus, CEO accountability, hiring, management, profitability, cash control, and fundraising.
 
 ## Qualifications
-The equity source cites Y Combinator's recommendation but does not reproduce the full policy text, legal mechanics, or evidence from YC companies. The scaling, Maderight, Chen, and ZeroCater sources use YC as narrative or conceptual context and do not analyze the accelerator independently. Sabeti's first-place vote and fundraising are founder-reported and cannot isolate YC's effect from customer evidence, relationships, pitch preparation, or investor demand. Livingston's retrospectives are uniquely useful for founding roles, program design, and recurring failure patterns but remain a cofounder's interested accounts; they do not validate the 10% monthly growth benchmark, default-alive assumptions, conservative hiring rule, or claims about gender barriers across startup types. Seibel's edited AMA is similarly interested evidence: YC's own CEO supplies the self-description, application criteria, and comparison with other accelerators without outcome data. Renert supplies the opposing outside-investor view but anonymizes all 22 firms, omits their bases and later outcomes, assumes a 15% take rate for two GMV reporters, and intentionally applies unrealistic constant compounding. His analysis warns against overinterpretation but does not show that sophisticated investors expected fixed rates to persist. The claim that YC was the first accelerator depends on a retrospectively applied category and is stronger when narrowed to the particular batch model later copied by other programs.
+The equity source cites Y Combinator's recommendation but does not reproduce the full policy text, legal mechanics, or evidence from YC companies. The scaling, Maderight, Chen, and ZeroCater sources use YC as narrative or conceptual context and do not analyze the accelerator independently. Sabeti's first-place vote and fundraising are founder-reported and cannot isolate YC's effect from customer evidence, relationships, pitch preparation, or investor demand. Livingston's retrospectives are uniquely useful for founding roles, program design, and recurring failure patterns but remain a cofounder's interested accounts; they do not validate the 10% monthly growth benchmark, default-alive assumptions, conservative hiring rule, or claims about gender barriers across startup types. Altman's translated playbook is likewise insider practitioner guidance: it compresses advice across startup types without outcome comparisons and includes categorical claims about office work, competitors, CEO intensity, and numerical sales or recruiting thresholds. Seibel's edited AMA is similarly interested evidence: YC's own CEO supplies the self-description, application criteria, and comparison with other accelerators without outcome data. Renert supplies the opposing outside-investor view but anonymizes all 22 firms, omits their bases and later outcomes, assumes a 15% take rate for two GMV reporters, and intentionally applies unrealistic constant compounding. His analysis warns against overinterpretation but does not show that sophisticated investors expected fixed rates to persist. The claim that YC was the first accelerator depends on a retrospectively applied category and is stronger when narrowed to the particular batch model later copied by other programs.
 
 ## What Changed
-- Connected YC's product-and-user focus, growth target, default-alive reporting, expense discipline, and fundraising-stage model into one operating doctrine.
-- Reconciled measurement as an anti-denial practice with the outside critique that short-window growth is not durable-demand proof.
-- Added the tension between encouraging women founders to execute and under-evidencing the structural barriers they face.
+- Added Altman's public end-to-end account of YC advice from idea selection through financing.
+- Connected early user love and manual customer work to product iteration, retention, and later growth.
+- Preserved the gap between an insider playbook and comparative evidence across startup types and operating models.
 
 ## Relationships
 - [[ExtendedStockOptionExerciseWindow]] - policy Y Combinator is cited as recommending.
@@ -90,3 +96,5 @@ The equity source cites Y Combinator's recommendation but does not reproduce the
 - [[DougRenert]] - outside investor supplying the growth-metric critique.
 - [[DefaultAlive]] - recurring cash-survival classification Livingston says YC founders report.
 - [[StartupFocus]] - prioritization of product and users over investor, publicity, conference, and partnership distractions.
+- [[SamAltman]] - author who distilled recurring YC advice into the Startup Playbook.
+- [[FounderLedSales]] - direct founder selling is treated as customer learning before delegation.
