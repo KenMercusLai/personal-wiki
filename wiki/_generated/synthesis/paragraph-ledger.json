@@ -695,12 +695,13 @@
       "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45",
       "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e",
       "aec0380411967725775c3c803fb3d51cea858df592284baa90ae18bfebae08ea",
-      "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd"
+      "4b0d00e9d87b83579322f9f02ba8b8f56f3ff2f516e2ebba9c3b143f85561efd",
+      "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d"
     ],
-    "paragraph_count": 695
+    "paragraph_count": 696
   },
-  "overview_commit": "7d4093b0381242298f9946f42f8b02064b630558",
-  "overview_digest": "6c845803bbdd2d205e9160db04590c5a049b23d443727aa7680eb32b4ecd1786",
+  "overview_commit": "ca425da5e8a6b01840263cfb1e76008bd97294f6",
+  "overview_digest": "5f3def23274c470bd7d158034ec05993c1b44f39d626b24756c8f59f14f31741",
   "paragraphs": [
     {
       "id": "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
@@ -14067,6 +14068,28 @@
         "NickCraver",
         "Redis",
         "StackOverflow"
+      ]
+    },
+    {
+      "id": "1f871ac3708c9c7135e45b5664b3c62887cd2b06ff6016c895ef95f66ba26a0d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[CelestineOmin]] source adds [[SQLFirstBusinessAutomation]] as a transparent baseline for small e-commerce operations. In the article's examples, known conditions over orders, baskets, carts, payment attempts, and delivery state select customers for weekly rewards, three-month win-back offers, purchase-informed newsletters, 48-hour abandoned-cart reminders, payment-on-delivery review, failed-card flags, and seven-day delivery notices. [[Konga]] is explicitly named only for the customer-of-the-week voucher, so the other workflows are not all attributed to it. The pattern deepens [[GrowthEngineering]] by separating database selection from cron or event scheduling, email or SMS delivery, incentives, human follow-up, and outcome measurement; SQL identifies records but does not perform the whole intervention. It also qualifies [[CustomerLifetimeValue]] and [[CustomerAcquisitionCost]] claims: the reported 99% repeat-customer rate, greater-than-50% win-back conversion, 25-30% open rate, social response, and NPS improvement lack samples, time windows, control groups, attribution, costs, or durable revenue evidence. Deterministic rules can expose data and workflow problems before model investment, but still need privacy, consent, fairness, security, exclusions, idempotency, monitoring, and recovery. ML remains appropriate when ambiguity, ranking, interacting signals, or scale produces measured incremental value over that baseline. The source contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CelestineOmin",
+        "CustomerAcquisitionCost",
+        "CustomerLifetimeValue",
+        "GrowthEngineering",
+        "Konga",
+        "SQLFirstBusinessAutomation"
       ]
     }
   ],

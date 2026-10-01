@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 7d4093b0381242298f9946f42f8b02064b630558
+as_of_overview_commit: ca425da5e8a6b01840263cfb1e76008bd97294f6
 summary: "Knowledge advances through calibrated evidence, explicit boundaries, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 953
-source_count: 953
-paragraph_count: 695
+episode_count: 954
+source_count: 954
+paragraph_count: 696
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, compatible change, verification, recovery, accessibility, privacy, and accountable control.
+Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, transparent baselines, compatible change, verification, recovery, accessibility, privacy, and accountable control.
 
 - [[NickCraver]]'s [[StackOverflow]] case makes high-frequency delivery a compatibility system: [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] shorten integration and promotion, [[ForwardOnlyDatabaseMigration]] stages schema use and removal around adjacent versions, and [[RollingDeployment]] uses [[HAProxy]] drainage, repeated readiness checks, and static-assets-first ordering to bound mixed-version failure. Evidence: [[NickCraver]], [[StackOverflow]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], [[HAProxy]].
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles. Evidence: [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], [[JaanaDogan]].
 
 ### Business and Markets
 
-Durable value joins coherent customer outcomes, stage-matched investment, sustainable economics, governed distribution, operating capability, fair allocation, and survival.
+Durable value joins coherent customer outcomes, measurable interventions, stage-matched investment, sustainable economics, governed distribution, operating capability, fair allocation, and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].

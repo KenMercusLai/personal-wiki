@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [No, you don't need ML/AI. You need SQL](sources/no-you-dont-need-ml-ai-you-need-sql.md) - Celestine Omin argues that small e-commerce teams should use transparent SQL queries and scheduled workflows for legible retention, service, and risk rules before adopting machine learning.
 - [No, I Don't Want To Configure Your App!](sources/no-i-dont-want-to-configure-your-app-quils-fluffy-world.md) - Quil argues that applications should package a useful default path, guide unavoidable setup, and turn failures into safe, actionable recovery.
 - [No Parking Here](sources/no-parking-here-mother-jones.md) - Clive Thompson argues that parking's hidden urban costs can be reduced through pricing, shared mobility, and land-use reform, while private autonomous cars could instead increase empty travel and induced demand.
 - [Pricing: A List of Tactics](sources/nick-kolenda-pricing-a-list-of-tactics.md) - Nick Kolenda organizes conditional pricing tactics around perceptual magnitude, number fluency, reference points, assortment, and promotion framing.
@@ -978,6 +979,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [No Meetings, No Deadlines, No Full-Time Employees](sources/no-meetings-no-deadlines-no-full-time-employees.md) - Sahil Lavingia describes Gumroad's asynchronous contractor-only model, its incremental delivery system and reported results, and its explicit tradeoffs in benefits and advancement.
 
 ## Entities
+- [Celestine Omin](entities/CelestineOmin.md) - Technology writer and former e-commerce practitioner advocating SQL-first solutions for legible business workflows.
+- [Konga](entities/Konga.md) - E-commerce company represented through a reported SQL-selected customer-recognition and voucher program.
 - [Quil](entities/Quil.md) - Software-design writer represented through a 2016 critique of configuration-heavy developer tools and proposed guided alternatives.
 - [Clive Thompson](entities/CliveThompson.md) - Writer represented through a systems account of parking, autonomous mobility, urban land use, and transportation policy.
 - [Abhijit Tomar](entities/AbhijitTomar.md) - Author who documented a 2018 listing-mediated telephone-banking scam affecting his cousin.
@@ -2617,6 +2620,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gumroad](entities/Gumroad.md) - Creator-commerce company represented through its January 2021 asynchronous, contractor-only operating design.
 
 ## Concepts
+- [SQL-First Business Automation](concepts/SQLFirstBusinessAutomation.md) - Implementing legible business conditions as transparent database queries and deterministic workflows before predictive modeling is justified.
 - [Application Configuration Design](concepts/ApplicationConfigurationDesign.md) - Choosing what an application packages, discovers, defaults, asks, and exposes so common tasks work without unnecessary setup.
 - [Parking Policy](concepts/ParkingPolicy.md) - Rules and prices governing parking supply, curb access, hidden costs, land reuse, and the traffic effects of changing mobility technology.
 - [Forward-Only Database Migration](concepts/ForwardOnlyDatabaseMigration.md) - Compatibility-first schema evolution using staged additions and removals, an applied-migration ledger, and later forward repair.

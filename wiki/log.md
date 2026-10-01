@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | No, you don't need ML/AI. You need SQL
+
+Added [[CelestineOmin]], [[Konga]], and [[SQLFirstBusinessAutomation]] from a first-person account of query-driven e-commerce operations. Recorded weekly-customer rewards, inactive-customer outreach, purchase-informed newsletters, abandoned-cart reminders, payment and delivery rules, the surrounding Bash/cron/messaging workflow, and the small-store scope boundary. Preserved that the reported repeat-purchase, conversion, email-open, social-response, and NPS outcomes lack cohorts, controls, cost accounting, and independent verification, and added privacy, consent, fairness, security, monitoring, recovery, and false-positive qualifications. The source contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-01] ingest | Network effects on social platforms: why the quality of user matters
 
 Added [[SocialPlatformNetworkEffects]] from Version One's relationship- and contribution-weighted account of social-product growth. Distinguished participation-volume communities, meaningful-tie private networks, contributor-led public networks, and pairwise messaging; reframed critical mass as a product-specific configuration of roles, relationships, activity, and content rather than a universal user count. Preserved the essay's conceptual, unmeasured, and overlapping taxonomy, and explicitly rejected interpreting “quality” as a person's intrinsic worth. Opened the sole local image and omitted it as a blank decorative square, so no asset manifest was created.
@@ -7663,6 +7667,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | No, I Don't Want To Configure Your App!
 
 Added [[Quil]] and [[ApplicationConfigurationDesign]], and updated [[CLIApplicationDesign]] and [[SmartDefaults]] from their complete ordered evidence inventories. Recorded the distinction between library-level composition and application-level task completion, convention and visible defaults for low-risk common paths, guided first use, safe in-flow prerequisite repair, and actionable error messages. Preserved the essay's polemical scope, historical screenshots, lack of controlled usability evidence, and the need for configuration, documentation, and explicit control around accessibility, consent, security, compliance, automation, ambiguity, and consequential state changes. Opened all 21 effective image references; recovered the 20 missing publisher images from exact archived copies, retained 11 evidence-bearing screenshots under descriptive canonical filenames, and omitted ten decorative or redundant images.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
