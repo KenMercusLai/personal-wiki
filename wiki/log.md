@@ -7779,3 +7779,11 @@ Updated [[PaulGraham]] and [[EditingForClarity]] from their complete ordered evi
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | People Don’t Want Something Truly New, They Want the Familiar Done Differently
+
+Created [[CaliforniaRollRule]] and [[JonyIve]], and updated [[NirEyal]], [[BJFogg]], [[FoggBehaviorModel]], [[BehaviorDesign]], and [[CognitiveOverheadInProductDesign]] from their complete ordered evidence inventories. Recorded familiarity as a temporary, accuracy-sensitive gateway into novel value rather than proof of adoption, and preserved the source’s practitioner, causality, forecast, and metaphor limits. Inspected all seven effective images; omitted the opening diner photograph, author avatar, and two site logos, while retaining the California roll, Macintosh desktop, and Passbook examples under descriptive canonical filenames with a complete manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

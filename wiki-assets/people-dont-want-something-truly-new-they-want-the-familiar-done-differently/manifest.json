@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "people-dont-want-something-truly-new-they-want-the-familiar-done-differently",
+  "images": [
+    {
+      "file": "california-roll.png",
+      "alt": "California rolls showing familiar rice, avocado, cucumber, sesame, and crab ingredients arranged as sushi"
+    },
+    {
+      "file": "macintosh-desktop.png",
+      "alt": "Original Macintosh desktop using folders, disks, windows, and a trash can as familiar interface metaphors"
+    },
+    {
+      "file": "apple-passbook.jpg",
+      "alt": "Apple Watch Passbook displaying digital payment options as stacked physical cards"
+    }
+  ]
+}

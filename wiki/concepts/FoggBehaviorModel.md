@@ -5,7 +5,8 @@ tags: [behavior-design, psychology, product-design]
 sources:
   - behavior-model
   - classpass-founder-on-how-marketplace-startups-can-achieve-product-market-fit-first-round-review
-last_updated: 2026-09-15
+  - people-dont-want-something-truly-new-they-want-the-familiar-done-differently
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,12 +16,12 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The model turns behavior change into a design diagnosis. Instead of treating persuasion or habit formation as a broad psychological cloud, it asks whether the target behavior had enough motivation, enough ability, and an effective prompt at the moment action was expected. If behavior did not happen, the model says at least one of those elements was missing.
 
-Its most useful design move is the tradeoff between motivation and ability. A difficult behavior can still happen when motivation is very high, while a low-motivation behavior needs to be easy enough that little effort is required. Prompts matter because they convert latent motivation and ability into action only when they arrive at the right moment. The [[ClassPass]] source shows the model in product-market-fit practice: the initial Classtivity search product improved ability to find classes, but did not create enough motivation to attend; Passport and subscription credits separated the purchase decision from attendance decisions and made variety more motivating. The model therefore fits [[BehaviorDesign]] and product work because it gives designers a compact way to decide whether to increase motivation, simplify the behavior, or change the prompt.
+Its most useful design move is the tradeoff between motivation and ability. A difficult behavior can still happen when motivation is very high, while a low-motivation behavior needs to be easy enough that little effort is required. Simplicity includes whether the action is routine: an unfamiliar behavior adds learning and training effort even when the interface has few steps. Prompts matter because they convert latent motivation and ability into action only when they arrive at the right moment. The [[ClassPass]] source shows the model in product-market-fit practice: the initial Classtivity search product improved ability to find classes, but did not create enough motivation to attend; Passport and subscription credits separated the purchase decision from attendance decisions and made variety more motivating. The model therefore fits [[BehaviorDesign]] and product work because it gives designers a compact way to decide whether to increase motivation, simplify the behavior, use a familiar entry model, or change the prompt.
 
 ## Key Claims
 - Behavior requires motivation, ability, and a prompt at the same moment.
 - Missing behavior can be diagnosed by looking for the absent or weak element.
-- Ability is shaped by simplicity factors rather than by a generic capacity label.
+- Ability is shaped by simplicity factors, including whether the behavior is routine, rather than by a generic capacity label.
 - Motivation and ability compensate for each other.
 - Prompts are necessary triggers but only work when motivation and ability are sufficient.
 - The model is intended for practical behavior-change design.
@@ -34,12 +35,14 @@ Its most useful design move is the tradeoff between motivation and ability. A di
 - Practical design orientation: [[behavior-model]] presents the model as most directly applicable to designing for behavior change.
 - Product application: [[classpass-founder-on-how-marketplace-startups-can-achieve-product-market-fit-first-round-review]] says Kadakia saw Classtivity as overbuilt around ability while the product still lacked motivation to get users to class.
 - Marketplace triggers: [[classpass-founder-on-how-marketplace-startups-can-achieve-product-market-fit-first-round-review]] names reminders and post-class momentum as triggers that can prompt future attendance.
+- Non-routine cost: [[people-dont-want-something-truly-new-they-want-the-familiar-done-differently]] quotes Fogg treating unfamiliar behavior and required training as barriers to simplicity.
 
 ## Counterevidence & Qualifications
-Fogg's source is a self-presentation of his own model and does not provide independent empirical evidence, measurements, or comparisons against alternative behavior-change theories. The ClassPass source is a founder's retrospective application, not a controlled test of the model. The model is strongest as a practical design heuristic and should not be treated here as a complete explanation of all behavior, social context, coercion, identity, marketplace economics, or long-term habit maintenance.
+Fogg's source is a self-presentation of his own model and does not provide independent empirical evidence, measurements, or comparisons against alternative behavior-change theories. The ClassPass source is a founder's retrospective application, and the non-routine claim reaches this page through Eyal’s product essay; neither is a controlled test of the model. Familiarity can increase practical ability while still reinforcing obsolete conventions or an inaccurate model. The framework is strongest as a design heuristic and is not a complete explanation of social context, coercion, identity, marketplace economics, or long-term habit maintenance.
 
 ## What Changed
 - Added ClassPass as a product-market-fit application showing the risk of optimizing ability while underbuilding motivation.
+- Added non-routine learning effort as a specific ability cost and familiar entry cues as one possible response.
 
 ## Related Concepts
 - [[BehaviorDesign]] - the model is one of the core frameworks used to design behavior change.
@@ -48,3 +51,4 @@ Fogg's source is a self-presentation of his own model and does not provide indep
 - [[ClassPass]] - marketplace case applying motivation, ability, and triggers to class attendance.
 - [[GoalSetting]] - goals can supply motivation, while the model adds ability and prompting as separate requirements.
 - [[PersonalProductivity]] - personal routines can be redesigned by simplifying behaviors and adding timely prompts.
+- [[CaliforniaRollRule]] - applies routine and familiarity to the entry path for a novel product behavior.

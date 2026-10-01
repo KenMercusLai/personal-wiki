@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [People Don’t Want Something Truly New, They Want the Familiar Done Differently](sources/people-dont-want-something-truly-new-they-want-the-familiar-done-differently.md) - Nir Eyal argues that recognizable ingredients, metaphors, and controls can provide a qualified gateway into unfamiliar products and behaviors.
 - [Paul Graham - Write Simply](sources/paul-graham-write-simply.md) - Paul Graham argues that ordinary words, simple sentences, and extensive cutting reduce reader effort, widen access, expose weak ideas, and improve durability.
 - [OpenClaw Architecture, Explained: How It Works](sources/openclaw-architecture-explained-how-it-works.md) - A code-oriented overview maps OpenClaw's Gateway, channels, runtime, plugins, prompt assembly, sessions, memory, security controls, and deployment patterns while exposing ambiguity around sandbox defaults.
 - [Scaling PostgreSQL to power 800 million ChatGPT users](sources/openai-scaling-postgresql-to-power-800-million-chatgpt-users.md) - OpenAI describes scaling one PostgreSQL writer across nearly 50 read replicas while bounding write load, cache stampedes, connections, expensive queries, retries, and failure domains.
@@ -992,6 +993,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Jony Ive](entities/JonyIve.md) - Apple designer represented through familiar physical forms that scaffold new digital interactions and can recede after learning.
 - [Benjamin Hardy](entities/BenjaminHardy.md) - Author represented through a consequence-centered account of performance, motivation, risk, and relationships.
 - [Dan Sullivan](entities/DanSullivan.md) - Entrepreneurial coach cited for distinguishing a results economy from a time-and-effort economy.
 - [Thomas Stanley](entities/ThomasStanley.md) - Wealth researcher cited for an under-specified association among incentive pay, business ownership, courage, and affluence.
@@ -1152,7 +1154,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [FindThatMeme](entities/FindThatMeme.md) - Meme search project using iPhone OCR workers, canonical PostgreSQL records, and a rebuildable Elasticsearch index.
 - [Michael Schulson](entities/MichaelSchulson.md) - Journalist arguing that engineered digital compulsion is an interaction-design and regulatory problem, not only an individual failure.
 - [Tristan Harris](entities/TristanHarris.md) - Ethical-design advocate proposing intention-respecting technology and competition on net benefit rather than raw attention.
-- [Nir Eyal](entities/NirEyal.md) - Habit-design author represented through the trigger-action-variable-reward-investment cycle and its ethical limits.
+- [Nir Eyal](entities/NirEyal.md) - Habit-design author connecting repeated-use mechanisms and their ethical limits with familiar gateways into novel products.
 - [Natasha Schüll](entities/NatashaSchull.md) - Anthropologist whose machine-zone and want-amplification analysis shifts attention toward engineered human-machine interaction.
 - [Rand Fishkin](entities/RandFishkin.md) - Entrepreneur and first-time CEO advocating parallel IC and people-management career tracks and contributor autonomy.
 - [Brett Cannon](entities/BrettCannon.md) - Python practitioner and author represented through his explanation of EAFP, LBYL, and precise exception boundaries.
@@ -1868,7 +1870,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Antifragile](entities/Antifragile.md) - Taleb book cited as the conceptual source for thriving under disorder and volatility.
 - [Algorithmia](entities/Algorithmia.md) - Machine-learning company and publisher represented by the data-science engineering-practice article.
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
-- [BJ Fogg](entities/BJFogg.md) - Behavior-design researcher and author presenting the Fogg Behavior Model and Stanford Behavior Design Lab context.
+- [BJ Fogg](entities/BJFogg.md) - Behavior-design researcher presenting motivation, ability, prompts, and non-routine learning effort as practical design constraints.
 - [Behavior Design Lab](entities/BehaviorDesignLab.md) - Stanford lab identified as the institutional home for BJ Fogg's behavior-design research and innovation.
 - [ClassPass](entities/ClassPass.md) - Fitness and wellness marketplace case that found product-market fit by moving from search to Passport to subscription around class-attendance behavior.
 - [Payal Kadakia](entities/PayalKadakia.md) - ClassPass founder represented by advice on marketplace product-market fit, behavior change, manual product learning, and true-north metrics.
@@ -2646,6 +2648,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [California Roll Rule](concepts/CaliforniaRollRule.md) - Product-design heuristic for introducing novel value through an accurate and recognizable initial frame.
 - [Database Overload Protection](concepts/DatabaseOverloadProtection.md) - Layered admission, pooling, caching, isolation, query control, and load shedding that prevent database saturation from cascading.
 - [PostgreSQL Read Scaling](concepts/PostgreSQLReadScaling.md) - Extending a single PostgreSQL writer with regional replicas while preserving explicit write and WAL fan-out boundaries.
 - [Results Economy](concepts/ResultsEconomy.md) - Outcome-oriented work model distinguishing produced value from elapsed time or visible effort while preserving measurement and incentive limits.
@@ -3437,7 +3440,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
 - [Product Flow Friction](concepts/ProductFlowFriction.md) - Total practical and cognitive effort in a user flow, including app-store, installation, signup, login, and platform-data tradeoffs.
 - [Contextual Signal Collection](concepts/ContextualSignalCollection.md) - Requesting user information where its purpose, product value, and interruption cost are understandable.
-- [Cognitive Overhead in Product Design](concepts/CognitiveOverheadInProductDesign.md) - Product-design burden created when users must make too many mental connections to understand purpose, control, system behavior, or value.
+- [Cognitive Overhead in Product Design](concepts/CognitiveOverheadInProductDesign.md) - Product-design burden reduced by control, consistent models, and accurate familiar gateways rather than surface simplicity alone.
 - [Product Engagement Ladder](concepts/ProductEngagementLadder.md) - Product-growth framework for staging user learning from first value through deeper engagement and expertise.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for continuously maintained software, qualified by Halide's deliberate one-time-purchase countercase.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
@@ -3606,7 +3609,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting and allocating limited mental capacity so important work gets real focus instead of being lost to distraction, context switching, or nominally available minutes.
 - [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
 - [Behavioral Data](concepts/BehavioralData.md) - Behavior traces of varying intent density that support prediction, optimization, targeting labels, identity-linked data trading, and automated business decisions.
-- [Behavior Design](concepts/BehaviorDesign.md) - Practice of shaping conditions so people are more likely to perform beneficial target behaviors.
+- [Behavior Design](concepts/BehaviorDesign.md) - Practice of shaping motivation, ability, prompts, routines, and retention conditions around a target behavior and user benefit.
 - [Artwork Personalization](concepts/ArtworkPersonalization.md) - Choosing different title artwork for different viewers based on context, preference signals, and quality-engagement goals.
 - [Contextual Bandits](concepts/ContextualBandits.md) - Online-learning algorithms that select actions for a context while balancing exploitation with exploration.
 - [Data Exploration](concepts/DataExploration.md) - Controlled randomization that produces less biased learning data and logged propensities for decision systems.
@@ -3674,7 +3677,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
-- [Fogg Behavior Model](concepts/FoggBehaviorModel.md) - Behavior-change framework where motivation, ability, and prompts must converge for an action to occur.
+- [Fogg Behavior Model](concepts/FoggBehaviorModel.md) - Behavior-change framework where motivation, ability, and prompts converge, with non-routine learning treated as an ability cost.
 - [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
 - [Free Learning](concepts/FreeLearning.md) - Self-directed learning guided by curiosity, play, personal goals, and real-time knowledge valuation.
 - [Eustress](concepts/Eustress.md) - Brief, manageable stress made beneficial by autonomy, productive progress, reward, or relief.
