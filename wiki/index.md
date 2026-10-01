@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Pokémon Recognition](sources/pokemon-recognition.md) - Dmitrii Petukhov uses an 80-image Pokémon example to show raw-pixel classification, PCA compression, eigenpokemon, and a qualified speed-accuracy tradeoff.
 - [Go ahead, self-host Postgres](sources/pierce-freeman-go-ahead-self-host-postgres.md) - Pierce Freeman presents a qualified self-hosted PostgreSQL case built on explicit tuning, pooling, monitoring, backups, maintenance, capacity planning, recovery testing, and incident ownership.
 - [9-5 Is Out. Try The 1-6 Instead.](sources/pia-silva-9-5-is-out-try-the-1-6-instead.md) - Pia Silva presents a five-hour entrepreneur schedule built on delegation, planning, and distraction control while leaving its productivity gains self-reported and autonomy-dependent.
 - [Gemini 3 Prompting: Best Practices for General Usage](sources/philipp-schmid-gemini-3-prompting-best-practices-for-general-usage.md) - Philipp Schmid presents direct, structured, context-aware prompting patterns for Gemini 3 while framing them as empirical baselines rather than universal rules.
@@ -998,6 +999,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Dmitrii Petukhov](entities/DmitriiPetukhov.md) - Tutorial author represented through a small classical image-classification and PCA experiment.
 - [Pierce Freeman](entities/PierceFreeman.md) - Software practitioner arguing from a first-person production case for qualified self-hosted PostgreSQL operation.
 - [Pia Silva](entities/PiaSilva.md) - Entrepreneur and former Forbes contributor represented through the autonomy-dependent 1-6 work-schedule experiment she calls SpainBrain.
 - [Philipp Schmid](entities/PhilippSchmid.md) - AI practitioner represented through an experience-based Gemini 3 prompting playbook.
@@ -2659,6 +2661,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Image Classification](concepts/ImageClassification.md) - Assigning images to predefined labels, illustrated through a qualified raw-pixel and PCA-based Pokémon experiment.
+- [Principal Component Analysis](concepts/PrincipalComponentAnalysis.md) - Linear dimensionality reduction through orthogonal directions ordered by captured variance.
+- [Dimensionality Reduction](concepts/DimensionalityReduction.md) - Reducing representation size while evaluating preserved information against prediction, reconstruction, and end-to-end cost.
+- [Support Vector Machine](concepts/SupportVectorMachine.md) - Maximum-margin supervised method represented through raw-pixel and PCA-reduced image classification.
+- [K-Nearest Neighbors](concepts/KNearestNeighbors.md) - Instance-based prediction from nearby labeled examples under a chosen representation and distance measure.
 - [Self-Hosted Database Operations](concepts/SelfHostedDatabaseOperations.md) - Direct ownership of production database configuration, observability, maintenance, backup, recovery, capacity, and incidents.
 - [Parkinson's Law](concepts/ParkinsonsLaw.md) - Heuristic that work expands to fill available time, represented here through a qualified five-hour entrepreneur schedule.
 - [Prompt Engineering](concepts/PromptEngineering.md) - Empirical design of instructions, context boundaries, process cues, and output constraints for language-model tasks.

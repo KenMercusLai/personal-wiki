@@ -7827,3 +7827,11 @@ Created [[PierceFreeman]] and [[SelfHostedDatabaseOperations]], and updated [[Po
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Pokémon Recognition
+
+Created [[DmitriiPetukhov]], [[ImageClassification]], [[PrincipalComponentAnalysis]], [[DimensionalityReduction]], [[SupportVectorMachine]], and [[KNearestNeighbors]]. Recorded the 80-image raw-pixel workflow, reported SVM and k-nearest-neighbor baselines, the 40,000-to-18 PCA reduction, eigenpokemon and reconstruction examples, and the qualified runtime-accuracy comparison. Preserved the tiny curated dataset, underspecified validation, missing uncertainty, incomplete end-to-end timing, variance-versus-discrimination, historical API, and generalization limits. Opened 13 of 14 effective local image references; retained seven evidence-bearing visuals under descriptive canonical filenames, omitted decorative or redundant artwork and portraits, and recorded that the final referenced result asset is absent from the source vault.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

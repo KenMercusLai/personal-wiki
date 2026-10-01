@@ -4,8 +4,8 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-10-01
-as_of_overview_commit: de6eb2e0c36960d16f265eda1df5a30eae5b9d16
-input_digest: c61ff3d56a464d44b611686f05ce0e30094452232742c8ebc9f4586965e588a0
+as_of_overview_commit: 0ebcae5de69fc275aab8a61b3cca4d2b901080ff
+input_digest: 6f5e7a51bd39ed7ccc580b983eb95cca7dad7dbbc125d121ead8f26fa7409c98
 ---
 
 # History and Geopolitics
@@ -287,3 +287,14 @@ The [[LargeScaleWebScraping]] paragraph is a historical web-operations spillover
 **Qualifications:**
 
 - The source is a first-party practitioner retrospective without comparative incident, detection, or recovery measures, and its remote rollout chart could not be inspected.
+
+### Pokemon Classification Is Technical History Spillover
+
+[[DmitriiPetukhov]], [[ImageClassification]], [[PrincipalComponentAnalysis]], [[DimensionalityReduction]], [[SupportVectorMachine]], and [[KNearestNeighbors]] add a source-scoped 2015 classical machine-learning tutorial whose raw-pixel, PCA, eigenpokemon, and runtime comparison belongs to technology history rather than geopolitics.
+
+**Evidence:** [[DmitriiPetukhov]], [[ImageClassification]], [[PrincipalComponentAnalysis]], [[DimensionalityReduction]], [[SupportVectorMachine]], [[KNearestNeighbors]]
+
+**Qualifications:**
+
+- The source adds no geopolitical claim and enters this topic because its 2015 tutorial is a historical technology snapshot.
+- Its tiny curated dataset, historical APIs, incomplete evaluation, and partial runtime accounting make the numerical comparison source-scoped.

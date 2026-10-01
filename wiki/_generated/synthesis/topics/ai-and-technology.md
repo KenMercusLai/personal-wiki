@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-01
-as_of_overview_commit: 88f5d60a82988a6db3304a764aef40b46b2885ec
-input_digest: 129ae15384d21855081df626e0b2cdcc7b5fdc5786077c1252745746fd480493
+as_of_overview_commit: 0ebcae5de69fc275aab8a61b3cca4d2b901080ff
+input_digest: 90ae5f9c7c60d11dfb8057184a785547d66420c6eef549bee3439a2ee4b9a8d2
 ---
 
 # AI and Technology
@@ -1007,3 +1007,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is one first-person 2016 experiment using 2,000 balanced examples and one 70/30 split; it reports accuracy without cross-validation, a confusion matrix, calibration, class-specific costs, or an independent baseline.
 - Search-based URL resolution, third-party company descriptions, historical-customer positives, and one representative's rejected prospects can introduce upstream, selection, and labeling bias.
 - The source reports no production drift, representative lead prevalence, time saved, conversion, revenue, or comparison with human-only qualification, so 86.4% test accuracy does not establish sales value.
+
+### Small Image Classification Needs End To End Representation Evidence
+
+[[DmitriiPetukhov]] uses [[ImageClassification]] to show an end-to-end representation tradeoff: 80 normalized Pokémon images become 40,000-feature raw-pixel vectors, [[PrincipalComponentAnalysis]] reduces them to a reported 18 coordinates, and [[SupportVectorMachine]] fitting becomes much faster with slightly lower aggregate precision and recall; [[DimensionalityReduction]] therefore needs leakage-safe fitting, downstream evaluation, and complete timing rather than feature count or retained variance alone.
+
+**Evidence:** [[DmitriiPetukhov]], [[ImageClassification]], [[PrincipalComponentAnalysis]], [[SupportVectorMachine]], [[DimensionalityReduction]], [[KNearestNeighbors]]
+
+**Qualifications:**
+
+- The evidence is one 2015 tutorial using 80 curated images without independent testing, duplicate analysis, class-wise results, fold uncertainty, or a modern learned-feature baseline.
+- The reported runtime excludes PCA fitting and is tied to historical software, hardware, and search grids; retained variance does not guarantee preserved class-discriminative information.
+- One final referenced result image is absent from the source vault, although the surrounding prose supplies the reported PCA-SVM metrics.

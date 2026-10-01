@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "pokemon-recognition",
+  "images": [
+    {
+      "file": "source-image-size-mismatch.webp",
+      "alt": "Two source images have different pixel dimensions before preprocessing"
+    },
+    {
+      "file": "grayscale-normalized-images.webp",
+      "alt": "Two Gengar images normalized to 200 by 200 grayscale pixels"
+    },
+    {
+      "file": "flattened-image-vector.webp",
+      "alt": "A grayscale Pokémon image flattened into one long pixel vector"
+    },
+    {
+      "file": "image-data-matrix.webp",
+      "alt": "Eighty flattened grayscale images arranged as an 80 by 40000 data matrix"
+    },
+    {
+      "file": "pca-projection-geometry.webp",
+      "alt": "Pokémon image points projected onto a high-variance principal-component direction rather than a low-variance direction"
+    },
+    {
+      "file": "eigenpokemon-components.webp",
+      "alt": "Twelve eigenpokemon visualizations formed by reshaping principal components"
+    },
+    {
+      "file": "pca-image-reconstructions.webp",
+      "alt": "Gengar and Charizard reconstructions shown beside clearer reference images"
+    }
+  ]
+}

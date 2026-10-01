@@ -706,12 +706,13 @@
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3",
       "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9",
-      "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12"
+      "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12",
+      "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f"
     ],
-    "paragraph_count": 706
+    "paragraph_count": 707
   },
-  "overview_commit": "80a09cfd7bb3ca205ec410151b0fcf585224df4f",
-  "overview_digest": "04bd241a0f6af1517278bd9875c231884b0566e7acd944ec8e7ec282661f0a15",
+  "overview_commit": "0ebcae5de69fc275aab8a61b3cca4d2b901080ff",
+  "overview_digest": "f3584670fbf04eaabfb74ede9eec81ba3141786744271c0746734089a49316d0",
   "paragraphs": [
     {
       "id": "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
@@ -14296,6 +14297,26 @@
         "PierceFreeman",
         "PostgreSQL",
         "SelfHostedDatabaseOperations"
+      ]
+    },
+    {
+      "id": "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[DmitriiPetukhov]] source adds a compact historical bridge between classical [[ImageClassification]] and [[DimensionalityReduction]]. Eighty curated Pokémon images are fitted to 200×200 grayscale inputs, flattened into 40,000-feature vectors, and classified with grid-searched [[SupportVectorMachine]] and [[KNearestNeighbors]] models. [[PrincipalComponentAnalysis]] is then fitted only on each training set, retaining more than 80% of variance in a reported 18 components; reshaped components become “eigenpokemon,” and increasing component counts visibly improve reconstructions. The reported PCA-SVM run reduces stated classifier time from two minutes to five seconds while aggregate precision and recall fall only from 0.95/0.9375 to 0.935/0.925. The durable lesson is the end-to-end representation tradeoff, not the headline score: the dataset is tiny, the selection and duplicate controls are unknown, evaluation and averaging details are incomplete, PCA cost and fold variability are absent, and variance does not guarantee class-discriminative information. Seven evidence-bearing visuals were retained for preprocessing, vector and matrix shape, PCA geometry, components, and reconstruction; decorative artwork and portraits were omitted. One final referenced result image is absent from the source vault, so its additional visual detail could not be inspected.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "DimensionalityReduction",
+        "DmitriiPetukhov",
+        "ImageClassification",
+        "KNearestNeighbors",
+        "PrincipalComponentAnalysis",
+        "SupportVectorMachine"
       ]
     }
   ],
