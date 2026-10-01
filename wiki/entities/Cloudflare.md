@@ -7,7 +7,8 @@ sources:
   - 2023-focusing-on-a-single-product-pays-off
   - cloudflare-outage-on-february-20-2026
   - cryptocurrency-mining-affects-over-500-million-people-and-they-have-no-idea-it-is-happening
-last_updated: 2026-09-26
+  - nick-craver-https-on-stack-overflow-the-end-of-a-long-road
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,14 +22,16 @@ The February 2026 postmortem adds the platform's operational risk boundary. Clou
 
 An earlier 2017 AdGuard source adds an infrastructure-governance role. It reports that Cloudflare suspended accounts and denied service to sites that mined cryptocurrency in visitors' browsers without permission. The brief account shows how an infrastructure intermediary can enforce a consent norm that an embeddable mining provider could recommend but not guarantee.
 
+The [[StackOverflow]] HTTPS retrospective supplies a historical customer case. Cloudflare was chosen for local TLS termination, DDoS protection, CDN delivery, globally distributed DNS, responsiveness, and the promise of Railgun. Real-user tests found slightly slower page loads in the US and Canada but equal or better results elsewhere. Stack Overflow later retired Railgun after prolonged instability and moved to [[Fastly]] when programmable edge behavior, propagation speed, and automated configuration better matched its needs.
+
 ## Key Characteristics
 - Offers low-cost or free-tier-friendly website infrastructure for small independent projects.
 - Provides Pages, Workers, DNS, security controls, D1, and R2 across hosting, compute, database, and storage needs.
 - Requires edge-runtime compatibility work for Next.js applications.
-- Provides the full-time employment and D1 product context for [[MaxRozen]]'s independent SaaS work.
 - Operates authoritative addressing workflows in which customer configuration can propagate to BGP routers and edge machines.
 - Has committed to typed API schemas, desired-versus-operational-state separation, staged health-mediated snapshots, and circuit breakers after the 2026 BYOIP outage.
 - Was reported in 2017 as suspending service for websites that conducted browser mining without user permission.
+- Historically supplied Stack Overflow with distributed DNS, CDN, DDoS protection, proxying, and local TLS termination before its move to Fastly.
 
 ## Evidence
 - Platform breadth and cost: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes Pages, Workers, DNS, security controls, D1, and R2 as a lower-cost service combination.
@@ -38,15 +41,16 @@ An earlier 2017 AdGuard source adds an infrastructure-governance role. It report
 - Outage scale and recovery: [[cloudflare-outage-on-february-20-2026]] reports about 1,100 withdrawn BYOIP prefixes, roughly 300 prefixes requiring manual/global configuration recovery, and a six-hour-seven-minute incident.
 - Remediation direction: [[cloudflare-outage-on-february-20-2026]] proposes schema standardization, snapshots, health gates, configured/operational-state separation, and broad-change circuit breakers.
 - Consent enforcement: [[cryptocurrency-mining-affects-over-500-million-people-and-they-have-no-idea-it-is-happening]] reports that Cloudflare suspended sites that mined through visitor browsers without permission.
+- Stack Overflow deployment: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] says distributed DNS improved user-local lookup performance and proxy tests were neutral or faster outside a slight US/Canada regression.
+- Railgun boundary: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] says its diffing and persistent-connection design could improve performance but the deployment's instability eventually cost more than it saved.
 
 ## Qualifications
-These sources are not a comprehensive or independent Cloudflare assessment. The migration source is strongly favorable but leaves service-migration questions unresolved; Rozen describes Cloudflare mainly as employer and work context. The 2017 enforcement claim is a short second-party report that does not identify affected accounts, policy language, consistency, appeals, or outcomes. The outage account is Cloudflare's own postmortem, supplies no independent customer-impact measure, and describes remediation commitments rather than completed controls. Its timeline also distinguishes website failures from DNS: one.one.one.one returned 403 errors, but 1.1.1.1 resolver traffic, including DNS over HTTPS, remained available.
+These sources are not a comprehensive or independent Cloudflare assessment. The low-cost migration source is strongly favorable but leaves service-migration questions unresolved; Rozen describes Cloudflare mainly as employer and work context. The Stack Overflow comparison reflects one large customer's 2017 requirements, legacy deployment, and provider capabilities, so it should not be generalized to current products. The 2017 enforcement claim is a short second-party report that does not identify affected accounts, policy language, consistency, appeals, or outcomes. The outage account is Cloudflare's own postmortem, supplies no independent customer-impact measure, and describes remediation commitments rather than completed controls. Its timeline also distinguishes website failures from DNS: one.one.one.one returned 403 errors, but 1.1.1.1 resolver traffic, including DNS over HTTPS, remained available.
 
 ## What Changed
-- Added the Addressing API and BYOIP operational path to Cloudflare's profile.
-- Reframed the platform's global reach as both a capability and a configuration blast-radius risk.
-- Added the February 2026 outage, state-dependent recovery, and stated remediation program.
-- Added the earlier role of infrastructure-level enforcement against non-consensual browser mining.
+- Added the historical Stack Overflow case for distributed DNS, CDN, DDoS protection, proxying, and edge TLS.
+- Added real-user regional performance evidence and Railgun's eventual operational rejection.
+- Distinguished Cloudflare's integrated model from Fastly's more programmable edge model in one 2017 customer's account.
 
 ## Relationships
 - [[Vercel]] - Cloudflare Pages is presented as a lower-cost managed alternative to Vercel.
@@ -58,3 +62,6 @@ These sources are not a comprehensive or independent Cloudflare assessment. The 
 - [[ChangeSafety]] - Cloudflare's BYOIP outage demonstrates the need for staged, health-mediated configuration changes.
 - [[NetworkAutomation]] - Cloudflare automates customer prefix and edge-configuration workflows through APIs.
 - [[BrowserCryptomining]] - Cloudflare is reported as enforcing a user-consent boundary at the infrastructure layer.
+- [[StackOverflow]] - historical customer that used Cloudflare during its HTTPS and proxy transition.
+- [[Fastly]] - provider Stack Overflow later selected for programmable edge behavior and automation.
+- [[HTTPSMigration]] - Cloudflare supplied several edge capabilities needed during the migration.

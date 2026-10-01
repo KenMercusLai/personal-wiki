@@ -7611,3 +7611,11 @@ Added [[SmartDefaults]] and updated [[NickBabich]], [[CognitiveLoadInUXResearch]
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | HTTPS on Stack Overflow: The End of a Long Road
+
+Added [[NickCraver]] and [[HTTPSMigration]], and updated [[StackOverflow]], [[Fastly]], [[Cloudflare]], [[HAProxy]], and [[HTTP2]] from their complete ordered evidence inventories. Recorded the four-year dependency chain across certificates, domains, cookies, login, edge providers, TLS termination, mixed content, internal APIs, websockets, redirects, search migration, measurement, and staged rollout; preserved the failed Railgun deployment, protocol-relative URL, redirect-cache, internal-routing, and Help Center backfill lessons. Treated TLS versions, HPKP, server push, provider capabilities, and operating figures as a first-party 2017 snapshot rather than current guidance. The Markdown contains no effective image embeds despite referring to diagrams and dashboards, so no visual evidence could be inspected or retained.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

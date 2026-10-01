@@ -969,6 +969,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your first 500 users](sources/mitchell-lee-your-first-500-users.md) - Mitchell Lee describes Penny's staged path from observed onboarding and founder networks to a marketing page, community channels, incidental press, and 500 reported signups.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
 - [Niche to Win, Baby.](sources/niche-to-win-baby-500-hats.md) - Dave McClure argues that a startup should pair a narrow customer segment with a focused product and message, then expand only after earning an initial foothold.
+- [HTTPS on Stack Overflow: The End of a Long Road](sources/nick-craver-https-on-stack-overflow-the-end-of-a-long-road.md) - Nick Craver explains Stack Overflow's four-year, cross-layer migration to HTTPS by default across domains, edge infrastructure, applications, content, and rollout controls.
 
 ## Entities
 - [Abhijit Tomar](entities/AbhijitTomar.md) - Author who documented a 2018 listing-mediated telephone-banking scam affecting his cousin.
@@ -1169,7 +1170,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Herbert Lui](entities/HerbertLui.md) - Writer represented through a paper-first, review-driven, portable Zettelkasten practice developed over roughly 800 cards.
 - [Imgix](entities/Imgix.md) - Real-time image-processing company used as the setting for the Spillway adaptive-load case.
 - [Spillway](entities/Spillway.md) - Imgix reverse proxy and request broker coordinating variable-cost transformation work through worker feedback and bounded queues.
-- [HAProxy](entities/HAProxy.md) - Load balancer whose agent-check interface can receive dynamic backend weight, connection-limit, and state feedback.
+- [HAProxy](entities/HAProxy.md) - Load balancer represented through service routing, adaptive backend feedback, and Stack Overflow's high-volume TLS termination.
 - [Envoy](entities/Envoy.md) - Proxy and service-mesh data-plane example of health-aware routing beyond discovery membership.
 - [Andrew Baumann](entities/AndrewBaumann.md) - Microsoft Research systems researcher arguing that x86 extension complexity and microcode blur the hardware–software boundary.
 - [Intel](entities/Intel.md) - Processor company represented through x86 extension growth, backward compatibility, security-feature interactions, and hardware deployment lag.
@@ -2013,7 +2014,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
 - [pgvectorscale](entities/Pgvectorscale.md) - Timescale PostgreSQL extension presented as a DiskANN performance and scaling layer for pgvector workloads.
 - [pgai](entities/Pgai.md) - Timescale project positioned around embedding creation and LLM operations near PostgreSQL data.
-- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A and lookup platform represented through answer evaluation, reputation-based governance, and traffic data used to compare technology attention across countries.
+- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A, lookup, and data platform whose multi-domain infrastructure also illustrates the complexity of large-scale HTTPS migration.
 - [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
 - [Bram Moolenaar](entities/BramMoolenaar.md) - Dutch programmer who created and maintained Vim from STEVIE-derived open-source code.
@@ -2256,7 +2257,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
-- [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform represented through low-cost services, D1 work, and a first-party account of a serious BYOIP configuration outage.
+- [Cloudflare](entities/Cloudflare.md) - Edge platform represented through hosting, DNS, governance, outage risk, and Stack Overflow's historical CDN, DDoS, and TLS deployment.
 - [Cloudflare D1](entities/CloudflareD1.md) - Cloudflare database product where Max Rozen became a founding engineer after contributing bug fixes and UX ideas.
 - [Max Rozen](entities/MaxRozen.md) - Web developer and indie SaaS founder arguing from OnlineOrNot that one working product can compound over time.
 - [OnlineOrNot](entities/OnlineOrNot.md) - Max Rozen's focused SaaS product whose customer memory, operating learning, and maturity drove the source's 2023 growth story.
@@ -2348,7 +2349,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, cache-sketch freshness metadata, clear product positioning, and AI-assisted maintenance examples.
 - [Baqend](entities/Baqend.md) - Backend-as-a-service and caching platform behind the Thinks webshop performance case study.
 - [Thinks](entities/Thinks.md) - Ecommerce webshop case study for sub-second page loads during a German TV traffic spike.
-- [Fastly](entities/Fastly.md) - Edge CDN represented through the Thinks/Baqend architecture and guidance on API cache reuse, targeted purging, and stale serving.
+- [Fastly](entities/Fastly.md) - Programmable edge CDN represented through Stack Overflow and Thinks deployments plus guidance on cache reuse, purging, and stale serving.
 - [MongoDB](entities/MongoDB.md) - Primary database used in the Thinks webshop backend stack.
 - [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
 - [Elecpass](entities/Elecpass.md) - Wang Ziting side project used as a positive example of fast release, personal use, and focused versioned improvement.
@@ -2603,6 +2604,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Puppeteer](entities/Puppeteer.md) - Browser automation library used beneath a minimal agent-facing Chrome CLI.
 - [Mitchell Lee](entities/MitchellLee.md) - Penny cofounder documenting a learning-first, multi-channel path to the app's first 500 reported signups.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
+- [Nick Craver](entities/NickCraver.md) - Stack Overflow infrastructure engineer represented through a first-person account of the network's multi-year HTTPS migration.
 
 ## Concepts
 - [Smart Defaults](concepts/SmartDefaults.md) - Editable initial values inferred from context or history to reduce avoidable work while preserving attention, welfare, and user control.
@@ -3638,7 +3640,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
 - [HTTP 402 Payment Required](concepts/HTTP402PaymentRequired.md) - Reserved HTTP status code proposed as a browser-readable signal for paid access.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
-- [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, and server push to improve performance.
+- [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, connection reuse, and historically server push to improve performance.
 - [HTTP/3](concepts/HTTP3.md) - HTTP version that runs over QUIC and UDP to reduce TCP-level blocking and connection setup costs.
 - [Human Code Responsibility](concepts/HumanCodeResponsibility.md) - Principle that developers remain accountable for code behavior, maintainability, design intent, and acceptance even when AI generated it.
 - [Humanistic Agent Design](concepts/HumanisticAgentDesign.md) - Agent design orientation that clarifies user cognition, intent, and needs instead of merely agreeing or completing tasks.
@@ -3883,5 +3885,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Execution Path Transparency](concepts/ExecutionPathTransparency.md) - Visibility of what executes, in what order, under which conditions, and with which state changes along a consequential control path.
 - [Functional Programming](concepts/FunctionalProgramming.md) - Structuring computation around explicit inputs and returned values while minimizing hidden dependencies and persistent-state mutation.
 - [Niche to Win](concepts/NicheToWin.md) - Early-stage strategy pairing a narrow customer definition with a focused product and message to earn a survival-and-learning foothold before expansion.
+- [HTTPS Migration](concepts/HTTPSMigration.md) - Coordinated transition of domains, certificates, edge routing, applications, content, identity, and rollout controls from HTTP to HTTPS.
 
 ## Syntheses

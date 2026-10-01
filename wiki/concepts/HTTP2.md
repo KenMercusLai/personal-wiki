@@ -5,7 +5,8 @@ tags: [networking, protocol, web]
 sources:
   - chen-hao-http-de-qian-shi-jin-sheng
   - building-a-shop-with-sub-second-page-loads-lessons-learned
-last_updated: 2026-09-15
+  - nick-craver-https-on-stack-overflow-the-end-of-a-long-road
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,12 +20,14 @@ The article's qualification is that HTTP/2 pays for these improvements with much
 
 For webshop performance, HTTP/2 matters because a page commonly loads many resources and each connection setup, header exchange, request, and round trip can delay first render. HTTP/2's multiplexing, header compression, and server push reduce request overhead, but caching and CDNs can be more decisive because avoiding the network round trip beats making the round trip more efficient.
 
+The [[StackOverflow]] HTTPS retrospective adds deployment constraints. Major browsers made encryption the practical route to HTTP/2, so HTTPS became a performance enabler as well as a security control. Stack Overflow also arranged shared edge IPs and a combined certificate across application and static-content origins so HTTP/2-capable clients could reuse the connection and potentially receive cross-origin pushes, while HTTP/1.1 clients retained domain sharding. This was preparation rather than evidence that server push was deployed or beneficial.
+
 ## Key Claims
 - HTTP/2 was based on Google's SPDY experiment and became the standardized successor to that work.
 - Binary framing improves transfer efficiency compared with HTTP/1.1's textual framing.
 - Multiplexing lets multiple HTTP requests share one TCP connection concurrently.
 - HPACK header compression reduces repeated request-header overhead across similar requests.
-- Server push can pre-position dependent resources in client-side cache.
+- Server push can pre-position dependent resources, while cross-origin connection reuse depends on certificate coverage and origin co-location.
 - HTTP/2 can reduce page-load overhead for request-heavy web pages, especially when combined with caching and CDN delivery.
 - HTTP/2 increases protocol complexity and still inherits TCP-level [[HeadOfLineBlocking]].
 
@@ -36,13 +39,16 @@ For webshop performance, HTTP/2 matters because a page commonly loads many resou
 - Server push: [[chen-hao-http-de-qian-shi-jin-sheng]] describes servers sending dependent resources before the client separately requests them.
 - Web-performance use: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] recommends HTTP/2 for server push, header compression, pipelining, and multiplexing when reducing network overhead for page loads.
 - Complexity and blocking: [[chen-hao-http-de-qian-shi-jin-sheng]] notes priority-tree complexity and later explains that TCP packet loss can block all multiplexed streams.
+- HTTPS dependency in practice: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] says major browsers effectively required secure connections for HTTP/2 features.
+- Origin coordination: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] describes matching edge IPs and a shared certificate for Stack Overflow and `cdn.sstatic.net`, preserving HTTP/1.1 sharding while preparing HTTP/2 connection reuse and push.
 
 ## Counterevidence & Qualifications
-The Chen Hao source reports broad adoption and strong performance benefits but does not provide benchmark data. It also emphasizes that HTTP/2's complexity created maintainability and extensibility concerns. The Baqend source treats HTTP/2 as one useful network optimization among several, not a substitute for caching, CDN placement, or dynamic-cache correctness.
+The Chen Hao source reports broad adoption and strong performance benefits but does not provide benchmark data. It also emphasizes that HTTP/2's complexity created maintainability and extensibility concerns. The Baqend source treats HTTP/2 as one useful network optimization among several, not a substitute for caching, CDN placement, or dynamic-cache correctness. The Stack Overflow account is a 2017 deployment snapshot: cross-origin server push was still planned, provider support was incomplete, and the source does not measure whether push later improved performance. Current browser connection-coalescing and server-push behavior require current documentation.
 
 ## What Changed
-- Created the HTTP/2 concept page as the wiki's protocol-performance upgrade node.
-- Added the ecommerce page-load view: HTTP/2 helps reduce request overhead, while caching and CDNs remain higher-leverage when they remove round trips entirely.
+- Added HTTPS as HTTP/2's practical browser deployment gate in the 2017 Stack Overflow case.
+- Added shared-certificate and edge-IP constraints for connection reuse across application and static-content origins.
+- Qualified server push as a planned, unmeasured capability rather than a demonstrated outcome.
 
 ## Related Concepts
 - [[HTTP]] - HTTP/2 is a performance-oriented version in the HTTP family.
@@ -51,3 +57,5 @@ The Chen Hao source reports broad adoption and strong performance benefits but d
 - [[QUIC]] - QUIC is used by HTTP/3 to address transport limits that HTTP/2 could not solve over TCP.
 - [[HeadOfLineBlocking]] - TCP-level blocking is the central unresolved HTTP/2 problem in the source.
 - [[WebPerformanceOptimization]] - HTTP/2 is one network-performance lever for request-heavy pages.
+- [[HTTPSMigration]] - HTTPS deployment enabled browser use of HTTP/2 in the Stack Overflow case.
+- [[Fastly]] - edge provider involved in certificate placement and planned cross-origin push support.
