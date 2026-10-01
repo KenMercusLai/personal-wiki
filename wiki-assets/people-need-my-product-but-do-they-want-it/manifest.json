@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "people-need-my-product-but-do-they-want-it",
+  "images": [
+    {
+      "file": "build-what-people-want-tweet.png",
+      "alt": "Courtland Allen tweet advising builders to make products desirable because people often ignore what they need"
+    },
+    {
+      "file": "la-weight-loss-before-after.jpg",
+      "alt": "LA Weight Loss advertisement showing a reported 170-pound transformation through before-and-after photographs"
+    },
+    {
+      "file": "tesla-roadster-wind-farm.jpg",
+      "alt": "Tesla Roadster driving in front of a wind farm, pairing sports-car appeal with renewable-energy imagery"
+    },
+    {
+      "file": "dating-ring-matches-homepage.png",
+      "alt": "Dating Ring homepage promising real-person matches and dates with a prominent Try It Free call to action"
+    }
+  ]
+}

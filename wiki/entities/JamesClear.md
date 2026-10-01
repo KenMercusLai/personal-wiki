@@ -6,15 +6,16 @@ sources:
   - absolute-success-is-luck-relative-success-is-hard-work
   - blog-james-clear-the-ultimate-habit-tracker-guide
   - blog-james-clear-the-ultimate-productivity-hack-is-saying-no
+  - people-need-my-product-but-do-they-want-it
 last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[JamesClear]] is an author represented in the wiki by essays about how luck, effort, repeated behavior, feedback, and selective commitment shape success, habits, and the use of time.
+[[JamesClear]] is an author represented in the wiki by work on how luck, effort, repeated behavior, reward timing, feedback, and selective commitment shape success, habits, motivation, and time.
 
 ## Current Profile
-Clear's work combines compact behavioral rules with limits on what those rules can promise. His success essay resists both pure merit and pure-fortune accounts: luck matters more in absolute and extreme outcomes, while choices and habits matter more within narrower comparisons; initial position is largely inherited, while repeated behavior can influence trajectory. His habit-tracking guide applies the same process orientation at daily scale, using visible completion records and “never miss twice” to sustain action without requiring perfect streaks. His refusal essay moves one level upstream: because every yes pre-allocates future time, elimination and a rising acceptance threshold can protect better uses of attention before execution begins. Across the sources, repeated action and selective commitment can improve trajectory or increase exposure to opportunity without guaranteeing outcomes, and the ability to refuse remains constrained by power and context.
+Clear's work combines compact behavioral rules with limits on what those rules can promise. His success essay resists both pure merit and pure-fortune accounts: luck matters more in absolute and extreme outcomes, while choices and habits matter more within narrower comparisons; initial position is largely inherited, while repeated behavior can influence trajectory. His habit-tracking guide uses visible completion records, immediate satisfaction, and “never miss twice” to sustain action before delayed results appear. Jackson’s essay attributes a compatible motivation theory to Clear: beneficial habits often impose short-term pain for long-term reward, so pairing the distant benefit with a nearer reward can make action easier. His refusal essay moves upstream by treating every yes as a claim on future time. Across the sources, reward, feedback, repeated action, and selective commitment can improve trajectory without guaranteeing outcomes.
 
 ## Key Characteristics
 - Writes about behavior through compact, memorable models.
@@ -22,7 +23,7 @@ Clear's work combines compact behavioral rules with limits on what those rules c
 - Uses comparison scale to distinguish absolute from relative success.
 - Uses trajectory to connect habits with long-term outcomes while preserving unequal starting conditions.
 - Frames preparation and action as ways to increase exposure to opportunity rather than guarantee it.
-- Designs habit practices around immediate feedback, minimal viable action, selective measurement, and rapid recovery after lapses.
+- Designs habit practices around immediate feedback, delayed results, minimal viable action, selective measurement, and rapid recovery after lapses.
 - Treats refusal as a way to preserve future time and recommends raising the threshold for yes as opportunity cost grows.
 
 ## Evidence
@@ -35,12 +36,14 @@ Clear's work combines compact behavioral rules with limits on what those rules c
 - Anti-perfection boundary: [[blog-james-clear-the-ultimate-habit-tracker-guide]] says every streak eventually ends and treats quick resumption, not flawless compliance, as the durable response.
 - Commitment asymmetry: [[blog-james-clear-the-ultimate-productivity-hack-is-saying-no]] argues that no rejects one option while yes commits future time and excludes competing uses.
 - Decision practice: [[blog-james-clear-the-ultimate-productivity-hack-is-saying-no]] recommends eliminating unnecessary work, testing future requests as if they were immediate, and raising the acceptance threshold over time.
+- Reward timing: [[people-need-my-product-but-do-they-want-it]] attributes to Clear the contrast between short-term pain with long-term benefit and immediate reward with long-term detriment.
+- Applied motivation: [[people-need-my-product-but-do-they-want-it]] says a near-term reward can help align behavior with a delayed beneficial outcome.
 
 ## Qualifications
-This profile is limited to three essays and does not independently test whether Clear's attribution, habit-maintenance, or commitment-selection frameworks predict outcomes. The success essay's peer-comparison model can conceal meaningful inequality within apparently similar groups. The habit guide is a commercial book excerpt that promotes a branded journal, and its abbreviated research references do not establish that tracking works equally well for every person or behavior. The refusal essay acknowledges that money, authority, and security make saying no easier; its strongest filters may also be too restrictive for care duties, lower-power work relationships, or exploratory periods where learning requires more experiments.
+This profile is limited to three Clear essays plus one secondary attribution and does not independently test whether the frameworks predict outcomes. The success essay’s peer-comparison model can conceal inequality within apparently similar groups. The habit guide promotes a branded journal, and its abbreviated references do not establish equal effects across behaviors. The refusal essay acknowledges that money, authority, and security make saying no easier. The reward-timing theory is summarized by Jackson without the original context or causal evidence and should not be generalized to every product, person, or beneficial behavior.
 
 ## What Changed
-- Added selective commitment, future-time preservation, and a rising acceptance threshold to the profile.
+- Added the attributed short-term-reward and delayed-benefit motivation model, linking it to Clear’s existing immediate-feedback habit practice.
 
 ## Relationships
 - [[LuckAndEffortInSuccess]] - principal concept developed in the ingested essay.
@@ -52,3 +55,4 @@ This profile is limited to three essays and does not independently test whether 
 - [[RepeatableLearningFromHistory]] - adjacent framework for separating learnable behavior from contingent context.
 - [[OpportunityCost]] - Clear treats every accepted commitment as the exclusion of alternative uses of future time.
 - [[PersonalProductivity]] - his refusal essay puts elimination before efficient execution.
+- [[ProductDemandAlignment]] - Jackson applies Clear’s reward-timing theory to making beneficial products desirable now.

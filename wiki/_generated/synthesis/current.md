@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: f0c613ae5b0b70b6efbef3429d0f03e8990d921a
-summary: "Durable outcomes require explicit boundaries, workload fit, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
-episode_count: 968
-source_count: 968
-paragraph_count: 702
+as_of_overview_commit: b0e1e76add15cc9e6688b988c97b9a96efaa3ab3
+summary: "Durable outcomes require demonstrated demand, explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
+episode_count: 969
+source_count: 969
+paragraph_count: 703
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose guarantees become meaningful only under concrete failure, concurrency, latency, scaling, and migration behavior. OpenAI's [[PostgreSQLReadScaling]] case adds that replicas can extend a read-heavy single-primary system only when write-heavy work moves elsewhere, while [[DatabaseOverloadProtection]] must bound cache misses, connections, expensive queries, retries, backfills, and priority traffic before saturation cascades.
-- [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution.
+- [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
@@ -36,10 +36,10 @@ Technical outcomes depend on explicit interfaces, workload fit, verification, re
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, operating capability, governed distribution, and risks matched to the work.
+Durable value joins demonstrated customer demand, continuing outcomes, sustainable economics, operating capability, governed distribution, and risks matched to the work.
 
+- [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms. Evidence: [[ProductDemandAlignment]], [[JustinJackson]], [[DatingRing]], [[JamesClear]], [[RobWalling]].
 - [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution. Evidence: [[BenjaminHardy]], [[DanSullivan]], [[DanMartell]], [[NassimNicholasTaleb]], [[ResultsEconomy]], [[ForcingFunctions]], [[SkinInTheGame]], [[ThomasStanley]].
-- [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 
 ### Cross-domain
 

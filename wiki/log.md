@@ -7787,3 +7787,11 @@ Created [[CaliforniaRollRule]] and [[JonyIve]], and updated [[NirEyal]], [[BJFog
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | People Need My Product! (But Do They Want It?)
+
+Created [[ProductDemandAlignment]], [[RobWalling]], and [[DatingRing]], and updated [[JustinJackson]] and [[JamesClear]] from their complete ordered evidence inventories. Recorded the distinction between beneficial need and demonstrated demand, the pairing of delayed value with immediate reward, and outcome-centered onboarding through a testable Minimum Path to Awesome. Preserved the source’s selected-case, missing-metrics, causality, generalization, and manipulation boundaries. Opened all four effective local images and retained the tweet, transformation advertisement, Roadster photograph, and Dating Ring homepage under descriptive canonical filenames with a complete manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

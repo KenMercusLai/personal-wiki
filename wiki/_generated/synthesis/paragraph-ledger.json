@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a5ed303d403b8f990707a0f0211758459469334580cb89b267c90ff5666a45be",
       "ec3d96d1dfdf9e03ba9282955d5d1b74adf9cb46a641f655538cd3fc805d2a08",
       "881357cfa31f0895ef477d953a2d658f7704a88d48643c67ffa2f211b881c3b5",
       "304e6afb0b7b4f5ef4d9bec1124666be0b178c01c3c236bf35fe671f88770e4c",
@@ -704,11 +705,31 @@
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
     ],
-    "paragraph_count": 702
+    "paragraph_count": 703
   },
-  "overview_commit": "f0c613ae5b0b70b6efbef3429d0f03e8990d921a",
-  "overview_digest": "3345cfb8d44488705d2ecb0cc72738aa3e67544378572b7e214b2f068b1b112f",
+  "overview_commit": "b0e1e76add15cc9e6688b988c97b9a96efaa3ab3",
+  "overview_digest": "260948d9631b64f9827d4d7969f8f8b79a7ea53ba3dc66d107006ae48c97c17d",
   "paragraphs": [
+    {
+      "id": "a5ed303d403b8f990707a0f0211758459469334580cb89b267c90ff5666a45be",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JustinJackson]] essay adds [[ProductDemandAlignment]] as a boundary between a beneficial need and demonstrated customer demand. Health, lower-emission transport, substantive matching, or business progress may matter without producing purchase, signup, or persistence; positioning and the first product experience must make that progress desirable enough to begin. The LA Weight Loss and [[Tesla]] examples pair delayed benefit with appearance, performance, luxury, or status, while [[DatingRing]] supplies the failure case: its rational no-photo premise reportedly drew weak signups until photos and preference controls returned. [[JamesClear]]’s attributed reward-timing theory and [[RobWalling]]’s “Minimum Path to Awesome” turn the argument into a two-stage product test: provide a meaningful near-term reward or activation milestone, then continue delivering durable value. The claim remains a practitioner hypothesis rather than a causal result. The essay gives no controlled positioning, signup, conversion, or retention evidence; emotionally salient rewards can create shallow or manipulative adoption; and mandatory, regulated, safety-critical, institutional, or infrequent products may depend more on trust and compliance than immediate excitement. All four local images were opened and retained under descriptive canonical filenames because the tweet, transformation advertisement, Roadster photograph, and Dating Ring homepage each supplies evidence or a concrete product example.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "DatingRing",
+        "JamesClear",
+        "JustinJackson",
+        "ProductDemandAlignment",
+        "RobWalling",
+        "Tesla"
+      ]
+    },
     {
       "id": "ec3d96d1dfdf9e03ba9282955d5d1b74adf9cb46a641f655538cd3fc805d2a08",
       "primary_topic": "ai-and-technology",

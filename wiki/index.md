@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [People Need My Product! (But Do They Want It?)](sources/people-need-my-product-but-do-they-want-it.md) - Justin Jackson argues that useful products need demonstrated demand, an immediate desired reward, and a quick path to continuing value rather than a beneficial need alone.
 - [People Don’t Want Something Truly New, They Want the Familiar Done Differently](sources/people-dont-want-something-truly-new-they-want-the-familiar-done-differently.md) - Nir Eyal argues that recognizable ingredients, metaphors, and controls can provide a qualified gateway into unfamiliar products and behaviors.
 - [Paul Graham - Write Simply](sources/paul-graham-write-simply.md) - Paul Graham argues that ordinary words, simple sentences, and extensive cutting reduce reader effort, widen access, expose weak ideas, and improve durability.
 - [OpenClaw Architecture, Explained: How It Works](sources/openclaw-architecture-explained-how-it-works.md) - A code-oriented overview maps OpenClaw's Gateway, channels, runtime, plugins, prompt assembly, sessions, memory, security controls, and deployment patterns while exposing ambiguity around sandbox defaults.
@@ -993,6 +994,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Dating Ring](entities/DatingRing.md) - Dating service represented through a qualified relaunch case in which profile photos and preference controls returned after weak signup demand.
+- [Rob Walling](entities/RobWalling.md) - Entrepreneur represented through the Minimum Path to Awesome heuristic for outcome-centered onboarding.
 - [Jony Ive](entities/JonyIve.md) - Apple designer represented through familiar physical forms that scaffold new digital interactions and can recede after learning.
 - [Benjamin Hardy](entities/BenjaminHardy.md) - Author represented through a consequence-centered account of performance, motivation, risk, and relationships.
 - [Dan Sullivan](entities/DanSullivan.md) - Entrepreneurial coach cited for distinguishing a results economy from a time-and-effort economy.
@@ -1048,7 +1051,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kannan Chandrasegaran](entities/KannanChandrasegaran.md) - Practitioner-author advocating low-fidelity user-flow and specification discovery before software implementation.
 - [Kaito](entities/Kaito.md) - Pseudonymous practitioner-author explaining multi-site active-active architecture and cross-data-center storage synchronization.
 - [Kenneth Friedman](entities/KennethFriedman.md) - Practitioner who documented a historical Gmail filter-and-script workflow for scheduled email visibility.
-- [Justin Jackson](entities/JustinJackson.md) - Creator and entrepreneur who redirects comparison-driven attention toward customers, craft, and product improvement.
+- [Justin Jackson](entities/JustinJackson.md) - Creator and entrepreneur who redirects attention toward customers and craft while distinguishing beneficial needs from demonstrated product demand.
 - [Jon Grall](entities/JonGrall.md) - Independent iOS developer who explained the economic and dependency rationale for winding down Just Landed.
 - [Just Landed](entities/JustLanded.md) - Paid airport-pickup app whose adoption and App Store recognition did not overcome continuing data costs and pay-once economics.
 - [Greg Elfrink](entities/GregElfrink.md) - Empire Flippers representative presenting a historical online-business valuation and exit-readiness framework.
@@ -1555,7 +1558,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pandoc](entities/Pandoc.md) - Document converter and citation processor bridging Markdown drafts and formatted DOCX manuscripts.
 - [John Val John](entities/JohnValJohn.md) - Author connecting ad saturation, automatic association, evaluative conditioning, identity, and consumerism.
 - [Tu Youyou](entities/TuYouyou.md) - Project 523 scientist whose artemisinin research illustrates persistent, corrective experimentation under uncertainty.
-- [James Clear](entities/JamesClear.md) - Author framing success through comparison scale, controllable trajectory, behavioral feedback, and selective commitment of future time.
+- [James Clear](entities/JamesClear.md) - Author framing success and motivation through comparison scale, controllable trajectory, reward timing, behavioral feedback, and selective commitment.
 - [Project Duplo](entities/ProjectDuplo.md) - Pinterest's cross-functional 2017-2018 initiative to rebuild mobile web as a progressive web app.
 - [Gestalt](entities/Gestalt.md) - Pinterest's open-source React component library and design-system foundation for the mobile-web rewrite.
 - [Zack Argyle](entities/ZackArgyle.md) - Pinterest engineering manager who authored the one-year PWA retrospective.
@@ -2648,6 +2651,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Product Demand Alignment](concepts/ProductDemandAlignment.md) - Connecting durable product value to an immediate result, experience, or identity that customers want enough to act on.
 - [California Roll Rule](concepts/CaliforniaRollRule.md) - Product-design heuristic for introducing novel value through an accurate and recognizable initial frame.
 - [Database Overload Protection](concepts/DatabaseOverloadProtection.md) - Layered admission, pooling, caching, isolation, query control, and load shedding that prevent database saturation from cascading.
 - [PostgreSQL Read Scaling](concepts/PostgreSQLReadScaling.md) - Extending a single PostgreSQL writer with regional replicas while preserving explicit write and WAL fan-out boundaries.
