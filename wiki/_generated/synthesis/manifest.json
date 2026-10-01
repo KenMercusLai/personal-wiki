@@ -1,26 +1,26 @@
 {
   "content_date": "2026-10-01",
   "corpus": {
-    "episode_count": 956,
-    "source_count": 956
+    "episode_count": 957,
+    "source_count": 957
   },
   "generated": true,
   "global": {
     "candidate_digest": "3fe492e2cf17e6ac53ba4f10371db4b9cd8fc6e8e8183c65f425d2a89e0f8c63",
-    "compacted_at": "2026-10-01T07:55:47.709200Z",
+    "compacted_at": "2026-10-01T08:07:26.598538Z",
     "content_date": "2026-10-01",
     "corpus": {
-      "episode_count": 956,
-      "source_count": 956
+      "episode_count": 957,
+      "source_count": 957
     },
-    "output_digest": "d3a3e29a99b23f5d7d36197d471a25877465983aee5ace8fe089846a02cdc50a",
-    "overview_commit": "376a87302d9e26b1e2dd8322c3b888c007cba340",
-    "overview_digest": "60417df36889178d88c772fd1035384ff5dff8f8ec26b2fb961a4251ad0c2633",
+    "output_digest": "e2c5f441b71e9e4e3f98b22bd733a483324cf1b12f149707d1bd0c2fc08430d7",
+    "overview_commit": "513afd3169eb99eeb658501ad473c7e399e66ec7",
+    "overview_digest": "68711066ab9387cace6d874af1e8ec0247f26e4c77b3afae8eb4a4f652446974",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "376a87302d9e26b1e2dd8322c3b888c007cba340",
-  "overview_digest": "60417df36889178d88c772fd1035384ff5dff8f8ec26b2fb961a4251ad0c2633",
+  "overview_commit": "513afd3169eb99eeb658501ad473c7e399e66ec7",
+  "overview_digest": "68711066ab9387cace6d874af1e8ec0247f26e4c77b3afae8eb4a4f652446974",
   "paragraph_count": 697,
   "schema_version": 1,
   "topics": {

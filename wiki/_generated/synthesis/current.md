@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 376a87302d9e26b1e2dd8322c3b888c007cba340
+as_of_overview_commit: 513afd3169eb99eeb658501ad473c7e399e66ec7
 summary: "Knowledge advances through calibrated evidence, explicit boundaries, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 956
-source_count: 956
+episode_count: 957
+source_count: 957
 paragraph_count: 697
 topic_count: 9
 ---

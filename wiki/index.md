@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Not all bugs are worth fixing and that's okay](sources/not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog.md) - Bugsnag argues for achievable crash-free stability targets and user-impact-based defect allocation rather than an impossible commitment to repair every bug.
 - [No, you don't need ML/AI. You need SQL](sources/no-you-dont-need-ml-ai-you-need-sql.md) - Celestine Omin argues that small e-commerce teams should use transparent SQL queries and scheduled workflows for legible retention, service, and risk rules before adopting machine learning.
 - [No, I Don't Want To Configure Your App!](sources/no-i-dont-want-to-configure-your-app-quils-fluffy-world.md) - Quil argues that applications should package a useful default path, guide unavoidable setup, and turn failures into safe, actionable recovery.
 - [No Parking Here](sources/no-parking-here-mother-jones.md) - Clive Thompson argues that parking's hidden urban costs can be reduced through pricing, shared mobility, and land-use reform, while private autonomous cars could instead increase empty travel and induced demand.
@@ -981,6 +982,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Not all VCs are assholes](sources/not-all-vcs-are-assholes-mitchell-harper-medium.md) - Mitchell Harper uses BigCommerce's rejection-heavy fundraising history to define investor fit through conduct, operating experience, reserves, governance support, and understandable terms.
 
 ## Entities
+- [Bugsnag](entities/Bugsnag.md) - Application-stability monitoring company represented through its impact-based approach to deciding between feature work and bug repair.
 - [Celestine Omin](entities/CelestineOmin.md) - Technology writer and former e-commerce practitioner advocating SQL-first solutions for legible business workflows.
 - [Konga](entities/Konga.md) - E-commerce company represented through a reported SQL-selected customer-recognition and voucher program.
 - [Quil](entities/Quil.md) - Software-design writer represented through a 2016 critique of configuration-heavy developer tools and proposed guided alternatives.
@@ -2623,6 +2625,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BigCommerce](entities/BigCommerce.md) - E-commerce software company represented through Mitchell Harper's account of raising $125 million across four venture rounds.
 
 ## Concepts
+- [Application Stability](concepts/ApplicationStability.md) - Release- and user-centered measure of successful or crash-free interactions used with explicit risk-aware targets.
 - [SQL-First Business Automation](concepts/SQLFirstBusinessAutomation.md) - Implementing legible business conditions as transparent database queries and deterministic workflows before predictive modeling is justified.
 - [Application Configuration Design](concepts/ApplicationConfigurationDesign.md) - Choosing what an application packages, discovers, defaults, asks, and exposes so common tasks work without unnecessary setup.
 - [Parking Policy](concepts/ParkingPolicy.md) - Rules and prices governing parking supply, curb access, hidden costs, land reuse, and the traffic effects of changing mobility technology.

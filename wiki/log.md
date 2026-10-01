@@ -7691,3 +7691,11 @@ Added [[BigCommerce]] and updated [[MitchellHarper]], [[FounderInvestorFit]], [[
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Not all bugs are worth fixing and that's okay
+
+Added [[Bugsnag]] and [[ApplicationStability]], and updated [[ZeroBugsPolicy]] from its complete ordered two-source evidence inventory. Recorded the distinction between zero unresolved defect inventory and defect-free software, the use of crash-free release targets and environment reach to allocate capacity, and the feedback tradeoff in fast release cycles. Preserved vendor, historical, target-selection, comparative-outcome, and crash-metric limitations, including high-consequence failures that can override frequency and ordinary opportunity cost. The captured Markdown contains no effective image references; its author and exact publication day were not recoverable, so the source note records the independently indexed August 2018 window and states the date limitation.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

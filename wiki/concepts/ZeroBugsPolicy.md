@@ -4,7 +4,8 @@ type: concept
 tags: [bugs, agile, software-quality, backlog]
 sources:
   - gal-zellermayer-0-bugs-policy
-last_updated: 2026-09-28
+  - not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,35 +15,40 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The policy separates defects found during feature development from later regression, customer, or post-completion defects. An in-sprint bug means the story is not done and must be repaired before acceptance. Other defects receive a bounded fix-or-close decision: repair now or in the next sprint when the value exceeds the effort, otherwise close them as “won't fix.”
 
-Its economic argument is about queue age as well as repair work. A delayed defect loses human context, test and development environments may disappear, surrounding code may change, and the item repeatedly consumes triage attention. The retained planning sequence supplies a plausible displacement mechanism: even highly ranked bugs fall below sprint capacity when critical and desired features are promoted, then meet more features and defects in the next backlog.
+The Bugsnag article strengthens the decision side of the policy by supplying a candidate impact signal. A release-level [[ApplicationStability]] target, based on successful or crash-free user sessions, can show when defect repair should displace roadmap work; environment and user reach can distinguish common failures from rare browser or device edge cases. “Zero bugs” therefore means zero unresolved queue, not 100% stability or defect-free software.
 
-“Zero bugs” therefore means zero open defect inventory, not flawless software. Closing a known low-value defect preserves the observable behavior while eliminating the promise to reconsider it. That clarity may reduce recurring coordination cost, but it also requires explicit risk judgment and must not erase records needed for safety, security, contracts, regulation, customer communication, or later analysis.
+The economic argument concerns queue age as well as repair work. A delayed defect loses human context, test and development environments may disappear, surrounding code may change, and the item repeatedly consumes triage attention. Explicit closure avoids pretending that every known defect will eventually be repaired, but it must preserve enough traceability for later recurrence, support, audit, or risk review.
+
+Neither defect count nor crash-free percentage is a complete priority rule. Low-frequency safety, security, data-integrity, privacy, accessibility, contractual, or regulatory failures can outrank common low-consequence crashes. The durable synthesis is prompt, recorded, risk-aware disposition informed by user impact—not automatic repair and not silent abandonment.
 
 ## Key Claims
 - In-sprint defects keep a story from satisfying its definition of done.
 - Every other new defect should receive a prompt fix-or-close decision rather than indefinite deferral.
+- User reach and a stability target can inform when repair should displace feature work.
 - Defect repair generally becomes harder as human, environmental, and code context decays.
 - Retained bug inventories impose recurring triage and prioritization costs.
-- Mixed backlogs can structurally favor visible new features over lower-priority defects.
-- Zero open bugs is an inventory state, not a claim that the software contains no defects.
+- Zero open bugs is an inventory state, not a claim of defect-free or perfectly stable software.
+- High-consequence risk can override frequency, reach, and ordinary opportunity-cost thresholds.
 
 ## Evidence
-- Decision rule and categories: [[gal-zellermayer-0-bugs-policy]] distinguishes in-sprint defects from regressions, customer reports, and bugs found after feature completion, then prescribes fix or close.
-- Delay cost: [[gal-zellermayer-0-bugs-policy]] attributes later repair cost to lost memory, unavailable environments, and changed code.
-- Queue overhead: [[gal-zellermayer-0-bugs-policy]] describes repeated multi-role triage and reporting as work created by the retained backlog itself.
-- Feature displacement: [[gal-zellermayer-0-bugs-policy]] uses a five-frame planning example in which two bugs fall below sprint capacity as feature stories move upward, then reappear beside an additional bug next sprint.
-- Reported culture effect: [[gal-zellermayer-0-bugs-policy]] says developers pursued higher quality when bugs could no longer be deferred, but provides no measurement.
+- Completion and disposition rule: [[gal-zellermayer-0-bugs-policy]] distinguishes in-sprint defects from regressions, customer reports, and post-completion bugs, then prescribes prompt repair or explicit closure.
+- Delay and queue cost: [[gal-zellermayer-0-bugs-policy]] attributes later repair cost to lost memory, unavailable environments, changed code, repeated triage, and feature displacement in a mixed backlog.
+- Stability-based allocation: [[not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog]] recommends a below-100% stability target to decide when sprint capacity should shift between roadmap and bug repair.
+- Reach and fragmentation: [[not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog]] argues that browser, extension, version, device, and setting variance creates edge cases that may affect very few users.
+- Shared non-perfection boundary: both [[gal-zellermayer-0-bugs-policy]] and [[not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog]] explicitly reject the idea that every known defect must be repaired.
 
 ## Counterevidence & Qualifications
-The evidence is a 2016 practitioner essay based on the author's experience across several Scrum teams, not a controlled or comparative study. It does not report defect escape rate, severity, customer harm, throughput, time spent fixing, reopen rate, or outcomes before and after adoption. The planning images illustrate a mechanism rather than measured prevalence.
+Both sources are practitioner arguments rather than controlled or comparative studies. Neither reports defect escape rate, severity, customer harm, throughput, time spent fixing, reopen rate, retention, or measured outcomes before and after adoption. The Bugsnag source also comes from a monitoring vendor and defines stability mainly through crashes or unhandled errors.
 
-Closing a defect does not remove it from the product. A low-value cosmetic issue and a low-probability safety, security, data-integrity, accessibility, contractual, or regulatory issue cannot be judged by effort alone. Some organizations must retain known-issue records, formal risk acceptance, customer disclosures, or audit trails even when they choose not to repair immediately. Teams may also need bounded deferral when dependencies, incident stabilization, coordinated releases, or unavailable reproduction evidence make immediate resolution unsafe or impossible.
+Closing a defect does not remove it from the product. A low-value cosmetic issue and a low-probability high-consequence issue cannot be judged by effort or reach alone. Some organizations must retain known-issue records, formal risk acceptance, customer disclosures, workarounds, or audit trails even when they choose not to repair immediately. Bounded deferral may also be necessary when dependencies, incident stabilization, coordinated releases, or insufficient reproduction evidence make immediate resolution unsafe or impossible.
 
 ## What Changed
-- Created the concept and distinguished zero open inventory from defect-free software.
-- Preserved the source's fix-or-close economics while adding traceability and risk-governance boundaries.
+- Added user-session stability and environmental reach as inputs to the fix-or-close decision.
+- Clarified that zero open inventory neither requires 100% stability nor makes crash-free percentage a complete risk measure.
+- Strengthened recorded non-repair and high-consequence override boundaries.
 
 ## Related Concepts
+- [[ApplicationStability]] - supplies a user-impact metric for deciding when repair should displace roadmap work.
 - [[AgileSoftwareDevelopment]] - definition-of-done and sprint planning provide the policy's operating context.
 - [[InternalSoftwareQuality]] - defect decisions affect correctness, change cost, and lifecycle maintenance.
 - [[TechnicalDebtTracking]] - both manage future engineering liabilities, but defects are observable product failures rather than all forms of debt.
