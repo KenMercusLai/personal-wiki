@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-01
-as_of_overview_commit: 29aa06911707b6401bfbe52b0eb5e74ad72cd1db
-input_digest: fae7d1f7b11951ce53455c39449d057f1ef5b3e6fb6657f64dd746cb0ab6ca8e
+as_of_overview_commit: 0b35efe9dc6bd8f4108b1f54a9f51e30ac78ebf7
+input_digest: 7f2c418a967cc69786d21454c77763e93e6c7b2486580b36677e6e9ff4e89426
 ---
 
 # Psychology and Personal Development
@@ -259,13 +259,14 @@ input_digest: fae7d1f7b11951ce53455c39449d057f1ef5b3e6fb6657f64dd746cb0ab6ca8e
 
 ### Risk Judgment Requires Behavioral Calibration
 
-[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience.
+[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience. Sustainable exposure also matters: leverage can force financial exit, while an experienced drawdown can trigger psychological exit, so [[BurnoutPrevention]] and continued participation become conditions for long-horizon compounding.
 
-**Evidence:** [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], [[MorganHousel]]
+**Evidence:** [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], [[MorganHousel]], [[BurnoutPrevention]]
 
 **Qualifications:**
 
-- The Housel source is a compact beliefs list and the Zhang Xiaoyu material is Wulc's course-note synthesis, so its claims are best treated as decision heuristics rather than universal prescriptions.
+- The Housel sources are a compact beliefs list and an investing analogy drawn from elite endurance training, while the Zhang Xiaoyu material is Wulc's course-note synthesis, so their claims are best treated as decision heuristics rather than universal prescriptions.
+- The endurance essay supplies no comparative portfolio, housing-cost, tax, or risk-adjusted-return evidence, and predicted tolerance for loss is not a measured substitute for behavior during an actual drawdown.
 
 ### Capacity Building Is Easier Before Crisis
 

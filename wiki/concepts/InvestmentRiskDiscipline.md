@@ -9,7 +9,8 @@ sources:
   - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian
   - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-3-tou-zi-zu-he-gou-jian
   - its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha
-last_updated: 2026-09-30
+  - morgan-housel-keep-it-going
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,7 @@ knowledge_schema: synthesis-v1
 [[InvestmentRiskDiscipline]] is the set of behavioral, analytical, portfolio, and financial guardrails that keep investing decisions from becoming leverage, trend-chasing, overpaying, fee leakage, unfamiliar speculation, panic trading, vague-label belief, or need-threatening risk.
 
 ## Current Synthesis
-The sources agree that risk discipline begins with avoiding ruinous behavior before seeking superior returns. The engineer-investing source is explicit about market mechanics: do not follow blindly, buy high because others made money, use margin, short, trade frequently, or enter unfamiliar domains because a concept is popular. Its inspected slides make downside asymmetry concrete with a portfolio that rises about 52% in one scenario but, if bought at highs, would fall enough that an 81.8% rebound would be needed to recover; adding borrowed money could force liquidation before recovery. Housel adds a behavioral and personal-finance layer: the most destructive financial decisions risk what is needed to gain what is merely wanted, while debt removes options and savings add them. Wulc's Zhang Xiaoyu sources add consequence, valuation, life-context, and portfolio tests: understand what happens after a 50% fall, do not confuse a good company with a good stock at any price, leave a margin of safety, control fee drag, record the thesis, keep outside income so market losses do not force liquidation, design allocation around maximum drawdown, rebalance instead of chasing, diversify factor exposure, and distrust vague investing language. Carter adds scenario breadth: low-probability political, geopolitical, and macroeconomic interactions deserve consideration even when their historical analogue cannot support a precise forecast. Together, the pages frame investment risk as a mix of market exposure, leverage, valuation, allocation, compounding costs, behavioral overconfidence, regime uncertainty, regret calibration, household optionality, and response planning.
+The sources agree that risk discipline begins with avoiding ruinous behavior before seeking superior returns. The engineer-investing source is explicit about market mechanics: do not follow blindly, buy high because others made money, use margin, short, trade frequently, or enter unfamiliar domains because a concept is popular. Its inspected slides make downside asymmetry concrete with a portfolio that rises about 52% in one scenario but, if bought at highs, would fall enough that an 81.8% rebound would be needed to recover; adding borrowed money could force liquidation before recovery. Housel adds a behavioral and personal-finance layer: the most destructive financial decisions risk what is needed to gain what is merely wanted, while debt removes options and savings add them. His endurance essay sharpens the objective from maximizing annual returns to maximizing returns that can be sustained: leverage can force a financial exit, and an intolerable drawdown can end participation psychologically. Wulc's Zhang Xiaoyu sources add consequence, valuation, life-context, and portfolio tests: understand what happens after a 50% fall, do not confuse a good company with a good stock at any price, leave a margin of safety, control fee drag, record the thesis, keep outside income so market losses do not force liquidation, design allocation around maximum drawdown, rebalance instead of chasing, diversify factor exposure, and distrust vague investing language. Carter adds scenario breadth: low-probability political, geopolitical, and macroeconomic interactions deserve consideration even when their historical analogue cannot support a precise forecast. Together, the pages frame investment risk as preserving the capital, liquidity, behavior, and time needed for compounding across market exposure, leverage, valuation, allocation, costs, regime uncertainty, regret, household optionality, and response planning.
 
 ## Key Claims
 - Risk control begins with avoiding destructive actions such as margin, shorting, frequent trading, and unfamiliar speculation.
@@ -26,7 +27,7 @@ The sources agree that risk discipline begins with avoiding ruinous behavior bef
 - Sell discipline should include admitting a mistaken purchase, finding a better opportunity, or recognizing extreme overvaluation.
 - Margin of safety, fee discipline, allocation, rebalancing, and factor diversification reduce exposure to overpayment, cost drag, and dependence on one recent winner.
 - Severe political and macroeconomic scenarios can belong in risk planning without being treated as reliable market-timing forecasts.
-- Risk tolerance depends on outside income, savings, debt, expected regret, and whether the investor can survive being wrong without risking what they need or being forced to sell.
+- Risk tolerance depends on outside income, savings, debt, expected regret, and whether the investor can remain invested without financial or psychological forced exit.
 
 ## Evidence
 - Stop rules: [[gong-cheng-shi-ru-he-geng-hao-tou-zi]] lists not shorting, not using margin, not buying what one does not understand, not seeking shortcuts, and not frequent trading.
@@ -47,16 +48,15 @@ The sources agree that risk discipline begins with avoiding ruinous behavior bef
 - Consequence test: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] says investors should ask whether they understand what happened and what they would do if an investment fell by half.
 - Quantification limit: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] argues that risk is hard to reduce to a clean number, probability, or single loss percentage.
 - Scenario breadth: [[its-beginning-to-look-a-lot-like-1937-spdr-s-p-500-trust-etf-nysearca-spy-seeking-alpha]] uses a 1937 analogy to combine weak recovery, constrained rates, populism, geopolitical conflict, and market decline into a severe but explicitly non-prescriptive portfolio scenario.
+- Sustainable-return objective: [[morgan-housel-keep-it-going]] argues that merely good returns sustained for a long period can compound more effectively than exceptional returns that cannot be maintained.
+- Dual exit risk: [[morgan-housel-keep-it-going]] distinguishes leverage- or margin-driven financial burnout from psychological abandonment after a severe lived drawdown.
 
 ## Counterevidence & Qualifications
-The sources offer heuristics rather than a complete risk-management model. VIX, RSI, policy news, social-media signals, model-portfolio histories, valuation percentiles, and historical analogies are context-dependent and can fail; the engineer-investing source itself says the material is not financial advice. Housel's aphorisms are deliberately compressed, and Wulc's half-loss, drawdown, rebalancing, and language-skepticism tests are practical screens rather than a full stress-testing framework. Carter's 1937 comparison selects an ominous precedent, uses a disputed alternative unemployment series, and does not establish that populism or war causes market decline; it broadens the scenario set but should not raise confidence in a particular path or date.
+The sources offer heuristics rather than a complete risk-management model. VIX, RSI, policy news, social-media signals, model-portfolio histories, valuation percentiles, and historical analogies are context-dependent and can fail; the engineer-investing source itself says the material is not financial advice. Housel's aphorisms are deliberately compressed, and his elite-training analogy does not establish which portfolio maximizes risk-adjusted lifetime wealth or whether housing outperforms after financing, maintenance, taxes, and transaction costs. Wulc's half-loss, drawdown, rebalancing, and language-skepticism tests are practical screens rather than a full stress-testing framework. Carter's 1937 comparison selects an ominous precedent, uses a disputed alternative unemployment series, and does not establish that populism or war causes market decline; it broadens the scenario set but should not raise confidence in a particular path or date.
 
 ## What Changed
-- Added margin-of-safety and "good company is not good stock" valuation discipline.
-- Added long-horizon fee drag and negative-compounding risk.
-- Added outside-income resilience as part of risk capacity.
-- Added maximum-drawdown-centered portfolio design, rebalancing, factor cyclicality, and investing-language risk.
-- Added severe macro-political scenario awareness while explicitly separating it from a validated forecast or timing signal.
+- Reframed risk discipline around preserving sustained participation and compounding time rather than maximizing annual returns.
+- Added financial and psychological forced exit as distinct ways an otherwise plausible strategy can fail.
 
 ## Related Concepts
 - [[EngineerInvestment]] - risk discipline is the behavioral foundation of the engineer-facing investing frame.
@@ -69,3 +69,4 @@ The sources offer heuristics rather than a complete risk-management model. VIX, 
 - [[MarketTiming]] - timing attempts often fail through risk endurance rather than direction alone.
 - [[FactorInvesting]] - factor cyclicality adds a style-risk dimension to portfolio discipline.
 - [[HistoricalAnalogyInInvesting]] - historical comparison can generate stress scenarios but not dependable timing rules.
+- [[BurnoutPrevention]] - recovery capacity and sustainable intensity provide the article's analogy for remaining invested.

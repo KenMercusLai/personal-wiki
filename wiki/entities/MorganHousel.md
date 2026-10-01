@@ -7,7 +7,8 @@ sources:
   - blog-morgan-housel-collab-fund-a-few-beliefs
   - collaborative-fund-lucky-vs-repeatable
   - expiring-vs-long-term-knowledge-collaborative-fund
-last_updated: 2026-09-28
+  - morgan-housel-keep-it-going
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,14 +16,14 @@ knowledge_schema: synthesis-v1
 [[MorganHousel]] is a Collaborative Fund author in the wiki corpus whose essays connect investing, business strategy, psychology, and personal judgment.
 
 ## Current Profile
-The sources present Housel as a writer who compresses investing and business ideas into memorable judgment heuristics. In the timeless-strategy essay, he uses Amazon, Bezos, Buffett, GEICO, and venture-capital examples to argue that compounding depends on stable demand as well as change. In the beliefs article, he shifts from company strategy to personal decision quality: risk what you need for what you want and you can ruin yourself; debt reduces optionality while savings expand it; incentives, confirmation, denial, stale beliefs, and narrow experience distort confidence. The repeatability essay adds a historical-learning filter: ask which parts of a result another person could reproduce in a different era. The knowledge-durability essay adds an information filter: distinguish current facts from reusable explanations, then use the latter to interpret the former.
+The sources present Housel as a writer who compresses investing and business ideas into memorable judgment heuristics. In the timeless-strategy essay, he uses Amazon, Bezos, Buffett, GEICO, and venture-capital examples to argue that compounding depends on stable demand as well as change. In the beliefs article, he shifts from company strategy to personal decision quality: risk what you need for what you want and you can ruin yourself; debt reduces optionality while savings expand it; incentives, confirmation, denial, stale beliefs, and narrow experience distort confidence. The repeatability essay adds a historical-learning filter: ask which parts of a result another person could reproduce in a different era. The knowledge-durability essay adds an information filter: distinguish current facts from reusable explanations, then use the latter to interpret the former. The newest article makes endurance the binding constraint on compounding: merely good returns held through recovery can outperform briefly exceptional returns that end in leverage-driven exit or psychological abandonment.
 
 ## Key Characteristics
 - Writes about business and investing through memorable strategic patterns.
 - Uses historical company examples to contrast change-only thinking with durable customer demand.
 - Treats venture and value investing as different emphases rather than absolute opposites.
 - Emphasizes behavioral humility: probability, regret, incentives, expectations, overconfidence, and personal limits matter as much as analysis.
-- Connects money to optionality, time control, status signaling, and expectations rather than only returns.
+- Connects money to optionality, time control, status signaling, expectations, and the ability to remain invested rather than only peak returns.
 - Separates repeatable skills and broad lessons from one-time historical circumstances.
 - Distinguishes short-lived facts from durable causal frameworks that can organize later information.
 
@@ -35,12 +36,14 @@ The sources present Housel as a writer who compresses investing and business ide
 - Repeatability frame: [[collaborative-fund-lucky-vs-repeatable]] asks what is not repeatable and applies the filter to Amazon, Buffett, Rockefeller, Musk, Bezos, and post-crash investing lessons.
 - History-learning boundary: [[collaborative-fund-lucky-vs-repeatable]] argues that business and investing history should teach broad lessons without being treated as a direct future map.
 - Knowledge filter: [[expiring-vs-long-term-knowledge-collaborative-fund]] distinguishes expiring facts from explanations of recurring mechanisms and uses Microsoft, management, books, and news as examples.
+- Sustainable compounding: [[morgan-housel-keep-it-going]] argues that time does more compounding work than exceptional annual returns when the investor can continue without forced exit.
+- Burnout mechanism: [[morgan-housel-keep-it-going]] separates financial burnout caused by leverage or margin from psychological burnout caused by lived drawdowns.
 
 ## Qualifications
-This page only captures Housel's role in the ingested sources. It does not profile his complete body of work, investing philosophy, or broader career. The knowledge-durability essay relies on examples and personal recall rather than measured comparisons of media, retention, or decision outcomes.
+This page only captures Housel's role in the ingested sources. It does not profile his complete body of work, investing philosophy, or broader career. The knowledge-durability essay relies on examples and personal recall rather than measured comparisons of media, retention, or decision outcomes. The endurance article transfers a training pattern into investing by analogy and supplies no comparative portfolio, housing, tax, or risk-adjusted-return evidence.
 
 ## What Changed
-- Added Housel's durability filter for distinguishing current facts from reusable explanations.
+- Added Housel's endurance-first account of compounding, including financial and psychological burnout.
 
 ## Relationships
 - [[CollaborativeFund]] - publication context for Housel's essay.
@@ -49,6 +52,7 @@ This page only captures Housel's role in the ingested sources. It does not profi
 - [[BehavioralRiskJudgment]] - uncertainty and belief-calibration concept developed from his beliefs article.
 - [[RepeatableLearningFromHistory]] - learning filter developed from his repeatability essay.
 - [[KnowledgeDurability]] - information-selection and interpretation filter developed from the newest essay.
+- [[BurnoutPrevention]] - recovery and sustainability principle Housel transfers from elite training to investing.
 - [[MentalModels]] - reusable frameworks that connect Housel's durable-knowledge argument to later interpretation.
 - [[Amazon]] - central company case in the essay.
 - [[WarrenBuffett]] - investor example Housel uses to compare change and timelessness.

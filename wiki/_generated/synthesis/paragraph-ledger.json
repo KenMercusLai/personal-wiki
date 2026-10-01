@@ -685,12 +685,13 @@
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f",
       "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec",
       "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83",
-      "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf"
+      "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf",
+      "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4"
     ],
-    "paragraph_count": 685
+    "paragraph_count": 686
   },
-  "overview_commit": "8b9eb30300aaee7c5cd4a3e61ed1c5036eeacdd5",
-  "overview_digest": "8857ae72f00a6811f8fa9cd9f0127c266eb9fb2a276b74364a2454819a3301e8",
+  "overview_commit": "0b35efe9dc6bd8f4108b1f54a9f51e30ac78ebf7",
+  "overview_digest": "e9380f62dc419c242d11a8db453e7440d1f4acb290b2be321d1abec4f2159e0f",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13882,6 +13883,22 @@
         "ProductMarketFit",
         "StartupScaling",
         "TechnicalDebt"
+      ]
+    },
+    {
+      "id": "abc7617d4233335ece1fe7ae4b35394615ef0cdf57dee3ddccb24c315c7179c4",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[MorganHousel]] source reframes [[InvestmentRiskDiscipline]] around the return an investor can sustain, not the maximum annual return available. Time supplies the exponent in compounding, so leverage- or margin-driven liquidation can destroy a sound long-horizon thesis by ending participation before recovery; [[BehavioralRiskJudgment]] adds the parallel psychological failure, where a drawdown that seemed tolerable in advance causes abandonment once a large share of net worth actually disappears. The article's elite-endurance-training analogy connects this mechanism to [[BurnoutPrevention]]: a cited group of Olympic-level cross-country skiers reportedly spent 88.7% of training time at low intensity, treating recovery and repeatability as conditions for peak performance rather than signs of insufficient ambition. Housing serves as a behavioral holding example because owners often leave it uninterrupted for decades, not because the source establishes exceptional returns. The synthesis therefore favors exposure, allocation, liquidity, and expectations that preserve participation, while keeping the evidence boundary explicit: athletic training does not prove investor outcomes, and the essay supplies no comparative portfolio, housing-cost, tax, or risk-adjusted-return analysis. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "BehavioralRiskJudgment",
+        "BurnoutPrevention",
+        "InvestmentRiskDiscipline",
+        "MorganHousel"
       ]
     }
   ],

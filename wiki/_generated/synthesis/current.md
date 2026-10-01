@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 8b9eb30300aaee7c5cd4a3e61ed1c5036eeacdd5
+as_of_overview_commit: 0b35efe9dc6bd8f4108b1f54a9f51e30ac78ebf7
 summary: "Knowledge advances through calibrated evidence, stage-matched investment, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 933
-source_count: 933
-paragraph_count: 685
+episode_count: 934
+source_count: 934
+paragraph_count: 686
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[TenXThinking]] can expose when local optimization assumes the wrong product or mechanism, but [[Kodak]], [[InnovatorsDilemma]], [[CorporateRiskAversion]], and [[Incrementalism]] together show that radical outcome framing needs survivable experiments, cumulative execution, and evidence that can change the plan rather than a literal multiplication of effort.
 - [[AccessJournalism]] is an incentive structure rather than an automatic verdict: [[KaraSwisher]] shows how long relationships, continual contact, historical knowledge, confrontation, discretion, and repeated scoops can make proximity produce both information and accountability, while [[AllThingsD]] and [[Recode]] show conferences, funding, boards, and social ties turning a reporter into an institutional power broker. [[MichaelArrington]] supplies a sharper investing-and-reporting contrast, but structural safeguards and story-level evidence remain necessary before inferring compromise.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
-- [[LossAversion]] can make probable modest gains and protection of incumbent profit feel more compelling than uncertain large upside, but [[BehavioralRiskJudgment]] and [[TenXThinking]] require expected value to be interpreted alongside variance, reversibility, learning value, and survival rather than treated as a complete choice rule.
+- [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience. Sustainable exposure also matters: leverage can force financial exit, while an experienced drawdown can trigger psychological exit, so [[BurnoutPrevention]] and continued participation become conditions for long-horizon compounding.
 - [[DualCareerTracks]] separate seniority from direct-report count: individual contributors can gain wider strategic scope, equivalent compensation, status, and meaningful autonomy while [[ManagementRoleFit]] reserves people management for those willing to adopt group-performance criteria and learn listening, trust, conflict, advocacy, context, staffing, delegation, and final accountability. [[ErikDietrich]] adds that resistance to micromanagement can be mistaken for desire to lead, while [[LindsayHolmwood]] treats management as a learnable and reversible career change; [[EngineeringManagerRoleDesign]] qualifies that common group-enablement purpose with variants that may retain technical work.
 
 ## Synthesis by Domain
@@ -68,7 +68,7 @@ Historical spillovers require attention to lineage, path dependence, institution
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, inspectable reflection, practice-grounded identity, calibrated judgment, consent, recovery, durable learning, and structural constraints.
+Human outcomes depend on bounded attention, inspectable reflection, practice-grounded identity, calibrated risk, sustainable participation, consent, recovery, durable learning, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].

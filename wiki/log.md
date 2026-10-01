@@ -7507,3 +7507,11 @@ Added [[LinuxBandwidthMonitoring]] from a Baeldung tutorial contrasting persiste
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Keep It Going
+
+Updated [[MorganHousel]], [[InvestmentRiskDiscipline]], and [[BehavioralRiskJudgment]] from their complete ordered evidence inventories. Recorded the article's endurance-first compounding argument, the distinction between leverage-driven financial exit and drawdown-driven psychological exit, the reported 88.7% low-intensity training share used as an analogy, and housing as a long-holding example. Preserved the limits of the analogy and the absence of comparative portfolio, housing-cost, tax, or risk-adjusted-return evidence. The source Markdown contains no image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Keep It Going](sources/morgan-housel-keep-it-going.md) - Morgan Housel argues that sustainable returns, low leverage, and psychologically tolerable drawdowns preserve the time that makes compounding powerful.
 - [Monitor Internet Bandwidth Usage on Linux](sources/monitor-internet-bandwidth-usage-on-linux-baeldung-on-linux.md) - A Baeldung tutorial contrasts persistent vnStat accounting and alerts with reset-prone Linux interface counters, including retained monthly and recent-rate visual summaries.
 - [Angel Investor Ron Conway Emails His Portfolio Companies Over Financial Meltdown](sources/michael-arrington-angel-investor-ron-conway-emails-his-portfolio-companies-over-financial-meltdown.md) - Michael Arrington publishes Ron Conway's 2000 and 2008 downturn emails urging startups to extend runway, raise early, accept valuation pressure, and preserve strategic options.
 - [How to Use Obsidian as a Zettelkasten: The Ultimate Tutorial](sources/matt-giaro-how-to-use-obsidian-as-a-zettelkasten.md) - Matt Giaro presents a minimalist Bear-to-Obsidian workflow built from short incubation, own-words permanent notes, meaningful links, flat Markdown storage, and output reuse.
@@ -1901,7 +1902,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Stand Steady](entities/StandSteady.md) - Standing-desk company using outsourced Amazon warehousing and shipping to move beyond founder-run fulfillment.
 - [Wayfair](entities/Wayfair.md) - Online home-goods retailer represented through its dedicated large-item delivery network.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
-- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, strategy, behavioral judgment, repeatability, and durable knowledge.
+- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, sustainable compounding, strategy, behavioral judgment, repeatability, and durable knowledge.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and investing-firm context for essays on durable strategy, behavioral judgment, repeatable learning, and person-strategy fit.
 - [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage and for staying inside a defined circle of competence.
 - [GEICO](entities/GEICO.md) - Insurance company used to illustrate persistent cost and convenience advantages amid changing channels.
@@ -3428,8 +3429,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Home Bias](concepts/HomeBias.md) - Behavioral tendency to overweight familiar domestic assets despite global diversification benefits.
 - [Engineer Investment](concepts/EngineerInvestment.md) - Engineer-oriented investing frame combining technology-domain judgment, company analysis, risk discipline, and self-leverage.
 - [AI Investment Theme](concepts/AIInvestmentTheme.md) - Framing of AI as a structural investment theme across chips, cloud, software, applications, automation, and related infrastructure.
-- [Investment Risk Discipline](concepts/InvestmentRiskDiscipline.md) - Behavioral and analytical guardrails against leverage, shorting, trend chasing, unfamiliar speculation, panic trading, and need-threatening risk.
-- [Behavioral Risk Judgment](concepts/BehavioralRiskJudgment.md) - Decision discipline for handling incentives, confirmation, overconfidence, regret, expectations, and probabilistic uncertainty.
+- [Investment Risk Discipline](concepts/InvestmentRiskDiscipline.md) - Behavioral and analytical guardrails that prevent ruin, forced selling, and psychological exit so compounding can continue.
+- [Behavioral Risk Judgment](concepts/BehavioralRiskJudgment.md) - Decision discipline for handling incentives, confirmation, overconfidence, regret, drawdown tolerance, expectations, and probabilistic uncertainty.
 - [Financial Statement Reading](concepts/FinancialStatementReading.md) - Lightweight practice of using growth, expectations, turnover, margins, ROA, and ROE to judge company quality.
 - [Engineer Leverage](concepts/EngineerLeverage.md) - Using code, writing, products, AI-assisted output, and sharing to make engineering expertise reusable.
 - [Index Fund Strategy](concepts/IndexFundStrategy.md) - Low-cost broad-market ETF strategy that favors diversified exposure over frequent stock selection.
