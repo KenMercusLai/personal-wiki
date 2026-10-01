@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e33db06cc867babbf78e08298b12ed86bd4d0116ea847ab939d4a0d8899a6edb",
       "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
       "d6294545c95fe59b24702e83837007b7f49ea0746c299521acf173f7b634d297",
       "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
@@ -713,11 +714,33 @@
       "b35a69526aa59f530e71c13c24d7110187d5079602d8d78b73193b95d89b2577",
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67"
     ],
-    "paragraph_count": 711
+    "paragraph_count": 712
   },
-  "overview_commit": "3cbb961dbc6b329d7bbbb96cf90955c26bb0f863",
-  "overview_digest": "9caf5b7ea9ce2edb4dabc80a00c0f664b8dbf9c436a2ccca98f7cdfaadc6d09d",
+  "overview_commit": "423067f3027a8ec40f0510f0fb670e3a008ae665",
+  "overview_digest": "fbeecbd5dc76322fc1bcc2ad306d4e712e67b511af66c25742009456e3f16b72",
   "paragraphs": [
+    {
+      "id": "e33db06cc867babbf78e08298b12ed86bd4d0116ea847ab939d4a0d8899a6edb",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[GergelyOrosz]] case adds [[KhanAcademy]]'s 3.5-year monolith rewrite as a production migration where architecture, scope, rollout safety, staffing, and organizational endurance were inseparable. Python 2 end of life created the hard deadline; the target combined mostly Go services with federated [[GraphQL]], which supplied a field-level coexistence seam while traffic moved away from roughly one million Python lines. New [[IncrementalMonolithMigration]] captures the staged mechanism: optional shadowing, side-by-side query comparison while returning the Python result, canary responses where mutations made dual execution unsafe, Go-only routing with the legacy path retained, and final removal. The first service handled about 0.01% of traffic, making small continuous shipment and traffic share visible progress signals, but the two-year [[MinimumViableExperience]] milestone also shows their limit: 32 services handled about 95% of traffic while substantial Python behavior and internal tools still required an 18-month endgame. [[MicroserviceDataBoundaries]] gains a concrete one-writer rule—only one service could modify a piece of data—without implying distributed independence, because shared Redis load, cache expiry, and cross-service workflows still required ecosystem management. Fixed scope, a fixed timeline, burndown visibility, mobile staffing, and dependency-aware mini-deadlines fit a known migration better than open-ended discovery, yet the language change, behavior-parity rule, and rewritten internal tools exposed tradeoffs between speed, learning, culture, and improvement. Go reportedly reduced service-hour cost by up to an order of magnitude for some requests, but the source does not calculate whether that repaid ramping roughly 100 engineers, and it reports long periods with little feature work plus possible product and design attrition. The account is a second-party practitioner reconstruction from interviews and company posts, with no independent reliability, delivery-rate, total-cost, or attrition comparison. Four evidence-bearing architecture and progress visuals were retained canonically; an unrelated recruiting screenshot was omitted.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "GergelyOrosz",
+        "GraphQL",
+        "IncrementalMonolithMigration",
+        "KhanAcademy",
+        "MicroserviceDataBoundaries",
+        "MinimumViableExperience"
+      ]
+    },
     {
       "id": "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
       "primary_topic": "business-and-markets",

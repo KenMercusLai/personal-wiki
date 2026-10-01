@@ -7907,3 +7907,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Real-world Engineering Challenges #8: Breaking up a Monolith
+
+Created [[BrianGenisio]], [[KevinDangoor]], [[IncrementalMonolithMigration]], and [[MinimumViableExperience]], and updated [[GergelyOrosz]], [[KhanAcademy]], [[GraphQL]], and [[MicroserviceDataBoundaries]] from their complete ordered evidence inventories. Recorded the Python 2 deadline, federated GraphQL architecture, MVE and endgame phases, field-level shadow-compare-canary-cutover sequence, one-writer data rule, fixed-scope deadline coordination, Go cost and learning tradeoff, and sustained organizational opportunity cost. Opened all five effective local images, retained four evidence-bearing architecture and progress visuals under descriptive canonical filenames with a complete manifest, and omitted one unrelated recruiting screenshot.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

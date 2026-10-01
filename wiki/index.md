@@ -1007,6 +1007,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Not all VCs are assholes](sources/not-all-vcs-are-assholes-mitchell-harper-medium.md) - Mitchell Harper uses BigCommerce's rejection-heavy fundraising history to define investor fit through conduct, operating experience, reserves, governance support, and understandable terms.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
+- [Real-world Engineering Challenges #8: Breaking up a Monolith](sources/real-world-engineering-challenges-8-breaking-up-a-monolith.md) - Gergely Orosz reconstructs Khan Academy's 3.5-year field-level migration from a Python monolith to more than 40 mostly Go services behind federated GraphQL.
+
 ## Entities
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
 - [Michael Lopp](entities/MichaelLopp.md) - Technology leader and Rands in Repose writer represented through purpose-driven approaches to meetings, organizational information, workspace design, and focus.
@@ -1282,7 +1284,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gibson Biddle](entities/GibsonBiddle.md) - Former Netflix VP of Product who presents brand as a cross-functional product-and-marketing system.
 - [Ben Basche](entities/BenBasche.md) - Product-strategy author represented by a 2016 interpretation of Snapchat as an authentically mobile social product.
 - [Path](entities/Path.md) - Private mobile social product that shifted from photo sharing to a multi-format life journal after observing user-created posting behavior.
-- [Gergely Orosz](entities/GergelyOrosz.md) - Software-engineering writer represented through a reported analysis of Atlassian's April 2022 cloud outage.
+- [Gergely Orosz](entities/GergelyOrosz.md) - Software-engineering writer using public technical material and interviews to reconstruct operational incidents and migrations.
 - [Game Boy](entities/GameBoy.md) - Nintendo's 1989 handheld represented through practical product tradeoffs and long-lived musical, photographic, and customization uses.
 - [Nintendo](entities/Nintendo.md) - Game company represented through the Game Boy and a source-bounded strategy of accessibility and product form over specification leadership.
 - [Gunpei Yokoi](entities/GunpeiYokoi.md) - Nintendo inventor associated with the Game Boy and Lateral Thinking with Withered Technology.
@@ -1882,7 +1884,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Homebrew](entities/Homebrew.md) - Venture firm represented as a startup talent adviser favoring market cash, comparatively strong early equity, and repeatable compensation and offer governance.
 - [Homebrew Computer Club](entities/HomebrewComputerClub.md) - 1970s informal computing-club setting connected to early Apple demonstrations and Jobs' random-interaction memory.
 - [Justin Reich](entities/JustinReich.md) - Education-technology researcher and author critiquing shallow big-data interpretations in MOOC and online-learning research.
-- [Khan Academy](entities/KhanAcademy.md) - Online-learning platform used as a case where granular learner logs were reduced to minutes logged in and correlated with math scores.
+- [Khan Academy](entities/KhanAcademy.md) - Nonprofit online-learning platform represented through learner analytics and a 3.5-year monolith-to-services migration.
 - [Udacity](entities/Udacity.md) - Online-course platform in the San Jose State University case where effort measures predicted passing.
 - [San Jose State University](entities/SanJoseStateUniversity.md) - University partner in the Udacity online-course study discussed as an early higher-education MOOC analytics case.
 - [Google Course Builder](entities/GoogleCourseBuilder.md) - Google's online-course platform example where activity completion was linked with final-project completion.
@@ -2676,6 +2678,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Melanie Powley](entities/MelaniePowley.md) - University of Otago researcher represented through a naturalistic analysis of note-taking behavior.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
+- [Brian Genisio](entities/BrianGenisio.md) - Khan Academy engineer and manager represented through his leadership and retrospective analysis of the migration endgame.
+- [Kevin Dangoor](entities/KevinDangoor.md) - Former Khan Academy principal software architect represented through the language, architecture, and incremental-delivery choices of the rewrite.
+
 ## Concepts
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.
 - [Abstraction Leakage](concepts/AbstractionLeakage.md) - Exposure of implementation behavior through compatibility, correctness, performance, or operational dependencies beyond a stated interface contract.
@@ -2842,7 +2847,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Machine Learning Research Engineering](concepts/MachineLearningResearchEngineering.md) - Software, infrastructure, interfaces, and workflows that make machine-learning experiments feasible and fast enough to support research progress.
 - [Greater Internet Fuckwad Theory](concepts/GreaterInternetFuckwadTheory.md) - Internet-culture aphorism joining reduced accountability and an audience as conditions for abusive online behavior.
 - [Online Disinhibition Effect](concepts/OnlineDisinhibitionEffect.md) - Loosening of face-to-face social restraint online, with both benign and toxic forms shaped by multiple mechanisms.
-- [GraphQL](concepts/GraphQL.md) - Typed API model combining client-selected fields, resolver execution, schema discovery, and fewer application-data round trips.
+- [GraphQL](concepts/GraphQL.md) - Typed API model combining client-selected fields, resolver execution, schema discovery, and federated composition across backend boundaries.
 - [REST API](concepts/RESTAPI.md) - HTTP resource interface whose atomic, orchestration, and bulk-composition patterns trade client round trips and coupling against cache reuse and invalidation scope.
 - [Staff Meetings](concepts/StaffMeetings.md) - Recurring leadership forums governed by concrete coordination needs, distinct facilitation and recordkeeping roles, purposeful agendas, shared notes, and explicit reassessment.
 - [Product Lifecycle Trust](concepts/ProductLifecycleTrust.md) - Confidence that a product and its supporting services will last long enough to justify adoption and dependency costs.
@@ -3204,7 +3209,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Domain Model Driven Data](concepts/DomainModelDrivenData.md) - Principle that physical data-store models should follow explicit domain models and boundaries.
 - [Event-Driven Consistency](concepts/EventDrivenConsistency.md) - Distributed consistency strategy based on immutable events after local transactions.
 - [Event Log as System of Record](concepts/EventLogAsSystemOfRecord.md) - Data architecture where durable event streams are the record and databases are projections.
-- [Microservice Data Boundaries](concepts/MicroserviceDataBoundaries.md) - Domain, ownership, transaction, and integration boundaries for microservice data.
+- [Microservice Data Boundaries](concepts/MicroserviceDataBoundaries.md) - Domain, ownership, transaction, and integration boundaries for microservice data, including explicit single-writer responsibility.
 - [First-Person Shooter Evolution](concepts/FirstPersonShooterEvolution.md) - history of FPS mechanics, controls, platforms, multiplayer, narrative, and live-service progression.
 - [Work Breaks](concepts/WorkBreaks.md) - Deliberate recovery intervals that restore energy, attention, and perspective during knowledge work.
 - [Venture Capital Portfolio Sizing](concepts/VentureCapitalPortfolioSizing.md) - Choosing VC company count around startup attrition, power-law outcomes, reserves, and outlier exposure.
@@ -3993,5 +3998,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HTTPS Migration](concepts/HTTPSMigration.md) - Coordinated transition of domains, certificates, edge routing, applications, content, identity, and rollout controls from HTTP to HTTPS.
 - [Downturn Preparedness](concepts/DownturnPreparedness.md) - Preserving liquidity, manageable commitments, employability, and advance decision rules before adverse conditions narrow options.
 - [Lecture Note-Taking](concepts/LectureNoteTaking.md) - Recording and developing lecture information for encoding and review, with benefits conditional on course, assessment, and learner factors.
+
+- [Incremental Monolith Migration](concepts/IncrementalMonolithMigration.md) - Staged movement of legacy behavior through coexistence, shadowing, comparison, canaries, cutover, fallback, and removal.
+- [Minimum Viable Experience](concepts/MinimumViableExperience.md) - Identity-preserving scope boundary for migrating an established product without treating the milestone as total completion.
 
 ## Syntheses

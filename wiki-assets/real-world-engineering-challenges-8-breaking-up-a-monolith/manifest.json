@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "real-world-engineering-challenges-8-breaking-up-a-monolith",
+  "images": [
+    {
+      "file": "federated-graphql-architecture.jpg",
+      "alt": "Khan Academy architecture routing users through Fastly and a GraphQL gateway to domain services, cloud storage, and content"
+    },
+    {
+      "file": "migration-phase-statistics.jpg",
+      "alt": "Table comparing Python and Go lines of code, duration, and staffing before migration, at MVE completion, and at endgame completion"
+    },
+    {
+      "file": "first-service-routing.jpg",
+      "alt": "GraphQL federation routing about 0.01 percent of traffic to the first Go service and 99.99 percent to the Python monolith"
+    },
+    {
+      "file": "migration-traffic-progress.jpg",
+      "alt": "Illustrated migration curve rising from the first service in 2019 through 95 percent at MVE completion to 100 percent in 2023"
+    }
+  ]
+}

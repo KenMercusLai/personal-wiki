@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 3cbb961dbc6b329d7bbbb96cf90955c26bb0f863
-summary: "Durable systems match demand and workload to explicit boundaries, staged change, calibrated evidence, accountable governance, human limits, and tested recovery."
-episode_count: 983
-source_count: 983
-paragraph_count: 711
+as_of_overview_commit: 423067f3027a8ec40f0510f0fb670e3a008ae665
+summary: "Durable systems align demand, workload, people, and institutions through explicit boundaries, staged change, calibrated evidence, accountable governance, and tested recovery."
+episode_count: 984
+source_count: 984
+paragraph_count: 712
 topic_count: 9
 ---
 
@@ -17,6 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose guarantees become meaningful only under concrete failure, concurrency, latency, scaling, and migration behavior. OpenAI's [[PostgreSQLReadScaling]] case adds that replicas can extend a read-heavy single-primary system only when write-heavy work moves elsewhere, while [[DatabaseOverloadProtection]] must bound cache misses, connections, expensive queries, retries, backfills, and priority traffic before saturation cascades.
+- [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path.
 - [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms.
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value.
@@ -28,21 +29,21 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on workload fit, explicit interfaces, verification, observability, recovery, accountable human control, and leadership systems that connect capability to organizational value.
+Technical outcomes depend on workload fit, explicit interfaces, verification, observability, recovery, and accountable human control.
 
 - [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact. Evidence: [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]].
 - [[NickCraver]]'s [[StackOverflow]] case makes high-frequency delivery a compatibility system: [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] shorten integration and promotion, [[ForwardOnlyDatabaseMigration]] stages schema use and removal around adjacent versions, and [[RollingDeployment]] uses [[HAProxy]] drainage, repeated readiness checks, and static-assets-first ordering to bound mixed-version failure. Evidence: [[NickCraver]], [[StackOverflow]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], [[HAProxy]].
 
 ### Business and Markets
 
-Durable value joins demonstrated demand and sustainable economics with operating capability, reciprocal diligence, governed distribution, and risk-matched change.
+Durable value joins demonstrated demand and sustainable economics with operating capability, reciprocal diligence, and risk-matched staged change.
 
+- [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
 - [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms. Evidence: [[ProductDemandAlignment]], [[JustinJackson]], [[DatingRing]], [[JamesClear]], [[RobWalling]].
-- [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution. Evidence: [[BenjaminHardy]], [[DanSullivan]], [[DanMartell]], [[NassimNicholasTaleb]], [[ResultsEconomy]], [[ForcingFunctions]], [[SkinInTheGame]], [[ThomasStanley]].
 
 ### Cross-domain
 
-Cross-domain findings favor inspectable infrastructure, explicit replacement signals, transferable models, human constraints, and bounded recovery surfaces.
+Cross-domain findings favor inspectable infrastructure, explicit replacement signals, transferable models, human constraints, and bounded recovery.
 
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries. Evidence: [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[SpanningTreeProtocol]], [[VMware]].
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
@@ -56,7 +57,7 @@ Culture and media combine form, infrastructure, audience practice, governance, e
 
 ### Governance and Institutions
 
-Institutions need explicit authority, sequenced change, visible execution, tested recovery, appeal, accountability, and clear operational ownership.
+Institutions need explicit authority, sequenced change, visible execution, tested recovery, appeal, accountability, and clear ownership.
 
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
@@ -81,7 +82,7 @@ Health and science conclusions remain source-scoped, separating observed evidenc
 
 ### Work, Education, and Society
 
-Work and learning depend on usable tools, active practice, protected attention, fair rules, timely feedback, recovery, and support without coercive power.
+Work and learning depend on usable tools, explicit scope, protected attention, fair rules, timely feedback, recovery, and support without coercion.
 
+- [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
-- [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].
