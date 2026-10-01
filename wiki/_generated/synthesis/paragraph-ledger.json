@@ -709,12 +709,13 @@
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3",
       "996baeeaa2d2d51c2b94d96c622e3b4fc631e751306e6f6d219b01a4b4eea0a9",
       "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12",
-      "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f"
+      "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f",
+      "b35a69526aa59f530e71c13c24d7110187d5079602d8d78b73193b95d89b2577"
     ],
-    "paragraph_count": 709
+    "paragraph_count": 710
   },
-  "overview_commit": "10000ef14f9b882082e8371a424a1726f5e4d979",
-  "overview_digest": "9a34e6be9944d7dbec30fa0239228be05fb42a84b59998b57a8eaaa84beb5c64",
+  "overview_commit": "8185d2ee5b2085148d08d9d6c85a959e617a1163",
+  "overview_digest": "617bf03b52fcae17977a0f168f21377c2d1dc175f513d12461c00520b73a35c2",
   "paragraphs": [
     {
       "id": "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
@@ -14355,6 +14356,25 @@
         "KNearestNeighbors",
         "PrincipalComponentAnalysis",
         "SupportVectorMachine"
+      ]
+    },
+    {
+      "id": "b35a69526aa59f530e71c13c24d7110187d5079602d8d78b73193b95d89b2577",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[RajivPant]] source adds [[CTOOperatingModel]] as an integration of culture, technology, and operations: who the team is, what technical capabilities it sustains, and how it allocates resources and delivers. This broadens [[TechnicalLeadershipRoleDesign]] beyond a CTO/VP Engineering division. Leadership conduct and knowledge sharing shape actual norms; technical credibility supports coaching and judgment; direct engineer-to-stakeholder relationships prevent the CTO becoming a communication bottleneck; and operational discipline joins prioritization, measurement, reporting, learning, improvement, and decommissioning. Pant's diagnosis of perceived slowness also qualifies tool-centered delivery accounts: modern engineering practice cannot repair mismatched priorities or weak communication of value, progress, problems, and risks. His recommended path to support combines empathy, credible prior delivery, reciprocity, shared ownership, and repeated translation of engineering value. The evidence remains one executive's 2016 practitioner essay without comparative outcomes or stakeholder testimony, and its emotional appeals, loss framing, public commitment, and external-enemy tactic require strict truthfulness, proportionality, consent, dissent, and anti-polarization boundaries. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CTOOperatingModel",
+        "RajivPant",
+        "TechnicalLeadershipRoleDesign"
       ]
     }
   ],

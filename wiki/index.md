@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to be an effective CTO](sources/rajiv-pant-how-to-be-an-effective-cto.md) - Rajiv Pant frames CTO effectiveness as the integration of culture, technology, and operations through technical credibility, stakeholder connection, delivery discipline, and continuous learning.
 - [How and why we migrated from Heroku to Kubernetes](sources/rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes.md) - Rainforest QA's 2019 retrospective connects a staged Heroku-to-GKE migration with workload fit, rollback boundaries, CPU-throttling failure, and a rehearsed six-hour PostgreSQL cutover.
 - [Quip - Why Quip doesn't have platform-specific engineering teams](sources/quip-why-quip-doesnt-have-platform-specific-engineering-teams.md) - Quip argues that shared C++ data infrastructure, selective web views, expert enablement, and limited native glue can support feature ownership across clients while leaving its claimed outcomes unmeasured.
 - [Questions to Ask Your Interviewer](sources/questions-to-ask-your-interviewer.md) - Randall Koutnik turns technical interviews into two-way diligence through specific questions, concrete examples, and probes into role scope, engineering operations, authority, communication, feedback, and growth.
@@ -1005,6 +1006,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Rajiv Pant](entities/RajivPant.md) - Technology executive represented through an integrated Culture–Technology–Operations model of CTO leadership.
 - [Rainforest QA](entities/RainforestQA.md) - Software-testing company represented through its managed-platform choices, staged application cutover, and rehearsed database migration.
 - [Quip](entities/Quip.md) - Cross-platform productivity-software company represented through its feature-oriented, shared-infrastructure engineering model.
 - [Randall Koutnik](entities/RandallKoutnik.md) - Software-industry writer presenting specific questions and recent examples as tools for candidate-side employer diligence.
@@ -2671,6 +2673,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [CTO Operating Model](concepts/CTOOperatingModel.md) - Framework treating culture, technology, and operations as interdependent technology-executive accountabilities.
 - [Usage Moment Fit](concepts/UsageMomentFit.md) - Alignment between a product and the recurring state, routine, or transition that makes it salient at a specific moment of choice.
 - [Image Classification](concepts/ImageClassification.md) - Assigning images to predefined labels, illustrated through a qualified raw-pixel and PCA-based Pokémon experiment.
 - [Principal Component Analysis](concepts/PrincipalComponentAnalysis.md) - Linear dimensionality reduction through orthogonal directions ordered by captured variance.

@@ -7883,3 +7883,11 @@ Created [[RainforestQA]] and updated [[Heroku]], [[GoogleKubernetesEngine]], and
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | How to be an effective CTO
+
+Created [[RajivPant]] and [[CTOOperatingModel]], and updated [[TechnicalLeadershipRoleDesign]] from its complete ordered evidence inventory. Recorded culture, technology, and operations as interdependent CTO accountabilities; leadership behavior and knowledge sharing as cultural mechanisms; technical credibility without micromanagement; direct stakeholder connection; portfolio and resource judgment; measurement, learning, improvement, and decommissioning; and value translation as part of technical leadership. Preserved the single-practitioner, historical, missing-comparative-outcome, title-allocation, and stakeholder-testimony limits, and bounded emotional appeals, reciprocity, public commitment, loss framing, and external-enemy tactics by truthfulness, proportionality, consent, legitimate dissent, and anti-polarization requirements. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint; the report was printed but not saved. Deterministic and graph-aware checks completed, while semantic checks were unavailable because the configured LiteLLM model lacked a provider prefix.
