@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 758a64b0da3019fd7fd3588b0cd0de572da9dc6f
+as_of_overview_commit: 9e3d35953c3bd03fdb149a2f9037a20ea8dc4367
 summary: "Durable outcomes depend on explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human-centered judgment."
-episode_count: 962
-source_count: 962
-paragraph_count: 699
+episode_count: 963
+source_count: 963
+paragraph_count: 700
 topic_count: 9
 ---
 
@@ -68,7 +68,7 @@ Historical spillovers require attention to lineage, dated context, path dependen
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, state-aware self-control, reflection, calibrated risk, restorative recovery, consent, and structural constraints.
+Human learning and behavior depend on bounded attention, calibrated evidence, reflection, restorative recovery, consent, and structural constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the principle to products, [[VisualAttention]] and [[AutomaticAdvertisingInfluence]] qualify conscious control, and [[DigitalCompulsionRegulation]] adds the possibility that practical agency may require externally mandated stopping cues and controls when repeated triggers are profitable. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]], [[DigitalCompulsionRegulation]], [[EngagementIncentiveConflict]], [[MichaelSchulson]].

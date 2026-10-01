@@ -7739,3 +7739,11 @@ Updated [[GaryVaynerchuk]], [[CreatorPlatformMetrics]], and [[VanityMetrics]] fr
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Student Note-Taking Related to University Examination Performance
+
+Added [[LectureNoteTaking]], [[PaulineNye]], [[TerenceCrooks]], [[MelaniePowley]], and [[GailTripp]]. Recorded the 38-student naturalistic study's strong relationship between note quantity and examination performance, its larger correlations among diligent attendees, and the stronger multiple-choice than essay association. Preserved the observational design, sampling, confounding, measurement, course, assessment, and generalizability limits rather than treating word count as a causal or universal study rule. The supplied Markdown contains no effective image references.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

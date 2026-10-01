@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "304e6afb0b7b4f5ef4d9bec1124666be0b178c01c3c236bf35fe671f88770e4c",
       "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
       "e22914406d0d1591184b7844f8a89a2d6e401535345313557da9f4990f6200b9",
       "d1e31392d3d2b52b3b8e8be2089332691bb06f0e6a9ce67d2055b325546ed15e",
@@ -701,11 +702,28 @@
       "3c1b29bc9f00b027b838ce75c37fa52ab2588c275e68afb4a062617d4547b4cd",
       "28a0d00f4ba3ad56b5b4640e790298be5b0cfbc1174742b1b58f9fd7d0b1cdf3"
     ],
-    "paragraph_count": 699
+    "paragraph_count": 700
   },
-  "overview_commit": "758a64b0da3019fd7fd3588b0cd0de572da9dc6f",
-  "overview_digest": "e404b22fca57a82af265dfa7fe0cbd23a63e344e5fb8483f4afb96f6d8e43b06",
+  "overview_commit": "9e3d35953c3bd03fdb149a2f9037a20ea8dc4367",
+  "overview_digest": "f9ff60dbd04708d20e9f2904f1cdbe7c84d4a4217979e2a2a2c92060456244ee",
   "paragraphs": [
+    {
+      "id": "304e6afb0b7b4f5ef4d9bec1124666be0b178c01c3c236bf35fe671f88770e4c",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[PaulineNye]], [[TerenceCrooks]], [[MelaniePowley]], and [[GailTripp]] source adds [[LectureNoteTaking]] as an empirically bounded study-strategy topic. In one 1981 University of Otago introductory-psychology course, total words recorded across ten target lectures correlated 0.72 with combined final-exam score and remained strongly associated among high-attendance students, separating access to a lecture from how much content a student captured. The stronger relationship with a 210-question multiple-choice paper than with a four-of-twelve essay paper suggests that broad content sampling, recall orientation, reliability, and limited textbook overlap can make omitted lecture material more consequential. This qualifies categorical advice to keep notes extremely brief, but it does not turn word count into a universal prescription: 38 note-supplying students from one course were not assigned strategies, and motivation, prior aptitude, comprehension, writing speed, review behavior, selection, and measurement remain plausible explanations. Counts of layout and emphasis did not predict consistently, yet they also did not measure semantic organization. The durable conclusion is therefore conditional: fuller notes may help preserve distinctive, broadly tested lecture content, while causal effects and the optimal balance between capture, attention, and later processing remain unresolved. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "psychology-and-personal-development": 4,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "GailTripp",
+        "LectureNoteTaking",
+        "MelaniePowley",
+        "PaulineNye",
+        "TerenceCrooks"
+      ]
+    },
     {
       "id": "e8941c36c505fa3e91d103746361004dc6864f3d6070d5b988f4db287416b704",
       "primary_topic": "business-and-markets",

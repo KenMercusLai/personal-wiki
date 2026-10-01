@@ -985,6 +985,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [No Meetings, No Deadlines, No Full-Time Employees](sources/no-meetings-no-deadlines-no-full-time-employees.md) - Sahil Lavingia describes Gumroad's asynchronous contractor-only model, its incremental delivery system and reported results, and its explicit tradeoffs in benefits and advancement.
 - [Not Saying Winter is Coming, But Where's Your Coat?](sources/not-saying-winter-is-coming-but-wheres-your-coat-facebook.md) - Kent Beck uses his post-boom consulting reversal to argue for cash, lower commitments, sustainable work, and rehearsed responses before a downturn narrows options.
 - [Not all VCs are assholes](sources/not-all-vcs-are-assholes-mitchell-harper-medium.md) - Mitchell Harper uses BigCommerce's rejection-heavy fundraising history to define investor fit through conduct, operating experience, reserves, governance support, and understandable terms.
+- [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
 - [Nova Kwok](entities/NovaKwok.md) - Engineer-author represented through a critical reflection on context switching, attention, and self-control.
@@ -2630,6 +2631,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sahil Lavingia](entities/SahilLavingia.md) - Gumroad founder represented through his account of shifting the company from growth at all costs to a flexibility-first contractor model.
 - [Gumroad](entities/Gumroad.md) - Creator-commerce company represented through its January 2021 asynchronous, contractor-only operating design.
 - [BigCommerce](entities/BigCommerce.md) - E-commerce software company represented through Mitchell Harper's account of raising $125 million across four venture rounds.
+- [Pauline A. Nye](entities/PaulineNye.md) - University of Otago researcher and coauthor of a naturalistic study of student note-taking and examination performance.
+- [Terence J. Crooks](entities/TerenceCrooks.md) - University of Otago researcher represented through a course-scale study of lecture notes and assessment.
+- [Melanie Powley](entities/MelaniePowley.md) - University of Otago researcher represented through a naturalistic analysis of note-taking behavior.
+- [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
 - [Self-Control Psychology](concepts/SelfControlPsychology.md) - State- and feedback-based account of how physiology, reward cues, stress, self-evaluation, and long-term aims shape deliberate choice.
@@ -3921,5 +3926,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Niche to Win](concepts/NicheToWin.md) - Early-stage strategy pairing a narrow customer definition with a focused product and message to earn a survival-and-learning foothold before expansion.
 - [HTTPS Migration](concepts/HTTPSMigration.md) - Coordinated transition of domains, certificates, edge routing, applications, content, identity, and rollout controls from HTTP to HTTPS.
 - [Downturn Preparedness](concepts/DownturnPreparedness.md) - Preserving liquidity, manageable commitments, employability, and advance decision rules before adverse conditions narrow options.
+- [Lecture Note-Taking](concepts/LectureNoteTaking.md) - Recording and developing lecture information for encoding and review, with benefits conditional on course, assessment, and learner factors.
 
 ## Syntheses
