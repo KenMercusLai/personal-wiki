@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4ec18debf3dce0f9293bababd292351ed9a736718b29dc1c8c9fd279cf8b4ad9",
       "8b91f41af36eac1d24d3d59825ff1f03bfa818117f7e882755a0d8c97f19ac22",
       "7e156b6a4b17967c859064445af94673acbdfe34c16de36d88b9ebe0878a0769",
       "e74a1cc2a02620665fede098685592cd2a97d99dc285cee551aa807880539425",
@@ -722,11 +723,32 @@
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
       "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279"
     ],
-    "paragraph_count": 720
+    "paragraph_count": 721
   },
-  "overview_commit": "dbe5039a898e7c693882f7db8da33777b963d28f",
-  "overview_digest": "8966d7c34285a54c2f330a034d5442c827f3a7726bb45f040cd4e7e8c5046ef7",
+  "overview_commit": "ec1c361f8c64449a5dbbf6f13d50a30cae860f47",
+  "overview_digest": "39555bc88f3aa3919c4e7c891e2644a473fcaac867100d82764516b5203ed48a",
   "paragraphs": [
+    {
+      "id": "4ec18debf3dce0f9293bababd292351ed9a736718b29dc1c8c9fd279cf8b4ad9",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[SeanGoedecke]] source adds [[PragmaticSystemDesign]] as a joined model of service architecture rather than a catalogue of impressive components. Its default is a simple working system that earns complexity through concrete latency, scale, durability, or organizational constraints. Durable state receives the strongest restraint: one service normally owns domain writes, schemas remain legible, indexes match common queries, lag-tolerant reads move to replicas, and write or transaction spikes are throttled before overload feeds on itself. The same workload test governs background jobs, long-term scheduling, caching, events, and push versus pull: interactive paths do the minimum useful synchronous work, caches follow optimization of the underlying operation, and asynchronous indirection is justified by decoupling or volume rather than fashion. [[SystemReliability]] completes the model through hot-path focus, unhappy-path decision logs, p95 and p99 latency, bounded retries, circuit breakers, idempotency for ambiguous writes, and explicit fail-open or fail-closed semantics. The essay remains a first-person 2025 synthesis biased toward SQL-backed applications and large companies with existing infrastructure primitives; it provides no comparative measurements and deliberately leaves service decomposition, tracing, API design, containers, and virtual machines largely outside scope. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "PragmaticSystemDesign",
+        "SeanGoedecke",
+        "SystemReliability"
+      ]
+    },
     {
       "id": "8b91f41af36eac1d24d3d59825ff1f03bfa818117f7e882755a0d8c97f19ac22",
       "primary_topic": "ai-and-technology",

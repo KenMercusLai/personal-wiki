@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Everything I know about good system design](sources/sean-goedecke-everything-i-know-about-good-system-design.md) - Sean Goedecke joins simplicity, state ownership, workload-shaped data paths, hot-path observability, and explicit failure semantics into a pragmatic architecture guide.
 - [Brand Vocabulary in the Context of UX: Key Terms Defined](sources/sarah-gibbons-kate-kaplan-brand-vocabulary-in-the-context-of-ux-key-terms-defined.md) - Sarah Gibbons and Kate Kaplan connect brand promise, personality, attributes, vision, mission, and principles to UX decisions at different scales.
 - [Sam Altman：十年很短，一日很长](sources/sam-altman-shi-nian-hen-duan-yi-ri-hen-chang.md) - A translated age-30 reflection connects finite time, close relationships, meaningful work, learning, financial freedom, protected attention, and action under uncertainty.
 - [Sam Altman的创业手册](sources/sam-altman-de-chuang-ye-shou-ce.md) - Sam Altman links idea testing, founder quality, intense early user love, direct customer learning, focused execution, retained growth, hiring, profitability, and financing into a qualified startup playbook.
@@ -1021,6 +1022,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning from the Post-Mortem](sources/rule-11-reader-learning-from-the-post-mortem.md) - Russ White proposes mapping setup, detection, and troubleshooting workflows so postmortems change systems and preserve reusable incident knowledge.
 
 ## Entities
+- [Sean Goedecke](entities/SeanGoedecke.md) - Software engineer and writer represented through a simplicity-first, state-centered, and failure-aware approach to system design.
 - [Nielsen Norman Group](entities/NielsenNormanGroup.md) - UX research and guidance organization represented as publisher of the six-part brand-vocabulary framework.
 - [Kate Kaplan](entities/KateKaplan.md) - Nielsen Norman Group coauthor connecting shared brand terminology to UX decisions.
 - [Sarah Gibbons](entities/SarahGibbons.md) - Nielsen Norman Group coauthor connecting shared brand terminology to UX decisions.
@@ -2703,6 +2705,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robin Marx](entities/RobinMarx.md) - Web-performance and protocol researcher represented through packet-level analysis of HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking.
 
 ## Concepts
+- [Pragmatic System Design](concepts/PragmaticSystemDesign.md) - Context-sensitive service architecture built around clear state ownership, real workload constraints, mature components, observable hot paths, and bounded failure behavior.
 - [Brand Framework](concepts/BrandFramework.md) - Shared decision vocabulary connecting a durable promise to personality, attributes, vision, mission, principles, positioning, and UX execution.
 - [Intentional Life Design](concepts/IntentionalLifeDesign.md) - Allocating finite time, attention, money, health, and relationships by chosen values while retaining freedom to act on worthwhile opportunities.
 - [Network Resilience Trade-offs](concepts/NetworkResilienceTradeoffs.md) - Multi-objective design of failure tolerance, cost, throughput, state, simplicity, and interaction surfaces across software and networking.

@@ -8003,3 +8003,11 @@ Created [[BrandFramework]], [[SarahGibbons]], [[KateKaplan]], and [[NielsenNorma
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Everything I know about good system design
+
+Created [[SeanGoedecke]] and [[PragmaticSystemDesign]] from the complete article. Recorded simplicity as the default, clear ownership and minimization of durable state, workload-shaped schemas and queries, background work, bounded caching and events, push-pull tradeoffs, hot-path focus, unhappy-path observability, tail latency, circuit breakers, idempotency, and explicit fail-open or fail-closed behavior. Preserved the author's context-dependent exceptions, large-company and SQL-backed application scope, omitted architecture topics, and lack of comparative measurements. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
