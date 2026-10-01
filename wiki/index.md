@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Marc Benioff: Win Customers by Treating Them Like Partners](sources/marc-benioff-win-customers-by-treating-them-like-partners.md) - Benioff links pioneer targeting, network-led sales, free design partners, prioritized feedback, rapid shipping, and low-risk monthly conversion in Salesforce's first-customer account.
 - [24 岁就能采访顶级大佬：Dwarkesh 如何用 AI 做深度准备？](sources/mai-yang-dwarkesh-ru-he-yong-ai-zuo-shen-du-zhun-bei.md) - Mai Yang presents Dwarkesh Patel's depth-first preparation, trust-building, conversational LLM reading, spaced review, and knowledge-integration workflow while preserving its secondary and unmeasured evidence base.
 - [Dear friend, you have built a Kubernetes](sources/mac-chaffee-dear-friend-you-have-built-a-kubernetes.md) - Mac Chaffee warns that avoiding Kubernetes can recreate its deployment, networking, discovery, immutable-node, and control-plane responsibilities as a less standardized custom stack.
 - [10 Lessons from Product Hunt's Success](sources/loic-le-meur-10-lessons-from-product-hunts-success.md) - Loic Le Meur attributes Product Hunt's early growth to a focused mailing-list community, selective access, direct recruitment, contributor recognition, public sharing, and product simplicity while leaving causality and inclusion costs unmeasured.
@@ -950,6 +951,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Marc Benioff](entities/MarcBenioff.md) - Salesforce founder represented through a trust-first, customer-partnership account of early sales and product learning.
+- [Blue Martini Software](entities/BlueMartiniSoftware.md) - Salesforce's first customer and design partner, reported as moving from spreadsheets to hosted CRM within two weeks before converting to payment.
 - [Dwarkesh Patel](entities/DwarkeshPatel.md) - Podcast host represented through a secondary account of research-intensive interviews, trust-building, and AI-supported learning.
 - [Mac Chaffee](entities/MacChaffee.md) - Infrastructure writer who cautions teams to count the orchestration responsibilities they may recreate after rejecting Kubernetes.
 - [Loic Le Meur](entities/LoicLeMeur.md) - Observer whose 2015 Product Hunt essay links curated access, recognition, responsiveness, and public sharing to early community growth.

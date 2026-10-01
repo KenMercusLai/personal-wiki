@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: f46d51d69621ea03ffbc6e3319f2eb10627e031c
+as_of_overview_commit: 83a5bcb49ddc54bce05232814115072a24e26012
 summary: "Knowledge advances through calibrated evidence, bounded experiments, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 925
-source_count: 925
-paragraph_count: 681
+episode_count: 926
+source_count: 926
+paragraph_count: 682
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit boundaries, calibrated evidence, workload 
 
 ### Business and Markets
 
-Durable value joins prepared opportunity selection, customer outcomes, sustainable economics, governed distribution, fair allocation, evidence, and survival.
+Durable value joins customer learning, prepared opportunity selection, sustainable economics, governed distribution, fair allocation, calibrated evidence, and survival.
 
 - [[MultiSiteHighAvailability]] protects progressively wider failure boundaries, but cross-city operation requires local read-write loops, explicit ownership through [[TrafficUnitization]] or an equivalent model, bounded state convergence, and tested routing and failover rather than merely adding sites. Evidence: [[Kaito]], [[MultiSiteHighAvailability]], [[TrafficUnitization]], [[SystemReliability]], [[CloudHighAvailability]].
 - [[WebsiteBusinessValuation]] separates normalized earnings from the buyer-confidence multiple: durable history, transferable systems, diversified dependencies, lower owner dependence, measurable audience value, and [[StartupDefensibility]] can support a higher multiple, while [[PlatformDistributionDependence]] and value-reducing cost cuts weaken it. Evidence: [[WebsiteBusinessValuation]], [[GregElfrink]], [[StartupDefensibility]], [[PlatformDistributionDependence]].

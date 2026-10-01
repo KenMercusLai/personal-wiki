@@ -681,12 +681,13 @@
       "1ccd49ceeea58120187559b6c02fc50bcdc24c5d4f486d1c369f6542c1bb23cf",
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
-      "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f"
+      "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f",
+      "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec"
     ],
-    "paragraph_count": 681
+    "paragraph_count": 682
   },
-  "overview_commit": "f46d51d69621ea03ffbc6e3319f2eb10627e031c",
-  "overview_digest": "d3366948b6dbc70f6c7b8185ae9dc97bfaefa2e931b258cbc0f425c0bbe2d428",
+  "overview_commit": "83a5bcb49ddc54bce05232814115072a24e26012",
+  "overview_digest": "1690f54dc09d20a520218c4374d1bb96fe543df63c78fd9c01470f9556962436",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13801,6 +13802,26 @@
         "Kodak",
         "LossAversion",
         "TenXThinking"
+      ]
+    },
+    {
+      "id": "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[MarcBenioff]] source adds early [[Salesforce]] as a joined sales, product-learning, and conversion loop. A prior relationship opened access to [[BlueMartiniSoftware]], but the sale still addressed a concrete asymmetry: its team needed CRM while lacking the money and implementation capacity for traditional enterprise software, and Salesforce reportedly delivered a hosted service within two weeks. Before a formal sales organization, the whole team prospected through personal networks and targeted pioneers willing to accept hosted-data risk. Five free pilots became design partners whose frequent contact, in-product ideas, request tracking, rapid engineering response, satisfaction checks, and observed use sharpen [[CustomerLedProductDevelopment]]; payment followed demonstrated usefulness through monthly billing and low exit cost, extending [[FreemiumAcquisition]] beyond automated trials. [[FounderLedSales]] gains a proposed handoff boundary: Salesforce hired its first dedicated salesperson only after the product had measurable value. The account remains a favorable founder-authored excerpt with no rejected-request record, conversion denominator, retention cohort, security outcome, comparative customer group, or independent basis for attributing later success to the loop. The supplied Markdown contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BlueMartiniSoftware",
+        "CustomerLedProductDevelopment",
+        "FounderLedSales",
+        "FreemiumAcquisition",
+        "MarcBenioff",
+        "Salesforce"
       ]
     }
   ],

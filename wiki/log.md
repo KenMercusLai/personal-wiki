@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Marc Benioff: Win Customers by Treating Them Like Partners
+
+Added [[MarcBenioff]] and [[BlueMartiniSoftware]], and updated [[Salesforce]], [[FounderLedSales]], [[CustomerLedProductDevelopment]], and [[FreemiumAcquisition]] from their complete ordered evidence inventories. Recorded pioneer targeting, network-led prospecting, rapid hosted-CRM deployment, free design partners, in-product idea capture, prioritized request tracking, fast response, satisfaction checks, observed use, and low-risk monthly conversion while preserving the absence of rejected-request, conversion-denominator, retention, security, comparison, and independent causal evidence. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
 ## [2026-10-01] ingest | 24 岁就能采访顶级大佬：Dwarkesh 如何用 AI 做深度准备？
 
 Added [[DwarkeshPatel]] and [[DeepPreparation]], and updated [[MaiYang]], [[Claude]], [[LearningHowToLearn]], and [[AIKnowledgeAssistant]] from their complete ordered evidence inventories. Recorded research-intensive interview preparation, trust and referral effects, quality-over-volume publishing, conversational reading, counterargument, bounded flashcard generation, spaced review, and cross-domain integration while preserving the secondary nature of the account and the absence of measured support for its “10x” efficiency framing. Opened the sole local image and omitted it as a decorative “Learn Anything with AI” portrait thumbnail that adds no evidence beyond the prose, so no asset manifest was created.
@@ -7439,6 +7443,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Dear friend, you have built a Kubernetes
 
 Added [[MacChaffee]] and updated [[Kubernetes]], [[BoringTechnology]], and [[EssentialAndAccidentalComplexity]] from their complete ordered evidence inventories. Recorded how deployment scripts, Docker Compose, multi-host networking, service discovery, Ansible-managed nodes, and a restricted Docker API can accumulate into an informal orchestrator, while preserving the article's explicit allowance for bounded custom deployment methods and the corpus's successful small-system counterexample. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 
