@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | 24 岁就能采访顶级大佬：Dwarkesh 如何用 AI 做深度准备？
+
+Added [[DwarkeshPatel]] and [[DeepPreparation]], and updated [[MaiYang]], [[Claude]], [[LearningHowToLearn]], and [[AIKnowledgeAssistant]] from their complete ordered evidence inventories. Recorded research-intensive interview preparation, trust and referral effects, quality-over-volume publishing, conversational reading, counterargument, bounded flashcard generation, spaced review, and cross-domain integration while preserving the secondary nature of the account and the absence of measured support for its “10x” efficiency framing. Opened the sole local image and omitted it as a decorative “Learn Anything with AI” portrait thumbnail that adds no evidence beyond the prose, so no asset manifest was created.
+
 ## [2026-10-01] ingest | Knowledge Processing System for Marketers, Creators, and Knowledge Workers
 
 Added [[AndreChaperon]], [[TheArchive]], [[Tinderbox]], and [[FirstPrinciplesThinking]], and updated [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[NoteToolFit]], [[SecondBrain]], [[NiklasLuhmann]], and [[ChristianTietze]] from their complete ordered evidence inventories. Recorded the upstream PKM-to-workflow-to-writing model, the fleeting-to-permanent note boundary, own-words comprehension test, contextual retrieval, open-file preference, optional visual mapping, and the qualification that one enthusiastic 2019 macOS workflow does not demonstrate cognitive or creative gains. Opened all nine distinct remote images plus the duplicated lead reference; retained eight evidence-bearing workflow, capture, card, search, note, application, and relationship images under descriptive canonical filenames, omitted the Luhmann portrait as decorative, and noted that the final local author avatar was missing but decorative.
@@ -7435,3 +7439,7 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Dear friend, you have built a Kubernetes
 
 Added [[MacChaffee]] and updated [[Kubernetes]], [[BoringTechnology]], and [[EssentialAndAccidentalComplexity]] from their complete ordered evidence inventories. Recorded how deployment scripts, Docker Compose, multi-host networking, service discovery, Ansible-managed nodes, and a restricted Docker API can accumulate into an informal orchestrator, while preserving the article's explicit allowance for bounded custom deployment methods and the corpus's successful small-system counterexample. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

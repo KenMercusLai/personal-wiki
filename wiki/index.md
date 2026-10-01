@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [24 岁就能采访顶级大佬：Dwarkesh 如何用 AI 做深度准备？](sources/mai-yang-dwarkesh-ru-he-yong-ai-zuo-shen-du-zhun-bei.md) - Mai Yang presents Dwarkesh Patel's depth-first preparation, trust-building, conversational LLM reading, spaced review, and knowledge-integration workflow while preserving its secondary and unmeasured evidence base.
 - [Dear friend, you have built a Kubernetes](sources/mac-chaffee-dear-friend-you-have-built-a-kubernetes.md) - Mac Chaffee warns that avoiding Kubernetes can recreate its deployment, networking, discovery, immutable-node, and control-plane responsibilities as a less standardized custom stack.
 - [10 Lessons from Product Hunt's Success](sources/loic-le-meur-10-lessons-from-product-hunts-success.md) - Loic Le Meur attributes Product Hunt's early growth to a focused mailing-list community, selective access, direct recruitment, contributor recognition, public sharing, and product simplicity while leaving causality and inclusion costs unmeasured.
 - [23andMe Founder Anne Wojcicki Berates Stanford and Valley Med on Behalf of Sick Friend](sources/lisa-krieger-23andme-founder-anne-wojcicki-berates-stanford-and-valley-med.md) - Lisa M. Krieger reports how insurance, payment, medical-record, and specialist-navigation barriers compounded in one critical-care transfer, and how unusually prominent advocacy helped overcome them.
@@ -949,6 +950,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Dwarkesh Patel](entities/DwarkeshPatel.md) - Podcast host represented through a secondary account of research-intensive interviews, trust-building, and AI-supported learning.
 - [Mac Chaffee](entities/MacChaffee.md) - Infrastructure writer who cautions teams to count the orchestration responsibilities they may recreate after rejecting Kubernetes.
 - [Loic Le Meur](entities/LoicLeMeur.md) - Observer whose 2015 Product Hunt essay links curated access, recognition, responsiveness, and public sharing to early community growth.
 - [Anne Wojcicki](entities/AnneWojcicki.md) - 23andMe founder represented through a source-bounded case of prominent patient advocacy and healthcare-system criticism.
@@ -2563,6 +2565,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 
 ## Concepts
+- [Deep Preparation](concepts/DeepPreparation.md) - Concentrated research, expert consultation, active questioning, review, and synthesis intended to improve understanding, conversation quality, and durable trust.
 - [Patient Advocacy](concepts/PatientAdvocacy.md) - Coordinated escalation, information gathering, coverage help, and care navigation whose availability is itself unequally distributed.
 - [Healthcare Access Barriers](concepts/HealthcareAccessBarriers.md) - Interacting financial, informational, administrative, institutional, and navigation obstacles to evaluation and treatment.
 - [File Timestamp Filtering](concepts/FileTimestampFiltering.md) - Selecting files around modification-time cutoffs with reference files or direct date parsing while making comparison boundaries and portability explicit.
