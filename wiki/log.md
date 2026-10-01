@@ -7423,3 +7423,11 @@ Added [[AnneWojcicki]], [[23andMe]], [[StanfordMedicalCenter]], [[SantaClaraVall
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | 10 Lessons from Product Hunt's Success
+
+Added [[LoicLeMeur]] and updated [[ProductHunt]], [[RyanHoover]], [[CommunityNormSeeding]], and [[BuildInPublic]] from their complete ordered evidence inventories. Recorded Product Hunt's reported mailing-list origin, selective participation rights, one-to-one recruitment, contributor recognition, founder visibility, maker-success amplification, responsiveness, simple interface, and API advice. Preserved the boundary that the article is a 2015 observer's retrospective without comparative, cohort, retention, moderation, or attribution evidence, and made explicit the exclusion and status-bias risks of influence-based recruitment and gated access. Opened the sole local image and omitted it as an avatar-like portrait that adds no evidence beyond the caption, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

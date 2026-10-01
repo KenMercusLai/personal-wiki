@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [10 Lessons from Product Hunt's Success](sources/loic-le-meur-10-lessons-from-product-hunts-success.md) - Loic Le Meur attributes Product Hunt's early growth to a focused mailing-list community, selective access, direct recruitment, contributor recognition, public sharing, and product simplicity while leaving causality and inclusion costs unmeasured.
 - [23andMe Founder Anne Wojcicki Berates Stanford and Valley Med on Behalf of Sick Friend](sources/lisa-krieger-23andme-founder-anne-wojcicki-berates-stanford-and-valley-med.md) - Lisa M. Krieger reports how insurance, payment, medical-record, and specialist-navigation barriers compounded in one critical-care transfer, and how unusually prominent advocacy helped overcome them.
 - [Linux: Using find to Locate Files Older Than a Date](sources/linux-using-find-to-locate-files-older-than.md) - A Server Fault capture explains reference-file and direct-date modification-time filters while exposing equality, timestamp-type, and parser-portability boundaries.
 - [新年新开始：从为什么到写什么，带你重新认识日记](sources/larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji.md) - Lars漫步 organizes journaling around retrospective review, emotional clarification, gratitude, achievement evidence, and choice reflection while preserving the limits of its practitioner and secondary evidence.
@@ -947,6 +948,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Loic Le Meur](entities/LoicLeMeur.md) - Observer whose 2015 Product Hunt essay links curated access, recognition, responsiveness, and public sharing to early community growth.
 - [Anne Wojcicki](entities/AnneWojcicki.md) - 23andMe founder represented through a source-bounded case of prominent patient advocacy and healthcare-system criticism.
 - [23andMe](entities/23andMe.md) - Consumer-genetics company whose founder affiliation amplified Anne Wojcicki's visibility in the reported hospital-transfer case.
 - [Stanford Medical Center](entities/StanfordMedicalCenter.md) - Advanced-care destination that reportedly required payment assurance before accepting an uninsured critical patient.
@@ -957,7 +959,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Archive](entities/TheArchive.md) - Plain-text macOS note application used for timestamp-identified, linked permanent notes.
 - [Tinderbox](entities/Tinderbox.md) - Visual note environment used to map typed relationships among concepts and qualifications.
 - [Inside.com](entities/InsideCom.md) - Digital-news startup represented through its shift from a praised but non-growing app to a smaller email-brief operation built on an existing audience.
-- [Ryan Hoover](entities/RyanHoover.md) - Early PlayHaven product manager represented through a startup turnaround and a learning- and fit-led decision to leave.
+- [Ryan Hoover](entities/RyanHoover.md) - Product manager and Product Hunt co-founder represented through PlayHaven learning, a fit-led departure, and public but curated early-community formation.
 - [PlayHaven](entities/PlayHaven.md) - Mobile-gaming startup represented through contraction, a product rebuild, reported commercial growth, and later role specialization.
 - [Brad Burnham](entities/BradBurnham.md) - Union Square Ventures partner who articulated the search-style job-listing model that preceded the firm's Indeed investment.
 - [Indeed](entities/Indeed.md) - Job-search company represented as a close match to USV's prepared opportunity model and a persistently pursued 2005 investment.
@@ -1014,7 +1016,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ray Dalio](entities/RayDalio.md) - Investor represented through regime-diversified allocation and a 1937 analogy connecting populism, conflict, and market risk.
 - [John Saito](entities/JohnSaito.md) - Product writer and designer represented through a contextual framework for grammatical perspective in interfaces.
 - [Flawless App](entities/FlawlessApp.md) - iOS design-comparison developer tool represented through a high-attention, feedback-rich, but modestly converting Product Hunt launch.
-- [Product Hunt](entities/ProductHunt.md) - Community discovery platform whose launches and former podcast category could concentrate attention while leaving creators exposed to attribution limits and category removal.
+- [Product Hunt](entities/ProductHunt.md) - Curated discovery platform whose early community formation, launch attention, and former podcast category expose both participatory leverage and platform-controlled limits.
 - [NordVPN](entities/NordVPN.md) - Consumer VPN provider represented through a source-scoped dispute over review incentives, marketing, corporate relationships, product failures, and unsupported surveillance allegations.
 - [Tesonet](entities/Tesonet.md) - Technology company alleged by VPNscam.com to own or back NordVPN, with the exact relationship and claimed data-mining role unresolved in the supplied source.
 - [VPNscam.com](entities/VPNscamCom.md) - Adversarial VPN-review publication whose useful diligence questions are mixed with weak inference about covert intent.
@@ -2767,7 +2769,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Empty State Design](concepts/EmptyStateDesign.md) - Context-sensitive design of first-use, failure, and user-cleared screens that explain absent content and provide an appropriate path forward.
 - [Tokenized Employee Incentives](concepts/TokenizedEmployeeIncentives.md) - Tradeable project-token compensation that enables earlier liquidity and peer exchange while introducing market, horizon, concentration, and governance risks.
 - [Loss Aversion](concepts/LossAversion.md) - The tendency for losses to weigh more heavily than comparable gains, without implying better judgment or outcomes.
-- [Community Norm Seeding](concepts/CommunityNormSeeding.md) - Deliberate early support, examples, curation, and constraints that establish behaviors later community members can copy and teach.
+- [Community Norm Seeding](concepts/CommunityNormSeeding.md) - Early support, examples, selective access, recognition, curation, and constraints that establish behaviors later participants can copy and teach.
 - [Managing Up](concepts/ManagingUp.md) - Employee practice of making feedback, priorities, follow-up, and relationship repair explicit while preserving managerial accountability.
 - [Microservice Platform Engineering](concepts/MicroservicePlatformEngineering.md) - Shared governance, runtime infrastructure, contracts, testing, isolation, and operational controls that make independently owned services repeatable to build and safer to operate.
 - [Emergent Layer Theory](concepts/EmergentLayerTheory.md) - Interpretive model in which abstraction makes a constraint abundant, unlocks a higher-order purpose, and relocates advantage to a new bottleneck.
@@ -3447,7 +3449,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates ideation, drafting, checking, voice cleanup, titles, visuals, and layout while humans retain argument, taste, verification, and accountability.
 - [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines and exploratory loops grounded in source material and human judgment.
 - [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing and rough draft material.
-- [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
+- [Build In Public](concepts/BuildInPublic.md) - Publicly sharing product formation, participants, feedback, decisions, and outcomes while treating visibility and contribution access as separate choices.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income, qualified by the risk of fragmenting compounding.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
 - [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
