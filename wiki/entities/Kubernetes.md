@@ -14,6 +14,7 @@ sources:
   - ibms-old-playbook-stratechery-by-ben-thompson
   - kubernetes-maybe-a-few-bashpython-scripts-is-enough
   - mac-chaffee-dear-friend-you-have-built-a-kubernetes
+  - rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes
 last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
@@ -26,7 +27,9 @@ The sources split Kubernetes into several roles. Wang Ziting's retrospective tre
 
 Three practitioner critiques make fit an explicit systems question. Ben Houston reports that Kubernetes removed bare-metal management but added cluster cost, slow autoscaling, staffing needs, and ecosystem-specific complexity for workloads that fit a narrower managed platform. The Binary Igor essay broadens the comparison: Kubernetes should be counted together with cluster operation, manifest storage, state synchronization, packaging, build, deployment, monitoring, secrets, and backup tooling. For a few predictable deployment units on a few machines, managed containers or reproducible scripts may supply the required behavior with a smaller abstraction surface, although the local team then owns the failure handling Kubernetes or a provider would have supplied. Mac Chaffee supplies the reverse warning: as a custom stack adds rollout, rollback, scaling, overlay networking, discovery, immutable configuration, and a restricted control API, it can reconstruct the orchestrator's responsibilities without its standard platform boundary.
 
-The positive cases define the other side of that boundary. Managed Kubernetes hosted US and European Jelly Button ingestion clusters behind a global load balancer, with pod and node autoscaling, for a latency-sensitive stream reported at about 500 events per second. Chick-fil-A planned more than 2,000 restaurant clusters with tens of containers each to sustain local operations through internet outages. Nygard adds Kubernetes as a deployment-time compliance surface; Weaveworks adds repository-driven drift detection and convergence; the health-check source separates readiness-based traffic removal from liveness-based restart; and Thompson presents OpenShift portability as a strategic, qualified counterweight to provider lock-in.
+The positive cases define the other side of that boundary. Managed Kubernetes hosted US and European Jelly Button ingestion clusters behind a global load balancer, with pod and node autoscaling, for a latency-sensitive stream reported at about 500 events per second. Chick-fil-A planned more than 2,000 restaurant clusters with tens of containers each to sustain local operations through internet outages. Rainforest QA chose managed Kubernetes for heterogeneous applications, short-lived jobs, private networking, and custom-metric autoscaling while limiting auxiliary change. Nygard adds Kubernetes as a deployment-time compliance surface; Weaveworks adds repository-driven drift detection and convergence; and Thompson presents OpenShift portability as a qualified counterweight to provider lock-in.
+
+Rainforest QA also sharpens the operational boundary. Twelve-factor application design reduced porting work, and a temporary cluster preserved rollback before the database cutover. Yet CPU limits throttled Rails startup, slow requests failed liveness probes, and pods restarted until the company rolled back and changed resource policy. Managed orchestration reduced cluster-management work; it did not remove the need to test deployment under load or to align resource controls, probe semantics, and application startup behavior.
 
 ## Key Characteristics
 - Solves resource and process isolation problems.
@@ -35,7 +38,7 @@ The positive cases define the other side of that boundary. Managed Kubernetes ho
 - Supports extensibility through custom resources and controllers.
 - Operates below the semantic layer of agent tool calls and can be disproportionate when a few predictable deployment units do not need dynamic placement, automatic scaling, or granular multi-team isolation, while rejecting it does not remove those responsibilities when requirements later demand them.
 - Can coordinate a geographically broad fleet of small, replicated edge clusters when local availability and latency justify the operating burden.
-- Can act as a point-of-change compliance surface, separates readiness-based traffic removal from liveness-based restart, and supports a qualified hybrid-cloud portability thesis.
+- Can act as a point-of-change compliance surface and support a qualified hybrid-cloud portability thesis, while resource policies and probe semantics can interact into failure even on a managed service.
 
 ## Evidence
 - Declarative model: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] says Kubernetes succeeds partly because it lets developers describe the desired final state.
@@ -63,13 +66,19 @@ The positive cases define the other side of that boundary. Managed Kubernetes ho
 - Alternative operating model: [[kubernetes-maybe-a-few-bashpython-scripts-is-enough]] sketches managed containers or reproducible VM, container, SSH, proxy, monitoring, networking, secret, and backup automation as alternatives that retain local operating responsibility.
 - Reconstructed platform: [[mac-chaffee-dear-friend-you-have-built-a-kubernetes]] traces how Docker Compose, deployment scripts, multi-host networking, service discovery, Ansible-managed nodes, and a restricted Docker API can accumulate into an informal orchestrator.
 - Adoption boundary: [[mac-chaffee-dear-friend-you-have-built-a-kubernetes]] explicitly allows custom deployment methods but says teams should understand the problems Kubernetes bundles before dismissing it.
+- Migration fit: [[rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes]] chose Kubernetes for heterogeneous twelve-factor services, compute-intensive jobs, private networking, and autoscaling from custom queue metrics.
+- Managed-service leverage: [[rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes]] says GKE let a small operations team avoid running raw Kubernetes clusters and, in its 2018 comparison, managed more of the node and scaling surface than EKS.
+- Portability from discipline: [[rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes]] reports that stateless twelve-factor applications required little code change beyond readiness endpoints, while Dockerfiles, Helm charts, and CI/CD still had to be added.
+- Resource-and-probe failure: [[rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes]] reports CPU throttling during Rails startup, 15-30-second initial requests, failed liveness probes, pod restarts, and recovery after CPU limits were removed.
+- Staged rollback: [[rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes]] used a temporary GKE region against Heroku Postgres so application failures could be rolled back before the irreversible data move.
 
 ## Qualifications
-The sources are complementary rather than flatly contradictory. Kubernetes can be a powerful declarative platform and still be the wrong operational abstraction for a workload whose main needs are simple container deployment, fast autoscaling, and managed task execution. Conversely, Jelly Button's global ingestion tier and Chick-fil-A's intermittently connected restaurant fleet show contexts where placement, scaling, or local resilience can justify it. The Binary Igor alternative is an architecture sketch rather than measured evidence; scripts transfer responsibility for idempotency, partial failure, patching, drift, credential handling, rollback, health semantics, and recovery testing to local maintainers. Chaffee's essay sharpens that warning rhetorically but supplies no measured threshold at which a custom stack becomes harder to maintain than Kubernetes. Houston's critique and the positive cases are also workload-specific practitioner reports rather than controlled comparisons. Chick-fil-A's cluster count and device rollout were 2018 plans, not independently verified current outcomes. Nygard's compliance use is source-scoped, Weaveworks's recovery claims are company-reported, probes remain only as reliable as their semantics, and Thompson's portability claim does not make data, identity, networking, managed services, costs, or operating practices portable.
+The sources are complementary rather than flatly contradictory. Kubernetes can be a powerful declarative platform and still be the wrong operational abstraction for a workload whose main needs are simple container deployment, fast autoscaling, and managed task execution. Conversely, Jelly Button's global ingestion tier, Chick-fil-A's intermittently connected restaurant fleet, and Rainforest QA's mixed web-and-batch estate show contexts where placement, scaling, custom metrics, or local resilience can justify it. The Binary Igor alternative is an architecture sketch rather than measured evidence; scripts transfer responsibility for idempotency, partial failure, patching, drift, credential handling, rollback, health semantics, and recovery testing to local maintainers. Chaffee's essay supplies no measured threshold at which a custom stack becomes harder to maintain than Kubernetes. Houston's critique and the positive cases are workload-specific practitioner reports rather than controlled comparisons. Rainforest QA's blanket avoidance of CPU limits follows one historical Rails incident and should not be generalized without current workload tests. Chick-fil-A's cluster count and device rollout were 2018 plans, Nygard's compliance use is source-scoped, Weaveworks's recovery claims are company-reported, probes remain only as reliable as their semantics, and Thompson's portability claim does not make data, identity, networking, managed services, costs, or operating practices portable.
 
 ## What Changed
-- Added the reverse failure mode: a deliberately simple custom stack can grow into an informal orchestrator as requirements accumulate.
-- Distinguished avoiding the Kubernetes product from avoiding the deployment, networking, discovery, node-management, and control-plane responsibilities it bundles.
+- Added a managed migration case where heterogeneous workloads and custom autoscaling justified Kubernetes while twelve-factor design limited porting work.
+- Added the resource-policy and health-probe interaction as a concrete failure mode that managed Kubernetes does not eliminate.
+- Added staged rollback as protection while applications move before state.
 
 ## Relationships
 - [[SemanticIsolation]] - Kubernetes is contrasted with the semantic isolation agents require.
@@ -93,3 +102,5 @@ The sources are complementary rather than flatly contradictory. Kubernetes can b
 - [[ModularMonolith]] - fewer deployment units can weaken the case for a general-purpose orchestrator.
 - [[EssentialAndAccidentalComplexity]] - Kubernetes capabilities should be weighed against the system-wide complexity they introduce or absorb.
 - [[BoringTechnology]] - familiar components remain simple only while their combined operating surface stays bounded.
+- [[RainforestQA]] - migration case combining a positive Kubernetes fit with a CPU-throttling and liveness failure.
+- [[ChangeSafety]] - staged traffic movement preserved rollback until the database cutover.

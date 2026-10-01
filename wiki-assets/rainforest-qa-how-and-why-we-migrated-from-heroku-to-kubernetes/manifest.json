@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes",
+  "images": [
+    {
+      "file": "phased-heroku-to-gke-migration.jpg",
+      "alt": "Four-phase migration routes production DNS from Heroku dynos to a temporary us-east4 GKE cluster before the final us-east1 GKE and Cloud SQL cutover"
+    },
+    {
+      "file": "web-transaction-time-after-dns-switchover.jpg",
+      "alt": "Stacked web transaction time chart rises from about 105 milliseconds before the DNS switchover to roughly 185 milliseconds afterward"
+    }
+  ]
+}

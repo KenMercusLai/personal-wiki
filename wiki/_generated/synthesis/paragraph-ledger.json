@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
       "d6294545c95fe59b24702e83837007b7f49ea0746c299521acf173f7b634d297",
       "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
       "a5ed303d403b8f990707a0f0211758459469334580cb89b267c90ff5666a45be",
@@ -710,11 +711,30 @@
       "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12",
       "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f"
     ],
-    "paragraph_count": 708
+    "paragraph_count": 709
   },
-  "overview_commit": "46e403166e09361c2d8afb905e42368c6e13ffa3",
-  "overview_digest": "04ac31df9959f6e78f473fa148552ccb3358eb8d8cbb852908dfd2561c22158f",
+  "overview_commit": "10000ef14f9b882082e8371a424a1726f5e4d979",
+  "overview_digest": "9a34e6be9944d7dbec30fa0239228be05fb42a84b59998b57a8eaaa84beb5c64",
   "paragraphs": [
+    {
+      "id": "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[RainforestQA]] source adds a full platform-migration case where technology choice and change design are inseparable. Heroku's opinionated runtime, managed data, and twelve-factor discipline had supported a lean operations team and later made stateless applications comparatively portable, but a then-current database ceiling, private-network security needs, and compute-intensive batch economics pushed the company toward Google Cloud. Managed [[GoogleKubernetesEngine]] fit its heterogeneous web and worker estate and custom queue-metric autoscaling, while a deliberately conservative stack—Terraform, Cloud SQL, Memorystore, Helm, existing CircleCI, and no initial service mesh or Vault deployment—bounded simultaneous change. The retained topology diagram makes rollback architecture visible: DNS first moved to a temporary us-east4 GKE cluster still using Heroku Postgres, isolating application risk before the final us-east1 and Cloud SQL cutover. That boundary mattered when CPU limits throttled Rails startup, 15-30-second first requests failed liveness probes, and pod availability collapsed; rollback and removing the limits restored performance. State remained the harder boundary. Heroku's permission model blocked native PostgreSQL replication, trigger-based Teleport caused production locks, and a simpler parallel directory-format dump and restore—accelerated with local SSD, target tuning, scripts, a detailed runbook, and a full rehearsal—fit inside a business-approved six-hour maintenance window. The durable judgment is qualified: choose infrastructure from workload and staffing constraints, preserve rollback while possible, rehearse irreversible changes, and compare downtime with instability and data-loss risk rather than treating zero downtime as absolute. The account is a first-party 2019 retrospective; its cloud-product comparisons date to 2018, its CPU policy comes from one Rails-heavy environment, and the transaction-time chart lacks the controls needed for causal performance claims. Both effective local figures were opened and retained canonically at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "GoogleKubernetesEngine",
+        "RainforestQA"
+      ]
+    },
     {
       "id": "d6294545c95fe59b24702e83837007b7f49ea0746c299521acf173f7b634d297",
       "primary_topic": "business-and-markets",

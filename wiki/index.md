@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How and why we migrated from Heroku to Kubernetes](sources/rainforest-qa-how-and-why-we-migrated-from-heroku-to-kubernetes.md) - Rainforest QA's 2019 retrospective connects a staged Heroku-to-GKE migration with workload fit, rollback boundaries, CPU-throttling failure, and a rehearsed six-hour PostgreSQL cutover.
 - [Quip - Why Quip doesn't have platform-specific engineering teams](sources/quip-why-quip-doesnt-have-platform-specific-engineering-teams.md) - Quip argues that shared C++ data infrastructure, selective web views, expert enablement, and limited native glue can support feature ownership across clients while leaving its claimed outcomes unmeasured.
 - [Questions to Ask Your Interviewer](sources/questions-to-ask-your-interviewer.md) - Randall Koutnik turns technical interviews into two-way diligence through specific questions, concrete examples, and probes into role scope, engineering operations, authority, communication, feedback, and growth.
 - [Questions startup Founders should ask Angel Investors and VC’s, but rarely do](sources/questions-startup-founders-should-ask-angel-investors-and-vcs-but-rarely-do.md) - An investor-screening checklist turns fundraising into two-way diligence over deployment activity, authority, terms, follow-on behavior, pace, and value-add while qualifying urgency tactics as unmeasured practitioner advice.
@@ -1004,6 +1005,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Rainforest QA](entities/RainforestQA.md) - Software-testing company represented through its managed-platform choices, staged application cutover, and rehearsed database migration.
 - [Quip](entities/Quip.md) - Cross-platform productivity-software company represented through its feature-oriented, shared-infrastructure engineering model.
 - [Randall Koutnik](entities/RandallKoutnik.md) - Software-industry writer presenting specific questions and recent examples as tools for candidate-side employer diligence.
 - [Dmitrii Petukhov](entities/DmitriiPetukhov.md) - Tutorial author represented through a small classical image-classification and PCA experiment.
@@ -1638,7 +1640,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BigQuery](entities/BigQuery.md) - Analytical storage and query destination for transformed Jelly Button events.
 - [Google Cloud Dataflow](entities/GoogleCloudDataflow.md) - Managed streaming ETL layer that transforms Pub/Sub events before BigQuery storage.
 - [Google Cloud Pub/Sub](entities/GoogleCloudPubSub.md) - Persistent asynchronous messaging boundary between event ingestion and Dataflow.
-- [Google Kubernetes Engine](entities/GoogleKubernetesEngine.md) - Managed Kubernetes service hosting the multi-region, autoscaled ingestion tier.
+- [Google Kubernetes Engine](entities/GoogleKubernetesEngine.md) - Managed Kubernetes service represented through geo-distributed ingestion and a staged application-platform migration with custom autoscaling.
 - [Aaron Batalion](entities/AaronBatalion.md) - Investor and author who proposed the "micro app" frame for application-like services built inside messaging platforms.
 - [Shyp](entities/Shyp.md) - Mobile shipping service used to decompose a product into platform-provided camera, location, payment, support, and tracking capabilities plus physical fulfillment.
 - [Jason Lemkin](entities/JasonLemkin.md) - SaaS author represented through practical but qualified heuristics for executive recruiting and private-company revenue estimation.
@@ -2233,7 +2235,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Wang Ziting](entities/WangZiting.md) - Developer-blogger reflecting on side-project release discipline, container platforms, game backend architecture, and Redis-backed task queues.
 - [Jeff Dickey](entities/JeffDickey.md) - CLI practitioner-author presenting twelve factors for usable, automation-friendly command-line applications.
-- [Heroku](entities/Heroku.md) - Cloud application platform used as the source's context for twelve-factor methodology and CLI design examples.
+- [Heroku](entities/Heroku.md) - Opinionated cloud application platform represented through CLI design, lean-team leverage, twelve-factor portability, and workload-specific exit constraints.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, metrics checklists, and an attributed norm of emotionally steady competition.
@@ -2399,7 +2401,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Clara.io](entities/ClaraIO.md) - Online 3D editor and rendering platform used as bare-metal infrastructure background in Ben Houston's migration essay.
 - [Google Cloud Run](entities/GoogleCloudRun.md) - Managed container platform presented as a simpler alternative to operating Kubernetes directly for suitable workloads.
 - [Threekit](entities/Threekit.md) - Enterprise 3D platform context for Ben Houston's original move from bare metal to Kubernetes.
-- [Kubernetes](entities/Kubernetes.md) - Container orchestration platform whose fit depends on workload needs and whether a simpler alternative avoids or merely rebuilds its operating responsibilities.
+- [Kubernetes](entities/Kubernetes.md) - Container orchestration platform whose fit and failure modes depend on workload needs, operating scope, resource policy, and probe semantics.
 - [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
 - [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, cache-sketch freshness metadata, clear product positioning, and AI-assisted maintenance examples.
 - [Baqend](entities/Baqend.md) - Backend-as-a-service and caching platform behind the Thinks webshop performance case study.

@@ -7875,3 +7875,11 @@ Created [[StartupCompensationDesign]] and [[Homebrew]], and updated [[MarketBase
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | How and why we migrated from Heroku to Kubernetes
+
+Created [[RainforestQA]] and updated [[Heroku]], [[GoogleKubernetesEngine]], and [[Kubernetes]] from their complete ordered evidence inventories. Recorded the workload, security, and cost pressures behind the move; the temporary cross-cloud rollback stage; the CPU-limit and liveness-probe incident; and the rehearsed parallel dump-and-restore database cutover. Preserved the first-party, historical-product-comparison, workload-specific CPU-policy, missing-control, and current-applicability limits. Opened both effective local images and retained the phased migration diagram and transaction-time chart under descriptive canonical filenames with a complete manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
