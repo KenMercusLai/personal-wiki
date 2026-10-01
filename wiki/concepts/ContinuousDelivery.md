@@ -10,7 +10,8 @@ sources:
   - you-cant-have-a-rollback-button-skyliner
   - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
   - devops-is-a-culture-not-a-role-irma-kornilova-medium
-last_updated: 2026-09-27
+  - rouan-wilsenach-ship-show-ask
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -34,6 +35,8 @@ McKinley adds that frequent deployment is safest when deployment and activation 
 
 GitHub's Rails migration adds a long-running compatibility case. Rather than isolating the upgrade on a branch or stopping normal delivery, the application could boot from current and next dependency locks while required CI ratcheted through each intermediate Rails version. Human product-area testing and progressive production exposure then supplied evidence that selected milestones behaved like the current release under real load.
 
+Ship / Show / Ask adds merge authority and feedback timing to this delivery system. Direct Ship and self-merged Show paths reduce approval delay only when automated checks, feature toggles, short-lived branches, and a releasable mainline make integration safe enough; Ask remains available when uncertainty should stop the change before merge. The framework therefore treats approval policy as one delivery-flow control rather than equating every pull request with a mandatory gate.
+
 ## Key Claims
 - Continuous delivery is a release capability, not a list of tools.
 - CD depends on frequent small integration, automated tests, repeated deployment practice, and organizational alignment around delivery and reliability.
@@ -41,7 +44,7 @@ GitHub's Rails migration adds a long-running compatibility case. Rather than iso
 - Feedback speed matters at both developer and CI levels.
 - Pipeline visibility helps teams identify bottlenecks and improve the production flow over time.
 - Regulated delivery needs compliance evidence and auditability without turning approval into a batch-size driver.
-- Frequent production delivery helps teams learn what users value in real use, and its safety improves when small releases can be activated gradually, disabled independently, observed, corrected forward, and kept compatible across a bounded migration window.
+- Frequent production delivery helps teams learn what users value in real use, and its safety improves when small releases can be reviewed according to risk, activated gradually, disabled independently, observed, corrected forward, and kept compatible across a bounded migration window.
 
 ## Evidence
 - Tooling limit: [[architecting-for-continuous-delivery-thoughtworks]] says a CI server and version-control tool do not create CI when commits are large or automated tests are missing.
@@ -60,6 +63,7 @@ GitHub's Rails migration adds a long-running compatibility case. Rather than iso
 - Forward recovery: [[you-cant-have-a-rollback-button-skyliner]] argues that small forward corrections are more verifiable than attempting to restore the complete prior state of a running system.
 - Multi-version integration: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] describes dual-boot dependency locks and required CI jobs that kept current and next Rails versions compatible while ordinary feature work continued.
 - Production feedback: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] used percentage exposure, exception and performance data, and a full-production peak-traffic gate before accepting deployed framework milestones.
+- Approval-flow fit: [[rouan-wilsenach-ship-show-ask]] allows direct Ship, non-blocking Show, or feedback-blocked Ask only alongside automated checks, feature toggles, short-lived branches, and a releasable mainline.
 
 ## Counterevidence & Qualifications
 The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership; Fowler's foreword emphasizes agile learning and internal quality. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
@@ -70,10 +74,12 @@ James's minimalist pipeline advice is strongest for early products and small tea
 
 GitHub's account is a company-authored retrospective of one Rails application. Its dual-boot approach introduced temporary conditional code and a larger CI matrix, and the team still encountered CI, local-development, and slow-query problems that escaped automated and manual testing.
 
+Ship / Show / Ask is also practitioner guidance without comparative change-failure or lead-time evidence. Removing mandatory approval may reduce queue delay but can shift defects or coordination cost downstream when verification, observability, reversibility, shared standards, or feedback follow-through are weak. Regulation and high-consequence changes can still justify independent approval.
+
 ## What Changed
 - Continuous delivery is a system property spanning organizational incentives, architecture, tests, release flow, and production learning rather than a tool list.
 - Compliance evidence and auditability must preserve small batches rather than recreate central approval queues.
-- Small-team automation can be minimal, but it still needs fast verification and observable user feedback.
+- Small-team automation and selective approval can reduce friction, but they still need fast verification, observable user feedback, and risk-sensitive escalation.
 - Deployment and activation should be separable because code reversion cannot restore every external state.
 - Multi-version CI and progressive production exposure can keep a long framework migration inside the normal delivery stream.
 
@@ -91,3 +97,4 @@ GitHub's account is a company-authored retrospective of one Rails application. I
 - [[ChangeSafety]] - small releases, tests, smoke checks, monitoring, and rollback thinking reduce production-change stress.
 - [[HarnessEngineering]] - feature flags and off switches can separate deployment from activation and constrain release effects.
 - [[IncrementalFrameworkUpgrade]] - continuous integration and production feedback turn a multi-version migration into a sequence of bounded milestones.
+- [[ShipShowAsk]] - varies merge delay and feedback timing while relying on continuous-delivery safety controls.

@@ -7947,3 +7947,11 @@ Added [[RobinMarx]] and updated [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and 
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Ship / Show / Ask
+
+Created [[RouanWilsenach]] and [[ShipShowAsk]], and updated [[TrunkBasedDevelopment]], [[CodeReviewPractice]], and [[ContinuousDelivery]] from their complete ordered evidence inventories. Distinguished direct mainline Ship, non-blocking self-merged Show, and feedback-blocked Ask; recorded short-lived branches, automated checks, feature toggles, releasable-mainline discipline, early conversation, queue pressure, team trust, and risk-sensitive approval. Preserved the source's practitioner scope, missing comparative outcome data, the possibility that self-merge shifts defects or coordination downstream, and regulatory or high-consequence requirements for independent approval. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

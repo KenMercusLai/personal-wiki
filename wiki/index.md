@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Ship / Show / Ask](sources/rouan-wilsenach-ship-show-ask.md) - Rouan Wilsenach separates direct mainline shipping, non-blocking pull-request visibility, and feedback-blocked review according to change risk, uncertainty, and learning needs.
 - [计算机领域的三个重要思想：抽象，分层和高阶](sources/ray-eldath-ji-suan-ji-ling-yu-de-san-ge-zhong-yao-si-xiang-chou-xiang-fen-ceng-he-gao-jie.md) - Ray Eldath connects pragmatic software abstraction, Hyrum's Law, higher-order reasoning, partial evaluation, and the three Futamura projections while later retracting his broader concern about mathematical prerequisites.
 - [Your Best Work](sources/rands-your-best-work.md) - Michael Lopp argues that workplace design should balance real-estate cost and open-office benefits against the unmeasured productivity cost of interrupting focused work.
 - [How to be an effective CTO](sources/rajiv-pant-how-to-be-an-effective-cto.md) - Rajiv Pant frames CTO effectiveness as the integration of culture, technology, and operations through technical credibility, stakeholder connection, delivery discipline, and continuous learning.
@@ -1014,6 +1015,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Head-of-Line Blocking in QUIC and HTTP/3: The Details](sources/robin-marx-head-of-line-blocking-in-quic-and-http-3-the-details.md) - Robin Marx explains how HTTP/1.1, HTTP/2 over TCP, and HTTP/3 over QUIC create different blocking boundaries, with scheduling- and loss-dependent performance gains.
 
 ## Entities
+- [Rouan Wilsenach](entities/RouanWilsenach.md) - Software practitioner represented through a per-change framework for integration, visibility, feedback, and merge authority.
 - [Ray Eldath](entities/RayEldath.md) - Programmer and essayist represented through an operational explanation of abstraction, layering, and higher-order computation plus a documented revision of his earlier view.
 - [Michael Lopp](entities/MichaelLopp.md) - Technology leader and Rands in Repose writer represented through purpose-driven approaches to meetings, organizational information, workspace design, and focus.
 - [Rajiv Pant](entities/RajivPant.md) - Technology executive represented through an integrated Culture–Technology–Operations model of CTO leadership.
@@ -2691,6 +2693,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robin Marx](entities/RobinMarx.md) - Web-performance and protocol researcher represented through packet-level analysis of HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking.
 
 ## Concepts
+- [Ship / Show / Ask](concepts/ShipShowAsk.md) - Per-change framework separating direct integration, non-blocking visibility, and pre-merge discussion.
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.
 - [Abstraction Leakage](concepts/AbstractionLeakage.md) - Exposure of implementation behavior through compatibility, correctness, performance, or operational dependencies beyond a stated interface contract.
 - [Higher-Order Abstraction](concepts/HigherOrderAbstraction.md) - Reapplication of a concept-forming operation to objects of the same kind, including functions over functions and program transformers over programs.

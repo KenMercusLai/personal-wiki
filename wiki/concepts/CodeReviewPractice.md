@@ -9,7 +9,8 @@ sources:
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - cyle-how-i-review-code
   - dont-waste-time-writing-perfect-code-dzone-devops
-last_updated: 2026-09-27
+  - rouan-wilsenach-ship-show-ask
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -29,8 +30,10 @@ AI-heavy work adds a capacity-management layer. When AI doubles or triples local
 
 Bird supplies a compact priority test for that scarce attention. Review should concentrate on correctness, defensive behavior, security, comprehension, debuggability, and whether the code is safe to change. Formatting belongs to automation, while style, pattern purity, and subjective elegance matter only when they materially affect understanding, teaching, or risk.
 
+Ship / Show / Ask separates feedback from merge permission. A self-merged Show pull request can make interesting work visible for later discussion without adding queue delay, while Ask preserves pre-merge review when uncertainty or consequence warrants it. The same source adds a timing limit: pull-request review is too late to replace conversations about direction before substantial implementation, when alternatives remain cheap.
+
 ## Key Claims
-- Teams should choose review goals and approval strictness according to the change's purpose and risk.
+- Teams should choose review goals, timing, and approval strictness according to the change's purpose, uncertainty, reversibility, and risk.
 - Reviews should preserve motivation and decision context while spreading codebase knowledge to current and future engineers.
 - Execution, tests, development tooling, and automated style checks should support human judgment rather than leaving every check to diff reading.
 - Small changes, prompt first passes, explicit next steps, revision follow-up, and bounded review-stage work reduce blocking and queue growth.
@@ -47,15 +50,16 @@ Bird supplies a compact priority test for that scarce attention. Review should c
 - Mechanical boundaries: [[dont-waste-time-writing-perfect-code-dzone-devops]] assigns formatting to development tools and treats style as review-worthy when it obstructs understanding or supports mentoring.
 - Author-aware communication: [[cyle-how-i-review-code]] varies examples, references, documentation requests, and explanation by author context while insisting that comments remain kind and appropriate for any reader.
 - Risk-scaled gates: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] supports multiple accepts, slower landing, and throwing away wrong candidate code for critical components.
+- Feedback versus permission: [[rouan-wilsenach-ship-show-ask]] makes Show review non-blocking, reserves Ask for decision-shaping feedback, and recommends discussing direction before implementation commits the team to one solution.
 
 ## Counterevidence & Qualifications
-The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval and ticketed deferral fit low-risk, traceable work better than unresolved safety, security, accessibility, migration, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
+The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, and ticketed deferral fit low-risk, traceable work better than unresolved safety, security, accessibility, migration, or correctness risk; post-merge feedback may arrive too late or be ignored. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
 
 ## What Changed
 - Review now includes durable decision context for future maintainers, not only immediate feedback and approval.
 - Reviewer judgment now explicitly combines author-aware coaching with respectful, publicly readable communication.
 - Flow guidance now includes small scope, traceable deferral, prompt response, revision follow-up, and WIP control.
-- Risk remains the main qualification: critical components may justify slower review, multiple accepts, and discarded candidate code.
+- Review timing and merge authority now vary by uncertainty and risk: Show can invite non-blocking feedback, Ask can pause for decision-shaping review, and critical components may require multiple accepts.
 - Review attention now explicitly follows correctness, defensive behavior, security, comprehension, debuggability, and change safety rather than aesthetic perfection.
 
 ## Related Concepts
@@ -66,3 +70,4 @@ The sources are mostly practitioner reflections rather than universal empirical 
 - [[ProductionInfrastructureLeadership]] - infrastructure leads tune review norms to component criticality and correctness risk.
 - [[WorkplaceCollaboration]] - review comments affect team trust, pride, and willingness to keep improving shared code.
 - [[BottleneckAwareAICoding]] - treats review as the likely downstream constraint after AI accelerates coding.
+- [[ShipShowAsk]] - separates advisory feedback from required pre-merge review on a per-change basis.
