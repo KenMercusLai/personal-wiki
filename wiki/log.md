@@ -7499,3 +7499,11 @@ Added [[MitchellLee]], [[Penny]], and [[EarlyUserAcquisition]], and updated [[St
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Monitor Internet Bandwidth Usage on Linux
+
+Added [[LinuxBandwidthMonitoring]] from a Baeldung tutorial contrasting persistent `vnstat` history, visual reports, and threshold exits with direct `/proc/net/dev` counters and scheduled CSV snapshots. Distinguished cumulative totals, interval deltas, rates, forecasts, host-interface boundaries, and provider billing; preserved reset, attribution, version, and alert-delivery limits. Opened and retained both source screenshots under descriptive canonical filenames with a matching asset manifest: a monthly RX/TX report and a vertical summary with daily, monthly, all-time, and recent-rate information.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

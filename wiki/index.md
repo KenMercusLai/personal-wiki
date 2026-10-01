@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Monitor Internet Bandwidth Usage on Linux](sources/monitor-internet-bandwidth-usage-on-linux-baeldung-on-linux.md) - A Baeldung tutorial contrasts persistent vnStat accounting and alerts with reset-prone Linux interface counters, including retained monthly and recent-rate visual summaries.
 - [Angel Investor Ron Conway Emails His Portfolio Companies Over Financial Meltdown](sources/michael-arrington-angel-investor-ron-conway-emails-his-portfolio-companies-over-financial-meltdown.md) - Michael Arrington publishes Ron Conway's 2000 and 2008 downturn emails urging startups to extend runway, raise early, accept valuation pressure, and preserve strategic options.
 - [How to Use Obsidian as a Zettelkasten: The Ultimate Tutorial](sources/matt-giaro-how-to-use-obsidian-as-a-zettelkasten.md) - Matt Giaro presents a minimalist Bear-to-Obsidian workflow built from short incubation, own-words permanent notes, meaningful links, flat Markdown storage, and output reuse.
 - [Bottleneck #02: Talent](sources/martin-fowler-thoughtworks-bottleneck-02-talent.md) - Tim Cochran and Roni Smith frame scaleup hiring as a forecasted operating system spanning strain signals, recruiting capacity, talent mix, inclusion, candidate feedback, and time-to-effectiveness.
@@ -2583,6 +2584,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Linux Bandwidth Monitoring](concepts/LinuxBandwidthMonitoring.md) - Reset-aware collection and interpretation of Linux interface traffic for quota accounting, rate visibility, and automated thresholds.
 - [Deep Preparation](concepts/DeepPreparation.md) - Concentrated research, expert consultation, active questioning, review, and synthesis intended to improve understanding, conversation quality, and durable trust.
 - [Patient Advocacy](concepts/PatientAdvocacy.md) - Coordinated escalation, information gathering, coverage help, and care navigation whose availability is itself unequally distributed.
 - [Healthcare Access Barriers](concepts/HealthcareAccessBarriers.md) - Interacting financial, informational, administrative, institutional, and navigation obstacles to evaluation and treatment.

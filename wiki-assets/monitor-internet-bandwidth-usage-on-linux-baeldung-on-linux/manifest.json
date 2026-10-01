@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "monitor-internet-bandwidth-usage-on-linux-baeldung-on-linux",
+  "images": [
+    {
+      "file": "vnstat-monthly-report.png",
+      "alt": "vnStat monthly report for eth0 showing received, transmitted, total, average rate, and estimated traffic"
+    },
+    {
+      "file": "vnstat-traffic-summary.png",
+      "alt": "vnStat vertical summary for eth0 showing daily, monthly, all-time, and hourly transfer information"
+    }
+  ]
+}
