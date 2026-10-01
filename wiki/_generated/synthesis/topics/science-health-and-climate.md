@@ -3,16 +3,16 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-10-01
-as_of_overview_commit: 29aa06911707b6401bfbe52b0eb5e74ad72cd1db
-input_digest: 48f2e5d23007b7f172d4dc58fc6521ebaf3ad3f4e53d47d9303cfcca8f8dce07
+last_updated: 2026-10-02
+as_of_overview_commit: 1b92e58da5ccfaa1491f6836c3ae73b04cd29893
+input_digest: 01a104d785630b4846100958c0f924c56e26167e3b623c48376ad4c8eeeb0d6c
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.
+The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
 
@@ -166,3 +166,14 @@ The language-model source reaches this topic through scientific framing rather t
 
 - The deterministic router assigned a digital-publishing paragraph to this topic indirectly; it provides no science, health, or climate finding.
 - The Gawker figures are historical first-party operational estimates rather than a scientific dataset or evaluation of community health.
+
+### Microservice Containment Is Router Spillover
+
+[[MicroserviceFailureContainment]] and [[RisingStack]] reach this topic through health and recovery terms, but the source addresses distributed-service reliability rather than natural science, medicine, or climate.
+
+**Evidence:** [[MicroserviceFailureContainment]], [[RisingStack]]
+
+**Qualifications:**
+
+- The deterministic router cross-classified a software-operations paragraph; it supplies no science, health, or climate evidence.
+- The source is a company-authored 2017 practitioner overview without controlled or comparative outcomes.

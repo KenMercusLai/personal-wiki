@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-02
-as_of_overview_commit: 9b6c2fa11eab765fd919e21b9110111cd21d23fd
+as_of_overview_commit: 1b92e58da5ccfaa1491f6836c3ae73b04cd29893
 summary: "Durable systems align demand, workload, people, and institutions through explicit boundaries, staged change, calibrated evidence, accountable governance, and tested recovery."
-episode_count: 986
-source_count: 986
-paragraph_count: 714
+episode_count: 987
+source_count: 987
+paragraph_count: 715
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose guarantees become meaningful only under concrete failure, concurrency, latency, scaling, and migration behavior. OpenAI's [[PostgreSQLReadScaling]] case adds that replicas can extend a read-heavy single-primary system only when write-heavy work moves elsewhere, while [[DatabaseOverloadProtection]] must bound cache misses, connections, expensive queries, retries, backfills, and priority traffic before saturation cascades.
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path.
-- [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms.
+- [[MicroserviceFailureContainment]] treats independent service failure as an operating capability: staged rollback, health-aware routing, guarded recovery, stale-on-error reads, bounded idempotent retries, priority shedding, bulkheads, circuit breakers, and failure injection must preserve useful work without creating a second cascade.
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.

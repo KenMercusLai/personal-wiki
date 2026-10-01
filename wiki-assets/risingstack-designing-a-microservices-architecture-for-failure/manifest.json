@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "risingstack-designing-a-microservices-architecture-for-failure",
+  "images": [
+    {
+      "file": "partial-service-failure.png",
+      "alt": "Service dependency diagram showing one healthy downstream service and one unavailable downstream service"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0a2f522372a17442ec27df29e26d9f8841dd8c22042761a88b3b5b030e969ef8",
       "493e0db1cfd2001b8c7fee21f0334ddd177f69d3bdf40c850894a09c044dc436",
       "e33db06cc867babbf78e08298b12ed86bd4d0116ea847ab939d4a0d8899a6edb",
       "6eb098205de4854ad6783688ae6524812401cd61462904d9185ca2ed3198e746",
@@ -716,11 +717,29 @@
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
       "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279"
     ],
-    "paragraph_count": 714
+    "paragraph_count": 715
   },
-  "overview_commit": "9b6c2fa11eab765fd919e21b9110111cd21d23fd",
-  "overview_digest": "00555b390f70b9c8542d113f30dbdb1f7c9d08a04df9dafa3bdf5a1b0a288351",
+  "overview_commit": "1b92e58da5ccfaa1491f6836c3ae73b04cd29893",
+  "overview_digest": "0a972d8487f57d8e48589ccfdac2fcbb6a7cbdf594ace2841f46589aad69f26c",
   "paragraphs": [
+    {
+      "id": "0a2f522372a17442ec27df29e26d9f8841dd8c22042761a88b3b5b030e969ef8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "science-health-and-climate",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[RisingStack]] source adds [[MicroserviceFailureContainment]] as the operating counterpart to independently deployable services. Network calls and cross-team ownership increase partial-failure exposure, while service boundaries contain that exposure only when runtime controls preserve separation. The article joins staged or blue-green change, metric-aware rollback, health-based routing, guarded self-healing, stale-on-error caching, bounded exponential-backoff retries, idempotency keys, rate and concurrency limits, fleet-wide priority shedding, resource bulkheads, circuit breakers, and recurring failure injection into one layered design. The retained diagram makes the intended user outcome visible: a top-level service can retain one healthy dependency and useful partial functionality while another dependency is unavailable. The controls are conditional rather than interchangeable. Restarting an overloaded instance may worsen an incident; layered retries can amplify load; stale data may be unsafe; and fixed timeouts cannot substitute for failure statistics and recovery probes. The article's own timeout language is internally tense, so the durable judgment is to keep bounded deadlines as a backstop while avoiding finely tuned static timeouts as the sole detector. The source remains a company-authored 2017 practitioner catalogue without comparative availability, latency, recovery, or cost evidence, and its quoted 70% change-caused-outage rate lacks a linked primary study.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "MicroserviceFailureContainment",
+        "RisingStack"
+      ]
+    },
     {
       "id": "493e0db1cfd2001b8c7fee21f0334ddd177f69d3bdf40c850894a09c044dc436",
       "primary_topic": "ai-and-technology",

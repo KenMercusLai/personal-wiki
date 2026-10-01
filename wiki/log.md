@@ -7931,3 +7931,11 @@ Created [[RichardLi]] and [[Datawire]], and updated [[ServiceAutonomy]] and [[Mi
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Designing a Microservices Architecture for Failure
+
+Created [[RisingStack]] and [[MicroserviceFailureContainment]] from the article's complete evidence. Recorded staged rollback, health-aware routing, guarded self-healing, stale-on-error caching, bounded backoff and idempotency, priority-aware load shedding, bulkheads, circuit breakers, and recurring failure injection. Preserved the 2017 practitioner scope, unverified 70% outage attribution, workload-specific policy boundaries, and the tension between timeout backstops and the warning against fine-grained static timeouts. Opened the sole effective local image and retained its partial-service-failure architecture evidence under a descriptive canonical filename with a complete manifest.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
