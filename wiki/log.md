@@ -7715,3 +7715,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Notifications: A Tragedy Of the Digital Commons
+
+Updated [[NotificationDesign]] and [[ScottBelsky]] from their complete ordered evidence inventories. Recorded Belsky's tragedy-of-the-commons account of notification overload, the distinction between app-level improvement and channel-level governance, and his proposal for contextual operating-system ranking using schedule, location, urgency, relevance, relationships, and response history. Preserved the essay's historical practitioner scope and the privacy, consent, bias, opacity, alignment, mistaken-suppression, explanation, appeal, and urgent-exception questions left unresolved. Opened all six local images; omitted five decorative or duplicate bell and badge illustrations, while the materially relevant Slack logic diagram was only a 60-by-57-pixel thumbnail whose labels and flows could not be interpreted reliably. The publisher original was inaccessible, so no image was retained or used as independent evidence.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

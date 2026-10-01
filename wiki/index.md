@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Notifications: A Tragedy Of the Digital Commons](sources/notifications-a-tragedy-of-the-digital-commons-positive-slope-medium.md) - Scott Belsky frames notification overload as a tragedy of the commons and proposes contextual operating-system mediation to change sender incentives.
 - [Notifications run our lives now. Is there room for any more?](sources/notifications-run-our-lives-now-is-there-room-for-any-more-alexdanco-com.md) - Alex Danco argues that notifications should resolve uncertainty for immediate triage and speculates that spatial interfaces could expand capacity beyond a saturated notification tray.
 - [Notes to Myself on Software Engineering](sources/notes-to-myself-on-software-engineering-featured-stories-medium.md) - François Chollet connects readable code, product restraint, reversible iteration, user-centered API design, ethical responsibility, and risk-sensitive decision speed in a personal engineering checklist.
 - [Not all bugs are worth fixing and that's okay](sources/not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog.md) - Bugsnag argues for achievable crash-free stability targets and user-impact-based defect allocation rather than an impossible commitment to repair every bug.
@@ -1527,7 +1528,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baremetrics](entities/Baremetrics.md) - Company and publishing context for a first-person account of solo-founder tradeoffs and coping systems.
 - [Mathias Pastor](entities/MathiasPastor.md) - Startup-career author who frames employee selection as diligence into momentum, incentives, hiring intent, and transparency.
 - [The Family](entities/TheFamily.md) - European startup-support organization used as an example of flexible hiring, employee-equity advice, and startup-worker education.
-- [Scott Belsky](entities/ScottBelsky.md) - Product and business author framing newcomer activation and low-overhead micro-brand formation through practitioner models.
+- [Scott Belsky](entities/ScottBelsky.md) - Product and business author examining product activation, commerce infrastructure, interface defaults, notification governance, and equity transparency.
 - [Atlassian](entities/Atlassian.md) - Australian workplace-software company used as a historical case of focused-product, self-service SaaS growth.
 - [Philip Yurchuk](entities/PhilipYurchuk.md) - Software practitioner and author of a repair-shop analogy for failure-informed enterprise procurement.
 - [Threadloom](entities/Threadloom.md) - Forum-search vendor and publisher whose commercial position qualifies its comparison of forums with Facebook Groups.
