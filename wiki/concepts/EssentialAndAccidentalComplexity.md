@@ -5,6 +5,7 @@ tags: [software-engineering, complexity, abstraction]
 sources:
   - hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha
   - kubernetes-maybe-a-few-bashpython-scripts-is-enough
+  - mac-chaffee-dear-friend-you-have-built-a-kubernetes
 last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
@@ -19,13 +20,15 @@ The boundary is analytic rather than fixed. A higher-level language can remove i
 
 The infrastructure source applies the distinction at system scope. A platform can absorb scheduling, reconciliation, service discovery, scaling, and restart logic, yet become accidental complexity when the workload does not need those capabilities. A script-driven alternative can expose only the required mechanisms, but it does not make their essential operating responsibilities vanish: partial failure, security, observability, rollback, backup restoration, and recovery still need correct designs. Complexity can therefore be removed, shifted into a provider, concentrated in a platform, or hidden in local code; the relevant unit of judgment is the whole operated system.
 
+Chaffee illustrates how that boundary changes over time. An initially narrow container deployment can acquire rollback, multi-host networking, discovery, immutable-node configuration, and a control API as real requirements emerge. Those responsibilities may be essential to the evolved workload, while the bespoke glue, undocumented conventions, and fragmented ownership used to implement them remain accidental choices. Avoiding a platform name is therefore not evidence that platform complexity has disappeared.
+
 ## Key Claims
 - Essential complexity comes from the problem, domain, change, and shared understanding rather than from one implementation technology.
 - Accidental complexity comes from the chosen machinery for representing, building, testing, deploying, and operating the solution.
 - Tools can yield major practical gains by reducing accidental work even when they do not remove essential complexity.
 - Abstractions and reusable components can move the boundary while creating new integration or cognitive costs.
 - LLM coding is a possible challenge to the traditional boundary, but task-to-code speed alone does not prove that essential complexity has been removed.
-- Complexity should be judged across application and infrastructure together because changing the owner or abstraction layer may relocate work without reducing it.
+- Complexity should be judged across application and infrastructure together because changing the owner or abstraction layer may relocate work without reducing it, and a collection of locally simple tools can still form a complex custom platform.
 
 ## Evidence
 - Brooks framing: [[hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha]] contrasts problem abstraction with compilation, construction, and testing work and links the former to complexity, invisibility, change, and communication.
@@ -33,13 +36,15 @@ The infrastructure source applies the distinction at system scope. A platform ca
 - LLM challenge: [[hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha]] proposes that models may translate user requirements directly into code, while its practical example still requires iterative specification and debugging.
 - Infrastructure scope: [[kubernetes-maybe-a-few-bashpython-scripts-is-enough]] argues that unused orchestration capabilities create accidental complexity for small predictable systems and sketches narrower managed or script-driven alternatives.
 - Responsibility boundary: [[kubernetes-maybe-a-few-bashpython-scripts-is-enough]] still requires reproducible deployment, rollback, networking, secrets, backups, logs, metrics, and alerts outside Kubernetes.
+- Requirement growth: [[mac-chaffee-dear-friend-you-have-built-a-kubernetes]] shows deployment, rollback, scaling, networking, discovery, immutable configuration, and controlled container creation accumulating in a system that initially rejected orchestration.
+- Accidental implementation: [[mac-chaffee-dear-friend-you-have-built-a-kubernetes]] locates the warning in custom scripts, undocumented host changes, firewall rules, and a bespoke Docker API service rather than in the underlying operational needs alone.
 
 ## Counterevidence & Qualifications
-The page rests on two practitioner interpretations of Brooks rather than the original essay or later scholarship. "Essential" should not be used to label all remaining difficulty as permanently irreducible, and "accidental" does not mean optional or unimportant: testing, build reproducibility, deployment, and operations can determine whether software is safe and useful. The infrastructure essay does not measure its proposed alternative, and scripts can hide platform work in locally maintained code. Improvements can shift complexity across roles, layers, providers, or time instead of removing it.
+The page rests on three practitioner interpretations of Brooks rather than the original essay or later scholarship. "Essential" should not be used to label all remaining difficulty as permanently irreducible, and "accidental" does not mean optional or unimportant: testing, build reproducibility, deployment, and operations can determine whether software is safe and useful. Neither infrastructure essay measures its proposed comparison, and scripts can hide platform work in locally maintained code. Chaffee's sequence also does not prove that Kubernetes would be cheaper or safer for the imagined team. Improvements can shift complexity across roles, layers, providers, or time instead of removing it.
 
 ## What Changed
-- Extended the distinction from application construction to the whole operated system, including infrastructure.
-- Distinguished removing complexity from transferring it into a platform, provider, or local scripts.
+- Added requirement growth as a reason an initially proportionate custom system can become a platform.
+- Distinguished essential orchestration responsibilities from accidental bespoke glue and fragmented ownership.
 
 ## Related Concepts
 - [[SoftwareEngineering]] - the broader discipline that manages both kinds of difficulty across a software lifecycle.
@@ -50,3 +55,4 @@ The page rests on two practitioner interpretations of Brooks rather than the ori
 - [[InternalSoftwareQuality]] - abstraction quality influences the future cost of change.
 - [[Kubernetes]] - platform whose broad capability set can absorb necessary complexity or add unused machinery depending on workload fit.
 - [[InfrastructureAsCode]] - reproducibility remains necessary even when implemented with deliberately small tools.
+- [[BoringTechnology]] - familiar components can still create accidental system complexity through their integration.

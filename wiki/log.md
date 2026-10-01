@@ -7431,3 +7431,7 @@ Added [[LoicLeMeur]] and updated [[ProductHunt]], [[RyanHoover]], [[CommunityNor
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Dear friend, you have built a Kubernetes
+
+Added [[MacChaffee]] and updated [[Kubernetes]], [[BoringTechnology]], and [[EssentialAndAccidentalComplexity]] from their complete ordered evidence inventories. Recorded how deployment scripts, Docker Compose, multi-host networking, service discovery, Ansible-managed nodes, and a restricted Docker API can accumulate into an informal orchestrator, while preserving the article's explicit allowance for bounded custom deployment methods and the corpus's successful small-system counterexample. The supplied Markdown contains no image references, so no visual assets or manifest were required.

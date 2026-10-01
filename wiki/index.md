@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Dear friend, you have built a Kubernetes](sources/mac-chaffee-dear-friend-you-have-built-a-kubernetes.md) - Mac Chaffee warns that avoiding Kubernetes can recreate its deployment, networking, discovery, immutable-node, and control-plane responsibilities as a less standardized custom stack.
 - [10 Lessons from Product Hunt's Success](sources/loic-le-meur-10-lessons-from-product-hunts-success.md) - Loic Le Meur attributes Product Hunt's early growth to a focused mailing-list community, selective access, direct recruitment, contributor recognition, public sharing, and product simplicity while leaving causality and inclusion costs unmeasured.
 - [23andMe Founder Anne Wojcicki Berates Stanford and Valley Med on Behalf of Sick Friend](sources/lisa-krieger-23andme-founder-anne-wojcicki-berates-stanford-and-valley-med.md) - Lisa M. Krieger reports how insurance, payment, medical-record, and specialist-navigation barriers compounded in one critical-care transfer, and how unusually prominent advocacy helped overcome them.
 - [Linux: Using find to Locate Files Older Than a Date](sources/linux-using-find-to-locate-files-older-than.md) - A Server Fault capture explains reference-file and direct-date modification-time filters while exposing equality, timestamp-type, and parser-portability boundaries.
@@ -948,6 +949,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 
 ## Entities
+- [Mac Chaffee](entities/MacChaffee.md) - Infrastructure writer who cautions teams to count the orchestration responsibilities they may recreate after rejecting Kubernetes.
 - [Loic Le Meur](entities/LoicLeMeur.md) - Observer whose 2015 Product Hunt essay links curated access, recognition, responsiveness, and public sharing to early community growth.
 - [Anne Wojcicki](entities/AnneWojcicki.md) - 23andMe founder represented through a source-bounded case of prominent patient advocacy and healthcare-system criticism.
 - [23andMe](entities/23andMe.md) - Consumer-genetics company whose founder affiliation amplified Anne Wojcicki's visibility in the reported hospital-transfer case.
@@ -2303,7 +2305,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Clara.io](entities/ClaraIO.md) - Online 3D editor and rendering platform used as bare-metal infrastructure background in Ben Houston's migration essay.
 - [Google Cloud Run](entities/GoogleCloudRun.md) - Managed container platform presented as a simpler alternative to operating Kubernetes directly for suitable workloads.
 - [Threekit](entities/Threekit.md) - Enterprise 3D platform context for Ben Houston's original move from bare metal to Kubernetes.
-- [Kubernetes](entities/Kubernetes.md) - Container orchestration platform discussed as powerful declarative infrastructure, process isolation, and sometimes unnecessary operational burden.
+- [Kubernetes](entities/Kubernetes.md) - Container orchestration platform whose fit depends on workload needs and whether a simpler alternative avoids or merely rebuilds its operating responsibilities.
 - [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
 - [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, cache-sketch freshness metadata, clear product positioning, and AI-assisted maintenance examples.
 - [Baqend](entities/Baqend.md) - Backend-as-a-service and caching platform behind the Thinks webshop performance case study.
@@ -2917,7 +2919,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hiring System Design](concepts/HiringSystemDesign.md) - End-to-end design of hiring need, role outcomes, candidate acquisition, job-relevant evidence, decisions, onboarding, measurement, and retention feedback.
 - [System Architecture Principles](concepts/SystemArchitecturePrinciples.md) - Benefits-first rules connecting services, correctness, standards, control capabilities, operability, debt boundaries, and contextual technology choice.
 - [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working, operable software through multidisciplinary design, delivery, observation, ownership, and maintenance.
-- [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between difficulty inherent in understanding a problem and the machinery required to implement and operate its solution.
+- [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between inherent problem difficulty and implementation machinery, including complexity transferred into platforms or rebuilt as custom operational glue.
 - [Forward-Reference Learning](concepts/ForwardReferenceLearning.md) - Learning pattern in which a concept is encountered or used before its dependencies are fully explained, requiring temporary ambiguity and later review.
 - [Persona Distillation](concepts/PersonaDistillation.md) - Lossy compression of a person's recorded outputs into a role card that can guide imitation without reconstructing the person or their generating process.
 - [Community Governance Debt](concepts/CommunityGovernanceDebt.md) - Accumulated promises, precedents, informal decision rights, policy ambiguity, and distrust that make later platform change costly.
@@ -3008,7 +3010,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Semantic Grammar](concepts/SemanticGrammar.md) - Proposed rules about how meaningful units combine, finer than syntax, resting on a model of the world and generalizing logic's small corner of meaning.
 - [Computational Language](concepts/ComputationalLanguage.md) - A precise, executable symbolic representation that can talk about the world, requiring an ontology and expected to compress what ordinary language says with turns of phrase.
 - [Text Generation Sampling](concepts/TextGenerationSampling.md) - The rule that turns a next-token probability list into text, from deterministic greedy decoding to temperature-based sampling of lower-ranked tokens.
-- [Boring Technology](concepts/BoringTechnology.md) - Choosing and governing mature, well-understood tools so engineering attention goes to product value rather than unnecessary novelty costs.
+- [Boring Technology](concepts/BoringTechnology.md) - Choosing mature, well-understood tools while counting the integration and ownership costs that can turn familiar components into a custom platform.
 - [Overthinking as a Barrier](concepts/OverthinkingAsBarrier.md) - Claim that deliberation and premature optimization, not missing tools or skill, are the usual obstacle between a builder and a shipped product.
 - [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
 - [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.
