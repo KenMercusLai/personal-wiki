@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Question: exactly when is someone going to use your app/service?](sources/question-exactly-when-is-someone-going-to-use-your-app-service.md) - A 2016 product-strategy essay argues that consumer products need a specific recurring state or routine that triggers use, while qualifying “state ownership” as an unmeasured practitioner model.
 - [Pokémon Recognition](sources/pokemon-recognition.md) - Dmitrii Petukhov uses an 80-image Pokémon example to show raw-pixel classification, PCA compression, eigenpokemon, and a qualified speed-accuracy tradeoff.
 - [Go ahead, self-host Postgres](sources/pierce-freeman-go-ahead-self-host-postgres.md) - Pierce Freeman presents a qualified self-hosted PostgreSQL case built on explicit tuning, pooling, monitoring, backups, maintenance, capacity planning, recovery testing, and incident ownership.
 - [9-5 Is Out. Try The 1-6 Instead.](sources/pia-silva-9-5-is-out-try-the-1-6-instead.md) - Pia Silva presents a five-hour entrepreneur schedule built on delegation, planning, and distraction control while leaving its productivity gains self-reported and autonomy-dependent.
@@ -2661,6 +2662,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gail Tripp](entities/GailTripp.md) - University of Otago researcher represented through a study of attendance, lecture notes, and examination results.
 
 ## Concepts
+- [Usage Moment Fit](concepts/UsageMomentFit.md) - Alignment between a product and the recurring state, routine, or transition that makes it salient at a specific moment of choice.
 - [Image Classification](concepts/ImageClassification.md) - Assigning images to predefined labels, illustrated through a qualified raw-pixel and PCA-based Pokémon experiment.
 - [Principal Component Analysis](concepts/PrincipalComponentAnalysis.md) - Linear dimensionality reduction through orthogonal directions ordered by captured variance.
 - [Dimensionality Reduction](concepts/DimensionalityReduction.md) - Reducing representation size while evaluating preserved information against prediction, reconstruction, and end-to-end cost.

@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Question: exactly when is someone going to use your app/service?
+
+Created [[UsageMomentFit]] and updated [[AttentionEconomy]], [[PokemonGo]], [[Uber]], and [[ESPN]] from their complete ordered evidence inventories. Recorded routine-state triggers, idling-state competition, broad opportunities hidden behind narrow entry points, and live notifications as a bid for interruption, while preserving the framework's selected-case, causality, multi-homing, sustainability, and ethical limits. Opened all five effective local images; retained the evidence-bearing daily-state taxonomy under a descriptive canonical filename and omitted duplicate Pokémon artwork, a duplicate thumbnail, and reaction-bar interface chrome.
+
 ## [2026-10-01] ingest | 大量的上下文切换拉爆我们的专注能力——《自控力》读书随想
 
 Added [[NovaKwok]] and [[SelfControlPsychology]], and updated [[AttentionManagement]] and [[ProgrammerInterruptionRecovery]] from their complete ordered evidence inventories. Recorded external and self-initiated context switching, transition-point novelty seeking, physiological-state and future-discounting claims, reward anticipation, stress-relief prediction, guilt loops, self-compassion, and long-term goal alignment. Preserved the essay's personal and secondary scope, the unmethoded nature of its switching-cost percentages, the 65-person and task-specific boundary of its glucose evidence, and the author's own warning that the cited reward paper does not establish every popular-book interpretation. Opened and retained all four substantive images under descriptive canonical filenames at their semantic positions: the switching-cost illustration, citation-dense book page, future-discounting result, and monetary-incentive-delay task design.
@@ -7831,6 +7835,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Pokémon Recognition
 
 Created [[DmitriiPetukhov]], [[ImageClassification]], [[PrincipalComponentAnalysis]], [[DimensionalityReduction]], [[SupportVectorMachine]], and [[KNearestNeighbors]]. Recorded the 80-image raw-pixel workflow, reported SVM and k-nearest-neighbor baselines, the 40,000-to-18 PCA reduction, eigenpokemon and reconstruction examples, and the qualified runtime-accuracy comparison. Preserved the tiny curated dataset, underspecified validation, missing uncertainty, incomplete end-to-end timing, variance-versus-discrimination, historical API, and generalization limits. Opened 13 of 14 effective local image references; retained seven evidence-bearing visuals under descriptive canonical filenames, omitted decorative or redundant artwork and portraits, and recorded that the final referenced result asset is absent from the source vault.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

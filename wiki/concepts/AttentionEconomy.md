@@ -9,7 +9,8 @@ sources:
   - facebooks-desperate-smoke-screen-study-hacks-cal-newport
   - hacking-the-attention-economy-data-society-points
   - if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays
-last_updated: 2026-09-29
+  - question-exactly-when-is-someone-going-to-use-your-app-service
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,12 +22,12 @@ When attention converts into money or public visibility, publishers, recommendat
 
 Boyd adds an adversarial layer: people who understand ranking, trending, sharing, and journalistic incentives can engineer signals and narratives so that decentralized campaigns become mainstream attention. This [[NetworkedInformationManipulation]] can serve marketing, activism, humor, propaganda, harassment, or political power; the mechanics do not settle the motive or legitimacy.
 
-Newport adds a firm-level consequence: when advertising inventory grows with time spent, reducing compulsive use can threaten revenue more directly than changing which content sustains engagement, producing an [[EngagementIncentiveConflict]]. Exposure also need not become sustained conscious attention before every psychological effect is possible: associative cues may alter evaluations even when much of the surrounding advertising field is screened out. This makes exposure, perception, awareness, and engagement distinct outcomes and connects attention economics to [[AutomaticAdvertisingInfluence]].
+Newport adds a firm-level consequence: when advertising inventory grows with time spent, reducing compulsive use can threaten revenue more directly than changing which content sustains engagement, producing an [[EngagementIncentiveConflict]]. Exposure also need not become sustained conscious attention before every psychological effect is possible: associative cues may alter evaluations even when much of the surrounding advertising field is screened out. This makes exposure, perception, awareness, and engagement distinct outcomes and connects attention economics to [[AutomaticAdvertisingInfluence]]. The usage-moment source adds a temporal allocation lens: products do not compete for attention in the abstract but inside recurring states. Exercise and transportation can supply strong situational triggers, while mobile “idling” is broad and intensely contested because many social and media products seek the same unpredictable spare moments.
 
 The proposed responses span personal allocation discipline, reduced involuntary exposure, incentive realignment through direct reader payment, and [[DigitalCompulsionRegulation]] that restores stopping points, usage feedback, and user-controlled limits. None is complete: subscription systems can still optimize compulsion, personal discipline cannot remove ambient exposure, and regulation faces classification, privacy, accessibility, and evasion problems. The evidence also does not quantify how often low-attention exposure or named interface mechanics change purchases, wellbeing, or aggregate welfare.
 
 ## Key Claims
-- Attention-based revenue and visibility reward capture, volume, speed, and prolonged sessions independently of whether attention was earned through informed, conscious choice, and can make reduced usage economically costly.
+- Attention-based revenue and visibility reward capture, volume, speed, and prolonged sessions independently of whether attention was earned through informed, conscious choice; competition is especially intense in broad recurring states such as mobile idling, and reduced usage can be economically costly.
 - Systems that infer preference from observed behavior can confuse compulsion, outrage, or morbid curiosity with genuine desire.
 - Direct reader payment can reduce the conflict between maximizing advertiser attention and serving readers, but only if payment actually rewards quality and value.
 - Behavioral traces can make attention capture recursive when observed interest is used to target the next recommendation, advertisement, trigger, or session-extending intervention.
@@ -50,14 +51,16 @@ The proposed responses span personal allocation discipline, reduced involuntary 
 - Compulsive interaction: [[if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays]] connects variable rewards, repeated triggers, investment, infinite feeds, and autoplay to prolonged sessions that create advertising value.
 - Motion as focus: [[if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays]] uses Schüll's machine-zone account to distinguish repetitive digital focus from generic distraction.
 - Regulatory response: [[if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays]] proposes user controls, restored stopping points, warnings, feedback, and cutoffs while anticipating evasion.
+- State competition: [[question-exactly-when-is-someone-going-to-use-your-app-service]] contrasts strongly cued states such as exercise and transportation with mobile idling, where many incumbent products contest unpredictable spare moments.
+- Interruption market: [[question-exactly-when-is-someone-going-to-use-your-app-service]] presents live-sports alerts as an attempt to make one class of notification worth the user's interruption.
 
 ## Counterevidence & Qualifications
-All six sources offer practitioner, historical, or popular syntheses rather than measured system-level causal evidence. Wulc's article is a secondary reading note and does not specify which attention signals are stored, sold, or causally responsible for later behavior. John Val John's article does not document the methodology behind its exposure counts or show that laboratory conditioning effects produce durable purchases, aggregate spending, anxiety, or environmental harm. Newport's article is a polemical incentive analysis: it does not establish Facebook's intent, clinically measure addiction, or support its 5-10% engagement scenario with a financial model. Boyd's selected histories clarify a manipulation repertoire but do not quantify typical effectiveness. Schulson explicitly notes diagnostic uncertainty and uses gambling as a mechanism-level analogy; the essay does not establish feature-level causality, equivalent harm, or the effectiveness of its proposed rules. Direct payment can still reward popularity or compulsion, while user controls and regulation can create privacy, classification, access, and evasion problems. None of the proposed alternatives has before-and-after evidence here showing improved understanding or welfare.
+All seven sources offer practitioner, historical, or popular syntheses rather than measured system-level causal evidence. Wulc's article is a secondary reading note and does not specify which attention signals are stored, sold, or causally responsible for later behavior. John Val John's article does not document the methodology behind its exposure counts or show that laboratory conditioning effects produce durable purchases, aggregate spending, anxiety, or environmental harm. Newport's article is a polemical incentive analysis: it does not establish Facebook's intent, clinically measure addiction, or support its 5-10% engagement scenario with a financial model. Boyd's selected histories clarify a manipulation repertoire but do not quantify typical effectiveness. Schulson explicitly notes diagnostic uncertainty and uses gambling as a mechanism-level analogy; the essay does not establish feature-level causality, equivalent harm, or the effectiveness of its proposed rules. The usage-moment essay selects successful 2016 examples without measuring how attention is divided within a state or showing that routine alignment caused adoption; “owning” a state also obscures multi-homing, episodic use, and changing routines. Direct payment can still reward popularity or compulsion, while user controls and regulation can create privacy, classification, access, and evasion problems. None of the proposed alternatives has before-and-after evidence here showing improved understanding or welfare.
 
 ## What Changed
-- Added variable rewards, repeated triggers, escalating investment, and weak stopping cues as mechanisms that can prolong monetizable sessions.
-- Distinguished generic distraction from repetitive focus on digital motion and reward.
-- Added agency-expanding regulation alongside personal discipline and revenue realignment, with privacy, classification, accessibility, and evasion limits.
+- Added recurring usage states as the temporal arenas in which products compete for finite attention.
+- Distinguished strongly cued routines from the broad, crowded mobile-idling state.
+- Added “state ownership” as a useful but unmeasured metaphor that must allow multi-homing, episodic use, and changing routines.
 
 ## Related Concepts
 - [[WebAdEconomics]] - advertising is the revenue mechanism connecting attention to publisher income.
@@ -69,3 +72,4 @@ All six sources offer practitioner, historical, or popular syntheses rather than
 - [[EngagementIncentiveConflict]] - explains why an attention-funded platform may prefer reforms that preserve total usage.
 - [[NetworkedInformationManipulation]] - explains how coordinated actors exploit attention-distribution and media-amplification mechanisms.
 - [[DigitalCompulsionRegulation]] - proposes enforceable controls when user agency and attention-funded incentives diverge.
+- [[UsageMomentFit]] - explains when an existing routine can make one product salient within the attention economy.
