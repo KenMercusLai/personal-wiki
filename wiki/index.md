@@ -954,6 +954,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Focus on Your Own Shit](sources/justin-jackson-focus-on-your-own-shit.md) - Justin Jackson argues that comparison-driven monitoring displaces creative work and should give way to customer understanding, craft, and product improvement.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
 - [What if you don't need MCP at all?](sources/mario-zechner-what-if-you-dont-need-mcp-at-all.md) - Mario Zechner uses a small Puppeteer-backed browser CLI to argue that task-specific shell tools can be more context-efficient, composable, and extensible than broad MCP servers.
+- [Your first 500 users](sources/mitchell-lee-your-first-500-users.md) - Mitchell Lee describes Penny's staged path from observed onboarding and founder networks to a marketing page, community channels, incidental press, and 500 reported signups.
 
 ## Entities
 - [Ron Conway](entities/RonConway.md) - Angel investor represented through cross-cycle portfolio guidance on runway, fundraising, valuation, partnerships, and M&A during capital shocks.
@@ -2578,6 +2579,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
 - [Mario Zechner](entities/MarioZechner.md) - Developer-author advocating small composable command-line tools for bounded agent workflows.
 - [Puppeteer](entities/Puppeteer.md) - Browser automation library used beneath a minimal agent-facing Chrome CLI.
+- [Mitchell Lee](entities/MitchellLee.md) - Penny cofounder documenting a learning-first, multi-channel path to the app's first 500 reported signups.
+- [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
 - [Deep Preparation](concepts/DeepPreparation.md) - Concentrated research, expert consultation, active questioning, review, and synthesis intended to improve understanding, conversation quality, and durable trust.
@@ -2594,6 +2597,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Traffic Unitization](concepts/TrafficUnitization.md) - Stable routing and ownership of related workloads so normal reads and writes complete inside one site while units remain movable during failure.
 - [Email Batching](concepts/EmailBatching.md) - Grouping email review into scheduled windows, sometimes by withholding new messages from the visible inbox between releases.
 - [Podcast Discovery](concepts/PodcastDiscovery.md) - Matching listeners with unfamiliar shows through search, recommendation, communities, or platforms while distinguishing downloads from durable human listening.
+- [Early User Acquisition](concepts/EarlyUserAcquisition.md) - Stage-sensitive recruitment through observed onboarding, research participants, personal networks, credible conversion infrastructure, and small external channel tests.
 - [External Service Dependency](concepts/ExternalServiceDependency.md) - Operational and business exposure created when core product value depends on another organization's data, infrastructure, policy, pricing, or continuity.
 - [Website Business Valuation](concepts/WebsiteBusinessValuation.md) - Estimating a transferable online business from normalized earnings and a buyer-confidence multiple adjusted for durability, risk, operating burden, and defensibility.
 - [Assistive Technology Dual Use](concepts/AssistiveTechnologyDualUse.md) - Condition in which an access-improving capability can enable surveillance or other harm through substantially the same mechanism.

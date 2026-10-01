@@ -7491,3 +7491,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Your first 500 users
+
+Added [[MitchellLee]], [[Penny]], and [[EarlyUserAcquisition]], and updated [[StartupDistributionStrategy]], [[HackerNews]], [[Reddit]], and [[AppLandingPages]] from their complete ordered evidence inventories. Recorded the learning-first path from in-person onboarding and enthusiastic research participants through founder networks, a credible marketing page, Show HN, Reddit, app aggregators, incidental Android Police coverage, and expert feedback outreach. Preserved the article's approximate founder-reported funnel—about 700 Show HN visitors, 100 download clicks, 40 signups, roughly 30 Reddit users, and almost 200 Android Police signups—while distinguishing signups from activation, bank linking, retention, payment, cost, and causal attribution. Opened both local images, omitted the decorative author headshot, and retained the signup chart under a descriptive canonical filename with a matching asset manifest.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

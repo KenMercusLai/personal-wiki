@@ -5,7 +5,8 @@ tags: [company, community, social-media]
 sources:
   - constantin-reddit-marketing-strategy-for-saas-with-zero-users
   - credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review
-last_updated: 2026-09-26
+  - mitchell-lee-your-first-500-users
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ In Constantin's source, Reddit is not treated as one generic broadcast channel. 
 
 The Credit Karma source presents Reddit as a harsher research environment. Skeptical threads, direct founder replies, a 2014 AMA, and unsolicited customer defense were used to test whether the company's free model could be explained credibly. Advocates' complaints about credit-report inaccuracies also became input to Direct Dispute. Together, the sources show both proactive publishing and reactive participation, but they do not establish that Reddit users represent the wider market.
 
+The Penny case adds a small acquisition outcome. Mitchell Lee says he first spent weeks contributing meaningfully, then posted useful material to specific subreddits rather than asking directly for product feedback; exposure from that participation reportedly produced roughly 30 users. The case supports community credibility and indirect discovery, while its missing post-level attribution, activation, retention, and moderation evidence prevents a general conversion claim.
+
 ## Key Characteristics
 - Organizes participation into topic-specific communities with distinct expectations.
 - Exposes ranked historical posts that can be used for audience and format research.
@@ -24,6 +27,7 @@ The Credit Karma source presents Reddit as a harsher research environment. Skept
 - Supports public comment exchanges that can turn a post into direct audience engagement.
 - Can expose blunt objections and public reactions to a founder's business-model explanation.
 - Makes unsolicited advocacy visible enough to support follow-up research and product feedback.
+- Can expose a product indirectly through useful niche contributions after a founder has established community credibility.
 
 ## Evidence
 - Community segmentation: [[constantin-reddit-marketing-strategy-for-saas-with-zero-users]] lists 20 candidate subreddits spanning multiple startup and product-building contexts.
@@ -32,13 +36,15 @@ The Credit Karma source presents Reddit as a harsher research environment. Skept
 - Conversation: [[constantin-reddit-marketing-strategy-for-saas-with-zero-users]] recommends responding to everyone under a post.
 - Skepticism and transparency: [[credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review]] describes Credit Karma's use of critical threads and a 2014 AMA to explain its free model.
 - Advocacy and feedback: [[credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review]] says Reddit defenders were asked what they wanted and their report-inaccuracy concern informed Direct Dispute.
+- Indirect product exposure: [[mitchell-lee-your-first-500-users]] says Lee contributed to Reddit before sharing useful web-animation work in a niche subreddit and attributes roughly 30 Penny users to Reddit overall.
 
 ## Qualifications
-This is a marketing- and feedback-specific, source-bounded profile rather than a complete account of Reddit's business, governance, recommendation systems, moderation, user demographics, or current policies. The sources do not show that the listed communities welcome the same behavior today, that Reddit participants represent the wider customer base, or that participation produces qualified and retained customers or durable trust.
+This is a marketing- and feedback-specific, source-bounded profile rather than a complete account of Reddit's business, governance, recommendation systems, moderation, user demographics, or current policies. The sources do not show that the listed communities welcome the same behavior today or that Reddit participants represent the wider customer base. Penny's roughly 30 users are founder-attributed without a post-level funnel, activation, retention, payment, labor, deletion, or moderation data, so participation should not be assumed to produce qualified and retained customers or durable trust.
 
 ## What Changed
 - Created Reddit as a community-segmented product-marketing platform case.
 - Added Credit Karma's use of Reddit for criticism, founder transparency, advocate discovery, and product feedback.
+- Added Penny as a norm-aware, indirect product-exposure case with a small reported acquisition outcome.
 
 ## Relationships
 - [[RedditMarketing]] - the platform's subreddit structure defines the method's unit of research and participation.
@@ -46,3 +52,5 @@ This is a marketing- and feedback-specific, source-bounded profile rather than a
 - [[CustomerLedProductDevelopment]] - comment exchanges may expose needs and feedback, although the source does not document such outcomes.
 - [[StartupBrandStrategy]] - candid public responses can stress-test brand promises and business-model explanations.
 - [[CreditKarma]] - company case using Reddit for AMA participation, advocate observation, and product input.
+- [[EarlyUserAcquisition]] - includes community participation as one first-user channel rather than a complete distribution system.
+- [[Penny]] - app whose founder attributed roughly 30 early users to Reddit activity.

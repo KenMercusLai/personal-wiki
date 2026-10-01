@@ -578,6 +578,7 @@
       "9f20de5994ab639e86be5391379d53b1bfc8c191a550defaf1f75f8526a903fb",
       "b6afd0631549c05d1cffed93469a01eff0908aa11d725205e32ab9fb58a6a689",
       "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115",
+      "8e9f0c2f49f640e4d6e41cd01eb6c6e01b00299287930c46fc7deddae573b34f",
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
       "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52",
@@ -686,10 +687,10 @@
       "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83",
       "9e2d488f05329529a57047c43d187ccd335bcdd401cf53dc7ee1f6a653fd62cf"
     ],
-    "paragraph_count": 684
+    "paragraph_count": 685
   },
-  "overview_commit": "dae74fefbda0bec652556555fbb593df3765237e",
-  "overview_digest": "5a81bc15c31272eebf840e1cae015a568907ecfed7c8dcd8cfd92c3f51e1c0bd",
+  "overview_commit": "112ea3d3f108b06a52b81bf9646d1198d5e755e1",
+  "overview_digest": "8857ae72f00a6811f8fa9cd9f0127c266eb9fb2a276b74364a2454819a3301e8",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -11818,6 +11819,25 @@
         "ProductMarketFit",
         "StartupDistributionStrategy",
         "ViralLoops"
+      ]
+    },
+    {
+      "id": "8e9f0c2f49f640e4d6e41cd01eb6c6e01b00299287930c46fc7deddae573b34f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The [[MitchellLee]] retrospective adds [[EarlyUserAcquisition]] as the pre-scale operating sequence inside that distribution framework. [[Penny]] moved from observed in-person onboarding and enthusiastic research participants to founder-network seeding, then added a credible [[AppLandingPages|marketing page]] and a portfolio of [[HackerNews]], [[Reddit]], aggregator, press, and expert-feedback channels. The reported funnel makes attention loss visible: about 700 Show HN visitors became 100 download clicks and roughly 40 signups, while Reddit contributed about 30 users and an incidental Android Police roundup almost 200 signups in two days. This strengthens [[CustomerLedProductDevelopment]] because early recruiting doubled as onboarding observation and expert learning, while also showing the volatility of borrowed distribution. The evidence remains founder-reported and signup-centered: no channel-level activation, bank-link completion, retention, payment, acquisition cost, or controlled attribution is supplied, and a pre-revenue, US-only consumer finance app with founder network access is not a universal 0-to-500 recipe. The decorative author headshot was omitted; the signup chart was retained because it shows the staged curve and sharp press and launch spikes.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AppLandingPages",
+        "CustomerLedProductDevelopment",
+        "EarlyUserAcquisition",
+        "HackerNews",
+        "MitchellLee",
+        "Penny",
+        "Reddit"
       ]
     },
     {

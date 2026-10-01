@@ -10,7 +10,8 @@ sources:
   - growth-hacker-is-the-new-vp-marketing-at-andrewchen
   - halfway-there-the-road-to-1m-arr
   - its-not-a-feature-problem-avoiding-startup-tarpits-by
-last_updated: 2026-09-30
+  - mitchell-lee-your-first-500-users
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -31,6 +32,8 @@ Airbnb's Craigslist integration adds the implementation depth behind “product-
 A small B2B SaaS case shows distribution and product experience overlapping. [[Beamer]]'s visible widget exposed the product inside customer applications, direct support strengthened referrals, and the reported lead mix divided roughly evenly between word of mouth or referrals and content or SEO. This supports a combined organic portfolio rather than a single-channel story, but the founders themselves identify the portfolio's common weakness: both customer advocacy and search ranking depend on external actors, so nominally low-cost growth can still be concentrated and hard to control.
 
 Vonjour supplies the inverse failure mode: the team expected feature additions and eventual word of mouth to unlock growth, spent seed funding on development, and tested paid acquisition only after product budgets tightened. Tawfik reports that Google Ads increased signups and that the resulting traffic revealed signup friction whose correction reduced average CAC from about $130 to $70. The case strengthens distribution's role as an early learning system, not just a scale mechanism, while leaving its projected growth unproven beyond one founder's account.
+
+Penny adds the pre-scale sequence before any repeatable engine exists. Its founders reportedly recruited close contacts and enthusiastic research participants for observed onboarding, used their personal network to move toward 50 users, then built a credible marketing page and tested communities, aggregators, press, and expert outreach. Show HN produced about 700 visitors, 100 download clicks, and 40 signups; Reddit about 30 users; and an unexpected Android Police roundup almost 200 signups. The uneven results support a portfolio of small, audience-matched tests, but signup milestones remain weaker than activation, retention, payment, and sustainable channel economics.
 
 ## Key Claims
 - Distribution and product-market-fit hypotheses should be designed and tested together.
@@ -56,6 +59,9 @@ Vonjour supplies the inverse failure mode: the team expected feature additions a
 - Concentration risk: [[halfway-there-the-road-to-1m-arr]] says the founders worried that recommendations and search visibility were difficult to control and might not scale predictably.
 - Feature-versus-distribution test: [[its-not-a-feature-problem-avoiding-startup-tarpits-by]] says Vonjour's feature additions produced little reported growth, while its first paid-search campaign produced a sizable signup increase.
 - Funnel learning: [[its-not-a-feature-problem-avoiding-startup-tarpits-by]] says increased traffic exposed signup friction and that small changes lowered reported CAC from about $130 to $70.
+- First-user sequence: [[mitchell-lee-your-first-500-users]] moves from observed onboarding and research participants through founder networks to a landing page and external channel portfolio.
+- Small-channel funnel: [[mitchell-lee-your-first-500-users]] reports about 700 Show HN visitors, 100 download clicks, and 40 signups, plus roughly 30 Reddit users.
+- High-variance discovery: [[mitchell-lee-your-first-500-users]] says small app-aggregator submissions were usually weak, while an incidental Android Police roundup generated almost 200 signups in two days.
 
 ## Counterevidence & Qualifications
 The sources provide practitioner guidance rather than comparative acquisition data. They do not quantify responsiveness, saturation, organic lift, payback periods, or channel concentration, and their examples do not isolate each mechanism's causal contribution. New-platform tailwinds may look like product-embedded distribution while the platform itself is doing the acquisition, and invitations can create spam, privacy, or incentive problems. The Craigslist case additionally relies on a retrospective account of a non-public workflow, without implementation cost, platform-policy analysis, maintenance history, or attributable traffic and retention.
@@ -66,10 +72,13 @@ Beamer's reported 20% average monthly revenue growth, no-paid-ad claim, and chan
 
 Vonjour's case is likewise self-reported and omits campaign period, cohort counts, gross margin, churn, retention, and marginal CAC as spend increases. Its arithmetic supports a small-scale hypothesis test, not the stronger claim that paid acquisition would have sustained the projected $1 million run rate or that marketing is generally superior to product investment.
 
+Penny's account is also a founder retrospective without independent analytics, cohort definitions, retention, revenue, acquisition cost, or clean attribution among concurrent product, landing-page, community, and press changes. Its pre-revenue, US-only consumer context and founder network limit transfer to enterprise, paid, regulated, international, or differently networked products. The case supports stage-sensitive experimentation and direct learning, not a universal 0-to-500 channel recipe.
+
 ## What Changed
-- Added paid traffic as a product-learning mechanism that can reveal conversion bottlenecks.
-- Added Vonjour's reported feature-versus-distribution allocation failure as a startup-tarpit case.
-- Qualified average-CAC and run-rate projections against marginal channel cost, retention, and contribution economics.
+- Added observed onboarding and research participants as the learning-first stage of distribution.
+- Added the personal-network bridge from a handful of users to an external channel portfolio.
+- Added Penny's measurable Show HN, Reddit, and Android Police outcomes while separating signups from retained or paying use.
+- Qualified exact channel sequencing against product, audience, geography, founder-network, and attribution differences.
 
 ## Related Concepts
 - [[ProductMarketFit]] - customer value and distribution jointly determine whether traction can become durable growth.
@@ -84,3 +93,5 @@ Vonjour's case is likewise self-reported and omits campaign period, cohort count
 - [[Beamer]] - illustrates product-visible, referral, support, content, and SEO channels operating together.
 - [[GrowthChannelSaturation]] - organic channels can lose reach or predictability even without paid-auction exposure.
 - [[StartupTarpit]] - captures the inertia that can result when distribution is postponed until product spending has consumed runway.
+- [[EarlyUserAcquisition]] - covers the learning-first channel sequence before repeatable scaled distribution exists.
+- [[Penny]] - supplies a staged consumer-app case from observed onboarding to 500 reported signups.
