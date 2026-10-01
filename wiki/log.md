@@ -7587,3 +7587,11 @@ Added [[NicheSocialNetworks]] and updated [[MGSiegler]] and [[SocialPlatformNetw
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Niche to Win, Baby.
+
+Added [[NicheToWin]] and updated [[DaveMcClure]], [[BeachheadStrategy]], and [[DifferentiationStrategy]] from their complete ordered evidence inventories. Recorded the joint customer-segmentation, product-differentiation, and targeted-message strategy; the rough-product threshold for one specific audience; the survival-and-learning role of the first foothold; and the later expansion path. Preserved the essay's practitioner scope, hypothetical segment, compressed winner histories, and unsupported claim that incumbents will never catch the entrant. Opened both effective local image references and omitted them as duplicate resolutions of the same decorative stormtrooper illustration.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint without saving a report. Deterministic and graph-aware checks completed; semantic checks were unavailable because the configured LiteLLM model lacks a provider prefix.

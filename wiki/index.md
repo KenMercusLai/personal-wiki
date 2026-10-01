@@ -967,6 +967,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [What if you don't need MCP at all?](sources/mario-zechner-what-if-you-dont-need-mcp-at-all.md) - Mario Zechner uses a small Puppeteer-backed browser CLI to argue that task-specific shell tools can be more context-efficient, composable, and extensible than broad MCP servers.
 - [Your first 500 users](sources/mitchell-lee-your-first-500-users.md) - Mitchell Lee describes Penny's staged path from observed onboarding and founder networks to a marketing page, community channels, incidental press, and 500 reported signups.
 - [Need help with business naming? Apply these design thinking exercises](sources/need-help-with-business-naming-apply-these-design-thinking-exercises.md) - A four-stage method connects company purpose and category research with divergent naming, usability and availability screening, and qualified audience testing.
+- [Niche to Win, Baby.](sources/niche-to-win-baby-500-hats.md) - Dave McClure argues that a startup should pair a narrow customer segment with a focused product and message, then expand only after earning an initial foothold.
 
 ## Entities
 - [Abhijit Tomar](entities/AbhijitTomar.md) - Author who documented a 2018 listing-mediated telephone-banking scam affecting his cousin.
@@ -1671,7 +1672,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Valve](entities/Valve.md) - game developer whose Half-Life advanced narrative FPS design and whose mod ecosystem produced Counter-Strike.
 - [Chris Bailey](entities/ChrisBailey.md) - Productivity author represented by advice on work-break timing, energy restoration, and attention recovery.
 - [Chris James](entities/ChrisJames.md) - Software-development practitioner-author arguing for sustainable speed through small teams, continuous delivery, low WIP, simple architecture, and user feedback.
-- [Dave McClure](entities/DaveMcClure.md) - Investor-author arguing that VC portfolios should be sized around rare power-law winners.
+- [Dave McClure](entities/DaveMcClure.md) - Investor-author connecting diversified VC portfolios with concentrated customer focus inside an early startup.
 - [500 Startups](entities/500Startups.md) - Venture platform represented through high-volume portfolio construction and an accelerator participant's fundraising-preparation experience.
 - [David Lee](entities/DavidLee.md) - Author who curates startup checklists for strategy, fundraising, metrics, and marketplace evaluation.
 - [Bill Gurley](entities/BillGurley.md) - Marketplace-focused venture investor referenced for digital-marketplace evaluation factors.
@@ -3604,7 +3605,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Layered representation learning shaped by training mechanics, labeled and unlabeled data, accelerator scale, operational deployment, reusable artifacts, and transfer limits.
 - [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
-- [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
+- [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make an offer customer-visibly distinct, including alignment between a niche audience, focused product, and targeted message.
 - [Incumbent Shadow Advantage](concepts/IncumbentShadowAdvantage.md) - Startup pattern where a dominant platform expands demand and deters rivals while leaving specialized segments open.
 - [Environmental Field](concepts/EnvironmentalField.md) - Invisible social, material, emotional, and normative surroundings that shape behavior, character, creativity, and moral judgment.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
@@ -3855,7 +3856,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Data Science Investment Readiness](concepts/DataScienceInvestmentReadiness.md) - Test for whether actionable signal, strategic importance, and operating support justify an internal data-science capability.
 - [Data Science Organization Design](concepts/DataScienceOrganizationDesign.md) - Evolving choice among standalone, embedded, integrated, and hybrid structures for data-science work.
 - [Full-Stack Consumer Brands](concepts/FullStackConsumerBrands.md) - Consumer-products model integrating direct customer relationships, brand, recurring commerce, data, software, service, and product expansion.
-- [Beachhead Strategy](concepts/BeachheadStrategy.md) - Staged market entry that wins an economically useful foothold and uses it as the base for credible expansion.
+- [Beachhead Strategy](concepts/BeachheadStrategy.md) - Staged market entry that joins a winnable initial segment with usable learning, sales, or capability for later expansion.
 - [Edge Computing](concepts/EdgeComputing.md) - Placing compute near physical operations when latency or continued operation during connectivity loss justifies a distributed local platform.
 
 - [Employee Equity Grant Sizing](concepts/EmployeeEquityGrantSizing.md) - Stage-sensitive method for translating role, salary, company value, and fully diluted capitalization into a proposed employee share grant.
@@ -3879,5 +3880,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Default Alive](concepts/DefaultAlive.md) - Assumption-sensitive test of whether current revenue growth reaches breakeven before a startup exhausts its cash.
 - [Execution Path Transparency](concepts/ExecutionPathTransparency.md) - Visibility of what executes, in what order, under which conditions, and with which state changes along a consequential control path.
 - [Functional Programming](concepts/FunctionalProgramming.md) - Structuring computation around explicit inputs and returned values while minimizing hidden dependencies and persistent-state mutation.
+- [Niche to Win](concepts/NicheToWin.md) - Early-stage strategy pairing a narrow customer definition with a focused product and message to earn a survival-and-learning foothold before expansion.
 
 ## Syntheses
