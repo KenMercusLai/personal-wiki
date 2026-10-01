@@ -691,12 +691,13 @@
       "de3691f19e3a7f3348086e161f442cff014ca7f88b311017d186bed5f84c445b",
       "b35b053d350db17beca23f9f445b353884c9ebb4441903299e70a9026b5d7f2e",
       "70b7b6b96e9ccfedc4d80e5ea2d01880d18fe97498ba378e3056a7359188de69",
-      "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45"
+      "76809c7d268f35ee60a5030dcdf865a829b3a4cb3962b6ba64b4db5c96095c45",
+      "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e"
     ],
-    "paragraph_count": 691
+    "paragraph_count": 692
   },
-  "overview_commit": "e6b99e4d8d21d1fb1e3e280846bcdb5516480828",
-  "overview_digest": "a11f782ab02a1f8e3e6de461bac7cc3a23256359673fd9997f75a39bda7ea993",
+  "overview_commit": "860badf50696dec53a613eb1bd161efbedf64f6e",
+  "overview_digest": "285a0e079626865b09b5d8cb1f727aefa70cbaabb2a0a37acfca80f894a12964",
   "paragraphs": [
     {
       "id": "d1e31392d3d2b52b3b8e8be2089332691bb06f0e6a9ce67d2055b325546ed15e",
@@ -13983,6 +13984,24 @@
         "Amazon",
         "Netflix",
         "StreamingContentEconomics"
+      ]
+    },
+    {
+      "id": "b57a8d6a8cefd68c041307e01da8a65ab2428f4f97bf1c90f9dbb88f61edb29e",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[MarkSuster]] source extends [[EmailTaskManagement]] from recipient-side state tracking to sender-side assignment. [[ResponsibilityDiffusion]] explains the central failure mode: when one action is addressed to several possible responders without a named owner, everyone pays the attention cost but each can infer that somebody else will act. Suster's repair is to name one primary actor, reserve `cc` for informed non-owners, let that owner route the request to a better-matched colleague, and escalate sequentially if necessary. This complements flags, delegated queues, awaiting-reply states, [[Yesterbox]], and calendar capacity by making ownership explicit before a request enters those systems. The principle is qualified rather than universal: parallel review, collective decisions, uncertain availability, incident response, and safety controls may require several participants or redundancy, but still benefit from an explicit coordinator, division of actions, or decision rule. The evidence is a 2016 practitioner essay without measured response outcomes. Both unique local files were opened and omitted as the same decorative envelope-overload illustration at different resolutions; one resolution was also duplicated, so no asset manifest was created.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "EmailTaskManagement",
+        "MarkSuster",
+        "ResponsibilityDiffusion",
+        "Yesterbox"
       ]
     }
   ],

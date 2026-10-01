@@ -7192,6 +7192,10 @@ Added [[JasonRoberts]] and extended [[LuckAndEffortInSuccess]] with effective co
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-01] ingest | Never Ask Two People to do One Person's Job
+
+Added [[ResponsibilityDiffusion]] as the coordination risk created when several people could act but no individual owns the request. Updated [[EmailTaskManagement]] from its complete ordered evidence inventory with sender-side action assignment, and updated [[MarkSuster]] from his complete ordered evidence inventory with the one-owner rule, restrained copying, explicit routing, and sequential escalation. Preserved exceptions for parallel review, collective decisions, incident response, and deliberate redundancy, as well as the article's anecdotal practitioner scope. Opened both unique local image files and omitted them as the same decorative envelope-overload illustration at different resolutions; one resolution was embedded twice, so no asset manifest was created.
+
 ## [2026-10-01] ingest | Bottleneck #01: Tech Debt
 
 Added [[TechnicalDebt]] and updated [[MartinFowler]] from his complete ordered evidence inventory. Recorded prudent early-stage shortcuts, the nonlinear scaling bottleneck, a broad debt taxonomy, observable warning signals, the boundary between debt and missing platform functionality, and a response based on quality standards, constrained blast radius, product-engineering collaboration, transparent evidence, ownership, empowered teams, and lightweight governance. Preserved the counterweight that premature architecture, automation, and optimization can obstruct product learning, and the source's lack of comparative outcomes or validated thresholds. Opened the sole local diagram and retained it under a descriptive canonical filename at its product-and-engineering collaboration position.
@@ -7559,6 +7563,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries
 
 Added [[NetworkJanitor]], [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], and [[EdgeNetworkLoopProtection]], and updated [[VMware]] from its complete ordered evidence inventory. Recorded the boundary between legitimate STP removal inside a controlled fabric core and continuing edge-loop risk, MSTP's planning-versus-instance-scale tradeoff, BPDU Guard containment, BPDU Filter's signal suppression, a guest-bridging incident across VLANs, and storm, MAC, and CPU indicators as partial alternatives. Preserved the article's 2012 practitioner scope, missing topology and configuration evidence, containment blast radius, and undocumented attribution of BPDU Filter guidance to VMware. Opened the sole local image and omitted it as a decorative canary photograph, so no asset manifest was created.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

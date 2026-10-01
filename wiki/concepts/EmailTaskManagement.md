@@ -6,7 +6,8 @@ sources:
   - blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file
   - dont-drown-in-email-how-to-use-gmail-more-efficiently-startup-lessons-learned
   - i-studied-the-zappos-ceos-schedule-for-a-year-heres-what-i-learned
-last_updated: 2026-09-29
+  - never-ask-two-people-to-do-one-persons-job-both-sides-of-the-table
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,7 +15,7 @@ knowledge_schema: synthesis-v1
 [[EmailTaskManagement]] is the practice of assigning messages explicit action and follow-up states so the inbox is not the only representation of unfinished work.
 
 ## Current Synthesis
-The sources describe two complementary ways to make email obligations finite and reviewable. [[AndreasKlinger]] and [[JeffHuang]] use small visual state systems to separate immediate work, eventual work, awaited replies, delegation, and scheduled commitments. [[TonyHsieh]]'s [[Yesterbox]] instead uses a time boundary: yesterday's inbox becomes today's primary queue, short replies or delegation can happen immediately, and a chief-of-staff team absorbs volume beyond one person's capacity. Across the methods, the durable principle is explicit scope, visible ownership, and routine review rather than a particular interface or an empty-inbox score; calendars remain important for work whose duration and priority cannot be represented by email alone.
+The sources describe complementary ways to make email obligations finite and reviewable. [[AndreasKlinger]] and [[JeffHuang]] use small visual state systems to separate immediate work, eventual work, awaited replies, delegation, and scheduled commitments. [[TonyHsieh]]'s [[Yesterbox]] instead uses a time boundary: yesterday's inbox becomes today's primary queue, short replies or delegation can happen immediately, and a chief-of-staff team absorbs volume beyond one person's capacity. [[MarkSuster]] adds the sender-side prerequisite: a request that needs one response should name one owner, while copied recipients are informed rather than implicitly assigned the same task. Across the methods, the durable principle is explicit scope, visible ownership, and routine review rather than a particular interface or an empty-inbox score; calendars remain important for work whose duration and priority cannot be represented by email alone.
 
 ## Key Claims
 - Email becomes easier to review when messages have a small number of explicit action or follow-up states.
@@ -23,6 +24,7 @@ The sources describe two complementary ways to make email obligations finite and
 - Filters, shortcuts, auto-advance, and clear handling rules can reduce repetitive processing overhead.
 - Inbox zero is an optional interface-clearing tactic; it is not the only valid goal and does not prove that underlying work is complete.
 - Time-bounded queues such as Yesterbox can stabilize the day's processing scope, but high-volume use may depend on team triage and delegation.
+- A sender should distinguish one action owner from informational recipients to reduce [[ResponsibilityDiffusion]] before the message enters anyone's task system.
 
 ## Evidence
 - Explicit state systems: [[dont-drown-in-email-how-to-use-gmail-more-efficiently-startup-lessons-learned]] uses action, awaiting-reply, delegated, and scheduled markers; [[blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file]] uses immediate, eventual, and awaited-reply flags.
@@ -31,15 +33,17 @@ The sources describe two complementary ways to make email obligations finite and
 - Processing efficiency: [[dont-drown-in-email-how-to-use-gmail-more-efficiently-startup-lessons-learned]] combines filters, unsubscribe decisions, keyboard shortcuts, auto-advance, and account consolidation with its state model.
 - Inbox-zero qualification: [[blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file]] explicitly centers workload control rather than inbox zero, while [[dont-drown-in-email-how-to-use-gmail-more-efficiently-startup-lessons-learned]] uses an empty inbox as the visible end of each processing cycle.
 - Time boundary and team support: [[i-studied-the-zappos-ceos-schedule-for-a-year-heres-what-i-learned]] describes yesterday's inbox as today's queue, immediate handling for very short replies, and chief-of-staff triage for volume one executive could not process alone.
+- Sender-side assignment: [[never-ask-two-people-to-do-one-persons-job-both-sides-of-the-table]] recommends naming one action owner, limiting copies, and routing or escalating the request explicitly.
 
 ## Counterevidence & Qualifications
-The sources describe individual workflows rather than controlled comparisons, and all depend on consistent review. A cleared inbox can conceal deferred work if searches, labels, flags, or delegated queues are ignored. Klinger’s screenshots document an older Gmail interface, his special-star workflow has limited mobile support, and feature availability may have changed. The Yesterbox source contains inconsistent throughput figures and does not expose its underlying dataset; its one-day delay is also unsuitable for some urgent or regulated work. Email systems organize obligations but do not by themselves solve excessive volume, unclear priorities, notification interruption, shallow quick replies, or jobs that require rapid response.
+The sources describe individual workflows rather than controlled comparisons, and all depend on consistent review. A cleared inbox can conceal deferred work if searches, labels, flags, or delegated queues are ignored. Klinger’s screenshots document an older Gmail interface, his special-star workflow has limited mobile support, and feature availability may have changed. The Yesterbox source contains inconsistent throughput figures and does not expose its underlying dataset; its one-day delay is also unsuitable for some urgent or regulated work. Suster's one-owner advice is likewise anecdotal and needs exceptions for parallel review, collective decisions, and deliberate redundancy. Email systems organize obligations but do not by themselves solve excessive volume, unclear priorities, notification interruption, shallow quick replies, or jobs that require rapid response.
 
 ## What Changed
 - Established a cross-source model that separates email arrival from action and follow-up state.
 - Preserved disagreement over inbox zero by treating it as optional rather than the defining outcome.
 - Added historical Gmail implementation details and their mobile and version-specific limits.
 - Added Yesterbox as a time-bounded alternative and made team triage, delegation, calendar capacity, and urgency exceptions explicit.
+- Added sender-side action ownership as a prerequisite for reliable recipient-side tracking.
 
 ## Related Concepts
 - [[PersonalProductivity]] - email state systems externalize obligations and support workload triage.
@@ -48,3 +52,4 @@ The sources describe individual workflows rather than controlled comparisons, an
 - [[WorkHabits]] - the system depends on repeated processing and review routines.
 - [[TextFileProductivity]] - Huang moves selected email obligations into a bounded daily text plan.
 - [[Yesterbox]] - uses the previous day's arrivals as a stable daily processing queue.
+- [[ResponsibilityDiffusion]] - explains why an unowned request to several possible actors may receive no response.

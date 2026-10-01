@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Never Ask Two People to do One Person's Job](sources/never-ask-two-people-to-do-one-persons-job-both-sides-of-the-table.md) - Mark Suster argues that one-person requests need one named owner, with copied recipients treated as informed rather than ambiguously responsible.
 - [Network effects on social platforms: why the quality of user matters](sources/network-effects-on-social-platforms-why-the-quality-of-user-matters-version-one.md) - A Version One essay reframes social-platform network effects around relationship relevance, contribution, and product-specific critical mass rather than user count alone.
 - [On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries](sources/network-janitor-on-the-premature-death-of-spanning-tree-and-the-indiscriminate-killing-of-canaries.md) - Network Janitor argues that fabric-core STP removal does not eliminate edge-loop risk and that replacement detection and containment must be explicit.
 - [Netflix is on F***ing Fire](sources/netflix-is-on-f-ing-fire-the-startup-medium.md) - A 2016 commentary uses Netflix's scale, original-programming run, and a streaming-dominated Rotten Tomatoes snapshot to argue that television incumbents faced structural pressure.
@@ -1899,7 +1900,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
 - [Tall West](entities/TallWest.md) - Design agency context for Brad Ellis's reach-navigation essay.
 - [Bird](entities/Bird.md) - Electric scooter service framed as a category-creating micromobility startup with rapid demand and a bundled operating moat.
-- [Mark Suster](entities/MarkSuster.md) - Investor-author and former CEO reasoning about Bird, hiring, networks, employee equity, and earn-versus-learn career choices.
+- [Mark Suster](entities/MarkSuster.md) - Investor-author and former CEO reasoning about Bird, hiring, networks, employee equity, career choices, and explicit communication ownership.
 - [Upfront Ventures](entities/UpfrontVentures.md) - Los Angeles venture firm that backed Bird across multiple recent rounds.
 - [Travis VanderZanden](entities/TravisVanderZanden.md) - Bird founder presented as an experienced operator behind the company's fast rollout and fundraising.
 - [Tom Tunguz](entities/TomTunguz.md) - SaaS strategy writer connecting cross-field innovation with team expertise and organizational data sharing.
@@ -2599,6 +2600,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
 
 ## Concepts
+- [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
 - [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
 - [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.
 - [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture whose internal STP replacement does not automatically protect edge attachments.
