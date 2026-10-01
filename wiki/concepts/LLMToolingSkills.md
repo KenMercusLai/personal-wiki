@@ -9,7 +9,8 @@ sources:
   - lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai
   - context-engineering-from-the-inside-out
   - dont-trust-ai-agents-nanoclaw-blog
-last_updated: 2026-09-27
+  - mario-zechner-what-if-you-dont-need-mcp-at-all
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -29,6 +30,8 @@ The newest source explains why on-demand loading matters inside the prompt. Only
 
 NanoClaw adds a security and installation variant: a skill includes instructions plus a working reference implementation that a coding agent merges into the owner's codebase after review. In that model, skills keep the core small and make installed integrations explicit, but review and selective installation—not the skill format itself—provide the intended security benefit. Once merged, executable code joins the trusted installation and still needs runtime isolation, credential scoping, and verification.
 
+Zechner adds an intentionally informal analogue: a 225-token README documents a small browser CLI and is loaded only for sessions that need it. The files can be placed on PATH and reused across agents without relying on a particular skill-discovery implementation. This reinforces progressive disclosure and folder-based distribution, while also showing what formal skill systems add: discovery conventions and non-technical accessibility. The article's concern that automatic discovery may be unreliable and may preload metadata is one user's experience, not a general comparison of skill implementations.
+
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
 - Skill-following depends on the model's respect for context and remains probabilistic, and over-constraining behavior can make reasoning less flexible.
@@ -36,7 +39,7 @@ NanoClaw adds a security and installation variant: a skill includes instructions
 - Skills remain useful when a task is too open-ended, low-interaction, or expensive to encode as a dedicated server API.
 - Skills can encode more than linear SOPs; exploration and brainstorming skills may be valuable precisely because they prompt multi-dimensional analysis.
 - Skills work best when separated from rules and specs: a lightweight always-on index plus on-demand full instructions protects context capacity and instruction salience better than one undifferentiated prompt file.
-- A skill can ship as a self-contained folder with instructions, examples, scripts, metadata, safety rules, and recurring-work conventions when the client agent already supplies the runtime.
+- A skill or informal README-described tool folder can ship instructions, examples, scripts, metadata, safety rules, and recurring-work conventions when the client agent already supplies the runtime.
 
 ## Evidence
 - Prompt nature: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] describes Skills as instructions shown to the LLM rather than external action channels.
@@ -58,13 +61,16 @@ NanoClaw adds a security and installation variant: a skill includes instructions
 - Trigger distinction: [[context-engineering-from-the-inside-out]] contrasts task-selected skills with action-triggered hooks that inject safeguards immediately before or after matching tool calls.
 - Reviewed installation: [[dont-trust-ai-agents-nanoclaw-blog]] describes skills as instructions with working reference implementations that a coding agent merges only after the owner reviews the proposed code.
 - Attack-surface claim: [[dont-trust-ai-agents-nanoclaw-blog]] argues that selective skill installation keeps dormant integrations out of the runtime, unlike a monolith where disabled code remains present.
+- Informal progressive disclosure: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] loads a compact browser-tool README only for relevant sessions and puts the scripts on PATH for reuse across different coding agents.
+- Formal-system comparison: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] credits skills with progressive disclosure and broad accessibility but prefers explicit README loading because of perceived discovery and metadata overhead.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, or merged as code. Selection can fail when metadata is weak or the model does not recognize relevance. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, or merged as code. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance.
 
 ## What Changed
 - Broadened the definition to cover reviewed reference implementations merged into an installation as well as prompt-only guidance and bundled executable assets.
 - Separated the auditability benefit of selective installation from the security guarantees still required at runtime.
+- Added explicit README loading as a cross-agent, informal progressive-disclosure variant.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.

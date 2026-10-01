@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 83a5bcb49ddc54bce05232814115072a24e26012
+as_of_overview_commit: 8c18b87d27dfc9ac80ae2151a11bb498781f351d
 summary: "Knowledge advances through calibrated evidence, bounded experiments, reliable systems, sustainable value, accountable institutions, durable learning, and human limits."
-episode_count: 926
-source_count: 926
-paragraph_count: 682
+episode_count: 927
+source_count: 927
+paragraph_count: 683
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, risk-based verification, recovery, accountable control, accessibility, and privacy.
+Technical outcomes depend on explicit boundaries, calibrated evidence, workload fit, risk-based verification, recovery, accountable control, accessibility, privacy, and choosing tool interfaces whose context and authority costs fit the task.
 
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose advertised guarantees become meaningful only when developers verify concrete failure, concurrency, latency, scaling, and migration behavior; [[DatabaseTransactionIsolation]] illustrates the rule because identical labels can hide different anomaly and contention profiles. Evidence: [[DatabaseEngineeringTradeoffs]], [[DatabaseTransactionIsolation]], [[JaanaDogan]].
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].

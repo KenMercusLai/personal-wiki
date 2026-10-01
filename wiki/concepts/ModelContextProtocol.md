@@ -7,7 +7,8 @@ sources:
   - blog-anthropic-building-effective-ai-agents
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
   - context-engineering-from-the-inside-out
-last_updated: 2026-09-26
+  - mario-zechner-what-if-you-dont-need-mcp-at-all
+last_updated: 2026-10-01
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,12 +24,14 @@ A third source supplies both the clearest statement of what MCP uniquely adds an
 
 Context cost helps explain that critique. Full tool names, descriptions, and parameter schemas normally occupy the system prefix on every request; a broad MCP server can therefore consume effective attention even when most tools are irrelevant, and any change to the tool list can disrupt prefix-cache reuse. Recursive CLI help instead reveals one command branch at a time. MCP retains a useful niche for small, focused tool sets where structured I/O, automatic discovery, and integration simplicity outweigh the schema footprint.
 
+Zechner supplies a concrete browser-automation case for this tradeoff. He reports 13.7k tokens for 21 Playwright MCP tools and 18.0k tokens for 26 Chrome DevTools MCP tools, versus a 225-token README for a small CLI covering his own needs. His stronger composability claim is that MCP results must pass through model context before they can be persisted or combined, while shell commands can redirect, pipe, and post-process data outside that channel. This is useful practitioner evidence, but it compares one custom workflow with broad general-purpose servers and does not measure success rate, safety, or total maintenance cost.
+
 ## Key Claims
 - MCP gives LLMs a structured outlet for modifying or querying the external world.
-- Tool schemas create strong priors that constrain model sampling toward valid actions, but their always-loaded context cost grows with catalog breadth.
+- Tool schemas create strong priors that constrain model sampling toward valid actions, but their always-loaded context cost grows with catalog breadth and may greatly exceed a task-specific CLI description.
 - Structured tool calls can replace many uncertain step-order decisions in UI or system-operation tasks.
 - MCP has higher implementation cost than prompt-only Skills because it requires a server interface.
-- Poorly designed MCP responses can still damage context quality through noisy JSON, oversized payloads, or verbose errors.
+- Poorly designed MCP responses can still damage context quality through noisy JSON, oversized payloads, or verbose errors, and context-mediated outputs are less directly composable than shell streams and files.
 - MCP can serve as the integration layer for an augmented LLM, but reliability still depends on use-case-specific capability design and tool documentation.
 - MCP's distinctive contribution is the missing tool runtime - a client that wraps tool calling plus a server that executes - but one source judges the protocol over-engineered and not a universal solution, since a general shell can make many MCP-style applications redundant.
 
@@ -44,13 +47,16 @@ Context cost helps explain that critique. Full tool names, descriptions, and par
 - Shell redundancy: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says that with bash an agent can run `curl`, `wget`, and `gh`, which makes many MCP-style applications redundant.
 - Hidden schema context: [[context-engineering-from-the-inside-out]] shows full tool signatures inserted in the system prompt on every request and argues that unrelated schemas compete for attention.
 - Qualified fit: [[context-engineering-from-the-inside-out]] prefers recursive CLI discovery for tool-heavy workflows but retains MCP for small focused tool sets, structured I/O, automatic discovery, and easy integration.
+- Browser catalog comparison: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] reports 21 Playwright MCP tools using 13.7k tokens and 26 Chrome DevTools MCP tools using 18.0k tokens, compared with a 225-token task-specific README.
+- Output composition: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] argues that MCP results traverse model context before persistence or combination, while CLI results can be piped, redirected, or processed by code.
 
 ## Counterevidence & Qualifications
-The sources explain MCP at a conceptual level and do not compare specific MCP implementations, security models, permission boundaries, schema-design practices, or latency/cost tradeoffs. Anthropic's article cites MCP as one possible implementation route, not as a guarantee of agent reliability. The staged-history and context-engineering sources prefer a general shell for broad capability sets, but this remains an architectural opinion rather than a measured comparison on reliability, sandboxing, permissioning, auditability, or the effect of provider-side tool search and schema masking.
+The sources explain MCP mainly at a conceptual or practitioner level and do not compare security models, permission boundaries, schema-design practices, or latency/cost tradeoffs under controlled conditions. Anthropic's article cites MCP as one possible implementation route, not as a guarantee of agent reliability. The staged-history, context-engineering, and browser-CLI sources prefer a general shell for broad capability sets, but their examples do not measure reliability, sandboxing, permissioning, auditability, cross-agent portability, or provider-side tool search and schema masking. Zechner's custom CLI also shifts implementation and maintenance responsibility to the user and gains efficiency partly by omitting capabilities the general-purpose servers must cover.
 
 ## What Changed
 - Added the hidden context and prefix-cache cost of always-loaded tool schemas.
 - Narrowed the CLI critique by preserving MCP's fit for small focused sets, structured I/O, discovery, and integration simplicity.
+- Added a concrete browser-tool token comparison and the context-mediated-output composability critique.
 
 ## Related Concepts
 - [[LLMContextManagement]] - MCP reduces action ambiguity while adding tool results back into context.

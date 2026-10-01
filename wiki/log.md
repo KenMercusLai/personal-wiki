@@ -7451,3 +7451,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | What if you don't need MCP at all?
+
+Added [[MarioZechner]] and [[Puppeteer]], and updated [[ModelContextProtocol]], [[BashAsMetaTool]], [[LLMToolingSkills]], and [[CodingAgentMinimalTooling]] from their complete ordered evidence inventories. Recorded the task-specific browser CLI, reported 225-token README versus 13.7k- and 18.0k-token MCP catalogs, shell/file composability, on-demand tool generation, and explicit README loading across agents. Preserved MCP's value for focused structured integrations and the limits of an uncontrolled practitioner comparison, including maintenance, permission, credential, safety, and portability tradeoffs. Opened and retained all three source images with descriptive canonical filenames at their semantic positions: the MCP context budget, the live cookie-tool creation and test, and the CLI context budget.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

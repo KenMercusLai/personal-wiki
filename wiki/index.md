@@ -949,6 +949,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Focus on Your Own Shit](sources/justin-jackson-focus-on-your-own-shit.md) - Justin Jackson argues that comparison-driven monitoring displaces creative work and should give way to customer understanding, craft, and product improvement.
 - [Your App is an Onion: Why Software Projects Spiral Out of Control](sources/kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control.md) - Kannan Chandrasegaran explains hidden feature depth and a user-flow questioning method for discovering necessary scope before coding.
+- [What if you don't need MCP at all?](sources/mario-zechner-what-if-you-dont-need-mcp-at-all.md) - Mario Zechner uses a small Puppeteer-backed browser CLI to argue that task-specific shell tools can be more context-efficient, composable, and extensible than broad MCP servers.
 
 ## Entities
 - [Marc Benioff](entities/MarcBenioff.md) - Salesforce founder represented through a trust-first, customer-partnership account of early sales and product learning.
@@ -2566,6 +2567,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
+- [Mario Zechner](entities/MarioZechner.md) - Developer-author advocating small composable command-line tools for bounded agent workflows.
+- [Puppeteer](entities/Puppeteer.md) - Browser automation library used beneath a minimal agent-facing Chrome CLI.
 
 ## Concepts
 - [Deep Preparation](concepts/DeepPreparation.md) - Concentrated research, expert consultation, active questioning, review, and synthesis intended to improve understanding, conversation quality, and durable trust.

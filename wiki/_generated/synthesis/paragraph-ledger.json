@@ -682,12 +682,13 @@
       "7d772414f29a89b41daf843a67df06cf329cedb34a70496ba23fb8cd5226295b",
       "ad301c2f58f7b6ff6b30b169da3068409d23dafdcc87d48413105f42f2638b09",
       "731ad28b71e71e361bc28338021800f7bb2ba0a738ed148b2312278caf3a457f",
-      "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec"
+      "6985406b751e54f24cbdd0fea011ba2b69e9d0a786774172694e2946e9e223ec",
+      "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83"
     ],
-    "paragraph_count": 682
+    "paragraph_count": 683
   },
-  "overview_commit": "83a5bcb49ddc54bce05232814115072a24e26012",
-  "overview_digest": "1690f54dc09d20a520218c4374d1bb96fe543df63c78fd9c01470f9556962436",
+  "overview_commit": "8c18b87d27dfc9ac80ae2151a11bb498781f351d",
+  "overview_digest": "cdd87d7db01012d35a1e88d324ec3e13a5e498dcfed85a866dc97728d6336057",
   "paragraphs": [
     {
       "id": "6ce99a3c604fa53428b147c530538936a693a69c5482d96fad6efb21c7da748b",
@@ -13822,6 +13823,23 @@
         "FreemiumAcquisition",
         "MarcBenioff",
         "Salesforce"
+      ]
+    },
+    {
+      "id": "75f4aecc59219efc819453bd87fa7b5857d2c525aeca951f2fbd7f2c24fe2c83",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[MarioZechner]] source adds a concrete browser-automation case to the wiki's shell-versus-protocol debate. [[ModelContextProtocol]] retains its role as a structured runtime and discovery layer, but the article reports that broad Playwright and Chrome DevTools MCP catalogs occupied 13.7k and 18.0k tokens respectively, compared with a 225-token README for six narrow [[Puppeteer]] commands. This sharpens [[CodingAgentMinimalTooling]]: minimize the agent-facing interface around the actual workflow, keep code generation as the extension path, and let [[BashAsMetaTool]] compose intermediate results through pipes, files, and programs rather than routing all data through model context. It also extends [[LLMToolingSkills]] with an informal cross-agent variant in which a README is loaded explicitly only when needed and scripts are shared through PATH. The evidence is one practitioner's custom workflow, not a controlled comparison of accuracy, latency, safety, portability, or total maintenance cost; copied authenticated browser profiles and broad shell authority make credential isolation and least privilege more important, not less. All three local screenshots were opened and retained at their semantic positions: the 18k-token MCP context view, the live creation and test of an HTTP-only-cookie command, and the CLI session's 133k free-token context view.",
+      "topic_scores": {
+        "ai-and-technology": 4
+      },
+      "wikilinks": [
+        "BashAsMetaTool",
+        "CodingAgentMinimalTooling",
+        "LLMToolingSkills",
+        "MarioZechner",
+        "ModelContextProtocol",
+        "Puppeteer"
       ]
     }
   ],

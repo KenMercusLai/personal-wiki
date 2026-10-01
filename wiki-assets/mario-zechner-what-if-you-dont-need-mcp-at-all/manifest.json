@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "mario-zechner-what-if-you-dont-need-mcp-at-all",
+  "images": [
+    {
+      "file": "mcp-context-budget.png",
+      "alt": "Claude Code context view showing Chrome DevTools MCP tools consuming 18,000 tokens"
+    },
+    {
+      "file": "cookies-tool-session.png",
+      "alt": "Claude Code session creating and testing a Puppeteer cookies tool for HTTP-only cookies"
+    },
+    {
+      "file": "cli-context-budget.png",
+      "alt": "Claude Code context view after the CLI workflow showing no MCP tools and 133,000 free tokens"
+    }
+  ]
+}
