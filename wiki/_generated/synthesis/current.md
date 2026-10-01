@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-01
-as_of_overview_commit: 3c7aa28f5a07a734417c432eaa25263fbfb599f2
+as_of_overview_commit: 22af573212807076aa16cbe4c377c531cdea998d
 summary: "Durable outcomes require demonstrated demand, explicit boundaries, calibrated evidence, sustainable systems, accountable institutions, and human judgment."
-episode_count: 975
-source_count: 975
-paragraph_count: 707
+episode_count: 976
+source_count: 976
+paragraph_count: 708
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit interfaces, workload fit, verification, recovery, accessibility, privacy, accountable control, and operational evidence that includes upstream data and human decision costs.
+Technical outcomes depend on explicit interfaces, workload fit, verification, recovery, accessibility, privacy, accountable control, and operational evidence.
 
 - [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact. Evidence: [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]].
 - [[NickCraver]]'s [[StackOverflow]] case makes high-frequency delivery a compatibility system: [[DeploymentPipeline]] and [[TrunkBasedDevelopment]] shorten integration and promotion, [[ForwardOnlyDatabaseMigration]] stages schema use and removal around adjacent versions, and [[RollingDeployment]] uses [[HAProxy]] drainage, repeated readiness checks, and static-assets-first ordering to bound mixed-version failure. Evidence: [[NickCraver]], [[StackOverflow]], [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], [[HAProxy]].
 
 ### Business and Markets
 
-Durable value joins demonstrated demand, continuing outcomes, sustainable economics, operating capability, governed distribution, and risks matched to the work, with predictive tools judged by workflow and business outcomes rather than model scores alone.
+Durable value joins demonstrated demand, sustainable economics, operating capability, governed distribution, reciprocal diligence, and risks matched to the work.
 
 - [[ProductDemandAlignment]] separates a beneficial need from demonstrated demand: [[JustinJackson]] argues that positioning and onboarding should connect durable value to an immediate desired reward or meaningful activation milestone, using [[DatingRing]] as a reported failure case and ideas attributed to [[JamesClear]] and [[RobWalling]] as the motivation and onboarding mechanisms. Evidence: [[ProductDemandAlignment]], [[JustinJackson]], [[DatingRing]], [[JamesClear]], [[RobWalling]].
 - [[ResultsEconomy]], [[ForcingFunctions]], and [[SkinInTheGame]] form a qualified outcome-accountability model: distinguish useful results from visible effort, make feedback and commitments timely, and align decision authority with consequence, while preserving consent, reversibility, shared-work attribution, quality, and fair risk distribution. Evidence: [[BenjaminHardy]], [[DanSullivan]], [[DanMartell]], [[NassimNicholasTaleb]], [[ResultsEconomy]], [[ForcingFunctions]], [[SkinInTheGame]], [[ThomasStanley]].
@@ -57,7 +57,7 @@ Culture and media join form, infrastructure, audience practice, governance, econ
 
 ### Governance and Institutions
 
-Institutions need explicit authority, visible execution, sequenced change, tested recovery, appeal, accountability, and clear ownership of operational responsibilities.
+Institutions need explicit authority, visible execution, sequenced change, tested recovery, appeal, accountability, and clear operational ownership.
 
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
@@ -68,7 +68,7 @@ Historical spillovers require attention to lineage, dated context, path dependen
 
 ### Psychology and Personal Development
 
-Human learning and behavior depend on bounded attention, calibrated evidence, recovery, consent, and structural constraints.
+Human learning and behavior depend on bounded attention, calibrated evidence, recovery, consent, truthful influence, and structural constraints.
 
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
@@ -82,7 +82,7 @@ Conclusions remain source-scoped, separating observed health and efficiency evid
 
 ### Work, Education, and Society
 
-Work and learning depend on usable tools, active practice, protected attention, fair rules, timely information, recovery, and support; compressed schedules remain autonomy- and role-dependent organizational designs rather than universal productivity rules.
+Work and learning depend on usable tools, active practice, protected attention, fair rules, timely information, recovery, and support.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

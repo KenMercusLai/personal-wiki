@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-01] ingest | Questions startup Founders should ask Angel Investors and VC’s, but rarely do
+
+Updated [[FounderInvestorFit]] and [[FundraisingMomentum]] from their complete ordered evidence inventories. Recorded two-way investor diligence over current deployment, cheque and ownership fit, lead behavior, decision authority, committee timing, terms, follow-on history, time to cash, sector metrics, next steps, and concrete value-add, plus preparation through sufficient targets, warm introductions, ready diligence material, and concentrated meetings. Preserved the source's unattributed practitioner scope, malformed imported list formatting, missing founder, investor, deal, and outcome evidence, and unmeasured claims about delay, herd behavior, data mining, and competitor diligence; bounded FOMO by truthful disclosure and substantive fit. Opened the repeated effective image target and omitted the decorative “excellent question” reaction GIF, so no asset manifest was required.
+
 ## [2026-10-01] ingest | Question: exactly when is someone going to use your app/service?
 
 Created [[UsageMomentFit]] and updated [[AttentionEconomy]], [[PokemonGo]], [[Uber]], and [[ESPN]] from their complete ordered evidence inventories. Recorded routine-state triggers, idling-state competition, broad opportunities hidden behind narrow entry points, and live notifications as a bid for interruption, while preserving the framework's selected-case, causality, multi-homing, sustainability, and ethical limits. Opened all five effective local images; retained the evidence-bearing daily-state taxonomy under a descriptive canonical filename and omitted duplicate Pokémon artwork, a duplicate thumbnail, and reaction-bar interface chrome.
@@ -7835,6 +7839,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-01] ingest | Pokémon Recognition
 
 Created [[DmitriiPetukhov]], [[ImageClassification]], [[PrincipalComponentAnalysis]], [[DimensionalityReduction]], [[SupportVectorMachine]], and [[KNearestNeighbors]]. Recorded the 80-image raw-pixel workflow, reported SVM and k-nearest-neighbor baselines, the 40,000-to-18 PCA reduction, eigenpokemon and reconstruction examples, and the qualified runtime-accuracy comparison. Preserved the tiny curated dataset, underspecified validation, missing uncertainty, incomplete end-to-end timing, variance-versus-discrimination, historical API, and generalization limits. Opened 13 of 14 effective local image references; retained seven evidence-bearing visuals under descriptive canonical filenames, omitted decorative or redundant artwork and portraits, and recorded that the final referenced result asset is absent from the source vault.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-01] lint | Wiki health check
 

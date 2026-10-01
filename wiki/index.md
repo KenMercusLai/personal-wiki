@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Questions startup Founders should ask Angel Investors and VC’s, but rarely do](sources/questions-startup-founders-should-ask-angel-investors-and-vcs-but-rarely-do.md) - An investor-screening checklist turns fundraising into two-way diligence over deployment activity, authority, terms, follow-on behavior, pace, and value-add while qualifying urgency tactics as unmeasured practitioner advice.
 - [Question: exactly when is someone going to use your app/service?](sources/question-exactly-when-is-someone-going-to-use-your-app-service.md) - A 2016 product-strategy essay argues that consumer products need a specific recurring state or routine that triggers use, while qualifying “state ownership” as an unmeasured practitioner model.
 - [Pokémon Recognition](sources/pokemon-recognition.md) - Dmitrii Petukhov uses an 80-image Pokémon example to show raw-pixel classification, PCA compression, eigenpokemon, and a qualified speed-accuracy tradeoff.
 - [Go ahead, self-host Postgres](sources/pierce-freeman-go-ahead-self-host-postgres.md) - Pierce Freeman presents a qualified self-hosted PostgreSQL case built on explicit tuning, pooling, monitoring, backups, maintenance, capacity planning, recovery testing, and incident ownership.

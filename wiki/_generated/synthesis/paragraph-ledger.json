@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d6294545c95fe59b24702e83837007b7f49ea0746c299521acf173f7b634d297",
       "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
       "a5ed303d403b8f990707a0f0211758459469334580cb89b267c90ff5666a45be",
       "ec3d96d1dfdf9e03ba9282955d5d1b74adf9cb46a641f655538cd3fc805d2a08",
@@ -709,11 +710,28 @@
       "78d65878d47aa3bb29fabf0f8c2e21e36e4f1a56f419b2c31c7965765c27eb12",
       "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f"
     ],
-    "paragraph_count": 707
+    "paragraph_count": 708
   },
-  "overview_commit": "3c7aa28f5a07a734417c432eaa25263fbfb599f2",
-  "overview_digest": "1e76458aa599457cfcaaa7296a6bd8ac58730ae63d4236d8c862ba7217a8bbe6",
+  "overview_commit": "22af573212807076aa16cbe4c377c531cdea998d",
+  "overview_digest": "04ac31df9959f6e78f473fa148552ccb3358eb8d8cbb852908dfd2561c22158f",
   "paragraphs": [
+    {
+      "id": "d6294545c95fe59b24702e83837007b7f49ea0746c299521acf173f7b634d297",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest founder fundraising checklist makes [[FounderInvestorFit]] and [[FundraisingMomentum]] operational before a term sheet. Founders are advised to verify recent deployment activity, current cheque size, ownership and term patterns, lead-versus-follow behavior, actual decision authority, committee timing, sector metrics, follow-on size and history, time from first contact to cash, next steps, and concrete one-year value-add. The process advice joins investor pre-qualification, enough targets, warm introductions, ready diligence material, and tightly grouped meetings so real competing interest or a later price increase creates a reason not to wait. This strengthens the wiki's view of fundraising as reciprocal diligence and adds an authority boundary: speaking with a firm is not the same as reaching the partner or committee that can decide. The source remains an unattributed practitioner checklist with no founder sample, investor answers, close-rate comparison, or outcome evidence; claims about herd behavior, procrastination, data mining, and competitor diligence are unmeasured, and FOMO cannot substitute for truthful disclosure, business quality, suitable terms, or partner fit. All three effective image embeds referenced the same decorative “excellent question” reaction GIF, which was opened and omitted as non-evidentiary.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "FounderInvestorFit",
+        "FundraisingMomentum"
+      ]
+    },
     {
       "id": "0ccc1bd3164477b3fb4e115a39bfb9d7455a7d6e322dd46da90d6fc01fdbbf59",
       "primary_topic": "ai-and-technology",
