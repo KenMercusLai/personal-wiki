@@ -7963,3 +7963,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-02] ingest | Research: Off-Path TCP Attacks
+
+Created [[OffPathTCPInjection]] and [[ProtocolMetadataSideChannels]] from the article's complete evidence. Recorded the bracketed-probe attack sequence, TCP duplicate-ACK response, wireless contention and backoff, receive-window timing classification, and the transition from repeated inference to attempted injection. Preserved the source's secondary-summary scope and missing paper identity, measurements, implementation details, and mitigation analysis; separated window discovery from the additional prerequisites for successful injection; and qualified its broad encryption conclusion by distinguishing confidentiality, authenticated integrity, and residual traffic metadata. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-02] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

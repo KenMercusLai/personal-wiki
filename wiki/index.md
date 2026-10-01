@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Research: Off-Path TCP Attacks](sources/rule-11-reader-research-off-path-tcp-attacks.md) - Rule 11 Reader explains how TCP duplicate ACKs and wireless contention can form a timing oracle for receive-window inference and attempted off-path injection.
 - [Ship / Show / Ask](sources/rouan-wilsenach-ship-show-ask.md) - Rouan Wilsenach separates direct mainline shipping, non-blocking pull-request visibility, and feedback-blocked review according to change risk, uncertainty, and learning needs.
 - [计算机领域的三个重要思想：抽象，分层和高阶](sources/ray-eldath-ji-suan-ji-ling-yu-de-san-ge-zhong-yao-si-xiang-chou-xiang-fen-ceng-he-gao-jie.md) - Ray Eldath connects pragmatic software abstraction, Hyrum's Law, higher-order reasoning, partial evaluation, and the three Futamura projections while later retracting his broader concern about mathematical prerequisites.
 - [Your Best Work](sources/rands-your-best-work.md) - Michael Lopp argues that workplace design should balance real-estate cost and open-office benefits against the unmeasured productivity cost of interrupting focused work.
@@ -4017,5 +4018,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Minimum Viable Experience](concepts/MinimumViableExperience.md) - Identity-preserving scope boundary for migrating an established product without treating the milestone as total completion.
 - [Progressive Product Building](concepts/ProgressiveProductBuilding.md) - Personal-project workflow that freezes a simple idea, branches later complexity, moves toward implementation, and tracks delivery state.
 - [Microservice Failure Containment](concepts/MicroserviceFailureContainment.md) - Isolation, bounded work, degraded modes, health-aware routing, safe change, and recovery controls that prevent one service failure from becoming system-wide collapse.
+- [Off-Path TCP Injection](concepts/OffPathTCPInjection.md) - Inferring hidden TCP connection state through an indirect oracle so a forged segment can be made acceptable without directly observing the flow.
+- [Protocol Metadata Side Channels](concepts/ProtocolMetadataSideChannels.md) - Hidden-state leakage through observable protocol timing, contention, control messages, retries, sizes, or error-recovery behavior.
 
 ## Syntheses

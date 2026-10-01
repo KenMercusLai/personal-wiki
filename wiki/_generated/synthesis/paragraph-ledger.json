@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7e156b6a4b17967c859064445af94673acbdfe34c16de36d88b9ebe0878a0769",
       "e74a1cc2a02620665fede098685592cd2a97d99dc285cee551aa807880539425",
       "4be9c7391ea2a65cdec8f3bb9989d5f129313b34d6ebdbf8f46e06e2b54dc57e",
       "8bf579be719b84fd8951595539240dd91b85d84605ceb28e4415efdaeeec4f69",
@@ -720,11 +721,24 @@
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
       "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279"
     ],
-    "paragraph_count": 718
+    "paragraph_count": 719
   },
-  "overview_commit": "92597d8de992154ad8b11bf4c8888a24baa1336f",
-  "overview_digest": "b604413a285d819debfeca148e297a3d408e5ba015d7dc562e9a53407b828d4e",
+  "overview_commit": "848931a8d09a56086354060294a618b957d17274",
+  "overview_digest": "e1ef676cfd3f5152058a6aafdd5e71c251739db8aeab5564915ed0032bc393ba",
   "paragraphs": [
+    {
+      "id": "7e156b6a4b17967c859064445af94673acbdfe34c16de36d88b9ebe0878a0769",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Rule 11 Reader source adds [[OffPathTCPInjection]] as a cross-layer timing attack and [[ProtocolMetadataSideChannels]] as its general mechanism. A spoofed TCP segment with an out-of-window sequence number makes the victim emit a duplicate ACK; on a shared wireless channel, that extra transmission can contend with a second response-provoking probe and increase its latency. Bracketing each guess with probes therefore turns TCP receive-window membership into an externally measurable classification signal even when the attacker cannot directly observe the connection. Repetition can narrow the window search and support attempted stream injection, but the summary does not establish every required connection parameter, signal reliability under jitter and unrelated contention, affected implementation behavior, or end-to-end injection success. Its broad claim that secure communication requires encryption is also narrowed: authenticated integrity rejects forged content, confidentiality protects content, and neither necessarily conceals all timing, size, direction, loss, or retry metadata. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "OffPathTCPInjection",
+        "ProtocolMetadataSideChannels"
+      ]
+    },
     {
       "id": "e74a1cc2a02620665fede098685592cd2a97d99dc285cee551aa807880539425",
       "primary_topic": "governance-and-institutions",
