@@ -7859,3 +7859,11 @@ Created [[RandallKoutnik]] and updated [[StartupJobDiligence]] from its complete
 ## [2026-10-01] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-01] ingest | Quip - Why Quip doesn't have platform-specific engineering teams
+
+Created [[Quip]] and updated [[TeamBasedOrganizationalDesign]] and [[TechnologyTransitionStrategy]] from their complete ordered evidence inventories. Recorded feature ownership across clients as an infrastructure-dependent organization choice supported by shared C++ data and synchronization behavior, selective web views, limited native glue, and platform experts as teachers and framework stewards. Preserved the countercase for dedicated native teams and the source's recruiting, measurement, scale, publication-date, native-quality, framework-cost, and generalization limits. Opened the sole effective local image and omitted it as a decorative Quip-branded office photograph, so no visual asset or manifest was required.
+
+## [2026-10-01] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

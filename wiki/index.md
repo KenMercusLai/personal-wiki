@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Quip - Why Quip doesn't have platform-specific engineering teams](sources/quip-why-quip-doesnt-have-platform-specific-engineering-teams.md) - Quip argues that shared C++ data infrastructure, selective web views, expert enablement, and limited native glue can support feature ownership across clients while leaving its claimed outcomes unmeasured.
 - [Questions to Ask Your Interviewer](sources/questions-to-ask-your-interviewer.md) - Randall Koutnik turns technical interviews into two-way diligence through specific questions, concrete examples, and probes into role scope, engineering operations, authority, communication, feedback, and growth.
 - [Questions startup Founders should ask Angel Investors and VC’s, but rarely do](sources/questions-startup-founders-should-ask-angel-investors-and-vcs-but-rarely-do.md) - An investor-screening checklist turns fundraising into two-way diligence over deployment activity, authority, terms, follow-on behavior, pace, and value-add while qualifying urgency tactics as unmeasured practitioner advice.
 - [Question: exactly when is someone going to use your app/service?](sources/question-exactly-when-is-someone-going-to-use-your-app-service.md) - A 2016 product-strategy essay argues that consumer products need a specific recurring state or routine that triggers use, while qualifying “state ownership” as an unmeasured practitioner model.
@@ -1002,6 +1003,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Student Note-Taking Related to University Examination Performance](sources/nye-et-al-student-note-taking-related-to-university-examination-performance.md) - Nye, Crooks, Powley, and Tripp find a strong but non-causal association between lecture-note quantity and exam performance in one introductory psychology course.
 
 ## Entities
+- [Quip](entities/Quip.md) - Cross-platform productivity-software company represented through its feature-oriented, shared-infrastructure engineering model.
 - [Randall Koutnik](entities/RandallKoutnik.md) - Software-industry writer presenting specific questions and recent examples as tools for candidate-side employer diligence.
 - [Dmitrii Petukhov](entities/DmitriiPetukhov.md) - Tutorial author represented through a small classical image-classification and PCA experiment.
 - [Pierce Freeman](entities/PierceFreeman.md) - Software practitioner arguing from a first-person production case for qualified self-hosted PostgreSQL operation.
