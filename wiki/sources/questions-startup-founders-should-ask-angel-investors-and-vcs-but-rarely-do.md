@@ -2,7 +2,7 @@
 title: "Questions startup Founders should ask Angel Investors and VC’s, but rarely do"
 type: source
 tags: [startups, fundraising, angel-investing, venture-capital]
-date: 2017-11-01
+date: 2017-10-31
 source_file: "/mnt/ken_personal_wiki/Articles/Questions startup Founders should ask Angel Investors and VC’s, but rarely do.md"
 ---
 

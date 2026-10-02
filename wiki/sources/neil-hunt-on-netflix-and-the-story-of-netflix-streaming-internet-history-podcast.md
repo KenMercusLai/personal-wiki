@@ -2,7 +2,7 @@
 title: "Neil Hunt on Netflix and the Story of Netflix Streaming"
 type: source
 tags: [netflix, streaming, product-strategy, cloud, recommendations]
-date: 2026-04-03
+date: 2017-05-29
 source_file: "/mnt/ken_personal_wiki/Articles/Neil Hunt on Netflix and the Story of Netflix Streaming - Internet History Podcast.md"
 ---
 

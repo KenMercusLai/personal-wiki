@@ -2,7 +2,7 @@
 title: "Student Note-Taking Related to University Examination Performance"
 type: source
 tags: [note-taking, education, examination-performance, observational-research]
-date: 1984-02-01
+date: 1984-02
 source_file: "/mnt/ken_personal_wiki/Articles/Nye et al - Student Note-Taking Related to University Examination Performance.md"
 ---
 

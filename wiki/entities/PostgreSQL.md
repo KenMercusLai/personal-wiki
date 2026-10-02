@@ -10,7 +10,8 @@ sources:
   - blog-timescale-rag-is-more-than-just-vector-search
   - openai-scaling-postgresql-to-power-800-million-chatgpt-users
   - pierce-freeman-go-ahead-self-host-postgres
-last_updated: 2026-10-01
+  - simplify-move-code-into-database-functions
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,13 +31,15 @@ PostgreSQL also serves as the contrast case for embedded-database simplicity. Wh
 
 The `pgcrypto` extension adds another narrowly useful workload: password-hash creation and verification can live in the database through salted bcrypt hashes. That mechanism reduces application-side code for a small system, but it does not turn PostgreSQL into a complete authentication platform, and the source's sample function shows how SQL name resolution and incorrect volatility declarations can undermine an otherwise reasonable storage pattern.
 
+Sivers extends database-resident behavior into an application architecture. Constraints own validity, triggers normalize writes, functions encapsulate operations, and views plus JSON functions shape representations consumed by thin REST or client adapters. The design can keep shared rules consistent across scripts and changing application languages, but it also shifts coupling into PostgreSQL, PL/pgSQL, permissions, schema evolution, and database operations. Its snippets are illustrative and include a missing trigger return and a race-prone check-then-insert sequence, so they support the architectural option rather than a production recipe.
+
 OpenAI supplies a scale boundary to the consolidation thesis. Its unsharded primary reportedly supports millions of QPS for ChatGPT and API workloads by pushing reads to nearly 50 regional replicas and surrounding the database with caching, pooling, isolation, rate limits, query controls, failover, and capacity headroom. The same case refuses to treat that success as general write scalability: MVCC amplifies heavy updates, all writes still converge on one primary, shardable write-heavy workloads move to other systems, and no new tables are allowed in the deployment.
 
 Freeman adds a smaller-scale deployment and ownership boundary. He reports moving an application from RDS to self-hosted PostgreSQL with comparable or better performance and lower direct infrastructure cost, then operating it with PgBouncer, explicit memory and storage tuning, verified backups, security updates, disk and query review, capacity planning, and recovery exercises. This supports PostgreSQL's portability and operability for a skilled practitioner, but not the broader claim that self-hosting is universally cheaper or safer.
 
 ## Key Characteristics
 - Acts as a consolidation-first default for transactional and adjacent workloads and as a conventional escape hatch when SQLite's narrower envelope does not fit.
-- Supports mixed semantic, relational, temporal, analytical, and narrowly specialized workloads through extensions.
+- Supports mixed semantic, relational, temporal, analytical, and narrowly specialized workloads through extensions, functions, views, triggers, and JSON operations.
 - Can scale read-heavy global traffic through regional replicas, locality, pooling, caching, and strict workload controls.
 - Retains a single-writer and MVCC boundary that makes sustained write-heavy demand a candidate for sharding or another system.
 - Has mature deployment, recovery, replication, and high-availability practices, while still requiring application-level overload protection.
@@ -61,13 +64,15 @@ Freeman adds a smaller-scale deployment and ownership boundary. He reports movin
 - Operational envelope: [[openai-scaling-postgresql-to-power-800-million-chatgpt-users]] combines pooling, caching, workload isolation, rate limits, query controls, HA failover, cautious schema changes, and strict backfill limits.
 - Self-hosted operation: [[pierce-freeman-go-ahead-self-host-postgres]] reports a production migration from RDS to a dedicated server and names memory, pooling, NVMe, WAL, backup, patching, monitoring, and recovery responsibilities.
 - Portability claim: [[pierce-freeman-go-ahead-self-host-postgres]] reports identical or better application performance after restoring an RDS dump to allegedly identical self-hosted specifications, without publishing the benchmark or full platform comparison.
+- Application boundary: [[simplify-move-code-into-database-functions]] uses constraints, triggers, PL/pgSQL functions, views, and JSON construction to place shared data behavior behind thin external adapters.
+- Longevity rationale: [[simplify-move-code-into-database-functions]] reports retaining one PostgreSQL database while repeatedly replacing its Perl, PHP, Rails, Ruby, and JavaScript surroundings.
 
 ## Qualifications
-The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, and the authentication tutorial's final function should not be copied as written. OpenAI's scale figures are first-party claims without query mix, dataset size, instance cost, or independent audit; user count is not a transferable capacity unit. Freeman's reliability, maintenance, performance, and cost comparison is likewise self-reported by an infrastructure-capable operator and omits a complete total-cost and availability study. Together the sources support PostgreSQL's maturity, breadth, and deployment portability, but not that it is always better than specialized or managed systems. The OpenAI case instead demonstrates a sharp limit: replication scales reads, while unsuitable writes are migrated away.
+The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, and the authentication tutorial's final function should not be copied as written. Sivers's 2015 essay is also a personal architecture argument: its examples omit production controls, include correctness and concurrency hazards, and do not measure the maintenance, portability, staffing, scaling, or security effects of moving logic into the database. OpenAI's scale figures are first-party claims without query mix, dataset size, instance cost, or independent audit; user count is not a transferable capacity unit. Freeman's reliability, maintenance, performance, and cost comparison is likewise self-reported by an infrastructure-capable operator and omits a complete total-cost and availability study. Together the sources support PostgreSQL's maturity, breadth, deployment portability, and ability to own some application behavior, but not that it is always better than specialized or managed systems or that all business logic belongs in stored functions. The OpenAI case instead demonstrates a sharp limit: replication scales reads, while unsuitable writes are migrated away.
 
 ## What Changed
-- Added self-hosting as a qualified deployment path whose viability depends on configuration, pooling, observability, backup, maintenance, recovery, and incident ownership.
-- Preserved managed operation as a distinct value proposition around automation, support, compliance, and provider capability rather than treating engine similarity as operational equivalence.
+- Added constraints, triggers, functions, views, and JSON construction as a qualified application-logic boundary.
+- Distinguished consistent shared rules from new coupling to PostgreSQL-specific code, permissions, deployment, and operations.
 
 ## Relationships
 - [[DatabaseConsolidation]] - PostgreSQL is the source's preferred consolidation platform.
@@ -86,3 +91,5 @@ The PostgreSQL-first and Timescale RAG sources are advocacy material connected t
 - [[DatabaseOverloadProtection]] - pooling, cache leases, query controls, isolation, and rate limits protect the deployment.
 - [[SelfHostedDatabaseOperations]] - direct PostgreSQL operation requires an explicit production ownership system.
 - [[CloudCostOptimization]] - deployment cost comparisons must include operational labor and risk as well as server price.
+- [[DatabaseCentricApplicationLogic]] - uses PostgreSQL as the enforcement, operation, and representation boundary behind thin clients.
+- [[SimpleMadeEasy]] - supplies the source's rationale for accepting harder database code to reduce interwoven application layers.

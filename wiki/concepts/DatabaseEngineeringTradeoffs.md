@@ -6,7 +6,8 @@ sources:
   - jaana-dogan-things-i-wished-more-developers-knew-about-databases
   - laisky-reading-notes-on-designing-data-intensive-applications
   - pierce-freeman-go-ahead-self-host-postgres
-last_updated: 2026-10-01
+  - the-quest-for-one-million-iops-benchmarking-storage-at-lancedb
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,10 +25,12 @@ The broader reading notes extend this tradeoff map down into storage and up into
 
 Freeman adds deployment ownership to that map. A managed and a self-hosted PostgreSQL instance may execute the same application SQL, yet differ in configuration access, pooling, storage, monitoring, backup automation, failover, support, compliance, incident response, and total cost. His concrete parameter guidance also reinforces the need to translate generic advice into a workload-specific memory, connection, storage, checkpoint, and durability budget.
 
+The [[LanceDB]] experiment makes performance coupling concrete below the query planner. Selective vector search links index recall and CPU work to batched row fetches, runtime task boundaries, kernel calls, page-cache behavior, queue depth, decoding, and NVMe parallelism. Neither a faster I/O API nor a scheduler rewrite predicts the final result in isolation: the source reports that `io_uring` on the old scheduler remained at 600 queries per second, while the revised scheduler with the same API reached 3,800. Hardware-aware database engineering therefore includes software concurrency structure and independent verification of physical I/O, not merely choosing a fast drive.
+
 ## Key Claims
 - Database labels and advertised guarantees must be translated into engine-, configuration-, and failure-specific behavior.
 - Correctness, coordination, availability, contention, and latency are coupled rather than independently selectable.
-- Critical queries and transactions should be benchmarked individually against realistic data sizes, constraints, and access patterns.
+- Critical queries and transactions should be benchmarked end to end against realistic data sizes, cache states, concurrency, constraints, and access patterns.
 - Transaction boundaries, retry behavior, ordering, and application state are part of database correctness.
 - Sharding, identifier design, stale reads, and migration strategy change both application behavior and operational burden.
 - Query plans, traces, slow-query evidence, growth monitoring, and restore tests are required because estimates and early assumptions can fail.
@@ -43,13 +46,16 @@ Freeman adds deployment ownership to that map. A managed and a self-hosted Postg
 - Storage and workload fit: [[laisky-reading-notes-on-designing-data-intensive-applications]] contrasts document, relational, and graph models; LSM trees and B-trees; row and column layouts; and OLTP, OLAP, batch, and stream workloads.
 - Ownership model: [[pierce-freeman-go-ahead-self-host-postgres]] contrasts managed and self-hosted PostgreSQL around direct cost, configuration freedom, operational work, support, compliance, and incident responsibility.
 - Hardware-aware configuration: [[pierce-freeman-go-ahead-self-host-postgres]] connects memory allocation, connection pooling, NVMe planner costs, WAL sizing, and checkpoint behavior to the deployed machine and workload.
+- Storage-path interaction: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] shows scheduler boundaries, blocking system calls, cache collisions, queue depth, `io_uring`, decode work, and ANN recall interacting in one vector-search path.
+- Measurement validity: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] uses `iostat` to reject an inferred million-IOPS result when repeated row selections produced only about 600,000 physical IOPS.
 
 ## Counterevidence & Qualifications
-The sources are broad practitioner syntheses rather than controlled database comparisons. Several examples are historical, implementation details may have changed, and none provides complete workload files, comparative benchmarks, or protocol specifications. Freeman's reliability, performance, maintenance, and price claims are first-person and do not isolate the effects of hardware, storage, configuration, provider support, or operator experience. The recommendations are best treated as questions to test against a specific engine, version, configuration, workload, ownership model, and risk tolerance—not as universal choices such as always preferring UUIDs, stale reads, stronger isolation, LSM trees, an external sharding service, or self-hosting.
+The sources are broad practitioner syntheses rather than controlled database comparisons. Several examples are historical, implementation details may have changed, and none provides complete comparative coverage or protocol specifications. Freeman's reliability, performance, maintenance, and price claims are first-person and do not isolate the effects of hardware, storage, configuration, provider support, or operator experience. The LanceDB results are also first-party, instance- and workload-specific, omit repeated-run variance, and trade away ANN recall to isolate storage. The recommendations are best treated as questions to test against a specific engine, version, configuration, workload, ownership model, and risk tolerance—not as universal choices such as always preferring UUIDs, stale reads, stronger isolation, LSM trees, an external sharding service, self-hosting, or `io_uring`.
 
 ## What Changed
 - Extended the tradeoff map across data models, storage engines, analytical layouts, and batch-versus-stream processing.
 - Added managed-versus-self-hosted ownership and hardware-aware configuration to the end-to-end database tradeoff map.
+- Added cache state, concurrency structure, physical-I/O verification, and optimization interaction to performance evaluation.
 
 ## Related Concepts
 - [[DatabaseTransactionIsolation]] - isolation choices are a central correctness-versus-contention tradeoff.
@@ -61,3 +67,5 @@ The sources are broad practitioner syntheses rather than controlled database com
 - [[DataIntensiveSystems]] - places database choices inside the larger reliability, distribution, and processing system.
 - [[SelfHostedDatabaseOperations]] - makes database configuration, maintenance, recovery, and incident response direct team responsibilities.
 - [[CloudCostOptimization]] - hosting price is one coupled variable rather than a complete database decision.
+- [[StoragePerformanceBenchmarking]] - provides workload and measurement discipline for validating database storage paths.
+- [[LanceDB]] - supplies the scheduler-plus-`io_uring` interaction case.

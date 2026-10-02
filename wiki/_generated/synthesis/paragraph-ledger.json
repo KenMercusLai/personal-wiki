@@ -1,6 +1,27 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fc91dbe1c50209ee6364719b127af6fd7768b1f333ca835fcdf10546e54562bd",
+      "d48f5d566dfa43ce571b5f9711914eefe0e8f0044fcec28d863fa5371acec9c8",
+      "1a545873321c05d6dab9143a226116f10c53d23b850f88bb13b192365b5eebba",
+      "4023d0e1f8bd9b472b199c1a202ee3d49286ec1380d1bbd5c75c7c467c9e5530",
+      "f02ce16412cd291f93c872f8634f8ff9332317deb9e242b89ac1d0c9d6d56e0c",
+      "2051c7bf17fbb03a03b883b780f4effcac1f6b7352acf51484acfca317d65039",
+      "010adc08584c29b38d1736266fda0e99feac933f2c124153a5b759d480ff0f8b",
+      "dbfe87612b03a725f159a724403bea807242ac9bfa243b047a6821ca7e5c687f",
+      "ea84f2f9b3744512db356330d265b348f606ac07278bae90c83d4177f4b99a07",
+      "fe823780f6ea24b5d2b3ba8cea6b7768e8839050084b7c89e40a47dcb27c363c",
+      "e3f41692c474cb9c7a8079fdcb70a5cb461ef49bad4eda27df432ed75550677e",
+      "9afd7951b19757f8086c4e9ef9eae259400039924d2d7724f5aabb8968539581",
+      "ffe86202b2d407aa4bbad005278fabfd3d4a054d36ac85a10b4db889b2bec194",
+      "52ffebba315a8ec89b322fa1008c8c3e64f9ae30827e6063fcd897ae22c21ece",
+      "105cd3691a03dd941c6efd2635ecca8f9c741496b3ac93f711285de9b28cdbbb",
+      "f321ffc2f074a47191089e76d8ad67d25a575ae08548c78878babea645564de6",
+      "a70e72396a47f1a3c48eb1edb61cc5e3ca0b486f7dfbc63ece2d45d504940860",
+      "cb45c8b6c46cf3a831ed945181907f1f2a1d7e5137b797bbc52dcdf614d4042d",
+      "82e8d213bd89830138215a1265a97d4e12e4aaddddab7b9fe148593f271f9cae",
+      "55b8c033443864eaa67c65fa595f7abddba257d666203a49325dd8a6b464d199",
+      "458a99c1362dc2a4b80c628916b8d001fd8f3140e8d759de20ae945340ca8555",
       "4ec18debf3dce0f9293bababd292351ed9a736718b29dc1c8c9fd279cf8b4ad9",
       "8b91f41af36eac1d24d3d59825ff1f03bfa818117f7e882755a0d8c97f19ac22",
       "7e156b6a4b17967c859064445af94673acbdfe34c16de36d88b9ebe0878a0769",
@@ -94,7 +115,7 @@
       "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
       "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
       "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
-      "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
+      "f6801b4fb7a4dcd6fb7f6725c9ee3bb2ec8b5953dcde9fa1b7be05c4a5b0f460",
       "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
       "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
       "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
@@ -721,13 +742,428 @@
       "0ee3eddb266472f28768b97ab74030be367b19b351acb0635f01f40a86523f3f",
       "b35a69526aa59f530e71c13c24d7110187d5079602d8d78b73193b95d89b2577",
       "913a7939b459d3ce69f8a777c1a08ad0385ecd8b3f97b04900ac067a795cfc67",
-      "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279"
+      "447966af8958bb7ad550684f583c7a0a027af21f278da59ac5ea7d13916c0279",
+      "69738bf102d140b3228f1a4d00e826d33387db6044fd979bfdfda6ef380b7eb1",
+      "1ac414c8120ac62ff6fccd2f1d2081f03b9f0b01eaf704a36f3a1f065f743d38",
+      "1fdf2f8423d8902103d44c219f9ec6c9f65ce579074f72fe97d183d31e4efd0a",
+      "35b6849e45c865f557f260d935e9b511a512d1c514133241f642d3f363fd7244",
+      "5ebe984f00221476992b94a4761fa0e68216d5c0ef32f60c60c266023ca9094c",
+      "d03f4832810571ad9a6c9dc61271b89e51720c7eea211a422dd4f6268fcd938d",
+      "4a311487c1b709c0066465565a15a1bf36ba73c310af0890c3c0fc440bb9adac",
+      "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
+      "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc"
     ],
-    "paragraph_count": 721
+    "paragraph_count": 751
   },
-  "overview_commit": "ec1c361f8c64449a5dbbf6f13d50a30cae860f47",
-  "overview_digest": "39555bc88f3aa3919c4e7c891e2644a473fcaac867100d82764516b5203ed48a",
+  "overview_commit": "62fc6418a73448bcb3366195bc15d10c9d1d0435",
+  "overview_digest": "e96af5faa4eb2182a09106beb4f4752f5dba939472d595839dbef9e4ff26b52e",
   "paragraphs": [
+    {
+      "id": "fc91dbe1c50209ee6364719b127af6fd7768b1f333ca835fcdf10546e54562bd",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[LloydTabb]] source sharpens [[VanityMetrics]] by separating their legitimate external role from internal operating use. User, download, impression, transaction, and growth totals can support comparison, fundraising, awareness, or partnerships while still hiding churn, weak service, poor acquisition payback, or harmful first experiences. New [[ClarityMetrics]] names the alternative: inexpensive, observable proxies close enough to customer behavior to guide action, such as ride pickup time, active software engagement, repeat purchase, department-level failure rates, and poison rates associated with permanent abandonment. [[ProductMetricLadder]] gains a diagnostic layer beneath its stable scoreboard: chronological event streams reveal clusters, gaps, conversion paths, and drop-off, while direct calls to unusual active or inactive users test whether the numbers represent value, confusion, idleness, or another mechanism. The [[LiveOps]] attendance and [[Looker]] engagement cases are practitioner anecdotes without datasets or causal tests, so predictive correlation should not be mistaken for intervention effect; the article's broad A/B-testing critique is best retained as a warning to connect immediate experimental outcomes to downstream behavior and qualitative context. The sole embedded image was opened and omitted as a decorative photograph of Tabb speaking at a Looker-branded event.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ClarityMetrics",
+        "LiveOps",
+        "LloydTabb",
+        "Looker",
+        "ProductMetricLadder",
+        "VanityMetrics"
+      ]
+    },
+    {
+      "id": "d48f5d566dfa43ce571b5f9711914eefe0e8f0044fcec28d863fa5371acec9c8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[SusanSu]] source extends [[HiringSystemDesign]] with a reciprocal, growth-specific interview loop. Employers can observe how candidates estimate under uncertainty, reason about an unfamiliar ecosystem, explain product choices, generate and assess an experiment backlog, respond to consequential setbacks, separate personal contribution from team results, and whiteboard a product's growth system. Repeated “why” questions test causal depth beyond fluent terminology, while strength-oriented evaluation asks what unusual upside a role could use rather than screening only for liabilities. Candidates can test the opportunity in return by probing whether growth spans acquisition or the wider funnel, how that remit may evolve, what retention, lifetime value, and drop-offs reveal, how product changes cross organizational boundaries, whether dedicated engineering and design exist, what the first six months require, and how much obvious optimization remains. The source is a 2016 practitioner compilation, not a validation study: it supplies no scoring anchors, interviewer calibration, accessibility or adverse-impact analysis, inter-rater reliability, or post-hire outcomes; unusual prompts can be coached, setback magnitude reflects career opportunity, and rapid verbal idea generation may measure confidence and processing style as much as practical growth judgment. The sole local image was opened and omitted because its headshot and Golden Gate Bridge prompt duplicate the prose.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "HiringSystemDesign",
+        "SusanSu"
+      ]
+    },
+    {
+      "id": "1a545873321c05d6dab9143a226116f10c53d23b850f88bb13b192365b5eebba",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Reframed source adds [[StartupCounterpartyDiligence]] as a cross-role control rather than an investor-only background check. One operator allegedly acted as client, advertising supplier, commercial-model authority, and prospective lead investor, so fast technical delivery, claimed ad demand, invoiced revenue, and a promised £250,000 commitment appeared to corroborate one another while originating from the same party. When a third-party warning triggered deeper checks, the founders report finding adverse judgments and inconsistent identity and company histories; the lead investment disappeared, affiliate links undermined the claimed direct-advertiser relationships, an emergency rebuild removed supplier access, and voiding unpaid invoices shortened apparent runway to month-end. [[StartupRunway]] therefore gains a cash-quality boundary: valuation, offers, invoices, forecasts, and cleared funds are different evidence states. [[StartupFailurePatterns]] gains concentrated counterparty exposure as a compound mechanism, while preserving the author's own admission that [[Reframed]] lacked an independently viable commercial model. This is a single cofounder's 2016 retrospective containing serious allegations without attached primary records or the accused parties' response, so it supports risk controls rather than an adjudicated finding. Both local image files were opened and omitted as a decorative cliff photograph and its 60-by-40-pixel duplicate thumbnail.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Reframed",
+        "StartupCounterpartyDiligence",
+        "StartupFailurePatterns",
+        "StartupRunway"
+      ]
+    },
+    {
+      "id": "4023d0e1f8bd9b472b199c1a202ee3d49286ec1380d1bbd5c75c7c467c9e5530",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[YazinAkkawi]] source adds [[InterfaceDesignConvergence]] as a tradeoff between transferable learning and deliberate differentiation. Its 2018 collage and examples show Instagram, Airbnb, Apple Music, Twitter, Dropbox, Lyft, and Gmail moving toward sparse, low-color, content-led interfaces; familiar patterns such as top-right ecommerce carts can let people reuse expectations instead of relearning every product. This strengthens [[Usability]] and [[UtilityOrientedUX]] by treating convention as one way to keep attention on the user's job, while preserving brand behavior, end-to-end experience, testing, and nonvisual interaction as design surfaces. The durable rule is conditional: convention is a prior, not proof. Similar appearance does not establish accessibility, task success, retention, or appropriate fit, and familiarity can preserve weak or exclusionary patterns. The article explicitly concedes reduced near-term visual creativity and points to voice, chat, augmented reality, attention, emotion, and perception as continuing creative domains. Its app-deletion, Snapchat sentiment, share-price, decision-fatigue, and visual-appeal claims are historically bounded secondary assertions without causal designs. Four effective local images were opened; one high-resolution evidence-bearing interface collage was retained, one lower-resolution copy and one thumbnail duplicate were omitted, and a 60-by-36-pixel comparison thumbnail was too small to interpret reliably.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "InterfaceDesignConvergence",
+        "Usability",
+        "UtilityOrientedUX",
+        "YazinAkkawi"
+      ]
+    },
+    {
+      "id": "f02ce16412cd291f93c872f8634f8ff9332317deb9e242b89ac1d0c9d6d56e0c",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Xiaoyong|小泳]] source adds [[InfluenzaCommonColdDistinction]] as a terminology and risk-communication correction. Influenza is defined by influenza-virus infection, while the common cold is presented as a heterogeneous non-influenza viral syndrome usually centered on nasal and upper-airway symptoms; when disease involves the pharynx, larynx, bronchi, or lungs, more specific anatomical labels communicate what the loose word “cold” obscures. The source describes uncomplicated colds as commonly producing sneezing, congestion, watery then thicker discharge, cough, throat irritation, little or no fever, and recovery in roughly five to seven days. It contrasts this with influenza's capacity for severe suffering, pneumonia, worsening underlying disease, ARDS, acute necrotizing encephalopathy, multiorgan dysfunction, and death even though many cases are self-limited. The durable boundary is educational rather than diagnostic: the archived social-media post gives no citations, frequency estimates, validated symptom rule, testing criteria, high-risk groups, treatment guidance, or care thresholds, and overlapping respiratory symptoms cannot establish an individual's cause or severity. Its statement that a common cold is “not really a disease” is also in tension with its own description of an infectious syndrome. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "InfluenzaCommonColdDistinction",
+        "Xiaoyong"
+      ]
+    },
+    {
+      "id": "2051c7bf17fbb03a03b883b780f4effcac1f6b7352acf51484acfca317d65039",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[TrucPhan]] source adds a second job-market implementation of [[LLMStructuredExtraction]], this time using Selenium to collect Glassdoor listings, rule-based cleaning and title grouping, [[Gemini]] to extract data skills, and Tableau for deterministic aggregation. Its retained dashboards make the reported snapshot inspectable: 553 postings scraped on 2024-02-16 from the preceding 30 days, an average of 12 generated keywords per description, SQL in 64% of listings, and title-group salary averages rising from $62,362 for junior roles to $100,450 for senior roles. Together with [[TamerC]]'s Hacker News case, the durable [[LLMDataAnalysis]] pattern is to bound the model to transforming prose while ordinary software stores, cleans, and queries the result. The second case also strengthens the same validity boundary: output volume and parseable JSON are not extraction accuracy, while scrape coverage, title filters, taxonomy normalization, mean imputation, and sample representativeness remain analytical choices. The source reports no labeled precision or recall, model version, coverage audit, uncertainty, raw per-skill counts, or sensitivity analysis, and its prose calls the dashboard's generic “Data Analyst” group mid-level without visible experience evidence. Of four opened images, the overview and seniority-comparison dashboards were retained; the author avatar and title illustration were omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Gemini",
+        "LLMDataAnalysis",
+        "LLMStructuredExtraction",
+        "TamerC",
+        "TrucPhan"
+      ]
+    },
+    {
+      "id": "010adc08584c29b38d1736266fda0e99feac933f2c124153a5b759d480ff0f8b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[TonyDinh]] source adds a two-year solopreneur case joining rapid shipping, [[BuildInPublic]], [[SmallProductPortfolio]], runway, delegation, and platform risk. Dinh contrasts a six-month overengineered log viewer with a two-week [[DevUtils]] build and weekend [[TypingMind]] launch, then shows how coding experiments, demos, and engagement built a Twitter audience that later supplied feedback and launch attention for [[BlackMagic]] and [[Xnapper]]. Black Magic's shift from a profile-ring novelty to an analytics and CRM sidebar connects product success to a sharper customer problem, while its forced $128,000 reported sale after a Twitter API-pricing shock shows that audience and product traction do not remove [[PlatformDistributionDependence]]. The portfolio reportedly reached about $45,000 in monthly revenue at roughly 90% profit, with Typing Mind averaging $30,000 per month and Xnapper $6,000, but those figures, causal claims, work hours, and sale terms are self-reported and omit audited costs, churn, conversion, product-level margins, and a focus counterfactual. The path also depended on seven years of generalist engineering, two years of savings, low living costs, no dependents at the transition, public visibility, timing, and luck; Dinh explicitly warns against quitting without stable revenue, savings, and a backup plan. All 22 effective local images were opened. Ten evidence-bearing screenshots were retained at their semantic positions with descriptive canonical filenames; portraits, travel photographs, decorative mood imagery, and screenshots that only repeated adjacent prose were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BlackMagic",
+        "BuildInPublic",
+        "DevUtils",
+        "PlatformDistributionDependence",
+        "SmallProductPortfolio",
+        "TonyDinh",
+        "TypingMind",
+        "Xnapper"
+      ]
+    },
+    {
+      "id": "dbfe87612b03a725f159a724403bea807242ac9bfa243b047a6821ca7e5c687f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[DanLebrero]] source deepens [[ConfidenceBasedTesting]] with two concrete boundary-mismatch cases. A branch-free callback loader attracted Mockito difficulty, while a single map lookup attracted a Cucumber scenario, step definitions, mocking, reflection, and registry setup; the six retained screenshots make the disparity between production behavior and test scaffolding inspectable. The durable lesson is organizational as well as technical: a rule to test every class or use one framework everywhere can convert TDD, BDD, and coverage from confidence mechanisms into compliance outputs whose implementation and maintenance costs outlive their information value. This sharpens [[TestPyramid]], [[SoftwareVerification]], and [[InternalSoftwareQuality]] without creating a license to skip simple code automatically: integration contracts, hidden behavior, expensive failures, or regression risk may still justify a check. Lebrero's qualified recommendation to enforce 100% coverage on one project is therefore best understood as a calibration experiment that exposes the opposite extreme of an untested codebase, not as a permanent threshold. The evidence remains one 2016 practitioner essay with two selected examples and no defect, timing, maintenance, or comparative outcome measurements.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ConfidenceBasedTesting",
+        "DanLebrero",
+        "InternalSoftwareQuality",
+        "SoftwareVerification",
+        "TestPyramid"
+      ]
+    },
+    {
+      "id": "ea84f2f9b3744512db356330d265b348f606ac07278bae90c83d4177f4b99a07",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[FarnamStreet]] writing essay strengthens [[LearningByWriting]] by treating composition as both a diagnostic and a constructive act: writing exposes what the author does not understand, helps work through the gap, and forces insight-preserving compression rather than mere shortening. Its reader-orientation model begins from the audience's desired destination, connecting private fluency to [[ExplanatoryWriting]] and [[EditingForClarity]]. The essay also broadens [[AIDependencySkillAtrophy]] from individual practice loss to information-environment degradation: if cheap on-demand prose fills bandwidth with generic ideas, verbosity, and jargon, fluent form can increasingly substitute for thought. [[PaulGraham]] is quoted second-hand for the claim that writers discover new things while composing. The durable synthesis is narrower than an anti-AI rule: finished-text delegation does not itself build deep fluency, but the article does not test bounded AI research, critique, transcription, or revision support that leaves reasoning with the human. It is a short practitioner argument with no comparative learning, problem-solving, prose-quality, or signal-to-noise evidence, so its future-value claim for clear thinking remains a plausible prediction rather than a measured outcome. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIDependencySkillAtrophy",
+        "EditingForClarity",
+        "ExplanatoryWriting",
+        "FarnamStreet",
+        "LearningByWriting",
+        "PaulGraham"
+      ]
+    },
+    {
+      "id": "fe823780f6ea24b5d2b3ba8cea6b7768e8839050084b7c89e40a47dcb27c363c",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest New Yorker source adds [[TenXEngineer]] as a contested labor-market model rather than a literal portable multiplier. Its 2014 case for exceptional individual leverage joins scalable software, difficult technical diagnosis, broad learning ability, readable and efficient code, communication, and business judgment; [[TenXManagement]] then packages that premise into talent-aligned representation through vetting, negotiation, contracts, invoicing, collection, project matching, and a proposed cross-functional packaging model. [[AltayGuvench]] supplies the client-to-partner case, reporting a rate increase from $100 to $150 per hour and less administrative work, while [[ProgrammerFreelancing]] gains representation as a second operating model alongside financial runway, stable income, products, and owned distribution. The stronger synthesis comes from tension with [[TeamProductivity]]: individual speed is not leverage when colleagues absorb cleanup, operational, interpersonal, or product-direction costs, so exceptional contribution should be judged through durable team and customer outcomes. The article remains a selected 2014 journalistic profile with commercially interested participants, historical rates and talent-war examples, no common-task productivity measurement, and no client-level utilization, retention, earnings-distribution, or comparison data; its rock-star economics therefore cannot be generalized to programmers or workers as a whole. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 6,
+        "history-and-geopolitics": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AltayGuvench",
+        "ProgrammerFreelancing",
+        "TeamProductivity",
+        "TenXEngineer",
+        "TenXManagement"
+      ]
+    },
+    {
+      "id": "e3f41692c474cb9c7a8079fdcb70a5cb461ef49bad4eda27df432ed75550677e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[GergelyOrosz]] source adds [[ProductMindedEngineering]] as a distinct layer on top of technical execution rather than a transfer of the formal [[ProductManagement]] role. Its central mechanism is boundary-spanning inquiry: engineers learn why work matters, how the business and users behave, and what evidence exists; build relationships across product, design, data, operations, and support; and use that context to challenge specifications and propose alternatives. [[ValueBasedProductScoping]] gains bidirectional tradeoff reasoning in which product impact and engineering effort are considered together, while [[IterativeProductShipping]] extends from early colleague, beta, and bug-bash feedback through rollout, behavioral and business measures, and investigation when reality differs from the plan. Edge cases are triaged by likelihood, consequence, workaround, support path, and implementation cost rather than ignored or handled exhaustively. The durable claim is that product judgment can be developed through repeated question-build-validate-measure-learn cycles, but the article is one 2019 practitioner synthesis without a sample, comparison group, behavioral rubric, or measured product and career outcomes. It is scoped most directly to user-facing feature teams, and its pragmatism does not override accessibility, privacy, security, reliability, legal, or severe-harm obligations; measures can also be delayed, noisy, biased, or misaligned with user welfare. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "GergelyOrosz",
+        "IterativeProductShipping",
+        "ProductManagement",
+        "ProductMindedEngineering",
+        "ValueBasedProductScoping"
+      ]
+    },
+    {
+      "id": "9afd7951b19757f8086c4e9ef9eae259400039924d2d7724f5aabb8968539581",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest online-age-assurance source adds [[OnlineAgeVerification]] as a joint child-safety, privacy, architecture, and governance problem rather than a simple stronger-identification requirement. It distinguishes self-declared OS age brackets, identity-document and face workflows, and zero-knowledge threshold proofs: they offer different assurance, disclosure, and trust properties, while none eliminates credential issuance, endpoint, revocation, access, or circumvention risks. Moving the check into an operating system can standardize evidence but also shifts cost and liability toward vendors and open-source maintainers, exposes a sensitive attribute to local software, and can spread one jurisdiction's rules through global builds. The source further alleges that [[Facebook|Meta]] benefits through compliance transfer, entry barriers, identity linkage, data collection, and normalized surveillance; its retained chart reports total federal lobbying rising to a claimed $26.3 million in 2025 but does not isolate age-policy spending, show motive, or establish legislative causation. [[ElectronicFrontierFoundation]] appears as the principal cited civil-liberties advocate. The durable evaluation standard is therefore comparative and outcome-based: measure child-safety benefit and bypass rates alongside data minimization, anonymity, speech, security, accessibility, competition, implementation cost, and geographic spillover. The article itself remains one polemical advocacy source without independent legal verification or comparative policy outcomes, and its education, parental-control, and zero-knowledge alternatives are feasibility arguments rather than demonstrated interventions. Of six local images opened, only the evidence-bearing lobbying chart was retained; the comment screenshot, advocacy illustrations, and donation receipt were omitted as anecdotal, decorative, duplicative, or non-central.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 4,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ElectronicFrontierFoundation",
+        "Facebook",
+        "OnlineAgeVerification"
+      ]
+    },
+    {
+      "id": "ffe86202b2d407aa4bbad005278fabfd3d4a054d36ac85a10b4db889b2bec194",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[TomTunguz]] source extends [[SelfServiceSaaSGrowth]] from onboarding design into an experiment-cadence model. Instead of relying on one executive account decision, bottom-up SaaS can expose many employee-level entry points, each with a smaller purchase and potentially shorter feedback cycle; this may let sales and marketing test messages faster. The product then carries more of the trial-to-paid burden, while [[CustomerSuccess]] can return recurring end-user problems to the roadmap rather than allowing one senior buyer's request to dominate. This fits the existing [[Slack]] team wedge and [[Atlassian]] low-touch cases, but it is a compact 2015 practitioner argument, not comparative evidence. It defines no sample, cycle time, experiment design, conversion, acquisition cost, retention, expansion, or support outcome, and distributed buying remains conditional on price, policy, security, procurement, product complexity, and governance. The durable claim is therefore narrower than an automatic acquisition flywheel: many small entry paths can increase opportunities to learn when product value, measurable activation, retained use, and organizational adoption support them.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Atlassian",
+        "CustomerSuccess",
+        "SelfServiceSaaSGrowth",
+        "Slack",
+        "TomTunguz"
+      ]
+    },
+    {
+      "id": "52ffebba315a8ec89b322fa1008c8c3e64f9ae30827e6063fcd897ae22c21ece",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[AdamWathan]] source adds [[AudienceFirstProductLaunch]] as a sequence that begins before a sales announcement. A deliberately small [[RefactoringToCollections]] concept became a landing page, samples, progress updates, explicit commitments, and an owned email list before expanding into a 150-page book, exercises, screencasts, and a production codebase. [[BuildInPublic]] gains a concrete mechanism: substantive previews created feedback and preorder signals while public promises increased the author's follow-through, although the missed first date and late-night launch work show that accountability can become schedule pressure. [[ProductBundling]] gains a digital-learning case in which $29, $59, and $135 tiers reportedly produced 905 sales, $61,392 in revenue, and a $67.84 average selling price; the counterfactual book-only total assumes the same customers would still have purchased. The three-day outcome gave Wathan confidence to leave his job, but it remains one self-reported success with prior expertise, roughly 1,500 launch-email recipients, about 4,000 Twitter followers, no costs or channel attribution, and an unresolved evidence mismatch: the retained hourly charts do not exactly reconcile with the stated daily and package totals. Four evidence-bearing images were retained, while a training spreadsheet, two prose-duplicating email screenshots, and an illustrative sales-notification GIF were omitted.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AdamWathan",
+        "AudienceFirstProductLaunch",
+        "BuildInPublic",
+        "ProductBundling",
+        "RefactoringToCollections"
+      ]
+    },
+    {
+      "id": "105cd3691a03dd941c6efd2635ecca8f9c741496b3ac93f711285de9b28cdbbb",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[TedLivingston]] source records an August 2016 correction from inside the first bot-platform wave. Four months after [[Kik]] opened its Bot Shop, Livingston says the emphasis on conversational commerce was mistaken because period [[NaturalLanguageProcessing]] could not sustain humanlike dialogue; he also says bots were not likely to replace apps soon. The retained [[MessagingAsPlatform]] case is more specific: bots can remove downloads, separate accounts, and unfamiliar interfaces; Bot Shop placement and Kik Codes support discovery; Mentions and Invites support social distribution; a chat app consolidates lightweight services and supplies social context; and [[WeChat]] suggests that QR access, shared interfaces, payments, and instant app-like interactions matter more than open-ended conversation. This sharpens [[ConversationalUI]] by showing that the hybrid correction did not begin only in later postmortems. The evidence remains an interested platform operator's snapshot: more than 20,000 Kik bots and almost two billion user-bot messages do not establish quality, retention, useful task completion, or business viability, and the article concedes that no killer bot had emerged and payments were still missing. Its sole Obsidian image embed could not be resolved anywhere in the supplied article vault, so no image-derived evidence or retained asset is claimed.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ConversationalUI",
+        "Kik",
+        "MessagingAsPlatform",
+        "NaturalLanguageProcessing",
+        "TedLivingston",
+        "WeChat"
+      ]
+    },
+    {
+      "id": "f321ffc2f074a47191089e76d8ad67d25a575ae08548c78878babea645564de6",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[TamerC]] source adds [[LLMStructuredExtraction]] as a bounded bridge between messy text and deterministic analysis. Tamer collected 10,891 top-level posts from monthly [[HackerNews]] hiring threads spanning May 2022 through June 2024, used GPT-4o and [[LangChain]] batch calls to fit them to typed job records, stored the results in SQLite, and queried them with SQL; the reported model cost was US$54.09, while three monthly batches took 43.5–65.1 seconds. The durable lesson is that the schema is part of the data: locations should be decomposed and normalized, categorical fields need explicit allowed classes, set-like fields need a delimiter, and missing-value rules must not silently turn uncertainty into a fact. This sharpens [[LLMDataAnalysis]] by separating probabilistic extraction from conventional aggregation without mistaking syntactically valid output for trustworthy evidence. The source reports no labeled accuracy evaluation, maps unknown remote status to `false`, samples one specialized technical community, and omits its result charts and underlying counts from the archived Markdown, so its remote-work, visa, experience, location, database, framework, and salary observations remain source-scoped. The sole effective local image was opened and omitted as a decorative New York skyline.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "HackerNews",
+        "LLMDataAnalysis",
+        "LLMStructuredExtraction",
+        "LangChain",
+        "TamerC"
+      ]
+    },
+    {
+      "id": "a70e72396a47f1a3c48eb1edb61cc5e3ca0b486f7dfbc63ece2d45d504940860",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest sampler guide adds [[DiffusionModelSampling]] as a five-part inference choice spanning numerical solver, stochasticity, noise schedule, step count, and model compatibility. [[StableDiffusion]] supplies the learned noise prediction, while the sampler applies that prediction to move an initial random latent toward an image; [[AUTOMATIC1111]] is the historical interface through which the article exposes Euler, Heun, LMS, DDIM, PLMS, DPM and DPM++, UniPC, Karras-schedule, and LCM choices. The inspected schedule, trajectory, animation, convergence, runtime, and BRISQUE visuals separate goals that compact sampler names can obscure: deterministic convergence supports repeatability, injected noise supports variation, higher-order correction can cost another model evaluation per step, schedule shape reallocates refinement, perceptual score does not imply convergence, and LCM sampling is tied to a compatible model. The article's recommendations remain source-scoped because its single-example benchmark omits prompt, model, seed, hardware, version, and metric details needed for reproduction; a 40-step reference disadvantages deliberately stochastic paths, BRISQUE does not measure prompt adherence or human preference, PCA loses latent geometry, and the 2023 sampler inventory is version-sensitive. All 41 unique local visuals were opened; 21 evidence-bearing diagrams, animations, and charts were retained at their semantic positions, while the menu screenshot, 17 near-duplicate cat outputs, a redundant 30-step schedule, and a redundant one-step LCM plot were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AUTOMATIC1111",
+        "DiffusionModelSampling",
+        "StableDiffusion"
+      ]
+    },
+    {
+      "id": "cb45c8b6c46cf3a831ed945181907f1f2a1d7e5137b797bbc52dcdf614d4042d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[DerekSivers]] source adds [[DatabaseCentricApplicationLogic]] as a qualified alternative to treating a database as passive storage. In his [[PostgreSQL]] design, constraints enforce validity for every caller, triggers normalize writes, functions encapsulate reusable operations, and views plus JSON construction define representations consumed by thin REST routes or client libraries. The durability premise is concrete but source-scoped: Sivers reports keeping one SQL database while replacing its Perl, PHP, Rails, Ruby, and JavaScript surroundings. This adds an affirmative architecture case to [[SimpleMadeEasy]]: one database-owned rule set can be less interwoven than rules duplicated across changing application classes even when PL/pgSQL is less pleasant to use. The simplification is a coupling trade, not independence. It concentrates behavior in PostgreSQL semantics, permissions, schema migration, testing, deployment, and operations; authorization, external effects, and fast-changing product policy may belong elsewhere. The 2015 essay offers no comparative outcome evidence, and its illustrative snippets include a `BEFORE` trigger without `RETURN NEW`, a race-prone check-then-insert helper, and no demonstrated authentication, authorization, or evolution strategy. Its strongest transferable claim is therefore to place shared invariants and data-intensive behavior where all writers can reuse them, then evaluate every other rule against correctness, ownership, portability, and operational needs.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DatabaseCentricApplicationLogic",
+        "DerekSivers",
+        "PostgreSQL",
+        "SimpleMadeEasy"
+      ]
+    },
+    {
+      "id": "82e8d213bd89830138215a1265a97d4e12e4aaddddab7b9fe148593f271f9cae",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest Sherwood et al. source adds [[FlowVisor]] and [[NetworkSlicing]] as a historical bridge between programmable networking and controlled use of production infrastructure. [[OpenFlow]] separates external control logic from hardware forwarding, while FlowVisor transparently proxies that channel so production, monitoring, and experimental controllers receive policy-bounded views of shared switches. The slice boundary is explicitly multidimensional: flowspace and topology constrain authority, queues allocate bandwidth, rate limits protect switch CPU, and quotas bound finite forwarding entries. This supports [[ProductionNetworkExperimentation]] with real topology, users, traffic, and line-rate hardware rather than a parallel software testbed, and the Stanford deployment plus six campus test deployments show bounded feasibility. The stronger lesson is conditional: no data-plane overhead does not mean no operational cost, because the prototype added about 16 ms to new-flow events, used linear flowspace lookup, achieved imperfect minimum-bandwidth isolation, and found slow-path CPU exhaustion and legacy-device interactions to be major hazards. [[NetworkResilienceTradeoffs]] therefore gains both a containment mechanism and a new common failure domain: safe coexistence depends on the slicing proxy, hardware abstraction, policy, observability, and recovery all working under real load. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "FlowVisor",
+        "NetworkResilienceTradeoffs",
+        "NetworkSlicing",
+        "OpenFlow",
+        "ProductionNetworkExperimentation"
+      ]
+    },
+    {
+      "id": "55b8c033443864eaa67c65fa595f7abddba257d666203a49325dd8a6b464d199",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[StephenWolfram]] source adds [[PersonalInfrastructure]] as an integrated personal operating system rather than a loose set of productivity tricks. Stable physical layouts, remote-work communication, broad filesystem categories, sequential names, active/archive separation, custom notebook interfaces, federated search, OCR, databases, and [[PersonalAnalytics]] all reduce recurring setup or make accumulated work reusable. This extends [[PersonalDataInfrastructure]] through long-lived local custody, private services, compatibility, on-premise storage, off-site backup, and user-facing retrieval, while [[DigitalArchiveOrganization]] gains a complementary search-and-navigation model using temporal counts and thumbnails when text recognition fails. The strongest analytics boundary is operational: automatic capture persisted where manual food logging did not, and dashboards plus daily reports supplied both feedback and collection-integrity checks. The essay remains one unusually resourced founder's self-report, with no comparative productivity measure or net maintenance cost; its outdoor-walking heart-rate observation is non-causal, and comprehensive communication, health, genome, contact, and screen records create privacy, security, consent, and retention risks. All 44 local images were opened; nine evidence-bearing maps, interfaces, archive views, and charts were retained, while 35 decorative, redundant, or prose-duplicated images were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DigitalArchiveOrganization",
+        "PersonalAnalytics",
+        "PersonalDataInfrastructure",
+        "PersonalInfrastructure",
+        "StephenWolfram"
+      ]
+    },
+    {
+      "id": "458a99c1362dc2a4b80c628916b8d001fd8f3140e8d759de20ae945340ca8555",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[SeanKelly]] source strengthens the wiki's case for conditional rather than ideological architecture choice. [[DistributedSystemRestraint]] now includes domain, request-path, recovery, monitoring, organizational, and business-value gates: a team should understand where responsibilities lie, how reads and writes cross boundaries, what can fail, and how it will know before paying for distribution. [[ModularMonolith]] gains internal domain services as a reversible learning step that keeps dependencies explicit and preserves later extraction without immediately adding network latency and partial-failure paths. [[MicroserviceOperationalOverhead]] expands beyond service count into local-development setup, integration-test scope, system comprehension, cross-team synchronization, and fragmented responsibility, while [[MicroserviceDataBoundaries]] makes call ordering, partial writes, compensation, and recovery explicit distributed-transaction work. The article also qualifies microservice-only scaling claims: one codebase can run separately tuned API, front-end, and background-worker clusters, although that does not reproduce independent release, placement, ownership, or fault-containment benefits. Kelly's position remains pro-extraction when a true need emerges, and the evidence is a 2016 practitioner argument without comparative latency, delivery, incident, staffing, or business measurements. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DistributedSystemRestraint",
+        "MicroserviceDataBoundaries",
+        "MicroserviceOperationalOverhead",
+        "ModularMonolith",
+        "SeanKelly"
+      ]
+    },
     {
       "id": "4ec18debf3dce0f9293bababd292351ed9a736718b29dc1c8c9fd279cf8b4ad9",
       "primary_topic": "ai-and-technology",
@@ -2507,10 +2943,10 @@
       ]
     },
     {
-      "id": "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
+      "id": "f6801b4fb7a4dcd6fb7f6725c9ee3bb2ec8b5953dcde9fa1b7be05c4a5b0f460",
       "primary_topic": "business-and-markets",
       "secondary_topics": [],
-      "text": "The newest [[DanielleWeisberg]] and [[CarlyZakin]] source adds [[TheSkimm]] as a joined case in audience observation, co-founder formation, early distribution, and media-business expansion. Two former NBC News producers recognized that busy professional friends wanted current-events context but did not follow scheduled television, continuous Twitter, or fragmented headlines; they chose a conversational morning email because it matched an existing phone-and-inbox routine. This sharpens [[FounderInstinct]] by showing intuition grounded in repeated audience contact rather than detached conviction, while [[CoFounderFit]] gains a gradual relationship path from study-abroad acquaintances through shared employment, friendship, and cohabitation before partnership. [[StartupDistributionStrategy]] gains a mixed launch pattern: broad founder-network seeding, explicit five-friend requests, responsive reader outreach, and an early [[HodaKotb]] Today show mention reportedly produced a few thousand first-day signups. A later source places the free sponsored newsletter within a broader paid-app, video, and commerce portfolio, connecting the origin to [[DigitalMediaMonetization]]. Both accounts are favorable founder or practitioner retrospectives and supply no subscriber cohorts, retention, acquisition cost, channel attribution, audited revenue, or causal separation from network access, celebrity exposure, capital, timing, and press. The single retained photograph documents the founders together in an apartment setting but does not verify the performance claims.",
+      "text": "The newest [[DanielleWeisberg]] and [[CarlyZakin]] source adds [[TheSkimm]] as a joined case in audience observation, co-founder formation, early distribution, and media-business expansion. Two former NBC News producers recognized that busy professional friends wanted current-events context but did not follow scheduled television, continuous Twitter, or fragmented headlines; they chose a conversational morning email because it matched an existing phone-and-inbox routine. This sharpens [[FounderInstinct]] by showing intuition grounded in repeated audience contact rather than detached conviction, while [[CoFounderFit]] gains a gradual relationship path from study-abroad acquaintances through shared employment, friendship, and cohabitation before partnership. [[StartupDistributionStrategy]] gains a mixed launch pattern: broad founder-network seeding, explicit five-friend requests, responsive reader outreach, and an early Hoda Kotb Today show mention reportedly produced a few thousand first-day signups. A later source places the free sponsored newsletter within a broader paid-app, video, and commerce portfolio, connecting the origin to [[DigitalMediaMonetization]]. Both accounts are favorable founder or practitioner retrospectives and supply no subscriber cohorts, retention, acquisition cost, channel attribution, audited revenue, or causal separation from network access, celebrity exposure, capital, timing, and press. The single retained photograph documents the founders together in an apartment setting but does not verify the performance claims.",
       "topic_scores": {
         "business-and-markets": 3,
         "culture-and-media": 1,
@@ -2523,7 +2959,6 @@
         "DanielleWeisberg",
         "DigitalMediaMonetization",
         "FounderInstinct",
-        "HodaKotb",
         "StartupDistributionStrategy",
         "TheSkimm"
       ]
@@ -14593,6 +15028,187 @@
         "ProgressiveProductBuilding",
         "Reorx",
         "VibeCoding"
+      ]
+    },
+    {
+      "id": "69738bf102d140b3228f1a4d00e826d33387db6044fd979bfdfda6ef380b7eb1",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "culture-and-media"
+      ],
+      "text": "The newest [[AndrejKarpathy]] source adds [[Software20]] as a programming-paradigm lens: explicit source code selects behaviour directly, whereas a dataset or other evaluation criterion specifies desired behaviour, an architecture bounds a continuous program space, and [[NeuralNetworkTraining]] searches it to produce the [[NeuralNetwork]] weights that execute the task. This turns data collection, labeling, cleaning, coverage, uncertainty review, and error analysis into programming work and motivates dataset versioning, learned-artifact packaging, and model-focused development environments alongside conventional infrastructure. The lens is strongest when behaviour is easier to demonstrate or repeatedly score than to express as rules, and the 2017 essay illustrates it with vision, speech, translation, games, and an early learned database index. Its operational advantages remain conditional: constrained feed-forward networks can be homogeneous, portable, and jointly optimized, but dynamic compute, retrieval, autoregressive generation, preprocessing, serving, and hardware effects weaken claims of constant cost or exact capacity-speed scaling. Effective learned programs can also be opaque, inherit data bias, fail silently outside their training distribution, and admit adversarial inputs; incomplete or gameable evaluation criteria remain specifications, not guarantees. The AGI conclusion is speculative, and the article supplies selected practitioner examples rather than a comparative adoption or total-system cost study. Three evidence-bearing images were retained at their semantic positions—the weighted-network representation, architecture-bounded program-space search, and gradient-descent post—while the avatar and generic code photograph were omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AndrejKarpathy",
+        "NeuralNetwork",
+        "NeuralNetworkTraining",
+        "Software20"
+      ]
+    },
+    {
+      "id": "1ac414c8120ac62ff6fccd2f1d2081f03b9f0b01eaf704a36f3a1f065f743d38",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[SteveBlank]] source adds [[BusinessModelValidation]] as the system boundary around customer learning. Interviews, feature requests, surveys, A/B tests, acquisition, and activation can all produce valid local evidence while the company remains unvalidated if users do not retain, the assumed payer does not pay, or the scale and cost structure do not fit the intended market. This sharpens [[StartupHypothesisTesting]] by distinguishing data collection from insight that revises a connected commercial hypothesis; sharpens [[FreemiumAcquisition]] by distinguishing single-sided user-to-payer conversion from multi-sided funding by another segment; and extends [[ProductUserSegmentation]] with payer identity, retention, revenue logic, and market structure. The durable rule is not to ignore customers, but to interpret their requests and behavior against an explicit choice of whom to serve and how the company will repeatably create and capture value. The article's unnamed consumer-web case provides no cohort, conversion, retention, cost, or outcome data, and free use can remain viable through tested advertising, cross-subsidy, network effects, or other funding. Five diagrams were retained at their semantic positions to show the business-model system, experiment-to-insight loop, acquisition funnel, segment-channel mapping, and revenue-cost boundary; decorative header art, avatar, bobcat photograph, and advertisement were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 7,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BusinessModelValidation",
+        "FreemiumAcquisition",
+        "ProductUserSegmentation",
+        "StartupHypothesisTesting",
+        "SteveBlank"
+      ]
+    },
+    {
+      "id": "1fdf2f8423d8902103d44c219f9ec6c9f65ce579074f72fe97d183d31e4efd0a",
+      "primary_topic": "science-health-and-climate",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[LanceDB]] source adds [[StoragePerformanceBenchmarking]] as a workload and measurement discipline beneath database performance claims. Its vector-search benchmark keeps normally hot metadata resident, tests row data inside and outside the kernel page cache, batches 500 candidate-row fetches per query, drives concurrent throughput, and follows search-and-schedule, read, decode, and rerank stages end to end. Flame graphs and queue instrumentation narrow the initial limit to the I/O pipeline; device statistics then invalidate a premature million-IOPS inference because repeated row selections hit the page cache. A ten-million-row dataset, lighter scheduler, and per-thread `io_uring` path reportedly reach 3,800 queries per second and about 1.5 million physical IOPS across three local NVMe drives. The useful systems result is interaction rather than a magic API: `io_uring` with the old scheduler remained at 600 queries per second, while scheduler redesign and asynchronous I/O together removed task and syscall overhead. [[VectorDatabase]] and [[DatabaseEngineeringTradeoffs]] now make recall part of the result boundary because the experiment reduced `nprobes` from 20 to 1 to isolate storage, intentionally damaging ANN recall. The evidence remains one first-party, unmerged, hardware- and workload-specific experiment without repeated-run variance, cost, energy, or independent reproduction. Eight workflow, profiling, queue, scheduler, cache-collision, and architecture visuals were retained; four memes or decorative illustrations were omitted.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "DatabaseEngineeringTradeoffs",
+        "LanceDB",
+        "StoragePerformanceBenchmarking",
+        "VectorDatabase"
+      ]
+    },
+    {
+      "id": "35b6849e45c865f557f260d935e9b511a512d1c514133241f642d3f363fd7244",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "science-health-and-climate",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[TomBowles]] source adds [[AnycastDNS]] as a route-based form of [[NetworkLoadBalancing]]. Instead of giving clients several resolver addresses and depending on operating-system-specific ordering and retry behavior, distributed [[Infoblox]] DNS servers advertise one shared host address; route metrics select a preferred instance, ECMP can divide requests across equal paths, and DNS-process health can withdraw an instance's advertisement during failure or maintenance. The retained topology diagram makes the client-facing abstraction concrete by showing two clients following different network paths to nearby servers that all present `10.10.10.10`. This can simplify DHCP, static configuration, ACLs, migration, and maintenance, but the responsibility moves into route-health coupling, convergence, alternate capacity, and routing policy. The DDoS claim is therefore bounded: distribution may localize or spread some traffic, but the article provides no protocol, latency, convergence, failure-test, balance, attack-capacity, or availability measurements and does not replace detection, filtering, or scrubbing.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AnycastDNS",
+        "Infoblox",
+        "NetworkLoadBalancing",
+        "TomBowles"
+      ]
+    },
+    {
+      "id": "5ebe984f00221476992b94a4761fa0e68216d5c0ef32f60c60c266023ca9094c",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[TomTunguz]] source adds [[InternalChampionSelling]] as an individual-incentive layer within B2B adoption. A company name and projected contract hide the person or coalition that must investigate, advocate for, implement, and defend the purchase, so a seller should connect product value with how that champion is evaluated and with an outcome the organization actually prioritizes. The model joins [[FounderLedSales]], [[SelfServiceSaaSGrowth]], and [[CorporateRiskAversion]] by making authority, implementation capacity, reputation, and expected upside part of qualification rather than treating interest as sufficient. The useful judgment is broader than Tunguz's phrase “selling promotions”: buyers can be motivated by duty, team welfare, compliance, mission, cost, job security, or risk reduction, and personal advancement can diverge from company value. His ten-times-improvement rule is therefore best treated as a high-bar question for risky replacement decisions, not a measured adoption threshold. The essay is a short 2016 practitioner argument with no buyer sample, promotion outcomes, conversion or cycle-time comparison, deployment results, or definition of “ten times.” The Sky Ladder photograph was inspected and omitted as decorative metaphor.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CorporateRiskAversion",
+        "FounderLedSales",
+        "InternalChampionSelling",
+        "SelfServiceSaaSGrowth",
+        "TomTunguz"
+      ]
+    },
+    {
+      "id": "d03f4832810571ad9a6c9dc61271b89e51720c7eea211a422dd4f6268fcd938d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[MaxLevchin]] source joins [[CuriosityDrivenAction]], [[FailureOwnership]], [[StartupCrisisLeadership]], [[StartupTeamBond]], and [[DeliberateNetworkBuilding]] through a commencement narrative about immigration, Illinois, repeated startup failure, [[PayPal]], layoffs, and long-running collaborators. Curiosity made a bounded student-startup attempt possible before Levchin understood entrepreneurship; failure clarified vocation without becoming painless or costless; and the layoff account makes leadership responsibility interpersonal by requiring direct presence with people harmed by budgeting and financing mistakes. His PayPal story adds mutual expectations, trust, empathy, respect, and repeated shared work as team-development mechanisms, while [[UniversityOfIllinoisUrbanaChampaign]] illustrates how an institution can supply both technical access and relationships that compound across decades. The address explicitly rejects glamorous failure rhetoric, but its closing advice to take risks early still comes from an exceptional retrospective success path. Youth, limited immediate obligations, scholarships, elite technical peers, later venture access, and eventual wealth constrain transferability, while team quality cannot be isolated from timing, capital, product, distribution, and market conditions. The sole local image was opened and omitted as a non-evidentiary headshot, so no asset manifest was created.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CuriosityDrivenAction",
+        "DeliberateNetworkBuilding",
+        "FailureOwnership",
+        "MaxLevchin",
+        "PayPal",
+        "StartupCrisisLeadership",
+        "StartupTeamBond",
+        "UniversityOfIllinoisUrbanaChampaign"
+      ]
+    },
+    {
+      "id": "4a311487c1b709c0066465565a15a1bf36ba73c310af0890c3c0fc440bb9adac",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[GregBurrell]] source adds [[FullCycleDevelopment]] as the team-design layer joining [[ProductionOwnership]], [[DevOpsCulture]], and [[InternalDeveloperPlatform]]. Netflix Edge Engineering's separate-operations model protected developers from healthy-period interrupts but made releases, detection, diagnosis, and operational learning pass through lossy handoffs; an incomplete hybrid left release specialists as the practical fallback and daily operations displaced automation. The proposed alternative gives development teams collective responsibility for design, development, testing, deployment, operation, and support while centralized specialists convert recurring needs into reusable delivery, rollback, monitoring, alerting, and self-service tools. Its strongest qualification is structural: broad ownership is viable only with training, staffing headroom, operational work prioritized beside features, and on-call rotations that contain interrupt work. Deep specialists and local deviations remain legitimate, and the authors warn that unsupported breadth increases cognitive load and burnout. The reported shift from week-scale releases and canaries to routine deployment and hour-scale canaries is a first-party retrospective without definitions, time series, incident, workforce, or causal evidence; smaller organizations should adopt only the complexity their needs and resources justify. All seven images were inspected, but the five evidence-bearing local diagrams are only 60 pixels wide; their confirmed lifecycle and tool relationships are fully repeated in prose, so the unreadable thumbnails were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DevOpsCulture",
+        "FullCycleDevelopment",
+        "GregBurrell",
+        "InternalDeveloperPlatform",
+        "ProductionOwnership"
+      ]
+    },
+    {
+      "id": "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[EduardsSizovs]] source adds [[EngineeringMentorship]] as a capacity constraint linking hiring with skill formation. Its central correction is that companies do not expand the engineer supply by competing only for confident, already polished candidates; protected pairing, continuous feedback, career guidance, learning resources, community participation, and beginner programs can help form developers whose earlier workplaces did not. This deepens [[JuniorEngineerLearning]] and [[WorkplaceLearning]] while qualifying [[HiringSystemDesign]]: widening entry is credible only when candidate learning needs match real senior time, communication skill, useful teaching work, manager support, staffing headroom, and safe role boundaries. The source's call to relax hard requirements may support [[InclusiveHiring]], but \"attitude\" and \"growth mindset\" can become subjective culture-fit proxies unless translated into observable, job-relevant evidence. Mentorship also cannot substitute for fair pay, safe conditions, or structural inclusion, and the article gives no comparative hiring, time-to-productivity, performance, retention, cost, or inclusion data. The lead avatar was opened and omitted as decorative; six inline illustrations point to a missing companion directory, so no image-derived evidence or retained assets were used.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "EduardsSizovs",
+        "EngineeringMentorship",
+        "HiringSystemDesign",
+        "InclusiveHiring",
+        "JuniorEngineerLearning",
+        "WorkplaceLearning"
+      ]
+    },
+    {
+      "id": "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[JustinEtheredge]] source sharpens [[ContextualTechnologySelection]] through a defense of [[RubyOnRails|Rails]] that is conditional rather than universal. A framework contributes doctrine, but practical fit also depends on libraries, community knowledge, deployment and hosting paths, management and troubleshooting tools, longevity, team skill, and what the team is willing to build itself. Mature software is therefore not obsolete merely because it also belongs to yesterday, while a newer platform should answer a concrete technical problem rather than a vague desire for improvement. [[ToolFamiliarity]] gains the same ecosystem boundary: a Python-skilled team choosing Django or a small shop using Rails can reduce adoption and maintenance cost, yet a team optimizing for compile-time safety can rationally reject Rails. Frustration should trigger diagnosis of framework, component, and workflow causes before a wholesale reboot, but reader comments preserve two countercases: changing only the tool can genuinely change outcomes, and long investment in a familiar platform can become identity and lock-in. The article is one polemical 2016 practitioner essay without comparative delivery or maintenance evidence. Its sole remote image was opened and omitted as a decorative stock photograph of a diverse group, so no asset manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ContextualTechnologySelection",
+        "JustinEtheredge",
+        "RubyOnRails",
+        "ToolFamiliarity"
       ]
     }
   ],

@@ -8,7 +8,8 @@ sources:
   - building-products-the-year-of-the-looking-glass-medium
   - unknown-unknowns-why-you-should-release-early-and-often
   - building-products-without-coding-learning-new-stuff-medium
-last_updated: 2026-09-25
+  - steve-blank-your-job-is-not-to-make-every-possible-customer-happy
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,7 +17,9 @@ knowledge_schema: synthesis-v1
 [[StartupHypothesisTesting]] is the practice of explicitly recording a startup's or product team's assumptions, designing tests for them, evaluating results, and redirecting work according to what those tests reveal.
 
 ## Current Synthesis
-The Maderight retrospective treats an early-stage startup as a bundle of unproven beliefs: that a problem exists, that customers care enough, and that someone will pay for a solution. The author argues that a team needs a standing framework for naming assumptions, choosing tests, deciding how results will be judged, identifying what must be built for the test, and reviewing progress weekly. The outsourced-development source adds a build-vs-learn angle: a team can buy external implementation capacity to test a product concept, but only if it has already decided what the prototype is meant to validate and how later refactoring, handoff, or replacement will be handled. The Building Products source generalizes the same discipline beyond startups: after choosing a solution, the team should express the plan as a hypothesis, short-circuit evaluation through the fastest credible street test, survey, prototype, or partial build, and then decide separately whether the tested artifact meets the quality bar for full launch. The [[BugRex]] case adds a build-without-owning angle: Unbounce, Olark, Trillian, PayPal.me, and Typeform jointly reproduced enough of a two-sided marketplace to test demand, customer price, and expert compensation without custom application code. Its direct customer-to-expert payments also show why teams must record deferred assumptions—the workflow did not test whether BugRex could take a transaction cut. Karlsson adds the limit case: explicit hypotheses cover assumptions a team knows it holds, while early exposure is also needed to reveal [[UnknownUnknowns]] and beliefs treated as too certain to test. The purpose is to keep effort attached to transferable learning toward [[ProductMarketFit]] or a clearer product decision.
+The Maderight retrospective treats an early-stage startup as a bundle of unproven beliefs: that a problem exists, that customers care enough, and that someone will pay for a solution. The author argues that a team needs a standing framework for naming assumptions, choosing tests, deciding how results will be judged, identifying what must be built for the test, and reviewing progress weekly. The outsourced-development source adds a build-vs-learn angle: a team can buy external implementation capacity to test a product concept, but only if it has already decided what the prototype is meant to validate and how later refactoring, handoff, or replacement will be handled. The Building Products source generalizes the same discipline beyond startups: after choosing a solution, the team should express the plan as a hypothesis, short-circuit evaluation through the fastest credible street test, survey, prototype, or partial build, and then decide separately whether the tested artifact meets the quality bar for full launch. The [[BugRex]] case adds a build-without-owning angle: Unbounce, Olark, Trillian, PayPal.me, and Typeform jointly reproduced enough of a two-sided marketplace to test demand, customer price, and expert compensation without custom application code. Its direct customer-to-expert payments also show why teams must record deferred assumptions—the workflow did not test whether BugRex could take a transaction cut. Karlsson adds the limit case: explicit hypotheses cover assumptions a team knows it holds, while early exposure is also needed to reveal [[UnknownUnknowns]] and beliefs treated as too certain to test.
+
+The newest case adds a system-boundary test: valid experiments can still optimize the wrong slice of a company. Interviews, feature delivery, A/B tests, acquisition, and activation produced data, but the startup had not tested retention, paid conversion, user-payer structure, or whether its assumed scale supported a repeatable [[BusinessModelValidation|business model]]. The purpose of the testing discipline is therefore not activity or local metric movement; it is transferable insight that changes the connected commercial hypothesis and moves the team toward [[ProductMarketFit]] or a clearer product decision.
 
 ## Key Claims
 - Early startups are assumptions and hypotheses before they are proven businesses.
@@ -24,8 +27,8 @@ The Maderight retrospective treats an early-stage startup as a bundle of unprove
 - Evaluation criteria, success metrics, and timing should be decided before a test is treated as meaningful.
 - Build work, borrowed services, and regular progress review should stay tied to the hypothesis being tested and the fastest credible path to a clear conclusion.
 - External prototypes, surveys, street feedback, and partial builds should be scoped according to the validation question they answer, not treated as automatically durable product infrastructure.
-- A positive test signal should trigger a separate launch-quality decision rather than an automatic broad release.
 - Hypothesis lists are incomplete by construction, so teams also need cheap external probes that can surface questions they did not know to ask.
+- A test can succeed locally yet fail strategically when it improves acquisition or activation without validating retention, payment, cost, or the relationship between users and payers.
 
 ## Evidence
 - Assumption framing: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] says startups begin as beliefs about a problem and willingness to pay that must be verified.
@@ -39,14 +42,18 @@ The Maderight retrospective treats an early-stage startup as a bundle of unprove
 - Cheap probes: [[unknown-unknowns-why-you-should-release-early-and-often]] recommends customer conversations, paper mockups, and proofs of concept before a complete product exists.
 - Composed functional test: [[building-products-without-coding-learning-new-stuff-medium]] describes assembling five hosted services to test marketplace demand, customer price, and expert compensation.
 - Deferred business assumption: [[building-products-without-coding-learning-new-stuff-medium]] says direct customer-to-expert payment deliberately left platform fee capture outside the prototype's test.
+- Whole-model interpretation: [[steve-blank-your-job-is-not-to-make-every-possible-customer-happy]] describes customer interviews, feature work, A/B tests, acquisition, and activation that failed to validate retention, paid conversion, or the assumed freemium model.
+- Insight loop: [[steve-blank-your-job-is-not-to-make-every-possible-customer-happy]] depicts hypotheses leading through experiment design and testing to insight, which should revise the next business-model hypothesis.
 
 ## Counterevidence & Qualifications
-The Maderight source is a failure retrospective and says the company adopted the framework after the beginning rather than from day one, so it does not prove the framework would have saved the company. The outsourced-development source does not prove that external teams reliably improve validation speed; it assumes the product owner can manage scope, QA, technical documentation, and project state. The Building Products, BugRex, and Karlsson sources are practitioner guidance and do not give statistical thresholds for when a signal is strong enough. BugRex's estimated three-weeks-to-three-months saving is explicitly rough, and its composed workflow does not establish retention, marketplace liquidity, take-rate viability, or scale. Cheap tests can miss or distort the core value, and the exact cadence, audience, and release gate vary where enterprise, manufacturing, safety, privacy, compliance, or brand-risk cycles are slow.
+The Maderight source is a failure retrospective and says the company adopted the framework after the beginning rather than from day one, so it does not prove the framework would have saved the company. The outsourced-development source does not prove that external teams reliably improve validation speed; it assumes the product owner can manage scope, QA, technical documentation, and project state. The Building Products, BugRex, Karlsson, and Blank sources are practitioner guidance and do not give statistical thresholds for when a signal is strong enough. Blank's unnamed startup case supplies no underlying cohort, conversion, retention, cost, or experiment data and may not generalize across business models. BugRex's estimated three-weeks-to-three-months saving is explicitly rough, and its composed workflow does not establish retention, marketplace liquidity, take-rate viability, or scale. Cheap tests can miss or distort the core value, and the exact cadence, audience, system boundary, and release gate vary where enterprise, manufacturing, safety, privacy, compliance, or brand-risk cycles are slow.
 
 ## What Changed
 - Added existing-service composition as a test-design option and separated tested assumptions from deferred platform economics.
 - Added the distinction between testing named assumptions and probing for false certainty or unknown unknowns.
 - Added pre-product conversations and mockups as cheap discovery probes.
+- Added the risk of locally successful experiments that do not test the connected business model.
+- Distinguished collecting data from producing insight that changes a commercial hypothesis.
 
 ## Related Concepts
 - [[ProductMarketFit]] - hypothesis testing aims to discover whether real market demand exists.
@@ -59,3 +66,4 @@ The Maderight source is a failure retrospective and says the company adopted the
 - [[UnknownUnknowns]] - names the gaps that cannot yet be represented in an explicit hypothesis list.
 - [[IterativeProductShipping]] - staged releases turn hypotheses into repeated encounters with external evidence.
 - [[NoCodeProductPrototyping]] - composes existing services around the minimum workflow needed to test named assumptions.
+- [[BusinessModelValidation]] - expands the test boundary from product behavior to segments, payer structure, revenue, costs, and scale.

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "the-tragedy-of-100-code-coverage",
+  "images": [
+    {
+      "file": "watchlist-dao-glue-code.png",
+      "alt": "Watchlist initialization method passing DAO rows into a collection callback"
+    },
+    {
+      "file": "direct-callback-unit-test.png",
+      "alt": "Direct unit test supplying two watchlist rows through the initialization callback"
+    },
+    {
+      "file": "cucumber-mapper-scenario-outline.png",
+      "alt": "Cucumber scenario outline mapping four market DTO names to mapper classes"
+    },
+    {
+      "file": "cucumber-step-definitions.png",
+      "alt": "Cucumber step definitions configuring a registry, mocking a market DTO, and asserting a mapper"
+    },
+    {
+      "file": "reflection-test-helper.png",
+      "alt": "Reflection helper used by the Cucumber setup to instantiate mapper classes"
+    },
+    {
+      "file": "map-lookup-production-code.png",
+      "alt": "Production registry whose getMapper method performs one map lookup by market DTO type"
+    }
+  ]
+}

@@ -8,7 +8,8 @@ sources:
   - architecting-for-continuous-delivery-thoughtworks
   - deconstructing-the-monolith-shopify-engineering
   - emily-reinhold-the-opportunities-microservices-provide-at-uber-engineering
-last_updated: 2026-09-27
+  - sean-kelly-microservices-please-dont
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,10 +27,12 @@ Shopify adds a pre-decomposition decision case. Microservices could have reduced
 
 Uber's Tincup account supplies the qualified positive case at organizational scale. Uber did not make hundreds of services cheap by boundary choice alone; it invested in RFC governance, discovery and routing, strict contracts, rate limits, circuit breaking, load tests, container isolation, and controlled disruption. These shared capabilities can lower the marginal risk of another service, but they require a platform organization and do not erase slow consumer migration or technology-learning cost.
 
+Kelly broadens the cost model from infrastructure count to request and team topology. Remote calls introduce latency and partial-failure paths; local development and integration testing require an expanding set of services; and bugs crossing service ownership can turn technical coupling into coordination delay or fragmented responsibility. These are not unavoidable reasons to reject services, but they make domain knowledge, workflow monitoring, recovery design, and organizational readiness part of the price of extraction.
+
 ## Key Claims
 - Microservices can solve one isolation problem while creating a larger operational surface.
 - Service count, repository count, queue count, dependency versions, and autoscaling profiles can grow together.
-- Shared libraries become harder to improve when every change requires testing and deploying many services.
+- Network calls, distributed recovery, local development, and integration testing add costs that in-process module calls avoid.
 - Operational overhead matters especially when a small team must maintain many heterogeneous load patterns.
 - The right service boundary depends on tooling and team capacity, not only on domain decomposition.
 - Small teams should delay distributed service boundaries until they can afford the deployment and coordination cost.
@@ -49,13 +52,17 @@ Uber's Tincup account supplies the qualified positive case at organizational sca
 - Alternative boundary: [[deconstructing-the-monolith-shopify-engineering]] says Shopify chose component boundaries inside one application rather than increasing deployment units.
 - Platform mitigation: [[emily-reinhold-the-opportunities-microservices-provide-at-uber-engineering]] describes RFC review, health-aware routing, strict interfaces, load tests, containers, and controlled disruption around Uber's service ecosystem.
 - Residual coordination: [[emily-reinhold-the-opportunities-microservices-provide-at-uber-engineering]] says migrating consumers remains long and slow even after the service and platform exist.
+- Request-path cost: [[sean-kelly-microservices-please-dont]] says remote calls add latency and application- and network-level failure cases to workflows that were previously local.
+- Development and test cost: [[sean-kelly-microservices-please-dont]] says even small changes can require many services locally and broader integration knowledge.
+- Team cost: [[sean-kelly-microservices-please-dont]] says bugs spanning services can require multi-team synchronization and encourage fragmented responsibility.
+- Scaling qualification: [[sean-kelly-microservices-please-dont]] says workload-specific monolith clusters can also scale API, front-end, and background work independently.
 
 ## Counterevidence & Qualifications
-The sources do not argue that microservices are generally bad. In the Segment case, destination-specific services initially improved fault isolation and test isolation; in the Appcanary essay, microservices remain useful for some larger teams; in the Thoughtworks article, services can reduce CD cycle time. Shopify's account is a 2019 company-specific design choice, not proof that one deployment is universally superior. Uber's account is the inverse but equally company-specific case: it shows substantial platform investment without comparative cost, reliability, or delivery results. The critique applies when service proliferation outruns tooling, operational automation, boundary design, governance, and team capacity.
+The sources do not argue that microservices are generally bad. In the Segment case, destination-specific services initially improved fault isolation and test isolation; in the Appcanary essay, microservices remain useful for some larger teams; in the Thoughtworks article, services can reduce CD cycle time. Shopify's account is a 2019 company-specific design choice, not proof that one deployment is universally superior. Uber's account is the inverse but equally company-specific case: it shows substantial platform investment without comparative cost, reliability, or delivery results. Kelly's critique is also a 2016 practitioner argument without comparative measurements; a shared codebase and independently scaled clusters do not automatically reproduce service-level release autonomy, fault containment, placement, or ownership. The critique applies when service proliferation outruns tooling, operational automation, boundary design, governance, and team capacity.
 
 ## What Changed
-- Added shared governance and platform controls as mechanisms that can reduce marginal service risk at large organizational scale.
-- Preserved slow consumer migration and platform-maintenance cost as overhead that tooling does not eliminate.
+- Expanded the overhead model from service and infrastructure count to network failure, local development, integration testing, and cross-team coordination.
+- Qualified microservice-only scaling claims with independently tunable monolith workload clusters while preserving service-specific autonomy benefits.
 
 ## Related Concepts
 - [[MonolithConsolidation]] - consolidation is the source's response to excessive service overhead.
@@ -69,3 +76,4 @@ The sources do not argue that microservices are generally bad. In the Segment ca
 - [[DeploymentPipeline]] - service dependencies need visible pipeline support to preserve release confidence.
 - [[ModularMonolith]] - preserves domain boundaries while avoiding some network and deployment overhead.
 - [[MicroservicePlatformEngineering]] - packages recurring governance and operational controls so each service need not solve them independently.
+- [[MicroserviceDataBoundaries]] - poorly understood cross-boundary workflows turn service extraction into distributed transaction and recovery work.

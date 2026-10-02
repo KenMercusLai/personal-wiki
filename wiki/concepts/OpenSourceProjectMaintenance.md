@@ -5,7 +5,8 @@ tags: [open-source, software-engineering, developer-tools]
 sources:
   - a-bitter-guide-to-open-source-codezillas-medium
   - i-hate-the-term-open-source-nadia-eghbal-medium
-last_updated: 2026-09-29
+  - some-things-just-take-time
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,6 +22,8 @@ Public stewardship creates a governance and labor boundary. Public access does n
 
 Together, the sources treat sustainability as part of project quality. Open source can help a developer's reputation, company brand, skill growth, and community contribution, but unpaid maintenance can consume family time, health, and enthusiasm. A durable project therefore needs technical scaffolding, enforceable permissions, shared roles, funding, and emotional boundaries, not just a launch spike.
 
+Longevity supplies evidence users cannot obtain from a repository's existence or a fast burst of commits. A maintainer may keep showing up, prepare succession, or build a community able to carry the work; each path turns initial enthusiasm into a more durable commitment. AI can lower the cost of creating and publishing projects without accelerating this social proof, so a larger supply of repositories can coexist with less confidence that any one will remain supported.
+
 ## Key Claims
 - Useful open-source projects often begin with a concrete problem the maintainer has personally solved.
 - API design should balance out-of-the-box usability with necessary configuration while remaining explicit and approachable.
@@ -28,7 +31,7 @@ Together, the sources treat sustainability as part of project quality. Open sour
 - Launch success depends on a clear hook, visible demonstration, credible repository presentation, and distribution to relevant developer communities.
 - Popular projects need early delegation, issue and PR templates, and maintainer boundaries to avoid burnout.
 - Maintainers should protect the core API from narrow edge cases and use semantic versioning, tags, deprecation windows, and detailed release notes for change safety.
-- Public output still requires explicit stewardship roles, dedicated time, and sustainable compensation, while legal openness remains a separate rights question.
+- Public output still requires explicit stewardship roles, dedicated time, sustainable compensation, and a continuity path through persistence, succession, or community, while legal openness remains a separate rights question.
 
 ## Evidence
 - Problem-origin fit: [[a-bitter-guide-to-open-source-codezillas-medium]] says [[SlickCarousel]] came from repeated fashion ecommerce carousel needs that existing libraries could not satisfy.
@@ -40,13 +43,14 @@ Together, the sources treat sustainability as part of project quality. Open sour
 - Change safety: [[a-bitter-guide-to-open-source-codezillas-medium]] argues for semantic versioning, pushed tags, detailed release notes, transparent deprecations, and compassionate updates for downstream users.
 - Stewardship and labor: [[i-hate-the-term-open-source-nadia-eghbal-medium]] argues that public-resource output can coexist with compensation and responsibility for the project's process.
 - Legal and cultural boundary: [[i-hate-the-term-open-source-nadia-eghbal-medium]] preserves license-backed access and use rights while proposing broader language for collaboration and sustainability.
+- Longevity signal: [[some-things-just-take-time]] contrasts week-long commit bursts with projects whose maintainers persist, arrange succession, or create a community capable of sustaining the work.
 
 ## Counterevidence & Qualifications
-Both sources are practitioner essays rather than comparative studies of open-source outcomes. Wheeler's advice is strongest for developer-facing JavaScript libraries and public GitHub projects. Eghbal's proposed terminology has no adoption or comprehension evidence and risks confusing mere public visibility with license-backed rights unless permissions stay explicit. Together they do not resolve corporate governance, security response, concrete funding models, foundation stewardship, package-supply-chain risk, or the experiences of maintainers facing harassment and legal risk.
+All three sources are practitioner essays rather than comparative studies of open-source outcomes. Wheeler's advice is strongest for developer-facing JavaScript libraries and public GitHub projects. Eghbal's proposed terminology has no adoption or comprehension evidence and risks confusing mere public visibility with license-backed rights unless permissions stay explicit. The time-focused essay does not measure repository abandonment, project survival, maintenance quality, or the role of AI in either. Longevity alone can preserve insecure or obsolete software, while short experiments can still produce learning or reusable code when their status and support horizon are clear. The sources do not resolve corporate governance, security response, concrete funding models, foundation stewardship, package-supply-chain risk, or the experiences of maintainers facing harassment and legal risk.
 
 ## What Changed
-- Expanded maintenance from a technical and interpersonal practice into a legal, labor, role, and compensation system.
-- Distinguished public-development culture from the license-backed rights that make software legally open source.
+- Added persistence, succession, and community capacity as alternative continuity paths beyond initial publication.
+- Distinguished cheaper project creation from the time-dependent evidence that a project will be maintained.
 
 ## Related Concepts
 - [[DeveloperTooling]] - open-source libraries are developer tools whose adoption depends on docs, examples, and integration fit.
@@ -57,3 +61,4 @@ Both sources are practitioner essays rather than comparative studies of open-sou
 - [[TechCommunityParticipation]] - open source is one way developers participate publicly in technical communities.
 - [[PublicSoftware]] - broader cultural frame for public creation, stewardship, and participation without replacing open-source licensing.
 - [[OpenSourceCommercialization]] - revenue and licensing arrangements can fund the labor required for durable stewardship.
+- [[TimeDependentValue]] - explains why maintenance history and community continuity cannot be generated by a fast release alone.

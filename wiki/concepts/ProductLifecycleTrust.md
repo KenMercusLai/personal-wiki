@@ -5,7 +5,8 @@ tags: [product-strategy, platforms, trust, lifecycle]
 sources:
   - googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica
   - just-landed-is-shutting-down-jon-grall-medium
-last_updated: 2026-10-01
+  - some-things-just-take-time
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ Repeated closures can transfer risk across otherwise unrelated teams. The Google
 
 The [[JustLanded]] case adds the provider side of a single-product closure. Continuing indefinitely was not presented as credible because supplier quality, replacement cost, high-consumption users, one-time pricing, and limited developer time made a later forced failure plausible. Lifecycle trust therefore does not require permanent operation; it requires stewardship proportionate to user dependency. Advance notice, continued service during a transition, a definite end date, explanation, and refund guidance can reduce harm even when portability or a successor service is unavailable.
 
+The broader temporal mechanism is that trust is not created by one successful launch or a burst of activity; customers infer commitment from continued support and from how a provider behaves when continuation is no longer possible. Startups that erase their public presence without explanation or transition work treat shutdown effort as wasted time, but that shortcut breaks the relationship adoption created. In this sense, lifecycle trust is a form of [[TimeDependentValue]]: it accumulates through conduct across the product's life and can be preserved, though not made costless, by a responsible ending.
+
 ## Key Claims
 - Product adoption can create switching costs in data, hardware, social coordination, workflows, development, and partner roadmaps.
 - A dense shutdown cadence can make rational portfolio management look like organizational instability when users cannot distinguish which commitments are durable.
@@ -26,7 +29,7 @@ The [[JustLanded]] case adds the provider side of a single-product closure. Cont
 - Consumers, enterprises, developers, and hardware partners face different dependency costs but share a need for credible support horizons.
 - Migration plans reduce harm but do not make feature removal, repricing, service exit, and full closure equivalent or costless.
 - Large investment and cross-company scope are incomplete commitment signals without governance, support, portability, and exit evidence.
-- A planned wind-down can protect more trust than waiting for an external dependency to force abrupt failure.
+- Continued stewardship and a planned, explained wind-down can protect more trust than disappearance or waiting for an external dependency to force abrupt failure.
 
 ## Evidence
 - Shutdown cadence: [[googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica]] counts an official Google product, feature, or service ending roughly every nine days during the first 91 days of 2019.
@@ -38,15 +41,14 @@ The [[JustLanded]] case adds the provider side of a single-product closure. Cont
 - Assurance boundary: [[googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica]] reports Phil Harrison citing Stadia's significant cross-company investment while noting that Google+ once had similarly broad backing.
 - Planned notice: [[just-landed-is-shutting-down-jon-grall-medium]] announced removal from sale while continuing service for existing users for just over five months before a definite server shutdown.
 - Recourse and rationale: [[just-landed-is-shutting-down-jon-grall-medium]] explains the dependency, cost, pricing, and resource constraints and directs dissatisfied purchasers to Apple's refund process.
+- Commitment over time: [[some-things-just-take-time]] argues that durable customer relationships require providers to remain present through maintenance and to spend time on a proper shutdown rather than silently disappearing.
 
 ## Counterevidence & Qualifications
-The Google source is an opinionated April 2019 article, not a measured model of brand equity, adoption, churn, partner investment, or shutdown necessity. It groups feature removals, repricing, geographic withdrawal, product migration, and complete service closure even though their costs and rationales differ. The Just Landed source is the provider's own retrospective and does not measure whether users considered the five-month transition fair or sufficient; it offered no documented data export, successor service, or continued offline mode. Continuing a weak, unsafe, obsolete, or strategically incompatible product can waste resources or expose users to greater harm, so lifecycle trust cannot mean permanent support for everything. Clear horizons, data export, compatibility, migration help, refunds, open protocols, and advance notice may preserve trust even when closure is warranted, but the sources do not compare these remedies.
+The Google source is an opinionated April 2019 article, not a measured model of brand equity, adoption, churn, partner investment, or shutdown necessity. It groups feature removals, repricing, geographic withdrawal, product migration, and complete service closure even though their costs and rationales differ. The Just Landed source is the provider's own retrospective and does not measure whether users considered the five-month transition fair or sufficient; it offered no documented data export, successor service, or continued offline mode. The time-focused essay likewise gives no counts, cases, or customer evidence for the startups it says disappeared. Continuing a weak, unsafe, obsolete, or strategically incompatible product can waste resources or expose users to greater harm, so lifecycle trust cannot mean permanent support for everything. Clear horizons, data export, compatibility, migration help, refunds, open protocols, and advance notice may preserve trust even when closure is warranted, but the sources do not compare these remedies.
 
 ## What Changed
-- Established a portfolio-level trust mechanism linking repeated shutdowns to the adoption of unrelated future products.
-- Distinguished commitment costs across consumers, enterprises, developers, and hardware partners.
-- Identified investment size and cross-company scope as insufficient lifecycle guarantees on their own.
-- Added planned wind-down stewardship as a trust-preserving alternative to abrupt dependency-driven failure.
+- Reframed lifecycle trust as value accumulated through continued conduct rather than created by launch promises or initial activity.
+- Added silent disappearance as a distinct breach and responsible shutdown work as part of product stewardship.
 
 ## Related Concepts
 - [[DeveloperPlatformTrust]] - narrows lifecycle trust to developers investing in APIs, policies, tools, and platform posture.
@@ -55,3 +57,4 @@ The Google source is an opinionated April 2019 article, not a measured model of 
 - [[CorporateGiantFragility]] - portfolio trust can become an incumbent weakness despite cash, scale, and technical capability.
 - [[PlatformStickiness]] - dependency can strengthen retention while increasing the harm and reputational cost of closure.
 - [[ExternalServiceDependency]] - a product's lifecycle can be constrained by suppliers whose continuity, quality, and pricing it does not control.
+- [[TimeDependentValue]] - explains why support history and shutdown conduct establish trust in ways that faster production cannot compress.

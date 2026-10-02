@@ -2,7 +2,7 @@
 title: "Question: exactly when is someone going to use your app/service?"
 type: source
 tags: [startup, product-strategy, attention-economy, consumer-apps]
-date: 2016-08-16
+date: 2016-08-09
 source_file: "/mnt/ken_personal_wiki/Articles/Question- exactly when is someone going to use your app-service-.md"
 ---
 

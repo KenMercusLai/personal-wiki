@@ -11,6 +11,7 @@ sources:
   - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
   - devops-is-a-culture-not-a-role-irma-kornilova-medium
   - rouan-wilsenach-ship-show-ask
+  - tc-currie-airbnbs-10-takeaways-from-moving-to-microservices
 last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
@@ -37,8 +38,10 @@ GitHub's Rails migration adds a long-running compatibility case. Rather than iso
 
 Ship / Show / Ask adds merge authority and feedback timing to this delivery system. Direct Ship and self-merged Show paths reduce approval delay only when automated checks, feature toggles, short-lived branches, and a releasable mainline make integration safe enough; Ask remains available when uncertainty should stop the change before merge. The framework therefore treats approval policy as one delivery-flow control rather than equating every pull request with a mandatory gate.
 
+Airbnb adds the service-proliferation constraint: every new service should inherit the same tested, automated, monitored delivery process rather than become a snowflake. Configuration, alerts, and application artifacts are reviewed and validated as code, and the target service-creation flow creates repository and configuration together through one pull request.
+
 ## Key Claims
-- Continuous delivery is a release capability, not a list of tools.
+- Continuous delivery is a release capability, not a list of tools, and rising service count increases the value of standardized delivery and observability defaults.
 - CD depends on frequent small integration, automated tests, repeated deployment practice, and organizational alignment around delivery and reliability.
 - Architectural choices can improve or damage delivery throughput.
 - Feedback speed matters at both developer and CI levels.
@@ -64,6 +67,7 @@ Ship / Show / Ask adds merge authority and feedback timing to this delivery syst
 - Multi-version integration: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] describes dual-boot dependency locks and required CI jobs that kept current and next Rails versions compatible while ordinary feature work continued.
 - Production feedback: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] used percentage exposure, exception and performance data, and a full-production peak-traffic gate before accepting deployed framework milestones.
 - Approval-flow fit: [[rouan-wilsenach-ship-show-ask]] allows direct Ship, non-blocking Show, or feedback-blocked Ask only alongside automated checks, feature toggles, short-lived branches, and a releasable mainline.
+- Service standardization: [[tc-currie-airbnbs-10-takeaways-from-moving-to-microservices]] argues that every new service should receive the same automated delivery behavior and that code, configuration, and alerts should pass through reviewable, validated paths.
 
 ## Counterevidence & Qualifications
 The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership; Fowler's foreword emphasizes agile learning and internal quality. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
@@ -76,12 +80,14 @@ GitHub's account is a company-authored retrospective of one Rails application. I
 
 Ship / Show / Ask is also practitioner guidance without comparative change-failure or lead-time evidence. Removing mandatory approval may reduce queue delay but can shift defects or coordination cost downstream when verification, observability, reversibility, shared standards, or feedback follow-through are weak. Regulation and high-consequence changes can still justify independent approval.
 
+The Airbnb account reports high deployment volume but does not define a deploy, compare the standardized process with the earlier monolith, or provide change-failure, recovery, lead-time, reliability, staffing, or cost outcomes. Its one-pull-request service-creation goal was still in progress.
+
 ## What Changed
+- Added service-factory standardization as a way to keep delivery behavior consistent as service count rises, while preserving the lack of comparative outcomes.
 - Continuous delivery is a system property spanning organizational incentives, architecture, tests, release flow, and production learning rather than a tool list.
 - Compliance evidence and auditability must preserve small batches rather than recreate central approval queues.
 - Small-team automation and selective approval can reduce friction, but they still need fast verification, observable user feedback, and risk-sensitive escalation.
 - Deployment and activation should be separable because code reversion cannot restore every external state.
-- Multi-version CI and progressive production exposure can keep a long framework migration inside the normal delivery stream.
 
 ## Related Concepts
 - [[DevOpsCulture]] - supplies the shared responsibility, leadership support, and cross-functional alignment around continuous delivery.

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source_key": "unboxing-chrome-hannah-lee-medium",
+  "images": [
+    {
+      "file": "chrome-omnibox-permutations.gif",
+      "alt": "Animated Chrome toolbar demonstrating omnibox variation across product states"
+    },
+    {
+      "file": "chrome-text-style-audit.png",
+      "alt": "Chrome text-style audit mapping many combinations of size, weight, color, and transparency"
+    },
+    {
+      "file": "chrome-icon-inventory.png",
+      "alt": "Chrome icon inventory showing the breadth of menu, Chrome-specific, and platform-specific assets"
+    },
+    {
+      "file": "chrome-component-sticker-sheet.png",
+      "alt": "Chrome mobile sticker sheet collecting shared interface components and states"
+    },
+    {
+      "file": "toolbar-state-transitions.png",
+      "alt": "Stacked Chrome toolbar states showing boxes changing size and position during interaction"
+    },
+    {
+      "file": "visual-noise-elements.png",
+      "alt": "Chrome toolbar with text and icons removed to isolate the remaining visual surfaces"
+    },
+    {
+      "file": "visual-noise-colors-shadows.png",
+      "alt": "Chrome toolbar with colors and shadows removed to isolate structural visual noise"
+    },
+    {
+      "file": "menu-icon-bounding-box.png",
+      "alt": "Chrome three-dot menu icon with its narrow image bounding box highlighted"
+    },
+    {
+      "file": "menu-icon-touch-target.png",
+      "alt": "Chrome three-dot menu icon with its tappable touch target highlighted"
+    },
+    {
+      "file": "menu-icon-spacing-compromise.png",
+      "alt": "Chrome toolbar spacing comparison showing the tradeoff between a larger menu touch target and visual balance"
+    },
+    {
+      "file": "omnibox-design-explorations.png",
+      "alt": "A large field of Chrome omnibox design explorations considered during the redesign"
+    },
+    {
+      "file": "omnibox-outline-incognito-comparison.png",
+      "alt": "Outlined omnibox concepts compared across light and Incognito Chrome themes"
+    },
+    {
+      "file": "omnibox-without-container.png",
+      "alt": "Chrome toolbar explorations with the omnibox container removed"
+    },
+    {
+      "file": "chrome-brand-shape.gif",
+      "alt": "Animated Chrome wordmark highlighting the curved lowercase c and circular brand geometry"
+    },
+    {
+      "file": "finger-shaped-rounded-omnibox.png",
+      "alt": "Rounded mobile omnibox whose pill shape echoes the form of a fingertip"
+    },
+    {
+      "file": "rounded-omnibox-light.png",
+      "alt": "Final rounded Chrome omnibox in the light toolbar theme"
+    },
+    {
+      "file": "rounded-omnibox-incognito.png",
+      "alt": "Final rounded Chrome omnibox in the dark Incognito toolbar theme"
+    },
+    {
+      "file": "chrome-mobile-before-after.png",
+      "alt": "Chrome for Android before and after the 2018 redesign, with the rectangular URL field replaced by a rounded omnibox"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 title: "On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries"
 type: source
 tags: [networking, spanning-tree, data-center, loop-prevention]
-date: 2012-12-07
+date: 2012-12-06
 source_file: "/mnt/ken_personal_wiki/Articles/Network Janitor - On the Premature Death of Spanning Tree and the Indiscriminate Killing of Canaries.md"
 ---
 

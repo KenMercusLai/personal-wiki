@@ -2,7 +2,7 @@
 title: "Notifications: A Tragedy Of the Digital Commons"
 type: source
 tags: [notifications, mobile, product-design, attention, artificial-intelligence]
-date: 2017-05-29
+date: 2017-05-28
 source_file: "/mnt/ken_personal_wiki/Articles/Notifications- A Tragedy Of the Digital Commons - Positive Slope - Medium.md"
 ---
 

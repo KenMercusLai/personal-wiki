@@ -6,7 +6,8 @@ sources:
   - jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi
   - a-look-at-auth0-cloud-architecture-5-years-in
   - health-checks-and-graceful-degradation-in-distributed-systems
-last_updated: 2026-09-29
+  - tom-bowles-anycast-dns-part-1
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,13 +23,15 @@ Auth0 adds a higher-level SaaS routing example. Customer requests enter through 
 
 At runtime, discovery and packet reachability can identify candidate backends, but routing under variable load needs application-level feedback about whether each backend can complete the particular work at acceptable quality. Dynamic weights, connection limits, refusal, rerouting, bounded queueing, and rejection turn load balancing into a feedback loop rather than a static scheduler.
 
+Anycast DNS adds a route-based model that does not require a distinct forwarding tier. Multiple service instances advertise one shared host address, route metrics direct a client toward a preferred instance, ECMP may share requests across equal paths, and service health can withdraw an instance's advertisement. This simplifies the client-facing interface while making routing convergence, route-health coupling, and alternate-site capacity part of the load-balancing contract.
+
 ## Key Claims
 - Network load-balancing behavior is determined by packet rewriting and return-path design, not only by scheduling policy.
 - Direct server return improves throughput by keeping response traffic away from the load balancer.
 - Same-VLAN or gateway requirements arise when a forwarding mode depends on L2 MAC rewriting or needs the response packet to revisit the load balancer.
 - Cross-VLAN deployment often requires full address translation, tunneling, or host-side packet-processing support.
 - Client-IP preservation becomes a separate engineering problem once the load balancer rewrites the packet source address.
-- Cloud and SaaS load-balancing stacks add routing, synchronization, packet-processing acceleration, DNS, managed balancers, and proxies to make traffic distribution operational at scale.
+- Cloud, SaaS, and Anycast stacks combine routing, synchronization, packet processing, health signals, managed balancers, proxies, or shared route advertisements to make traffic distribution operational at scale.
 - Application-level capacity feedback can improve routing when a reachable backend is overloaded or unsuitable for a specific request.
 
 ## Evidence
@@ -39,13 +42,16 @@ At runtime, discovery and packet reachability can identify candidate backends, b
 - Cloud scaling: [[jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi]] describes Alibaba Cloud SLB/NGLB using dynamic routing, session synchronization, DPDK, huge pages, cache-line tuning, token-bucket sharding, and flow offload.
 - SaaS routing: [[a-look-at-auth0-cloud-architecture-5-years-in]] describes request paths through public load balancers, CNAME load balancers, private load balancers, AWS ALB/NLB/ELB, and NGINX proxy nodes into application and data layers.
 - Health-aware routing: [[health-checks-and-graceful-degradation-in-distributed-systems]] distinguishes binary liveness from graded service capacity and describes dynamic weight, connection-limit, refusal, rerouting, and bounded-queue feedback.
+- Anycast routing: [[tom-bowles-anycast-dns-part-1]] describes DNS servers advertising one shared `/32`, route-metric selection of a preferred instance, optional ECMP, and DNS-health-triggered route withdrawal.
 
 ## Counterevidence & Qualifications
-The sources operate at different levels. The LVS article explains packet-forwarding mechanics and vendor productization, Auth0 uses load balancers as architecture components without specifying forwarding mode or scheduler, and the health-check article focuses on application capacity and overload control. Packet reachability, service discovery, and application health are complementary signals rather than substitutes. Alibaba Cloud, AWS, HAProxy, Envoy, and Spillway details are source-date and implementation-specific.
+The sources operate at different levels. The LVS article explains packet-forwarding mechanics and vendor productization, Auth0 uses load balancers as architecture components without specifying forwarding mode or scheduler, the health-check article focuses on application capacity and overload control, and the Anycast article replaces a forwarding tier with distributed route advertisements. Packet reachability, service discovery, application health, and routing convergence are complementary signals rather than substitutes. The Anycast account supplies no protocol, convergence, balance, latency, failure-test, or capacity measurements. Alibaba Cloud, AWS, Infoblox, HAProxy, Envoy, and Spillway details are source-date and implementation-specific.
 
 ## What Changed
 - Expanded load balancing from packet paths and routing topology to application-aware capacity control.
 - Added dynamic refusal, weight, connection-limit, bounded-queue, and rejection feedback as runtime routing mechanisms.
+- Added Anycast as a route-based distribution model with one shared service address and no distinct forwarding tier.
+- Added advertisement withdrawal, convergence, and alternate capacity to the health-aware routing boundary.
 
 ## Related Concepts
 - [[LVSForwardingModes]] - LVS forwarding modes are the source's concrete taxonomy for network load-balancing tradeoffs.
@@ -57,3 +63,4 @@ The sources operate at different levels. The LVS article explains packet-forward
 - [[ServiceHealthChecks]] - health signals determine whether a discovered backend should receive work.
 - [[AdaptiveBackpressure]] - load balancers propagate capacity feedback by redirecting, delaying, or shedding work.
 - [[Spillway]] - historical request broker implementing application-aware routing for variable-cost image processing.
+- [[AnycastDNS]] - uses shared route advertisements to distribute DNS requests among service instances.

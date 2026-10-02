@@ -3,18 +3,29 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-10-01
-as_of_overview_commit: 0ebcae5de69fc275aab8a61b3cca4d2b901080ff
-input_digest: 6f5e7a51bd39ed7ccc580b983eb95cca7dad7dbbc125d121ead8f26fa7409c98
+last_updated: 2026-10-02
+as_of_overview_commit: c8b341d1bc7c8354c189292374702a1ed2e559ba
+input_digest: 60316b732799ef67fda0f42edc7825b9f9be76e24326fa0fffbb4d54b09e0144
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-[[NickCraver]] and [[StackOverflow]] add a source-scoped 2016 web-operations snapshot whose deployment, migration, and load-balancing lessons belong mainly to technology and business rather than geopolitics. [[SmartDefaults]] adds a source-scoped 2018 interface-design snapshot whose substantive welfare, attention, and reversibility findings belong to product design rather than geopolitics. [[DatabaseEngineeringTradeoffs]] adds a source-scoped 2020 database-operations snapshot; its substantive findings belong to technology and business rather than geopolitics, and its product details are historical. [[ProgressiveInfrastructureRollout]], [[Spotify]], [[Docker]], and [[Tsunami]] add a source-scoped 2017 infrastructure-operations snapshot rather than a substantive geopolitical finding. [[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. [[PersonalTelemetryPipeline]] adds a dated hobbyist operations case whose acquisition, normalization, storage, and visualization lessons belong mainly to technology; it also shows that version-bound tools and apparently polished dashboards retain historical and analytical assumptions. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.
+[[DiffusionModelSampling]], [[StableDiffusion]], and [[AUTOMATIC1111]] add a source-scoped 2023 image-generation technology snapshot whose substantive sampler trade-offs belong to AI and technology rather than geopolitics. [[FlowVisor]], [[OpenFlow]], [[NetworkSlicing]], and [[ProductionNetworkExperimentation]] add a source-scoped 2010 programmable-networking snapshot whose substantive isolation and resilience findings belong to technology rather than geopolitics. [[NickCraver]] and [[StackOverflow]] add a source-scoped 2016 web-operations snapshot whose deployment, migration, and load-balancing lessons belong mainly to technology and business rather than geopolitics. [[SmartDefaults]] adds a source-scoped 2018 interface-design snapshot whose substantive welfare, attention, and reversibility findings belong to product design rather than geopolitics. [[DatabaseEngineeringTradeoffs]] adds a source-scoped 2020 database-operations snapshot; its substantive findings belong to technology and business rather than geopolitics, and its product details are historical. [[ProgressiveInfrastructureRollout]], [[Spotify]], [[Docker]], and [[Tsunami]] add a source-scoped 2017 infrastructure-operations snapshot rather than a substantive geopolitical finding. [[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. [[PersonalTelemetryPipeline]] adds a dated hobbyist operations case whose acquisition, normalization, storage, and visualization lessons belong mainly to technology; it also shows that version-bound tools and apparently polished dashboards retain historical and analytical assumptions. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.
 
 ## Cross-source Findings
+
+### Flowvisor Is Networking History Spillover
+
+[[FlowVisor]], [[OpenFlow]], [[NetworkSlicing]], and [[ProductionNetworkExperimentation]] add a source-scoped 2010 programmable-networking history snapshot in which a transparent proxy partitioned production hardware among controllers; its substantive isolation and resilience findings belong to technology rather than geopolitics.
+
+**Evidence:** [[FlowVisor]], [[OpenFlow]], [[NetworkSlicing]], [[ProductionNetworkExperimentation]]
+
+**Qualifications:**
+
+- The paragraph is a 2010 networking-research snapshot routed here because it is historical; it adds no substantive geopolitical claim.
+- The prototype's selected deployments and measurements do not establish current OpenFlow, network-slicing, or production-experimentation practice.
 
 ### Stack Overflow Deployment Is Operations History Spillover
 
@@ -298,3 +309,14 @@ The [[LargeScaleWebScraping]] paragraph is a historical web-operations spillover
 
 - The source adds no geopolitical claim and enters this topic because its 2015 tutorial is a historical technology snapshot.
 - Its tiny curated dataset, historical APIs, incomplete evaluation, and partial runtime accounting make the numerical comparison source-scoped.
+
+### Diffusion Sampler Guide Is Technology History Spillover
+
+[[DiffusionModelSampling]], [[StableDiffusion]], and [[AUTOMATIC1111]] add a source-scoped 2023 technology-history snapshot of sampler names, schedules, solver families, and evaluation practice rather than a substantive geopolitical finding.
+
+**Evidence:** [[DiffusionModelSampling]], [[StableDiffusion]], [[AUTOMATIC1111]]
+
+**Qualifications:**
+
+- The paragraph enters this topic only because its historical and version-sensitive language crossed the deterministic routing boundary; its substantive findings belong to AI and technology.
+- The sampler inventory, implementations, and benchmark are time-sensitive and insufficiently specified for universal rankings.

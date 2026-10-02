@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "ubers-virtuous-cycle-geographic-density-hyperlocal-marketplaces-and-why-drivers-are-key-at-andrewchen",
+  "images": [
+    {
+      "file": "uber-marketplace-flywheel.jpg",
+      "alt": "Hand-drawn Uber marketplace flywheel linking demand, drivers, geographic coverage, faster pickups, lower downtime, and lower prices"
+    },
+    {
+      "file": "driver-app-surge-map.png",
+      "alt": "Uber driver app showing differently shaded surge-pricing hexagons across central San Francisco"
+    },
+    {
+      "file": "driver-earnings-by-city.jpeg",
+      "alt": "Directional Uber driver earnings bars rising from 2013 to 2015 in Boston, Washington DC, and Los Angeles without numeric values"
+    }
+  ]
+}

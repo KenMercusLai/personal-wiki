@@ -2,7 +2,7 @@
 title: "Numbers Don’t Matter, Influence Does"
 type: source
 tags: [marketing, social-media, influence, engagement]
-date: 2016-05-13
+date: 2016-04-16
 source_file: "/mnt/ken_personal_wiki/Articles/Numbers Don’t Matter, Influence Does - Gary Vaynerchuk - Medium.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Compensation at Startups"
 type: source
 tags: [startup, compensation, equity, hiring, HR]
-date: 2019-04-02
+date: 2016-08-02
 source_file: "/mnt/ken_personal_wiki/Articles/Quip.md"
 ---
 

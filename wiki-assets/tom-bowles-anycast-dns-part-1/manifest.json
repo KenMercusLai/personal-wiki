@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "tom-bowles-anycast-dns-part-1",
+  "images": [
+    {
+      "file": "anycast-dns-routing-topology.webp",
+      "alt": "Two clients route to nearby DNS servers that all advertise the same 10.10.10.10 anycast address"
+    }
+  ]
+}

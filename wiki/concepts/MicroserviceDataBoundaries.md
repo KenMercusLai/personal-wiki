@@ -5,7 +5,8 @@ tags: [microservices, data, software-architecture, domain-driven-design]
 sources:
   - christian-posta-the-hardest-part-about-microservices-your-data
   - real-world-engineering-challenges-8-breaking-up-a-monolith
-last_updated: 2026-10-01
+  - sean-kelly-microservices-please-dont
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,12 +20,14 @@ The inspected diagrams make the progression concrete. One diagram separates Admi
 
 Khan Academy supplies a production ownership rule during gradual decomposition: exactly one service could write each piece of data, and every other service had to call that owner. This did not eliminate cross-service workflows or shared infrastructure, but it made responsibility for state change traceable while fields moved incrementally out of the monolith.
 
+Kelly adds a readiness gate before those boundaries become remote. A team should understand its domain dependencies and trace each request's reads, writes, ordering constraints, failure points, and recovery paths before turning a local workflow into a distributed transaction. Internal modules can expose uncertain boundaries for learning without immediately committing the system to remote coordination.
+
 ## Key Claims
 - Microservice boundaries should follow explicit domain models rather than physical database convenience.
 - Data splitting removes single-database conveniences, so teams must deliberately replace ACID assumptions with boundary-aware consistency design.
 - Terms such as Customer, Account, Booking, or Book can have different valid meanings in different contexts.
 - Transactional boundaries should be smaller than broad object graphs when business invariants do not require one atomic update.
-- Integration across boundaries should be designed as distributed consistency work, not hidden behind synchronous RPC abstractions.
+- Cross-boundary workflows require explicit call ordering, partial-failure, compensation, and recovery design.
 - One-database-per-service is a heuristic, not an absolute rule.
 - Single-writer ownership can clarify change provenance during incremental service extraction even when reads and workflows still cross boundaries.
 
@@ -36,13 +39,15 @@ Khan Academy supplies a production ownership rule during gradual decomposition: 
 - Boundary tradeoff: [[christian-posta-the-hardest-part-about-microservices-your-data]] says shared databases can be acceptable when the same team owns the processes and autonomy is not undermined.
 - Production ownership rule: [[real-world-engineering-challenges-8-breaking-up-a-monolith]] says Khan Academy allowed only one service to write a given piece of data and required other services to call its API.
 - Residual coupling: [[real-world-engineering-challenges-8-breaking-up-a-monolith]] reports that shared Redis use, cache expiry, and cross-service data flows still required system-level management.
+- Readiness gate: [[sean-kelly-microservices-please-dont]] says teams should understand domain boundaries and request workflows before distributing them.
+- Recovery obligation: [[sean-kelly-microservices-please-dont]] identifies ordering, parallelism, application errors, network errors, and partial writes as transaction-specific design problems.
 
 ## Counterevidence & Qualifications
-The sources do not claim every system should become microservices or event-sourced. Posta explicitly warns against copying Netflix-style visible outcomes without the process and says enterprises must balance domain complexity, scale, and organizational change. His diagrams are conceptual rather than a production reference architecture. Khan Academy's rule comes from one large migration and does not specify database topology, transaction protocol, availability behavior, or how ownership disputes were resolved; one logical writer can still depend on shared physical infrastructure.
+The sources do not claim every system should become microservices or event-sourced. Posta explicitly warns against copying Netflix-style visible outcomes without the process and says enterprises must balance domain complexity, scale, and organizational change. His diagrams are conceptual rather than a production reference architecture. Khan Academy's rule comes from one large migration and does not specify database topology, transaction protocol, availability behavior, or how ownership disputes were resolved; one logical writer can still depend on shared physical infrastructure. Kelly's discussion names distributed-transaction questions but supplies no protocol, measured implementation, or proof that internal modules will reveal every eventual network boundary.
 
 ## What Changed
-- Created the concept from Posta's article on domain, transaction, and data boundaries in microservices.
-- Added Khan Academy's one-writer rule as a production migration mechanism while preserving shared-resource and workflow coupling.
+- Added domain and request-path comprehension as a gate before local boundaries become distributed transactions.
+- Made partial failure, call ordering, compensation, and recovery explicit parts of boundary design.
 
 ## Related Concepts
 - [[BoundedContext]] - domain boundaries are the article's starting point for data ownership.

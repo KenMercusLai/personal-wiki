@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "the-quest-for-one-million-iops-benchmarking-storage-at-lancedb",
+  "images": [
+    {
+      "file": "search-random-access-workflow.webp",
+      "alt": "Search workflow in which an index returns row identifiers for random-access table fetches"
+    },
+    {
+      "file": "metadata-loading-timeline.webp",
+      "alt": "Timeline showing index loading dominating a cold search while file metadata and row reads are smaller steps"
+    },
+    {
+      "file": "cpu-flame-graph.webp",
+      "alt": "Annotated flame graph separating vector-index search, pread64, reordering, decoding, and runtime overhead"
+    },
+    {
+      "file": "three-stage-io-pipeline.webp",
+      "alt": "Three-stage benchmark pipeline from per-core search and scheduling through disk-parallel reads to per-core decoding"
+    },
+    {
+      "file": "pipeline-queue-bottleneck.webp",
+      "alt": "Queue-size chart with the I/O input queue saturated while the decoder queue remains nearly empty"
+    },
+    {
+      "file": "pread64-scheduler-sequence.webp",
+      "alt": "Sequence diagram showing request queues, task spawning, pread64, and decode notification across the original scheduler"
+    },
+    {
+      "file": "duplicate-row-page-cache.webp",
+      "alt": "Two random queries returning the same row and causing the second fetch to hit the kernel page cache"
+    },
+    {
+      "file": "compute-storage-separation.webp",
+      "alt": "Architecture separating CPU-and-RAM-heavy compute servers from NVMe-heavy storage servers"
+    }
+  ]
+}

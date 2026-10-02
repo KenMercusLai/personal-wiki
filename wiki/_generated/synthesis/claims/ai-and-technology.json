@@ -2,6 +2,40 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "network-slicing-enables-bounded-production-experimentation",
+      "qualifications": [
+        "The evidence is one 2010 prototype paper and selected campus deployments, not a general proof that arbitrary experiments, controllers, hardware, traffic, or adversaries can safely share production networks.",
+        "FlowVisor added control-path latency, used linear flowspace matching, achieved imperfect bandwidth allocation, and left switch CPU and legacy-device interactions as important shared hazards."
+      ],
+      "statement": "[[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "NetworkSlicing",
+        "FlowVisor",
+        "OpenFlow",
+        "ProductionNetworkExperimentation",
+        "NetworkResilienceTradeoffs"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "personal-infrastructure-integrates-workflow-archive-and-feedback",
+      "qualifications": [
+        "The evidence is one unusually resourced founder's self-report and does not compare productivity, maintenance cost, transferability, privacy, security, consent, or retention outcomes.",
+        "Automatic measurement and visible association do not establish that a tracked behavior caused a health or work outcome, and comprehensive personal records concentrate sensitive data."
+      ],
+      "statement": "[[PersonalInfrastructure]] integrates stable physical and digital defaults, custom workflow tools, [[DigitalArchiveOrganization]], [[PersonalDataInfrastructure]], and [[PersonalAnalytics]] so recurring work is easier to perform and accumulated records become searchable feedback; the case supports a systems-design pattern rather than a universal productivity prescription.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "StephenWolfram",
+        "PersonalInfrastructure",
+        "DigitalArchiveOrganization",
+        "PersonalDataInfrastructure",
+        "PersonalAnalytics"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "user-centered-api-design-bounds-software-complexity",
       "qualifications": [
         "The evidence is one 2018 personal practitioner checklist without comparative API usability, maintenance, delivery, career, or organizational outcomes.",
@@ -279,9 +313,10 @@
         "The evidence is one practitioner's retrospective for complex systems rather than comparative outcome data; simpler systems may need less structure, centralized control capabilities can become bottlenecks, and the source's blanket Java recommendation is not sufficiently conditioned on workload, team, runtime, migration, or deployment constraints.",
         "A reader comment disputes one Sleuth and Zipkin implementation description, so that detail remains unresolved within the supplied source.",
         "[[PhilipYurchuk]] supplies an anecdotal 2017 procurement argument rather than measured outcome evidence; repairers and integrators can also over-weight visible failures, familiar products, repairability, or billable complexity.",
-        "Partner certification, vendor-generated leads, kickbacks, and concentrated revenue can compromise supposedly independent implementation advice, so downstream accounts need incentive checks and triangulation."
+        "Partner certification, vendor-generated leads, kickbacks, and concentrated revenue can compromise supposedly independent implementation advice, so downstream accounts need incentive checks and triangulation.",
+        "[[JustinEtheredge]] supplies one polemical 2016 framework essay rather than comparative delivery or maintenance evidence; mature ecosystems can become lock-in, and changing a tool can itself change outcomes."
       ],
-      "statement": "[[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[PragmaticSystemDesign]] adds a state-centered adoption gate: [[SeanGoedecke]] argues that a simple working system should earn caches, events, distribution, and custom mechanisms through real workload constraints, while [[SystemReliability]] requires hot-path observability and explicit overload, retry, idempotency, and degradation semantics. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities.",
+      "statement": "[[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[PragmaticSystemDesign]] adds a state-centered adoption gate: [[SeanGoedecke]] argues that a simple working system should earn caches, events, distribution, and custom mechanisms through real workload constraints, while [[SystemReliability]] requires hot-path observability and explicit overload, retry, idempotency, and degradation semantics. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities. [[JustinEtheredge]]'s [[RubyOnRails|Rails]] case adds [[ToolFamiliarity]], libraries, community knowledge, deployment, troubleshooting, longevity, and willingness to build missing capabilities to the fit test: maturity is not obsolescence, but neither familiarity nor fashion substitutes for a concrete problem and measured outcomes.",
       "status": "qualified",
       "supporting_wikilinks": [
         "SystemArchitecturePrinciples",
@@ -292,7 +327,10 @@
         "SeanGoedecke",
         "SystemReliability",
         "FailureInformedVendorSelection",
-        "PhilipYurchuk"
+        "PhilipYurchuk",
+        "JustinEtheredge",
+        "RubyOnRails",
+        "ToolFamiliarity"
       ]
     },
     {
@@ -439,9 +477,10 @@
         "The mechanism source adds a structural version of the same caution: a feed-forward next-token model produces text that sounds right rather than text that has been computed, so verification and tool use remain the boundary.",
         "The semantic-ablation source usefully names fidelity loss during AI revision, but its attribution to greedy decoding and human-feedback tuning is an untested opinion thesis, and vocabulary diversity alone cannot distinguish lost meaning from legitimate clarification.",
         "Parmaksız's mixed-workflow account is a time-sensitive practitioner judgment rather than comparative evidence; its AI-code licensing and FOSS-ethics questions are explicitly unresolved.",
-        "Hutusi's ChatGPT case demonstrates staged task-to-code assistance on one small frontend feature, but the user still decomposed requirements, supplied local context, corrected copied omissions, debugged, and accepted the result; it does not establish the claimed silver-bullet-scale lifecycle gain."
+        "Hutusi's ChatGPT case demonstrates staged task-to-code assistance on one small frontend feature, but the user still decomposed requirements, supplied local context, corrected copied omissions, debugged, and accepted the result; it does not establish the claimed silver-bullet-scale lifecycle gain.",
+        "Farnam Street's writing essay is a short practitioner argument without comparative learning, problem-solving, prose-quality, or signal-to-noise evidence; it does not test bounded AI research, critique, transcription, or revision support that preserves human reasoning."
       ],
-      "statement": "Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; Hutusi's [[ChatGPT]] example shows real requirement-to-code, explanation, translation, and debugging leverage while its own human decomposition and acceptance steps qualify the source's silver-bullet forecast, [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, [[OrhunParmaksiz]] adds that a sustainable mixed workflow may preserve enjoyable manual craft and a final human quality pass rather than turn all implementation into [[CodeReviewPractice]], and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.",
+      "statement": "Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; Hutusi's [[ChatGPT]] example shows real requirement-to-code, explanation, translation, and debugging leverage while its own human decomposition and acceptance steps qualify the source's silver-bullet forecast, [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, and [[ContextCoding]] names the disciplined context-engineering version. [[AIDependencySkillAtrophy]] and [[LearningByWriting]] add that finished-text delegation can bypass gap discovery, insight-preserving compression, reader modeling, and the practice needed for deep fluency, while cheap generic prose may worsen information signal-to-noise; [[OrhunParmaksiz]] preserves enjoyable manual craft and a final human quality pass, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.",
       "status": "qualified",
       "supporting_wikilinks": [
         "PracticalLLMUse",
@@ -449,6 +488,8 @@
         "AIAssistedWriting",
         "ChatGPT",
         "AIDependencySkillAtrophy",
+        "LearningByWriting",
+        "FarnamStreet",
         "HumanCodeResponsibility",
         "SimonSpati",
         "NicholasCarlini",
@@ -1509,15 +1550,16 @@
       "global_candidate": false,
       "id": "test-selection-optimizes-confidence-not-volume",
       "qualifications": [
-        "The evidence is a saved Beck quotation plus heterogeneous practitioner comments, not a controlled comparison of test strategies, defect rates, suite costs, or maintenance outcomes.",
+        "The evidence is a saved Beck quotation, heterogeneous practitioner comments, and one 2016 Lebrero essay with two selected examples, not a controlled comparison of test strategies, defect rates, suite costs, or maintenance outcomes.",
         "Personal and team error history can miss novel, interaction, security, concurrency, accessibility, data-integrity, and rare catastrophic failures; confidence can also be miscalibrated.",
-        "Claims that smoke tests, integration tests, or static types can replace many unit tests remain language-, architecture-, risk-, and implementation-dependent."
+        "Claims that smoke tests, integration tests, static types, or no isolated test can preserve confidence remain language-, architecture-, risk-, and implementation-dependent; simple-looking code can hide consequential contracts."
       ],
-      "statement": "[[ConfidenceBasedTesting]] treats test selection as an allocation problem: [[KentBeck]] proposes writing the least testing needed for a chosen confidence level and targeting recurring individual or team errors, while [[SoftwareVerification]], [[InternalSoftwareQuality]], and [[TestPyramid]] preserve regression, maintainability, failure-consequence, feedback-speed, and diagnostic-cost constraints that test counts or coverage targets cannot settle.",
+      "statement": "[[ConfidenceBasedTesting]] treats test selection as an allocation problem: [[KentBeck]] proposes writing the least testing needed for a chosen confidence level and targeting recurring individual or team errors, while [[DanLebrero]] shows how test-every-class, coverage, Mockito, or Cucumber mandates can surround trivial behavior with low-information scaffolding. [[SoftwareVerification]], [[InternalSoftwareQuality]], and [[TestPyramid]] preserve regression, hidden-contract, failure-consequence, feedback-speed, and diagnostic-cost constraints; one 100%-coverage project can calibrate judgment as a bounded experiment without making the threshold permanent policy.",
       "status": "qualified",
       "supporting_wikilinks": [
         "ConfidenceBasedTesting",
         "KentBeck",
+        "DanLebrero",
         "SoftwareVerification",
         "InternalSoftwareQuality",
         "TestPyramid"
@@ -1669,8 +1711,76 @@
         "RussWhite",
         "DataCenterNetworkFabric"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "software-2-0-recasts-data-and-training-as-programming",
+      "qualifications": [
+        "The evidence is one 2017 practitioner essay built from selected successes rather than a comparative adoption, reliability, or total-system cost study.",
+        "Dynamic compute, retrieval, autoregressive generation, preprocessing, serving, hardware effects, incomplete objectives, distribution shift, bias, opacity, and adversarial inputs limit claims of homogeneous cost or straightforward quality-speed scaling."
+      ],
+      "statement": "[[Software20]] treats a [[NeuralNetwork]] as learned program implementation: behavioural data or another evaluation criterion specifies the target, architecture bounds the search space, and [[NeuralNetworkTraining]] produces executable weights; the model makes data curation and evaluation core engineering work without removing conventional software, verification, monitoring, or governance.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "Software20",
+        "NeuralNetwork",
+        "NeuralNetworkTraining",
+        "AndrejKarpathy"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "diffusion-sampling-separates-inference-tradeoffs",
+      "qualifications": [
+        "The evidence is one practitioner guide and one incompletely specified image benchmark rather than a reproducible multi-model or human-preference evaluation.",
+        "A 40-step output is a poor fixed convergence reference for deliberately stochastic methods, and BRISQUE does not establish prompt adherence, aesthetics, semantic correctness, or human preference.",
+        "The sampler inventory and implementations are version-sensitive, while PCA projections discard most latent-space geometry."
+      ],
+      "statement": "[[DiffusionModelSampling]] separates the numerical update rule, stochastic noise injection, noise schedule, step count, and model compatibility behind [[StableDiffusion]] generation; the historical [[AUTOMATIC1111]] comparison shows that convergence, runtime, variation, and perceptual score are distinct selection criteria rather than one universal sampler ranking.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DiffusionModelSampling",
+        "StableDiffusion",
+        "AUTOMATIC1111"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "structured-extraction-bounds-model-role-not-data-validity",
+      "qualifications": [
+        "The two employment cases use specialized or narrow platform samples and report no labeled precision, recall, taxonomy-consistency evaluation, or scraping-coverage audit.",
+        "Parseable output, average keyword counts, deterministic SQL, and polished dashboards do not establish semantic accuracy, representativeness, uncertainty, or causal labor-market conclusions.",
+        "Title filtering, category design, missing-value policy, normalization, model version, and imputation remain analytical choices whose sensitivity was not tested."
+      ],
+      "statement": "[[LLMStructuredExtraction]] can bound a model to converting job-post prose into typed records or skill lists while ordinary software cleans, stores, and aggregates the result; the [[TamerC]] and [[TrucPhan]] cases strengthen [[LLMDataAnalysis]] as an inspectable pipeline but show that deterministic downstream processing cannot validate source coverage or model-derived data.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "LLMStructuredExtraction",
+        "LLMDataAnalysis",
+        "TamerC",
+        "TrucPhan",
+        "Gemini"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "full-cycle-ownership-needs-platform-and-workload-controls",
+      "qualifications": [
+        "The evidence is one first-party 2018 Netflix retrospective without defined deployment, detection, recovery, incident, staffing, retention, or burnout measurements and cannot isolate ownership from simultaneous platform, architecture, culture, and training investment.",
+        "Broader ownership can reduce specialist depth or intensify toil; regulated, safety-critical, separation-of-duties, and deeply specialized work may require independent roles or review.",
+        "Organizations without Netflix-scale staffing and platform capacity should adopt only the ownership breadth and infrastructure complexity their needs and resources can sustain."
+      ],
+      "statement": "[[FullCycleDevelopment]] joins [[ProductionOwnership]], [[DevOpsCulture]], and [[InternalDeveloperPlatform]] into one work-and-technology system: domain teams own design through support while central specialists package common operational expertise, but shorter feedback depends on training, staffing headroom, operational prioritization, on-call isolation, and room for specialist or local alternatives.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "FullCycleDevelopment",
+        "ProductionOwnership",
+        "DevOpsCulture",
+        "InternalDeveloperPlatform",
+        "GregBurrell"
+      ]
     }
   ],
-  "summary": "[[PragmaticSystemDesign]] adds a qualified state-centered architecture rule: [[SeanGoedecke]] argues that a simple working service system should earn stateful components, caches, events, asynchronous boundaries, replicas, and custom machinery through concrete workload needs, while [[SystemReliability]] requires hot-path logs and tail metrics plus bounded retries, circuit breakers, idempotency, and explicit fail-open or fail-closed behavior; the evidence remains a first-person SQL/application essay without comparative outcomes. [[RainforestQA]] adds a qualified platform-migration case: managed [[GoogleKubernetesEngine]] fit heterogeneous web and batch workloads, but safe adoption depended on conservative scope, a temporary rollback stage, resource-and-probe testing, and a rehearsed database cutover. [[PostgreSQLReadScaling]] and [[DatabaseOverloadProtection]] add a read-heavy infrastructure boundary: replicas, locality, pooling, caching, failover, query control, workload isolation, and rate limits can extend one PostgreSQL writer, while MVCC write amplification, WAL fan-out, partial failure, and first-party evidence keep the result workload-specific. [[NickCraver]] adds a qualified high-frequency-delivery boundary: [[StackOverflow]] joined [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], and [[HAProxy]] into a reported sub-nine-minute path, but the first-party 2016 topology and timings do not establish comparative safety or current practice. [[MarioZechner]] adds a qualified browser-tool boundary: task-specific [[Puppeteer]] commands and an explicitly loaded README can reduce always-on schema cost and improve shell/file composition, but one custom workflow does not establish superiority over focused [[ModelContextProtocol]] integrations on reliability, safety, portability, or maintenance. [[FileTimestampFiltering]] adds a small but representative automation boundary: reference-file and direct-date predicates are composable, but timestamp type, parser support, timezone, locale, and comparison inclusivity must be explicit before a convenient shell expression becomes a reliable script. [[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden. [[TechnicalDebt]] adds a stage-sensitive architecture and delivery boundary: prudent shortcuts can fund early [[ProductMarketFit]] learning, but core-path debt becomes a nonlinear [[StartupScaling]] constraint when lead time, user outcomes, engineering experience, onboarding, cost, performance, or availability deteriorate; premature automation or distributed design can impose the opposite mismatch, and the proposed quality-bar, ownership, collaboration, and governance response remains practitioner guidance without validated thresholds. [[SQLFirstBusinessAutomation]] adds a qualified adoption gate: deterministic queries are a transparent baseline for legible business rules, while orchestration, governance, and outcome measurement remain separate requirements and ML needs demonstrated incremental value. [[TextClassification]] adds a bounded applied-ML pipeline: lexical features can help prioritize company descriptions, but upstream entity resolution, representative labels, class prevalence, error costs, drift, and human review determine whether test accuracy becomes useful operational evidence. [[CTOOperatingModel]] adds an executive-system boundary: technical capability creates value only when leadership conduct, stakeholder alignment, portfolio judgment, measurement, learning, and explicit delegation reinforce it rather than turning the CTO into a bottleneck. [[ProgressiveProductBuilding]] adds a source-scoped AI-enabled execution rule: preserve a bounded idea, branch later expansion, and use [[VibeCoding]] to shorten implementation only where risk and uncertainty permit; the one-day target is an unmeasured personal heuristic. [[NetworkResilienceTradeoffs]] adds that network resilience is a cross-layer optimization problem: [[RussWhite]] contrasts a minimal single failure point with a parallel [[DataCenterNetworkFabric]] whose throughput and local redundancy coexist with greater control-plane state and grey-failure exposure; the conceptual case supports explicit workload and recovery metrics rather than a universal rule that fewer components or more paths are safer.",
+  "summary": "[[FullCycleDevelopment]] adds a qualified ownership-and-enablement boundary: [[ProductionOwnership]] can close operational feedback when domain teams own design through support and [[InternalDeveloperPlatform]] teams package common expertise, but training, staffing headroom, operational prioritization, bounded on-call work, specialist alternatives, and local complexity limits determine whether breadth improves delivery or produces burnout. [[LLMStructuredExtraction]] adds a qualified model-in-the-loop data pattern: employment-posting cases from [[TamerC]] and [[TrucPhan]] separate probabilistic extraction from deterministic cleaning and aggregation, while missing labeled accuracy, coverage, taxonomy, imputation, and representativeness checks prevent parseable records and dashboards from becoming validated market evidence. [[DiffusionModelSampling]] adds a qualified image-generation inference model in which solver, stochasticity, noise schedule, step count, and model compatibility create separate convergence, variation, runtime, and perceptual-quality trade-offs. [[Software20]] adds a qualified programming-paradigm lens: behavioural evidence and architecture become source, [[NeuralNetworkTraining]] becomes optimization-based compilation, and [[NeuralNetwork]] weights become the learned implementation, while objective quality, opacity, bias, adversarial failure, dynamic systems, and surrounding engineering bound the analogy. [[NetworkSlicing]] adds a qualified production-infrastructure pattern: [[FlowVisor]] mediates [[OpenFlow]] control so experimental and production controllers can share line-rate hardware, while measured latency, imperfect resource isolation, switch-CPU pressure, and common proxy and hardware dependencies keep [[ProductionNetworkExperimentation]] conditional. [[PersonalInfrastructure]] adds a qualified personal-systems pattern: [[StephenWolfram]] joins stable work defaults, custom authoring, [[DigitalArchiveOrganization]], [[PersonalDataInfrastructure]], and [[PersonalAnalytics]] into searchable, reusable feedback, while the self-reported case supplies no comparative productivity, maintenance, transferability, privacy, or causal health evidence. [[PragmaticSystemDesign]] adds a qualified state-centered architecture rule: [[SeanGoedecke]] argues that a simple working service system should earn stateful components, caches, events, asynchronous boundaries, replicas, and custom machinery through concrete workload needs, while [[SystemReliability]] requires hot-path logs and tail metrics plus bounded retries, circuit breakers, idempotency, and explicit fail-open or fail-closed behavior; the evidence remains a first-person SQL/application essay without comparative outcomes. [[RainforestQA]] adds a qualified platform-migration case: managed [[GoogleKubernetesEngine]] fit heterogeneous web and batch workloads, but safe adoption depended on conservative scope, a temporary rollback stage, resource-and-probe testing, and a rehearsed database cutover. [[PostgreSQLReadScaling]] and [[DatabaseOverloadProtection]] add a read-heavy infrastructure boundary: replicas, locality, pooling, caching, failover, query control, workload isolation, and rate limits can extend one PostgreSQL writer, while MVCC write amplification, WAL fan-out, partial failure, and first-party evidence keep the result workload-specific. [[NickCraver]] adds a qualified high-frequency-delivery boundary: [[StackOverflow]] joined [[DeploymentPipeline]], [[TrunkBasedDevelopment]], [[ForwardOnlyDatabaseMigration]], [[RollingDeployment]], and [[HAProxy]] into a reported sub-nine-minute path, but the first-party 2016 topology and timings do not establish comparative safety or current practice. [[MarioZechner]] adds a qualified browser-tool boundary: task-specific [[Puppeteer]] commands and an explicitly loaded README can reduce always-on schema cost and improve shell/file composition, but one custom workflow does not establish superiority over focused [[ModelContextProtocol]] integrations on reliability, safety, portability, or maintenance. [[FileTimestampFiltering]] adds a small but representative automation boundary: reference-file and direct-date predicates are composable, but timestamp type, parser support, timezone, locale, and comparison inclusivity must be explicit before a convenient shell expression becomes a reliable script. [[ConfidenceBasedTesting]] adds a qualified test-selection boundary: confidence should be tied to plausible failure risk, feedback value, regression and maintenance needs, and lifecycle cost rather than raw test counts or coverage targets; [[TestPyramid]] remains a competing portfolio heuristic rather than a universal layer ratio. [[AssistiveTechnologyDualUse]] adds a privacy-and-accessibility boundary: [[LiveListen]] shows that the same remote-audio path can support hearing access or covert listening, while one short article establishes possibility rather than outcomes or prevalence. AI and technology outcomes depend on matching architecture, automation, interfaces, data, and operational controls to concrete workloads and human institutions. [[ServiceAutonomy]] sharpens that synthesis: microservice boundaries follow independent ownership, operation, information control, contract evolution, and failure handling rather than containers, languages, protocols, repositories, or deployment count; [[MicroservicePlatformEngineering]] enables but cannot substitute for that boundary, while [[ModularMonolith]] remains valid when one cohesive runtime better fits the domain and delivery system. Across databases, APIs, distributed systems, cloud infrastructure, developer tooling, AI models and agents, physical automation, and product interfaces, the corpus repeatedly favors explicit boundaries, verification, observability, contextual adoption gates, and accountable human judgment over labels or universal stack prescriptions. Most evidence remains practitioner, vendor, retrospective, or source-scoped, so claimed gains in speed, reliability, autonomy, safety, learning, and cost require workload-specific validation and explicit treatment of privacy, labor, accessibility, governance, recovery, and lifecycle burden. [[TechnicalDebt]] adds a stage-sensitive architecture and delivery boundary: prudent shortcuts can fund early [[ProductMarketFit]] learning, but core-path debt becomes a nonlinear [[StartupScaling]] constraint when lead time, user outcomes, engineering experience, onboarding, cost, performance, or availability deteriorate; premature automation or distributed design can impose the opposite mismatch, and the proposed quality-bar, ownership, collaboration, and governance response remains practitioner guidance without validated thresholds. [[SQLFirstBusinessAutomation]] adds a qualified adoption gate: deterministic queries are a transparent baseline for legible business rules, while orchestration, governance, and outcome measurement remain separate requirements and ML needs demonstrated incremental value. [[TextClassification]] adds a bounded applied-ML pipeline: lexical features can help prioritize company descriptions, but upstream entity resolution, representative labels, class prevalence, error costs, drift, and human review determine whether test accuracy becomes useful operational evidence. [[CTOOperatingModel]] adds an executive-system boundary: technical capability creates value only when leadership conduct, stakeholder alignment, portfolio judgment, measurement, learning, and explicit delegation reinforce it rather than turning the CTO into a bottleneck. [[ProgressiveProductBuilding]] adds a source-scoped AI-enabled execution rule: preserve a bounded idea, branch later expansion, and use [[VibeCoding]] to shorten implementation only where risk and uncertainty permit; the one-day target is an unmeasured personal heuristic. [[NetworkResilienceTradeoffs]] adds that network resilience is a cross-layer optimization problem: [[RussWhite]] contrasts a minimal single failure point with a parallel [[DataCenterNetworkFabric]] whose throughput and local redundancy coexist with greater control-plane state and grey-failure exposure; the conceptual case supports explicit workload and recovery metrics rather than a universal rule that fewer components or more paths are safer. [[ContextualTechnologySelection]] now makes framework maturity, [[ToolFamiliarity]], ecosystem support, and operations explicit inputs rather than universal defaults: [[RubyOnRails|Rails]] can fit one team's needs while failing another's safety priorities, and both fashion and incumbency require concrete evidence.",
   "topic_id": "ai-and-technology"
 }

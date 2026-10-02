@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_key": "tony-dinh-my-solopreneur-story-zero-to-45kmo-in-2-years",
+  "images": [
+    {
+      "file": "career-salary-history.jpg",
+      "alt": "Tony Dinh's software salary and product-income timeline from 2014 through 2022"
+    },
+    {
+      "file": "overbuilt-log-viewer-xcode.jpg",
+      "alt": "Xcode project for Tony Dinh's abandoned log-viewer app with an extensive test suite"
+    },
+    {
+      "file": "devutils-interface.png",
+      "alt": "DevUtils desktop interface combining offline developer utilities"
+    },
+    {
+      "file": "devutils-hacker-news-launch.png",
+      "alt": "DevUtils Show HN launch with 241 points and 105 comments"
+    },
+    {
+      "file": "black-magic-first-paying-member.jpg",
+      "alt": "Tony Dinh announcing Black Magic's first paying member and four dollars of MRR"
+    },
+    {
+      "file": "black-magic-mrr-growth.png",
+      "alt": "Black Magic MRR rising after the Magic Sidebar beta and December launch"
+    },
+    {
+      "file": "black-magic-october-2022-mrr.png",
+      "alt": "Black Magic October 2022 MRR overview showing $13,349"
+    },
+    {
+      "file": "xnapper-ios-launch-engagement.png",
+      "alt": "Xnapper iOS testing announcement with 1,718 likes and 71,400 video views"
+    },
+    {
+      "file": "twitter-api-free-access-ending.jpg",
+      "alt": "Twitter Developer announcement ending free API access in February 2023"
+    },
+    {
+      "file": "typing-mind-launch-tweet.png",
+      "alt": "Typing Mind launch tweet presenting a bring-your-own-key ChatGPT interface and its features"
+    }
+  ]
+}

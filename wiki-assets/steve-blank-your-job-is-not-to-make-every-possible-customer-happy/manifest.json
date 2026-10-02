@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "steve-blank-your-job-is-not-to-make-every-possible-customer-happy",
+  "images": [
+    {
+      "file": "business-model-canvas.webp",
+      "alt": "Business model canvas connecting customer segments and value propositions to channels, relationships, resources, partners, costs, and revenue"
+    },
+    {
+      "file": "hypothesis-experiment-insight-loop.webp",
+      "alt": "Customer-development learning loop moving from hypotheses through experiment design and testing to insight"
+    },
+    {
+      "file": "customer-acquisition-activation-funnel.webp",
+      "alt": "Customer funnel showing earned and paid media feeding acquisition, activation, and a viral loop"
+    },
+    {
+      "file": "customer-segments-and-channels.webp",
+      "alt": "Business model canvas example mapping several customer segments to distinct sales channels"
+    },
+    {
+      "file": "revenue-streams-and-costs.webp",
+      "alt": "Business model canvas example separating customer relationships and segments from costs and revenue streams"
+    }
+  ]
+}

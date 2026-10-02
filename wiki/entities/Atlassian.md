@@ -5,7 +5,8 @@ tags: [company, saas, collaboration-software, product-led-growth]
 sources:
   - atlassians-5-5-billion-user-onboarding-magic
   - gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time
-last_updated: 2026-09-28
+  - growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ The onboarding source describes Atlassian at the time of its public-market debut
 
 The 2022 outage account adds the operational cost of that portfolio's importance. A deprecation script using the wrong execution mode and tenant list deleted data for about 400 cloud customers. Backups reportedly remained available, but Atlassian lacked a fast way to restore only the affected tenants without changing unaffected customers. Restoration therefore lasted as long as nine days, while delayed executive ownership, repetitive status updates, and a support path dependent on Jira compounded customer harm. The incident challenged trust in Atlassian's cloud-migration story even where migration costs limited immediate switching.
 
+A separate 2016 practitioner compilation uses Atlassian only as [[ShaunClowes]]'s company affiliation while attributing to him interview questions about software curiosity, early adoption, individual contribution, and causal depth. It adds a narrow hiring-practice association, not evidence of an Atlassian-wide process.
+
 ## Key Characteristics
 - Portfolio of focused workplace products with distinct collaboration jobs.
 - Historical reliance on a self-service, low-touch acquisition and activation funnel.
@@ -24,6 +27,7 @@ The 2022 outage account adds the operational cost of that portfolio's importance
 - Onboarding organized around meaningful product action rather than lengthy feature tours.
 - Cloud products can become mission-critical dependencies across project work, documentation, service management, and incident response.
 - Its April 2022 outage exposed weak destructive-change controls, selective-restoration tooling, and customer communication.
+- Appears as the historical company context for Shaun Clowes's growth-interview advice.
 
 ## Evidence
 - Growth model: [[atlassians-5-5-billion-user-onboarding-magic]] reports $320 million in annual revenue, virtually no sales team, and sales-and-marketing spend of 12–21% of revenue.
@@ -34,13 +38,15 @@ The 2022 outage account adds the operational cost of that portfolio's importance
 - Destructive change: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] reports that a deprecation script ran with the wrong mode and tenant identifiers, deleting data for about 400 customers.
 - Granular recovery gap: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says backups could be restored, but not quickly for the affected subset without affecting other tenants.
 - Response and trust: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] describes day-nine executive acknowledgment, low-information updates, customer backup plans, and some Opsgenie migration to PagerDuty.
+- Interview affiliation: [[growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen]] affiliates Shaun Clowes with Atlassian while attributing product-curiosity and causal-probing questions to him.
 
 ## Qualifications
-This profile rests on two historical practitioner accounts rather than a complete corporate history. The onboarding figures are partly repeated from another analyst, and no conversion or retention data establish which flow elements caused Atlassian's growth. The outage article is a second-party account using public material and selected customer interviews, its affected-user estimate spans 50,000 to 800,000, and reported remediation or customer intentions are not independently audited here. Neither source establishes Atlassian's current products, controls, or incident practice.
+This profile rests on historical practitioner accounts rather than a complete corporate history. The onboarding figures are partly repeated from another analyst, and no conversion or retention data establish which flow elements caused Atlassian's growth. The outage article is a second-party account using public material and selected customer interviews, its affected-user estimate spans 50,000 to 800,000, and reported remediation or customer intentions are not independently audited here. The interview source gives one employee affiliation and must not be generalized into a company-wide hiring method. The sources do not establish Atlassian's current products, controls, or practices.
 
 ## What Changed
 - Expanded Atlassian from a growth case into an operational case where destructive-change and selective-restoration gaps undermined cloud trust.
 - Added incident communication and mission-critical product dependency to the profile.
+- Added Shaun Clowes's source-scoped growth-interview association without treating it as Atlassian policy.
 
 ## Relationships
 - [[SelfServiceSaaSGrowth]] - Atlassian is the concept's current company case.
@@ -51,3 +57,5 @@ This profile rests on two historical practitioner accounts rather than a complet
 - [[SystemReliability]] - its 2022 outage demonstrates the difference between retained backups and timely tenant-level recovery.
 - [[ChangeSafety]] - the destructive maintenance script lacked adequate targeting and reversibility controls.
 - [[IncidentCommunication]] - delayed ownership and low-information updates compounded the outage's customer impact.
+- [[ShaunClowes]] - practitioner affiliated with Atlassian in the 2016 interview essay.
+- [[HiringSystemDesign]] - broader context for the interview questions attributed to Clowes.

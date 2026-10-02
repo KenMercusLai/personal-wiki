@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "the-61-392-book-launch-that-let-me-quit-my-job",
+  "images": [
+    {
+      "file": "refactoring-to-collections-product-bundle.png",
+      "alt": "Refactoring to Collections bundle with the book, screencasts, exercises, and Nitpick CI source project"
+    },
+    {
+      "file": "initial-mini-book-pitch.png",
+      "alt": "Chat in which Adam Wathan pitches a 30-40 page collections-refactoring book and friends encourage the idea"
+    },
+    {
+      "file": "launch-day-hourly-revenue.png",
+      "alt": "Hourly launch-day revenue bars from 8 AM through midnight, highest at 3324 dollars in the first displayed hour"
+    },
+    {
+      "file": "three-day-launch-revenue.png",
+      "alt": "Hourly revenue across the three-day launch sale, with bars colored by launch day"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 title: "Head-of-Line Blocking in QUIC and HTTP/3: The Details"
 type: source
 tags: [networking, quic, http3, http2, tcp, web-performance]
-date: 2026-02-09
+date: 2020-12-03
 source_file: "/mnt/ken_personal_wiki/Articles/Robin Marx - Head-of-Line Blocking in QUIC and HTTP 3 The Details.md"
 ---
 

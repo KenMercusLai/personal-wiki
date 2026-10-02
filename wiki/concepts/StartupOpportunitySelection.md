@@ -6,7 +6,8 @@ sources:
   - andrewchen-10-years-in-the-bay-area
   - avoiding-zombie-startups
   - knowing-what-you-are-looking-for-avc
-last_updated: 2026-10-01
+  - investment-pace-avc
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,7 +19,7 @@ knowledge_schema: synthesis-v1
 
 That distinction changes career choice. Founding is not automatically more valuable than joining, and persistence is not automatically superior to switching. Chen frames his move to Uber as choosing a high-potential “rocketship” over continuing with a mediocre opportunity; Pastor frames staying at a [[ZombieStartup]] as a concentrated opportunity cost because employees cannot diversify their working years across a portfolio. Both acknowledge uncertainty, but Pastor supplies operational questions for testing the opportunity before and during employment.
 
-Investor selection adds a prepared-recognition case. While raising [[UnionSquareVentures]]' first fund, [[FredWilson]] and [[BradBurnham]] converted a broad applications-layer thesis into a more specific model for search-style job listings and agreed they would pursue a matching company. A later blog post made [[Indeed]] legible as that match, but selection still required persistent founder courtship. Together the sources suggest that opportunity selection combines a prior model, direct evidence, willingness to act, and continued testing; advance clarity can focus attention, but a rigid thesis can also hide companies that redefine the category.
+Investor selection adds prepared recognition and a capacity constraint. While raising [[UnionSquareVentures]]' first fund, [[FredWilson]] and [[BradBurnham]] converted a broad applications-layer thesis into a more specific model for search-style job listings and agreed they would pursue a matching company. A later blog post made [[Indeed]] legible as that match, but selection still required persistent founder courtship. Wilson's pacing essay explains why the filter must remain selective: a high-touch investor making one to two new deals per year may carry roughly seven to fourteen concurrent companies. Together the sources suggest that opportunity selection combines a prior model, direct evidence, willingness to act, continued testing, and explicit capacity; advance clarity can focus attention, but a rigid thesis can also hide companies that redefine the category.
 
 ## Key Claims
 - Startup formation and external funding are weaker quality signals than outsiders may assume.
@@ -27,7 +28,7 @@ Investor selection adds a prepared-recognition case. While raising [[UnionSquare
 - Joining a strong company can offer a more distinctive experience than founding a weak one.
 - Fundraising, awards, publicity, and survival can sustain startup appearance without demonstrating product, sales, or execution momentum.
 - Employee selection should test backer quality, team incentives, hiring intent, and information access alongside company trajectory.
-- Prepared theses can improve recognition and speed, but missed opportunities remain inevitable and overly rigid filters can create new blind spots.
+- Prepared theses and explicit capacity can improve focus, but missed opportunities remain inevitable and overly rigid filters can create new blind spots.
 
 ## Evidence
 - Base-rate correction: [[andrewchen-10-years-in-the-bay-area]] says starting and funding a company became visibly commonplace after several years in the Bay Area.
@@ -39,14 +40,15 @@ Investor selection adds a prepared-recognition case. While raising [[UnionSquare
 - Recognition uncertainty: [[andrewchen-10-years-in-the-bay-area]] cites Chen dismissing early Facebook and acquaintances passing on Uber's seed round as missed-opportunity examples.
 - Prepared recognition: [[knowing-what-you-are-looking-for-avc]] says Wilson and Burnham specified a desirable job-search model before recognizing Indeed through a John Battelle post.
 - Action after fit: [[knowing-what-you-are-looking-for-avc]] says USV persisted after Indeed's self-funded founders initially showed little need for its capital.
+- Capacity-driven selectivity: [[investment-pace-avc]] says long-duration partner involvement requires rejecting most opportunities and committing only after thesis-driven, collaborative judgment.
 
 ## Counterevidence & Qualifications
-Chen's and Wilson's essays are retrospectives from participants in highly selected ecosystems and use later winners to define what was exceptional. Wilson provides no denominator of thesis-matched failures, no direct return data, and no evidence for the hypothetical value Indeed might have reached as an independent public company. Pastor supplies prospective questions, but his framework is also practitioner advice without validated predictive weights and can mistake deliberate small scale, slow research, or public-interest funding for stagnation. “Rocketship” and “strike zone” judgments can rationalize prestige chasing, expose workers or investors to concentrated risk, undervalue durable smaller companies, or make a thesis filter look more predictive after success. Outcomes depend on role, team, timing, compensation, learning, ethics, personal constraints, diligence, and luck as well as company trajectory.
+Chen's and Wilson's essays are retrospectives from participants in highly selected ecosystems and use later winners to define what was exceptional. Wilson provides no denominator of thesis-matched failures, no direct return data, and no evidence for the hypothetical value Indeed might have reached as an independent public company. His pacing arithmetic shows why choices must be limited but does not prove that a low count improves selection accuracy or returns. Pastor supplies prospective questions, but his framework is also practitioner advice without validated predictive weights and can mistake deliberate small scale, slow research, or public-interest funding for stagnation. “Rocketship” and “strike zone” judgments can rationalize prestige chasing, expose workers or investors to concentrated risk, undervalue durable smaller companies, or make a thesis filter look more predictive after success. Outcomes depend on role, team, timing, compensation, learning, ethics, personal constraints, diligence, and luck as well as company trajectory.
 
 ## What Changed
-- Extended the framework from founder and employee choices to thesis-driven investor selection.
-- Added prior model formation, recognition through external information, and persistent pursuit as distinct stages.
-- Preserved rigid-thesis, hindsight, selection, and missing-denominator risks around the successful Indeed case.
+- Added portfolio capacity and long-duration service obligations as constraints on investor opportunity selection.
+- Connected thesis formation and collaborative rigor to the need to reject most opportunities under a low commitment pace.
+- Preserved the distinction between necessary selectivity and demonstrated selection accuracy.
 
 ## Related Concepts
 - [[CareerPlanning]] - places company quality alongside role fit, constraints, values, and future options.
@@ -57,3 +59,4 @@ Chen's and Wilson's essays are retrospectives from participants in highly select
 - [[StartupJobDiligence]] - provides the evidence-gathering process used before choosing an opportunity.
 - [[ZombieStartup]] - names the mismatch between startup appearance and weak operating momentum.
 - [[VentureCapitalBlindSpots]] - explains how a useful prepared thesis can become an exclusionary filter when treated too rigidly.
+- [[InvestmentPacing]] - determines how many selected opportunities an active investor can support concurrently.

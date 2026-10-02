@@ -2,7 +2,7 @@
 title: "Quip - Why Quip doesn't have platform-specific engineering teams"
 type: source
 tags: [engineering-management, organization-design, cross-platform]
-date: 2026-04-03
+date: 2017-06-28
 source_file: "/mnt/ken_personal_wiki/Articles/Quip - Why Quip doesn't have platform-specific engineering teams.md"
 ---
 

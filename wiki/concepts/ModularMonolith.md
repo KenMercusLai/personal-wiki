@@ -6,7 +6,8 @@ sources:
   - deconstructing-the-monolith-shopify-engineering
   - jimmy-bogard-my-microservices-faq
   - kubernetes-maybe-a-few-bashpython-scripts-is-enough
-last_updated: 2026-10-01
+  - sean-kelly-microservices-please-dont
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ The migration path in the source is incremental in governance even though its in
 
 The Binary Igor essay adds an infrastructure consequence rather than another boundary mechanism. When a cohesive system remains one deployment unit, or only a few services, it may not need dynamic scheduling, automatic horizontal scaling, service discovery across a large fleet, or granular team isolation. The application shape can therefore reduce the justification for Kubernetes, while leaving reliable deployment, rollback, networking, backups, observability, and reproducibility as requirements that another platform or bounded automation must still meet.
 
+Kelly adds an extraction strategy: organize a monolith around internal services that own limited domain responsibilities and make dependencies explicit, then move a boundary onto the network only after a concrete need emerges. This treats modularity as useful design work in its own right while retaining an option—not an obligation—to extract a service after domain and workflow knowledge improve.
+
 ## Key Claims
 - Modularity and domain cohesion are independent from the number of deployment units.
 - A single application or database is not automatically a harmful monolith.
@@ -29,7 +32,7 @@ The Binary Igor essay adds an infrastructure consequence rather than another bou
 - Business-domain organization reduces search and onboarding context compared with purely technical-layer organization.
 - Public interfaces and data ownership are necessary for components to be more than folders.
 - Dynamic and static dependency evidence can turn boundary quality into measurable work.
-- Architecture should evolve when observed coupling costs exceed the current design's simplicity benefits or when smaller boundaries can become genuinely autonomous.
+- Internal service modules can preserve an extraction option without paying distributed-system costs before a concrete need appears.
 
 ## Evidence
 - Cohesion test: [[jimmy-bogard-my-microservices-faq]] says one application and database may be appropriate when its model is cohesive and meets business and operational needs.
@@ -41,13 +44,15 @@ The Binary Igor essay adds an infrastructure consequence rather than another bou
 - Measurement: [[deconstructing-the-monolith-shopify-engineering]] describes [[Wedge]] using CI call graphs, associations, and inheritance data to score isolation.
 - Changeability: [[deconstructing-the-monolith-shopify-engineering]] reports that dependency isolation enabled replacement of a legacy tax engine.
 - Infrastructure consequence: [[kubernetes-maybe-a-few-bashpython-scripts-is-enough]] argues that one or a few deployment units reduce the need for dynamic orchestration and can fit managed containers or a small reproducible VM-and-container platform.
+- Extraction option: [[sean-kelly-microservices-please-dont]] recommends domain-owning internal services first and independent network services only when a demonstrated need arises.
+- Workload scaling: [[sean-kelly-microservices-please-dont]] says one codebase can still run separately tuned API, front-end, and background-job clusters.
 
 ## Counterevidence & Qualifications
-Shopify is one company's 2019 progress report, and the program was incomplete: full isolation, inheritance analysis, score trends, and runtime enforcement were still future work. Bogard's FAQ is a concise practitioner definition without comparative evidence. The infrastructure essay is likewise a practitioner argument without implementation measurements. None proves that a modular monolith always dominates microservices or that one deployment removes operational requirements. Independently operated services can provide autonomy, scaling, placement, and fault-containment benefits when boundaries are understood and the organization can bear their operational cost; a small cohesive application may need no formal modularity yet.
+Shopify is one company's 2019 progress report, and the program was incomplete: full isolation, inheritance analysis, score trends, and runtime enforcement were still future work. Bogard's FAQ, Kelly's article, and the infrastructure essay are practitioner arguments without comparative evidence. None proves that a modular monolith always dominates microservices or that one deployment removes operational requirements. Kelly's internal-service recommendation also depends on discipline: modules without enforced interfaces can remain a coupled monolith. Independently operated services can provide autonomy, scaling, placement, and fault-containment benefits when boundaries are understood and the organization can bear their operational cost; a small cohesive application may need no formal modularity yet.
 
 ## What Changed
-- Connected deployment-unit count to infrastructure demand: fewer units can reduce the case for dynamic orchestration.
-- Preserved deployment reliability, rollback, networking, backups, and observability as requirements even when topology stays simple.
+- Added internal domain services as design work that is valuable before, and may remove the need for, network extraction.
+- Added independently tuned workload clusters as a scaling option that does not require separate service codebases.
 
 ## Related Concepts
 - [[ServiceAutonomy]] - determines whether an internal boundary should also become an independently operated service.

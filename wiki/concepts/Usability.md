@@ -7,7 +7,8 @@ sources:
   - users-always-choose-the-path-of-least-resistance
   - hover-is-dead-long-live-hover
   - its-ugly-but-it-works-on-designing-for-usability
-last_updated: 2026-09-30
+  - ever-wonder-why-the-most-popular-apps-are-starting-to-look-the-same-it-might-be-a-good-thing
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,6 +24,8 @@ Staniscia supplies a hard availability case: a useful inline-commenting feature 
 
 The My Tabata case makes context more physical and attentional. During strenuous exercise, a large tap-anywhere pause target reduces precision demands, short countdown audio substitutes for visual attention, and a timer plus interval markers preserves orientation through the session. These mechanisms strengthen the claim that visual polish and usability are different dimensions, but the case does not make aesthetics irrelevant: it shows one historically well-rated product whose selected interactions fit a narrow task.
 
+Akkawi adds cross-product familiarity as another source of reduced burden. A repeated placement such as the ecommerce cart can transfer learning between products, while visual and interaction convergence can reserve design attention for content and outcomes. This is a hypothesis to test rather than a universal permission to copy: convention can be inaccessible, outdated, manipulative, or poorly matched to a particular task, and surface resemblance does not demonstrate task success.
+
 ## Key Claims
 - Usability has at least five distinct dimensions: learnability, efficiency, memorability, errors and recovery, and satisfaction.
 - Usefulness requires both utility and usability; ease cannot rescue irrelevant functionality, valuable functionality cannot help when people cannot operate it, and visual polish cannot substitute for either.
@@ -30,7 +33,7 @@ The My Tabata case makes context more physical and attentional. During strenuous
 - Early, repeated testing makes structural problems cheaper to correct than testing only after implementation.
 - Product efficiency should be judged against the user's complete outside goal, physical and attentional context, and available alternatives, not time spent engaging with the interface.
 - Essential functionality must remain operable through the input modalities people actually use; layout or device class is not proof that hover exists.
-- Poor usability can cause abandonment, lost conversion, wasted employee time, and competitive displacement.
+- Familiar cross-product conventions can improve learnability and memorability, but their value depends on task, context, implementation, and representative-user evidence.
 
 ## Evidence
 Quality dimensions and usefulness:
@@ -56,18 +59,23 @@ Physical context and multimodal feedback:
 Visual quality boundary:
 - [[its-ugly-but-it-works-on-designing-for-usability]] contrasts dated-looking popular sites and a visually weak timer with the concrete jobs their interfaces support.
 
+Cross-product convention:
+- [[ever-wonder-why-the-most-popular-apps-are-starting-to-look-the-same-it-might-be-a-good-thing]] uses expected ecommerce-cart placement to illustrate how learned interface knowledge can transfer between products.
+- [[ever-wonder-why-the-most-popular-apps-are-starting-to-look-the-same-it-might-be-a-good-thing]] argues that shared patterns can reduce relearning and redirect design effort toward content, testing, and task outcomes.
+
 Organizational stakes:
 - [[usability-101-introduction-to-usability]] and [[users-always-choose-the-path-of-least-resistance]] connect difficult interactions to abandonment or competitive disadvantage.
 - [[hover-is-dead-long-live-hover]] warns that dismissing an apparently isolated capability failure can preserve a broader design defect.
 
 ## Counterevidence & Qualifications
-The five-part model is a practical decomposition, not an exhaustive account of product quality: accessibility, trust, safety, desirability, utility, aesthetics, and context can independently determine whether an experience works. Nielsen's return-on-investment figures and five-user recommendation are broad practice heuristics rather than universal guarantees. The path-of-least-resistance essay's "always" claim is overstated and anecdotal; price, habit, identity, safety, switching cost, and cognitively useful friction can change the choice. The hover essay likewise demonstrates one real failure but does not measure prevalence across devices or cover keyboard access, assistive technology, and every multimodal combination. Its categorical rule is best scoped to essential actions, not optional pointer-only enhancement. The My Tabata source is a selected 2016 case with a curated review snapshot rather than comparative task testing; popularity or ratings cannot isolate usability from utility, familiarity, price, content, network effects, or aesthetics.
+The five-part model is a practical decomposition, not an exhaustive account of product quality: accessibility, trust, safety, desirability, utility, aesthetics, and context can independently determine whether an experience works. Nielsen's return-on-investment figures and five-user recommendation are broad practice heuristics rather than universal guarantees. The path-of-least-resistance essay's "always" claim is overstated and anecdotal; price, habit, identity, safety, switching cost, and cognitively useful friction can change the choice. The hover essay likewise demonstrates one real failure but does not measure prevalence across devices or cover keyboard access, assistive technology, and every multimodal combination. Its categorical rule is best scoped to essential actions, not optional pointer-only enhancement. The My Tabata source is a selected 2016 case with a curated review snapshot rather than comparative task testing; popularity or ratings cannot isolate usability from utility, familiarity, price, content, network effects, or aesthetics. Akkawi's 2018 convergence argument similarly supplies selected interfaces and secondary outcome claims rather than comparative task tests; familiarity can entrench weak conventions, and novelty is not unusable when it solves a new problem and teaches itself well.
 
 ## What Changed
 - Added total goal completion, rather than interface engagement, as the unit for judging efficiency.
 - Added competitive alternatives and insider overattention as reasons teams can misread ease of use.
 - Added input-path availability as a prerequisite for usable functionality on hybrid devices.
 - Added physical and attentional context, multimodal feedback, and the distinction between usability and visual polish.
+- Added transferable interface convention as a qualified source of learnability rather than proof of usability.
 
 ## Related Concepts
 - [[InputModalityIndependence]] - applies usability to preserving essential actions across touch and pointer input.
@@ -78,3 +86,4 @@ The five-part model is a practical decomposition, not an exhaustive account of p
 - [[InformationHierarchy]] - organization and labeling affect whether capabilities can be found and understood.
 - [[CognitiveLoadInUXResearch]] - unnecessary mental demand is one mechanism through which interfaces become harder to use.
 - [[CognitiveOverheadInProductDesign]] - qualifies raw step reduction by showing when visible control improves ease.
+- [[InterfaceDesignConvergence]] - explains how learned patterns can transfer across competing products while constraining novelty.

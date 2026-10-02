@@ -2,7 +2,7 @@
 title: "Sam Altman：十年很短，一日很长"
 type: source
 tags: [life-advice, priorities, career, relationships]
-date: 2026-03-15
+date: 2015-12-02
 source_file: "/mnt/ken_personal_wiki/Articles/Sam Altman：十年很短，一日很长.md"
 ---
 

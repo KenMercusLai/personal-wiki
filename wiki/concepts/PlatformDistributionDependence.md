@@ -11,7 +11,8 @@ sources:
   - googles-new-strategy-and-how-it-affects-aggregators-casey-accidental
   - growth-hacker-is-the-new-vp-marketing-at-andrewchen
   - just-how-big-is-the-podcast-discovery-gap-startup-grind-medium
-last_updated: 2026-10-01
+  - underscores-optimization-arms-races-humane-tech-medium
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,6 +31,8 @@ Winters extends the pattern from ranked feeds to organic search. An aggregator c
 Airbnb's Craigslist case shows the bargain before a documented break. A deep integration could borrow a large, under-automated classifieds audience even though Craigslist exposed no public API for the flow. But scraping forms, regional codes, unique posting-state URLs, contact behavior, and restricted HTML made the acquisition channel dependent on an undocumented interface. The same engineering depth that created leverage also increased maintenance and policy exposure.
 
 Kadavy's podcast case supplies a realized category-removal event. Regular Product Hunt submissions reportedly contributed enough downloads that one skipped submission was followed by a fall, delayed submission by a rebound, and the shutdown of Product Hunt Podcasts by an immediate 20–30% decline. Unlike an API break, the product still functioned; what disappeared was a platform-controlled discovery path. The case strengthens the distinction between continued product availability and continued audience access, while its observational download data remain too limited to establish a precise causal effect.
+
+Dash adds an earlier, smaller form of dependence: product defaults can change before access is actually withdrawn. His CMS team preferred underscores in post URLs, while Google recommended hyphens. Publishers' fear of losing search ranking was enough to force the tool toward Google's convention, even though the essay supplies no measured penalty and Google later accepted both separators. Dependence therefore includes anticipatory conformity to inferred rules, not only documented API breaks, feed suppression, or category removal.
 
 ## Key Claims
 - Borrowed platform distribution can solve the cold-start problem of reaching users before a startup has its own audience.
@@ -59,16 +62,15 @@ Kadavy's podcast case supplies a realized category-removal event. Regular Produc
 - Participation tradeoff: [[googles-new-strategy-and-how-it-affects-aggregators-casey-accidental]] recommends supplying individual listings while warning that competitors can make unilateral refusal unstable.
 - Undocumented-interface leverage: [[growth-hacker-is-the-new-vp-marketing-at-andrewchen]] describes Airbnb gaining distribution by reverse-engineering Craigslist's forms and posting state despite the absence of a public API.
 - Category-removal shock: [[just-how-big-is-the-podcast-discovery-gap-startup-grind-medium]] reports an immediate 20–30% download decline after Product Hunt stopped updating and accepting podcast submissions.
+- Anticipatory conformity: [[underscores-optimization-arms-races-humane-tech-medium]] says CMS users' fear of lower Google ranking pushed Dash's team from its preferred underscore URLs toward hyphens.
+- Rule-reversal limit: [[underscores-optimization-arms-races-humane-tech-medium]] says Google's later acceptance of both separators arrived after industry practice had already shifted.
 
 ## Counterevidence & Qualifications
-The strategy sources are practitioner arguments rather than measured cross-platform outcome studies. They do not prove that any specific independence strategy will work, and the Greylock source's embedded local slide thumbnails are too small to validate the deck's detailed visual evidence. Evans's examples and BuzzFeed distribution chart capture a 2015–2016 platform moment rather than current product or market structure. The Gawker retrospective is historical first-party evidence but does not isolate direct-traffic effects from layoffs, the housing-market downturn, writer-pay changes, or the inclusion of acquired Cityfile posts. The Tribune data cover one publisher and do not prove that Facebook's algorithm caused the reach shift; frequency, format, content quality, news cycles, and competition remain possible contributors. Winters's search argument is a 2018 forecast without cross-category traffic or conversion data; its AMP advice is historical, its Chrome-data claim is unsupported, and the appended discussion argues that specialist result pages may outperform individual listings. The Airbnb-Craigslist account documents neither a platform response nor measurable channel outcomes, so it demonstrates dependency architecture rather than realized platform failure. Kadavy's podcast account documents a platform withdrawal but estimates its effect from one show's downloads without referral data, episode controls, unique listeners, or completed-listening measures. Platform dependence can also be rational for narrow tools, complements, or businesses intentionally built within an ecosystem; the danger is confusing borrowed reach, followers, rankings, downloads, or platform-supplied data with durable demand and bargaining power.
+The strategy sources are practitioner arguments rather than measured cross-platform outcome studies. They do not prove that any specific independence strategy will work, and the Greylock source's embedded local slide thumbnails are too small to validate the deck's detailed visual evidence. Evans's examples and BuzzFeed distribution chart capture a 2015–2016 platform moment rather than current product or market structure. The Gawker retrospective is historical first-party evidence but does not isolate direct-traffic effects from layoffs, the housing-market downturn, writer-pay changes, or the inclusion of acquired Cityfile posts. The Tribune data cover one publisher and do not prove that Facebook's algorithm caused the reach shift; frequency, format, content quality, news cycles, and competition remain possible contributors. Winters's search argument is a 2018 forecast without cross-category traffic or conversion data; its AMP advice is historical, its Chrome-data claim is unsupported, and the appended discussion argues that specialist result pages may outperform individual listings. The Airbnb-Craigslist account documents neither a platform response nor measurable channel outcomes, so it demonstrates dependency architecture rather than realized platform failure. Kadavy's podcast account documents a platform withdrawal but estimates its effect from one show's downloads without referral data, episode controls, unique listeners, or completed-listening measures. Dash's retrospective does not quantify an underscore ranking penalty or prove that Google alone caused the hyphen convention; it documents perceived dependency and behavior more strongly than technical necessity. Platform dependence can also be rational for narrow tools, complements, or businesses intentionally built within an ecosystem; the danger is confusing borrowed reach, followers, rankings, downloads, or platform-supplied data with durable demand and bargaining power.
 
 ## What Changed
-- Added a realized category-removal case in which the product remained available while reported discovery fell 20–30%.
-- Added undocumented-interface dependence: deep reverse-engineered integrations can create both acquisition leverage and maintenance or policy exposure.
-- Extended dependence from audience acquisition to platform control of formats, analytics, ad technology, and monetization.
-- Added Gawker's historical association between declining direct traffic and weaker high-frequency publishing incentives.
-- Added evidence that follower growth can coexist with a collapsing lower tail of platform-mediated reach.
+- Added anticipatory conformity: a platform can reshape product defaults through fear of lost distribution before it withdraws access.
+- Added path dependence between an obsolete or relaxed platform preference and the conventions that remain installed afterward.
 
 ## Related Concepts
 - [[DeveloperPlatformTrust]] - API and policy stability determine whether dependence is investable.
@@ -79,3 +81,4 @@ The strategy sources are practitioner arguments rather than measured cross-platf
 - [[AlgorithmicFeastAndFamine]] - describes the uneven reach distribution produced by ranked-feed dependence.
 - [[SearchPlatformDisintermediation]] - explains how a search referrer can absorb the answer, comparison, or transaction layer.
 - [[PodcastDiscovery]] - supplies a content-category case where removal of a discovery surface reduced reported reach.
+- [[AlgorithmicOptimizationArmsRace]] - describes the recursive adaptation that grows around consequential and opaque distribution rules.

@@ -5,7 +5,8 @@ tags: [saas, product-led-growth, onboarding, go-to-market]
 sources:
   - atlassians-5-5-billion-user-onboarding-magic
   - from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review
-last_updated: 2026-09-28
+  - the-beauty-of-bottoms-up-saas-businesses
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ This does not mean the observed flows were frictionless or that onboarding alone
 
 The [[Slack]] case adds a team and enterprise boundary. Low price and team-level scope let mid-level managers start and expense a product without first converting a whole company or securing CIO approval, but self-service still required social adoption: every teammate could effectively veto use, so Slack built explanatory material for individuals and administrator champions. Account creation was not activation; more than 90% of created teams reportedly never invited anyone or began meaningful use. Self-service team growth therefore depends on a local champion, coworker invitations, a shared core action, and enough retained group behavior to reach value—not only a short signup form. As Slack moved upmarket, security reviews and negotiated terms reintroduced higher-touch enterprise work.
 
+[[TomTunguz]] generalizes that team-level wedge into an experimentation mechanism: when many employees can begin small purchases independently, a vendor may run more parallel sales processes with shorter feedback cycles than in a single executive-led account pursuit. Trial then makes product and engineering responsible for conversion, while customer-success contact can return end-user problems to the roadmap. This is a plausible operating model rather than demonstrated comparative performance; distributed entry does not remove acquisition cost, activation, retention, support, expansion, security, procurement, or governance constraints.
+
 ## Key Claims
 - A clear, bounded product job makes self-service activation easier to express as one meaningful first action.
 - Free entry and short signup can let users evaluate value before payment or sales qualification.
@@ -26,7 +29,7 @@ The [[Slack]] case adds a team and enterprise boundary. Low price and team-level
 - Product suites become harder to onboard without assistance when different users need different starting points and value propositions.
 - Self-service growth still depends on removing momentum-breaking waits, context switches, and repeated authentication.
 - Collaboration products may need early invitation prompts because individual setup alone does not create team value.
-- Team-level pricing and authority can bypass company-wide procurement early, but local champions need material to overcome coworker vetoes and category unfamiliarity.
+- Team-level pricing and employee authority can create many entry points and faster funnel experiments, but local champions need material to overcome coworker vetoes and the paths must produce more than low-quality signups.
 
 ## Evidence
 - Historical growth efficiency: [[atlassians-5-5-billion-user-onboarding-magic]] reports that Atlassian reached $320 million in annual revenue with virtually no sales team and unusually low sales-and-marketing spend.
@@ -39,13 +42,16 @@ The [[Slack]] case adds a team and enterprise boundary. Low price and team-level
 - Champion enablement: [[from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review]] says Slack created education for individuals and administrators so local champions could explain the category, product, and expected behavior.
 - Activation failure: [[from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review]] reports that more than 90% of created teams never invited coworkers or started meaningful use.
 - Enterprise boundary: [[from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review]] says security audits and negotiated terms became normal as Slack matured, limiting the initial procurement bypass.
+- Parallel entry and iteration: [[the-beauty-of-bottoms-up-saas-businesses]] argues that employee-level buying creates more simultaneous sales paths, shorter cycles, and faster marketing and sales experiments.
+- Product and feedback loop: [[the-beauty-of-bottoms-up-saas-businesses]] places trial-to-paid conversion on product and engineering and treats customer-success contact as input to the roadmap.
 
 ## Counterevidence & Qualifications
-The evidence consists of two historical practitioner accounts, not a causal comparison of self-service and sales-led SaaS. Atlassian's financial figures are relayed from another analyst and provide no funnel conversion, cohort retention, expansion, support-cost, customer-complexity, or counterfactual product-bundling data. Slack's adoption and drop-off figures are self-reported without complete cohorts, and its initial team-level loophole narrowed as security and contract review became normal. Focused products can still require sales or services for security, procurement, migration, integration, governance, and organizational change; broad products can also support self-service through segmentation and progressive disclosure. A low-friction individual signup can hide high-friction social activation when value depends on coworkers.
+The evidence consists of three historical practitioner accounts, not a causal comparison of self-service and sales-led SaaS. Atlassian's financial figures are relayed from another analyst and provide no funnel conversion, cohort retention, expansion, support-cost, customer-complexity, or counterfactual product-bundling data. Slack's adoption and drop-off figures are self-reported without complete cohorts, and its initial team-level loophole narrowed as security and contract review became normal. Tunguz supplies no company sample, experiment design, cycle-time distribution, conversion rate, acquisition cost, retention, or expansion data, and employee purchasing authority varies with price, policy, risk, and implementation burden. Focused products can still require sales or services for security, procurement, migration, integration, governance, and organizational change; broad products can also support self-service through segmentation and progressive disclosure. A low-friction individual signup can hide high-friction social activation when value depends on coworkers.
 
 ## What Changed
 - Created the concept from Atlassian's historical focused-product and low-touch onboarding case.
 - Added Slack's team-level adoption wedge, local-champion requirement, registration-to-activation gap, and later enterprise procurement boundary.
+- Added Tunguz's parallel-entry experimentation mechanism, trial-led conversion responsibility, and customer-success feedback loop, while preserving its unmeasured practitioner scope.
 
 ## Related Concepts
 - [[ProductFlowFriction]] - self-service conversion depends on protecting momentum while preserving useful guidance.
@@ -56,3 +62,4 @@ The evidence consists of two historical practitioner accounts, not a causal comp
 - [[FounderLedSales]] - provides a contrasting learning and sales model for products or markets that cannot yet support self-service.
 - [[CategoryCreation]] - self-service materials may need to teach the category as well as the interface.
 - [[ProductMetricLadder]] - meaningful team behavior should replace account creation as the activation signal when collaboration creates value.
+- [[CustomerSuccess]] - repeated end-user contact can return product evidence to the roadmap after self-service adoption.

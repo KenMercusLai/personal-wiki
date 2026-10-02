@@ -10,7 +10,8 @@ sources:
   - elevate-yourself-with-side-projects-the-official-slack-blog
   - entrepreneurs-who-go-it-alone-by-choice-ideas-for-small-business-time
   - from-side-project-to-25-million-downloads-codecademy-medium
-last_updated: 2026-09-28
+  - the-still-wandering-the-death-of-the-corporate-job
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,6 +31,8 @@ Haughey broadens the noncommercial case and makes the starting loop concrete: re
 
 A learning-led mobile product can follow the same staged logic. [[RyanHanna]] chose a problem he personally experienced, built [[Sworkit]] as a simple web version from newly learned technologies, packaged it with PhoneGap, sought distribution through a direct Lifehacker pitch, released a paid version, moved from spare-time operation to full-time work, and later sold the product to [[Nexercise]]. The sequence strengthens personal utility, release, distribution, and staged commitment as interacting mechanisms; its 25-million-download headline remains a selected outcome, not an expected return from side-project work.
 
+The Still Wandering adds a more adversarial interpretation of the employment bridge: some disillusioned corporate workers treat salary, stability, and unused capacity as a platform for work they consider more real. The useful part of that frame is psychological and financial separation—employment need not supply a complete identity before it can fund learning and future options. Its examples of operating outside ventures from a corporate desk, however, should not be generalized into a method: protected personal time and personally owned resources preserve the incubation benefit without assuming permission to redirect paid time, equipment, confidential information, or employer-owned intellectual property.
+
 ## Key Claims
 - Side-project progress can compound through small protected time blocks rather than long uninterrupted stretches.
 - Low pressure can increase creativity because failure is less existential than in core work.
@@ -37,7 +40,7 @@ A learning-led mobile product can follow the same staged logic. [[RyanHanna]] ch
 - Enjoyment, flexibility, and permission to miss deadlines help sustain optional work.
 - Imperfection is part of the experiment; premature result fixation can kill exploration.
 - Some side projects become core businesses or saleable assets, but learning, recovery, creative range, and satisfaction are also valid outcomes.
-- Keeping employment can protect patience and financial breathing room until usage, revenue, and workload justify a larger commitment.
+- Employment can protect patience and financial breathing room without being a calling, but outside work needs explicit time, resource, confidentiality, and intellectual-property boundaries until usage, revenue, and workload justify a larger commitment.
 
 ## Evidence
 - Protected time: [[aytekin-tank-jotform-how-to-build-a-startup-without-quitting-your-day-job]] says Tank woke at 6am to answer customer questions before his day job and advises securing small pockets of time.
@@ -61,16 +64,14 @@ A learning-led mobile product can follow the same staged logic. [[RyanHanna]] ch
 - Learning-led start: [[from-side-project-to-25-million-downloads-codecademy-medium]] says Hanna used a personally needed workout app to apply beginner web-programming lessons.
 - External distribution: [[from-side-project-to-25-million-downloads-codecademy-medium]] links a direct Lifehacker pitch and next-day coverage to the first surge of thousands of downloads.
 - Status transitions: [[from-side-project-to-25-million-downloads-codecademy-medium]] traces Sworkit from spare-time project through paid release, consulting-supported operation, full-time commitment, and Nexercise acquisition.
+- Instrumental employment: [[the-still-wandering-the-death-of-the-corporate-job]] describes workers using salary, stability, skills, and spare capacity to pursue projects they find more meaningful, while its employer-resource examples expose unresolved boundary risks.
 
 ## Counterevidence & Qualifications
-The sources are inspirational and example-driven, so they are exposed to survivorship bias. The one-man SaaS, Makelight, Instapaper, and Sworkit accounts give headline financial, download, or user figures but no failure base rate, complete cost accounting, acquisition cost, churn, retention, or full founder-labor record. Instapaper benefited from App Store timing and an emerging mobile-reading context; Sworkit benefited from Hanna's Army fitness knowledge, PhoneGap-era mobile access, Lifehacker coverage, and a later acquirer relationship. Side projects can drain attention, conflict with employment obligations, burden family members, never find demand, or damage the intrinsic motivation that made them meaningful. Access also varies with working hours, caregiving, health, money, and domestic support, which is one reason the Slack source rejects side projects as hiring evidence. Makelight's sequence depended on complementary founder skills, an existing audience, consulting income, and preorders. The strongest defensible claim is not that every side project can become a startup, but that optional, protected experimentation can create learning, recovery, or option value and sometimes customer-funded growth before full-time commitment.
+The sources are inspirational and example-driven, so they are exposed to survivorship bias. The one-man SaaS, Makelight, Instapaper, and Sworkit accounts give headline financial, download, or user figures but no failure base rate, complete cost accounting, acquisition cost, churn, retention, or full founder-labor record. Instapaper benefited from App Store timing and an emerging mobile-reading context; Sworkit benefited from Hanna's Army fitness knowledge, PhoneGap-era mobile access, Lifehacker coverage, and a later acquirer relationship. Side projects can drain attention, conflict with employment obligations, burden family members, never find demand, or damage the intrinsic motivation that made them meaningful. Access also varies with working hours, caregiving, health, money, and domestic support, which is one reason the Slack source rejects side projects as hiring evidence. Makelight's sequence depended on complementary founder skills, an existing audience, consulting income, and preorders. The Still Wandering's examples add contractual, confidentiality, security, intellectual-property, and duty-of-work risks when an employee uses paid time or employer resources. The strongest defensible claim is not that every side project can become a startup, but that optional, protected experimentation can create learning, recovery, or option value and sometimes customer-funded growth before full-time commitment.
 
 ## What Changed
-- Added Sworkit's personally useful learning project, web-to-mobile implementation, Lifehacker distribution, paid release, full-time transition, and acquisition as one connected incubation sequence.
-- Strengthened the role of external distribution while preserving product usefulness, iteration, and staged commitment as separate mechanisms.
-- Broadened valid outcomes beyond business formation to include learning, recovery, happiness, and creative range.
-- Preserved the boundary that selected successes do not supply a base rate and that optional projects are not universal hiring evidence.
-- Retained Instapaper, Makelight, OnlineOrNot, Jotform, and the one-man SaaS account as distinct commitment and operating patterns rather than flattening them into one recipe.
+- Added employment-as-infrastructure as a psychological and financial frame for incubation.
+- Separated legitimate personal-time runway from unapproved use of paid time, equipment, information, or employer-owned intellectual property.
 
 ## Related Concepts
 - [[ReleaseFocusedSideProjects]] - shipping and feedback discipline can turn incubation into concrete evidence.
@@ -81,3 +82,4 @@ The sources are inspirational and example-driven, so they are exposed to survivo
 - [[StartupFocus]] - a side project may eventually require narrowing into a core business commitment.
 - [[OnlineOrNot]] - focused SaaS example growing inside constrained morning work.
 - [[FounderSuccessDefinition]] - incubation outcomes should be judged against the life and work the founders actually want.
+- [[CorporateRoleDisillusionment]] - loss of occupational meaning can motivate parallel projects but does not erase employment obligations.

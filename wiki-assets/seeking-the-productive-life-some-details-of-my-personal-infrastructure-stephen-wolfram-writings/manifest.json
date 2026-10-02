@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "seeking-the-productive-life-some-details-of-my-personal-infrastructure-stephen-wolfram-writings",
+  "images": [
+    {
+      "file": "distributed-team-locations.png",
+      "alt": "World map showing the geographically distributed locations of Wolfram staff"
+    },
+    {
+      "file": "book-project-filesystem.png",
+      "alt": "Filesystem hierarchy organizing A New Kind of Science by chapters and sequential notebook files"
+    },
+    {
+      "file": "personal-homepage.png",
+      "alt": "Personal homepage grouping frequently used links, systems, projects, archives, and a metasearch box"
+    },
+    {
+      "file": "docutools-palettes.png",
+      "alt": "DocuTools interface with specialized palettes for documentation and notebook authoring"
+    },
+    {
+      "file": "scripted-recording-workflow.png",
+      "alt": "Course-recording workflow with an authoring script, generated notebook, and iPad control palette"
+    },
+    {
+      "file": "metasearch-results.png",
+      "alt": "Metasearch results combining email, filesystem, dated materials, and internal-site matches"
+    },
+    {
+      "file": "scanned-archive-thumbnails.png",
+      "alt": "Thumbnail browser for scanned handwritten school notes grouped into archival documents"
+    },
+    {
+      "file": "outgoing-email-timeline.png",
+      "alt": "Long-term raster plot of outgoing email times showing changing daily sleep and work rhythms"
+    },
+    {
+      "file": "email-backlog-dashboard.png",
+      "alt": "Email dashboard plotting total pending and unopened messages over four time windows"
+    }
+  ]
+}

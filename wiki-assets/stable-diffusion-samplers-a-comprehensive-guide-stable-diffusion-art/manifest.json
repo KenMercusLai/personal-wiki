@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "source_key": "stable-diffusion-samplers-a-comprehensive-guide-stable-diffusion-art",
+  "images": [
+    {"file": "sampling-denoising-process.png", "alt": "A four-step latent denoising process subtracts predicted noise to reveal a cat"},
+    {"file": "iterative-denoising-sequence.gif", "alt": "Animated sequence of a noisy latent becoming a generated image over repeated denoising steps"},
+    {"file": "fifteen-step-noise-schedule.png", "alt": "Fifteen-step noise schedule with large early reductions and small late reductions"},
+    {"file": "sdxl-latent-trajectory.png", "alt": "PCA projection of one SDXL latent trajectory with progressively shorter steps"},
+    {"file": "seed-trajectory-comparison.png", "alt": "PCA projection comparing two nearby SDXL trajectories from different seeds"},
+    {"file": "prompt-trajectory-comparison.png", "alt": "PCA projection showing different prompts ending at widely separated latent positions"},
+    {"file": "euler-ancestral-nonconvergence.gif", "alt": "Euler ancestral outputs continue changing as sampling steps increase from 2 to 40"},
+    {"file": "euler-convergence.gif", "alt": "Deterministic Euler outputs stabilize as sampling steps increase from 2 to 40"},
+    {"file": "default-vs-karras-noise-schedule.png", "alt": "Default and Karras schedules compared across fifteen sampling steps"},
+    {"file": "classic-sampler-convergence.png", "alt": "SSIM convergence curves for Euler, DDIM, PLMS, Heun, and LMS Karras"},
+    {"file": "ancestral-sampler-convergence.png", "alt": "SSIM curves showing ancestral samplers do not converge to their forty-step outputs"},
+    {"file": "dpm-sampler-convergence.png", "alt": "SSIM convergence curves for DPM2, DPM Fast, DPM2 Karras, and DPM Adaptive"},
+    {"file": "dpm-plus-plus-convergence.png", "alt": "SSIM convergence curves for DPM plus plus 2M and SDE variants"},
+    {"file": "unipc-convergence.png", "alt": "SSIM convergence comparison between UniPC and Euler"},
+    {"file": "sampler-relative-rendering-time.png", "alt": "Relative rendering time showing one-evaluation and two-evaluation solver tiers plus slow DPM Adaptive"},
+    {"file": "classic-sampler-brisque-quality.png", "alt": "BRISQUE score by step for Euler, DDIM, PLMS, Heun, and LMS Karras"},
+    {"file": "ancestral-sampler-brisque-quality.png", "alt": "BRISQUE score by step for Euler and ancestral sampler variants"},
+    {"file": "dpm-sampler-brisque-quality.png", "alt": "BRISQUE score by step for Euler and DPM sampler variants"},
+    {"file": "dpm-plus-plus-brisque-quality.png", "alt": "BRISQUE score by step for Euler and DPM plus plus variants"},
+    {"file": "unipc-brisque-quality.png", "alt": "BRISQUE score by step comparing UniPC with Euler"},
+    {"file": "lcm-two-step-trajectory.png", "alt": "Two-step LCM trajectory showing prediction, noise addition, and a second denoising pass"}
+  ]
+}

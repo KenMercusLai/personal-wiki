@@ -2,7 +2,7 @@
 title: "Go ahead, self-host Postgres"
 type: source
 tags: [postgresql, self-hosting, databases, infrastructure, cloud-cost]
-date: 2026-01-26
+date: 2025-07-02
 source_file: "/mnt/ken_personal_wiki/Articles/Pierce Freeman - Go ahead, self-host Postgres.md"
 ---
 

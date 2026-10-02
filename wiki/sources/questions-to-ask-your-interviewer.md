@@ -2,7 +2,7 @@
 title: "Questions to Ask Your Interviewer"
 type: source
 tags: [interview, career, due-diligence, workplace-culture]
-date: 2026-04-03
+date: 2016-01-18
 source_file: "/mnt/ken_personal_wiki/Articles/Questions to ask your interviewer.md"
 ---
 

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "software-2-0",
+  "images": [
+    {
+      "file": "weighted-neural-network-program.png",
+      "alt": "Example neural network whose learned program is encoded in many numerical connection weights"
+    },
+    {
+      "file": "program-space-search.png",
+      "alt": "Program-space diagram contrasting one explicitly chosen Software 1.0 program with an optimization search inside an architecture-bounded Software 2.0 region"
+    },
+    {
+      "file": "gradient-descent-writes-code-post.png",
+      "alt": "Andrej Karpathy post stating that gradient descent can write code better than a person, followed by a surprised reaction"
+    }
+  ]
+}

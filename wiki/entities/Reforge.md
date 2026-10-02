@@ -4,33 +4,38 @@ type: entity
 tags: [company, growth, education]
 sources:
   - acquisition-is-easy-retention-is-hard-product-habits
-last_updated: 2026-09-13
+  - growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Reforge]] is the company context attached to Brian Balfour in the Product Habits source.
+[[Reforge]] is represented as a growth-education company associated with [[BrianBalfour]] and [[SusanSu]].
 
 ## Current Profile
-The source mentions Reforge only to identify [[BrianBalfour]] as its CEO. In the wiki, Reforge is therefore a narrow entity connecting the article's retention-first growth argument to Balfour's practitioner background.
+One source mentions Reforge to identify Brian Balfour as its CEO while citing a retention-first growth principle. A 2016 guest essay gives the company a more substantive historical role: [[AndrewChen]] describes Balfour and [[SusanSu]] as having started Reforge for advanced professional education, and Su presents the article as a synthesis from the Reforge Collective. The source therefore connects the company to practitioner education and knowledge-sharing about growth hiring, without describing its curriculum or outcomes in detail.
 
 ## Key Characteristics
 - Named as Brian Balfour's company context.
-- Appears in a SaaS growth article focused on retention.
-- Functions as a supporting entity rather than a case study in the source.
+- Historically described as an advanced professional-education company.
+- Associated with Susan Su's growth marketing and editorial synthesis.
+- Used the Reforge Collective as a contributor network for growth-practice knowledge.
 
 ## Evidence
 - Company context: [[acquisition-is-easy-retention-is-hard-product-habits]] identifies Brian Balfour as CEO of Reforge.
 - Growth connection: [[acquisition-is-easy-retention-is-hard-product-habits]] cites Balfour's retention claim while discussing SaaS growth.
-- Limited role: [[acquisition-is-easy-retention-is-hard-product-habits]] does not analyze Reforge's product, business model, or history.
+- Education and founder context: [[growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen]] describes Reforge as a company started by Balfour and Su and focused on advanced professional education.
+- Collective context: [[growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen]] says the essay draws on Reforge Collective members' growth-interview practices.
 
 ## Qualifications
-The source gives no detailed evidence about Reforge itself. This page should remain narrow until other sources discuss Reforge directly.
+Both sources are narrow and historical. They do not analyze Reforge's curriculum, business model, ownership, learner outcomes, or current leadership and should not be read as a complete company profile.
 
 ## What Changed
-- Created Reforge as Brian Balfour's named company context.
+- Expanded Reforge from a leadership mention into a historical growth-education and practitioner-network context.
 
 ## Relationships
 - [[BrianBalfour]] - CEO named in the source.
 - [[SaaSRetention]] - Reforge appears through a retention-first growth citation.
 - [[HubSpot]] - paired with Reforge as Balfour's prior company context.
+- [[SusanSu]] - described as a Reforge founder and marketing leader in the 2016 source.
+- [[HiringSystemDesign]] - growth-role interviewing is the practitioner topic Reforge's guest essay synthesizes.

@@ -2,7 +2,7 @@
 title: "No, you don't need ML/AI. You need SQL"
 type: source
 tags: [sql, machine-learning, e-commerce, customer-retention, automation]
-date: 2026-04-03
+date: 2018-07-01
 source_file: "/mnt/ken_personal_wiki/Articles/No, you don't need ML-AI. You need SQL.md"
 ---
 

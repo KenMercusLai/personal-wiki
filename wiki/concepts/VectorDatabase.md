@@ -6,7 +6,8 @@ sources:
   - ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt
   - aws-blog-optimize-generative-ai-applications-with-pgvector-indexing
   - ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou
-last_updated: 2026-09-13
+  - the-quest-for-one-million-iops-benchmarking-storage-at-lancedb
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ A vector store can be a specialized system or a general database extended for ve
 
 That retrieval role should not be confused with a complete memory model. A vector database can surface similar prior records, but similarity alone does not compact duplicates, identify which fact is current, preserve validity windows, weigh provenance, or reconcile contradictions. In [[AgentMemory]], it is therefore one possible retrieval component alongside structured graph, document, or relational state.
 
+The [[LanceDB]] benchmark adds the storage path beneath approximate search. After an index produces candidate row identifiers, the system must fetch selected rows, decode them, and often rerank a larger candidate set. That path is sensitive to batching, cache state, data duplication, queue depth, scheduler structure, and physical I/O concurrency. Index parameters also bind retrieval quality to systems performance: lowering `nprobes` reduced CPU work enough to isolate storage, but deliberately damaged recall, so a high IOPS result cannot stand alone as a vector-search result.
+
 ## Key Claims
 - Vector databases store embedded document chunks or other vectorized records for later semantic search.
 - Similarity retrieval over vectors selects passages likely to answer a user question.
@@ -27,7 +30,7 @@ That retrieval role should not be confused with a complete memory model. A vecto
 - Exact vector search maximizes recall but compares the query vector with every stored vector.
 - Approximate vector indexes such as IVFFlat and HNSW reduce search latency by trading against recall, build time, memory, or tuning complexity.
 - Vector stores are often accessed through higher-level frameworks such as LangChain.
-- Similarity search does not by itself maintain temporal, authoritative, or conflict-resolved memory state.
+- Similarity search does not by itself maintain temporal, authoritative, or conflict-resolved memory state, and storage throughput must be interpreted alongside recall and end-to-end query work.
 
 ## Evidence
 - Storage role: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] says embedded chunks are saved to FAISS after processing.
@@ -38,14 +41,17 @@ That retrieval role should not be confused with a complete memory model. A vecto
 - Exact versus approximate search: [[aws-blog-optimize-generative-ai-applications-with-pgvector-indexing]] contrasts full-scan k-NN with IVFFlat and HNSW approximate nearest-neighbor indexes.
 - Benchmark evidence: [[aws-blog-optimize-generative-ai-applications-with-pgvector-indexing]] reports query-plan screenshots where sequential scan is much slower than IVFFlat and HNSW index scans on the tested dataset.
 - Memory boundary: [[ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou]] characterizes vector-store-plus-embedding memory as a searchable log until compaction, evolution, and conflict handling are added.
+- Retrieval storage path: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] follows index-selected row IDs through fetch, decode, and reranking, then shows how batching, page-cache hits, scheduler overhead, and NVMe concurrency affect throughput.
+- Recall qualification: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] reduces `nprobes` from 20 to 1 to isolate I/O and explicitly states that the change harms recall.
 
 ## Counterevidence & Qualifications
-The sources do not provide a broad comparison of vector databases, hybrid search, metadata filtering, access control, or production evaluation methods. The AWS benchmark is source-scoped: its results depend on one dataset, embedding model, PostgreSQL and pgvector versions, hardware, query pattern, and unstated recall target. The memory critique is also conceptual and does not show that every application needs a graph or relational store; its defensible claim is narrower, that retrieval infrastructure cannot silently supply missing state semantics.
+The sources do not provide a broad comparison of vector databases, hybrid search, metadata filtering, access control, or production evaluation methods. The AWS benchmark is source-scoped: its results depend on one dataset, embedding model, PostgreSQL and pgvector versions, hardware, query pattern, and unstated recall target. The LanceDB benchmark is likewise first-party and workload-specific; its final IOPS result uses local NVMe, three datasets, high concurrency, unmerged changes, and an intentionally low-recall search setting. The memory critique is conceptual and does not show that every application needs a graph or relational store; its defensible claim is narrower, that retrieval infrastructure cannot silently supply missing state semantics.
 
 ## What Changed
 - Created the initial concept page for vector databases in private-data chatbot architecture.
 - Added PostgreSQL-plus-pgvector as a vector database path and distinguished exact search from ANN indexing.
 - Added the boundary between similarity retrieval and maintained, conflict-resolved memory state.
+- Added the random-access storage path beneath ANN search and made recall a required qualification for throughput results.
 
 ## Related Concepts
 - [[Embeddings]] - vector databases store embeddings generated from source text.
@@ -57,3 +63,5 @@ The sources do not provide a broad comparison of vector databases, hybrid search
 - [[ApproximateNearestNeighborSearch]] - ANN indexes accelerate vector retrieval when full recall is not required.
 - [[AgentMemory]] - may use a vector database for recall but requires additional state-maintenance semantics.
 - [[MemoryConflictResolution]] - resolves related but incompatible records that similarity search can only retrieve.
+- [[StoragePerformanceBenchmarking]] - tests the row-fetch and decode path under representative cache and concurrency conditions.
+- [[LanceDB]] - supplies the source's end-to-end vector-search storage case.

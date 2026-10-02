@@ -2,7 +2,7 @@
 title: "Netflix is on F***ing Fire"
 type: source
 tags: [netflix, streaming, television, original-content]
-date: 2016-01-04
+date: 2016-01-03
 source_file: "/mnt/ken_personal_wiki/Articles/Netflix is on F---ing Fire - The Startup - Medium.md"
 ---
 

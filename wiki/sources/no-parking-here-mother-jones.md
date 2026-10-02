@@ -2,7 +2,7 @@
 title: "No Parking Here"
 type: source
 tags: [parking, urban-planning, autonomous-vehicles, ride-sharing, transportation-policy]
-date: 2016-01-23
+date: 2016-01-20
 source_file: "/mnt/ken_personal_wiki/Articles/No Parking Here – Mother Jones.md"
 ---
 

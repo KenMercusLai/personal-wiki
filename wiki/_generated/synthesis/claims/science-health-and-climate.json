@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "personal-analytics-health-inference-is-source-scoped",
+      "qualifications": [
+        "The resting-heart-rate observation is an uncontrolled personal association and does not establish that outdoor walking caused the change.",
+        "The broader telemetry system supplies no measurement-error analysis or health-outcome comparison and concentrates sensitive medical, genomic, communication, and activity data."
+      ],
+      "statement": "[[PersonalAnalytics]] reaches this topic through [[StephenWolfram]]'s automatic heart-rate, activity, medical, and environmental tracking; long time series and dashboards can expose patterns and collection failure, but the source supports personal hypotheses and feedback rather than causal health conclusions.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "StephenWolfram",
+        "PersonalAnalytics",
+        "PersonalInfrastructure",
+        "PersonalDataInfrastructure",
+        "DigitalArchiveOrganization"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "data-center-siting-couples-efficiency-and-reliability",
       "qualifications": [
         "The evidence is one first-party 2023 account of three Dropbox selection processes, without disclosed score weights, realized reliability, lifecycle emissions, water use, or independent support for its best-in-class claim.",
@@ -243,8 +260,40 @@
         "MicroserviceFailureContainment",
         "RisingStack"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "storage-benchmarking-is-router-spillover",
+      "qualifications": [
+        "The deterministic router assigned a systems-performance paragraph to this topic through measurement language; it provides no health, climate, or natural-science finding.",
+        "The benchmark is a first-party, hardware- and workload-specific experiment that intentionally lowers ANN recall, uses unmerged changes, and omits repeated-run variance."
+      ],
+      "statement": "[[StoragePerformanceBenchmarking]], [[LanceDB]], [[VectorDatabase]], and [[DatabaseEngineeringTradeoffs]] reach this topic only as source-scoped spillover: their substantive result concerns cache state, scheduler structure, concurrent physical I/O, and recall-aware database measurement.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "StoragePerformanceBenchmarking",
+        "LanceDB",
+        "VectorDatabase",
+        "DatabaseEngineeringTradeoffs"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "anycast-dns-is-router-spillover",
+      "qualifications": [
+        "The controlled router cross-classified a network-operations paragraph through health and attack terminology; it supplies no health, climate, or natural-science finding.",
+        "The underlying evidence is one favorable practitioner account without measured routing, availability, or attack-mitigation outcomes."
+      ],
+      "statement": "[[AnycastDNS]], [[NetworkLoadBalancing]], [[Infoblox]], and [[TomBowles]] reach this topic only as source-scoped spillover: their substantive claim concerns shared route advertisements, route selection, and service-route withdrawal rather than health, climate, or natural science.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AnycastDNS",
+        "NetworkLoadBalancing",
+        "Infoblox",
+        "TomBowles"
+      ]
     }
   ],
-  "summary": "The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion.",
+  "summary": "[[PersonalAnalytics]] adds a source-scoped self-tracking case: long time series and dashboards can expose patterns and collection failure, but [[StephenWolfram]]\\u0027s resting-heart-rate observation is non-causal and the sensitive telemetry has unmeasured privacy, security, and validity risk. The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion. The new [[LanceDB]] paragraph is likewise router spillover from systems measurement: [[StoragePerformanceBenchmarking]], [[VectorDatabase]], and [[DatabaseEngineeringTradeoffs]] add no direct science, health, or climate finding.",
   "topic_id": "science-health-and-climate"
 }

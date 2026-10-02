@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "truc-phan-proof-of-concept-using-llms-to-extract-key-skills-from-job-descriptions",
+  "images": [
+    {
+      "file": "glassdoor-data-analyst-overview.webp",
+      "alt": "Glassdoor data analyst dashboard showing 553 postings, salary and title summaries, leading skills, and state distribution"
+    },
+    {
+      "file": "data-skills-by-seniority.webp",
+      "alt": "Top ten extracted data skills compared across junior, generic, and senior data analyst title groups"
+    }
+  ]
+}

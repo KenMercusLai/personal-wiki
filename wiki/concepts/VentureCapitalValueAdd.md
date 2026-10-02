@@ -6,7 +6,8 @@ sources:
   - do-vcs-really-add-value-founders-say-sometimes-by-carl-fritjofsson
   - investor-vcs-and-operator-vcs-avc
   - not-all-vcs-are-assholes-mitchell-harper-medium
-last_updated: 2026-10-01
+  - investment-pace-avc
+last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,12 +17,12 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The survey exposes a measurement and expectation problem. VCs reported more contact, support, and impact than founders reported receiving or valuing: investors rated their impact at 7/10 versus founders' 5.3/10, claimed weekly contact at almost three times the founder-reported rate, and described recruiting and sales support that fewer than half of portfolio companies used. The gap does not establish that investors provide no value. It shows that service availability, activity, uptake, and founder-perceived impact are different measures. The same source suggests that the value proposition begins before the investment: personal chemistry led partner-selection criteria for both sides, founders valued decision speed much more than VCs expected, and preferences shifted by geography and financing stage.
 
-Wilson adds a role-boundary hypothesis. Operating experience may supply domain knowledge, networks, and empathy, yet useful investor help does not mean personally running the company. Harper's founder-side account makes the desired behavior more specific: reserve capacity for later rounds, direct candor, advice when requested, support for sensible strategic change, consistent treatment after closing, and operating experience. Taken together, the sources suggest that credible value-add requires founder-side evidence, fit with the company's needs, financial capacity, and disciplined influence; neither a service inventory nor an investor's prior operating career proves realized value.
+Wilson adds role-boundary and capacity hypotheses. Operating experience may supply domain knowledge, networks, and empathy, yet useful investor help does not mean personally running the company. His pacing essay argues that a service promise also requires controlling concurrent portfolio load: partner bandwidth and a supporting team must remain available across seven-to-ten-year relationships. Harper's founder-side account makes the desired behavior more specific: reserve capacity for later rounds, direct candor, advice when requested, support for sensible strategic change, consistent treatment after closing, and operating experience. Taken together, the sources suggest that credible value-add requires founder-side evidence, fit with the company's needs, financial and attention capacity, and disciplined influence; neither a service inventory, a low deal count, nor an investor's prior operating career proves realized value.
 
 ## Key Claims
 - Investor activity and founder-perceived impact are different measures; more contact or a longer service menu does not by itself establish useful value.
 - A 7/10 VC self-rating versus a 5.3/10 founder rating indicates a material perception gap in the surveyed populations.
-- Operational support should be assessed through relevant use and founder outcomes, not merely whether the fund says the service exists.
+- Operational support should be assessed through relevant use, adequate investor capacity, and founder outcomes, not merely whether the fund says the service exists.
 - Chemistry and relationship quality are part of investor value because financing creates a continuing working relationship.
 - Decision speed can be valuable to founders facing a constrained fundraising timeline even when investors do not regard speed as differentiating.
 - Investor value is contextual: geography, financing stage, company need, terms, network, experience, and brand can change which contribution matters.
@@ -36,15 +37,14 @@ Wilson adds a role-boundary hypothesis. Operating experience may supply domain k
 - Role discipline: [[investor-vcs-and-operator-vcs-avc]] uses [[JerryColonna]]'s early board experience to distinguish helping management from trying to run the company.
 - Portfolio contribution: [[investor-vcs-and-operator-vcs-avc]] describes work across deal pursuit, M&A, strategy, compensation, and boards as a typical investor day.
 - Founder-side criteria: [[not-all-vcs-are-assholes-mitchell-harper-medium]] values operating experience, follow-on reserves, direct feedback, requested rather than constant advice, pivot support, and stable post-close conduct.
+- Capacity premise: [[investment-pace-avc]] says early-stage service requires partner bandwidth plus a supporting team and uses a seven-to-fourteen-company estimate to justify a low annual deal pace.
 
 ## Counterevidence & Qualifications
-The survey reports perceptions, service use, and stated selection priorities rather than causal effects on company performance. Its 121 founders and 98 VCs were separate, unmatched voluntary samples, and the article does not publish uncertainty estimates, subgroup sizes, exact wording, response rate, or outcome controls. Low service uptake could reflect low need, poor fit, weak awareness, capacity constraints, substitution, or low quality. Wilson and Harper supply selected practitioner experience rather than returns, founder-satisfaction comparisons, contract evidence, or outcomes by investor background. Operating experience can improve empathy and judgment or encourage intrusive pattern matching; advice restraint can preserve autonomy or withhold a material warning; reserves show capacity but do not guarantee follow-on investment. The sources support measurement, role clarity, and expectation-setting, not one universally superior investor style.
+The survey reports perceptions, service use, and stated selection priorities rather than causal effects on company performance. Its 121 founders and 98 VCs were separate, unmatched voluntary samples, and the article does not publish uncertainty estimates, subgroup sizes, exact wording, response rate, or outcome controls. Low service uptake could reflect low need, poor fit, weak awareness, capacity constraints, substitution, or low quality. Wilson and Harper supply selected practitioner experience rather than returns, founder-satisfaction comparisons, contract evidence, or outcomes by investor background or portfolio load. A low deal count preserves theoretical bandwidth but does not show that founders received or valued the help. Operating experience can improve empathy and judgment or encourage intrusive pattern matching; advice restraint can preserve autonomy or withhold a material warning; reserves show capacity but do not guarantee follow-on investment. The sources support measurement, role clarity, capacity planning, and expectation-setting, not one universally superior investor style.
 
 ## What Changed
-- Added investor restraint and management autonomy as conditions of useful value-add.
-- Distinguished strategic and governance contribution from operational substitution.
-- Clarified that neither operating background nor a long service menu establishes founder-perceived impact.
-- Added follow-on capacity, behavioral consistency, candor, pivot support, and advice restraint to the founder-side value test.
+- Added partner bandwidth, supporting-team capacity, and concurrent portfolio load as preconditions for a high-touch service promise.
+- Distinguished capacity to help from evidence that founders used, valued, or benefited from the help.
 
 ## Related Concepts
 - [[FounderInvestorFit]] - partner selection determines whether an investor's style, pace, terms, and capabilities match the founder's needs.
@@ -54,3 +54,4 @@ The survey reports perceptions, service use, and stated selection priorities rat
 - [[VentureInvestorDevelopment]] - investor capability must become observable founder value rather than remain a self-assessed trait.
 - [[EntrepreneurialCareerPaths]] - different routes into venture capital may develop different but complementary investor capabilities.
 - [[PortfolioConcentration]] - active help and portfolio breadth compete for finite investor attention.
+- [[InvestmentPacing]] - controls new commitments so the promised post-investment support remains feasible.

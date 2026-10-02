@@ -7,6 +7,7 @@ sources:
   - growth-engineering-at-netflix-accelerating-innovation
   - jimmy-bogard-my-microservices-faq
   - richard-li-microservices-essentials-for-executives
+  - tc-currie-airbnbs-10-takeaways-from-moving-to-microservices
 last_updated: 2026-10-02
 knowledge_schema: synthesis-v1
 ---
@@ -25,6 +26,8 @@ Netflix adds the client-facing business-logic side of the pattern. Growth Engine
 
 Li separates two platform planes that service proliferation makes necessary. Deployment infrastructure automates the path from commit through build, packaging, staging, production, and elastic instance scaling. Developer infrastructure supplies cross-language communication, request tracing, load balancing, circuit breaking, isolation, and recovery so network dependencies can fail without turning the application into a distributed monolith. Team autonomy therefore changes leadership, training, metrics, and decision rights as well as runtime technology.
 
+Airbnb adds a paved-path creation sequence during migration from a retained monolith. Configuration and alerts become reviewable code; monitoring and developer-authored metrics use standardized tools; application artifacts are tested and validated through continuous integration; and service creation aims toward one pull request that defines only what differs from platform defaults. The case also makes learning cost explicit: first services may be poor, migration may take years, and later monolith extraction requires product-team buy-in rather than infrastructure work alone.
+
 ## Key Claims
 - Platform capabilities can enable service autonomy but cannot substitute for an independently operable boundary or a team able to own its release decisions.
 - Service autonomy at scale requires shared controls and governance, not only smaller deployment units.
@@ -32,7 +35,7 @@ Li separates two platform planes that service proliferation makes necessary. Dep
 - Discovery, health-aware routing, rate limiting, and circuit breaking contain failures that service-to-service networks introduce.
 - Strict interface definitions make integration more predictable but require disciplined backward compatibility and migration.
 - Load testing, resource isolation, and controlled disruption turn production readiness into an explicit engineering process.
-- Automated delivery, elastic scaling, cross-service tracing, and recovery controls become baseline platform concerns as service count and release frequency rise.
+- Automated delivery, elastic scaling, cross-service tracing, and recovery controls become baseline platform concerns as service count and release frequency rise; a paved path should encode common configuration, monitoring, alerts, testing, packaging, deployment, and recovery defaults while leaving only service-specific choices to teams.
 
 ## Evidence
 - Autonomy boundary: [[jimmy-bogard-my-microservices-faq]] separates independently owned, built, deployed, run, secured, and recovered services from technology or topology choices that merely enable them.
@@ -47,14 +50,16 @@ Li separates two platform planes that service proliferation makes necessary. Dep
 - Fault assumption: [[growth-engineering-at-netflix-accelerating-innovation]] says the orchestration path assumes requests will fail and uses Hystrix for latency and fault tolerance.
 - Platform planes: [[richard-li-microservices-essentials-for-executives]] distinguishes automated deployment and elastic scaling from developer-facing communication, tracing, isolation, and recovery infrastructure.
 - Organizational change: [[richard-li-microservices-essentials-for-executives]] connects team release autonomy to training, revised decision rights, and metrics for deployment speed and recovery.
+- Service factory: [[tc-currie-airbnbs-10-takeaways-from-moving-to-microservices]] describes an unfinished goal of creating a repository and its configuration in one pull request while teams specify only what is unique.
+- Reviewable operations: [[tc-currie-airbnbs-10-takeaways-from-moving-to-microservices]] reports configuration and alerts as code, standardized monitoring, developer-authored business metrics, and CI-tested application artifacts.
 
 ## Counterevidence & Qualifications
-Uber and Netflix are first-party snapshots of large engineering organizations, while Bogard and Li supply normative practitioner arguments rather than controlled implementation studies. None provides comparative delivery, reliability, staffing, or cost measurements, and none establishes that the named controls eliminate cascading failures, duplicated effort, or client coupling. Their specific tools are historical; the reusable evidence concerns capability categories, organizational prerequisites, and boundary tests rather than a stack prescription. Netflix's centralized orchestration can itself become a bottleneck or wide failure boundary if protocol evolution, dependency isolation, and ownership are weak. Li's Christmas-light analogy for synchronous HTTP is illustrative but does not distinguish dependency graphs, timeouts, retries, fallbacks, or partial service.
+Uber and Netflix are first-party snapshots of large engineering organizations; Airbnb is a secondary report of a conference talk; and Bogard and Li supply normative practitioner arguments rather than controlled studies. None provides comparative delivery, reliability, staffing, or total-cost measurements, and none establishes that the named controls eliminate cascading failures, duplication, or coupling. Their specific tools and scale figures are historical; the reusable evidence concerns capability categories, organizational prerequisites, and boundary tests rather than a stack prescription. Airbnb's desired one-pull-request service flow was explicitly still in progress, and its first-service and decade-long-migration warnings undercut any claim that standardization makes decomposition quick or intrinsically successful.
 
 ## What Changed
+- Added configuration, alerts, metrics, CI artifacts, and one-request service creation as a paved-path pattern, with its unfinished and long-migration limits.
 - Made service autonomy, rather than technology adoption, the platform's defining target.
 - Added independent operation, information control, and contract evolution as boundary tests the platform cannot replace.
-- Distinguished deployment automation and scaling from developer-facing communication, tracing, failure isolation, and recovery capabilities.
 
 ## Related Concepts
 - [[ServiceAutonomy]] - defines the operational independence that platform capabilities are intended to enable.
