@@ -8404,3 +8404,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | Actions, not words, reveal our real values
+
+Created [[RevealedPriorities]] and updated [[DerekSivers]] and [[ActionGroundedIdentity]] from their complete ordered evidence inventories. Added the distinction between declared wants and the relative ranking expressed through action or inaction, plus the choice to accept that ranking or test a professed priority through practice. Qualified behavior as evidence under present options, capability, duties, habits, and structural constraints rather than infallible proof of desire or moral value. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

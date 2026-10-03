@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Actions, not words, reveal our real values](sources/actions-not-words-reveal-our-real-values.md) - Derek Sivers argues that conduct reveals operative priorities more reliably than declarations, while constraints limit how conclusively behavior identifies desire.
 - [Evan Williams: How Odeo Screwed Up](sources/evan-williams-how-odeo-screwed-up.md) - Liz Gannes reports Williams's account of Odeo's broad scope, weak founder-user fit, delayed response, premature financing, and attempted refocus.
 - [On the Automatic Generation of Knowledge Connections](sources/on-the-automatic-generation-of-knowledge-connections.md) - Fraga and colleagues combine shared concepts and semantic relatedness to generate an Obsidian navigation graph while leaving human relevance, learning outcomes, and large-vault performance unvalidated.
 - [Why LLMs Can't Really Build Software](sources/why-llms-cant-really-build-software.md) - Conrad Irwin separates code generation and tool use from the sustained requirement-to-behavior model comparison needed for non-trivial engineering, while keeping humans responsible for diagnosis and acceptance.
@@ -2447,7 +2448,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dan Shipper](entities/DanShipper.md) - Author and entrepreneur connecting future-oriented note taking with learning-based startup decisions.
 - [Firefly](entities/Firefly.md) - Company used in Dan Shipper's example of desired learning sustaining early entrepreneurial work through discouraging results.
 - [Derek Lieu](entities/DerekLieu.md) - Game-trailer creator and educator whose course influenced the source author's tutorial-writing practice.
-- [Derek Sivers](entities/DerekSivers.md) - Entrepreneur, programmer, and writer connecting selective commitment, behavioral honesty, and database-centered software simplification.
+- [Derek Sivers](entities/DerekSivers.md) - Entrepreneur, programmer, and writer connecting selective commitment, action-grounded priorities, and database-centered software simplification.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
 - [E2B](entities/E2B.md) - Agent code-execution sandbox discussed as useful execution isolation but insufficient for capability and side-effect semantics.
 - [EasyCV](entities/EasyCV.md) - Zhang Xuan's programmer resume-builder product and product-development experiment.
@@ -2895,6 +2896,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Pivot Strategy](concepts/StartupPivotStrategy.md) - Redirecting a non-growing startup toward its strongest observed behavior, reusable asset, and simpler test while keeping early segment evidence distinct from durable fit.
 - [10x Thinking](concepts/TenXThinking.md) - Order-of-magnitude outcome framing that exposes assumptions and searches for a different mechanism while relying on bounded experiments and cumulative execution.
 - [Action-Grounded Identity](concepts/ActionGroundedIdentity.md) - Principle that present-tense roles should remain answerable to present conduct rather than rest only on past achievement or declaration.
+- [Revealed Priorities](concepts/RevealedPriorities.md) - Relative ranking among competing wants inferred from conduct while remaining conditional on options, capabilities, and constraints.
 - [Preimplementation Feature Discovery](concepts/PreimplementationFeatureDiscovery.md) - Mapping and questioning user and operator flows to expose necessary product scope before implementation.
 - [Multi-Site High Availability](concepts/MultiSiteHighAvailability.md) - Layered design for surviving machine, facility, network, and city-scale failures through redundant serving stacks, state replication, routing, and practiced failover.
 - [Traffic Unitization](concepts/TrafficUnitization.md) - Stable routing and ownership of related workloads so normal reads and writes complete inside one site while units remain movable during failure.
