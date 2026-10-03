@@ -8,7 +8,8 @@ sources:
   - blog-antirez-dont-fall-into-the-anti-ai-hype
   - blog-guangzhengli-vibe-coding-and-context-coding
   - write-less-code-be-more-responsible-orhuns-blog
-last_updated: 2026-09-23
+  - why-llms-cant-really-build-software
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,12 +25,14 @@ Guangzhengli adds the sharpest production-risk example. A non-technical builder 
 
 Parmaksız extends the boundary from internal engineering control to public stewardship. A developer who releases AI-assisted software owns its quality, maintainability, and future-release risk even when generation made the first version cheap. His progression from broad delegation to line-by-line review and then a mixed workflow also shows that responsibility must be sustainable: a process that preserves control only through endless review may need a different human–agent task split. Licensing and FOSS ethics remain part of that stewardship, but his source poses those issues rather than resolving them.
 
+Irwin adds a diagnostic reason that accountability cannot be transferred merely because an agent can use engineering tools. Tests, logging, and debuggers expose evidence, but someone must preserve the requirement model, compare it with actual behavior, and decide whether the code, test, requirement, or investigation should change. Human responsibility therefore includes continuity of intent and diagnosis, not only reviewing the final diff.
+
 ## Key Claims
 - AI agents extend human capability but do not bear accountability for code.
 - Engineers should not submit generated code they cannot understand or explain.
 - Human reviewers and AI reviewers should not be treated as final backstops for careless work.
 - Long-term maintainability and public stewardship remain human-owned even when the agent writes much of the implementation; faster generation does not reduce user-facing or open-source obligations.
-- Correct judgment depends on understanding the requirement, design, and implementation rather than trusting fluent output.
+- Correct judgment depends on maintaining and comparing the requirement, design, observed behavior, and implementation rather than trusting fluent output or treating every failed check as an implementation defect.
 - Responsibility can be preserved when the human specifies implementation units precisely and reviews the resulting code, even if they type little code manually.
 - As agents take on more implementation, human responsibility shifts toward problem framing, design intent, result inspection, acceptance of tool actions, and production exposure decisions.
 
@@ -45,16 +48,18 @@ Parmaksız extends the boundary from internal engineering control to public stew
 - Production failure arc: [[blog-guangzhengli-vibe-coding-and-context-coding]] uses inspected March 2025 screenshots where Leo first reports a paid Cursor-built SaaS with no hand-written code, then reports API-key exhaustion, subscription bypass, database abuse, and finally shuts the app down as unsecured production code.
 - End-product ownership: [[write-less-code-be-more-responsible-orhuns-blog]] says developers remain responsible for what they release and warns that a wonderful but visibly vibe-coded project may still expose users to unsafe future changes.
 - Sustainable control: [[write-less-code-be-more-responsible-orhuns-blog]] reports that exhaustive commit-by-commit review restored understanding but became monotonous, motivating a mixed workflow with a final human quality pass.
+- Diagnostic ownership: [[why-llms-cant-really-build-software]] argues that tests and debugging tools do not determine whether code, tests, or requirements are wrong; the engineer must compare intended and actual behavior.
+- Context continuity: [[why-llms-cant-really-build-software]] keeps humans responsible for requirements and acceptance because current models can omit context, overweight recent information, and hallucinate missing details.
 
 ## Counterevidence & Qualifications
-The concept does not deny that AI or human review can catch defects. Its narrower claim is that review aids do not transfer accountability away from the engineer making the change. The independent-developer, Antirez, and Parmaksız sources also show that "AI wrote almost all code" is not automatically irresponsible; the key variable is whether the human controls design intent, granularity, review, acceptance, production exposure, and ongoing maintenance. The new source's licensing discussion is explicitly non-legal and unsettled, so it supports keeping provenance and FOSS ethics visible, not a categorical legal conclusion.
+The concept does not deny that AI or human review can catch defects. Its narrower claim is that review aids do not transfer accountability away from the engineer making the change. The independent-developer, Antirez, and Parmaksız sources also show that "AI wrote almost all code" is not automatically irresponsible; the key variable is whether the human controls design intent, granularity, diagnosis, review, acceptance, production exposure, and ongoing maintenance. Irwin's stronger claim about model limitations is a 2025 practitioner judgment rather than a timeless capability test, so responsibility should be justified by real accountability and risk as well as current model weakness. Parmaksız's licensing discussion is explicitly non-legal and unsettled, so it supports keeping provenance and FOSS ethics visible, not a categorical legal conclusion.
 
 ## What Changed
-- Created the concept page for human responsibility as the central guardrail around AI-assisted code.
 - Added the independent-developer source's distinction between high-AI-output controlled ownership and hidden-risk delegation.
 - Added Antirez's automation-positive version of responsibility, where human work shifts toward design intent, inspection, command authorization, and acceptance.
 - Added Guangzhengli's non-technical production failure case as concrete evidence that responsibility cannot be outsourced to generated code.
 - Extended responsibility from change acceptance to public stewardship, future-release safety, and a sustainable division between implementation and review.
+- Added diagnostic continuity: responsibility includes deciding whether evidence should change code, tests, requirements, or the current investigation.
 
 ## Related Concepts
 - [[AICodingPractice]] - human responsibility is the foundation for responsible AI coding practice.
@@ -66,3 +71,4 @@ The concept does not deny that AI or human review can catch defects. Its narrowe
 - [[VibeCoding]] - no-review vibe coding increases responsibility risk when deployed beyond throwaway projects.
 - [[ContextCoding]] - context coding is one way to preserve human ownership while using AI heavily.
 - [[OpenSourceProjectMaintenance]] - public maintainers retain quality and release-safety obligations regardless of how cheaply code was generated.
+- [[MentalModels]] - stable models of intent and behavior support accountable diagnosis.

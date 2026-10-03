@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-02
-as_of_overview_commit: 62fc6418a73448bcb3366195bc15d10c9d1d0435
+last_updated: 2026-10-03
+as_of_overview_commit: a5cbf5d958cfec1e3a2b008d3b2b26add383b75c
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1039
-source_count: 1039
-paragraph_count: 751
+episode_count: 1040
+source_count: 1040
+paragraph_count: 752
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on workload-matched architecture, ecosystem and team fit, explicit state and capability boundaries, verification, observability, recovery, and accountable human judgment.
+Technical outcomes depend on workload-matched architecture, explicit state and capability boundaries, verification, observability, recovery, and accountable human judgment.
 
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
 - [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact. Evidence: [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]].

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why LLMs Can't Really Build Software](sources/why-llms-cant-really-build-software.md) - Conrad Irwin separates code generation and tool use from the sustained requirement-to-behavior model comparison needed for non-trivial engineering, while keeping humans responsible for diagnosis and acceptance.
 - [I’m Sorry, But Those Are Vanity Metrics](sources/im-sorry-but-those-are-vanity-metrics-first-round-review.md) - Lloyd Tabb distinguishes external comparison metrics from actionable behavioral proxies, event-stream analysis, failure measures, and direct customer investigation.
 - [Growth Interview Questions from Atlassian, SurveyMonkey, Gusto and HubSpot](sources/growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen.md) - Susan Su synthesizes two-sided growth-role interviews that test uncertain reasoning, experimentation, causal depth, resilience, metrics, execution culture, resources, and expected impact.
 - [Great developers are raised, not hired](sources/great-developers-are-raised-not-hired-the-principal-developer-by-eduards-sizovs.md) - Eduards Sizovs argues that companies should build mentoring capacity and widen entry beyond already polished developers, subject to evidence, workload, and bias limits.
@@ -1065,6 +1066,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [UX Is a Canary in a Coal Mine](sources/ux-is-a-canary-in-a-coal-mine-irene-au.md) - Irene Au pairs design-team morale with product quality to diagnose organizational direction and the leadership intervention each state may require.
 
 ## Entities
+- [Conrad Irwin](entities/ConradIrwin.md) - Software-engineering writer represented through a mental-model account of current LLM coding limits and human-agent collaboration.
+- [Zed](entities/Zed.md) - Software organization represented through a company-published position that keeps current agents under human engineering direction.
 - [Lloyd Tabb](entities/LloydTabb.md) - Looker founder and CTO represented through operational metrics, event streams, outlier research, and distributed data fluency.
 - [LiveOps](entities/LiveOps.md) - Virtual call-center case where attendance and qualitative outlier inspection were used to interpret agent performance.
 - [Susan Su](entities/SusanSu.md) - Growth-practice writer represented through a 2016 Reforge guest essay on reciprocal growth-role interviewing.

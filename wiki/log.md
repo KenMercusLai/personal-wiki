@@ -8368,3 +8368,11 @@ Created [[IreneAu]] and [[DesignHealthIndicators]] from a complete reading of th
 ## [2026-10-02] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | Why LLMs Can't Really Build Software
+
+Created [[ConradIrwin]] and [[Zed]], and updated [[AICodingPractice]], [[MentalModels]], [[HumanCodeResponsibility]], and [[SoftwareEngineering]] from their complete ordered evidence inventories. Added the paired requirement-versus-behavior model loop, diagnostic ambiguity around failed tests, and context omission, recency bias, and hallucination as the source's proposed limits on current LLM-led engineering. Preserved contrary evidence from substantial agent coding and AI-first workflows, and treated the source as a 2025 practitioner hypothesis rather than a fixed capability ceiling. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

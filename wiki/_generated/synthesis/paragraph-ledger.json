@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1ea407e30b3c5ecdf69b6c20d89102eae00ae167da3344d8178bab7d053447a2",
       "fc91dbe1c50209ee6364719b127af6fd7768b1f333ca835fcdf10546e54562bd",
       "d48f5d566dfa43ce571b5f9711914eefe0e8f0044fcec28d863fa5371acec9c8",
       "1a545873321c05d6dab9143a226116f10c53d23b850f88bb13b192365b5eebba",
@@ -753,11 +754,28 @@
       "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
       "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc"
     ],
-    "paragraph_count": 751
+    "paragraph_count": 752
   },
-  "overview_commit": "62fc6418a73448bcb3366195bc15d10c9d1d0435",
-  "overview_digest": "e96af5faa4eb2182a09106beb4f4752f5dba939472d595839dbef9e4ff26b52e",
+  "overview_commit": "a5cbf5d958cfec1e3a2b008d3b2b26add383b75c",
+  "overview_digest": "08bf547338d1fb3179254d9a5d818a14302e1743554905b76682bfd813fdd0ec",
   "paragraphs": [
+    {
+      "id": "1ea407e30b3c5ecdf69b6c20d89102eae00ae167da3344d8178bab7d053447a2",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "Irwin's 2025 essay adds a paired-model account of the engineering work that remains after code generation becomes cheap. [[SoftwareEngineering]] repeatedly compares intended behavior with observed program behavior; tests, logs, and debuggers supply evidence but do not determine whether code, tests, requirements, or the current diagnosis should change. [[AICodingPractice]] therefore depends on continuity of intent and context as well as generation, tool use, and verification, while [[HumanCodeResponsibility]] includes owning that diagnosis and final acceptance. The author attributes current LLM instability to context omission, recency bias, and hallucination, but this remains a practitioner hypothesis rather than a measured or permanent capability boundary; [[Antirez]] and structured AI-first cases show substantial implementation ability, and memory, context tooling, or stronger harnesses may move the limit.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AICodingPractice",
+        "Antirez",
+        "HumanCodeResponsibility",
+        "SoftwareEngineering"
+      ]
+    },
     {
       "id": "fc91dbe1c50209ee6364719b127af6fd7768b1f333ca835fcdf10546e54562bd",
       "primary_topic": "business-and-markets",

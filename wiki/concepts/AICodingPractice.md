@@ -15,7 +15,8 @@ sources:
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - write-less-code-be-more-responsible-orhuns-blog
   - hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha
-last_updated: 2026-09-24
+  - why-llms-cant-really-build-software
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -41,6 +42,8 @@ Parmaksız adds a craft-and-review-cost qualification. Giving an agent broad con
 
 Hutusi supplies an earlier, smaller task-to-code case and the strongest automation forecast in the bounded evidence. ChatGPT took a loosely stated frontend need through staged refinement, JavaScript generation, TypeScript conversion, and debugging guidance, leading the author to call LLMs a possible software-development "silver bullet." Yet the transcript itself preserves the limiting mechanism: the user decomposed the need, supplied missing local facts, corrected copy omissions, and judged the running result. The case therefore supports substantial translation leverage while undercutting the claim that analysis, design, debugging, and verification simply disappear.
 
+Irwin makes that limiting mechanism explicit as a model-comparison loop. The agent may write code, run tests, add logging, and operate a debugger, but engineering still requires a stable representation of both intended behavior and actual behavior so someone can decide whether a failure belongs to the implementation, the test, the requirement, or an incomplete diagnosis. This sharpens the page's general context and ownership rules: good AI coding practice must preserve project intent across local investigations instead of mistaking fluent output or recent context for the whole system.
+
 ## Key Claims
 - AI coding practice requires shared team expectations because inconsistent agent-use habits can create collaboration friction.
 - Engineers remain responsible for generated code, maintainability, and final judgment.
@@ -48,7 +51,7 @@ Hutusi supplies an earlier, smaller task-to-code case and the strongest automati
 - Fast AI output increases the need for small PRs, review aids, pre-PR self-review, WIP limits, and review-capacity awareness.
 - Verification through tests, self-checks, residual review, deterministic feedback, and snapshot diffs is part of the workflow, not a later review responsibility.
 - Junior engineers, independent developers, and intensive coding-agent users need practices that protect learning, human pace, task control, craft enjoyment, sustainable ownership, and task-horizon judgment rather than optimize only for generated-code volume.
-- AI-first, agentic, and LLM-first coding practice depends on clear problem representation, context quality, engineering systems, explicit roles, document boundaries, specs, memories, and verification gates that let agent output be checked, shipped, observed, and rolled back quickly.
+- AI-first, agentic, and LLM-first coding practice depends on clear problem representation, stable requirement and behavior models, context quality, engineering systems, explicit roles, document boundaries, specs, memories, and verification gates that let agent output be diagnosed, checked, shipped, observed, and rolled back quickly.
 
 ## Evidence
 - Team norm: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] warns that teammates without shared assumptions about AI coding can create project friction.
@@ -76,16 +79,19 @@ Hutusi supplies an earlier, smaller task-to-code case and the strongest automati
 - Open practice: [[write-less-code-be-more-responsible-orhuns-blog]] argues that developers should experiment, disclose AI use, and find a personally workable balance without treating AI assistance as a guilty secret.
 - Early task-to-code case: [[hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha]] shows ChatGPT implementing and explaining a small Next.js feature, refining timed output, translating it to TypeScript, and helping resolve type errors.
 - Silver-bullet qualification: [[hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha]] predicts that LLMs may compress traditional engineering stages, but its own transcript still depends on requirement decomposition, local context, debugging, and human acceptance.
+- Engineering-loop model: [[why-llms-cant-really-build-software]] frames software work as repeated comparison of intended behavior with actual program behavior rather than code production alone.
+- Ambiguous feedback: [[why-llms-cant-really-build-software]] argues that a failed test does not itself determine whether the code, test, requirement, or diagnosis should change.
+- Context failure mechanisms: [[why-llms-cant-really-build-software]] names context omission, recency bias, and hallucination as reasons current models lose the stable project view needed for non-trivial iteration.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays rather than controlled comparisons of AI coding workflows, although the bottleneck-aware source cites controlled and telemetry studies as anchors. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study and Hutusi stress automation and role redesign, with Hutusi advancing the strongest silver-bullet claim; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review; Späti stresses manual competence and the future cost of generated systems people do not understand or enjoy maintaining; Antirez stresses that refusing the capability shift is itself a career risk; Guangzhengli stresses context engineering and retrieval choice; the bottleneck-aware source stresses full-SDLC throughput and WIP control; Parmaksız stresses craft enjoyment and the cost of turning implementation into permanent review. Hutusi's case is a small frontend anecdote, not evidence of order-of-magnitude lifecycle productivity or long-term maintainability. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, learning goals, context freshness, review capacity, personal motivation, and the strength of the surrounding verification harness.
+The sources are practitioner essays rather than controlled comparisons of AI coding workflows, although the bottleneck-aware source cites controlled and telemetry studies as anchors. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study and Hutusi stress automation and role redesign, with Hutusi advancing the strongest silver-bullet claim; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review; Späti stresses manual competence and the future cost of generated systems people do not understand or enjoy maintaining; Antirez stresses that refusing the capability shift is itself a career risk; Guangzhengli stresses context engineering and retrieval choice; the bottleneck-aware source stresses full-SDLC throughput and WIP control; Parmaksız stresses craft enjoyment and the cost of turning implementation into permanent review; Irwin argues that current models cannot reliably maintain the paired requirement and behavior models needed for the loop itself. Irwin's cognitive explanation is plausible but unmeasured, and stronger memory, context tooling, agent harnesses, or later models may change the observed boundary. Hutusi's case is a small frontend anecdote, not evidence of order-of-magnitude lifecycle productivity or long-term maintainability. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, learning goals, context freshness, review capacity, personal motivation, and the strength of the surrounding verification harness.
 
 ## What Changed
-- Added the independent-developer source's distinction between dangerous large-grain delegation and controlled file-aware task slicing.
 - Added Agent Team practice, residual-focused agent TDD, and Späti's task-horizon warning as complementary checks on AI coding speed.
 - Added bottleneck-aware AI coding as the system-flow qualification: faster generation only matters when review, WIP, verification, and upstream design constraints are managed.
 - Added the mixed-workflow judgment that review labor, craft enjoyment, and motivation are part of responsible task allocation, not incidental preferences.
 - Added Hutusi's early task-to-code case and treated its silver-bullet forecast as a claim tensioned by the example's own requirement, context, debugging, and acceptance work.
+- Added Irwin's paired-model loop: agents need stable requirement and behavior representations, not only code-generation and tool-use ability.
 
 ## Related Concepts
 - [[HumanCodeResponsibility]] - accountability is the foundation of the article's practice model.
@@ -106,3 +112,4 @@ The sources are practitioner essays rather than controlled comparisons of AI cod
 - [[BottleneckAwareAICoding]] - frames AI coding practice around delivery throughput rather than local generation speed.
 - [[SoftwareEngineering]] - places AI coding inside the broader lifecycle of understanding, delivery, operation, and maintenance.
 - [[EssentialAndAccidentalComplexity]] - frames the question of whether LLMs remove, relocate, or conceal difficult software work.
+- [[MentalModels]] - requirement and implementation models make failures and corrections interpretable across iterations.

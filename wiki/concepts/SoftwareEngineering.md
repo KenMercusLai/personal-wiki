@@ -6,7 +6,8 @@ sources:
   - hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha
   - etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack
   - notes-to-myself-on-software-engineering-featured-stories-medium
-last_updated: 2026-10-01
+  - why-llms-cant-really-build-software
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ The Etsy interview makes “operable” organizationally concrete. [[JohnAllspaw
 
 Chollet adds product judgment and ethical direction to that lifecycle. Engineering includes deciding what not to build, accounting for maintenance, documentation, and user-cognition costs, formalizing recurring work, automating appropriate checks, and creating conditions where uncertain choices can be tested and reverted early. First-principles simplicity is therefore not an aesthetic preference alone: it is a way to reduce total system burden while keeping user purpose and broader impact visible.
 
+Irwin supplies a compact cognitive loop beneath that lifecycle: form a model of requirements, implement, form a model of actual program behavior, compare the two, and revise code or requirements. This explains why code generation and tool use do not exhaust engineering. Tests, logs, and debuggers create observations, but reliable iteration still depends on preserving intent, integrating evidence, and choosing which model or artifact needs correction.
+
 ## Key Claims
 - Software engineering coordinates product understanding, abstraction, implementation, verification, delivery, operation, and maintenance rather than equating engineering with code entry.
 - Its recurring goals are higher quality, shorter delivery time, lower cost, and better fit with changing user needs.
@@ -29,7 +32,7 @@ Chollet adds product judgment and ethical direction to that lifecycle. Engineeri
 - Feedback speed links agile practice, automated testing, CI/CD, and operations because earlier evidence reduces the cost of mistaken assumptions.
 - Engineering responsibility continues after implementation through deployment, observation, operation, and learning from production behavior.
 - Engineering judgment includes rejecting low-value complexity, making recurring rules explicit, preserving reversibility, and considering total user and social impact.
-- LLM-assisted development may reorganize engineering roles and stages, but generated code remains inside a wider system of context, acceptance, verification, and ownership.
+- LLM-assisted development may reorganize engineering roles and stages, but generated code remains inside a wider model-comparison loop of context, diagnosis, acceptance, verification, and ownership.
 
 ## Evidence
 - Engineering purpose and crisis: [[hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha]] connects the field's emergence to late, costly, low-quality large software projects and defines its aim around working software, quality, speed, and cost.
@@ -40,14 +43,17 @@ Chollet adds product judgment and ethical direction to that lifecycle. Engineeri
 - Production loop: [[etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack]] links simple deploy authority with responsibility for monitoring, alerting, metrics, and failure discovery.
 - Product restraint and process design: [[notes-to-myself-on-software-engineering-featured-stories-medium]] connects feature cost, first-principles simplification, explicit workflows, automation, CI, tests, and early reversal.
 - Ethical scope: [[notes-to-myself-on-software-engineering-featured-stories-medium]] argues that technical choices shape access, incentives, benefits, harms, and capability use rather than remaining morally neutral.
+- Iterative model loop: [[why-llms-cant-really-build-software]] describes engineering as maintaining models of requirements and actual behavior, identifying their differences, and deciding whether code or requirements should change.
+- Tool-use boundary: [[why-llms-cant-really-build-software]] credits LLMs with writing and updating code, running tests, logging, and debugging while arguing that these capabilities do not establish stable ownership of the loop.
 
 ## Counterevidence & Qualifications
-All three sources are practitioner accounts rather than comparative studies. The historical essay's periodization can make overlapping practices look like clean successive eras, and its optimistic LLM forecast is grounded in a small frontend exercise rather than long-lived production delivery. The Etsy interview supplies one executive's 2016 organizational ideal without incident or workforce outcomes. Its “engineers, not developers” wording should not be treated as a credential hierarchy, and broad ownership needs platform support, sustainable on-call practice, access control, and psychological safety. Chollet's advice is a personal checklist whose simplicity, coverage, decision-speed, agency, and ethical prescriptions need adaptation to risk, power, regulation, accessibility, and resource constraints.
+All four sources are practitioner accounts rather than comparative studies. The historical essay's periodization can make overlapping practices look like clean successive eras, and its optimistic LLM forecast is grounded in a small frontend exercise rather than long-lived production delivery. Irwin supplies a useful counterweight but no controlled capability threshold or proof that unstable mental models are the unique cause of agent failure; model memory, tools, harnesses, and later architectures may change the boundary. The Etsy interview supplies one executive's 2016 organizational ideal without incident or workforce outcomes. Its “engineers, not developers” wording should not be treated as a credential hierarchy, and broad ownership needs platform support, sustainable on-call practice, access control, and psychological safety. Chollet's advice is a personal checklist whose simplicity, coverage, decision-speed, agency, and ethical prescriptions need adaptation to risk, power, regulation, accessibility, and resource constraints.
 
 ## What Changed
 - Extended the field's boundary from delivery into production observation, operation, and shared cross-domain understanding.
 - Qualified the engineer/developer distinction as a responsibility model rather than a universal title hierarchy.
 - Added product restraint, reversible experimentation, explicit process design, and ethical impact as engineering responsibilities.
+- Added the requirement-versus-behavior model loop as the mechanism connecting implementation evidence to corrective judgment.
 
 ## Related Concepts
 - [[EssentialAndAccidentalComplexity]] - distinguishes domain reasoning from implementation friction within software work.
@@ -60,3 +66,5 @@ All three sources are practitioner accounts rather than comparative studies. The
 - [[InternalSoftwareQuality]] - keeps future change affordable through maintainable design.
 - [[OpenSourceProjectMaintenance]] - adds distributed collaboration, release, support, and stewardship obligations.
 - [[APIDesign]] - applies user, workflow, and domain-model reasoning to developer-facing interfaces.
+- [[MentalModels]] - represent intended and actual behavior so engineering feedback can be interpreted.
+- [[HumanCodeResponsibility]] - keeps intent, diagnosis, and acceptance accountable when agents generate code.

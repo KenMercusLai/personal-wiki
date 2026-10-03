@@ -6,7 +6,8 @@ sources:
   - while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill
   - conceptual-debt-is-worse-than-technical-debt-all-things-product-management-medium
   - expiring-vs-long-term-knowledge-collaborative-fund
-last_updated: 2026-09-28
+  - why-llms-cant-really-build-software
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,6 +19,8 @@ The sources describe mental models at two scales. Simmons places reusable reason
 
 All three uses treat a model as a simplifying representation rather than reality itself. Cross-domain reach is valuable only when an analogy preserves causal structure; durability depends on the mechanism continuing to hold; and product familiarity helps only when the borrowed model matches actual behavior. Product teams also influence rather than directly control user models: inconsistent rules, redundant concepts, and surprising outcomes can create [[ConceptualDebt]], but research and use remain necessary to learn whether the intended representation is understood.
 
+Irwin adds an active engineering use: a developer maintains one model of requirements and another of what the code actually does, then uses observed differences to decide what to change. In this frame, the value of a model is not only compression or user comprehension but continuity across an investigation. Tests, logs, and debugger output become evidence interpreted against both models; without that stable reference, a failed test can prompt arbitrary changes to code, tests, or requirements.
+
 ## Key Claims
 - A useful model compresses a recurring pattern into a reusable representation.
 - Models can retain value longer than topical information and transfer across fields.
@@ -25,7 +28,7 @@ All three uses treat a model as a simplifying representation rather than reality
 - Durable models can place short-lived measurements and events in causal context without making those facts irrelevant.
 - Product-specific mental models let users predict available objects, actions, and results.
 - A system is easier to learn when its visible conceptual model is consistent with users' expectations and its actual behavior.
-- Applying or designing around a model still requires checking its fit to the present domain and evidence.
+- Applying, maintaining, or designing around a model still requires checking its fit to the present domain and evidence, especially when two nearby representations must be compared across changing context.
 
 ## Evidence
 - Knowledge-density hierarchy: [[while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill]] ranks models as more condensed than book and field summaries.
@@ -36,13 +39,16 @@ All three uses treat a model as a simplifying representation rather than reality
 - Product-system model: [[conceptual-debt-is-worse-than-technical-debt-all-things-product-management-medium]] describes users reasoning about a product through its core objects, actions, and expected outcomes.
 - Mismatch effects: [[conceptual-debt-is-worse-than-technical-debt-all-things-product-management-medium]] associates surprising behavior, redundant concepts, and exceptions with slower learning, errors, and frustration.
 - Design guidance: [[conceptual-debt-is-worse-than-technical-debt-all-things-product-management-medium]] recommends familiar representations, consistent behavior, and unifying concepts that do not differ functionally.
+- Engineering comparison: [[why-llms-cant-really-build-software]] describes effective software work as maintaining models of requirements and actual behavior, identifying their differences, and changing code or requirements accordingly.
+- Diagnostic continuity: [[why-llms-cant-really-build-software]] argues that engineers can suspend a larger problem, investigate locally, and return to the prior context, while current generative models often lose or distort that reference.
 
 ## Counterevidence & Qualifications
-All three sources are practitioner essays rather than controlled comparisons. Simmons's hierarchy does not establish that models consistently outperform books, summaries, or domain-specific instruction, and his commercial interest in mental-model education warrants caution. Housel's examples do not show that long-lived explanations always improve retention or decisions, and a framework can survive in memory after its assumptions have expired. Compact models discard detail, broad transfer can create false analogies, and memorable names can give weak reasoning an appearance of rigor. Rusan's alignment ideal also requires qualification: users differ, existing expectations may be wrong or inaccessible, and genuinely novel capabilities sometimes need new concepts. Models therefore need testing against current evidence, causal fit, and observed comprehension.
+All four sources are practitioner essays rather than controlled comparisons. Simmons's hierarchy does not establish that models consistently outperform books, summaries, or domain-specific instruction, and his commercial interest in mental-model education warrants caution. Housel's examples do not show that long-lived explanations always improve retention or decisions, and a framework can survive in memory after its assumptions have expired. Compact models discard detail, broad transfer can create false analogies, and memorable names can give weak reasoning an appearance of rigor. Rusan's alignment ideal also requires qualification: users differ, existing expectations may be wrong or inaccessible, and genuinely novel capabilities sometimes need new concepts. Irwin uses "mental model" functionally rather than presenting a cognitive or architectural measurement, so the term should not be mistaken for proof that LLM failure has one unique internal cause. Models therefore need testing against current evidence, causal fit, observed comprehension, and task outcomes.
 
 ## What Changed
 - Added time horizon: reusable causal models can interpret short-lived facts and compound across later observations.
 - Qualified durability by requiring current evidence that a model's mechanism and assumptions still hold.
+- Added paired requirement and implementation models as an iterative engineering use, with continuity across diagnosis as the key constraint.
 
 ## Related Concepts
 - [[CircleOfCompetence]] - a mental model for keeping decisions inside understood boundaries.
@@ -52,3 +58,5 @@ All three sources are practitioner essays rather than controlled comparisons. Si
 - [[ConceptualDebt]] - accumulates when product objects, actions, and rules produce a confusing or misleading user model.
 - [[CognitiveOverheadInProductDesign]] - measures part of the mental work required when a product model is not immediately legible.
 - [[KnowledgeDurability]] - explains why some causal models retain and compound their usefulness longer than current facts.
+- [[SoftwareEngineering]] - compares intended and actual behavior through maintained project models.
+- [[LLMContextManagement]] - affects whether an agent can preserve a model across long or nested work.
