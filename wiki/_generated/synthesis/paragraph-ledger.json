@@ -757,12 +757,13 @@
       "4a311487c1b709c0066465565a15a1bf36ba73c310af0890c3c0fc440bb9adac",
       "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
       "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc",
-      "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e"
+      "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e",
+      "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e"
     ],
-    "paragraph_count": 757
+    "paragraph_count": 758
   },
-  "overview_commit": "cca1d850adcf4ccd5427c62923e38bf67782d603",
-  "overview_digest": "72d09941762d31eef75c58d13a7e4455a983ddce4988755cde3856889e1ba0cb",
+  "overview_commit": "9aedcc2b8a15a4a9dbd31b2bc21e95a98d090801",
+  "overview_digest": "cca9b6c611fca9d902b768bbc031c601da90310654b9d19c3dfbe8ea8bd5cd39",
   "paragraphs": [
     {
       "id": "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
@@ -15336,6 +15337,24 @@
         "MikeLove",
         "NicheToWin",
         "Pleco"
+      ]
+    },
+    {
+      "id": "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[BryanKennedy]] source adds [[LinuxServerHardening]] as a maintainable first-login baseline beneath the wiki's broader [[ProductionAccessControl]] and [[RemoteAdministrationExposure]] models. Its durable sequence combines current packages, a named non-root administrator, individual public keys, sudo, disabled remote root and password login, source-address restrictions, minimal firewall exposure, unattended security patches, login-attempt monitoring, log review, and preserved recovery access. The synthesis treats these as distinct layers whose order matters: establish and test identity, privilege escalation, and recovery before activating restrictions that can cause lockout. The exact checklist remains a 2013 Debian/Ubuntu-oriented practitioner prescription. Account-creation and sudoers commands need distribution-specific care; fixed office-IP rules are brittle for dynamic or roaming administrators; a root password may be less desirable than provider-console recovery; Logwatch needs mail delivery; and Fail2ban adds less protection against SSH password guessing once passwords are disabled. Modern provider firewalls, MFA-backed access, VPN or identity-aware administration, key lifecycle, configuration management, backup verification, vulnerability management, and rollback testing remain outside the source. No image references were present, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BryanKennedy",
+        "LinuxServerHardening",
+        "ProductionAccessControl",
+        "RemoteAdministrationExposure"
       ]
     }
   ],

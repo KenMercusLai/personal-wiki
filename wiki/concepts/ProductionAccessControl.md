@@ -4,7 +4,8 @@ type: concept
 tags: [security, operations, production, access-control]
 sources:
   - an-infrastructure-guide-for-founders-starting-up-security-medium
-last_updated: 2026-09-13
+  - my-first-5-minutes-on-a-server
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,15 +13,17 @@ knowledge_schema: synthesis-v1
 [[ProductionAccessControl]] is the design of administrative paths, permissions, monitoring, and temporary grants that govern how engineers can directly interact with production systems.
 
 ## Current Synthesis
-The source accepts that engineers may sometimes need invasive production access during an outage, such as SSH, sudo, or packet capture. The design recommendation is to make that path intentional and rare: observability should reduce the need for direct host access, bastion hosts can centralize the route, and temporary grants can make stolen credentials or former employees less dangerous.
+The sources describe production access at two layers. The startup-infrastructure guide treats direct host entry as an exceptional crisis path that should be reduced through observability, centralized through a bastion, and granted temporarily. The server checklist supplies a host-level implementation: a named non-root deploy account, per-developer public keys, sudo for privileged work, disabled remote root and password login, source-address restrictions, and a protected recovery credential.
 
-This control also protects reliability, not only confidentiality. Casual manual production changes create drift, and drift can become an outage source. Treating administrative access as exceptional therefore limits both compromise risk and operator-introduced inconsistency.
+Together they make production access an intentional system rather than an SSH setting. Identity, authentication, network path, privilege escalation, duration, logging, revocation, recovery, and change control all matter. This protects reliability as well as confidentiality: casual manual work creates drift, while brittle restrictions can create lockout. A safe design therefore minimizes routine access without eliminating tested emergency access.
 
 ## Key Claims
 - Direct production access may be necessary in crises but should be designed as rare and special.
+- Named non-root accounts and individual public keys provide stronger administrative attribution and revocation boundaries than shared remote root or password login.
 - Monitoring and centralized logs can reduce the need for invasive host-level troubleshooting.
 - Bastion-host models create an intentional route for high-security administrative access.
 - Temporary grants reduce risk from stolen credentials and departed employees.
+- Access restrictions require a tested recovery path so hardening does not turn an authentication error or network change into lockout.
 - Limiting manual production intervention also reduces drift-induced outages.
 
 ## Evidence
@@ -29,12 +32,16 @@ This control also protects reliability, not only confidentiality. Casual manual 
 - Bastion route: [[an-infrastructure-guide-for-founders-starting-up-security-medium]] recommends a bastion-host network and authentication model for administrative access.
 - Temporary access: [[an-infrastructure-guide-for-founders-starting-up-security-medium]] cites temporary production grants as a way to lower stolen-credential and former-employee risk.
 - Drift reduction: [[an-infrastructure-guide-for-founders-starting-up-security-medium]] links production-access limits to reducing manually invoked drift.
+- Host identity and authentication: [[my-first-5-minutes-on-a-server]] uses a deploy account, authorized public keys, sudo, and disabled SSH root and password login.
+- Network restriction: [[my-first-5-minutes-on-a-server]] limits SSH by source address in both OpenSSH and UFW.
+- Recovery path: [[my-first-5-minutes-on-a-server]] preserves a long root password for loss of SSH or sudo access.
 
 ## Counterevidence & Qualifications
-Overly rigid production access can slow emergency diagnosis if monitoring, runbooks, and temporary-access workflows are not reliable. The source argues for controlled availability of crisis access, not permanent elimination of direct troubleshooting.
+Overly rigid production access can slow emergency diagnosis if monitoring, runbooks, temporary-access workflows, and provider-console recovery are not reliable. The 2013 host checklist assumes fixed office addresses and a usable root password; dynamic networks and cloud images may make those choices brittle or undesirable. Public keys improve the remote-login boundary but still need per-person ownership, secure private-key handling, rotation, revocation, and offboarding. The sources argue for controlled availability of crisis access, not permanent elimination of direct troubleshooting.
 
 ## What Changed
-- Created the concept for the article's bastion, temporary access, monitoring, and drift-control guidance.
+- Added the host-level account, key, sudo, SSH, source-network, and recovery layers beneath the existing organizational access model.
+- Made lockout prevention and tested emergency recovery explicit design requirements.
 
 ## Related Concepts
 - [[RemoteAdministrationExposure]] - production administration paths are a high-impact remote-access surface.
@@ -42,3 +49,4 @@ Overly rigid production access can slow emergency diagnosis if monitoring, runbo
 - [[ServiceObservability]] - monitoring and performance tools substitute for invasive troubleshooting.
 - [[StartupSecurityDebt]] - casual production access is an early workflow that can harden into debt.
 - [[InfrastructureAsCode]] - limiting manual intervention keeps production closer to reviewed infrastructure definitions.
+- [[LinuxServerHardening]] - implements part of the production-access model on an individual Linux host.

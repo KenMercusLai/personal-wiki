@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: cca1d850adcf4ccd5427c62923e38bf67782d603
+as_of_overview_commit: 9aedcc2b8a15a4a9dbd31b2bc21e95a98d090801
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, explicit boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1050
-source_count: 1050
-paragraph_count: 757
+episode_count: 1051
+source_count: 1051
+paragraph_count: 758
 topic_count: 9
 ---
 

@@ -8460,3 +8460,11 @@ Created [[DockerResourceCleanup]] and updated [[Docker]] from its complete order
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | My First 5 Minutes On A Server; Or, Essential Security for Linux Servers
+
+Created [[BryanKennedy]] and [[LinuxServerHardening]], and updated [[ProductionAccessControl]] and [[RemoteAdministrationExposure]] from their complete ordered evidence inventories. Added the layered relationship among named non-root administration, public-key SSH, sudo, root and password-login restrictions, source-address policy, host firewalling, automated security updates, login monitoring, log review, and tested recovery. Preserved the checklist's 2013 Debian/Ubuntu scope and qualified its account creation, sudoers, fixed-IP, root-password, mail-delivery, Fail2ban-overlap, modern-access, backup, and rollback gaps. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
