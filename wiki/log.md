@@ -8452,3 +8452,11 @@ Created [[HighIntensityCircuitTraining]], [[BrettKlika]], [[ChrisJordan]], and [
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | 小贴士：Docker清理作弊手册
+
+Created [[DockerResourceCleanup]] and updated [[Docker]] from its complete ordered evidence inventory. Distinguished stopped containers from deleted containers, dangling images from all container-unreferenced images, and combined system pruning from object-specific volume and network cleanup. Added the order-sensitive warning that deleting containers can expand the image-prune candidate set, while qualifying the commands as a 2019, unversioned practitioner cheat sheet without complete cache, filter, persistent-data, or recovery guidance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

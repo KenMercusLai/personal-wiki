@@ -8,7 +8,8 @@ sources:
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
   - improving-critical-infrastructure-rollouts-labs
   - increasing-attacker-cost-using-immutable-infrastructure
-last_updated: 2026-09-30
+  - docker-qing-li-zuo-bi-shou-ce
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,6 +25,8 @@ Spotify adds the runtime-lifecycle boundary. Docker grew from a prototype substr
 
 Diogo Mónica's compromise demonstration adds the filesystem and response boundary. Docker images remain unchanged while normal containers record runtime writes in a copy-on-write layer that `docker diff` can inspect and `docker commit` can preserve. Launching a fresh container restores the packaged application, while `--read-only` separately blocks writes to the root filesystem. These mechanisms improve restoration and constrain persistence, but they do not neutralize remote code execution or protect credentials, databases, external systems, and explicitly writable mounts.
 
+The cleanup cheat sheet adds a local resource-lifecycle boundary. Stopped containers remain until removed unless they were launched with `--rm`; dangling images are a narrower category than all images unused by containers; and volumes and networks have their own prune commands. Cleanup is reference- and order-sensitive: deleting containers first can make every local image eligible for `docker image prune -a`, so disk reclamation must be treated as a scoped destructive operation rather than a consequence-free maintenance step.
+
 ## Key Characteristics
 - Makes [[TwelveFactorApp]] logging and environment-variable configuration concrete through container runtime behavior.
 - Supports minimal artifact shipping and read-only root filesystems that can reduce post-compromise tools and persistence paths.
@@ -31,7 +34,7 @@ Diogo Mónica's compromise demonstration adds the filesystem and response bounda
 - Exposes brittle application startup assumptions around config files, data directories, and external services.
 - Encourages runtime configuration, but does not eliminate the need to design how runtime settings are supplied and validated.
 - Benefits from deliberate base-image and Dockerfile choices that balance size, dependency compatibility, repeatability, and caching.
-- Requires container-native operational behavior such as health checks, explicit writable paths, storage discipline, and graceful signal handling.
+- Requires container-native lifecycle discipline across health checks, writable paths, storage, graceful signal handling, and reference-aware cleanup of retained resources.
 
 ## Evidence
 - Twelve-factor fit: [[12-fractured-apps-kelsey-hightower-medium]] connects Docker logs with stdout event streams and Docker runtime flags with environment-variable configuration.
@@ -50,14 +53,18 @@ Diogo Mónica's compromise demonstration adds the filesystem and response bounda
 - Writable-layer visibility: [[increasing-attacker-cost-using-immutable-infrastructure]] uses `docker diff` to expose a changed web page and an added PHP shell after compromise.
 - Restore and preserve: [[increasing-attacker-cost-using-immutable-infrastructure]] commits the compromised layer for inspection and launches a fresh container from the original application image.
 - Read-only boundary: [[increasing-attacker-cost-using-immutable-infrastructure]] shows `--read-only` blocking the demonstrated defacement while acknowledging continued code execution and data-exfiltration risk.
+- Resource-specific cleanup: [[docker-qing-li-zuo-bi-shou-ce]] distinguishes container, image, volume, and network prune commands and describes the narrower default scope of `docker system prune` in its 2019 context.
+- Cleanup order: [[docker-qing-li-zuo-bi-shou-ce]] warns that removing all containers before `docker image prune -a` can make every local image eligible for deletion.
 
 ## Qualifications
-The sources are practitioner reflections, not comprehensive Docker ecosystem evaluations. The 2015 essay focuses on startup design, the 2018 retrospective on one organization's production container practice, and the bmpi.dev note on one Python native-dependency build and Fargate deployment. Spotify's first-party account documents several failures and a control design but supplies no comparative incident, detection, or recovery measurements; its rollout chart could not be retrieved. Mónica's 2016 example is deliberately vulnerable and demonstrates filesystem behavior rather than complete containment or forensic procedure. Image immutability does not imply that a normal container root is read-only, and restoring a container does not restore or validate mutable external state.
+The sources are practitioner reflections, not comprehensive Docker ecosystem evaluations. The 2015 essay focuses on startup design, the 2018 retrospective on one organization's production container practice, and the bmpi.dev note on one Python native-dependency build and Fargate deployment. Spotify's first-party account documents several failures and a control design but supplies no comparative incident, detection, or recovery measurements; its rollout chart could not be retrieved. Mónica's 2016 example is deliberately vulnerable and demonstrates filesystem behavior rather than complete containment or forensic procedure. The cleanup note is a short 2019 cheat sheet without a pinned Docker version, build-cache treatment, filters, recovery guidance, or a full account of persistent-volume risk. Image immutability does not imply that a normal container root is read-only, restoring a container does not restore or validate mutable external state, and current cleanup behavior must be verified against the execution environment.
 
 ## What Changed
 - Added copy-on-write drift inspection and compromised-layer preservation as incident-response capabilities.
 - Distinguished unchanged images, writable container layers, and the separate `--read-only` runtime control.
 - Added the security limit that container replacement and read-only roots do not remediate code execution or mutable external state.
+- Added object-specific cleanup rules for containers, images, volumes, and networks.
+- Added the order-sensitive risk that removing containers can expand the images eligible for broad pruning.
 
 ## Relationships
 - [[KelseyHightower]] - author uses Docker as the practical demonstration environment.
@@ -74,3 +81,4 @@ The sources are practitioner reflections, not comprehensive Docker ecosystem eva
 - [[DiogoMonica]] - practitioner demonstrating Docker filesystem controls during a simulated compromise.
 - [[ImmutableInfrastructure]] - known image artifacts support replacement while runtime controls determine permitted drift.
 - [[IncidentManagement]] - Docker can preserve filesystem evidence and restore the packaged service as separate response steps.
+- [[DockerResourceCleanup]] - object references and command order determine which local Docker resources can be reclaimed.

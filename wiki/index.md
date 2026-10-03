@@ -1073,6 +1073,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Be Lucky - It's an Easy Skill to Learn](sources/be-lucky-its-an-easy-skill-to-learn.md) - Richard Wiseman links perceived luck to opportunity detection, intuition, expectation, and resilience while leaving intervention design and causal strength underreported.
 - [从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流](sources/claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian.md) - Li Hui routes Claude coding work among synchronous collaboration, bounded asynchronous autonomy, and staged exploration, with checkpoints, specialized agents, and screenshot feedback qualified by anecdotal evidence.
 - [FOUR：一个 27 岁零基础无业游民的第一个开源作品](sources/four-a-zero-experience-developers-first-open-source-app.md) - SketchK recounts turning a career-change experiment into a researched, shipped, and open-sourced iOS app while leaving expertise and hiring outcomes unproven.
+- [小贴士：Docker清理作弊手册](sources/docker-qing-li-zuo-bi-shou-ce.md) - 伊布按容器、镜像、卷与网络整理 Docker 清理命令，并警告删除顺序会扩大后续镜像清理范围。
 
 ## Entities
 - [Brett Klika](entities/BrettKlika.md) - Exercise-programming author represented through a qualified body-weight HICT protocol for time-constrained adults.
@@ -4193,5 +4194,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Naked Brands](concepts/NakedBrands.md) - Influencer-led brand archetype in which visible personality, direct communication, and audience participation become central trust and distribution mechanisms.
 - [Design Health Indicators](concepts/DesignHealthIndicators.md) - Paired use of design-team morale and current product quality to infer organizational conditions, direction, and intervention needs.
 - [Indie Software Business](concepts/IndieSoftwareBusiness.md) - Independent product operating model joining software with niche selection, differentiated inputs, pricing, distribution, supplier relationships, and continued investment.
+- [Docker Resource Cleanup](concepts/DockerResourceCleanup.md) - Reference- and order-aware removal of unused Docker containers, images, volumes, and networks.
 
 ## Syntheses
