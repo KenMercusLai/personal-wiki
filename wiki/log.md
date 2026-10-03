@@ -8436,3 +8436,11 @@ Created [[NathanHauke]], [[DavidRenardy]], [[ACsploit]], and [[AlgorithmicComple
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | FOUR：一个 27 岁零基础无业游民的第一个开源作品
+
+Created [[SketchK]] and [[FOUR]], and updated [[JobApplicationSideProjects]], [[DeliberatePractice]], and [[TechCommunityParticipation]] from their complete ordered evidence inventories. Added an end-to-end career-entry artifact spanning competitor research, typography, implementation, App Store release, and open-source publication; qualified the 10,000-hour theme as motivational framing rather than an expertise threshold; and added conference observation as a route into output-mediated technical reputation. Preserved missing hiring, adoption, iteration, maintenance, and comparative-outcome evidence, plus unequal access to unpaid learning and community visibility. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

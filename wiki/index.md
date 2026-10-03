@@ -1071,8 +1071,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pleco: Building a Business, not an App](sources/pleco-building-a-business-not-an-app.md) - Ben Thompson uses Pleco to argue that durable indie software combines niche focus, licensed differentiation, pricing, modular monetization, and cross-platform brand coverage.
 - [Be Lucky - It's an Easy Skill to Learn](sources/be-lucky-its-an-easy-skill-to-learn.md) - Richard Wiseman links perceived luck to opportunity detection, intuition, expectation, and resilience while leaving intervention design and causal strength underreported.
 - [从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流](sources/claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian.md) - Li Hui routes Claude coding work among synchronous collaboration, bounded asynchronous autonomy, and staged exploration, with checkpoints, specialized agents, and screenshot feedback qualified by anecdotal evidence.
+- [FOUR：一个 27 岁零基础无业游民的第一个开源作品](sources/four-a-zero-experience-developers-first-open-source-app.md) - SketchK recounts turning a career-change experiment into a researched, shipped, and open-sourced iOS app while leaving expertise and hiring outcomes unproven.
 
 ## Entities
+- [SketchK](entities/SketchK.md) - Career-changing iOS developer who used FOUR as his first released and open-sourced software artifact.
+- [FOUR](entities/FOUR.md) - Four-goal iOS time tracker built around the popular 10,000-hour rule and released as open-source code.
 - [Nathan Hauke](entities/NathanHauke.md) - Security researcher represented through worst-case input analysis and algorithmic-complexity denial-of-service cases.
 - [David Renardy](entities/DavidRenardy.md) - Security researcher represented through worst-case input analysis and algorithmic-complexity denial-of-service cases.
 - [ACsploit](entities/ACsploit.md) - Open-source project for generating worst-case algorithm inputs and identifying ReDoS risks.
