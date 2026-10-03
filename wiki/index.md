@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Denial of Service with a Fistful of Packets: Exploiting Algorithmic Complexity Vulnerabilities](sources/denial-of-service-with-a-fistful-of-packets-exploiting-algorithmic-complexity-vulnerabilities.md) - Nathan Hauke and David Renardy show how valid PDF, VNC, and password-estimation inputs can trigger disproportionate resource use, then advocate layered limits and worst-case testing.
 - [Actions, not words, reveal our real values](sources/actions-not-words-reveal-our-real-values.md) - Derek Sivers argues that conduct reveals operative priorities more reliably than declarations, while constraints limit how conclusively behavior identifies desire.
 - [Evan Williams: How Odeo Screwed Up](sources/evan-williams-how-odeo-screwed-up.md) - Liz Gannes reports Williams's account of Odeo's broad scope, weak founder-user fit, delayed response, premature financing, and attempted refocus.
 - [On the Automatic Generation of Knowledge Connections](sources/on-the-automatic-generation-of-knowledge-connections.md) - Fraga and colleagues combine shared concepts and semantic relatedness to generate an Obsidian navigation graph while leaving human relevance, learning outcomes, and large-vault performance unvalidated.
@@ -1072,6 +1073,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流](sources/claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian.md) - Li Hui routes Claude coding work among synchronous collaboration, bounded asynchronous autonomy, and staged exploration, with checkpoints, specialized agents, and screenshot feedback qualified by anecdotal evidence.
 
 ## Entities
+- [Nathan Hauke](entities/NathanHauke.md) - Security researcher represented through worst-case input analysis and algorithmic-complexity denial-of-service cases.
+- [David Renardy](entities/DavidRenardy.md) - Security researcher represented through worst-case input analysis and algorithmic-complexity denial-of-service cases.
+- [ACsploit](entities/ACsploit.md) - Open-source project for generating worst-case algorithm inputs and identifying ReDoS risks.
 - [Li Hui](entities/LiHui.md) - Practitioner-author who translates reported Anthropic team cases into a task-contingent Claude coding workflow.
 - [Evan Williams](entities/EvanWilliams.md) - Odeo CEO represented through a candid 2006 failure retrospective on scope, user fit, capital, and judgment.
 - [Odeo](entities/Odeo.md) - Podcasting startup represented as a case of premature breadth, staffing, financing, and delayed strategic adjustment.
@@ -2816,6 +2820,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Algorithmic Complexity Vulnerabilities](concepts/AlgorithmicComplexityVulnerabilities.md) - Denial-of-service weaknesses in which valid attacker-controlled input drives unacceptable worst-case time or space consumption.
 - [Task-Contingent AI Collaboration](concepts/TaskContingentAICollaboration.md) - Selecting synchronous, asynchronous, or exploratory human-agent collaboration according to task risk, clarity, uncertainty, and reversibility.
 - [Automatic Knowledge Connections](concepts/AutomaticKnowledgeConnections.md) - Machine-proposed navigation edges among passages, concepts, and authors derived from shared concepts and semantic relatedness.
 - [Clarity Metrics](concepts/ClarityMetrics.md) - Actionable operational measures designed to predict or explain customer behavior and guide improvement.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
       "2e0f6dcde44dc219153161c1d8cd39fcc6b745358a96c04b87e4cec1f6bca9a5",
       "1bc1facc36353f4025a834e27e039c81a05ac6ad80a326450dc7d25f505e05be",
       "f048a992d596b8cff2f4e4647ba2939f4e495851e0d8eb68e34a6ebd1f3ec031",
@@ -758,11 +759,34 @@
       "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc",
       "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e"
     ],
-    "paragraph_count": 756
+    "paragraph_count": 757
   },
-  "overview_commit": "61fe6d63b48f07b7555dd1f1b64d224d1f64249f",
-  "overview_digest": "847abd03619fa83cf0e2fb00e0755a7e4f32bd4d5a304e7895331b3108eec3d5",
+  "overview_commit": "fe7a8c40453e101af4c61764249c64ffb6e72ed8",
+  "overview_digest": "91f5d73f0aaada53b154d939b58c5f63fe18787ad4362d2cf1a9f7d0a98bd24b",
   "paragraphs": [
+    {
+      "id": "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[NathanHauke]] and [[DavidRenardy]] source adds [[AlgorithmicComplexityVulnerabilities]] as a security boundary on average-case software design. Its common mechanism is cost asymmetry: syntactically valid, often small or unauthenticated inputs push intended parser, logging, matching, or error-handling paths toward excessive CPU, memory, disk use, or nontermination. The three cases separate distinct amplification structures: PDF streams alternate decompression growth with ASCII-hex contraction so many CPU-heavy mini-streams fit within a page and memory ceiling; VNC servers repeatedly log expanding connected-client state until disk growth becomes quadratic and file-descriptor exhaustion can open an infinite loop; and zxcvbn combines long passwords, ambiguous l33t substitutions, and quadratic dictionary matching. The defensive synthesis joins algorithm choice, structural and length restrictions, connection caps, resource budgets, bounded error handling, and adversarial input generation through [[ACsploit]]. This extends [[SystemReliability]] from ambient overload into hostile workload shape and complements [[ChaosEngineering]] with algorithm-specific inputs. The evidence remains one presentation summary without exploit artifacts, vendor advisories, independent reproduction, current-version testing, or complete benchmark conditions; affected implementations should be treated as historical claims, and the slogan that these vulnerabilities \"are not bugs\" does not prevent intended behavior from being an unacceptable design or security defect. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ACsploit",
+        "AlgorithmicComplexityVulnerabilities",
+        "ChaosEngineering",
+        "DavidRenardy",
+        "NathanHauke",
+        "SystemReliability"
+      ]
+    },
     {
       "id": "2e0f6dcde44dc219153161c1d8cd39fcc6b745358a96c04b87e4cec1f6bca9a5",
       "primary_topic": "ai-and-technology",

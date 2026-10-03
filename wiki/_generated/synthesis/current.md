@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: 61fe6d63b48f07b7555dd1f1b64d224d1f64249f
-summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1046
-source_count: 1046
-paragraph_count: 756
+as_of_overview_commit: fe7a8c40453e101af4c61764249c64ffb6e72ed8
+summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, explicit boundaries, feedback, incentives, and contextual judgment."
+episode_count: 1047
+source_count: 1047
+paragraph_count: 757
 topic_count: 9
 ---
 
@@ -16,12 +16,12 @@ topic_count: 9
 
 ## Executive Summary
 
+- [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice.
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans. [[TaskContingentAICollaboration]] makes the routing variables explicit: consequential or coupled work stays synchronous, clear repetitive execution can become bounded asynchronous autonomy, and unfamiliar domains call for staged exploration; checkpoints make attempts reversible, but [[HumanCodeResponsibility]] and [[SoftwareVerification]] still govern diagnosis, integration, and acceptance. Hutusi’s [[ChatGPT]] example and [[Antirez]] show substantial implementation leverage, while Irwin’s [[SoftwareEngineering]] loop argues that code generation, tests, logs, and debugging tools still require a stable comparison between intended and actual behavior. [[ContextCoding]] supplies the disciplined context-engineering version, while [[AIDependencySkillAtrophy]], [[LearningByWriting]], [[OrhunParmaksiz]], and [[SemanticAblation]] preserve skill, craft, and meaning-loss boundaries.
 - [[Baremetrics]] and [[Odeo]] qualify [[VentureBackedGrowthPressure]] by separating capital from direct investor coercion: Baremetrics attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]], while Odeo shows financing, staffing, governance, and publicity creating path dependence before product direction was settled. [[StartupFocus]], [[FounderInstinct]], and [[FounderSuccessDefinition]] therefore require user-grounded judgment, reversible commitments, and an explicit operating goal rather than treating available capital as proof that expansion has been earned.
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], [[FalseConsensusEffect]], and [[BuilderUserFluencyGap]] show that collective or product judgment improves when people model what others know rather than projecting their own information state; [[CustomerLedProductDevelopment]] should therefore separate newcomer evidence from fluent employee and power-user feedback, while [[AudienceCenteredGameDesign]] adds that non-consumers may need to help define worthwhile problems and meanings rather than only evaluate an expert-designed solution. The gap is also incentive-shaped: technical breadth and visible flexibility can reward builders while imposing decision pressure on users, so user-grounded subtraction should be tested without assuming minimalism or removing justified agency.
 - [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value.
 - [[EngineeringMentorship]] treats developer capability as partly produced by workplace conditions: [[EduardsSizovs]] links wider entry to protected pairing, feedback, career guidance, and learning resources, while [[HiringSystemDesign]] and [[InclusiveHiring]] require candidate learning needs to match real teaching capacity and job-relevant evidence rather than confidence or subjective culture fit.
 
@@ -29,10 +29,10 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical and agent outcomes depend on workload-matched architecture, task-contingent collaboration, explicit boundaries, verification, observability, recovery, and accountable human judgment.
+Technical and agent outcomes depend on workload-matched architecture, adversarial cost bounds, task-contingent collaboration, verification, observability, recovery, and accountable human judgment.
 
+- [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
-- [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact. Evidence: [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]].
 
 ### Business and Markets
 
@@ -57,7 +57,7 @@ Media and public explanation join form, terminology, identity, distribution, mon
 
 ### Governance and Institutions
 
-Institutional and technical governance depend on transparent authority, evidence, appeal, accountable standards, and override paths; simplified interfaces still need explicit controls.
+Institutional and technical governance depend on transparent authority, evidence, appeal, accountable standards, enforceable resource boundaries, and override paths.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].

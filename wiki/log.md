@@ -8428,3 +8428,11 @@ Created [[LiHui]] and [[TaskContingentAICollaboration]], and updated [[ClaudeCod
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | Denial of Service with a Fistful of Packets: Exploiting Algorithmic Complexity Vulnerabilities
+
+Created [[NathanHauke]], [[DavidRenardy]], [[ACsploit]], and [[AlgorithmicComplexityVulnerabilities]] from a complete reading of the presentation summary. Added valid-input cost asymmetry, PDF filter composition, quadratic VNC connection logging and file-descriptor failure, combinatorial zxcvbn substitution, and layered defenses through algorithms, limits, budgets, and adversarial worst-case testing. Preserved the source's historical, implementation-specific, and under-benchmarked scope, and qualified its claim that intended behavior is categorically "not a bug." The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
