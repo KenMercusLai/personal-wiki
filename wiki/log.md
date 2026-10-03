@@ -8420,3 +8420,11 @@ Created [[RichardWiseman]] and updated [[LuckAndEffortInSuccess]] from its compl
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | 从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流
+
+Created [[LiHui]] and [[TaskContingentAICollaboration]], and updated [[ClaudeCode]] from its complete ordered evidence inventory. Added risk-, clarity-, and uncertainty-based routing among synchronous collaboration, bounded asynchronous autonomy, and staged exploration, together with checkpoint-and-retry, specialized-agent, and screenshot-feedback patterns. Preserved human responsibility for acceptance and integration, and qualified the article's secondary time-saving and success-rate anecdotes, including its inconsistent high-risk and high-complexity ranges and the 10–15-minute to 5-minute arithmetic. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1069,8 +1069,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [UX Is a Canary in a Coal Mine](sources/ux-is-a-canary-in-a-coal-mine-irene-au.md) - Irene Au pairs design-team morale with product quality to diagnose organizational direction and the leadership intervention each state may require.
 - [Pleco: Building a Business, not an App](sources/pleco-building-a-business-not-an-app.md) - Ben Thompson uses Pleco to argue that durable indie software combines niche focus, licensed differentiation, pricing, modular monetization, and cross-platform brand coverage.
 - [Be Lucky - It's an Easy Skill to Learn](sources/be-lucky-its-an-easy-skill-to-learn.md) - Richard Wiseman links perceived luck to opportunity detection, intuition, expectation, and resilience while leaving intervention design and causal strength underreported.
+- [从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流](sources/claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian.md) - Li Hui routes Claude coding work among synchronous collaboration, bounded asynchronous autonomy, and staged exploration, with checkpoints, specialized agents, and screenshot feedback qualified by anecdotal evidence.
 
 ## Entities
+- [Li Hui](entities/LiHui.md) - Practitioner-author who translates reported Anthropic team cases into a task-contingent Claude coding workflow.
 - [Evan Williams](entities/EvanWilliams.md) - Odeo CEO represented through a candid 2006 failure retrospective on scope, user fit, capital, and judgment.
 - [Odeo](entities/Odeo.md) - Podcasting startup represented as a case of premature breadth, staffing, financing, and delayed strategic adjustment.
 - [Felipe Poggi A. Fraga](entities/FelipePoggiAFraga.md) - First author of the automatic knowledge-connection methodology.
@@ -2814,6 +2816,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Task-Contingent AI Collaboration](concepts/TaskContingentAICollaboration.md) - Selecting synchronous, asynchronous, or exploratory human-agent collaboration according to task risk, clarity, uncertainty, and reversibility.
 - [Automatic Knowledge Connections](concepts/AutomaticKnowledgeConnections.md) - Machine-proposed navigation edges among passages, concepts, and authors derived from shared concepts and semantic relatedness.
 - [Clarity Metrics](concepts/ClarityMetrics.md) - Actionable operational measures designed to predict or explain customer behavior and guide improvement.
 - [Engineering Mentorship](concepts/EngineeringMentorship.md) - Organizational capacity to develop engineers through protected expert time, feedback, work design, and support matched to candidate learning needs.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2e0f6dcde44dc219153161c1d8cd39fcc6b745358a96c04b87e4cec1f6bca9a5",
       "1bc1facc36353f4025a834e27e039c81a05ac6ad80a326450dc7d25f505e05be",
       "f048a992d596b8cff2f4e4647ba2939f4e495851e0d8eb68e34a6ebd1f3ec031",
       "1ea407e30b3c5ecdf69b6c20d89102eae00ae167da3344d8178bab7d053447a2",
@@ -757,11 +758,30 @@
       "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc",
       "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e"
     ],
-    "paragraph_count": 755
+    "paragraph_count": 756
   },
-  "overview_commit": "fa9e6c9d2d2744829656777b7ea93958ea92722b",
-  "overview_digest": "6e6789e11937941d5e7b57a937fed2de5ef080c416e50bc805a1daf0821f2f93",
+  "overview_commit": "61fe6d63b48f07b7555dd1f1b64d224d1f64249f",
+  "overview_digest": "847abd03619fa83cf0e2fb00e0755a7e4f32bd4d5a304e7895331b3108eec3d5",
   "paragraphs": [
+    {
+      "id": "2e0f6dcde44dc219153161c1d8cd39fcc6b745358a96c04b87e4cec1f6bca9a5",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[LiHui]] source adds [[TaskContingentAICollaboration]] as a routing framework for AI coding rather than another universal workflow. Consequential, architecture-sensitive work retains synchronous human reasoning; clear repetitive execution can move into bounded asynchronous autonomy; and unfamiliar domains call for staged exploration from overview through detail to practice. The proposed operating patterns are reversible experiments: establish a version-control checkpoint, run a scoped attempt, verify before acceptance, and revert or retry when repair costs exceed the value of retained context. Specialized agents can isolate objectives, while screenshot → implementation → preview loops can reduce visual ambiguity, but both patterns preserve integration and nonvisual-specification work for the human. This extends [[ClaudeCode]], [[AIAgentCollaboration]], and [[AgenticWorkflowPatterns]] while keeping [[HumanCodeResponsibility]] and [[SoftwareVerification]] as acceptance boundaries. The evidence is a secondary practitioner synthesis of Anthropic team anecdotes rather than a controlled benchmark: success is undefined, high-risk work is assigned both 60–80% and 30–50% ranges under different labels, a 10–15-minute task reduced to five minutes implies 50–66.7% savings rather than uniformly 67%, and no quality or maintenance outcomes accompany the reported speedups. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIAgentCollaboration",
+        "AgenticWorkflowPatterns",
+        "ClaudeCode",
+        "HumanCodeResponsibility",
+        "LiHui",
+        "SoftwareVerification",
+        "TaskContingentAICollaboration"
+      ]
+    },
     {
       "id": "1bc1facc36353f4025a834e27e039c81a05ac6ad80a326450dc7d25f505e05be",
       "primary_topic": "business-and-markets",

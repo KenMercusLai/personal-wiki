@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: fa9e6c9d2d2744829656777b7ea93958ea92722b
+as_of_overview_commit: 61fe6d63b48f07b7555dd1f1b64d224d1f64249f
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1045
-source_count: 1045
-paragraph_count: 755
+episode_count: 1046
+source_count: 1046
+paragraph_count: 756
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[PragmaticSystemDesign]] adds a state-centered adoption gate: [[SeanGoedecke]] argues that a simple working system should earn caches, events, distribution, and custom mechanisms through real workload constraints, while [[SystemReliability]] requires hot-path observability and explicit overload, retry, idempotency, and degradation semantics. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities. [[JustinEtheredge]]'s [[RubyOnRails|Rails]] case adds [[ToolFamiliarity]], libraries, community knowledge, deployment, troubleshooting, longevity, and willingness to build missing capabilities to the fit test: maturity is not obsolescence, but neither familiarity nor fashion substitutes for a concrete problem and measured outcomes.
+- Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans. [[TaskContingentAICollaboration]] makes the routing variables explicit: consequential or coupled work stays synchronous, clear repetitive execution can become bounded asynchronous autonomy, and unfamiliar domains call for staged exploration; checkpoints make attempts reversible, but [[HumanCodeResponsibility]] and [[SoftwareVerification]] still govern diagnosis, integration, and acceptance. Hutusi’s [[ChatGPT]] example and [[Antirez]] show substantial implementation leverage, while Irwin’s [[SoftwareEngineering]] loop argues that code generation, tests, logs, and debugging tools still require a stable comparison between intended and actual behavior. [[ContextCoding]] supplies the disciplined context-engineering version, while [[AIDependencySkillAtrophy]], [[LearningByWriting]], [[OrhunParmaksiz]], and [[SemanticAblation]] preserve skill, craft, and meaning-loss boundaries.
 - [[Baremetrics]] and [[Odeo]] qualify [[VentureBackedGrowthPressure]] by separating capital from direct investor coercion: Baremetrics attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]], while Odeo shows financing, staffing, governance, and publicity creating path dependence before product direction was settled. [[StartupFocus]], [[FounderInstinct]], and [[FounderSuccessDefinition]] therefore require user-grounded judgment, reversible commitments, and an explicit operating goal rather than treating available capital as proof that expansion has been earned.
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value.
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on workload-matched architecture, explicit state and capability boundaries, verification, observability, recovery, and accountable human judgment.
+Technical and agent outcomes depend on workload-matched architecture, task-contingent collaboration, explicit boundaries, verification, observability, recovery, and accountable human judgment.
 
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
 - [[APIDesign]] treats developer-facing interfaces as user experiences whose objects, arguments, data structures, naming, feedback, documentation, and examples should follow domain workflows rather than incidental implementation; [[SoftwareEngineering]] and [[InternalSoftwareQuality]] extend the same lifecycle judgment to feature restraint, code-as-communication, explicit process knowledge, reversible experimentation, verification, and ethical impact. Evidence: [[APIDesign]], [[DeveloperExperience]], [[FrancoisChollet]], [[SoftwareEngineering]], [[InternalSoftwareQuality]], [[CognitiveOverheadInProductDesign]].
 
 ### Business and Markets
 
-Durable business evidence joins focused demand, user-grounded judgment, payer economics, verified cash, retention, operating capacity, labor design, and governance; available capital does not prove that expansion has been earned.
+Durable business evidence joins focused demand, payer economics, verified cash, retention, operating capacity, labor design, and governance; available capital does not prove earned expansion.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -50,7 +50,7 @@ Explicit assumptions, inspectable evidence, replacement signals, reversible expe
 
 ### Culture and Media
 
-Media and public explanation join form, terminology, identity, distribution, monetization, platform power, and community norms; reach alone does not establish durable value or truth.
+Media and public explanation join form, terminology, identity, distribution, monetization, platform power, and community norms; reach alone does not establish value or truth.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -68,7 +68,7 @@ Historical and geopolitical claims require chronology, primary evidence, changin
 
 ### Psychology and Personal Development
 
-Behavior and judgment emerge from attention, environment, feedback, identity, incentives, relationships, learned conventions, and unequal opportunity; bounded experiments can calibrate confidence.
+Behavior and judgment emerge from attention, environment, feedback, identity, incentives, relationships, learned conventions, and unequal opportunity; bounded experiments calibrate confidence.
 
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
@@ -82,7 +82,7 @@ Science and health claims are strongest when mechanism, measurement, uncertainty
 
 ### Work, Education, and Society
 
-Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, accountable relationships, and real support systems.
+Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, and real support systems.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

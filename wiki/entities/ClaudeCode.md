@@ -13,12 +13,13 @@ sources:
   - corti-ai-powered-knowledge-management-obsidian-claude-code
   - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
   - context-engineering-from-the-inside-out
-last_updated: 2026-09-26
+  - claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[ClaudeCode]] is the command-line agent discussed as a practitioner tool for project-wide coding, provider-aware context and prompt-cache management, role-based agent-team work, simple steerable loops, systems-programming leverage, phone-controlled cloud development, and Markdown knowledge-base maintenance.
+[[ClaudeCode]] is the command-line agent discussed as a practitioner tool for project-wide coding, provider-aware context and prompt-cache management, role-based agent-team work, simple steerable loops, systems-programming leverage, phone-controlled cloud development, Markdown knowledge-base maintenance, and task-contingent human collaboration.
 
 ## Current Profile
 The usage retrospective presents Claude Code as the strongest available tool for deep [[VibeCoding]] at the time of the author's test. Its perceived advantage comes from whole-project command-line operation, high token throughput, rapid product updates, planning workflows, subagents, custom commands, hooks, and integration with surrounding tools such as MCP servers. The author treats it as powerful but bounded: it is better at code understanding, diagrams, scaffolding, tests, and common web or TypeScript work than at exact global refactors or lower-data domains such as some Swift/iOS tasks.
@@ -41,6 +42,8 @@ Corti's knowledge-management architecture extends the tool beyond software imple
 
 The context-engineering essay adds a systems explanation for several of these product primitives. Concise `CLAUDE.md` files place global project rules early, skills load task-specific procedures only when relevant, hooks inject action-specific constraints near execution, stable tool and conversation prefixes support cache reuse, and compaction or subagents provide fresh windows through lossy handoffs. These are presented as design patterns illustrated through Claude Code and related agents, not as an official or exhaustive product specification.
 
+Li Hui's synthesis of Anthropic team anecdotes adds a task-routing profile. It proposes close synchronous collaboration for consequential reasoning, bounded asynchronous autonomy for clear repetitive execution, and staged exploration for unfamiliar domains. Version-control checkpoints make failed attempts reversible, while specialized agents and screenshot feedback can narrow objectives or visual ambiguity; the human still defines the task, verifies the output, integrates the result, and decides when a clean retry is cheaper than diagnosis.
+
 ## Key Characteristics
 - Operates as a command-line coding agent with project-wide context rather than an editor-only assistant.
 - Supports planning, custom commands, always-on project context, on-demand skills, action-triggered hooks, subagents, todo management, and notification-triggered clarification as workflow and context-placement primitives.
@@ -48,7 +51,7 @@ The context-engineering essay adds a systems explanation for several of these pr
 - Uses provider-aware [[PromptCaching]] tactics and smaller helper-model calls to manage cost, context, and high-volume tool results.
 - Relies on highly structured prompt and tool design, including context files, Markdown/XML sections, examples, emphatic reminders, deterministic higher-level tools, and live Unix-style code search.
 - Works best when paired with small steps, version control, tests, compilation, linting, isolated environments, and human review.
-- Supports role-specialized teams, experienced-programmer leverage, asynchronous mobile/cloud supervision, queue-driven parallel worker pools, and knowledge-vault maintenance when paired with file-backed state, clear intent, isolation, and verification infrastructure.
+- Supports role-specialized teams, experienced-programmer leverage, task-contingent synchronous or asynchronous collaboration, mobile/cloud supervision, queue-driven parallel worker pools, and knowledge-vault maintenance when paired with file-backed state, clear intent, reversible checkpoints, isolation, and verification infrastructure.
 
 ## Evidence
 - Project-wide operation: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] contrasts Claude Code's command-line project view with editor AI interactions centered on a file or selected lines.
@@ -66,13 +69,16 @@ The context-engineering essay adds a systems explanation for several of these pr
 - Knowledge-vault maintenance: [[corti-ai-powered-knowledge-management-obsidian-claude-code]] assigns Claude Code summaries, semantic tags, relationship suggestions, health analysis, and project compilation inside a CI/CD-managed Markdown repository.
 - Context placement: [[context-engineering-from-the-inside-out]] explains `CLAUDE.md` as concise global context, skills as model-selected task context, and hooks as runtime-triggered context placed around matching actions.
 - Fresh windows: [[context-engineering-from-the-inside-out]] compares reactive compaction with delegated subagents and treats both as lossy handoff boundaries that trade detail for renewed context capacity.
+- Task routing and recovery: [[claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian]] maps collaboration mode to risk and uncertainty, then uses version-control checkpoints, acceptance review, rollback, and clean retries to bound unsuccessful autonomous attempts.
+- Specialized and visual iteration: [[claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian]] proposes separate agents for decomposed objectives and a screenshot → implementation → preview loop for UI work.
 
 ## Qualifications
-The profile partly reflects practitioner experience, source-code reading, logged request interpretation, two mobile setups, and one prescriptive knowledge-vault design rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields, and the newest source sometimes generalizes from Qwen3 templates and neighboring agent implementations to Claude Code-like design. The MinusX source argues for one main loop and limited branching, while the mihomo-rust, mobile, and queue-manager cases show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, and verification keep the workflow bounded. Hu's reported increase from roughly 20% to 95% dispatch success is unexplained and does not establish code quality; his use of permissive mode and routine non-review is materially riskier than sources that require human inspection or stronger isolation. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
+The profile partly reflects practitioner experience, source-code reading, logged request interpretation, two mobile setups, and one prescriptive knowledge-vault design rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields, and the context-engineering source sometimes generalizes from Qwen3 templates and neighboring agent implementations to Claude Code-like design. The MinusX source argues for one main loop and limited branching, while the mihomo-rust, mobile, queue-manager, and task-routing cases show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, checkpoints, and verification keep the workflow bounded. Hu's reported increase from roughly 20% to 95% dispatch success is unexplained and does not establish code quality; his use of permissive mode and routine non-review is materially riskier than sources that require human inspection or stronger isolation. Li Hui's success ranges and time-saving figures are secondary, method-free anecdotes, include an internal 60–80% versus 30–50% inconsistency for high-risk or high-complexity work, and do not include quality or maintenance outcomes. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
 
 ## What Changed
-- Added global files, on-demand skills, action-triggered hooks, compaction, and subagents as context-placement primitives.
-- Qualified the design account as a cross-agent practitioner interpretation rather than an official exhaustive Claude Code specification.
+- Added task risk, specification clarity, and domain uncertainty as reasons to switch among synchronous, asynchronous, and exploratory use.
+- Added reversible checkpoint-and-retry and qualified specialization and screenshot feedback as bounded workflow patterns.
+- Further narrowed performance claims because the new percentages are secondary anecdotes without methods, quality measures, or consistent task categories.
 
 ## Relationships
 - [[Claude]] - Claude Code is built around the Claude model family in the sources' accounts.
@@ -92,3 +98,5 @@ The profile partly reflects practitioner experience, source-code reading, logged
 - [[HuYuanming]] - practitioner who built a queue-driven mobile management layer around multiple Claude Code processes.
 - [[BottleneckAwareAICoding]] - adding Claude Code workers helps only while planning, review, integration, and verification capacity remain adequate.
 - [[PersonalSoftware]] - Claude Code is the implementation engine for Hu's single-user CEO support system.
+- [[TaskContingentAICollaboration]] - task properties determine whether Claude Code acts as a close collaborator, autonomous executor, or exploration guide.
+- [[LiHui]] - practitioner-author who synthesized Anthropic team anecdotes into a scenario-based workflow.
