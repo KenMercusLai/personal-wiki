@@ -8412,3 +8412,11 @@ Created [[RevealedPriorities]] and updated [[DerekSivers]] and [[ActionGroundedI
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | Be Lucky - It's an Easy Skill to Learn
+
+Created [[RichardWiseman]] and updated [[LuckAndEffortInSuccess]] from its complete ordered evidence inventory. Added relaxed attention and opportunity detection alongside intuition, positive expectation, and resilient interpretation as proposed trainable influences on perceived luck, while preserving structural and chance constraints. Qualified the newspaper task and reported 80 percent luck-school result for self-selection, missing controls and measures, mixed subjective outcomes, absent follow-up, and the saved excerpt's omitted practical techniques. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
