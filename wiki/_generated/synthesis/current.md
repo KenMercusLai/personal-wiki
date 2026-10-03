@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: 033bca16b80aeea6bd6ac2c173805f50d2848adc
+as_of_overview_commit: 69bbe0d7fcbcf91336f9cc651d4ec9f1b61ad7b3
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1042
-source_count: 1042
-paragraph_count: 754
+episode_count: 1043
+source_count: 1043
+paragraph_count: 755
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[PragmaticSystemDesign]] adds a state-centered adoption gate: [[SeanGoedecke]] argues that a simple working system should earn caches, events, distribution, and custom mechanisms through real workload constraints, while [[SystemReliability]] requires hot-path observability and explicit overload, retry, idempotency, and degradation semantics. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities. [[JustinEtheredge]]'s [[RubyOnRails|Rails]] case adds [[ToolFamiliarity]], libraries, community knowledge, deployment, troubleshooting, longevity, and willingness to build missing capabilities to the fit test: maturity is not obsolescence, but neither familiarity nor fashion substitutes for a concrete problem and measured outcomes.
-- [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
+- [[Baremetrics]] and [[Odeo]] qualify [[VentureBackedGrowthPressure]] by separating capital from direct investor coercion: Baremetrics attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]], while Odeo shows financing, staffing, governance, and publicity creating path dependence before product direction was settled. [[StartupFocus]], [[FounderInstinct]], and [[FounderSuccessDefinition]] therefore require user-grounded judgment, reversible commitments, and an explicit operating goal rather than treating available capital as proof that expansion has been earned.
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
@@ -36,7 +36,7 @@ Technical outcomes depend on workload-matched architecture, explicit state and c
 
 ### Business and Markets
 
-Durable business evidence joins focused demand, differentiated assets, payer economics, verified cash, retention, operating capacity, product judgment, labor design, and governance.
+Durable business evidence joins focused demand, user-grounded judgment, payer economics, verified cash, retention, operating capacity, labor design, and governance; available capital does not prove that expansion has been earned.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].

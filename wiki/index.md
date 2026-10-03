@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Evan Williams: How Odeo Screwed Up](sources/evan-williams-how-odeo-screwed-up.md) - Liz Gannes reports Williams's account of Odeo's broad scope, weak founder-user fit, delayed response, premature financing, and attempted refocus.
 - [On the Automatic Generation of Knowledge Connections](sources/on-the-automatic-generation-of-knowledge-connections.md) - Fraga and colleagues combine shared concepts and semantic relatedness to generate an Obsidian navigation graph while leaving human relevance, learning outcomes, and large-vault performance unvalidated.
 - [Why LLMs Can't Really Build Software](sources/why-llms-cant-really-build-software.md) - Conrad Irwin separates code generation and tool use from the sustained requirement-to-behavior model comparison needed for non-trivial engineering, while keeping humans responsible for diagnosis and acceptance.
 - [I’m Sorry, But Those Are Vanity Metrics](sources/im-sorry-but-those-are-vanity-metrics-first-round-review.md) - Lloyd Tabb distinguishes external comparison metrics from actionable behavioral proxies, event-stream analysis, failure measures, and direct customer investigation.
@@ -1068,6 +1069,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pleco: Building a Business, not an App](sources/pleco-building-a-business-not-an-app.md) - Ben Thompson uses Pleco to argue that durable indie software combines niche focus, licensed differentiation, pricing, modular monetization, and cross-platform brand coverage.
 
 ## Entities
+- [Evan Williams](entities/EvanWilliams.md) - Odeo CEO represented through a candid 2006 failure retrospective on scope, user fit, capital, and judgment.
+- [Odeo](entities/Odeo.md) - Podcasting startup represented as a case of premature breadth, staffing, financing, and delayed strategic adjustment.
 - [Felipe Poggi A. Fraga](entities/FelipePoggiAFraga.md) - First author of the automatic knowledge-connection methodology.
 - [Marcus Poggi](entities/MarcusPoggi.md) - Coauthor of the automatic knowledge-connection methodology.
 - [Marco A. Casanova](entities/MarcoACasanova.md) - Coauthor of the automatic knowledge-connection methodology.

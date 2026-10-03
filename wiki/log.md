@@ -8377,6 +8377,10 @@ Created [[ConradIrwin]] and [[Zed]], and updated [[AICodingPractice]], [[MentalM
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-03] ingest | Evan Williams: How Odeo Screwed Up
+
+Created [[EvanWilliams]] and [[Odeo]], and updated [[StartupFocus]], [[FounderInstinct]], and [[VentureBackedGrowthPressure]] from their complete ordered evidence inventories. Added Odeo's interaction among broad product scope, weak founder-user fit, slow competitive response, premature financing, organizational path dependence, and corrective downsizing and project isolation. Preserved the tension that commitments can drown out useful founder unease while intuition unsupported by target-user behavior can itself be unreliable. The supplied Markdown contains no image references, so no visual assets or manifest were required.
+
 ## [2026-10-03] ingest | On the Automatic Generation of Knowledge Connections
 
 Created [[FelipePoggiAFraga]], [[MarcusPoggi]], [[MarcoACasanova]], [[LuizAndrePPaesLeme]], and [[AutomaticKnowledgeConnections]], and updated [[Obsidian]] from its complete ordered evidence inventory. Added shared-concept and semantic-relatedness paths for generating a highlight-concept-author graph, plus the distinction between divergent concept navigation and convergent passage similarity. Preserved the human role in selecting and interpreting highlights, and treated two small Mantel correlations as agreement between automated signals rather than validation of relevance, learning outcomes, safe canonical link publication, or large-vault performance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8388,6 +8392,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-03] ingest | Pleco: Building a Business, not an App
 
 Created [[MikeLove]], [[Pleco]], and [[IndieSoftwareBusiness]], and updated [[NicheToWin]] from its complete ordered evidence inventory. Added licensed content, modular in-app purchases, pricing experiments, and cross-platform recommendation coverage as parts of a durable independent software business; qualified niche expansion by showing that a focused category can also remain the destination. Preserved single-case, missing-base-rate, unaudited-economics, early-entry, and exclusive-rights limits. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-03] lint | Wiki health check
 
