@@ -1065,6 +1065,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [It Takes All Kinds](sources/it-takes-all-kinds-simple-thread.md) - Justin Etheredge argues that framework choices should match concrete workload, ecosystem, operations, and team constraints rather than novelty, age, or imitation of large technology companies.
 - [Naked Brands](sources/naked-brands-adventures-in-consumer-technology-medium.md) - David Perell proposes influencer-led brands built through direct communication, perceived authenticity, and participatory fandom while leaving causality and durability unmeasured.
 - [UX Is a Canary in a Coal Mine](sources/ux-is-a-canary-in-a-coal-mine-irene-au.md) - Irene Au pairs design-team morale with product quality to diagnose organizational direction and the leadership intervention each state may require.
+- [Pleco: Building a Business, not an App](sources/pleco-building-a-business-not-an-app.md) - Ben Thompson uses Pleco to argue that durable indie software combines niche focus, licensed differentiation, pricing, modular monetization, and cross-platform brand coverage.
 
 ## Entities
 - [Felipe Poggi A. Fraga](entities/FelipePoggiAFraga.md) - First author of the automatic knowledge-connection methodology.
@@ -2803,6 +2804,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Emily Weiss](entities/EmilyWeiss.md) - Glossier founder represented through audience-first, personality-led beauty brand building.
 - [Glossier](entities/Glossier.md) - Beauty company presented as an audience-before-product and participatory-brand case.
 - [Irene Au](entities/IreneAu.md) - Design leader represented through a morale-and-product-quality framework for diagnosing design organizations.
+- [Mike Love](entities/MikeLove.md) - Pleco founder represented through licensed differentiation, modular monetization, pricing experiments, and cross-platform category ownership.
+- [Pleco](entities/Pleco.md) - Chinese dictionary and language-learning app presented as a long-running independent software business rather than only a product.
 
 ## Concepts
 - [Automatic Knowledge Connections](concepts/AutomaticKnowledgeConnections.md) - Machine-proposed navigation edges among passages, concepts, and authors derived from shared concepts and semantic relatedness.
@@ -4166,5 +4169,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Investment Pacing](concepts/InvestmentPacing.md) - Deliberate commitment cadence that keeps concurrent portfolio load compatible with investor attention, governance, and promised support.
 - [Naked Brands](concepts/NakedBrands.md) - Influencer-led brand archetype in which visible personality, direct communication, and audience participation become central trust and distribution mechanisms.
 - [Design Health Indicators](concepts/DesignHealthIndicators.md) - Paired use of design-team morale and current product quality to infer organizational conditions, direction, and intervention needs.
+- [Indie Software Business](concepts/IndieSoftwareBusiness.md) - Independent product operating model joining software with niche selection, differentiated inputs, pricing, distribution, supplier relationships, and continued investment.
 
 ## Syntheses

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: 1765a7f60bf72c2296792a6d963459bc634784ae
+as_of_overview_commit: 033bca16b80aeea6bd6ac2c173805f50d2848adc
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1041
-source_count: 1041
-paragraph_count: 753
+episode_count: 1042
+source_count: 1042
+paragraph_count: 754
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on workload-matched architecture, explicit state and c
 
 ### Business and Markets
 
-Durable business evidence joins demand, meaningful behavior, payer economics, verified cash, retention, operating capacity, product judgment, labor design, and governance while preserving focus and risk limits.
+Durable business evidence joins focused demand, differentiated assets, payer economics, verified cash, retention, operating capacity, product judgment, labor design, and governance.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -50,7 +50,7 @@ Explicit assumptions, inspectable evidence, replacement signals, reversible expe
 
 ### Culture and Media
 
-Media and public explanation join form, terminology, identity, distribution, monetization, platform power, and community norms; reach and fluent production alone do not establish durable value or truth.
+Media and public explanation join form, terminology, identity, distribution, monetization, platform power, and community norms; reach alone does not establish durable value or truth.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -82,7 +82,7 @@ Science and health claims are strongest when mechanism, measurement, uncertainty
 
 ### Work, Education, and Society
 
-Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, accountable relationships, and real support systems. Machine-assisted knowledge navigation adds candidate discovery, but human review remains necessary before generated links become trusted structure.
+Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, accountable relationships, and real support systems.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

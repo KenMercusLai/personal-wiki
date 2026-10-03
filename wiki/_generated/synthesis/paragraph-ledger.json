@@ -753,12 +753,13 @@
       "d03f4832810571ad9a6c9dc61271b89e51720c7eea211a422dd4f6268fcd938d",
       "4a311487c1b709c0066465565a15a1bf36ba73c310af0890c3c0fc440bb9adac",
       "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
-      "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc"
+      "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc",
+      "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e"
     ],
-    "paragraph_count": 753
+    "paragraph_count": 754
   },
-  "overview_commit": "1765a7f60bf72c2296792a6d963459bc634784ae",
-  "overview_digest": "8fe2ed760143761131aaab0bc628ef65f6cfdeffbc86c500b5106d2524d403ac",
+  "overview_commit": "033bca16b80aeea6bd6ac2c173805f50d2848adc",
+  "overview_digest": "0dd24809e1be5723aec288edac8a32cbf34c95a4eaa8918ffb8527b920a9242e",
   "paragraphs": [
     {
       "id": "f048a992d596b8cff2f4e4647ba2939f4e495851e0d8eb68e34a6ebd1f3ec031",
@@ -15246,6 +15247,23 @@
         "JustinEtheredge",
         "RubyOnRails",
         "ToolFamiliarity"
+      ]
+    },
+    {
+      "id": "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[BenThompson]] source adds [[IndieSoftwareBusiness]] through [[MikeLove]]'s long-running [[Pleco]] case. The central distinction is between shipping a polished app and assembling a durable operating system around a specific customer need: licensed handwriting recognition and dictionaries supplied non-code differentiation; a capable free product led to paid dictionaries and specialist features; bundle changes treated pricing as an economic experiment; and an Android version with weaker direct returns preserved cross-platform recommendation coverage. This also qualifies [[NicheToWin]]. A niche need not be only a temporary beachhead if the business can deepen its content, reputation, supplier relationships, customer knowledge, monetization, and platform coverage inside the category. The account remains one favorable retrospective chosen to rebut another developer's poor paid-app outcome. It supplies no base rate, audited revenue, licensing costs, customer cohorts, margins, or causal comparison, and its 2001 start plus exclusive rights may be difficult to reproduce. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4
+      },
+      "wikilinks": [
+        "BenThompson",
+        "IndieSoftwareBusiness",
+        "MikeLove",
+        "NicheToWin",
+        "Pleco"
       ]
     }
   ],

@@ -8384,3 +8384,15 @@ Created [[FelipePoggiAFraga]], [[MarcusPoggi]], [[MarcoACasanova]], [[LuizAndreP
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | Pleco: Building a Business, not an App
+
+Created [[MikeLove]], [[Pleco]], and [[IndieSoftwareBusiness]], and updated [[NicheToWin]] from its complete ordered evidence inventory. Added licensed content, modular in-app purchases, pricing experiments, and cross-platform recommendation coverage as parts of a durable independent software business; qualified niche expansion by showing that a focused category can also remain the destination. Preserved single-case, missing-base-rate, unaudited-economics, early-entry, and exclusive-rights limits. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
