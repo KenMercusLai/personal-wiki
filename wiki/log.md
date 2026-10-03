@@ -8444,3 +8444,11 @@ Created [[SketchK]] and [[FOUR]], and updated [[JobApplicationSideProjects]], [[
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | High-Intensity Circuit Training Using Body Weight: Maximum Results With Minimal Investment
+
+Created [[HighIntensityCircuitTraining]], [[BrettKlika]], [[ChrisJordan]], and [[HumanPerformanceInstitute]], and updated [[VO2Max]], [[CardiorespiratoryFitness]], and [[AmericanCollegeOfSportsMedicine]] from their complete ordered evidence inventories. Distinguished the illustrated seven-minute circuit from the authors' repeated-circuit dose, added sequencing and work-rest design rules, and preserved contraindications plus the limits for maximal strength, power, and sport-specific goals. Inspected and retained all 12 exercise-demonstration images with readable filenames, exact semantic placement, matching alt text, and a canonical manifest.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

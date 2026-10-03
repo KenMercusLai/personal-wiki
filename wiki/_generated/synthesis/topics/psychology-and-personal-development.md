@@ -3,9 +3,9 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-10-02
-as_of_overview_commit: b1f9e547d18981039af53147b393d1d60c4a29fe
-input_digest: f8512b3fb1d018bd48f730eeaf860e6111ce4d69eee51740255c55789ca8b5bb
+last_updated: 2026-10-03
+as_of_overview_commit: 71f0c7fed6ce267a9e25bb4fe3d00264b9af8e07
+input_digest: 58c8e8e4800398b1a2fb568dddfb7617dd51d14b9259822b168bc56bf7de7ac2
 ---
 
 # Psychology and Personal Development
@@ -318,16 +318,6 @@ input_digest: f8512b3fb1d018bd48f730eeaf860e6111ce4d69eee51740255c55789ca8b5bb
 
 - The Housel sources are a compact beliefs list and an investing analogy drawn from elite endurance training, while the Zhang Xiaoyu material is Wulc's course-note synthesis, so their claims are best treated as decision heuristics rather than universal prescriptions.
 - The endurance essay supplies no comparative portfolio, housing-cost, tax, or risk-adjusted-return evidence, and predicted tolerance for loss is not a measured substitute for behavior during an actual drawdown.
-
-### Capacity Building Is Easier Before Crisis
-
-[[VO2Max]] and [[CardiorespiratoryFitness]] provide a health-capacity example: building reserve earlier can preserve more later-life margin than trying to recover from low capacity late.
-
-**Evidence:** [[VO2Max]], [[CardiorespiratoryFitness]], [[AndrewChen]]
-
-**Qualifications:**
-
-- The source is a personal chart-driven reflection, not a full clinical exercise prescription.
 
 ### Latency Can Dissipate User Intent
 

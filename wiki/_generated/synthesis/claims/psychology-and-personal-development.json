@@ -515,20 +515,6 @@
     },
     {
       "global_candidate": false,
-      "id": "capacity-building-is-easier-before-crisis",
-      "qualifications": [
-        "The source is a personal chart-driven reflection, not a full clinical exercise prescription."
-      ],
-      "statement": "[[VO2Max]] and [[CardiorespiratoryFitness]] provide a health-capacity example: building reserve earlier can preserve more later-life margin than trying to recover from low capacity late.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "VO2Max",
-        "CardiorespiratoryFitness",
-        "AndrewChen"
-      ]
-    },
-    {
-      "global_candidate": false,
       "id": "latency-can-dissipate-user-intent",
       "qualifications": [
         "This is a secondary fit for the psychology topic: the behavior-facing evidence is an ecommerce performance case study, not a controlled attention or decision-making study.",

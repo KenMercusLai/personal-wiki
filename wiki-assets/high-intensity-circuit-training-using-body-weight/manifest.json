@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "high-intensity-circuit-training-using-body-weight",
+  "images": [
+    {"file": "01-jumping-jacks.png", "alt": "Starting and extended positions for jumping jacks"},
+    {"file": "02-wall-sit.png", "alt": "Wall-sit position with knees bent and back supported"},
+    {"file": "03-push-up.png", "alt": "Top and lowered positions for a push-up"},
+    {"file": "04-abdominal-crunch.png", "alt": "Starting and raised positions for an abdominal crunch"},
+    {"file": "05-chair-step-up.png", "alt": "Starting and standing positions for a chair step-up"},
+    {"file": "06-squat.png", "alt": "Standing and lowered positions for a body-weight squat"},
+    {"file": "07-chair-triceps-dip.png", "alt": "Starting and lowered positions for a chair triceps dip"},
+    {"file": "08-plank.png", "alt": "Forearm plank position with a straight body line"},
+    {"file": "09-high-knees.png", "alt": "Alternating knee-drive positions for high knees"},
+    {"file": "10-lunge.png", "alt": "Standing and lowered positions for a forward lunge"},
+    {"file": "11-push-up-rotation.png", "alt": "Lowered push-up and rotated side-plank positions"},
+    {"file": "12-side-plank.png", "alt": "Side-plank position supported on one forearm"}
+  ]
+}

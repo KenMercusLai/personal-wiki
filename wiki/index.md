@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [High-Intensity Circuit Training Using Body Weight: Maximum Results With Minimal Investment](sources/high-intensity-circuit-training-using-body-weight.md) - Brett Klika and Chris Jordan propose a portable 12-station HICT circuit while qualifying the seven-minute framing with repeat rounds, screening, technique, and goal-specific limits.
 - [Denial of Service with a Fistful of Packets: Exploiting Algorithmic Complexity Vulnerabilities](sources/denial-of-service-with-a-fistful-of-packets-exploiting-algorithmic-complexity-vulnerabilities.md) - Nathan Hauke and David Renardy show how valid PDF, VNC, and password-estimation inputs can trigger disproportionate resource use, then advocate layered limits and worst-case testing.
 - [Actions, not words, reveal our real values](sources/actions-not-words-reveal-our-real-values.md) - Derek Sivers argues that conduct reveals operative priorities more reliably than declarations, while constraints limit how conclusively behavior identifies desire.
 - [Evan Williams: How Odeo Screwed Up](sources/evan-williams-how-odeo-screwed-up.md) - Liz Gannes reports Williams's account of Odeo's broad scope, weak founder-user fit, delayed response, premature financing, and attempted refocus.
@@ -1074,6 +1075,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [FOUR：一个 27 岁零基础无业游民的第一个开源作品](sources/four-a-zero-experience-developers-first-open-source-app.md) - SketchK recounts turning a career-change experiment into a researched, shipped, and open-sourced iOS app while leaving expertise and hiring outcomes unproven.
 
 ## Entities
+- [Brett Klika](entities/BrettKlika.md) - Exercise-programming author represented through a qualified body-weight HICT protocol for time-constrained adults.
+- [Chris Jordan](entities/ChrisJordan.md) - Exercise-programming author represented through a qualified body-weight HICT protocol for time-constrained adults.
+- [Human Performance Institute](entities/HumanPerformanceInstitute.md) - Client-work setting in which portable, efficient exercise supports physical-energy management for busy professionals.
 - [SketchK](entities/SketchK.md) - Career-changing iOS developer who used FOUR as his first released and open-sourced software artifact.
 - [FOUR](entities/FOUR.md) - Four-goal iOS time tracker built around the popular 10,000-hour rule and released as open-source code.
 - [Nathan Hauke](entities/NathanHauke.md) - Security researcher represented through worst-case input analysis and algorithmic-complexity denial-of-service cases.
@@ -2823,6 +2827,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [High-Intensity Circuit Training](concepts/HighIntensityCircuitTraining.md) - Limited-rest circuit method combining aerobic and resistance demands through high-effort, large-muscle exercises.
 - [Algorithmic Complexity Vulnerabilities](concepts/AlgorithmicComplexityVulnerabilities.md) - Denial-of-service weaknesses in which valid attacker-controlled input drives unacceptable worst-case time or space consumption.
 - [Task-Contingent AI Collaboration](concepts/TaskContingentAICollaboration.md) - Selecting synchronous, asynchronous, or exploratory human-agent collaboration according to task risk, clarity, uncertainty, and reversibility.
 - [Automatic Knowledge Connections](concepts/AutomaticKnowledgeConnections.md) - Machine-proposed navigation edges among passages, concepts, and authors derived from shared concepts and semantic relatedness.

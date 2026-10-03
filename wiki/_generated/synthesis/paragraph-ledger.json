@@ -425,7 +425,7 @@
       "b0e9b1a1818e9667362b957f3cbf1bdc4de81e7a1fdefe9744843fb99a0b4d75",
       "5afdf3b4967dac93756e8afe56b305c13f09332366fcbd0026eea8844d604aa3",
       "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
-      "43198a0424b815eadb015492ff6dbdf331b232bc18ad02bf992bfa94c2acf019",
+      "3d7a524e4b91800384e15602264a287c1d26237e75eb88633da5f1c096f91180",
       "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
       "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
       "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
@@ -761,8 +761,8 @@
     ],
     "paragraph_count": 757
   },
-  "overview_commit": "0194ccdf99b935eed4de77ce117cd91647672946",
-  "overview_digest": "91f5d73f0aaada53b154d939b58c5f63fe18787ad4362d2cf1a9f7d0a98bd24b",
+  "overview_commit": "71f0c7fed6ce267a9e25bb4fe3d00264b9af8e07",
+  "overview_digest": "72d09941762d31eef75c58d13a7e4455a983ddce4988755cde3856889e1ba0cb",
   "paragraphs": [
     {
       "id": "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
@@ -8905,16 +8905,22 @@
       ]
     },
     {
-      "id": "43198a0424b815eadb015492ff6dbdf331b232bc18ad02bf992bfa94c2acf019",
-      "primary_topic": "psychology-and-personal-development",
-      "secondary_topics": [],
-      "text": "The newest Andrew Chen fitness note adds a longevity-oriented capacity-reserve thread. [[AndrewChen]] shares a [[VO2Max]] graph from [[PeterAttia]]'s [[Outlive]] that compares high, average, and low [[CardiorespiratoryFitness]] percentiles across age against activity thresholds such as walking, jogging, carrying weight upstairs, and briskly climbing stairs. The inspected chart shows all curves declining with age, but high fitness preserves far more later-life margin; Chen's practical inference is that building cardiovascular capacity earlier is more plausible than expecting a late jump from average or low fitness to the 95th percentile. This source is personal and chart-driven rather than clinical, so the new synthesis is a behavior-change heuristic, not a full exercise prescription.",
+      "id": "3d7a524e4b91800384e15602264a287c1d26237e75eb88633da5f1c096f91180",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The fitness sources now connect a longevity-oriented capacity reserve with one time-efficient training option. [[AndrewChen]] shares a [[VO2Max]] graph from [[PeterAttia]]'s [[Outlive]] that compares high, average, and low [[CardiorespiratoryFitness]] percentiles across age against activity thresholds; all curves decline, but high fitness preserves more later-life functional margin. [[BrettKlika]] and [[ChrisJordan]] add [[HighIntensityCircuitTraining]] as a portable way to combine aerobic and resistance work through large-muscle body-weight exercises, 30-second bouts, and transitions of no more than 15 seconds. Their inspected 12-station example takes roughly seven minutes per circuit, but they recommend repeating it two or three times for most people rather than treating seven minutes as a universal dose. The combined synthesis is therefore capacity-building under practical constraints, qualified by the HICT paper's heterogeneous prior evidence, contraindications, technique requirements, and admission that specific strength, power, or sport-endurance goals may need traditional training.",
       "topic_scores": {
-        "psychology-and-personal-development": 1
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
       },
       "wikilinks": [
         "AndrewChen",
+        "BrettKlika",
         "CardiorespiratoryFitness",
+        "ChrisJordan",
+        "HighIntensityCircuitTraining",
         "Outlive",
         "PeterAttia",
         "VO2Max"
