@@ -1,6 +1,25 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "exercise-benefits-depend-on-maintenance-and-response",
+      "qualifications": [
+        "The evidence comes from a 2021 integrative review; trial effects vary by study quality, comparator, diagnosis, mode, maintenance, and participant characteristics, and observational associations do not establish causation.",
+        "The cited 150-minutes-per-week level is a practical maintenance benchmark rather than a universal prescription or a replacement for safety screening and indicated clinical care.",
+        "Maintenance-remission associations may partly reflect selection because people who improve or have more support may find continued activity easier; neural and behavioral mediation remains heterogeneous and incompletely tested."
+      ],
+      "statement": "[[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ExerciseForMentalHealth",
+        "ExerciseAdherence",
+        "Neuroplasticity",
+        "SelfEfficacy",
+        "PatrickJSmith",
+        "RhondaMMerwin"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "personal-analytics-health-inference-is-source-scoped",
       "qualifications": [
@@ -294,6 +313,6 @@
       ]
     }
   ],
-  "summary": "[[PersonalAnalytics]] adds a source-scoped self-tracking case: long time series and dashboards can expose patterns and collection failure, but [[StephenWolfram]]\\u0027s resting-heart-rate observation is non-causal and the sensitive telemetry has unmeasured privacy, security, and validity risk. The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion. The new [[LanceDB]] paragraph is likewise router spillover from systems measurement: [[StoragePerformanceBenchmarking]], [[VectorDatabase]], and [[DatabaseEngineeringTradeoffs]] add no direct science, health, or climate finding.",
+  "summary": "[[ExerciseForMentalHealth]] adds direct but qualified health evidence: average depression and anxiety benefit is bounded by heterogeneous trials, weaker experimental dose-response evidence, continued [[ExerciseAdherence]], and proposed interactions among [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]]. [[PersonalAnalytics]] adds a source-scoped self-tracking case: long time series and dashboards can expose patterns and collection failure, but [[StephenWolfram]]\\u0027s resting-heart-rate observation is non-causal and the sensitive telemetry has unmeasured privacy, security, and validity risk. The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion. The new [[LanceDB]] paragraph is likewise router spillover from systems measurement: [[StoragePerformanceBenchmarking]], [[VectorDatabase]], and [[DatabaseEngineeringTradeoffs]] add no direct science, health, or climate finding.",
   "topic_id": "science-health-and-climate"
 }

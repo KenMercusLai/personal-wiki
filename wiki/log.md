@@ -8472,3 +8472,11 @@ Created [[BryanKennedy]] and [[LinuxServerHardening]], and updated [[ProductionA
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | The Role of Exercise in Management of Mental Health Disorders: An Integrative Review
+
+Created [[PatrickJSmith]], [[RhondaMMerwin]], [[ExerciseForMentalHealth]], [[Neuroplasticity]], and [[ExerciseAdherence]], and updated [[SelfEfficacy]] from its complete ordered evidence inventory. Separated prospective associations from randomized treatment evidence, made sustained participation and response heterogeneity central qualifications, and integrated neural remodeling with behavioral learning rather than treating either as a complete mechanism. Preserved the review's weak experimental dose-response evidence, heterogeneous methods and populations, selection effects in maintenance, and limits on replacing individualized clinical care. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

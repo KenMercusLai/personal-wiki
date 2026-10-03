@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: 3efdc5b7fc889afcc6794fd290f5b469a3601cc1
+as_of_overview_commit: 41103e6fb34978694ae6bb0771994d43276d0379
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, explicit boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1052
-source_count: 1052
-paragraph_count: 759
+episode_count: 1053
+source_count: 1053
+paragraph_count: 760
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value.
+- [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 - [[EngineeringMentorship]] treats developer capability as partly produced by workplace conditions: [[EduardsSizovs]] links wider entry to protected pairing, feedback, career guidance, and learning resources, while [[HiringSystemDesign]] and [[InclusiveHiring]] require candidate learning needs to match real teaching capacity and job-relevant evidence rather than confidence or subjective culture fit.
 
 ## Synthesis by Domain
@@ -75,10 +75,10 @@ Behavior and judgment emerge from attention, environment, feedback, identity, in
 
 ### Science, Health, and Climate
 
-Science and health claims are strongest when mechanism, measurement, uncertainty, external validity, privacy, unequal access, and causal limits remain explicit.
+Science and health claims require causal restraint, mechanism and measurement clarity, external-validity limits, safety, access, and sustained behavior; exercise evidence adds benefit without a universal prescription.
 
+- [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism. Evidence: [[ExerciseForMentalHealth]], [[ExerciseAdherence]], [[Neuroplasticity]], [[SelfEfficacy]], [[PatrickJSmith]], [[RhondaMMerwin]].
 - [[DepressionAndSocialMedia]] is framed as a condition- and feature-specific interaction: during an existing episode, learned anticipation, depleted control, comparison, identity dissonance, and [[PerformativeSelfPresentation]] may worsen distress, while Instagram-wide associations do not establish that Stories or its viewer list causes harm; boundaries may help some people and edited memory may retain value. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]], [[PerformativeSelfPresentation]], [[HereAndNowMedia]], [[SocialDriverHierarchy]].
-- [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 

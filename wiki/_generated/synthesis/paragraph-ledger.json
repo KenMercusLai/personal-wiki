@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "dd85fc40ee076a2ddcb81177f0f6a54f8c2ab6ccb38f3a6c7b3b1305945432ed",
       "d6c2082092868ce8864403e2df9e5665c2c9a5732f58d6a2d85d4167312e9012",
       "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
       "2e0f6dcde44dc219153161c1d8cd39fcc6b745358a96c04b87e4cec1f6bca9a5",
@@ -761,11 +762,34 @@
       "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e",
       "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e"
     ],
-    "paragraph_count": 759
+    "paragraph_count": 760
   },
-  "overview_commit": "3efdc5b7fc889afcc6794fd290f5b469a3601cc1",
-  "overview_digest": "3b83677133aeb76b431630b686730ce855b8c921dbe13fa4d5f6d4d49feef1ef",
+  "overview_commit": "41103e6fb34978694ae6bb0771994d43276d0379",
+  "overview_digest": "07adfffb18aec61badad6cdd9203b4f4e9845decede9fe84584eafc318e5843d",
   "paragraphs": [
+    {
+      "id": "dd85fc40ee076a2ddcb81177f0f6a54f8c2ab6ccb38f3a6c7b3b1305945432ed",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[PatrickJSmith]] and [[RhondaMMerwin]] review adds [[ExerciseForMentalHealth]] as a layered treatment account rather than a blanket wellness claim. Prospective studies associate higher physical activity with lower later depression and anxiety risk, while randomized evidence generally favors aerobic exercise and gives smaller, heterogeneous support to resistance exercise and adjunctive use; observational strength therefore does not erase weaker experimental dose-response evidence or differences in study quality, comparator, diagnosis, and participant response. [[ExerciseAdherence]] is central because continued participation after supervised treatment is more consistently associated with remission than assigned initial dose, with roughly 150 minutes per week serving as a cited practical benchmark rather than a universal prescription. [[Neuroplasticity]] and behavioral learning form a proposed reinforcing loop: neurotrophins, metabolism, inflammation, sleep, neurotransmission, and brain-network change may support cognitive and affective learning, while exposure to arousal, planning, feedback, problem solving, and [[SelfEfficacy]] can make further activity more achievable. The model remains qualified by selection effects, unproven mediation, safety and clinical-care boundaries, and differences in age, symptoms, cognition, reward, executive function, affect regulation, support, disability, access, and capacity. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ExerciseAdherence",
+        "ExerciseForMentalHealth",
+        "Neuroplasticity",
+        "PatrickJSmith",
+        "RhondaMMerwin",
+        "SelfEfficacy"
+      ]
+    },
     {
       "id": "d6c2082092868ce8864403e2df9e5665c2c9a5732f58d6a2d85d4167312e9012",
       "primary_topic": "work-education-and-society",
