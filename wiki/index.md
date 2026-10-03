@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [On the Automatic Generation of Knowledge Connections](sources/on-the-automatic-generation-of-knowledge-connections.md) - Fraga and colleagues combine shared concepts and semantic relatedness to generate an Obsidian navigation graph while leaving human relevance, learning outcomes, and large-vault performance unvalidated.
 - [Why LLMs Can't Really Build Software](sources/why-llms-cant-really-build-software.md) - Conrad Irwin separates code generation and tool use from the sustained requirement-to-behavior model comparison needed for non-trivial engineering, while keeping humans responsible for diagnosis and acceptance.
 - [I’m Sorry, But Those Are Vanity Metrics](sources/im-sorry-but-those-are-vanity-metrics-first-round-review.md) - Lloyd Tabb distinguishes external comparison metrics from actionable behavioral proxies, event-stream analysis, failure measures, and direct customer investigation.
 - [Growth Interview Questions from Atlassian, SurveyMonkey, Gusto and HubSpot](sources/growth-interview-questions-from-atlassian-surveymonkey-gusto-and-hubspot-guest-post-at-andrewchen.md) - Susan Su synthesizes two-sided growth-role interviews that test uncertain reasoning, experimentation, causal depth, resilience, metrics, execution culture, resources, and expected impact.
@@ -1066,6 +1067,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [UX Is a Canary in a Coal Mine](sources/ux-is-a-canary-in-a-coal-mine-irene-au.md) - Irene Au pairs design-team morale with product quality to diagnose organizational direction and the leadership intervention each state may require.
 
 ## Entities
+- [Felipe Poggi A. Fraga](entities/FelipePoggiAFraga.md) - First author of the automatic knowledge-connection methodology.
+- [Marcus Poggi](entities/MarcusPoggi.md) - Coauthor of the automatic knowledge-connection methodology.
+- [Marco A. Casanova](entities/MarcoACasanova.md) - Coauthor of the automatic knowledge-connection methodology.
+- [Luiz André P. Paes Leme](entities/LuizAndrePPaesLeme.md) - Coauthor of the automatic knowledge-connection methodology.
 - [Conrad Irwin](entities/ConradIrwin.md) - Software-engineering writer represented through a mental-model account of current LLM coding limits and human-agent collaboration.
 - [Zed](entities/Zed.md) - Software organization represented through a company-published position that keeps current agents under human engineering direction.
 - [Lloyd Tabb](entities/LloydTabb.md) - Looker founder and CTO represented through operational metrics, event streams, outlier research, and distributed data fluency.
@@ -2800,6 +2805,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Irene Au](entities/IreneAu.md) - Design leader represented through a morale-and-product-quality framework for diagnosing design organizations.
 
 ## Concepts
+- [Automatic Knowledge Connections](concepts/AutomaticKnowledgeConnections.md) - Machine-proposed navigation edges among passages, concepts, and authors derived from shared concepts and semantic relatedness.
 - [Clarity Metrics](concepts/ClarityMetrics.md) - Actionable operational measures designed to predict or explain customer behavior and guide improvement.
 - [Engineering Mentorship](concepts/EngineeringMentorship.md) - Organizational capacity to develop engineers through protected expert time, feedback, work design, and support matched to candidate learning needs.
 - [Full Cycle Development](concepts/FullCycleDevelopment.md) - Team ownership of design through support, enabled by platform tooling, training, staffing, and bounded interrupt work.

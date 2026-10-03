@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: a5cbf5d958cfec1e3a2b008d3b2b26add383b75c
+as_of_overview_commit: 1765a7f60bf72c2296792a6d963459bc634784ae
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1040
-source_count: 1040
-paragraph_count: 752
+episode_count: 1041
+source_count: 1041
+paragraph_count: 753
 topic_count: 9
 ---
 
@@ -82,7 +82,7 @@ Science and health claims are strongest when mechanism, measurement, uncertainty
 
 ### Work, Education, and Society
 
-Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, accountable relationships, and real support systems.
+Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, accountable relationships, and real support systems. Machine-assisted knowledge navigation adds candidate discovery, but human review remains necessary before generated links become trusted structure.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

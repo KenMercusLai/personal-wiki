@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f048a992d596b8cff2f4e4647ba2939f4e495851e0d8eb68e34a6ebd1f3ec031",
       "1ea407e30b3c5ecdf69b6c20d89102eae00ae167da3344d8178bab7d053447a2",
       "fc91dbe1c50209ee6364719b127af6fd7768b1f333ca835fcdf10546e54562bd",
       "d48f5d566dfa43ce571b5f9711914eefe0e8f0044fcec28d863fa5371acec9c8",
@@ -754,11 +755,29 @@
       "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
       "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc"
     ],
-    "paragraph_count": 752
+    "paragraph_count": 753
   },
-  "overview_commit": "a5cbf5d958cfec1e3a2b008d3b2b26add383b75c",
-  "overview_digest": "08bf547338d1fb3179254d9a5d818a14302e1743554905b76682bfd813fdd0ec",
+  "overview_commit": "1765a7f60bf72c2296792a6d963459bc634784ae",
+  "overview_digest": "8fe2ed760143761131aaab0bc628ef65f6cfdeffbc86c500b5106d2524d403ac",
   "paragraphs": [
+    {
+      "id": "f048a992d596b8cff2f4e4647ba2939f4e495851e0d8eb68e34a6ebd1f3ec031",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[FelipePoggiAFraga]], [[MarcusPoggi]], [[MarcoACasanova]], and [[LuizAndrePPaesLeme]] source adds [[AutomaticKnowledgeConnections]] as a machine-assisted navigation layer for [[PersonalKnowledgeManagement]]. User-selected highlights become nodes alongside concepts and authors; one path recognizes and links concepts through DBpedia and ConceptNet, while another averages concept-based relatedness with Sentence Transformer cosine similarity between passages. [[Obsidian]] then exposes the resulting graph as pages and bidirectional links. The method distinguishes shared-concept exploration, intended to support divergent thinking, from direct passage similarity, intended to support convergence, while retaining humans as highlight selectors and interpreters. Its evaluation is narrower than its recall, elaboration, and insight claims: Mantel correlations of 0.679 and 0.519 on collections of 52 and 182 highlights show agreement between two automated matrices, not correctness against human judgments, component advantage, learning benefit, safe canonical link publication, or large-vault performance. The result therefore supports reviewable candidate edges more strongly than automatic promotion into canonical note bodies. The supplied Markdown contains no image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AutomaticKnowledgeConnections",
+        "FelipePoggiAFraga",
+        "LuizAndrePPaesLeme",
+        "MarcoACasanova",
+        "MarcusPoggi",
+        "Obsidian",
+        "PersonalKnowledgeManagement"
+      ]
+    },
     {
       "id": "1ea407e30b3c5ecdf69b6c20d89102eae00ae167da3344d8178bab7d053447a2",
       "primary_topic": "ai-and-technology",

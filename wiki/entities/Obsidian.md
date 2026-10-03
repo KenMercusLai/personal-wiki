@@ -12,7 +12,8 @@ sources:
   - alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian
   - how-i-use-obsidian
   - matt-giaro-how-to-use-obsidian-as-a-zettelkasten
-last_updated: 2026-10-01
+  - on-the-automatic-generation-of-knowledge-connections
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,12 +21,12 @@ knowledge_schema: synthesis-v1
 [[Obsidian]] is a note-taking application and plugin ecosystem used throughout the source as the practical example for big-note and small-note tooling.
 
 ## Current Profile
-Within this wiki, Obsidian functions as the main software environment through which the sources explain note-method affordances. Its core features and plugins support different note granularities through backlinks, graphs, outlines, heading and block links, folding, metadata, and text transport. The reading-note sources add concrete uses: linked book notes connect works, authors, genres, and opinions, while Zotero Integration imports academic metadata and annotations into citekey-named literature notes that feed manuscript drafting. [[StephAngo]] adds a bottom-up personal workflow in which ordinary Markdown files remain the durable substrate, most authored notes stay at the vault root, categories and templates supply overlapping structure, unresolved links preserve future possibilities, and layered or random review remains intentionally manual. [[MattGiaro]] supplies a still smaller creator variant: [[Bear]] handles rapid capture and short-term filtering, while Obsidian begins at the own-words permanent-note stage and needs no community plugins, elaborate template, or dense classification scheme. Orphan-note inspection, deliberately simplified personal use, and Newton's storage-versus-thinking critique constrain the idea that richer tooling is automatically better. Corti adds repository operations through tests, graphs, backups, CI/CD, exports, and Claude Code; Phelan and Ango show two publication paths from Markdown, one academic through Pandoc and one web-based through Git, Jekyll, and Netlify.
+Within this wiki, Obsidian functions as the main software environment through which the sources explain note-method affordances. Its core features and plugins support different note granularities through backlinks, graphs, outlines, heading and block links, folding, metadata, and text transport. The reading-note sources add concrete uses: linked book notes connect works, authors, genres, and opinions, while Zotero Integration imports academic metadata and annotations into citekey-named literature notes that feed manuscript drafting. [[StephAngo]] adds a bottom-up personal workflow in which ordinary Markdown files remain the durable substrate, most authored notes stay at the vault root, categories and templates supply overlapping structure, unresolved links preserve future possibilities, and layered or random review remains intentionally manual. [[MattGiaro]] supplies a still smaller creator variant: [[Bear]] handles rapid capture and short-term filtering, while Obsidian begins at the own-words permanent-note stage and needs no community plugins, elaborate template, or dense classification scheme. [[AutomaticKnowledgeConnections]] adds a contrasting machine-generated workflow in which an external NLP pipeline turns highlights, concepts, authors, and relatedness scores into Obsidian pages and bidirectional links. Orphan-note inspection, deliberately simplified personal use, and Newton's storage-versus-thinking critique constrain the idea that richer tooling or generated connectivity is automatically better. Corti adds repository operations through tests, graphs, backups, CI/CD, exports, and Claude Code; Phelan and Ango show two publication paths from Markdown, one academic through Pandoc and one web-based through Git, Jekyll, and Netlify.
 
 ## Key Characteristics
 - Supports link-heavy small-note workflows through backlinks, internal links, previews, graph views, and plugin extensions.
 - Supports big-note workflows through outlines, heading navigation, folding, tables of contents, block links, and in-note movement.
-- Uses ordinary Markdown files as a substrate for metadata, databases, templates, citations, quick capture, document export, static-site publishing, and external repository automation.
+- Uses ordinary Markdown files as a substrate for metadata, databases, templates, citations, quick capture, generated graph pages and links, document export, static-site publishing, and external repository automation.
 - Supports reading-note workflows by making book relationships, unread items, spoilers, and note-type groups easier to inspect.
 - Can support deliberately low-friction personal workflows built from few folders, shared properties, composable templates, dense links, and periodic review, either as a complete vault or as the durable stage after a separate capture inbox.
 - Makes orphan or unresolved notes visible through graph inspection and can host standalone research databases or defer destinations until useful connections emerge.
@@ -47,14 +48,18 @@ Within this wiki, Obsidian functions as the main software environment through wh
 - Layered review and publication: [[how-i-use-obsidian]] compiles timestamped fragments into broader reviews and publishes a separate Markdown vault through GitHub, Jekyll, and Netlify.
 - Filtered permanent-note workflow: [[matt-giaro-how-to-use-obsidian-as-a-zettelkasten]] places rapid capture and a two-to-three-day filter in Bear, then uses Obsidian for own-words notes, linking, and content assembly.
 - Minimal core use: [[matt-giaro-how-to-use-obsidian-as-a-zettelkasten]] reports using plain Markdown, a flat vault, descriptive titles, minimal tags, and no required community plugins.
+- Generated graph interface: [[on-the-automatic-generation-of-knowledge-connections]] converts highlight, concept, and author nodes into pages and six graph edge types into bidirectional links.
+- External NLP workflow: [[on-the-automatic-generation-of-knowledge-connections]] computes concept and passage relatedness outside Obsidian, then uses the application as the navigation layer.
 
 ## Qualifications
-The sources use Obsidian as an example-rich environment rather than as a full product review. They do not compare its current feature set, licensing, sync model, or reliability against other tools, and similar backlink, graph, database, or scriptable tools could support much of the same work. Liang Mouyin's mention and Ango's and Giaro's detailed workflows are personal choices; Newton's screenshot demonstrates capability rather than cognitive outcomes, and Corti's architecture is unmeasured. Phelan's workflow is historically scoped to a 2023 plugin configuration, while Ango's and Giaro's 2026 descriptions depend on personal conventions and time-sensitive product claims whose portability is not tested. Giaro's note count and business revenue do not establish that Obsidian or his workflow caused the outcome. None of these sources establishes comparative productivity, learning, or preservation outcomes.
+The sources use Obsidian as an example-rich environment rather than as a full product review. They do not compare its current feature set, licensing, sync model, or reliability against other tools, and similar backlink, graph, database, or scriptable tools could support much of the same work. Liang Mouyin's mention and Ango's and Giaro's detailed workflows are personal choices; Newton's screenshot demonstrates capability rather than cognitive outcomes, and Corti's architecture is unmeasured. The automatic-connection paper tests agreement between two model-derived matrices on small datasets, not whether generated Obsidian links are correct, useful, safe to publish without review, or scalable to a large vault. Phelan's workflow is historically scoped to a 2023 plugin configuration, while Ango's and Giaro's 2026 descriptions depend on personal conventions and time-sensitive product claims whose portability is not tested. Giaro's note count and business revenue do not establish that Obsidian or his workflow caused the outcome. None of these sources establishes comparative productivity, learning, or preservation outcomes.
 
 ## What Changed
 - Added Obsidian's role as the durable thinking layer after a separate rapid-capture and incubation inbox.
 - Added a minimal creator configuration based on plain Markdown, a flat vault, descriptive titles, few tags, and no required community plugins.
 - Strengthened the qualification that self-reported note counts and business outcomes do not establish application or workflow causality.
+- Added Obsidian as the page-and-link interface for an externally generated highlight-concept-author graph.
+- Added the boundary that automated signal agreement does not validate canonical link materialization or user benefit.
 
 ## Relationships
 - [[NoteToolFit]] - Obsidian's feature and plugin set illustrates how software affordances shape note methods.
@@ -74,3 +79,4 @@ The sources use Obsidian as an example-rich environment rather than as a full pr
 - [[FractalJournaling]] - uses timestamped notes and progressively broader reviews inside the vault.
 - [[Bear]] - precedes Obsidian as the rapid-capture and filtering inbox in Giaro's two-app workflow.
 - [[MattGiaro]] - presents Obsidian as the linked thinking and content-assembly half of a minimalist creator system.
+- [[AutomaticKnowledgeConnections]] - uses Obsidian to expose machine-proposed highlight, concept, and author relationships.

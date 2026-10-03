@@ -8376,3 +8376,11 @@ Created [[ConradIrwin]] and [[Zed]], and updated [[AICodingPractice]], [[MentalM
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | On the Automatic Generation of Knowledge Connections
+
+Created [[FelipePoggiAFraga]], [[MarcusPoggi]], [[MarcoACasanova]], [[LuizAndrePPaesLeme]], and [[AutomaticKnowledgeConnections]], and updated [[Obsidian]] from its complete ordered evidence inventory. Added shared-concept and semantic-relatedness paths for generating a highlight-concept-author graph, plus the distinction between divergent concept navigation and convergent passage similarity. Preserved the human role in selecting and interpreting highlights, and treated two small Mantel correlations as agreement between automated signals rather than validation of relevance, learning outcomes, safe canonical link publication, or large-vault performance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
