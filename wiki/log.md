@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-03] ingest | My Manager Left: Lessons from 1-on-1 Conversations
+
+Added [[VisakanVeerasamy]] and [[ProfessionalSelfManagement]], and updated [[ContinuousWorkplaceFeedback]] and [[BurnoutPrevention]] from their complete ordered evidence inventories. Recorded priority and balanced-metric discipline, small plans, scheduling, review, process articulation, early communication, help-seeking, protected learning, relationship building, planned leave, and mental-health honesty while preserving the tension between ambitious self-direction and sustainable capacity. Qualified the source as one employee's retrospective selection without contemporaneous notes, manager perspective, measured outcomes, or universal role fit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-02] ingest | Great developers are raised, not hired
 
 Created [[EduardsSizovs]] and [[EngineeringMentorship]]. Recorded the fixed-pool critique of competing only for already polished developers; pairing, continuous feedback, career guidance, learning resources, and beginner programs as skill-formation mechanisms; and the need to match wider entry with real senior time, communication skill, suitable work, manager support, staffing headroom, and safe role boundaries. Preserved the source's missing comparative outcomes, the risk that "attitude" and "growth mindset" become culture-fit proxies, and the limits of mentorship as a response to pay, safety, discrimination, and structural exclusion. Opened and omitted the decorative author avatar; six inline illustrations referenced a missing companion directory and could not be inspected, so no visual evidence or asset manifest was produced.

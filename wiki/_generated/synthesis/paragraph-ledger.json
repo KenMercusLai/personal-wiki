@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d6c2082092868ce8864403e2df9e5665c2c9a5732f58d6a2d85d4167312e9012",
       "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
       "2e0f6dcde44dc219153161c1d8cd39fcc6b745358a96c04b87e4cec1f6bca9a5",
       "1bc1facc36353f4025a834e27e039c81a05ac6ad80a326450dc7d25f505e05be",
@@ -760,11 +761,28 @@
       "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e",
       "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e"
     ],
-    "paragraph_count": 758
+    "paragraph_count": 759
   },
-  "overview_commit": "9aedcc2b8a15a4a9dbd31b2bc21e95a98d090801",
-  "overview_digest": "cca9b6c611fca9d902b768bbc031c601da90310654b9d19c3dfbe8ea8bd5cd39",
+  "overview_commit": "3efdc5b7fc889afcc6794fd290f5b469a3601cc1",
+  "overview_digest": "3b83677133aeb76b431630b686730ce855b8c921dbe13fa4d5f6d4d49feef1ef",
   "paragraphs": [
+    {
+      "id": "d6c2082092868ce8864403e2df9e5665c2c9a5732f58d6a2d85d4167312e9012",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[VisakanVeerasamy]] source adds [[ProfessionalSelfManagement]] as an integrated operating model rather than a collection of isolated productivity tips. A named top priority, precise goals, and an owned metric with a counterbalance align attention and accountability; schedules, small plans, reflection, and written processes turn intention into inspectable practice; and early drafts, clarifying questions, specific help requests, protected learning, teaching, and deliberate relationships expand feedback and capability. The same model treats planned time off and mental-health honesty as capacity requirements, placing a boundary around its advice to push beyond comfort and move quickly. [[ContinuousWorkplaceFeedback]] gains a cumulative function: recurring one-on-one advice can become durable self-direction, not only immediate coaching or status exchange. [[BurnoutPrevention]] gains the employee-side error of deferring vacation because opportunity feels undeserved. The evidence remains one author's retrospective selection, with no contemporaneous notes, manager perspective, outcome measures, or proof that a single priority or metric pair fits every role. The source contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "ContinuousWorkplaceFeedback",
+        "ProfessionalSelfManagement",
+        "VisakanVeerasamy"
+      ]
+    },
     {
       "id": "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
       "primary_topic": "ai-and-technology",

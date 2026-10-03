@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [My Manager Left: Lessons from 1-on-1 Conversations](sources/my-manager-left-lessons-from-1-on-1-conversations.md) - Visakan Veerasamy distills recurring managerial guidance into a qualified system for priority, execution, communication, learning, relationships, and recovery.
 - [My First 5 Minutes On A Server; Or, Essential Security for Linux Servers](sources/my-first-5-minutes-on-a-server.md) - Bryan Kennedy layers non-root key-based administration, restricted SSH, firewalling, patch automation, and log review into a dated but durable first-login hardening model.
 - [High-Intensity Circuit Training Using Body Weight: Maximum Results With Minimal Investment](sources/high-intensity-circuit-training-using-body-weight.md) - Brett Klika and Chris Jordan propose a portable 12-station HICT circuit while qualifying the seven-minute framing with repeat rounds, screening, technique, and goal-specific limits.
 - [Denial of Service with a Fistful of Packets: Exploiting Algorithmic Complexity Vulnerabilities](sources/denial-of-service-with-a-fistful-of-packets-exploiting-algorithmic-complexity-vulnerabilities.md) - Nathan Hauke and David Renardy show how valid PDF, VNC, and password-estimation inputs can trigger disproportionate resource use, then advocate layered limits and worst-case testing.
@@ -1077,6 +1078,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [小贴士：Docker清理作弊手册](sources/docker-qing-li-zuo-bi-shou-ce.md) - 伊布按容器、镜像、卷与网络整理 Docker 清理命令，并警告删除顺序会扩大后续镜像清理范围。
 
 ## Entities
+- [Visakan Veerasamy](entities/VisakanVeerasamy.md) - Author represented through a retrospective synthesis of recurring one-on-one management lessons.
 - [Bryan Kennedy](entities/BryanKennedy.md) - Practitioner-author represented through a maintainable, layered Linux server-hardening checklist.
 - [Brett Klika](entities/BrettKlika.md) - Exercise-programming author represented through a qualified body-weight HICT protocol for time-constrained adults.
 - [Chris Jordan](entities/ChrisJordan.md) - Exercise-programming author represented through a qualified body-weight HICT protocol for time-constrained adults.
@@ -2830,6 +2832,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Professional Self-Management](concepts/ProfessionalSelfManagement.md) - Deliberate allocation of priorities, attention, learning, communication, relationships, and recovery for sustainable professional capability.
 - [Linux Server Hardening](concepts/LinuxServerHardening.md) - Repeatable reduction of Linux host attack surface through controlled administration, minimal exposure, patching, monitoring, and tested recovery.
 - [High-Intensity Circuit Training](concepts/HighIntensityCircuitTraining.md) - Limited-rest circuit method combining aerobic and resistance demands through high-effort, large-muscle exercises.
 - [Algorithmic Complexity Vulnerabilities](concepts/AlgorithmicComplexityVulnerabilities.md) - Denial-of-service weaknesses in which valid attacker-controlled input drives unacceptable worst-case time or space consumption.

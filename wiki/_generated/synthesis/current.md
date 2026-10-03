@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-03
-as_of_overview_commit: 9aedcc2b8a15a4a9dbd31b2bc21e95a98d090801
+as_of_overview_commit: 3efdc5b7fc889afcc6794fd290f5b469a3601cc1
 summary: "The wiki connects technology, markets, institutions, culture, health, learning, and work through evidence, explicit boundaries, feedback, incentives, and contextual judgment."
-episode_count: 1051
-source_count: 1051
-paragraph_count: 758
+episode_count: 1052
+source_count: 1052
+paragraph_count: 759
 topic_count: 9
 ---
 
@@ -82,7 +82,7 @@ Science and health claims are strongest when mechanism, measurement, uncertainty
 
 ### Work, Education, and Society
 
-Learning and sustainable work rely on active practice, relevant feedback, role clarity, fair opportunity, protected attention, reciprocal diligence, and real support systems.
+Learning and sustainable work rely on active practice, relevant feedback, clear priorities and roles, fair opportunity, protected attention, reciprocal diligence, recovery, and real support systems.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
