@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "02ea4d261d383d333bb23235615a6145613e83209993a9637a144df36b7e77f8",
       "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
       "40ada043306f6548529fd77856b3f09f3845cc3ad041d27703752075438d5c46",
       "dd85fc40ee076a2ddcb81177f0f6a54f8c2ab6ccb38f3a6c7b3b1305945432ed",
@@ -769,11 +770,24 @@
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
     ],
-    "paragraph_count": 767
+    "paragraph_count": 768
   },
-  "overview_commit": "e72bdd93d534a56951e3d83458fc229b85537e7c",
-  "overview_digest": "787f2cf154d45cb9c6af4d40bdca4b27ae8bb5a11f6e8658d4c738855ee0c437",
+  "overview_commit": "f7837ff236e9ca0728d76f8693d0fef361f20f77",
+  "overview_digest": "c412c3c06f9df16f99e8ad4adeefa7288fb694a2c9894bc077162e2e047bcd80",
   "paragraphs": [
+    {
+      "id": "02ea4d261d383d333bb23235615a6145613e83209993a9637a144df36b7e77f8",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest [[Xiaoyong|小泳]] source adds [[AtheroscleroticPlaqueManagement]] as long-term disease modification rather than a synonym for opening an artery or dissolving an acute clot. Its five goals join plaque volume, composition, rupture risk, progression, and adverse cardiovascular events; lifestyle change and coordinated control of lipids, blood pressure, and glucose form the base, while anti-inflammatory or antithrombotic treatment is conditional. Lipid management is presented as the core, with stabilization asserted to begin within about 30 days of intensive lowering and structural regression to require one to two years, supporting persistence rather than short treatment courses. Stenting and thrombolysis are separated from direct treatment of atherosclerosis itself, although they can remain important parts of care for its manifestations and complications. Repeat imaging is proposed as feedback for maintaining or adjusting treatment, but the post gives no modality, interval, threshold, or outcome evidence. The durable synthesis is therefore the distinction among disease modification, complication treatment, and longitudinal reassessment—not the uncited timing numbers. An appended reader reply disputes LDL-C-centered treatment and claims intima-media improvement within seven to 15 days, but supplies no study, intervention detail, comparator, or clinical outcome and remains unsupported counterevidence rather than an established alternative. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "AtheroscleroticPlaqueManagement",
+        "Xiaoyong"
+      ]
+    },
     {
       "id": "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
       "primary_topic": "governance-and-institutions",

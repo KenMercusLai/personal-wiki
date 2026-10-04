@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-04] ingest | 动脉粥样硬化斑块的干预与治疗
+
+Created [[AtheroscleroticPlaqueManagement]] and updated [[Xiaoyong]] from the complete ordered evidence inventory. Distinguished long-term plaque disease modification from stenting and thrombolysis, integrated lifestyle and lipid, blood-pressure, glucose, inflammatory, and thrombotic risk management, and recorded imaging as qualified longitudinal feedback. Preserved the post's uncited 30-day stabilization and one-to-two-year regression timeline as source claims, and treated the appended seven-to-15-day reader theory as unsupported counterevidence rather than established treatment knowledge. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-04] ingest | Linux command to inspect TXT records of a domain
 
 Created [[DNSTXTRecordLookup]] from a Server Fault command-line answer set. Recorded `dig -t txt`, its compact `+short` form, the terse `host -t txt` alternative, and the need to request selector-qualified DKIM subdomains explicitly rather than expecting a parent-domain query to enumerate them. Preserved the source's missing resolver, authority, cache, TTL, DNSSEC, alias, truncation, exit-status, split-string, and selector-discovery guidance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8532,6 +8536,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-04] ingest | Running a cron every 30 seconds
 
 Created [[SubMinuteTaskScheduling]] from a Stack Overflow comparison of offset cron entries, a coordinated shell loop, and systemd timers. Distinguished cron's one-minute expression floor from approximate 30-second triggering, separated requested timer accuracy from guaranteed execution precision, and made overlap, overrun, missed-run, supervision, monitoring, and recovery semantics explicit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-04] lint | Wiki health check
 

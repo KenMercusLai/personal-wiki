@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [动脉粥样硬化斑块的干预与治疗](sources/dong-mai-zhou-yang-ying-hua-ban-kuai-gan-yu-yu-zhi-liao.md) - 小泳将斑块稳定、逆转与心血管风险管理区分于支架和溶栓，并强调长期降脂、危险因素控制与影像随访，但未给出临床引用。
 - [Running a cron every 30 seconds](sources/running-a-cron-every-30-seconds.md) - Stack Overflow answers contrast cron's one-minute floor with offset jobs, a coordinated loop, and a systemd timer for sub-minute recurring work.
 - [Linux command to inspect TXT records of a domain](sources/linux-command-to-inspect-txt-records-of-a-domain.md) - Server Fault answers show how to query an exact domain name's TXT records with `dig` or `host`, including compact output and selector-specific DKIM lookups.
 - [git local branch 删除后如何恢复](sources/git-local-branch-shan-chu-hou-ru-he-hui-fu.md) - Mai Yang explains how to find a deleted local branch's former tip in the Git reflog and recreate the branch at that commit.
@@ -1122,7 +1123,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hannah Lee](entities/HannahLee.md) - Product designer represented through Chrome's 2018 mobile redesign and its code audit, system, interaction, and brand constraints.
 - [Max Levchin](entities/MaxLevchin.md) - Entrepreneur and engineer represented through immigration, Illinois, repeated startup failure, PayPal, and humane leadership lessons.
 - [University of Illinois Urbana-Champaign](entities/UniversityOfIllinoisUrbanaChampaign.md) - University represented as Levchin's formative computing environment and source of long-running collaborators.
-- [小泳](entities/Xiaoyong.md) - Chinese-language health explainer represented through a source-bounded distinction between influenza and the common cold.
+- [小泳](entities/Xiaoyong.md) - Chinese-language health explainer represented through source-bounded distinctions in respiratory terminology and atherosclerotic plaque management.
 - [Truc Phan](entities/TrucPhan.md) - Data-analysis practitioner who built a Gemini-assisted pipeline for extracting skills from Glassdoor job descriptions.
 - [Travis Bradberry](entities/TravisBradberry.md) - Business author represented through popular emotional-management advice on difficult relationships and boundaries.
 - [Tony Dinh](entities/TonyDinh.md) - Vietnamese software developer and product founder represented through a two-year solopreneur portfolio retrospective.
@@ -2843,6 +2844,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Atherosclerotic Plaque Management](concepts/AtheroscleroticPlaqueManagement.md) - Long-term stabilization, progression control, possible regression, and event-risk reduction through lifestyle, risk-factor treatment, medication, and qualified imaging follow-up.
 - [Sub-Minute Task Scheduling](concepts/SubMinuteTaskScheduling.md) - Recurring execution below one-minute granularity with explicit cadence, overlap, delay, accuracy, and recovery semantics.
 - [DNS TXT Record Lookup](concepts/DNSTXTRecordLookup.md) - Exact-name retrieval of DNS TXT records with command-line clients, including compact output and explicit DKIM selector queries.
 - [Bash Conditionals](concepts/BashConditionals.md) - Command-status model in which `if` consumes success or failure directly and `[` or `test` evaluates expressions when needed.
