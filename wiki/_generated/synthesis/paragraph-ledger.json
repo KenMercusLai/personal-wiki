@@ -765,12 +765,13 @@
       "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e",
       "f4ca6e95fc4b2c5c8349c043c0c41dc946797757f5be96744fc39797fe5af57f",
       "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
-      "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde"
+      "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
+      "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5"
     ],
-    "paragraph_count": 765
+    "paragraph_count": 766
   },
-  "overview_commit": "e0df09d33313b2f27efcf29844a22b262f50b412",
-  "overview_digest": "1fbba5b89bda0556b0c6e278871494c6f807a3ee612876b7545457f22b10c4b3",
+  "overview_commit": "afaa5b78f72c11cc0a3c12328bd6912a320809b0",
+  "overview_digest": "2aeaca3b1f4f12546d0b5b7f9cdab5b45a5f4a08e39184ec3b4a5f7ca303660b",
   "paragraphs": [
     {
       "id": "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
@@ -15486,6 +15487,20 @@
         "AutomationFriendlyCLI",
         "BashAsMetaTool",
         "BashConditionals"
+      ]
+    },
+    {
+      "id": "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest DNS command-line source adds [[DNSTXTRecordLookup]] as an exact-name operation rather than a mechanism for discovering a domain's whole TXT namespace. `dig -t txt <name>` requests TXT records with normal response detail, `+short` reduces that display to compact answer data, and `host -t txt <name>` supplies a terse alternative. For DKIM, the caller must already know and query the selector-qualified `_domainkey` name because asking for the parent domain does not enumerate records attached to subdomains. This connects operational record inspection to [[EmailDeliverability]] while remaining separate from [[AnycastDNS]], which concerns how DNS requests reach service instances. The source is a short 2010 Server Fault answer set rather than a complete DNS diagnostic guide: it omits resolver and authority selection, cache and TTL behavior, DNSSEC, aliases, truncation, exit statuses, split TXT strings, and selector discovery, while `+short` deliberately removes metadata useful for troubleshooting. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AnycastDNS",
+        "DNSTXTRecordLookup",
+        "EmailDeliverability"
       ]
     }
   ],

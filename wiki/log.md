@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-04] ingest | Linux command to inspect TXT records of a domain
+
+Created [[DNSTXTRecordLookup]] from a Server Fault command-line answer set. Recorded `dig -t txt`, its compact `+short` form, the terse `host -t txt` alternative, and the need to request selector-qualified DKIM subdomains explicitly rather than expecting a parent-domain query to enumerate them. Preserved the source's missing resolver, authority, cache, TTL, DNSSEC, alias, truncation, exit-status, split-string, and selector-discovery guidance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-04] ingest | git local branch 删除后如何恢复
 
 Added [[GitBranchRecovery]] and updated [[MaiYang]] from her complete ordered evidence inventory. Recorded that deleting a local branch reference does not necessarily remove its committed history immediately, and that `git reflog` plus branch creation at a verified SHA provides a minimal recovery path. Preserved the boundaries around uncommitted changes, ambiguous SHAs, reflog expiration, garbage collection, worktrees, remote alternatives, and the source's lack of tested failure cases. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8512,6 +8516,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-04] ingest | When are square brackets required in a Bash if statement?
 
 Created [[BashConditionals]] from a Stack Overflow explanation of command-status-driven shell control flow. Distinguished commands such as `grep -q`, which can serve directly as conditions, from expressions that need `test` or `[`, and recorded that `[` is a command whose closing `]` is a required argument rather than mandatory `if` punctuation. Qualified the source's omission of `[[ ... ]]`, arithmetic and compound conditions, pipelines, negation, command-specific error statuses, and quoting hazards. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-04] lint | Wiki health check
 

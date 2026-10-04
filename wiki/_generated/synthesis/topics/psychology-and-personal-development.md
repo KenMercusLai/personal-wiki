@@ -3,9 +3,9 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-10-03
-as_of_overview_commit: 03d98e96d3b928a9cc208d86c918bd8abd39f675
-input_digest: 7190ae5bb9919b92ba84f240cdb72849fad88d25aee658df76b2e7ab90091147
+last_updated: 2026-10-04
+as_of_overview_commit: afaa5b78f72c11cc0a3c12328bd6912a320809b0
+input_digest: 04c2448d36e5241fb472e9062d34a77bbc6ca5062b0dd68a23a9d432968970c7
 ---
 
 # Psychology and Personal Development
@@ -790,3 +790,14 @@ The [[IBM]] case adds an organizational boundary to strategic judgment: an exter
 
 - The deterministic router cross-classified a systems-security paragraph through maintainability and recovery language; it supplies no psychological or personal-development finding.
 - The underlying evidence is one historically scoped practitioner checklist with substantial current-environment qualifications.
+
+### Dns Txt Lookup Is Router Spillover
+
+[[DNSTXTRecordLookup]], [[EmailDeliverability]], and [[AnycastDNS]] reach this topic only as source-scoped spillover: the substantive claim concerns exact-name TXT queries, compact command output, and selector-qualified DKIM names rather than psychology or personal development.
+
+**Evidence:** [[DNSTXTRecordLookup]], [[EmailDeliverability]], [[AnycastDNS]]
+
+**Qualifications:**
+
+- The deterministic router cross-classified an operational DNS paragraph through lookup and email-authentication language; it supplies no psychological or personal-development finding.
+- The underlying evidence is a short 2010 command-line answer set rather than a complete DNS diagnostic guide.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Linux command to inspect TXT records of a domain](sources/linux-command-to-inspect-txt-records-of-a-domain.md) - Server Fault answers show how to query an exact domain name's TXT records with `dig` or `host`, including compact output and selector-specific DKIM lookups.
 - [git local branch 删除后如何恢复](sources/git-local-branch-shan-chu-hou-ru-he-hui-fu.md) - Mai Yang explains how to find a deleted local branch's former tip in the Git reflog and recreate the branch at that commit.
 - [When are square brackets required in a Bash if statement?](sources/when-are-square-brackets-required-in-a-bash-if-statement.md) - Stack Overflow answers explain that Bash `if` branches on command status and that `[` is the `test`-like command used to evaluate expressions, not mandatory `if` syntax.
 - [Order of redirections - Unix & Linux Stack Exchange](sources/bashzhong-ding-xiang-shun-xu.md) - A left-to-right file-descriptor model explains why `>file 2>&1` combines output while `2>&1 >file` normally leaves errors on the terminal.
@@ -2841,6 +2842,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [DNS TXT Record Lookup](concepts/DNSTXTRecordLookup.md) - Exact-name retrieval of DNS TXT records with command-line clients, including compact output and explicit DKIM selector queries.
 - [Bash Conditionals](concepts/BashConditionals.md) - Command-status model in which `if` consumes success or failure directly and `[` or `test` evaluates expressions when needed.
 - [Shell Redirection](concepts/ShellRedirection.md) - Left-to-right reassignment and point-in-time duplication of shell file-descriptor destinations.
 - [Self-Signed Certificates](concepts/SelfSignedCertificates.md) - Certificates whose cryptographic validity remains separate from client trust, hostname coverage, and lifecycle operations.
