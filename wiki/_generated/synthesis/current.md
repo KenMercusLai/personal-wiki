@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-04
-as_of_overview_commit: f3960f38474b77cb341ef1f397dffacb129a1e70
+as_of_overview_commit: f5544ed814fcbd010099ebae4860b87e507b5cbd
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment grounded mainly in contextual case evidence."
-episode_count: 1062
-source_count: 1062
-paragraph_count: 769
+episode_count: 1063
+source_count: 1063
+paragraph_count: 770
 topic_count: 9
 ---
 
@@ -43,10 +43,10 @@ Durable businesses connect customer learning and demand to retention, economics,
 
 ### Cross-domain
 
-Across domains, rough models, inspectable flows, human constraints, explicit control boundaries, and recoverable interfaces turn hidden complexity into practical judgment.
+Across domains, correct classification and practical judgment depend on identifying the unit and context, exposing hidden flows, respecting human constraints, making control boundaries explicit, and preserving recoverable interfaces.
 
+- Classification must identify the unit and its life-cycle context before applying a label: [[PloidyAndOrganismStatus]] separates chromosome-set count from biological individuality because haploidy can describe a whole organism, a multicellular stage, or one specialized cell. Evidence: [[PloidyAndOrganismStatus]], [[Xiaoyong]].
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries. Evidence: [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[SpanningTreeProtocol]], [[VMware]].
-- Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 
 ### Culture and Media
 

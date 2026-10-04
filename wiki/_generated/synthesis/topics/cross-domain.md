@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-10-01
-as_of_overview_commit: 9a6885aea5e919f2bc8c80fa3a9ea7b0a7892d79
-input_digest: 03900e8b452ba7f780d7da3dfa78f6fac0977fa29515c12955708eea38cb4ac0
+last_updated: 2026-10-04
+as_of_overview_commit: f5544ed814fcbd010099ebae4860b87e507b5cbd
+input_digest: bf68f29cccc73c5c81a05e13d999a5bde71eb2cb023abd2c018594eed2942d35
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize explicit boundary and infrastructure thinking across network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.
+Cross-domain sources emphasize explicit unit, boundary, and infrastructure thinking across biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable judgments come from identifying what is being classified or controlled, exposing hidden flows and inherited constraints, and making ownership, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.
 
 ## Cross-source Findings
+
+### Classification Needs Unit And Lifecycle Context
+
+Classification must identify the unit and its life-cycle context before applying a label: [[PloidyAndOrganismStatus]] separates chromosome-set count from biological individuality because haploidy can describe a whole organism, a multicellular stage, or one specialized cell.
+
+**Evidence:** [[PloidyAndOrganismStatus]], [[Xiaoyong]]
+
+**Qualifications:**
+
+- The evidence is one uncited social-media explainer whose checklist is not a strict definition and whose wording blurs a living cell with an independent organism.
 
 ### Control Removal Requires Replacement Signals
 

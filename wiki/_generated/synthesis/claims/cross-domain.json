@@ -2,6 +2,19 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "classification-needs-unit-and-lifecycle-context",
+      "qualifications": [
+        "The evidence is one uncited social-media explainer whose checklist is not a strict definition and whose wording blurs a living cell with an independent organism."
+      ],
+      "statement": "Classification must identify the unit and its life-cycle context before applying a label: [[PloidyAndOrganismStatus]] separates chromosome-set count from biological individuality because haploidy can describe a whole organism, a multicellular stage, or one specialized cell.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "PloidyAndOrganismStatus",
+        "Xiaoyong"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "control-removal-requires-replacement-signals",
       "qualifications": [
         "The network evidence is one polemical 2012 practitioner essay without topology, configuration, timing, false-positive, or comparative data, and its attribution of VMware guidance is undocumented."
@@ -165,6 +178,6 @@
       ]
     }
   ],
-  "summary": "Cross-domain sources emphasize explicit boundary and infrastructure thinking across network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable outcomes come from exposing hidden flows, inherited constraints, ownership boundaries, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs so they can be inspected, tested, and reused.",
+  "summary": "Cross-domain sources emphasize explicit unit, boundary, and infrastructure thinking across biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable judgments come from identifying what is being classified or controlled, exposing hidden flows and inherited constraints, and making ownership, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.",
   "topic_id": "cross-domain"
 }

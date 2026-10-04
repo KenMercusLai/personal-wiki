@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-04] ingest | 单倍体是否属于生物
+
+Created [[PloidyAndOrganismStatus]] and updated [[Xiaoyong]] from the complete ordered evidence inventory. Separated haploid chromosome status from organismal individuality, retained fungi, male bees, moss gametophytes, and human gametes as source examples, and reframed the decision around life-cycle context, functional integration, and qualified independence. Preserved the source's ambiguous shift between a living cell and an independent organism, the limits of its five-characteristic checklist, and its lack of citations or a cross-taxon definition. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-04] ingest | 为什么春梦总是不能尽兴
 
 Created [[DreamInterruption]] and updated [[Xiaoyong]] from the complete ordered evidence inventory. Separated interruption of a dream experience from fragmentation of later recall, and organized REM transition, sensory or bodily awakening, physiological arousal, and psychological conflict as distinct proposed mechanisms. Preserved the absence of cited studies, measurements, or discriminating methods and made the author's explicit statement that the account is personal speculation rather than scientific evidence the governing qualification. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8540,6 +8544,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-04] ingest | Running a cron every 30 seconds
 
 Created [[SubMinuteTaskScheduling]] from a Stack Overflow comparison of offset cron entries, a coordinated shell loop, and systemd timers. Distinguished cron's one-minute expression floor from approximate 30-second triggering, separated requested timer accuracy from guaranteed execution precision, and made overlap, overrun, missed-run, supervision, monitoring, and recovery semantics explicit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-04] lint | Wiki health check
 

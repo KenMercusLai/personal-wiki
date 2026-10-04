@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "21874c82049a9c4ff2909e769de2a30e5cb3faa87151db115c5b88e8995725fc",
       "4ff5e913948511efe19b0331c5c30e6bd71b06c0eac3ad4baf4d953232978183",
       "02ea4d261d383d333bb23235615a6145613e83209993a9637a144df36b7e77f8",
       "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
@@ -771,11 +772,22 @@
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
     ],
-    "paragraph_count": 769
+    "paragraph_count": 770
   },
-  "overview_commit": "f3960f38474b77cb341ef1f397dffacb129a1e70",
-  "overview_digest": "93ece650d6e36b2b156600e474e7931df5e309fff3c3438d6186d1e01e0f20b8",
+  "overview_commit": "f5544ed814fcbd010099ebae4860b87e507b5cbd",
+  "overview_digest": "4a3191e166c7805a6046fca0fdef073765e08529eff8a00da9e743eafd17793a",
   "paragraphs": [
+    {
+      "id": "21874c82049a9c4ff2909e769de2a30e5cb3faa87151db115c5b88e8995725fc",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[Xiaoyong|小泳]] source adds [[PloidyAndOrganismStatus]] as a distinction between chromosome-set count and biological individuality. Haploidy can describe a whole organism, a multicellular life stage, or one specialized cell, so it neither establishes nor excludes organism status by itself. The post contrasts certain fungi, male bees, and moss gametophytes with human sperm and eggs, making life-cycle position, functional integration, and capacity for independent completion of the relevant life cycle more informative than chromosome number. Its teaching checklist—metabolism, growth and development, reproduction, stimulus response, and homeostasis—is not a strict definition because sterile, immature, or dormant individuals need not display every item, and the wording also blurs a living cell with an independent organism. The source provides no citations or cross-taxon definition, so the examples support a useful categorical separation rather than a universal settlement of biological individuality.",
+      "topic_scores": {},
+      "wikilinks": [
+        "PloidyAndOrganismStatus",
+        "Xiaoyong"
+      ]
+    },
     {
       "id": "4ff5e913948511efe19b0331c5c30e6bd71b06c0eac3ad4baf4d953232978183",
       "primary_topic": "governance-and-institutions",

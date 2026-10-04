@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [单倍体是否属于生物](sources/dan-bei-ti-yu-sheng-wu-ding-yi.md) - 小泳区分染色体倍性与生物体身份，以单倍体个体、生活史阶段和人类配子说明功能整合与独立性比染色体组数更关键，同时留下定义与例外边界。
 - [为什么春梦总是不能尽兴](sources/chun-meng-zhong-duan-de-sheng-li-ji-zhi.md) - 小泳将性梦的表观中断分为睡眠阶段转换、觉醒、兴奋、心理干扰与回忆片段化等假说，并明确声明这些并非科学依据。
 - [动脉粥样硬化斑块的干预与治疗](sources/dong-mai-zhou-yang-ying-hua-ban-kuai-gan-yu-yu-zhi-liao.md) - 小泳将斑块稳定、逆转与心血管风险管理区分于支架和溶栓，并强调长期降脂、危险因素控制与影像随访，但未给出临床引用。
 - [Running a cron every 30 seconds](sources/running-a-cron-every-30-seconds.md) - Stack Overflow answers contrast cron's one-minute floor with offset jobs, a coordinated loop, and a systemd timer for sub-minute recurring work.
@@ -1124,7 +1125,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hannah Lee](entities/HannahLee.md) - Product designer represented through Chrome's 2018 mobile redesign and its code audit, system, interaction, and brand constraints.
 - [Max Levchin](entities/MaxLevchin.md) - Entrepreneur and engineer represented through immigration, Illinois, repeated startup failure, PayPal, and humane leadership lessons.
 - [University of Illinois Urbana-Champaign](entities/UniversityOfIllinoisUrbanaChampaign.md) - University represented as Levchin's formative computing environment and source of long-running collaborators.
-- [小泳](entities/Xiaoyong.md) - Chinese-language health explainer represented through source-bounded respiratory, cardiovascular, sleep, and dream-recall distinctions.
+- [小泳](entities/Xiaoyong.md) - Chinese-language explainer represented through source-bounded respiratory, cardiovascular, sleep, dream-recall, and biological-classification distinctions.
 - [Truc Phan](entities/TrucPhan.md) - Data-analysis practitioner who built a Gemini-assisted pipeline for extracting skills from Glassdoor job descriptions.
 - [Travis Bradberry](entities/TravisBradberry.md) - Business author represented through popular emotional-management advice on difficult relationships and boundaries.
 - [Tony Dinh](entities/TonyDinh.md) - Vietnamese software developer and product founder represented through a two-year solopreneur portfolio retrospective.
@@ -2845,6 +2846,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Ploidy and Organism Status](concepts/PloidyAndOrganismStatus.md) - Distinguishing chromosome-set count from biological individuality through life-cycle context, functional integration, and qualified independence criteria.
 - [Dream Interruption](concepts/DreamInterruption.md) - Apparent loss of dream continuity separated into possible sleep-state or awakening events and later memory fragmentation, with all supplied mechanisms treated as unverified hypotheses.
 - [Atherosclerotic Plaque Management](concepts/AtheroscleroticPlaqueManagement.md) - Long-term stabilization, progression control, possible regression, and event-risk reduction through lifestyle, risk-factor treatment, medication, and qualified imaging follow-up.
 - [Sub-Minute Task Scheduling](concepts/SubMinuteTaskScheduling.md) - Recurring execution below one-minute granularity with explicit cadence, overlap, delay, accuracy, and recovery semantics.
