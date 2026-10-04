@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - running-a-cron-every-30-seconds
   - linux-command-to-inspect-txt-records-of-a-domain
   - git-local-branch-shan-chu-hou-ru-he-hui-fu
   - when-are-square-brackets-required-in-a-bash-if-statement
@@ -2519,7 +2520,10 @@ The newest Bash source adds [[BashConditionals]] as a command-status model rathe
 
 The newest DNS command-line source adds [[DNSTXTRecordLookup]] as an exact-name operation rather than a mechanism for discovering a domain's whole TXT namespace. `dig -t txt <name>` requests TXT records with normal response detail, `+short` reduces that display to compact answer data, and `host -t txt <name>` supplies a terse alternative. For DKIM, the caller must already know and query the selector-qualified `_domainkey` name because asking for the parent domain does not enumerate records attached to subdomains. This connects operational record inspection to [[EmailDeliverability]] while remaining separate from [[AnycastDNS]], which concerns how DNS requests reach service instances. The source is a short 2010 Server Fault answer set rather than a complete DNS diagnostic guide: it omits resolver and authority selection, cache and TTL behavior, DNSSEC, aliases, truncation, exit statuses, split TXT strings, and selector discovery, while `+short` deliberately removes metadata useful for troubleshooting. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
 
+The newest cron source adds [[SubMinuteTaskScheduling]] as a distinction between expressing a cadence and defining reliable execution. Traditional cron cannot directly represent 30-second intervals, so two every-minute entries with one delayed by `sleep 30` only approximate the cadence and can overlap when work runs long. A coordinated loop can instead let an overrun delay the next cycle, while a systemd timer makes the recurring trigger explicit and separates it from the service. This extends [[TaskQueueDesign]] and [[SystemReliability]] by showing that trigger precision alone does not answer concurrency, missed-run, supervision, failure-notification, restart, or catch-up questions. The source is a compact Stack Overflow answer set, and its theoretical systemd granularity is not evidence of equivalent real-world execution precision under operating-system load and power management. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## Open Questions
+- Which cadence, jitter, overrun, missed-run, persistence, locking, supervision, and observability requirements should determine whether sub-minute work uses a local timer, a supervised loop, or a durable task system?
 - Which neural, endocrine, metabolic, sensory, microbial, psychological, and environmental signals causally distinguish homeostatic from hedonic hunger, and which can be changed safely enough to improve obesity or anorexia-nervosa treatment?
 - Which current Linux server baseline best combines provider controls, identity-aware or VPN access, SSH key lifecycle, automated patching, audit evidence, backup recovery, and lockout-safe rollback across major distributions?
 - Which combination of niche depth, non-code assets, pricing evidence, retention, and customer concentration shows that a focused software category can remain a durable destination rather than requiring expansion?

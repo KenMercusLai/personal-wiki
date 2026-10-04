@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-04
-as_of_overview_commit: e0df09d33313b2f27efcf29844a22b262f50b412
-input_digest: 2dd2c67ebbc4103b79ac30cd3c0a6700f6a1dadddbd407231aaa0afe182a774d
+as_of_overview_commit: e72bdd93d534a56951e3d83458fc229b85537e7c
+input_digest: f3df2f97c8fe16e648ab05a131ff74c0aeebdb8e1bff44cba56973d8f296172d
 ---
 
 # Work, Education, and Society
@@ -1304,3 +1304,14 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 
 - The evidence is one minimal practitioner note without tested versions, repository-state variations, or validation steps.
 - The method cannot recover uncommitted working-tree changes and may fail when reflog entries expire or unreachable objects are pruned; ambiguous candidate SHAs require independent verification.
+
+### Periodic Automation Needs Explicit Overrun Semantics
+
+[[SubMinuteTaskScheduling]] adds a narrow automation-work boundary: cron cannot directly express a 30-second interval, and offset jobs, a coordinated loop, and systemd timers trade command duplication, overlap, delay, supervision, and precision rather than making reliable recurrence automatic.
+
+**Evidence:** [[SubMinuteTaskScheduling]], [[TaskQueueDesign]], [[SystemReliability]]
+
+**Qualifications:**
+
+- The evidence is one concise community answer set without workload measurements, scheduler comparison, or failure testing.
+- The loop requires independent supervision, while neither the cron nor timer examples specify locking, idempotency, missed-run recovery, or alerting.

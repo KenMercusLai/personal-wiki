@@ -766,12 +766,13 @@
       "f4ca6e95fc4b2c5c8349c043c0c41dc946797757f5be96744fc39797fe5af57f",
       "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
       "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
-      "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5"
+      "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
+      "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
     ],
-    "paragraph_count": 766
+    "paragraph_count": 767
   },
-  "overview_commit": "afaa5b78f72c11cc0a3c12328bd6912a320809b0",
-  "overview_digest": "2aeaca3b1f4f12546d0b5b7f9cdab5b45a5f4a08e39184ec3b4a5f7ca303660b",
+  "overview_commit": "e72bdd93d534a56951e3d83458fc229b85537e7c",
+  "overview_digest": "787f2cf154d45cb9c6af4d40bdca4b27ae8bb5a11f6e8658d4c738855ee0c437",
   "paragraphs": [
     {
       "id": "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
@@ -15501,6 +15502,23 @@
         "AnycastDNS",
         "DNSTXTRecordLookup",
         "EmailDeliverability"
+      ]
+    },
+    {
+      "id": "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest cron source adds [[SubMinuteTaskScheduling]] as a distinction between expressing a cadence and defining reliable execution. Traditional cron cannot directly represent 30-second intervals, so two every-minute entries with one delayed by `sleep 30` only approximate the cadence and can overlap when work runs long. A coordinated loop can instead let an overrun delay the next cycle, while a systemd timer makes the recurring trigger explicit and separates it from the service. This extends [[TaskQueueDesign]] and [[SystemReliability]] by showing that trigger precision alone does not answer concurrency, missed-run, supervision, failure-notification, restart, or catch-up questions. The source is a compact Stack Overflow answer set, and its theoretical systemd granularity is not evidence of equivalent real-world execution precision under operating-system load and power management. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "SubMinuteTaskScheduling",
+        "SystemReliability",
+        "TaskQueueDesign"
       ]
     }
   ],

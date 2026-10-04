@@ -8528,3 +8528,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-04] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-04] ingest | Running a cron every 30 seconds
+
+Created [[SubMinuteTaskScheduling]] from a Stack Overflow comparison of offset cron entries, a coordinated shell loop, and systemd timers. Distinguished cron's one-minute expression floor from approximate 30-second triggering, separated requested timer accuracy from guaranteed execution precision, and made overlap, overrun, missed-run, supervision, monitoring, and recovery semantics explicit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

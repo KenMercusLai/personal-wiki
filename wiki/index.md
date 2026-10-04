@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Running a cron every 30 seconds](sources/running-a-cron-every-30-seconds.md) - Stack Overflow answers contrast cron's one-minute floor with offset jobs, a coordinated loop, and a systemd timer for sub-minute recurring work.
 - [Linux command to inspect TXT records of a domain](sources/linux-command-to-inspect-txt-records-of-a-domain.md) - Server Fault answers show how to query an exact domain name's TXT records with `dig` or `host`, including compact output and selector-specific DKIM lookups.
 - [git local branch 删除后如何恢复](sources/git-local-branch-shan-chu-hou-ru-he-hui-fu.md) - Mai Yang explains how to find a deleted local branch's former tip in the Git reflog and recreate the branch at that commit.
 - [When are square brackets required in a Bash if statement?](sources/when-are-square-brackets-required-in-a-bash-if-statement.md) - Stack Overflow answers explain that Bash `if` branches on command status and that `[` is the `test`-like command used to evaluate expressions, not mandatory `if` syntax.
@@ -2842,6 +2843,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Sub-Minute Task Scheduling](concepts/SubMinuteTaskScheduling.md) - Recurring execution below one-minute granularity with explicit cadence, overlap, delay, accuracy, and recovery semantics.
 - [DNS TXT Record Lookup](concepts/DNSTXTRecordLookup.md) - Exact-name retrieval of DNS TXT records with command-line clients, including compact output and explicit DKIM selector queries.
 - [Bash Conditionals](concepts/BashConditionals.md) - Command-status model in which `if` consumes success or failure directly and `[` or `test` evaluates expressions when needed.
 - [Shell Redirection](concepts/ShellRedirection.md) - Left-to-right reassignment and point-in-time duplication of shell file-descriptor destinations.

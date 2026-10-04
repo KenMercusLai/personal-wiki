@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-04
-as_of_overview_commit: e0df09d33313b2f27efcf29844a22b262f50b412
-input_digest: 4304d2352d2bb528e9d5586baafd739a8e6ca2079b4b942bd78c213b2377dc56
+as_of_overview_commit: e72bdd93d534a56951e3d83458fc229b85537e7c
+input_digest: 3975a72f046c4dff9cad31ff3970b0bd5bec511f92b0645311721049c08c3d02
 ---
 
 # Governance and Institutions
@@ -812,3 +812,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The evidence is a seven-line 2020 practitioner note without a tested Git version, repository state, validation procedure, or failure cases.
 - The procedure applies to committed history only and remains conditional on the relevant reflog entry and Git objects still existing.
+
+### Sub Minute Scheduling Needs Execution Governance
+
+[[SubMinuteTaskScheduling]] makes cadence an operational-governance choice: offset cron entries, a coordinated loop, and systemd timers impose different overrun and overlap behavior, while [[TaskQueueDesign]] and [[SystemReliability]] remain necessary when work needs durable state, missed-run policy, supervision, recovery, or observable failure.
+
+**Evidence:** [[SubMinuteTaskScheduling]], [[TaskQueueDesign]], [[SystemReliability]]
+
+**Qualifications:**
+
+- The evidence is a compact Stack Overflow answer set rather than a comparative scheduler test or current systemd specification.
+- Configured timer granularity does not guarantee equivalent execution precision, and the examples omit locking, persistent catch-up, failure alerts, clock changes, and shutdown behavior.
