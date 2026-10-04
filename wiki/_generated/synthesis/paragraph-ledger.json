@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4ff5e913948511efe19b0331c5c30e6bd71b06c0eac3ad4baf4d953232978183",
       "02ea4d261d383d333bb23235615a6145613e83209993a9637a144df36b7e77f8",
       "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
       "40ada043306f6548529fd77856b3f09f3845cc3ad041d27703752075438d5c46",
@@ -770,11 +771,27 @@
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
     ],
-    "paragraph_count": 768
+    "paragraph_count": 769
   },
-  "overview_commit": "f7837ff236e9ca0728d76f8693d0fef361f20f77",
-  "overview_digest": "c412c3c06f9df16f99e8ad4adeefa7288fb694a2c9894bc077162e2e047bcd80",
+  "overview_commit": "f3960f38474b77cb341ef1f397dffacb129a1e70",
+  "overview_digest": "93ece650d6e36b2b156600e474e7931df5e309fff3c3438d6186d1e01e0f20b8",
   "paragraphs": [
+    {
+      "id": "4ff5e913948511efe19b0331c5c30e6bd71b06c0eac3ad4baf4d953232978183",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[Xiaoyong|小泳]] source adds [[DreamInterruption]] as a distinction between discontinuity in a dream experience and discontinuity in the later remembered account. It proposes several routes for a sexual dream to appear unfinished: REM sleep reaches a transition, noise or light or bodily discomfort wakes the sleeper, emotional or physiological excitement triggers awakening, or anxiety, stress, guilt, or discomfort disturbs the experience. The most durable point is epistemic rather than physiological: fragmentary recall does not by itself show that the dream actually stopped, and an interrupted narrative does not identify which proposed mechanism operated. The post supplies no sleep study, measurements, dream-report protocol, prevalence estimate, or comparison across REM and non-REM stages; terms such as “lighter sleep,” an arousal threshold, and psychological “reset” remain untested explanatory labels. Because the author explicitly calls the account personal speculation rather than scientific evidence, the mechanisms remain source-scoped hypotheses and should not be used to diagnose sleep or infer an individual's psychological state. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "DreamInterruption",
+        "Xiaoyong"
+      ]
+    },
     {
       "id": "02ea4d261d383d333bb23235615a6145613e83209993a9637a144df36b7e77f8",
       "primary_topic": "culture-and-media",
