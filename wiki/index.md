@@ -6,6 +6,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [When are square brackets required in a Bash if statement?](sources/when-are-square-brackets-required-in-a-bash-if-statement.md) - Stack Overflow answers explain that Bash `if` branches on command status and that `[` is the `test`-like command used to evaluate expressions, not mandatory `if` syntax.
+- [Order of redirections - Unix & Linux Stack Exchange](sources/bashzhong-ding-xiang-shun-xu.md) - A left-to-right file-descriptor model explains why `>file 2>&1` combines output while `2>&1 >file` normally leaves errors on the terminal.
+- [How can I generate a self-signed SSL certificate using OpenSSL?](sources/how-can-i-generate-a-self-signed-ssl-certificate-using-openssl.md) - Stack Overflow answers separate OpenSSL key and certificate generation from SAN-based identity, client trust, and private-CA operations.
+- [NEJM: The Physiology of Hunger](sources/1888076190365401209.md) - A Chinese social-media summary distinguishes homeostatic from hedonic hunger and frames appetite as redundant physiology interacting with evolution, food abundance, and unresolved microbiome effects.
 - [The Role of Exercise in Management of Mental Health Disorders: An Integrative Review](sources/nihms-1685283.md) - Patrick J. Smith and Rhonda M. Merwin integrate prevention, treatment, neuroplasticity, behavioral-learning, adherence, and response-heterogeneity evidence for exercise in depression and anxiety.
 - [My Manager Left: Lessons from 1-on-1 Conversations](sources/my-manager-left-lessons-from-1-on-1-conversations.md) - Visakan Veerasamy distills recurring managerial guidance into a qualified system for priority, execution, communication, learning, relationships, and recovery.
 - [My First 5 Minutes On A Server; Or, Essential Security for Linux Servers](sources/my-first-5-minutes-on-a-server.md) - Bryan Kennedy layers non-root key-based administration, restricted SSH, firewalling, patch automation, and log review into a dated but durable first-login hardening model.
@@ -1079,6 +1083,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [小贴士：Docker清理作弊手册](sources/docker-qing-li-zuo-bi-shou-ce.md) - 伊布按容器、镜像、卷与网络整理 Docker 清理命令，并警告删除顺序会扩大后续镜像清理范围。
 
 ## Entities
+- [OpenSSL](entities/OpenSSL.md) - Cryptographic toolkit represented through version-sensitive key, CSR, certificate, extension, and private-key-output commands.
 - [Patrick J. Smith](entities/PatrickJSmith.md) - Duke researcher represented through an integrative health-neuroscience account of exercise, mental health, adherence, and treatment heterogeneity.
 - [Rhonda M. Merwin](entities/RhondaMMerwin.md) - Duke behavioral-science researcher represented through an integrated account of neuroplasticity, self-regulation, and tailored exercise support.
 - [Visakan Veerasamy](entities/VisakanVeerasamy.md) - Author represented through a retrospective synthesis of recurring one-on-one management lessons.
@@ -2835,6 +2840,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Bash Conditionals](concepts/BashConditionals.md) - Command-status model in which `if` consumes success or failure directly and `[` or `test` evaluates expressions when needed.
+- [Shell Redirection](concepts/ShellRedirection.md) - Left-to-right reassignment and point-in-time duplication of shell file-descriptor destinations.
+- [Self-Signed Certificates](concepts/SelfSignedCertificates.md) - Certificates whose cryptographic validity remains separate from client trust, hostname coverage, and lifecycle operations.
+- [Hunger Physiology](concepts/HungerPhysiology.md) - Redundant sensory, neuroendocrine, endocrine, and metabolic control of food intake across homeostatic need, hedonic drive, and environmental context.
 - [Exercise for Mental Health](concepts/ExerciseForMentalHealth.md) - Use of aerobic or resistance activity to prevent or manage symptoms through interacting biological and behavioral mechanisms, qualified by heterogeneous response and maintenance.
 - [Neuroplasticity](concepts/Neuroplasticity.md) - Capacity for neural structural and functional remodeling that may enable exercise-related learning and mental-health change without guaranteeing remission.
 - [Exercise Adherence](concepts/ExerciseAdherence.md) - Sustained participation as both a condition and proposed mechanism of durable exercise benefit, shaped by symptoms, support, safety, and access.

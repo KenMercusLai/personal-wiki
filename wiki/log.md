@@ -8480,3 +8480,35 @@ Created [[PatrickJSmith]], [[RhondaMMerwin]], [[ExerciseForMentalHealth]], [[Neu
 ## [2026-10-03] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | NEJM: The Physiology of Hunger
+
+Created [[HungerPhysiology]] from the archived Chinese social-media summary. Distinguished homeostatic hunger from hedonic hunger within redundant appetite-control pathways, added the evolutionary mismatch between energy-storage bias and abundant palatable food, and preserved the gut microbiome's causal role and therapeutic value as unresolved. The source does not identify the underlying NEJM review's authors or bibliographic details, so its evidence and clinical implications remain source-scoped. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | How can I generate a self-signed SSL certificate using OpenSSL?
+
+Created [[OpenSSL]] and [[SelfSignedCertificates]], and updated [[HTTPSMigration]] from its complete ordered evidence inventory. Separated key and certificate generation from browser trust, made SAN coverage explicit, and added the private-CA path for managed clients. Preserved version-sensitive flags, incomplete lifecycle guidance, and answer-specific algorithm and validity claims as qualifications. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-03] ingest | Order of redirections - Unix & Linux Stack Exchange
+
+Created [[ShellRedirection]] from a Unix & Linux Stack Exchange explanation of ordered file-descriptor changes. Distinguished point-in-time duplication from a live link between standard error and standard output, and recorded why `>file 2>&1` and `2>&1 >file` produce different routing. Qualified the usual terminal assumption, Bash-specific shorthand, syscall simplification, and the source's omission of broader redirection forms. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-03] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-04] ingest | When are square brackets required in a Bash if statement?
+
+Created [[BashConditionals]] from a Stack Overflow explanation of command-status-driven shell control flow. Distinguished commands such as `grep -q`, which can serve directly as conditions, from expressions that need `test` or `[`, and recorded that `[` is a command whose closing `]` is a required argument rather than mandatory `if` punctuation. Qualified the source's omission of `[[ ... ]]`, arithmetic and compound conditions, pipelines, negation, command-specific error statuses, and quoting hazards. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

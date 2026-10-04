@@ -4,17 +4,29 @@ generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
 last_updated: 2026-10-03
-as_of_overview_commit: 41103e6fb34978694ae6bb0771994d43276d0379
-input_digest: 5491e498258384ee48fcee520974181759aff608a835a2fe0ed3de9eccc22a8b
+as_of_overview_commit: 86c572a45ab0b31f36a0e4531c4c72e049f3a1e0
+input_digest: a60e1444a6ce51b9bbf4aaddb27cd8a8c7c70ad2037300139704316c7531d046
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-[[ExerciseForMentalHealth]] adds direct but qualified health evidence: average depression and anxiety benefit is bounded by heterogeneous trials, weaker experimental dose-response evidence, continued [[ExerciseAdherence]], and proposed interactions among [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]]. [[PersonalAnalytics]] adds a source-scoped self-tracking case: long time series and dashboards can expose patterns and collection failure, but [[StephenWolfram]]\u0027s resting-heart-rate observation is non-causal and the sensitive telemetry has unmeasured privacy, security, and validity risk. The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion. The new [[LanceDB]] paragraph is likewise router spillover from systems measurement: [[StoragePerformanceBenchmarking]], [[VectorDatabase]], and [[DatabaseEngineeringTradeoffs]] add no direct science, health, or climate finding.
+[[HungerPhysiology]] adds a qualified appetite-regulation account: homeostatic need and hedonic eating interact within redundant biological pathways whose consequences change with food abundance and socioeconomic context, while the unidentified underlying review, compressed historical argument, unresolved microbiome role, and untested treatment implications keep the claim source-scoped. [[ExerciseForMentalHealth]] adds direct but qualified health evidence: average depression and anxiety benefit is bounded by heterogeneous trials, weaker experimental dose-response evidence, continued [[ExerciseAdherence]], and proposed interactions among [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]]. [[PersonalAnalytics]] adds a source-scoped self-tracking case: long time series and dashboards can expose patterns and collection failure, but [[StephenWolfram]]'s resting-heart-rate observation is non-causal and the sensitive telemetry has unmeasured privacy, security, and validity risk. The new microservice paragraph is router spillover from health and recovery terminology: [[MicroserviceFailureContainment]] and [[RisingStack]] add no direct science, health, or climate finding. The new journaling paragraph is health-adjacent only through unverified claims: it supports a source-scoped record-keeping extension to [[SelfEfficacy]], while its simplified neuroscience and reported emotion, health, happiness, confidence, and behavior-change effects remain unsupported by enough primary-study detail. This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, infrastructure-efficiency diligence, language-model science framing, developer-economy signals, and several technology, work, philosophy, finance, media, and habit claims routed here indirectly. The Dropbox material joins reliability, PUE, energy sourcing, and facility commitments but does not establish realized environmental or uptime outcomes; none of the indirect material supports a broad health, climate, or natural-science conclusion. The new [[LanceDB]] paragraph is likewise router spillover from systems measurement: [[StoragePerformanceBenchmarking]], [[VectorDatabase]], and [[DatabaseEngineeringTradeoffs]] add no direct science, health, or climate finding.
 
 ## Cross-source Findings
+
+### Hunger Regulation Is Biological And Environmental
+
+[[HungerPhysiology]] distinguishes homeostatic energy need from hedonic eating without an urgent caloric deficit inside a redundant sensory, neuroendocrine, endocrine, and metabolic system; an evolved bias toward surplus intake and fat storage may become harmful when psychological, cultural, socioeconomic, and food-environment conditions make palatable energy-dense food abundant.
+
+**Evidence:** [[HungerPhysiology]]
+
+**Qualifications:**
+
+- The evidence is one Chinese social-media summary of an unidentified NEJM review; it supplies no authors, methods, citations, effect sizes, or intervention results.
+- The claim that agriculture shifted priority toward hedonic hunger compresses a long, uneven transition and does not isolate modern food production, income, culture, or individual variation.
+- The microbiome's causal role remains unresolved, and proposed obesity or anorexia-nervosa targets are research directions rather than established treatments or individual medical advice.
 
 ### Exercise Benefits Depend On Maintenance And Response
 

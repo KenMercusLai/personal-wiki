@@ -2,7 +2,7 @@
 title: "On the Automatic Generation of Knowledge Connections"
 type: source
 tags: [pkm, nlp, knowledge-graph, semantic-similarity]
-date: 2023-01-01
+date: 2023-04-28
 source_file: "/mnt/ken_personal_wiki/Articles/On the Automatic Generation of Knowledge Connections.md"
 ---
 

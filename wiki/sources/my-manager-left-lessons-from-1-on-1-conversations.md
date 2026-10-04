@@ -2,7 +2,7 @@
 title: "My Manager Left: Lessons from 1-on-1 Conversations"
 type: source
 tags: [career, management, professional-development, productivity, self-management]
-date: 2017-01-01
+date: 2017-10-06
 source_file: "/mnt/ken_personal_wiki/Articles/My Manager Left - Lessons from 1-on-1 Conversations.md"
 ---
 

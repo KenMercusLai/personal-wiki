@@ -4,7 +4,8 @@ type: concept
 tags: [https, tls, security, infrastructure, migration]
 sources:
   - nick-craver-https-on-stack-overflow-the-end-of-a-long-road
-last_updated: 2026-10-01
+  - how-can-i-generate-a-self-signed-ssl-certificate-using-openssl
+last_updated: 2026-10-03
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,7 +15,7 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The [[StackOverflow]] case shows that migration complexity grows with domain count, legacy URLs, user-submitted content, shared cookies, third-party services, internal APIs, and performance-sensitive traffic. The certificate is only one dependency. Domain topology must be certifiable; externally hosted subdomains must not inherit sensitive cookies; applications and user content must stop creating mixed content; redirects and canonical URLs must preserve search behavior; and edge routing must not send internal calls on avoidable public detours.
 
-The safest sequence is incremental and evidence-led. First make development match production, block new insecure content, establish browser measurements and integration tests, deploy behind reversible feature flags and inactive load balancers, test temporary redirects, and observe small representative sites before permanent redirects or HSTS. Performance can support the business case because TLS enables browser use of HTTP/2 and local edge termination reduces handshake distance, but those gains depend on the actual certificate, DNS, CDN, and connection architecture.
+The safest sequence is incremental and evidence-led. First make development match production, block new insecure content, establish browser measurements and integration tests, deploy behind reversible feature flags and inactive load balancers, test temporary redirects, and observe small representative sites before permanent redirects or HSTS. Performance can support the business case because TLS enables browser use of HTTP/2 and local edge termination reduces handshake distance, but those gains depend on the actual certificate, DNS, CDN, and connection architecture. [[SelfSignedCertificates]] can support controlled development or private-client environments, but generating one does not provide public browser trust; client trust anchors and complete SAN coverage are separate requirements.
 
 ## Key Claims
 - HTTPS migration is a cross-layer systems program, not a certificate-installation task.
@@ -23,7 +24,7 @@ The safest sequence is incremental and evidence-led. First make development matc
 - Real-user monitoring and configuration integration tests answer different questions and are both needed.
 - Reversible staging should precede permanent 301 redirects, HSTS, and network-wide activation.
 - CDN and proxy changes can reduce global TLS latency but also alter DNS, caching, internal API paths, and failure modes.
-- Historical protocol and provider choices require re-evaluation rather than direct copying.
+- Historical protocol, provider, and certificate-generation choices require re-evaluation; generation, hostname validity, and client trust are distinct concerns.
 
 ## Evidence
 - Cross-layer scope: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] links certificates, DNS, login, cookies, applications, user content, ads, websockets, APIs, redirects, and search migration.
@@ -31,14 +32,16 @@ The safest sequence is incremental and evidence-led. First make development matc
 - Measurement and testing: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] combines browser timings, a test domain, httpUnit configuration checks, secondary load balancers, and staged site rollout.
 - Content remediation: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] reports blocking new insecure embeds before upgrading or unlinking legacy resources.
 - Failure evidence: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] documents protocol-blind redirect caching, internal API detours, and an incorrect content backfill.
+- Certificate trust boundary: [[how-can-i-generate-a-self-signed-ssl-certificate-using-openssl]] distinguishes OpenSSL generation from SAN-based identity validation and client trust-anchor installation.
 
 ## Counterevidence & Qualifications
-The evidence is one large platform's first-party 2017 account. Smaller systems may not share its domain, cookie, traffic, advertising, websocket, or single-origin constraints. Current TLS versions, HSTS requirements, certificate automation, browser policy, HTTP/2 behavior, and CDN capabilities must be checked against current standards and providers; HPKP and server-push discussion in particular is historical.
+The migration evidence is one large platform's first-party 2017 account, supplemented by a version-spanning Stack Overflow answer set about local certificate generation. Smaller systems may not share its domain, cookie, traffic, advertising, websocket, or single-origin constraints. Current TLS versions, HSTS requirements, certificate automation, browser policy, OpenSSL flags, algorithms, validity policy, HTTP/2 behavior, and CDN capabilities must be checked against current standards and providers; HPKP and server-push discussion in particular is historical.
 
 ## What Changed
 - Created a systems-level migration concept from Stack Overflow's certificate, edge, application, content, identity, and rollout work.
 - Distinguished performance telemetry from configuration correctness testing.
 - Made irreversible browser and redirect state a reason for staged activation.
+- Distinguished certificate generation from hostname validation and browser trust.
 
 ## Related Concepts
 - [[HTTP2]] - browser HTTP/2 availability supplied a performance incentive for HTTPS in the source.
@@ -46,3 +49,4 @@ The evidence is one large platform's first-party 2017 account. Smaller systems m
 - [[ChangeSafety]] - reversible rollout and observation should precede permanent redirect and HSTS state.
 - [[NetworkAutomation]] - DNS and edge configuration must stay synchronized across providers and environments.
 - [[AuthenticationInfrastructure]] - shared login and cookie scope constrain safe domain topology.
+- [[SelfSignedCertificates]] - useful in controlled environments but not a substitute for publicly trusted issuance.

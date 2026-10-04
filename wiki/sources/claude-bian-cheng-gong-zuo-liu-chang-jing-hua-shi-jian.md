@@ -2,7 +2,7 @@
 title: "从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流"
 type: source
 tags: [ai, software-engineering, claude-code, workflow]
-date: 2025-07-30
+date: 2025-09-04
 source_file: "/mnt/ken_personal_wiki/Articles/Claude编程工作流场景化实践.md"
 ---
 

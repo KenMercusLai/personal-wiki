@@ -2,7 +2,7 @@
 title: "Pleco: Building a Business, not an App"
 type: source
 tags: [business, app-store, indie-software, strategy, monetization]
-date: 2014-01-01
+date: 2014-07-31
 source_file: "/mnt/ken_personal_wiki/Articles/Pleco - Building a Business Not an App.md"
 ---
 

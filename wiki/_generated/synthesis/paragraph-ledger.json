@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "40ada043306f6548529fd77856b3f09f3845cc3ad041d27703752075438d5c46",
       "dd85fc40ee076a2ddcb81177f0f6a54f8c2ab6ccb38f3a6c7b3b1305945432ed",
       "d6c2082092868ce8864403e2df9e5665c2c9a5732f58d6a2d85d4167312e9012",
       "561967d32a3f337d23da46942589732b2d91e5ccc9d9d649d903b2e0e4d70f26",
@@ -760,13 +761,33 @@
       "d2952df9f1fbe7e1c072d8de2ee987e47dfdb13fa05c98fe9fc2e4f80ae3f4bd",
       "9e7a0dfe0acfee8f41659116de906f67a967145a77ace3541182122aa7ebe2bc",
       "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e",
-      "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e"
+      "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e",
+      "f4ca6e95fc4b2c5c8349c043c0c41dc946797757f5be96744fc39797fe5af57f",
+      "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
+      "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde"
     ],
-    "paragraph_count": 760
+    "paragraph_count": 764
   },
-  "overview_commit": "41103e6fb34978694ae6bb0771994d43276d0379",
-  "overview_digest": "07adfffb18aec61badad6cdd9203b4f4e9845decede9fe84584eafc318e5843d",
+  "overview_commit": "fce3df476674c756cd704b409bc0c771987cd0a4",
+  "overview_digest": "23bd342e3264934012cc12c4176ff2aac24ce62efa4b064bf9e1aff72e2639ab",
   "paragraphs": [
+    {
+      "id": "40ada043306f6548529fd77856b3f09f3845cc3ad041d27703752075438d5c46",
+      "primary_topic": "science-health-and-climate",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest hunger-physiology summary adds [[HungerPhysiology]] as a redundant regulatory system rather than a single appetite signal. Homeostatic hunger communicates metabolic need under scarcity, whereas hedonic hunger can motivate eating without an urgent caloric deficit; body-weight regulation also integrates basal metabolism with variable food quantity and quality, macronutrient composition, the thermic effect of food, and physical activity. The source places this system in evolutionary and environmental context: a bias toward surplus intake and fat storage could aid survival under uncertain food supply, while affordable, palatable, energy-dense food may turn the same bias into a health liability. This account connects physiology to psychological, behavioral, cultural, and socioeconomic conditions without reducing eating to willpower. Its evidence boundary is unusually important: the archived Chinese social-media post summarizes but does not identify the authors or bibliographic details of its cited NEJM review, compresses the long transition from agriculture to modern food abundance, supplies no methods or effect sizes, and explicitly leaves the gut microbiome's causal role unresolved. Proposed obesity and anorexia-nervosa targets are therefore research directions, not established treatments or individual medical advice. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 2,
+        "science-health-and-climate": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "HungerPhysiology"
+      ]
+    },
     {
       "id": "dd85fc40ee076a2ddcb81177f0f6a54f8c2ab6ccb38f3a6c7b3b1305945432ed",
       "primary_topic": "ai-and-technology",
@@ -15397,6 +15418,53 @@
         "LinuxServerHardening",
         "ProductionAccessControl",
         "RemoteAdministrationExposure"
+      ]
+    },
+    {
+      "id": "f4ca6e95fc4b2c5c8349c043c0c41dc946797757f5be96744fc39797fe5af57f",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest certificate source adds [[SelfSignedCertificates]] and [[OpenSSL]] while sharpening [[HTTPSMigration]]'s trust boundary. A single `openssl req -x509 -newkey` invocation can create a key and certificate, and modern commands can add DNS, wildcard-DNS, and IP identities through Subject Alternative Name extensions. That mechanical success does not make a browser trust the asserted identity: controlled clients must explicitly trust the leaf or, more scalably, a private CA that signs replaceable server certificates. Unencrypted key output can enable unattended startup, but shifts protection to host access and file controls. The source is a version-spanning Stack Overflow answer set rather than a complete or current PKI policy; its flag names, algorithm rankings, ten-year lifetimes, and operational recommendations require verification against actual OpenSSL and client versions, and it omits revocation, automated renewal, CA-key custody, detailed certificate profiles, and compromise recovery. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "HTTPSMigration",
+        "OpenSSL",
+        "SelfSignedCertificates"
+      ]
+    },
+    {
+      "id": "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest shell-redirection source adds [[ShellRedirection]] as an order-sensitive file-descriptor operation rather than an unordered declaration of final destinations. Redirections are evaluated from left to right, and `2>&1` duplicates descriptor 1's destination as it exists at that moment rather than creating a live link that follows later reassignment. Consequently, `command >file 2>&1` sends standard output and standard error to the file, while `command 2>&1 >file` normally leaves standard error on the terminal and sends only standard output to the file. This gives [[BashAsMetaTool]] and [[AutomationFriendlyCLI]] a concrete composition mechanism while clarifying the [[CommandLineUX]] boundary between user-facing output and diagnostics. The evidence is a concise Stack Exchange explanation centered on Bash-like syntax and usual terminal defaults; it does not cover broader input, pipeline, subshell, closing, append, here-document, or portability cases, and its syscall account is a mental model rather than a guarantee of one literal implementation. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2
+      },
+      "wikilinks": [
+        "AutomationFriendlyCLI",
+        "BashAsMetaTool",
+        "CommandLineUX",
+        "ShellRedirection"
+      ]
+    },
+    {
+      "id": "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Bash source adds [[BashConditionals]] as a command-status model rather than a bracket-delimited Boolean syntax. Bash `if` selects `then` when its command or command list returns zero, so a status-producing tool such as `grep -q` can be used directly; a string, numeric, or file expression instead needs an evaluator such as `test` or `[`. The `[` form is itself a command, commonly a Bash builtin, and its closing `]` is a required final argument rather than punctuation supplied by `if`. This gives [[BashAsMetaTool]] and [[AutomationFriendlyCLI]] a concrete control-flow contract: commands compose cleanly when their exit statuses distinguish success from failure. The source is a concise Stack Overflow explanation, not a complete conditional reference; it omits `[[ ... ]]`, arithmetic and compound conditions, pipeline and negation behavior, command-specific error statuses, and quoting hazards. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        " ... ",
+        "AutomationFriendlyCLI",
+        "BashAsMetaTool",
+        "BashConditionals"
       ]
     }
   ],
