@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [git local branch 删除后如何恢复](sources/git-local-branch-shan-chu-hou-ru-he-hui-fu.md) - Mai Yang explains how to find a deleted local branch's former tip in the Git reflog and recreate the branch at that commit.
 - [When are square brackets required in a Bash if statement?](sources/when-are-square-brackets-required-in-a-bash-if-statement.md) - Stack Overflow answers explain that Bash `if` branches on command status and that `[` is the `test`-like command used to evaluate expressions, not mandatory `if` syntax.
 - [Order of redirections - Unix & Linux Stack Exchange](sources/bashzhong-ding-xiang-shun-xu.md) - A left-to-right file-descriptor model explains why `>file 2>&1` combines output while `2>&1 >file` normally leaves errors on the terminal.
 - [How can I generate a self-signed SSL certificate using OpenSSL?](sources/how-can-i-generate-a-self-signed-ssl-certificate-using-openssl.md) - Stack Overflow answers separate OpenSSL key and certificate generation from SAN-based identity, client trust, and private-CA operations.
@@ -1983,7 +1984,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Momo](entities/Momo.md) - Chinese social and dating app where livestreaming became a major revenue stream and social-proof layer.
 - [Taobao Live](entities/TaobaoLive.md) - Alibaba livestream-commerce app for seller demonstrations, product launches, and discounts.
 - [Xiaomi](entities/Xiaomi.md) - Chinese hardware company using livestreaming for product demonstrations and launches.
-- [MaiYang](entities/MaiYang.md) - Author and presenter framing AI adoption around action, self-honest desire, and founder examples.
+- [MaiYang](entities/MaiYang.md) - Practical writer represented through concise Git recovery guidance, action-centered AI commentary, and AI-supported deep-learning workflows.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
 - [Elon Musk](entities/ElonMusk.md) - Founder represented through risk-taking, demanding operations, concentrated organizational control, and charismatic future-setting authority.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
@@ -3062,6 +3063,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitOps](concepts/GitOps.md) - Repository-driven operations model combining reviewed declarative intent, automated delivery, drift detection, and convergence.
 - [Git-flow](concepts/GitFlow.md) - Branching model separating development, feature, release, stable-production, and hotfix work for explicit version management.
 - [GitHub Flow](concepts/GitHubFlow.md) - Lightweight branching model centered on frequent integration into one release-ready main branch.
+- [Git Branch Recovery](concepts/GitBranchRecovery.md) - Restoration of a deleted local branch by locating its former tip in the reflog and recreating the reference at that commit.
 - [Brand Positioning](concepts/BrandPositioning.md) - Dynamic three-part model for the relative idea, customer benefit, and relational personality a product seeks to own.
 - [Brand Pyramid](concepts/BrandPyramid.md) - Layered framework connecting changing product attributes to functional, emotional, and aspirational meaning.
 - [Authentically Mobile](concepts/AuthenticallyMobile.md) - Product category whose core experience depends on coupled mobile capabilities and context rather than simply adapting a desktop interaction.

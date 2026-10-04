@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
       "40ada043306f6548529fd77856b3f09f3845cc3ad041d27703752075438d5c46",
       "dd85fc40ee076a2ddcb81177f0f6a54f8c2ab6ccb38f3a6c7b3b1305945432ed",
       "d6c2082092868ce8864403e2df9e5665c2c9a5732f58d6a2d85d4167312e9012",
@@ -766,11 +767,31 @@
       "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
       "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde"
     ],
-    "paragraph_count": 764
+    "paragraph_count": 765
   },
-  "overview_commit": "fce3df476674c756cd704b409bc0c771987cd0a4",
-  "overview_digest": "23bd342e3264934012cc12c4176ff2aac24ce62efa4b064bf9e1aff72e2639ab",
+  "overview_commit": "e0df09d33313b2f27efcf29844a22b262f50b412",
+  "overview_digest": "1fbba5b89bda0556b0c6e278871494c6f807a3ee612876b7545457f22b10c4b3",
   "paragraphs": [
+    {
+      "id": "f7b102bfbe28f648953b18862a22af28469b5a2e83f491639636651db78690f1",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[MaiYang]] note adds [[GitBranchRecovery]] as reference restoration rather than automatic reconstruction of lost work. After `git branch -D` removes a local branch that was never pushed, `git reflog` can reveal the former tip's commit SHA and `git checkout -b <branch> <sha>` can create a new branch at that commit. The distinction is central: a branch name and the committed objects it reached have separate lifecycles, so removing the reference does not necessarily erase the history immediately. This complements [[GitFlow]] and [[GitHubFlow]] by addressing accidental local-reference deletion rather than selecting a branch topology. The source is a seven-line 2020 practitioner note with no tested Git version, repository state, validation step, or failure cases; it cannot recover uncommitted working-tree changes and does not establish how reflog expiration, garbage collection, worktrees, remote references, or ambiguous candidate SHAs affect recovery. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "GitBranchRecovery",
+        "GitFlow",
+        "GitHubFlow",
+        "MaiYang"
+      ]
+    },
     {
       "id": "40ada043306f6548529fd77856b3f09f3845cc3ad041d27703752075438d5c46",
       "primary_topic": "science-health-and-climate",

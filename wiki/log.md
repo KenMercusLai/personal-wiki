@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-04] ingest | git local branch 删除后如何恢复
+
+Added [[GitBranchRecovery]] and updated [[MaiYang]] from her complete ordered evidence inventory. Recorded that deleting a local branch reference does not necessarily remove its committed history immediately, and that `git reflog` plus branch creation at a verified SHA provides a minimal recovery path. Preserved the boundaries around uncommitted changes, ambiguous SHAs, reflog expiration, garbage collection, worktrees, remote alternatives, and the source's lack of tested failure cases. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-03] ingest | My Manager Left: Lessons from 1-on-1 Conversations
 
 Added [[VisakanVeerasamy]] and [[ProfessionalSelfManagement]], and updated [[ContinuousWorkplaceFeedback]] and [[BurnoutPrevention]] from their complete ordered evidence inventories. Recorded priority and balanced-metric discipline, small plans, scheduling, review, process articulation, early communication, help-seeking, protected learning, relationship building, planned leave, and mental-health honesty while preserving the tension between ambitious self-direction and sustainable capacity. Qualified the source as one employee's retrospective selection without contemporaneous notes, manager perspective, measured outcomes, or universal role fit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8508,6 +8512,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-04] ingest | When are square brackets required in a Bash if statement?
 
 Created [[BashConditionals]] from a Stack Overflow explanation of command-status-driven shell control flow. Distinguished commands such as `grep -q`, which can serve directly as conditions, from expressions that need `test` or `[`, and recorded that `[` is a command whose closing `]` is a required argument rather than mandatory `if` punctuation. Qualified the source's omission of `[[ ... ]]`, arithmetic and compound conditions, pipelines, negation, command-specific error statuses, and quoting hazards. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-04] lint | Wiki health check
 
