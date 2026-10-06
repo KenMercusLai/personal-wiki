@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
       "ec90e97ba7d9489daf84f974dcf316aa96d82672a63c76c84058287ba7b300fe",
       "99011e18cbbdb886714032cb57ae937fd93e4f857d6d68a67c81f471f126f603",
       "2a6ad46d1a19bd216d93b22592567ff1ef361e6ccdc98601b65ff70c68648af5",
@@ -776,11 +777,28 @@
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
     ],
-    "paragraph_count": 774
+    "paragraph_count": 775
   },
-  "overview_commit": "09e6a99ad9d8153be02db24444b0162a33fa23ea",
-  "overview_digest": "157c464b9adc2d6ee5f0da69ec6c283e166a19e137f88e7282d505e59ee0f7c6",
+  "overview_commit": "4afb3fe71485abced91aca715f746e0c9d98b68e",
+  "overview_digest": "c48e686c761b630a33f9ba36de669f963aecb7988b00d640be7d112fca8c4e12",
   "paragraphs": [
+    {
+      "id": "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest algorithms source adds [[SlidingWindowAggregation]] as an inverse-free method for maintaining ordered rolling summaries. Its two-stack queue keeps incoming values with one forward aggregate and older values as reverse cumulative aggregates, so evaluation combines two states in constant time while each element is pushed, transferred, and removed only once. [[AmortizedAnalysis]] explains the resulting constant update cost across an operation sequence and also preserves the latency qualification: the transfer operation itself can still be linear, so strict per-operation deadlines may justify a more complex worst-case constant-time method. [[AssociativeAggregation]] separates input values, intermediate state, and final output through `empty`, `unit`, `combine`, and `finalize`, covering means, extrema, quantiles, and approximate distinct counts without requiring an inverse or commutativity. Floating-point addition violates exact associativity, but active-window-only reconstruction still prevents a departed `NaN`, infinity, outlier, or old rounding contribution from contaminating every later result. The source is a practitioner explanation and code sketch rather than a formal proof, benchmark, production implementation, or error analysis, and its complexity model treats aggregate combination as bounded cost. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AmortizedAnalysis",
+        "AssociativeAggregation",
+        "SlidingWindowAggregation"
+      ]
+    },
     {
       "id": "ec90e97ba7d9489daf84f974dcf316aa96d82672a63c76c84058287ba7b300fe",
       "primary_topic": "business-and-markets",

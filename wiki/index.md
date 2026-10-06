@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Two-Stack Sliding-Window Aggregation](sources/two-stack-sliding-window-aggregation-orlp-net.md) - A two-stack queue maintains arbitrary associative aggregates with constant-time evaluation, amortized constant-time updates, linear memory, and active-window-only numerical contamination.
 - [国庆随笔](sources/guo-qing-sui-bi-leetao.md) - Leetao reflects on how AI-shortened idea validation made abandonment too easy, then restored creative momentum by radically narrowing memox and shipping the single-purpose VoiceFloat.
 - [日常生活就是一个人的后勤](sources/ri-chang-sheng-huo-jiu-shi-yi-ge-ren-de-hou-qin.md) - 章工把习惯、关系环境与轻重取舍视为个人长期发展的日常后勤，同时其必然化因果判断需要以结构约束、健康差异和偶然性加以限定。
 - [Who is listening on a given TCP port on Mac OS X?](sources/who-is-listening-on-a-given-tcp-port-on-mac-os-x.md) - Stack Overflow answers show how macOS `lsof` can attribute listening TCP sockets to processes while exposing filtering, privilege, version, and forceful-termination caveats.
@@ -2853,6 +2854,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Sliding-Window Aggregation](concepts/SlidingWindowAggregation.md) - Two-stack maintenance of an ordered window summary without inverse operations, with constant evaluation and amortized constant updates.
+- [Associative Aggregation](concepts/AssociativeAggregation.md) - Typed aggregation model separating input values, combinable state, and finalized output under order-preserving regrouping.
+- [Amortized Analysis](concepts/AmortizedAnalysis.md) - Sequence-level complexity accounting that permits occasional expensive operations while bounding total work per element.
 - [Ploidy and Organism Status](concepts/PloidyAndOrganismStatus.md) - Distinguishing chromosome-set count from biological individuality through life-cycle context, functional integration, and qualified independence criteria.
 - [Dream Interruption](concepts/DreamInterruption.md) - Apparent loss of dream continuity separated into possible sleep-state or awakening events and later memory fragmentation, with all supplied mechanisms treated as unverified hypotheses.
 - [Atherosclerotic Plaque Management](concepts/AtheroscleroticPlaqueManagement.md) - Long-term stabilization, progression control, possible regression, and event-risk reduction through lifestyle, risk-factor treatment, medication, and qualified imaging follow-up.

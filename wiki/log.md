@@ -8604,3 +8604,11 @@ Updated [[TaskContingentAICollaboration]], [[PersonalSoftware]], and [[ActionBia
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Two-Stack Sliding-Window Aggregation
+
+Created [[SlidingWindowAggregation]], [[AssociativeAggregation]], and [[AmortizedAnalysis]] from the article's two-stack queue and typed aggregation interface. Added inverse-free ordered window summaries, constant evaluation, amortized constant updates, linear memory, and active-window-only floating-point contamination while qualifying the method's transfer latency, exact associativity requirement, state-combination cost, and lack of formal or empirical validation. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

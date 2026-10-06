@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 09e6a99ad9d8153be02db24444b0162a33fa23ea
+as_of_overview_commit: 4afb3fe71485abced91aca715f746e0c9d98b68e
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment grounded mainly in contextual case evidence."
-episode_count: 1067
-source_count: 1067
-paragraph_count: 774
+episode_count: 1068
+source_count: 1068
+paragraph_count: 775
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on contextual architecture, explicit state and failure boundaries, verification, observability, safe change, and accountable human judgment; AI-supported validation also needs human-owned stop rules so fast evidence does not automatically become premature abandonment.
+Technical outcomes depend on contextual architecture, explicit state and failure boundaries, verification, observability, safe change, and accountable human judgment; the new rolling-aggregation case also distinguishes amortized throughput from worst-case latency and exact algebra from numerically useful approximation.
 
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
@@ -57,7 +57,7 @@ Media form, platform architecture, creator economics, identity, presence, govern
 
 ### Governance and Institutions
 
-Institutions allocate authority, risk, evidence, access, and accountability through policy, technical standards, and personal boundaries whose legitimacy depends on fair process and outcomes.
+Institutions allocate authority, risk, evidence, access, and accountability through policy, technical standards, and personal boundaries; even technical choices require explicit guarantee and cost assumptions, while legitimacy depends on fair process and outcomes.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
