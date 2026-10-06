@@ -1,6 +1,10 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ec90e97ba7d9489daf84f974dcf316aa96d82672a63c76c84058287ba7b300fe",
+      "99011e18cbbdb886714032cb57ae937fd93e4f857d6d68a67c81f471f126f603",
+      "2a6ad46d1a19bd216d93b22592567ff1ef361e6ccdc98601b65ff70c68648af5",
+      "1d69e5014eeb6a332a3a1e4595d6be43168378ff96147774ea58a16b5b1e9011",
       "21874c82049a9c4ff2909e769de2a30e5cb3faa87151db115c5b88e8995725fc",
       "4ff5e913948511efe19b0331c5c30e6bd71b06c0eac3ad4baf4d953232978183",
       "02ea4d261d383d333bb23235615a6145613e83209993a9637a144df36b7e77f8",
@@ -767,16 +771,93 @@
       "65fa19104e7e6db651d4d3b33ab37f0901c9df2f3ebcb6dbfb2ff5d6f19d499e",
       "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e",
       "f4ca6e95fc4b2c5c8349c043c0c41dc946797757f5be96744fc39797fe5af57f",
-      "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
+      "187447213081431d4bd0471ab2dbde168fc39b2b630ac8d4a19bc8bcdd197482",
       "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
     ],
-    "paragraph_count": 770
+    "paragraph_count": 774
   },
-  "overview_commit": "f5544ed814fcbd010099ebae4860b87e507b5cbd",
-  "overview_digest": "4a3191e166c7805a6046fca0fdef073765e08529eff8a00da9e743eafd17793a",
+  "overview_commit": "09e6a99ad9d8153be02db24444b0162a33fa23ea",
+  "overview_digest": "157c464b9adc2d6ee5f0da69ec6c283e166a19e137f88e7282d505e59ee0f7c6",
   "paragraphs": [
+    {
+      "id": "ec90e97ba7d9489daf84f974dcf316aa96d82672a63c76c84058287ba7b300fe",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Leetao]] source adds a motivational boundary to the wiki's evidence-driven AI workflows. AI can compress an idea into feasibility research, a minimum experiment, observable intermediate states, and a quick decision, extending [[TaskContingentAICollaboration]] upstream from implementation into idea selection. The same speed lowers abandonment cost: Leetao reports that repeated research and negative experiment conclusions left him thinking without practicing, so evidence became another route to inaction. His response joins [[ActionBiasInAI]], [[PersonalSoftware]], and [[ValueBasedProductScoping]] through subtraction rather than denial of feedback: restart [[Memox|memox]], remove about 80% of its code to retain one function, and release [[VoiceFloat]] around one core task. The durable synthesis is not that data should be ignored, but that market evidence, personal fit, craft learning, and creative motivation answer different questions; a weak business case need not forbid a bounded personal experiment, while renewed enjoyment does not prove demand or product success. The essay is one creator's retrospective without experiment designs, datasets, user measures, or independent product evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ActionBiasInAI",
+        "Leetao",
+        "Memox",
+        "PersonalSoftware",
+        "TaskContingentAICollaboration",
+        "ValueBasedProductScoping",
+        "VoiceFloat"
+      ]
+    },
+    {
+      "id": "99011e18cbbdb886714032cb57ae937fd93e4f857d6d68a67c81f471f126f603",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "science-health-and-climate"
+      ],
+      "text": "The newest 章工 source broadens [[PersonalInfrastructure]] from tools, archives, and automation into the ordinary conditions that preserve the capacity to use them. Its “daily life is logistics” metaphor links habits with physical readiness, repeated social exposure with emotional state, and selective concern with usable energy; the practical implication is that a worthwhile long-term plan can still be displaced when its bodily, relational, or attentional support deteriorates. This connects [[PersonalProductivity]] to [[EnvironmentalField]] and [[InterpersonalBoundarySetting]] by treating routines, people, and priorities as part of one operating environment rather than as unrelated self-improvement tips. The synthesis is narrower than the post's categorical language: a four-paragraph observation does not establish that poor habits inevitably cause illness, that vaguely defined “negative-energy people” determine emotion, or that good daily management guarantees development. Illness, disability, caregiving, poverty, discrimination, crisis, and chance remain independent constraints; boundaries should respond to conduct and impact rather than fixed person labels; and some small matters are consequential care, safety, or maintenance rather than distractions. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "EnvironmentalField",
+        "InterpersonalBoundarySetting",
+        "PersonalInfrastructure",
+        "PersonalProductivity"
+      ]
+    },
+    {
+      "id": "2a6ad46d1a19bd216d93b22592567ff1ef361e6ccdc98601b65ff70c68648af5",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest Stack Overflow source extends [[DefensivePortTriage]] from Linux to macOS process attribution. On Linux, `ss` and `netstat` inventory local TCP and UDP sockets, process-aware output links listeners to programs, `nc -zv` tests one TCP endpoint from one observation point, and [[RunCloud]]'s retained firewall screenshot shows that configured rules may not yet be deployed. On macOS, `lsof -iTCP -sTCP:LISTEN -n -P` lists TCP listeners with numeric addresses and ports, while port and address-family selectors narrow the inventory. The combined synthesis is deliberately staged: “listening locally,” “owned by this process,” “allowed by policy,” “reachable from this client,” “the expected service,” and “vulnerable” are separate claims, and process identification does not itself authorize termination. Bind address, protocol, IPv4 versus IPv6, NAT, filtering, routing, permissions, and deployment state can make observations diverge. The Stack Overflow answers are community-maintained rather than versioned macOS documentation; their `grep :$PORT` form can overmatch, their privilege guidance is simplified, and `kill -9` bypasses graceful shutdown and cleanup. The supplied macOS Markdown contains no effective image references; all six effective Linux-guide images remain retained because they document firewall state, socket output, connection tests, and listener-to-process attribution.",
+      "topic_scores": {
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DefensivePortTriage",
+        "RunCloud"
+      ]
+    },
+    {
+      "id": "1d69e5014eeb6a332a3a1e4595d6be43168378ff96147774ea58a16b5b1e9011",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest 90千帕 source adds a terse relationship filter to [[InterpersonalBoundarySetting]] and [[DeliberateNetworkBuilding]]: withdraw from harmful conduct rather than treating another person's character as a reform project, and prefer friends or collaborators whose willingness is already visible in action. The defensible core is agency protection and demonstrated readiness, not certainty that someone is inherently “bad” or “pretending to sleep.” Its absolute prohibition on proactively offering help is the weakest claim. The post supplies no examples, behavioral test, outcome evidence, power analysis, or exceptions, and it conflicts with [[ProfessionalRelationshipCompounding]] and other sources that credit freely offered mentorship, shelter, sponsorship, peer recruitment, and long-horizon reciprocity. Consent, proportionality, duty, safety, and the recipient's ability to decline provide better boundaries than a universal ban covering emergencies, caregiving, teaching, professional obligations, or mutual aid. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DeliberateNetworkBuilding",
+        "InterpersonalBoundarySetting",
+        "ProfessionalRelationshipCompounding"
+      ]
+    },
     {
       "id": "21874c82049a9c4ff2909e769de2a30e5cb3faa87151db115c5b88e8995725fc",
       "primary_topic": "cross-domain",
@@ -15503,10 +15584,10 @@
       ]
     },
     {
-      "id": "56d167dc52ba9773708d2b365a6af5d315a7dbb8ff601bd45645ee962ff79c20",
+      "id": "187447213081431d4bd0471ab2dbde168fc39b2b630ac8d4a19bc8bcdd197482",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
-      "text": "The newest shell-redirection source adds [[ShellRedirection]] as an order-sensitive file-descriptor operation rather than an unordered declaration of final destinations. Redirections are evaluated from left to right, and `2>&1` duplicates descriptor 1's destination as it exists at that moment rather than creating a live link that follows later reassignment. Consequently, `command >file 2>&1` sends standard output and standard error to the file, while `command 2>&1 >file` normally leaves standard error on the terminal and sends only standard output to the file. This gives [[BashAsMetaTool]] and [[AutomationFriendlyCLI]] a concrete composition mechanism while clarifying the [[CommandLineUX]] boundary between user-facing output and diagnostics. The evidence is a concise Stack Exchange explanation centered on Bash-like syntax and usual terminal defaults; it does not cover broader input, pipeline, subshell, closing, append, here-document, or portability cases, and its syscall account is a mental model rather than a guarantee of one literal implementation. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "text": "The shell-redirection sources establish [[ShellRedirection]] as an order-sensitive file-descriptor operation rather than an unordered declaration of final destinations. Redirections are evaluated from left to right, and `2>&1` duplicates descriptor 1's destination as it exists at that moment rather than creating a live link that follows later reassignment. Consequently, `command >file 2>&1` combines the standard streams in the file, while `command 2>&1 >file` normally leaves standard error on the terminal. The newer source extends the same model to `3>&1 1>&2 2>&3`: descriptor 3 temporarily preserves standard output, enabling the destinations of descriptors 1 and 2 to be swapped. In its `dialog` example, the swap makes the widget's value capturable through command substitution while preserving the terminal-facing display. This gives [[BashAsMetaTool]] and [[AutomationFriendlyCLI]] a concrete composition mechanism while clarifying the [[CommandLineUX]] boundary between user-facing output and script-consumable results. The evidence is two concise Stack Exchange explanations centered on Bash-like syntax and usual terminal defaults; it does not comprehensively cover broader redirection forms, descriptor lifecycle, or portability, and the `dialog` convention is program-specific. Neither supplied Markdown file contains effective image references, so no visual assets or manifests were required.",
       "topic_scores": {
         "ai-and-technology": 2
       },

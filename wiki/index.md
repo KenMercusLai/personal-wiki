@@ -6,6 +6,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [国庆随笔](sources/guo-qing-sui-bi-leetao.md) - Leetao reflects on how AI-shortened idea validation made abandonment too easy, then restored creative momentum by radically narrowing memox and shipping the single-purpose VoiceFloat.
+- [日常生活就是一个人的后勤](sources/ri-chang-sheng-huo-jiu-shi-yi-ge-ren-de-hou-qin.md) - 章工把习惯、关系环境与轻重取舍视为个人长期发展的日常后勤，同时其必然化因果判断需要以结构约束、健康差异和偶然性加以限定。
+- [Who is listening on a given TCP port on Mac OS X?](sources/who-is-listening-on-a-given-tcp-port-on-mac-os-x.md) - Stack Overflow answers show how macOS `lsof` can attribute listening TCP sockets to processes while exposing filtering, privilege, version, and forceful-termination caveats.
+- [What does "3>&1 1>&2 2>&3" do in a script?](sources/what-does-3-1-1-2-2-3-do-in-a-script.md) - Stack Exchange answers trace a left-to-right stdout/stderr swap through temporary descriptor 3 and explain how it makes `dialog` output capturable by a script.
 - [单倍体是否属于生物](sources/dan-bei-ti-yu-sheng-wu-ding-yi.md) - 小泳区分染色体倍性与生物体身份，以单倍体个体、生活史阶段和人类配子说明功能整合与独立性比染色体组数更关键，同时留下定义与例外边界。
 - [为什么春梦总是不能尽兴](sources/chun-meng-zhong-duan-de-sheng-li-ji-zhi.md) - 小泳将性梦的表观中断分为睡眠阶段转换、觉醒、兴奋、心理干扰与回忆片段化等假说，并明确声明这些并非科学依据。
 - [动脉粥样硬化斑块的干预与治疗](sources/dong-mai-zhou-yang-ying-hua-ban-kuai-gan-yu-yu-zhi-liao.md) - 小泳将斑块稳定、逆转与心血管风险管理区分于支架和溶栓，并强调长期降脂、危险因素控制与影像随访，但未给出临床引用。
@@ -960,7 +964,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [锐评主流AI推理负载均衡开源实现](sources/rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian.md) - A technical critique of open-source inference load-balancing implementations, focusing on tokenization, metric collection, routing, and KV-cache-aware design.
 - [就是要你懂负载均衡--lvs和转发模式](sources/jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi.md) - A packet-flow explanation of LVS forwarding modes, comparing DR, NAT, full NAT, ENAT, IP TUN, and Alibaba Cloud SLB/NGLB tradeoffs.
 - [Don't Be a Hypocrite About Failure](sources/dont-be-a-hypocrite-about-failure-2.md) - A leadership essay arguing that owning specific failures, seeking outside feedback, and changing action matter more than abstract pro-failure rhetoric.
-- [Don't Be a Hypocrite About Failure](sources/dont-be-a-hypocrite-about-failure.md) - A duplicate export of the leadership essay already represented by the `-2` source note, retained as a distinct source document without treating it as independent evidence.
 - [褪墨 - 提高工作效率的十条好习惯](sources/tuimo-10-timeless-work-habits-to-boost-productivity.md) - Ten lightweight habits for improving productivity through priority-setting, focus, batching, delegation, and simple routines.
 - [褪墨 - 使用 G+P+V 思考你的职业生涯](sources/tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya.md) - A career-reflection article using gifts, passion, and values to treat career as a path rather than a single job.
 - [费曼学习法实践 / INDIGO 的信息获取与知识输出方法论](sources/feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology.md) - A Feynman-style learning workflow connecting focused reading, structured output, personal knowledge bases, and AI-assisted note organization.
@@ -1087,8 +1090,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [从“效率困境”到“场景化解决方案”：我如何吸收 Claude 官方实践，重塑我的编程工作流](sources/claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian.md) - Li Hui routes Claude coding work among synchronous collaboration, bounded asynchronous autonomy, and staged exploration, with checkpoints, specialized agents, and screenshot feedback qualified by anecdotal evidence.
 - [FOUR：一个 27 岁零基础无业游民的第一个开源作品](sources/four-a-zero-experience-developers-first-open-source-app.md) - SketchK recounts turning a career-change experiment into a researched, shipped, and open-sourced iOS app while leaving expertise and hiring outcomes unproven.
 - [小贴士：Docker清理作弊手册](sources/docker-qing-li-zuo-bi-shou-ce.md) - 伊布按容器、镜像、卷与网络整理 Docker 清理命令，并警告删除顺序会扩大后续镜像清理范围。
+- [帮你避三个坑](sources/1726845898951721415.md) - 90千帕主张远离有害关系、选择已经行动的伙伴，并以未经限定的“绝不主动帮助”规则保护注意力。
 
 ## Entities
+- [Leetao](entities/Leetao.md) - Blogger and software creator balancing AI-assisted validation with direct, narrowly scoped building.
+- [memox](entities/Memox.md) - Leetao project revived by deleting about 80% of its code and retaining one core function.
+- [VoiceFloat](entities/VoiceFloat.md) - Single-purpose software that Leetao reports releasing under a deliberate simplicity rule.
 - [OpenSSL](entities/OpenSSL.md) - Cryptographic toolkit represented through version-sensitive key, CSR, certificate, extension, and private-key-output commands.
 - [Patrick J. Smith](entities/PatrickJSmith.md) - Duke researcher represented through an integrative health-neuroscience account of exercise, mental health, adherence, and treatment heterogeneity.
 - [Rhonda M. Merwin](entities/RhondaMMerwin.md) - Duke behavioral-science researcher represented through an integrated account of neuroplasticity, self-regulation, and tailored exercise support.
@@ -2852,7 +2859,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sub-Minute Task Scheduling](concepts/SubMinuteTaskScheduling.md) - Recurring execution below one-minute granularity with explicit cadence, overlap, delay, accuracy, and recovery semantics.
 - [DNS TXT Record Lookup](concepts/DNSTXTRecordLookup.md) - Exact-name retrieval of DNS TXT records with command-line clients, including compact output and explicit DKIM selector queries.
 - [Bash Conditionals](concepts/BashConditionals.md) - Command-status model in which `if` consumes success or failure directly and `[` or `test` evaluates expressions when needed.
-- [Shell Redirection](concepts/ShellRedirection.md) - Left-to-right reassignment and point-in-time duplication of shell file-descriptor destinations.
+- [Shell Redirection](concepts/ShellRedirection.md) - Left-to-right reassignment, point-in-time duplication, and temporary-descriptor swapping of shell output destinations.
 - [Self-Signed Certificates](concepts/SelfSignedCertificates.md) - Certificates whose cryptographic validity remains separate from client trust, hostname coverage, and lifecycle operations.
 - [Hunger Physiology](concepts/HungerPhysiology.md) - Redundant sensory, neuroendocrine, endocrine, and metabolic control of food intake across homeostatic need, hedonic drive, and environmental context.
 - [Exercise for Mental Health](concepts/ExerciseForMentalHealth.md) - Use of aerobic or resistance activity to prevent or manage symptoms through interacting biological and behavioral mechanisms, qualified by heterogeneous response and maintenance.
@@ -3927,7 +3934,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, history, context, and noise that produces observed outputs.
 - [Data Monetization](concepts/DataMonetization.md) - Turning collected, combined, or inferred data into internal operational value or external data, insight, and analytics products.
 - [Data Factories](concepts/DataFactories.md) - Organizational and technical systems that repeatedly transform varied data inputs into operational decisions, profiles, insights, and customer-facing services.
-- [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
+- [Defensive Port Triage](concepts/DefensivePortTriage.md) - Staged local listener inventory, process attribution, path testing, and service-risk interpretation across Linux and macOS.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Layered representation learning shaped by training mechanics, labeled and unlabeled data, accelerator scale, operational deployment, reusable artifacts, and transfer limits.
@@ -4219,7 +4226,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microservice Failure Containment](concepts/MicroserviceFailureContainment.md) - Isolation, bounded work, degraded modes, health-aware routing, safe change, and recovery controls that prevent one service failure from becoming system-wide collapse.
 - [Off-Path TCP Injection](concepts/OffPathTCPInjection.md) - Inferring hidden TCP connection state through an indirect oracle so a forged segment can be made acceptable without directly observing the flow.
 - [Protocol Metadata Side Channels](concepts/ProtocolMetadataSideChannels.md) - Hidden-state leakage through observable protocol timing, contention, control messages, retries, sizes, or error-recovery behavior.
-- [Personal Infrastructure](concepts/PersonalInfrastructure.md) - Integrated physical, digital, archival, and analytical systems that reduce recurring friction and preserve leverage.
+- [Personal Infrastructure](concepts/PersonalInfrastructure.md) - Bodily, social, physical, digital, archival, and analytical conditions that preserve capacity, reduce recurring friction, and compound leverage.
 - [Personal Analytics](concepts/PersonalAnalytics.md) - Collection and review of longitudinal personal data for feedback, qualified by proxy, causal, privacy, and security limits.
 - [Business Model Validation](concepts/BusinessModelValidation.md) - Testing whether customer, value, channel, cost, revenue, pricing, payer, and scale assumptions form a repeatable economic system.
 - [Overengineering](concepts/Overengineering.md) - Disproportionate complexity, generality, or precision unsupported by present evidence, credible risk, or lifecycle value.

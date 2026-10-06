@@ -8560,3 +8560,47 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-04] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-04] ingest | 帮你避三个坑
+
+Updated [[InterpersonalBoundarySetting]] and [[DeliberateNetworkBuilding]] from their complete ordered evidence inventories. Added withdrawal from repeated reform or motivational labor and demonstrated action as qualified relationship-selection signals, while rejecting fixed character judgments and preserving consent, duty, emergencies, mentorship, mutual aid, beginner access, and freely offered long-horizon support against the tweet's categorical rules. Flagged the direct tension with [[ProfessionalRelationshipCompounding]]. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-04] ingest | What does "3>&1 1>&2 2>&3" do in a script?
+
+Updated [[ShellRedirection]] from its complete ordered evidence inventory. Extended the left-to-right duplication model to show how descriptor 3 temporarily preserves standard output while descriptors 1 and 2 exchange destinations, and connected the mechanism to `dialog` command substitution, [[AutomationFriendlyCLI]], and [[CommandLineUX]]. Qualified the open lifetime of descriptor 3, the usual-terminal assumption, shell portability, and `dialog`'s program-specific output convention. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-04] ingest | Who is listening on a given TCP port on Mac OS X?
+
+Updated [[DefensivePortTriage]] from its complete ordered evidence inventory. Added macOS `lsof` listener-to-process attribution, numeric non-resolving output, and address-family and port filters while distinguishing process identification from authorization to terminate. Qualified textual `grep` overmatching, simplified privilege and version claims, and `kill -9` as an unsafe default response. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-04] ingest | 日常生活就是一个人的后勤
+
+Updated [[PersonalInfrastructure]] from its complete ordered evidence inventory. Expanded personal infrastructure beyond tools, archives, and automation to include bodily routines, social conditions, and attention allocation as support for longer-term plans, while qualifying deterministic lifestyle claims, vague person labels, victim-blaming, and neglect of consequential maintenance. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-04] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-06] report | Remove duplicate source note
+
+Removed `wiki/sources/dont-be-a-hypocrite-about-failure.md` and its `wiki/index.md` entry. The note reproduced [[dont-be-a-hypocrite-about-failure-2]], which the same-day ingest already recorded as the canonical source, and no page linked to it. The existing concept and entity evidence inventories already name `dont-be-a-hypocrite-about-failure-2`, so no synthesis or evidence change was required.
+
+## [2026-10-07] ingest | 国庆随笔
+
+Updated [[TaskContingentAICollaboration]], [[PersonalSoftware]], and [[ActionBiasInAI]] from their complete ordered evidence inventories. Added AI-supported minimum experiments, premature abandonment as an analysis-loop risk, and radical feature subtraction as a route back to creative practice; created [[Leetao]], [[Memox|memox]], and [[VoiceFloat]] while qualifying the essay's first-person claims against absent experiment, user, and market evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

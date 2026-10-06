@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-04
-as_of_overview_commit: afaa5b78f72c11cc0a3c12328bd6912a320809b0
-input_digest: 04c2448d36e5241fb472e9062d34a77bbc6ca5062b0dd68a23a9d432968970c7
+as_of_overview_commit: 2784b1c0e4fcb3ed6f0c6134b12ef6863b5b30c6
+input_digest: 568b7696ba2df616705bb67c5f460deba73fced61e5b014043ee621d0a5b1280
 ---
 
 # Psychology and Personal Development
@@ -332,15 +332,16 @@ input_digest: 04c2448d36e5241fb472e9062d34a77bbc6ca5062b0dd68a23a9d432968970c7
 
 ### Networks Shape Growth And Judgment
 
-[[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], and [[ProfessionalRelationshipCompounding]] treat relationships and recurring information inputs as formative environments whose learning, trust, friendship, and opportunity may accumulate through repeated participation. [[RoyBahat]] adds an opt-in coordination pattern: requester-written context, introducer judgment, recipient choice, and recipient-specific threads reduce editing and disclosure costs without guaranteeing access or relationship value. [[VujaDe]] adds that experience should remain open to materially changed conditions, while default or prestigious networks can narrow judgment and ambition through conformity.
+[[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], and [[ProfessionalRelationshipCompounding]] treat relationships and recurring information inputs as formative environments whose learning, trust, friendship, and opportunity may accumulate through repeated participation. Demonstrated initiative can inform collaborator selection, while [[InterpersonalBoundarySetting]] can limit persistently one-sided reform or motivational labor without turning present inaction into a fixed character judgment. [[RoyBahat]] adds an opt-in coordination pattern: requester-written context, introducer judgment, recipient choice, and recipient-specific threads reduce editing and disclosure costs without guaranteeing access or relationship value. [[VujaDe]] adds that experience should remain open to materially changed conditions, while default or prestigious networks can narrow judgment and ambition through conformity.
 
-**Evidence:** [[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], [[ProfessionalRelationshipCompounding]], [[RoyBahat]], [[VujaDe]], [[SiliconValley]]
+**Evidence:** [[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]], [[ProfessionalRelationshipCompounding]], [[InterpersonalBoundarySetting]], [[RoyBahat]], [[VujaDe]], [[SiliconValley]]
 
 **Qualifications:**
 
 - The network-building evidence consists of reflective practitioner essays that do not separate peer influence from self-selection or establish causal personal-development outcomes; deliberate curation and high-volume outreach can become status seeking, exhaustion, instrumental contact collection, or an ideological bubble, and access is materially constrained.
 - Bahat's workflow is one investor's practice without comparative response or meeting outcomes; opt-in and forwardable context reduce coordination burden but do not ensure relevance, fair access, a reply, or a useful relationship, and email norms vary by context and culture.
 - Vuja de can become indiscriminate optimism unless the evaluator states which conditions changed, preserves relevant base rates, and identifies disconfirming evidence; Chen's examples are selected retrospectively from later winners.
+- The 90千帕 post offers no evidence or reliable test for distinguishing low initiative from fear, constraint, disagreement, or a need for bounded support, and its absolute ban on proactive help conflicts with the same corpus's mentorship, shelter, sponsorship, peer-recruitment, and delayed-reciprocity cases.
 
 ### Product Discovery Sequence Should Follow Uncertainty
 
