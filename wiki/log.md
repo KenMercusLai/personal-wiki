@@ -8796,3 +8796,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | Art of Roads in Games
+
+Added [[CitiesSkylines]] and [[ProceduralRoadGeometry]]. Captured the source's distinction among unconstrained Bézier centerlines, concentric circular-arc offsets, and gradual-curvature clothoids; preserved the lack of derivations, benchmarks, or implementation detail. Opened and retained all six substantive article images with descriptive canonical filenames at their semantic positions, and inspected the linked demo video to verify dynamic road and intersection regeneration.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

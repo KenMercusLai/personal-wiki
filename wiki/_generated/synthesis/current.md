@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-07
-as_of_overview_commit: d73dceee0abef0e41041a59cd59b4535a45f1a69
+last_updated: 2026-10-08
+as_of_overview_commit: 5878308dc42cd835f5fe40883380f3780f18ceb3
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, emphasizing evidence, boundaries, and accountability."
-episode_count: 1090
-source_count: 1090
-paragraph_count: 788
+episode_count: 1091
+source_count: 1091
+paragraph_count: 789
 topic_count: 9
 ---
 
@@ -50,7 +50,7 @@ Across domains, sound judgment identifies the relevant unit and context, exposes
 
 ### Culture and Media
 
-Media form, platform architecture, creator economics, identity, presence, governance, and public explanation jointly shape culture and durable value.
+Media form, platform architecture, physical interaction constraints, creator economics, identity, presence, governance, and public explanation jointly shape culture and durable value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].

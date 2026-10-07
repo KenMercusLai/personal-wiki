@@ -788,12 +788,13 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd",
       "226edb358fea4e9b176f57e2c5e0bbf3efdcdbaea7145b075ca5d6a85addc1fc",
-      "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74"
+      "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74",
+      "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0"
     ],
-    "paragraph_count": 788
+    "paragraph_count": 789
   },
-  "overview_commit": "d73dceee0abef0e41041a59cd59b4535a45f1a69",
-  "overview_digest": "16e6fbf09f792317196280d030857d1426a7388d5bc208c94d08ad7fae7cf373",
+  "overview_commit": "5878308dc42cd835f5fe40883380f3780f18ceb3",
+  "overview_digest": "7a43f7259e017e45812ace892073e566f0dbc8cea665e764ba59870d56336dad",
   "paragraphs": [
     {
       "id": "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
@@ -15921,6 +15922,19 @@
         "AccountabilityInfrastructure",
         "CiJianDeShanLin",
         "ProductionAgentInfrastructure"
+      ]
+    },
+    {
+      "id": "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest Sandbox Spirit source adds a computational-geometry layer to the wiki's game-development material. [[ProceduralRoadGeometry]] separates a visually smooth centerline from a usable road surface: tight offsets of unconstrained Bézier curves can pinch or self-intersect, while concentric circular arcs preserve spacing and simplify many urban-intersection calculations. The higher-speed qualification is curvature continuity: joining a straight directly to a constant-curvature arc creates an abrupt lateral-force change, whereas clothoids increase curvature gradually. [[CitiesSkylines]] provides the practical case, progressing from freeform placement and mod-enabled markings to sequel-level visual realism while still exposing distorted extreme layouts. The article and inspected images demonstrate the representation problem, and its video shows dynamic intersection regeneration, but it supplies no derivation, benchmark, topology algorithm, or implementation detail.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "CitiesSkylines",
+        "ProceduralRoadGeometry"
       ]
     }
   ],

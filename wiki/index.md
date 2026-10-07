@@ -1115,6 +1115,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Large Language Model Technical Reports Overview](sources/large-language-model-technical-reports-overview.md) - Wulc compares o1, DeepSeek-R1, and Kimi k1.5 through inference-time scaling, RLHF, GRPO, verifiable rewards, multi-stage training, and reasoning distillation.
 
 - [Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline](sources/vane-data-jev-building-an-end-to-end-voice-analytics-pipeline.md) - A banking example composes audio decoding, Whisper, quality gates, typed semantic judgment, SQL shaping, failure-inclusive evaluation, and mandatory human review in one Relation plan.
+- [Art of Roads in Games](sources/art-of-roads-in-games.md) - Sandbox Spirit compares Bézier splines, circular arcs, and clothoids for game-road generation, supported by inspected city-builder failures and a dynamic custom-system demo.
 
 ## Entities
 - [Daft](entities/Daft.md) - Python-facing, Rust-backed DataFrame engine designed to expose multimodal operations to query optimization and streaming execution.
@@ -2895,6 +2896,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vane Data](entities/VaneData.md) - Data-processing framework that composes heterogeneous tasks, actors, external judgments, and SQL into a deferred Relation plan while preserving row lineage and failures.
 
 - [Serenity (Investor)](entities/SerenityInvestor.md) - Anonymous investor portrayed in one secondary essay as using supply-chain chokepoint research and dynamic rotation, with identity and performance unverified.
+- [Cities: Skylines](entities/CitiesSkylines.md) - City-building game series used to illustrate freeform road authoring, mod-enabled realism, and persistent tight-curve geometry failures.
 
 ## Concepts
 - [Accountability Infrastructure](concepts/AccountabilityInfrastructure.md) - Heterogeneous verification, reality anchors, and audit trails that make machine-scale autonomous action reconstructable and attributable.
@@ -4315,5 +4317,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Chokepoint Investing](concepts/ChokepointInvesting.md) - Structural investing approach that maps hard-to-substitute supply-chain dependencies, tests supplier economics, and revises positions as bottlenecks change.
 - [Bayesian Updating](concepts/BayesianUpdating.md) - Revision of hypothesis confidence through evidence, distinguished from valuation, payoff, and portfolio decisions.
+- [Procedural Road Geometry](concepts/ProceduralRoadGeometry.md) - Generation of plausible road surfaces and intersections from editable curves while preserving widths, curvature transitions, and connectivity.
 
 ## Syntheses

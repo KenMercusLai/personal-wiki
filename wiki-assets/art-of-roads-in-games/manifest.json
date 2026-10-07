@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "art-of-roads-in-games",
+  "images": [
+    {
+      "file": "generated-road-network.webp",
+      "alt": "Generated road network showing varied intersections, lane markings, and smoothly joined curved segments"
+    },
+    {
+      "file": "unrealistic-highway-interchange.webp",
+      "alt": "Cities: Skylines highway interchange with looping ramps and abrupt narrow merges"
+    },
+    {
+      "file": "five-lane-turbo-roundabout.webp",
+      "alt": "Modded five-lane turbo roundabout with detailed lane guides and directional markings"
+    },
+    {
+      "file": "tight-curve-geometry-failures.webp",
+      "alt": "Two tight game-road curves showing pinched lanes, overlapping markings, and distorted intersection edges"
+    },
+    {
+      "file": "bezier-circle-offset-comparison.webp",
+      "alt": "Comparison of uneven Bezier offsets with evenly spaced concentric circular-arc offsets"
+    },
+    {
+      "file": "common-road-tool-limitations.webp",
+      "alt": "Examples of road-generation tools with sharp joins, rigid layouts, and pinched inner curves"
+    }
+  ]
+}
