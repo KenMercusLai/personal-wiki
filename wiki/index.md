@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [If we do not stop to help each other, what do we become?](sources/if-we-do-not-stop-to-help-each-other-what-do-we-become.md) - A Stack Overflow user's crisis-era account distinguishes receiving an answer from receiving freely offered human care, belonging, and a chance to help later learners.
 - [#95 制作我的第一款 iOS App: 干饭手册](sources/95-zhi-zuo-wo-de-di-yi-kuan-ios-app-gan-fan-shou-ce.md) - Fenx pairs a visual tour of his first released iOS app with a candid account of unmanaged scope, cloud and media state failures, agent-assisted learning, and App Review delay.
 - [Scar of Quantization](sources/scar-of-quantization.md) - An INT8 pretraining case links shared-scale activation outliers to structured underflow and failed validation convergence, then reports recovery with 1 by 32 scaling while leaving Hadamard rotation as an offline candidate.
 - [You Can't "Vibe Code" Love](sources/you-cant-vibe-code-love.md) - Jeff Atwood welcomes LLM answer retrieval and duplicate mapping while warning that private model conversations may not replenish Stack Overflow's public knowledge commons or human community.
