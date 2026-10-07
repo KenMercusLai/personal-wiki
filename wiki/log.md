@@ -8724,3 +8724,11 @@ Created [[AdloadConstrainedMixedRanking]] and updated [[MixedRankingGovernance]]
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Large Language Model Technical Reports Overview
+
+Created [[OpenAIo1]], [[DeepSeekR1]], [[KimiK15]], [[ChainOfThoughtReasoning]], [[GroupRelativePolicyOptimization]], and [[ReasoningModelDistillation]], and updated [[ReinforcementLearning]] from its complete ordered evidence inventory. Distinguished R1-Zero's pure-RL result from DeepSeek-R1's practical multi-stage pipeline, compared PPO's critic with GRPO's group-relative baseline, and recorded verifiable rewards, test-time scaling, Kimi's prompt curriculum and length control, distillation advantages, and the reported PRM/MCTS failure boundaries. Opened all 16 effective remote images; retained eight benchmark, scaling, RLHF, PPO-versus-GRPO, rule-reward, distillation, mirror-descent, and length-penalty visuals under descriptive canonical filenames, and omitted lower-level formula or example images whose information was fully represented in the retained figures and prose.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

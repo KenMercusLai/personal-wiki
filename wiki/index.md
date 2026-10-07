@@ -1106,8 +1106,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [帮你避三个坑](sources/1726845898951721415.md) - 90千帕主张远离有害关系、选择已经行动的伙伴，并以未经限定的“绝不主动帮助”规则保护注意力。
 - [Seven Years of Firecracker](sources/seven-years-of-firecracker-marcs-blog.md) - Marc Brooker explains Firecracker's per-session AgentCore microVMs, snapshot-cloned Aurora DSQL query processors, shared clean pages, and lifetime-bounded cleanup.
 - [用 AI 工具快速撰写分享型推文](sources/yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge.md) - Reorx tests a summarize-translate-compress pipeline that saves estimated time while preserving human editorial judgment and writing practice.
+- [Large Language Model Technical Reports Overview](sources/large-language-model-technical-reports-overview.md) - Wulc compares o1, DeepSeek-R1, and Kimi k1.5 through inference-time scaling, RLHF, GRPO, verifiable rewards, multi-stage training, and reasoning distillation.
 
 ## Entities
+- [OpenAI o1](entities/OpenAIo1.md) - Reasoning model reported to improve with reinforcement-learning compute and additional test-time reasoning.
+- [DeepSeek-R1](entities/DeepSeekR1.md) - Reasoning-model family separating a pure-RL R1-Zero experiment from a cold-start, multi-stage production pipeline.
+- [Kimi k1.5](entities/KimiK15.md) - Long-context reasoning model combining curated RL prompts, critic-free policy optimization, and Long2Short methods.
 - [GitHub Spec Kit](entities/GitHubSpecKit.md) - Repository-centered workflow that turns constitutions, feature specs, plans, tasks, analysis, and convergence into durable coding-agent inputs.
 - [La Memoria](entities/LaMemoria.md) - Greenfield bookmark application used as a case study for specification-driven agent development.
 - [Fenx](entities/Fenx.md) - Independent designer-developer who built 干饭手册 across product, interface, engineering, testing, compliance, and release.
@@ -2879,6 +2883,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Chain-of-Thought Reasoning](concepts/ChainOfThoughtReasoning.md) - Intermediate reasoning that trades additional inference compute for decomposition, checking, correction, and alternate approaches.
+- [Group Relative Policy Optimization](concepts/GroupRelativePolicyOptimization.md) - Critic-free policy optimization using relative rewards across multiple sampled responses to the same prompt.
+- [Reasoning-Model Distillation](concepts/ReasoningModelDistillation.md) - Transfer of stronger-model reasoning behavior into smaller models or shorter correct trajectories.
 - [Adload-Constrained Mixed Ranking](concepts/AdloadConstrainedMixedRanking.md) - Hierarchical optimization that prices shared ad capacity at application level and searches order-preserving request layouts under placement constraints.
 - [Multi-Channel Ad Optimization](concepts/MultiChannelAdOptimization.md) - Coordination of bids and budgets across heterogeneous advertising channels under calibration, sparsity, marginal-return, feedback-delay, and campaign-constraint tradeoffs.
 - [Automation Bias](concepts/AutomationBias.md) - Tendency to favor an automated recommendation or apparent coverage over conflicting evidence, including mistaking an unreported condition for proof of absence.

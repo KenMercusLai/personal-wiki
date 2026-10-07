@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "large-language-model-technical-reports-overview",
+  "images": [
+    {
+      "file": "o1-vs-gpt4o-benchmarks.jpg",
+      "alt": "OpenAI chart showing o1 benchmark improvements over GPT-4o across mathematics, science, exams, and MMLU categories"
+    },
+    {
+      "file": "o1-train-test-compute-scaling.png",
+      "alt": "OpenAI plots showing o1 AIME accuracy rising with both logarithmic training compute and test-time compute"
+    },
+    {
+      "file": "rlhf-three-stage-pipeline.jpg",
+      "alt": "Three-stage RLHF pipeline from supervised fine-tuning through reward-model training to PPO policy optimization"
+    },
+    {
+      "file": "ppo-versus-grpo-architecture.jpg",
+      "alt": "Architecture comparison showing PPO using a value model while GRPO derives relative advantages from grouped response rewards"
+    },
+    {
+      "file": "deepseek-r1-zero-rule-rewards.jpg",
+      "alt": "DeepSeek-R1-Zero description of rule-based accuracy and format rewards used instead of a neural reward model"
+    },
+    {
+      "file": "deepseek-distillation-versus-rl.jpg",
+      "alt": "DeepSeek table comparing distilled Qwen models with Qwen models trained directly through large-scale reinforcement learning"
+    },
+    {
+      "file": "kimi-policy-mirror-descent-objective.jpg",
+      "alt": "Kimi k1.5 online policy mirror descent objective and sampled-reward surrogate loss with relative-entropy regularization"
+    },
+    {
+      "file": "kimi-length-penalty.jpg",
+      "alt": "Kimi k1.5 length-reward formula favoring shorter correct responses within a sampled response group"
+    }
+  ]
+}

@@ -7,7 +7,8 @@ sources:
   - yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag
   - from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune
   - gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft
-last_updated: 2026-09-28
+  - large-language-model-technical-reports-overview
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,48 +16,46 @@ knowledge_schema: synthesis-v1
 [[ReinforcementLearning]] is a machine-learning approach in which an agent changes its policy over sequential actions using rewards or penalties tied to resulting outcomes.
 
 ## Current Synthesis
-The sources show reinforcement learning at three levels of specificity. A simple game analogy describes an initially uncertain policy whose action probabilities improve from wins and losses despite imperfect credit assignment. A robotics case uses detected pleased or frustrated human expressions as feedback for [[ASIMO]]. [[SearchR1]] applies the same outcome-driven frame to language-model retrieval: the model generates a sequence of reasoning, search, information, and answer actions, then policy optimization uses final-answer correctness to reinforce better trajectories.
+The sources now span simple feedback analogies, robotics, games, retrieval agents, and reasoning-model training. A Pong-like career metaphor and pleased-or-frustrated reactions around [[ASIMO]] introduce the basic idea: actions change a policy when later feedback says whether an outcome was better or worse. [[AlphaGo]] adds the canonical bounded-game case, combining deep learning, expert games, and self-play, while the StarCraft analysis shows why success depends on the environment: hidden state, many simultaneous units, changing opponents, real-time action, and limited simulation access make policy learning much harder.
 
-Search-R1 is important here because the learned behavior is not merely answer generation. The policy must decide whether more evidence is needed, formulate queries, consume returned information, and stop with an answer within an action budget. The article names PPO and GRPO as optimization options and states that the actual Search-R1 work uses GRPO, although its teaching code substitutes a simplified policy-gradient loss. The 2016 Fortune history adds the best-known game case: [[AlphaGo]] combined deep learning with reinforcement learning, professional game records, and extensive self-play. It also reports a Google data-center efficiency result as an industrial control analogy, where many sensor readings and controllable variables form a trial-and-error environment.
+Language models turn generated tokens, searches, and answers into policy actions. [[SearchR1]] optimizes when to search, what to search for, how to incorporate returned evidence, and when to answer under an action budget. The newer reasoning-model overview adds the training architecture behind this pattern. Conventional RLHF combines supervised fine-tuning, a learned preference reward model, PPO policy updates, a critic/value model, and a frozen reference policy. [[GroupRelativePolicyOptimization]] instead samples multiple answers to one prompt and estimates advantage from group-relative rewards, eliminating the critic but increasing dependence on sampling and reward quality.
 
-Weber's StarCraft analysis adds an environment-design boundary. Self-play and simulation are less straightforward when the engine is closed, much of the opponent state is hidden, the action space spans hundreds of units, strategies change across maps and opponents, and decisions must be executed in real time. His proposed response is not reinforcement learning alone but new state and action abstractions plus hybrid reactive control. The career source also uses reinforcement learning metaphorically: repeated experiments under uncertainty can improve future decisions even when a person lacks a complete plan. That analogy captures iteration and feedback but should not be confused with a specified machine-learning objective.
+[[DeepSeekR1]] sharpens two distinctions. First, R1-Zero reports that outcome-verifiable RL can induce extended reasoning without initial SFT, but the practical R1 model adds cold-start examples, rejection-sampled SFT, language-consistency reward, and a second RL phase to improve readability and general behavior. Second, rule-based correctness and format rewards can be more robust than learned reward models on objectively checkable tasks, but they do not solve reward design for open-ended output. [[KimiK15]] similarly combines long-chain SFT and RL over curated verifiable prompts, then uses curriculum, prioritized sampling, and length penalties to balance difficulty and reasoning cost.
 
 ## Key Claims
-- Reinforcement learning is suited to sequences of decisions whose quality is evaluated through later outcomes.
-- Coarse outcome reward can shape a policy even when assigning credit to every individual action is difficult.
-- Human reactions can serve as feedback when task success is interpersonal rather than simple win/loss.
-- Language-model agents can learn search timing, query formulation, evidence use, and stopping behavior through retrieval trajectories.
-- Self-play can generate experience for a bounded game policy, but environment access, observability, action abstraction, opponent diversity, and timing constraints determine whether simulation-heavy learning is practical.
-- Outcome-only reward simplifies supervision but leaves credit assignment, reward design, exploration, and training stability as central concerns.
-- Reinforcement learning can serve as a useful metaphor for repeated career experiments, but the analogy is not a technical training specification.
+- Reinforcement learning is suited to sequences of decisions whose quality is evaluated through later outcomes, but the environment and reward determine what behavior is learnable.
+- Coarse outcome reward can shape policies without labeling every action, while leaving credit assignment, shortcut learning, and reward hacking unresolved.
+- Self-play and simulation are powerful in bounded, observable environments; hidden state, large action spaces, real-time constraints, and limited simulation reduce that advantage.
+- Language-model agents can learn multi-step retrieval and reasoning policies, including when to search, continue, stop, or answer.
+- PPO stabilizes language-model policy updates with a critic/value estimate and reference-policy constraint; GRPO removes the critic by comparing multiple sampled outputs within a prompt group.
+- Pure outcome-driven RL can induce reasoning in a base model, but usable systems may still require supervised cold starts, readability controls, general-task data, and preference alignment.
+- Verifiable rewards fit mathematics, code, and constrained formats better than subjective open-ended tasks, so reward design and evaluation scope remain central limits.
 
 ## Evidence
-- Sequential learning and coarse reward: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] uses a Pong-like agent whose actions are rewarded after wins and penalized after losses.
-- Human-feedback robotics: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] describes pleased or frustrated expressions as feedback for work involving ASIMO.
-- Learned retrieval policy: [[yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag]] presents Search-R1 as learning when to search, what to search, and how to use results.
-- Bounded trajectory: [[yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag]] reproduces a rollout with explicit search and answer tags, an action budget, inserted retrieval results, and a rethink branch.
-- Optimization scope: [[yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag]] describes final-answer reward and identifies GRPO as the actual algorithm while using simplified policy-gradient pseudocode for instruction.
-- Game learning: [[from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune]] says AlphaGo learned from professional games and a million self-play games before its 2016 champion victory.
-- Operational control: [[from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune]] attributes a 15% data-center energy-efficiency improvement to DeepMind methods operating over roughly 120 variables, but gives no experimental protocol.
-- Real-time strategy constraints: [[gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft]] identifies closed-source simulation, partial observability, decision complexity, changing maps and strategies, rare tactics, and precise timing as coupled obstacles.
-- Hybrid response: [[gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft]] proposes learned abstractions together with behavior trees or finite-state machines rather than a learning-only controller.
-- Career metaphor: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] frames repeated career decisions as experiments that can improve judgment without a known final path.
+- Feedback and human response: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] uses a Pong-like policy analogy and describes pleased or frustrated expressions as feedback in ASIMO work.
+- Bounded self-play and operational control: [[from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune]] says AlphaGo learned from professional games and extensive self-play and reports a DeepMind data-center efficiency application.
+- Environment constraints: [[gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft]] identifies closed simulation, partial observability, many heterogeneous units, changing strategies, rare tactics, and timing as coupled obstacles, motivating learned abstractions plus scripted control.
+- Learned retrieval policy: [[yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag]] presents Search-R1's tagged, bounded search-and-answer rollout with final-answer reward and names GRPO as its actual optimizer.
+- RLHF and PPO: [[large-language-model-technical-reports-overview]] diagrams supervised fine-tuning, preference-model training, and PPO, then explains policy, critic, reward, and reference-model roles.
+- Critic-free optimization: [[large-language-model-technical-reports-overview]] contrasts PPO with GRPO's grouped sampling, normalized relative rewards, and missing value model.
+- Pure RL and staged usability: [[large-language-model-technical-reports-overview]] distinguishes R1-Zero's base-model RL from R1's cold start, rejection-sampled SFT, language consistency, and all-scenario RL.
+- Reward scope and efficiency: [[large-language-model-technical-reports-overview]] describes accuracy and format rules, PRM/MCTS failure modes, Kimi's curated prompt set, and length-aware optimization.
 
 ## Counterevidence & Qualifications
-None of the sources is a technical reinforcement-learning survey. The career essay intentionally simplifies policies, rewards, and credit assignment. The Search-R1 article is a secondary tutorial and does not reproduce the original experiments, benchmark improvements, ablations, retrieval-token masking implementation, reward details, compute cost, or failure analysis; its sample code is explicitly not the actual GRPO training system. The Fortune feature compresses AlphaGo's architecture and treats data-center control as analogous to a board game without establishing technical equivalence or independent validation of the reported savings. Weber's 2016 essay is a forecast rather than an evaluated StarCraft learning system, and its closed-source simulation constraint is historically scoped. Outcome-only reward can also reinforce shortcuts or inefficient actions unless the environment, constraints, and evaluation are carefully designed.
+The sources are a career essay, tutorials, historical journalism, a 2016 forecast, and a secondary overview of vendor technical reports rather than a unified experimental literature. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely on vendor benchmarks and checkable-task-heavy training, with no independent reproduction here. Removing a critic does not remove rollout cost, variance, or reward dependence, and rule rewards can be gamed or become unavailable for subjective work. More reasoning tokens can improve some benchmark answers while increasing latency, cost, and opportunities for unfaithful or redundant traces.
 
 ## What Changed
-- Added language-model retrieval as a concrete sequential-decision application of reinforcement learning.
-- Added Search-R1's bounded tagged trajectory and final-answer reward framing.
-- Distinguished the article's simplified policy-gradient teaching code from the named GRPO implementation.
-- Preserved the earlier robotics example and career metaphor while clarifying their different evidentiary roles.
-- Added StarCraft as a boundary case where environment access, hidden state, action abstraction, adaptation, opponent diversity, and real-time control constrain simulation-heavy learning and motivate hybrid control.
+- Added the full RLHF/PPO training stack and distinguished reward, reference, critic, and policy roles.
+- Added GRPO as a critic-free group-relative alternative with sampling and reward-design tradeoffs.
+- Added the R1-Zero result that reasoning can emerge from pure RL while clarifying why practical DeepSeek-R1 restores supervised stages.
+- Added Kimi's verifiable prompt curation, difficulty sampling, and length-aware optimization.
+- Reframed reward verifiability and environment structure as the shared boundary across games, retrieval, and reasoning models.
 
 ## Related Concepts
+- [[GroupRelativePolicyOptimization]] - removes PPO's learned critic and estimates advantage from grouped response rewards.
+- [[ChainOfThoughtReasoning]] - reasoning trajectories can be reinforced from outcome-level feedback.
+- [[ReasoningModelDistillation]] - transfers discovered reasoning behavior into smaller models rather than repeating full RL.
 - [[AgenticRAG]] - retrieval behavior can be encoded in prompts or optimized as a learned policy.
-- [[SearchR1]] - Search-R1 is the source's concrete RL-trained search framework.
-- [[DeepLearning]] - supplies learned representations that the AlphaGo account combines with sequential reward.
-- [[StarCraftAITestbed]] - combines environment constraints that make reinforcement learning materially harder than in fully observable board games.
-- [[ActiveLearning]] - both emphasize improvement through action and feedback, though they use different learning setups.
-- [[CareerPlanning]] - the career source uses reinforcement learning as a metaphor for exploratory decisions.
-- [[CreativeTechnicalCareer]] - reinforcement learning is one technical and metaphorical strand in Wibowo's career account.
+- [[SearchR1]] - concrete RL-trained search framework using bounded retrieval trajectories.
+- [[DeepLearning]] - supplies the learned representations and policy models used in the game and language-model cases.
+- [[StarCraftAITestbed]] - combines environment constraints that make policy learning harder than in fully observable board games.

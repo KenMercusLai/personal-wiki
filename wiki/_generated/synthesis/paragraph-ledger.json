@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
       "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
       "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
       "eddc973fc335216b4a9d8dbf88b23e3f2bbb8e85861ba3a08a8a6fa09cb3ce3b",
@@ -787,11 +788,34 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 785
+    "paragraph_count": 786
   },
-  "overview_commit": "3fb7ab85f3ec119956806d53c28bc4d85a0e6c47",
-  "overview_digest": "1ac0dbe0fad378fbc2f78b8791e76e752a7c262c33e9868074ebaf7ee5163bfc",
+  "overview_commit": "3fecc562bd5025eabe979af66f528c4e7604011a",
+  "overview_digest": "30b24849b38ecae1c39f4cca35c32868c20a6aaf0ba5b84ad07a855864a118ff",
   "paragraphs": [
+    {
+      "id": "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Wulc]] technical overview adds reasoning-model training as a distinct extension of the wiki's [[ReinforcementLearning]] material. [[OpenAIo1]] supplies the reported inference-scaling pattern: AIME accuracy rises with both training compute and test-time compute, while raw reasoning traces and implementation details remain hidden. [[DeepSeekR1]] makes the research-to-product distinction explicit: R1-Zero uses [[GroupRelativePolicyOptimization]] and rule-verifiable accuracy and format rewards to induce [[ChainOfThoughtReasoning]] without initial supervised fine-tuning, but the practical R1 pipeline restores cold-start examples, reasoning RL, rejection-sampled reasoning and general-task SFT, language-consistency reward, and broad preference RL to improve readability and usability. [[KimiK15]] reaches similar reasoning behavior through long-chain SFT, a 128K-token RL context, diverse and objectively gradable prompts, critic-free policy optimization, difficulty-aware sampling, and length penalties. [[ReasoningModelDistillation]] adds the deployment path: DeepSeek reports that teacher-generated reasoning lets smaller Qwen models outperform directly RL-trained variants, while Kimi's Long2Short methods compress the reasoning sequence itself. The durable synthesis is conditional rather than a universal pure-RL recipe. Verifiable rewards fit mathematics, code, and constrained formats better than subjective output; removing PPO's critic does not remove rollout cost, sampling dependence, or reward hacking; more reasoning tokens can improve some benchmarks while increasing latency and redundancy; and the reproduced vendor results lack independent replication. Process reward models and MCTS are therefore recorded as unsuccessful in the reported DeepSeek program, not categorically ineffective methods. Eight of sixteen inspected remote figures were retained at their semantic positions to preserve the benchmark, scaling, RLHF, PPO-versus-GRPO, rule-reward, distillation, mirror-descent, and length-control evidence.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ChainOfThoughtReasoning",
+        "DeepSeekR1",
+        "GroupRelativePolicyOptimization",
+        "KimiK15",
+        "OpenAIo1",
+        "ReasoningModelDistillation",
+        "ReinforcementLearning",
+        "Wulc"
+      ]
+    },
     {
       "id": "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
       "primary_topic": "ai-and-technology",
