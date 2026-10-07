@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Life pro tip: a Steam Deck can be a bluetooth speaker](sources/life-pro-tip-a-steam-deck-can-be-a-bluetooth-speaker.md) - A Steam Deck can serve as a Bluetooth audio endpoint for a multi-device listening setup, subject to untested compatibility and capacity limits.
 - [Two-Stack Sliding-Window Aggregation](sources/two-stack-sliding-window-aggregation-orlp-net.md) - A two-stack queue maintains arbitrary associative aggregates with constant-time evaluation, amortized constant-time updates, linear memory, and active-window-only numerical contamination.
 - [国庆随笔](sources/guo-qing-sui-bi-leetao.md) - Leetao reflects on how AI-shortened idea validation made abandonment too easy, then restored creative momentum by radically narrowing memox and shipping the single-purpose VoiceFloat.
 - [日常生活就是一个人的后勤](sources/ri-chang-sheng-huo-jiu-shi-yi-ge-ren-de-hou-qin.md) - 章工把习惯、关系环境与轻重取舍视为个人长期发展的日常后勤，同时其必然化因果判断需要以结构约束、健康差异和偶然性加以限定。
@@ -1094,6 +1095,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [帮你避三个坑](sources/1726845898951721415.md) - 90千帕主张远离有害关系、选择已经行动的伙伴，并以未经限定的“绝不主动帮助”规则保护注意力。
 
 ## Entities
+- [Steam Deck](entities/SteamDeck.md) - Linux gaming device used as a Bluetooth audio receiver and shared playback endpoint.
 - [Leetao](entities/Leetao.md) - Blogger and software creator balancing AI-assisted validation with direct, narrowly scoped building.
 - [memox](entities/Memox.md) - Leetao project revived by deleting about 80% of its code and retaining one core function.
 - [VoiceFloat](entities/VoiceFloat.md) - Single-purpose software that Leetao reports releasing under a deliberate simplicity rule.
@@ -2854,6 +2856,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Bluetooth Audio Routing](concepts/BluetoothAudioRouting.md) - Routing audio from one computing device into another Bluetooth-capable endpoint for consolidated playback.
 - [Sliding-Window Aggregation](concepts/SlidingWindowAggregation.md) - Two-stack maintenance of an ordered window summary without inverse operations, with constant evaluation and amortized constant updates.
 - [Associative Aggregation](concepts/AssociativeAggregation.md) - Typed aggregation model separating input values, combinable state, and finalized output under order-preserving regrouping.
 - [Amortized Analysis](concepts/AmortizedAnalysis.md) - Sequence-level complexity accounting that permits occasional expensive operations while bounding total work per element.

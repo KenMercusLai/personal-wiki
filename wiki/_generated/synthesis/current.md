@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 4afb3fe71485abced91aca715f746e0c9d98b68e
+as_of_overview_commit: f255fb0a56e7c024cbf9d782303a22aa2e44886b
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment grounded mainly in contextual case evidence."
-episode_count: 1068
-source_count: 1068
+episode_count: 1069
+source_count: 1069
 paragraph_count: 775
 topic_count: 9
 ---
