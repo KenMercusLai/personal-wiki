@@ -787,12 +787,13 @@
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02",
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd",
-      "226edb358fea4e9b176f57e2c5e0bbf3efdcdbaea7145b075ca5d6a85addc1fc"
+      "226edb358fea4e9b176f57e2c5e0bbf3efdcdbaea7145b075ca5d6a85addc1fc",
+      "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74"
     ],
-    "paragraph_count": 787
+    "paragraph_count": 788
   },
-  "overview_commit": "74c42eff2861cef90b799ddbe93008ae17db3092",
-  "overview_digest": "7a193982cfb37df51f9e4f3a3d6189981dbabb336a0e98b91324f708858584a2",
+  "overview_commit": "d73dceee0abef0e41041a59cd59b4535a45f1a69",
+  "overview_digest": "16e6fbf09f792317196280d030857d1426a7388d5bc208c94d08ad7fae7cf373",
   "paragraphs": [
     {
       "id": "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
@@ -15901,6 +15902,25 @@
         "BayesianUpdating",
         "ChokepointInvesting",
         "SerenityInvestor"
+      ]
+    },
+    {
+      "id": "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[CiJianDeShanLin]] source expands [[ProductionAgentInfrastructure]] from durable effects, capability boundaries, recovery, and coordination into a joint operating envelope of speed, isolation, elasticity, external verification, and auditability. Its starting changes are machine-speed autonomous actors and probabilistic, long-running, stateful execution: cheap code generation moves complexity into build, test, deployment, and operation, while one agent can fan out into unpredictable work and ask ad-hoc questions that defeat complete precomputation. Fast resource delivery therefore includes system unification, open standards, and introspection; hard infrastructure boundaries contain prompt injection, mistaken action, credential exposure, and lateral damage; storage-compute separation, on-demand execution, snapshots, copy-on-write forks, microVMs, and isolates push down the cost curve among warm speed, fresh isolation, and scale-to-zero. The durable synthesis separates aids for current model limits from structural needs created by shared state, adversarial input, and unknowable future demand. It also adds [[AccountabilityInfrastructure]]: heterogeneous non-model judges and reality anchors can limit correlated self-review failures, while complete traces make residual errors reconstructable and attributable after human per-action review stops scaling. The presentation supplies no benchmarks for its runtime tradeoffs, independent evidence for its market and survey claims, or governance rule for acceptable error; auditability cannot itself decide responsibility or remedy. Thirteen inspected evidence-bearing diagrams were retained at their semantic positions, while the cover, repeated thesis slide, complexity summary, and closing recap were omitted as decorative or duplicative.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AccountabilityInfrastructure",
+        "CiJianDeShanLin",
+        "ProductionAgentInfrastructure"
       ]
     }
   ],

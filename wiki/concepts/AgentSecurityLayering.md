@@ -4,6 +4,7 @@ type: concept
 tags: [ai, agents, security, least-privilege]
 sources:
   - mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li
+  - dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan
 last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
@@ -17,6 +18,8 @@ The source starts from a hostile-control assumption: an agent can read and write
 The proposed stack has three complementary layers. OS, container, systemd, and network controls enforce users, writable paths, executable capabilities, and egress. A trusted runtime holds secrets and injects them only into profile-authorized calls whose destinations, methods, redirects, proxies, private-address access, and binding locations are constrained. The application guard then addresses residual semantics through outbound allowlists, redaction, asynchronous approval, and audit.
 
 This division also controls complexity. Encoding every tool, method, body, header, path, prompt pattern, and intrusion rule inside one guard produces a difficult policy cross-product. The source therefore prefers small, enforceable primitives and least privilege over the appearance of exhaustive application policy.
+
+Ci Jian De Shan Lin supplies the broader infrastructure rationale: the acting subject is now partially trusted, probabilistic, autonomous, and machine-speed, so a system prompt cannot define the security perimeter. Isolation controls the blast radius and can enable greater autonomy; where private data or credentials cannot move to the cloud, the physical trust boundary also constrains execution placement and makes edge-cloud cooperation part of the security architecture.
 
 ## Key Claims
 - Prompt instructions cannot serve as the root security boundary for a model that can be influenced or mistaken.
@@ -33,12 +36,15 @@ This division also controls complexity. Encoding every tool, method, body, heade
 - Secret isolation: [[mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li]] places credentials in a trusted runtime that injects them into an approved tool rather than prompt or Skill context.
 - Scoped authority: [[mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li]] shows an `auth_profile` restricted to Moltbook API URL prefixes, enumerated methods, no redirects or proxy, denied private IPs, and bearer-header injection.
 - Residual guard: [[mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li]] limits application policy to outbound allowlists, redaction, and asynchronous approval plus audit.
+- Autonomous blast radius: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] treats prompt injection, mistaken deletion, and overreach as reasons to place the boundary in infrastructure rather than model compliance.
+- Physical placement: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] argues that data gravity and credentials that cannot move to the cloud can place execution at the edge, while explicitly rejecting an all-agents-on-device conclusion.
 
 ## Counterevidence & Qualifications
-The source is a first-party design note and explicitly does not claim complete defense. Layer assignment is deployment-specific: container and network policy may not express business legitimacy, while application allowlists may still permit harmful actions at an authorized destination. Credential non-disclosure does not prevent abuse of the mediated capability, and a trusted runtime becomes a high-value component whose parsing, redirect, DNS, proxy, logging, and injection behavior needs separate review. The article does not evaluate covert channels, indirect prompt injection, dependency compromise, policy conflicts, or approval fatigue.
+The sources are first-party design arguments and do not establish complete defense. Layer assignment is deployment-specific: container and network policy may not express business legitimacy, while application allowlists may still permit harmful actions at an authorized destination. Credential non-disclosure does not prevent abuse of the mediated capability, and a trusted runtime becomes a high-value component whose parsing, redirect, DNS, proxy, logging, and injection behavior needs separate review. Edge placement can reduce data movement without automatically securing the device, supply chain, local network, or synchronization path. Neither source evaluates covert channels, indirect prompt injection, dependency compromise, policy conflicts, or approval fatigue.
 
 ## What Changed
 - Created a layered agent-security model separating hard capability enforcement, secret-bearing runtime mediation, and residual application guards.
+- Added blast-radius control and physical execution placement as reasons infrastructure—not the model—must own the security boundary.
 
 ## Related Concepts
 - [[SemanticIsolation]] - agent security layering supplies concrete enforcement points for capability and credential semantics.
@@ -47,3 +53,4 @@ The source is a first-party design note and explicitly does not claim complete d
 - [[ProductionAgentInfrastructure]] - layered security bounds long-running agents exposed to hostile inputs and real side effects.
 - [[ModelContextProtocol]] - an MCP server can act as a credential-holding bridge when its authority is independently scoped.
 - [[StartupSecurityDebt]] - delayed boundary and secret design creates costly unsafe dependencies.
+- [[AccountabilityInfrastructure]] - audit evidence records how enforced boundaries and mediated capabilities were actually used.

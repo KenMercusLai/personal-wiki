@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source_key": "dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan",
+  "images": [
+    {
+      "file": "agent-system-shifts.png",
+      "alt": "Two shifts replace human actors with machine-scale agents and deterministic systems with probabilistic long-running stateful execution"
+    },
+    {
+      "file": "verification-industrialization.png",
+      "alt": "Human trust and sampled review give way to exhaustive agent verification and an infrastructure mission of industrializing validation"
+    },
+    {
+      "file": "agent-loop-infrastructure-role.png",
+      "alt": "Agent loop connects an LLM through a harness to knowledge context and infrastructure execution feedback"
+    },
+    {
+      "file": "ideal-agent-reality-gap.png",
+      "alt": "Ideal-agent assumptions map to physical limits and infrastructure responsibilities"
+    },
+    {
+      "file": "three-layers-of-speed.png",
+      "alt": "Infrastructure speed comprises resource delivery, system unification, and open standards plus introspection"
+    },
+    {
+      "file": "infrastructure-enforced-isolation.png",
+      "alt": "Infrastructure-enforced isolation limits an untrusted agent's blast radius and extends the trust boundary to edge execution"
+    },
+    {
+      "file": "unpredictable-agent-load.png",
+      "alt": "Agent fan-out and ad-hoc queries create unpredictable load addressed by decoupled storage, on-demand compute, and automatic materialization"
+    },
+    {
+      "file": "speed-isolation-elasticity-tradeoff.png",
+      "alt": "MicroVMs, snapshots, copy-on-write forks, and V8 isolates push down the tradeoff among speed, isolation, and elasticity"
+    },
+    {
+      "file": "model-limits-vs-world-constraints.png",
+      "alt": "Infrastructure value splits between transitional model limitations and structural constraints of the world"
+    },
+    {
+      "file": "agent-infrastructure-funding-map.png",
+      "alt": "Public agent-infrastructure funding examples arranged across inference, continual learning, RL platforms, harness tooling, and world models"
+    },
+    {
+      "file": "persistent-constraints.png",
+      "alt": "Coordination, hostile-world isolation, and unforeseeable ad-hoc demand remain even for an idealized all-knowing agent"
+    },
+    {
+      "file": "infrastructure-epistemic-anchor.png",
+      "alt": "External validators and physical reality form an epistemic anchor outside the model's own reasoning"
+    },
+    {
+      "file": "accountability-infrastructure.png",
+      "alt": "Heterogeneous validation, reality anchors, and complete auditability turn observability into accountability infrastructure"
+    }
+  ]
+}

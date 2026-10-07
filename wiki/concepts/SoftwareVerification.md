@@ -12,7 +12,8 @@ sources:
   - duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong
   - agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
-last_updated: 2026-09-15
+  - dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
@@ -34,6 +35,8 @@ Software verification also has a behavioral-continuity layer. Verification is ch
 
 For AI coding, verification can act like an "andon cord" that lets the workflow stop itself when generated code fails checks. Trust is therefore layered defense rather than belief in the generator. Lint, tests, E2E checks, logs, code review, and QA each have holes, but together they reduce the chance that a fluent near-miss travels downstream.
 
+Ci Jian De Shan Lin moves the same bottleneck to infrastructure scale. When code generation becomes cheap and agent output volume exceeds human attention, sampled trust gives way to industrialized verification. The verification portfolio must also be heterogeneous: another related model may share the generator's blind spots, whereas compilers, theorem checkers, rules, databases, and real-world feedback provide differently sourced judgment. Complete traces then make residual errors auditable and attributable rather than merely observable.
+
 ## Key Claims
 - AI-generated code should be accompanied by automated tests and self-testing.
 - Unverified code should not be handed to review as if review were the final safety net.
@@ -41,7 +44,7 @@ For AI coding, verification can act like an "andon cord" that lets the workflow 
 - Agent-verifiable tests support a validation-fix loop that can improve iteration quality.
 - Verification pipelines should continue through deployment, monitoring, rollback, and ticket closure, while staying close to each small change in coding-agent workflows.
 - Production-like staging verifies behavior that depends on architecture, data, traffic, monitoring, internet exposure, and operational surprise.
-- Agent verification should combine deterministic gates, probabilistic semantic review, layered human review, human oracle routing, and residual-focused behavior baselines rather than relying on one repeated check.
+- Agent verification should combine deterministic and reality-anchored judges, probabilistic semantic review, layered human review, human oracle routing, residual-focused behavior baselines, and auditable traces rather than relying on one repeated check.
 
 ## Evidence
 - Testing expectation: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] recommends automated tests and self-testing for AI-implemented code.
@@ -62,16 +65,20 @@ For AI coding, verification can act like an "andon cord" that lets the workflow 
 - Test split: [[agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha]] separates human-confirmed core tests from agent-generated snapshot-heavy regression tests.
 - Andon loop: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] describes generate, verify, fix/log as the automatic stop-and-repair loop for AI-generated code.
 - Layered trust: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] uses the Swiss-cheese model to argue that lint, review, unit tests, E2E tests, QA, and human design judgment cover different failure classes.
+- Verification bottleneck: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] argues that cheap machine-scale code generation shifts complexity and delivery capacity into build, test, validation, deployment, and operation.
+- Correlated-review limit: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] warns that model-on-model self-review can pass averages while sharing systematic blind spots and failing in the tail.
+- External judges: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] treats compilers, rules, theorem checkers, databases, and reality feedback as epistemic anchors outside model reasoning.
+- Accountability: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] says high-volume verification needs complete auditability so errors can be proved, attributed, and reviewed after people leave the per-action loop.
 
 ## Counterevidence & Qualifications
-No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, LLM review, staging realism, staged rollout, production monitoring, residual snapshots, and human escalation depends on product risk, language, architecture, available observability, build latency, environment cost, semantic ambiguity, and the cost of false positives or false negatives. Multi-agent verification can harm liveness through retry storms, while snapshot-heavy regression can preserve wrong behavior unless paired with core tests and human judgment. Layered checks reduce risk but do not remove the need for human judgment about architecture, intent, security, and performance.
+No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, LLM review, staging realism, staged rollout, production monitoring, residual snapshots, and human escalation depends on product risk, language, architecture, available observability, build latency, environment cost, semantic ambiguity, and the cost of false positives or false negatives. Multi-agent verification can harm liveness through retry storms, while snapshot-heavy regression can preserve wrong behavior unless paired with core tests and human judgment. “Heterogeneous” judges can still share specifications, training data, or upstream assumptions, and real-world feedback may arrive only after harm. Layered checks and audit trails reduce risk but do not decide acceptable error rates or remove human responsibility for architecture, intent, security, performance, and redress.
 
 ## What Changed
-- Expanded software verification from pre-review tests and self-checks into a full AI-first delivery, observability, and rollback loop.
-- Added the Claude Code source's local compile-test-lint habit loop for agent-generated changes.
-- Added a large-port case where layered CI and E2E testing are the merge boundary for Agent Team output.
-- Added representative staging, code-review execution habits, and Trust Topology's deterministic, probabilistic, and human-oracle verification layers.
-- Added the andon-loop and Swiss-cheese framing for AI coding verification as automatic stop-and-repair plus layered trust.
+- Verification now spans local tests, execution-backed review, realistic staging, deployment gates, monitoring, rollback, and post-deploy confirmation.
+- Agent workflows need cheap deterministic floors, probabilistic semantic review, and human oracle routing rather than repeated versions of one judge.
+- Residual-focused tests and andon loops make behavioral changes visible and stop bad output before it accumulates downstream.
+- Added external non-model judges and reality feedback as epistemic anchors against correlated model-review errors.
+- Added complete auditability as the accountability layer required when agent volume exceeds per-action human review.
 
 ## Related Concepts
 - [[CodeReviewPractice]] - code review can include execution-backed behavioral checks.
@@ -93,3 +100,4 @@ No source defines a universal testing strategy. The appropriate mix of unit test
 - [[DeterministicTesting]] - keeps test output stable enough for reliable residual review.
 - [[SnapshotTesting]] - captures behavior baselines that expose unintended changes.
 - [[BottleneckAwareAICoding]] - verification determines whether faster or parallel agent work can improve delivery throughput.
+- [[AccountabilityInfrastructure]] - preserves verification evidence so autonomous actions and residual failures can be reconstructed and attributed.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 74c42eff2861cef90b799ddbe93008ae17db3092
-summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, emphasizing evidence, boundaries, and human responsibility."
-episode_count: 1089
-source_count: 1089
-paragraph_count: 787
+as_of_overview_commit: d73dceee0abef0e41041a59cd59b4535a45f1a69
+summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, emphasizing evidence, boundaries, and accountability."
+episode_count: 1090
+source_count: 1090
+paragraph_count: 788
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[TaskContingentAICollaboration]] can extend from implementation into idea selection through AI-supported feasibility research and minimum experiments, but [[Leetao]] shows why the human must distinguish market evidence, personal fit, craft learning, and creative motivation before a negative result automatically ends action. [[NovaKwok]] adds an epistemic boundary: AI may remove search and implementation labor while the person retains decomposition, evidence standards, and real-world verification, whereas excessive [[CognitiveOffloading]] can weaken [[MentalModels]], amplify [[AutomationBias]], and leave [[HumanCodeResponsibility]] without enough context to challenge an incomplete or conflicting result.
+- [[ProductionAgentInfrastructure]] must jointly support fast and introspectable resource delivery, infrastructure-enforced isolation, elastic response to unpredictable fan-out and ad-hoc demand, and [[AccountabilityInfrastructure]] grounded in heterogeneous external judges and auditable traces; these needs are strongest where shared state, adversarial input, and unknowable future demand remain even as models improve.
 - [[JeffAtwood]] treats LLM answer retrieval and semantic duplicate mapping as compatible with [[StackOverflow]]’s lookup purpose, while [[PublicKnowledgeCommons]] distinguishes consuming accumulated answers from creating the licensed public contributions, corrections, recognition, and relationships that replenish them; his later claim that coding LLMs depend on that corpus makes contributor stewardship a practical input-renewal duty as well as an ethical one.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit capability, lifecycle, state, reward, feedback, and failure boundaries, plus verifiable evaluation and accountable human judgment.
+Technical outcomes depend on explicit capability, lifecycle, state, reward, feedback, failure, isolation, elasticity, verification, and audit boundaries, plus accountable human judgment.
 
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
@@ -57,7 +57,7 @@ Media form, platform architecture, creator economics, identity, presence, govern
 
 ### Governance and Institutions
 
-Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, technical standards, fair process, and explicit outcomes.
+Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, technical standards, heterogeneous verification, fair process, and explicit outcomes.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].

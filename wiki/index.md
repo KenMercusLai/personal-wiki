@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [当 Agent 走向生产，Infra 面临哪些挑战？](sources/dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan.md) - Ci Jian De Shan Lin argues that production agents shift complexity into industrialized verification and require fast, isolated, elastic, reality-anchored, auditable infrastructure.
 - [Serenity启示录](sources/serenity-qi-shi-lu.md) - 王翼之 interprets an anonymous investor's supply-chain chokepoint method through Bayesian updating while leaving the identity, trade record, and extraordinary return claims unverified.
 - [当 AI 遇上数据管道：Daft，一个多模态时代的数据引擎](sources/dang-ai-yu-shang-shu-ju-guan-dao-daft-yi-ge-duo-mo-tai-shi-dai-de-shu-ju-yin-qing.md) - A practitioner account of Daft's optimizer-visible multimodal operations, streaming memory control, layered lazy I/O, and node-level distributed resource management.
 - [如何设计 Agent：组成、运行环境与生命周期](sources/ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li.md) - Yan Li decomposes agents into context and runtime, then connects state ownership, skill packaging, CoW granularity, session identity, steering, and asynchronous execution into a lifecycle model.
@@ -2204,7 +2205,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cumulus Networks](entities/CumulusNetworks.md) - Supported network target in Ansible's network-automation launch list.
 - [OpenSwitch](entities/OpenSwitch.md) - Supported open networking target in Ansible's network-automation launch list.
 - [Huawei](entities/Huawei.md) - Notable absent vendor from Ansible's initial network-automation support list.
-- [此间的山林](entities/CiJianDeShanLin.md) - Authorial identity synthesizing distributed-systems and verification-topology arguments for multi-agent AI coding.
+- [此间的山林](entities/CiJianDeShanLin.md) - Authorial identity identified in a 2026 presentation as Greptime co-founder and CEO 庄晓舟, connecting distributed coordination, production-agent infrastructure, and accountability.
 - [Kiran](entities/Kiran.md) - Formal-verification researcher presented as applying distributed-consensus, FLP, and Byzantine-fault reasoning to multi-agent software development.
 - [Michael Rothrock](entities/MichaelRothrock.md) - Software engineer presented as the source of the Trust Topology reliability framework for AI-agent coding pipelines.
 - [Above Avalon](entities/AboveAvalon.md) - Independent Apple analysis publication presented as a subscription-supported niche media business, product-strategy voice, and Apple financial-strategy source.
@@ -2896,6 +2897,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Serenity (Investor)](entities/SerenityInvestor.md) - Anonymous investor portrayed in one secondary essay as using supply-chain chokepoint research and dynamic rotation, with identity and performance unverified.
 
 ## Concepts
+- [Accountability Infrastructure](concepts/AccountabilityInfrastructure.md) - Heterogeneous verification, reality anchors, and audit trails that make machine-scale autonomous action reconstructable and attributable.
 - [Multimodal Data Pipelines](concepts/MultimodalDataPipelines.md) - Workflows joining files, media decoding, tensor transformation, inference, and elastic execution under one optimizable plan.
 - [Agent Lifecycle Model](concepts/AgentLifecycleModel.md) - Definition of one persistent agent through session identity, owned context and runtime state, lifecycle operations, and continuously steerable or asynchronous execution.
 - [Experience-Value Modeling](concepts/ExperienceValueModeling.md) - Layered optimization that progresses from heuristic retention protection through causal or correlational loss modeling to shadow-priced unified ranking.

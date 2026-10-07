@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-07] ingest | 当 Agent 走向生产，Infra 面临哪些挑战？
+
+Created [[AccountabilityInfrastructure]] and updated [[CiJianDeShanLin]], [[ProductionAgentInfrastructure]], [[SoftwareVerification]], [[ServiceObservability]], and [[AgentSecurityLayering]] from their complete ordered evidence inventories. Distinguished temporary infrastructure value tied to model limits from structural value tied to coordination, adversarial input, shared state, and unforeseeable demand; added fast, isolated, elastic execution plus heterogeneous verification, external reality anchors, and auditability. Opened all 17 remote images, retained 13 evidence-bearing diagrams under descriptive canonical filenames at their semantic positions, and omitted the cover, repeated thesis slide, complexity summary, and closing recap as decorative or duplicative.
+
 ## [2026-10-07] ingest | 如何设计 Agent：组成、运行环境与生命周期
 
 Created [[AgentLifecycleModel]] and updated [[YanLi]], [[GenerativeAIAgentArchitecture]], and [[SessionScopedMicroVMIsolation]] from their complete ordered evidence inventories. Recorded the context/runtime decomposition, compression-versus-retrieval and instruction-loading choices, explicit ownership of program, configuration, and runtime state, Skill and whole-filesystem CoW portability limits, stateful session identity, and the move beyond turn-only modeling through steering and asynchronous commands. Preserved the source's practitioner scope, the distinction between retrieval recall and precision, external side effects and agent-owned state, execution isolation and semantic safety, and whole-environment versus component-level snapshots. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8772,6 +8776,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] ingest | Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline
 
 Added [[VaneData]], [[Jev]], and [[VoiceAnalyticsPipeline]], and updated [[TextClassification]] from its complete ordered evidence inventory. Recorded the single-Relation CPU/GPU/external-call architecture, typed intent and rating questions, transcript-quality gating, failure-preserving row alignment, SQL field shaping, common-input evaluation, and the distinction between unresolved customer work and review of model conclusions. Preserved the absence of measured scores, throughput, cost, calibration, or production outcomes; the fixed development subset and possible training overlap; the single-utterance and no-speaker-separation limits; transcript privacy risk; and mandatory human review with no automated banking action. Opened and retained both remote diagrams under descriptive canonical filenames at their semantic positions because they show the pipeline boundary, skip path, output contract, request concurrency, response validation, and failure behavior.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-07] lint | Wiki health check
 
