@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2d080e776b2dd62b3c57d3dcec66d8497a3d78b59e7423a5ca17a4a1bb433538",
       "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
       "ec90e97ba7d9489daf84f974dcf316aa96d82672a63c76c84058287ba7b300fe",
       "99011e18cbbdb886714032cb57ae937fd93e4f857d6d68a67c81f471f126f603",
@@ -778,11 +779,33 @@
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02",
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21"
     ],
-    "paragraph_count": 776
+    "paragraph_count": 777
   },
-  "overview_commit": "3f3bad5a482eb800a7a9059c345284d0d7d508b2",
-  "overview_digest": "c61df9a8fe856e4545935d567707188362670f4d66f04270d554665e084efe81",
+  "overview_commit": "925ca5989cd497f5847cc75e58dc91583c399484",
+  "overview_digest": "c0f988f1eec3cc1fe53e8e6c62015ccf4ec05b871d3e72e755f3be8aade56eb5",
   "paragraphs": [
+    {
+      "id": "2d080e776b2dd62b3c57d3dcec66d8497a3d78b59e7423a5ca17a4a1bb433538",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[JeffAtwood]] source adds [[PublicKnowledgeCommons]] as a missing social boundary in the wiki's AI-coding account. Atwood accepts LLM interception of common programming questions and calls semantic duplicate mapping a major benefit aligned with [[StackOverflow]]'s retrieval purpose, but separates using accumulated answers from replenishing the public resource. Small questions, answers, and edits became reusable infrastructure through public contribution and Creative Commons licensing; the same activity also produced recognition, learning, employment, friendship, and gratitude, illustrated by [[BenDumkeVonDerEhe]]'s path from community participation to early company hire and co-presenter. This qualifies [[VibeCoding]] without rejecting it: generated output and private assistance can be useful while failing to create durable public artifacts or reproduce the relationships behind them. The depletion concern remains prospective because the essay supplies no contribution, traffic, community-health, attribution, licensing, or training-data trends; duplicate reduction may lower repetitive moderation work, and model assistance could support later public contributions. Three inspected images were retained in semantic positions: a relationship photograph, a slide crediting contributors with building the Creative Commons resource, and the closing stage message. The decorative author logo was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "BenDumkeVonDerEhe",
+        "JeffAtwood",
+        "PublicKnowledgeCommons",
+        "StackOverflow",
+        "VibeCoding"
+      ]
+    },
     {
       "id": "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
       "primary_topic": "ai-and-technology",

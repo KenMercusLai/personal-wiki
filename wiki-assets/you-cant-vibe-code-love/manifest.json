@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "you-cant-vibe-code-love",
+  "images": [
+    {
+      "file": "jeff-atwood-ben-dumke.jpg",
+      "alt": "Jeff Atwood embraces Ben Dumke-von der Ehe at the WeAreDevelopers World Congress"
+    },
+    {
+      "file": "stack-overflow-contributor-commons-slide.jpg",
+      "alt": "Presentation slide crediting Stack Overflow contributors with building a Creative Commons programming resource"
+    },
+    {
+      "file": "you-cant-vibe-code-love-stage.jpg",
+      "alt": "Jeff Atwood and Ben Dumke-von der Ehe present the closing message that love cannot be vibe coded"
+    }
+  ]
+}

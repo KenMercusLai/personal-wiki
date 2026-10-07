@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You Can't "Vibe Code" Love](sources/you-cant-vibe-code-love.md) - Jeff Atwood welcomes LLM answer retrieval and duplicate mapping while warning that private model conversations may not replenish Stack Overflow's public knowledge commons or human community.
 - [mistermorph 的 Agent 安全开发札记](sources/mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li.md) - A MisterMorph security note assigns hard capability limits to OS and container controls, keeps secrets outside model context through scoped runtime injection, and reserves application guards for allowlists, redaction, approvals, and audit.
 - [Life pro tip: a Steam Deck can be a bluetooth speaker](sources/life-pro-tip-a-steam-deck-can-be-a-bluetooth-speaker.md) - A Steam Deck can serve as a Bluetooth audio endpoint for a multi-device listening setup, subject to untested compatibility and capacity limits.
 - [Two-Stack Sliding-Window Aggregation](sources/two-stack-sliding-window-aggregation-orlp-net.md) - A two-stack queue maintains arbitrary associative aggregates with constant-time evaluation, amortized constant-time updates, linear memory, and active-window-only numerical contamination.
@@ -1096,6 +1097,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [帮你避三个坑](sources/1726845898951721415.md) - 90千帕主张远离有害关系、选择已经行动的伙伴，并以未经限定的“绝不主动帮助”规则保护注意力。
 
 ## Entities
+- [Jeff Atwood](entities/JeffAtwood.md) - Stack Overflow cofounder represented through a qualified defense of LLM lookup and a call to protect contributor-built public knowledge and relationships.
+- [Ben Dumke-von der Ehe](entities/BenDumkeVonDerEhe.md) - Early Stack Overflow community hire whose friendship and career illustrate the human value of public technical participation.
 - [MisterMorph](entities/MisterMorph.md) - AI-agent project using OS-level containment, scoped authentication profiles, runtime credential injection, approvals, redaction, and auditing.
 - [Steam Deck](entities/SteamDeck.md) - Linux gaming device used as a Bluetooth audio receiver and shared playback endpoint.
 - [Leetao](entities/Leetao.md) - Blogger and software creator balancing AI-assisted validation with direct, narrowly scoped building.
@@ -2858,6 +2861,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Public Knowledge Commons](concepts/PublicKnowledgeCommons.md) - Durable openly reusable knowledge whose continued value depends on public contribution, licensing, retrieval, correction, governance, and community maintenance.
 - [Agent Security Layering](concepts/AgentSecurityLayering.md) - Assignment of hard capabilities, credential mediation, and residual content or workflow controls to independently enforceable layers.
 - [Bluetooth Audio Routing](concepts/BluetoothAudioRouting.md) - Routing audio from one computing device into another Bluetooth-capable endpoint for consolidated playback.
 - [Sliding-Window Aggregation](concepts/SlidingWindowAggregation.md) - Two-stack maintenance of an ordered window summary without inverse operations, with constant evaluation and amortized constant updates.

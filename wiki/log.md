@@ -8628,3 +8628,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | You Can't "Vibe Code" Love
+
+Created [[PublicKnowledgeCommons]], [[JeffAtwood]], and [[BenDumkeVonDerEhe]] from Atwood's qualified endorsement of LLM answer retrieval and semantic duplicate mapping alongside his concern that private interactions do not automatically replenish public knowledge or reproduce contributor relationships. Updated [[StackOverflow]] and [[VibeCoding]] from their complete ordered evidence inventories with the distinction between consuming a commons and sustaining it. Opened all four effective remote images; retained the relationship photograph, contributor-credit slide, and closing stage image under descriptive canonical filenames, and omitted the decorative author logo.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

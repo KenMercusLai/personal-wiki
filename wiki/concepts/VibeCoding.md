@@ -11,7 +11,8 @@ sources:
   - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
   - blog-peter-steinberger-shipping-at-inference-speed
   - intention-is-all-you-need
-last_updated: 2026-09-30
+  - you-cant-vibe-code-love
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
@@ -33,8 +34,10 @@ A second expert, low-code-reading case has a different operating shape. [[PeterS
 
 The intention-centered source supplies the broadest interpretation of that bottleneck shift. It argues that sufficiently capable models make the desired outcome, rather than implementation instructions, the primary development interface. The author's reported output and contribution activity make this plausible as one practitioner experience, but the same source concedes that vague, contradictory, and evolving goals still need clarification and that reliability, maintenance, and security preserve a substantial engineering distance between a wish and dependable software.
 
+Atwood then repurposes the phrase beyond implementation quality. LLMs may make programming lookup and duplicate resolution dramatically more efficient, but generation does not reproduce the public contribution, licensing, recognition, learning, employment, friendship, and care that built [[StackOverflow]] as a [[PublicKnowledgeCommons]]. This is not an argument against coding agents; it is a boundary on treating software output as the whole social system from which software knowledge comes.
+
 ## Key Claims
-- Vibe coding's most visible effect is faster product iteration and lower scope cost, but local activity measures such as commits or agent completions do not by themselves establish delivery value.
+- Vibe coding's most visible effect is faster product iteration and lower scope cost, but local activity measures do not establish delivery value and private output does not automatically replenish the public communities and knowledge on which agents depend.
 - Command-line agents can produce a deeper vibe-coding experience than editor-bound AI when they understand and modify whole projects.
 - Planning is useful for existing systems and architecture-sensitive work, but it may happen through an ordinary exploratory conversation rather than a separately restricted mode; prototypes may still benefit from faster implementation-first loops.
 - Small, reviewable iterations and fine-grained natural-language implementation instructions usually beat large uncontrolled generations because they preserve understanding and rollback ability.
@@ -69,14 +72,15 @@ The intention-centered source supplies the broadest interpretation of that bottl
 - Intent as interface: [[intention-is-all-you-need]] argues that LLMs compress requirements, architecture, and implementation enough for desired outcomes to become the visible development surface.
 - Activity signal: [[intention-is-all-you-need]] includes an inspected GitHub calendar showing 711 contributions and denser early-2026 activity after the author's reported shift away from writing code directly; this does not establish delivered value or causality.
 - Engineering boundary: [[intention-is-all-you-need]] explicitly retains clarification, reliability, maintainability, security, and bug prevention as work that a high-level wish does not remove.
+- Social boundary: [[you-cant-vibe-code-love]] welcomes LLM lookup and duplicate mapping while arguing that generated answers do not reproduce public contribution or the relationships formed around [[StackOverflow]].
 
 ## Counterevidence & Qualifications
-The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's, Steinberger's, and the intention-centered author's cases benefit from deep expertise, personal infrastructure, and mostly solo or single-user conditions, so they cannot establish that routine non-review is safe for shared or consequential software. Commit activity, one-shot refactors, and self-reported output lack independent defect, maintenance, security, product-value, and lifecycle measurements. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, clarification, or human responsibility.
+The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's, Steinberger's, and the intention-centered author's cases benefit from deep expertise, personal infrastructure, and mostly solo or single-user conditions, so they cannot establish that routine non-review is safe for shared or consequential software. Commit activity, one-shot refactors, and self-reported output lack independent defect, maintenance, security, product-value, and lifecycle measurements. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Atwood's concern that private LLM use may weaken the public commons is similarly prospective and supplies no contribution, traffic, or training-data trend. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, clarification, community participation, or human responsibility.
 
 ## What Changed
-- Added intention as the highest-level account of the human role after implementation becomes cheap.
-- Added one inspected contribution-calendar activity signal while separating it from product quality and causal productivity.
-- Strengthened the boundary between expressing a desired outcome and delivering reliable, maintainable, secure software.
+- Added a social-system boundary: fast generation and answer retrieval do not reproduce a public knowledge commons or its human relationships.
+- Separated endorsement of LLM lookup and duplicate mapping from evidence that private use sustains future public contribution.
+- Expanded the responsibility boundary from code quality and maintenance to community replenishment and shared knowledge.
 
 ## Related Concepts
 - [[AICodingPractice]] - vibe coding needs disciplined norms for human judgment, review, and maintainability.
@@ -91,3 +95,4 @@ The sources are personal practitioner accounts rather than comparative studies. 
 - [[PersonalSoftware]] - single-user scope can make aggressive vibe coding cheaper while avoiding many public-product obligations.
 - [[BottleneckAwareAICoding]] - parallel agents move rather than eliminate constraints in planning, integration, review, and verification.
 - [[IntentionDrivenSoftware]] - frames desired outcomes as the primary interface for model-mediated software creation.
+- [[PublicKnowledgeCommons]] - public contribution, licensing, and stewardship supply social value that generated output alone does not reproduce.

@@ -2,7 +2,7 @@
 title: "mistermorph 的 Agent 安全开发札记"
 type: source
 tags: [ai, agents, security, least-privilege, secrets]
-date: 2026-10-07
+date: 2026-02-06
 source_file: "/mnt/ken_personal_wiki/Articles/mistermorph 的 Agent 安全开发札记 | 歌词经理.md"
 ---
 
