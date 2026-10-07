@@ -100,6 +100,7 @@
       "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
       "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
       "0f839a4ff8c1409809c7ce3e1fdb8bc74c81638f566be948dff5764622e6c85f",
+      "b12082941e2b4733a3e4efffca0cc4033fe8a42f77bdfec6542d2b0db3306ad0",
       "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
       "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
       "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
@@ -786,10 +787,10 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 784
+    "paragraph_count": 785
   },
-  "overview_commit": "9b229aeaac8198e907861208ca336c054dc097fc",
-  "overview_digest": "9958f61dd147f9a05150087e9cb95a7c8be87f4a0d77ccb65f88a441bcdced7f",
+  "overview_commit": "3fb7ab85f3ec119956806d53c28bc4d85a0e6c47",
+  "overview_digest": "1ac0dbe0fad378fbc2f78b8791e76e752a7c262c33e9868074ebaf7ee5163bfc",
   "paragraphs": [
     {
       "id": "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
@@ -2654,6 +2655,23 @@
       },
       "wikilinks": [
         "MultiChannelAdOptimization",
+        "Wulc"
+      ]
+    },
+    {
+      "id": "b12082941e2b4733a3e4efffca0cc4033fe8a42f77bdfec6542d2b0db3306ad0",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[Wulc]] source adds [[AdloadConstrainedMixedRanking]] as a shared-capacity problem across feed requests. Each request's value is the utility of its mixed recommendation-and-ad list above a no-ad baseline, while its weight is the number of ad exposures; because both depend on the selected placement strategy, the application problem is a dynamic knapsack rather than a collection of independent insertion choices. A greedy value-per-weight cutoff approximates the marginal cost of ad capacity, and request-level beam search maximizes value minus that cutoff times ad count while preserving recommendation and eCPM-ordered ad queues and pruning top-slot and minimum-gap violations. This sharpens [[MixedRankingGovernance]] by separating local ranking invariants and shared adload from cross-format score and controller governance. The design is an architecture, not reproduced performance evidence: greedy selection is not generally knapsack-optimal, the cutoff may misprice displaced requests, organic and commercial utilities require calibration, context-aware prediction can make ordering circular, and stale thresholds need faster refresh or pacing. All ten remote figures were opened and retained because they carry the objective, notation, derivation, threshold geometry, beam-search structure, and final decision rule absent from the prose.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AdloadConstrainedMixedRanking",
+        "MixedRankingGovernance",
         "Wulc"
       ]
     },

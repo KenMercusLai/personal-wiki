@@ -8716,3 +8716,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Adload-Constrained Mix-Ranking Value Maximization
+
+Created [[AdloadConstrainedMixedRanking]] and updated [[MixedRankingGovernance]] from its complete ordered evidence inventory. Modeled aggregate adload as a dynamic knapsack, recorded the value-per-weight cutoff as an approximate capacity price, and captured the order-preserving beam search with top-slot and minimum-gap pruning. Preserved the limits of greedy selection, threshold displacement estimates, utility-scale calibration, context-dependent re-ranking, and stale-threshold pacing. Opened and retained all ten effective remote figures under descriptive canonical filenames because they contain material equations, notation, threshold geometry, search structure, and decision rules not fully repeated in the prose.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 9b229aeaac8198e907861208ca336c054dc097fc
+as_of_overview_commit: 3fb7ab85f3ec119956806d53c28bc4d85a0e6c47
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, emphasizing evidence, boundaries, and human responsibility."
-episode_count: 1081
-source_count: 1081
-paragraph_count: 784
+episode_count: 1082
+source_count: 1082
+paragraph_count: 785
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Media form, platform architecture, creator economics, identity, presence, govern
 
 ### Governance and Institutions
 
-Institutions allocate authority, risk, evidence, access, and accountability through policy, technical standards, fair process, and explicit outcomes.
+Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, technical standards, fair process, and explicit outcomes.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].

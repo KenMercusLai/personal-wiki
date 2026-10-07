@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Adload-Constrained Mix-Ranking Value Maximization](sources/adload-constrained-mix-ranking-value-maximization.md) - Wulc explains a hierarchical dynamic-knapsack and beam-search method for maximizing mixed feed value under aggregate adload, placement, ordering, and pacing constraints.
 - [Multi-Channel Budget Allocation and Bidding](sources/multi-channel-budget-allocation-and-bidding.md) - Wulc separates per-channel bidding from budget allocation and compares shared control, marginal-cost response modeling, and constrained SGD-UCB learning across advertising channels.
 - [随笔——AI 到底是在替你劳动，还是替你思考？](sources/sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao.md) - Nova Kwok distinguishes AI that removes execution friction from AI that displaces problem framing, evidence judgment, verification, and the internal models needed to resist automation bias.
 - [Spec-Driven Development with Spec Kit](sources/spec-driven-development-with-spec-kit.md) - A greenfield bookmark-app case finds that staged, persistent specifications improve agent coordination and resumability but add substantial overhead and do not eliminate behavioral or UI defects.
@@ -2878,6 +2879,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Adload-Constrained Mixed Ranking](concepts/AdloadConstrainedMixedRanking.md) - Hierarchical optimization that prices shared ad capacity at application level and searches order-preserving request layouts under placement constraints.
 - [Multi-Channel Ad Optimization](concepts/MultiChannelAdOptimization.md) - Coordination of bids and budgets across heterogeneous advertising channels under calibration, sparsity, marginal-return, feedback-delay, and campaign-constraint tradeoffs.
 - [Automation Bias](concepts/AutomationBias.md) - Tendency to favor an automated recommendation or apparent coverage over conflicting evidence, including mistaking an unreported condition for proof of absence.
 - [Cognitive Offloading](concepts/CognitiveOffloading.md) - Transfer of memory, search, decomposition, reasoning, or judgment work to external tools, with risks determined by which parts of the epistemic loop remain human-owned.
@@ -3142,7 +3144,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Early Startup Demand Validation](concepts/EarlyStartupDemandValidation.md) - Evidence ladder separating launch attention, qualified intent, signup, activation, retention, payment, and model correction.
 - [Here-and-Now Media](concepts/HereAndNowMedia.md) - Proposed media paradigm in which shared presence, participation, location, immediacy, or mutability become part of content's value.
 - [Score Shading](concepts/ScoreShading.md) - Dynamic mixed-ranking score control that optimizes format utility under load or score-cost constraints.
-- [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform rules that prevent deflation, controller oscillation, and strategic misalignment across competing content formats.
+- [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform and ranking-boundary rules for score stability, shared adload, order preservation, and incentive alignment across competing content formats.
 - [Unsupervised Learning](concepts/UnsupervisedLearning.md) - Learning recurring structure without explicit per-example labels, promising broader data use while retaining interpretation and transfer limits.
 - [Browser Platform Strategy](concepts/BrowserPlatformStrategy.md) - Expanding a browser into a developer, application, distribution, enterprise, identity, and standards platform.
 - [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating company threats or leader-availability shocks through candor, distributed capability, credible priorities, support, and ethical limits.

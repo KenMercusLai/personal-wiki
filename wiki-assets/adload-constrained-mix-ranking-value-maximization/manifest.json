@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_key": "adload-constrained-mix-ranking-value-maximization",
+  "images": [
+    {
+      "file": "problem-formulation.png",
+      "alt": "Problem formulation maximizing advertising and recommendation utility under an application-level monetization-rate cap and request-level placement constraints"
+    },
+    {
+      "file": "notation-table.png",
+      "alt": "Notation table for request utility, exposure counts, monetization rate, dynamic-knapsack value and weight, strategies, and threshold"
+    },
+    {
+      "file": "request-value-and-weight.png",
+      "alt": "Request value defined as utility over the no-ad baseline and request weight defined as the number of ad exposures"
+    },
+    {
+      "file": "dynamic-knapsack-objective.png",
+      "alt": "Dynamic-knapsack objective with request selection, strategy-dependent value and weight, capacity, top-slot, and minimum-gap constraints"
+    },
+    {
+      "file": "application-level-threshold.png",
+      "alt": "Greedy application-level selection of requests above a value-per-weight threshold until knapsack capacity"
+    },
+    {
+      "file": "request-level-value-tradeoff.png",
+      "alt": "Request-level tradeoff between direct value gain and value lost by displacing requests near the application threshold"
+    },
+    {
+      "file": "request-level-optimization.png",
+      "alt": "Request-level derivation of the threshold-penalized objective and final ad-versus-no-ad decision"
+    },
+    {
+      "file": "beam-search-template.jpg",
+      "alt": "Beam-search tree interleaving ranked recommendation and ad queues while pruning invalid nodes and retaining the top beam"
+    },
+    {
+      "file": "exposure-template-search-algorithm.jpg",
+      "alt": "Exposure-template search algorithm expanding recommendation and ad slots, enforcing constraints, and retaining the top beam"
+    },
+    {
+      "file": "final-exposure-selection.jpg",
+      "alt": "Final exposure-template rule selecting the best beam-search candidate only when its value per weight exceeds the threshold"
+    }
+  ]
+}
