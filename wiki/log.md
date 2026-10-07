@@ -8636,3 +8636,11 @@ Created [[PublicKnowledgeCommons]], [[JeffAtwood]], and [[BenDumkeVonDerEhe]] fr
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Scar of Quantization
+
+Created [[QuantizationAwareTraining]] and [[BlockQuantization]] from an INT8 pretraining case where 32 by 32 activation scaling coupled one outlier to 1,024 values, produced structured underflow scars, and allowed training loss to fall while BF16 validation diverged. Recorded the reported recovery with 1 by 32 activation scaling, the selected-tile underflow and SQNR measurements, Hadamard rotation's offline-only status, and the externally sourced causal-attention leakage warning. Opened all three effective remote images and retained the checkpoint animation, scale-granularity comparison, and training-versus-validation loss chart under descriptive canonical filenames at their semantic positions.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

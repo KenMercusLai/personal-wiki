@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "scar-of-quantization",
+  "images": [
+    {
+      "file": "activation-scars-across-checkpoints.gif",
+      "alt": "BF16 and 32 by 32 INT8 activation maps across training checkpoints, showing pale zeroed bands that change but can persist through 50,000 steps"
+    },
+    {
+      "file": "quantization-granularity-comparison.png",
+      "alt": "Activation tile comparing BF16, 32 by 32 INT8, 1 by 32 INT8, and Hadamard-rotated 1 by 32 INT8 quantization around one outlier"
+    },
+    {
+      "file": "training-validation-loss-comparison.png",
+      "alt": "Training and BF16 validation loss for BF16, W8A8 32 by 32, and W8A8 1 by 32 runs from 5,000 to 50,000 steps"
+    }
+  ]
+}

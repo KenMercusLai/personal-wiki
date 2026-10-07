@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Scar of Quantization](sources/scar-of-quantization.md) - An INT8 pretraining case links shared-scale activation outliers to structured underflow and failed validation convergence, then reports recovery with 1 by 32 scaling while leaving Hadamard rotation as an offline candidate.
 - [You Can't "Vibe Code" Love](sources/you-cant-vibe-code-love.md) - Jeff Atwood welcomes LLM answer retrieval and duplicate mapping while warning that private model conversations may not replenish Stack Overflow's public knowledge commons or human community.
 - [mistermorph 的 Agent 安全开发札记](sources/mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li.md) - A MisterMorph security note assigns hard capability limits to OS and container controls, keeps secrets outside model context through scoped runtime injection, and reserves application guards for allowlists, redaction, approvals, and audit.
 - [Life pro tip: a Steam Deck can be a bluetooth speaker](sources/life-pro-tip-a-steam-deck-can-be-a-bluetooth-speaker.md) - A Steam Deck can serve as a Bluetooth audio endpoint for a multi-device listening setup, subject to untested compatibility and capacity limits.
@@ -2861,6 +2862,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Quantization-Aware Training](concepts/QuantizationAwareTraining.md) - Training under simulated low-precision effects whose success must be judged by validation and activation diagnostics, not falling training loss alone.
+- [Block Quantization](concepts/BlockQuantization.md) - Shared-scale tensor representation whose block shape determines outlier coupling, underflow, signal quality, and causal-token risks.
 - [Public Knowledge Commons](concepts/PublicKnowledgeCommons.md) - Durable openly reusable knowledge whose continued value depends on public contribution, licensing, retrieval, correction, governance, and community maintenance.
 - [Agent Security Layering](concepts/AgentSecurityLayering.md) - Assignment of hard capabilities, credential mediation, and residual content or workflow controls to independently enforceable layers.
 - [Bluetooth Audio Routing](concepts/BluetoothAudioRouting.md) - Routing audio from one computing device into another Bluetooth-capable endpoint for consolidated playback.
