@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "251725d625ffc32e299f34f4de3bac3cdb879a10f8bd846325c36fd4419e6b73",
       "2d080e776b2dd62b3c57d3dcec66d8497a3d78b59e7423a5ca17a4a1bb433538",
       "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
       "ec90e97ba7d9489daf84f974dcf316aa96d82672a63c76c84058287ba7b300fe",
@@ -780,11 +781,35 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 778
+    "paragraph_count": 779
   },
-  "overview_commit": "0457e5868c97e58a94ce0e97d6388a61f6a22f67",
-  "overview_digest": "9051c5e6ae095136bec178e18a4fdcea70f5ee512c5cc8f86ca1f7a5db569363",
+  "overview_commit": "165835f9dff6900e6b7b5be227d7fef894421d8d",
+  "overview_digest": "23aa1d4f7f6384d2a75b91e6d2cdc5f203fda89ba8b9b8d46cb25e3db0257dfe",
   "paragraphs": [
+    {
+      "id": "251725d625ffc32e299f34f4de3bac3cdb879a10f8bd846325c36fd4419e6b73",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[Fenx]] source adds [[GanFanShouCe|干饭手册]] as a household-specific product case and [[MobileAppLifecycleEngineering]] as its wider engineering lesson. A Feishu-table MVP for remembering cookable dishes became a five-month, part-time SwiftUI release with image-first cataloging, groups, search, ingredient recognition, AI enhancement, iCloud sync, CKShare, widgets, localization, and purchases; the same breadth makes [[FeatureCreep]] concrete because Fenx calls shipping a success but unmanaged scope, energy use, and old-device performance a failure. The durable technical pattern is that framework automation does not settle business semantics: SwiftData container switches require active write-context ownership; CloudKit offers no trustworthy per-image progress; media paths need thumbnails, asynchronous encoding, and throttled saves; image variants and duplicate profiles need complete persistent state and deterministic resolution; membership, startup, batch-write, widget, and account-change flows need explicit unknown and confirmed states; and StoreKit and CloudKit behavior must be tested on devices and in Sandbox or TestFlight rather than inferred from local configuration. [[InspirationDrivenProductDesign]] captures the complementary creative method: native components provide a usable baseline while spontaneous Figma, shader, card, launch-template, and randomized-layout experiments create distinction and intrinsic reward, but remain difficult to reproduce, coordinate, or bound. The evidence is one creator's retrospective without repository, user, reliability, revenue, accessibility, or comparative model data; the same-day App Review response after an email to Tim Cook is temporal association rather than demonstrated causation. All 40 effective images were opened; seven evidence-bearing journey, MVP, interface, sharing, design-overview, and appeal images were retained at their semantic positions, while decorative, duplicated, fully repeated, and thumbnail-only images were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FeatureCreep",
+        "Fenx",
+        "GanFanShouCe",
+        "InspirationDrivenProductDesign",
+        "MobileAppLifecycleEngineering"
+      ]
+    },
     {
       "id": "2d080e776b2dd62b3c57d3dcec66d8497a3d78b59e7423a5ca17a4a1bb433538",
       "primary_topic": "work-education-and-society",

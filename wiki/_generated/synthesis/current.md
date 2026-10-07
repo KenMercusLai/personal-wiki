@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 0457e5868c97e58a94ce0e97d6388a61f6a22f67
+as_of_overview_commit: 165835f9dff6900e6b7b5be227d7fef894421d8d
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment grounded mainly in contextual case evidence."
-episode_count: 1073
-source_count: 1073
-paragraph_count: 778
+episode_count: 1074
+source_count: 1074
+paragraph_count: 779
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on contextual architecture, explicit capability, lifecycle, state, and failure boundaries, verification, observability, safe change, accountable human judgment, and public knowledge systems.
+Technical outcomes depend on contextual architecture, explicit capability, lifecycle, state, and failure boundaries, verification, observability, safe change, accountable human judgment, and public knowledge systems; the new iOS case shows that framework automation does not remove these duties.
 
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
 
 ### Business and Markets
 
-Durable businesses connect customer learning and demand to retention, economics, operating capability, financing constraints, and platform power.
+Durable businesses connect customer learning and demand to coherent scope, retention, economics, operating capability, financing constraints, and platform power.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].

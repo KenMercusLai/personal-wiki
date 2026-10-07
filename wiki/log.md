@@ -8652,3 +8652,11 @@ Updated [[Firecracker]] from its complete ordered evidence inventory with AgentC
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | #95 制作我的第一款 iOS App: 干饭手册
+
+Created [[Fenx]], [[GanFanShouCe|干饭手册]], [[MobileAppLifecycleEngineering]], and [[InspirationDrivenProductDesign]] from a five-month first-iOS-app retrospective. Recorded the household need and Feishu MVP, image-first product design, unmanaged scope, SwiftData and CloudKit state failures, media and startup performance, StoreKit and entitlement timing, real-environment verification, coding-agent use, and prolonged App Review while preserving the first-person and version-specific evidence boundary. Opened all 40 effective images; retained seven evidence-bearing journey, MVP, product-interface, sharing, design-overview, and review-appeal visuals under descriptive canonical filenames, and omitted decorative, duplicated, fully repeated, or thumbnail-only images.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

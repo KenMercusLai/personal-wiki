@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [#95 制作我的第一款 iOS App: 干饭手册](sources/95-zhi-zuo-wo-de-di-yi-kuan-ios-app-gan-fan-shou-ce.md) - Fenx pairs a visual tour of his first released iOS app with a candid account of unmanaged scope, cloud and media state failures, agent-assisted learning, and App Review delay.
 - [Scar of Quantization](sources/scar-of-quantization.md) - An INT8 pretraining case links shared-scale activation outliers to structured underflow and failed validation convergence, then reports recovery with 1 by 32 scaling while leaving Hadamard rotation as an offline candidate.
 - [You Can't "Vibe Code" Love](sources/you-cant-vibe-code-love.md) - Jeff Atwood welcomes LLM answer retrieval and duplicate mapping while warning that private model conversations may not replenish Stack Overflow's public knowledge commons or human community.
 - [mistermorph 的 Agent 安全开发札记](sources/mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li.md) - A MisterMorph security note assigns hard capability limits to OS and container controls, keeps secrets outside model context through scoped runtime injection, and reserves application guards for allowlists, redaction, approvals, and audit.
@@ -1099,6 +1100,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Seven Years of Firecracker](sources/seven-years-of-firecracker-marcs-blog.md) - Marc Brooker explains Firecracker's per-session AgentCore microVMs, snapshot-cloned Aurora DSQL query processors, shared clean pages, and lifetime-bounded cleanup.
 
 ## Entities
+- [Fenx](entities/Fenx.md) - Independent designer-developer who built 干饭手册 across product, interface, engineering, testing, compliance, and release.
+- [干饭手册](entities/GanFanShouCe.md) - Image-first iOS catalog for recording, organizing, counting, enhancing, synchronizing, and sharing household dishes.
 - [Amazon Bedrock AgentCore](entities/AmazonBedrockAgentCore.md) - AWS agent runtime assigning each session a disposable, resizable Firecracker microVM with explicit external persistence.
 - [Aurora DSQL](entities/AuroraDSQL.md) - AWS serverless relational database using isolated PostgreSQL-derived query processors, snapshot clones, and bounded lifetimes.
 - [Marc Brooker](entities/MarcBrooker.md) - AWS practitioner-author explaining Firecracker's role in agent runtime and serverless database architecture.
@@ -2866,6 +2869,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Mobile App Lifecycle Engineering](concepts/MobileAppLifecycleEngineering.md) - Explicit state, ownership, timing, persistence, entitlement, failure, and recovery design across a mobile app's coupled subsystems.
+- [Inspiration-Driven Product Design](concepts/InspirationDrivenProductDesign.md) - Creative process that layers spontaneous visual exploration over a usable baseline while retaining scope, performance, and coordination boundaries.
 - [Session-Scoped MicroVM Isolation](concepts/SessionScopedMicroVMIsolation.md) - One disposable microVM per interaction session, preserving local continuity while making cross-session persistence explicit.
 - [VM Snapshot Cloning](concepts/VMSnapshotCloning.md) - Repeated restoration of prepared VM state with shared clean pages, private dirty pages, and renewed per-instance uniqueness.
 - [Bounded Lifetime Simplification](concepts/BoundedLifetimeSimplification.md) - Using enforced maximum lifetimes to replace some fine-grained reclamation and reference tracking with safe age bounds.

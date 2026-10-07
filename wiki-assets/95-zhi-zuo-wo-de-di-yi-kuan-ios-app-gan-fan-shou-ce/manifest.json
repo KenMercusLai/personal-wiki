@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "95-zhi-zuo-wo-de-di-yi-kuan-ios-app-gan-fan-shou-ce",
+  "images": [
+    {
+      "file": "meal-journey-map.png",
+      "alt": "The 2022 meal journey map identifies the gap between considering and deciding what to eat"
+    },
+    {
+      "file": "feishu-mvp-statistics.png",
+      "alt": "The Feishu MVP combined dish counts, category summaries, and an ingredient word cloud"
+    },
+    {
+      "file": "home-grid-states.png",
+      "alt": "Home screens show the app's image-first grid, collapsed groups, and search state"
+    },
+    {
+      "file": "image-enhancement-screen.png",
+      "alt": "The image-enhancement screen keeps crop, background removal, AI generation, and version selection together"
+    },
+    {
+      "file": "cloud-sharing-management.png",
+      "alt": "Online sharing management exposes group selection, participant access, and share controls"
+    },
+    {
+      "file": "design-file-overview.png",
+      "alt": "The design file overview shows the breadth of screens and states accumulated across the project"
+    },
+    {
+      "file": "app-review-appeal-email.png",
+      "alt": "The QQ Mail screenshot records the author's June 9 appeal about the prolonged App Review"
+    }
+  ]
+}
