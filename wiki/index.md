@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [入场](sources/ru-chang.md) - Wulc uses literature and television to argue that plural identity is discovered through responsible participation, not fixed labels, cynical withdrawal, inherited status coordinates, or unconnected sensation.
 - [Thank You For Being a Friend](sources/thank-you-for-being-a-friend.md) - Jeff Atwood connects his father's death with gratitude and warns that coding LLMs depend on a public programming corpus whose contributor community must be sustained.
 - [If we do not stop to help each other, what do we become?](sources/if-we-do-not-stop-to-help-each-other-what-do-we-become.md) - A Stack Overflow user's crisis-era account distinguishes receiving an answer from receiving freely offered human care, belonging, and a chance to help later learners.
 - [#95 制作我的第一款 iOS App: 干饭手册](sources/95-zhi-zuo-wo-de-di-yi-kuan-ios-app-gan-fan-shou-ce.md) - Fenx pairs a visual tour of his first released iOS app with a candid account of unmanaged scope, cloud and media state failures, agent-assisted learning, and App Review delay.
@@ -1976,7 +1977,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Anand Sanwal](entities/AnandSanwal.md) - CB Insights founder/CEO voice behind the 54 startup screwups retrospective.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
-- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, data and operations, Python and Unix systems, HTTP browser caching, investing, reading, and practical frameworks.
+- [Wulc](entities/Wulc.md) - Chinese blogger connecting literary and environmental life philosophy with data, operations, software systems, investing, reading, and practical frameworks.
 - [Zhang Xiaoyu](entities/ZhangXiaoyu.md) - Personal-investing course teacher represented here by market-rules guidance for ordinary investors.
 - [John Maynard Keynes](entities/JohnMaynardKeynes.md) - Economist and investor example used to illustrate the limits of macro-driven investing.
 - [Joel Tillinghast](entities/JoelTillinghast.md) - Investor-author cited for company-level "think small" analysis instead of macro fixation.
@@ -2481,7 +2482,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sahil Bloom](entities/SahilBloom.md) - Creator whose Creator Science interview informs the source author's thinking about value, follower quality, consistency, and evergreen content.
 - [Xiaohongshu](entities/Xiaohongshu.md) - Recommendation-driven social platform used as the source's main example of volatile creator metrics.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
-- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, data and operations, software and web-protocol pedagogy, investing, and reading methodology.
+- [Wulc](entities/Wulc.md) - Blogger-author connecting plural identity and participatory living with environmental influence, data and operations, software and web-protocol pedagogy, investing, and reading methodology.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
@@ -2872,6 +2873,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Plural Selfhood](concepts/PluralSelfhood.md) - Identity as multiple, situated, and revisable, with action capable of revealing selves that prior labels concealed.
+- [Participatory Living](concepts/ParticipatoryLiving.md) - Reciprocal movement among reflection, desire, embodied experience, judgment, commitment, responsibility, and revision.
+- [Defensive Cynicism](concepts/DefensiveCynicism.md) - Reductive explanation and anticipatory disbelief used to avoid the vulnerability of hope, action, and possible disappointment.
+- [Socially Scripted Success](concepts/SociallyScriptedSuccess.md) - Externally ranked milestones replacing personal judgment and postponing life to a perpetually moving future threshold.
 - [Mobile App Lifecycle Engineering](concepts/MobileAppLifecycleEngineering.md) - Explicit state, ownership, timing, persistence, entitlement, failure, and recovery design across a mobile app's coupled subsystems.
 - [Inspiration-Driven Product Design](concepts/InspirationDrivenProductDesign.md) - Creative process that layers spontaneous visual exploration over a usable baseline while retaining scope, performance, and coordination boundaries.
 - [Session-Scoped MicroVM Isolation](concepts/SessionScopedMicroVMIsolation.md) - One disposable microVM per interaction session, preserving local continuity while making cross-session persistence explicit.

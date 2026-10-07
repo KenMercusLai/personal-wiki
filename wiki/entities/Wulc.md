@@ -18,18 +18,19 @@ sources:
   - wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo
   - blog-wulc-liu-lan-qi-huan-cun-ji-zhi
   - from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems
-last_updated: 2026-09-28
+  - ru-chang
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, product-operations and mixed-ranking analysis, user-insight methods, introductory Python, operating-system and web-protocol explanation, practical reading methodology, personal-investing education, and synthesis of personal-development frameworks.
+[[Wulc]] is a Chinese blogger represented in the wiki by reflective and literary life philosophy, technical-business synthesis, advertising-data monetization, product-operations and mixed-ranking analysis, user-insight methods, introductory Python, operating-system and web-protocol explanation, practical reading methodology, personal-investing education, and synthesis of personal-development frameworks.
 
 ## Current Profile
-The current source set presents Wulc as a cross-domain explainer who condenses books, courses, talks, and technical mechanisms into practical models while sometimes recording doubts about their reach. In [[chang]], Wulc uses work, family, creativity, and moral psychology to argue that people are shaped by the environments they inhabit. The big-data, advertising, operations, and mixed-ranking notes connect [[DeepLearning]], [[DataMonetization]], [[AudienceTargeting]], [[BehavioralTargeting]], [[DataManagementPlatform]], [[DataDrivenOperations]], and [[ScoreShading]] to business decisions through automation criteria, user labels, funnel diagnosis, experiments, constrained optimization, and mechanism design. The Python, scraping, Linux, and browser-cache notes teach systems concepts through small examples and inspected diagrams, moving from concurrency and process cleanup to HTTP freshness and conditional validation. The speed-reading and investing notes turn courses into selective-reading and ordinary-investor heuristics. The two 《认知红利》 notes add personal-development synthesis across attention, metacognition, knowledge use, problem framing, systems feedback, choice, planning, and innovation. Together they show Wulc's preference for causal maps, layered models, matrices, explicit procedures, and qualified translation of broad frameworks into practical prompts.
+The current source set presents Wulc as a cross-domain explainer who condenses books, courses, talks, and technical mechanisms into practical models while sometimes recording doubts about their reach. In [[chang]], Wulc uses work, family, creativity, and moral psychology to argue that people are shaped by the environments they inhabit. In [[ru-chang]], he reads literature and television against his own experience to connect [[PluralSelfhood]], [[ParticipatoryLiving]], [[DefensiveCynicism]], and [[SociallyScriptedSuccess]]: reflection should orient embodied life without becoming a fixed identity, a reductive excuse to withdraw, or an external status route that postpones experience. The big-data, advertising, operations, and mixed-ranking notes connect [[DeepLearning]], [[DataMonetization]], [[AudienceTargeting]], [[BehavioralTargeting]], [[DataManagementPlatform]], [[DataDrivenOperations]], and [[ScoreShading]] to business decisions through automation criteria, user labels, funnel diagnosis, experiments, constrained optimization, and mechanism design. The Python, scraping, Linux, and browser-cache notes teach systems concepts through small examples and inspected diagrams, moving from concurrency and process cleanup to HTTP freshness and conditional validation. The speed-reading and investing notes turn courses into selective-reading and ordinary-investor heuristics. The two 《认知红利》 notes add personal-development synthesis across attention, metacognition, knowledge use, problem framing, systems feedback, choice, planning, and innovation. Together they show Wulc's preference for causal maps, layered models, matrices, explicit procedures, and qualified translation of broad frameworks into practical prompts.
 
 ## Key Characteristics
-- Uses broad cross-domain analogy to connect work, family, creation, and human nature.
+- Uses broad cross-domain and literary analogy to connect work, family, creation, human nature, plural identity, defensive detachment, borrowed measures of success, and responsible experience.
 - Frames personal growth as environmental discernment rather than pure willpower.
 - Summarizes technical-business arguments into practical criteria, from big-data industry transformation and advertising [[DataMonetization]] to [[DataManagementPlatform]] trading, [[AudienceTargeting]], and mixed-ranking governance.
 - Treats data-informed decision-making as a challenge to unsupported prior experience, a way to improve traffic monetization and operations, and a bounded practice that still requires metric context, experimental discipline, privacy safeguards, and creative judgment.
@@ -39,6 +40,7 @@ The current source set presents Wulc as a cross-domain explainer who condenses b
 
 ## Evidence
 - Cross-domain synthesis: [[chang]] connects workplace incentives, family-of-origin patterns, intimate relationships, creative receptivity, and moral situations under the "field" metaphor.
+- Literary-existential synthesis: [[ru-chang]] uses 《荒原狼》, 《精神与爱欲》, 《东京女子图鉴》, and 《局外人》 to distinguish plural identity and responsible participation from endless analysis, cynical withdrawal, external status coordinates, and uncommitted immediacy.
 - Environmental discernment: [[chang]] repeatedly argues that choosing where to live, whom to live or work with, and what to do is a choice of the field that will shape one's future.
 - Technical-business synthesis: [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]] condenses a Zhihu Live on deep learning and big data into criteria for industry transformation.
 - Evidence-over-experience stance: [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]] closes with the principle that data should outrank prior assumptions in business decisions.
@@ -63,15 +65,19 @@ The current source set presents Wulc as a cross-domain explainer who condenses b
 - Ranking and mechanism design: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] connects bid shading, dual control, competition-distribution modeling, exploration, score anchors, and VCG while warning that independent local controllers can destabilize the platform.
 
 ## Qualifications
-The wiki currently knows Wulc only through fifteen source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles. Several notes summarize other authors, books, courses, or talks; their underlying claims should not automatically be treated as Wulc's original theories or demonstrated results. The operations note partly qualifies the earlier claim that data should outrank experience: measured evidence can diagnose and optimize an existing system, but neither a dashboard nor an A/B test guarantees causal understanding or discontinuous innovation. The second 《认知红利》 note likewise collects many named frameworks without independently validating their psychological, causal, or managerial claims. The 2016 browser-cache article is useful as an introductory request-flow model but overstates several implementation-dependent or protocol-specific rules. The score-shading article is a mathematical architecture proposal whose extracted equations are absent and whose production benefits, distributional assumptions, controller stability, and governance mechanisms are not empirically demonstrated.
+The wiki currently knows Wulc only through sixteen source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles. Several notes summarize other authors, books, courses, talks, novels, or screen works; their underlying claims should not automatically be treated as Wulc's original theories or demonstrated results, and [[ru-chang]] records his literary interpretation rather than an exhaustive or scholarly reading of its cited works. The operations note partly qualifies the earlier claim that data should outrank experience: measured evidence can diagnose and optimize an existing system, but neither a dashboard nor an A/B test guarantees causal understanding or discontinuous innovation. The second 《认知红利》 note likewise collects many named frameworks without independently validating their psychological, causal, or managerial claims. The 2016 browser-cache article is useful as an introductory request-flow model but overstates several implementation-dependent or protocol-specific rules. The score-shading article is a mathematical architecture proposal whose extracted equations are absent and whose production benefits, distributional assumptions, controller stability, and governance mechanisms are not empirically demonstrated.
 
 ## What Changed
-- Extended Wulc's advertising and data profile into mixed-ranking optimization and platform mechanism design.
-- Added the boundary between locally successful controllers and system-wide score stability.
-- Qualified the score-shading framework as a proposal without auditable extracted equations or production evidence.
+- Extended Wulc's reflective profile from environmental influence into plural identity and participation in finite life.
+- Added his contrast among defensive cynicism, socially scripted success, and immediate experience without responsibility.
+- Qualified these claims as personal literary interpretation rather than empirical psychology or definitive criticism.
 
 ## Relationships
 - [[EnvironmentalField]] - Wulc's essay supplies the wiki's central account of field-shaped life.
+- [[PluralSelfhood]] - Wulc argues that conflicting and changing ways of being can remain genuine parts of one person.
+- [[ParticipatoryLiving]] - Wulc frames action and experience as sources of self-knowledge that must remain joined to reflection and responsibility.
+- [[DefensiveCynicism]] - Wulc describes reductive disbelief as a possible defense against hope, disappointment, and commitment.
+- [[SociallyScriptedSuccess]] - Wulc contrasts personally judged direction with externally ranked milestones that defer life.
 - [[WorkEnvironment]] - Wulc analyzes incentives and teams as workplace fields.
 - [[CreativePresence]] - Wulc treats creation as receptivity to a field rather than forceful production.
 - [[BigDataIndustryTransformation]] - Wulc summarizes a three-part criterion for whether big data can reshape an industry.

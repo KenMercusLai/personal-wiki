@@ -8684,3 +8684,11 @@ Updated [[JeffAtwood]] and [[PublicKnowledgeCommons]] with Atwood's argument tha
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | 入场
+
+Updated [[Wulc]] from his complete ordered evidence inventory and created [[PluralSelfhood]], [[ParticipatoryLiving]], [[DefensiveCynicism]], and [[SociallyScriptedSuccess]] from a literary-existential essay about entering finite life without waiting for a fixed identity or ultimate proof. Preserved the distinctions between critical thought and avoidant reduction, goals and inherited status coordinates, present sensation and responsible commitment, and action-based discovery and action for its own sake. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

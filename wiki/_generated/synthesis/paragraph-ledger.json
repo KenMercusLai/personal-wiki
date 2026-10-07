@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
       "eddc973fc335216b4a9d8dbf88b23e3f2bbb8e85861ba3a08a8a6fa09cb3ce3b",
       "388e807dfadc0675224bbaf8289ab0054b14bce3f89fd82559b43b474253e988",
       "251725d625ffc32e299f34f4de3bac3cdb879a10f8bd846325c36fd4419e6b73",
@@ -783,11 +784,27 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 781
+    "paragraph_count": 782
   },
-  "overview_commit": "8fb48e7a1d643f61a507b0ee6fb6b54569198a4d",
-  "overview_digest": "601195eb9180ad2316f16dcf6f192bee76c0eed780a391e6b42ee82767edbf4d",
+  "overview_commit": "996357ec71a7c429e596dddecc1368e0f369b665",
+  "overview_digest": "94292a17aa0b227a11050d05896a5b131ab85478837cbe14258b3d19c25aa5b5",
   "paragraphs": [
+    {
+      "id": "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[Wulc]] essay adds [[ParticipatoryLiving]] as a reciprocal movement among thought, desire, embodied experience, judgment, commitment, and responsibility. Its readings of 《荒原狼》 and 《精神与爱欲》 support [[PluralSelfhood]]: a person can contain conflicting tendencies, and action may reveal possibilities that a fixed identity label had excluded. 《东京女子图鉴》 supplies [[SociallyScriptedSuccess]], where salary, housing, neighborhood, brands, partners, and age-linked milestones provide clear direction but defer life to an always-receding threshold. 《局外人》 supplies the counter-boundary that sensory honesty and present experience do not erase the interpersonal and future consequences of refusing to choose. [[DefensiveCynicism]] names a fourth failure mode in which correct-seeming reduction—love as chemistry or exchange, success as luck and circumstance—becomes a reason to withdraw before hope can be disappointed. The synthesis is not action for its own sake: finite experiences can matter without proving ultimate meaning, but participation remains bounded by consent, consequence, capacity, and responsibility. The evidence is one personal essay's literary and screen interpretation rather than empirical psychology, definitive criticism, or proof that any named experience is universally corrective. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "psychology-and-personal-development": 3
+      },
+      "wikilinks": [
+        "DefensiveCynicism",
+        "ParticipatoryLiving",
+        "PluralSelfhood",
+        "SociallyScriptedSuccess",
+        "Wulc"
+      ]
+    },
     {
       "id": "eddc973fc335216b4a9d8dbf88b23e3f2bbb8e85861ba3a08a8a6fa09cb3ce3b",
       "primary_topic": "ai-and-technology",
