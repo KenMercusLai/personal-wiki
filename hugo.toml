@@ -4,6 +4,10 @@ defaultContentLanguage = 'zh'
 title = 'Ken 的个人知识 Wiki'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
+# Canonical source notes carry the source article's own publication date, which can be
+# ahead of the CI runner's UTC clock (the wiki is maintained in UTC+10). Render them
+# immediately instead of dropping their routes until UTC catches up.
+buildFuture = true
 ignoreFiles = ['(^|/)(wiki/)?(index|log|overview)\\.md$', '(^|/)wiki/_generated/']
 
 [params]
