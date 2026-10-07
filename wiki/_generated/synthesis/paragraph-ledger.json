@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
       "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
       "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
       "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
@@ -793,11 +794,30 @@
       "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0",
       "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106"
     ],
-    "paragraph_count": 791
+    "paragraph_count": 792
   },
-  "overview_commit": "f0ee0b5c498bd6436f70a6efee6fd7e24c003fa2",
-  "overview_digest": "63baea098beac3bb59f9228ac5dd056e031f5824f17c767c803fdd9ef1b17d70",
+  "overview_commit": "b4c450a90204fba590addae6ffcd33ba55a439e5",
+  "overview_digest": "5c47e42a25c468e05755d0c50298de7cc17d1d5b268856c012bb00094c6b63dc",
   "paragraphs": [
+    {
+      "id": "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[CxEric]] source adds [[BullwhipEffect]] as a qualified systems explanation for part of the AI infrastructure boom. Its core distinction is between real transactions and independent evidence: model-company reservations, cloud capital expenditure, GPU and server orders, semiconductor expansion, data-center construction, and power or cooling investment can all produce genuine revenue while remaining linked transformations of one uncertain terminal-demand expectation. Long lead times, incomplete information, shortage buffers, strategic fear of falling behind, and external capital may amplify that signal; slower-than-expected growth can then reverse the chain into inventory reduction, canceled orders, and excess capacity even if final demand remains above its old baseline. This deepens [[SystemsThinking]] by showing how rational local decisions can create unstable aggregate feedback and qualifies [[AIInvestmentTheme]] by making utilization, end-user value, willingness to pay, and capital returns necessary tests alongside upstream financial growth. The article explicitly does not prove an AI bubble and supplies no cross-tier measurements, so the “super bullwhip” remains a prospective hypothesis: later over-preparation in one or more layers would support it, persistent shortage would weaken it, and simultaneous bottlenecks and surpluses would require a more granular account. All nine effective remote images were opened; eight were ChatGPT-generated conceptual illustrations that repeated the prose without independent labels or data, and the final tiny WebP was visually incomplete, so no assets or manifest were retained.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AIInvestmentTheme",
+        "BullwhipEffect",
+        "CxEric",
+        "SystemsThinking"
+      ]
+    },
     {
       "id": "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
       "primary_topic": "ai-and-technology",

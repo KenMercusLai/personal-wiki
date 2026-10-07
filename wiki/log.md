@@ -8820,3 +8820,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | 牛鞭效应与AI热潮
+
+Created [[BullwhipEffect]] and [[CxEric]], and updated [[SystemsThinking]] and [[AIInvestmentTheme]] from their complete ordered evidence inventories. Distinguished real upstream orders from independent terminal-demand evidence; recorded delay, information gaps, forecasts, safety buffers, strategic competition, and external capital as proposed amplification mechanisms; and preserved the AI application as a prospective hypothesis rather than a demonstrated bubble or measured capacity cycle. Opened all nine effective remote images and omitted them: eight ChatGPT-generated conceptual illustrations repeated the prose without independent data or labels, while the final 1.4 KB WebP was visually incomplete, so no asset manifest was created.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

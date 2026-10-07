@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [牛鞭效应与AI热潮](sources/niu-bian-xiao-ying-yu-ai-re-chao.md) - CxEric applies the bullwhip effect to AI capacity investment, separating real but correlated upstream orders from demonstrated terminal demand while preserving the thesis as prospective rather than a bubble verdict.
 - [AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解](sources/ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie.md) - Knock maps production AI systems into nine vertical layers and four cross-cutting controls while leaving tool rankings and performance claims unbenchmarked.
 - [当 Agent 走向生产，Infra 面临哪些挑战？](sources/dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan.md) - Ci Jian De Shan Lin argues that production agents shift complexity into industrialized verification and require fast, isolated, elastic, reality-anchored, auditable infrastructure.
 - [Serenity启示录](sources/serenity-qi-shi-lu.md) - 王翼之 interprets an anonymous investor's supply-chain chokepoint method through Bayesian updating while leaving the identity, trade record, and extraordinary return claims unverified.
@@ -1120,6 +1121,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bigtable 二十年：架构的不变与变](sources/bigtable-er-shi-nian-jia-gou-de-bu-bian-yu-bian.md) - 此间的山林 interprets Bigtable's stable core, asynchronous extension mechanisms, cross-feature risks, offloaded work, and operational evolution over twenty years.
 
 ## Entities
+- [CxEric](entities/CxEric.md) - Writer represented through a qualified systems analogy connecting supply-chain demand amplification to AI infrastructure investment.
 - [Daft](entities/Daft.md) - Python-facing, Rust-backed DataFrame engine designed to expose multimodal operations to query optimization and streaming execution.
 - [OpenAI o1](entities/OpenAIo1.md) - Reasoning model reported to improve with reinforcement-learning compute and additional test-time reasoning.
 - [DeepSeek-R1](entities/DeepSeekR1.md) - Reasoning-model family separating a pure-RL R1-Zero experiment from a cold-start, multi-stage production pipeline.
@@ -2902,6 +2904,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cities: Skylines](entities/CitiesSkylines.md) - City-building game series used to illustrate freeform road authoring, mod-enabled realism, and persistent tight-curve geometry failures.
 
 ## Concepts
+- [Bullwhip Effect](concepts/BullwhipEffect.md) - Amplification and reversal of terminal-demand signals through delayed forecasts, safety buffers, inventory, procurement, and capacity decisions across a supply chain.
 - [AI Infrastructure Stack](concepts/AIInfrastructureStack.md) - Responsibility map spanning compute, models, knowledge, context, orchestration, execution, memory, quality, operations, and cross-cutting governance.
 - [Accountability Infrastructure](concepts/AccountabilityInfrastructure.md) - Heterogeneous verification, reality anchors, and audit trails that make machine-scale autonomous action reconstructable and attributable.
 - [Multimodal Data Pipelines](concepts/MultimodalDataPipelines.md) - Workflows joining files, media decoding, tensor transformation, inference, and elastic execution under one optimizable plan.
