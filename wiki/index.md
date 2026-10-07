@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [User Experience Optimization: From Heuristic Intervention to Unified Value Modeling](sources/user-experience-optimization-from-heuristic-intervention-to-unified-value-modeling.md) - Wulc layers heuristic retention safeguards, experience-effect modeling, and shadow-priced ranking while preserving backfill, proxy, exploration, and control limitations.
 - [Search Relevance: From Modeling to Ranking Mechanism](sources/search-relevance-from-modeling-to-ranking-mechanism.md) - A practitioner synthesis of search-relevance modeling, staged weak-to-human supervision, neural matching tradeoffs, and relevance-constrained advertising control.
 - [Adload-Constrained Mix-Ranking Value Maximization](sources/adload-constrained-mix-ranking-value-maximization.md) - Wulc explains a hierarchical dynamic-knapsack and beam-search method for maximizing mixed feed value under aggregate adload, placement, ordering, and pacing constraints.
 - [Multi-Channel Budget Allocation and Bidding](sources/multi-channel-budget-allocation-and-bidding.md) - Wulc separates per-channel bidding from budget allocation and compares shared control, marginal-cost response modeling, and constrained SGD-UCB learning across advertising channels.
@@ -2884,6 +2885,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Experience-Value Modeling](concepts/ExperienceValueModeling.md) - Layered optimization that progresses from heuristic retention protection through causal or correlational loss modeling to shadow-priced unified ranking.
 - [Search Relevance](concepts/SearchRelevance.md) - Query-intent alignment treated as both a model-estimation problem and a constraint on downstream ranking objectives.
 - [Neural Semantic Matching](concepts/NeuralSemanticMatching.md) - Learned query-document matching through cacheable independent representations or expressive joint token interaction.
 - [Relevance-Constrained Ranking](concepts/RelevanceConstrainedRanking.md) - Value optimization under a relevance target using shadow pricing, replay or feedback control, and qualified value-aware perturbation.

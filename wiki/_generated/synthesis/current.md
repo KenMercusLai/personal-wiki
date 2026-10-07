@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 97410b8c1d57cbdfd26ae2290977c15fc0cb22f2
+as_of_overview_commit: 0e5f075cc2ff650c8c4194e5cf8c6b868483370c
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, emphasizing evidence, boundaries, and human responsibility."
-episode_count: 1084
-source_count: 1084
+episode_count: 1085
+source_count: 1085
 paragraph_count: 786
 topic_count: 9
 ---
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit capability, lifecycle, state, reward, feedback, and failure boundaries; reasoning-model gains likewise require verifiable evaluation, staged usability work, and accountable human judgment.
+Technical outcomes depend on explicit capability, lifecycle, state, reward, feedback, and failure boundaries, plus verifiable evaluation and accountable human judgment.
 
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].

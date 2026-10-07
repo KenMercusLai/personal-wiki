@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-07] ingest | User Experience Optimization: From Heuristic Intervention to Unified Value Modeling
+
+Created [[ExperienceValueModeling]] and updated [[Wulc]], [[MixedRankingGovernance]], and [[RelevanceConstrainedRanking]] from their complete ordered evidence inventories. Recorded the progression from segment-specific retention safeguards through direct-signal and uplift modeling to listwise, shadow-priced ranking; made organic backfill part of exposure opportunity cost; and distinguished short-window LT from customer lifetime value and broader user welfare. Preserved the source's missing formulas, absent production results, sparse delayed labels, proxy-validity risk, costly counterfactual exploration, subgroup blind spots, and untested controller stability. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-07] ingest | If we do not stop to help each other, what do we become?
 
 Updated [[JeffAtwood]], [[StackOverflow]], [[PublicKnowledgeCommons]], and [[ForumCommunityDesign]] from their complete ordered evidence inventories. Recorded an anonymous reader's account of receiving programming help from Stack Overflow strangers while completing college work during the 2013 Zamboanga siege, and distinguished technical answer delivery from the care, time, belonging, and downstream public usefulness communicated by voluntary human assistance. Preserved the single retrospective letter's lack of comparative evidence, the possibility that automated help and human community can coexist, and the distinction between felt support and genuine human care. Opened the sole effective remote image and omitted the decorative Coding Horror author logo, so no asset manifest was created.
@@ -8744,6 +8748,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] ingest | From Bid Shading to Score Shading: Modeling, Control, and Game Dynamics in Mixed Ranking Optimization
 
 Reconciled the supplied article with its existing canonical evidence rather than creating a duplicate source. Renamed the source key to match the current filename, repaired the stale `source_file` path and publication date, and updated all provenance inventories and wikilinks while preserving the existing score-shading, competition-modeling, exploration, and governance synthesis. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-07] lint | Wiki health check
 
