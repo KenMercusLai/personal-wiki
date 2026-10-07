@@ -8756,3 +8756,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline
+
+Added [[VaneData]], [[Jev]], and [[VoiceAnalyticsPipeline]], and updated [[TextClassification]] from its complete ordered evidence inventory. Recorded the single-Relation CPU/GPU/external-call architecture, typed intent and rating questions, transcript-quality gating, failure-preserving row alignment, SQL field shaping, common-input evaluation, and the distinction between unresolved customer work and review of model conclusions. Preserved the absence of measured scores, throughput, cost, calibration, or production outcomes; the fixed development subset and possible training overlap; the single-utterance and no-speaker-separation limits; transcript privacy risk; and mandatory human review with no automated banking action. Opened and retained both remote diagrams under descriptive canonical filenames at their semantic positions because they show the pipeline boundary, skip path, output contract, request concurrency, response validation, and failure behavior.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

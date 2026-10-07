@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "vane-data-jev-building-an-end-to-end-voice-analytics-pipeline",
+  "images": [
+    {
+      "file": "banking-voice-analytics-pipeline.png",
+      "alt": "Banking voice analytics pipeline from Chinese audio through decoding, Whisper transcription, quality checks, Jev judgment, SQL shaping, and reviewable output"
+    },
+    {
+      "file": "jev-call-lifecycle.png",
+      "alt": "Jev call lifecycle from plan registration through concurrent per-row requests to validated response-column writes"
+    }
+  ]
+}

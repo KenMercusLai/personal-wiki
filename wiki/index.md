@@ -1110,6 +1110,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [用 AI 工具快速撰写分享型推文](sources/yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge.md) - Reorx tests a summarize-translate-compress pipeline that saves estimated time while preserving human editorial judgment and writing practice.
 - [Large Language Model Technical Reports Overview](sources/large-language-model-technical-reports-overview.md) - Wulc compares o1, DeepSeek-R1, and Kimi k1.5 through inference-time scaling, RLHF, GRPO, verifiable rewards, multi-stage training, and reasoning distillation.
 
+- [Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline](sources/vane-data-jev-building-an-end-to-end-voice-analytics-pipeline.md) - A banking example composes audio decoding, Whisper, quality gates, typed semantic judgment, SQL shaping, failure-inclusive evaluation, and mandatory human review in one Relation plan.
+
 ## Entities
 - [OpenAI o1](entities/OpenAIo1.md) - Reasoning model reported to improve with reinforcement-learning compute and additional test-time reasoning.
 - [DeepSeek-R1](entities/DeepSeekR1.md) - Reasoning-model family separating a pure-RL R1-Zero experiment from a cold-start, multi-stage production pipeline.
@@ -2884,6 +2886,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pleco](entities/Pleco.md) - Chinese dictionary and language-learning app presented as a long-running independent software business rather than only a product.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
+- [Jev](entities/Jev.md) - External semantic-judgment service represented through typed questions, per-row validated responses, bounded concurrency, and a reviewed decision-support role.
+- [Vane Data](entities/VaneData.md) - Data-processing framework that composes heterogeneous tasks, actors, external judgments, and SQL into a deferred Relation plan while preserving row lineage and failures.
+
 ## Concepts
 - [Experience-Value Modeling](concepts/ExperienceValueModeling.md) - Layered optimization that progresses from heuristic retention protection through causal or correlational loss modeling to shadow-priced unified ranking.
 - [Search Relevance](concepts/SearchRelevance.md) - Query-intent alignment treated as both a model-estimation problem and a constraint on downstream ranking objectives.
@@ -4295,5 +4300,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Design Health Indicators](concepts/DesignHealthIndicators.md) - Paired use of design-team morale and current product quality to infer organizational conditions, direction, and intervention needs.
 - [Indie Software Business](concepts/IndieSoftwareBusiness.md) - Independent product operating model joining software with niche selection, differentiated inputs, pricing, distribution, supplier relationships, and continued investment.
 - [Docker Resource Cleanup](concepts/DockerResourceCleanup.md) - Reference- and order-aware removal of unused Docker containers, images, volumes, and networks.
+
+- [Voice Analytics Pipeline](concepts/VoiceAnalyticsPipeline.md) - Traceable architecture that turns recordings into reviewed business fields through audio preparation, transcription, quality gates, typed judgment, SQL, and failure-inclusive evaluation.
 
 ## Syntheses
