@@ -8732,3 +8732,11 @@ Created [[OpenAIo1]], [[DeepSeekR1]], [[KimiK15]], [[ChainOfThoughtReasoning]], 
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Search Relevance: From Modeling to Ranking Mechanism
+
+Created [[SearchRelevance]], [[NeuralSemanticMatching]], and [[RelevanceConstrainedRanking]] from a practitioner synthesis of query-intent measurement, lexical-to-neural model evolution, weak and human supervision, and constrained search-ad ranking. Distinguished representation-based retrieval from interaction-based reranking, recorded click-label bias and hard-example selection, and separated the full-information global shadow price from PID-like and value-aware online approximations. Opened and retained all five effective remote images under descriptive canonical filenames: the dual-tower and joint-encoder architectures, contrastive training examples, RAG workflow, and value/relevance traffic matrix. Preserved the missing-equation limitation of the supplied Markdown, aggregate-mean blind spots, probability-calibration requirement, and the assumptions needed for traffic-tier perturbation.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

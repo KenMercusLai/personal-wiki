@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Search Relevance: From Modeling to Ranking Mechanism](sources/search-relevance-from-modeling-to-ranking-mechanism.md) - A practitioner synthesis of search-relevance modeling, staged weak-to-human supervision, neural matching tradeoffs, and relevance-constrained advertising control.
 - [Adload-Constrained Mix-Ranking Value Maximization](sources/adload-constrained-mix-ranking-value-maximization.md) - Wulc explains a hierarchical dynamic-knapsack and beam-search method for maximizing mixed feed value under aggregate adload, placement, ordering, and pacing constraints.
 - [Multi-Channel Budget Allocation and Bidding](sources/multi-channel-budget-allocation-and-bidding.md) - Wulc separates per-channel bidding from budget allocation and compares shared control, marginal-cost response modeling, and constrained SGD-UCB learning across advertising channels.
 - [随笔——AI 到底是在替你劳动，还是替你思考？](sources/sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao.md) - Nova Kwok distinguishes AI that removes execution friction from AI that displaces problem framing, evidence judgment, verification, and the internal models needed to resist automation bias.
@@ -2883,6 +2884,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Search Relevance](concepts/SearchRelevance.md) - Query-intent alignment treated as both a model-estimation problem and a constraint on downstream ranking objectives.
+- [Neural Semantic Matching](concepts/NeuralSemanticMatching.md) - Learned query-document matching through cacheable independent representations or expressive joint token interaction.
+- [Relevance-Constrained Ranking](concepts/RelevanceConstrainedRanking.md) - Value optimization under a relevance target using shadow pricing, replay or feedback control, and qualified value-aware perturbation.
 - [Chain-of-Thought Reasoning](concepts/ChainOfThoughtReasoning.md) - Intermediate reasoning that trades additional inference compute for decomposition, checking, correction, and alternate approaches.
 - [Group Relative Policy Optimization](concepts/GroupRelativePolicyOptimization.md) - Critic-free policy optimization using relative rewards across multiple sampled responses to the same prompt.
 - [Reasoning-Model Distillation](concepts/ReasoningModelDistillation.md) - Transfer of stronger-model reasoning behavior into smaller models or shorter correct trajectories.

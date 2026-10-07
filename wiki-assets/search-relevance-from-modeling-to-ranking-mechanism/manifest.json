@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "search-relevance-from-modeling-to-ranking-mechanism",
+  "images": [
+    {
+      "file": "representation-based-relevance.jpg",
+      "alt": "Representation-based relevance model encoding query tokens and document fields separately before scoring their embeddings"
+    },
+    {
+      "file": "interaction-based-relevance.jpg",
+      "alt": "Interaction-based relevance model jointly encoding query and document tokens with BERT before scoring the CLS representation"
+    },
+    {
+      "file": "contrastive-samples.jpg",
+      "alt": "Contrastive relevance examples separating genuinely related food pairs from lexically overlapping but irrelevant pairs"
+    },
+    {
+      "file": "rag-workflow.jpg",
+      "alt": "RAG workflow embedding a query, retrieving top-k documents from a vector index, injecting them into a prompt, and generating an answer"
+    },
+    {
+      "file": "value-relevance-quadrants.jpg",
+      "alt": "Traffic matrix dividing candidates into high and low value crossed with high and low relevance"
+    }
+  ]
+}
