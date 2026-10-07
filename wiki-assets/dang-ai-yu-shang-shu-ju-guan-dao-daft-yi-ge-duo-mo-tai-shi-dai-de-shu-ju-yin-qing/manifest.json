@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "dang-ai-yu-shang-shu-ju-guan-dao-daft-yi-ge-duo-mo-tai-shi-dai-de-shu-ju-yin-qing",
+  "images": [
+    {
+      "file": "daft-python-rust-architecture.png",
+      "alt": "Daft architecture linking the Python API and model layer to the Rust execution engine through zero-copy Arrow FFI"
+    },
+    {
+      "file": "opaque-udf-vs-structured-operation-tree.png",
+      "alt": "Comparison of an opaque Spark or Ray UDF with Daft's filterable download, decode, and resize operation tree"
+    },
+    {
+      "file": "swordfish-streaming-execution.png",
+      "alt": "Swordfish pipeline moving morsels through download, decode, and resize stages with separate I/O and compute runtimes and memory backpressure"
+    },
+    {
+      "file": "three-layer-lazy-io.png",
+      "alt": "Three layers of Daft lazy execution covering DataFrame plans, post-filter scan task materialization, and on-demand file downloads"
+    },
+    {
+      "file": "flotilla-node-resource-management.png",
+      "alt": "Flotilla cluster architecture with one Swordfish worker per node, shared memory and fractional GPUs, Arrow Flight exchange, and NVMe spill"
+    }
+  ]
+}

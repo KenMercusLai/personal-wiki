@@ -8693,6 +8693,10 @@ Updated [[JeffAtwood]] and [[PublicKnowledgeCommons]] with Atwood's argument tha
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-07] ingest | 当 AI 遇上数据管道：Daft，一个多模态时代的数据引擎
+
+Created [[Daft]] and [[MultimodalDataPipelines]] from a practitioner account of optimizer-visible media operations, typed image memory, Swordfish streaming and memory backpressure, three-layer lazy I/O, and Flotilla node-level resource sharing. Preserved the lack of independently reproducible benchmark methodology, simplified competitor comparisons, version-specific thresholds, and conditional zero-copy behavior. Opened and retained all five effective remote architecture diagrams under descriptive canonical filenames because they show runtime boundaries, stage flow, filter placement, backpressure, scan materialization, file-download policy, and cluster resource sharing not fully captured by prose alone.
+
 ## [2026-10-07] ingest | 入场
 
 Updated [[Wulc]] from his complete ordered evidence inventory and created [[PluralSelfhood]], [[ParticipatoryLiving]], [[DefensiveCynicism]], and [[SociallyScriptedSuccess]] from a literary-existential essay about entering finite life without waiting for a fixed identity or ultimate proof. Preserved the distinctions between critical thought and avoidant reduction, goals and inherited status coordinates, present sensation and responsible commitment, and action-based discovery and action for its own sake. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8764,6 +8768,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] ingest | Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline
 
 Added [[VaneData]], [[Jev]], and [[VoiceAnalyticsPipeline]], and updated [[TextClassification]] from its complete ordered evidence inventory. Recorded the single-Relation CPU/GPU/external-call architecture, typed intent and rating questions, transcript-quality gating, failure-preserving row alignment, SQL field shaping, common-input evaluation, and the distinction between unresolved customer work and review of model conclusions. Preserved the absence of measured scores, throughput, cost, calibration, or production outcomes; the fixed development subset and possible training overlap; the single-utterance and no-speaker-separation limits; transcript privacy risk; and mandatory human review with no automated banking action. Opened and retained both remote diagrams under descriptive canonical filenames at their semantic positions because they show the pipeline boundary, skip path, output contract, request concurrency, response validation, and failure behavior.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-07] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [当 AI 遇上数据管道：Daft，一个多模态时代的数据引擎](sources/dang-ai-yu-shang-shu-ju-guan-dao-daft-yi-ge-duo-mo-tai-shi-dai-de-shu-ju-yin-qing.md) - A practitioner account of Daft's optimizer-visible multimodal operations, streaming memory control, layered lazy I/O, and node-level distributed resource management.
 - [如何设计 Agent：组成、运行环境与生命周期](sources/ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li.md) - Yan Li decomposes agents into context and runtime, then connects state ownership, skill packaging, CoW granularity, session identity, steering, and asynchronous execution into a lifecycle model.
 - [User Experience Optimization: From Heuristic Intervention to Unified Value Modeling](sources/user-experience-optimization-from-heuristic-intervention-to-unified-value-modeling.md) - Wulc layers heuristic retention safeguards, experience-effect modeling, and shadow-priced ranking while preserving backfill, proxy, exploration, and control limitations.
 - [Search Relevance: From Modeling to Ranking Mechanism](sources/search-relevance-from-modeling-to-ranking-mechanism.md) - A practitioner synthesis of search-relevance modeling, staged weak-to-human supervision, neural matching tradeoffs, and relevance-constrained advertising control.
@@ -1114,6 +1115,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline](sources/vane-data-jev-building-an-end-to-end-voice-analytics-pipeline.md) - A banking example composes audio decoding, Whisper, quality gates, typed semantic judgment, SQL shaping, failure-inclusive evaluation, and mandatory human review in one Relation plan.
 
 ## Entities
+- [Daft](entities/Daft.md) - Python-facing, Rust-backed DataFrame engine designed to expose multimodal operations to query optimization and streaming execution.
 - [OpenAI o1](entities/OpenAIo1.md) - Reasoning model reported to improve with reinforcement-learning compute and additional test-time reasoning.
 - [DeepSeek-R1](entities/DeepSeekR1.md) - Reasoning-model family separating a pure-RL R1-Zero experiment from a cold-start, multi-stage production pipeline.
 - [Kimi k1.5](entities/KimiK15.md) - Long-context reasoning model combining curated RL prompts, critic-free policy optimization, and Long2Short methods.
@@ -2891,6 +2893,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vane Data](entities/VaneData.md) - Data-processing framework that composes heterogeneous tasks, actors, external judgments, and SQL into a deferred Relation plan while preserving row lineage and failures.
 
 ## Concepts
+- [Multimodal Data Pipelines](concepts/MultimodalDataPipelines.md) - Workflows joining files, media decoding, tensor transformation, inference, and elastic execution under one optimizable plan.
 - [Agent Lifecycle Model](concepts/AgentLifecycleModel.md) - Definition of one persistent agent through session identity, owned context and runtime state, lifecycle operations, and continuously steerable or asynchronous execution.
 - [Experience-Value Modeling](concepts/ExperienceValueModeling.md) - Layered optimization that progresses from heuristic retention protection through causal or correlational loss modeling to shadow-priced unified ranking.
 - [Search Relevance](concepts/SearchRelevance.md) - Query-intent alignment treated as both a model-estimation problem and a constraint on downstream ranking objectives.
