@@ -8605,6 +8605,10 @@ Updated [[TaskContingentAICollaboration]], [[PersonalSoftware]], and [[ActionBia
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-07] ingest | mistermorph 的 Agent 安全开发札记
+
+Created [[AgentSecurityLayering]] and [[MisterMorph]] from a first-party account of OS/container enforcement, model-invisible runtime credential injection, scoped authentication profiles, redaction, asynchronous approvals, and audit. Updated [[Moltbook]] from its complete ordered evidence inventory with a client-side containment pattern while preserving the distinction between restricted credential use and semantically safe action. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-07] ingest | Life pro tip: a Steam Deck can be a bluetooth speaker
 
 Created [[SteamDeck]] and [[BluetoothAudioRouting]] from a reported coworking-space workaround that pairs computers to a Steam Deck, selects it as their speaker, and centralizes final volume control there. Preserved the one-setup evidence boundary and qualified the article's claims of support on any Linux device and no real input limit against missing profile, software, hardware, capacity, latency, and reliability tests. Opened all three effective remote images; retained the evidentiary multi-device desk photograph under a descriptive canonical filename and omitted the empty ad placeholder and decorative character sticker.
@@ -8612,6 +8616,10 @@ Created [[SteamDeck]] and [[BluetoothAudioRouting]] from a reported coworking-sp
 ## [2026-10-07] ingest | Two-Stack Sliding-Window Aggregation
 
 Created [[SlidingWindowAggregation]], [[AssociativeAggregation]], and [[AmortizedAnalysis]] from the article's two-stack queue and typed aggregation interface. Added inverse-free ordered window summaries, constant evaluation, amortized constant updates, linear memory, and active-window-only floating-point contamination while qualifying the method's transfer latency, exact associativity requirement, state-combination cost, and lack of formal or empirical validation. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-07] lint | Wiki health check
 

@@ -572,14 +572,17 @@
       "id": "technical-systems-embed-social-consequences",
       "qualifications": [
         "The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, entertainment artwork, and autonomous transport.",
-        "The autonomous-driving argument is a 2017 forecast, and standardized intention signals or policy could change the predicted legitimacy and coordination failures."
+        "The autonomous-driving argument is a 2017 forecast, and standardized intention signals or policy could change the predicted legitimacy and coordination failures.",
+        "MisterMorph's controls are a first-party design account rather than an independent audit; technical scope cannot determine whether an authorized action is legitimate, and policy complexity, approval fatigue, and enforcement gaps remain."
       ],
-      "statement": "Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, user autonomy, or shared physical space; [[AutonomousDrivingSafety]] shows that socially illegible automation can become either a privileged threat or an exploitable obstacle even when collision avoidance improves.",
+      "statement": "Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, user autonomy, or shared physical space; [[AutonomousDrivingSafety]] shows that socially illegible automation can become either a privileged threat or an exploitable obstacle even when collision avoidance improves. For high-authority agents, [[AgentSecurityLayering]] makes governance enforceable across layers: [[MisterMorph]] places raw capability below the model, credential scope in a trusted runtime, and residual redaction, approval, allowlist, and audit policy in the application, while [[AgentPermissionModel]] still needs human and institutional rules for semantic legitimacy.",
       "status": "qualified",
       "supporting_wikilinks": [
         "WelfareSurveillance",
         "HTTP402PaymentRequired",
         "AgentPermissionModel",
+        "AgentSecurityLayering",
+        "MisterMorph",
         "VolunteerCampaignTechnology",
         "ArtworkPersonalization",
         "AutonomousDrivingSafety"

@@ -951,15 +951,20 @@
       "qualifications": [
         "The detailed OpenClaw account is one secondary architecture analysis rather than a primary code audit, and claims about low resource use, preferred hardware, model-routing savings, and future agent-facing web standards are not benchmarked.",
         "Local deployment and written Skill restrictions do not neutralize prompt injection, credential misuse, duplicate side effects, or misleading self-reported logs; durable event records, capability enforcement, and recovery semantics remain separate requirements.",
-        "Moltbook's reported account counts and autonomous culture are unreliable when registration is weakly verified and ordinary REST clients can post with a key; the reported exposure was time-sensitive and a fix was said to be pending."
+        "Moltbook's reported account counts and autonomous culture are unreliable when registration is weakly verified and ordinary REST clients can post with a key; the reported exposure was time-sensitive and a fix was said to be pending.",
+        "MisterMorph's layered security design is a first-party experience report without a penetration test or policy proof; credential non-disclosure and destination scope still permit harmful authorized actions, and runtime, DNS, redirect, covert-channel, and approval-fatigue risks remain."
       ],
-      "statement": "[[HeadlessAgentArchitecture]] uses existing messaging channels over a persistent runtime: [[OpenClaw]] embeds an agent engine, injects its own tools, records branchable transcripts, flushes memory before compaction, and schedules heartbeat work, while [[Moltbook]] shows that API-first agent ecosystems also need strong identity, provenance, credential, ranking, and safety controls; these mechanisms extend rather than replace [[ProductionAgentInfrastructure]] and runtime-enforced [[LLMToolingSkills]] policy.",
+      "statement": "[[HeadlessAgentArchitecture]] uses existing messaging channels over a persistent runtime: [[OpenClaw]] embeds an agent engine, injects its own tools, records branchable transcripts, flushes memory before compaction, and schedules heartbeat work, while [[Moltbook]] shows that API-first agent ecosystems also need strong identity, provenance, credential, ranking, and safety controls. [[MisterMorph]] makes the control plane more concrete through [[AgentSecurityLayering]]: OS, container, service-manager, and network controls bound raw capability; trusted runtimes keep secrets outside model context and bind injected credentials to destinations and methods; application guards retain redaction, approval, allowlist, and audit semantics. These mechanisms extend rather than replace [[ProductionAgentInfrastructure]], [[SemanticIsolation]], [[AgentPermissionModel]], and runtime-enforced [[LLMToolingSkills]] policy.",
       "status": "qualified",
       "supporting_wikilinks": [
         "HeadlessAgentArchitecture",
         "OpenClaw",
         "Moltbook",
+        "MisterMorph",
+        "AgentSecurityLayering",
         "ProductionAgentInfrastructure",
+        "SemanticIsolation",
+        "AgentPermissionModel",
         "LLMToolingSkills"
       ]
     },

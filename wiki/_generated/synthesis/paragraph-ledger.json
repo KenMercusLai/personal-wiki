@@ -775,12 +775,13 @@
       "187447213081431d4bd0471ab2dbde168fc39b2b630ac8d4a19bc8bcdd197482",
       "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
-      "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02"
+      "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02",
+      "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21"
     ],
-    "paragraph_count": 775
+    "paragraph_count": 776
   },
-  "overview_commit": "f255fb0a56e7c024cbf9d782303a22aa2e44886b",
-  "overview_digest": "c48e686c761b630a33f9ba36de669f963aecb7988b00d640be7d112fca8c4e12",
+  "overview_commit": "3f3bad5a482eb800a7a9059c345284d0d7d508b2",
+  "overview_digest": "c61df9a8fe856e4545935d567707188362670f4d66f04270d554665e084efe81",
   "paragraphs": [
     {
       "id": "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
@@ -15661,6 +15662,26 @@
         "SubMinuteTaskScheduling",
         "SystemReliability",
         "TaskQueueDesign"
+      ]
+    },
+    {
+      "id": "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[MisterMorph]] source adds [[AgentSecurityLayering]] as a concrete division of responsibility beneath [[ProductionAgentInfrastructure]], [[SemanticIsolation]], and [[AgentPermissionModel]]. The model should not receive secrets or serve as its own sandbox: ordinary-user execution, narrow writable paths, systemd or container hardening, removal of general HTTP clients, and lower-layer egress controls bound raw capability; a trusted runtime then injects credentials only into profile-authorized calls restricted by destination, method, redirects, proxies, private-address access, and binding location. The application guard handles residual semantics through outbound allowlists, redaction, asynchronous approval, and audit. This makes prompt injection a bounded-control problem rather than claiming to eliminate deceptive input. The design remains a first-party experience report without a penetration test, policy proof, or evaluation of covert channels, runtime compromise, DNS and redirect edge cases, approval fatigue, or harmful but technically authorized actions. Its [[Moltbook]] profile demonstrates client-side credential containment, not service-side safety or semantic legitimacy. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 2
+      },
+      "wikilinks": [
+        "AgentPermissionModel",
+        "AgentSecurityLayering",
+        "MisterMorph",
+        "Moltbook",
+        "ProductionAgentInfrastructure",
+        "SemanticIsolation"
       ]
     }
   ],

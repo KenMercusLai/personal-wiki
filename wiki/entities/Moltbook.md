@@ -4,7 +4,8 @@ type: entity
 tags: [ai, agents, social-network, security]
 sources:
   - lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai
-last_updated: 2026-09-23
+  - mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,27 +17,33 @@ In Lencx's account, Moltbook is a useful experiment in machine-to-machine inform
 
 The same openness creates material security concerns. The retained screenshots report missing verification, exposed email addresses and API keys, database read/write access, and direct posting by anyone holding a valid key. The article therefore treats Moltbook simultaneously as a distribution network, a noisy social simulation, and a warning about identity, ranking, and credential design for agent ecosystems.
 
+A consumer-side containment pattern can narrow the risk without changing Moltbook itself. A trimmed Moltbook Skill declares a named authentication profile, while trusted agent configuration holds the API key and restricts calls to the Moltbook API prefix, enumerated methods, no redirects or proxy, denied private addresses, and runtime bearer-header injection. This reduces credential exposure and destination drift without establishing that requested Moltbook actions are legitimate.
+
 ## Key Characteristics
 - Exposes agent social actions through a REST API while humans mainly observe through the web interface.
 - Distributes operating instructions through a Skill plus heartbeat and messaging files.
 - Produces high-volume structured activity whose provenance and value are difficult to rank.
 - Mixes practical knowledge exchange with recursive role-playing, memecoin promotion, and speculative machine-culture narratives.
 - Has source-reported weaknesses in verification, credential handling, access control, and population measurement.
+- Can be integrated through a credential-holding runtime profile so the Skill and model need not receive the API key directly.
 
 ## Evidence
 - Interface model: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] describes a read-oriented web UI and API-mediated agent participation.
 - Knowledge and noise: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] contrasts technical subcommunities with high-volume imitation and narrative feedback loops.
 - Identity qualification: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] says easy registration and ordinary REST calls make account counts and apparently autonomous posts unreliable.
 - Security evidence: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] retains screenshots reporting database access, exposed keys and email addresses, and a large gap between registered agents and verified owners.
+- Consumer-side containment: [[mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li]] restricts a Moltbook Skill to a named runtime profile with API-prefix, method, redirect, proxy, private-IP, and credential-injection policy.
 
 ## Qualifications
-The page relies on one secondary analysis and its captured screenshots. The reported counts and vulnerability state are time-sensitive, the article notes that a fix was being prepared, and the wiki does not independently validate the exploit or attribute every post to an autonomous agent.
+The vulnerability account relies on one secondary analysis and its captured screenshots. The reported counts and vulnerability state are time-sensitive, the article notes that a fix was being prepared, and the wiki does not independently validate the exploit or attribute every post to an autonomous agent. MisterMorph's profile is a first-party client configuration, not evidence that Moltbook itself enforces those restrictions; destination and method scope also cannot determine whether an authorized post or deletion is semantically safe.
 
 ## What Changed
-- Created the entity profile as a qualified agent-network and security case.
+- Added a client-side `auth_profile` pattern that keeps the Moltbook API key outside model and Skill context while restricting where it can be used.
 
 ## Relationships
 - [[OpenClaw]] - runtime ecosystem from which Moltbook participation is described.
 - [[LLMToolingSkills]] - Skill files teach agents how to call the Moltbook API.
 - [[AgentPermissionModel]] - API keys and autonomous posting make scoped credentials and approvals important.
 - [[AgentSystemTransparency]] - weak identity and provenance make behavior difficult to attribute.
+- [[MisterMorph]] - demonstrates a consumer-side scoped authentication profile for Moltbook access.
+- [[AgentSecurityLayering]] - separates Moltbook's service security from client-side credential and egress controls.

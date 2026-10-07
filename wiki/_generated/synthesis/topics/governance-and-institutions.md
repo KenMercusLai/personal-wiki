@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-07
-as_of_overview_commit: 4afb3fe71485abced91aca715f746e0c9d98b68e
-input_digest: c9beac8c743feb6d8815bdc76e7b6c9000fedccb71ecdf42be356ecb925cc9e8
+as_of_overview_commit: 3f3bad5a482eb800a7a9059c345284d0d7d508b2
+input_digest: f1fa7ee3edfd7f3e7092c000818e86fa123b60f09fec91a7fbd62cfd2d142342
 ---
 
 # Governance and Institutions
@@ -373,14 +373,15 @@ Platforms and institutions gain power when they become trusted intermediaries fo
 
 ### Technical Systems Embed Social Consequences
 
-Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, user autonomy, or shared physical space; [[AutonomousDrivingSafety]] shows that socially illegible automation can become either a privileged threat or an exploitable obstacle even when collision avoidance improves.
+Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, user autonomy, or shared physical space; [[AutonomousDrivingSafety]] shows that socially illegible automation can become either a privileged threat or an exploitable obstacle even when collision avoidance improves. For high-authority agents, [[AgentSecurityLayering]] makes governance enforceable across layers: [[MisterMorph]] places raw capability below the model, credential scope in a trusted runtime, and residual redaction, approval, allowlist, and audit policy in the application, while [[AgentPermissionModel]] still needs human and institutional rules for semantic legitimacy.
 
-**Evidence:** [[WelfareSurveillance]], [[HTTP402PaymentRequired]], [[AgentPermissionModel]], [[VolunteerCampaignTechnology]], [[ArtworkPersonalization]], [[AutonomousDrivingSafety]]
+**Evidence:** [[WelfareSurveillance]], [[HTTP402PaymentRequired]], [[AgentPermissionModel]], [[AgentSecurityLayering]], [[MisterMorph]], [[VolunteerCampaignTechnology]], [[ArtworkPersonalization]], [[AutonomousDrivingSafety]]
 
 **Qualifications:**
 
 - The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, entertainment artwork, and autonomous transport.
 - The autonomous-driving argument is a 2017 forecast, and standardized intention signals or policy could change the predicted legitimacy and coordination failures.
+- MisterMorph's controls are a first-party design account rather than an independent audit; technical scope cannot determine whether an authorized action is legitimate, and policy complexity, approval fatigue, and enforcement gaps remain.
 
 ### Institutional Information Architecture Is Governance
 
