@@ -5,6 +5,7 @@ tags: [ai, software-engineering, workflow]
 sources:
   - claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian
   - guo-qing-sui-bi-leetao
+  - sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao
 last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
@@ -13,9 +14,9 @@ knowledge_schema: synthesis-v1
 [[TaskContingentAICollaboration]] is the practice of selecting a human-agent interaction mode according to a task's risk, specification clarity, uncertainty, and cost of failure.
 
 ## Current Synthesis
-The sources distinguish modes by both task properties and decision stage. High-stakes critical-path work calls for synchronous collaboration in which the human owns the core reasoning and the agent supplies alternatives and challenges. Clear but laborious execution can be delegated asynchronously inside an explicit scope and checked at completion. Unfamiliar-domain work benefits from a mixed exploratory sequence that moves from a map of the field to detailed questions and then guided practice. At the idea stage, AI can help discuss feasibility, define the smallest informative experiment, and make intermediate states observable.
+The sources distinguish modes by task properties, decision stage, and learning purpose. High-stakes critical-path work calls for synchronous collaboration in which the human owns the core reasoning and the agent supplies alternatives and challenges. Clear but laborious execution can be delegated asynchronously inside an explicit scope and checked at completion. Unfamiliar-domain work benefits from a mixed exploratory sequence that moves from a map of the field to detailed questions and then guided practice. At the idea stage, AI can help discuss feasibility, define the smallest informative experiment, and make intermediate states observable.
 
-The framework becomes operational through bounded experiments. A version-control checkpoint creates a recovery point; an autonomous attempt runs within a defined task; verification decides whether to retain or revert it. Independent agents may specialize on separable objectives, while screenshots can tighten the feedback loop for visual work. Leetao's reflection adds a motivational boundary: rapid validation also lowers the cost of abandonment, and a sequence of defensible negative conclusions can detach thought from hands-on practice. These patterns change the interaction surface but do not transfer final responsibility—or the decision to continue despite incomplete evidence—away from the human.
+The framework becomes operational through bounded experiments. A version-control checkpoint creates a recovery point; an autonomous attempt runs within a defined task; verification decides whether to retain or revert it. Independent agents may specialize on separable objectives, while screenshots can tighten the feedback loop for visual work. Leetao's reflection adds a motivational boundary: rapid validation also lowers the cost of abandonment, and a sequence of defensible negative conclusions can detach thought from hands-on practice. Kwok adds an epistemic boundary: even successful delegation can reduce the context needed to notice a wrong diagnosis or incomplete search, so the human should retain problem decomposition, evidence standards, and consequential acceptance when learning or risk requires them. These patterns change the interaction surface but do not transfer final responsibility—or the decision to continue despite incomplete evidence—away from the human.
 
 ## Key Claims
 - Collaboration intensity should rise with consequence, ambiguity, and architectural coupling.
@@ -24,6 +25,7 @@ The framework becomes operational through bounded experiments. A version-control
 - Reversible checkpoints can turn uncertain agent performance into bounded expected-cost experiments.
 - Specialization and visual feedback can reduce some forms of ambiguity while introducing integration and nonvisual-specification gaps.
 - Fast AI-supported validation should inform commitment without turning every weak or crowded signal into an automatic stop decision.
+- Delegation should preserve human-owned problem framing, coverage checks, and empirical validation when losing those activities would impair judgment or learning.
 
 ## Evidence
 - Mode selection: [[claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian]] maps critical-path work to synchronous collaboration, repetitive execution to asynchronous autonomy, and unfamiliar learning to mixed exploration.
@@ -32,14 +34,17 @@ The framework becomes operational through bounded experiments. A version-control
 - Enabling conditions: [[claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian]] identifies `CLAUDE.md`, version control, and cultural tolerance for failed attempts as prerequisites.
 - Idea-stage loop: [[guo-qing-sui-bi-leetao]] describes discussing an idea with AI, defining a minimum experiment, observing intermediate checkpoints, and closing the loop with results.
 - Abandonment boundary: [[guo-qing-sui-bi-leetao]] reports that repeated negative AI research and experiment results made giving up easier until thinking displaced craft, after which restarting narrowed products restored momentum.
+- Epistemic boundary: [[sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao]] contrasts LLM-assisted research and implementation followed by sensor and track tests with workflows that delegate diagnosis, coverage judgment, and validation.
+- Context-loss risk: [[sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao]] argues that extensive offloading can leave the user less able to detect a conflicting diagnosis or a missing database table.
 
 ## Counterevidence & Qualifications
-The framework rests on practitioner accounts rather than comparative studies. Li Hui's success-rate ranges are undefined and internally inconsistent between scenario and complexity classifications. Leetao supplies no experiment designs or outcomes that would show whether AI's negative conclusions were accurate or whether the revived products found users. Task types also overlap: architecture contains repetitive work, unfamiliar learning can be high risk, and “clear” implementation can hide integration constraints. Retrying may repeat the same failure or discard useful diagnosis, multiple agents impose coordination cost, and screenshots do not encode behavior, accessibility, data, or responsive edge cases. Continuing for craft, personal fit, or exploration can be rational, but it should not be relabeled as validated market demand.
+The framework rests on practitioner accounts rather than comparative studies. Li Hui's success-rate ranges are undefined and internally inconsistent between scenario and complexity classifications. Leetao supplies no experiment designs or outcomes that would show whether AI's negative conclusions were accurate or whether the revived products found users. Kwok's vehicle results are self-reported and his development failure cases are hypothetical; the cited survey is correlational and self-reported rather than causal evidence of skill decline. Task types also overlap: architecture contains repetitive work, unfamiliar learning can be high risk, and “clear” implementation can hide integration constraints. Retrying may repeat the same failure or discard useful diagnosis, multiple agents impose coordination cost, and screenshots do not encode behavior, accessibility, data, or responsive edge cases. Continuing for craft, personal fit, or exploration can be rational, but it should not be relabeled as validated market demand.
 
 ## What Changed
 - Established task risk, clarity, uncertainty, and reversibility as the routing variables for selecting an AI collaboration mode.
 - Added checkpoint-and-retry, agent specialization, and screenshot feedback as qualified implementation patterns.
 - Extended the framework upstream to idea feasibility and minimum experiments while adding premature abandonment as a workflow risk.
+- Added retained context, problem framing, evidence coverage, and real-world validation as routing criteria when delegation could weaken judgment or learning.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - task-contingent routing selects the form and intensity of human-agent coordination.
@@ -49,3 +54,5 @@ The framework rests on practitioner accounts rather than comparative studies. Li
 - [[HumanCodeResponsibility]] - consequential decisions and final acceptance remain human obligations.
 - [[BottleneckAwareAICoding]] - the preferred mode depends partly on whether implementation, review, integration, or learning is limiting progress.
 - [[ActionBiasInAI]] - direct building protects the collaboration loop from becoming analysis without practice.
+- [[CognitiveOffloading]] - explains why apparently successful delegation can reduce later evaluative capacity.
+- [[AutomationBias]] - becomes more likely when the human lacks enough retained context to challenge a polished result.

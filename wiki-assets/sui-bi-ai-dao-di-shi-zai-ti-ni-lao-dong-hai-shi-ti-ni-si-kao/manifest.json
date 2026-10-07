@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao",
+  "images": [
+    {
+      "file": "rear-damping-test-summary.png",
+      "alt": "Rear damping test summary comparing settings 10, 15, and 20 across impact, body-motion, harshness, peak-ratio, and pitch metrics"
+    },
+    {
+      "file": "rear-vertical-acceleration-comparison.png",
+      "alt": "Vertical acceleration curves for rear damping settings 10, 15, and 20 aligned to the rear-axle impact"
+    },
+    {
+      "file": "diy-25hz-gps-prototype.jpg",
+      "alt": "DIY M9N and ESP32 25 Hz GPS prototype displaying live positioning data"
+    },
+    {
+      "file": "shanghai-track-shakedown.jpg",
+      "alt": "Modified Honda Civic during the July 2026 Shanghai Tianma Circuit shakedown"
+    },
+    {
+      "file": "ai-generated-insurance-payment-incident.png",
+      "alt": "V2EX post reporting a 1,620 CNY payment after an AI assistant generated an insurance-payment QR code"
+    },
+    {
+      "file": "execution-versus-problem-framing-tweet.png",
+      "alt": "Tweet arguing that AI is strong at execution but that problem formulation depends on knowledge not guaranteed to appear in training data"
+    }
+  ]
+}

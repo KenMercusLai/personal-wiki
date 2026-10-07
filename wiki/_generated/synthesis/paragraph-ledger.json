@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
       "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
       "eddc973fc335216b4a9d8dbf88b23e3f2bbb8e85861ba3a08a8a6fa09cb3ce3b",
       "388e807dfadc0675224bbaf8289ab0054b14bce3f89fd82559b43b474253e988",
@@ -784,11 +785,31 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 782
+    "paragraph_count": 783
   },
-  "overview_commit": "0cd559f605bf4233f6a4831ffcad3c602c82781c",
-  "overview_digest": "94292a17aa0b227a11050d05896a5b131ab85478837cbe14258b3d19c25aa5b5",
+  "overview_commit": "06c0b70d3f1fa336af109686e7552af11b5c0484",
+  "overview_digest": "e9fd5bcb4950e8de9485958571c4ab1878310a04a18cd1bce4c3e80aadfc6e97",
   "paragraphs": [
+    {
+      "id": "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[NovaKwok]] essay adds an epistemic boundary to the wiki's AI-collaboration material. [[CognitiveOffloading]] is not treated as uniformly harmful: AI can remove search, calculation, coding, and organization labor while the person still decomposes the problem, chooses evidence standards, reads primary material, measures outcomes, and forms the final judgment. Kwok's suspension research, phone-sensor damping comparisons, M9N/ESP32 25 Hz GPS, and July 2026 track shakedown provide the positive case, because model assistance ends in repeatable measurements and real-world faults rather than model confidence. The risk begins when framing, coverage, and validation are also delegated. [[AutomationBias]] then becomes a feedback loop: less retained context makes a wrong diagnosis or omitted database table harder to notice, weak review encourages more deference, and “no evidence found” can silently become “evidence of absence.” This sharpens [[TaskContingentAICollaboration]], [[MentalModels]], and [[HumanCodeResponsibility]] by making learning purpose and evaluative capacity part of the delegation decision. The source remains a reflective practitioner essay; its development examples are personal or hypothetical, the consumer incident is secondhand, the cited knowledge-worker survey is correlational and self-reported, and the vehicle tests do not establish calibrated or generalizable performance. Six evidence-bearing images were retained at their semantic positions; the cover, car portrait, CSR screenshot, and two reaction memes were omitted as decorative or tangential.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AutomationBias",
+        "CognitiveOffloading",
+        "HumanCodeResponsibility",
+        "MentalModels",
+        "NovaKwok",
+        "TaskContingentAICollaboration"
+      ]
+    },
     {
       "id": "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
       "primary_topic": "psychology-and-personal-development",

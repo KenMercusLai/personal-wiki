@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-07
-as_of_overview_commit: 8fb48e7a1d643f61a507b0ee6fb6b54569198a4d
-input_digest: ca2c87ce48c720e05e0698309b48d3dfe7bf56fe923ed9c588067669bb286d35
+as_of_overview_commit: 06c0b70d3f1fa336af109686e7552af11b5c0484
+input_digest: 2877d1f48379c33641921817c2bde64df02b264c9563c9bc6cb0fd717fe29b5a
 ---
 
 # AI and Technology
@@ -1216,14 +1216,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 ### Ai Validation Needs Human Owned Stop Rules
 
-[[TaskContingentAICollaboration]] can extend from implementation into idea selection through AI-supported feasibility research and minimum experiments, but [[Leetao]] shows why the human must distinguish market evidence, personal fit, craft learning, and creative motivation before a negative result automatically ends action.
+[[TaskContingentAICollaboration]] can extend from implementation into idea selection through AI-supported feasibility research and minimum experiments, but [[Leetao]] shows why the human must distinguish market evidence, personal fit, craft learning, and creative motivation before a negative result automatically ends action. [[NovaKwok]] adds an epistemic boundary: AI may remove search and implementation labor while the person retains decomposition, evidence standards, and real-world verification, whereas excessive [[CognitiveOffloading]] can weaken [[MentalModels]], amplify [[AutomationBias]], and leave [[HumanCodeResponsibility]] without enough context to challenge an incomplete or conflicting result.
 
-**Evidence:** [[TaskContingentAICollaboration]], [[Leetao]], [[ActionBiasInAI]], [[PersonalSoftware]], [[ValueBasedProductScoping]], [[Memox]], [[VoiceFloat]]
+**Evidence:** [[TaskContingentAICollaboration]], [[Leetao]], [[ActionBiasInAI]], [[PersonalSoftware]], [[ValueBasedProductScoping]], [[Memox]], [[VoiceFloat]], [[NovaKwok]], [[CognitiveOffloading]], [[MentalModels]], [[AutomationBias]], [[HumanCodeResponsibility]]
 
 **Qualifications:**
 
 - The evidence is one creator retrospective without experiment designs, datasets, user measures, or independent product evidence.
 - Restarting narrowed products restored reported enjoyment, not demonstrated demand, quality, retention, or commercial success; abandoning a weak idea can still be correct.
+- Nova Kwok's added evidence is a reflective practitioner essay whose vehicle work is self-reported, whose development failures are personal or hypothetical, whose consumer incident is secondhand, and whose cited knowledge-worker survey is correlational and self-reported.
 
 ### Associative Window Aggregation Bounds Update Cost And Contamination
 

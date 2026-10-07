@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [随笔——AI 到底是在替你劳动，还是替你思考？](sources/sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao.md) - Nova Kwok distinguishes AI that removes execution friction from AI that displaces problem framing, evidence judgment, verification, and the internal models needed to resist automation bias.
 - [Spec-Driven Development with Spec Kit](sources/spec-driven-development-with-spec-kit.md) - A greenfield bookmark-app case finds that staged, persistent specifications improve agent coordination and resumability but add substantial overhead and do not eliminate behavioral or UI defects.
 - [入场](sources/ru-chang.md) - Wulc uses literature and television to argue that plural identity is discovered through responsible participation, not fixed labels, cynical withdrawal, inherited status coordinates, or unconnected sensation.
 - [Thank You For Being a Friend](sources/thank-you-for-being-a-friend.md) - Jeff Atwood connects his father's death with gratitude and warns that coding LLMs depend on a public programming corpus whose contributor community must be sustained.
@@ -1208,7 +1209,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thomas Stanley](entities/ThomasStanley.md) - Wealth researcher cited for an under-specified association among incentive pay, business ownership, courage, and affluence.
 - [Dan Martell](entities/DanMartell.md) - Entrepreneur cited for defining forcing functions as situational constraints that compel action and results.
 - [Nassim Nicholas Taleb](entities/NassimNicholasTaleb.md) - Risk author cited for skin in the game, consequence-bearing conviction, and critiques of bureaucratic insulation.
-- [Nova Kwok](entities/NovaKwok.md) - Engineer-author represented through a critical reflection on context switching, attention, and self-control.
+- [Nova Kwok](entities/NovaKwok.md) - Engineer-author connecting attention, evidence checking, hands-on technical experimentation, and the cognitive risks of AI-assisted work.
 - [François Chollet](entities/FrancoisChollet.md) - Software practitioner represented through a principle-led account of engineering, API design, technical careers, and ethical responsibility.
 - [Bugsnag](entities/Bugsnag.md) - Application-stability monitoring company represented through its impact-based approach to deciding between feature work and bug repair.
 - [Celestine Omin](entities/CelestineOmin.md) - Technology writer and former e-commerce practitioner advocating SQL-first solutions for legible business workflows.
@@ -2876,6 +2877,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Automation Bias](concepts/AutomationBias.md) - Tendency to favor an automated recommendation or apparent coverage over conflicting evidence, including mistaking an unreported condition for proof of absence.
+- [Cognitive Offloading](concepts/CognitiveOffloading.md) - Transfer of memory, search, decomposition, reasoning, or judgment work to external tools, with risks determined by which parts of the epistemic loop remain human-owned.
 - [Plural Selfhood](concepts/PluralSelfhood.md) - Identity as multiple, situated, and revisable, with action capable of revealing selves that prior labels concealed.
 - [Participatory Living](concepts/ParticipatoryLiving.md) - Reciprocal movement among reflection, desire, embodied experience, judgment, commitment, responsibility, and revision.
 - [Defensive Cynicism](concepts/DefensiveCynicism.md) - Reductive explanation and anticipatory disbelief used to avoid the vulnerability of hope, action, and possible disappointment.

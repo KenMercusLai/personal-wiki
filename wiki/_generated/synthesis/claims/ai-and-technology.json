@@ -1909,9 +1909,10 @@
       "id": "ai-validation-needs-human-owned-stop-rules",
       "qualifications": [
         "The evidence is one creator retrospective without experiment designs, datasets, user measures, or independent product evidence.",
-        "Restarting narrowed products restored reported enjoyment, not demonstrated demand, quality, retention, or commercial success; abandoning a weak idea can still be correct."
+        "Restarting narrowed products restored reported enjoyment, not demonstrated demand, quality, retention, or commercial success; abandoning a weak idea can still be correct.",
+        "Nova Kwok's added evidence is a reflective practitioner essay whose vehicle work is self-reported, whose development failures are personal or hypothetical, whose consumer incident is secondhand, and whose cited knowledge-worker survey is correlational and self-reported."
       ],
-      "statement": "[[TaskContingentAICollaboration]] can extend from implementation into idea selection through AI-supported feasibility research and minimum experiments, but [[Leetao]] shows why the human must distinguish market evidence, personal fit, craft learning, and creative motivation before a negative result automatically ends action.",
+      "statement": "[[TaskContingentAICollaboration]] can extend from implementation into idea selection through AI-supported feasibility research and minimum experiments, but [[Leetao]] shows why the human must distinguish market evidence, personal fit, craft learning, and creative motivation before a negative result automatically ends action. [[NovaKwok]] adds an epistemic boundary: AI may remove search and implementation labor while the person retains decomposition, evidence standards, and real-world verification, whereas excessive [[CognitiveOffloading]] can weaken [[MentalModels]], amplify [[AutomationBias]], and leave [[HumanCodeResponsibility]] without enough context to challenge an incomplete or conflicting result.",
       "status": "qualified",
       "supporting_wikilinks": [
         "TaskContingentAICollaboration",
@@ -1920,7 +1921,12 @@
         "PersonalSoftware",
         "ValueBasedProductScoping",
         "Memox",
-        "VoiceFloat"
+        "VoiceFloat",
+        "NovaKwok",
+        "CognitiveOffloading",
+        "MentalModels",
+        "AutomationBias",
+        "HumanCodeResponsibility"
       ]
     },
     {
