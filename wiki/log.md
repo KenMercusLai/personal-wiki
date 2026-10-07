@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-07] ingest | 如何设计 Agent：组成、运行环境与生命周期
+
+Created [[AgentLifecycleModel]] and updated [[YanLi]], [[GenerativeAIAgentArchitecture]], and [[SessionScopedMicroVMIsolation]] from their complete ordered evidence inventories. Recorded the context/runtime decomposition, compression-versus-retrieval and instruction-loading choices, explicit ownership of program, configuration, and runtime state, Skill and whole-filesystem CoW portability limits, stateful session identity, and the move beyond turn-only modeling through steering and asynchronous commands. Preserved the source's practitioner scope, the distinction between retrieval recall and precision, external side effects and agent-owned state, execution isolation and semantic safety, and whole-environment versus component-level snapshots. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-07] ingest | User Experience Optimization: From Heuristic Intervention to Unified Value Modeling
 
 Created [[ExperienceValueModeling]] and updated [[Wulc]], [[MixedRankingGovernance]], and [[RelevanceConstrainedRanking]] from their complete ordered evidence inventories. Recorded the progression from segment-specific retention safeguards through direct-signal and uplift modeling to listwise, shadow-priced ranking; made organic backfill part of exposure opportunity cost; and distinguished short-window LT from customer lifetime value and broader user welfare. Preserved the source's missing formulas, absent production results, sparse delayed labels, proxy-validity risk, costly counterfactual exploration, subgroup blind spots, and untested controller stability. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8760,6 +8764,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] ingest | Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline
 
 Added [[VaneData]], [[Jev]], and [[VoiceAnalyticsPipeline]], and updated [[TextClassification]] from its complete ordered evidence inventory. Recorded the single-Relation CPU/GPU/external-call architecture, typed intent and rating questions, transcript-quality gating, failure-preserving row alignment, SQL field shaping, common-input evaluation, and the distinction between unresolved customer work and review of model conclusions. Preserved the absence of measured scores, throughput, cost, calibration, or production outcomes; the fixed development subset and possible training overlap; the single-utterance and no-speaker-separation limits; transcript privacy risk; and mandatory human review with no automated banking action. Opened and retained both remote diagrams under descriptive canonical filenames at their semantic positions because they show the pipeline boundary, skip path, output contract, request concurrency, response validation, and failure behavior.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-07] lint | Wiki health check
 

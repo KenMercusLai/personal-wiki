@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何设计 Agent：组成、运行环境与生命周期](sources/ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li.md) - Yan Li decomposes agents into context and runtime, then connects state ownership, skill packaging, CoW granularity, session identity, steering, and asynchronous execution into a lifecycle model.
 - [User Experience Optimization: From Heuristic Intervention to Unified Value Modeling](sources/user-experience-optimization-from-heuristic-intervention-to-unified-value-modeling.md) - Wulc layers heuristic retention safeguards, experience-effect modeling, and shadow-priced ranking while preserving backfill, proxy, exploration, and control limitations.
 - [Search Relevance: From Modeling to Ranking Mechanism](sources/search-relevance-from-modeling-to-ranking-mechanism.md) - A practitioner synthesis of search-relevance modeling, staged weak-to-human supervision, neural matching tradeoffs, and relevance-constrained advertising control.
 - [Adload-Constrained Mix-Ranking Value Maximization](sources/adload-constrained-mix-ranking-value-maximization.md) - Wulc explains a hierarchical dynamic-knapsack and beam-search method for maximizing mixed feed value under aggregate adload, placement, ordering, and pacing constraints.
@@ -1898,7 +1899,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Yash Gandhi](entities/YashGandhi.md) - Quora author arguing that implementation, not the idea, decides whether a startup competing with a funded incumbent succeeds.
 - [Charlie Munger](entities/CharlieMunger.md) - Quoted investor who extends the circle of competence into a life strategy: find your aptitudes and play where you have an edge.
 - [Farnam Street](entities/FarnamStreet.md) - Publication translating investing, decision-making, learning, and writing ideas into portable heuristics while relying mainly on curated and practitioner evidence.
-- [Yan Li](entities/YanLi.md) - Author of a staged history of LLM agent architecture who argues for a general OS layer over protocol-specific tool integrations.
+- [Yan Li](entities/YanLi.md) - Practitioner-writer and PyCon China 2026 speaker who analyzes agent architecture, OS runtimes, state ownership, and lifecycle boundaries.
 - [Chamaileon](entities/Chamaileon.md) - Drag-and-drop email-builder product whose tutorial supplies the wiki's account of email layout, structure, and rendering constraints.
 - [Lob](entities/Lob.md) - Company whose engineering blog published the Understand, Design, Build framework and uses it to mentor new engineers and decentralize decisions while scaling.
 - [Michael Seibel](entities/MichaelSeibel.md) - YC Core CEO and founder-operator behind Twitch and SocialCam, whose AMA defines product-market fit as drowning in demand.
@@ -2890,6 +2891,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vane Data](entities/VaneData.md) - Data-processing framework that composes heterogeneous tasks, actors, external judgments, and SQL into a deferred Relation plan while preserving row lineage and failures.
 
 ## Concepts
+- [Agent Lifecycle Model](concepts/AgentLifecycleModel.md) - Definition of one persistent agent through session identity, owned context and runtime state, lifecycle operations, and continuously steerable or asynchronous execution.
 - [Experience-Value Modeling](concepts/ExperienceValueModeling.md) - Layered optimization that progresses from heuristic retention protection through causal or correlational loss modeling to shadow-priced unified ranking.
 - [Search Relevance](concepts/SearchRelevance.md) - Query-intent alignment treated as both a model-estimation problem and a constraint on downstream ranking objectives.
 - [Neural Semantic Matching](concepts/NeuralSemanticMatching.md) - Learned query-document matching through cacheable independent representations or expressive joint token interaction.

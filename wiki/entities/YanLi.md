@@ -1,47 +1,55 @@
 ---
 title: "Yan Li"
 type: entity
-tags: [writer, ai, agents, blogger]
+tags: [writer, speaker, ai, agents, blogger]
 sources:
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
-last_updated: 2026-09-17
+  - ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[YanLi]] is the author of the blog post "How LLM Agents Became What They Look Like in 2026?", a practitioner essay that reads agent architecture as a staged history and argues for a general operating-system layer over protocol-specific tool integrations.
+[[YanLi]] is a practitioner-writer and PyCon China 2026 speaker whose essays explain the evolution, composition, runtime, state, and lifecycle of LLM agents through operating-system and software-distribution concepts.
 
 ## Current Profile
-The essay presents Li as a practitioner-reasoner rather than a neutral surveyor. It walks a four-stage history - structured output, tool calling, [[ModelContextProtocol]], then bash and filesystem - and, unusually for a review piece, ends each stage on an opinion: MCP "is an over-engineered approach that ultimately failed to become the universal solution", while [[BashAsMetaTool]] is "potentially the only tool an agent needs". The writing pairs a concrete engineering diagnosis with a product-forecast claim. The diagnosis is that intermediate artifacts cannot return to the model in one step, so tool combinations multiply, which is why an [[AgentFilesystem]] is needed. The forecast is that agent-skills, a file-based dynamic-prompt-injection protocol, will be adopted more widely than MCP because it needs no runtime. Li also reasons about training progress as a design variable, expecting separated thinking/output, RL on structured JSON and coding, and larger contexts to make ReAct loops and chain-of-thought prompting less necessary, and closes by listing the deployment constraints that keep agents from being universal.
+Li treats agent architecture as a systems problem rather than a model feature. The earlier essay organizes the field into structured output, tool calling, [[ModelContextProtocol]], and an operating-system stage built from [[BashAsMetaTool]] and [[AgentFilesystem]]. It is explicitly argumentative: MCP is judged too specialized to be universal, while shell and filesystem provide more general execution and artifact handling.
+
+The newer conference-derived essay replaces the historical sequence with a static decomposition: agent equals context plus runtime. History and instructions determine what the model can use; tools and state management determine what it can do and preserve. Li then follows this decomposition into packaging and lifecycle questions. Agent Skills are high-cohesion bundles but lack a standard boundary among code, configuration, and mutable data; whole-sandbox CoW snapshots are portable but coarse; and a stateful session can define one agent even as steering and asynchronous commands make closed turns an incomplete action model.
+
+Across both essays, Li's characteristic move is to accept a mechanism's usefulness and then identify the missing systems boundary: MCP adds a runtime but not a universal integration layer, Skills distribute files but not a complete state policy, and CoW snapshots reproduce environments but not necessarily independently portable components. The proposed direction repeatedly returns to OS precedents such as shells, filesystems, package managers, XDG conventions, isolation, and explicit lifecycle operations.
 
 ## Key Characteristics
-- Writes practitioner essays about LLM agent architecture rather than model benchmarks or vendor documentation.
-- Organizes the field into an explicit four-stage history and labels a next stage.
-- States opinions alongside descriptions, including a negative verdict on MCP's universality.
-- Argues from engineering mechanism, such as artifact round-tripping and tool-combination growth, rather than from product marketing.
-- Treats model training progress as something that can obsolete surrounding workflow scaffolding.
-- Reasons about distribution and adoption, notably the file-based, runtime-free packaging of agent-skills.
-- Frames remaining limits in product terms: latency, reproducibility, privacy and cost, and unmet multimodal demand.
+- Writes practitioner analyses of LLM agent architecture rather than model benchmarks or vendor documentation.
+- Explains agent systems through staged histories and compact decompositions.
+- Uses operating-system primitives and conventions as the main design vocabulary for execution, storage, packaging, and state.
+- Distinguishes descriptive mechanism from opinionated judgments about universality, adoption, and design direction.
+- Traces abstractions to unresolved ownership and granularity boundaries.
+- Treats model progress, steering, and asynchronous execution as forces that can obsolete surrounding scaffolding.
+- Frames agent-platform design as a conflict between operational freedom and manageability.
 
 ## Evidence
-- Staged history: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] structures the essay as Stage 1 structured output, Stage 2 tool calling, Stage 3 MCP, Stage 4 bash/filesystem/OS, and "Stage NEXT".
-- MCP verdict: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] states that MCP is over-engineered and failed to become the universal solution.
-- Meta-tool claim: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] argues bash is potentially the only tool an agent needs.
-- Mechanism over marketing: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] derives the filesystem stage from the fact that intermediate artifacts cannot be returned to the LLM in a single step.
-- Training as design variable: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] expects thinking/output separation and RL for JSON and coding to reduce the need for ReAct and CoT prompting.
-- Adoption reasoning: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] argues agent-skills will spread because it is a self-contained folder requiring no runtime or dependencies.
-- Deployment limits: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] lists latency versus quality, reproducibility, privacy and cost versus quality, and multimodal demand as the outstanding problems.
+- Staged history: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] structures agent development as structured output, tool calling, MCP, bash/filesystem/OS, and a future GUI stage.
+- OS runtime: both [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] and [[ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li]] center shell and filesystem as general execution and storage primitives.
+- Architectural decomposition: [[ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li]] defines agent as context plus runtime and separates history, instructions, execution, and state management.
+- Boundary analysis: [[ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li]] identifies code/configuration/data ambiguity in Skills and component-level limits in whole-filesystem CoW.
+- Lifecycle reasoning: [[ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li]] defines one agent through a stateful session and uses steering plus asynchronous commands to challenge turn-only modeling.
+- Opinionated forecasts: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] predicts wider Skill adoption than MCP, while the newer essay suggests agent platforms may repeat the standardization path of OS distributions.
+- Freedom-management conflict: [[ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li]] argues that collaboration, sharing, and tool isolation inevitably constrain OS-level agent freedom.
 
 ## Qualifications
-This profile rests on a single source and should not be generalized to Li's other writing or to a stable editorial position. The essay is argumentative rather than empirical: its MCP verdict, meta-tool claim, and adoption forecast are stated without adoption data, benchmarks, or comparisons against typed tools on reliability and permissioning.
+The profile rests on two related practitioner essays from 2026, one of them derived from a conference talk. They reveal a coherent architectural perspective but do not establish Li's broader biography, employment, implementation record, or stable position beyond these texts. Strong claims about MCP, Skill adoption, turn replacement, and a repeated OS-standardization path are not supported by comparative benchmarks or adoption data.
 
 ## What Changed
-- Created the entity page for the essay's author and his stage-model argument.
+- Broadened Li's profile from a staged-history author to a systems thinker focused on runtime state and lifecycle.
+- Added the recurring freedom-versus-manageability tension and OS-standardization analogy.
+- Added PyCon China 2026 speaking context from the newer source.
 
 ## Relationships
-- [[LLMAgentStages]] - Li is the author of the staged agent history the wiki now carries.
-- [[BashAsMetaTool]] - his central tooling argument.
-- [[AgentFilesystem]] - his proposed fix for artifact round-tripping.
-- [[AgentDeploymentTradeoffs]] - his closing list of constraints on agent deployment.
-- [[ModelContextProtocol]] - the protocol he argues against as a universal solution.
-- [[LLMToolingSkills]] - the agent-skills distribution argument he makes.
+- [[LLMAgentStages]] - Li authored the staged history synthesized by this concept.
+- [[GenerativeAIAgentArchitecture]] - his newer context/runtime decomposition extends the wiki's architecture model.
+- [[AgentLifecycleModel]] - his session, state-ownership, steering, and asynchronous-execution argument grounds this concept.
+- [[BashAsMetaTool]] - his central general-execution argument.
+- [[AgentFilesystem]] - his general storage substrate for artifacts and agent-owned state.
+- [[LLMToolingSkills]] - his essays frame Skills as dynamic prompt injection and expose their packaging boundary.
+- [[ModelContextProtocol]] - a useful runtime protocol he argues is not a universal state or integration solution.
