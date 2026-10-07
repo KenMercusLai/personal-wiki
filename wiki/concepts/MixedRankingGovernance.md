@@ -3,7 +3,7 @@ title: "Mixed Ranking Governance"
 type: concept
 tags: [ranking-systems, platform-governance, mechanism-design, control-systems]
 sources:
-  - from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems
+  - from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization
   - adload-constrained-mix-ranking-value-maximization
 last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
@@ -29,11 +29,11 @@ For platform-wide control, a global anchor keeps a dominant organic format or ph
 - Cross-format value alignment, threshold calibration, and counterfactual computation are principal barriers to unified ranking governance.
 
 ## Evidence
-- Deflation mechanism: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] traces how one format's lower score lets rivals lower theirs again until the global distribution shifts below fixed thresholds.
-- Control coupling: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] describes one format's volume gain triggering compensatory score increases by another format's PID controller.
-- Anchor proposal: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] proposes an unshaded dominant organic or physically grounded advertising score as the common reference.
-- Incentive proposal: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] presents VCG transfers as the external value lost by displaced participants rather than payment based on the winner's own bid.
-- Implementation boundary: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] identifies repeated counterfactual ranking and incompatible business metrics as production barriers.
+- Deflation mechanism: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] traces how one format's lower score lets rivals lower theirs again until the global distribution shifts below fixed thresholds.
+- Control coupling: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] describes one format's volume gain triggering compensatory score increases by another format's PID controller.
+- Anchor proposal: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] proposes an unshaded dominant organic or physically grounded advertising score as the common reference.
+- Incentive proposal: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] presents VCG transfers as the external value lost by displaced participants rather than payment based on the winner's own bid.
+- Implementation boundary: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] identifies repeated counterfactual ranking and incompatible business metrics as production barriers.
 - Shared-capacity externality: [[adload-constrained-mix-ranking-value-maximization]] models application adload as a dynamic knapsack and uses the value-per-weight cutoff to approximate the value displaced by another ad exposure.
 - Ranking invariants: [[adload-constrained-mix-ranking-value-maximization]] preserves the internal recommendation and eCPM-ordered ad queues during beam search to avoid invalidating upstream ranking and charging assumptions.
 - Operational boundary: [[adload-constrained-mix-ranking-value-maximization]] notes that stale thresholds can overfill or underfill adload and proposes faster refresh or pacing without supplying a stability result.

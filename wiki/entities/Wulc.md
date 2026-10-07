@@ -17,7 +17,7 @@ sources:
   - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji
   - wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo
   - blog-wulc-liu-lan-qi-huan-cun-ji-zhi
-  - from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems
+  - from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization
   - ru-chang
   - multi-channel-budget-allocation-and-bidding
 last_updated: 2026-10-07
@@ -63,7 +63,7 @@ The current source set presents Wulc as a cross-domain explainer who condenses b
 - Method synthesis: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji]] links emotional self-observation, external knowledge systems, focused work, gap-based problem definition, causal and structural reasoning, systems loops, deliberate choice, planning, evolution, and innovation.
 - Practical structure: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji]] repeatedly turns broad themes into staged procedures, including awareness-understanding-conversion, desired-versus-current state analysis, plan difficulty levels, and recombination or modification methods for innovation.
 - Operational analytics: [[wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo]] connects goal-aligned funnels, multidimensional diagnosis, and layered A/B testing while warning that metrics need product context and cannot originate every discontinuous innovation.
-- Ranking and mechanism design: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] connects bid shading, dual control, competition-distribution modeling, exploration, score anchors, and VCG while warning that independent local controllers can destabilize the platform.
+- Ranking and mechanism design: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] connects bid shading, dual control, competition-distribution modeling, exploration, score anchors, and VCG while warning that independent local controllers can destabilize the platform.
 - Multi-channel allocation: [[multi-channel-budget-allocation-and-bidding]] separates bid control from budget control, compares independent and shared channel architectures, derives a concave cost-to-conversion allocation model, and summarizes constrained SGD-UCB learning across platforms.
 
 ## Qualifications

@@ -8,7 +8,7 @@ sources:
   - blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi
   - a-comprehensive-guide-to-digital-marketing-and-analytics
   - doc-searls-brands-need-to-fire-adtech
-  - from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems
+  - from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -41,7 +41,7 @@ The sources position programmatic advertising as infrastructure joining automate
 - Platform roles: [[a-comprehensive-guide-to-digital-marketing-and-analytics]] and its inspected ecosystem diagram place trading desks and DSPs on the demand side, SSPs on the supply side, and private or real-time exchanges between them.
 - Brand-safety mechanism: [[doc-searls-brands-need-to-fire-adtech]] argues that systems chasing targetable people toward cheap inventory can place brands beside objectionable content.
 - Objective boundary: [[doc-searls-brands-need-to-fire-adtech]] distinguishes direct-response audience delivery from sponsorship-oriented media selection, while [[a-comprehensive-guide-to-digital-marketing-and-analytics]] shows that programmatic also includes controlled and guaranteed inventory paths.
-- First-price bidding control: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] describes DSP bid shading as choosing a lower bid from historical competition or win-rate evidence to reduce overpayment subject to profitability and volume constraints.
+- First-price bidding control: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] describes DSP bid shading as choosing a lower bid from historical competition or win-rate evidence to reduce overpayment subject to profitability and volume constraints.
 
 ## Counterevidence & Qualifications
 The sources explain product roles, targeting, inventory priority, DMP data flow, and a conceptual first-price bidder objective but do not evaluate auction transparency, supply-path optimization, header bidding, cookie deprecation, or later ecosystem changes. The bid-shading article provides no bidder experiment, calibration result, or auditable extracted equations. Searls supplies a brand-safety and surveillance critique, but it is a polemical 2017 argument without comparative placement or campaign-effectiveness data. Its use of adtech is narrower than programmatic advertising as a whole, so guaranteed or contextual automated buying should not be collapsed into audience-chasing open inventory.

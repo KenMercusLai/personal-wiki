@@ -3,7 +3,7 @@ title: "Score Shading"
 type: concept
 tags: [ranking-systems, auction-theory, constrained-optimization, control-systems]
 sources:
-  - from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems
+  - from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -25,11 +25,11 @@ Win-rate estimation is the decision layer. Binary replay and monotone curve fitt
 - Local optimization does not guarantee platform welfare when independently controlled formats share a traffic pool.
 
 ## Evidence
-- Optimization structure: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] formulates penetration growth under a winning-score constraint and score reduction under a win-rate constraint.
-- Control mechanism: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] assigns the dual multiplier to a PID controller that responds to aggregate constraint error.
-- Competition modeling: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] contrasts binary win prediction, monotone curve fitting, and distribution estimation of the highest competing score.
-- Feedback correction: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] proposes a small unshaded epsilon-greedy bucket for less policy-biased observations.
-- System boundary: [[from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems]] describes score deflation and coupled PID oscillation when every format shades independently.
+- Optimization structure: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] formulates penetration growth under a winning-score constraint and score reduction under a win-rate constraint.
+- Control mechanism: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] assigns the dual multiplier to a PID controller that responds to aggregate constraint error.
+- Competition modeling: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] contrasts binary win prediction, monotone curve fitting, and distribution estimation of the highest competing score.
+- Feedback correction: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] proposes a small unshaded epsilon-greedy bucket for less policy-biased observations.
+- System boundary: [[from-bid-shading-to-score-shading-modeling-control-and-game-dynamics-in-mixed-ranking-optimization]] describes score deflation and coupled PID oscillation when every format shades independently.
 
 ## Counterevidence & Qualifications
 The sole source gives no production experiment, offline evaluation, baseline comparison, controller parameters, calibration results, or causal evidence that score shading improves long-term platform value. Its displayed formulas and variable names are missing from the extracted Markdown, preventing independent verification of the derivations. Distribution estimation still depends on correct censoring, observability, calibration, and distributional assumptions; variance does not by itself guarantee conservative decisions unless the objective explicitly prices uncertainty. Mean-score and load proxies may also diverge from user welfare or [[CustomerLifetimeValue]].

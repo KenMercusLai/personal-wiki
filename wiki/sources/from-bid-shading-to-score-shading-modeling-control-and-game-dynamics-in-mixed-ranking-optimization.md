@@ -1,9 +1,9 @@
 ---
-title: "From Bid Shading to Score Shading: Dual Optimization and Game Governance in Mixed Ranking Systems"
+title: "From Bid Shading to Score Shading: Modeling, Control, and Game Dynamics in Mixed Ranking Optimization"
 type: source
 tags: [ad-tech, ranking-systems, auction-theory, optimization, mechanism-design]
-date: 2026-01-25
-source_file: /mnt/ken_personal_wiki/Articles/From Bid Shading to Score ShadingDual Optimization and Game Governance in Mixed Ranking Systems.md
+date: 2026-01-26
+source_file: /mnt/ken_personal_wiki/Articles/From Bid Shading to Score Shading- Modeling, Control, and Game Dynamics in Mixed Ranking Optimization.md
 ---
 
 ## Summary

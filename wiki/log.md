@@ -8740,3 +8740,11 @@ Created [[SearchRelevance]], [[NeuralSemanticMatching]], and [[RelevanceConstrai
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | From Bid Shading to Score Shading: Modeling, Control, and Game Dynamics in Mixed Ranking Optimization
+
+Reconciled the supplied article with its existing canonical evidence rather than creating a duplicate source. Renamed the source key to match the current filename, repaired the stale `source_file` path and publication date, and updated all provenance inventories and wikilinks while preserving the existing score-shading, competition-modeling, exploration, and governance synthesis. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
