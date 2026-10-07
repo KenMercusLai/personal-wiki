@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-08] ingest | AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解
+
+Created [[AIInfrastructureStack]] and updated [[ProductionAgentInfrastructure]], [[AgentMemory]], and [[AgentSecurityLayering]] from their complete ordered evidence inventories. Recorded nine vertical responsibility layers, four cross-cutting governance capabilities, a staged maturity path, memory lifecycle policy, retrieval ACLs, and the distinction between evaluation gates and operational traces. Opened and retained all eight evidence-bearing remote diagrams under descriptive canonical filenames. Preserved the final diagram's conflicting layer numbering, the worked example's offline-evaluation timing mismatch, and the absence of reproducible benchmarks, security audits, cost comparisons, or support for point-in-time product claims.
+
 ## [2026-10-07] ingest | 当 Agent 走向生产，Infra 面临哪些挑战？
 
 Created [[AccountabilityInfrastructure]] and updated [[CiJianDeShanLin]], [[ProductionAgentInfrastructure]], [[SoftwareVerification]], [[ServiceObservability]], and [[AgentSecurityLayering]] from their complete ordered evidence inventories. Distinguished temporary infrastructure value tied to model limits from structural value tied to coordination, adversarial input, shared state, and unforeseeable demand; added fast, isolated, elastic execution plus heterogeneous verification, external reality anchors, and auditability. Opened all 17 remote images, retained 13 evidence-bearing diagrams under descriptive canonical filenames at their semantic positions, and omitted the cover, repeated thesis slide, complexity summary, and closing recap as decorative or duplicative.
@@ -8800,6 +8804,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-08] ingest | Art of Roads in Games
 
 Added [[CitiesSkylines]] and [[ProceduralRoadGeometry]]. Captured the source's distinction among unconstrained Bézier centerlines, concentric circular-arc offsets, and gradual-curvature clothoids; preserved the lack of derivations, benchmarks, or implementation detail. Opened and retained all six substantive article images with descriptive canonical filenames at their semantic positions, and inspected the linked demo video to verify dynamic road and intersection regeneration.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-08] lint | Wiki health check
 

@@ -2023,14 +2023,19 @@
       "id": "production-agent-infrastructure-couples-runtime-and-accountability",
       "qualifications": [
         "The evidence is one practitioner presentation without comparative startup, density, cost, failure-rate, or security benchmarks for microVMs, snapshots, copy-on-write forks, or isolates.",
-        "Its survey, attribution, financing, and market-map claims are not independently sourced in the supplied Markdown, and auditability does not itself decide acceptable error, responsibility, or remedy."
+        "The broader stack is a responsibility checklist rather than a validated reference architecture; its tool versions, launch latencies, scale guidance, and recommendations lack reproducible comparisons, and small supervised systems may legitimately collapse layers.",
+        "Its final cross-cutting diagram renumbers the main L0-L8 taxonomy inconsistently, its worked example places offline evaluation in the live request path, and auditability does not itself decide acceptable error, responsibility, or remedy."
       ],
-      "statement": "[[ProductionAgentInfrastructure]] must jointly support fast and introspectable resource delivery, infrastructure-enforced isolation, elastic response to unpredictable fan-out and ad-hoc demand, and [[AccountabilityInfrastructure]] grounded in heterogeneous external judges and auditable traces; these needs are strongest where shared state, adversarial input, and unknowable future demand remain even as models improve.",
+      "statement": "[[ProductionAgentInfrastructure]] must jointly support fast and introspectable resource delivery, infrastructure-enforced isolation, elastic response to unpredictable fan-out and ad-hoc demand, and accountable verification. [[AIInfrastructureStack]] places those semantics inside explicit compute, model, knowledge, context, orchestration, tool, [[AgentMemory]], [[SoftwareVerification]], and [[ServiceObservability]] responsibilities crossed by security, release, cost, and developer-platform controls; framework, sandbox, and workflow coverage do not replace durable effects, capability mediation, or semantic recovery.",
       "status": "qualified",
       "supporting_wikilinks": [
         "ProductionAgentInfrastructure",
         "AccountabilityInfrastructure",
-        "CiJianDeShanLin"
+        "CiJianDeShanLin",
+        "AIInfrastructureStack",
+        "AgentMemory",
+        "SoftwareVerification",
+        "ServiceObservability"
       ]
     }
   ],

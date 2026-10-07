@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie",
+  "images": [
+    {
+      "file": "nine-layer-ai-infrastructure-stack.jpg",
+      "alt": "Nine-layer AI infrastructure stack from physical resources through observability, crossed by security, CI/CD, FinOps, and developer experience"
+    },
+    {
+      "file": "compute-and-model-gateway.jpg",
+      "alt": "GPU scheduling and storage support an LLM gateway that routes among hosted and local models with fallback, caching, quotas, and inference optimization"
+    },
+    {
+      "file": "enterprise-rag-pipeline.jpg",
+      "alt": "Enterprise RAG pipeline moves data through parsing, embeddings, indexes, hybrid retrieval, reranking, and prompt injection before generation"
+    },
+    {
+      "file": "agent-frameworks-and-workflow-engines.jpg",
+      "alt": "LangGraph, CrewAI, AutoGen, and OpenAI Agents SDK represent different orchestration models, supplemented by durable workflow engines"
+    },
+    {
+      "file": "tool-execution-and-sandboxing.png",
+      "alt": "Agent tool requests pass through a registry to isolated execution backends under least-privilege, network, and resource controls"
+    },
+    {
+      "file": "context-and-memory-layers.png",
+      "alt": "Context assembly combines prompts, examples, retrieval, profile, and conversation while a five-layer memory model applies lifecycle policies and storage"
+    },
+    {
+      "file": "evaluation-and-observability.jpg",
+      "alt": "Evaluation gates combine offline tests, online metrics, and human review above tracing, metrics, logs, and model-operation tools"
+    },
+    {
+      "file": "cross-cutting-ai-infrastructure-capabilities.jpg",
+      "alt": "Security, CI/CD, FinOps, and developer experience span a second infrastructure-layer depiction whose numbering differs from the article's main taxonomy"
+    }
+  ]
+}

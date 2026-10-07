@@ -3,9 +3,9 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-10-07
-as_of_overview_commit: d73dceee0abef0e41041a59cd59b4535a45f1a69
-input_digest: 99b1be23066807953e02477c06f14bfd2373e888f6f849306a9c10b7c52dfd41
+last_updated: 2026-10-08
+as_of_overview_commit: cc0f88e167c22187826cec6398712712c17a3636
+input_digest: e21e79f9175f5e20d72ad3becfb85698f0a44fba513f0a8d96dfeff095d50a4c
 ---
 
 # AI and Technology
@@ -1287,11 +1287,12 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 ### Production Agent Infrastructure Couples Runtime And Accountability
 
-[[ProductionAgentInfrastructure]] must jointly support fast and introspectable resource delivery, infrastructure-enforced isolation, elastic response to unpredictable fan-out and ad-hoc demand, and [[AccountabilityInfrastructure]] grounded in heterogeneous external judges and auditable traces; these needs are strongest where shared state, adversarial input, and unknowable future demand remain even as models improve.
+[[ProductionAgentInfrastructure]] must jointly support fast and introspectable resource delivery, infrastructure-enforced isolation, elastic response to unpredictable fan-out and ad-hoc demand, and accountable verification. [[AIInfrastructureStack]] places those semantics inside explicit compute, model, knowledge, context, orchestration, tool, [[AgentMemory]], [[SoftwareVerification]], and [[ServiceObservability]] responsibilities crossed by security, release, cost, and developer-platform controls; framework, sandbox, and workflow coverage do not replace durable effects, capability mediation, or semantic recovery.
 
-**Evidence:** [[ProductionAgentInfrastructure]], [[AccountabilityInfrastructure]], [[CiJianDeShanLin]]
+**Evidence:** [[ProductionAgentInfrastructure]], [[AccountabilityInfrastructure]], [[CiJianDeShanLin]], [[AIInfrastructureStack]], [[AgentMemory]], [[SoftwareVerification]], [[ServiceObservability]]
 
 **Qualifications:**
 
 - The evidence is one practitioner presentation without comparative startup, density, cost, failure-rate, or security benchmarks for microVMs, snapshots, copy-on-write forks, or isolates.
-- Its survey, attribution, financing, and market-map claims are not independently sourced in the supplied Markdown, and auditability does not itself decide acceptable error, responsibility, or remedy.
+- The broader stack is a responsibility checklist rather than a validated reference architecture; its tool versions, launch latencies, scale guidance, and recommendations lack reproducible comparisons, and small supervised systems may legitimately collapse layers.
+- Its final cross-cutting diagram renumbers the main L0-L8 taxonomy inconsistently, its worked example places offline evaluation in the live request path, and auditability does not itself decide acceptable error, responsibility, or remedy.

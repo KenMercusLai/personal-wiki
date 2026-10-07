@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解](sources/ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie.md) - Knock maps production AI systems into nine vertical layers and four cross-cutting controls while leaving tool rankings and performance claims unbenchmarked.
 - [当 Agent 走向生产，Infra 面临哪些挑战？](sources/dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan.md) - Ci Jian De Shan Lin argues that production agents shift complexity into industrialized verification and require fast, isolated, elastic, reality-anchored, auditable infrastructure.
 - [Serenity启示录](sources/serenity-qi-shi-lu.md) - 王翼之 interprets an anonymous investor's supply-chain chokepoint method through Bayesian updating while leaving the identity, trade record, and extraordinary return claims unverified.
 - [当 AI 遇上数据管道：Daft，一个多模态时代的数据引擎](sources/dang-ai-yu-shang-shu-ju-guan-dao-daft-yi-ge-duo-mo-tai-shi-dai-de-shu-ju-yin-qing.md) - A practitioner account of Daft's optimizer-visible multimodal operations, streaming memory control, layered lazy I/O, and node-level distributed resource management.
@@ -2899,6 +2900,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cities: Skylines](entities/CitiesSkylines.md) - City-building game series used to illustrate freeform road authoring, mod-enabled realism, and persistent tight-curve geometry failures.
 
 ## Concepts
+- [AI Infrastructure Stack](concepts/AIInfrastructureStack.md) - Responsibility map spanning compute, models, knowledge, context, orchestration, execution, memory, quality, operations, and cross-cutting governance.
 - [Accountability Infrastructure](concepts/AccountabilityInfrastructure.md) - Heterogeneous verification, reality anchors, and audit trails that make machine-scale autonomous action reconstructable and attributable.
 - [Multimodal Data Pipelines](concepts/MultimodalDataPipelines.md) - Workflows joining files, media decoding, tensor transformation, inference, and elastic execution under one optimizable plan.
 - [Agent Lifecycle Model](concepts/AgentLifecycleModel.md) - Definition of one persistent agent through session identity, owned context and runtime state, lifecycle operations, and continuously steerable or asynchronous execution.

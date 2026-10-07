@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
       "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
       "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
       "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
@@ -791,11 +792,28 @@
       "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74",
       "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0"
     ],
-    "paragraph_count": 789
+    "paragraph_count": 790
   },
-  "overview_commit": "5878308dc42cd835f5fe40883380f3780f18ceb3",
-  "overview_digest": "7a43f7259e017e45812ace892073e566f0dbc8cea665e764ba59870d56336dad",
+  "overview_commit": "cc0f88e167c22187826cec6398712712c17a3636",
+  "overview_digest": "3844b2209573be2911809de70ec27662b612f0a9ab557aae11ed41a09c8dc226",
   "paragraphs": [
+    {
+      "id": "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest source adds [[AIInfrastructureStack]] as a production-readiness map rather than a mandatory vendor bundle. Its main taxonomy separates nine responsibilities: compute and storage, model serving and routing, authorized knowledge pipelines, prompt and context assembly, agent and workflow orchestration, isolated tool execution, state and [[AgentMemory]], [[SoftwareVerification|evaluation and quality]], and [[ServiceObservability|observability and operations]]. Security, CI/CD, cost attribution, and developer experience cross those boundaries because identities, credentials, prompt and model versions, retrieval ACLs, traces, and spend cannot be governed inside one component. This broadens [[ProductionAgentInfrastructure]] while preserving its sharper semantic requirements: frameworks, sandboxes, and workflow engines remain complementary and do not replace durable effect records, capability mediation, or correct recovery. The source's validation-to-prototype-to-production path is a maturity heuristic; small supervised systems may collapse layers, while high-permission systems may need more controls. Its tool versions, launch latencies, scale guidance, and recommendations lack reproducible benchmarks or audits; its worked request incorrectly places offline evaluation in the live path; and the final cross-cutting diagram renumbers L0–L8 inconsistently with the primary taxonomy. All eight effective remote diagrams were opened and retained at their semantic positions because they encode the layer relationships, pipeline stages, framework distinctions, control boundaries, and internal inconsistency.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AIInfrastructureStack",
+        "AgentMemory",
+        "ProductionAgentInfrastructure",
+        "ServiceObservability",
+        "SoftwareVerification"
+      ]
+    },
     {
       "id": "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
       "primary_topic": "ai-and-technology",
