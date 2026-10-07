@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Multi-Channel Budget Allocation and Bidding](sources/multi-channel-budget-allocation-and-bidding.md) - Wulc separates per-channel bidding from budget allocation and compares shared control, marginal-cost response modeling, and constrained SGD-UCB learning across advertising channels.
 - [随笔——AI 到底是在替你劳动，还是替你思考？](sources/sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao.md) - Nova Kwok distinguishes AI that removes execution friction from AI that displaces problem framing, evidence judgment, verification, and the internal models needed to resist automation bias.
 - [Spec-Driven Development with Spec Kit](sources/spec-driven-development-with-spec-kit.md) - A greenfield bookmark-app case finds that staged, persistent specifications improve agent coordination and resumability but add substantial overhead and do not eliminate behavioral or UI defects.
 - [入场](sources/ru-chang.md) - Wulc uses literature and television to argue that plural identity is discovered through responsible participation, not fixed labels, cynical withdrawal, inherited status coordinates, or unconnected sensation.
@@ -2877,6 +2878,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Multi-Channel Ad Optimization](concepts/MultiChannelAdOptimization.md) - Coordination of bids and budgets across heterogeneous advertising channels under calibration, sparsity, marginal-return, feedback-delay, and campaign-constraint tradeoffs.
 - [Automation Bias](concepts/AutomationBias.md) - Tendency to favor an automated recommendation or apparent coverage over conflicting evidence, including mistaking an unreported condition for proof of absence.
 - [Cognitive Offloading](concepts/CognitiveOffloading.md) - Transfer of memory, search, decomposition, reasoning, or judgment work to external tools, with risks determined by which parts of the epistemic loop remain human-owned.
 - [Plural Selfhood](concepts/PluralSelfhood.md) - Identity as multiple, situated, and revisable, with action capable of revealing selves that prior labels concealed.

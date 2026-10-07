@@ -99,6 +99,7 @@
       "e17988beb20c99a7316cd0ad0e9e863854215be493eece6d3598ef9de62a0dcf",
       "69e5e27c24b792aa0c3ee2b1876afab15358e6643c71410e5c113e81cd77c114",
       "b69a7ad32d943632ec906f4bff523ac843992c7f58e3dae8d90ba7f1a705e01e",
+      "0f839a4ff8c1409809c7ce3e1fdb8bc74c81638f566be948dff5764622e6c85f",
       "c265d91d8703fd93e5050709a2296e5fb6c8f9ac758a047ec57556c6c994234c",
       "f34f7f9f182dd97dce68f73e9a62369dbc807e964e3bfae810b2f81e3e5748df",
       "c3b2dec8bb483d947038a10c6b41f91f02f3bb8fc71c68908f60f8550e265222",
@@ -785,10 +786,10 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 783
+    "paragraph_count": 784
   },
-  "overview_commit": "06c0b70d3f1fa336af109686e7552af11b5c0484",
-  "overview_digest": "e9fd5bcb4950e8de9485958571c4ab1878310a04a18cd1bce4c3e80aadfc6e97",
+  "overview_commit": "9b229aeaac8198e907861208ca336c054dc097fc",
+  "overview_digest": "9958f61dd147f9a05150087e9cb95a7c8be87f4a0d77ccb65f88a441bcdced7f",
   "paragraphs": [
     {
       "id": "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
@@ -2641,6 +2642,19 @@
         "PersuasionWork",
         "TylerCowen",
         "WorkplaceAutomation"
+      ]
+    },
+    {
+      "id": "0f839a4ff8c1409809c7ce3e1fdb8bc74c81638f566be948dff5764622e6c85f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Wulc]] source adds [[MultiChannelAdOptimization]] as a coupled bidding-and-budget problem rather than a single universal-delivery control. A shared campaign objective does not guarantee that one bid is optimal: channel-specific prediction bias and traffic timing can require different bid corrections, while full independence is limited by sparse posterior data and delayed conversions. Cost-based products can anchor channel control to an advertiser's CPA target; lowest-cost products instead need a main-channel reference or a searched marginal CPA that exhausts the total budget. The source's concave cost-to-conversion model allocates more spend to cheaper marginal opportunities by fitting channel-specific parameters, and the retained curve, derivation, and parameter-comparison images make the diminishing-return assumption explicit. For cross-platform allocation, the cited paper claims per-channel budgets alone can attain the global conversion optimum and proposes SGD-UCB over discretized budget arms with dual variables enforcing ROI and spend constraints. These are conditional architectures, not demonstrated universal results: curve misspecification, nonstationarity, sparse conversions, feedback delay, and unreplicated paper claims remain material, while implementation burden is especially high for small advertisers. All four effective remote images were opened and retained under descriptive canonical filenames at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "MultiChannelAdOptimization",
+        "Wulc"
       ]
     },
     {

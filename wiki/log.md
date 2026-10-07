@@ -8705,6 +8705,14 @@ Ran lint. See lint-report.md for details.
 
 Created [[CognitiveOffloading]] and [[AutomationBias]], updated [[NovaKwok]] and [[TaskContingentAICollaboration]] from their complete ordered evidence inventories, and distinguished labor-saving assistance from delegating problem definition, coverage judgment, and validation. Added the reinforcing path from lost context to weaker review and greater deference, while preserving the essay's positive case for human-defined measurement and real-world testing. Opened all 11 effective remote images; retained six evidence-bearing damping, acceleration, GPS, track, consumer-incident, and problem-framing visuals under descriptive canonical filenames, and omitted the decorative or tangential cover, car portrait, CSR screenshot, and two reaction memes.
 
+## [2026-10-07] ingest | Multi-Channel Budget Allocation and Bidding
+
+Created [[MultiChannelAdOptimization]] and updated [[Wulc]] from his complete ordered evidence inventory. Separated channel bid control from budget control, recorded calibration, traffic distribution, sparsity, and delayed feedback as architecture conditions, and distinguished target-CPA allocation, searched marginal-CPA allocation, and constrained SGD-UCB learning. Opened and retained all four effective remote images under descriptive canonical filenames: the concave cost-to-conversion curve, its differential-equation derivation, the fitted-parameter comparison, and the cross-platform budget-allocation algorithm. Preserved the source's dependence on parametric assumptions, historical fit, sufficient conversions, and unreplicated cited-paper results.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

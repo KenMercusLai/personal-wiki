@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "multi-channel-budget-allocation-and-bidding",
+  "images": [
+    {
+      "file": "concave-cost-to-conversion-curve.jpg",
+      "alt": "Concave cost-to-conversion curve showing diminishing conversion gains as advertising spend rises"
+    },
+    {
+      "file": "cost-to-conversion-derivation.jpg",
+      "alt": "Derivation from linear marginal conversion cost to a positive-root cost-to-conversion function"
+    },
+    {
+      "file": "cost-parameter-curve-comparison.jpg",
+      "alt": "Three fitted cost-to-conversion curves showing that larger cost parameters yield fewer conversions for the same spend"
+    },
+    {
+      "file": "sgd-ucb-budget-allocation-algorithm.jpg",
+      "alt": "SGD-UCB algorithm selecting per-channel budget arms and updating conversion estimates and dual constraint variables"
+    }
+  ]
+}
