@@ -8676,3 +8676,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Thank You For Being a Friend
+
+Updated [[JeffAtwood]] and [[PublicKnowledgeCommons]] with Atwood's argument that coding-capable LLMs depend on Stack Overflow's contributor-built Creative Commons corpus and that AI companies must sustain rather than hollow out its producer community. Connected that stewardship claim to his reflections on his father's death, their final visit during a rural income-study rollout, and the persistence of relationships and obligations through loss. Opened all four effective images; retained the group photograph and Watchmen "nothing ever ends" panel under descriptive canonical filenames, and omitted the decorative author avatar and generic link icon.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "thank-you-for-being-a-friend",
+  "images": [
+    {
+      "file": "atwood-family-forest-jump.jpg",
+      "alt": "Five people jump together on a log in a forest"
+    },
+    {
+      "file": "watchmen-nothing-ever-ends.png",
+      "alt": "Watchmen panel in which Doctor Manhattan tells Ozymandias that nothing ever ends"
+    }
+  ]
+}
