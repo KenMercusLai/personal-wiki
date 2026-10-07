@@ -8692,3 +8692,11 @@ Updated [[Wulc]] from his complete ordered evidence inventory and created [[Plur
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Spec-Driven Development with Spec Kit
+
+Created [[GitHubSpecKit]] and [[LaMemoria]] from a greenfield bookmark-application case and updated [[SpecDrivenAgentDevelopment]] from its complete ordered evidence inventory with the staged constitution-to-convergence workflow, repository-backed resumability, cost and scale observations, and the boundary between artifact consistency and behavioral correctness. Opened all four effective remote screenshots and retained the distinct list, search, add, and configuration views under descriptive canonical filenames at their semantic positions.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

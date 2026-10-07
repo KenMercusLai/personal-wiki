@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "spec-driven-development-with-spec-kit",
+  "images": [
+    {
+      "file": "bookmark-list.png",
+      "alt": "La Memoria bookmark list showing saved links, tags, and edit controls"
+    },
+    {
+      "file": "bookmark-search.png",
+      "alt": "La Memoria search form with tag and words fields"
+    },
+    {
+      "file": "add-bookmark-form.png",
+      "alt": "La Memoria add-bookmark form with screenshot fallback option"
+    },
+    {
+      "file": "configuration-form.png",
+      "alt": "La Memoria configuration form for storage, database, and search settings"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Spec-Driven Development with Spec Kit](sources/spec-driven-development-with-spec-kit.md) - A greenfield bookmark-app case finds that staged, persistent specifications improve agent coordination and resumability but add substantial overhead and do not eliminate behavioral or UI defects.
 - [入场](sources/ru-chang.md) - Wulc uses literature and television to argue that plural identity is discovered through responsible participation, not fixed labels, cynical withdrawal, inherited status coordinates, or unconnected sensation.
 - [Thank You For Being a Friend](sources/thank-you-for-being-a-friend.md) - Jeff Atwood connects his father's death with gratitude and warns that coding LLMs depend on a public programming corpus whose contributor community must be sustained.
 - [If we do not stop to help each other, what do we become?](sources/if-we-do-not-stop-to-help-each-other-what-do-we-become.md) - A Stack Overflow user's crisis-era account distinguishes receiving an answer from receiving freely offered human care, belonging, and a chance to help later learners.
@@ -1104,6 +1105,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [用 AI 工具快速撰写分享型推文](sources/yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge.md) - Reorx tests a summarize-translate-compress pipeline that saves estimated time while preserving human editorial judgment and writing practice.
 
 ## Entities
+- [GitHub Spec Kit](entities/GitHubSpecKit.md) - Repository-centered workflow that turns constitutions, feature specs, plans, tasks, analysis, and convergence into durable coding-agent inputs.
+- [La Memoria](entities/LaMemoria.md) - Greenfield bookmark application used as a case study for specification-driven agent development.
 - [Fenx](entities/Fenx.md) - Independent designer-developer who built 干饭手册 across product, interface, engineering, testing, compliance, and release.
 - [干饭手册](entities/GanFanShouCe.md) - Image-first iOS catalog for recording, organizing, counting, enhancing, synchronizing, and sharing household dishes.
 - [Amazon Bedrock AgentCore](entities/AmazonBedrockAgentCore.md) - AWS agent runtime assigning each session a disposable, resizable Firecracker microVM with explicit external persistence.
@@ -4091,7 +4094,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
 - [Snapshot Testing](concepts/SnapshotTesting.md) - Capturing outputs or output summaries as versioned baselines so later diffs expose behavior changes.
-- [Spec-Driven Agent Development](concepts/SpecDrivenAgentDevelopment.md) - Coding-agent workflow where specs, ADRs, test plans, and status documents act as formal interfaces.
+- [Spec-Driven Agent Development](concepts/SpecDrivenAgentDevelopment.md) - Coding-agent workflow where durable specifications, decisions, task state, and verification plans coordinate humans, agents, and implementation phases.
 - [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
 - [Stochastic Gradient Descent](concepts/StochasticGradientDescent.md) - Optimization method used as a life-strategy metaphor for goals, feedback, small steps, exploration, rest, and restart.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
