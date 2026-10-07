@@ -1,41 +1,46 @@
 ---
 title: "Reorx"
 type: entity
-tags: [author, product-development, personal-projects]
+tags: [author, product-development, personal-projects, ai-workflows]
 sources:
   - reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi
-last_updated: 2026-10-02
+  - yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge
+last_updated: 2026-10-07
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Reorx]] is the author represented in this wiki through a personal framework for turning recorded software-product ideas into implemented projects.
+[[Reorx]] is an author and software maker represented here through first-person experiments in AI-assisted content production and constrained personal-product development.
 
 ## Current Profile
-Within the available source, Reorx reflects critically on an idea-development habit that improved product-design skill but also increased scope and reduced finished output. He responds by proposing [[ProgressiveProductBuilding]], a deliberately constrained workflow of stable simple ideas, linked complex branches, immediate AI-assisted implementation, and metadata-based project monitoring.
+Across the two available sources, Reorx treats tools and workflows as adjustable systems that should reduce friction without displacing the activity's valued human purpose. His 2023 social-post experiment decomposes source processing into video summarization, translation, and length-constrained rewriting, yet he ultimately rearranges the material himself because writing also supports thinking and growth. His later [[ProgressiveProductBuilding]] proposal applies the same reflective stance to product work: preserve a small idea's stable core, branch later complexity, move toward implementation, and expose delivery state rather than polishing documents indefinitely.
 
 ## Key Characteristics
-- Writes from first-person experience with personal product ideas and unfinished projects.
-- Treats workflow design as a changeable behavioral system rather than a fixed personal trait.
-- Values implemented products over increasingly polished product documents.
-- Uses linked notes and frontmatter as lightweight project infrastructure.
-- Sees AI coding tools as leverage for tightly scoped rapid implementation.
+- Tests productivity workflows through concrete first-person use rather than presenting tools only in the abstract.
+- Decomposes work into bounded stages, including summarization, translation, rewriting, idea capture, branching, implementation, and monitoring.
+- Treats AI as leverage for non-creative or tightly scoped labor while retaining human judgment and responsibility.
+- Uses reflection to detect when a workflow's efficiency undermines thinking, creative growth, or finished output.
+- Prefers implemented or deliberately authored artifacts over automated volume or increasingly elaborate planning documents.
 
 ## Evidence
-- Retrospective stance: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] describes repeated idea-note refinement as a practice that enlarged expected work and contributed to project failure.
-- Behavioral redesign: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] uses a firmware metaphor for inspecting and replacing the rule that previously governed product work.
-- Product priority: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] restricts additions to simple ideas so implementation follows capture.
-- Knowledge-system practice: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] proposes linked idea branches, a dedicated directory, shortcuts, frontmatter, and tabular monitoring.
-- AI leverage: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] attributes the plausibility of one-day builds to current vibe-coding tools.
+- AI content workflow: [[yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge]] documents Glarity, Bob, and Drafts moving a video transcript through English summary, Chinese translation, and social-post compression.
+- Human creative boundary: [[yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge]] says the author manually rearranged the translated material and values writing's thinking, accomplishment, frustration, and growth rather than fully automated publication.
+- Retrospective workflow redesign: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] describes repeated idea-note refinement as a practice that enlarged expected work and contributed to unfinished projects.
+- Stable scope and implementation: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] freezes simple ideas, moves material evolution into linked branches, and makes implementation the next default action.
+- Lightweight operational infrastructure: [[reorx-progressive-product-building-yu-yuan-ren-zhi-lei-bi]] uses linked notes, frontmatter, shortcuts, and tabular monitoring to expose project state.
 
 ## Qualifications
-This profile is based on one short personal statement announcing an intended 2026 practice. It reports no completed-project sample, comparative baseline, follow-up results, tool details, or evidence that the method generalizes beyond Reorx's own projects.
+Both sources are first-person practitioner accounts. The social-post workflow is one 2023 experiment whose 30-minute versus five-minute comparison is estimated rather than measured, and its result still required manual rearrangement. The product-building source announces an intended 2026 practice without completed-project, quality, user-value, security, or maintenance evidence. Neither source establishes that Reorx's tool stack or working rules generalize to other creators, languages, risk levels, or collaborative settings.
 
 ## What Changed
-- Created the entity profile from Reorx's progressive product-building proposal.
+- Broadened the profile from personal-product execution to a longer-running interest in modular AI-assisted workflows.
+- Added Reorx's explicit boundary between automating non-creative labor and preserving writing as human thought and practice.
 
 ## Relationships
-- [[ProgressiveProductBuilding]] - Reorx formulates this personal project workflow.
-- [[MetacognitiveFeedback]] - Reorx uses deliberate self-observation to justify changing his product behavior.
-- [[VibeCoding]] - Reorx treats AI-assisted coding as implementation leverage for small ideas.
-- [[IdeaManagement]] - Reorx keeps quick capture while constraining later elaboration.
+- [[ProgressiveProductBuilding]] - Reorx formulates this constrained personal-project workflow.
+- [[AIAssistedWriting]] - Reorx tests a summarize-translate-compress pipeline while retaining editorial control.
+- [[AIWorkflowDesign]] - Reorx decomposes both content and product work into bounded stages with explicit transitions.
+- [[LearningByWriting]] - Reorx values composition as a way to think, struggle, and grow.
+- [[MetacognitiveFeedback]] - Reorx inspects whether his working rules produce the outcome he actually values.
+- [[VibeCoding]] - Reorx treats AI coding as implementation leverage for tightly scoped ideas.
+- [[IdeaManagement]] - Reorx keeps low-friction capture while constraining elaboration and tracking delivery.

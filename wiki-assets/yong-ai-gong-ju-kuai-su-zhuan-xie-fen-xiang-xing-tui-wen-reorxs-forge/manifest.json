@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge",
+  "images": [
+    {
+      "file": "glarity-youtube-summary.png",
+      "alt": "Glarity panel summarizing an English YouTube transcript beside the video"
+    },
+    {
+      "file": "bob-chinese-translation.png",
+      "alt": "Bob OpenAI Translator converting the Glarity summary from English to Chinese"
+    },
+    {
+      "file": "drafts-social-post.png",
+      "alt": "Drafts ChatGPT Conversation prompt compressing the translated summary into a Chinese social post"
+    }
+  ]
+}

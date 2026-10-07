@@ -1098,6 +1098,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [小贴士：Docker清理作弊手册](sources/docker-qing-li-zuo-bi-shou-ce.md) - 伊布按容器、镜像、卷与网络整理 Docker 清理命令，并警告删除顺序会扩大后续镜像清理范围。
 - [帮你避三个坑](sources/1726845898951721415.md) - 90千帕主张远离有害关系、选择已经行动的伙伴，并以未经限定的“绝不主动帮助”规则保护注意力。
 - [Seven Years of Firecracker](sources/seven-years-of-firecracker-marcs-blog.md) - Marc Brooker explains Firecracker's per-session AgentCore microVMs, snapshot-cloned Aurora DSQL query processors, shared clean pages, and lifetime-bounded cleanup.
+- [用 AI 工具快速撰写分享型推文](sources/yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge.md) - Reorx tests a summarize-translate-compress pipeline that saves estimated time while preserving human editorial judgment and writing practice.
 
 ## Entities
 - [Fenx](entities/Fenx.md) - Independent designer-developer who built 干饭手册 across product, interface, engineering, testing, compliance, and release.

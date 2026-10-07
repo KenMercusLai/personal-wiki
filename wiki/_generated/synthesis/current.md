@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 165835f9dff6900e6b7b5be227d7fef894421d8d
+as_of_overview_commit: e1ac93a2e8c76405efb4d7f4592637f481d22b45
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment grounded mainly in contextual case evidence."
-episode_count: 1074
-source_count: 1074
-paragraph_count: 779
+episode_count: 1075
+source_count: 1075
+paragraph_count: 780
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on contextual architecture, explicit capability, lifecycle, state, and failure boundaries, verification, observability, safe change, accountable human judgment, and public knowledge systems; the new iOS case shows that framework automation does not remove these duties.
+Technical outcomes depend on contextual architecture, explicit capability, lifecycle, state, and failure boundaries, verification, observability, safe change, accountable human judgment, and replenished public knowledge systems.
 
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].
@@ -82,7 +82,7 @@ Health and science claims require causal restraint, heterogeneous-response and a
 
 ### Work, Education, and Society
 
-Work and learning improve through active practice, feedback, role clarity, fair incentives, mentoring, usable boundaries, structural support, and public participation.
+Work and learning improve through active practice, inspectable AI assistance, feedback, role clarity, fair incentives, mentoring, usable boundaries, structural support, and public participation; speed gains should not displace the practice that develops judgment.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "388e807dfadc0675224bbaf8289ab0054b14bce3f89fd82559b43b474253e988",
       "251725d625ffc32e299f34f4de3bac3cdb879a10f8bd846325c36fd4419e6b73",
       "2d080e776b2dd62b3c57d3dcec66d8497a3d78b59e7423a5ca17a4a1bb433538",
       "a670098d98e8220003de0e6084ba745f31e9829fd38002c22865f6399fda2521",
@@ -781,11 +782,29 @@
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 779
+    "paragraph_count": 780
   },
-  "overview_commit": "165835f9dff6900e6b7b5be227d7fef894421d8d",
-  "overview_digest": "23aa1d4f7f6384d2a75b91e6d2cdc5f203fda89ba8b9b8d46cb25e3db0257dfe",
+  "overview_commit": "e1ac93a2e8c76405efb4d7f4592637f481d22b45",
+  "overview_digest": "55e6144d9c3a7caa8a10b7e3f83da2e4b637223492617a28fcc63c083ed0741c",
   "paragraphs": [
+    {
+      "id": "388e807dfadc0675224bbaf8289ab0054b14bce3f89fd82559b43b474253e988",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[Reorx]] source adds an early modular [[AIAssistedWriting]] example: Glarity turns a YouTube transcript into an English summary, Bob's OpenAI Translator converts it to Chinese, and a Drafts ChatGPT Conversation action compresses the result under a 140-Chinese-character constraint. The screenshots make each intermediate state inspectable, which strengthens [[AIWorkflowDesign]] by showing how source processing can be split into bounded transformations rather than hidden in one prompt. Reorx estimates that the workflow reduced at least 30 minutes of watching and writing to about five, but this is one unmeasured experiment, excludes setup and later editing, and still required his own rearrangement. More importantly, he draws an authorship boundary that aligns with [[LearningByWriting]] and later [[AIDependencySkillAtrophy]] concerns: AI can absorb non-creative labor, but fully automated composition can also remove the thinking, accomplishment, frustration, and growth that make writing valuable. All three effective images were opened and retained at their semantic positions because they document the summary, translation, and constrained rewrite stages.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "AIDependencySkillAtrophy",
+        "AIWorkflowDesign",
+        "LearningByWriting",
+        "Reorx"
+      ]
+    },
     {
       "id": "251725d625ffc32e299f34f4de3bac3cdb879a10f8bd846325c36fd4419e6b73",
       "primary_topic": "ai-and-technology",

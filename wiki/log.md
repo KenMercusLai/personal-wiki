@@ -8660,3 +8660,11 @@ Created [[Fenx]], [[GanFanShouCe|干饭手册]], [[MobileAppLifecycleEngineering
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | 用 AI 工具快速撰写分享型推文
+
+Updated [[Reorx]], [[AIAssistedWriting]], and [[AIWorkflowDesign]] from their complete ordered evidence inventories with a 2023 summarize-translate-compress social-post experiment, its estimated 30-minute-to-five-minute productivity claim, and the author's boundary between automating non-creative labor and preserving writing as thought and practice. Opened all three effective remote screenshots and retained the Glarity summary, Bob translation, and Drafts constrained-rewrite interfaces under descriptive canonical filenames at their semantic positions.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
