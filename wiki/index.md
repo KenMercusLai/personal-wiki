@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Serenity启示录](sources/serenity-qi-shi-lu.md) - 王翼之 interprets an anonymous investor's supply-chain chokepoint method through Bayesian updating while leaving the identity, trade record, and extraordinary return claims unverified.
 - [当 AI 遇上数据管道：Daft，一个多模态时代的数据引擎](sources/dang-ai-yu-shang-shu-ju-guan-dao-daft-yi-ge-duo-mo-tai-shi-dai-de-shu-ju-yin-qing.md) - A practitioner account of Daft's optimizer-visible multimodal operations, streaming memory control, layered lazy I/O, and node-level distributed resource management.
 - [如何设计 Agent：组成、运行环境与生命周期](sources/ru-he-she-ji-agent-zu-cheng-yun-xing-huan-jing-yu-sheng-ming-zhou-qi-yanli-yan-li.md) - Yan Li decomposes agents into context and runtime, then connects state ownership, skill packaging, CoW granularity, session identity, steering, and asynchronous execution into a lifecycle model.
 - [User Experience Optimization: From Heuristic Intervention to Unified Value Modeling](sources/user-experience-optimization-from-heuristic-intervention-to-unified-value-modeling.md) - Wulc layers heuristic retention safeguards, experience-effect modeling, and shadow-priced ranking while preserving backfill, proxy, exploration, and control limitations.
@@ -2892,6 +2893,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jev](entities/Jev.md) - External semantic-judgment service represented through typed questions, per-row validated responses, bounded concurrency, and a reviewed decision-support role.
 - [Vane Data](entities/VaneData.md) - Data-processing framework that composes heterogeneous tasks, actors, external judgments, and SQL into a deferred Relation plan while preserving row lineage and failures.
 
+- [Serenity (Investor)](entities/SerenityInvestor.md) - Anonymous investor portrayed in one secondary essay as using supply-chain chokepoint research and dynamic rotation, with identity and performance unverified.
+
 ## Concepts
 - [Multimodal Data Pipelines](concepts/MultimodalDataPipelines.md) - Workflows joining files, media decoding, tensor transformation, inference, and elastic execution under one optimizable plan.
 - [Agent Lifecycle Model](concepts/AgentLifecycleModel.md) - Definition of one persistent agent through session identity, owned context and runtime state, lifecycle operations, and continuously steerable or asynchronous execution.
@@ -4307,5 +4310,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Docker Resource Cleanup](concepts/DockerResourceCleanup.md) - Reference- and order-aware removal of unused Docker containers, images, volumes, and networks.
 
 - [Voice Analytics Pipeline](concepts/VoiceAnalyticsPipeline.md) - Traceable architecture that turns recordings into reviewed business fields through audio preparation, transcription, quality gates, typed judgment, SQL, and failure-inclusive evaluation.
+
+- [Chokepoint Investing](concepts/ChokepointInvesting.md) - Structural investing approach that maps hard-to-substitute supply-chain dependencies, tests supplier economics, and revises positions as bottlenecks change.
+- [Bayesian Updating](concepts/BayesianUpdating.md) - Revision of hypothesis confidence through evidence, distinguished from valuation, payoff, and portfolio decisions.
 
 ## Syntheses

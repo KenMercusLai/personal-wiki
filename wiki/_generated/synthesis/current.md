@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-07
-as_of_overview_commit: 11cf53b44d516458a8c71adccf8cd3eb6b050c06
+as_of_overview_commit: 74c42eff2861cef90b799ddbe93008ae17db3092
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, emphasizing evidence, boundaries, and human responsibility."
-episode_count: 1088
-source_count: 1088
-paragraph_count: 786
+episode_count: 1089
+source_count: 1089
+paragraph_count: 787
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit capability, lifecycle, state, reward, feed
 
 ### Business and Markets
 
-Durable businesses connect customer learning and demand to coherent scope, retention, economics, operating capability, financing constraints, platform power, and stewardship.
+Durable businesses connect customer learning and demand to coherent scope, retention, economics, operating capability, financing constraints, platform power, and evidence-calibrated investment judgment.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -68,7 +68,7 @@ Historical and geopolitical cases emphasize path dependence, incentives, logisti
 
 ### Psychology and Personal Development
 
-Attention, motivation, identity, trust, relationships, habits, learning, and participation respond to designed environments and feedback, bounded by evidence and responsibility.
+Attention, motivation, identity, trust, relationships, habits, learning, and belief revision respond to designed environments and feedback, bounded by evidence, calibration, and responsibility.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].

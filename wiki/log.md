@@ -8613,6 +8613,10 @@ Removed `wiki/sources/dont-be-a-hypocrite-about-failure.md` and its `wiki/index.
 
 Updated [[TaskContingentAICollaboration]], [[PersonalSoftware]], and [[ActionBiasInAI]] from their complete ordered evidence inventories. Added AI-supported minimum experiments, premature abandonment as an analysis-loop risk, and radical feature subtraction as a route back to creative practice; created [[Leetao]], [[Memox|memox]], and [[VoiceFloat]] while qualifying the essay's first-person claims against absent experiment, user, and market evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
 
+## [2026-10-07] ingest | Serenity启示录
+
+Created [[SerenityInvestor]], [[ChokepointInvesting]], and [[BayesianUpdating]] from 王翼之's analogy between supply-chain bottleneck research and sequential belief revision. Preserved the thesis-execution-diligence-rotation workflow while distinguishing qualitative Bayesian language from calibrated probabilities and separating posterior confidence from valuation, payoff, liquidity, position sizing, and portfolio risk. Marked the anonymous identity, 4,502% return, Reddit history, and AXTI trade as uncorroborated source claims, and flagged that a rise from US$12 to US$70 does not by itself equal a 1,000% gain. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -8768,6 +8772,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-07] ingest | Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline
 
 Added [[VaneData]], [[Jev]], and [[VoiceAnalyticsPipeline]], and updated [[TextClassification]] from its complete ordered evidence inventory. Recorded the single-Relation CPU/GPU/external-call architecture, typed intent and rating questions, transcript-quality gating, failure-preserving row alignment, SQL field shaping, common-input evaluation, and the distinction between unresolved customer work and review of model conclusions. Preserved the absence of measured scores, throughput, cost, calibration, or production outcomes; the fixed development subset and possible training overlap; the single-utterance and no-speaker-separation limits; transcript privacy risk; and mandatory human review with no automated banking action. Opened and retained both remote diagrams under descriptive canonical filenames at their semantic positions because they show the pipeline boundary, skip path, output contract, request concurrency, response validation, and failure behavior.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-07] lint | Wiki health check
 
