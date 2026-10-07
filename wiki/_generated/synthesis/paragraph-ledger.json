@@ -777,12 +777,13 @@
       "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02",
-      "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21"
+      "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
+      "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd"
     ],
-    "paragraph_count": 777
+    "paragraph_count": 778
   },
-  "overview_commit": "ffe614976c97240f36f61c76b6e09a2f061eae8b",
-  "overview_digest": "5635b5c193e45710c8fb205f618689e227a864616c85e713d81cedd6435baa00",
+  "overview_commit": "0457e5868c97e58a94ce0e97d6388a61f6a22f67",
+  "overview_digest": "9051c5e6ae095136bec178e18a4fdcea70f5ee512c5cc8f86ca1f7a5db569363",
   "paragraphs": [
     {
       "id": "2d080e776b2dd62b3c57d3dcec66d8497a3d78b59e7423a5ca17a4a1bb433538",
@@ -15705,6 +15706,26 @@
         "Moltbook",
         "ProductionAgentInfrastructure",
         "SemanticIsolation"
+      ]
+    },
+    {
+      "id": "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[MarcBrooker]] source expands [[Firecracker]] from an example of lower-layer execution isolation into two concrete AWS lifecycle designs. [[AmazonBedrockAgentCore]] uses [[SessionScopedMicroVMIsolation]]: one resizable microVM retains local continuity across a session's turns, tool calls, and model calls, then teardown clears code-level session state while intended cross-session persistence moves through explicit external services. [[AuroraDSQL]] uses [[VMSnapshotCloning]] to restore initialized PostgreSQL-derived query processors, share unchanged clean pages, and keep written pages private. It also illustrates [[BoundedLifetimeSimplification]]: fixed-age processor retirement clears accumulated Linux caches without continuous cold-page accounting, while a five-minute transaction ceiling bounds how long MVCC versions may remain referenced. The simplicity is architectural rather than free; connection state, caching, concurrency control, durable memory, and effects must live elsewhere, and clone uniqueness must be restored deliberately. The account is first-party and reports no startup timings, memory savings, cost, density, cache measurements, attack analysis, or failure results. Three inspected diagrams were retained at their semantic positions; a decorative meme was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AmazonBedrockAgentCore",
+        "AuroraDSQL",
+        "BoundedLifetimeSimplification",
+        "Firecracker",
+        "MarcBrooker",
+        "SessionScopedMicroVMIsolation",
+        "VMSnapshotCloning"
       ]
     }
   ],

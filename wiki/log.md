@@ -8644,3 +8644,11 @@ Created [[QuantizationAwareTraining]] and [[BlockQuantization]] from an INT8 pre
 ## [2026-10-07] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-07] ingest | Seven Years of Firecracker
+
+Updated [[Firecracker]] from its complete ordered evidence inventory with AgentCore's session-scoped microVMs and Aurora DSQL's snapshot-cloned query processors, shared clean pages, and fixed-lifetime cleanup. Created [[AmazonBedrockAgentCore]], [[AuroraDSQL]], [[MarcBrooker]], [[SessionScopedMicroVMIsolation]], [[VMSnapshotCloning]], and [[BoundedLifetimeSimplification]] while preserving the boundary between execution isolation and semantic control of external effects. Opened all four effective remote images; retained three evidentiary architecture diagrams under descriptive canonical filenames and omitted the decorative memory-hoarding meme.
+
+## [2026-10-07] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

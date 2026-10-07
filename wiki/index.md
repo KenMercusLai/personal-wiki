@@ -1096,8 +1096,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [FOUR：一个 27 岁零基础无业游民的第一个开源作品](sources/four-a-zero-experience-developers-first-open-source-app.md) - SketchK recounts turning a career-change experiment into a researched, shipped, and open-sourced iOS app while leaving expertise and hiring outcomes unproven.
 - [小贴士：Docker清理作弊手册](sources/docker-qing-li-zuo-bi-shou-ce.md) - 伊布按容器、镜像、卷与网络整理 Docker 清理命令，并警告删除顺序会扩大后续镜像清理范围。
 - [帮你避三个坑](sources/1726845898951721415.md) - 90千帕主张远离有害关系、选择已经行动的伙伴，并以未经限定的“绝不主动帮助”规则保护注意力。
+- [Seven Years of Firecracker](sources/seven-years-of-firecracker-marcs-blog.md) - Marc Brooker explains Firecracker's per-session AgentCore microVMs, snapshot-cloned Aurora DSQL query processors, shared clean pages, and lifetime-bounded cleanup.
 
 ## Entities
+- [Amazon Bedrock AgentCore](entities/AmazonBedrockAgentCore.md) - AWS agent runtime assigning each session a disposable, resizable Firecracker microVM with explicit external persistence.
+- [Aurora DSQL](entities/AuroraDSQL.md) - AWS serverless relational database using isolated PostgreSQL-derived query processors, snapshot clones, and bounded lifetimes.
+- [Marc Brooker](entities/MarcBrooker.md) - AWS practitioner-author explaining Firecracker's role in agent runtime and serverless database architecture.
 - [Jeff Atwood](entities/JeffAtwood.md) - Stack Overflow cofounder represented through a qualified defense of LLM lookup and a call to protect contributor-built public knowledge and relationships.
 - [Ben Dumke-von der Ehe](entities/BenDumkeVonDerEhe.md) - Early Stack Overflow community hire whose friendship and career illustrate the human value of public technical participation.
 - [MisterMorph](entities/MisterMorph.md) - AI-agent project using OS-level containment, scoped authentication profiles, runtime credential injection, approvals, redaction, and auditing.
@@ -2502,7 +2506,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [E2B](entities/E2B.md) - Agent code-execution sandbox discussed as useful execution isolation but insufficient for capability and side-effect semantics.
 - [EasyCV](entities/EasyCV.md) - Zhang Xuan's programmer resume-builder product and product-development experiment.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
-- [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
+- [Firecracker](entities/Firecracker.md) - Open-source microVM technology used for session isolation, transaction processors, resizable resources, snapshot cloning, and clean-page sharing below semantic controls.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Search, advertising, web, mobile, data, cloud, and infrastructure actor whose ranking authority can reshape publisher and software conventions.
 - [Google AdWords](entities/GoogleAdWords.md) - Google's self-service advertising product used as a product-management case for reconciling sales, engineering, relevance, and revenue constraints.
@@ -2862,6 +2866,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 ## Concepts
+- [Session-Scoped MicroVM Isolation](concepts/SessionScopedMicroVMIsolation.md) - One disposable microVM per interaction session, preserving local continuity while making cross-session persistence explicit.
+- [VM Snapshot Cloning](concepts/VMSnapshotCloning.md) - Repeated restoration of prepared VM state with shared clean pages, private dirty pages, and renewed per-instance uniqueness.
+- [Bounded Lifetime Simplification](concepts/BoundedLifetimeSimplification.md) - Using enforced maximum lifetimes to replace some fine-grained reclamation and reference tracking with safe age bounds.
 - [Quantization-Aware Training](concepts/QuantizationAwareTraining.md) - Training under simulated low-precision effects whose success must be judged by validation and activation diagnostics, not falling training loss alone.
 - [Block Quantization](concepts/BlockQuantization.md) - Shared-scale tensor representation whose block shape determines outlier coupling, underflow, signal quality, and causal-token risks.
 - [Public Knowledge Commons](concepts/PublicKnowledgeCommons.md) - Durable openly reusable knowledge whose continued value depends on public contribution, licensing, retrieval, correction, governance, and community maintenance.

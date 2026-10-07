@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "seven-years-of-firecracker-marcs-blog",
+  "images": [
+    {
+      "file": "agentcore-session-isolation.png",
+      "alt": "AgentCore Runtime assigning each user session its own Firecracker microVM and agent code instance"
+    },
+    {
+      "file": "dsql-transaction-query-processors.png",
+      "alt": "Aurora DSQL transaction and session router distributing work to PostgreSQL-derived query processors in separate Firecracker microVMs"
+    },
+    {
+      "file": "microvm-shared-clean-pages.png",
+      "alt": "Per-microVM memory divided into exclusive dirty pages, shared clean pages, and empty pages"
+    }
+  ]
+}
