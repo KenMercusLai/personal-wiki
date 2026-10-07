@@ -8809,6 +8809,14 @@ Added [[CitiesSkylines]] and [[ProceduralRoadGeometry]]. Captured the source's d
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-08] ingest | Bigtable 二十年：架构的不变与变
+
+Added [[Bigtable]] and [[StorageArchitectureEvolvability]], and updated [[CiJianDeShanLin]] and [[GreptimeDB]] from their complete ordered evidence inventories. Captured movable durable state, asynchronous pull replication, CRDT deletion and compaction semantics, materialized-view watermarks, offloaded maintenance, layered integrity checks, workload-aware resource control, and the enduring single-row transaction boundary. Opened and retained both remote CRDT figures under descriptive canonical filenames because they show replica-order divergence and sequencer-watermark resolution details not fully repeated in the prose.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

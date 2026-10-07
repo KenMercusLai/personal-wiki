@@ -759,6 +759,7 @@ sources:
   - 1726845898951721415
   - yong-ai-gong-ju-kuai-su-zhuan-xie-fen-xiang-xing-tui-wen-reorxs-forge
   - art-of-roads-in-games
+  - bigtable-er-shi-nian-jia-gou-de-bu-bian-yu-bian
 last_updated: 2026-10-08
 ---
 
@@ -2590,7 +2591,11 @@ The newest [[CiJianDeShanLin]] source expands [[ProductionAgentInfrastructure]] 
 
 The newest Sandbox Spirit source adds a computational-geometry layer to the wiki's game-development material. [[ProceduralRoadGeometry]] separates a visually smooth centerline from a usable road surface: tight offsets of unconstrained Bézier curves can pinch or self-intersect, while concentric circular arcs preserve spacing and simplify many urban-intersection calculations. The higher-speed qualification is curvature continuity: joining a straight directly to a constant-curvature arc creates an abrupt lateral-force change, whereas clothoids increase curvature gradually. [[CitiesSkylines]] provides the practical case, progressing from freeform placement and mod-enabled markings to sequel-level visual realism while still exposing distorted extreme layouts. The article and inspected images demonstrate the representation problem, and its video shows dynamic intersection regeneration, but it supplies no derivation, benchmark, topology algorithm, or implementation detail.
 
+The newest [[CiJianDeShanLin]] source adds [[Bigtable]] as a twenty-year case in [[StorageArchitectureEvolvability]]. Colossus-resident data makes tablets movable independently of serving compute, while replication pullers, LSM compaction, logical clocks, watermarks, metadata tables, and external jobs give replication, CRDT counters, materialized views, integrity checks, garbage collection, bulk import, and offline reads places to attach without repeatedly rebuilding the foreground write protocol. The durable lesson is not that asynchronous work is simpler: destination-pulled eventual replication changes version-GC safety, counter deletion makes arrival order material, background tasks require progress and recovery state, and best-effort work needs priority and resource limits. Bigtable's evolution also treats domain-aware autosizing, cache sizing, adaptive Bloom filters, hotspot movement, black-box probes, and specialized SRE ownership as product architecture. Its unchanged single-row transaction boundary shows the opposite side of stability by pushing atomicity constraints and oversized-row risk onto applications. [[GreptimeDB]] is compared on separated storage, read replicas, remote compaction, and watermark-driven Flow, but the article supplies no versioned benchmark or proof of implementation equivalence. Both inspected CRDT figures were retained at their semantic positions because they show the delete-order divergence and sequencer-watermark resolution structure not fully conveyed by prose alone.
+
 ## Open Questions
+- Which background-task combinations in LSM systems invalidate one another's assumptions about ordering, visibility, garbage collection, or recovery?
+- When does preserving a storage system's original transactional boundary create more application complexity than architectural stability is worth?
 - Which combinations of Bézier authoring, circular-arc fitting, and transition curves provide the best balance of editing freedom, geometric validity, runtime cost, and high-speed vehicle comfort in procedural road systems?
 
 - How can people distinguish reflection that improves direction from analysis that mainly protects them from vulnerable participation?

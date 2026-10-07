@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "bigtable-er-shi-nian-jia-gou-de-bu-bian-yu-bian",
+  "images": [
+    {
+      "file": "crdt-delete-order-divergence.png",
+      "alt": "Two Bigtable replicas diverge when counter increments and a delete arrive in different orders"
+    },
+    {
+      "file": "crdt-changelog-resolution.png",
+      "alt": "Bigtable CRDT changelog separates resolved accumulation from uncertain operations around replication watermarks"
+    }
+  ]
+}

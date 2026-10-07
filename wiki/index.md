@@ -1117,6 +1117,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline](sources/vane-data-jev-building-an-end-to-end-voice-analytics-pipeline.md) - A banking example composes audio decoding, Whisper, quality gates, typed semantic judgment, SQL shaping, failure-inclusive evaluation, and mandatory human review in one Relation plan.
 - [Art of Roads in Games](sources/art-of-roads-in-games.md) - Sandbox Spirit compares Bézier splines, circular arcs, and clothoids for game-road generation, supported by inspected city-builder failures and a dynamic custom-system demo.
+- [Bigtable 二十年：架构的不变与变](sources/bigtable-er-shi-nian-jia-gou-de-bu-bian-yu-bian.md) - 此间的山林 interprets Bigtable's stable core, asynchronous extension mechanisms, cross-feature risks, offloaded work, and operational evolution over twenty years.
 
 ## Entities
 - [Daft](entities/Daft.md) - Python-facing, Rust-backed DataFrame engine designed to expose multimodal operations to query optimization and streaming execution.
@@ -1584,7 +1585,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Eric Fu](entities/EricFu.md) - Technical author proposing a data-model-centered definition of time-series databases.
 - [Prometheus](entities/Prometheus.md) - Monitoring and time-series system presented as the snapshot-oriented PromQL reference case.
 - [InfluxDB](entities/InfluxDB.md) - Measurement-and-tag time-series database presented through vector semantics, Graphite ingestion, Home Assistant event storage, and Flux analysis.
-- [GreptimeDB](entities/GreptimeDB.md) - Time-series database described through named tagged series and LSM-Parquet storage.
+- [GreptimeDB](entities/GreptimeDB.md) - Time-series database described through named tagged series, LSM-Parquet storage, separated storage, read replicas, remote compaction, and incremental views.
+- [Bigtable](entities/Bigtable.md) - Google's long-running distributed database, presented through stable tablet boundaries, asynchronous extensions, offload, integrity checks, and workload-aware operations.
 - [TDengine](entities/TDengine.md) - Time-series database whose supertables group tag-partitioned subtables.
 - [TimescaleDB](entities/TimescaleDB.md) - PostgreSQL extension optimizing temporal scans while retaining a relational model.
 - [QuestDB](entities/QuestDB.md) - Columnar relational database optimized for append-mostly ingestion workloads.
@@ -3053,6 +3055,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Revenue Per Employee](concepts/RevenuePerEmployee.md) - Aggregate productivity ratio used here as a calibrated but highly qualified headcount-based estimator of private SaaS revenue.
 - [Founder Sacrifice Norm](concepts/FounderSacrificeNorm.md) - Contested belief that willingness to absorb extreme personal loss or transfer risk to a team demonstrates founder readiness.
 - [Database Engineering Tradeoffs](concepts/DatabaseEngineeringTradeoffs.md) - Coupled correctness, availability, latency, coordination, operability, and scaling consequences of database design choices.
+- [Storage Architecture Evolvability](concepts/StorageArchitectureEvolvability.md) - Ability to add capabilities through movable state, reusable asynchronous mechanisms, and offload boundaries without repeatedly redesigning critical foreground paths.
 - [Release Communication](concepts/ReleaseCommunication.md) - Explaining product changes through channels and timing suited to the users who can actually encounter them.
 - [Consumer Market Disruption Limits](concepts/ConsumerMarketDisruptionLimits.md) - Boundary on low-end disruption theory when consumer choice depends on brand, identity, integration, and other hard-to-measure attributes.
 - [Startup Tarpit](concepts/StartupTarpit.md) - Commercial inertia created when product expansion consumes the runway needed to identify and scale the actual growth constraint.

@@ -790,12 +790,13 @@
       "a73a3fc2eee70c2d89140bbd448841a12a84d9622a1158e563f73f33f7c868fd",
       "226edb358fea4e9b176f57e2c5e0bbf3efdcdbaea7145b075ca5d6a85addc1fc",
       "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74",
-      "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0"
+      "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0",
+      "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106"
     ],
-    "paragraph_count": 790
+    "paragraph_count": 791
   },
-  "overview_commit": "cc0f88e167c22187826cec6398712712c17a3636",
-  "overview_digest": "3844b2209573be2911809de70ec27662b612f0a9ab557aae11ed41a09c8dc226",
+  "overview_commit": "f0ee0b5c498bd6436f70a6efee6fd7e24c003fa2",
+  "overview_digest": "63baea098beac3bb59f9228ac5dd056e031f5824f17c767c803fdd9ef1b17d70",
   "paragraphs": [
     {
       "id": "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
@@ -15953,6 +15954,26 @@
       "wikilinks": [
         "CitiesSkylines",
         "ProceduralRoadGeometry"
+      ]
+    },
+    {
+      "id": "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[CiJianDeShanLin]] source adds [[Bigtable]] as a twenty-year case in [[StorageArchitectureEvolvability]]. Colossus-resident data makes tablets movable independently of serving compute, while replication pullers, LSM compaction, logical clocks, watermarks, metadata tables, and external jobs give replication, CRDT counters, materialized views, integrity checks, garbage collection, bulk import, and offline reads places to attach without repeatedly rebuilding the foreground write protocol. The durable lesson is not that asynchronous work is simpler: destination-pulled eventual replication changes version-GC safety, counter deletion makes arrival order material, background tasks require progress and recovery state, and best-effort work needs priority and resource limits. Bigtable's evolution also treats domain-aware autosizing, cache sizing, adaptive Bloom filters, hotspot movement, black-box probes, and specialized SRE ownership as product architecture. Its unchanged single-row transaction boundary shows the opposite side of stability by pushing atomicity constraints and oversized-row risk onto applications. [[GreptimeDB]] is compared on separated storage, read replicas, remote compaction, and watermark-driven Flow, but the article supplies no versioned benchmark or proof of implementation equivalence. Both inspected CRDT figures were retained at their semantic positions because they show the delete-order divergence and sequencer-watermark resolution structure not fully conveyed by prose alone.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Bigtable",
+        "CiJianDeShanLin",
+        "GreptimeDB",
+        "StorageArchitectureEvolvability"
       ]
     }
   ],
