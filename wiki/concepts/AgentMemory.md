@@ -10,6 +10,7 @@ sources:
   - ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou
   - ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie
   - wei-ai-agent-gou-jian-ji-yi-xi-tong
+  - effective-context-engineering-for-ai-agents-anthropic
 last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
@@ -34,13 +35,15 @@ Working memory in this implementation is attention prefetch rather than another 
 
 Working, short-term, long-term, episodic, and semantic memory are useful retention classes only when paired with expiration, privacy and deletion, write admission, and recall policies. These controls must also preserve tenant and user boundaries; remembering more is not automatically correct or authorized.
 
+Anthropic's long-horizon guidance adds a deliberately small operational form: structured notes can preserve objectives, progress, maps, and learned tactics outside the prompt, then be reread after compaction or a context reset. This supports continuity with low active-token overhead, but a `NOTES.md`-style file is a persistence surface rather than a complete memory system; the existing requirements for admission, correction, provenance, retrieval, expiry, privacy, and user control still apply.
+
 ## Key Claims
 - Memory addresses context limits through progressive disclosure: durable evidence stays outside the prompt while compact views and pointers support selective retrieval and expansion.
 - Write access distinguishes agent memory from read-only RAG, but a writeable vector index is still only a persistence and retrieval layer.
 - Durable memory requires distillation, compaction, bitemporal state, evolution, conflict resolution, forgetting, provenance, confidence, retention, privacy, deletion, write admission, recall, and authorization in addition to similarity search.
 - Append-only evidence and derived current-state views can coexist, preserving auditability while keeping recall compact.
 - Memory should retain behavioral feedback that lacks a more authoritative home, not duplicate code, git history, or temporary task state.
-- Broad continuity layers can drift; minimal anchors and bounded topic summaries reduce inherited-state and calibration costs.
+- Broad continuity layers can drift; minimal anchors, bounded topic summaries, and structured working notes reduce inherited-state and active-token costs.
 - Storage technologies are composable implementation choices rather than substitutes for explicit memory and lifecycle semantics.
 
 ## Evidence
@@ -61,16 +64,18 @@ Working, short-term, long-term, episodic, and semantic memory are useful retenti
 - Time and evolution: [[wei-ai-agent-gou-jian-ji-yi-xi-tong]] separates event from record time and progression from validation relationships.
 - Attention and control: [[wei-ai-agent-gou-jian-ji-yi-xi-tong]] separates decay from confidence, protects important memories, uses conservative archive gates, and exposes conflicts for user review.
 - Cross-tool lifecycle: [[wei-ai-agent-gou-jian-ji-yi-xi-tong]] connects agents through working-memory injection, capture, distillation, local formats, export, and graph visibility.
+- Structured notes: [[effective-context-engineering-for-ai-agents-anthropic]] describes file-backed goals, progress, maps, and tactics that can be restored after context resets without keeping the full trajectory active.
+- Memory boundary: [[effective-context-engineering-for-ai-agents-anthropic]] demonstrates persistence and recall value, while its simple note pattern leaves write admission, conflict handling, expiry, privacy, and correction unspecified.
 
 ## Counterevidence & Qualifications
 The infrastructure-stack source names privacy, deletion, and policy requirements but does not specify enforcement, tenant scoping, user correction, retrieval evaluation, or confidence calibration. The memory architectures supply no comparative benchmark for compaction triggers, conflict policies, recall strategies, temporal weights, decay curves, or storage combinations. PsiACE's critique is strongest for detached continuity layers; calling Tape history itself “memory” preserves evidence but does not remove the need for indexing, summarization, temporal interpretation, correction, retention, and authorization. Nowledge Mem is a first-party product account: its numerical gates, boosts, task budgets, and `confidence = max(new, old)` rule are implementation policies rather than validated general laws, and non-decreasing confidence can misrepresent evidence later shown unreliable.
 
+Anthropic's note-taking examples show coherence across resets but provide no controlled comparison with compaction or retrieval systems. A note file can also preserve stale, mistaken, sensitive, or overgeneralized state indefinitely unless a surrounding lifecycle governs it.
+
 ## What Changed
-- Reclassified writeable retrieval as one layer of memory and added compaction, temporal evolution, conflict resolution, provenance, confidence, and versioning.
-- Reconciled append-only Tape evidence with derived summaries and current-state views.
-- Added retention class, TTL, privacy/deletion, write, recall, and authorization as explicit lifecycle concerns.
-- Added Trace-to-Unit-to-Crystal distillation, hybrid retrieval, bitemporal metadata, deliberate forgetting, attention prefetch, and cross-tool lifecycle hooks.
-- Made user-visible conflict review and the limits of non-decreasing confidence explicit.
+- Added structured note-taking as a low-overhead persistence and recovery pattern for long-horizon agents.
+- Preserved the boundary between a useful note file and a governed memory system with admission, correction, provenance, expiry, privacy, and recall policies.
+- Added stale or overgeneralized notes as another continuity-layer failure mode.
 
 ## Related Concepts
 - [[RetrievalAugmentedGeneration]] - agent memory is framed as RAG plus write capability.

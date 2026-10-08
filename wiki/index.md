@@ -1129,6 +1129,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI 编程是一种“框架” | Piglei](sources/ai-bian-cheng-shi-yi-zhong-kuang-jia-piglei.md) - Piglei frames AI coding as a high-level abstraction whose leverage can hide control loss, abstraction leakage, and cognitive debt, then proposes a library-style human-controlled alternative.
 
 - [A Language For Agents](sources/a-language-for-agents.md) - Practitioner proposal for programming languages that favor agent-local reasoning, explicit effects, stable diffs, deterministic tests, and uniform build feedback.
+- [Effective context engineering for AI agents | Anthropic](sources/effective-context-engineering-for-ai-agents-anthropic.md) - Anthropic frames context as a finite attention budget and maps just-in-time retrieval, compaction, structured notes, and subagents to different agent tasks.
 
 ## Entities
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
@@ -2529,14 +2530,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Antirez](entities/Antirez.md) - Redis creator and systems programmer arguing that AI coding capability should be tested seriously despite anti-hype instincts, centralization worries, and job-loss concerns.
-- [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, and simple composable agent-building guidance.
+- [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, simple composable agents, and finite-attention context engineering.
 - [AWS](entities/AWS.md) - Cloud platform represented through EC2, managed services, cost and security boundaries, and an AMI-based immutable delivery chain.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
-- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, simple-loop design analysis, systems-programming examples, and mobile/cloud supervision.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through project-wide runtime retrieval, compaction, prompt-cache behavior, simple and multi-agent workflows, and mobile/cloud supervision.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
@@ -3650,7 +3651,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Integration DSL](concepts/IntegrationDSL.md) - Specialized low-code or domain-specific integration environment that can simplify workflow, connectivity, and adapter work when bounded behind clean interfaces.
 - [Source-Diagram Isomorphism](concepts/SourceDiagramIsomorphism.md) - Low-code tool structure where graphical workflow diagrams and source markup are synchronized program representations.
 - [Channel API](concepts/ChannelAPI.md) - Consumer- or partner-specific API surface that adapts clean capabilities to a channel while hiding downstream implementation complexity.
-- [Agentic Workflow Patterns](concepts/AgenticWorkflowPatterns.md) - Reusable LLM system patterns such as prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer loops, and autonomous agent loops.
+- [Agentic Workflow Patterns](concepts/AgenticWorkflowPatterns.md) - Reusable LLM control structures spanning fixed workflows, autonomous loops, bounded branches, and context-isolated specialist delegation.
 - [Mobile Agent Development](concepts/MobileAgentDevelopment.md) - Phone-controlled, cloud-hosted coding-agent workflow using persistent sessions, private networking, push notifications, and isolated parallel worktrees.
 - [Agent Computer Interface](concepts/AgentComputerInterface.md) - Design layer for making tools, files, APIs, computers, and environments understandable and safely usable by AI agents.
 - [Strategic Writing](concepts/StrategicWriting.md) - Writing plans and decisions deeply enough that rationale, assumptions, tradeoffs, and execution logic can be inspected and reused.
@@ -3975,7 +3976,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Experience](concepts/AgentExperience.md) - Design practice for making user intent, agent context, and external action reliable in AI-agent products.
 - [Agent Interface As Context](concepts/AgentInterfaceAsContext.md) - Interface-design frame where GUIs and TUIs deliver timely constraints, diagnostics, and warnings into an agent's observed context.
-- [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
+- [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through notes, durable evidence, maintained views, and selective recall.
 - [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
@@ -4050,7 +4051,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Data Factories](concepts/DataFactories.md) - Organizational and technical systems that repeatedly transform varied data inputs into operational decisions, profiles, insights, and customer-facing services.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Staged local listener inventory, process attribution, path testing, and service-risk interpretation across Linux and macOS.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
-- [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
+- [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, summarizes, or externalizes material while preserving high-recall continuity.
 - [Deep Learning](concepts/DeepLearning.md) - Layered representation learning shaped by training mechanics, labeled and unlabeled data, accelerator scale, operational deployment, reusable artifacts, and transfer limits.
 - [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
 - [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make an offer customer-visibly distinct, including alignment between a niche audience, focused product, and targeted message.
@@ -4106,7 +4107,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [L2VPN Dummy VLAN](concepts/L2VPNDummyVLAN.md) - VLAN ID 0 tag used in some L2VPN pseudowire cases to carry 802.1p priority after rewrite strips the customer VLAN tag.
 - [EoMPLS](concepts/EoMPLS.md) - Ethernet-over-MPLS L2VPN service that exposes the successful IOS XR Type 4 dummy VLAN test in the source.
 - [LVS Forwarding Modes](concepts/LVSForwardingModes.md) - Packet-forwarding strategies such as DR, NAT, full NAT, ENAT, and IP TUN in LVS-like systems.
-- [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
+- [LLM Context Management](concepts/LLMContextManagement.md) - Allocating a finite attention budget across instructions, tools, runtime retrieval, history, memory, and long-horizon handoffs.
 - [LLM Data Analysis](concepts/LLMDataAnalysis.md) - Using LLMs for analysis or bounded extraction while controlling inferential, schema, source-selection, and data-quality risks.
 - [LLM Sycophancy](concepts/LLMSycophancy.md) - Model tendency to validate or agree with users when premises, intent, or self-understanding should be questioned.
 - [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.

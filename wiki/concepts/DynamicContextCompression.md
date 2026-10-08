@@ -6,7 +6,8 @@ sources:
   - yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
   - mu-jiang-chui-zi-ding-zi
-last_updated: 2026-09-12
+  - effective-context-engineering-for-ai-agents-anthropic
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,8 +21,10 @@ A concrete provider-specific answer to that tension is microcompact: large, fast
 
 [[TapeAndAnchors]] offers a more radical qualification. Compression, summaries, forks, merges, and handoffs all help finite contexts cope with long interaction histories, but they still often assume that history must be continuously inherited. The model reduces the compression burden by preserving raw history externally and carrying forward only minimal anchors.
 
+Anthropic's account places compaction inside a broader long-horizon toolkit. A near-full conversation can be summarized into a fresh window, preserving decisions, unresolved problems, and implementation details while discarding redundant messages and old raw tool results. The tuning priority should begin with recall, because subtle information may become important only later; precision can then improve by removing clearly superfluous material. Structured notes or subagents may be better when state should remain external or exploration can be isolated.
+
 ## Key Claims
-- Passive end-of-window summarization happens at a bad time and can discard important detail.
+- End-of-window summarization can restore capacity but can discard latent-important detail unless its prompt is tuned for high recall before precision.
 - Dynamic compression should proactively remove wrong, low-relevance, or distracting context.
 - External storage plus retrieval can preserve details without keeping everything in the active prompt.
 - Hierarchical memory systems resemble operating-system virtual memory.
@@ -38,16 +41,21 @@ A concrete provider-specific answer to that tension is microcompact: large, fast
 - Microcompact example: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] describes Claude Code targeting large tool results with cache references and cache edits while leaving local message history unchanged.
 - Continuity critique: [[mu-jiang-chui-zi-ding-zi]] groups compact, summary, fork, merge, and handoff as mechanisms built around the premise that state and history must continue.
 - Anchor alternative: [[mu-jiang-chui-zi-ding-zi]] proposes ending tasks cleanly, storing minimal anchors, and reconstructing context only when needed.
+- High-recall compaction: [[effective-context-engineering-for-ai-agents-anthropic]] recommends preserving decisions, unresolved bugs, and implementation detail first, then iterating to remove superfluous content.
+- Tool-result clearing: [[effective-context-engineering-for-ai-agents-anthropic]] identifies old raw tool calls and results as a comparatively safe early target for light-touch compaction.
+- Alternatives by task shape: [[effective-context-engineering-for-ai-agents-anthropic]] places compaction beside structured notes and subagents rather than treating it as the only continuity mechanism.
 
 ## Counterevidence & Qualifications
 The sources propose architectural directions but do not benchmark dynamic compression against passive summarization. Claude Code's cache-edit behavior is provider-specific and partly inferred, and the sources do not resolve how a supervising model distinguishes false, low-value, and latent-but-important details in high-stakes domains.
 
 This model shifts rather than solves several hard problems: retrieval quality, anchor design, provenance, and privacy still determine whether reconstructed context is adequate.
 
+Anthropic does not supply a fidelity benchmark, trigger policy, or comparative threshold for choosing compaction over notes or subagents. Its Claude Code description is a product example, not evidence that the same retention recipe fits every domain, especially when later relevance is hard to predict.
+
 ## What Changed
-- Created the concept page for active context compression and its relationship to memory, RAG, and prompt caching.
-- Added Claude Code microcompact as a concrete, cache-preserving dynamic compression pattern.
-- Added tape and anchors as an alternative that avoids some compression by changing the continuity model.
+- Reframed compaction as one long-horizon continuity mechanism beside structured notes and subagents.
+- Added high recall before precision as the tuning order for summary-based compaction.
+- Added old raw tool results as a comparatively safe first clearing target, while preserving the latent-relevance risk.
 
 ## Related Concepts
 - [[LLMContextManagement]] - dynamic compression is one method for protecting context quality.

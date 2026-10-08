@@ -8900,3 +8900,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | Effective context engineering for AI agents | Anthropic
+
+Updated [[LLMContextManagement]], [[DynamicContextCompression]], [[AgentMemory]], [[AgenticWorkflowPatterns]], [[ClaudeCode]], and [[Anthropic]] from their complete ordered evidence inventories. Added the finite-attention objective, minimal high-signal prompts and tools, just-in-time and hybrid retrieval, high-recall compaction, structured note-taking, and context-isolated subagents; preserved their task-dependent tradeoffs and the first-party, unbenchmarked evidence boundary. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

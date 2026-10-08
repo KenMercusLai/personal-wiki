@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 7556f03f844a4632ea35243977bba718db9d63d9
+as_of_overview_commit: a3ac57dcc3d8389bb4eee798de2c9f415792bdaa
 summary: "A qualified map of technology, markets, institutions, culture, health, work, and judgment, centered on evidence, accountable autonomy, community, and recoverable control."
-episode_count: 1103
-source_count: 1103
+episode_count: 1104
+source_count: 1104
 paragraph_count: 798
 topic_count: 9
 ---
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, and human judgment; small agent interfaces still need externally enforced authority boundaries.
+Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, context discipline, and human judgment; small agent interfaces still need externally enforced authority boundaries.
 
 - [[AINativeAgentArchitecture]] extends [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], and [[HeadlessAgentArchitecture]] from task execution into runtime self-extension: [[Bub]] used an agent-created Telegram Skill, a Docker startup contract, and one-shot execution to replace framework-owned behavior, while [[AgentPermissionModel]], [[SoftwareVerification]], and [[ProductionAgentInfrastructure]] remain necessary because a small tool interface can still expose broad shell, filesystem, network, credential, and unattended-execution authority. Evidence: [[FrostMing]], [[AINativeAgentArchitecture]], [[Bub]], [[OpenClaw]], [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], [[HeadlessAgentArchitecture]], [[AgentPermissionModel]], [[SoftwareVerification]], [[ProductionAgentInfrastructure]].
 - [[DeepSeekV41Flash]] combines [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], and [[HierarchicalSparseIndexer]] to reduce long-context prefill, stored global attention state, and repeated decoder address selection: bulk prompt positions exit after a causal encoder, Full/Reindex/Reuse layers refresh content, addresses, and queries at different rates, and later decoder indexers search a bounded shared pool. Evidence: [[Zartbot]], [[DeepSeekV41Flash]], [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], [[HierarchicalSparseIndexer]], [[KVCacheAwareRouting]].

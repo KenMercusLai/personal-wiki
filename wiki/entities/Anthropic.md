@@ -7,7 +7,8 @@ sources:
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
   - blog-anthropic-building-effective-ai-agents
-last_updated: 2026-09-14
+  - effective-context-engineering-for-ai-agents-anthropic
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,7 +20,7 @@ One source mentions Anthropic while discussing the engineering tension between d
 
 The prompt-cache article adds more detail about Anthropic's cache model as seen through Claude Code. It describes cache write pricing, breakpoint-style public cache controls, and a private API surface where `cache_reference` and `cache_edits` let the client logically delete selected content from the cached provider-side view while leaving local messages unchanged.
 
-The "Building Effective AI Agents" article adds Anthropic's own practitioner guidance. It treats agentic systems as a spectrum from predefined workflows to autonomous agents, recommends starting with simple LLM calls before adding complexity, and emphasizes transparency, evaluation, tool documentation, environmental feedback, guardrails, and human checkpoints. This makes Anthropic not only a provider example but also a source of agent-engineering design doctrine.
+The "Building Effective AI Agents" article adds Anthropic's own practitioner guidance. It treats agentic systems as a spectrum from predefined workflows to autonomous agents, recommends starting with simple LLM calls before adding complexity, and emphasizes transparency, evaluation, tool documentation, environmental feedback, guardrails, and human checkpoints. The later context-engineering article extends that doctrine from control flow to inference state: use a minimal high-signal context, keep prompts and tools clear and non-overlapping, retrieve dynamic material just in time, and choose among compaction, structured notes, and subagents for long-horizon work.
 
 ## Key Characteristics
 - Represents a mainstream provider using prefix or prompt caching for LLM inference.
@@ -28,7 +29,7 @@ The "Building Effective AI Agents" article adds Anthropic's own practitioner gui
 - Shows the engineering tension between dynamic context edits and cache reuse.
 - Builds or provides the Claude Code context in the source's account, combining model quality with tool workflow design.
 - Imposes usage limits that the source interprets as evidence of compute and pricing pressure.
-- Exposes provider-specific cache-edit behavior used by Claude Code for microcompact and publishes agent-building guidance around simple workflows, transparent planning, and tool-interface design.
+- Exposes provider-specific cache-edit behavior used by Claude Code for microcompact and publishes agent-building guidance around simple workflows, transparent planning, token-efficient tools, runtime retrieval, and long-horizon context continuity.
 
 ## Evidence
 - Provider example: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] names Anthropic among providers doing prefix caching.
@@ -39,15 +40,16 @@ The "Building Effective AI Agents" article adds Anthropic's own practitioner gui
 - Usage limits: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] discusses new weekly limits and speculates that heavy usage, compute scarcity, and pricing pressure are part of the background.
 - Private cache edits: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] describes `cache_reference` and `cache_edits` as private API markers used by Claude Code to microcompact large tool results.
 - Agent guidance: [[blog-anthropic-building-effective-ai-agents]] argues for simple composable patterns, workflow-versus-agent distinctions, transparent planning, tool documentation, and testing before production use.
+- Context guidance: [[effective-context-engineering-for-ai-agents-anthropic]] frames inference context as a finite attention budget and recommends the smallest sufficient high-signal token set.
+- Runtime and continuity: [[effective-context-engineering-for-ai-agents-anthropic]] combines just-in-time retrieval with task-dependent compaction, structured notes, and specialized subagents.
 
 ## Qualifications
-This profile reflects source-scoped caching, Claude Code usage discussion, and Anthropic's public engineering guidance as archived in the supplied article. It should not be read as current Anthropic product documentation, current limits, pricing, financing status, or API guidance. The cache-edit account is inferred from client behavior and private fields rather than documented public semantics.
+This profile reflects source-scoped caching, Claude Code usage discussion, and Anthropic's public engineering guidance as archived in the supplied articles. It should not be read as current Anthropic product documentation, current limits, pricing, financing status, or API guidance. The cache-edit account is inferred from client behavior and private fields rather than documented public semantics. The context-engineering article is first-party guidance without supplied comparative evaluation for its compaction, retrieval, or multi-agent recommendations.
 
 ## What Changed
-- Created an entity profile for Anthropic as an example in prompt-caching architecture.
-- Added the Claude Code source's view of Anthropic as a vertically integrated model/tool provider with usage-limit pressure.
-- Added private cache-edit behavior as an inferred provider-specific capability.
-- Added Anthropic's own agent-engineering guidance around simple workflows, transparent agent behavior, and tool-interface design.
+- Extended Anthropic's published agent doctrine from workflow structure to finite-attention context design.
+- Added just-in-time retrieval and compaction, notes, and subagents as its task-dependent continuity toolkit.
+- Qualified the recommendations as first-party guidance without supplied comparative evaluation.
 
 ## Relationships
 - [[DynamicContextCompression]] - Anthropic's caching model illustrates compression/cache tension.

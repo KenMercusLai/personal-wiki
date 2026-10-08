@@ -8,7 +8,8 @@ sources:
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - claude-code-on-the-go
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
-last_updated: 2026-09-17
+  - effective-context-engineering-for-ai-agents-anthropic
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -28,13 +29,15 @@ The mobile Claude Code setup adds a human-checkpoint variant for asynchronous ag
 
 The staged-history source supplies a demand-side reason workflows persist even as agentic loops improve. Its argument is that quality is not the only user requirement: people who will wait for a strong result still expect predictable wait times and consistent outputs, and predefined, inspectable paths are what deliver that consistency. Workflows therefore survive beside autonomous agents not because the agents are weak but because reproducibility is a separate property from peak quality, a point that also connects the pattern catalog to [[AgentDeploymentTradeoffs]].
 
+Anthropic's context-engineering article clarifies when a subagent is more than parallelism. A coordinator can preserve a compact high-level context while a specialist consumes a clean window for deep search or tool use, then returns only a distilled result. The advantage is context isolation; the cost is a lossy handoff plus orchestration and token overhead. This reconciles the one-main-loop preference with heavier multi-agent research: delegate bounded, independently explorable work when the returned summary is sufficient, not by default.
+
 ## Key Claims
 - Agentic systems should add complexity only when simpler prompting, retrieval, and in-context examples fall short.
 - Workflows keep LLM/tool execution on predefined paths, while agents let the model dynamically control process and tool use; predictable wait times and consistent outputs are a stated reason workflows stay relevant.
 - Prompt chaining, routing, parallelization, orchestrator-workers, and evaluator-optimizer loops cover common production workflow shapes.
 - Pattern choice depends on task decomposition, classification confidence, independence of subtasks, uncertainty about subtasks, availability of evaluation criteria, downstream bottleneck capacity, and checkpoint design.
 - Autonomous agents fit open-ended tasks where fixed paths cannot be predicted, but need environmental feedback, stopping conditions, testing, guardrails, human checkpoints, and escalation paths.
-- Coding-agent loops can preserve debuggability by using one main message history and limiting subagent branching.
+- Coding-agent loops can preserve debuggability by using one main message history and limiting subagent branching; specialist delegation earns its overhead when context isolation materially improves bounded deep work.
 - Todo lists, push notifications, and bounded subagents can let a coding agent decompose or pause work while keeping focus on the user's final desired outcome.
 
 ## Evidence
@@ -53,15 +56,16 @@ The staged-history source supplies a demand-side reason workflows persist even a
 - Async checkpoint: [[claude-code-on-the-go]] uses a Claude Code PreToolUse hook on AskUserQuestion to send the pending question to a phone through a Poke webhook.
 - Parallel isolation: [[claude-code-on-the-go]] runs multiple Claude agents in separate tmux windows and git worktrees, with branch-name-derived ports to avoid conflicts.
 - Reproducibility rationale: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says users expect predictable wait times and consistent outputs, which is why workflows continue to matter even when higher-quality agents are available.
+- Context-isolated delegation: [[effective-context-engineering-for-ai-agents-anthropic]] describes a coordinator retaining the high-level plan while specialists explore in clean windows and return distilled summaries.
+- Task-fit boundary: [[effective-context-engineering-for-ai-agents-anthropic]] places subagents beside compaction and structured notes, making the choice depend on task characteristics rather than treating more agents as universally better.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, MinusX interprets Claude Code's coding-agent loop from observed behavior, the bottleneck-aware source focuses on delivery throughput, and the mobile setup describes one person's operating environment. Bounded branching, notifications, and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, and flow-control story. The reproducibility argument is stated as a user expectation rather than measured variance, so it supports keeping workflows available without settling how much run-to-run variation any given task tolerates.
+The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures and later advocates context-isolated specialists, MinusX interprets Claude Code's coding-agent loop from observed behavior, the bottleneck-aware source focuses on delivery throughput, and the mobile setup describes one person's operating environment. Bounded branching, notifications, and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, handoff, and flow-control story. The newer Anthropic article mentions substantial multi-agent research gains but the supplied text gives no evaluation protocol, cost comparison, or attribution between parallel search and architecture. The reproducibility argument is stated as a user expectation rather than measured variance, so it supports keeping workflows available without settling how much run-to-run variation any given task tolerates.
 
 ## What Changed
-- Added the phone-notified human checkpoint loop.
-- Added worktree and port isolation as practical supports for parallel coding-agent sessions.
-- Reframed async mobile supervision as an agentic workflow pattern rather than just a terminal setup.
-- Added reproducibility as the demand-side reason workflows remain relevant.
+- Added context isolation and distilled return as the defining benefit of specialist subagents.
+- Reconciled bounded one-loop designs with heavier multi-agent research through task-dependent delegation.
+- Added lossy handoff, orchestration, and token overhead as explicit costs.
 
 ## Related Concepts
 - [[AgentExperience]] - workflow and agent structure shape how users clarify goals and recover from agent behavior.

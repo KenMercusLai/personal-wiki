@@ -13,7 +13,8 @@ sources:
   - blog-guangzhengli-vibe-coding-and-context-coding
   - context-engineering-from-the-inside-out
   - philipp-schmid-gemini-3-prompting-best-practices-for-general-usage
-last_updated: 2026-10-01
+  - effective-context-engineering-for-ai-agents-anthropic
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -39,14 +40,18 @@ The newest source makes this practice explicit as context engineering and gives 
 
 Schmid's Gemini 3 guide adds a prompt-level placement rule that fits this architecture. Stable roles and behavioral constraints belong at the beginning or in the system instruction, while the concrete question over a large document, codebase, or media context belongs after that material and should explicitly point back to it. This separates persistent policy from the recency-sensitive task. The same guide treats modalities as one context rather than isolated channels: if text, images, audio, or video must jointly inform the result, the instruction should name that synthesis requirement.
 
+Anthropic's first-party synthesis supplies a compact governing objective: context is a finite attention budget, so selection should maximize expected task value per token rather than fill the nominal window. It distinguishes stable preload from runtime discovery. Clear system instructions and a small non-overlapping tool set provide durable orientation; paths, links, stored queries, metadata, and targeted shell operations let the agent progressively disclose task-specific material. A hybrid can preload stable, high-value context for speed and reserve dynamic evidence for just-in-time exploration.
+
+For work that outlives one window, the same objective produces three different continuity mechanisms. Compaction carries a high-recall summary into a fresh window; structured notes persist goals, decisions, and progress outside the prompt; and subagents isolate deep exploration before returning a distilled result. These mechanisms are not interchangeable: the task's latency, decomposability, retrieval environment, and cost of losing subtle detail determine the appropriate mix.
+
 ## Key Claims
 - LLMs generate from probability distributions over tokens, so context strongly shapes both reasoning and action.
 - Skills, MCP, RAG, Memory, and Computer Use can be understood as different context-management and action-interface patterns.
-- Longer context windows reduce capacity pressure but do not prevent degradation from irrelevant material, messy formats, failed attempts, contradictory instructions, emotional pressure, lossy summaries, or misleading tool traces.
+- Longer context windows reduce capacity pressure but do not prevent declining precision, context pollution, or distraction from irrelevant material, messy formats, failed attempts, contradictory instructions, emotional pressure, lossy summaries, and misleading tool traces.
 - Stable system/tool prefixes, deterministic tool results, dynamic conversation suffixes, and provider-side cache edits offer ways to balance context adaptation with prompt-cache reuse.
 - Long coding-agent and group-chat sessions create practical failure modes when auto-compaction happens mid-task, topics run in parallel, or a task is too large for one session.
-- Always-on project files, on-demand skills, action-triggered hooks, append-only history, milestone resets, and file-backed state can avoid carrying every past state forward; persistent constraints belong early, while a query over long supplied evidence benefits from recency and an explicit final anchor.
-- Multimodal context needs explicit cross-modal instructions when text, images, audio, or video must inform one answer.
+- Always-on project files, on-demand skills, action-triggered hooks, append-only history, milestone resets, file-backed state, and just-in-time retrieval avoid carrying every possible input forward; persistent constraints belong early, while task-specific evidence should be loaded when useful.
+- Compaction, structured notes, and subagents extend long-horizon work through different lossy or externalized handoffs; their fit depends on task structure, latency, and the cost of missing subtle context.
 
 ## Evidence
 - Shared framing: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] explicitly says Skills, MCP, and coding-agent command execution are different openings from LLM text generation into the outside world, then frames them as solving context pollution.
@@ -70,6 +75,11 @@ Schmid's Gemini 3 guide adds a prompt-level placement rule that fits this archit
 - Lossy handoff: [[context-engineering-from-the-inside-out]] frames compaction and subagents as sequential and parallel uses of fresh context that both compress information at the handoff boundary.
 - Prompt-layer placement: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] recommends placing role and behavior constraints at the beginning while putting the specific task after a large context block with an explicit bridge to the preceding material.
 - Multimodal coherence: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] says prompts should reference the modalities to be synthesized rather than leave them as disconnected inputs.
+- Finite attention budget: [[effective-context-engineering-for-ai-agents-anthropic]] argues that context has diminishing marginal returns and should contain the smallest sufficient set of high-signal tokens.
+- Prompt, tool, and example design: [[effective-context-engineering-for-ai-agents-anthropic]] recommends direct minimal-but-sufficient system instructions, non-overlapping token-efficient tools, and diverse canonical examples rather than exhaustive edge-case lists.
+- Runtime retrieval: [[effective-context-engineering-for-ai-agents-anthropic]] describes paths, links, stored queries, metadata, file hierarchy, and targeted shell commands as lightweight handles for progressive just-in-time discovery.
+- Hybrid loading: [[effective-context-engineering-for-ai-agents-anthropic]] allows stable context to be retrieved up front for speed while the agent explores further evidence at runtime when the task warrants it.
+- Long-horizon continuity: [[effective-context-engineering-for-ai-agents-anthropic]] separates high-recall compaction, persistent structured notes, and specialized subagents that return distilled findings.
 
 ## Counterevidence & Qualifications
 The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the interface-as-context claim remains a design argument rather than a validated UI standard. Guangzhengli's tool comparison is also experience-based and may change with pricing, model quality, and product behavior. The newest source's tagging-agent accuracy is self-reported without a published evaluation protocol, and its claims about thinking-token removal depend on a particular runtime.
@@ -80,10 +90,13 @@ The humanities-workflow source gives practical heuristics but not measured thres
 
 Schmid's placement and multimodal recommendations are likewise model-specific practitioner guidance without controlled comparisons. Beginning-and-end placement may improve salience, but it does not guarantee faithful use of the intervening material, and added planning or anchoring language consumes context and latency that simple tasks may not need.
 
+Anthropic's article is first-party design guidance rather than a comparative evaluation. It cites context-rot research and a multi-agent improvement but the supplied text gives no benchmark protocol, model-by-model thresholds, compaction-fidelity measure, or cost/latency comparison between preload, runtime retrieval, notes, and delegation. Its `n²` pairwise-attention explanation is a useful intuition, not a complete causal account of long-context degradation.
+
 ## What Changed
-- Added the distinction between early durable constraints and end-positioned questions over long evidence blocks.
-- Added explicit cross-modal synthesis as a context-management requirement.
-- Qualified both recommendations as unmeasured, model-specific practitioner guidance.
+- Added the finite-attention objective of maximizing task value per token rather than filling the nominal window.
+- Added just-in-time discovery and hybrid preload/runtime retrieval as explicit context-loading strategies.
+- Separated compaction, structured notes, and subagents by continuity mechanism and task fit.
+- Qualified Anthropic's recommendations as first-party guidance without supplied comparative evaluation.
 
 ## Related Concepts
 - [[LLMToolingSkills]] - Skills manage context by adding expert instructions.
@@ -100,3 +113,4 @@ Schmid's placement and multimodal recommendations are likewise model-specific pr
 - [[AgentInterfaceAsContext]] - interfaces can deliver timely diagnostic context during agent action.
 - [[ContextCoding]] - context coding applies these context-management concerns directly to AI-assisted software development.
 - [[PromptEngineering]] - turns context selection, boundaries, placement, and output requirements into a task-facing instruction contract.
+- [[AgenticWorkflowPatterns]] - subagents isolate deep exploration and return compressed results when task decomposition justifies the handoff.
