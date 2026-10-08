@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
       "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
       "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
       "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
@@ -795,11 +796,35 @@
       "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106",
       "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0"
     ],
-    "paragraph_count": 793
+    "paragraph_count": 794
   },
-  "overview_commit": "26e881df2a1603bf5d8e69023d4c7c80d2af0b1e",
-  "overview_digest": "e8aa64cc2399d628cdbf1f9b4eeda7dd31004f8bbe3417117e83f77232f184ed",
+  "overview_commit": "c29e3bbf6e0806eb5c2222e99cda0b70e2dcdd14",
+  "overview_digest": "5cfa08274a742cb6d72230c2d8d865df6e87774201db00b6ed0c6a44bb079fe5",
   "paragraphs": [
+    {
+      "id": "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[Zartbot]] source adds model-internal cache design to the wiki's deployment-level accounts of prompt caching, context management, and [[KVCacheAwareRouting]]. [[DeepSeekV41Flash]] is presented as a 40-layer multimodal MoE whose [[CausalEncoderDecoderArchitecture]] lets bulk prompt positions exit after a 20-layer causal encoder while the decoder consumes encoder-derived global memory and rebuilds only a bounded suffix of local sliding-window state. [[KVCacheCompression]] then spans four compounding dimensions: a shared 512-channel latent reduces entry width, encoder positions are compressed 2:1, [[CompressedSparseAttention2]] collapses long-lived global content to four layer sources, and FP4 storage uses one E4M3 scale per 16 E2M1 values. CSA2's deeper synthesis is a refresh hierarchy: Full changes content, sparse addresses, and queries; Reindex preserves content but chooses new addresses; Reuse preserves both and changes only the query. [[HierarchicalSparseIndexer]] makes later decoder selection bounded by deriving a 16,384-position block pool from layer 20's full scan, then allowing layers 24, 28, 32, and 36 to select independent Top-512 sets inside it. Query-only reuse remains expressive through exponential reweighting but cannot recover excluded content, move the fixed dictionary, or leave its convex hull. The reported 890-byte-per-token global cache, benchmark quality, throughput, and training behavior remain vendor- or author-mediated rather than independently replicated; the supplied Markdown also loses many rendered formula symbols, and its proposed query-aware KV-space mapping is explicitly speculative. All 28 distinct remote images were opened. Nine benchmark, prefill, architecture, mode, indexing, quantization, and reuse-geometry figures were retained at their semantic positions; duplicate diagrams and lower-level examples fully represented by those figures and the prose were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "CausalEncoderDecoderArchitecture",
+        "CompressedSparseAttention2",
+        "DeepSeekV41Flash",
+        "HierarchicalSparseIndexer",
+        "KVCacheAwareRouting",
+        "KVCacheCompression",
+        "Zartbot"
+      ]
+    },
     {
       "id": "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
       "primary_topic": "business-and-markets",

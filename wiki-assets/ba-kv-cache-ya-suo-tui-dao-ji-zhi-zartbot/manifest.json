@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot",
+  "images": [
+    {
+      "file": "agent-tool-prefill-cycle.png",
+      "alt": "Agent tool calls repeatedly extend prompts and can trigger uncached prefill work"
+    },
+    {
+      "file": "yoco-prefill-sharing.png",
+      "alt": "YOCO contrasts full decoder-only prefill with midpoint early exit and one shared global KV cache"
+    },
+    {
+      "file": "csa2-full-reindex-reuse-modes.png",
+      "alt": "CSA2 Full, Reindex, and Reuse modes refresh different cache components"
+    },
+    {
+      "file": "ced-csa2-block-architecture.png",
+      "alt": "DeepSeek-V4.1-Flash combines causal-encoder Full and Reuse blocks with decoder Full, Reindex, and Reuse blocks"
+    },
+    {
+      "file": "hierarchical-sparse-indexer.png",
+      "alt": "Hierarchical Sparse Indexer builds a block candidate pool once and lets deeper layers re-rank only within it"
+    },
+    {
+      "file": "fp4-main-kv-quantization.png",
+      "alt": "FP4 main KV packs sixteen E2M1 values with one E4M3 scale and derives 288 bytes per 512-channel entry"
+    },
+    {
+      "file": "query-reuse-convex-hull.png",
+      "alt": "CSA2 Reuse changes the query while content and address stay fixed, keeping output inside one convex hull"
+    },
+    {
+      "file": "deepseek-v41-flash-architecture.png",
+      "alt": "DeepSeek-V4.1-Flash architecture joins the causal encoder, decoder, CSA2, Engram, vision input, and DSpark"
+    },
+    {
+      "file": "kv-cache-benchmark-comparison.png",
+      "alt": "Reported agent benchmarks accompany a global KV cache reduction from 3514 to 890 bytes per token"
+    }
+  ]
+}

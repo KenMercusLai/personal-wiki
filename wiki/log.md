@@ -8836,3 +8836,11 @@ Created [[FrederickBrooks]] and [[TheLegendOfZeldaLinksAwakening]], and updated 
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | 把 KV Cache 压缩推到极致
+
+Created [[Zartbot]], [[DeepSeekV41Flash]], [[KVCacheCompression]], [[CausalEncoderDecoderArchitecture]], [[CompressedSparseAttention2]], and [[HierarchicalSparseIndexer]]. Recorded causal prefill early exit and bounded SWA replay; channel, sequence, layer, and FP4 cache compression; Full/Reindex/Reuse refresh semantics; HSI's full-scan and candidate-pool boundary; the 890-byte-per-token derivation; and the fixed-convex-hull and recall limits of query-only reuse. Preserved the secondary-source, missing-equation, undisclosed-training, benchmark-replication, and speculative-mapping qualifications. Opened all 28 distinct remote images; retained nine benchmark, prefill, architecture, mode, indexing, quantization, and reuse-geometry figures under descriptive canonical filenames, and omitted duplicate or lower-level diagrams whose information was fully represented by the retained figures and prose.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
