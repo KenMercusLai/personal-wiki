@@ -1119,6 +1119,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vane Data + Jev: Building an End-to-End Voice Analytics Pipeline](sources/vane-data-jev-building-an-end-to-end-voice-analytics-pipeline.md) - A banking example composes audio decoding, Whisper, quality gates, typed semantic judgment, SQL shaping, failure-inclusive evaluation, and mandatory human review in one Relation plan.
 - [Art of Roads in Games](sources/art-of-roads-in-games.md) - Sandbox Spirit compares Bézier splines, circular arcs, and clothoids for game-road generation, supported by inspected city-builder failures and a dynamic custom-system demo.
 - [Bigtable 二十年：架构的不变与变](sources/bigtable-er-shi-nian-jia-gou-de-bu-bian-yu-bian.md) - 此间的山林 interprets Bigtable's stable core, asynchronous extension mechanisms, cross-feature risks, offloaded work, and operational evolution over twenty years.
+- [开发软件，或建造迷宫 | Piglei](sources/kai-fa-ruan-jian-huo-jian-zao-mi-gong-piglei.md) - Piglei uses Link's Awakening and Brooks's complexity distinction to argue that AI can accelerate implementation without replacing durable conceptual design, product judgment, or empathy for users.
 
 ## Entities
 - [CxEric](entities/CxEric.md) - Writer represented through a qualified systems analogy connecting supply-chain demand amplification to AI infrastructure investment.
@@ -2902,6 +2903,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Serenity (Investor)](entities/SerenityInvestor.md) - Anonymous investor portrayed in one secondary essay as using supply-chain chokepoint research and dynamic rotation, with identity and performance unverified.
 - [Cities: Skylines](entities/CitiesSkylines.md) - City-building game series used to illustrate freeform road authoring, mod-enabled realism, and persistent tight-curve geometry failures.
+- [Frederick Brooks](entities/FrederickBrooks.md) - Software-engineering thinker represented through the essential-versus-accidental complexity distinction and its use in evaluating AI coding claims.
+- [The Legend of Zelda: Link's Awakening](entities/TheLegendOfZeldaLinksAwakening.md) - Game Boy title and Switch remake used to illustrate durable conceptual value across extensive presentation and platform change.
 
 ## Concepts
 - [Bullwhip Effect](concepts/BullwhipEffect.md) - Amplification and reversal of terminal-demand signals through delayed forecasts, safety buffers, inventory, procurement, and capacity decisions across a supply chain.

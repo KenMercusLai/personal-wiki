@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-08
-as_of_overview_commit: b4c450a90204fba590addae6ffcd33ba55a439e5
-input_digest: ff4ce70a58788bba4a83f2430a0d475d397b928ab5de55e919620c9b0d3d1ec9
+as_of_overview_commit: 26e881df2a1603bf5d8e69023d4c7c80d2af0b1e
+input_digest: c35ae745d90b162915139b8ac39a5d0da7bd6a62468916d7be60c0eb5de7cabc
 ---
 
 # AI and Technology
@@ -339,9 +339,9 @@ Architecture and technology governance should vary by organizational scope, coup
 
 ### Ai Task Fit Requires Human Practice
 
-Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans. [[TaskContingentAICollaboration]] makes the routing variables explicit: consequential or coupled work stays synchronous, clear repetitive execution can become bounded asynchronous autonomy, and unfamiliar domains call for staged exploration; checkpoints make attempts reversible, but [[HumanCodeResponsibility]] and [[SoftwareVerification]] still govern diagnosis, integration, and acceptance. Hutusi’s [[ChatGPT]] example and [[Antirez]] show substantial implementation leverage, while Irwin’s [[SoftwareEngineering]] loop argues that code generation, tests, logs, and debugging tools still require a stable comparison between intended and actual behavior. [[ContextCoding]] supplies the disciplined context-engineering version, while [[AIDependencySkillAtrophy]], [[LearningByWriting]], [[OrhunParmaksiz]], and [[SemanticAblation]] preserve skill, craft, and meaning-loss boundaries. [[Fenx]] adds a first-iOS-app case in which coding agents accelerated unfamiliar implementation while the human still micro-managed requirements, learned missing graphics concepts, tested on devices, and owned release judgment.
+Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans. [[TaskContingentAICollaboration]] makes the routing variables explicit: consequential or coupled work stays synchronous, clear repetitive execution can become bounded asynchronous autonomy, and unfamiliar domains call for staged exploration; checkpoints make attempts reversible, but [[HumanCodeResponsibility]] and [[SoftwareVerification]] still govern diagnosis, integration, and acceptance. Hutusi’s [[ChatGPT]] example and [[Antirez]] show substantial implementation leverage, while Irwin’s [[SoftwareEngineering]] loop argues that code generation, tests, logs, and debugging tools still require a stable comparison between intended and actual behavior. [[Piglei]] and [[FrederickBrooks]] add a product-definition boundary through [[TheLegendOfZeldaLinksAwakening|Link's Awakening]]: implementation and presentation can change while an interlocking conceptual core persists, so agent speed does not by itself decide whether a product's [[EssentialAndAccidentalComplexity|essential structure]] is coherent, valuable, or durable. [[ContextCoding]] supplies the disciplined context-engineering version, while [[AIDependencySkillAtrophy]], [[LearningByWriting]], [[OrhunParmaksiz]], and [[SemanticAblation]] preserve skill, craft, and meaning-loss boundaries. [[Fenx]] adds a first-iOS-app case in which coding agents accelerated unfamiliar implementation while the human still micro-managed requirements, learned missing graphics concepts, tested on devices, and owned release judgment.
 
-**Evidence:** [[AIAssistedWriting]], [[AICodingPractice]], [[AIDependencySkillAtrophy]], [[Antirez]], [[ChatGPT]], [[ClaudeCode]], [[CodeReviewPractice]], [[Codex]], [[ContextCoding]], [[FarnamStreet]], [[Fenx]], [[GanFanShouCe]], [[HumanCodeResponsibility]], [[LearningByWriting]], [[MobileAppLifecycleEngineering]], [[NicholasCarlini]], [[OrhunParmaksiz]], [[PracticalLLMUse]], [[SemanticAblation]], [[SimonSpati]], [[SoftwareEngineering]], [[SoftwareVerification]], [[TaskContingentAICollaboration]], [[TextGenerationSampling]], [[VibeCoding]]
+**Evidence:** [[AIAssistedWriting]], [[AICodingPractice]], [[AIDependencySkillAtrophy]], [[Antirez]], [[ChatGPT]], [[ClaudeCode]], [[CodeReviewPractice]], [[Codex]], [[ContextCoding]], [[DigitalProductTimelessness]], [[EssentialAndAccidentalComplexity]], [[FarnamStreet]], [[Fenx]], [[FrederickBrooks]], [[GanFanShouCe]], [[HumanCodeResponsibility]], [[LearningByWriting]], [[MobileAppLifecycleEngineering]], [[NicholasCarlini]], [[OrhunParmaksiz]], [[Piglei]], [[PracticalLLMUse]], [[SemanticAblation]], [[SimonSpati]], [[SoftwareEngineering]], [[SoftwareVerification]], [[TaskContingentAICollaboration]], [[TextGenerationSampling]], [[TheLegendOfZeldaLinksAwakening]], [[VibeCoding]]
 
 **Qualifications:**
 
@@ -359,6 +359,7 @@ Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]],
 - Irwin’s paired-model explanation is a 2025 practitioner hypothesis without controlled model comparisons or a demonstrated capability threshold; memory, context tooling, harnesses, and later architectures may move the boundary.
 - Tests and debugger output are evidence rather than self-interpreting verdicts, but human diagnostic ownership does not imply that models cannot contribute substantially to implementation or investigation.
 - Fenx’s favorable model and tool comparison is tied to one workload, pricing tier, and 2025–2026 model versions, with no controlled productivity, code-quality, or maintenance comparison.
+- Piglei’s Link's Awakening analogy is a practitioner argument rather than a primary map comparison, sales analysis, or AI capability study; presentation, controls, accessibility, and operations can also become essential to whether software is usable and valuable.
 
 ### Automation Can Industrialize Media Production
 

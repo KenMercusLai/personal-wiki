@@ -792,12 +792,13 @@
       "226edb358fea4e9b176f57e2c5e0bbf3efdcdbaea7145b075ca5d6a85addc1fc",
       "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74",
       "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0",
-      "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106"
+      "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106",
+      "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0"
     ],
-    "paragraph_count": 792
+    "paragraph_count": 793
   },
-  "overview_commit": "b4c450a90204fba590addae6ffcd33ba55a439e5",
-  "overview_digest": "5c47e42a25c468e05755d0c50298de7cc17d1d5b268856c012bb00094c6b63dc",
+  "overview_commit": "26e881df2a1603bf5d8e69023d4c7c80d2af0b1e",
+  "overview_digest": "e8aa64cc2399d628cdbf1f9b4eeda7dd31004f8bbe3417117e83f77232f184ed",
   "paragraphs": [
     {
       "id": "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
@@ -15994,6 +15995,25 @@
         "CiJianDeShanLin",
         "GreptimeDB",
         "StorageArchitectureEvolvability"
+      ]
+    },
+    {
+      "id": "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Piglei]] source uses [[TheLegendOfZeldaLinksAwakening|The Legend of Zelda: Link's Awakening]] to sharpen [[EssentialAndAccidentalComplexity]] and [[DigitalProductTimelessness]]. The 1993 Game Boy original and 2019 Switch remake differ radically in resolution, graphics, controls, and implementation environment while reportedly preserving maps, dungeons, items, and exploration nearly one to one. That separation makes the game's interlocking design an example of a conceptual core that can survive technical replacement, rather than treating timelessness as frozen code or appearance. Applied to [[AICodingPractice]], agent speed can compress expression and implementation without deciding which product problem matters, whether the conceptual “maze” is coherent, whether users will value it, or how correctness should be judged. [[FrederickBrooks]] supplies the source's essential-versus-accidental vocabulary, but both the game analogy and AI conclusion remain practitioner arguments: presentation, controls, accessibility, and operations may be essential in a particular context, the article supplies no primary map comparison or sales table, and preserved design is not shown to cause the reported six-million-plus sales. Both remote images were opened and retained at their semantic positions; the monochrome dungeon and high-definition remake scene demonstrate presentation change, but show different locations and therefore do not prove one-to-one structural fidelity.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 1,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "AICodingPractice",
+        "DigitalProductTimelessness",
+        "EssentialAndAccidentalComplexity",
+        "FrederickBrooks",
+        "Piglei",
+        "TheLegendOfZeldaLinksAwakening"
       ]
     }
   ],

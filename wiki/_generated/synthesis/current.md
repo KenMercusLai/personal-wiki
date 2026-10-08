@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: b4c450a90204fba590addae6ffcd33ba55a439e5
+as_of_overview_commit: 26e881df2a1603bf5d8e69023d4c7c80d2af0b1e
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, centered on evidence, system boundaries, demand, and accountability."
-episode_count: 1094
-source_count: 1094
-paragraph_count: 792
+episode_count: 1095
+source_count: 1095
+paragraph_count: 793
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit capability, lifecycle, state, cost, feedback, failure, isolation, verification, observability, accountable human judgment, and validation that capacity growth reflects durable terminal demand.
+Technical outcomes depend on explicit capability, lifecycle, state, cost, feedback, failure, isolation, verification, observability, accountable human judgment, and separating faster implementation from durable problem and conceptual design; capacity growth still needs validation against terminal demand.
 
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 - [[NetworkSlicing]] uses [[FlowVisor]] and [[OpenFlow]] to partition flow authority, topology, bandwidth, switch CPU, and forwarding entries so [[ProductionNetworkExperimentation]] can use real traffic and line-rate hardware; [[NetworkResilienceTradeoffs]] qualifies that containment because the proxy, hardware abstraction, and physical resources remain shared failure domains. Evidence: [[NetworkSlicing]], [[FlowVisor]], [[OpenFlow]], [[ProductionNetworkExperimentation]], [[NetworkResilienceTradeoffs]].

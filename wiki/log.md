@@ -8828,3 +8828,11 @@ Created [[BullwhipEffect]] and [[CxEric]], and updated [[SystemsThinking]] and [
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | 开发软件，或建造迷宫 | Piglei
+
+Created [[FrederickBrooks]] and [[TheLegendOfZeldaLinksAwakening]], and updated [[Piglei]], [[Nintendo]], [[EssentialAndAccidentalComplexity]], and [[DigitalProductTimelessness]] from their complete ordered evidence inventories. Recorded the Game Boy-to-Switch separation between a durable map, dungeon, item, and exploration structure and modernized graphics and controls; preserved AI implementation speed as a genuine gain without treating it as proof that product definition, conceptual design, user value, or verification has disappeared. Opened both effective remote images and retained the original monochrome dungeon and Switch 3D remake scene under descriptive canonical filenames with matching manifest alt text; qualified that the screenshots show different locations and therefore do not independently prove one-to-one structural fidelity.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
