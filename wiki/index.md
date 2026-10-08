@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [程序员转型 HR：我发现的意外优势](sources/cheng-xu-yuan-zhuan-xing-hr-wo-fa-xian-de-yi-wai-you-shi.md) - Zou Runyang argues that engineering systems, product, hypothesis-testing, and failure-recovery habits can strengthen HR only when constrained by slow human change, irreversibility, trust, and sincere listening.
 - [Welcoming The Next Generation of Programmers](sources/welcoming-the-next-generation-of-programmers.md) - Armin Ronacher argues that AI-first creators are programmers and that established communities should connect solitary tool use to mentorship, belonging, and engineering practice.
 - [Red Blob Games: Improving heuristics for A* search](sources/red-blob-games-improving-heuristics-for-a-star-search.md) - Red Blob Games derives landmark-based A* lower bounds, multiple-landmark aggregation, placement tradeoffs, preprocessing, and dynamic-map failure modes.
 - [为 AI Agent 构建记忆系统](sources/wei-ai-agent-gou-jian-ji-yi-xi-tong.md) - A Nowledge Mem engineering account decomposes cross-tool agent memory into distillation, hybrid retrieval, bitemporal state, evolution, forgetting, background intelligence, and user control.
@@ -1129,6 +1130,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Language For Agents](sources/a-language-for-agents.md) - Practitioner proposal for programming languages that favor agent-local reasoning, explicit effects, stable diffs, deterministic tests, and uniform build feedback.
 
 ## Entities
+- [Zou Runyang](entities/ZouRunyang.md) - Software engineer and former technical manager represented through a qualified transition into startup HR leadership and organization design.
 - [Armin Ronacher](entities/ArminRonacher.md) - Python-community member advocating welcome, mentorship, and human on-ramps for people who begin programming through AI.
 - [Red Blob Games](entities/RedBlobGames.md) - Educational game-algorithm site represented through an interactive, implementation-oriented pathfinding tutorial with explicit production-evidence limits.
 - [Nowledge Mem](entities/NowledgeMem.md) - Cross-tool personal and team memory layer built around progressive knowledge forms, hybrid retrieval, temporal evolution, attention control, and inspectable local data.
@@ -3565,7 +3567,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Engineering Career Architecture](concepts/EngineeringCareerArchitecture.md) - Structured engineering-leveling system for expectations, promotion signals, fair scope, and evaluation calibration.
 - [Engineering Team Motivation](concepts/EngineeringTeamMotivation.md) - Engineering-management frame balancing compensation, purpose, and professional respect in competitive startup talent markets.
 - [Prolific Practice](concepts/ProlificPractice.md) - Craft-learning habit of making many small things so repeated feedback and bounded failures improve quality.
-- [Engineering-Led Organization Design](concepts/EngineeringLedOrganizationDesign.md) - Applying engineering design habits to organization-building through problem definition, requirements, implementation, validation, and iteration.
+- [Engineering-Led Organization Design](concepts/EngineeringLedOrganizationDesign.md) - Applying engineering design habits to organization-building through problem definition, bounded experimentation, feedback, iteration, and explicit human limits.
 - [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business metrics, company context, strategy, and leadership transitions.
 - [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by deliberate coordination and trust, with location policy also treated as a cultural and employment commitment.
 - [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
@@ -4313,7 +4315,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion measured through larger retained customer spending, with cohort, time-window, churn, and distribution definitions determining what expansion figures mean.
 - [Programmer Interruption Recovery](concepts/ProgrammerInterruptionRecovery.md) - Rebuilding task context, intent, and code-location awareness after attention shifts away from software work.
 - [Game Industry Labor Precarity](concepts/GameIndustryLaborPrecarity.md) - Interacting project, financing, staffing, scheduling, compensation, geographic, and cultural conditions that make game careers unstable.
-- [Human Resources Governance](concepts/HumanResourcesGovernance.md) - Design of HR leadership, reporting, scope, rules, feedback, and onboarding for growing organizations.
+- [Human Resources Governance](concepts/HumanResourcesGovernance.md) - Design of HR leadership, reporting, rules, evidence loops, employee experience, trust, and recovery for growing organizations.
 - [Whistleblower Reporting Systems](concepts/WhistleblowerReportingSystems.md) - Training, reporting channels, anonymity controls, escalation, and recurring communication for surfacing serious misconduct.
 
 - [Backup and Recovery](concepts/BackupAndRecovery.md) - Operational discipline of maintaining failure-independent copies and proving restore scope, timing, point-in-time coverage, and degraded-service reconciliation.

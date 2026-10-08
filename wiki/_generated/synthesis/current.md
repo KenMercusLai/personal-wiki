@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 22177ce751d7f4c3c628866f1c896e5026b1480e
+as_of_overview_commit: 41f86e49f4006d493ef92749a907d60b9a756c1d
 summary: "A qualified map of technology, markets, institutions, culture, health, work, and personal judgment, centered on evidence, accountable AI entry, community, and system boundaries."
-episode_count: 1101
-source_count: 1101
+episode_count: 1102
+source_count: 1102
 paragraph_count: 797
 topic_count: 9
 ---
