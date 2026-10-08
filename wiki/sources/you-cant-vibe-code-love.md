@@ -2,7 +2,7 @@
 title: "You Can't \"Vibe Code\" Love"
 type: source
 tags: [ai, developer-community, knowledge-commons, stack-overflow]
-date: 2026-08-31
+date: 2026-08-30
 source_file: "/mnt/ken_personal_wiki/Articles/You Can't \"Vibe Code\" Love.md"
 ---
 

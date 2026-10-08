@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-08] ingest | Red Blob Games: Improving heuristics for A* search
+
+Created [[AStarSearch]], [[DifferentialHeuristic]], and [[RedBlobGames]], and updated [[DijkstrasAlgorithm]] from its complete ordered evidence inventory. Recorded the triangle-inequality landmark bound, maximum aggregation across landmarks and a base heuristic, per-landmark shortest-path preprocessing, workload-specific placement, directed-graph edge reversal, memory cost, and asymmetric stale-table behavior after edge-cost changes. Preserved the absence of archived numeric demo results, controlled benchmarks, and real-project use. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-08] ingest | AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解
 
 Created [[AIInfrastructureStack]] and updated [[ProductionAgentInfrastructure]], [[AgentMemory]], and [[AgentSecurityLayering]] from their complete ordered evidence inventories. Recorded nine vertical responsibility layers, four cross-cutting governance capabilities, a staged maturity path, memory lifecycle policy, retrieval ACLs, and the distinction between evaluation gates and operational traces. Opened and retained all eight evidence-bearing remote diagrams under descriptive canonical filenames. Preserved the final diagram's conflicting layer numbering, the worked example's offline-evaluation timing mismatch, and the absence of reproducible benchmarks, security audits, cost comparisons, or support for point-in-time product claims.
@@ -8848,6 +8852,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-08] ingest | 为 AI Agent 构建记忆系统
 
 Created [[NowledgeMem]], [[BitemporalMemory]], and [[MemoryForgetting]], and updated [[AgentMemory]], [[MemoryEvolution]], and [[MemoryConflictResolution]] from their complete ordered evidence inventories. Recorded Trace-to-Unit-to-Crystal distillation, fast and deep hybrid retrieval, dual temporal clocks, progression versus validation edges, deliberate forgetting, daily working-memory prefetch, guarded background tasks, cross-tool lifecycle hooks, and human conflict review. Preserved the separate-service tension with [[TapeAndAnchors]], the product-authored evidence boundary, and the risk of treating non-decreasing confidence as a universal rule. Opened and retained all ten effective diagrams and screenshots under descriptive canonical filenames with matching manifest alt text.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-08] lint | Wiki health check
 

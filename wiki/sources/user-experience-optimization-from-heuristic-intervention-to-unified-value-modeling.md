@@ -2,7 +2,7 @@
 title: "User Experience Optimization: From Heuristic Intervention to Unified Value Modeling"
 type: source
 tags: [user-experience, retention, ranking-systems, uplift-modeling, constrained-optimization]
-date: 2025-12-08
+date: 2025-12-07
 source_file: "/mnt/ken_personal_wiki/Articles/User Experience Optimization- From Heuristic Intervention to Unified Value Modeling.md"
 ---
 

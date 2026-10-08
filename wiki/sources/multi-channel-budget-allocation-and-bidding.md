@@ -2,7 +2,7 @@
 title: "Multi-Channel Budget Allocation and Bidding"
 type: source
 tags: [advertising, multi-channel, bidding, budget-allocation, optimization]
-date: 2024-12-23
+date: 2024-12-22
 source_file: "/mnt/ken_personal_wiki/Articles/Multi-Channel Budget Allocation and Bidding.md"
 ---
 

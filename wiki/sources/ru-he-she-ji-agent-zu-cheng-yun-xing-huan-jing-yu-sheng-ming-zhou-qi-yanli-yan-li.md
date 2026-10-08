@@ -2,7 +2,7 @@
 title: "如何设计 Agent：组成、运行环境与生命周期"
 type: source
 tags: [ai, agents, runtime, context-management, lifecycle, agent-skills]
-date: 2026-09
+date: 2026-09-16
 source_file: "/mnt/ken_personal_wiki/Articles/如何设计 Agent：组成、运行环境与生命周期 | Yanli 盐粒.md"
 ---
 

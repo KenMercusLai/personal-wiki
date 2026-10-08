@@ -2,7 +2,7 @@
 title: "Adload-Constrained Mix-Ranking Value Maximization"
 type: source
 tags: [advertising, mixed-ranking, adload, optimization, beam-search]
-date: 2025-01-20
+date: 2025-01-19
 source_file: "/mnt/ken_personal_wiki/Articles/Adload-Constrained Mix-Ranking Value Maximization.md"
 ---
 

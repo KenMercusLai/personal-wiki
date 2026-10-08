@@ -2,7 +2,7 @@
 title: "入场"
 type: source
 tags: [life-philosophy, identity, experience, meaning, literature]
-date: 2026-09-06
+date: 2026-09-05
 source_file: /mnt/ken_personal_wiki/Articles/入场.md
 ---
 
