@@ -8860,3 +8860,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | AI 编程是一种“框架” | Piglei
+
+Created [[AICodingFrameworkLibraryModel]] and updated [[Piglei]], [[AICodingPractice]], and [[AbstractionLeakage]] from their complete ordered evidence inventories. Recorded framework-style AI use as agent control over program structure, library-style use as human-controlled bounded invocation, natural-language abstraction leakage, and cognitive debt hidden by minimal prompts; preserved the continuum between modes, task-dependent value of high-level delegation, and absence of comparative defect, delivery, or maintenance evidence. Opened the sole effective remote image and omitted the decorative framework-versus-library fruit illustration, so no asset manifest was created.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 07bf233e6d1e8a5d5ad4924fab307ee05912854e
+as_of_overview_commit: 645d47853b1d5d0d62090dee0d857160a8d82a92
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, centered on evidence, system boundaries, demand, and accountability."
-episode_count: 1098
-source_count: 1098
-paragraph_count: 795
+episode_count: 1099
+source_count: 1099
+paragraph_count: 796
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, and human judgment; agent memory now adds distillation, bitemporal state, evolution, forgetting, progressive disclosure, and user-visible control under first-party evidence limits.
+Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, and human judgment; AI coding now adds task-sensitive structural control and cognitive debt.
 
 - [[DeepSeekV41Flash]] combines [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], and [[HierarchicalSparseIndexer]] to reduce long-context prefill, stored global attention state, and repeated decoder address selection: bulk prompt positions exit after a causal encoder, Full/Reindex/Reuse layers refresh content, addresses, and queries at different rates, and later decoder indexers search a bounded shared pool. Evidence: [[Zartbot]], [[DeepSeekV41Flash]], [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], [[HierarchicalSparseIndexer]], [[KVCacheAwareRouting]].
 - [[AlgorithmicComplexityVulnerabilities]] turn syntactically valid attacker input into disproportionate CPU, memory, disk, or control-flow cost, so exposed paths need worst-case algorithm analysis, structural and length limits, connection and resource budgets, bounded failure handling, and adversarial generators such as [[ACsploit]] alongside broader [[SystemReliability]] and [[ChaosEngineering]] practice. Evidence: [[AlgorithmicComplexityVulnerabilities]], [[ACsploit]], [[SystemReliability]], [[ChaosEngineering]], [[NathanHauke]], [[DavidRenardy]].
 
 ### Business and Markets
 
-Durable businesses connect customer learning and demand to coherent scope, retention, economics, operating capability, financing constraints, and evidence-calibrated judgment; a product architecture alone does not establish adoption or commercial value.
+Durable businesses connect customer learning and demand to coherent scope, retention, economics, operating capability, financing constraints, and evidence-calibrated judgment.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -57,7 +57,7 @@ Media form, platform architecture, physical interaction constraints, creator eco
 
 ### Governance and Institutions
 
-Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, standards, heterogeneous verification, and fair process; technology-router spillover should not be mistaken for direct institutional evidence.
+Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, standards, heterogeneous verification, and fair process.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
@@ -75,7 +75,7 @@ Attention, motivation, identity, trust, relationships, habits, learning, and bel
 
 ### Science, Health, and Climate
 
-Health and science claims require causal restraint, heterogeneous-response and adherence evidence, qualified mechanisms, and separation of direct findings from technology or cognitive-analogy spillover.
+Health and science claims require causal restraint, heterogeneous-response and adherence evidence, qualified mechanisms, and separation of direct findings from analogy spillover.
 
 - [[HungerPhysiology]] distinguishes homeostatic energy need from hedonic eating without an urgent caloric deficit inside a redundant sensory, neuroendocrine, endocrine, and metabolic system; an evolved bias toward surplus intake and fat storage may become harmful when psychological, cultural, socioeconomic, and food-environment conditions make palatable energy-dense food abundant. Evidence: [[HungerPhysiology]].
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism. Evidence: [[ExerciseForMentalHealth]], [[ExerciseAdherence]], [[Neuroplasticity]], [[SelfEfficacy]], [[PatrickJSmith]], [[RhondaMMerwin]].

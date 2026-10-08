@@ -795,12 +795,13 @@
       "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0",
       "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106",
       "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0",
-      "ec05567b80761cc1ca893a7419a6127cec4c56105f5f493eeac7b77e9dd8c363"
+      "ec05567b80761cc1ca893a7419a6127cec4c56105f5f493eeac7b77e9dd8c363",
+      "289bf0d1a0c811582799f87c83e1afdb621afd389c71c9fb20fd019dfac0a0bc"
     ],
-    "paragraph_count": 795
+    "paragraph_count": 796
   },
-  "overview_commit": "07bf233e6d1e8a5d5ad4924fab307ee05912854e",
-  "overview_digest": "b3794108435ca80fb86a4919fcc7421ec58d65474201fc25759ef311fa81ecbd",
+  "overview_commit": "645d47853b1d5d0d62090dee0d857160a8d82a92",
+  "overview_digest": "8b91497988cc4c5768ba267ea70620313e7bf3bc7145c2e928c88800a5ff6bd4",
   "paragraphs": [
     {
       "id": "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
@@ -16062,6 +16063,22 @@
         "MemoryForgetting",
         "NowledgeMem",
         "TapeAndAnchors"
+      ]
+    },
+    {
+      "id": "289bf0d1a0c811582799f87c83e1afdb621afd389c71c9fb20fd019dfac0a0bc",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Piglei]] source adds the [[AICodingFrameworkLibraryModel]] as a control-and-cognitive-cost lens on [[AICodingPractice]]. Framework-style use lets a short natural-language request expand into a large implementation while the agent controls much of the program structure; the leverage is real, but architecture and implementation knowledge can remain hidden until customization or failure produces [[AbstractionLeakage]] and forces code-level reasoning. Library-style use keeps the developer as system designer through explicit architecture, task decomposition, durable constraints such as `AGENTS.md`, precise prompts, and review of generated code. The durable synthesis is a continuum rather than a tool taxonomy: standard, disposable, low-risk, or strongly verified work may justify broad delegation, while long-lived, customized, consequential, or weakly verified software benefits from retained human control. The relevant objective is total lifecycle cognitive cost rather than the fewest prompt words. The argument is one practitioner analogy without comparative defect, delivery, or maintenance data, offers no metric for cognitive debt, and simplifies mixed workflows in which people and agents can alternate structural authority. The sole effective remote image was opened and omitted as a decorative canning-line-versus-fruit-stall illustration.",
+      "topic_scores": {
+        "ai-and-technology": 6,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AICodingFrameworkLibraryModel",
+        "AICodingPractice",
+        "AbstractionLeakage",
+        "Piglei"
       ]
     }
   ],

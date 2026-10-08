@@ -1123,6 +1123,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Art of Roads in Games](sources/art-of-roads-in-games.md) - Sandbox Spirit compares Bézier splines, circular arcs, and clothoids for game-road generation, supported by inspected city-builder failures and a dynamic custom-system demo.
 - [Bigtable 二十年：架构的不变与变](sources/bigtable-er-shi-nian-jia-gou-de-bu-bian-yu-bian.md) - 此间的山林 interprets Bigtable's stable core, asynchronous extension mechanisms, cross-feature risks, offloaded work, and operational evolution over twenty years.
 - [开发软件，或建造迷宫 | Piglei](sources/kai-fa-ruan-jian-huo-jian-zao-mi-gong-piglei.md) - Piglei uses Link's Awakening and Brooks's complexity distinction to argue that AI can accelerate implementation without replacing durable conceptual design, product judgment, or empathy for users.
+- [AI 编程是一种“框架” | Piglei](sources/ai-bian-cheng-shi-yi-zhong-kuang-jia-piglei.md) - Piglei frames AI coding as a high-level abstraction whose leverage can hide control loss, abstraction leakage, and cognitive debt, then proposes a library-style human-controlled alternative.
 
 ## Entities
 - [Red Blob Games](entities/RedBlobGames.md) - Educational game-algorithm site represented through an interactive, implementation-oriented pathfinding tutorial with explicit production-evidence limits.
@@ -2656,7 +2657,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur represented through PayPal and Palantir founding roles, a governance-exit example, startup questions, and private strategic power.
-- [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
+- [Piglei](entities/Piglei.md) - Software-engineering practitioner presenting responsible AI-coding norms, durable conceptual design, and framework-versus-library control tradeoffs.
 - [Piotr Wozniak](entities/PiotrWozniak.md) - Learning theorist and author arguing that goals, curiosity, and knowledge valuation shape learning drive.
 - [PyTorch-Transformers](entities/PyTorchTransformers.md) - 2019-era Python library used in the tutorial to load GPT-2 tokenizer/model components.
 - [SuperMemo](entities/SuperMemo.md) - Spaced-repetition learning software presented by Piotr Wozniak as the outcome of goal-directed self-learning.
@@ -3976,6 +3977,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, verified, and problem-framing-centered work with AI coding agents.
+- [AI Coding Framework–Library Model](concepts/AICodingFrameworkLibraryModel.md) - Control continuum between agent-structured high-level delegation and human-structured bounded use of AI as a callable capability.
 - [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that AI substitution weakens practiced skill and judgment while abundant generic output also worsens the information environment, qualified by deliberate AI adoption.
 - [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting step in software delivery rather than optimizing code generation in isolation.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
