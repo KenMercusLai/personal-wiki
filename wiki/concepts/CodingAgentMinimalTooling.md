@@ -10,7 +10,8 @@ sources:
   - blog-guangzhengli-vibe-coding-and-context-coding
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
   - mario-zechner-what-if-you-dont-need-mcp-at-all
-last_updated: 2026-10-01
+  - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -31,6 +32,8 @@ Guangzhengli adds the developer-habit reason for this tool shape. Claude Code's 
 The staged-history source sharpens the shell half of the thesis and extends it. It argues that LLM coding ability generalizes to bash, which lets one shell reach `curl`, `wget`, `gh`, and the rest of the command-line ecosystem, and concludes that bash is potentially the only tool an agent needs. The same source pairs the shell with an [[AgentFilesystem]] rather than more tools: when output is too large for the context window or is an artifact such as an image that cannot be returned to the model in one step, the fix is a place to store it, not another combination of tool names. Together the shell and the file layer make the operating system the runtime for a deliberately minimal coding-agent surface.
 
 Zechner turns that thesis into an extensible browser example. Four Puppeteer-backed commands cover his normal workflow, while picker and cookie commands are added only when a concrete need appears. A 225-token README tells the agent how to use the surface, compared with reported five-figure token costs for broad browser MCP catalogs. The case suggests a design rule: minimize the agent-facing interface around an actual workflow, not the implementation beneath it, and preserve an escape hatch through code generation. It does not establish that every user should own custom tools or that the smaller surface supplies the safety and portability of a structured integration.
+
+Frost Ming applies the same substrate to a persistent messaging agent rather than a coding session. Shell and file access let Bub construct Telegram behavior and write a startup script, while Docker and one-shot agent invocation supply process persistence. This extends minimal tooling from completing a task to modifying the agent's own runtime, but it also makes the distinction between interface size and authority size critical: a few primitives can expose an enormous filesystem, credential, network, and execution surface.
 
 ## Key Claims
 - A coding agent can be modeled as model plus tools plus loop.
@@ -58,15 +61,17 @@ Zechner turns that thesis into an extensible browser example. Four Puppeteer-bac
 - Workflow-shaped surface: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] uses four browser commands for its normal loop and adds picker and cookie commands only when those needs arise.
 - Context footprint: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] reports a 225-token README against 13.7k-token and 18.0k-token browser MCP catalogs.
 - Extensibility: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] shows the agent generating, testing, and documenting a new Puppeteer cookie command during the session.
+- Self-extension: [[chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog]] reports Bub using shell, files, Skills, and an agent-written startup script to replace framework-owned Telegram behavior.
 
 ## Counterevidence & Qualifications
-The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements. The MinusX source warns against unnecessary complexity, but its own Claude Code example shows that simple loops can still benefit from many carefully named tools. Guangzhengli's Unix-tool praise applies most directly to codebases where textual names and current files reveal the relevant path. Zechner's browser example is bespoke and shifts maintenance, naming, compatibility, and credential safety to the user. The meta-tool argument is an opinion rather than a measured comparison, and a single shell also concentrates credentials and filesystem risk.
+The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements. The MinusX source warns against unnecessary complexity, but its own Claude Code example shows that simple loops can still benefit from many carefully named tools. Guangzhengli's Unix-tool praise applies most directly to codebases where textual names and current files reveal the relevant path. Zechner's browser example is bespoke and shifts maintenance, naming, compatibility, and credential safety to the user. Frost Ming's self-extending runtime is qualitative and unreviewed. The meta-tool argument is an opinion rather than a measured comparison, and a single shell also concentrates credentials, filesystem, network, and persistence risk.
 
 ## What Changed
 - Reframed minimal tooling as a deliberately shaped interface rather than a raw-tool-only stance.
 - Preserved dedicated helpers for frequent or error-prone actions alongside shell access for unusual cases.
 - Added the shell and filesystem as a general runtime for commands and intermediate artifacts.
 - Added a workflow-shaped browser CLI as evidence that narrow interfaces can remain extensible through code.
+- Extended the thesis from task execution to agent-managed runtime bootstrapping while separating tool-count minimalism from least authority.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - minimal tools still require active human judgment and feedback.
@@ -81,3 +86,4 @@ The sources are practitioner examples and do not prove that small tool surfaces 
 - [[ContextCoding]] - minimal tools help agents gather and verify current project context.
 - [[BashAsMetaTool]] - the strongest form of the shell half of minimal tooling.
 - [[AgentFilesystem]] - the artifact store that lets a minimal surface stay minimal.
+- [[AINativeAgentArchitecture]] - applies a minimal tool surface to an agent that constructs parts of its own runtime.

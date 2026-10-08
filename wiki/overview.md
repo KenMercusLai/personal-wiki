@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
   - welcoming-the-next-generation-of-programmers
   - niu-bian-xiao-ying-yu-ai-re-chao
   - ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie
@@ -2610,8 +2611,12 @@ The newest [[NowledgeMem]] source turns the wiki's [[AgentMemory]] components in
 
 The newest [[Piglei]] source adds the [[AICodingFrameworkLibraryModel]] as a control-and-cognitive-cost lens on [[AICodingPractice]]. Framework-style use lets a short natural-language request expand into a large implementation while the agent controls much of the program structure; the leverage is real, but architecture and implementation knowledge can remain hidden until customization or failure produces [[AbstractionLeakage]] and forces code-level reasoning. Library-style use keeps the developer as system designer through explicit architecture, task decomposition, durable constraints such as `AGENTS.md`, precise prompts, and review of generated code. The durable synthesis is a continuum rather than a tool taxonomy: standard, disposable, low-risk, or strongly verified work may justify broad delegation, while long-lived, customized, consequential, or weakly verified software benefits from retained human control. The relevant objective is total lifecycle cognitive cost rather than the fewest prompt words. The argument is one practitioner analogy without comparative defect, delivery, or maintenance data, offers no metric for cognitive debt, and simplifies mixed workflows in which people and agents can alternate structural authority. The sole effective remote image was opened and omitted as a decorative canning-line-versus-fruit-stall illustration.
 
+The newest [[FrostMing]] source adds [[AINativeAgentArchitecture]] as a deliberately strong version of the wiki's minimal-agent thesis. [[Bub]] first reproduced much of [[OpenClaw]]'s visible Telegram behavior through ordinary handlers, then created a sending Skill for images, stickers, and reactions; a Docker startup contract and one-shot coding-agent command let an agent-authored script take over the persistent listener path. This extends [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], and [[HeadlessAgentArchitecture]] from task execution into runtime self-extension: shell and files provide the substrate, Skills and small programs remain agent-managed artifacts, and messaging or cron merely wakes the reasoning core. The synthesis keeps a hard boundary between a small interface and a small authority surface. A GitHub token, shell, filesystem, network, and unattended startup remain broad powers even when exposed through few tools, so the source's prompt-only, unread-code control philosophy conflicts with [[AgentPermissionModel]], [[SoftwareVerification]], and [[ProductionAgentInfrastructure]]. The account is one short qualitative prototype without reproducible configuration, failure rates, security review, cost data, or proof that it matches OpenClaw's memory, routing, isolation, recovery, policy, and observability layers. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## Open Questions
 
+- Under what containment, provenance, test, rollback, and capability conditions can agent-authored Skills and startup code safely replace framework-owned behavior?
+- Which parts of a personal-agent runtime are genuinely removable scaffolding, and which become necessary again once memory, multi-user isolation, adversarial input, recovery, and audit requirements appear?
 - Which community on-ramps help AI-first programmers develop independent judgment, verification habits, belonging, and tool portability without turning volunteer mentorship into an unbounded burden?
 - Which background-task combinations in LSM systems invalidate one another's assumptions about ordering, visibility, garbage collection, or recovery?
 - When does preserving a storage system's original transactional boundary create more application complexity than architectural stability is worth?

@@ -10,7 +10,8 @@ sources:
   - context-engineering-from-the-inside-out
   - dont-trust-ai-agents-nanoclaw-blog
   - mario-zechner-what-if-you-dont-need-mcp-at-all
-last_updated: 2026-10-01
+  - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -31,6 +32,8 @@ The newest source explains why on-demand loading matters inside the prompt. Only
 NanoClaw adds a security and installation variant: a skill includes instructions plus a working reference implementation that a coding agent merges into the owner's codebase after review. In that model, skills keep the core small and make installed integrations explicit, but review and selective installation—not the skill format itself—provide the intended security benefit. Once merged, executable code joins the trusted installation and still needs runtime isolation, credential scoping, and verification.
 
 Zechner adds an intentionally informal analogue: a 225-token README documents a small browser CLI and is loaded only for sessions that need it. The files can be placed on PATH and reused across agents without relying on a particular skill-discovery implementation. This reinforces progressive disclosure and folder-based distribution, while also showing what formal skill systems add: discovery conventions and non-technical accessibility. The article's concern that automatic discovery may be unreliable and may preload metadata is one user's experience, not a general comparison of skill implementations.
+
+Frost Ming adds an agent-authorship variant. In his Bub experiment, the agent creates and modifies the Skill itself, uses it to send Telegram images, stickers, and reactions, and keeps any supporting code as an agent-managed runtime artifact rather than growing the host framework. This makes Skills a mechanism for self-extension, but it also removes code review and stable ownership from the proposed loop, increasing the need for external containment, provenance, tests, and rollback.
 
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
@@ -63,14 +66,16 @@ Zechner adds an intentionally informal analogue: a 225-token README documents a 
 - Attack-surface claim: [[dont-trust-ai-agents-nanoclaw-blog]] argues that selective skill installation keeps dormant integrations out of the runtime, unlike a monolith where disabled code remains present.
 - Informal progressive disclosure: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] loads a compact browser-tool README only for relevant sessions and puts the scripts on PATH for reuse across different coding agents.
 - Formal-system comparison: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] credits skills with progressive disclosure and broad accessibility but prefers explicit README loading because of perceived discovery and metadata overhead.
+- Agent-authored self-extension: [[chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog]] reports Bub creating a Telegram Skill that displaced built-in sending code and managing its own supporting artifacts.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, or merged as code. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
 
 ## What Changed
 - Broadened the definition to cover reviewed reference implementations merged into an installation as well as prompt-only guidance and bundled executable assets.
 - Separated the auditability benefit of selective installation from the security guarantees still required at runtime.
 - Added explicit README loading as a cross-agent, informal progressive-disclosure variant.
+- Added agent-authored Skills as a self-extension mechanism and made their provenance, review, and rollback costs explicit.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.
@@ -83,3 +88,4 @@ The sources evaluate Skills conceptually and through practitioner workflow rathe
 - [[BashAsMetaTool]] - a script-capable shell is what lets a skill folder carry its own execution.
 - [[AgentPermissionModel]] - runtime-enforced authority must backstop probabilistic safety instructions in skills.
 - [[NanoClaw]] - uses reviewed skill merges to keep its installed code surface owner-selected and explicit.
+- [[AINativeAgentArchitecture]] - uses agent-created Skills and runtime artifacts to move capability ownership out of the host framework.

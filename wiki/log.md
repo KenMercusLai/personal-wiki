@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-08] ingest | 创造一只龙虾，需要些什么?
+
+Created [[FrostMing]] and [[AINativeAgentArchitecture]], and updated [[Bub]], [[PsiACE]], [[OpenClaw]], [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], [[HeadlessAgentArchitecture]], and [[AgentPermissionModel]] from their complete ordered evidence inventories. Recorded the progression from ordinary Telegram handlers to an agent-created sending Skill and a Docker startup contract driven by one-shot agent execution; separated minimal tool count from minimal authority; and preserved the direct conflict between prompt-only, unread-code autonomy and externally enforced permissions, verification, recovery, and audit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-08] ingest | 程序员转型 HR：我发现的意外优势
 
 Created [[ZouRunyang]] and updated [[EngineeringLedOrganizationDesign]] and [[HumanResourcesGovernance]] from their complete ordered evidence inventories. Recorded the transfer of systems, product, hypothesis-testing, and failure-recovery habits into HR; added employees-as-users, testable recruiting assumptions, bounded experiments, mentoring, recovery, and qualitative listening; and preserved slow human change, unequal power, irreversibility, trust, consistency, and the absence of comparative outcome evidence as limits on the software analogy. Opened all five remote images and omitted the blind-men-and-elephant illustration, Page/Brin photograph, and three film stills as decorative or prose-repeating, so no asset manifest was created.
@@ -8880,6 +8884,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-08] ingest | A Language For Agents
 
 Created [[AgentOrientedProgrammingLanguages]] from a practitioner proposal for explicit, locally understandable, greppable, diff-stable code; visible effects and failures; deterministic testing; dependency-aware builds; and a uniform verification path. Preserved the absence of controlled benchmarks, the tension between familiar syntax and genuine novelty, the hidden-complexity risk of propagated effect markers, and the maintenance costs of agent-assisted library ports. The source contains no effective image references, so no asset manifest was created.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-08] lint | Wiki health check
 

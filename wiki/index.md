@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [创造一只龙虾，需要些什么?](sources/chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog.md) - Frost Ming turns Bub into a self-bootstrapping Telegram agent, then argues for reducing the host toward a reasoning core while preserving major verification and authority qualifications.
 - [程序员转型 HR：我发现的意外优势](sources/cheng-xu-yuan-zhuan-xing-hr-wo-fa-xian-de-yi-wai-you-shi.md) - Zou Runyang argues that engineering systems, product, hypothesis-testing, and failure-recovery habits can strengthen HR only when constrained by slow human change, irreversibility, trust, and sincere listening.
 - [Welcoming The Next Generation of Programmers](sources/welcoming-the-next-generation-of-programmers.md) - Armin Ronacher argues that AI-first creators are programmers and that established communities should connect solitary tool use to mentorship, belonging, and engineering practice.
 - [Red Blob Games: Improving heuristics for A* search](sources/red-blob-games-improving-heuristics-for-a-star-search.md) - Red Blob Games derives landmark-based A* lower bounds, multiple-landmark aggregation, placement tradeoffs, preprocessing, and dynamic-map failure modes.
@@ -1130,6 +1131,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Language For Agents](sources/a-language-for-agents.md) - Practitioner proposal for programming languages that favor agent-local reasoning, explicit effects, stable diffs, deterministic tests, and uniform build feedback.
 
 ## Entities
+- [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
 - [Zou Runyang](entities/ZouRunyang.md) - Software engineer and former technical manager represented through a qualified transition into startup HR leadership and organization design.
 - [Armin Ronacher](entities/ArminRonacher.md) - Python-community member advocating welcome, mentorship, and human on-ramps for people who begin programming through AI.
 - [Red Blob Games](entities/RedBlobGames.md) - Educational game-algorithm site represented through an interactive, implementation-oriented pathfinding tutorial with explicit production-evidence limits.
@@ -2921,6 +2923,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Legend of Zelda: Link's Awakening](entities/TheLegendOfZeldaLinksAwakening.md) - Game Boy title and Switch remake used to illustrate durable conceptual value across extensive presentation and platform change.
 
 ## Concepts
+- [AI-Native Agent Architecture](concepts/AINativeAgentArchitecture.md) - Source-scoped bootstrap architecture that moves Skills and runtime artifacts from host-framework ownership toward agent self-management.
 - [A* Search](concepts/AStarSearch.md) - Goal-directed shortest-path search whose efficiency depends on a tight admissible heuristic.
 - [Differential Heuristic](concepts/DifferentialHeuristic.md) - Reusable A* lower bound formed from differences between precomputed exact landmark distances.
 - [Memory Forgetting](concepts/MemoryForgetting.md) - Deliberate reduction of memory salience or active status through decay, confidence, importance, interaction, and conservative archival policy.

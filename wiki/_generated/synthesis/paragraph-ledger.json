@@ -797,12 +797,13 @@
       "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106",
       "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0",
       "ec05567b80761cc1ca893a7419a6127cec4c56105f5f493eeac7b77e9dd8c363",
-      "289bf0d1a0c811582799f87c83e1afdb621afd389c71c9fb20fd019dfac0a0bc"
+      "289bf0d1a0c811582799f87c83e1afdb621afd389c71c9fb20fd019dfac0a0bc",
+      "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63"
     ],
-    "paragraph_count": 797
+    "paragraph_count": 798
   },
-  "overview_commit": "41f86e49f4006d493ef92749a907d60b9a756c1d",
-  "overview_digest": "51befb352b132a68d442f32dbce6b6d5abe5d4afb8c93a7012ae5f833167cff0",
+  "overview_commit": "7556f03f844a4632ea35243977bba718db9d63d9",
+  "overview_digest": "8c7bce45b278ecf52633b31cb08158451d963a5341eff816a379f46bd8872959",
   "paragraphs": [
     {
       "id": "4c3007fee77c5623b35ad0cc77933be322e3b7dee57c8ce2b128c6939cd78832",
@@ -16103,6 +16104,30 @@
         "AICodingPractice",
         "AbstractionLeakage",
         "Piglei"
+      ]
+    },
+    {
+      "id": "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[FrostMing]] source adds [[AINativeAgentArchitecture]] as a deliberately strong version of the wiki's minimal-agent thesis. [[Bub]] first reproduced much of [[OpenClaw]]'s visible Telegram behavior through ordinary handlers, then created a sending Skill for images, stickers, and reactions; a Docker startup contract and one-shot coding-agent command let an agent-authored script take over the persistent listener path. This extends [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], and [[HeadlessAgentArchitecture]] from task execution into runtime self-extension: shell and files provide the substrate, Skills and small programs remain agent-managed artifacts, and messaging or cron merely wakes the reasoning core. The synthesis keeps a hard boundary between a small interface and a small authority surface. A GitHub token, shell, filesystem, network, and unattended startup remain broad powers even when exposed through few tools, so the source's prompt-only, unread-code control philosophy conflicts with [[AgentPermissionModel]], [[SoftwareVerification]], and [[ProductionAgentInfrastructure]]. The account is one short qualitative prototype without reproducible configuration, failure rates, security review, cost data, or proof that it matches OpenClaw's memory, routing, isolation, recovery, policy, and observability layers. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AINativeAgentArchitecture",
+        "AgentPermissionModel",
+        "Bub",
+        "CodingAgentMinimalTooling",
+        "FrostMing",
+        "HeadlessAgentArchitecture",
+        "LLMToolingSkills",
+        "OpenClaw",
+        "ProductionAgentInfrastructure",
+        "SoftwareVerification"
       ]
     }
   ],
