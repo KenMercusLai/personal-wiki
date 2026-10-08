@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_key": "wei-ai-agent-gou-jian-ji-yi-xi-tong",
+  "images": [
+    {
+      "file": "cognitive-memory-architecture.webp",
+      "alt": "Human sensory, working, episodic, semantic, procedural, consolidation, and forgetting constraints mapped to memory-system components"
+    },
+    {
+      "file": "working-memory-dashboard.webp",
+      "alt": "Nowledge Mem timeline showing a daily focus briefing selected from related memories, insights, and graph context"
+    },
+    {
+      "file": "memory-distillation-pipeline.webp",
+      "alt": "Conversation distillation pipeline with a low-cost triage gate, structured LLM extraction, memory storage, evolution detection, entity extraction, labeling, and crystals"
+    },
+    {
+      "file": "hybrid-search-pipeline.webp",
+      "alt": "Two-level memory retrieval pipeline combining fast multi-source fusion with intent-routed deep search, reranking, and on-demand thread expansion"
+    },
+    {
+      "file": "temporal-timeline-dashboard.webp",
+      "alt": "Nowledge Mem timeline beside knowledge counts, an activity calendar, and an item requiring attention"
+    },
+    {
+      "file": "memory-evolution-review.webp",
+      "alt": "Nowledge Mem evolution review showing confirms and enriches events, confidence, linked memory IDs, and a user-controlled conflict decision"
+    },
+    {
+      "file": "memory-health-dashboard.webp",
+      "alt": "Nowledge Mem health panel reporting refreshed decay scores, confidence, and high, medium, low, and stale memory counts"
+    },
+    {
+      "file": "progressive-knowledge-graph.jpeg",
+      "alt": "Seven-layer progressive knowledge graph from raw traces through units, entities, evolution, communities, crystals, and quality"
+    },
+    {
+      "file": "graph-community-explorer.webp",
+      "alt": "Nowledge Mem graph explorer with community clusters, node relationships, importance inspection, and graph algorithms"
+    },
+    {
+      "file": "cross-tool-memory-layer.webp",
+      "alt": "Personal knowledge graph connecting coding, chat, browser, mobile, CLI, notebook, and Markdown tools through capture and recall lifecycle hooks"
+    }
+  ]
+}

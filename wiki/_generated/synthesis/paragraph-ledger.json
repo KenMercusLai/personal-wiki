@@ -794,12 +794,13 @@
       "24e8a51f194d7c083ee75c5901a66686e57fcb5546722fc4005a6f55d6971e74",
       "58fe400521027da841ef325cf62b6fd79a24055de7d8ffd6ff5288499ffeeba0",
       "f8cb8a14852b97f8efadc3f597211b9eff95fdf1dca5218621bf8f3dff85d106",
-      "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0"
+      "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0",
+      "ec05567b80761cc1ca893a7419a6127cec4c56105f5f493eeac7b77e9dd8c363"
     ],
-    "paragraph_count": 794
+    "paragraph_count": 795
   },
-  "overview_commit": "c29e3bbf6e0806eb5c2222e99cda0b70e2dcdd14",
-  "overview_digest": "5cfa08274a742cb6d72230c2d8d865df6e87774201db00b6ed0c6a44bb079fe5",
+  "overview_commit": "e3811ec1d9533cb5da737d0485cae699a7005ea3",
+  "overview_digest": "b3794108435ca80fb86a4919fcc7421ec58d65474201fc25759ef311fa81ecbd",
   "paragraphs": [
     {
       "id": "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
@@ -16039,6 +16040,28 @@
         "FrederickBrooks",
         "Piglei",
         "TheLegendOfZeldaLinksAwakening"
+      ]
+    },
+    {
+      "id": "ec05567b80761cc1ca893a7419a6127cec4c56105f5f493eeac7b77e9dd8c363",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[NowledgeMem]] source turns the wiki's [[AgentMemory]] components into one first-party end-to-end architecture. Raw Traces are distilled into typed Units and promoted after three-source corroboration into Crystals; most queries fuse vector, full-text, entity, community, label, and graph signals, while difficult queries add intent routing, HyDE, LLM reranking, and pointers back to source threads. [[BitemporalMemory]] separates event time from record time, preserves precision, and refuses low-confidence date invention. [[MemoryEvolution]] separates progression (`replaces`, `enriches`) from validation (`confirms`, `challenges`), while unresolved conflicts remain visible for user adjudication. [[MemoryForgetting]] adds a distinct attention layer: decay can lower salience without erasing accumulated confidence, important memories have a floor, and archival requires several weak-value conditions together. The implementation reconciles persistent memory with [[TapeAndAnchors]] by keeping raw evidence behind progressively denser views and bounded daily working-memory prefetch, but it does not settle whether a separate cross-tool product is necessary. The account is product-authored and supplies no comparative retrieval benchmark, calibration study, security audit, longitudinal accuracy result, or evidence that its numeric weights and thresholds generalize; its non-decreasing confidence rule also needs revision when provenance is discredited. All ten effective diagrams and screenshots were opened and retained at their semantic positions because they encode pipeline branches, weights, knowledge layers, lifecycle hooks, review states, and health measures not fully repeated in the prose.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AgentMemory",
+        "BitemporalMemory",
+        "MemoryEvolution",
+        "MemoryForgetting",
+        "NowledgeMem",
+        "TapeAndAnchors"
       ]
     }
   ],

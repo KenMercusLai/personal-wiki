@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [为 AI Agent 构建记忆系统](sources/wei-ai-agent-gou-jian-ji-yi-xi-tong.md) - A Nowledge Mem engineering account decomposes cross-tool agent memory into distillation, hybrid retrieval, bitemporal state, evolution, forgetting, background intelligence, and user control.
 - [把 KV Cache 压缩推到极致](sources/ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot.md) - Zartbot reconstructs DeepSeek-V4.1-Flash around causal prefill early exit, three-dimensional CSA2 cache compression, hierarchical sparse indexing, FP4 storage, and the limits of query-only reuse.
 - [牛鞭效应与AI热潮](sources/niu-bian-xiao-ying-yu-ai-re-chao.md) - CxEric applies the bullwhip effect to AI capacity investment, separating real but correlated upstream orders from demonstrated terminal demand while preserving the thesis as prospective rather than a bubble verdict.
 - [AI Infra 全景图：Agent Framework、调度、编排、沙箱、记忆管理、Tracing 分层拆解](sources/ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie.md) - Knock maps production AI systems into nine vertical layers and four cross-cutting controls while leaving tool rankings and performance claims unbenchmarked.
@@ -1123,6 +1124,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [开发软件，或建造迷宫 | Piglei](sources/kai-fa-ruan-jian-huo-jian-zao-mi-gong-piglei.md) - Piglei uses Link's Awakening and Brooks's complexity distinction to argue that AI can accelerate implementation without replacing durable conceptual design, product judgment, or empathy for users.
 
 ## Entities
+- [Nowledge Mem](entities/NowledgeMem.md) - Cross-tool personal and team memory layer built around progressive knowledge forms, hybrid retrieval, temporal evolution, attention control, and inspectable local data.
 - [Zartbot](entities/Zartbot.md) - Technical author interpreting model architecture through cache locality, sparse addressing, and query-rewrite geometry.
 - [DeepSeek-V4.1-Flash](entities/DeepSeekV41Flash.md) - Multimodal MoE model combining causal prefill early exit, cross-layer sparse-attention cache reuse, hierarchical indexing, and FP4 main KV.
 - [CxEric](entities/CxEric.md) - Writer represented through a qualified systems analogy connecting supply-chain demand amplification to AI infrastructure investment.
@@ -2910,6 +2912,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Legend of Zelda: Link's Awakening](entities/TheLegendOfZeldaLinksAwakening.md) - Game Boy title and Switch remake used to illustrate durable conceptual value across extensive presentation and platform change.
 
 ## Concepts
+- [Memory Forgetting](concepts/MemoryForgetting.md) - Deliberate reduction of memory salience or active status through decay, confidence, importance, interaction, and conservative archival policy.
+- [Bitemporal Memory](concepts/BitemporalMemory.md) - Agent-memory model that separately tracks when events happened and when the system learned or stored them.
 - [KV-Cache Compression](concepts/KVCacheCompression.md) - Reduction of attention state across channel, sequence, layer, and precision dimensions while preserving useful later-token readout.
 - [Causal Encoder-Decoder Architecture](concepts/CausalEncoderDecoderArchitecture.md) - Transformer organization that stops bulk prompt positions after a causal context-producing stack and reuses its global memory in later decoder layers.
 - [Compressed Sparse Attention 2](concepts/CompressedSparseAttention2.md) - Sparse attention that independently refreshes or reuses global content, Top-K addresses, and per-layer queries while retaining fresh local-window state.

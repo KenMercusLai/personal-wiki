@@ -8844,3 +8844,11 @@ Created [[Zartbot]], [[DeepSeekV41Flash]], [[KVCacheCompression]], [[CausalEncod
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | 为 AI Agent 构建记忆系统
+
+Created [[NowledgeMem]], [[BitemporalMemory]], and [[MemoryForgetting]], and updated [[AgentMemory]], [[MemoryEvolution]], and [[MemoryConflictResolution]] from their complete ordered evidence inventories. Recorded Trace-to-Unit-to-Crystal distillation, fast and deep hybrid retrieval, dual temporal clocks, progression versus validation edges, deliberate forgetting, daily working-memory prefetch, guarded background tasks, cross-tool lifecycle hooks, and human conflict review. Preserved the separate-service tension with [[TapeAndAnchors]], the product-authored evidence boundary, and the risk of treating non-decreasing confidence as a universal rule. Opened and retained all ten effective diagrams and screenshots under descriptive canonical filenames with matching manifest alt text.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
