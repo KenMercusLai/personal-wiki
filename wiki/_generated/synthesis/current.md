@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 645d47853b1d5d0d62090dee0d857160a8d82a92
+as_of_overview_commit: 2b355288183d177d9f8c15fb57fb2477e7da859e
 summary: "A qualified map of technology, markets, institutions, culture, health, work, history, and personal judgment, centered on evidence, system boundaries, demand, and accountability."
-episode_count: 1099
-source_count: 1099
+episode_count: 1100
+source_count: 1100
 paragraph_count: 796
 topic_count: 9
 ---

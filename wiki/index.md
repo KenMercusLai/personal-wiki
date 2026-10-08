@@ -1125,6 +1125,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [开发软件，或建造迷宫 | Piglei](sources/kai-fa-ruan-jian-huo-jian-zao-mi-gong-piglei.md) - Piglei uses Link's Awakening and Brooks's complexity distinction to argue that AI can accelerate implementation without replacing durable conceptual design, product judgment, or empathy for users.
 - [AI 编程是一种“框架” | Piglei](sources/ai-bian-cheng-shi-yi-zhong-kuang-jia-piglei.md) - Piglei frames AI coding as a high-level abstraction whose leverage can hide control loss, abstraction leakage, and cognitive debt, then proposes a library-style human-controlled alternative.
 
+- [A Language For Agents](sources/a-language-for-agents.md) - Practitioner proposal for programming languages that favor agent-local reasoning, explicit effects, stable diffs, deterministic tests, and uniform build feedback.
+
 ## Entities
 - [Red Blob Games](entities/RedBlobGames.md) - Educational game-algorithm site represented through an interactive, implementation-oriented pathfinding tutorial with explicit production-evidence limits.
 - [Nowledge Mem](entities/NowledgeMem.md) - Cross-tool personal and team memory layer built around progressive knowledge forms, hybrid retrieval, temporal evolution, attention control, and inspectable local data.
@@ -4346,5 +4348,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chokepoint Investing](concepts/ChokepointInvesting.md) - Structural investing approach that maps hard-to-substitute supply-chain dependencies, tests supplier economics, and revises positions as bottlenecks change.
 - [Bayesian Updating](concepts/BayesianUpdating.md) - Revision of hypothesis confidence through evidence, distinguished from valuation, payoff, and portfolio decisions.
 - [Procedural Road Geometry](concepts/ProceduralRoadGeometry.md) - Generation of plausible road surfaces and intersections from editable curves while preserving widths, curvature transitions, and connectivity.
+
+- [Agent-Oriented Programming Languages](concepts/AgentOrientedProgrammingLanguages.md) - Language and toolchain design optimized for coding-agent generation, inspection, repair, testing, and explanation.
 
 ## Syntheses

@@ -8868,3 +8868,11 @@ Created [[AICodingFrameworkLibraryModel]] and updated [[Piglei]], [[AICodingPrac
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-08] ingest | A Language For Agents
+
+Created [[AgentOrientedProgrammingLanguages]] from a practitioner proposal for explicit, locally understandable, greppable, diff-stable code; visible effects and failures; deterministic testing; dependency-aware builds; and a uniform verification path. Preserved the absence of controlled benchmarks, the tension between familiar syntax and genuine novelty, the hidden-complexity risk of propagated effect markers, and the maintenance costs of agent-assisted library ports. The source contains no effective image references, so no asset manifest was created.
+
+## [2026-10-08] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
