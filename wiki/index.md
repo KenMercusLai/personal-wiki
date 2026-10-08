@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Welcoming The Next Generation of Programmers](sources/welcoming-the-next-generation-of-programmers.md) - Armin Ronacher argues that AI-first creators are programmers and that established communities should connect solitary tool use to mentorship, belonging, and engineering practice.
 - [Red Blob Games: Improving heuristics for A* search](sources/red-blob-games-improving-heuristics-for-a-star-search.md) - Red Blob Games derives landmark-based A* lower bounds, multiple-landmark aggregation, placement tradeoffs, preprocessing, and dynamic-map failure modes.
 - [为 AI Agent 构建记忆系统](sources/wei-ai-agent-gou-jian-ji-yi-xi-tong.md) - A Nowledge Mem engineering account decomposes cross-tool agent memory into distillation, hybrid retrieval, bitemporal state, evolution, forgetting, background intelligence, and user control.
 - [把 KV Cache 压缩推到极致](sources/ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot.md) - Zartbot reconstructs DeepSeek-V4.1-Flash around causal prefill early exit, three-dimensional CSA2 cache compression, hierarchical sparse indexing, FP4 storage, and the limits of query-only reuse.
@@ -1128,6 +1129,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Language For Agents](sources/a-language-for-agents.md) - Practitioner proposal for programming languages that favor agent-local reasoning, explicit effects, stable diffs, deterministic tests, and uniform build feedback.
 
 ## Entities
+- [Armin Ronacher](entities/ArminRonacher.md) - Python-community member advocating welcome, mentorship, and human on-ramps for people who begin programming through AI.
 - [Red Blob Games](entities/RedBlobGames.md) - Educational game-algorithm site represented through an interactive, implementation-oriented pathfinding tutorial with explicit production-evidence limits.
 - [Nowledge Mem](entities/NowledgeMem.md) - Cross-tool personal and team memory layer built around progressive knowledge forms, hybrid retrieval, temporal evolution, attention control, and inspectable local data.
 - [Zartbot](entities/Zartbot.md) - Technical author interpreting model architecture through cache locality, sparse addressing, and query-rewrite geometry.

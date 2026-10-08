@@ -4,7 +4,8 @@ type: concept
 tags: [software-engineering, mentoring, learning, hiring]
 sources:
   - great-developers-are-raised-not-hired-the-principal-developer-by-eduards-sizovs
-last_updated: 2026-10-02
+  - welcoming-the-next-generation-of-programmers
+last_updated: 2026-10-08
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,6 +17,8 @@ The source reframes mentorship from optional generosity into production capacity
 
 That shift does not make selection irrelevant. A team still needs to identify role-critical capability, learning evidence, support needs, and the time within which gaps can safely be closed. Nor is mentoring free: senior engineers need communication skill, staffing headroom, useful teaching work, manager support, and recognition for developmental labor. The defensible synthesis is therefore a capacity match. Widen entry when the organization can name and supply the learning environment a candidate needs; do not advertise potential-based hiring while leaving newcomers to compensate for absent support.
 
+Ronacher moves the same capacity problem outside formal employment. AI tools can give people a first programming success without introducing them to a human guide, community institutions, or engineering norms. Community mentorship can bridge that gap by recognizing agent-assisted creators as legitimate beginners and helping them move from solitary generation toward judgment, verification, maintainability, and shared practice. This broadens the target population without making mentorship a substitute for technical safeguards.
+
 ## Key Claims
 - Developer capability is partly produced by workplace conditions, not merely discovered through hiring.
 - Interview confidence, current polish, and access to prior mentors are incomplete signals of future contribution.
@@ -23,6 +26,7 @@ That shift does not make selection irrelevant. A team still needs to identify ro
 - Mentoring requires protected time, communication skill, manager support, suitable work, and organizational recognition.
 - Selection and development should be designed together so that admitted learning gaps match real teaching capacity and role risk.
 - Wider entry does not excuse vague "attitude" judgments, unpaid training burdens, weak compensation, or unsupported sink-or-swim onboarding.
+- AI-first newcomers need discoverable human on-ramps because a tool-mediated start may not expose community, engineering norms, or routes for asking for help.
 
 ## Evidence
 - Fixed-pool critique: [[great-developers-are-raised-not-hired-the-principal-developer-by-eduards-sizovs]] argues that escalating competition for already skilled engineers does not create more of them.
@@ -30,14 +34,15 @@ That shift does not make selection irrelevant. A team still needs to identify ro
 - Development practices: [[great-developers-are-raised-not-hired-the-principal-developer-by-eduards-sizovs]] recommends pair programming, continuous feedback, career advice, books, blogs, videos, meetups, conferences, workshops, and beginner bootcamps.
 - Capacity requirement: [[great-developers-are-raised-not-hired-the-principal-developer-by-eduards-sizovs]] says experienced engineers need mentoring skill and time freed from routine work.
 - Hiring redesign: [[great-developers-are-raised-not-hired-the-principal-developer-by-eduards-sizovs]] recommends relaxing unnecessary requirements and hiring candidates with eagerness and capacity to learn.
+- Community bridge: [[welcoming-the-next-generation-of-programmers]] asks established programmers to welcome agent-assisted creators, create on-ramps, and supply human mentorship that the initiating AI interaction lacks.
 
 ## Counterevidence & Qualifications
-The sole source is one practitioner's persuasive essay. It supplies no candidate sample, mentoring protocol, comparison group, time-to-productivity measure, skill assessment, delivery cost, retention result, inclusion outcome, or evidence that mentee loyalty improves. Technical gaps also vary: some can be learned safely on the job, while others may be immediately critical in safety-, security-, compliance-, or incident-sensitive roles. Senior time is scarce, and poorly supported mentoring can overload experienced staff, delay feedback, or conceal underinvestment in onboarding. "Attitude" and "growth mindset" can reproduce culture-fit bias unless translated into observable and role-relevant evidence. Mentorship should widen opportunity without pathologizing candidates, demanding gratitude or loyalty, or substituting for fair pay and safe working conditions.
+The sources are practitioner arguments rather than comparative evidence. They supply no candidate sample, mentoring protocol, comparison group, time-to-productivity measure, skill assessment, delivery cost, retention result, inclusion outcome, or evidence that mentee loyalty improves. The AI-first source also supplies no adoption counts, progression measures, or evidence that community contact converts generated-code success into independent engineering capability. Technical gaps vary: some can be learned safely, while others may be immediately critical in safety-, security-, compliance-, or incident-sensitive work. Senior time is scarce, and poorly supported mentoring can overload experienced staff, delay feedback, or conceal underinvestment in onboarding. "Attitude" and "growth mindset" can reproduce culture-fit bias unless translated into observable and role-relevant evidence. Mentorship should widen opportunity without pathologizing candidates, demanding gratitude or loyalty, or substituting for fair pay, safe conditions, verification, and accountable code ownership.
 
 ## What Changed
-- Created the concept around mentorship as organizational skill-production capacity rather than informal individual generosity.
-- Made hiring breadth conditional on an explicit match between candidate learning needs and real teaching capacity.
-- Added workload, bias, safety-critical-role, compensation, and unsupported-onboarding limits to the source's prescription.
+- Extended mentorship from workplace development to community onboarding for people who begin programming through AI.
+- Added the missing-human-guide problem and discoverable on-ramps as mentoring design concerns.
+- Preserved capacity, outcome-evidence, safety, workload, and accountability limits.
 
 ## Related Concepts
 - [[JuniorEngineerLearning]] - mentorship supplies feedback, expert reasoning, and supported practice for early-career judgment.
@@ -47,3 +52,5 @@ The sole source is one practitioner's persuasive essay. It supplies no candidate
 - [[InclusiveHiring]] - real development capacity can widen entry beyond candidates who already had privileged access to polish and sponsorship.
 - [[PsychologicalSafety]] - mentees need to expose uncertainty and mistakes without disproportionate interpersonal punishment.
 - [[ImposterSyndrome]] - mentorship can make progress and competence more legible without treating all novice uncertainty as pathology.
+- [[VibeCoding]] - agent-assisted creation can precede the comprehension and judgment that mentorship helps develop.
+- [[TechCommunityParticipation]] - communities and conferences can make mentors and peer learning discoverable outside employment.
