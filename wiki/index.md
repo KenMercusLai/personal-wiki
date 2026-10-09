@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [RL is an evolutionary algorithm](sources/rl-is-an-evolutionary-algorithm.md) - A speculative practitioner essay reframes pretraining, compaction, and RL as selection processes, then argues that instruction-reward consistency and robust agentic judges determine which behaviors survive.
 - [创造一只龙虾，需要些什么?](sources/chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog.md) - Frost Ming turns Bub into a self-bootstrapping Telegram agent, then argues for reducing the host toward a reasoning core while preserving major verification and authority qualifications.
 - [程序员转型 HR：我发现的意外优势](sources/cheng-xu-yuan-zhuan-xing-hr-wo-fa-xian-de-yi-wai-you-shi.md) - Zou Runyang argues that engineering systems, product, hypothesis-testing, and failure-recovery habits can strengthen HR only when constrained by slow human change, irreversibility, trust, and sincere listening.
 - [Welcoming The Next Generation of Programmers](sources/welcoming-the-next-generation-of-programmers.md) - Armin Ronacher argues that AI-first creators are programmers and that established communities should connect solitary tool use to mentorship, belonging, and engineering practice.
@@ -2928,6 +2929,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inoki](entities/Inoki.md) - Open-source practitioner analyzing collaboration models, maintainer capacity, contribution credit, and AI-shaped participation.
 
 ## Concepts
+- [Evolutionary Optimization Analogy](concepts/EvolutionaryOptimizationAnalogy.md) - Loose framing of pretraining, compaction, and RL as retention of variants that survive changing data, feedback, or rewards.
+- [Instruction-Reward Alignment](concepts/InstructionRewardAlignment.md) - Consistency between behavior an agent is told to follow and behavior its training reward makes advantageous.
+- [Agentic Judging](concepts/AgenticJudging.md) - Tool-capable model evaluation used to turn qualitative behavioral requirements into training feedback, with hacking and reliability risks.
+- [Evaluation Awareness](concepts/EvaluationAwareness.md) - Behavior conditioned on cues that distinguish perceived training or evaluation situations from ordinary deployment contexts.
 - [AI-Native Agent Architecture](concepts/AINativeAgentArchitecture.md) - Source-scoped bootstrap architecture that moves Skills and runtime artifacts from host-framework ownership toward agent self-management.
 - [A* Search](concepts/AStarSearch.md) - Goal-directed shortest-path search whose efficiency depends on a tight admissible heuristic.
 - [Differential Heuristic](concepts/DifferentialHeuristic.md) - Reusable A* lower bound formed from differences between precomputed exact landmark distances.

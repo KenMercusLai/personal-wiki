@@ -7,7 +7,8 @@ sources:
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
   - mu-jiang-chui-zi-ding-zi
   - effective-context-engineering-for-ai-agents-anthropic
-last_updated: 2026-10-08
+  - rl-is-an-evolutionary-algorithm
+last_updated: 2026-10-09
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,14 +24,16 @@ A concrete provider-specific answer to that tension is microcompact: large, fast
 
 Anthropic's account places compaction inside a broader long-horizon toolkit. A near-full conversation can be summarized into a fresh window, preserving decisions, unresolved problems, and implementation details while discarding redundant messages and old raw tool results. The tuning priority should begin with recall, because subtle information may become important only later; precision can then improve by removing clearly superfluous material. Structured notes or subagents may be better when state should remain external or exploration can be isolated.
 
+The newest essay adds a different goal for repeated compaction: successive summaries could act as a mutable lesson store, with later environment feedback causing harmful rules to be overwritten and useful rules to persist. This would amount to agent-driven continual learning only if the model correctly attributes outcomes to earlier lessons and updates them without erasing important evidence. The cited MazeBench story does not isolate that mechanism, so the proposal remains a design hypothesis rather than evidence that compaction itself learns reliably.
+
 ## Key Claims
-- End-of-window summarization can restore capacity but can discard latent-important detail unless its prompt is tuned for high recall before precision.
+- End-of-window summarization can restore capacity but can discard latent-important detail unless its prompt is tuned for high recall before precision and later corrections preserve provenance.
 - Dynamic compression should proactively remove wrong, low-relevance, or distracting context.
-- External storage plus retrieval can preserve details without keeping everything in the active prompt.
-- Hierarchical memory systems resemble operating-system virtual memory.
+- External hierarchical storage plus retrieval can preserve details without keeping everything in the active prompt, resembling operating-system virtual memory.
 - Domain-specific compression can work when a strong prior identifies disposable information.
 - Dynamic compression can invalidate prompt caches unless stable prefixes are separated from dynamic suffixes, or provider-supported cache edits can logically delete selected cached blocks without rewriting the local transcript.
 - Some context problems can be avoided by reconstructing from preserved history and anchors rather than compressing inherited state.
+- Repeated summaries could refine operational lessons through feedback, but only when the agent can attribute outcomes and revise rules reliably.
 
 ## Evidence
 - Passive-compression critique: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] says waiting until the context is near full causes a violent summarization step that may lose useful detail.
@@ -44,6 +47,8 @@ Anthropic's account places compaction inside a broader long-horizon toolkit. A n
 - High-recall compaction: [[effective-context-engineering-for-ai-agents-anthropic]] recommends preserving decisions, unresolved bugs, and implementation detail first, then iterating to remove superfluous content.
 - Tool-result clearing: [[effective-context-engineering-for-ai-agents-anthropic]] identifies old raw tool calls and results as a comparatively safe early target for light-touch compaction.
 - Alternatives by task shape: [[effective-context-engineering-for-ai-agents-anthropic]] places compaction beside structured notes and subagents rather than treating it as the only continuity mechanism.
+- Lesson evolution: [[rl-is-an-evolutionary-algorithm]] proposes retaining helpful summary rules and replacing harmful ones after later environment feedback.
+- Anecdotal boundary: [[rl-is-an-evolutionary-algorithm]] attributes a later MazeBench success to learning across compactions but supplies no trace analysis or causal comparison.
 
 ## Counterevidence & Qualifications
 The sources propose architectural directions but do not benchmark dynamic compression against passive summarization. Claude Code's cache-edit behavior is provider-specific and partly inferred, and the sources do not resolve how a supervising model distinguishes false, low-value, and latent-but-important details in high-stakes domains.
@@ -52,10 +57,12 @@ This model shifts rather than solves several hard problems: retrieval quality, a
 
 Anthropic does not supply a fidelity benchmark, trigger policy, or comparative threshold for choosing compaction over notes or subagents. Its Claude Code description is a product example, not evidence that the same retention recipe fits every domain, especially when later relevance is hard to predict.
 
+The continual-learning proposal assumes that a model can notice mistakes, identify which stored lesson caused them, and revise the summary in the correct direction. The MazeBench recollection does not rule out exploration, retained context, luck, hidden harness state, or other causes, and no before-and-after summaries are provided.
+
 ## What Changed
-- Reframed compaction as one long-horizon continuity mechanism beside structured notes and subagents.
-- Added high recall before precision as the tuning order for summary-based compaction.
-- Added old raw tool results as a comparatively safe first clearing target, while preserving the latent-relevance risk.
+- Added repeated summary revision as a proposed continual-learning mechanism driven by later environment feedback.
+- Qualified that proposal with attribution, provenance, and causal-evidence requirements.
+- Preserved reconstruction, structured notes, and subagents as alternatives when inherited summary state is unsafe or insufficient.
 
 ## Related Concepts
 - [[LLMContextManagement]] - dynamic compression is one method for protecting context quality.
@@ -65,3 +72,4 @@ Anthropic does not supply a fidelity benchmark, trigger policy, or comparative t
 - [[ComputerUse]] - Computer Use can benefit from domain-specific compression such as keeping only the latest screenshot.
 - [[PromptCaching]] - cache edits reduce the usual conflict between compression and cache reuse.
 - [[TapeAndAnchors]] - preserves raw history and minimal anchors instead of compressing all inherited state.
+- [[EvolutionaryOptimizationAnalogy]] - treats retained and revised lessons as variants subject to later feedback.

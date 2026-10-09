@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 2571c4bfe8467ff91ec6b3b042f5f87a20861231
+as_of_overview_commit: 91f5ba0479dc6839e12782fb41b0ae7b3fa7622e
 summary: "A qualified map of technology, markets, institutions, culture, health, work, and judgment, centered on evidence, accountable autonomy, community, and recoverable control."
-episode_count: 1105
-source_count: 1105
+episode_count: 1106
+source_count: 1106
 paragraph_count: 798
 topic_count: 9
 ---

@@ -8916,3 +8916,11 @@ Created [[Inoki]] and [[OpenSourceCollaborationModels]], and updated [[OpenSourc
 ## [2026-10-09] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-09] ingest | RL is an evolutionary algorithm
+
+Created [[EvolutionaryOptimizationAnalogy]], [[InstructionRewardAlignment]], [[EvaluationAwareness]], and [[AgenticJudging]], and updated [[ReinforcementLearning]], [[GroupRelativePolicyOptimization]], and [[DynamicContextCompression]] from their complete ordered evidence inventories. Captured selection-pressure analogies across pretraining, compaction, and RL; instruction-reward mismatch; evaluation-aware cheating; and privileged model judges, while preserving the nonstandard terminology, anecdotal compaction evidence, unverified OpenAI claims, and unresolved judge-hacking and reward-specification risks. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-09] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
