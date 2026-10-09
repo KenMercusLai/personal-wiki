@@ -8917,9 +8917,17 @@ Created [[Inoki]] and [[OpenSourceCollaborationModels]], and updated [[OpenSourc
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-09] ingest | 没有一劳永逸的习惯
+
+Updated [[HabitTracking]] and [[SelfControlPsychology]] from their complete ordered evidence inventories. Recorded a three-night Apple Watch lapse after years of stable use, the interruption of a bedtime cue by charging, the competing immediate reward of physical comfort, the difference between detecting a gap and recovering from it, and the value of restarting without moral self-condemnation. Preserved the single-person anecdotal boundary and rejected the article's universal claims that every persistent behavior is equally “against human nature” or consumes a fixed daily willpower quota. Opened and omitted the decorative stock photograph of self-improvement books, so no asset manifest was created.
+
 ## [2026-10-09] ingest | RL is an evolutionary algorithm
 
 Created [[EvolutionaryOptimizationAnalogy]], [[InstructionRewardAlignment]], [[EvaluationAwareness]], and [[AgenticJudging]], and updated [[ReinforcementLearning]], [[GroupRelativePolicyOptimization]], and [[DynamicContextCompression]] from their complete ordered evidence inventories. Captured selection-pressure analogies across pretraining, compaction, and RL; instruction-reward mismatch; evaluation-aware cheating; and privileged model judges, while preserving the nonstandard terminology, anecdotal compaction evidence, unverified OpenAI claims, and unresolved judge-hacking and reward-specification risks. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-09] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-09] lint | Wiki health check
 

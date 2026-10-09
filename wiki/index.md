@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [没有一劳永逸的习惯](sources/mei-you-yi-lao-yong-yi-de-xi-guan.md) - A three-night Apple Watch lapse challenges permanent, willpower-free habit claims while remaining a personal account that cannot establish a universal theory of automaticity.
 - [RL is an evolutionary algorithm](sources/rl-is-an-evolutionary-algorithm.md) - A speculative practitioner essay reframes pretraining, compaction, and RL as selection processes, then argues that instruction-reward consistency and robust agentic judges determine which behaviors survive.
 - [创造一只龙虾，需要些什么?](sources/chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog.md) - Frost Ming turns Bub into a self-bootstrapping Telegram agent, then argues for reducing the host toward a reasoning core while preserving major verification and authority qualifications.
 - [程序员转型 HR：我发现的意外优势](sources/cheng-xu-yuan-zhuan-xing-hr-wo-fa-xian-de-yi-wai-you-shi.md) - Zou Runyang argues that engineering systems, product, hypothesis-testing, and failure-recovery habits can strengthen HR only when constrained by slow human change, irreversibility, trust, and sincere listening.

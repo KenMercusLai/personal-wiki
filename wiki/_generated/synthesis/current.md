@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 91f5ba0479dc6839e12782fb41b0ae7b3fa7622e
+as_of_overview_commit: fe7c87683752dcc6bf603bbe43153561b45c9a48
 summary: "A qualified map of technology, markets, institutions, culture, health, work, and judgment, centered on evidence, accountable autonomy, community, and recoverable control."
-episode_count: 1106
-source_count: 1106
+episode_count: 1107
+source_count: 1107
 paragraph_count: 798
 topic_count: 9
 ---
@@ -23,7 +23,7 @@ topic_count: 9
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof.
-- [[EngineeringMentorship]] treats developer capability as partly produced by social and workplace conditions: [[EduardsSizovs]] links wider entry to protected pairing, feedback, career guidance, and learning resources, while [[ArminRonacher]] argues that [[TechCommunityParticipation]] should give AI-first programmers the human guide and engineering on-ramp absent from a solitary [[ChatGPT]] interaction. [[HiringSystemDesign]] and [[InclusiveHiring]] still require learning needs to match real teaching capacity and job-relevant evidence rather than confidence or subjective culture fit.
+- [[WorkplaceCollaboration]] improves when teams combine trust, useful disagreement, role clarity, remote-work inclusion, meeting stewardship, and power-aware facilitation so [[ProductReviewMeetings]], interruptions, and text-heavy coordination do not casually consume [[AttentionManagement]] or transfer ownership away from teams. [[StaffMeetings]] adds a conditional coordination forum with separate facilitation and recordkeeping, question-producing metrics, team-owned topics, error correction, shared notes, and continuing value tests; [[ProceduralRationality]] and [[PsychologicalSafety]] bound the design because visible ritual does not prove useful work or candor. [[WorkplaceInformationSeeking]] adds the reciprocal inbound system: choose and prune channels, map dependencies, investigate surprises that challenge [[MentalModels]], publish enough context to attract relevant updates, and register cross-team callbacks without mistaking exhaustive monitoring for responsibility.
 
 ## Synthesis by Domain
 
