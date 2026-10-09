@@ -2,7 +2,7 @@
 title: "Effective context engineering for AI agents | Anthropic"
 type: source
 tags: [ai, agents, context-engineering, memory]
-date: 2026-07-09
+date: 2025-09-29
 source_file: '/mnt/ken_personal_wiki/Articles/Effective context engineering for AI agents \ Anthropic.md'
 ---
 

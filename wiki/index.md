@@ -1131,6 +1131,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Language For Agents](sources/a-language-for-agents.md) - Practitioner proposal for programming languages that favor agent-local reasoning, explicit effects, stable diffs, deterministic tests, and uniform build feedback.
 - [Effective context engineering for AI agents | Anthropic](sources/effective-context-engineering-for-ai-agents-anthropic.md) - Anthropic frames context as a finite attention budget and maps just-in-time retrieval, compaction, structured notes, and subagents to different agent tasks.
 
+- [对开源模式演变的一些想法——写在开始参与开源 10 年后](sources/dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou.md) - Inoki 以“大教堂、集市与地摊”重述开源协作，并把维护瓶颈、贡献计量、商业激励与 AI 时代的学习路径放进同一治理框架。
+
 ## Entities
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
 - [Zou Runyang](entities/ZouRunyang.md) - Software engineer and former technical manager represented through a qualified transition into startup HR leadership and organization design.
@@ -2923,6 +2925,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Frederick Brooks](entities/FrederickBrooks.md) - Software-engineering thinker represented through the essential-versus-accidental complexity distinction and its use in evaluating AI coding claims.
 - [The Legend of Zelda: Link's Awakening](entities/TheLegendOfZeldaLinksAwakening.md) - Game Boy title and Switch remake used to illustrate durable conceptual value across extensive presentation and platform change.
 
+- [Inoki](entities/Inoki.md) - Open-source practitioner analyzing collaboration models, maintainer capacity, contribution credit, and AI-shaped participation.
+
 ## Concepts
 - [AI-Native Agent Architecture](concepts/AINativeAgentArchitecture.md) - Source-scoped bootstrap architecture that moves Skills and runtime artifacts from host-framework ownership toward agent self-management.
 - [A* Search](concepts/AStarSearch.md) - Goal-directed shortest-path search whose efficiency depends on a tight admissible heuristic.
@@ -4358,5 +4362,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Procedural Road Geometry](concepts/ProceduralRoadGeometry.md) - Generation of plausible road surfaces and intersections from editable curves while preserving widths, curvature transitions, and connectivity.
 
 - [Agent-Oriented Programming Languages](concepts/AgentOrientedProgrammingLanguages.md) - Language and toolchain design optimized for coding-agent generation, inspection, repair, testing, and explanation.
+
+- [Open-Source Collaboration Models](concepts/OpenSourceCollaborationModels.md) - Framework distinguishing cathedral, bazaar, and low-commitment street-stall modes while tracking governance, incentives, and transitions between them.
 
 ## Syntheses

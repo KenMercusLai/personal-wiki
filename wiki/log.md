@@ -8908,3 +8908,11 @@ Updated [[LLMContextManagement]], [[DynamicContextCompression]], [[AgentMemory]]
 ## [2026-10-08] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-09] ingest | 对开源模式演变的一些想法——写在开始参与开源 10 年后
+
+Created [[Inoki]] and [[OpenSourceCollaborationModels]], and updated [[OpenSourceProjectMaintenance]] from its complete ordered evidence inventory. Added the street-stall mode alongside cathedral and bazaar collaboration, mode transitions, maintainer capacity and contributor-access tradeoffs, PR-centered credit distortion, structured mentorship qualifications, and AI-driven loss of public learning traces. The source contains no effective image references, so no visual assets or manifest were required. No direct contradiction was found; the source qualifies stability and AI-access claims by showing how quality controls and fast private development can also raise participation barriers.
+
+## [2026-10-09] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

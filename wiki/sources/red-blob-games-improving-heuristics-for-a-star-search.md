@@ -2,7 +2,7 @@
 title: "Red Blob Games: Improving heuristics for A* search"
 type: source
 tags: [algorithms, pathfinding, graph-theory, game-development]
-date: 2026-07-01
+date: 2026-07
 source_file: "/mnt/ken_personal_wiki/Articles/Red Blob Games- Improving heuristics for A* search.md"
 ---
 
