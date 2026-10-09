@@ -6,12 +6,13 @@ sources:
   - du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan
   - ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase
   - blog-guangzhengli-vibe-coding-and-context-coding
-last_updated: 2026-09-14
+  - ren-yi-gui-mo-de-git
+last_updated: 2026-10-09
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Cursor]] is an AI coding tool represented in the sources through convention-driven team prompting and through its codebase question-answering feature.
+[[Cursor]] is an AI coding company and tool represented through convention-driven prompting, codebase retrieval, and the [[Origin]] Git platform built on its [[Continuity]] storage system.
 
 ## Current Profile
 Cursor first appears in the QuanXiao discussion as a team tool for passing technical implementation ideas, file-use habits, and naming conventions to AI so it can write code, technical documentation, code explanations, tests, and test-failure fixes.
@@ -20,14 +21,15 @@ The later codebase tutorial treats Cursor as the reference product for codebase 
 
 Guangzhengli adds a historical and comparative layer. Cursor is framed as a milestone AI IDE because it combined fast Tab completion, stronger models, direct editing, codebase RAG, explicit file/folder references, Git history indexing, documentation indexing, and rules. The same source qualifies Cursor on large multi-file work: its downstream-product token economics and RAG retrieval can make it weaker than Claude Code when a task needs broad, current, business-specific context.
 
+The Git hosting article adds an infrastructure role. Cursor says growth in agent-generated repositories, pull requests, and CI led it to build Continuity, which keeps ordinary Git repositories as local NVMe caches while an S3-compatible write-ahead log holds durable authority. Origin is the platform built on that storage layer. This is a first-party architecture and product account, not independent verification of Cursor's reliability or scale claims.
+
 ## Key Characteristics
-- Serves as an AI coding environment in the team practice described by a participant.
-- Is used with explicit project conventions rather than free-form prompting alone.
+- Serves as an AI coding environment used with explicit project conventions rather than free-form prompting alone.
 - Supports implementation, documentation, explanation, testing, and debugging tasks in the reported workflow.
-- Provides a codebase feature framed as vector-based retrieval over functions, classes, and logic blocks.
-- Serves as the comparison point for self-built codebase QA agents.
+- Provides a codebase feature framed as vector-based retrieval over functions, classes, and logic blocks and serves as the comparison point for self-built codebase QA agents.
 - Combines AI IDE interaction, fast completion, direct editing, project RAG, rules, and explicit context references.
 - Can be weakened by token budgets, model downgrades, stale indexes, or retrieval that finds semantically similar code rather than business-relevant code.
+- Operates Git infrastructure through Continuity and Origin, targeting both large monorepositories and many small agent-created repositories.
 
 ## Evidence
 - Tool context: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] quotes a participant saying their team uses Cursor in this manner.
@@ -38,14 +40,18 @@ Guangzhengli adds a historical and comparative layer. Cursor is framed as a mile
 - AI IDE milestone: [[blog-guangzhengli-vibe-coding-and-context-coding]] credits Cursor with fast Tab completion, Claude 3.5 Sonnet-era programming strength, direct editing, RAG indexing, file/folder references, Git history indexing, documentation indexing, and rules.
 - RAG implementation sketch: [[blog-guangzhengli-vibe-coding-and-context-coding]] says Cursor chunks code locally, uploads chunks for embedding, stores them in a cloud vector database, and retrieves nearest neighbors through Turbopuffer.
 - Comparative limit: [[blog-guangzhengli-vibe-coding-and-context-coding]] argues that semantic similarity does not always equal code dependency or business context, and that stale Merkle-tree-indexed code can appear after large refactors.
+- Git storage architecture: [[ren-yi-gui-mo-de-git]] describes Cursor's WAL-backed Continuity system and disposable local Git caches.
+- Hosting platform: [[ren-yi-gui-mo-de-git]] presents Origin as the product layer serving Git protocol, web, API, and agent operations.
+- Reported scale: [[ren-yi-gui-mo-de-git]] reports synthetic tests through 100 replicas and high push throughput on S3 variants without publishing a reproducible independent benchmark.
 
 ## Qualifications
-The sources do not comprehensively document Cursor's current product surface or compare it systematically with other coding tools. The codebase tutorial describes Cursor's retrieval behavior at a high level, then focuses on a separate Agno implementation. Guangzhengli's retrieval and token-economics critique is a practitioner interpretation rather than a measured benchmark.
+The sources do not comprehensively document Cursor's current product surface or compare it systematically with other coding tools. The codebase tutorial describes Cursor's retrieval behavior at a high level, then focuses on a separate Agno implementation. Guangzhengli's retrieval and token-economics critique is a practitioner interpretation rather than a measured benchmark. The Git infrastructure source is Cursor's own launch narrative; it omits public code, reproducible methods, costs, service guarantees, security details, and independent production evidence.
 
 ## What Changed
 - Created the initial entity profile for Cursor as an AI coding tool cited in the source.
 - Added Cursor's codebase QA feature as the reference point for a self-built Agno implementation.
 - Added Cursor's broader AI IDE milestone role and the RAG-versus-grep qualification from Guangzhengli.
+- Added Cursor's role as developer of Continuity and Origin, bounded by first-party evidence.
 
 ## Relationships
 - [[QuanXiao]] - community discussion where Cursor is mentioned.
@@ -55,3 +61,6 @@ The sources do not comprehensively document Cursor's current product surface or 
 - [[AgenticRAG]] - the Agno tutorial approximates Cursor-style codebase QA through search/read agent loops.
 - [[Agno]] - framework used to build a local Cursor-codebase-like assistant.
 - [[ContextCoding]] - Cursor is a major context-coding milestone in Guangzhengli's account.
+- [[Continuity]] - Cursor's WAL-backed Git storage system.
+- [[Origin]] - Cursor's Git hosting platform built on Continuity.
+- [[GitHostingArchitecture]] - infrastructure domain addressed by Continuity and Origin.

@@ -798,12 +798,13 @@
       "0849d459d069cb2352ea0225d2655846a61e0b25dccb0a341e0564214b418ae0",
       "ec05567b80761cc1ca893a7419a6127cec4c56105f5f493eeac7b77e9dd8c363",
       "289bf0d1a0c811582799f87c83e1afdb621afd389c71c9fb20fd019dfac0a0bc",
-      "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63"
+      "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63",
+      "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4"
     ],
-    "paragraph_count": 798
+    "paragraph_count": 799
   },
-  "overview_commit": "fe7c87683752dcc6bf603bbe43153561b45c9a48",
-  "overview_digest": "a6cb1dd32388d51a95ed4544fc52184887da1e7619a9b9de5d092a26516965f6",
+  "overview_commit": "628c5dca92f114cb691ac472f66aa92f8c20d10f",
+  "overview_digest": "ed2b52a7f9073601e631b013b098e8def542c57dcfd46adb591baec5b03e1559",
   "paragraphs": [
     {
       "id": "4c3007fee77c5623b35ad0cc77933be322e3b7dee57c8ce2b128c6939cd78832",
@@ -16128,6 +16129,26 @@
         "OpenClaw",
         "ProductionAgentInfrastructure",
         "SoftwareVerification"
+      ]
+    },
+    {
+      "id": "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Cursor engineering source adds [[GitHostingArchitecture]] as a storage-authority problem created by Git's content-addressed DAG, packfile delta chains, and client-facing packfile protocol. Object-level distribution turns graph traversal into serial network round trips, while shared or block-replicated filesystems handle Git's random reads and filesystem assumptions poorly. The source credits [[GitHub]] Spokes with the durable native-repository pattern: local NVMe preserves upstream Git behavior and efficient clones, while packfile fan-out plus coordinated reference transactions gives current reads from any replica. Its claimed limits are the fixed replica floor, slow-node write tails, placement and repair state, and repeated repacking. [[Continuity]] relocates durable authority into an S3-compatible write-ahead log: compare-and-swap serializes published pushes, rendezvous hashing chooses efficient placement without defining correctness, gossip accelerates catch-up, and a read-time ETag check repairs missed replication before serving data. Local repositories can therefore scale from zero cold copies to many hot copies, with [[Origin]] as the hosting product above them. The important qualification is architectural, not rhetorical: “no consensus” means repository replicas do not run a quorum protocol, but correctness still relies on object-store durability, atomic conditional operations, and availability. Cursor's claimed linear reads through 100 synthetic replicas and push rates of 120 per second on standard S3 or above 300 on S3 Express One Zone are first-party figures without reproducible workload, cost, failure, or independent comparison data. The supplied Markdown contains no effective image references; interactive-demo text did not provide inspectable visual evidence.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Continuity",
+        "GitHostingArchitecture",
+        "GitHub",
+        "Origin"
       ]
     }
   ],

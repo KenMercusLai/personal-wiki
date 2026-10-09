@@ -7,12 +7,13 @@ sources:
   - democratic-databases-science-on-github-nature-news-comment
   - firing-people
   - git-flow-yu-github-flow-fen-zhi-ce-lve
-last_updated: 2026-09-28
+  - ren-yi-gui-mo-de-git
+last_updated: 2026-10-09
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[GitHub]] is a version-controlled collaboration platform represented here through software operations, scientific-data collaboration, the lightweight branching practice named for it, and a former early employee's account of termination and alumni culture.
+[[GitHub]] is a version-controlled collaboration and hosting platform represented through application operations, Git repository storage, scientific-data collaboration, the lightweight branching practice named for it, and a former early employee's account of termination and alumni culture.
 
 ## Current Profile
 In this source, GitHub appears as the operator of a large, highly trafficked, decade-old Rails application that had to keep accepting feature and bug-fix work during a major framework migration. Its upgrade practice combined shared-code compatibility, required multi-version CI, manual product-area testing, progressive production rollout, and production measurement.
@@ -25,14 +26,16 @@ The platform is also associated with [[GitHubFlow]], a development practice in w
 
 [[ZachHolman]] supplies a sharply different, employee-side view of the company. He describes joining as employee number nine, becoming publicly identified with GitHub, experiencing burnout and a sabbatical, and then being dismissed in 2015 without a rationale he found clear. His account also describes prompt access removal, contested separation and option-window pressure, coworker support, and a self-organized alumni network. These are attributed experiences, not a complete or independently adjudicated account of GitHub's personnel decision.
 
+Cursor's Git architecture retrospective supplies a third-party account of GitHub's storage evolution. It says early attempts to share on-disk repositories through NFS, GFS, and DRBD failed under Git's filesystem assumptions and packfile access patterns, leading GitHub to RPC-based dedicated file servers and later Spokes. Spokes keeps multiple ordinary repositories on local NVMe, distributes pushed packfiles, and coordinates reference visibility across replicas. The account credits this model with native Git performance and strong read consistency while arguing that fixed replicas, quorum-sensitive writes, repository routing, integrity checks, repair, and repacking become expensive at large scale. GitHub's own implementation details and response are not supplied.
+
 ## Key Characteristics
-- Operates a large and heavily used Rails application while keeping normal feature and bug-fix delivery active during framework migration.
-- Used dual-boot dependency locks, conditional compatibility code, mandatory intermediate-version CI, and measured progressive rollout instead of a long-running upgrade branch.
+- Operates a large Rails application while keeping normal delivery active through dual-boot locks, compatibility code, required multi-version CI, and measured progressive rollout.
 - Treated framework modernization as an opportunity to remove technical debt and move custom behavior upstream.
 - Supports distributed scientific-data contribution through version history, forks, review, merging, and rollback, while fitting maintained text better than large or binary data and not replacing permanent archives.
 - Is associated with a lightweight branching model centered on one release-ready main branch and frequent integration.
 - Appears in Holman's account as both a deeply identity-forming workplace and the context for a contested termination experience.
 - Produced a self-organized alumni community that Holman describes as emotional support, professional networking, and cultural continuity.
+- Evolved, in Cursor's retrospective, from dedicated Git file servers to Spokes-style application-layer repository replication on local NVMe.
 
 ## Evidence
 - Application scale and continuity: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] describes the main application as large and heavily trafficked and says feature development and bug fixes could not stop for the upgrade.
@@ -46,16 +49,17 @@ The platform is also associated with [[GitHubFlow]], a development practice in w
 - Branching practice: [[git-flow-yu-github-flow-fen-zhi-ce-lve]] describes GitHub Flow as frequent merging into one release-ready main branch without distinct release and hotfix lanes.
 - Employment experience: [[firing-people]] describes Holman's 2010-2015 tenure, burnout, sabbatical, dismissal, access removal, separation negotiations, and uncertainty about the decision's rationale.
 - Alumni continuity: [[firing-people]] describes former GitHub employees' private community as a mix of support, social connection, and networking.
+- Repository-storage evolution: [[ren-yi-gui-mo-de-git]] describes failed shared-filesystem approaches, dedicated Git file servers, and the later Spokes replication model.
+- Spokes consistency: [[ren-yi-gui-mo-de-git]] says packfiles are distributed before coordinated reference transactions make pushes visible across replicas.
+- Scale boundary: [[ren-yi-gui-mo-de-git]] argues that replica count, slow-node tail latency, placement state, integrity repair, and repeated repacking constrain Spokes operations.
 
 ## Qualifications
-The application profile is based on GitHub's own 2018 engineering retrospective. It reports process, milestones, and outcomes but does not provide comparative productivity data, total engineering cost, detailed incident counts, or enough evidence to generalize the same staffing and rollout model to every application. The scientific profile comes from a 2016 journalistic overview of selected projects, so its user, download, price, storage-limit, and adoption figures are historical and it does not measure data quality or research outcomes. Nature later corrected the article's claim about Git's storage model: Git maintains multiple file versions rather than literally storing line-by-line changes. The branching material is an undated practitioner summary with no comparative outcome data and does not establish that branch topology alone keeps main releasable. The employment material is Holman's retrospective account; GitHub's rationale and perspective are not supplied, and the source cannot independently establish disputed facts or causation.
+The application profile is based on GitHub's own 2018 engineering retrospective. It reports process, milestones, and outcomes but does not provide comparative productivity data, total engineering cost, detailed incident counts, or enough evidence to generalize the same staffing and rollout model to every application. The scientific profile comes from a 2016 journalistic overview of selected projects, so its user, download, price, storage-limit, and adoption figures are historical and it does not measure data quality or research outcomes. Nature later corrected the article's claim about Git's storage model: Git maintains multiple file versions rather than literally storing line-by-line changes. The branching material is an undated practitioner summary with no comparative outcome data and does not establish that branch topology alone keeps main releasable. The employment material is Holman's retrospective account; GitHub's rationale and perspective are not supplied, and the source cannot independently establish disputed facts or causation. The Spokes description comes from Cursor while launching a competing platform; it is useful architecture history but supplies neither GitHub's current design nor GitHub's verification of the stated tradeoffs.
 
 ## What Changed
-- Expanded the profile from GitHub's own application engineering to scientific-data collaboration.
-- Added repository history, forks, review, and contribution as research-workflow capabilities.
-- Added the format, scale, usability, mutability, and permanent-archiving boundaries.
-- Added GitHub Flow's release-ready-main and frequent-integration model, with its operating assumptions.
-- Added Holman's attributed employee-side account of dismissal and the self-organized alumni network, with explicit evidentiary limits.
+- Added the Spokes storage architecture and its native-Git, consistency, scaling, and operations tradeoffs from a qualified third-party account.
+- Preserved GitHub's application-engineering, scientific-collaboration, branching, and employee-experience profiles as separate evidence domains.
+- Distinguished historical Git storage evidence from GitHub's undocumented current architecture.
 
 ## Relationships
 - [[RubyOnRails]] - framework used by GitHub's main application and upgraded from 3.2 to 5.2.1.
@@ -70,3 +74,5 @@ The application profile is based on GitHub's own 2018 engineering retrospective.
 - [[DataScienceEngineeringPractice]] - version control, validation scripts, and text formats connect the platform to reproducible analytical work.
 - [[ZachHolman]] - early employee whose account adds termination and alumni-culture evidence.
 - [[EmployeeTermination]] - process illustrated by Holman's attributed experience leaving GitHub.
+- [[GitHostingArchitecture]] - GitHub's filesystem experiments and Spokes model provide the main historical architecture case.
+- [[Continuity]] - Cursor presents Continuity as an alternative to constraints it attributes to Spokes.

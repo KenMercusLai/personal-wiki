@@ -8932,3 +8932,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-09] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-09] ingest | 任意规模的 Git
+
+Created [[Continuity]], [[Origin]], and [[GitHostingArchitecture]], and updated [[Cursor]], [[GitHub]], and [[ReplicatedLog]] from their complete ordered evidence inventories. Captured Git's packfile and DAG traversal constraints, Spokes' coordinated native-repository replication, and Continuity's S3-compatible WAL, CAS publication, rebuildable local caches, read-time freshness checks, elastic replication, and shared compaction results. Preserved the first-party benchmark boundary and clarified that “no consensus” relocates serialization and durability assumptions into external object storage rather than eliminating coordination. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-09] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

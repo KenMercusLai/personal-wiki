@@ -1134,6 +1134,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Effective context engineering for AI agents | Anthropic](sources/effective-context-engineering-for-ai-agents-anthropic.md) - Anthropic frames context as a finite attention budget and maps just-in-time retrieval, compaction, structured notes, and subagents to different agent tasks.
 
 - [对开源模式演变的一些想法——写在开始参与开源 10 年后](sources/dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou.md) - Inoki 以“大教堂、集市与地摊”重述开源协作，并把维护瓶颈、贡献计量、商业激励与 AI 时代的学习路径放进同一治理框架。
+- [任意规模的 Git](sources/ren-yi-gui-mo-de-git.md) - Cursor compares object and filesystem distribution, GitHub Spokes, and its WAL-backed Continuity design for consistent, elastic Git hosting.
 
 ## Entities
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
@@ -2928,6 +2929,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Legend of Zelda: Link's Awakening](entities/TheLegendOfZeldaLinksAwakening.md) - Game Boy title and Switch remake used to illustrate durable conceptual value across extensive presentation and platform change.
 
 - [Inoki](entities/Inoki.md) - Open-source practitioner analyzing collaboration models, maintainer capacity, contribution credit, and AI-shaped participation.
+- [Continuity](entities/Continuity.md) - Cursor's Git storage system using an object-store WAL as durable authority and local native repositories as elastic caches.
+- [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
 
 ## Concepts
 - [Evolutionary Optimization Analogy](concepts/EvolutionaryOptimizationAnalogy.md) - Loose framing of pretraining, compaction, and RL as retention of variants that survive changing data, feedback, or rewards.
@@ -4370,5 +4373,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent-Oriented Programming Languages](concepts/AgentOrientedProgrammingLanguages.md) - Language and toolchain design optimized for coding-agent generation, inspection, repair, testing, and explanation.
 
 - [Open-Source Collaboration Models](concepts/OpenSourceCollaborationModels.md) - Framework distinguishing cathedral, bazaar, and low-commitment street-stall modes while tracking governance, incentives, and transitions between them.
+- [Git Hosting Architecture](concepts/GitHostingArchitecture.md) - Storage and coordination design for serving centralized Git while preserving packfile and repository semantics.
 
 ## Syntheses

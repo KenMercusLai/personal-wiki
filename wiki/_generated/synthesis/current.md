@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: fe7c87683752dcc6bf603bbe43153561b45c9a48
-summary: "A qualified map of technology, markets, institutions, culture, health, work, and judgment, centered on evidence, accountable autonomy, community, and recoverable control."
-episode_count: 1107
-source_count: 1107
-paragraph_count: 798
+as_of_overview_commit: 628c5dca92f114cb691ac472f66aa92f8c20d10f
+summary: "Current knowledge map across technology, business, culture, governance, history, psychology, science, and work, emphasizing grounded claims, tradeoffs, and evidence limits."
+episode_count: 1108
+source_count: 1108
+paragraph_count: 799
 topic_count: 9
 ---
 
@@ -29,60 +29,60 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, context discipline, and human judgment; small agent interfaces still need externally enforced authority boundaries.
+Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, context discipline, and human judgment.
 
 - [[AINativeAgentArchitecture]] extends [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], and [[HeadlessAgentArchitecture]] from task execution into runtime self-extension: [[Bub]] used an agent-created Telegram Skill, a Docker startup contract, and one-shot execution to replace framework-owned behavior, while [[AgentPermissionModel]], [[SoftwareVerification]], and [[ProductionAgentInfrastructure]] remain necessary because a small tool interface can still expose broad shell, filesystem, network, credential, and unattended-execution authority. Evidence: [[FrostMing]], [[AINativeAgentArchitecture]], [[Bub]], [[OpenClaw]], [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], [[HeadlessAgentArchitecture]], [[AgentPermissionModel]], [[SoftwareVerification]], [[ProductionAgentInfrastructure]].
 - [[DeepSeekV41Flash]] combines [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], and [[HierarchicalSparseIndexer]] to reduce long-context prefill, stored global attention state, and repeated decoder address selection: bulk prompt positions exit after a causal encoder, Full/Reindex/Reuse layers refresh content, addresses, and queries at different rates, and later decoder indexers search a bounded shared pool. Evidence: [[Zartbot]], [[DeepSeekV41Flash]], [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], [[HierarchicalSparseIndexer]], [[KVCacheAwareRouting]].
 
 ### Business and Markets
 
-Durable businesses connect customer learning and demand to coherent scope, retention, economics, operating capability, financing constraints, and evidence-calibrated judgment.
+Durable businesses connect demand and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
 
 ### Cross-domain
 
-Across domains, sound judgment identifies the relevant unit and context, exposes hidden flows, respects human constraints, and preserves recoverable control boundaries.
+Across domains, sound judgment identifies the relevant unit and context, exposes hidden flows, respects human constraints, and preserves recoverable control.
 
 - Classification must identify the unit and its life-cycle context before applying a label: [[PloidyAndOrganismStatus]] separates chromosome-set count from biological individuality because haploidy can describe a whole organism, a multicellular stage, or one specialized cell. Evidence: [[PloidyAndOrganismStatus]], [[Xiaoyong]].
 - Removing a familiar control is safe only when its failure signal and containment path are replaced explicitly: a [[DataCenterNetworkFabric]] may displace [[SpanningTreeProtocol]] in a controlled core, while [[EdgeNetworkLoopProtection]] remains necessary at attachment boundaries. Evidence: [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[SpanningTreeProtocol]], [[VMware]].
 
 ### Culture and Media
 
-Media form, platform architecture, physical interaction constraints, creator economics, identity, presence, governance, and public explanation jointly shape durable cultural value.
+Media form, platform architecture, interaction constraints, creator economics, identity, presence, governance, and explanation shape durable cultural value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, standards, heterogeneous verification, and fair process.
+Institutions allocate authority, shared capacity, risk, evidence, access, and accountability through policy, standards, verification, and fair process.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 
 ### History and Geopolitics
 
-Historical and geopolitical cases emphasize path dependence, incentives, logistics, technology, contested interpretation, and the danger of treating analogy as prediction.
+Historical and geopolitical cases emphasize path dependence, incentives, logistics, technology, contested interpretation, and limits of analogy.
 
 ### Psychology and Personal Development
 
-Attention, motivation, identity, belonging, relationships, habits, learning, and belief revision respond to designed environments and feedback, bounded by evidence and responsibility.
+Attention, motivation, identity, belonging, relationships, habits, learning, and belief revision respond to environments and feedback within evidence and responsibility bounds.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
 
 ### Science, Health, and Climate
 
-Health and science claims require causal restraint, heterogeneous-response and adherence evidence, qualified mechanisms, and separation of direct findings from analogy spillover.
+Health and science claims require causal restraint, heterogeneous-response and adherence evidence, qualified mechanisms, and separation of findings from analogy.
 
 - [[HungerPhysiology]] distinguishes homeostatic energy need from hedonic eating without an urgent caloric deficit inside a redundant sensory, neuroendocrine, endocrine, and metabolic system; an evolved bias toward surplus intake and fat storage may become harmful when psychological, cultural, socioeconomic, and food-environment conditions make palatable energy-dense food abundant. Evidence: [[HungerPhysiology]].
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism. Evidence: [[ExerciseForMentalHealth]], [[ExerciseAdherence]], [[Neuroplasticity]], [[SelfEfficacy]], [[PatrickJSmith]], [[RhondaMMerwin]].
 
 ### Work, Education, and Society
 
-Work and learning outcomes depend on access, role clarity, public knowledge, human agency, community and institutional support, real teaching capacity, and evidence about who benefits or bears costs.
+Work and learning depend on access, role clarity, public knowledge, agency, community and institutional support, teaching capacity, and distributional evidence.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
