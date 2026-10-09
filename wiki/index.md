@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Meta Keywords：是什么、为什么不](sources/meta-keywords-shi-shi-me-wei-shen-me-bu.md) - Sukka traces keyword-meta-tag abuse and engine retreat, distinguishing parsing or indexing from useful ranking influence while preserving historical and sourcing limits.
 - [没有一劳永逸的习惯](sources/mei-you-yi-lao-yong-yi-de-xi-guan.md) - A three-night Apple Watch lapse challenges permanent, willpower-free habit claims while remaining a personal account that cannot establish a universal theory of automaticity.
 - [RL is an evolutionary algorithm](sources/rl-is-an-evolutionary-algorithm.md) - A speculative practitioner essay reframes pretraining, compaction, and RL as selection processes, then argues that instruction-reward consistency and robust agentic judges determine which behaviors survive.
 - [创造一只龙虾，需要些什么?](sources/chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog.md) - Frost Ming turns Bub into a self-bootstrapping Telegram agent, then argues for reducing the host toward a reasoning core while preserving major verification and authority qualifications.
@@ -1137,6 +1138,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [任意规模的 Git](sources/ren-yi-gui-mo-de-git.md) - Cursor compares object and filesystem distribution, GitHub Spokes, and its WAL-backed Continuity design for consistent, elastic Git hosting.
 
 ## Entities
+- [Sukka](entities/Sukka.md) - Technical blogger represented through a historically grounded but qualified argument against meta keywords as an SEO practice.
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
 - [Zou Runyang](entities/ZouRunyang.md) - Software engineer and former technical manager represented through a qualified transition into startup HR leadership and organization design.
 - [Armin Ronacher](entities/ArminRonacher.md) - Python-community member advocating welcome, mentorship, and human on-ramps for people who begin programming through AI.
@@ -2933,6 +2935,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
 
 ## Concepts
+- [Meta Keywords](concepts/MetaKeywords.md) - Publisher-declared HTML keyword metadata that became unreliable through abuse and is now operationally obsolete for mainstream search ranking.
 - [Evolutionary Optimization Analogy](concepts/EvolutionaryOptimizationAnalogy.md) - Loose framing of pretraining, compaction, and RL as retention of variants that survive changing data, feedback, or rewards.
 - [Instruction-Reward Alignment](concepts/InstructionRewardAlignment.md) - Consistency between behavior an agent is told to follow and behavior its training reward makes advantageous.
 - [Agentic Judging](concepts/AgenticJudging.md) - Tool-capable model evaluation used to turn qualitative behavioral requirements into training feedback, with hacking and reliability risks.

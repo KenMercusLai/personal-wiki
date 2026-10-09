@@ -8940,3 +8940,11 @@ Created [[Continuity]], [[Origin]], and [[GitHostingArchitecture]], and updated 
 ## [2026-10-09] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-09] ingest | Meta Keywords：是什么、为什么不
+
+Created [[Sukka]] and [[MetaKeywords]], and updated [[TechnicalSEO]] from its complete ordered evidence inventory. Recorded the collapse of publisher-declared keywords as a trustworthy relevance signal, the distinction between indexing and ranking weight, and the historical positions attributed to Google, Bing, Yahoo, Baidu, and Yandex. Preserved the dated and uneven evidence boundary, the nonstandard opening HTML example, and the unsupported claim that Google penalizes meta-keyword abuse despite the cited statement that it ignores the field. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-09] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

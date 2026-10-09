@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 628c5dca92f114cb691ac472f66aa92f8c20d10f
+as_of_overview_commit: 54cfae76344b6331d2936b14ad85cd478be9c003
 summary: "Current knowledge map across technology, business, culture, governance, history, psychology, science, and work, emphasizing grounded claims, tradeoffs, and evidence limits."
-episode_count: 1108
-source_count: 1108
+episode_count: 1109
+source_count: 1109
 paragraph_count: 799
 topic_count: 9
 ---
