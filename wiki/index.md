@@ -1136,6 +1136,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [对开源模式演变的一些想法——写在开始参与开源 10 年后](sources/dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou.md) - Inoki 以“大教堂、集市与地摊”重述开源协作，并把维护瓶颈、贡献计量、商业激励与 AI 时代的学习路径放进同一治理框架。
 - [任意规模的 Git](sources/ren-yi-gui-mo-de-git.md) - Cursor compares object and filesystem distribution, GitHub Spokes, and its WAL-backed Continuity design for consistent, elastic Git hosting.
+- [Inside PostgreSQL's 8KB Page](sources/inside-postgresqls-8kb-page.md) - A pageinspect walkthrough connects PostgreSQL's slotted 8KB pages to line pointers, free space, tuple density, recovery metadata, pruning, and index special space.
 
 ## Entities
 - [Sukka](entities/Sukka.md) - Technical blogger represented through a historically grounded but qualified argument against meta keywords as an SEO practice.
@@ -2297,7 +2298,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amazon Aurora](entities/AmazonAurora.md) - AWS relational database represented through pgvector, enterprise competition, and a fast but application-risky Instapaper recovery replica.
 - [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
 - [Amazon RDS](entities/AmazonRDS.md) - Managed relational database service represented through PostgreSQL vector-search tests and Instapaper's inherited MySQL filesystem-limit incident.
-- [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database that can consolidate diverse workloads, own shared data behavior, and scale read-heavy traffic widely while retaining coupling and single-writer boundaries.
+- [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database spanning workload consolidation, database-owned behavior, read scaling, and slotted-page storage while retaining coupling and single-writer boundaries.
 - [SQLite](entities/SQLite.md) - Single-file relational database presented as production-ready for some web apps but constrained by availability, file-system, concurrency, transaction, backup, and migration needs.
 - [Anže Pečar](entities/AnzePecar.md) - Software-engineering writer explaining practical SQLite production gotchas for web applications.
 - [Photoshop](entities/Photoshop.md) - Adobe image-editing product used to explain productivity-app value variance and subscription fit.
@@ -2935,6 +2936,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
 
 ## Concepts
+- [PostgreSQL Page Architecture](concepts/PostgreSQLPageArchitecture.md) - Slotted 8KB storage layout joining page metadata, stable line pointers, central free space, tuple data, recovery state, and access-method-specific regions.
 - [Meta Keywords](concepts/MetaKeywords.md) - Publisher-declared HTML keyword metadata that became unreliable through abuse and is now operationally obsolete for mainstream search ranking.
 - [Evolutionary Optimization Analogy](concepts/EvolutionaryOptimizationAnalogy.md) - Loose framing of pretraining, compaction, and RL as retention of variants that survive changing data, feedback, or rewards.
 - [Instruction-Reward Alignment](concepts/InstructionRewardAlignment.md) - Consistency between behavior an agent is told to follow and behavior its training reward makes advantageous.

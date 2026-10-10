@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "inside-postgresqls-8kb-page",
+  "images": [
+    {
+      "file": "postgresql-slotted-page-layout.png",
+      "alt": "PostgreSQL 8KB slotted page with a 24-byte header, 12 bytes of line pointers, 7,940 bytes of free space, and 216 bytes of tuples"
+    }
+  ]
+}

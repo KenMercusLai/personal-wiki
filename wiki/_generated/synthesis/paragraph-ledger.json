@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0da9e0c2ce071330f5567176a96560519880d11f2d7111e5f33429960ed2b391",
       "4c3007fee77c5623b35ad0cc77933be322e3b7dee57c8ce2b128c6939cd78832",
       "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
       "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
@@ -801,11 +802,28 @@
       "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63",
       "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4"
     ],
-    "paragraph_count": 799
+    "paragraph_count": 800
   },
-  "overview_commit": "eb22993e667ead94de13ad6f37bd621ff5b24919",
-  "overview_digest": "ed2b52a7f9073601e631b013b098e8def542c57dcfd46adb591baec5b03e1559",
+  "overview_commit": "d4996036c81402cdfe5dc5a0fa0a66ffe573ffd1",
+  "overview_digest": "524236f8c4c60ea593bf2b9de6bbc3c2683338131e3343c2c7e28d5f31d64c70",
   "paragraphs": [
+    {
+      "id": "0da9e0c2ce071330f5567176a96560519880d11f2d7111e5f33429960ed2b391",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest PostgreSQL storage source adds [[PostgreSQLPageArchitecture]] as the physical substrate beneath the wiki's higher-level database material. [[PostgreSQL]] normally treats an 8KB page as its I/O and storage unit: a 24-byte header records recovery, integrity, visibility, cleanup, and region boundaries; four-byte line pointers grow from the front; variable-width tuples grow from the back; and their middle gap is reusable free space. This slotted design makes `(page, slot)` a stable tuple address even when bytes move within the page or a pointer redirects during HOT cleanup. The inspected example connects those mechanics to measured row density, WAL replay coordination, optional checksums, opportunistic pruning, and the distinction between heap pages with no special space and B-tree pages with access-method metadata. The durable lesson for [[DatabaseEngineeringTradeoffs]] is that page size couples metadata overhead, row width, access pattern, wasted space, and I/O amplification rather than being a universally optimal constant. The evidence remains one practitioner tutorial and synthetic schema: its 119-row result is value-specific, its alignment history does not prove current optimality, it overstates `pd_lsn` as the sole basis of crash recovery, and it conflates the page-header `PD_ALL_VISIBLE` flag with the separate visibility map consulted by index-only scans. Both light and dark diagram variants were inspected; the light version was retained once at its semantic position and the duplicate dark rendering was omitted.",
+      "topic_scores": {
+        "history-and-geopolitics": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "DatabaseEngineeringTradeoffs",
+        "PostgreSQL",
+        "PostgreSQLPageArchitecture"
+      ]
+    },
     {
       "id": "4c3007fee77c5623b35ad0cc77933be322e3b7dee57c8ce2b128c6939cd78832",
       "primary_topic": "work-education-and-society",

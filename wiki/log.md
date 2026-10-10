@@ -8956,3 +8956,11 @@ Matched the requested article to the existing canonical source [[blog-nicholas-c
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | Inside PostgreSQL's 8KB Page
+
+Created [[PostgreSQLPageArchitecture]] and updated [[PostgreSQL]] from its complete ordered evidence inventory. Captured the default 8KB I/O boundary, 24-byte page header, opposing line-pointer and tuple growth, stable `(page, slot)` indirection, free-space accounting, WAL and checksum metadata, page-level pruning, measured tuple capacity, and heap-versus-B-tree special space. Preserved the synthetic-workload boundary and qualified the article's overstatement of `pd_lsn` and its conflation of `PD_ALL_VISIBLE` with the visibility map used for index-only scans. Inspected both page-layout images, retained the light diagram at its semantic position, and omitted the dark rendering as a duplicate.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
