@@ -8,6 +8,7 @@ sources:
   - git-local-branch-shan-chu-hou-ru-he-hui-fu
   - muse-qu-mei-cong-wo-zuo-qi-ni-ka-zai-na-er
   - what-my-most-read-tweets-taught-me-about-the-twitter-algorithm
+  - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
 last_updated: 2026-10-10
 knowledge_schema: synthesis-v1
 ---
@@ -22,7 +23,9 @@ The Muse article extends this pattern from individual practice to product adopti
 
 The Twitter retrospective adds Mai Yang's own publishing practice. Three posts about a Cursor opinion, OpenClaw and context-engineering learning, and Raycast use received displayed view counts of 65,000, 23,000, and 20,000 respectively. She groups them as opinion, learning, and real usage and proposes documenting actual practice instead of manufacturing content. The screenshots establish the posts and their point-in-time metrics, but not why the ranking system distributed them.
 
-The learning and Muse articles are explicitly syntheses of other materials rather than original measurement. Mai Yang's recurring contribution is engineering-style compression: isolate the operative state, provide a small next action, and then distinguish the immediate procedure from the broader claim it can actually support.
+The Grok Bot retrospective applies that practice-led stance to agent operations. Mai Yang reports that a broad, scheduled Growth Researcher produced polished but unusable work, then proposes validating one narrow, gradable deliverable before hardening the method into a Skill or routine. She pairs workflow staging with permission staging: consequential external actions stay gated until repeated use supports a narrower authorization.
+
+The learning and Muse articles are explicitly syntheses of other materials rather than original measurement, while the Grok Bot article is a retrospective rather than a comparison. Mai Yang's recurring contribution is engineering-style compression: isolate the operative state, provide a small next action, and then distinguish the immediate procedure from the broader claim it can actually support.
 
 ## Key Characteristics
 - Presents AI adoption as a matter of action and self-honest desire, using founder examples to make the argument concrete.
@@ -30,7 +33,7 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Translates external interviews and articles into practical learning frameworks.
 - Frames LLMs as accelerators for interrogation, counterargument, review, and knowledge connection.
 - Compresses a technical recovery problem into a minimal inspect-and-restore command sequence.
-- Uses small, bounded actions to reduce the gap between an inspiring method and repeatable practice.
+- Uses accepted deliverables to turn broad agent ambitions into bounded roles, Skills, routines, and permission decisions.
 - Combines troubleshooting with a second-pass analysis of growth incentives, evidence quality, trust, and operating economics.
 
 ## Evidence
@@ -44,15 +47,18 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Risk boundary: [[muse-qu-mei-cong-wo-zuo-qi-ni-ka-zai-na-er]] relays security, privacy, access-blocking, and infrastructure-cost concerns while leaving their underlying evidence outside the supplied article.
 - Practice-led publishing: [[what-my-most-read-tweets-taught-me-about-the-twitter-algorithm]] groups three high-reach posts as direct opinion, active learning, and genuine usage.
 - Metric evidence: [[what-my-most-read-tweets-taught-me-about-the-twitter-algorithm]] retains screenshots showing 65,000 displayed views for Cursor, 23,000 for the OpenClaw/context-engineering post, and 20,000 for Raycast, with differing reply, repost, like, and bookmark patterns.
+- Deliverable-first operations: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] turns a rejected Growth Researcher routine into a sequence of one outcome, bounded materials, escalation conditions, a gradable artifact, and only later a Skill or schedule.
+- Authority boundary: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] keeps sending, publishing, spending, deletion, and overwrite behind approval until actual use justifies a narrower grant.
 
 ## Qualifications
-The sources give little biographical information beyond author attribution, a management-transition remark, and meetup, blog, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. This remains a source-scoped author profile, not a general biography.
+The sources give little biographical information beyond author attribution, a management-transition remark, and meetup, blog, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. This remains a source-scoped author profile, not a general biography.
 
 ## What Changed
 - Added product-launch analysis as a fourth expression of Mai Yang's decomposition style.
 - Distinguished practical access troubleshooting from unverified market, security, retention, and infrastructure claims.
 - Added practice-led publishing as another expression of her action-first posture.
 - Separated screenshot-verified reach from an unverified explanation of Twitter/X ranking.
+- Added deliverable-first agent operations and staged authority as a new expression of her bounded-action method.
 
 ## Relationships
 - [[ActionBiasInAI]] - MaiYang's article is the source for this concept.
@@ -67,3 +73,6 @@ The sources give little biographical information beyond author attribution, a ma
 - [[PracticeLedContent]] - her newest retrospective derives posts from opinion, learning, use, and building.
 - [[CreatorPlatformMetrics]] - her screenshots expose the gap between visible reach, engagement mix, and causal interpretation.
 - [[Raycast]] - repeated use and peer teaching ground one of the three examined posts.
+- [[GrokBot]] - product used in her Growth Researcher and AICon experiments.
+- [[DeliverableFirstAgentDesign]] - her retrospective derives agent roles and automation from accepted artifacts.
+- [[AgentPermissionModel]] - her operating rule keeps high-impact actions gated until tested use supports narrower authority.

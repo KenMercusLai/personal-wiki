@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [从 Lauren 不信规划说起，我用 Grok Bot 搭 Growth Researcher 踩过的坑](sources/cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng.md) - Mai Yang turns a failed scheduled Growth Researcher into a deliverable-first method for narrow bot roles, validated Skills and routines, and staged high-impact permissions.
 - [What My Most-Read Tweets Taught Me About the Twitter Algorithm](sources/what-my-most-read-tweets-taught-me-about-the-twitter-algorithm.md) - Mai Yang groups three high-reach tool posts as opinion, learning, and real usage while the screenshots support reach comparisons but not a causal claim about Twitter/X ranking.
 - [Muse 祛魅从我做起，你卡在哪儿？](sources/muse-qu-mei-cong-wo-zuo-qi-ni-ka-zai-na-er.md) - Mai Yang explains Muse's launch attention through restricted access, referral rewards, and consumer-agent demand while separating downloads from retention, trust, safety, and infrastructure economics.
 - [向左，向右？](sources/xiang-zuo-xiang-you-leetao.md) - Leetao presents Kuafu's five-stage personal-agent runtime, stored lessons, host bridge, coding/review agents, and ToastPlan oversight while questioning whether frameworks transcend model limits.
@@ -1146,6 +1147,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Discourse has been Automated](sources/the-discourse-has-been-automated.md) - Xe Iaso uses an OpenClaw agent's rejected Matplotlib contribution and callout post to examine machine-speed social escalation, maintainer burden, and lost newcomer learning paths.
 
 ## Entities
+- [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
+- [Grok Bot](entities/GrokBot.md) - AI teammate product represented through role design, Skills, recurring routines, and staged authority over real-world actions.
 - [Muse](entities/Muse.md) - Meta consumer agent represented through region-gated access, rewarded referrals, computer operation, and unresolved trust and scaling constraints.
 - [Kuafu](entities/Kuafu.md) - Leetao's experimental personal-agent runtime combines an explicit execution loop, persistent lessons, host-tool bridging, and small multi-agent workflows.
 - [ToastPlan](entities/ToastPlan.md) - Leetao's OKR and task system gives agents work access while preserving human-visible task state and activity auditing.
@@ -2951,6 +2954,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Matplotlib](entities/Matplotlib.md) - Open-source plotting project represented through an autonomous-contribution dispute and a maintainer's restrained policy response.
 
 ## Concepts
+- [Deliverable-First Agent Design](concepts/DeliverableFirstAgentDesign.md) - Agent workflow that validates one bounded result through reviewed artifacts before hardening a role into Skills, routines, or a larger bot organization.
 - [Build-Optimized Infrastructure](concepts/BuildOptimizedInfrastructure.md) - Workload-specific composition of fast compute, local storage, network-aware scheduling, rack power, procurement, and operations for bursty CI jobs.
 - [Topology-Aware Build Caching](concepts/TopologyAwareBuildCaching.md) - CI pattern that places ephemeral jobs near reusable local cache snapshots instead of transferring and expanding an archive for every run.
 - [PostgreSQL Buffer Management](concepts/PostgreSQLBufferManagement.md) - Shared and local page residency, pinning, clock-sweep replacement, dirty-page persistence, bulk-access rings, and operating-system cache interaction.

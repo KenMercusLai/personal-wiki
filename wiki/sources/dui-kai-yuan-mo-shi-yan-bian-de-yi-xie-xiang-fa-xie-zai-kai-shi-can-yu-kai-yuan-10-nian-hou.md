@@ -2,7 +2,7 @@
 title: "对开源模式演变的一些想法——写在开始参与开源 10 年后"
 type: source
 tags: [open-source, collaboration, maintenance, incentives, ai]
-date: 2026-06-23
+date: 2026-02-17
 source_file: "/mnt/ken_personal_wiki/Articles/对开源模式演变的一些想法——写在开始参与开源 10 年后.md"
 ---
 

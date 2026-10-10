@@ -9020,3 +9020,11 @@ Created [[Raycast]] and [[PracticeLedContent]], and updated [[MaiYang]], [[Twitt
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | 从 Lauren 不信规划说起，我用 Grok Bot 搭 Growth Researcher 踩过的坑
+
+Created [[LaurenTan]], [[GrokBot]], and [[DeliverableFirstAgentDesign]], and updated [[MaiYang]], [[TaskContingentAICollaboration]], and [[AgentPermissionModel]] from their complete ordered evidence inventories. Captured the distinction between optional planning and planning as a default, the failed broad and prematurely scheduled Growth Researcher role, the gate from one gradable deliverable to reusable Skills and routines, and staged permission for sending, publishing, spending, deletion, and overwrite. Preserved the single-operator, incomplete-transcript, subjective usefulness, and no-restarted-workflow evidence boundaries. Opened all four remote images: omitted the decorative title banner and retained the pstack excerpt, research memo, and disabled-routine screenshot at their semantic positions.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
