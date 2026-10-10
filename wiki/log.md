@@ -8948,3 +8948,11 @@ Created [[Sukka]] and [[MetaKeywords]], and updated [[TechnicalSEO]] from its co
 ## [2026-10-09] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | How I Use "AI"
+
+Matched the requested article to the existing canonical source [[blog-nicholas-carlini-how-i-use-ai]] by title, author, publication date, and source URL, then refreshed its stale `source_file` path without creating a duplicate page or evidence slug. The existing source note, [[NicholasCarlini]], and [[PracticalLLMUse]] already capture the article's taxonomy of application scaffolding, interactive tutoring, blank-page reduction, code simplification, repetitive-task automation, natural-language power tools, API lookup, search, one-off scripts, explanation, known-solution translation, and error diagnosis, together with its explicit technical and ethical qualifications. The supplied Markdown contains no retained source images: its only image element is an empty `src` placeholder for a dynamically generated score chart.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
