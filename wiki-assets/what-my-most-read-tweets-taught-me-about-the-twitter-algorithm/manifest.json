@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "what-my-most-read-tweets-taught-me-about-the-twitter-algorithm",
+  "images": [
+    {
+      "file": "cursor-opinion-post.jpg",
+      "alt": "Mai Yang Cursor opinion post showing 65,000 views and its visible engagement counts"
+    },
+    {
+      "file": "openclaw-context-engineering-post.jpg",
+      "alt": "Mai Yang learning post about OpenClaw, Pi, and context engineering showing 23,000 views"
+    },
+    {
+      "file": "raycast-usage-post.jpg",
+      "alt": "Mai Yang Raycast usage post showing 20,000 views and an embedded user example"
+    }
+  ]
+}

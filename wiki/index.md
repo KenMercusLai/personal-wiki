@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [What My Most-Read Tweets Taught Me About the Twitter Algorithm](sources/what-my-most-read-tweets-taught-me-about-the-twitter-algorithm.md) - Mai Yang groups three high-reach tool posts as opinion, learning, and real usage while the screenshots support reach comparisons but not a causal claim about Twitter/X ranking.
 - [Muse 祛魅从我做起，你卡在哪儿？](sources/muse-qu-mei-cong-wo-zuo-qi-ni-ka-zai-na-er.md) - Mai Yang explains Muse's launch attention through restricted access, referral rewards, and consumer-agent demand while separating downloads from retention, trust, safety, and infrastructure economics.
 - [向左，向右？](sources/xiang-zuo-xiang-you-leetao.md) - Leetao presents Kuafu's five-stage personal-agent runtime, stored lessons, host bridge, coding/review agents, and ToastPlan oversight while questioning whether frameworks transcend model limits.
 - [Do We Still Need Tech Blogs in the Era of GenAI?](sources/do-we-still-need-tech-blogs-in-the-era-of-genai.md) - Croxx argues that AI can fill local knowledge gaps while technical blogs preserve verified experience, coherent reasoning, public sharing, and reusable knowledge.
@@ -2078,7 +2079,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Momo](entities/Momo.md) - Chinese social and dating app where livestreaming became a major revenue stream and social-proof layer.
 - [Taobao Live](entities/TaobaoLive.md) - Alibaba livestream-commerce app for seller demonstrations, product launches, and discounts.
 - [Xiaomi](entities/Xiaomi.md) - Chinese hardware company using livestreaming for product demonstrations and launches.
-- [MaiYang](entities/MaiYang.md) - Practical writer represented through concise Git recovery guidance, action-centered AI commentary, and AI-supported deep-learning workflows.
+- [MaiYang](entities/MaiYang.md) - Practical writer connecting concise technical guidance, action-centered AI learning, product analysis, and practice-led publishing.
+- [Raycast](entities/Raycast.md) - Mac productivity tool represented through keyboard-centered use, peer teaching, and a point-in-time creator-post case.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
 - [Elon Musk](entities/ElonMusk.md) - Founder represented through risk-taking, demanding operations, concentrated organizational control, and charismatic future-setting authority.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
@@ -2402,7 +2404,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
 - [HQ Trivia](entities/HQTrivia.md) - Live mobile trivia product used as an example of rapid concurrent growth, video lag, and user tolerance of infrastructure strain.
-- [Twitter](entities/Twitter.md) - Social platform used as a growth, curation, reliability, safety, ecosystem-governance, and rapid organizational restructuring case.
+- [Twitter](entities/Twitter.md) - Social platform used as a growth, curation, reliability, safety, ecosystem-governance, restructuring, and creator-distribution case.
 - [Redux](entities/Redux.md) - JavaScript state container represented through Twitter's normalized entity, timeline, cursor, and fetch-status architecture.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
@@ -3989,13 +3991,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines and exploratory loops grounded in source material and human judgment.
 - [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing and rough draft material.
 - [Build In Public](concepts/BuildInPublic.md) - Publicly sharing product formation, participants, feedback, decisions, and outcomes while treating visibility and contribution access as separate choices.
+- [Practice-Led Content](concepts/PracticeLedContent.md) - Public material derived from genuine opinions, learning, product use, and building, bounded from causal claims about platform reach.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income, qualified by the risk of fragmenting compounding.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
 - [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
 - [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that makes an unnamed or fragmented workflow legible as a category and associates the creator with its solution.
 - [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around comparison, topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
-- [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Impressions, views, likes, followers, and distribution signals interpreted through attention, audience quality, outcomes, and psychological risk.
+- [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views and engagement signals interpreted through attention, response type, audience quality, outcomes, psychological risk, and causal limits.
 - [Creator Economy Startups](concepts/CreatorEconomyStartups.md) - Creator-monetization companies analyzed through distribution scarcity, power-law supply, take-rate pressure, and defensibility.
 - [Creator Power Law](concepts/CreatorPowerLaw.md) - Concentration pattern where a small number of creators capture most audience, earnings, and platform revenue.
 - [Link-In-Bio Competition](concepts/LinkInBioCompetition.md) - Zero-sum fight for scarce organic traffic from the prominent external link on a creator's social profile.

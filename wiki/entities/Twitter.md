@@ -14,7 +14,8 @@ sources:
   - a-tale-of-2-api-platforms-ggv-capital-medium
   - dissecting-twitters-redux-store-statuscode-medium
   - extremely-hardcore
-last_updated: 2026-09-28
+  - what-my-most-read-tweets-taught-me-about-the-twitter-algorithm
+last_updated: 2026-10-10
 knowledge_schema: synthesis-v1
 ---
 
@@ -35,6 +36,8 @@ Costa's 2016 API retrospective adds the historical developer-ecosystem mechanism
 A separate 2017 DevTools inspection adds a narrow implementation view of Twitter's mobile-web client. Its [[Redux]] store placed detailed tweets in a normalized ID-keyed table, represented home-timeline order with matching references, tracked newer and older loading boundaries with top and bottom cursors and timestamps, and exposed separate status maps for tweets, cards, lists, and users. The visible state shape is useful historical evidence, while the inferred request-deduplication and partial-rendering behaviors remain unverified.
 
 The 2023 takeover investigation adds the ownership-transition layer. It portrays the pre-acquisition company as slow, inefficient, and highly delegated, but also as a bottom-up organization where employees could influence product direction. Musk's early response used deep layoffs, improvised code review and stack ranking, compressed deadlines, return-to-office enforcement, and an "extremely hardcore" pledge. The platform mostly stayed online with far fewer people, but the same period exposed capability gaps, rehiring attempts, outages, declining advertiser trust, legal disputes, and a culture in which dissent could trigger dismissal.
+
+Mai Yang's 2026 retrospective adds a narrow current creator view under the Twitter name while its screenshots display X.com. Three posts grounded in a tool opinion, active learning, and real usage show 65,000, 23,000, and 20,000 views at capture time. The case supports Twitter/X's continuing role as a tool-discussion distribution surface, but its selected outcomes do not reveal whether the algorithm rewards authenticity or distinguish content effects from audience, timing, format, novelty, or network propagation.
 
 Paid verification makes the product-governance tradeoff concrete. Twitter launched the $8 system despite a highest-severity impersonation warning, then withdrew it after fake verified accounts damaged brand trust. The later moderation record likewise complicates free-speech framing: the source reports an initial hate-speech spike, abandonment of a promised expert council for a public poll, doxxing of employees, and suspensions of flight trackers and journalists under rules used to protect Musk personally.
 
@@ -67,15 +70,18 @@ Paid verification makes the product-governance tradeoff concrete. Twitter launch
 - Verification and trust: [[extremely-hardcore]] reports that paid verification launched despite a P0 impersonation warning, generated fake verified accounts, and was withdrawn as advertisers lost confidence.
 - Continuity and capability: [[extremely-hardcore]] reports that Twitter mostly remained online after deep cuts, while also documenting rehiring attempts, outages, skeletal infrastructure teams, unpaid obligations, and legal action.
 - Moderation consistency: [[extremely-hardcore]] reports a hate-speech spike, reversal of promised expert governance, employee doxxing, and selective suspensions that conflicted with the stated free-speech mandate.
+- Practice-led post distribution: [[what-my-most-read-tweets-taught-me-about-the-twitter-algorithm]] retains three X.com screenshots whose displayed views range from 20,000 to 65,000 across tool opinion, learning, and usage posts.
+- Engagement-shape variation: [[what-my-most-read-tweets-taught-me-about-the-twitter-algorithm]] shows the Cursor opinion drawing 164 replies but only 10 bookmarks, while the learning post shows 2 replies and 215 bookmarks, demonstrating that a view total alone compresses materially different responses.
 
 ## Qualifications
-Most sources are historical practitioner, company, or journalistic accounts rather than controlled comparisons. The 2023 investigation extends the record into Musk's first three months but relies heavily on current and former employees, some anonymous, and cannot establish Twitter/X's later trajectory or the optimal long-run staffing level. Continued operation is real evidence against predictions of immediate collapse, yet it does not measure retained safety, revenue, legal compliance, institutional knowledge, or reliability. Costa's API account acknowledges real business-model and client-control conflicts; the Redux inspection establishes visible state shape but not guessed runtime behavior; Limon's motive model is interpretive; and the Vine account does not prove that another strategy would have produced a sustainable business.
+Most sources are historical practitioner, company, or journalistic accounts rather than controlled comparisons. The 2023 investigation extends the record into Musk's first three months but relies heavily on current and former employees, some anonymous, and cannot establish Twitter/X's later trajectory or the optimal long-run staffing level. Continued operation is real evidence against predictions of immediate collapse, yet it does not measure retained safety, revenue, legal compliance, institutional knowledge, or reliability. Costa's API account acknowledges real business-model and client-control conflicts; the Redux inspection establishes visible state shape but not guessed runtime behavior; Limon's motive model is interpretive; and the Vine account does not prove that another strategy would have produced a sustainable business. Mai Yang's three-post sample is self-selected, lacks unsuccessful controls and platform-side ranking data, and should not be read as a discovered algorithm rule.
 
 ## What Changed
 - Added the 2022 ownership transition as a mixed case of rapid cost reduction, immediate technical continuity, and wider organizational damage.
 - Added paid verification as evidence that launch speed can destroy product and advertiser trust when known safety risks are bypassed.
 - Added the conflict between free-speech framing and personalized, inconsistent moderation decisions.
 - Reframed the prior Twitter culture as both inefficient and unusually open to bottom-up influence.
+- Added a 2026 creator snapshot that separates visible reach and engagement mix from causal claims about ranking.
 
 ## Relationships
 - [[SocialProof]] - verification is a public trust and status signal.
@@ -103,3 +109,4 @@ Most sources are historical practitioner, company, or journalistic accounts rath
 - [[RapidOrganizationalRestructuring]] - Twitter is the central case for evaluating deep cuts, concentrated authority, and incomplete success measures.
 - [[PsychologicalSafety]] - dismissal risk and one-way authority reduced employee dissent and upward correction.
 - [[RemoteWork]] - an indefinite remote policy was abruptly reversed and used as an employment boundary.
+- [[PracticeLedContent]] - a creator hypothesis that opinion, learning, and genuine use can supply posts without a manufactured content strategy.

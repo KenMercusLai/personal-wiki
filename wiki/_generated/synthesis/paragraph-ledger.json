@@ -803,12 +803,13 @@
       "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63",
       "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4",
       "7fc0c82e16ebb5eba59f77ed01c5c18a33918a5bec76f27092906c82cea7ff0a",
-      "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb"
+      "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb",
+      "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2"
     ],
-    "paragraph_count": 803
+    "paragraph_count": 804
   },
-  "overview_commit": "7ff000603c4b37aea8b35df687bd1629d889af33",
-  "overview_digest": "24c33763c1a58ea1a8872eec532ec49e329dfe7ceef0b8ddc52fc975c5132e8e",
+  "overview_commit": "7121402c83317afec35fe1f559fd441e24e1104e",
+  "overview_digest": "ec502166a0c0ee631652ab8acc176208251248d0c04505512e5cb60c02ebdf19",
   "paragraphs": [
     {
       "id": "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
@@ -16236,6 +16237,24 @@
         "MaiYang",
         "Muse",
         "ViralLoops"
+      ]
+    },
+    {
+      "id": "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[MaiYang]] source adds [[PracticeLedContent]] as an upstream material strategy rather than a discovered [[Twitter]] algorithm rule. A direct [[Cursor]] opinion, active learning around [[OpenClaw]], Pi, and context engineering, and repeated [[Raycast]] use produced posts showing 65,000, 23,000, and 20,000 views at capture time. Those cases support a narrow operating idea: opinions, learning, use, and building can supply concrete posts without inventing a detached content premise. They also sharpen [[CreatorPlatformMetrics]] because response shapes diverged materially—the Cursor opinion showed 164 replies and 10 bookmarks, while the learning post showed 2 replies and 215 bookmarks—so views and generic engagement should not erase whether an audience debated, redistributed, liked, or saved. The evidence remains three self-selected successful posts from one account without unsuccessful controls, audience baselines, timing or format adjustment, downstream outcomes, or platform-side ranking data. It therefore cannot establish that authenticity caused reach or that Twitter/X directly rewards the proposed categories. All four remote images were opened: the decorative header was omitted, while the three text-bearing post screenshots were retained at their semantic positions because they preserve wording, context, dates, and point-in-time engagement counts.",
+      "topic_scores": {
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CreatorPlatformMetrics",
+        "Cursor",
+        "MaiYang",
+        "OpenClaw",
+        "PracticeLedContent",
+        "Raycast",
+        "Twitter"
       ]
     }
   ],

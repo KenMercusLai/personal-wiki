@@ -9012,3 +9012,11 @@ Created [[Muse]] and updated [[MaiYang]], [[ViralLoops]], and [[ComputerUse]] fr
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | What My Most-Read Tweets Taught Me About the Twitter Algorithm
+
+Created [[Raycast]] and [[PracticeLedContent]], and updated [[MaiYang]], [[Twitter]], and [[CreatorPlatformMetrics]] from their complete ordered evidence inventories. Captured opinion, active learning, and real usage as sources of public material; preserved the different reply, repost, like, and bookmark shapes behind the displayed view totals; and separated a useful publishing hypothesis from an unsupported claim about the Twitter/X ranking system. Opened all four remote images: omitted the decorative title graphic and retained the three text-bearing post screenshots at their semantic positions.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

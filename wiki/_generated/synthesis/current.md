@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-08
-as_of_overview_commit: 7ff000603c4b37aea8b35df687bd1629d889af33
+as_of_overview_commit: 7121402c83317afec35fe1f559fd441e24e1104e
 summary: "Current knowledge map across technology, business, culture, governance, history, psychology, science, and work, emphasizing grounded claims, tradeoffs, and evidence limits."
-episode_count: 1116
-source_count: 1116
-paragraph_count: 803
+episode_count: 1117
+source_count: 1117
+paragraph_count: 804
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical outcomes depend on explicit state, lifecycle, cost, isolation, verific
 
 ### Business and Markets
 
-Durable businesses connect demand and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence; scarcity and referrals can create reach without proving retained value or viable unit economics.
+Durable businesses connect demand and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -57,7 +57,7 @@ Media form, platform architecture, interaction constraints, creator economics, i
 
 ### Governance and Institutions
 
-Institutions allocate authority, shared capacity, risk, evidence, access, and accountability, including identity and publication boundaries for autonomous action.
+Institutions allocate authority, shared capacity, risk, evidence, access, and accountability, including boundaries for autonomous public action.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
@@ -68,7 +68,7 @@ Historical and geopolitical cases emphasize path dependence, incentives, logisti
 
 ### Psychology and Personal Development
 
-Attention, motivation, identity, belonging, relationships, habits, learning, and belief revision respond to environments and feedback within evidence and responsibility bounds; scarcity and rewards can amplify salience while biasing guidance without establishing intent or trust.
+Attention, motivation, identity, relationships, habits, learning, and belief revision respond to environments and feedback within evidence and responsibility bounds.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
@@ -82,7 +82,7 @@ Health and science claims require causal restraint, heterogeneous-response and a
 
 ### Work, Education, and Society
 
-Work and learning depend on fair structures, social feedback, protected practice, usable rights, sustainable responsibility, and evidence beyond output volume.
+Work, learning, and public creative practice depend on fair structures, feedback, protected practice, sustainable responsibility, and evidence beyond visible output.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
