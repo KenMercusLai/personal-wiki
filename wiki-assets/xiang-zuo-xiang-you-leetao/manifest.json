@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "xiang-zuo-xiang-you-leetao",
+  "images": [
+    {
+      "file": "kuafu-runtime-architecture.png",
+      "alt": "Kuafu kernel routes a perceive-think-decide-act-reflect state machine through context and skill preparation, loop policy and guardrails, tools and Skills, and a SQLite plus vector store"
+    },
+    {
+      "file": "branch-retry-loop.png",
+      "alt": "Branching task diagram shows failed paths returning to an earlier decision point before another path is attempted"
+    },
+    {
+      "file": "telegram-agent-code-review.jpg",
+      "alt": "Telegram exchange shows one agent correcting its pull-request workflow and another CLI agent reviewing the resulting commit"
+    },
+    {
+      "file": "toastplan-task-list.png",
+      "alt": "Telegram agent retrieves a six-item ToastPlan task list containing user and AI-assigned work"
+    },
+    {
+      "file": "toastplan-ai-audit.png",
+      "alt": "ToastPlan audit screen filters AI activity and lists timestamped task updates"
+    },
+    {
+      "file": "knowledge-reader.png",
+      "alt": "KnowledgeReader desktop interface shows a source-grouped reading feed with unread, starred, review, vocabulary, and knowledge-graph navigation"
+    }
+  ]
+}

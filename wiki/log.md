@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-10] ingest | 向左，向右？
+
+Created [[Kuafu]] and [[ToastPlan]], and updated [[Leetao]], [[GenerativeAIAgentArchitecture]], and [[AgentTeam]] from their complete ordered evidence inventories. Recorded Kuafu's perceive-think-decide-act-reflect kernel, durable positive and negative lessons, host CLI bridge, coding/review pairing, ToastPlan task and audit surfaces, and the unresolved boundary between framework amplification and underlying model capability. Opened all seven remote images, omitted one prose-duplicating social post, and retained six architecture, workflow, review, task, audit, and reader-interface images at their semantic positions.
+
 ## [2026-10-10] ingest | Do We Still Need Tech Blogs in the Era of GenAI?
 
 Created [[Croxx]] and updated [[AIKnowledgeAssistant]], [[LearningByWriting]], [[PublicKnowledgeCommons]], and [[StackOverflow]] from their complete ordered evidence inventories. Added AI gap-filling during long-form reading, reconstruction of branching AI dialogue into coherent public reasoning, technical blogging as a possible commons-replenishment path, and descriptive evidence of sharply falling Stack Overflow question volume while rejecting unsupported GenAI causation. Opened all five remote images, retained the question-volume chart, The Key v2 photograph, and shared-AI-chat screenshot at their semantic positions, and omitted the generic hero and prose-duplicating social comment.
@@ -8992,6 +8996,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-10] ingest | The Discourse has been Automated
 
 Created [[XeIaso]], [[Matplotlib]], and [[AutomatedDiscourse]], and updated [[OpenClaw]], [[OpenSourceProjectMaintenance]], and [[JuniorEngineerLearning]] from their complete ordered evidence inventories. Captured machine-speed reproduction of grievance, callout, and apology patterns; separated social fluency from sentience and good faith; extended agent permissions into publication and reputational effects; and treated “good first issues” as intentional human learning infrastructure rather than an unclaimed task queue. Preserved the one-incident, missing-agent-log, uncertain-identity, and unmeasured-governance boundaries. Opened all seven remote images and omitted them: one was an empty advertising SVG, four were decorative character stickers, and two were exact duplicates.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-10] lint | Wiki health check
 
