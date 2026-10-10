@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "so-you-want-to-build-your-own-datacenter",
+  "images": [
+    {
+      "file": "namespace-rack.png",
+      "alt": "Rear view of a densely cabled Namespace rack containing multiple servers"
+    },
+    {
+      "file": "traditional-ci-cache-flow.png",
+      "alt": "Traditional CI cache flow downloading and expanding an archive before work, then packing and uploading it afterward"
+    },
+    {
+      "file": "namespace-cache-volume-flow.png",
+      "alt": "Namespace cache-volume flow attaching a snapshot so a job proceeds directly from start to work and completion"
+    }
+  ]
+}

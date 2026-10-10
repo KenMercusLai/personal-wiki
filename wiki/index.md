@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [So You Want to Build Your Own Datacenter](sources/so-you-want-to-build-your-own-datacenter.md) - Namespace describes workload-specific owned infrastructure for CI, joining fast cores, local NVMe, topology-aware cache snapshots, Clos networking, power-first rack design, and advance capacity planning.
 - [Introduction to Buffers in PostgreSQL](sources/introduction-to-buffers-in-postgresql.md) - A practical model of PostgreSQL shared buffers, clock-sweep eviction, dirty-page writes, bulk-access rings, local buffers, and OS caching, with key implementation and observability qualifications.
 - [Meta Keywords：是什么、为什么不](sources/meta-keywords-shi-shi-me-wei-shen-me-bu.md) - Sukka traces keyword-meta-tag abuse and engine retreat, distinguishing parsing or indexing from useful ranking influence while preserving historical and sourcing limits.
 - [没有一劳永逸的习惯](sources/mei-you-yi-lao-yong-yi-de-xi-guan.md) - A three-night Apple Watch lapse challenges permanent, willpower-free habit claims while remaining a personal account that cannot establish a universal theory of automaticity.
@@ -1140,6 +1141,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inside PostgreSQL's 8KB Page](sources/inside-postgresqls-8kb-page.md) - A pageinspect walkthrough connects PostgreSQL's slotted 8KB pages to line pointers, free space, tuple density, recovery metadata, pruning, and index special space.
 
 ## Entities
+- [Namespace](entities/Namespace.md) - Developer-infrastructure company operating a vertically integrated, owned-hardware CI platform designed around build performance and cache locality.
 - [Sukka](entities/Sukka.md) - Technical blogger represented through a historically grounded but qualified argument against meta keywords as an SEO practice.
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
 - [Zou Runyang](entities/ZouRunyang.md) - Software engineer and former technical manager represented through a qualified transition into startup HR leadership and organization design.
@@ -2937,6 +2939,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
 
 ## Concepts
+- [Build-Optimized Infrastructure](concepts/BuildOptimizedInfrastructure.md) - Workload-specific composition of fast compute, local storage, network-aware scheduling, rack power, procurement, and operations for bursty CI jobs.
+- [Topology-Aware Build Caching](concepts/TopologyAwareBuildCaching.md) - CI pattern that places ephemeral jobs near reusable local cache snapshots instead of transferring and expanding an archive for every run.
 - [PostgreSQL Buffer Management](concepts/PostgreSQLBufferManagement.md) - Shared and local page residency, pinning, clock-sweep replacement, dirty-page persistence, bulk-access rings, and operating-system cache interaction.
 - [PostgreSQL Page Architecture](concepts/PostgreSQLPageArchitecture.md) - Slotted 8KB storage layout joining page metadata, stable line pointers, central free space, tuple data, recovery state, and access-method-specific regions.
 - [Meta Keywords](concepts/MetaKeywords.md) - Publisher-declared HTML keyword metadata that became unreliable through abuse and is now operationally obsolete for mainstream search ranking.

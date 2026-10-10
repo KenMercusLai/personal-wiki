@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
       "0da9e0c2ce071330f5567176a96560519880d11f2d7111e5f33429960ed2b391",
       "4c3007fee77c5623b35ad0cc77933be322e3b7dee57c8ce2b128c6939cd78832",
       "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
@@ -802,11 +803,32 @@
       "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63",
       "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4"
     ],
-    "paragraph_count": 800
+    "paragraph_count": 801
   },
-  "overview_commit": "ac44858febdab268069f051fc14e389c9aec519f",
-  "overview_digest": "524236f8c4c60ea593bf2b9de6bbc3c2683338131e3343c2c7e28d5f31d64c70",
+  "overview_commit": "8d6bac19092ed484bf2d5017d4efc30247203d5e",
+  "overview_digest": "a3e755af73a28da592075751637c35bcacde869b762a97c15ad885e41a9452a3",
   "paragraphs": [
+    {
+      "id": "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Namespace]] source adds [[BuildOptimizedInfrastructure]] as a workload-fit argument for vertically integrated CI. Bursty builds, sequential compilation paths, single-threaded tests, repeated cache access, and heavy I/O can favor high-clock processors, local NVMe, memory-rich nodes, and 25–100 Gbit links over density-oriented production hardware and separated storage. New [[TopologyAwareBuildCaching]] supplies the clearest cross-layer mechanism: the scheduler tracks cache revisions by node, places an ephemeral job where reusable state is already local, and attaches a snapshot just in time, replacing the retained traditional diagram's download, expand, pack, and upload path with a shorter start, work, and finish loop. [[DataCenterNetworkFabric]] gains a scheduling role because Namespace uses known Clos capacity when placing data-moving jobs, while [[CloudCostOptimization]] gains the corresponding ownership boundary: direct performance and price benefits must exceed hypervisor, orchestration, storage, image, network, facility, power, procurement, forecasting, and specialist-operations costs. The account is one company-authored narrative without reproducible benchmarks, total-cost data, availability history, cache-consistency details, or matched current-cloud comparisons; owned capacity also replaces elasticity with lead times and demand risk. All four remote images were opened. The representative production rack and both distinct CI flow diagrams were retained at their semantic positions; the homelab photograph was omitted as contextual decoration.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BuildOptimizedInfrastructure",
+        "CloudCostOptimization",
+        "DataCenterNetworkFabric",
+        "Namespace",
+        "TopologyAwareBuildCaching"
+      ]
+    },
     {
       "id": "0da9e0c2ce071330f5567176a96560519880d11f2d7111e5f33429960ed2b391",
       "primary_topic": "history-and-geopolitics",

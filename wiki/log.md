@@ -8957,6 +8957,10 @@ Matched the requested article to the existing canonical source [[blog-nicholas-c
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-10] ingest | So You Want to Build Your Own Datacenter
+
+Created [[Namespace]], [[BuildOptimizedInfrastructure]], and [[TopologyAwareBuildCaching]], and updated [[DataCenterNetworkFabric]] from its complete ordered evidence inventory. Captured workload-specific high-clock compute, local NVMe, topology-aware snapshot caching, Clos-capacity scheduling, power-first rack design, procurement lead times, and the operational boundary of owning hardware and networks. Preserved the first-party evidence limits around performance, cost, reliability, cache consistency, and current-cloud comparisons. Opened all four remote images, retained the representative production rack and both distinct CI flow diagrams at their semantic positions, and omitted the homelab photograph as contextual decoration.
+
 ## [2026-10-10] ingest | Inside PostgreSQL's 8KB Page
 
 Created [[PostgreSQLPageArchitecture]] and updated [[PostgreSQL]] from its complete ordered evidence inventory. Captured the default 8KB I/O boundary, 24-byte page header, opposing line-pointer and tuple growth, stable `(page, slot)` indirection, free-space accounting, WAL and checksum metadata, page-level pruning, measured tuple capacity, and heap-versus-B-tree special space. Preserved the synthetic-workload boundary and qualified the article's overstatement of `pd_lsn` and its conflation of `PD_ALL_VISIBLE` with the visibility map used for index-only scans. Inspected both page-layout images, retained the light diagram at its semantic position, and omitted the dark rendering as a duplicate.
@@ -8968,6 +8972,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-10] ingest | Introduction to Buffers in PostgreSQL
 
 Created [[PostgreSQLBufferManagement]] and updated [[PostgreSQLPageArchitecture]] and [[PostgreSQL]] from their complete ordered evidence inventories. Connected 8KB page I/O to shared-buffer lookup, pin and usage counts, clock-sweep replacement, dirty-page persistence, WAL ordering, bulk-access rings, temporary-table local buffers, `pg_buffercache`, and the operating-system cache. Preserved the article's useful demonstrations while correcting its private-ring model, disk-versus-OS-cache interpretation, ambiguous `shared_buffers` allocation statement, strict constant-time claim, TOAST boundary, and universalized memory heuristic. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-10] lint | Wiki health check
 
