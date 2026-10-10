@@ -10,6 +10,7 @@ sources:
   - write-less-code-be-more-responsible-orhuns-blog
   - why-llms-cant-really-build-software
   - code-was-never-the-hard-part-is-an-insult-to-all-programmers
+  - ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla
 last_updated: 2026-10-10
 knowledge_schema: synthesis-v1
 ---
@@ -30,8 +31,10 @@ Irwin adds a diagnostic reason that accountability cannot be transferred merely 
 
 The newer essay widens that boundary beyond code comprehension. Developers should not outsource understanding, judgment, empathy, or taste to AI, because responsible software requires both a model of the system and a model of why it should exist. Responsibility therefore includes user and business purpose as well as implementation behavior, while remaining compatible with substantial automation.
 
+Nolla adds organizational answerability to that boundary. Subjective design quality, production change approval, SLA and compliance obligations, incident review, rollback cost, customer harm, and internal consequences still require a person or institution that can explain and own a decision. On this view, AI can generate scripts, summarize logs, or suggest a runbook, but responsibility attaches to whoever judges that the system is ready to ship and accepts what follows.
+
 ## Key Claims
-- AI agents extend human capability but do not bear accountability for code.
+- AI agents extend human capability but do not bear organizational, customer-facing, or production accountability for code.
 - Engineers should not submit generated code they cannot understand or explain.
 - Human reviewers and AI reviewers should not be treated as final backstops for careless work.
 - Long-term maintainability and public stewardship remain human-owned even when the agent writes much of the implementation; faster generation does not reduce user-facing or open-source obligations.
@@ -55,14 +58,16 @@ The newer essay widens that boundary beyond code comprehension. Developers shoul
 - Context continuity: [[why-llms-cant-really-build-software]] keeps humans responsible for requirements and acceptance because current models can omit context, overweight recent information, and hallucinate missing details.
 - Judgment boundary: [[code-was-never-the-hard-part-is-an-insult-to-all-programmers]] says developers should not outsource understanding, judgment, empathy, taste, or responsibility to AI.
 - Dual understanding: [[code-was-never-the-hard-part-is-an-insult-to-all-programmers]] connects responsible work to understanding both the technical system and why it is being built.
+- Production answerability: [[ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla]] argues that subjective design decisions, production approval, SLAs, compliance, incident review, rollback, and customer consequences require an accountable human or organization.
+- Operational boundary: [[ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla]] allows AI to write scripts, summarize logs, generate runbooks, and propose diagnoses while leaving the decision to deploy with the responsible operator.
 
 ## Counterevidence & Qualifications
-The concept does not deny that AI or human review can catch defects. Its narrower claim is that review aids do not transfer accountability away from the engineer making the change. The independent-developer, Antirez, Parmaksız, and newer craft source also show that "AI wrote almost all code" is not automatically irresponsible; the key variable is whether the human controls purpose, design intent, granularity, diagnosis, review, acceptance, production exposure, and ongoing maintenance. Irwin's stronger claim about model limitations is a 2025 practitioner judgment rather than a timeless capability test, so responsibility should be justified by real accountability and risk as well as current model weakness. The newer essay likewise supplies no operational measure for adequate empathy or taste, and its permanence claims are predictions. Parmaksız's licensing discussion is explicitly non-legal and unsettled, so it supports keeping provenance and FOSS ethics visible, not a categorical legal conclusion.
+The concept does not deny that AI or human review can catch defects. Its narrower claim is that review aids do not transfer accountability away from the engineer or organization authorizing the change. The independent-developer, Antirez, Parmaksız, and newer craft source also show that "AI wrote almost all code" is not automatically irresponsible; the key variable is whether the human controls purpose, design intent, granularity, diagnosis, review, acceptance, production exposure, and ongoing maintenance. Irwin's stronger claim about model limitations is a 2025 practitioner judgment rather than a timeless capability test, so responsibility should be justified by real accountability and risk as well as current model weakness. Nolla's claim that responsibility will remain attached to humans is plausible under current organizational and legal structures but is not universal proof about future institutions, and the article is disclosed as mostly AI-generated prose. The newer essay likewise supplies no operational measure for adequate empathy or taste, and its permanence claims are predictions. Parmaksız's licensing discussion is explicitly non-legal and unsettled, so it supports keeping provenance and FOSS ethics visible, not a categorical legal conclusion.
 
 ## What Changed
-- Extended responsibility beyond code comprehension and diagnosis to include purpose, user empathy, and taste.
-- Made the dual obligation explicit: retain a model of both the technical system and why it is being built.
-- Preserved substantial AI automation as compatible with responsibility when human judgment and acceptance remain active.
+- Extended responsibility from code and product judgment into organizational answerability for deployment, incidents, compliance, and customer consequences.
+- Distinguished AI assistance with scripts, logs, runbooks, and diagnosis from the accountable act of authorizing production change.
+- Preserved the permanence claim as a source-scoped forecast conditioned by current institutional structures.
 
 ## Related Concepts
 - [[AICodingPractice]] - human responsibility is the foundation for responsible AI coding practice.
@@ -76,3 +81,4 @@ The concept does not deny that AI or human review can catch defects. Its narrowe
 - [[OpenSourceProjectMaintenance]] - public maintainers retain quality and release-safety obligations regardless of how cheaply code was generated.
 - [[MentalModels]] - stable models of intent and behavior support accountable diagnosis.
 - [[ProductMindedEngineering]] - extends responsibility from implementation behavior into user, customer, and business purpose.
+- [[AccountabilityInfrastructure]] - makes production decisions and consequences attributable even when AI performs much of the technical work.

@@ -788,7 +788,7 @@
       "179d1b4f2928bb1291cc7d0b8562ef51edae41424b04b406145e30baf843284e",
       "f4ca6e95fc4b2c5c8349c043c0c41dc946797757f5be96744fc39797fe5af57f",
       "187447213081431d4bd0471ab2dbde168fc39b2b630ac8d4a19bc8bcdd197482",
-      "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
+      "d9542384ce4765e0da8c4973653829444ca1ba605756fe67422f3a5bcc3b26e5",
       "e7220513baff6bfe4c34b2387bec390afe375456320db23fd46d615fc1ef4af5",
       "84f9ff60ffd485cbfcef8a677451a34697ff6724fdb48cedbf1d0f4bfc678f02",
       "02131c1f12c9d6791fbb3e4389da8b92d2017e351645f9515390e6c29b58ed21",
@@ -805,12 +805,13 @@
       "7fc0c82e16ebb5eba59f77ed01c5c18a33918a5bec76f27092906c82cea7ff0a",
       "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb",
       "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2",
-      "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9"
+      "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
+      "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f"
     ],
-    "paragraph_count": 805
+    "paragraph_count": 806
   },
-  "overview_commit": "87a27da8bed60faf6d59b496f1b3662fe3492fd7",
-  "overview_digest": "6fc5b87397baba6e3936ae8cb471729cdb2a699681dd275685f36a7f9c358305",
+  "overview_commit": "4b108bf85df2d9247cb42e597665efd46336609d",
+  "overview_digest": "de77f16412fbadcc2c5aa68b51e6c2544b43d0a261aef876fce40ada0a184e7d",
   "paragraphs": [
     {
       "id": "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
@@ -15939,16 +15940,15 @@
       ]
     },
     {
-      "id": "44656ccc324fb96a82c06712928ca3d67a64a0d483b53108f01be4e497bcfbde",
+      "id": "d9542384ce4765e0da8c4973653829444ca1ba605756fe67422f3a5bcc3b26e5",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
-      "text": "The newest Bash source adds [[BashConditionals]] as a command-status model rather than a bracket-delimited Boolean syntax. Bash `if` selects `then` when its command or command list returns zero, so a status-producing tool such as `grep -q` can be used directly; a string, numeric, or file expression instead needs an evaluator such as `test` or `[`. The `[` form is itself a command, commonly a Bash builtin, and its closing `]` is a required final argument rather than punctuation supplied by `if`. This gives [[BashAsMetaTool]] and [[AutomationFriendlyCLI]] a concrete control-flow contract: commands compose cleanly when their exit statuses distinguish success from failure. The source is a concise Stack Overflow explanation, not a complete conditional reference; it omits `[[ ... ]]`, arithmetic and compound conditions, pipeline and negation behavior, command-specific error statuses, and quoting hazards. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "text": "The newest Bash source adds [[BashConditionals]] as a command-status model rather than a bracket-delimited Boolean syntax. Bash `if` selects `then` when its command or command list returns zero, so a status-producing tool such as `grep -q` can be used directly; a string, numeric, or file expression instead needs an evaluator such as `test` or `[`. The `[` form is itself a command, commonly a Bash builtin, and its closing `]` is a required final argument rather than punctuation supplied by `if`. This gives [[BashAsMetaTool]] and [[AutomationFriendlyCLI]] a concrete control-flow contract: commands compose cleanly when their exit statuses distinguish success from failure. The source is a concise Stack Overflow explanation, not a complete conditional reference; it omits Bash's double-bracket conditional form, arithmetic and compound conditions, pipeline and negation behavior, command-specific error statuses, and quoting hazards. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
       "topic_scores": {
         "ai-and-technology": 2,
         "psychology-and-personal-development": 1
       },
       "wikilinks": [
-        " ... ",
         "AutomationFriendlyCLI",
         "BashAsMetaTool",
         "BashConditionals"
@@ -16279,6 +16279,27 @@
         "HumanCodeResponsibility",
         "JohnCarmack",
         "ProductMindedEngineering"
+      ]
+    },
+    {
+      "id": "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Nolla]] source adds a workforce consequence to the wiki's AI-coding bottleneck shift. Routine frontend, CRUD, and first-pass testing may become cheap enough that implementation volume is no longer scarce, while [[BottleneckAwareAICoding]] moves the constraint toward correctness, consistency, complexity, risk, and accountable acceptance. Experienced engineers gain short-run leverage from knowing when to require contracts, regression coverage, staged rollout, rollback, observability, and production caution; [[HumanCodeResponsibility]] remains attached to the person or institution that approves subjective design and operational change. The delayed risk is [[JuniorEngineerLearning]]: automating repetitive, explicit, testable work can also remove the apprenticeship path into legacy constraints, cross-team coordination, incidents, migrations, and consequence-aware judgment. [[EngineeringMentorship]] therefore becomes work design as well as coaching through verifiable training grounds, controlled production exercises, systematic review, and SRE mechanisms. This is a practitioner forecast without hiring, productivity, progression, or delivery data, and the article discloses that ChatGPT 5.2 generated most of its prose from a conversation and examples of Nolla's prior style; it should be read as a selected position expressed through AI-assisted writing, not an empirical demonstration of a three-to-five-year talent shortage.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BottleneckAwareAICoding",
+        "EngineeringMentorship",
+        "HumanCodeResponsibility",
+        "JuniorEngineerLearning",
+        "Nolla"
       ]
     }
   ],

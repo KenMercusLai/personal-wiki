@@ -9036,3 +9036,11 @@ Updated [[ProductMindedEngineering]] and [[HumanCodeResponsibility]] from their 
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | AI 时代老鸟的狂欢和凋零 - Nolla
+
+Created [[Nolla]] and updated [[AICodingPractice]], [[BottleneckAwareAICoding]], [[HumanCodeResponsibility]], [[JuniorEngineerLearning]], and [[EngineeringMentorship]] from their complete ordered evidence inventories. Captured the shift from cheap implementation toward convergence and accountable approval, the short-run leverage of experienced engineers, and the delayed risk that automating junior work removes the apprenticeship path that produces future senior judgment. Preserved the lack of labor-market and delivery evidence, the uncertainty that designed exercises reproduce production experience, and the source's disclosure that ChatGPT 5.2 generated most of the article from a conversation and prior style examples. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint without saving a report. Deterministic and graph-aware checks completed; semantic checks were unavailable because the configured LiteLLM model lacked a provider prefix.
