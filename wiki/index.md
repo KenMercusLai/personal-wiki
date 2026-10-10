@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Introduction to Buffers in PostgreSQL](sources/introduction-to-buffers-in-postgresql.md) - A practical model of PostgreSQL shared buffers, clock-sweep eviction, dirty-page writes, bulk-access rings, local buffers, and OS caching, with key implementation and observability qualifications.
 - [Meta Keywords：是什么、为什么不](sources/meta-keywords-shi-shi-me-wei-shen-me-bu.md) - Sukka traces keyword-meta-tag abuse and engine retreat, distinguishing parsing or indexing from useful ranking influence while preserving historical and sourcing limits.
 - [没有一劳永逸的习惯](sources/mei-you-yi-lao-yong-yi-de-xi-guan.md) - A three-night Apple Watch lapse challenges permanent, willpower-free habit claims while remaining a personal account that cannot establish a universal theory of automaticity.
 - [RL is an evolutionary algorithm](sources/rl-is-an-evolutionary-algorithm.md) - A speculative practitioner essay reframes pretraining, compaction, and RL as selection processes, then argues that instruction-reward consistency and robust agentic judges determine which behaviors survive.
@@ -2936,6 +2937,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
 
 ## Concepts
+- [PostgreSQL Buffer Management](concepts/PostgreSQLBufferManagement.md) - Shared and local page residency, pinning, clock-sweep replacement, dirty-page persistence, bulk-access rings, and operating-system cache interaction.
 - [PostgreSQL Page Architecture](concepts/PostgreSQLPageArchitecture.md) - Slotted 8KB storage layout joining page metadata, stable line pointers, central free space, tuple data, recovery state, and access-method-specific regions.
 - [Meta Keywords](concepts/MetaKeywords.md) - Publisher-declared HTML keyword metadata that became unreliable through abuse and is now operationally obsolete for mainstream search ranking.
 - [Evolutionary Optimization Analogy](concepts/EvolutionaryOptimizationAnalogy.md) - Loose framing of pretraining, compaction, and RL as retention of variants that survive changing data, feedback, or rewards.

@@ -8964,3 +8964,11 @@ Created [[PostgreSQLPageArchitecture]] and updated [[PostgreSQL]] from its compl
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | Introduction to Buffers in PostgreSQL
+
+Created [[PostgreSQLBufferManagement]] and updated [[PostgreSQLPageArchitecture]] and [[PostgreSQL]] from their complete ordered evidence inventories. Connected 8KB page I/O to shared-buffer lookup, pin and usage counts, clock-sweep replacement, dirty-page persistence, WAL ordering, bulk-access rings, temporary-table local buffers, `pg_buffercache`, and the operating-system cache. Preserved the article's useful demonstrations while correcting its private-ring model, disk-versus-OS-cache interpretation, ambiguous `shared_buffers` allocation statement, strict constant-time claim, TOAST boundary, and universalized memory heuristic. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

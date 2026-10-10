@@ -12,6 +12,7 @@ sources:
   - pierce-freeman-go-ahead-self-host-postgres
   - simplify-move-code-into-database-functions
   - inside-postgresqls-8kb-page
+  - introduction-to-buffers-in-postgresql
 last_updated: 2026-10-10
 knowledge_schema: synthesis-v1
 ---
@@ -40,6 +41,8 @@ Freeman adds a smaller-scale deployment and ownership boundary. He reports movin
 
 At the physical layer, PostgreSQL normally organizes tables and indexes as 8KB slotted pages: a fixed header records recovery and layout state, stable line pointers address variable-size tuples, and a central free-space gap shrinks as rows arrive. This explains why row width, MVCC versions, pruning, HOT updates, checksums, WAL, and index layout affect storage and I/O behavior even when applications work only with logical rows.
 
+Those pages move through a shared buffer pool rather than being read and written as isolated rows. Pins protect active pages, bounded usage counts guide a clock-sweep replacement policy, and dirty buffers can be written by checkpoints, the background writer, or allocating backends under WAL durability ordering. Bulk-access rings constrain cache pollution without bypassing shared buffers, temporary tables use per-backend local buffers, and a PostgreSQL miss may still hit the operating-system page cache.
+
 ## Key Characteristics
 - Acts as a consolidation-first default for transactional and adjacent workloads and as a conventional escape hatch when SQLite's narrower envelope does not fit.
 - Supports mixed semantic, relational, temporal, analytical, and narrowly specialized workloads through extensions, functions, views, triggers, and JSON operations.
@@ -47,7 +50,7 @@ At the physical layer, PostgreSQL normally organizes tables and indexes as 8KB s
 - Retains a single-writer and MVCC boundary that makes sustained write-heavy demand a candidate for sharding or another system.
 - Has mature deployment, recovery, replication, and high-availability practices, while still requiring application-level overload protection.
 - Supports managed and self-hosted deployment models whose real tradeoff includes configuration freedom, operational labor, support, compliance, and incident ownership.
-- Exposes a stable slotted-page storage substrate whose indirection, recovery metadata, free-space accounting, and access-method-specific regions shape row density and maintenance, while still being outgrown when workload shape or critical capabilities demand another system.
+- Exposes a stable slotted-page and buffer-management substrate whose indirection, recovery metadata, cache replacement, WAL ordering, and OS interaction shape row density and I/O behavior, while still being outgrown when workload shape or critical capabilities demand another system.
 
 ## Evidence
 - Consolidation role: [[shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog]] argues that one capable database can replace multiple specialized systems in early or moderate architectures.
@@ -72,13 +75,17 @@ At the physical layer, PostgreSQL normally organizes tables and indexes as 8KB s
 - Physical page layout: [[inside-postgresqls-8kb-page]] uses `pageinspect` to show a 24-byte header, four-byte line pointers, variable-width tuples, and the free-space interval between `pd_lower` and `pd_upper` within the default 8KB page.
 - Stable physical references: [[inside-postgresqls-8kb-page]] explains how `(page, slot)` tuple addresses let indexes retain a line-pointer reference while tuple bytes move or a pointer redirects during HOT cleanup.
 - Page lifecycle metadata: [[inside-postgresqls-8kb-page]] connects page LSN, optional checksum, visibility flags, boundary offsets, special space, and prune horizon to recovery, corruption detection, access, and cleanup.
+- Shared-buffer lifecycle: [[introduction-to-buffers-in-postgresql]] connects page lookup, pins, usage counts, clock-sweep eviction, dirty state, checkpoints, background writes, and backend allocation.
+- Cache scopes: [[introduction-to-buffers-in-postgresql]] distinguishes shared buffers, per-backend local buffers for temporary tables, bounded bulk-access rings within shared buffers, and the operating-system page cache.
+- Buffer observability: [[introduction-to-buffers-in-postgresql]] uses `pg_buffercache` to show dirty, cleaned, evicted, and reloaded pages, including hint-bit dirties caused by a read-only query.
 
 ## Qualifications
-The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, and the authentication tutorial's final function should not be copied as written. Sivers's 2015 essay is also a personal architecture argument: its examples omit production controls, include correctness and concurrency hazards, and do not measure the maintenance, portability, staffing, scaling, or security effects of moving logic into the database. OpenAI's scale figures are first-party claims without query mix, dataset size, instance cost, or independent audit; user count is not a transferable capacity unit. Freeman's reliability, maintenance, performance, and cost comparison is likewise self-reported by an infrastructure-capable operator and omits a complete total-cost and availability study. The page-layout tutorial uses one synthetic table and should not be read as a universal capacity benchmark; it also overstates the page LSN as the sole basis of crash recovery and conflates the page's all-visible flag with the visibility map consulted by index-only scans. Together the sources support PostgreSQL's maturity, breadth, deployment portability, physical storage discipline, and ability to own some application behavior, but not that it is always better than specialized or managed systems or that all business logic belongs in stored functions. The OpenAI case instead demonstrates a sharp limit: replication scales reads, while unsuitable writes are migrated away.
+The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, and the authentication tutorial's final function should not be copied as written. Sivers's 2015 essay is also a personal architecture argument: its examples omit production controls, include correctness and concurrency hazards, and do not measure the maintenance, portability, staffing, scaling, or security effects of moving logic into the database. OpenAI's scale figures are first-party claims without query mix, dataset size, instance cost, or independent audit; user count is not a transferable capacity unit. Freeman's reliability, maintenance, performance, and cost comparison is likewise self-reported by an infrastructure-capable operator and omits a complete total-cost and availability study. The page-layout tutorial uses one synthetic table and should not be read as a universal capacity benchmark; it also overstates the page LSN as the sole basis of crash recovery and conflates the page's all-visible flag with the visibility map consulted by index-only scans. The buffer tutorial adds a useful demonstration but misdescribes bulk-access rings as private pools, cannot infer disk-versus-OS-cache reads from `shared read`, and places a non-allocation statement where it can be mistaken as applying to `shared_buffers` rather than `effective_cache_size`. Its fixed percentages and buffer sizes are version-sensitive starting points, not universal settings. Together the sources support PostgreSQL's maturity, breadth, deployment portability, physical storage discipline, cache architecture, and ability to own some application behavior, but not that it is always better than specialized or managed systems or that all business logic belongs in stored functions. The OpenAI case instead demonstrates a sharp limit: replication scales reads, while unsuitable writes are migrated away.
 
 ## What Changed
-- Added the 8KB slotted page as the physical substrate for PostgreSQL's row, WAL, checksum, pruning, and index behavior.
-- Qualified the tutorial's recovery and index-only-scan explanations while preserving its measured layout evidence.
+- Connected 8KB storage pages to shared-buffer lookup, clock-sweep replacement, dirty-page flushing, and WAL durability ordering.
+- Distinguished bulk-access rings, temporary-table local buffers, and the operating-system page cache as separate scopes.
+- Preserved the limits of buffer counters and fixed memory-sizing heuristics.
 
 ## Relationships
 - [[DatabaseConsolidation]] - PostgreSQL is the source's preferred consolidation platform.
@@ -100,3 +107,4 @@ The PostgreSQL-first and Timescale RAG sources are advocacy material connected t
 - [[DatabaseCentricApplicationLogic]] - uses PostgreSQL as the enforcement, operation, and representation boundary behind thin clients.
 - [[SimpleMadeEasy]] - supplies the source's rationale for accepting harder database code to reduce interwoven application layers.
 - [[PostgreSQLPageArchitecture]] - describes PostgreSQL's page regions, stable tuple-slot indirection, and lifecycle metadata.
+- [[PostgreSQLBufferManagement]] - describes shared and local page residency, replacement, dirty writes, and OS-cache interaction.
