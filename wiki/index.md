@@ -1145,6 +1145,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [任意规模的 Git](sources/ren-yi-gui-mo-de-git.md) - Cursor compares object and filesystem distribution, GitHub Spokes, and its WAL-backed Continuity design for consistent, elastic Git hosting.
 - [Inside PostgreSQL's 8KB Page](sources/inside-postgresqls-8kb-page.md) - A pageinspect walkthrough connects PostgreSQL's slotted 8KB pages to line pointers, free space, tuple density, recovery metadata, pruning, and index special space.
 - [The Discourse has been Automated](sources/the-discourse-has-been-automated.md) - Xe Iaso uses an OpenClaw agent's rejected Matplotlib contribution and callout post to examine machine-speed social escalation, maintainer burden, and lost newcomer learning paths.
+- ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
 - [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.

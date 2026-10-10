@@ -804,12 +804,13 @@
       "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4",
       "7fc0c82e16ebb5eba59f77ed01c5c18a33918a5bec76f27092906c82cea7ff0a",
       "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb",
-      "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2"
+      "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2",
+      "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9"
     ],
-    "paragraph_count": 804
+    "paragraph_count": 805
   },
-  "overview_commit": "ebd5fbd73e6b26071f28865b26c21a9896135c0c",
-  "overview_digest": "ec502166a0c0ee631652ab8acc176208251248d0c04505512e5cb60c02ebdf19",
+  "overview_commit": "87a27da8bed60faf6d59b496f1b3662fe3492fd7",
+  "overview_digest": "6fc5b87397baba6e3936ae8cb471729cdb2a699681dd275685f36a7f9c358305",
   "paragraphs": [
     {
       "id": "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
@@ -16255,6 +16256,29 @@
         "PracticeLedContent",
         "Raycast",
         "Twitter"
+      ]
+    },
+    {
+      "id": "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest software-craft essay rejects the slogan that code was never the hard part while also refusing the opposite claim that programming is unautomatable human art. Its durable contribution is a both-and boundary: [[ProductMindedEngineering]] joins deep understanding of the system with deep understanding of why it is being built, while [[HumanCodeResponsibility]] keeps understanding, judgment, empathy, taste, and acceptance with the person using AI. The source recommends adjacent product, user-experience, customer, and business learning for senior developers without weakening technical foundations for juniors, and invokes [[JohnCarmack]] and [[FabriceBellard]] as examples of exceptional implementation craft. This qualifies AI-coding accounts that relocate most scarce work into specification and review, but does not show that code entry remains equally difficult under new tools. Salary, hiring rituals, books, degrees, burnout, and bugs can reflect scarcity, institutions, incentives, and coordination as well as intrinsic task difficulty; the depictions of programmers and product roles are polemical rather than representative; and claims about what software, users, and technology will always do are predictions from one practitioner essay. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "FabriceBellard",
+        "HumanCodeResponsibility",
+        "JohnCarmack",
+        "ProductMindedEngineering"
       ]
     }
   ],

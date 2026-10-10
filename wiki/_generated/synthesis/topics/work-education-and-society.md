@@ -3,9 +3,9 @@
 generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
-last_updated: 2026-10-08
-as_of_overview_commit: 7121402c83317afec35fe1f559fd441e24e1104e
-input_digest: 8680fb8f27d6b83a5d93b5a10fdc7c25c574722a1772d841f6050277a4310786
+last_updated: 2026-10-10
+as_of_overview_commit: 87a27da8bed60faf6d59b496f1b3662fe3492fd7
+input_digest: f01e37323a5a61c69095ea29ce9d31507f2db0695ac7259289b4719bbc2e6f94
 ---
 
 # Work, Education, and Society
@@ -73,15 +73,16 @@ input_digest: 8680fb8f27d6b83a5d93b5a10fdc7c25c574722a1772d841f6050277a4310786
 
 ### Product Minded Engineering Joins Delivery To Outcome Learning
 
-[[ProductMindedEngineering]] joins technical delivery to product inquiry and outcome learning: [[GergelyOrosz]] argues that engineers can use business and user context to challenge specifications, combine product impact with implementation effort through [[ValueBasedProductScoping]], validate through [[IterativeProductShipping]], and follow post-release behavior while keeping [[ProductManagement]] and cross-functional decision rights distinct.
+[[ProductMindedEngineering]] joins technical delivery to product inquiry and outcome learning: [[GergelyOrosz]] argues that engineers can use business and user context to challenge specifications, combine product impact with implementation effort through [[ValueBasedProductScoping]], validate through [[IterativeProductShipping]], and follow post-release behavior while keeping [[ProductManagement]] and cross-functional decision rights distinct. The newer software-craft essay makes technical depth and product understanding complementary rather than hierarchical, recommends adjacent product and business learning for senior developers without weakening junior technical foundations, and connects AI-era work to [[HumanCodeResponsibility]] for understanding, judgment, empathy, taste, and acceptance.
 
-**Evidence:** [[ProductMindedEngineering]], [[GergelyOrosz]], [[ValueBasedProductScoping]], [[IterativeProductShipping]], [[ProductManagement]]
+**Evidence:** [[ProductMindedEngineering]], [[GergelyOrosz]], [[ValueBasedProductScoping]], [[IterativeProductShipping]], [[ProductManagement]], [[HumanCodeResponsibility]]
 
 **Qualifications:**
 
 - The evidence is one 2019 practitioner essay based on personal observation, without a representative sample, comparison group, behavioral rubric, or measured product and career outcomes.
 - The model is most directly scoped to user-facing feature teams and may translate differently to platform, infrastructure, research, regulated, safety-critical, and highly specialized work.
 - Fast validation and pragmatic edge-case handling do not override accessibility, privacy, security, reliability, legal, or severe-harm duties, and behavioral or business measures may be noisy or misaligned with user welfare.
+- The newer source is a polemic rather than occupational research: its portraits of programmers, product managers, sales, support, and business analysts are not representative evidence, and its labor-market signals do not isolate intrinsic task difficulty.
 
 ### Structured Extraction Needs Semantic Validation
 

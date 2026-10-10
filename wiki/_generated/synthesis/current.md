@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-08
-as_of_overview_commit: ebd5fbd73e6b26071f28865b26c21a9896135c0c
+last_updated: 2026-10-10
+as_of_overview_commit: 87a27da8bed60faf6d59b496f1b3662fe3492fd7
 summary: "Current knowledge map across technology, business, culture, governance, history, psychology, science, and work, emphasizing grounded claims, tradeoffs, and evidence limits."
-episode_count: 1118
-source_count: 1118
-paragraph_count: 804
+episode_count: 1119
+source_count: 1119
+paragraph_count: 805
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, context discipline, human judgment, and bounded public effects.
+Technical outcomes depend on explicit state, lifecycle, cost, isolation, verification, observability, context discipline, human judgment, and bounded public effects; AI-assisted software still requires understanding both system behavior and product purpose.
 
 - [[AINativeAgentArchitecture]] extends [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], and [[HeadlessAgentArchitecture]] from task execution into runtime self-extension: [[Bub]] used an agent-created Telegram Skill, a Docker startup contract, and one-shot execution to replace framework-owned behavior, while [[AgentPermissionModel]], [[SoftwareVerification]], and [[ProductionAgentInfrastructure]] remain necessary because a small tool interface can still expose broad shell, filesystem, network, credential, and unattended-execution authority. Evidence: [[FrostMing]], [[AINativeAgentArchitecture]], [[Bub]], [[OpenClaw]], [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], [[HeadlessAgentArchitecture]], [[AgentPermissionModel]], [[SoftwareVerification]], [[ProductionAgentInfrastructure]].
 - [[DeepSeekV41Flash]] combines [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], and [[HierarchicalSparseIndexer]] to reduce long-context prefill, stored global attention state, and repeated decoder address selection: bulk prompt positions exit after a causal encoder, Full/Reindex/Reuse layers refresh content, addresses, and queries at different rates, and later decoder indexers search a bounded shared pool. Evidence: [[Zartbot]], [[DeepSeekV41Flash]], [[CausalEncoderDecoderArchitecture]], [[KVCacheCompression]], [[CompressedSparseAttention2]], [[HierarchicalSparseIndexer]], [[KVCacheAwareRouting]].
 
 ### Business and Markets
 
-Durable businesses connect demand and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence.
+Durable businesses connect demand and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence, with product and engineering judgment treated as complementary.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -82,7 +82,7 @@ Health and science claims require causal restraint, heterogeneous-response and a
 
 ### Work, Education, and Society
 
-Work, learning, and public creative practice depend on fair structures, feedback, protected practice, sustainable responsibility, and evidence beyond visible output.
+Work, learning, and public creative practice depend on fair structures, feedback, protected technical and product practice, sustainable responsibility, and evidence beyond visible output.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

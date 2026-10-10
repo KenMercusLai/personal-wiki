@@ -9028,3 +9028,11 @@ Created [[LaurenTan]], [[GrokBot]], and [[DeliverableFirstAgentDesign]], and upd
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | "Code was never the hard part" is an insult to all programmers
+
+Updated [[ProductMindedEngineering]] and [[HumanCodeResponsibility]] from their complete ordered evidence inventories, and added the source's rhetorical use of [[JohnCarmack]] and [[FabriceBellard]] as examples of implementation craft. Captured the both-and case for deep system and product understanding, adjacent-field learning for senior developers, technical foundations for juniors, and the boundary against outsourcing judgment, empathy, taste, or responsibility to AI. Preserved the article's polemical, non-comparative evidence limits and its explicit retraction of an excessive mental-health joke. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

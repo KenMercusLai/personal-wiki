@@ -3,9 +3,9 @@
 generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
-last_updated: 2026-10-08
-as_of_overview_commit: 7ff000603c4b37aea8b35df687bd1629d889af33
-input_digest: af9ae4309e0d5d1e83ecb9d07b595c3c895c3513e7e8f929b7fae771e77c89dc
+last_updated: 2026-10-10
+as_of_overview_commit: 87a27da8bed60faf6d59b496f1b3662fe3492fd7
+input_digest: 219a4d9901fa2024b3e73937aca4573c35b743b5a640de74bbbb18a4af68b774
 ---
 
 # Business and Markets
@@ -916,9 +916,9 @@ Startup survival can require either visible leadership or a leader's ability to 
 
 ### Product Management Integrates Outcomes
 
-[[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], and [[AIMarketingHype]] turn product work into business outcomes by integrating customer value, technology, viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, ecosystem constraints, privacy, team conditions, and accountability without boss authority. Direct customer access should uncover needs rather than dictate a request-driven roadmap, while whole-team idea gathering, sustainable capacity, clear priorities, and hands-on execution make facilitation part of outcome responsibility. [[ToddJackson]] and [[ProductManagerHiring]] translate that scope into stage-sensitive selection evidence around product vision, team influence, iteration, structured reasoning, and service; [[TechnologyTransitionStrategy]] extends the integration to directional platform bets whose destination, lifetime, and retirement path are explicit. [[ProductMindedEngineering]] extends that integration into engineering practice: [[GergelyOrosz]] argues that engineers can use business and user context to challenge specifications, connect product impact with implementation effort, validate early, and investigate post-release outcomes without assuming the formal product-manager role.
+[[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], and [[AIMarketingHype]] turn product work into business outcomes by integrating customer value, technology, viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, ecosystem constraints, privacy, team conditions, and accountability without boss authority. Direct customer access should uncover needs rather than dictate a request-driven roadmap, while whole-team idea gathering, sustainable capacity, clear priorities, and hands-on execution make facilitation part of outcome responsibility. [[ToddJackson]] and [[ProductManagerHiring]] translate that scope into stage-sensitive selection evidence around product vision, team influence, iteration, structured reasoning, and service; [[TechnologyTransitionStrategy]] extends the integration to directional platform bets whose destination, lifetime, and retirement path are explicit. [[ProductMindedEngineering]] extends that integration into engineering practice: [[GergelyOrosz]] argues that engineers can use business and user context to challenge specifications, connect product impact with implementation effort, validate early, and investigate post-release outcomes without assuming the formal product-manager role. The software-craft essay adds that this product depth complements rather than trivializes implementation craft, and [[HumanCodeResponsibility]] keeps judgment, empathy, taste, and acceptance with the engineer using AI.
 
-**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[MartyCagan]], [[StevenSinofsky]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], [[AIMarketingHype]], [[TechnologyTransitionStrategy]], [[ToddJackson]], [[ProductManagerHiring]], [[ProductMindedEngineering]], [[GergelyOrosz]], [[ValueBasedProductScoping]], [[IterativeProductShipping]]
+**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[MartyCagan]], [[StevenSinofsky]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], [[AIMarketingHype]], [[TechnologyTransitionStrategy]], [[ToddJackson]], [[ProductManagerHiring]], [[ProductMindedEngineering]], [[GergelyOrosz]], [[HumanCodeResponsibility]], [[ValueBasedProductScoping]], [[IterativeProductShipping]]
 
 **Qualifications:**
 
@@ -927,6 +927,7 @@ Startup survival can require either visible leadership or a leader's ability to 
 - The CES evidence is source-scoped to 2019 consumer electronics; later standards, platform changes, and assistant models may have improved some specific smart-home, streaming, voice, or AI-product friction.
 - [[TechnologyTransitionStrategy]] is grounded in one late-2015 practitioner essay: public-cloud, native-platform, ARM, bridge-avoidance, and deep-learning choices still depend on regulation, installed bases, accessibility, workload, team capability, migration risk, and an explicit retirement path.
 - The product-minded-engineering extension is one 2019 practitioner synthesis without a sample, comparison group, behavioral rubric, or measured product and career outcomes; it is most directly scoped to user-facing feature teams and does not override accessibility, privacy, security, reliability, legal, or severe-harm duties.
+- The newer software-craft essay adds a useful both-and boundary but its occupational comparisons are rhetorical: salary, hiring rituals, books, burnout, and bugs do not establish the relative difficulty or value of engineering, product, sales, support, and research work.
 
 ### Early Startups Convert Runway Into Learning
 
