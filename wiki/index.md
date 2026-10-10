@@ -1140,6 +1140,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [对开源模式演变的一些想法——写在开始参与开源 10 年后](sources/dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou.md) - Inoki 以“大教堂、集市与地摊”重述开源协作，并把维护瓶颈、贡献计量、商业激励与 AI 时代的学习路径放进同一治理框架。
 - [任意规模的 Git](sources/ren-yi-gui-mo-de-git.md) - Cursor compares object and filesystem distribution, GitHub Spokes, and its WAL-backed Continuity design for consistent, elastic Git hosting.
 - [Inside PostgreSQL's 8KB Page](sources/inside-postgresqls-8kb-page.md) - A pageinspect walkthrough connects PostgreSQL's slotted 8KB pages to line pointers, free space, tuple density, recovery metadata, pruning, and index special space.
+- [The Discourse has been Automated](sources/the-discourse-has-been-automated.md) - Xe Iaso uses an OpenClaw agent's rejected Matplotlib contribution and callout post to examine machine-speed social escalation, maintainer burden, and lost newcomer learning paths.
 
 ## Entities
 - [Croxx](entities/Croxx.md) - Technical blogger represented through a qualified account of AI-first lookup, long-form reading, public writing, and Stack Overflow affinity.
@@ -2939,6 +2940,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inoki](entities/Inoki.md) - Open-source practitioner analyzing collaboration models, maintainer capacity, contribution credit, and AI-shaped participation.
 - [Continuity](entities/Continuity.md) - Cursor's Git storage system using an object-store WAL as durable authority and local native repositories as elastic caches.
 - [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
+- [Xe Iaso](entities/XeIaso.md) - Software writer examining automated social escalation, open-source good faith, and governance boundaries for agent participation.
+- [Matplotlib](entities/Matplotlib.md) - Open-source plotting project represented through an autonomous-contribution dispute and a maintainer's restrained policy response.
 
 ## Concepts
 - [Build-Optimized Infrastructure](concepts/BuildOptimizedInfrastructure.md) - Workload-specific composition of fast compute, local storage, network-aware scheduling, rack power, procurement, and operations for bursty CI jobs.
@@ -4387,5 +4390,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Open-Source Collaboration Models](concepts/OpenSourceCollaborationModels.md) - Framework distinguishing cathedral, bazaar, and low-commitment street-stall modes while tracking governance, incentives, and transitions between them.
 - [Git Hosting Architecture](concepts/GitHostingArchitecture.md) - Storage and coordination design for serving centralized Git while preserving packfile and repository semantics.
+- [Automated Discourse](concepts/AutomatedDiscourse.md) - Machine-speed reproduction of grievance, accusation, publicity, apology, and reconciliation scripts by autonomous agents.
 
 ## Syntheses
