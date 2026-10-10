@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Do We Still Need Tech Blogs in the Era of GenAI?](sources/do-we-still-need-tech-blogs-in-the-era-of-genai.md) - Croxx argues that AI can fill local knowledge gaps while technical blogs preserve verified experience, coherent reasoning, public sharing, and reusable knowledge.
 - [So You Want to Build Your Own Datacenter](sources/so-you-want-to-build-your-own-datacenter.md) - Namespace describes workload-specific owned infrastructure for CI, joining fast cores, local NVMe, topology-aware cache snapshots, Clos networking, power-first rack design, and advance capacity planning.
 - [Introduction to Buffers in PostgreSQL](sources/introduction-to-buffers-in-postgresql.md) - A practical model of PostgreSQL shared buffers, clock-sweep eviction, dirty-page writes, bulk-access rings, local buffers, and OS caching, with key implementation and observability qualifications.
 - [Meta Keywords：是什么、为什么不](sources/meta-keywords-shi-shi-me-wei-shen-me-bu.md) - Sukka traces keyword-meta-tag abuse and engine retreat, distinguishing parsing or indexing from useful ranking influence while preserving historical and sourcing limits.
@@ -1141,6 +1142,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inside PostgreSQL's 8KB Page](sources/inside-postgresqls-8kb-page.md) - A pageinspect walkthrough connects PostgreSQL's slotted 8KB pages to line pointers, free space, tuple density, recovery metadata, pruning, and index special space.
 
 ## Entities
+- [Croxx](entities/Croxx.md) - Technical blogger represented through a qualified account of AI-first lookup, long-form reading, public writing, and Stack Overflow affinity.
 - [Namespace](entities/Namespace.md) - Developer-infrastructure company operating a vertically integrated, owned-hardware CI platform designed around build performance and cache locality.
 - [Sukka](entities/Sukka.md) - Technical blogger represented through a historically grounded but qualified argument against meta keywords as an SEO practice.
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.

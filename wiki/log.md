@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-10] ingest | Do We Still Need Tech Blogs in the Era of GenAI?
+
+Created [[Croxx]] and updated [[AIKnowledgeAssistant]], [[LearningByWriting]], [[PublicKnowledgeCommons]], and [[StackOverflow]] from their complete ordered evidence inventories. Added AI gap-filling during long-form reading, reconstruction of branching AI dialogue into coherent public reasoning, technical blogging as a possible commons-replenishment path, and descriptive evidence of sharply falling Stack Overflow question volume while rejecting unsupported GenAI causation. Opened all five remote images, retained the question-volume chart, The Key v2 photograph, and shared-AI-chat screenshot at their semantic positions, and omitted the generic hero and prose-duplicating social comment.
+
 ## [2026-10-08] ingest | 创造一只龙虾，需要些什么?
 
 Created [[FrostMing]] and [[AINativeAgentArchitecture]], and updated [[Bub]], [[PsiACE]], [[OpenClaw]], [[CodingAgentMinimalTooling]], [[LLMToolingSkills]], [[HeadlessAgentArchitecture]], and [[AgentPermissionModel]] from their complete ordered evidence inventories. Recorded the progression from ordinary Telegram handlers to an agent-created sending Skill and a Docker startup contract driven by one-shot agent execution; separated minimal tool count from minimal authority; and preserved the direct conflict between prompt-only, unread-code autonomy and externally enforced permissions, verification, recovery, and audit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -8972,6 +8976,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-10] ingest | Introduction to Buffers in PostgreSQL
 
 Created [[PostgreSQLBufferManagement]] and updated [[PostgreSQLPageArchitecture]] and [[PostgreSQL]] from their complete ordered evidence inventories. Connected 8KB page I/O to shared-buffer lookup, pin and usage counts, clock-sweep replacement, dirty-page persistence, WAL ordering, bulk-access rings, temporary-table local buffers, `pg_buffercache`, and the operating-system cache. Preserved the article's useful demonstrations while correcting its private-ring model, disk-versus-OS-cache interpretation, ambiguous `shared_buffers` allocation statement, strict constant-time claim, TOAST boundary, and universalized memory heuristic. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-10] lint | Wiki health check
 

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "do-we-still-need-tech-blogs-in-the-era-of-genai",
+  "images": [
+    {
+      "file": "stackoverflow-monthly-questions.jpg",
+      "alt": "Chart of Stack Overflow monthly questions rising to roughly 200000 in the mid-2010s and falling sharply through 2025"
+    },
+    {
+      "file": "stack-overflow-the-key-v2.jpg",
+      "alt": "Stack Overflow The Key v2 three-key keyboard and its box"
+    },
+    {
+      "file": "shared-ai-chat.png",
+      "alt": "Shared AI chat screen showing a Chinese technical conclusion about Rust and the Linux allocator API"
+    }
+  ]
+}
