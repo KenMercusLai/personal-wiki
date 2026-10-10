@@ -9044,3 +9044,11 @@ Created [[Nolla]] and updated [[AICodingPractice]], [[BottleneckAwareAICoding]],
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint without saving a report. Deterministic and graph-aware checks completed; semantic checks were unavailable because the configured LiteLLM model lacked a provider prefix.
+
+## [2026-10-10] ingest | 简单易懂的有毒职场炼成术 | 螺莉莉的数据中心
+
+Created [[ObjectivesAndKeyResults]] and updated [[RORIRI]], [[AgileSoftwareDevelopment]], [[PsychologicalSafety]], and [[WorkplaceIncentiveDesign]] from their complete ordered evidence inventories. Captured the distinction between directional OKRs and operating KPIs, performance-linked stretch-goal gaming, adaptive user-feedback loops versus waterfall plans partitioned into sprints, stable sprint boundaries, and the role of testing and refactoring in sustainable change. Preserved the source's uncited practitioner status and qualified its 70-percent heuristic, sprint-length range, universal refactoring prescription, and textbook generalizations. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -8,7 +8,8 @@ sources:
   - being-a-junior-developer-at-30-by
   - dont-be-a-hypocrite-about-failure-2
   - i-told-a-senior-developer-at-microsoft-he-was-wrong
-last_updated: 2026-09-29
+  - jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin
+last_updated: 2026-10-10
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,12 +25,14 @@ The failure-hypocrisy essay sharpens the authority signal. It argues that a lead
 
 The Microsoft internship narrative adds a concrete status-crossing interaction. An intern who had received extensive corrective feedback asked basic questions, investigated a defect, and then challenged a senior engineer's implementation. The senior engineer accepted the evidence without defensiveness and handed over the fix. That response did not prove team-wide safety, but it reduced the interpersonal penalty for accurate disagreement and helped convert deference into responsible participation.
 
+RORIRI's OKR argument adds a formal-incentive test. A team may be told to set ambitious goals and learn from partial attainment, yet compensation or performance penalties can make shortfalls personally costly. Employees then respond rationally by choosing safe targets and concealing uncertainty. Psychological safety therefore depends not only on respectful conversation and leader demeanor but also on whether evaluation rules make the requested candor, experimentation, and disagreement materially safe.
+
 ## Key Claims
 - People need room to express disagreement and ask questions before group advice can be genuinely informative.
 - Recording dissent and making changed decisions visible can turn an error into organizational learning rather than a reason to conceal it.
 - An invitation to participate does not by itself ensure that all affected people are heard or have equal influence.
 - Leaders and peers shape whether uncertainty, feedback, and learning are practically safe to surface.
-- Formal permission to fail can be overridden by leaders' visible reactions and by incentives that still punish exploratory setbacks.
+- Formal permission to fail can be overridden by leaders' visible reactions and by evaluation systems that still punish exploratory setbacks or ambitious partial results.
 - Safety supports candid discussion without requiring consensus, removing decision ownership, or excusing harmful behavior.
 - Calm, evidence-responsive treatment of a junior colleague's correction can make status-crossing disagreement safer and more useful.
 
@@ -41,13 +44,16 @@ The Microsoft internship narrative adds a concrete status-crossing interaction. 
 - Failure signals: [[dont-be-a-hypocrite-about-failure-2]] argues that leaders who hide their own mistakes or react negatively to staff failures can suppress experimentation even when they avoid formal punishment.
 - Modeled candor: [[dont-be-a-hypocrite-about-failure-2]] describes a leader disclosing a failed event, receiving difficult feedback, and changing the next organizing attempt.
 - Status-crossing correction: [[i-told-a-senior-developer-at-microsoft-he-was-wrong]] reports that a senior developer accepted an intern's memory-leak diagnosis without humiliation or a status contest.
+- Stretch-goal incentives: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] argues that tying ambitious OKR completion to performance rewards makes defensive target selection safer than honest exploration.
 
 ## Counterevidence & Qualifications
-These are practitioner and personal accounts, not controlled comparisons or measurements of psychological safety. The architecture author discusses safety, dissent, trust, and learning without formally testing the construct; the product-management source addresses questioning; the two junior-engineer accounts describe supportive interactions; and the failure essay generalizes from one event plus informal observations. A single senior colleague's gracious response does not prove that a wider team is safe. Formal openness can coexist with hierarchy, incentives, confidentiality, legal exposure, time pressure, retaliation risk, or exclusion, and some decisions still need clear authority and non-negotiable safeguards.
+These are practitioner and personal accounts, not controlled comparisons or measurements of psychological safety. The architecture author discusses safety, dissent, trust, and learning without formally testing the construct; the product-management source addresses questioning; the two junior-engineer accounts describe supportive interactions; the failure essay generalizes from one event plus informal observations; and the OKR essay supplies no measured workplace case. A single senior colleague's gracious response does not prove that a wider team is safe. Formal openness can coexist with hierarchy, incentives, confidentiality, legal exposure, time pressure, retaliation risk, or exclusion, and some decisions still need clear authority and non-negotiable safeguards. Separating stretch goals from evaluation may reduce one conflict but does not by itself create safety, fair accountability, or permission to ignore harmful performance.
 
 ## What Changed
 - Added an intern-to-senior correction as a concrete status-crossing test of how authority responds to evidence.
 - Distinguished one supportive interaction from proof of team-wide psychological safety.
+- Added formal evaluation rules as a material safety signal alongside interpersonal responses.
+- Connected performance-linked stretch goals to defensive target selection and suppressed learning.
 
 ## Related Concepts
 - [[AdviceProcess]] - seeks dissenting advice while keeping decision ownership with the originator.
@@ -57,3 +63,5 @@ These are practitioner and personal accounts, not controlled comparisons or meas
 - [[ContinuousWorkplaceFeedback]] - recurring conversations need trust and boundaries to surface concerns.
 - [[FailureOwnership]] - leaders' concrete admissions can model learning while preserving responsibility.
 - [[AdaptivePersistence]] - a safe response to setbacks should support changed action rather than concealment or repetition.
+- [[ObjectivesAndKeyResults]] - ambitious goals become safer to report honestly when partial attainment is not covertly treated as performance failure.
+- [[WorkplaceIncentiveDesign]] - formal rewards and penalties can override verbal permission to experiment.

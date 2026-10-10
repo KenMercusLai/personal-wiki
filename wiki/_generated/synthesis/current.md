@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-10
-as_of_overview_commit: 4b108bf85df2d9247cb42e597665efd46336609d
-summary: "A cross-domain map of grounded knowledge emphasizing explicit boundaries, accountable judgment, sustainable learning, and evidence-calibrated tradeoffs."
-episode_count: 1120
-source_count: 1120
-paragraph_count: 806
+as_of_overview_commit: c5c0acd2f6d824f8e53228ab07da88f95310e6e7
+summary: "A cross-domain map of grounded knowledge emphasizing explicit boundaries, accountable judgment, sustainable learning, aligned incentives, and evidence-calibrated tradeoffs."
+episode_count: 1121
+source_count: 1121
+paragraph_count: 807
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability.
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
-- [[EngineeringMentorship]] treats developer capability as partly produced by social and workplace conditions: [[EduardsSizovs]] links wider entry to protected pairing, feedback, career guidance, and learning resources, while [[ArminRonacher]] argues that [[TechCommunityParticipation]] should give AI-first programmers the human guide and engineering on-ramp absent from a solitary [[ChatGPT]] interaction. [[Nolla]] adds that disappearing junior tasks require verifiable training grounds, controlled production exercises, systematic review, and SRE practice; [[HiringSystemDesign]] and [[InclusiveHiring]] still require learning needs to match real teaching capacity and job-relevant evidence rather than confidence or subjective culture fit.
+- [[RORIRI]] connects [[ObjectivesAndKeyResults]], [[AgileSoftwareDevelopment]], [[WorkplaceIncentiveDesign]], and [[PsychologicalSafety]] through one work-design boundary: directional goals and user-feedback loops support learning only when evaluation rules do not reward safe target selection, operating floors remain distinct from aspirations, and sprint structure protects adaptation from both fixed-plan theater and arbitrary interruption.
 
 ## Synthesis by Domain
 
@@ -82,7 +82,7 @@ Health and science claims require causal restraint, heterogeneous-response and a
 
 ### Work, Education, and Society
 
-Work, learning, and public creative practice depend on fair structures, feedback, protected technical and product practice, sustainable responsibility, and evidence beyond visible output.
+Work and learning depend on fair structures, aligned incentives, role clarity, protected practice, feedback, sustainable responsibility, and evidence beyond labels or visible output.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

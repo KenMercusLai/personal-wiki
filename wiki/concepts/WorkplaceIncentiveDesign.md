@@ -8,7 +8,8 @@ sources:
   - anti-perks-even
   - culture-is-the-behavior-you-reward-and-punish-jocelyngoldfein
   - employee-incentives-in-a-tokenized-world-token-economy
-last_updated: 2026-09-27
+  - jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin
+last_updated: 2026-10-10
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,14 +27,16 @@ Goldfein extends the analysis from policy design to cultural learning. Employees
 
 Tokenized compensation adds liquidity and transferability to the design surface. [[employee-incentives-in-a-tokenized-world-token-economy]] proposes employee-to-employee ownership transfers and task payments, but continuous pricing can make speculative promotion more immediately rewarding than durable product work. Vesting, lockups, market depth, disclosure, and conduct controls therefore shape both who can benefit and which time horizon the system teaches.
 
+RORIRI's comparison of OKRs and KPIs adds metric-role clarity to the same synthesis. An ambitious directional goal can invite exploration when partial attainment produces learning, but the same number becomes a defensive target when it controls pay or ratings. Employees then lower ambition because the evaluation system rewards certainty. The inverse error is to treat a minimum operating KPI as though partial completion were an acceptable stretch result. Incentive design must therefore state not only the metric but also whether it is an aspiration, a diagnostic, or a floor, who bears shortfall risk, and what consequence follows.
+
 ## Key Claims
 - Incentives shape everyday behavior most strongly when choices and consequences are publicly legible.
 - Pricing shared resources can reduce casual overuse by making opportunity cost concrete.
 - Penalties can redirect unwanted behavior such as overtime or excess inventory, but they also signal what management values.
 - Rewards and bonuses can make contribution legible, yet uncertain payouts can intensify pressure.
-- Incentive systems need horizon control because quarterly or easily measured targets can crowd out longer-term work.
+- Incentive systems need horizon and role clarity because quarterly or easily measured targets can crowd out longer-term work, while ambiguous use of one number can confuse aspiration with an operating floor.
 - Removing a formal rule or adding a convenient amenity can create strong informal incentives through ambiguity, comparison, location, timing, status, and social meaning.
-- Policy evaluation should measure actual behavior and distributional outliers; liquid, transferable rewards widen choice and peer allocation but add short-term price, concentration, and governance risks.
+- Policy evaluation should measure actual behavior and distributional outliers; stretch goals linked to ratings can induce defensive target selection, while liquid rewards add short-term price, concentration, and governance risks.
 
 ## Evidence
 - Meeting behavior: [[charging-employees-for-conference-rooms-helps-disco-boost-profit-bloomberg]] reports employees cut back on useless meetings after room charges.
@@ -50,13 +53,17 @@ Tokenized compensation adds liquidity and transferability to the design surface.
 - Visibility gap: [[culture-is-the-behavior-you-reward-and-punish-jocelyngoldfein]] argues that private bonus changes or private discipline cannot counteract the public lesson when harmful behavior still advances.
 - Distributed control: [[culture-is-the-behavior-you-reward-and-punish-jocelyngoldfein]] separates peer praise and storytelling, managers' daily allocation choices, and founders' unusually visible example as incentive channels.
 - Transferable token rewards: [[employee-incentives-in-a-tokenized-world-token-economy]] proposes peer trades, task payments, project bonuses, and staking, while warning that early liquidity can reward marketing before product value.
+- Goal-rating conflict: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] argues that compensation tied to ambitious OKR completion rewards safe targets over uncertain exploration.
+- Metric-role confusion: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] distinguishes directional OKRs from operating KPIs and says mixing their completion rules damages trust.
 
 ## Counterevidence & Qualifications
-The sources do not prove that every workplace should price, remove, tokenize, or formalize every behavior. Some valuable work is collective, slow, ambiguous, or relational and can be harmed by narrow measurement. Disco is a single high-intensity company case, the vacation article is practitioner argument that acknowledges unsettled comparative evidence, Even is a 17-person company's self-report without outcome data or dissenting employee views, Goldfein's culture model is a practitioner interpretation rather than a measured causal study, and the token essay is a speculative 2017 design argument whose legal claims are not current guidance. Incentive effects also depend on trust, managerial integrity, labor-market options, legal entitlements, payout fairness, workload, accessibility, market depth, and whether workers can challenge distorted metrics, harmful role models, or unwritten norms. Consistency and transparency are not sufficient when the rewarded behavior is itself unhealthy.
+The sources do not prove that every workplace should price, remove, tokenize, separate, or formalize every behavior. Some valuable work is collective, slow, ambiguous, or relational and can be harmed by narrow measurement. Disco is a single high-intensity company case, the vacation article is practitioner argument that acknowledges unsettled comparative evidence, Even is a 17-person company's self-report without outcome data or dissenting employee views, Goldfein's culture model is a practitioner interpretation rather than a measured causal study, the token essay is a speculative 2017 design argument whose legal claims are not current guidance, and RORIRI's OKR/KPI distinction is an uncited normative account. Incentive effects also depend on trust, managerial integrity, labor-market options, legal entitlements, payout fairness, workload, accessibility, market depth, and whether workers can challenge distorted metrics, harmful role models, or unwritten norms. Consistency and transparency are not sufficient when the rewarded behavior is itself unhealthy, and some consequential commitments legitimately belong in evaluation even when they also support learning.
 
 ## What Changed
 - Added transferability and liquidity as incentive-design variables that affect participation, time horizon, and employee financial exposure.
 - Added peer token payments as an internal allocation mechanism and token-price short-termism as its central qualification.
+- Added metric purpose and consequence as separate design choices: aspiration, diagnostic, and operating floor should not be silently conflated.
+- Added performance-linked stretch goals as a mechanism for defensive target selection and reduced exploration.
 
 ## Related Concepts
 - [[WorkEnvironment]] - incentives are one part of the field that shapes behavior.
@@ -68,3 +75,5 @@ The sources do not prove that every workplace should price, remove, tokenize, or
 - [[WorkplacePerkDesign]] - applies incentive analysis to employee benefits, office amenities, and deliberate exclusions.
 - [[StartupCulture]] - repeated reward and punishment patterns become the organization's actual behavioral norm.
 - [[TokenizedEmployeeIncentives]] - applies liquid tokens to ownership, peer rewards, task exchange, and project incentives.
+- [[ObjectivesAndKeyResults]] - shows how a directional goal changes behavior when reused as a performance score.
+- [[PsychologicalSafety]] - incentives determine whether experimentation and partial failure are materially safe to disclose.

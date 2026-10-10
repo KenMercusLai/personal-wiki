@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6e853b35ef16c495644c5fe79cb7311ce6a05a165da7faa55020b26b2bce05eb",
       "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
       "0da9e0c2ce071330f5567176a96560519880d11f2d7111e5f33429960ed2b391",
       "4c3007fee77c5623b35ad0cc77933be322e3b7dee57c8ce2b128c6939cd78832",
@@ -808,11 +809,29 @@
       "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f"
     ],
-    "paragraph_count": 806
+    "paragraph_count": 807
   },
-  "overview_commit": "4b108bf85df2d9247cb42e597665efd46336609d",
-  "overview_digest": "de77f16412fbadcc2c5aa68b51e6c2544b43d0a261aef876fce40ada0a184e7d",
+  "overview_commit": "c5c0acd2f6d824f8e53228ab07da88f95310e6e7",
+  "overview_digest": "67cafe9abd7a707a3d0f94ba4c5063804c4d12c8a507ce188faea903358698b1",
   "paragraphs": [
+    {
+      "id": "6e853b35ef16c495644c5fe79cb7311ce6a05a165da7faa55020b26b2bce05eb",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[RORIRI]] source adds a shared failure mechanism across [[ObjectivesAndKeyResults]], [[AgileSoftwareDevelopment]], [[WorkplaceIncentiveDesign]], and [[PsychologicalSafety]]: an organization can keep a human-centered label while its actual evaluation and authority system reverses the tool's purpose. OKRs orient uncertain future change while KPIs monitor established operating health; using ambitious OKR completion as a rating or bonus score rewards safe targets, while treating a hard operating floor as a stretch goal weakens the floor. Agile likewise learns through small usable increments and real user feedback, whereas dividing a fixed waterfall plan into sprints merely shortens the reporting interval. Stable in-sprint scope and later backlog revision can protect work without denying genuine change, and continuous testing and refactoring preserve the codebase's ability to adapt. The source is an uncited practitioner argument rather than comparative evidence: its 70-percent heuristic, two-to-four-week sprint range, “every sprint” refactoring rule, and textbook generalizations are not universal standards, and urgent safety, security, legal, or operational evidence may legitimately interrupt current work. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AgileSoftwareDevelopment",
+        "ObjectivesAndKeyResults",
+        "PsychologicalSafety",
+        "RORIRI",
+        "WorkplaceIncentiveDesign"
+      ]
+    },
     {
       "id": "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
       "primary_topic": "governance-and-institutions",

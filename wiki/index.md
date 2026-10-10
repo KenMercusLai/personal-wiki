@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [简单易懂的有毒职场炼成术 | 螺莉莉的数据中心](sources/jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI distinguishes OKRs from KPIs and adaptive Agile from fixed-plan sprint theater, arguing that authority and evaluation incentives can invert human-centered management tools.
 - [AI 时代老鸟的狂欢和凋零 - Nolla](sources/ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla.md) - Nolla argues that cheap AI implementation raises the value of convergence and accountability while threatening the junior apprenticeship path that creates future senior engineers.
 - [从 Lauren 不信规划说起，我用 Grok Bot 搭 Growth Researcher 踩过的坑](sources/cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng.md) - Mai Yang turns a failed scheduled Growth Researcher into a deliverable-first method for narrow bot roles, validated Skills and routines, and staged high-impact permissions.
 - [What My Most-Read Tweets Taught Me About the Twitter Algorithm](sources/what-my-most-read-tweets-taught-me-about-the-twitter-algorithm.md) - Mai Yang groups three high-reach tool posts as opinion, learning, and real usage while the screenshots support reach comparisons but not a causal claim about Twitter/X ranking.
@@ -2957,6 +2958,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Matplotlib](entities/Matplotlib.md) - Open-source plotting project represented through an autonomous-contribution dispute and a maintainer's restrained policy response.
 
 ## Concepts
+- [Objectives and Key Results](concepts/ObjectivesAndKeyResults.md) - Directional objectives and measurable progress indicators whose learning value depends on separating aspiration from operating floors and covert performance penalties.
 - [Deliverable-First Agent Design](concepts/DeliverableFirstAgentDesign.md) - Agent workflow that validates one bounded result through reviewed artifacts before hardening a role into Skills, routines, or a larger bot organization.
 - [Build-Optimized Infrastructure](concepts/BuildOptimizedInfrastructure.md) - Workload-specific composition of fast compute, local storage, network-aware scheduling, rack power, procurement, and operations for bursty CI jobs.
 - [Topology-Aware Build Caching](concepts/TopologyAwareBuildCaching.md) - CI pattern that places ephemeral jobs near reusable local cache snapshots instead of transferring and expanding an archive for every run.
