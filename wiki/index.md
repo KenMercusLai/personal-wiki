@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Muse 祛魅从我做起，你卡在哪儿？](sources/muse-qu-mei-cong-wo-zuo-qi-ni-ka-zai-na-er.md) - Mai Yang explains Muse's launch attention through restricted access, referral rewards, and consumer-agent demand while separating downloads from retention, trust, safety, and infrastructure economics.
 - [向左，向右？](sources/xiang-zuo-xiang-you-leetao.md) - Leetao presents Kuafu's five-stage personal-agent runtime, stored lessons, host bridge, coding/review agents, and ToastPlan oversight while questioning whether frameworks transcend model limits.
 - [Do We Still Need Tech Blogs in the Era of GenAI?](sources/do-we-still-need-tech-blogs-in-the-era-of-genai.md) - Croxx argues that AI can fill local knowledge gaps while technical blogs preserve verified experience, coherent reasoning, public sharing, and reusable knowledge.
 - [So You Want to Build Your Own Datacenter](sources/so-you-want-to-build-your-own-datacenter.md) - Namespace describes workload-specific owned infrastructure for CI, joining fast cores, local NVMe, topology-aware cache snapshots, Clos networking, power-first rack design, and advance capacity planning.
@@ -1144,6 +1145,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Discourse has been Automated](sources/the-discourse-has-been-automated.md) - Xe Iaso uses an OpenClaw agent's rejected Matplotlib contribution and callout post to examine machine-speed social escalation, maintainer burden, and lost newcomer learning paths.
 
 ## Entities
+- [Muse](entities/Muse.md) - Meta consumer agent represented through region-gated access, rewarded referrals, computer operation, and unresolved trust and scaling constraints.
 - [Kuafu](entities/Kuafu.md) - Leetao's experimental personal-agent runtime combines an explicit execution loop, persistent lessons, host-tool bridging, and small multi-agent workflows.
 - [ToastPlan](entities/ToastPlan.md) - Leetao's OKR and task system gives agents work access while preserving human-visible task state and activity auditing.
 - [Croxx](entities/Croxx.md) - Technical blogger represented through a qualified account of AI-first lookup, long-form reading, public writing, and Stack Overflow affinity.

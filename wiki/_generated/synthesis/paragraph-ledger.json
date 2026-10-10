@@ -802,12 +802,13 @@
       "289bf0d1a0c811582799f87c83e1afdb621afd389c71c9fb20fd019dfac0a0bc",
       "1eba6313a16900033c382b9d29fc3ff8eede41ac1a6ce13521d85ed282d9da63",
       "7cb938774700975c789c7fce97b4fc16aa12f56c4120a82182dc513cebf45cf4",
-      "7fc0c82e16ebb5eba59f77ed01c5c18a33918a5bec76f27092906c82cea7ff0a"
+      "7fc0c82e16ebb5eba59f77ed01c5c18a33918a5bec76f27092906c82cea7ff0a",
+      "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb"
     ],
-    "paragraph_count": 802
+    "paragraph_count": 803
   },
-  "overview_commit": "71dfecade8c3f9c7dbb7143a09d20732bacee4da",
-  "overview_digest": "1cd6af381f85956b5fe670dc9219aedaf5501888246f1c249c266a01c85d0261",
+  "overview_commit": "7ff000603c4b37aea8b35df687bd1629d889af33",
+  "overview_digest": "24c33763c1a58ea1a8872eec532ec49e329dfe7ceef0b8ddc52fc975c5132e8e",
   "paragraphs": [
     {
       "id": "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
@@ -16215,6 +16216,26 @@
         "OpenClaw",
         "OpenSourceProjectMaintenance",
         "XeIaso"
+      ]
+    },
+    {
+      "id": "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[MaiYang]] source adds [[Muse]] as a consumer-agent case where product capability, access friction, and distribution are inseparable. The article attributes launch attention to restricted United States and Canada availability, rewarded referrals, and demand for an agent that can operate a computer rather than only chat. Its funnel runs through app availability, network and identity checks, waitlisting, card-based age verification, code redemption, account connections, and later computer action; reports of using a competing agent or remote browser to register for Muse show recursive agent use as a workaround, not dependable end-to-end autonomy. [[ViralLoops]] gains a scarcity-plus-tutorial mechanism: a large token reward reportedly aligns setup guidance with inviter benefit, while unrelated cryptocurrency traffic around “1 billion tokens” shows that reach can include low-intent or mismatched audiences. [[ComputerUse]] gains the corresponding boundary because broader action expands permission, privacy, containment, destination-policy, observability, and virtual-computer cost obligations. Downloads therefore do not establish retention, trust, safety, defensibility, or viable unit economics. The article is a secondary synthesis without product documentation, funnel attribution, retention cohorts, security reproduction, version scope, or cost assumptions, so its figures, workarounds, vulnerability claims, Amazon block, and infrastructure estimate remain source-scoped. Both remote images were opened: the decorative title banner was omitted, while the unrelated MUSE cryptocurrency screenshot was retained at the audience-confusion claim.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "ComputerUse",
+        "MaiYang",
+        "Muse",
+        "ViralLoops"
       ]
     }
   ],

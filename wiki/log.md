@@ -9004,3 +9004,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-10] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-10] ingest | Muse 祛魅从我做起，你卡在哪儿？
+
+Created [[Muse]] and updated [[MaiYang]], [[ViralLoops]], and [[ComputerUse]] from their complete ordered evidence inventories. Captured scarcity-plus-referral distribution, reward-bearing tutorial conflicts, the multi-stage regional access funnel, recursive agent workarounds, and the permission, trust, retention, and virtual-computer economics boundaries around consumer Computer Use. Preserved the source's secondary, unmeasured status for launch figures, workarounds, security reports, destination blocking, and cost estimates. Opened both remote images: omitted the decorative title banner and retained the unrelated MUSE cryptocurrency screenshot because it materially supports the audience-confusion claim.
+
+## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
