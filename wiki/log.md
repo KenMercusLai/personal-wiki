@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-11] ingest | LanceDB 选型指南：它为什么这么火，以及你的项目是否该用它
+
+Created [[VectorDatabaseSelection]] and updated [[LanceDB]], [[LanceFormat]], and [[VectorDatabase]] from their complete ordered evidence inventories. Reframed vector-store choice around embedded-library, client-server service, incumbent-database extension, and lower-level index-library positions; added multimodal and training-data reuse; and made cleanup, write coordination, remote-storage memory behavior, compatibility, backup, and recovery part of the embedded ownership cost. Preserved the source's time-sensitive maturity and competitor claims, unsupported Node.js exclusivity, anecdotal migration economics, and its imprecise description of Lance as based on Parquet despite the existing source's distinct row-group-free physical format. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-11] ingest | Transformer 架构变化：RMSNorm 指南
 
 Created [[RMSNorm]] and [[LayerNormalization]], and updated [[TransformerArchitecture]] from its complete ordered evidence inventory. Separated LayerNorm's re-centering and re-scaling from RMSNorm's scale-only root-mean-square operation; recorded the removed mean calculation and affine bias, the corresponding loss of additive-shift invariance, and the unquantified empirical and adoption claims. Preserved the implementation caveat that the supplied class accepts multi-axis normalized shapes but reduces only the final axis. The source contains no effective image references, so no visual assets or manifest were required.
@@ -9076,6 +9080,10 @@ Created [[LinguisticExpressiveBoundaries]] and [[ModelCollapse]], and updated [[
 ## [2026-10-11] ingest | agent 时代的 clice
 
 Created [[Clice]], [[Kotatsu]], [[StructuredConcurrency]], and [[AgentNativeLanguageServer]], and updated [[AgentTeam]] from its complete ordered evidence inventory. Captured cancellation as a first-class task outcome, exportable async graphs, process-pool isolation for Clang failures, fast approximate dependency scanning, the human architecture boundary around agent-written code, and the protocol mismatch between human-oriented LSP workflows and batch-oriented coding agents. Preserved the self-reported benchmark, adoption, readiness, and comparative-evaluation limits. Opened and retained all three remote images at their semantic positions: the structured-concurrency graph and the desktop and mobile agent-orchestration interfaces.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-11] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [LanceDB 选型指南：它为什么这么火，以及你的项目是否该用它](sources/lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta.md) - A workload-first guide frames LanceDB as an embedded library whose local, multimodal, and training-data advantages exchange infrastructure simplicity for application-owned operations.
 - [Lance：面向 AI 场景的数据存储格式](sources/lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi.md) - A Lance v2.1 explainer contrasts row-group-free pages, selective metadata, extensible encodings, and manifest-based datasets with Parquet and Iceberg tradeoffs.
 - [Transformer 架构变化：RMSNorm 指南](sources/transformer-jia-gou-bian-hua-rmsnorm-zhi-nan.md) - A concise comparison of LayerNorm and RMSNorm covering shift and scale behavior, formulas, parameter and compute savings, PyTorch usage, and an important multi-axis implementation caveat.
 - [语言的边界就是思维的边界](sources/yu-yan-de-bian-jie-jiu-shi-si-wei-de-bian-jie.md) - 一篇技术哲思随笔把 token、训练语料与表达边界联系起来，并提出文风趋同和递归合成数据退化的警告，同时留下概念与机制上的重要限定。
@@ -1155,7 +1156,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
-- [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family for selective vector, text, and multimodal access.
+- [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family spanning selective retrieval, multimodal records, versioning, and model-training access.
 - [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-LLM inference project, used to illustrate design-led and verification-heavy AI-assisted engineering.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
 - [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
@@ -1240,7 +1241,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Infoblox](entities/Infoblox.md) - Network-infrastructure vendor represented through one customer's health-aware Anycast DNS deployment.
 - [Dan Lebrero](entities/DanLebrero.md) - Software practitioner advocating proportionate testing and deliberate experiments over universal coverage or framework mandates.
 - [The Still Wandering](entities/TheStillWandering.md) - Publication identity represented through a 2025 cultural critique of corporate work, professional identity, and parallel projects.
-- [LanceDB](entities/LanceDB.md) - Vector database and Lance-format storage project represented through a first-party million-IOPS engineering benchmark.
+- [LanceDB](entities/LanceDB.md) - Embedded vector database and Lance-format storage project with application-owned operations and an enterprise compute-storage path.
 - [10x Management](entities/TenXManagement.md) - Talent agency profiled in 2014 for representing freelance technologists through vetting, negotiation, administration, matching, and project mediation.
 - [Altay Guvench](entities/AltayGuvench.md) - Engineer, musician, freelancer, and 10x Management partner who led technical screening and framed representation as freelance-risk reduction.
 - [Electronic Frontier Foundation](entities/ElectronicFrontierFoundation.md) - Digital-rights advocate represented through opposition to identity-heavy age gates and broader surveillance infrastructure.
@@ -2967,6 +2968,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Vector Database Selection](concepts/VectorDatabaseSelection.md) - Workload-first choice among embedded libraries, retrieval services, incumbent-database extensions, and lower-level index libraries.
 - [Columnar Storage Tradeoffs](concepts/ColumnarStorageTradeoffs.md) - Coupled choices among scan compression, sparse random access, metadata granularity, page sizing, and format evolvability.
 - [RMSNorm](concepts/RMSNorm.md) - Scale-only normalization using root mean square, with lower arithmetic and affine state than LayerNorm but no additive-shift invariance.
 - [Layer Normalization](concepts/LayerNormalization.md) - Feature normalization combining mean re-centering, variance re-scaling, and learned affine scale and bias.
@@ -4252,7 +4254,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [UX Design Cliche Rhetoric](concepts/UXDesignClicheRhetoric.md) - Use of familiar UX sayings and analogies as shorthand arguments that can either compress expertise or replace evidence.
 - [Upstream Divergence Policy](concepts/UpstreamDivergencePolicy.md) - Rule set for deciding when a rewrite should preserve, warn about, or reject upstream behavior.
 - [Unauthenticated Service Exposure](concepts/UnauthenticatedServiceExposure.md) - Risk created when a reachable service permits meaningful reads, writes, or control actions without valid authentication.
-- [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
+- [Vector Database](concepts/VectorDatabase.md) - Similarity-retrieval store whose fit depends on deployment, recall, concurrency, failure handling, and operating ownership.
 - [Variance Additivity](concepts/VarianceAdditivity.md) - Variance decomposition principle where component variances add cleanly only when covariance terms vanish.
 - [Vibe Coding](concepts/VibeCoding.md) - AI-assisted software work mode centered on fast agent-driven iteration, planning, small steps, context care, and verification.
 - [Weak Credential Exposure](concepts/WeakCredentialExposure.md) - Security risk created when externally reachable services can be accessed with guessed, default, reused, blank, or weak credentials.

@@ -7,7 +7,8 @@ sources:
   - aws-blog-optimize-generative-ai-applications-with-pgvector-indexing
   - ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou
   - the-quest-for-one-million-iops-benchmarking-storage-at-lancedb
-last_updated: 2026-10-02
+  - lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta
+last_updated: 2026-10-11
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,14 +24,16 @@ That retrieval role should not be confused with a complete memory model. A vecto
 
 The [[LanceDB]] benchmark adds the storage path beneath approximate search. After an index produces candidate row identifiers, the system must fetch selected rows, decode them, and often rerank a larger candidate set. That path is sensitive to batching, cache state, data duplication, queue depth, scheduler structure, and physical I/O concurrency. Index parameters also bind retrieval quality to systems performance: lowering `nprobes` reduced CPU work enough to isolate storage, but deliberately damaged recall, so a high IOPS result cannot stand alone as a vector-search result.
 
+The selection guide adds a deployment taxonomy. An embedded vector database can minimize setup and fit local or single-machine applications, but centralized concurrency, strict online latency, replication, and multi-node fault tolerance favor a service architecture. A relational extension such as [[Pgvector]] can minimize operational systems when vector search is secondary to existing PostgreSQL data. A lower-level algorithm library supplies indexes without a complete persistence or serving layer. These are different architectural positions, so selection should compare workload, ownership, and failure boundaries before product features.
+
 ## Key Claims
-- Vector databases store embedded document chunks or other vectorized records for later semantic search.
-- Similarity retrieval over vectors selects passages likely to answer a user question.
+- Vector databases store embedded chunks or other vectorized records and retrieve semantically similar material for a query.
 - PostgreSQL can serve as a vector database when extended with pgvector.
 - Exact vector search maximizes recall but compares the query vector with every stored vector.
 - Approximate vector indexes such as IVFFlat and HNSW reduce search latency by trading against recall, build time, memory, or tuning complexity.
-- Vector stores are often accessed through higher-level frameworks such as LangChain.
-- Similarity search does not by itself maintain temporal, authoritative, or conflict-resolved memory state, and storage throughput must be interpreted alongside recall and end-to-end query work.
+- Vector-store deployment can be embedded, service-based, an extension to an incumbent database, or a lower-level index library with application-built infrastructure.
+- Similarity search does not by itself maintain temporal, authoritative, or conflict-resolved memory state.
+- Storage throughput and infrastructure simplicity must be interpreted alongside recall, concurrency, failure handling, and transferred application responsibility.
 
 ## Evidence
 - Storage role: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] says embedded chunks are saved to FAISS after processing.
@@ -43,15 +46,15 @@ The [[LanceDB]] benchmark adds the storage path beneath approximate search. Afte
 - Memory boundary: [[ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou]] characterizes vector-store-plus-embedding memory as a searchable log until compaction, evolution, and conflict handling are added.
 - Retrieval storage path: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] follows index-selected row IDs through fetch, decode, and reranking, then shows how batching, page-cache hits, scheduler overhead, and NVMe concurrency affect throughput.
 - Recall qualification: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] reduces `nprobes` from 20 to 1 to isolate I/O and explicitly states that the change harms recall.
+- Deployment taxonomy: [[lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta]] separates embedded libraries, client-server services, PostgreSQL extensions, and algorithm libraries by workload and ownership model.
+- Embedded responsibility: [[lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta]] says removing a server tier moves cleanup, concurrency, remote-storage validation, and upgrade testing into the application.
 
 ## Counterevidence & Qualifications
-The sources do not provide a broad comparison of vector databases, hybrid search, metadata filtering, access control, or production evaluation methods. The AWS benchmark is source-scoped: its results depend on one dataset, embedding model, PostgreSQL and pgvector versions, hardware, query pattern, and unstated recall target. The LanceDB benchmark is likewise first-party and workload-specific; its final IOPS result uses local NVMe, three datasets, high concurrency, unmerged changes, and an intentionally low-recall search setting. The memory critique is conceptual and does not show that every application needs a graph or relational store; its defensible claim is narrower, that retrieval infrastructure cannot silently supply missing state semantics.
+The sources do not provide a controlled broad comparison of vector databases, hybrid search, metadata filtering, access control, durability, backup, recovery, or end-to-end production economics. The AWS benchmark is source-scoped: its results depend on one dataset, embedding model, PostgreSQL and pgvector versions, hardware, query pattern, and unstated recall target. The LanceDB benchmark is likewise first-party and workload-specific; its final IOPS result uses local NVMe, three datasets, high concurrency, unmerged changes, and an intentionally low-recall search setting. The selection guide is secondary and its product maturity, default behavior, feature coverage, and competitive claims are time-sensitive. The memory critique is conceptual and does not show that every application needs a graph or relational store; its narrower claim is that retrieval infrastructure cannot silently supply missing state semantics.
 
 ## What Changed
-- Created the initial concept page for vector databases in private-data chatbot architecture.
-- Added PostgreSQL-plus-pgvector as a vector database path and distinguished exact search from ANN indexing.
-- Added the boundary between similarity retrieval and maintained, conflict-resolved memory state.
-- Added the random-access storage path beneath ANN search and made recall a required qualification for throughput results.
+- Added embedded library, client-server service, incumbent-database extension, and algorithm-library positions.
+- Made concurrency, fault tolerance, existing-stack fit, and transferred operating responsibility part of selection.
 
 ## Related Concepts
 - [[Embeddings]] - vector databases store embeddings generated from source text.
@@ -65,3 +68,4 @@ The sources do not provide a broad comparison of vector databases, hybrid search
 - [[MemoryConflictResolution]] - resolves related but incompatible records that similarity search can only retrieve.
 - [[StoragePerformanceBenchmarking]] - tests the row-fetch and decode path under representative cache and concurrency conditions.
 - [[LanceDB]] - supplies the source's end-to-end vector-search storage case.
+- [[VectorDatabaseSelection]] - turns deployment, workload, and ownership differences into a selection framework.
