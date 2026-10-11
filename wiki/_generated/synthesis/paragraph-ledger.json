@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e1ec0605332fac7179eb752cc0db8cfd466ff2c0fd7953dd15d3e6c152b7852a",
       "6e853b35ef16c495644c5fe79cb7311ce6a05a165da7faa55020b26b2bce05eb",
       "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
       "0da9e0c2ce071330f5567176a96560519880d11f2d7111e5f33429960ed2b391",
@@ -809,11 +810,30 @@
       "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f"
     ],
-    "paragraph_count": 807
+    "paragraph_count": 808
   },
-  "overview_commit": "45f762281c5f094a4c7c593b8f8cc2eb85986d4c",
-  "overview_digest": "2d94951b660d5775771cd5eeec377156422465c7df4815c427616bb876578d62",
+  "overview_commit": "edd98012e9bdfddb0fff1913c80f35e677f180dd",
+  "overview_digest": "2c4ce5f8b236cf6cc948e22c8a8f465d28d4eaf2d0f586c7d67af5effb77503d",
   "paragraphs": [
+    {
+      "id": "e1ec0605332fac7179eb752cc0db8cfd466ff2c0fd7953dd15d3e6c152b7852a",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "science-health-and-climate"
+      ],
+      "text": "The newest Scientific Spaces source broadens [[PositionalEncoding]] from the original Transformer's additive sinusoids and the wiki's existing RoPE derivation into a taxonomy of where order enters a model. Absolute schemes change token inputs through learned tables, deterministic waves, recurrent or neural-ODE generation, or multiplicative fusion; relative schemes change [[AttentionMechanism|attention]] through displacement-indexed keys or values, selected content-position interaction terms, or scalar logit biases. Clipping uses a fixed boundary for distant offsets, while T5-style bucketing preserves fine resolution nearby and increasingly coarsens longer distances. The article's closing complex-phase construction independently derives the core geometry of [[RotaryPositionalEncoding]]: rotate paired queries and keys by absolute position, and their inner product depends on relative displacement. The algebra unifies absolute operations with relative scores, but it does not prove length extrapolation or comparative performance. The source supplies no shared benchmark, calls its fused-rotation experiments preliminary, cites the multiplicative advantage secondhand, and treats CNN padding as one boundary-derived source of location rather than a mechanism directly transferable to global attention. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AttentionMechanism",
+        "PositionalEncoding",
+        "RotaryPositionalEncoding"
+      ]
+    },
     {
       "id": "6e853b35ef16c495644c5fe79cb7311ce6a05a165da7faa55020b26b2bce05eb",
       "primary_topic": "work-education-and-society",

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [让研究人员绞尽脑汁的 Transformer 位置编码](sources/rang-yan-jiu-ren-yuan-jiao-jin-nao-zhi-de-transformer-wei-zhi-bian-ma.md) - Scientific Spaces surveys absolute, relative, recurrent, bucketed, boundary-derived, and complex position mechanisms, ending with the paired rotation underlying RoPE.
 - [You could have designed state of the art positional encoding](sources/designing-positional-encoding.md) - FL33TW00D-HF derives RoPE from the shortcomings of integer and binary codes, sinusoidal rotation geometry, relative query-key scoring, and independent multidimensional axes.
 - [tzf 的春季更新 | ringsaturn](sources/tzf-de-chun-ji-geng-xin-ringsaturn.md) - ringsaturn reports topology-safe polygon simplification, compact shared-boundary data, and layered YStripes/GridIndex lookup acceleration across the tzf project family.
 - [LanceDB 选型指南：它为什么这么火，以及你的项目是否该用它](sources/lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta.md) - A workload-first guide frames LanceDB as an embedded library whose local, multimodal, and training-data advantages exchange infrastructure simplicity for application-owned operations.

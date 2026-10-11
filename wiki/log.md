@@ -9116,3 +9116,11 @@ Created [[RotaryPositionalEncoding]] and updated [[PositionalEncoding]] from its
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | 让研究人员绞尽脑汁的 Transformer 位置编码
+
+Updated [[PositionalEncoding]] and [[RotaryPositionalEncoding]] from their complete ordered evidence inventories. Added a taxonomy of learned, sinusoidal, recurrent/ODE, multiplicative, clipped, bucketed, decomposed-attention, CNN-boundary, and complex position mechanisms; captured T5's fine-near/coarse-far distance resolution and the complex-phase derivation of relative query-key rotation. Preserved the distinction between mathematical availability and empirical extrapolation, the absence of a shared benchmark, and the preliminary or secondhand status of multiplicative and fused-rotation performance claims. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
