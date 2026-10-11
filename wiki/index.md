@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [重新出发，向未知航行](sources/chong-xin-chu-fa-xiang-wei-zhi-hang-xing.md) - kakachen announces AstroVela and Vane while arguing that AI-era infrastructure leverage shifts toward opportunity selection, systems judgment, customer understanding, and verification as implementation becomes cheaper.
 - [夜天之书 #121 When Code Is Cheap](sources/ye-tian-zhi-shu-121-when-code-is-cheap.md) - Tison Kun argues that once coding agents cross an expert's daily-work baseline, implementation becomes cheap and goals, design judgment, verification, review, and human energy become the constraints.
 - [Advice to Young Developers](sources/advice-to-young-developers.md) - A practitioner argues that AI raises the relative value of product judgment, critical learning, communication, domain depth, skill combinations, and fast feedback while leaving its replacement claims unmeasured.
 - [Combinatorial Stable Marriages for DBMS Semantic Joins 💍](sources/combinatorial-stable-marriages-for-dbms-semantic-joins.md) - Ash Vardanian combines stable matching with on-demand vector search and finds that cross-modal representation quality sharply limits correct semantic joins at scale.
@@ -1163,6 +1164,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [kakachen](entities/Kakachen.md) - Infrastructure programmer and AstroVela co-founder moving from an eighteen-year employed career into an AI-era infrastructure startup.
+- [AstroVela](entities/AstroVela.md) - Announced company betting on multimodal AI, Physical AI, and the Vane infrastructure family.
+- [Vane](entities/Vane.md) - AstroVela's announced four-part product family spanning Core, Data, RL, and Agent components.
 - [Tison Kun](entities/TisonKun.md) - Open-source and database engineer using coding agents for test-backed refactoring, performance work, and rewrites while retaining design and acceptance judgment.
 - [Ash Vardanian](entities/AshVardanian.md) - Unum founder represented through a first-party account of Amare, USearch, and vector-indexed stable matching.
 - [Unum](entities/Unum.md) - Software company and project context for USearch and UForm.
@@ -2985,6 +2989,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [AI-Era Infrastructure Engineering](concepts/AIEraInfrastructureEngineering.md) - Qualified thesis that cheaper implementation shifts infrastructure leverage toward workload selection, systems design, optimization, verification, and customer-grounded problem definition.
 - [Semantic Join](concepts/SemanticJoin.md) - Cross-collection pairing that combines semantic vector similarity with a global matching rule.
 - [Stable Matching](concepts/StableMatching.md) - Pairing without a mutually preferred blocking pair, adapted here to on-demand approximate candidate search.
 - [Hyphenation](concepts/Hyphenation.md) - Language-sensitive, rendering-time word splitting that trades visible hyphens for better line fit without mutating the underlying text.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "39a4dc6c9743e405e9fcd3e84a84d2d03a1e6e85e92ad9c3033a57c575ef361b",
       "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
       "e1ec0605332fac7179eb752cc0db8cfd466ff2c0fd7953dd15d3e6c152b7852a",
       "6e853b35ef16c495644c5fe79cb7311ce6a05a165da7faa55020b26b2bce05eb",
@@ -812,11 +813,35 @@
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
       "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d"
     ],
-    "paragraph_count": 810
+    "paragraph_count": 811
   },
-  "overview_commit": "65e68ce0d5a007ca02049a693e9bacdbd2001d3e",
-  "overview_digest": "e81a1b6d48e4e3bb7cb600c2aab6e78c61a060ef5845614574b1d43dc8b95da1",
+  "overview_commit": "9bdd658807adde6d635e3f9addbd72e884051684",
+  "overview_digest": "c906ca502d43b3d5e6fcbb3357346aa9d397e5c9bd41c84e2e746c5d47070999",
   "paragraphs": [
+    {
+      "id": "39a4dc6c9743e405e9fcd3e84a84d2d03a1e6e85e92ad9c3033a57c575ef361b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Kakachen]] source turns a career transition and the founding of [[AstroVela]] into a qualified thesis about [[AIEraInfrastructureEngineering]]. Its strategic claim precedes architecture: a large percentage improvement on a tiny deployment may create less value than a modest improvement across a consequential fleet, so workload, technology wave, utilization, and customer problem selection matter before local optimization. The essay maps internet, cloud, and mobile waves to earlier infrastructure categories, then names training, inference, reinforcement learning, agents, multimodal AI, and Physical AI as current candidates. This extends [[TechnologyEnablerStack]] from infrastructure enabling applications to new model and application waves creating infrastructure demand. It also adds a role shift to [[AIInfrastructureStack]]: as AI handles more glue code and baseline implementation, scarce work may move toward principles, architecture, performance, trade-offs, verification, practice-derived knowledge, and customer understanding, while critical low-level comprehension remains necessary. The company applies that thesis through the announced [[Vane]] family—Core, [[VaneData|Data]], RL, and Agent—and a stated July 2026 Vane Data open-source plan. These are founder claims and roadmap statements, not validation: the source supplies no shipped integrated architecture, customer deployment, benchmark, market measurement, or proof that cognition, taste, and judgment are permanently human-only. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "AIEraInfrastructureEngineering",
+        "AIInfrastructureStack",
+        "AstroVela",
+        "Kakachen",
+        "TechnologyEnablerStack",
+        "Vane",
+        "VaneData"
+      ]
+    },
     {
       "id": "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
       "primary_topic": "ai-and-technology",

@@ -4,7 +4,8 @@ type: concept
 tags: [ai, agents, infrastructure, architecture, operations]
 sources:
   - ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie
-last_updated: 2026-10-08
+  - chong-xin-chu-fa-xiang-wei-zhi-hang-xing
+last_updated: 2026-10-11
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,6 +19,8 @@ The four horizontal capabilities prevent this vertical decomposition from becomi
 
 The proposed maturity path is incremental. A validation-stage system may use hosted models, embedded retrieval, hard-coded prompts, local execution, manual review, and simple logs. Prototypes add gateway fallback, managed retrieval, prompt management, graph orchestration, remote sandboxes, structured memory, automated evaluation, and tracing. Production introduces elastic compute, controlled model serving, durable workflows, governed indexes and prompts, online quality gates, telemetry, and cross-cutting policy. The stages are heuristics rather than proof that all applications need the same components or vendors.
 
+The AstroVela founder essay adds a strategic layer before this architecture: deciding which infrastructure workload deserves to exist. Its scale example and history of internet, cloud, mobile, and AI waves argue that a technically excellent component can have little impact when deployed narrowly, while a smaller improvement on a consequential fleet may create more value. It also proposes that cheaper AI-assisted implementation moves differentiation toward problem selection, design, optimization, practice-derived knowledge, and customer demand. These claims help frame why a stack is built, but remain a founder thesis rather than measured market or capability evidence.
+
 ## Key Claims
 - Production readiness depends on complete responsibility coverage, not merely choosing an agent framework and vector database.
 - The nine vertical layers should have explicit contracts and failure handling rather than being collapsed into one agent application.
@@ -25,6 +28,7 @@ The proposed maturity path is incremental. A validation-stage system may use hos
 - Agent frameworks, workflow engines, and tool sandboxes are complementary components with different state, durability, and authority responsibilities.
 - Evaluation determines whether changes are acceptable; observability explains individual runtime behavior and cost.
 - Adoption can progress by maturity stage, but architecture should follow workload risk and evidence rather than a fixed tool checklist.
+- Stack design begins with workload and opportunity selection; component completeness cannot by itself establish customer value or strategic leverage.
 
 ## Evidence
 - Layer completeness: [[ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie]] enumerates nine layers from physical resources through observability and assigns each a distinct operating question.
@@ -32,11 +36,14 @@ The proposed maturity path is incremental. A validation-stage system may use hos
 - Quality and evidence: [[ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie]] combines offline, online, and human evaluation with traces, metrics, logs, token usage, latency, and cost.
 - Horizontal governance: [[ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie]] applies security, CI/CD, FinOps, and developer tooling to every layer rather than assigning them to one component.
 - Incremental adoption: [[ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie]] gives validation, prototype, and production configurations that progressively add operational controls.
+- Strategic selection: [[chong-xin-chu-fa-xiang-wei-zhi-hang-xing]] argues that deployment scale and technology-wave choice can matter more than an isolated percentage optimization.
+- Differentiation thesis: [[chong-xin-chu-fa-xiang-wei-zhi-hang-xing]] locates an infrastructure company's intended advantage in valuable problem selection, practice-derived understanding, and real customer needs rather than code alone.
 
 ## Counterevidence & Qualifications
-The taxonomy is a practitioner checklist, not a reference architecture validated across workloads. Small, low-risk, human-supervised applications may legitimately collapse or omit layers, while regulated or high-permission systems may require controls not named here. Product recommendations, version numbers, latency claims, and scaling thresholds are not supported by reproducible comparisons. The final cross-cutting diagram uses a different L0–L8 mapping from the main text, so only the main taxonomy should define layer identity. A complete box diagram also does not establish correct interfaces, semantic recovery, security, or business value.
+The taxonomy is a practitioner checklist, not a reference architecture validated across workloads. Small, low-risk, human-supervised applications may legitimately collapse or omit layers, while regulated or high-permission systems may require controls not named here. Product recommendations, version numbers, latency claims, and scaling thresholds are not supported by reproducible comparisons. The final cross-cutting diagram uses a different L0–L8 mapping from the main text, so only the main taxonomy should define layer identity. A complete box diagram also does not establish correct interfaces, semantic recovery, security, or business value. The AstroVela essay likewise provides no market sizing, fleet measurements, customer evidence, shipped architecture, or proof that human judgment is a durable AI capability boundary.
 
 ## What Changed
+- Added workload selection, deployment scale, and customer-grounded problem choice as prerequisites to stack value.
 - Created the nine-layer and four-cross-cutting responsibility map.
 - Distinguished evaluation gates from runtime observability.
 - Added maturity staging as an adoption heuristic rather than a mandatory target architecture.
@@ -50,3 +57,5 @@ The taxonomy is a practitioner checklist, not a reference architecture validated
 - [[SoftwareVerification]] - provides evidence and release gates for model, prompt, retrieval, tool, and workflow changes.
 - [[ServiceObservability]] - records traces, metrics, logs, cost, and operational outcomes.
 - [[InternalDeveloperPlatform]] - packages the stack into standardized workflows and debugging surfaces for builders.
+- [[AIEraInfrastructureEngineering]] - supplies the strategic and engineering-role thesis that precedes implementation of the stack.
+- [[TechnologyEnablerStack]] - situates AI infrastructure within recurring platform and application waves.
