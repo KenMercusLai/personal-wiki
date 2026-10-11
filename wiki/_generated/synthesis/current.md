@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-11
-as_of_overview_commit: 1e50da1c57801c8b00c2e07e4e7cf135da428b75
+as_of_overview_commit: bc640a9c3d95375d633915b9b81421436c328ce4
 summary: "A cross-domain map emphasizing consequential problem selection, explicit boundaries, accountable judgment, sustainable learning, and evidence-calibrated tradeoffs."
-episode_count: 1137
-source_count: 1137
-paragraph_count: 812
+episode_count: 1138
+source_count: 1138
+paragraph_count: 813
 topic_count: 9
 ---
 

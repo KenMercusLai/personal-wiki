@@ -1,6 +1,23 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "ai-writing-authorship-is-a-reader-trust-boundary",
+      "qualifications": [
+        "The cited 668-developer survey is self-selected and does not establish how all readers, genres, disclosures, or editing workflows respond to AI-assisted prose.",
+        "The reported Pangram 3 and 4 error behavior comes from one user's experience rather than a blinded independent benchmark across languages, genres, model families, or mixed human-machine text.",
+        "A proprietary detector gate inherits threshold choice, classifier drift, evasion, false accusations, retesting, and appeal risks, and the source does not define a universal line between editing, rewriting, and authorship."
+      ],
+      "statement": "[[BryanCantrill]] adds a reader-side boundary to [[AIAssistedWriting]]: hidden model composition can weaken the inference that a named author performed the thought and language work, while [[AIWritingDetection]] and [[PangramLabs]] turn that trust concern into a publication gate whose legitimacy depends on calibrated errors and governance rather than classification alone.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIAssistedWriting",
+        "AIWritingDetection",
+        "BryanCantrill",
+        "PangramLabs"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "ai-infrastructure-value-begins-with-workload-selection",
       "qualifications": [

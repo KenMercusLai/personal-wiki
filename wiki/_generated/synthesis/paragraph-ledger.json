@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e1353c88724e438a8bf332f64f11a42a4275e3e8470b3cf4143a2bcd04098fcc",
       "bd60c5b1f2a7786ffd438c70cbf08d8b1fc62621b987e36e8eddd176273b5c3e",
       "39a4dc6c9743e405e9fcd3e84a84d2d03a1e6e85e92ad9c3033a57c575ef361b",
       "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
@@ -814,11 +815,31 @@
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
       "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d"
     ],
-    "paragraph_count": 812
+    "paragraph_count": 813
   },
-  "overview_commit": "1e50da1c57801c8b00c2e07e4e7cf135da428b75",
-  "overview_digest": "114b44ec77d189c3320938a8d7bdb138ea0337d5d147d5dd5b6f3b7cc4cc2138",
+  "overview_commit": "bc640a9c3d95375d633915b9b81421436c328ce4",
+  "overview_digest": "3a5dd6927fafce52b5a7dc331ac0633675805776b6e6917ab7cf25bf056d1b3c",
   "paragraphs": [
+    {
+      "id": "e1353c88724e438a8bf332f64f11a42a4275e3e8470b3cf4143a2bcd04098fcc",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[BryanCantrill]] source adds a reader-side trust boundary to [[AIAssistedWriting]]. Cantrill argues that public prose is not merely a text artifact: readers invest attention on the assumption that the named author formed and tested the language and ideas, so substantial hidden LLM composition can make both the piece and its author easier to abandon. This sharpens [[LearningByWriting]] and [[AIDependencySkillAtrophy]] while directly qualifying workflows that accept generated drafts as scaffolding: selection and editing may preserve some human responsibility without ensuring that readers will attribute the underlying thought to the author. New [[AIWritingDetection]] turns that concern into an incentive and governance mechanism. Cantrill reports that [[PangramLabs]]'s Pangram 4 improved materially on Pangram 3's false-negative weakness while keeping false positives low enough for Oxide to require a human-authored result for public writing. The evidence remains bounded: Cynthia Dunlop's 668-developer survey is self-selected, Cantrill's detector assessment is experiential rather than blinded or independently benchmarked, and a proprietary classifier gate inherits threshold, genre, language, model-drift, evasion, and appeal risks. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "AIDependencySkillAtrophy",
+        "AIWritingDetection",
+        "BryanCantrill",
+        "LearningByWriting",
+        "PangramLabs"
+      ]
+    },
     {
       "id": "bd60c5b1f2a7786ffd438c70cbf08d8b1fc62621b987e36e8eddd176273b5c3e",
       "primary_topic": "culture-and-media",

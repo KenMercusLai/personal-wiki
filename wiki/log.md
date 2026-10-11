@@ -9176,3 +9176,11 @@ Created [[CalebLeak]], disambiguated [[MomoDog]] from the existing [[Momo]] soci
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | The revolt of the reader
+
+Created [[BryanCantrill]], [[PangramLabs]], and [[AIWritingDetection]], and updated [[AIAssistedWriting]] from its complete ordered evidence inventory. Captured the reader-trust argument, Cynthia Dunlop's reported developer-survey results, the spam-filtering analogy, Pangram 3 and 4 error-rate claims, Oxide's detector-backed public-writing rule, and the boundary between editing assistance and delegated authorship. Preserved the self-selected survey, personal detector assessment, missing independent benchmark, mixed-authorship ambiguity, classifier drift, evasion, and policy-appeal limits. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

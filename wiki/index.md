@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The revolt of the reader](sources/the-revolt-of-the-reader.md) - Bryan Cantrill argues that delegated LLM prose damages reader trust and endorses Pangram-based detection and publication policy, while the survey and accuracy evidence remain limited.
 - [I Taught My Dog to Vibe Code Games](sources/i-taught-my-dog-to-vibe-code-games-caleb-leak.md) - Caleb Leak's dog-input game experiment shows that prompt framing, safe orchestration, screenshots, scripted play, domain linters, and memory hygiene matter more than meaningful initial input.
 - [大水与容器](sources/da-shui-yu-rong-qi.md) - 孟岩 models fund herding as a demand-distribution-revenue system and argues that governed retirement and interface defaults can redirect short-term performance-chasing flows toward long-term diversified saving.
 - [重新出发，向未知航行](sources/chong-xin-chu-fa-xiang-wei-zhi-hang-xing.md) - kakachen announces AstroVela and Vane while arguing that AI-era infrastructure leverage shifts toward opportunity selection, systems judgment, customer understanding, and verification as implementation becomes cheaper.
@@ -1166,6 +1167,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Bryan Cantrill](entities/BryanCantrill.md) - Software writer arguing for human-composed public prose, reader trust, and detector-backed institutional authorship standards.
+- [Pangram Labs](entities/PangramLabs.md) - AI-writing detection company represented through a user's account of Pangram 3, Pangram 4, and a publication-gate deployment.
 - [Caleb Leak](entities/CalebLeak.md) - Software practitioner who built a dog-input, Claude Code, Godot, hardware-reward, and automated-testing game workflow.
 - [Momo (dog)](entities/MomoDog.md) - Cavapoo trained to supply arbitrary keyboard input to an AI-assisted game-development system in exchange for food rewards.
 - [DogKeyboard](entities/DogKeyboard.md) - Rust orchestration app that filters dog-generated keystrokes and coordinates Claude Code state, submission, cues, recording, and rewards.
@@ -2996,6 +2999,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [AI Writing Detection](concepts/AIWritingDetection.md) - Classification of prose provenance used to investigate model involvement and enforce publication policy, subject to error, drift, evasion, and appeal risks.
 - [Mutual Fund Flow Incentives](concepts/MutualFundFlowIncentives.md) - Linked demand, distribution, and revenue mechanisms that shape fund allocation, herding, redemptions, and institutional rewards.
 - [Retirement Default Design](concepts/RetirementDefaultDesign.md) - Choice architecture for automatic participation, recurring contributions, matching, qualified investment defaults, rebalancing, and preservation of retirement savings.
 - [AI-Era Infrastructure Engineering](concepts/AIEraInfrastructureEngineering.md) - Qualified thesis that cheaper implementation shifts infrastructure leverage toward workload selection, systems design, optimization, verification, and customer-grounded problem definition.
