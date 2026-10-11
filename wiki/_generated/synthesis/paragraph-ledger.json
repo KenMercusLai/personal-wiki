@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
       "e1ec0605332fac7179eb752cc0db8cfd466ff2c0fd7953dd15d3e6c152b7852a",
       "6e853b35ef16c495644c5fe79cb7311ce6a05a165da7faa55020b26b2bce05eb",
       "52863428624c01b7d3dc0f227d4841b65797e47ee866d0e5d1df59d16ffe9d5d",
@@ -810,11 +811,32 @@
       "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f"
     ],
-    "paragraph_count": 808
+    "paragraph_count": 809
   },
-  "overview_commit": "119117743c2f4bb04742177f8c96c77e790386a0",
-  "overview_digest": "2c4ce5f8b236cf6cc948e22c8a8f465d28d4eaf2d0f586c7d67af5effb77503d",
+  "overview_commit": "901b59188d6e9fa1cacba9aac05495f54edc08c8",
+  "overview_digest": "f034c0608284715c08a84d63cd6a675a5fdda9ed108800c66fd05a6ea9e58811",
   "paragraphs": [
+    {
+      "id": "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[AshVardanian]] source adds [[SemanticJoin]] as a database-scale composition of [[StableMatching]] and [[ApproximateNearestNeighborSearch]]. Rather than materialize every pairwise preference, [[USearch]] queries candidates from two [[HNSWIndex|HNSW]] indexes as proposals are needed, replacing quadratic ranking storage with repeated search and a bounded proposal budget. The experiments separate within-collection self-recall, cross-collection recall, joined coverage, and correct pairing: Arxiv title-abstract joins fall from 87.85% correct at 10,000 pairs to 57.67% at one million despite self-recall above 99.8%, while one-million-pair image-text joins reach only 9.02% for OpenCLIP ViT-B-16 and 13.46% for ViT-G/14. This sharpens [[Embeddings]] by showing that a fast index and high self-recall cannot repair weak shared-space alignment or global competition among candidate pairs. The int8 text experiment reports almost unchanged join accuracy and a threefold speed improvement, but all results remain one author's fixed-dataset, fixed-model, fixed-proposal-cap snapshots. Approximate retrieval and early stopping also preserve the proposal-and-displacement structure without establishing exact Gale-Shapley stability over complete rankings. Both remote images were opened; the evidence-bearing Amare seed-round slide was retained at its semantic position, while the illustrative Frontier photograph was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "ApproximateNearestNeighborSearch",
+        "AshVardanian",
+        "Embeddings",
+        "HNSWIndex",
+        "SemanticJoin",
+        "StableMatching",
+        "USearch"
+      ]
+    },
     {
       "id": "e1ec0605332fac7179eb752cc0db8cfd466ff2c0fd7953dd15d3e6c152b7852a",
       "primary_topic": "ai-and-technology",

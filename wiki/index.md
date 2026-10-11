@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Combinatorial Stable Marriages for DBMS Semantic Joins 💍](sources/combinatorial-stable-marriages-for-dbms-semantic-joins.md) - Ash Vardanian combines stable matching with on-demand vector search and finds that cross-modal representation quality sharply limits correct semantic joins at scale.
 - [连字符断词从原理到实践](sources/lian-zi-fu-duan-ci-cong-yuan-li-dao-shi-jian.md) - A typography and algorithm guide connecting browser hyphenation controls with TeX's transition from hand-authored rules to Liang's dictionary-derived weighted patterns and packed-trie lookup.
 - [让研究人员绞尽脑汁的 Transformer 位置编码](sources/rang-yan-jiu-ren-yuan-jiao-jin-nao-zhi-de-transformer-wei-zhi-bian-ma.md) - Scientific Spaces surveys absolute, relative, recurrent, bucketed, boundary-derived, and complex position mechanisms, ending with the paired rotation underlying RoPE.
 - [You could have designed state of the art positional encoding](sources/designing-positional-encoding.md) - FL33TW00D-HF derives RoPE from the shortcomings of integer and binary codes, sinusoidal rotation geometry, relative query-key scoring, and independent multidimensional axes.
@@ -1160,6 +1161,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Ash Vardanian](entities/AshVardanian.md) - Unum founder represented through a first-party account of Amare, USearch, and vector-indexed stable matching.
+- [Unum](entities/Unum.md) - Software company and project context for USearch and UForm.
+- [USearch](entities/USearch.md) - HNSW-based vector-search library with a bounded stable-matching-inspired join operation.
 - [TeX](entities/TeX.md) - Donald Knuth's typesetting system and the implementation context for the transition from rule-based to pattern-based automatic hyphenation.
 - [Frank Liang](entities/FrankLiang.md) - Computer scientist credited with TeX's dictionary-derived weighted hyphenation patterns and packed-trie representation.
 - [Donald Knuth](entities/DonaldKnuth.md) - TeX creator represented through its origin, initial rule-based hyphenator, and supervision context for Frank Liang.
@@ -2978,6 +2982,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Semantic Join](concepts/SemanticJoin.md) - Cross-collection pairing that combines semantic vector similarity with a global matching rule.
+- [Stable Matching](concepts/StableMatching.md) - Pairing without a mutually preferred blocking pair, adapted here to on-demand approximate candidate search.
 - [Hyphenation](concepts/Hyphenation.md) - Language-sensitive, rendering-time word splitting that trades visible hyphens for better line fit without mutating the underlying text.
 - [Liang Hyphenation Algorithm](concepts/LiangHyphenationAlgorithm.md) - Dictionary-derived weighted substring patterns whose overlapping scores select language-specific word breakpoints.
 - [Topology-Aware Polygon Simplification](concepts/TopologyAwarePolygonSimplification.md) - Polygon reduction that recognizes and reuses shared boundaries to avoid simplification-created gaps and overlaps.

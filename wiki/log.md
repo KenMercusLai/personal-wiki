@@ -9128,3 +9128,11 @@ Updated [[PositionalEncoding]] and [[RotaryPositionalEncoding]] from their compl
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | Combinatorial Stable Marriages for DBMS Semantic Joins 💍
+
+Created [[AshVardanian]], [[Unum]], [[USearch]], [[SemanticJoin]], and [[StableMatching]]. Captured the compute-for-memory substitution of dynamic vector search for complete preference lists, the guarantee gap introduced by approximate retrieval and proposal caps, and the distinction among self-recall, cross-recall, joined coverage, and correct pairing. Preserved the first-party benchmark limits and the reported deterioration from text-text to image-text joining at scale. Opened both remote images, retained the evidence-bearing Amare seed-round proposal slide at its semantic position, and omitted the illustrative Frontier supercomputer photograph because it adds no information beyond the prose.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
