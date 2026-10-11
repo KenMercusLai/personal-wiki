@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [语言的边界就是思维的边界](sources/yu-yan-de-bian-jie-jiu-shi-si-wei-de-bian-jie.md) - 一篇技术哲思随笔把 token、训练语料与表达边界联系起来，并提出文风趋同和递归合成数据退化的警告，同时留下概念与机制上的重要限定。
 - [agent 时代的 clice](sources/agent-shi-dai-de-clice.md) - The clice developer reports cancellation-aware structured concurrency, process-isolated compilation, agent-assisted implementation, and an early protocol direction for agent-native semantic code intelligence.
 - [Control the ideas, not the code](sources/control-the-ideas-not-the-code.md) - Antirez argues that abundant AI-generated code shifts human control toward design models, QA, product direction, and durable system descriptions while making exhaustive review conditional on risk and human readership.
 - [简单易懂的有毒职场炼成术 | 螺莉莉的数据中心](sources/jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI distinguishes OKRs from KPIs and adaptive Agile from fixed-plan sprint theater, arguing that authority and evaluation incentives can invert human-centered management tools.
@@ -2963,6 +2964,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Linguistic Expressive Boundaries](concepts/LinguisticExpressiveBoundaries.md) - Qualified view that learned symbols and concepts shape the ease and precision of expression without strictly determining all thought or composition.
+- [Model Collapse](concepts/ModelCollapse.md) - Risk that recursively generated training data reproduces errors or narrows distributions, with outcomes dependent on filtering, real-data mixture, objectives, and evaluation.
 - [Objectives and Key Results](concepts/ObjectivesAndKeyResults.md) - Directional objectives and measurable progress indicators whose learning value depends on separating aspiration from operating floors and covert performance penalties.
 - [Deliverable-First Agent Design](concepts/DeliverableFirstAgentDesign.md) - Agent workflow that validates one bounded result through reviewed artifacts before hardening a role into Skills, routines, or a larger bot organization.
 - [Build-Optimized Infrastructure](concepts/BuildOptimizedInfrastructure.md) - Workload-specific composition of fast compute, local storage, network-aware scheduling, rack power, procurement, and operations for bursty CI jobs.

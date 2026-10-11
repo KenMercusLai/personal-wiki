@@ -9061,9 +9061,17 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-11] ingest | 语言的边界就是思维的边界
+
+Created [[LinguisticExpressiveBoundaries]] and [[ModelCollapse]], and updated [[LanguageModeling]] from its complete ordered evidence inventory. Captured the analogy between learned language and expressibility, concept creation as an expansion of reusable distinctions, the influence of training data, prompts, and annotations on model style, and the risk of recursively training on generated data. Preserved the key boundaries that tokens are composable encoding units rather than one-to-one words or concepts, novel formulation is not limited to literal repetition, and temperature alone does not establish inevitable entropy growth or collapse. The source names no recursive-training paper or experiment and contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-10-11] ingest | agent 时代的 clice
 
 Created [[Clice]], [[Kotatsu]], [[StructuredConcurrency]], and [[AgentNativeLanguageServer]], and updated [[AgentTeam]] from its complete ordered evidence inventory. Captured cancellation as a first-class task outcome, exportable async graphs, process-pool isolation for Clang failures, fast approximate dependency scanning, the human architecture boundary around agent-written code, and the protocol mismatch between human-oriented LSP workflows and batch-oriented coding agents. Preserved the self-reported benchmark, adoption, readiness, and comparative-evaluation limits. Opened and retained all three remote images at their semantic positions: the structured-concurrency graph and the desktop and mobile agent-orchestration interfaces.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-11] lint | Wiki health check
 
