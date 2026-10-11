@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "ye-tian-zhi-shu-121-when-code-is-cheap",
+  "images": [
+    {
+      "file": "system-development-capability-boundary.png",
+      "alt": "Tison contrasting LLM weakness in systems development with greater tolerance for end-user application errors"
+    },
+    {
+      "file": "hashimoto-fable-code-review.png",
+      "alt": "Mitchell Hashimoto answering that he reads the code produced by his Fable workflow"
+    },
+    {
+      "file": "source-code-as-executable-spec.png",
+      "alt": "Tison arguing that business logic still needs a code-like executable specification"
+    },
+    {
+      "file": "cronexpr-parser-rewrite-pr.png",
+      "alt": "Cronexpr pull request replacing winnow with a handwritten parser across 23 files"
+    },
+    {
+      "file": "cronexpr-parser-benchmarks.png",
+      "alt": "Cronexpr benchmark table comparing dense, simple, and rejected parse cases with competing libraries"
+    },
+    {
+      "file": "asyncband-project-layout.png",
+      "alt": "Asyncband repository layout separating library code, benchmarks, examples, integration tests, and task tooling"
+    },
+    {
+      "file": "datasketches-agent-correction.jpg",
+      "alt": "Codex summary after Tison rejected unnecessary DataSketches serialization helpers and requested a simpler design"
+    },
+    {
+      "file": "hawkeye-v7-rewrite-pr.png",
+      "alt": "HawkEye v7 rewrite pull request showing 155 commits and thousands of changed lines"
+    }
+  ]
+}

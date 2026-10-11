@@ -9144,3 +9144,11 @@ Updated [[ProductMindedEngineering]], [[LearningHowToLearn]], [[SkillStacking]],
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | 夜天之书 #121 When Code Is Cheap
+
+Created [[TisonKun]] and updated [[AICodingPractice]], [[BottleneckAwareAICoding]], and [[Codex]] from their complete ordered evidence inventories. Captured the capability-threshold argument, test-conditioned review, contract-first rewrite review, cheap engineering hygiene, benchmark-driven iteration, and the shift from implementation toward goals, design judgment, verification, supervision, and human reasoning energy. Preserved the limits of self-reported expert workflows, model-version dependence, benchmark specificity, incomplete behavioral coverage, and the distinction between passing tests and proving safety or maintainability. Opened all eleven remote images, retained eight evidence-bearing screenshots at their semantic positions, and omitted three decorative character illustrations.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

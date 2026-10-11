@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [夜天之书 #121 When Code Is Cheap](sources/ye-tian-zhi-shu-121-when-code-is-cheap.md) - Tison Kun argues that once coding agents cross an expert's daily-work baseline, implementation becomes cheap and goals, design judgment, verification, review, and human energy become the constraints.
 - [Advice to Young Developers](sources/advice-to-young-developers.md) - A practitioner argues that AI raises the relative value of product judgment, critical learning, communication, domain depth, skill combinations, and fast feedback while leaving its replacement claims unmeasured.
 - [Combinatorial Stable Marriages for DBMS Semantic Joins 💍](sources/combinatorial-stable-marriages-for-dbms-semantic-joins.md) - Ash Vardanian combines stable matching with on-demand vector search and finds that cross-modal representation quality sharply limits correct semantic joins at scale.
 - [连字符断词从原理到实践](sources/lian-zi-fu-duan-ci-cong-yuan-li-dao-shi-jian.md) - A typography and algorithm guide connecting browser hyphenation controls with TeX's transition from hand-authored rules to Liang's dictionary-derived weighted patterns and packed-trie lookup.
@@ -1162,6 +1163,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Tison Kun](entities/TisonKun.md) - Open-source and database engineer using coding agents for test-backed refactoring, performance work, and rewrites while retaining design and acceptance judgment.
 - [Ash Vardanian](entities/AshVardanian.md) - Unum founder represented through a first-party account of Amare, USearch, and vector-indexed stable matching.
 - [Unum](entities/Unum.md) - Software company and project context for USearch and UForm.
 - [USearch](entities/USearch.md) - HNSW-based vector-search library with a bounded stable-matching-inspired join operation.
@@ -2822,7 +2824,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brendan Eich](entities/BrendanEich.md) - Brave leader whose JavaScript, Mozilla, and Firefox background supports the article's credibility argument.
 - [bmpi.dev](entities/BMPIDev.md) - Developer-author documenting a low-cost hybrid AWS serverless application and its infrastructure tradeoffs.
 - [Orhun Parmaksız](entities/OrhunParmaksiz.md) - Rust and open-source developer advocating selective AI assistance, retained craft, and accountable software publication.
-- [Codex](entities/Codex.md) - OpenAI coding agent profiled through contrasting review-centered and high-autonomy practitioner workflows.
+- [Codex](entities/Codex.md) - OpenAI coding agent profiled through review-centered, high-autonomy, and test-conditioned systems workflows.
 - [Peter Steinberger](entities/PeterSteinberger.md) - OpenClaw creator and software developer running a high-throughput, CLI-first, coding-agent-centered solo workflow.
 
 - [Vine](entities/Vine.md) - Six-second looping-video platform whose creator culture, weak monetization, and creator churn outpaced Twitter's strategy.
@@ -4070,10 +4072,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
-- [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, design-centered, verified, and risk-appropriately reviewed work with AI coding agents.
+- [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, design-centered, verified, and scope-appropriately reviewed work with AI coding agents.
 - [AI Coding Framework–Library Model](concepts/AICodingFrameworkLibraryModel.md) - Control continuum between agent-structured high-level delegation and human-structured bounded use of AI as a callable capability.
 - [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that AI substitution weakens practiced skill and judgment while abundant generic output also worsens the information environment, qualified by deliberate AI adoption.
-- [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting step in software delivery rather than optimizing code generation in isolation.
+- [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting constraint across delivery, verification, supervision, judgment, and human reasoning capacity.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
 - [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered learning method where inspectable reasoning, provisional hypotheses, targeted research, compression, reader orientation, feedback, and revision direct understanding.
