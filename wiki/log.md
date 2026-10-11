@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-11] ingest | Transformer 架构变化：RMSNorm 指南
+
+Created [[RMSNorm]] and [[LayerNormalization]], and updated [[TransformerArchitecture]] from its complete ordered evidence inventory. Separated LayerNorm's re-centering and re-scaling from RMSNorm's scale-only root-mean-square operation; recorded the removed mean calculation and affine bias, the corresponding loss of additive-shift invariance, and the unquantified empirical and adoption claims. Preserved the implementation caveat that the supplied class accepts multi-axis normalized shapes but reduces only the final axis. The source contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-10] ingest | 向左，向右？
 
 Created [[Kuafu]] and [[ToastPlan]], and updated [[Leetao]], [[GenerativeAIAgentArchitecture]], and [[AgentTeam]] from their complete ordered evidence inventories. Recorded Kuafu's perceive-think-decide-act-reflect kernel, durable positive and negative lessons, host CLI bridge, coding/review pairing, ToastPlan task and audit surfaces, and the unresolved boundary between framework amplification and underlying model capability. Opened all seven remote images, omitted one prose-duplicating social post, and retained six architecture, workflow, review, task, audit, and reader-interface images at their semantic positions.
@@ -9068,6 +9072,10 @@ Created [[LinguisticExpressiveBoundaries]] and [[ModelCollapse]], and updated [[
 ## [2026-10-11] ingest | agent 时代的 clice
 
 Created [[Clice]], [[Kotatsu]], [[StructuredConcurrency]], and [[AgentNativeLanguageServer]], and updated [[AgentTeam]] from its complete ordered evidence inventory. Captured cancellation as a first-class task outcome, exportable async graphs, process-pool isolation for Clang failures, fast approximate dependency scanning, the human architecture boundary around agent-written code, and the protocol mismatch between human-oriented LSP workflows and batch-oriented coding agents. Preserved the self-reported benchmark, adoption, readiness, and comparative-evaluation limits. Opened and retained all three remote images at their semantic positions: the structured-concurrency graph and the desktop and mobile agent-orchestration interfaces.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-11] lint | Wiki health check
 

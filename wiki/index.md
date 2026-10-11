@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Transformer 架构变化：RMSNorm 指南](sources/transformer-jia-gou-bian-hua-rmsnorm-zhi-nan.md) - A concise comparison of LayerNorm and RMSNorm covering shift and scale behavior, formulas, parameter and compute savings, PyTorch usage, and an important multi-axis implementation caveat.
 - [语言的边界就是思维的边界](sources/yu-yan-de-bian-jie-jiu-shi-si-wei-de-bian-jie.md) - 一篇技术哲思随笔把 token、训练语料与表达边界联系起来，并提出文风趋同和递归合成数据退化的警告，同时留下概念与机制上的重要限定。
 - [agent 时代的 clice](sources/agent-shi-dai-de-clice.md) - The clice developer reports cancellation-aware structured concurrency, process-isolated compilation, agent-assisted implementation, and an early protocol direction for agent-native semantic code intelligence.
 - [Control the ideas, not the code](sources/control-the-ideas-not-the-code.md) - Antirez argues that abundant AI-generated code shifts human control toward design models, QA, product direction, and durable system descriptions while making exhaustive review conditional on risk and human readership.
@@ -2964,6 +2965,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [RMSNorm](concepts/RMSNorm.md) - Scale-only normalization using root mean square, with lower arithmetic and affine state than LayerNorm but no additive-shift invariance.
+- [Layer Normalization](concepts/LayerNormalization.md) - Feature normalization combining mean re-centering, variance re-scaling, and learned affine scale and bias.
 - [Linguistic Expressive Boundaries](concepts/LinguisticExpressiveBoundaries.md) - Qualified view that learned symbols and concepts shape the ease and precision of expression without strictly determining all thought or composition.
 - [Model Collapse](concepts/ModelCollapse.md) - Risk that recursively generated training data reproduces errors or narrows distributions, with outcomes dependent on filtering, real-data mixture, objectives, and evaluation.
 - [Objectives and Key Results](concepts/ObjectivesAndKeyResults.md) - Directional objectives and measurable progress indicators whose learning value depends on separating aspiration from operating floors and covert performance penalties.

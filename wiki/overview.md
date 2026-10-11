@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - transformer-jia-gou-bian-hua-rmsnorm-zhi-nan
   - so-you-want-to-build-your-own-datacenter
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
   - welcoming-the-next-generation-of-programmers
@@ -774,6 +775,8 @@ sources:
   - control-the-ideas-not-the-code
 last_updated: 2026-10-11
 ---
+
+The newest normalization guide adds [[RMSNorm]] as a concrete Transformer architecture variation and makes its tradeoff against [[LayerNormalization]] explicit. LayerNorm subtracts the feature mean, divides by standard deviation, and learns scale plus bias, combining invariance to a shared additive shift with approximate invariance to shared positive rescaling. RMSNorm instead divides by root mean square and learns only scale, reducing arithmetic and one affine parameter vector while deliberately giving up re-centering. This sharpens [[TransformerArchitecture]] by separating normalization from its otherwise stable attention, feed-forward, and residual skeleton: the original illustrated model used LayerNorm, whereas later large-model variants can choose RMSNorm. The source remains a compact tutorial rather than a benchmark or adoption survey; it delegates comparable-quality evidence to the 2019 paper, and its handwritten class accepts multi-axis shapes while reducing only the final axis, so it is not a general behavioral match for PyTorch's `nn.RMSNorm`.
 
 The newest [[Anthropic]] source consolidates the wiki's context-engineering material around a finite-attention objective: use the smallest sufficient set of high-signal tokens rather than filling the nominal window. [[LLMContextManagement]] now separates stable preload from runtime discovery—clear system instructions, canonical examples, and a small non-overlapping tool set orient the agent, while paths, links, stored queries, metadata, and targeted shell operations support progressive just-in-time retrieval. A hybrid can preload stable high-value material for speed and let the agent explore dynamic evidence when needed. For long-horizon work, [[DynamicContextCompression]] carries a high-recall summary into a fresh window, [[AgentMemory]] can preserve structured goals and progress outside the prompt, and [[AgenticWorkflowPatterns]] can isolate deep work in specialist subagents that return distilled results. These mechanisms have different latency, orchestration, and information-loss costs; the article provides first-party guidance rather than comparative evaluation, supplies no fidelity or threshold measures, and mentions multi-agent gains without enough method to attribute them.
 
