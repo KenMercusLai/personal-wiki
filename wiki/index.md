@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Lance：面向 AI 场景的数据存储格式](sources/lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi.md) - A Lance v2.1 explainer contrasts row-group-free pages, selective metadata, extensible encodings, and manifest-based datasets with Parquet and Iceberg tradeoffs.
 - [Transformer 架构变化：RMSNorm 指南](sources/transformer-jia-gou-bian-hua-rmsnorm-zhi-nan.md) - A concise comparison of LayerNorm and RMSNorm covering shift and scale behavior, formulas, parameter and compute savings, PyTorch usage, and an important multi-axis implementation caveat.
 - [语言的边界就是思维的边界](sources/yu-yan-de-bian-jie-jiu-shi-si-wei-de-bian-jie.md) - 一篇技术哲思随笔把 token、训练语料与表达边界联系起来，并提出文风趋同和递归合成数据退化的警告，同时留下概念与机制上的重要限定。
 - [agent 时代的 clice](sources/agent-shi-dai-de-clice.md) - The clice developer reports cancellation-aware structured concurrency, process-isolated compilation, agent-assisted implementation, and an early protocol direction for agent-native semantic code intelligence.
@@ -1154,6 +1155,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family for selective vector, text, and multimodal access.
 - [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-LLM inference project, used to illustrate design-led and verification-heavy AI-assisted engineering.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
 - [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
@@ -2965,6 +2967,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Columnar Storage Tradeoffs](concepts/ColumnarStorageTradeoffs.md) - Coupled choices among scan compression, sparse random access, metadata granularity, page sizing, and format evolvability.
 - [RMSNorm](concepts/RMSNorm.md) - Scale-only normalization using root mean square, with lower arithmetic and affine state than LayerNorm but no additive-shift invariance.
 - [Layer Normalization](concepts/LayerNormalization.md) - Feature normalization combining mean re-centering, variance re-scaling, and learned affine scale and bias.
 - [Linguistic Expressive Boundaries](concepts/LinguisticExpressiveBoundaries.md) - Qualified view that learned symbols and concepts shape the ease and precision of expression without strictly determining all thought or composition.

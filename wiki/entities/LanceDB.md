@@ -4,7 +4,8 @@ type: entity
 tags: [database, vector-search, storage, open-source]
 sources:
   - the-quest-for-one-million-iops-benchmarking-storage-at-lancedb
-last_updated: 2026-10-02
+  - lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi
+last_updated: 2026-10-11
 knowledge_schema: synthesis-v1
 ---
 
@@ -13,6 +14,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Profile
 The source centers LanceDB's storage design on fast random row access after an index has selected candidate row identifiers. Lance caches index, table, and file metadata but leaves row caching to the operating system, while still supporting scan-oriented access when a query selects a material fraction of a table.
+
+The newer format account explains the storage layer beneath that path. [[LanceFormat]] removes shared row groups, pages columns independently, locates per-column metadata through a small footer and offset tables, and permits encoding, dictionary, statistics, and index metadata at several scopes. Its table layer adds version manifests, secondary-index files, and deletion files around the columnar data.
 
 Its benchmark path divides work into CPU-bound search and scheduling, disk-bound reads, and CPU-bound decode and reranking. Profiling attributed poor scaling to small task boundaries and synchronization around blocking reads rather than to NVMe capacity alone. A lighter scheduler plus a per-thread `io_uring` runtime reportedly saturated three AWS local NVMe drives at roughly 1.5 million read operations per second.
 
@@ -24,6 +27,7 @@ This result is an engineering milestone rather than a general product-performanc
 - Caches metadata in process memory while relying on the kernel page cache for row data.
 - Uses pipeline, scheduler, and asynchronous-I/O design to drive high NVMe concurrency.
 - Supports embedded operation and a separated compute-storage enterprise architecture.
+- Builds on a row-group-free file format and a manifest-based dataset layer designed for vector and multimodal data.
 
 ## Evidence
 - Workload role: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] maps search from index-produced row identifiers through fetch, decode, and post-processing.
@@ -31,14 +35,17 @@ This result is an engineering milestone rather than a general product-performanc
 - Scheduler design: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] traces blocking reads through Tokio task and queue boundaries and reports a large-server gain after reducing them.
 - Measured result: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] reports about 1.5 million IOPS and 3,800 queries per second with the revised scheduler and per-thread `io_uring` path.
 - Deployment shape: [[the-quest-for-one-million-iops-benchmarking-storage-at-lancedb]] diagrams separate compute servers for index search and storage servers for row fetching.
+- Format mechanism: [[lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi]] describes independently paged columns, selectively addressable metadata, extensible encodings, and external dataset indexes.
 
 ## Qualifications
-The evidence is one first-party benchmark without independent reproduction, released code-state verification, repeated-run variance, energy or cost analysis, or a matched database comparison. Its final vector-search configuration sacrifices recall by reducing `nprobes`, spreads requests across three datasets, and depends on local NVMe, a specific AWS instance, ten million 3-KiB vectors, and high concurrency. The source therefore supports a narrow storage-path capability, not a universal LanceDB performance ranking.
+The benchmark evidence is first-party and lacks independent reproduction, released code-state verification, repeated-run variance, energy or cost analysis, or a matched database comparison. Its final vector-search configuration sacrifices recall by reducing `nprobes`, spreads requests across three datasets, and depends on local NVMe, a specific AWS instance, ten million 3-KiB vectors, and high concurrency. The format account is a secondary explanation largely translated from project materials; it does not reproduce the claimed scan advantage, million-column scalability, or one-to-two-I/O random-access bounds. Together the sources support the architecture and one narrow storage-path result, not a universal LanceDB performance ranking.
 
 ## What Changed
 - Created the initial profile from LanceDB's million-IOPS engineering benchmark.
+- Added the Lance file and table mechanisms that underlie selective access and dataset evolution.
 
 ## Relationships
+- [[LanceFormat]] - supplies the file and dataset storage layers beneath LanceDB.
 - [[VectorDatabase]] - LanceDB uses vector search as the end-to-end workload around selective row retrieval.
 - [[StoragePerformanceBenchmarking]] - LanceDB's result depends on representative workload and physical-I/O measurement.
 - [[DatabaseEngineeringTradeoffs]] - LanceDB balances random access, scans, caching, concurrency, CPU work, and recall.

@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi
   - transformer-jia-gou-bian-hua-rmsnorm-zhi-nan
   - so-you-want-to-build-your-own-datacenter
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
@@ -775,6 +776,8 @@ sources:
   - control-the-ideas-not-the-code
 last_updated: 2026-10-11
 ---
+
+The newest storage-format source adds [[LanceFormat]] as the physical layer beneath the wiki's earlier [[LanceDB]] random-access benchmark. Its file design removes shared row groups, pages columns independently, locates per-column metadata through offset tables and a small fixed footer, and lets dictionaries, statistics, indexes, and encoding descriptions live at page, column, global, or external dataset scope. Its table layer organizes data files with version manifests, secondary indexes, and deletion files, so some types, encodings, indexes, and statistics can evolve without rewriting the primary data. New [[ColumnarStorageTradeoffs]] prevents this comparison from collapsing into a product ranking: [[ApacheParquet]] row groups, column chunks, pages, and a common footer favor mature scan, compression, and interoperability workflows, but can impose sparse-read amplification, awkward sizing when column widths differ greatly, and metadata overhead for very wide projections; Lance trades those boundaries for more reader, scheduler, extension, and manifest responsibility. The article is a secondary explanation largely translated from Lance materials and supplies no reproduced benchmarks, so its scan advantage, million-column scalability, and one-to-two-I/O random-access bounds remain design-author claims. All eleven effective remote image references were opened; ten unique diagrams were retained at their semantic positions, while the repeated Lance layout was omitted as an exact duplicate.
 
 The newest normalization guide adds [[RMSNorm]] as a concrete Transformer architecture variation and makes its tradeoff against [[LayerNormalization]] explicit. LayerNorm subtracts the feature mean, divides by standard deviation, and learns scale plus bias, combining invariance to a shared additive shift with approximate invariance to shared positive rescaling. RMSNorm instead divides by root mean square and learns only scale, reducing arithmetic and one affine parameter vector while deliberately giving up re-centering. This sharpens [[TransformerArchitecture]] by separating normalization from its otherwise stable attention, feed-forward, and residual skeleton: the original illustrated model used LayerNorm, whereas later large-model variants can choose RMSNorm. The source remains a compact tutorial rather than a benchmark or adoption survey; it delegates comparable-quality evidence to the 2019 paper, and its handwritten class accepts multi-axis shapes while reducing only the final axis, so it is not a general behavioral match for PyTorch's `nn.RMSNorm`.
 

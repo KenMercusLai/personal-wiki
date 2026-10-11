@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_key": "lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi",
+  "images": [
+    {
+      "file": "parquet-file-layout.png",
+      "alt": "Parquet file hierarchy from row groups through column chunks to pages, with page index and footer"
+    },
+    {
+      "file": "parquet-point-lookup-read-amplification.png",
+      "alt": "Point lookup spread across Parquet row groups and requiring full data-page reads"
+    },
+    {
+      "file": "parquet-wide-column-row-group-tradeoff.png",
+      "alt": "Parquet row-group sizing tradeoff between wide and narrow columns"
+    },
+    {
+      "file": "parquet-many-column-metadata-overhead.png",
+      "alt": "Single-column Parquet projection still loading metadata for every column from the footer"
+    },
+    {
+      "file": "lance-v2-file-layout.png",
+      "alt": "Lance v2 layout with data pages, per-column metadata, offset tables, global buffers, and fixed footer"
+    },
+    {
+      "file": "lance-independent-column-pages.png",
+      "alt": "Lance columns divided independently into unequal numbers of pages"
+    },
+    {
+      "file": "lance-async-io-decode-pipeline.png",
+      "alt": "Lance reader separating metadata scheduling, asynchronous I/O tasks, and CPU decode tasks"
+    },
+    {
+      "file": "lance-flexible-page-placement.png",
+      "alt": "Interleaved Lance pages with different columns and row ranges"
+    },
+    {
+      "file": "lance-dictionary-and-index-placement.png",
+      "alt": "Lance dictionaries and indexes placed at page, column, or multi-column scope"
+    },
+    {
+      "file": "lance-structural-encoding-comparison.png",
+      "alt": "Nested list encoding compared across Arrow, Parquet, Lance mini-block, and Lance full-zip layouts"
+    }
+  ]
+}
