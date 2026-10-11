@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Control the ideas, not the code](sources/control-the-ideas-not-the-code.md) - Antirez argues that abundant AI-generated code shifts human control toward design models, QA, product direction, and durable system descriptions while making exhaustive review conditional on risk and human readership.
 - [简单易懂的有毒职场炼成术 | 螺莉莉的数据中心](sources/jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI distinguishes OKRs from KPIs and adaptive Agile from fixed-plan sprint theater, arguing that authority and evaluation incentives can invert human-centered management tools.
 - [AI 时代老鸟的狂欢和凋零 - Nolla](sources/ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla.md) - Nolla argues that cheap AI implementation raises the value of convergence and accountability while threatening the junior apprenticeship path that creates future senior engineers.
 - [从 Lauren 不信规划说起，我用 Grok Bot 搭 Growth Researcher 踩过的坑](sources/cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng.md) - Mai Yang turns a failed scheduled Growth Researcher into a deliverable-first method for narrow bot roles, validated Skills and routines, and staged high-impact permissions.
@@ -1150,6 +1151,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-LLM inference project, used to illustrate design-led and verification-heavy AI-assisted engineering.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
 - [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
 - [Grok Bot](entities/GrokBot.md) - AI teammate product represented through role design, Skills, recurring routines, and staged authority over real-world actions.
@@ -2557,7 +2559,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
-- [Antirez](entities/Antirez.md) - Redis creator and systems programmer arguing that AI coding capability should be tested seriously despite anti-hype instincts, centralization worries, and job-loss concerns.
+- [Antirez](entities/Antirez.md) - Redis creator and systems programmer arguing for idea-centered control of AI-written software through design, QA, and risk-dependent review.
 - [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, simple composable agents, and finite-attention context engineering.
 - [AWS](entities/AWS.md) - Cloud platform represented through EC2, managed services, cost and security boundaries, and an AMI-based immutable delivery chain.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
@@ -4032,7 +4034,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
-- [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, verified, and problem-framing-centered work with AI coding agents.
+- [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, design-centered, verified, and risk-appropriately reviewed work with AI coding agents.
 - [AI Coding Framework–Library Model](concepts/AICodingFrameworkLibraryModel.md) - Control continuum between agent-structured high-level delegation and human-structured bounded use of AI as a callable capability.
 - [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that AI substitution weakens practiced skill and judgment while abundant generic output also worsens the information environment, qualified by deliberate AI adoption.
 - [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting step in software delivery rather than optimizing code generation in isolation.
@@ -4075,7 +4077,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Browser Caching](concepts/BrowserCaching.md) - Reusing stored HTTP responses through freshness rules and conditional validation to reduce network work without abandoning correctness.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like testing, staged activation, monitoring, bounded reversion, forward repair, and restoration-first response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
-- [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow for shared understanding, risk-based quality judgment, behavior checks, preference triage, and delivery flow.
+- [Code Review Practice](concepts/CodeReviewPractice.md) - Risk-dependent human workflow for shared understanding, stewardship, quality judgment, design context, and delivery flow.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Core Regression Test Separation](concepts/CoreRegressionTestSeparation.md) - Splitting human-confirmed correctness tests from agent-generated continuity tests so review attention follows behavior changes.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.

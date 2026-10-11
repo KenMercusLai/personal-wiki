@@ -10,7 +10,8 @@ sources:
   - cyle-how-i-review-code
   - dont-waste-time-writing-perfect-code-dzone-devops
   - rouan-wilsenach-ship-show-ask
-last_updated: 2026-10-02
+  - control-the-ideas-not-the-code
+last_updated: 2026-10-11
 knowledge_schema: synthesis-v1
 ---
 
@@ -32,8 +33,10 @@ Bird supplies a compact priority test for that scarce attention. Review should c
 
 Ship / Show / Ask separates feedback from merge permission. A self-merged Show pull request can make interesting work visible for later discussion without adding queue delay, while Ask preserves pre-merge review when uncertainty or consequence warrants it. The same source adds a timing limit: pull-request review is too late to replace conversations about direction before substantial implementation, when alternatives remain cheap.
 
+Antirez adds the strongest challenge to code inspection as the default control mechanism. When agents can generate thousands of lines per day, exhaustive reading competes with architecture, QA, optimization, and product work. His proposed alternative is to control the system's ideas through explicit design descriptions and behavioral evidence, while retaining source review where risk, public stewardship, or human contributors make code readability and direct modification consequential. This does not erase review's communication and learning roles, but it separates those roles from the claim that every generated line must be read to establish quality.
+
 ## Key Claims
-- Teams should choose review goals, timing, and approval strictness according to the change's purpose, uncertainty, reversibility, and risk.
+- Teams should choose review goals, depth, timing, and approval strictness according to the change's purpose, human readership, uncertainty, reversibility, and risk; exhaustive generated-code inspection is one option rather than a universal default.
 - Reviews should preserve motivation and decision context while spreading codebase knowledge to current and future engineers.
 - Execution, tests, development tooling, and automated style checks should support human judgment rather than leaving every check to diff reading.
 - Small changes, prompt first passes, explicit next steps, revision follow-up, and bounded review-stage work reduce blocking and queue growth.
@@ -51,16 +54,16 @@ Ship / Show / Ask separates feedback from merge permission. A self-merged Show p
 - Author-aware communication: [[cyle-how-i-review-code]] varies examples, references, documentation requests, and explanation by author context while insisting that comments remain kind and appropriate for any reader.
 - Risk-scaled gates: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] supports multiple accepts, slower landing, and throwing away wrong candidate code for critical components.
 - Feedback versus permission: [[rouan-wilsenach-ship-show-ask]] makes Show review non-blocking, reserves Ask for decision-shaping feedback, and recommends discussing direction before implementation commits the team to one solution.
+- Generated-code boundary: [[control-the-ideas-not-the-code]] argues that reading every generated line can consume time better spent on design, QA, optimization, and product direction.
+- Alternative control surface: [[control-the-ideas-not-the-code]] proposes explicit `DESIGN.md`-style system descriptions and behavioral verification while retaining Redis code review for a mature project used and modified directly by people.
 
 ## Counterevidence & Qualifications
-The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, and ticketed deferral fit low-risk, traceable work better than unresolved safety, security, accessibility, migration, or correctness risk; post-merge feedback may arrive too late or be ignored. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
+The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Antirez provides no controlled human-versus-model review comparison, escaped-defect counts, maintenance outcomes, or threshold for when design and QA can safely replace inspection; his approach may depend on expertise that newer engineers lack. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, and reduced line review fit low-risk, traceable, strongly verified work better than unresolved safety, security, accessibility, migration, regulated approval, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
 
 ## What Changed
-- Review now includes durable decision context for future maintainers, not only immediate feedback and approval.
-- Reviewer judgment now explicitly combines author-aware coaching with respectful, publicly readable communication.
-- Flow guidance now includes small scope, traceable deferral, prompt response, revision follow-up, and WIP control.
-- Review timing and merge authority now vary by uncertainty and risk: Show can invite non-blocking feedback, Ask can pause for decision-shaping review, and critical components may require multiple accepts.
-- Review attention now explicitly follows correctness, defensive behavior, security, comprehension, debuggability, and change safety rather than aesthetic perfection.
+- Made exhaustive inspection of generated code a risk-dependent choice rather than the assumed default.
+- Added explicit design documentation, QA, and behavioral verification as alternative control surfaces when generated volume exceeds human review capacity.
+- Preserved review's distinct communication, learning, stewardship, and critical-infrastructure roles even when defect finding moves elsewhere.
 
 ## Related Concepts
 - [[PRReviewHygiene]] - review hygiene shapes code changes and feedback so human review remains usable.
@@ -71,3 +74,4 @@ The sources are mostly practitioner reflections rather than universal empirical 
 - [[WorkplaceCollaboration]] - review comments affect team trust, pride, and willingness to keep improving shared code.
 - [[BottleneckAwareAICoding]] - treats review as the likely downstream constraint after AI accelerates coding.
 - [[ShipShowAsk]] - separates advisory feedback from required pre-merge review on a per-change basis.
+- [[AICodingPractice]] - changes code volume and shifts the balance among source inspection, design control, and behavioral verification.

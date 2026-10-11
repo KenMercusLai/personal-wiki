@@ -809,6 +809,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-11] ingest | Control the ideas, not the code
+
+Created [[DwarfStar]] and updated [[Antirez]], [[AICodingPractice]], and [[CodeReviewPractice]] from their complete ordered evidence inventories. Captured idea-centered control through architecture, QA, product direction, and `DESIGN.md`-style system descriptions; made exhaustive generated-code review conditional on risk and human readership; and preserved review's communication, learning, stewardship, and critical-infrastructure roles. Flagged direct tension with sources that make line-level comprehension central to responsibility, along with the lack of comparative defect and maintenance evidence and the unresolved novice-learning boundary. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-09-15] ingest | ClassPass' Founder on How Marketplace Startups Can Achieve Product-Market Fit
 
 Added First Round Review's interview with Payal Kadakia on how ClassPass found marketplace product-market fit. Key claims: press and fundraising were vanity signals without reservations; manual reservation handling helped reveal customer behavior; Passport proved demand for class variety; repeated user workarounds led to the subscription model; and reservations per person became the core metric tying habit, revenue, churn, supplier value, and mission together. The local image was inspected as a portrait of Kadakia and did not add separate factual evidence.
@@ -9050,5 +9054,9 @@ Ran lint without saving a report. Deterministic and graph-aware checks completed
 Created [[ObjectivesAndKeyResults]] and updated [[RORIRI]], [[AgileSoftwareDevelopment]], [[PsychologicalSafety]], and [[WorkplaceIncentiveDesign]] from their complete ordered evidence inventories. Captured the distinction between directional OKRs and operating KPIs, performance-linked stretch-goal gaming, adaptive user-feedback loops versus waterfall plans partitioned into sprints, stable sprint boundaries, and the role of testing and refactoring in sustainable change. Preserved the source's uncited practitioner status and qualified its 70-percent heuristic, sprint-length range, universal refactoring prescription, and textbook generalizations. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
 
 ## [2026-10-10] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
