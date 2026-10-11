@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You could have designed state of the art positional encoding](sources/designing-positional-encoding.md) - FL33TW00D-HF derives RoPE from the shortcomings of integer and binary codes, sinusoidal rotation geometry, relative query-key scoring, and independent multidimensional axes.
 - [tzf 的春季更新 | ringsaturn](sources/tzf-de-chun-ji-geng-xin-ringsaturn.md) - ringsaturn reports topology-safe polygon simplification, compact shared-boundary data, and layered YStripes/GridIndex lookup acceleration across the tzf project family.
 - [LanceDB 选型指南：它为什么这么火，以及你的项目是否该用它](sources/lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta.md) - A workload-first guide frames LanceDB as an embedded library whose local, multimodal, and training-data advantages exchange infrastructure simplicity for application-owned operations.
 - [Lance：面向 AI 场景的数据存储格式](sources/lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi.md) - A Lance v2.1 explainer contrasts row-group-free pages, selective metadata, extensible encodings, and manifest-based datasets with Parquet and Iceberg tradeoffs.
@@ -3571,7 +3572,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Software 2.0](concepts/Software20.md) - Programming paradigm in which behavioural evidence, architecture, objectives, and optimization produce learned program parameters.
 - [Transformer Architecture](concepts/TransformerArchitecture.md) - Sequence architecture combining embeddings, attention, positionwise transformations, residual normalization, and task-specific encoder-decoder or decoder-only dataflow.
 - [Attention Mechanism](concepts/AttentionMechanism.md) - Scaled query-key relevance and weighted-value aggregation across self-attention, causal attention, cross-attention, and multiple learned heads.
-- [Positional Encoding](concepts/PositionalEncoding.md) - Explicit order signal added to token embeddings, illustrated by the original Transformer's sinusoidal position vectors.
+- [Positional Encoding](concepts/PositionalEncoding.md) - Mechanisms that expose sequence or spatial position through additive vectors or direct changes to query-key interactions.
+- [Rotary Positional Encoding](concepts/RotaryPositionalEncoding.md) - Relative-position method that rotates paired query and key coordinates before their dot product while preserving vector norms.
 - [Meaning Space](concepts/MeaningSpace.md) - The geometric picture in which text is a point in an embedding space, a continuation is a trajectory, and probable next words fan out in a direction.
 - [Computational Irreducibility](concepts/ComputationalIrreducibility.md) - The property of processes whose outcome requires tracing every step, used to bound what training can absorb and explain why models need external tools.
 - [Semantic Grammar](concepts/SemanticGrammar.md) - Proposed rules about how meaningful units combine, finer than syntax, resting on a model of the world and generalizing logic's small corner of meaning.

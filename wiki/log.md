@@ -9108,3 +9108,11 @@ Created [[Tzf]], [[Ringsaturn]], [[TopologyAwarePolygonSimplification]], and [[P
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | You could have designed state of the art positional encoding
+
+Created [[RotaryPositionalEncoding]] and updated [[PositionalEncoding]] from its complete ordered evidence inventory. Captured content-only attention's permutation symmetry, the progression from integer and binary codes to sinusoidal rotations, RoPE's norm-preserving query-key geometry, efficient pairwise computation, independent multidimensional axes, and limits on frequency use and length extrapolation. The source contains five externally hosted explanatory videos but no effective Markdown or HTML image references; their substantive claims are repeated in the prose and equations, so no image asset or manifest was created.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
