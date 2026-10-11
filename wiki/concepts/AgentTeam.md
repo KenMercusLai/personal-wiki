@@ -6,7 +6,8 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong
   - xiang-zuo-xiang-you-leetao
-last_updated: 2026-10-10
+  - agent-shi-dai-de-clice
+last_updated: 2026-10-11
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,10 +21,12 @@ At the theoretical level, multi-agent software development is a [[DistributedCon
 
 Kuafu supplies a smaller practitioner case: after connecting several coding CLIs, Leetao assigned implementation to one agent and review to another and reports that the arrangement felt useful. This supports role separation at a minimal scale while also showing how little a two-role demo establishes without shared specifications, independent tests, measured defect detection, or a clear escalation rule.
 
+The clice developer adds an operator-interface case between those extremes. A custom web orchestrator presents multiple workspaces, branches, pull requests, agents, and resource status in one VS Code view, while a mobile view supports remote supervision. The workflow uses multiple agents for implementation, cross-review, and acceptance, but the author still supplies missing context and keeps architecture under human control. This extends Agent Team from role and file topology into an observability and control surface without showing that more agents independently improve code quality.
+
 ## Key Claims
 - Agent teams are most useful when a project is too large for one context window and one generic agent role.
 - Role separation lets stronger models handle architecture while cheaper or faster models handle structured execution and testing work.
-- File-system state can serve as the shared communication substrate among agents.
+- File-system state can serve as the shared communication substrate among agents, while a shared desktop or mobile control surface can expose concurrent workspaces, reviews, and resource state to the operator.
 - ADRs, specs, roadmaps, test plans, and CI status prevent decision loops between agents.
 - Milestone boundaries are natural points to restart agents and reload durable project state.
 - Agent teams need explicit consensus and verification mechanisms because prompt interpretation is structurally underspecified.
@@ -37,13 +40,15 @@ Kuafu supplies a smaller practitioner case: after connecting several coding CLIs
 - Consensus limit: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] argues that parallel agents must converge on one compatible interpretation of an underspecified prompt.
 - Verification topology: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] says decomposition can reduce incoherence while increasing omissions, so agent teams need both local and global gates.
 - Lightweight pairing: [[xiang-zuo-xiang-you-leetao]] reports using one CLI agent to write code and another to review a recent commit through Telegram.
+- Orchestration interface: [[agent-shi-dai-de-clice]] shows inspected desktop and mobile views with multiple workspaces, agents, branches, pull requests, resource status, and review output.
+- Human boundary: [[agent-shi-dai-de-clice]] says multiple agents can implement and cross-review while the developer continues to provide context and control the system architecture.
 
 ## Counterevidence & Qualifications
-The large case-study source explicitly says Agent Team is not always worth the overhead. It is less suitable for small projects under roughly 5,000 lines, exploratory prototypes, or projects without test infrastructure, because the role and document structure can become heavier than the work itself. The distributed-systems source adds that coordination mechanisms improve practical outcomes but cannot guarantee safety, liveness, and fault tolerance in every asynchronous failure scenario. Kuafu's “效果感觉还行” is an unmeasured first-person impression; a reviewer using a similar model, context, or mistaken requirement may reproduce rather than catch the writer's errors.
+The large case-study source explicitly says Agent Team is not always worth the overhead. It is less suitable for small projects under roughly 5,000 lines, exploratory prototypes, or projects without test infrastructure, because the role and document structure can become heavier than the work itself. The distributed-systems source adds that coordination mechanisms improve practical outcomes but cannot guarantee safety, liveness, and fault tolerance in every asynchronous failure scenario. Kuafu's “效果感觉还行” and the clice developer's positive experience are unmeasured first-person reports; reviewers using similar models, context, or mistaken requirements may reproduce rather than catch the writer's errors, and neither screenshot demonstrates defect reduction.
 
 ## What Changed
-- Added a lightweight coding/review pair as a smaller-scale role-separation example.
-- Sharpened the distinction between naming a reviewer role and establishing independent verification.
+- Added an operator-interface case that makes concurrent workspaces, agents, reviews, and resource state visible on desktop and mobile.
+- Clarified that multi-agent implementation and review still depend on human context supply, architecture ownership, and deterministic acceptance.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - Agent Team is a structured, multi-agent form of collaboration.
@@ -54,3 +59,4 @@ The large case-study source explicitly says Agent Team is not always worth the o
 - [[SoftwareVerification]] - QA and CI supply the validation boundary for Agent Team output.
 - [[DistributedConsensus]] - agent teams must converge on a shared prompt interpretation.
 - [[TrustTopology]] - heterogeneous gates help make multi-agent output reliable.
+- [[AgentComputerInterface]] - orchestration dashboards are human control surfaces around agent work rather than proof of reliable coordination.

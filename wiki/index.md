@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [agent 时代的 clice](sources/agent-shi-dai-de-clice.md) - The clice developer reports cancellation-aware structured concurrency, process-isolated compilation, agent-assisted implementation, and an early protocol direction for agent-native semantic code intelligence.
 - [Control the ideas, not the code](sources/control-the-ideas-not-the-code.md) - Antirez argues that abundant AI-generated code shifts human control toward design models, QA, product direction, and durable system descriptions while making exhaustive review conditional on risk and human readership.
 - [简单易懂的有毒职场炼成术 | 螺莉莉的数据中心](sources/jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI distinguishes OKRs from KPIs and adaptive Agile from fixed-plan sprint theater, arguing that authority and evaluation incentives can invert human-centered management tools.
 - [AI 时代老鸟的狂欢和凋零 - Nolla](sources/ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla.md) - Nolla argues that cheap AI implementation raises the value of convergence and accountability while threatening the junior apprenticeship path that creates future senior engineers.
@@ -2958,6 +2959,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Origin](entities/Origin.md) - Cursor Git hosting platform built on Continuity for protocol, web, API, and agent workloads.
 - [Xe Iaso](entities/XeIaso.md) - Software writer examining automated social escalation, open-source good faith, and governance boundaries for agent participation.
 - [Matplotlib](entities/Matplotlib.md) - Open-source plotting project represented through an autonomous-contribution dispute and a maintainer's restrained policy response.
+- [clice](entities/Clice.md) - C++ language server and real-time compilation system using cancellation-aware task graphs, compiler-process isolation, and emerging semantic interfaces for coding agents.
+- [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
 - [Objectives and Key Results](concepts/ObjectivesAndKeyResults.md) - Directional objectives and measurable progress indicators whose learning value depends on separating aspiration from operating floors and covert performance penalties.
@@ -4410,5 +4413,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Open-Source Collaboration Models](concepts/OpenSourceCollaborationModels.md) - Framework distinguishing cathedral, bazaar, and low-commitment street-stall modes while tracking governance, incentives, and transitions between them.
 - [Git Hosting Architecture](concepts/GitHostingArchitecture.md) - Storage and coordination design for serving centralized Git while preserving packfile and repository semantics.
 - [Automated Discourse](concepts/AutomatedDiscourse.md) - Machine-speed reproduction of grievance, accusation, publicity, apology, and reconciliation scripts by autonomous agents.
+- [Structured Concurrency](concepts/StructuredConcurrency.md) - Concurrency discipline that binds task lifetime and cancellation propagation to explicit parent-child structure and debuggable dependency graphs.
+- [Agent-Native Language Server](concepts/AgentNativeLanguageServer.md) - Semantic code-intelligence service designed for coding-agent batch operations, concurrent worktrees, selective retrieval, and project-wide context.
 
 ## Syntheses

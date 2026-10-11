@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "agent-shi-dai-de-clice",
+  "images": [
+    {
+      "file": "structured-concurrency-task-graph.png",
+      "alt": "Exported clice structured-concurrency graph shows running tasks, task groups, waiters, mutexes, events, semaphores, condition variables, and parent-child flow"
+    },
+    {
+      "file": "agent-team-desktop.png",
+      "alt": "Desktop Agent Team interface shows multiple workspaces, coding-agent sessions, branches, pull requests, resource use, and an agent debugging an async graph"
+    },
+    {
+      "file": "agent-team-mobile.jpg",
+      "alt": "Mobile clice-agent interface shows several online agents and a review of cancellation flow, request cleanup, and documentation follow-ups"
+    }
+  ]
+}

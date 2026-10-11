@@ -9060,3 +9060,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | agent 时代的 clice
+
+Created [[Clice]], [[Kotatsu]], [[StructuredConcurrency]], and [[AgentNativeLanguageServer]], and updated [[AgentTeam]] from its complete ordered evidence inventory. Captured cancellation as a first-class task outcome, exportable async graphs, process-pool isolation for Clang failures, fast approximate dependency scanning, the human architecture boundary around agent-written code, and the protocol mismatch between human-oriented LSP workflows and batch-oriented coding agents. Preserved the self-reported benchmark, adoption, readiness, and comparative-evaluation limits. Opened and retained all three remote images at their semantic positions: the structured-concurrency graph and the desktop and mobile agent-orchestration interfaces.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
