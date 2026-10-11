@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [tzf 的春季更新 | ringsaturn](sources/tzf-de-chun-ji-geng-xin-ringsaturn.md) - ringsaturn reports topology-safe polygon simplification, compact shared-boundary data, and layered YStripes/GridIndex lookup acceleration across the tzf project family.
 - [LanceDB 选型指南：它为什么这么火，以及你的项目是否该用它](sources/lancedb-xuan-xing-zhi-nan-ta-wei-shen-me-zhe-me-huo-yi-ji-ni-de-xiang-mu-shi-fou-gai-yong-ta.md) - A workload-first guide frames LanceDB as an embedded library whose local, multimodal, and training-data advantages exchange infrastructure simplicity for application-owned operations.
 - [Lance：面向 AI 场景的数据存储格式](sources/lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi.md) - A Lance v2.1 explainer contrasts row-group-free pages, selective metadata, extensible encodings, and manifest-based datasets with Parquet and Iceberg tradeoffs.
 - [Transformer 架构变化：RMSNorm 指南](sources/transformer-jia-gou-bian-hua-rmsnorm-zhi-nan.md) - A concise comparison of LayerNorm and RMSNorm covering shift and scale behavior, formulas, parameter and compute savings, PyTorch usage, and an important multi-axis implementation caveat.
@@ -1156,6 +1157,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [tzf](entities/Tzf.md) - Multi-language offline coordinate-to-time-zone project using topology-aware data generation and layered spatial indexes.
+- [ringsaturn](entities/Ringsaturn.md) - Open-source developer represented through tzf's geospatial data, compatibility, and performance work.
 - [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family spanning selective retrieval, multimodal records, versioning, and model-training access.
 - [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-LLM inference project, used to illustrate design-led and verification-heavy AI-assisted engineering.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
@@ -2968,6 +2971,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Topology-Aware Polygon Simplification](concepts/TopologyAwarePolygonSimplification.md) - Polygon reduction that recognizes and reuses shared boundaries to avoid simplification-created gaps and overlaps.
+- [Point-in-Polygon Indexing](concepts/PointInPolygonIndexing.md) - Candidate-polygon and boundary-segment indexes that reduce exact containment work for coordinate queries.
 - [Vector Database Selection](concepts/VectorDatabaseSelection.md) - Workload-first choice among embedded libraries, retrieval services, incumbent-database extensions, and lower-level index libraries.
 - [Columnar Storage Tradeoffs](concepts/ColumnarStorageTradeoffs.md) - Coupled choices among scan compression, sparse random access, metadata granularity, page sizing, and format evolvability.
 - [RMSNorm](concepts/RMSNorm.md) - Scale-only normalization using root mean square, with lower arithmetic and affine state than LayerNorm but no additive-shift invariance.

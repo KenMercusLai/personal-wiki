@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-11
-as_of_overview_commit: 4c3956662865868ca15e943ed681c3773626522f
+as_of_overview_commit: 52fbaa95fa676c6735db15ac62db8bdfd988eb74
 summary: "A cross-domain map of grounded knowledge emphasizing explicit boundaries, accountable judgment, sustainable learning, aligned incentives, and evidence-calibrated tradeoffs."
-episode_count: 1127
-source_count: 1127
+episode_count: 1128
+source_count: 1128
 paragraph_count: 807
 topic_count: 9
 ---

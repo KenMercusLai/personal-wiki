@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "tzf-de-chun-ji-geng-xin-ringsaturn",
+  "images": [
+    {
+      "file": "independent-simplification-gap-overlap.webp",
+      "alt": "Map near the Europe Berlin and Europe Zurich boundary showing gaps and overlaps after independent polygon simplification"
+    },
+    {
+      "file": "topology-shared-edge-identification.webp",
+      "alt": "Topology workflow that decomposes rings into directed edges, canonicalizes endpoint pairs, matches reverse directions, and marks shared boundaries"
+    },
+    {
+      "file": "tzf-continuous-benchmark.webp",
+      "alt": "Continuous benchmark history for tzf default random-world-city lookups in nanoseconds per operation"
+    },
+    {
+      "file": "tzf-rs-continuous-benchmark.webp",
+      "alt": "Continuous benchmark history for tzf-rs default random-city lookups in nanoseconds per iteration"
+    },
+    {
+      "file": "tzfpy-continuous-benchmark.webp",
+      "alt": "Continuous benchmark history for tzfpy random-city lookups in iterations per second"
+    }
+  ]
+}

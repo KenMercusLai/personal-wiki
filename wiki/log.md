@@ -9100,3 +9100,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | tzf 的春季更新 | ringsaturn
+
+Created [[Tzf]], [[Ringsaturn]], [[TopologyAwarePolygonSimplification]], and [[PointInPolygonIndexing]], and updated [[RamerDouglasPeuckerAlgorithm]] from its complete ordered evidence inventory. Captured independent-simplification gaps and overlaps, reverse-directed shared-edge recognition, shared-boundary data compression, layered YStripes and GridIndex lookup acceleration, cross-language compatibility, and the explicit memory-speed-precision tradeoff. Preserved the first-party benchmark, single-machine, missing build-cost, incomplete geometry-edge-case, unexplained continuous-chart shift, and staggered Python-release limits. Opened and retained all five remote images at their semantic positions: the defect map, topology workflow, and three continuous benchmark histories.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
