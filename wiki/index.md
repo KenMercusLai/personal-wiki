@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [连字符断词从原理到实践](sources/lian-zi-fu-duan-ci-cong-yuan-li-dao-shi-jian.md) - A typography and algorithm guide connecting browser hyphenation controls with TeX's transition from hand-authored rules to Liang's dictionary-derived weighted patterns and packed-trie lookup.
 - [让研究人员绞尽脑汁的 Transformer 位置编码](sources/rang-yan-jiu-ren-yuan-jiao-jin-nao-zhi-de-transformer-wei-zhi-bian-ma.md) - Scientific Spaces surveys absolute, relative, recurrent, bucketed, boundary-derived, and complex position mechanisms, ending with the paired rotation underlying RoPE.
 - [You could have designed state of the art positional encoding](sources/designing-positional-encoding.md) - FL33TW00D-HF derives RoPE from the shortcomings of integer and binary codes, sinusoidal rotation geometry, relative query-key scoring, and independent multidimensional axes.
 - [tzf 的春季更新 | ringsaturn](sources/tzf-de-chun-ji-geng-xin-ringsaturn.md) - ringsaturn reports topology-safe polygon simplification, compact shared-boundary data, and layered YStripes/GridIndex lookup acceleration across the tzf project family.
@@ -1159,6 +1160,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [TeX](entities/TeX.md) - Donald Knuth's typesetting system and the implementation context for the transition from rule-based to pattern-based automatic hyphenation.
+- [Frank Liang](entities/FrankLiang.md) - Computer scientist credited with TeX's dictionary-derived weighted hyphenation patterns and packed-trie representation.
+- [Donald Knuth](entities/DonaldKnuth.md) - TeX creator represented through its origin, initial rule-based hyphenator, and supervision context for Frank Liang.
+- [Univer](entities/Univer.md) - Open-source project serving as the source author's practical paragraph-layout and hyphenation implementation context.
 - [tzf](entities/Tzf.md) - Multi-language offline coordinate-to-time-zone project using topology-aware data generation and layered spatial indexes.
 - [ringsaturn](entities/Ringsaturn.md) - Open-source developer represented through tzf's geospatial data, compatibility, and performance work.
 - [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family spanning selective retrieval, multimodal records, versioning, and model-training access.
@@ -2973,6 +2978,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Hyphenation](concepts/Hyphenation.md) - Language-sensitive, rendering-time word splitting that trades visible hyphens for better line fit without mutating the underlying text.
+- [Liang Hyphenation Algorithm](concepts/LiangHyphenationAlgorithm.md) - Dictionary-derived weighted substring patterns whose overlapping scores select language-specific word breakpoints.
 - [Topology-Aware Polygon Simplification](concepts/TopologyAwarePolygonSimplification.md) - Polygon reduction that recognizes and reuses shared boundaries to avoid simplification-created gaps and overlaps.
 - [Point-in-Polygon Indexing](concepts/PointInPolygonIndexing.md) - Candidate-polygon and boundary-segment indexes that reduce exact containment work for coordinate queries.
 - [Vector Database Selection](concepts/VectorDatabaseSelection.md) - Workload-first choice among embedded libraries, retrieval services, incumbent-database extensions, and lower-level index libraries.

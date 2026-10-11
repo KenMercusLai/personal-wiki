@@ -2,7 +2,7 @@
 title: "Control the ideas, not the code"
 type: source
 tags: [ai, software-engineering, code-review, testing]
-date: 2026-07-14
+date: 2026-07-13
 source_file: "/mnt/ken_personal_wiki/Articles/Control the ideas, not the code.md"
 ---
 

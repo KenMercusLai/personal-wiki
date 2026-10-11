@@ -2,7 +2,7 @@
 title: "语言的边界就是思维的边界"
 type: source
 tags: [ai, language-models, language, synthetic-data, opinion]
-date: 2026-10-11
+date: 2025-10
 source_file: "/mnt/ken_personal_wiki/Articles/语言的边界就是思维的边界.md"
 ---
 

@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-11] ingest | 连字符断词从原理到实践
+
+Created [[Hyphenation]], [[LiangHyphenationAlgorithm]], [[TeX]], [[FrankLiang]], [[DonaldKnuth]], and [[Univer]]. Connected the visual tradeoff between ragged line endings and visible hyphens to language-sensitive browser controls, and separated dictionary-derived pattern learning, runtime max-priority matching, and packed-trie storage in the TeX lineage. Preserved the source's incomplete packed-trie explanation, non-monotonic accuracy table, time-sensitive CSS support, unverified historical figures, and practitioner scope. Opened all five remote images and retained the before/after layout comparison, hyphenation-zone diagram, pattern-level statistics, and worked pattern-matching example at their semantic positions.
+
 ## [2026-10-11] ingest | LanceDB 选型指南：它为什么这么火，以及你的项目是否该用它
 
 Created [[VectorDatabaseSelection]] and updated [[LanceDB]], [[LanceFormat]], and [[VectorDatabase]] from their complete ordered evidence inventories. Reframed vector-store choice around embedded-library, client-server service, incumbent-database extension, and lower-level index-library positions; added multimodal and training-data reuse; and made cleanup, write coordination, remote-storage memory behavior, compatibility, backup, and recovery part of the embedded ownership cost. Preserved the source's time-sensitive maturity and competitor claims, unsupported Node.js exclusivity, anecdotal migration economics, and its imprecise description of Lance as based on Parquet despite the existing source's distinct row-group-free physical format. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.

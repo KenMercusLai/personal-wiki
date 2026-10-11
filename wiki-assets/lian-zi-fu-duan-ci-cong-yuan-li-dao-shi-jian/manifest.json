@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "lian-zi-fu-duan-ci-cong-yuan-li-dao-shi-jian",
+  "images": [
+    {
+      "file": "ragged-text-without-hyphenation.png",
+      "alt": "Two English paragraphs before automatic hyphenation, with large uneven gaps at the right edge"
+    },
+    {
+      "file": "text-with-automatic-hyphenation.png",
+      "alt": "The same English paragraph after automatic hyphenation, producing a more even right edge"
+    },
+    {
+      "file": "hyphenation-zone-comparison.png",
+      "alt": "Side-by-side paragraph layouts illustrating a smaller and larger CSS hyphenation zone"
+    },
+    {
+      "file": "pattern-level-accuracy-table.png",
+      "alt": "Table of Liang pattern-generation levels with pattern counts and reported good and bad outcomes"
+    },
+    {
+      "file": "hyphenation-pattern-matching-example.png",
+      "alt": "Overlapping weighted patterns for hyphenation combine into hy-phen-ation"
+    }
+  ]
+}

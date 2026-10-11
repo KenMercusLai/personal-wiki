@@ -2,7 +2,7 @@
 title: "AI 时代老鸟的狂欢和凋零 - Nolla"
 type: source
 tags: [ai, software-engineering, careers, mentorship]
-date: 2026-10-10
+date: 2026-02-28
 source_file: "/mnt/ken_personal_wiki/Articles/AI 时代老鸟的狂欢和凋零 - Nolla.md"
 ---
 
