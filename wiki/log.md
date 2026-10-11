@@ -9160,3 +9160,11 @@ Created [[Kakachen]], [[AstroVela]], [[Vane]], and [[AIEraInfrastructureEngineer
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | 大水与容器
+
+Created [[MengYan]], [[YouZhiYouXing]], [[MutualFundFlowIncentives]], and [[RetirementDefaultDesign]], and updated [[SmartDefaults]] from its complete ordered evidence inventory. Captured the demand-distribution-revenue model of fund herding, the distinction between inflow- and redemption-driven concentration, the allocation power of platform rankings, the participation effects of payroll saving, matching and automatic enrollment, the need for qualified diversified defaults, the constraints on fund advisory, and the purpose-first “four pots of money” interface. Preserved the source's personal-synthesis status, missing bibliography, cross-country comparability limits, unequal retirement-plan access, household affordability and liquidity constraints, commercial fund-menu influence, and the risk that harmful defaults amplify rather than reduce concentration. Opened the sole remote image and omitted it as a decorative seascape photograph with no evidentiary content.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
