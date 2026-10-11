@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "bd60c5b1f2a7786ffd438c70cbf08d8b1fc62621b987e36e8eddd176273b5c3e",
       "39a4dc6c9743e405e9fcd3e84a84d2d03a1e6e85e92ad9c3033a57c575ef361b",
       "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
       "e1ec0605332fac7179eb752cc0db8cfd466ff2c0fd7953dd15d3e6c152b7852a",
@@ -813,11 +814,32 @@
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
       "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d"
     ],
-    "paragraph_count": 811
+    "paragraph_count": 812
   },
-  "overview_commit": "de3983c7eeb3d41d13cd0fadf86d85ae7da748a4",
-  "overview_digest": "c906ca502d43b3d5e6fcbb3357346aa9d397e5c9bd41c84e2e746c5d47070999",
+  "overview_commit": "1e50da1c57801c8b00c2e07e4e7cf135da428b75",
+  "overview_digest": "114b44ec77d189c3320938a8d7bdb138ea0337d5d147d5dd5b6f3b7cc4cc2138",
   "paragraphs": [
+    {
+      "id": "bd60c5b1f2a7786ffd438c70cbf08d8b1fc62621b987e36e8eddd176273b5c3e",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest [[CalebLeak]] source turns an absurd premise—[[MomoDog|a dog]] supplying arbitrary keyboard input—into a compact demonstration of [[HarnessEngineering]]. [[ClaudeCode]] only becomes productive after the system assigns meaning to nonsense, requires audio, controls, obstacles, and a visible player, filters unsafe keys through [[DogKeyboard]], exposes idle state through hooks, and adds feedback the agent can act on. [[AutomatedGameTesting]] broadens from Riot's large predefined regression farm to agent-directed exploration: Claude launches a Godot game, captures screenshots, injects timed controls, observes progression, repairs a stale health bar, and replays the path, while scene, shader, and input-action linters catch structural failures. Clearing `MEMORY.md` between games also shows that persistent agent context can reinforce an accidental visual convention rather than only preserve useful learning. The source's own failures keep the result bounded: some games were unwinnable, a feeder bug trained repeated reward-seeking, the workflow reports no aggregate defect rate, and its best outputs depend on substantial human-built prompts, tools, constraints, and hardware. All 17 remote images were opened; four evidence-bearing images were retained at their semantic positions—the physical keyboard setup, system architecture, DogKeyboard control panel, and Quasar Saz boss fight—while the dark architecture duplicate, decorative portraits and feeder photographs, terminal anecdote, and redundant game samples were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 2,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AutomatedGameTesting",
+        "CalebLeak",
+        "ClaudeCode",
+        "DogKeyboard",
+        "HarnessEngineering",
+        "MomoDog"
+      ]
+    },
     {
       "id": "39a4dc6c9743e405e9fcd3e84a84d2d03a1e6e85e92ad9c3033a57c575ef361b",
       "primary_topic": "ai-and-technology",

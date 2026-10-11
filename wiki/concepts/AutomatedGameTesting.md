@@ -4,7 +4,8 @@ type: concept
 tags: [testing, game-development, automation, reliability]
 sources:
   - automated-testing-for-league-of-legends-riot-games-technology
-last_updated: 2026-09-14
+  - i-taught-my-dog-to-vibe-code-games-caleb-leak
+last_updated: 2026-10-11
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,9 +19,11 @@ The distinctive game-specific layer is environment control. Tests need to acquir
 
 The source also treats test trust as an operational process. New tests spend at least one week in staging before entering blocker or core suites, and the standard library bans pure sleeps in favor of conditional waits. Automation therefore improves feedback only when the harness, reporting service, promotion process, and anti-flake conventions keep failures actionable.
 
+At smaller generative scale, automated game testing can also be agent-directed exploration rather than a large predefined regression farm. [[ClaudeCode]] launches each newly generated Godot game, captures screenshots, injects timed input sequences, observes the result, and chooses follow-up actions or code changes. Scene, shader, and input-action linters catch structural failures around that loop. This broadens the practice beyond scripted assertions, but the remaining unwinnable games show that self-testing is only as strong as its objectives, observations, and path coverage.
+
 ## Key Claims
 - Automated game testing becomes valuable when live-game change volume and release cadence exceed what manual regression sweeps can cover quickly.
-- Game tests often need client/server control, artifact deployment, game-state setup, and RPC-driven observation rather than only isolated function calls.
+- Game tests often need environment control, artifact deployment, game-state setup, scripted action, and behavioral observation rather than only isolated function calls.
 - Stable feedback requires a harness that hides setup complexity from test writers while preserving local and test-farm parity.
 - Flake prevention is a first-class concern; conditional waits and staged test promotion make failures more trustworthy.
 - Reporting services matter because automated failures must become actionable tickets, artifact tags, notifications, and historical trends.
@@ -33,11 +36,14 @@ The source also treats test trust as an operational process. New tests spend at 
 - Flake controls: [[automated-testing-for-league-of-legends-riot-games-technology]] says tests stage for at least one week before promotion and BVS exposes no pure sleep in its standard library.
 - Reporting loop: [[automated-testing-for-league-of-legends-riot-games-technology]] describes local result pages, test-farm ticket creation, artifact tagging, committer email, failure aggregation, and pass-history tracking.
 - QA complement: [[automated-testing-for-league-of-legends-riot-games-technology]] says automation frees quality analysts to focus on creative testing and upstream defect prevention.
+- Agent-directed play: [[i-taught-my-dog-to-vibe-code-games-caleb-leak]] gives Claude Code screenshot capture and timed control sequences, allowing it to play through six stages, find a stale boss health bar, repair the code, and replay the path.
+- Structural feedback: [[i-taught-my-dog-to-vibe-code-games-caleb-leak]] adds Godot scene, shader, and input-action linters because build success and logs did not reveal invisible players, broken UI, or unwired controls.
 
 ## Counterevidence & Qualifications
-The source is a company-authored account of one Riot system and does not compare BVS with other game studios' automation strategies. Its strongest numbers are source-date-specific: about 5,500 cases in 18 minutes per build, about 100,000 cases per day, one-to-two-hour failure reporting, and roughly half of critical or blocker bugs found by BVS. It also says missed bugs generally reflected coverage gaps, so automated game testing still depends on deciding what behavior is worth encoding.
+The Riot source is a company-authored account of one system and does not compare BVS with other studios' automation strategies. Its strongest numbers are source-date-specific: about 5,500 cases in 18 minutes per build, about 100,000 cases per day, one-to-two-hour failure reporting, and roughly half of critical or blocker bugs found by BVS. The Leak source is one creator's qualitative demonstration and supplies no aggregate pass rate or comparison against human QA. Both cases expose the same boundary: missed defects reflect coverage and oracle gaps, while agent-directed exploration can still overlook unwinnable levels or mistake visual plausibility for correct game progression.
 
 ## What Changed
+- Added coding-agent screenshot and input playback as an exploratory game-testing loop, with unwinnable outputs preserving the coverage boundary.
 - Created the concept from Riot's League of Legends BVS article.
 
 ## Related Concepts
@@ -47,3 +53,4 @@ The source is a company-authored account of one Riot system and does not compare
 - [[DeploymentAutomation]] - build verification can gate whether artifacts advance to test environments.
 - [[GameServerScaleAndStability]] - automated gameplay checks support confidence in live-game behavior.
 - [[ServerSideGameLogic]] - game tests often validate interactions between clients, servers, and authoritative game state.
+- [[HarnessEngineering]] - automated play, visual inspection, and domain linters form feedback surfaces around a coding agent.

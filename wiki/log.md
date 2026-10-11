@@ -9168,3 +9168,11 @@ Created [[MengYan]], [[YouZhiYouXing]], [[MutualFundFlowIncentives]], and [[Reti
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | I Taught My Dog to Vibe Code Games
+
+Created [[CalebLeak]], disambiguated [[MomoDog]] from the existing [[Momo]] social app, created [[DogKeyboard]], and updated [[HarnessEngineering]] and [[AutomatedGameTesting]] from their complete ordered evidence inventories. Captured the keyboard-to-agent-to-reward architecture, minimum game requirements, Godot's text-scene advantage, screenshot and scripted-input QA, scene and shader linting, input mapping, memory-style lock-in, and the remaining unwinnable-game and reward-bug limits. Opened all 17 remote images, retained four evidence-bearing images at their semantic positions, and omitted the duplicate theme variant plus decorative or redundant illustrations.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "i-taught-my-dog-to-vibe-code-games-caleb-leak",
+  "images": [
+    {
+      "file": "momo-at-keyboard.webp",
+      "alt": "Momo positioned behind the keyboard used to provide game-design input"
+    },
+    {
+      "file": "system-architecture.webp",
+      "alt": "Architecture connecting Momo, a Bluetooth keyboard, Raspberry Pi, DogKeyboard, Claude Code, and the pet feeder reward loop"
+    },
+    {
+      "file": "dogkeyboard-control-panel.webp",
+      "alt": "DogKeyboard control panel showing Claude idle state, a 16-character threshold, auto-submit, and chime controls"
+    },
+    {
+      "file": "quasar-saz-boss-fight.webp",
+      "alt": "Quasar Saz boss fight with energy, score, boss-health, movement, and attack interfaces visible"
+    }
+  ]
+}

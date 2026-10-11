@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Taught My Dog to Vibe Code Games](sources/i-taught-my-dog-to-vibe-code-games-caleb-leak.md) - Caleb Leak's dog-input game experiment shows that prompt framing, safe orchestration, screenshots, scripted play, domain linters, and memory hygiene matter more than meaningful initial input.
 - [大水与容器](sources/da-shui-yu-rong-qi.md) - 孟岩 models fund herding as a demand-distribution-revenue system and argues that governed retirement and interface defaults can redirect short-term performance-chasing flows toward long-term diversified saving.
 - [重新出发，向未知航行](sources/chong-xin-chu-fa-xiang-wei-zhi-hang-xing.md) - kakachen announces AstroVela and Vane while arguing that AI-era infrastructure leverage shifts toward opportunity selection, systems judgment, customer understanding, and verification as implementation becomes cheaper.
 - [夜天之书 #121 When Code Is Cheap](sources/ye-tian-zhi-shu-121-when-code-is-cheap.md) - Tison Kun argues that once coding agents cross an expert's daily-work baseline, implementation becomes cheap and goals, design judgment, verification, review, and human energy become the constraints.
@@ -1165,6 +1166,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Caleb Leak](entities/CalebLeak.md) - Software practitioner who built a dog-input, Claude Code, Godot, hardware-reward, and automated-testing game workflow.
+- [Momo (dog)](entities/MomoDog.md) - Cavapoo trained to supply arbitrary keyboard input to an AI-assisted game-development system in exchange for food rewards.
+- [DogKeyboard](entities/DogKeyboard.md) - Rust orchestration app that filters dog-generated keystrokes and coordinates Claude Code state, submission, cues, recording, and rewards.
 - [孟岩](entities/MengYan.md) - Investment-industry practitioner and writer analyzing fund-flow incentives, investor behavior, retirement defaults, and fund advisory.
 - [有知有行](entities/YouZhiYouXing.md) - Investment-related organization represented through its purpose-first money framework and mission to improve long-term investor outcomes.
 - [kakachen](entities/Kakachen.md) - Infrastructure programmer and AstroVela co-founder moving from an eighteen-year employed career into an AI-era infrastructure startup.

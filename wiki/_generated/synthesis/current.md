@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-11
-as_of_overview_commit: de3983c7eeb3d41d13cd0fadf86d85ae7da748a4
+as_of_overview_commit: 1e50da1c57801c8b00c2e07e4e7cf135da428b75
 summary: "A cross-domain map emphasizing consequential problem selection, explicit boundaries, accountable judgment, sustainable learning, and evidence-calibrated tradeoffs."
-episode_count: 1136
-source_count: 1136
-paragraph_count: 811
+episode_count: 1137
+source_count: 1137
+paragraph_count: 812
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical value begins with consequential workload selection, then depends on re
 
 ### Business and Markets
 
-Durable businesses connect opportunity and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence; a new technology wave alone does not validate a market.
+Durable businesses connect opportunity and customer learning to coherent scope, retention, economics, operating capability, financing, and calibrated evidence; a technology wave alone does not validate a market.
 
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction. Evidence: [[BusinessModelValidation]], [[StartupHypothesisTesting]], [[FreemiumAcquisition]], [[ProductUserSegmentation]], [[SteveBlank]].
 - [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path. Evidence: [[KhanAcademy]], [[IncrementalMonolithMigration]], [[GraphQL]], [[MinimumViableExperience]], [[MicroserviceDataBoundaries]].
@@ -50,7 +50,7 @@ Across domains, sound judgment identifies the relevant unit and context, exposes
 
 ### Culture and Media
 
-Media form, platform architecture, interaction constraints, creator economics, identity, presence, governance, and explanation shape durable cultural value.
+Media form, platform architecture, interaction constraints, creator economics, production infrastructure, feedback, identity, presence, governance, and explanation shape durable cultural value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
