@@ -9184,3 +9184,11 @@ Created [[BryanCantrill]], [[PangramLabs]], and [[AIWritingDetection]], and upda
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | Traceroute the World | 卡瓦邦噶！
+
+Created [[TracerouteTheWorld]], [[Traceroute]], and [[InternetWideNetworkScanning]], and updated [[DigitalOcean]] from its complete ordered evidence inventory. Captured breadth-first TTL scanning, AF_XDP/XDP packet handling, BPF ring-buffer transfer, IPv4-indexed bitmaps, `mmap`, sparse-file allocation, rate limiting, and the reported 34-hop result. Preserved the boundaries around nominal-throughput arithmetic, ICMP response bias, incomplete visible hops, routing instability, address exclusions, scanning safeguards, repeatability, and the difference between a terminal TTL and a verified world record. Opened and retained both remote screenshots at their semantic positions: the eight-hop 1.1.1.1 baseline and the 34-hop result with four missing intermediate replies.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "traceroute-the-world-ka-wa-bang-ga",
+  "images": [
+    {
+      "file": "eight-hop-cloudflare-baseline.png",
+      "alt": "MTR display showing an eight-hop path from the Singapore scanner to 1.1.1.1 with low observed latency"
+    },
+    {
+      "file": "thirty-four-hop-result.png",
+      "alt": "MTR display showing a responding destination at hop 34, with missing replies at hops 10 and 31 through 33"
+    }
+  ]
+}
