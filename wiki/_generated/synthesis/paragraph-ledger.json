@@ -809,12 +809,13 @@
       "4047faf51b3feb40c640bee717ffccb018053b3c694507b71544882751ff5adb",
       "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2",
       "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
-      "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f"
+      "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
+      "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d"
     ],
-    "paragraph_count": 809
+    "paragraph_count": 810
   },
-  "overview_commit": "901b59188d6e9fa1cacba9aac05495f54edc08c8",
-  "overview_digest": "f034c0608284715c08a84d63cd6a675a5fdda9ed108800c66fd05a6ea9e58811",
+  "overview_commit": "e253386eacfe00622a5123356055cce8cba93e7c",
+  "overview_digest": "e81a1b6d48e4e3bb7cb600c2aab6e78c61a060ef5845614574b1d43dc8b95da1",
   "paragraphs": [
     {
       "id": "1055071fb9f0ce649dc6072376de67cf73a76ee18e3748272bd518fb59cefef0",
@@ -16361,6 +16362,26 @@
         "HumanCodeResponsibility",
         "JuniorEngineerLearning",
         "Nolla"
+      ]
+    },
+    {
+      "id": "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest developer-advice source adds an individual response to the same AI-era shift. It joins [[ProductMindedEngineering]], [[LearningHowToLearn]], [[SkillStacking]], and [[JuniorEngineerLearning]] around a compact claim: when implementation tools are widely shared, durable contribution depends more visibly on choosing meaningful problems, understanding users and domains, evaluating information critically, communicating through other people, and iterating through fast feedback. The useful synthesis is complementarity rather than replacement. Domain and product judgment broaden technical skill, while sufficient implementation depth remains necessary to diagnose, verify, and maintain generated systems. Curiosity may sustain exploration, but it does not prove competence, demand, safety, or career value. The essay supplies no hiring cohorts, wage data, task measurements, or comparison group for its claim that one generation could get jobs through coding alone and the next cannot; its language about easy replacement and solving problems faster than everyone else is career rhetoric, and its closing from-scratch learning recommendation carries an affiliate interest. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "JuniorEngineerLearning",
+        "LearningHowToLearn",
+        "ProductMindedEngineering",
+        "SkillStacking"
       ]
     }
   ],

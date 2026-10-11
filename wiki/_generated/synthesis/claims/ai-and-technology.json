@@ -2148,9 +2148,10 @@
       "qualifications": [
         "The evidence is one practitioner analogy without comparative defect, delivery, maintenance, or productivity measurements and offers no operational metric for cognitive debt.",
         "Framework-style delegation can remain economical for standard, disposable, low-risk, or strongly verified work, while people and agents may alternate structural control by task and phase.",
-        "Nolla supplies no hiring, productivity, progression, or delivery data for the predicted junior-to-senior shortage, and the article discloses that ChatGPT 5.2 generated most of its prose from a conversation and style examples."
+        "Nolla supplies no hiring, productivity, progression, or delivery data for the predicted junior-to-senior shortage, and the article discloses that ChatGPT 5.2 generated most of its prose from a conversation and style examples.",
+        "The developer-advice source supplies no hiring cohorts, wage data, task measurements, or comparison group for its generational replacement claim; curiosity and a distinctive skill combination do not by themselves prove competence, safety, demand, or career value."
       ],
-      "statement": "[[AICodingFrameworkLibraryModel]] treats AI coding as a continuum between framework-style delegation, where the agent controls much of program structure from high-level intent, and library-style use, where developers retain architecture, decomposition, constraints, precise prompting, and review. [[Nolla]] adds that when implementation becomes abundant, [[BottleneckAwareAICoding]] shifts scarce work toward convergence, operational guardrails, and [[HumanCodeResponsibility]]; [[AICodingPractice]] should choose control placement by lifecycle risk while preserving [[JuniorEngineerLearning]] through deliberate [[EngineeringMentorship]].",
+      "statement": "[[AICodingFrameworkLibraryModel]] treats AI coding as a continuum between framework-style delegation, where the agent controls much of program structure from high-level intent, and library-style use, where developers retain architecture, decomposition, constraints, precise prompting, and review. [[Nolla]] adds that when implementation becomes abundant, [[BottleneckAwareAICoding]] shifts scarce work toward convergence, operational guardrails, and [[HumanCodeResponsibility]]; [[AICodingPractice]] should choose control placement by lifecycle risk while preserving [[JuniorEngineerLearning]] through deliberate [[EngineeringMentorship]]. The developer-advice source adds a complementary career response through [[ProductMindedEngineering]], [[LearningHowToLearn]], and [[SkillStacking]]: shared AI tools can raise the relative visibility of user, domain, communication, and feedback skill without making technical depth or verification disposable.",
       "status": "qualified",
       "supporting_wikilinks": [
         "Piglei",
@@ -2161,7 +2162,10 @@
         "BottleneckAwareAICoding",
         "HumanCodeResponsibility",
         "JuniorEngineerLearning",
-        "EngineeringMentorship"
+        "EngineeringMentorship",
+        "ProductMindedEngineering",
+        "LearningHowToLearn",
+        "SkillStacking"
       ]
     },
     {

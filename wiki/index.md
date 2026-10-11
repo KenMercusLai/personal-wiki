@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Advice to Young Developers](sources/advice-to-young-developers.md) - A practitioner argues that AI raises the relative value of product judgment, critical learning, communication, domain depth, skill combinations, and fast feedback while leaving its replacement claims unmeasured.
 - [Combinatorial Stable Marriages for DBMS Semantic Joins 💍](sources/combinatorial-stable-marriages-for-dbms-semantic-joins.md) - Ash Vardanian combines stable matching with on-demand vector search and finds that cross-modal representation quality sharply limits correct semantic joins at scale.
 - [连字符断词从原理到实践](sources/lian-zi-fu-duan-ci-cong-yuan-li-dao-shi-jian.md) - A typography and algorithm guide connecting browser hyphenation controls with TeX's transition from hand-authored rules to Liang's dictionary-derived weighted patterns and packed-trie lookup.
 - [让研究人员绞尽脑汁的 Transformer 位置编码](sources/rang-yan-jiu-ren-yuan-jiao-jin-nao-zhi-de-transformer-wei-zhi-bian-ma.md) - Scientific Spaces surveys absolute, relative, recurrent, bucketed, boundary-derived, and complex position mechanisms, ending with the paired rotation underlying RoPE.

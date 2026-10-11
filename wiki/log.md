@@ -9136,3 +9136,11 @@ Created [[AshVardanian]], [[Unum]], [[USearch]], [[SemanticJoin]], and [[StableM
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-11] ingest | Advice to Young Developers
+
+Updated [[ProductMindedEngineering]], [[LearningHowToLearn]], [[SkillStacking]], and [[JuniorEngineerLearning]] from their complete ordered evidence inventories. Added user and domain understanding, critical evidence-based learning, communication, complementary skill combinations, curiosity, and fast feedback as an AI-era career response while preserving technical depth as the base for diagnosis, verification, and maintenance. Qualified the article's generational hiring boundary, easy-replacement language, universal speed framing, curiosity-versus-willpower contrast, and affiliate-backed learning recommendation as unmeasured practitioner advice. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
