@@ -813,12 +813,13 @@
       "d552c43a59ce4ba216a20f3eb160659c849baa8b5f4b59cc2f54dbe8113401d2",
       "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
-      "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d"
+      "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d",
+      "f2ef6072ae5fc0fa9806517b1d648aa8804506a2348cb2af0f02ac8dfa0f76ed"
     ],
-    "paragraph_count": 813
+    "paragraph_count": 814
   },
-  "overview_commit": "c220d5275efa6f8d2cecf48035abeb784548ad78",
-  "overview_digest": "3a5dd6927fafce52b5a7dc331ac0633675805776b6e6917ab7cf25bf056d1b3c",
+  "overview_commit": "c3db9030dd71dae0973a42e88d33b0f3b5455bdd",
+  "overview_digest": "49a184710379954c13130f0efe1ab14e4dba2fd2379aff0f14b67e4a420d9493",
   "paragraphs": [
     {
       "id": "e1353c88724e438a8bf332f64f11a42a4275e3e8470b3cf4143a2bcd04098fcc",
@@ -16450,6 +16451,21 @@
         "LearningHowToLearn",
         "ProductMindedEngineering",
         "SkillStacking"
+      ]
+    },
+    {
+      "id": "f2ef6072ae5fc0fa9806517b1d648aa8804506a2348cb2af0f02ac8dfa0f76ed",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[MaiYang]] source adds [[WritingStyleDistillation]] as an evidence-selection and revision workflow inside [[AIAssistedWriting]]. Verbatim Markdown preserves sentence length, punctuation, headings, formatting, and idiom that summaries erase; exemplars are then selected by dimension, so two structurally strong articles can supply skeletons while weaker posts contribute candid tone without being averaged into the target. The resulting [[LLMToolingSkills|writing Skill]] puts event-led generative structure ahead of a blacklist, tests borrowed prohibitions against the author's favored original lines, and uses diffs between machine drafts and accepted manual edits as the proposed improvement loop. The higher-order rule is factual integrity: unknown numbers, owners, commitments, risk levels, and quotations remain explicit rather than being polished into false certainty. The evidence is one author's first extraction pass, only eight of twelve posts were available verbatim, the selected exemplars and forty-seven rules are subjective, the referenced files are not included in the supplied source, and the proposed edit-feedback cycle has not yet been run. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "LLMToolingSkills",
+        "MaiYang",
+        "WritingStyleDistillation"
       ]
     }
   ],

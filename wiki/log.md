@@ -9208,3 +9208,11 @@ Created [[DianaHu]] and [[DiscoveryLoop]], and updated [[JeffDean]], [[StartupOp
 ## [2026-10-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | 如何从自己写过的文章里提炼写作风格：我翻了 12 篇旧文，最后只有 2 篇能当骨架
+
+Created [[WritingStyleDistillation]] and updated [[MaiYang]], [[AIAssistedWriting]], and [[LLMToolingSkills]] from their complete ordered evidence inventories. Captured verbatim source fidelity, dimension-specific exemplar selection, structure-before-blacklist Skill design, validation of borrowed rules against favored original lines, real-task edit diffs as the improvement loop, and non-invention rules for facts, owners, commitments, risk levels, and quotations. Preserved the source's first-pass, single-author status, missing verbatim text for four of twelve posts, subjective exemplar selection, unavailable Skill files, absent blind comparisons, and not-yet-run feedback loop. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

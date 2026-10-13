@@ -10,6 +10,7 @@ sources:
   - what-my-most-read-tweets-taught-me-about-the-twitter-algorithm
   - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
   - ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq
+  - ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -28,6 +29,8 @@ The Grok Bot retrospective applies that practice-led stance to agent operations.
 
 The Howie Xu masterclass notes apply the same method to comprehension and career judgment. Mai Yang watches the session twice, pauses to reconstruct claims in writing, checks historical background, marks two unresolved transcript details, and turns the material into three commitments: invest in community-earned trust, connect engineering efficiency to business outcomes, and deliberately practice directing multiple agents. Her disclosed background as Cursor's first China Ambassador, organizer of Go 夜读 since 2018, and practitioner in distributed systems, engineering effectiveness, AI coding, and context engineering gives the response context but remains self-reported in this source.
 
+The writing-style retrospective turns that same inspect-and-correct habit onto her own archive. Mai Yang rejects summary-only corpora, separates the posts that provide structure from those that provide candid tone, and packages the result as a Skill with skeletons, a blacklist, and verbatim samples. She treats manual editing diffs as the missing improvement loop and makes non-invention the higher-order rule for work documents: unknown numbers, owners, commitments, risk levels, and quotations remain visibly unresolved.
+
 The learning and Muse articles are explicitly syntheses of other materials rather than original measurement, while the Grok Bot article is a retrospective rather than a comparison. Mai Yang's recurring contribution is engineering-style compression: isolate the operative state, provide a small next action, and then distinguish the immediate procedure from the broader claim it can actually support.
 
 ## Key Characteristics
@@ -36,7 +39,7 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Translates external interviews, articles, and masterclasses into practical learning frameworks tested through written reconstruction.
 - Frames LLMs as accelerators for interrogation, counterargument, review, and knowledge connection.
 - Compresses a technical recovery problem into a minimal inspect-and-restore command sequence.
-- Uses accepted deliverables to turn broad agent ambitions into bounded roles, Skills, routines, and permission decisions.
+- Uses accepted deliverables and manual revision diffs to turn broad agent or writing ambitions into bounded Skills, routines, and evidence rules.
 - Combines troubleshooting with a second-pass analysis of growth incentives, evidence quality, trust, and operating economics.
 
 ## Evidence
@@ -54,16 +57,19 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Authority boundary: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] keeps sending, publishing, spending, deletion, and overwrite behind approval until actual use justifies a narrower grant.
 - Masterclass reconstruction: [[ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq]] uses pause-and-write recall, later source checking, and explicit uncertainty to distinguish perceived understanding from usable understanding.
 - Career commitments: [[ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq]] connects Mai Yang's Go community, engineering-effectiveness work, and AI coding practice to trust, business outcomes, and multi-agent orchestration.
+- Verbatim style corpus: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] rejects four summary-only samples because they omit formatting, brevity, punctuation, and other voice evidence.
+- Style Skill design: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] selects two of twelve posts for structure, draws tone from other posts, and places event-led skeletons before a forty-seven-item blacklist.
+- Work-document integrity: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] requires explicit placeholders rather than invented data, ownership, commitments, risk levels, or rewritten quotations.
 
 ## Qualifications
-The sources give limited biographical information beyond author attribution, self-described roles, a management-transition remark, and meetup, blog, community, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. The Howie Xu article is an attendee reconstruction that mixes course content, Q&A, personal interpretation, and post-event research; it explicitly leaves two details unresolved. This remains a source-scoped author profile, not a general biography.
+The sources give limited biographical information beyond author attribution, self-described roles, a management-transition remark, and meetup, blog, community, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. The Howie Xu article is an attendee reconstruction that mixes course content, Q&A, personal interpretation, and post-event research; it explicitly leaves two details unresolved. The style experiment is also a first-person, first-pass report: four articles lacked verbatim text, exemplar selection was subjective, the files are not provided in the source, and no edit-feedback cycle or blind comparison has yet tested the claimed fit. This remains a source-scoped author profile, not a general biography.
 
 ## What Changed
-- Added practice-led publishing as another expression of her action-first posture.
-- Separated screenshot-verified reach from an unverified explanation of Twitter/X ranking.
+- Added practice-led publishing while separating screenshot-verified reach from an unverified explanation of Twitter/X ranking.
 - Added deliverable-first agent operations and staged authority as a new expression of her bounded-action method.
 - Added written reconstruction and explicit uncertainty as parts of her learning method.
 - Added self-reported community, engineering-effectiveness, AI-coding, and context-engineering context for her career analysis.
+- Added a writing-style method based on verbatim, dimension-specific samples, structural skeletons, accepted-edit diffs, and non-invention rules.
 
 ## Relationships
 - [[ActionBiasInAI]] - MaiYang's article is the source for this concept.
@@ -84,3 +90,4 @@ The sources give limited biographical information beyond author attribution, sel
 - [[HowieXu]] - speaker whose masterclass Mai Yang reconstructs and qualifies.
 - [[ActiveLearning]] - pause-and-write reconstruction exposes gaps hidden by fluent listening.
 - [[AIEraCareerImpact]] - her newest source applies the EQ, TQ, and IQ framework to trust, business outcomes, and agent orchestration.
+- [[WritingStyleDistillation]] - her archive experiment derives a maintained writing Skill from selected original work and revision evidence.

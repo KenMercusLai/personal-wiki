@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-11
-as_of_overview_commit: c220d5275efa6f8d2cecf48035abeb784548ad78
+as_of_overview_commit: c3db9030dd71dae0973a42e88d33b0f3b5455bdd
 summary: "A cross-domain map emphasizing consequential problem selection, explicit boundaries, accountable judgment, sustainable learning, and evidence-calibrated tradeoffs."
-episode_count: 1141
-source_count: 1141
-paragraph_count: 813
+episode_count: 1142
+source_count: 1142
+paragraph_count: 814
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical value begins with consequential workload selection, then depends on representation quality, explicit state and lifecycle boundaries, verification, observability, accountable judgment, and bounded effects.
+Technical value begins with consequential workload selection, then depends on representation quality, explicit state and lifecycle boundaries, verification, observability, accountable judgment, bounded effects, and fidelity-preserving human ownership.
 
 - [[AIEraInfrastructureEngineering]] joins [[TechnologyEnablerStack]] and [[AIInfrastructureStack]] into a strategic-to-operational sequence: choose a consequential workload and customer problem, then use AI-assisted implementation without surrendering architecture, optimization, verification, or critical low-level understanding; [[AstroVela]] and [[Vane]] are announced applications of that thesis rather than validation of it. Evidence: [[AIEraInfrastructureEngineering]], [[TechnologyEnablerStack]], [[AIInfrastructureStack]], [[AstroVela]], [[Vane]], [[VaneData]], [[Kakachen]].
 - [[SemanticJoin]] combines [[StableMatching]] with [[ApproximateNearestNeighborSearch]] so [[USearch]] can retrieve preferences on demand rather than materialize every pairwise ranking; the reported results show that correct joins depend on cross-collection [[Embeddings]] alignment and decline sharply with scale, especially across image and text. Evidence: [[SemanticJoin]], [[StableMatching]], [[ApproximateNearestNeighborSearch]], [[USearch]], [[Embeddings]], [[HNSWIndex]], [[AshVardanian]].

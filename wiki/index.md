@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何从自己写过的文章里提炼写作风格：我翻了 12 篇旧文，最后只有 2 篇能当骨架](sources/ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia.md) - Mai Yang derives an author-specific writing Skill from verbatim, dimension-selected examples, then makes real editing diffs and non-invention rules the path to improvement.
 - [0% 是机会，20% 是陷阱：Jeff Dean 离职前那场 YC 访谈里，我抄走了三条判断](sources/0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan.md) - Mai Yang extracts a two-stage AI opportunity screen, a forecast-ledger practice for taste, and the rising value of specifications and expert Skills, while preserving demand and moving-frontier limits.
 - [听的时候全懂，一动笔全废：硅谷徐老师大师课上的 EQ × TQ × IQ](sources/ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq.md) - Mai Yang uses written reconstruction to expose false comprehension, then connects Howie Xu's EQ × TQ × IQ framework with trust, attention, workflow redesign, and outcome ownership.
 - [Traceroute the World | 卡瓦邦噶！](sources/traceroute-the-world-ka-wa-bang-ga.md) - A Singapore-hosted experiment replaces sequential traceroute with TTL-round IPv4 scans using XDP, ring buffers, bitmaps, mmap, and sparse files, reporting a qualified 34-hop result.
@@ -3006,6 +3007,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
 
 ## Concepts
+- [Writing Style Distillation](concepts/WritingStyleDistillation.md) - Deriving and iteratively refining an author-specific writing guide from verbatim, dimension-selected exemplars and real editing diffs.
 - [AI-Era Career Impact](concepts/AIEraCareerImpact.md) - Source-scoped career framework combining human trust and attention, AI-orchestration ability, intelligence and intensity, superlinear leverage, and outcome ownership.
 - [Traceroute](concepts/Traceroute.md) - TTL-stepped network diagnostic method whose response behavior can reveal path progress but not necessarily a complete, stable router count.
 - [Internet-Wide Network Scanning](concepts/InternetWideNetworkScanning.md) - High-rate address-space probing designed jointly around packet paths, attribution, state, rate control, safety, and measurement uncertainty.

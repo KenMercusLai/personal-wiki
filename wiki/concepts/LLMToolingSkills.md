@@ -12,6 +12,7 @@ sources:
   - mario-zechner-what-if-you-dont-need-mcp-at-all
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
   - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
+  - ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -38,6 +39,8 @@ Frost Ming adds an agent-authorship variant. In his Bub experiment, the agent cr
 
 Mai Yang's account of Jeff Dean supplies a compact expert-procedure example: Dean and Sanjay Ghemawat reportedly encoded their microbenchmark optimization loop—measure, modify, rerun, widen the benchmark set, and inspect cache footprint—so a model could iterate using the approach they would use themselves. The example clarifies what a procedural Skill transfers: an ordered investigation and feedback loop, not merely a reference document or a claim that the model now possesses the experts' complete judgment.
 
+Mai Yang's writing-style experiment adds an editorial Skill pattern. Its package separates the main operating guide from a blacklist and verbatim voice samples, but its deeper contribution is selection and feedback: choose exemplars by dimension rather than averaging every old article, put generative structure before surface prohibitions, test borrowed rules against strong original lines, and update the Skill from real draft-to-edit diffs. The case also shows why a Skill needs priority rules: factual non-invention and explicit unknowns outrank sounding like the author.
+
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
 - Skill-following depends on the model's respect for context and remains probabilistic, and over-constraining behavior can make reasoning less flexible.
@@ -45,7 +48,7 @@ Mai Yang's account of Jeff Dean supplies a compact expert-procedure example: Dea
 - Skills remain useful when a task is too open-ended, low-interaction, or expensive to encode as a dedicated server API.
 - Skills can encode linear SOPs, measurement-and-feedback loops, exploration, and brainstorming; their value lies in transferring an expert approach without implying complete transfer of expert judgment.
 - Skills work best when separated from rules and specs: a lightweight always-on index plus on-demand full instructions protects context capacity and instruction salience better than one undifferentiated prompt file.
-- A skill or informal README-described tool folder can ship instructions, examples, scripts, metadata, safety rules, and recurring-work conventions when the client agent already supplies the runtime.
+- A skill or informal README-described tool folder can ship instructions, examples, scripts, metadata, safety rules, recurring-work conventions, and curated style references when the client agent already supplies the runtime.
 
 ## Evidence
 - Prompt nature: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] describes Skills as instructions shown to the LLM rather than external action channels.
@@ -71,16 +74,18 @@ Mai Yang's account of Jeff Dean supplies a compact expert-procedure example: Dea
 - Formal-system comparison: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] credits skills with progressive disclosure and broad accessibility but prefers explicit README loading because of perceived discovery and metadata overhead.
 - Agent-authored self-extension: [[chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog]] reports Bub creating a Telegram Skill that displaced built-in sending code and managing its own supporting artifacts.
 - Expert optimization loop: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] reports Dean and Ghemawat turning their repeated microbenchmark process into a Skill for model-driven iteration.
+- Editorial package: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] describes a writing Skill split across `SKILL.md`, a forty-seven-item blacklist, and twelve voice-sample groups, while noting that only eight source articles were available verbatim.
+- Selection and feedback: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] selects structure and tone examples separately, validates prohibitions against favored original lines, and proposes manual editing diffs as the update loop.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. The optimization example reports no benchmark establishing how much the Skill improved performance reasoning, how often the loop converged, or which expert choices remained implicit. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. The optimization example reports no benchmark establishing how much the Skill improved performance reasoning, how often the loop converged, or which expert choices remained implicit. The writing-style case likewise reports no blind output comparison, makes subjective exemplar choices, withholds the completed files from the supplied source, and has not yet run its proposed edit-feedback cycle. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
 
 ## What Changed
-- Broadened the definition to cover reviewed reference implementations merged into an installation as well as prompt-only guidance and bundled executable assets.
-- Separated the auditability benefit of selective installation from the security guarantees still required at runtime.
+- Broadened the definition to cover prompt guidance, bundled executables, and reviewed reference implementations while separating installation auditability from runtime security.
 - Added explicit README loading as a cross-agent, informal progressive-disclosure variant.
 - Added agent-authored Skills as a self-extension mechanism and made their provenance, review, and rollback costs explicit.
 - Added an expert-authored measurement-and-feedback loop as a concrete procedural Skill pattern.
+- Added writing-style Skills as a curated instruction-and-reference package whose rules improve through accepted-edit diffs and remain subordinate to factual integrity.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.
@@ -94,3 +99,4 @@ The sources evaluate Skills conceptually and through practitioner workflow rathe
 - [[AgentPermissionModel]] - runtime-enforced authority must backstop probabilistic safety instructions in skills.
 - [[NanoClaw]] - uses reviewed skill merges to keep its installed code surface owner-selected and explicit.
 - [[AINativeAgentArchitecture]] - uses agent-created Skills and runtime artifacts to move capability ownership out of the host framework.
+- [[WritingStyleDistillation]] - applies Skill packaging to author-specific structure, voice samples, prohibitions, and revision feedback.
