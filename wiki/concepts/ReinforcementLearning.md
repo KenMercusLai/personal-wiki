@@ -9,7 +9,8 @@ sources:
   - gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft
   - large-language-model-technical-reports-overview
   - rl-is-an-evolutionary-algorithm
-last_updated: 2026-10-09
+  - training-100x-cheaper-retrieval-models-neon-and-castform
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,6 +25,8 @@ Language models turn generated tokens, searches, and answers into policy actions
 [[DeepSeekR1]] sharpens two distinctions. First, R1-Zero reports that outcome-verifiable RL can induce extended reasoning without initial SFT, but the practical R1 model adds cold-start examples, rejection-sampled SFT, language-consistency reward, and a second RL phase to improve readability and general behavior. Second, rule-based correctness and format rewards can be more robust than learned reward models on objectively checkable tasks, but they do not solve reward design for open-ended output. [[KimiK15]] similarly combines long-chain SFT and RL over curated verifiable prompts, then uses curriculum, prioritized sampling, and length penalties to balance difficulty and reasoning cost.
 
 A deliberately loose [[EvolutionaryOptimizationAnalogy]] adds a selection-pressure view: sampled behaviors vary, reward changes their future probability, and diverse tasks may favor strategies that transfer. Its practical contribution is the selection-pressure question rather than a new RL definition. [[InstructionRewardAlignment]] determines whether following a stated constraint is actually competitive; mismatched environments may reward cheating or broad avoidance. [[AgenticJudging]] is proposed for qualitative requirements that deterministic checks cannot score, but judge hacking, correlated errors, and rule misspecification remain unresolved.
+
+The [[Castform]] case study grounds those reward-design concerns in a corpus-specific retrieval workflow. It synthetically derives questions and ground truths from documents, exposes a hybrid-search tool, and combines correct-source retrieval, correct-chunk citation, and answer correctness into the reward. The reported reward curve improves while remaining noisy, and individual rollout inspection is intended to reveal broken tools or reward hacking. This shows how proprietary data can define an environment without an existing hand-labeled task set, but inferred ground truth and synthetic questions can also carry generation errors and coverage bias into the policy.
 
 ## Key Claims
 - Reinforcement learning is suited to sequences of decisions whose quality is evaluated through later outcomes, but the environment, instructions, reward, and judge determine what behavior is competitive.
@@ -46,15 +49,16 @@ A deliberately loose [[EvolutionaryOptimizationAnalogy]] adds a selection-pressu
 - Selection-pressure framing: [[rl-is-an-evolutionary-algorithm]] maps sampled behavior to variation and reward to selection, then predicts that diverse tasks should favor more transferable strategies.
 - Instruction and reward consistency: [[rl-is-an-evolutionary-algorithm]] contrasts unrewarded instructions with unstated penalties and argues that localized mismatch can select environment-sensitive cheating.
 - Qualitative feedback: [[rl-is-an-evolutionary-algorithm]] proposes privileged agentic judges while explicitly retaining judge hacking, enforcement reliability, and rule choice as open problems.
+- Corpus-specific post-training: [[training-100x-cheaper-retrieval-models-neon-and-castform]] constructs synthetic tasks from documents and scores retrieval, citation, and final-answer correctness over a hybrid search environment.
+- Learning and infrastructure trace: [[training-100x-cheaper-retrieval-models-neon-and-castform]] shows a rising but noisy average-reward curve and a bursty database workload created by thousands of parallel multi-search rollouts.
 
 ## Counterevidence & Qualifications
-The sources are a career essay, tutorials, historical journalism, a 2016 forecast, a secondary overview of vendor technical reports, and a speculative practitioner essay rather than a unified experimental literature. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely on vendor benchmarks and checkable-task-heavy training, with no independent reproduction here. Removing a critic does not remove rollout cost, variance, or reward dependence, and rule rewards can be gamed or become unavailable for subjective work. The evolutionary essay explicitly uses nonstandard agent/policy terminology and does not experimentally establish its claims about multi-domain generalization, deception, evaluation awareness, or agentic judging. More reasoning tokens can improve some benchmark answers while increasing latency, cost, and opportunities for unfaithful or redundant traces.
+The sources are a career essay, tutorials, historical journalism, a 2016 forecast, secondary overviews, vendor reports, and speculative practitioner material rather than a unified experimental literature. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely on vendor benchmarks and checkable-task-heavy training, with no independent reproduction here. Castform likewise omits evaluation and training details, while corpus-derived synthetic questions and inferred answers can encode errors, blind spots, and reward shortcuts. A rising training reward does not establish held-out generalization. Removing a critic does not remove rollout cost, variance, or reward dependence, and rule rewards can be gamed or become unavailable for subjective work. The evolutionary essay explicitly uses nonstandard agent/policy terminology and does not experimentally establish its claims about multi-domain generalization, deception, evaluation awareness, or agentic judging. More reasoning or tool actions can improve some tasks while increasing latency, cost, infrastructure load, and opportunities for unfaithful or redundant traces.
 
 ## What Changed
-- Added the evolutionary framing as a qualified way to reason about selection pressure, not a formal RL equivalence.
-- Added instruction-reward mismatch as a route to cheating, blanket avoidance, or environment-sensitive behavior.
-- Added agentic judging as a proposed extension beyond deterministic rewards, with explicit hacking and reliability limits.
-- Reframed environment design to include task diversity, stated constraints, rewards, and judge behavior together.
+- Added corpus-derived questions and inferred answers as a way to construct retrieval-training tasks without a pre-existing labeled set.
+- Added composite retrieval, citation, and correctness rewards as a concrete environment design.
+- Added noisy reward trajectories, rollout inspection, synthetic-data bias, and bursty tool load as coupled training and evaluation concerns.
 
 ## Related Concepts
 - [[GroupRelativePolicyOptimization]] - removes PPO's learned critic and estimates advantage from grouped response rewards.
@@ -67,3 +71,5 @@ The sources are a career essay, tutorials, historical journalism, a 2016 forecas
 - [[EvolutionaryOptimizationAnalogy]] - reframes stochastic behavior and reward updates as variation and selection.
 - [[InstructionRewardAlignment]] - asks whether rewarded behavior matches the constraints given to the policy.
 - [[AgenticJudging]] - supplies qualitative feedback when deterministic outcome checks are insufficient.
+- [[Castform]] - manages the corpus-derived task, tool, reward, and rollout workflow in the Neon case study.
+- [[Neon]] - supplies the searchable environment queried repeatedly during the retrieval-policy rollouts.

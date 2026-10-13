@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "training-100x-cheaper-retrieval-models-neon-and-castform",
+  "images": [
+    {
+      "file": "fixed-rag-versus-agentic-search.jpg",
+      "alt": "Fixed RAG pipeline compared with a model-controlled agentic search loop"
+    },
+    {
+      "file": "cost-reward-benchmark.jpg",
+      "alt": "Vendor benchmark of per-rollout inference cost and mean evaluation reward"
+    },
+    {
+      "file": "training-reward-curve.jpg",
+      "alt": "Average reward rises and then fluctuates around a higher plateau during training"
+    },
+    {
+      "file": "neon-training-cpu-trace.jpg",
+      "alt": "Neon CPU trace showing bursty used compute below dynamically allocated capacity"
+    }
+  ]
+}

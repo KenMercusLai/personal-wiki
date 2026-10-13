@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Training 100x Cheaper Retrieval models Neon and Castform](sources/training-100x-cheaper-retrieval-models-neon-and-castform.md) - Neon and Castform present corpus-derived RL post-training for a hybrid-search agent, with vendor-reported cost/reward gains and elastic database infrastructure.
 - [如何从自己写过的文章里提炼写作风格：我翻了 12 篇旧文，最后只有 2 篇能当骨架](sources/ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia.md) - Mai Yang derives an author-specific writing Skill from verbatim, dimension-selected examples, then makes real editing diffs and non-invention rules the path to improvement.
 - [0% 是机会，20% 是陷阱：Jeff Dean 离职前那场 YC 访谈里，我抄走了三条判断](sources/0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan.md) - Mai Yang extracts a two-stage AI opportunity screen, a forecast-ledger practice for taste, and the rising value of specifications and expert Skills, while preserving demand and moving-frontier limits.
 - [听的时候全懂，一动笔全废：硅谷徐老师大师课上的 EQ × TQ × IQ](sources/ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq.md) - Mai Yang uses written reconstruction to expose false comprehension, then connects Howie Xu's EQ × TQ × IQ framework with trust, attention, workflow redesign, and outcome ownership.
@@ -1171,6 +1172,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Castform](entities/Castform.md) - Model post-training platform that turns an existing corpus into synthetic retrieval tasks and manages tool-using reinforcement-learning rollouts.
 - [Diana Hu](entities/DianaHu.md) - Y Combinator partner, engineer, and entrepreneur represented through an interview method that turns historical achievements into concrete present-day questions.
 - [Discovery Loop](entities/DiscoveryLoop.md) - Source-scoped AI company profile centered on automated parallel experiments in science and engineering.
 - [Howie Xu](entities/HowieXu.md) - AI executive, entrepreneur, and lecturer represented through an AI-era career framework built around trust, token orchestration, intensity, and outcome ownership.

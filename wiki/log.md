@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-13] ingest | Training 100x Cheaper Retrieval models Neon and Castform
+
+Created [[Castform]] and updated [[Neon]], [[AgenticRAG]], and [[ReinforcementLearning]] from their complete ordered evidence inventories. Recorded corpus-derived synthetic tasks, a BM25-plus-vector search tool, composite retrieval/citation/correctness rewards, rollout observability, bursty elastic search demand, and proposed branch-per-rollout isolation for state-changing agents. Preserved the joint vendor source's missing dataset, sample count, uncertainty, token, hardware, and tool-budget details; limited the near-100x cost claim to the displayed GPT-5.6 Sol comparison; and distinguished rising training reward and one CPU trace from held-out quality or comparative infrastructure evidence. Opened and retained all four evidence-bearing remote images at their semantic positions.
+
 ## [2026-10-11] ingest | 连字符断词从原理到实践
 
 Created [[Hyphenation]], [[LiangHyphenationAlgorithm]], [[TeX]], [[FrankLiang]], [[DonaldKnuth]], and [[Univer]]. Connected the visual tradeoff between ragged line endings and visible hyphens to language-sensitive browser controls, and separated dictionary-derived pattern learning, runtime max-priority matching, and packed-trie storage in the TeX lineage. Preserved the source's incomplete packed-trie explanation, non-monotonic accuracy table, time-sensitive CSS support, unverified historical figures, and practitioner scope. Opened all five remote images and retained the before/after layout comparison, hyphenation-zone diagram, pattern-level statistics, and worked pattern-matching example at their semantic positions.
@@ -9212,6 +9216,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-13] ingest | 如何从自己写过的文章里提炼写作风格：我翻了 12 篇旧文，最后只有 2 篇能当骨架
 
 Created [[WritingStyleDistillation]] and updated [[MaiYang]], [[AIAssistedWriting]], and [[LLMToolingSkills]] from their complete ordered evidence inventories. Captured verbatim source fidelity, dimension-specific exemplar selection, structure-before-blacklist Skill design, validation of borrowed rules against favored original lines, real-task edit diffs as the improvement loop, and non-invention rules for facts, owners, commitments, risk levels, and quotations. Preserved the source's first-pass, single-author status, missing verbatim text for four of twelve posts, subjective exemplar selection, unavailable Skill files, absent blind comparisons, and not-yet-run feedback loop. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-13] lint | Wiki health check
 
