@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video](sources/2609.37969.md) - Liu, Ye, Xue, and colleagues combine paired flow training, frame-reward post-training, staged DMD-GAN distillation, and systems optimization for qualified one-step 4K video refinement.
 - [Frontier Overhangs](sources/frontier-overhangs.md) - Ben Thompson frames frontier AI pacing through capability, product, pricing, capital, and safety overhangs while qualifying the thesis with limited economic, cyber, and motive evidence.
 - [LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics](sources/p5662-hao-corrected.md) - Hao and collaborators co-design an ephemeral filter-aware cache format with pushdown execution to approach Arrow CPU and Parquet space efficiency, with non-selective and prototype-scope limits.
 - [FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks](sources/2610.01967.md) - Qiao and collaborators combine runtime-evidence selection, context-aware pruning, risk scheduling, and reversible workload reduction to cut GPU-heavy LLM-framework CI cost and latency, with important first-party coverage limits.
@@ -1185,6 +1186,20 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apps, Agents, and Aggregation](sources/apps-agents-and-aggregation.md) - Ben Thompson argues that computer-using agents can abstract apps, generate personal UI, and aggregate inspiration and execution, using Muse and Microsoft Copilot as consumer and enterprise cases.
 
 ## Entities
+- [SoL-Refiner](entities/SoLRefiner.md) - Nvidia one-step model for improving and optionally upsampling generated video across multiple base generators.
+- [Refiner-Bench](entities/RefinerBench.md) - Shared-input benchmark of 150 generated videos from WAN, SANA-Video, and LTX-2 Stage 1.
+- [Haozhe Liu](entities/HaozheLiu.md) - Equal-contribution Nvidia lead author of the SoL-Refiner study.
+- [Tian Ye](entities/TianYe.md) - Equal-contribution Nvidia lead author of the SoL-Refiner study.
+- [Shuchen Xue](entities/ShuchenXue.md) - Equal-contribution Nvidia lead author of the SoL-Refiner study.
+- [Yitong Li](entities/YitongLi.md) - Nvidia researcher connected to SoL-Refiner, H3 acceleration, and Sol-Engine.
+- [Junsong Chen](entities/JunsongChen.md) - Nvidia researcher working across SANA video generation, SoL refinement, and Sol acceleration.
+- [Haopeng Li](entities/HaopengLi.md) - Nvidia researcher connected to SoL-Refiner, Sol-Engine, and Sol-Attn.
+- [Jincheng Yu](entities/JinchengYu.md) - Nvidia researcher connected to SoL-Refiner and related SANA and Sol video systems.
+- [Duomin Wang](entities/DuominWang.md) - Nvidia researcher connected to SoL-Refiner and sparse-attention video inference.
+- [Ruihua Zhang](entities/RuihuaZhang.md) - Nvidia researcher connected to SoL-Refiner and Sol-Attn.
+- [Lei Zhu](entities/LeiZhu.md) - Nvidia coauthor of the SoL-Refiner method and evaluation.
+- [Song Han](entities/SongHan.md) - Researcher represented through efficient SANA and Sol video-generation systems.
+- [Enze Xie](entities/EnzeXie.md) - Nvidia researcher connected to base generation, refinement, and inference acceleration.
 - [Dario Amodei](entities/DarioAmodei.md) - Anthropic CEO represented through the contested frontier-pacing debate and Thompson's competitive-incentive interpretation.
 - [LiquidCache](entities/LiquidCache.md) - Disaggregated analytical cache that progressively transcodes Parquet into an ephemeral representation co-designed with filter execution.
 - [Apache DataFusion](entities/ApacheDataFusion.md) - Embeddable analytical engine used as LiquidCache's optimizer, connector, and cache-side execution substrate.
@@ -3059,6 +3074,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Video Refinement](concepts/VideoRefinement.md) - Post-generation improvement of local video detail, texture, resolution, and synthesis artifacts while preserving upstream content and motion.
+- [One-Step Diffusion Distillation](concepts/OneStepDiffusionDistillation.md) - Compression of a multi-step diffusion or flow teacher into one learned-model evaluation through staged distribution and adversarial training.
 - [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier-model progress and customer adoption, product capture, inference pricing, capital returns, and defensive capability.
 - [Filter Pushdown](concepts/FilterPushdown.md) - Early predicate execution whose value depends on selectivity, source compression, decoding cost, operator compatibility, and network representation.
 - [Disaggregated Caching](concepts/DisaggregatedCaching.md) - Shared cache-service architecture that scales separately from compute while trading among network, cache CPU, and cache memory.

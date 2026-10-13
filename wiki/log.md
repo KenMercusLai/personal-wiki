@@ -9316,3 +9316,11 @@ Created [[FrontierModelOverhangs]] and [[DarioAmodei]], and updated [[BenThompso
 ## [2026-10-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video
+
+Created [[SoLRefiner]], [[RefinerBench]], [[VideoRefinement]], [[OneStepDiffusionDistillation]], and profiles for all twelve authors; updated [[Nvidia]] and [[DiffusionModelSampling]] from their complete ordered evidence inventories. Captured truncated-sigma paired flow training, temporally stratified frame rewards, staged DMD-GAN compression, TAE and Sol-Engine acceleration, the shared-input benchmark, cross-generator results, and the distinction between refinement and full semantic or motion correction. Preserved the one-step quality gap to the 23-step model, metric and output-resolution limits, first-party benchmark and hardware dependence, frame-reward temporal blind spot, and separate baselines behind the 8.91x and 27.03x figures. Opened all 11 substantive remote figures, retained seven nonredundant evidence-bearing figures, and omitted decorative badges and redundant overview, deployment, and appendix views.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

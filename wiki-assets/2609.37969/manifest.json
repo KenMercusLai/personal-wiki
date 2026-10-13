@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "2609.37969",
+  "images": [
+    {
+      "file": "minimax-h3-end-to-end-latency.png",
+      "alt": "Latency comparison between direct full-resolution MiniMax H3 and low-resolution H3 followed by SoL-Refiner"
+    },
+    {
+      "file": "refinement-quality-examples.png",
+      "alt": "Aligned video frames and magnified crops before and after SoL-Refiner"
+    },
+    {
+      "file": "training-and-inference-pipeline.png",
+      "alt": "SoL-Refiner three-stage training and one-step inference pipeline"
+    },
+    {
+      "file": "resolution-performance.png",
+      "alt": "VBench and UniPercept comparison with LTX-2.3 Refiner from 720p through 4K"
+    },
+    {
+      "file": "base-generator-quality-and-latency.png",
+      "alt": "Quality and end-to-end latency of SoL-Refiner pipelines across three base video generators"
+    },
+    {
+      "file": "rl-post-training-quality-example.png",
+      "alt": "Aligned frames comparing low-quality input and SoL-Refiner outputs without and with RL post-training"
+    },
+    {
+      "file": "refinement-latency-breakdown.png",
+      "alt": "SoL-Refiner latency scaling and component-by-component acceleration breakdown"
+    }
+  ]
+}

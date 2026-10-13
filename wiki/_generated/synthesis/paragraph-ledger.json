@@ -824,12 +824,13 @@
       "b8e300540eead8d1809ec6fa20928b207fbccdf204907f92e3226c6a078bf2ac",
       "cc4b4c6c77f311dd7d8fa7d66a86515c656a4f6c0af0016d8eefeb96289c18ef",
       "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8",
-      "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df"
+      "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df",
+      "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88"
     ],
-    "paragraph_count": 824
+    "paragraph_count": 825
   },
-  "overview_commit": "c47c8478a4c0237efa0fa36946a9cf48af4c1a08",
-  "overview_digest": "2de342e14401df041ce86a3d2c769aac74cb1d71b37155b41f1b621ddf55ad51",
+  "overview_commit": "10cad487facecd630bfb2b7d301822445927b464",
+  "overview_digest": "619adcef257e4f96a8dc0f8959347dffc62dc07796904519fb23062877b4ab8a",
   "paragraphs": [
     {
       "id": "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
@@ -16663,6 +16664,27 @@
         "FrontierModelOverhangs",
         "Muse",
         "OpenAI"
+      ]
+    },
+    {
+      "id": "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[Nvidia]] paper adds [[VideoRefinement]] as a generated-video task distinct from generic restoration and [[OneStepDiffusionDistillation]] as one way to reduce its target-resolution cost. [[SoLRefiner]] first learns a low-to-high-quality truncated-flow mapping from paired videos, then applies frame-based HPSv3++ and DeQA reward feedback to selected late denoising steps, and finally compresses the multi-step teacher through a three-step DMD intermediate into a one-step DMD-GAN student. At inference, low-resolution base generation carries content and motion, while a tiny autoencoder, latent upsampling and noise, one Sol-Engine refiner evaluation, and decoding recover local detail. The author-built [[RefinerBench]] separates refiner comparison from upstream generation by aligning 150 inputs from WAN 2.1, SANA-Video, and LTX-2 Stage 1. The paper reports leading external-refiner VBench and UniPercept averages near 2K, higher scores than LTX-2.3 from 720p through 4K, and a 57.461-to-6.447-second refinement reduction from the combined one-step, TAE, and engine stack. These are first-party, hardware- and protocol-specific results rather than universal ratios: the 23-step model remains better, one competitor uses a slightly different output size, three sampled-frame rewards do not measure long-range consistency, selected visual cases do not establish average behavior, and major semantic, geometric, or motion repair lies outside the objective. All 11 substantive remote figures were opened; seven complementary pipeline, quality, benchmark, and latency figures were retained at their semantic positions, while decorative badges, a redundant overview panel, a redundant DGX Spark latency chart, and two appendix qualitative repeats were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Nvidia",
+        "OneStepDiffusionDistillation",
+        "RefinerBench",
+        "SoLRefiner",
+        "VideoRefinement"
       ]
     }
   ],
