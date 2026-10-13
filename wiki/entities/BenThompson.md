@@ -13,12 +13,13 @@ sources:
   - google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson
   - ibms-old-playbook-stratechery-by-ben-thompson
   - its-a-tesla-stratechery-by-ben-thompson
+  - apps-agents-and-aggregation
 last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, mature-company strategy, consumer-market theory limits, [[Amazon]]'s scale-driven services model, [[AggregationTheory]], data and monopoly power, operational unbundling, capability stacks, and IBM's attempt to reuse an enterprise-integration playbook for hybrid cloud.
+[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, mature-company strategy, consumer-market theory limits, [[AggregationTheory]], operational unbundling, capability stacks, and the prospective shift from apps toward agent-mediated computing.
 
 ## Current Profile
 The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeCloud]] through the economics of packaged software, SaaS, productivity apps, and mobile platforms. His argument moves from user-level willingness to pay to producer incentives and then to platform-owner strategy: subscriptions can help app makers survive, but they can also help platform owners retain users who depend on indispensable apps. The Apple middle-age source shows the same incentive lens applied to a hardware company: Thompson argues that [[AppleMusic]] and Services should be understood as ways to differentiate and sell Apple devices, with [[HomePod]] as a case where service adoption bridges into hardware profit. The Apple social-network source adds a measurement lens: if Apple wants investors to value engagement and installed-base monetization, Thompson argues it should disclose active customers and revenue per user rather than only active devices and Services revenue.
@@ -37,14 +38,16 @@ The IBM essay adds a historical-analogy and organizational-readiness lens. Thomp
 
 The Tesla essay adds a theory-scope lens. Thompson agrees that Tesla is sustaining rather than classic disruptive innovation, then rejects the inference that low-end disruption is the only viable market-entry strategy. He uses Apple and Tesla to argue that consumer choice includes integration, identity, emotion, design, and [[BrandEquity]] that modular good-enough comparisons may miss. The argument is deliberately bounded by refundable reservations, external financing, and unresolved Model 3 execution.
 
+The 2026 agent essay combines several of these recurring lenses. Thompson uses a first-person Muse recipe experiment to argue that agents equipped with computers can abstract task-specific apps, generate personal UI, and continue work asynchronously. He then extends Aggregation Theory from discovery to inspiration and execution, interpreting Muse and [[MicrosoftCopilot]] as bids to control the primary consumer or employee interface while downstream apps become suppliers. The essay is a forecast grounded in one useful but incomplete workflow and product announcements; it does not establish mass adoption or durable agent concentration.
+
 ## Key Characteristics
 - Frames technology announcements and regulation through business-model incentives and system boundaries.
-- Uses economic-surplus reasoning to explain why packaged productivity software misprices different users.
-- Connects software monetization to platform strategy rather than treating it as a developer-only concern.
+- Uses economic-surplus reasoning to connect software monetization with user value and platform strategy.
 - Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
 - Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
 - Uses reporting choices, customer metrics, and engagement programs to test whether a company's public story matches its underlying economics.
-- Separates goals, strategies, tactics, capability layers, and theory scope while testing playbooks against changed customers, consumer choice, competitors, culture, and value-chain position.
+- Separates goals, strategies, tactics, capability layers, and theory scope while testing playbooks against changed customers, interfaces, competitors, culture, and value-chain position.
+- Uses first-person technology adoption as a concrete input while distinguishing demonstrated workflow utility from broader platform forecasts.
 
 ## Evidence
 - Business-model lens: [[adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson]] says Adobe's announcement matters because new business models are rarer than new product versions.
@@ -69,14 +72,17 @@ The Tesla essay adds a theory-scope lens. Thompson agrees that Tesla is sustaini
 - Organizational readiness: [[ibms-old-playbook-stratechery-by-ben-thompson]] argues that a plausible problem and acquisition still require customer demand, infrastructure economics, competitive advantage, and cultural preparation.
 - Theory-scope test: [[its-a-tesla-stratechery-by-ben-thompson]] accepts Tesla's sustaining-innovation classification while disputing the claim that disruption is the only viable market-entry strategy.
 - Consumer-choice lens: [[its-a-tesla-stratechery-by-ben-thompson]] uses sight-unseen Model 3 reservations and the Apple analogy to make brand and hard-to-measure product attributes part of strategy analysis.
+- Agent workflow: [[apps-agents-and-aggregation]] documents Thompson's use of Muse to create a personal recipe box and continue extracting ingredients under Instagram rate limits.
+- Interface strategy: [[apps-agents-and-aggregation]] argues that computer-using agents and [[GenerativeUI]] can turn apps into implementation suppliers behind one natural-language relationship.
+- Aggregation extension: [[apps-agents-and-aggregation]] proposes that agents may aggregate inspiration and execution, with Meta and Microsoft advantaged by existing distribution and context.
 
 ## Qualifications
-This page covers Thompson only through ten Stratechery articles. It does not summarize his broader publishing history, later writing, or current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, and Model 3 customer-grace theses were prospective and should not be read as verified later outcomes. The Tesla essay's refundable deposits and company-reported luxury sales do not isolate brand effects or prove profitable mass-market execution. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and its user-agency premise is qualified by unequal resources and ability to exit. The Facebook monopoly and IBM essays are economic strategy arguments rather than causal, legal, or operational evaluations.
+This page covers Thompson only through eleven Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, and agent-aggregation theses were prospective and should not be read as verified later outcomes. The Muse case is one first-person workflow and does not establish general reliability, correctness, accessibility, maintenance, or adoption. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the Facebook monopoly and IBM essays are economic strategy arguments rather than causal, legal, or operational evaluations.
 
 ## What Changed
-- Added Thompson's distinction between classifying Tesla as sustaining innovation and judging its entry strategy viable.
-- Added consumer choice and brand meaning as limits on mechanical application of low-end disruption theory.
-- Preserved reservations, customer grace, and Model 3 execution as bounded 2016 evidence and forecasts.
+- Added agent-mediated computing, generative UI, and the shift from discovery toward inspiration as new applications of Thompson's platform lens.
+- Added Muse and Microsoft Copilot as source-scoped consumer and enterprise platform-aggregation cases.
+- Preserved the distinction between one demonstrated personal workflow and a broader market forecast.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -106,3 +112,7 @@ This page covers Thompson only through ten Stratechery articles. It does not sum
 - [[ClaytonChristensen]] - theorist whose disruption framework Thompson accepts as a classification but challenges as a complete prescription.
 - [[Tesla]] - premium electric-vehicle entrant used to separate sustaining innovation from failed market entry.
 - [[BrandEquity]] - accumulated meaning used to explain reservations before full product inspection.
+- [[AgentNativeComputing]] - proposed shift from app-specific interfaces to agents operating and creating software.
+- [[GenerativeUI]] - on-demand interface creation illustrated by Thompson's recipe-box experiment.
+- [[MicrosoftCopilot]] - enterprise-agent platform bid in Thompson's 2026 analysis.
+- [[Muse]] - consumer-agent product Thompson used and interprets as a prospective aggregator.

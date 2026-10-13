@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source_key": "2610.01967",
+  "images": [
+    {
+      "file": "path-mapping-vs-runtime-evidence.png",
+      "alt": "Path-based mappings select three tests while function-level runtime evidence identifies one affected test"
+    },
+    {
+      "file": "fastci-architecture.png",
+      "alt": "FastCI architecture linking persistent runtime evidence and failure history to test selection, scheduling, GPU execution, and trace refresh"
+    },
+    {
+      "file": "missing-evidence-selection-expansion.png",
+      "alt": "Affected-test selection directly from runtime evidence or through within-class expansion when the changed method is missing"
+    },
+    {
+      "file": "context-aware-test-pruning.png",
+      "alt": "Context-aware pruning retains different execution paths while removing a test with equivalent context and validation purpose"
+    },
+    {
+      "file": "failure-frontloading-comparison.png",
+      "alt": "First-failure rank and GPU card-hours before failure for production order, two risk indicators, COLEMAN, and FastCI"
+    },
+    {
+      "file": "selected-tests-comparison.png",
+      "alt": "Selected test counts relative to full CI for path-based selection, NameRTS, FastCI-select, and FastCI"
+    },
+    {
+      "file": "gpu-resource-comparison.png",
+      "alt": "GPU card-hours relative to full CI for path-based selection, NameRTS, FastCI-select, and FastCI"
+    },
+    {
+      "file": "ci-latency-comparison.png",
+      "alt": "CI latency relative to full CI for path-based selection, NameRTS, FastCI-select, and FastCI"
+    },
+    {
+      "file": "queue-latency-comparison.png",
+      "alt": "Queueing time relative to full CI for path-based selection, NameRTS, FastCI-select, and FastCI"
+    },
+    {
+      "file": "ci-latency-cdf.png",
+      "alt": "Cumulative distribution of CI latency under full CI, path-based selection, NameRTS, FastCI-select, and FastCI"
+    },
+    {
+      "file": "queue-latency-cdf.png",
+      "alt": "Cumulative distribution of queueing time under full CI, path-based selection, NameRTS, FastCI-select, and FastCI"
+    }
+  ]
+}

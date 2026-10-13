@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source_key": "2609.22978",
+  "images": [
+    {
+      "file": "dsec-platform-architecture.png",
+      "alt": "DSec architecture routing management and data requests through cluster services and per-node sandbox runtimes backed by 3FS"
+    },
+    {
+      "file": "sandbox-count-per-task.png",
+      "alt": "CDF of sandbox counts per task showing larger container batches than microVM batches"
+    },
+    {
+      "file": "sandbox-lifecycle-resource-profile.png",
+      "alt": "Representative sandbox lifecycle showing intermittent CPU demand and persistent memory across setup, tool-call, and test phases"
+    },
+    {
+      "file": "monolithic-environment-rebuild.png",
+      "alt": "Monolithic packaging forces every image containing an updated toolkit to be rebuilt"
+    },
+    {
+      "file": "composable-environment-layers.png",
+      "alt": "Composable packaging independently combines base images, workspaces, and toolkits into runtime environments"
+    },
+    {
+      "file": "resource-usage-distributions.png",
+      "alt": "CDFs of average and peak CPU and memory used relative to requested sandbox resources"
+    },
+    {
+      "file": "live-sandboxes-per-node.png",
+      "alt": "One-day production trace of live container and microVM counts on a node"
+    },
+    {
+      "file": "sandbox-lifetime-distributions.png",
+      "alt": "Container and microVM lifetime distributions with medians near 16 minutes and p99 values above three hours"
+    },
+    {
+      "file": "image-fanout-distribution.png",
+      "alt": "Per-task image fanout distribution showing low reuse for container and microVM images"
+    },
+    {
+      "file": "core-system-mechanisms.png",
+      "alt": "DSec mechanisms for composable layers, on-demand image loading, memory reclamation, and CPU quality of service"
+    },
+    {
+      "file": "on-demand-image-loading-evaluation.png",
+      "alt": "Evaluation comparing cached Docker, cold Docker, and on-demand EROFS by running containers and disk writes"
+    },
+    {
+      "file": "erofs-versus-tar-evaluation.png",
+      "alt": "Evaluation comparing setup CPU utilization and disk-write throughput for tar extraction and EROFS mounting"
+    },
+    {
+      "file": "microvm-memory-evaluation.png",
+      "alt": "MicroVM host memory and CPU evaluation for baseline, virtio-pmem, free-page reporting, and their combination"
+    },
+    {
+      "file": "cpu-qos-evaluation.png",
+      "alt": "Latency-sensitive agent time under best-effort CPU load with baseline, SCHED_IDLE, and core scheduling controls"
+    }
+  ]
+}

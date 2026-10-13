@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "fair-comparison-needs-matched-objectives-and-execution",
+      "qualifications": [
+        "The detailed comparison is written primarily by RaBitQ researchers, changes or repairs some implementation paths, and relies partly on private correspondence, so its runtime, recall, and baseline-symmetry findings still need independent replication."
+      ],
+      "statement": "Fair [[VectorQuantization]] comparison must align objectives, metadata, estimators, hardware, and executable artifacts: the current interested-party evidence reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings, while their 3.5-bit cache quality is close.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ApproximateNearestNeighborSearch",
+        "KVCacheCompression",
+        "RaBitQ",
+        "TurboQuant",
+        "VectorQuantization"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "classification-needs-unit-and-lifecycle-context",
       "qualifications": [
         "The evidence is one uncited social-media explainer whose checklist is not a strict definition and whose wording blurs a living cell with an independent organism."
@@ -178,6 +194,6 @@
       ]
     }
   ],
-  "summary": "Cross-domain sources emphasize explicit unit, boundary, and infrastructure thinking across biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable judgments come from identifying what is being classified or controlled, exposing hidden flows and inherited constraints, and making ownership, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.",
+  "summary": "Cross-domain sources emphasize explicit units, boundaries, objectives, and execution conditions across vector quantization, biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery. Durable judgments identify what is being classified or controlled, expose hidden flows and inherited constraints, and make ownership, comparison conditions, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.",
   "topic_id": "cross-domain"
 }

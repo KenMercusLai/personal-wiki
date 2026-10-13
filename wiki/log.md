@@ -2,6 +2,30 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-13] ingest | FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks
+
+Created [[FastCI]], [[GPUIntensiveContinuousIntegration]], [[TianshuoQiao]], [[NaiqianZheng]], [[XiaopengLiu]], [[ShuguangWang]], [[DiandianGu]], [[XuanzheLiu]], and [[XinJin]]. Recorded function-level runtime-evidence selection, conservative expansion for missing traces, context-and-metadata-aware pruning, combined failure-risk scheduling, reversible workload reduction, shadow-CI efficiency results, and staged ByteDance deployment. Preserved the proprietary first-party scope, short evaluation windows, reduced affected-test recall after pruning, Python-line coverage boundary, missing native and module-level evidence, new-code blind spots, and the difference between pass/fail agreement and behavioral equivalence. Opened and retained all eleven evidence-bearing remote diagrams and charts at their semantic positions.
+
+## [2026-10-13] ingest | Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning
+
+Created [[AsynchronousReinforcementLearning]], [[SingleRolloutAsynchronousOptimization]], [[ZhenyuHou]], [[YujiangLi]], [[JieTang]], and [[YuxiaoDong]], and updated [[ReinforcementLearning]] and [[GroupRelativePolicyOptimization]] from their complete ordered evidence inventories. Recorded the prompt-group synchronization barrier, direct rollout-to-current-policy token masking, faster frozen-attention critic, scaled value pretraining, skip-observation token-level GAE, reasoning and coding results, simulated reward-shift adaptation, and token-versus-step-level ablations. Preserved the one-backbone and bundled-method scope, missing total-compute and throughput comparison, simulated rather than live online feedback, direct-ratio bias, and absent GLM-5.2 deployment evidence. Opened and retained all eleven evidence-bearing remote diagrams and charts at their semantic positions.
+
+## [2026-10-13] ingest | Revisiting RaBitQ and TurboQuant: A Symmetric Comparison of Methods, Theory, and Experiments
+
+Created [[VectorQuantization]], [[RaBitQ]], and [[TurboQuant]], and updated [[ApproximateNearestNeighborSearch]] and [[KVCacheCompression]] from their complete ordered evidence inventories. Recorded the shared random-rotation framework, uniform-grid versus centroid-and-residual representations, direct versus decoded estimation, claimed tail-bound difference, paired error distributions, repeated ANN recall, matched-hardware timing, and bit-width-dependent KV-cache results. Preserved the interested-party authorship, variant and repaired-code boundaries, private-correspondence dependency, and need for independent reproduction of the runtime, recall, and baseline-symmetry dispute. Opened and retained all four evidence-bearing remote figures at their semantic positions.
+
+## [2026-10-13] ingest | 专访 DeepChat 作者们：聊聊本地优先、MCP 与 Agent Memory
+
+Created [[DeepChat]] and [[LocalFirstSoftware]], and updated [[AgentMemory]], [[TapeAndAnchors]], [[ModelContextProtocol]], [[LLMToolingSkills]], and [[ComputerUse]] from their complete ordered evidence inventories. Recorded the chatbot-to-agent transition, local encrypted storage and Keychain boundary, provider metadata and routing, embedded MCP runtimes, Cua-MCP-Skill Computer Use stack, three permission modes, and the Tape-ledger versus derived-memory lifecycle spanning admission, conflict, soft archival, bounded recall, provenance, observability, and per-agent isolation. Preserved the first-party and unbenchmarked scope, incomplete self-update and insight formation, unresolved sandbox and ACP-signing tradeoffs, and client-side runtime supply-chain responsibility. Opened all eleven remote images, omitted nine duplicate decorative mascots and one prose-redundant summary card, and retained the evidence-bearing DeepChat tool-interface screenshot at its semantic position.
+
+## [2026-10-13] ingest | The AI Layoff Trap
+
+Created [[BrettHemenwayFalk]], [[GerryTsoukalas]], [[AutomationDemandExternality]], and [[PigouvianAutomationTax]], and updated [[WorkplaceAutomation]] from its complete ordered evidence inventory. Recorded the private-versus-cooperative automation wedge, competition and Red Queen effects, Prisoner's Dilemma limit, worker-and-owner welfare loss, instrument comparison, corrective per-task tax, and post-labor policy boundary. Preserved the theoretical rather than empirical status, one-period symmetric single-sector scope, partial treatment of richer markets and general equilibrium, and dependence on incomplete income and demand recycling. Opened all six evidence-bearing remote SVG panels and retained lossless PNG renderings at their semantic positions.
+
+## [2026-10-13] ingest | DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale
+
+Created [[DSec]] and [[AgenticSandboxInfrastructure]]. Recorded the multi-backend architecture, production scale, burst and lifetime distributions, composable EROFS environments, low-fanout on-demand image paths, high-density memory and CPU controls, preemption-safe rollout ownership, and concrete reward-integrity and system-failure cases. Preserved the first-party and proprietary scope, absent cost and reliability accounting, incomplete security coverage, and lack of an independently reproducible full-platform comparison. Opened and retained all 14 evidence-bearing remote architecture, workload, and evaluation figures at their semantic positions.
+
 ## [2026-10-13] ingest | Training 100x Cheaper Retrieval models Neon and Castform
 
 Created [[Castform]] and updated [[Neon]], [[AgenticRAG]], and [[ReinforcementLearning]] from their complete ordered evidence inventories. Recorded corpus-derived synthetic tasks, a BM25-plus-vector search tool, composite retrieval/citation/correctness rewards, rollout observability, bursty elastic search demand, and proposed branch-per-rollout isolation for state-changing agents. Preserved the joint vendor source's missing dataset, sample count, uncertainty, token, hardware, and tool-budget details; limited the near-100x cost claim to the displayed GPT-5.6 Sol comparison; and distinguished rising training reward and one CPU trace from held-out quality or comparative infrastructure evidence. Opened and retained all four evidence-bearing remote images at their semantic positions.
@@ -9220,6 +9244,66 @@ Created [[WritingStyleDistillation]] and updated [[MaiYang]], [[AIAssistedWritin
 ## [2026-10-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | Spectral Progressive Diffusion for Efficient Image and Video Generation
+
+Created [[HowardXiao]], [[BrianChao]], [[LiorYariv]], [[GordonWetzstein]], and [[SpectralProgressiveDiffusion]], and updated [[DiffusionModelSampling]] from its complete ordered evidence inventory. Captured power-law spectral decay, coarse-to-fine signal emergence, spectral noise expansion, timestep alignment, power-spectrum-derived resolution transitions, trajectory-matched LoRA fine-tuning, frequency-selective editing, and the reported image and video acceleration. Preserved the Gaussian-spectrum and monotonic-power assumptions, cross-resolution generalization requirement, metric and model scope, aggressive-schedule artifacts, diminishing stage returns, and lack of temporal-frequency scheduling or independent replication. Opened all 23 remote figures, retained four nonredundant evidence-bearing figures at their semantic positions, and omitted repeated qualitative grids and redundant appendix variants.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control
+
+Created [[IDBalancing]], [[MixtureOfExpertsLoadBalancing]], [[QwenTeam]], [[PengJin]], [[ZihanQiu]], [[ZekunWang]], [[BoZheng]], and [[DayihengLiu]]. Captured the generalized PID framing of loss-free routing bias, magnitude-aware integral correction, worsening-gated derivative correction, zero-mean centering, sparsity and scale results, continued-pretraining gain tradeoff, per-layer behavior, and inference-time expert activity. Preserved the high-learning-rate Quantile Balancing advantage, MTP overload tradeoff, configuration-coupled scale comparison, fixed-Top-K architecture scope, first-party evidence, and absence of a formal stability proof. Opened all 13 remote figures, retained five complementary evidence charts at their semantic positions, and omitted eight redundant trajectory, stress, and ablation views.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics
+
+Created [[LiquidCache]], [[ApacheDataFusion]], [[XiangpengHao]], [[AndrewLamb]], [[YiboWu]], [[AndreaArpaciDusseau]], [[RemziArpaciDusseau]], [[FilterPushdown]], and [[DisaggregatedCaching]], and updated [[ApacheParquet]] and [[ColumnarStorageTradeoffs]] from their complete ordered evidence inventories. Captured the network/CPU/memory tension among file serving, Parquet pushdown, and Arrow pushdown; cache-private cascading encodings; element-selective decoding; late filter materialization; encoded predicate evaluation; background transcoding; and the reported ClickBench and TPC-H tradeoffs. Preserved the non-selective-filter reversal, memory-speed cold-conversion cost, predicate-compatibility limits, engine-integration confound, prototype scope, and missing production evidence. Opened and retained all 13 evidence-bearing figures at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | Apple and a Hacker’s Future
+
+Created [[MacOS]] and [[AgentNativeComputing]], and updated [[Apple]], [[Muse]], [[AgentPermissionModel]], and [[AppleTrustBrand]] from their complete ordered evidence inventories. Captured the persistent agent's reported compromise detection, the mismatch between app-scoped GUI consent and a headless agent identity, the distinction between security-data and macOS point-release updates, the trust-versus-autonomy tension, Muse Gadgets and Home Link, and the agent-as-universal-interface thesis. Preserved the single-user and first-person scope, the security rationale for protected prompts, the concentration risk of agent-level authority, the absence of broad adoption or comparative workflow evidence, and unverified incident, product-plan, decompilation, and platform-forecast claims. Opened and retained all three evidence-bearing remote images at their semantic positions with a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | Apps, Agents, and Aggregation
+
+Created [[GenerativeUI]] and [[MicrosoftCopilot]], and updated [[BenThompson]], [[Muse]], [[AgentNativeComputing]], [[ComputerUse]], [[AggregationTheory]], and [[JobsToBeDone]] from their complete ordered evidence inventories. Captured the agent-plus-computer model, app abstraction, generated personal UI, background execution, the shift from discovery toward inspiration, and the consumer and enterprise bids to combine platform and aggregator power. Preserved the single-workflow scope, incomplete and rate-limited recipe extraction, supplier control, unverified product claims, and the privacy, security, governance, switching, and systemic risks of concentrating context and credentials in one agent. Opened and retained all three evidence-bearing remote images at their semantic positions with descriptive filenames and a canonical manifest.
 
 ## [2026-10-13] lint | Wiki health check
 

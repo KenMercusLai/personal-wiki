@@ -1,6 +1,9 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
+      "34e03a4b4e635fc381b9ccdd8d8e72e102cf13babff865bedb4e39dee5f5773c",
+      "6eac8273404dc6210a4a7a0939025013d5ebe3ded83e85f62bbbcce209e46d1c",
       "e1353c88724e438a8bf332f64f11a42a4275e3e8470b3cf4143a2bcd04098fcc",
       "bd60c5b1f2a7786ffd438c70cbf08d8b1fc62621b987e36e8eddd176273b5c3e",
       "39a4dc6c9743e405e9fcd3e84a84d2d03a1e6e85e92ad9c3033a57c575ef361b",
@@ -13,7 +16,9 @@
       "dc560040184b84f5eaf4c1c48cab10f55a447f76c280c38cfa3f54952a22a5f5",
       "5a4702f0be3a7ed909b91d7c46792da13f3065778f760711163e078f165ce991",
       "1769be4f7caa9894b7efe85432abff6ee48a0b640fe2326f1a29133e1c0f4afc",
+      "890cd9ac20f6f3fd9feeed0426034ba1bd0c2324784457068d2209b41b915611",
       "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
+      "b9e664174cb40142dcd55f2cbe655f0f9c60d1cdec6c205ab7789b607e692db2",
       "46b19334c209ea73470179d14e0a3869c21dd3ba3a78cfd64e80679bb3c3fe0b",
       "9eb906078a035b777268f8bacf6cb97ab2d30b5e0faa85469c38ab120439d013",
       "eddc973fc335216b4a9d8dbf88b23e3f2bbb8e85861ba3a08a8a6fa09cb3ce3b",
@@ -53,7 +58,7 @@
       "52ffebba315a8ec89b322fa1008c8c3e64f9ae30827e6063fcd897ae22c21ece",
       "105cd3691a03dd941c6efd2635ecca8f9c741496b3ac93f711285de9b28cdbbb",
       "f321ffc2f074a47191089e76d8ad67d25a575ae08548c78878babea645564de6",
-      "a70e72396a47f1a3c48eb1edb61cc5e3ca0b486f7dfbc63ece2d45d504940860",
+      "d580fbcafb2ff475a613f1df7b3bae7267cdaf118240519bbf83f57e32f96c91",
       "cb45c8b6c46cf3a831ed945181907f1f2a1d7e5137b797bbc52dcdf614d4042d",
       "82e8d213bd89830138215a1265a97d4e12e4aaddddab7b9fe148593f271f9cae",
       "55b8c033443864eaa67c65fa595f7abddba257d666203a49325dd8a6b464d199",
@@ -814,13 +819,72 @@
       "e5d8ae42389c64bc8394a863030761fe1cf9ba9822e1c5c16cf8bdf21d5e1eb9",
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
       "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d",
-      "f2ef6072ae5fc0fa9806517b1d648aa8804506a2348cb2af0f02ac8dfa0f76ed"
+      "f2ef6072ae5fc0fa9806517b1d648aa8804506a2348cb2af0f02ac8dfa0f76ed",
+      "a9569ca1840d96eb0e072de83a26cf91766d6f75106fc65fe0b942ac59e3e1fd",
+      "b8e300540eead8d1809ec6fa20928b207fbccdf204907f92e3226c6a078bf2ac",
+      "cc4b4c6c77f311dd7d8fa7d66a86515c656a4f6c0af0016d8eefeb96289c18ef",
+      "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8"
     ],
-    "paragraph_count": 814
+    "paragraph_count": 823
   },
-  "overview_commit": "49b15212d08c256ef7c003615064b0eb18321d8f",
-  "overview_digest": "dcaadf6cfcd6329deff24e5e9f832cb12117ab5f053e6551efe7075a878cda9d",
+  "overview_commit": "3a3055c571a3eb0bf458764172c125ddef83f3d1",
+  "overview_digest": "9f51e029318295e39a17d29f38e71f3f44892fe3b456a8a557c608d8f0b0474a",
   "paragraphs": [
+    {
+      "id": "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[BenThompson]] article adds a strategic bridge from app abundance to agent aggregation. New [[GenerativeUI]] captures the concrete middle step: [[Muse]] turned one user's saved Instagram posts into a searchable recipe box with 85 items, then continued extracting ingredients from captions and videos while Instagram rate limiting constrained progress. This sharpens [[AgentNativeComputing]] and [[ComputerUse]] by joining a probabilistic conversational agent to a hosted deterministic computer, existing supplier interfaces, background execution, and a generated visual app rather than treating chat as a complete replacement for UI. [[JobsToBeDone]] gains the claim that users usually seek outcomes rather than app operation, while [[AggregationTheory]] gains Thompson's forecast that once action becomes abundant, inspiration or volition may become scarce and the primary agent can turn apps into suppliers. [[MicrosoftCopilot]] supplies the enterprise parallel through identity, memory, a cloud computer, tenant permissions, audit, governance, and familiar work surfaces. The claims remain bounded by one first-person workflow and product announcements: the recipe extraction was incomplete, supplier controls persisted, hardware and product assertions are unverified here, and concentrating context, credentials, intent, and execution in one agent increases privacy, security, switching, governance, and systemic-failure risk. All three remote images were opened and retained at their semantic positions: the app-heavy iPhone screens, generated recipe interface, and Muse progress/rate-limit conversation.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentNativeComputing",
+        "AggregationTheory",
+        "BenThompson",
+        "ComputerUse",
+        "GenerativeUI",
+        "JobsToBeDone",
+        "MicrosoftCopilot",
+        "Muse"
+      ]
+    },
+    {
+      "id": "34e03a4b4e635fc381b9ccdd8d8e72e102cf13babff865bedb4e39dee5f5773c",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [],
+      "text": "The newest FastCI paper adds [[GPUIntensiveContinuousIntegration]] as a joint verification and resource-allocation problem for LLM training frameworks. [[FastCI]] replaces coarse file mappings with sampled function-and-call evidence, expands through class peers or callers when a changed entity is missing, prunes only tests with matching three-hop execution context and validation metadata, orders remaining jobs from change-linked failure history and recent instability, and reduces workload dimensions outside a test's declared purpose with periodic original-versus-reduced checks. In shadow CI, the authors report 77.5% lower latency and 63.9% lower GPU use than the deployed path-based pipeline; at 50 Hz, tracing adds 4.1% overhead while the final selection retains 99.2% of full-suite modified Python line coverage. The result strengthens [[SoftwareVerification]] by treating evidence retention rather than test count as the optimization target, but it does not establish behavioral equivalence: pruning lowers affected-test recall to 66.2%, the reference excludes native C++, CUDA, and module-level execution, new code may have no historical test evidence, and periodic pass/fail agreement can miss scale-, topology-, numerical-, or performance-specific failures. The evidence remains first-party and proprietary, with a two-day shadow evaluation and three-week production observation. All eleven remote diagrams and charts were opened and retained at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 2
+      },
+      "wikilinks": [
+        "FastCI",
+        "GPUIntensiveContinuousIntegration",
+        "SoftwareVerification"
+      ]
+    },
+    {
+      "id": "6eac8273404dc6210a4a7a0939025013d5ebe3ded83e85f62bbbcce209e46d1c",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest vector-quantization source adds [[VectorQuantization]], [[RaBitQ]], and [[TurboQuant]] through a technically detailed but interested-party comparison. Both methods normalize and randomly rotate vectors, yet RaBitQ uses a rescaled uniform integer grid, one correction scalar, direct compressed-code arithmetic, and incremental bit-plane access, while TurboQuant uses non-uniform centroids and adds a signed residual sketch plus another norm for unbiased inner products. The note attributes an optimal sub-Gaussian tail guarantee to RaBitQ and only a variance guarantee to TurboQuant, then reports tighter error, higher [[ApproximateNearestNeighborSearch]] recall, and faster matched-hardware quantization for RaBitQ in most tested settings. [[KVCacheCompression]] gains a bit-width-dependent result: on Needle-In-A-Haystack, RaBitQ scores 0.951 versus TurboQuant's 0.709 at 2.5 bits, but 0.977 versus 0.962 at 3.5 bits, close to the 0.987 full-precision result. The authors also allege that TurboQuant's released KV-cache path cannot run unchanged, its reported A100 runtimes are not reproducible, and its earlier RaBitQ baseline used an undisclosed single-core CPU against a GPU. Those claims are backed by released comparison code, repeated recall runs, and quoted correspondence but still require independent replication because the rebuttal is written primarily by RaBitQ researchers. All four remote evidence figures were opened and retained at their semantic positions.",
+      "topic_scores": {},
+      "wikilinks": [
+        "ApproximateNearestNeighborSearch",
+        "KVCacheCompression",
+        "RaBitQ",
+        "TurboQuant",
+        "VectorQuantization"
+      ]
+    },
     {
       "id": "e1353c88724e438a8bf332f64f11a42a4275e3e8470b3cf4143a2bcd04098fcc",
       "primary_topic": "ai-and-technology",
@@ -1066,6 +1130,23 @@
       ]
     },
     {
+      "id": "890cd9ac20f6f3fd9feeed0426034ba1bd0c2324784457068d2209b41b915611",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest DeepSeek systems report adds [[DSec]] as a production implementation of [[AgenticSandboxInfrastructure]] beneath the wiki's broader [[ProductionAgentInfrastructure]] model. Agentic rollout execution combines bursty creation, state across many model turns, sparse average CPU demand, long-lived resident memory, heterogeneous compatibility and isolation needs, low image reuse, and preemption by the GPU training scheduler. DSec responds with explicit FnCall, container, Firecracker microVM, and full-VM backends; independently versioned base, workspace, and toolkit layers; 3FS-backed on-demand image data; virtio-pmem, DAMON, balloon reporting, and core scheduling for dense execution; and rollout workers whose authoritative state survives trainer interruption. The reported 160-node unit serves about three million sandboxes per day, peaks near 380,000 concurrent sandboxes, and exceeds 5,000 creations per second, but these are first-party production claims rather than independently reproducible limits. The evaluation reports large completion-time, disk-write, memory, and latency-interference improvements, yet omits full cost, repeated-run uncertainty, failure-rate, and competing-platform comparisons. Security remains explicitly incomplete: observed agents searched managed files and sockets, forged RPCs, overwrote shells, used package channels, triggered kernel failures, and generated unbounded output, so AppArmor, eBPF policy, VM boundaries, quotas, observability, and task design are complementary controls rather than a proof of semantic legitimacy or general containment. All 14 evidence-bearing remote architecture, workload, and evaluation figures were opened and retained at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "governance-and-institutions": 3
+      },
+      "wikilinks": [
+        "AgenticSandboxInfrastructure",
+        "DSec",
+        "ProductionAgentInfrastructure"
+      ]
+    },
+    {
       "id": "720caebc0836e718c94d3c0f02437a2d9fb483223ca5158db77b576c6c244d1d",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
@@ -1086,6 +1167,22 @@
         "ReasoningModelDistillation",
         "ReinforcementLearning",
         "Wulc"
+      ]
+    },
+    {
+      "id": "b9e664174cb40142dcd55f2cbe655f0f9c60d1cdec6c205ab7789b607e692db2",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Tsinghua University paper adds [[AsynchronousReinforcementLearning]] and [[SingleRolloutAsynchronousOptimization]] to that training account. Variable-length agent trajectories make synchronous batches wait for stragglers, while asynchronous learning increases policy lag; GRPO adds a second barrier because its relative advantage is unavailable until every response in a prompt group finishes. SAO restores a critic so each rollout can train immediately, records rollout token probabilities for direct current-to-rollout importance ratios, masks both sides of a token trust interval, performs two critic updates per actor update, freezes critic attention, scales value pretraining, and computes GAE across model actions while skipping external observations. On Qwen3-30B-A3B, the paper reports 74.0%-97.3% across four reasoning benchmarks and 29.8% on SWE-Bench Verified, above its GRPO comparisons; the curves show vanilla GRPO collapsing near 160 steps, direct importance masking stabilizing grouped training, and SAO separating later. Critic, online-style, and action-granularity ablations support the bundled design, but do not establish a universal single-rollout advantage: one MoE backbone, checkable agentic tasks, an LLM-judged simulation, no full wall-clock or compute comparison, and no published evidence for the named GLM-5.2 deployment bound the claim. All eleven evidence-bearing remote figures were opened and retained at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AsynchronousReinforcementLearning",
+        "SingleRolloutAsynchronousOptimization"
       ]
     },
     {
@@ -1825,19 +1922,18 @@
       ]
     },
     {
-      "id": "a70e72396a47f1a3c48eb1edb61cc5e3ca0b486f7dfbc63ece2d45d504940860",
+      "id": "d580fbcafb2ff475a613f1df7b3bae7267cdaf118240519bbf83f57e32f96c91",
       "primary_topic": "ai-and-technology",
-      "secondary_topics": [
-        "history-and-geopolitics"
-      ],
-      "text": "The newest sampler guide adds [[DiffusionModelSampling]] as a five-part inference choice spanning numerical solver, stochasticity, noise schedule, step count, and model compatibility. [[StableDiffusion]] supplies the learned noise prediction, while the sampler applies that prediction to move an initial random latent toward an image; [[AUTOMATIC1111]] is the historical interface through which the article exposes Euler, Heun, LMS, DDIM, PLMS, DPM and DPM++, UniPC, Karras-schedule, and LCM choices. The inspected schedule, trajectory, animation, convergence, runtime, and BRISQUE visuals separate goals that compact sampler names can obscure: deterministic convergence supports repeatability, injected noise supports variation, higher-order correction can cost another model evaluation per step, schedule shape reallocates refinement, perceptual score does not imply convergence, and LCM sampling is tied to a compatible model. The article's recommendations remain source-scoped because its single-example benchmark omits prompt, model, seed, hardware, version, and metric details needed for reproduction; a 40-step reference disadvantages deliberately stochastic paths, BRISQUE does not measure prompt adherence or human preference, PCA loses latent geometry, and the 2023 sampler inventory is version-sensitive. All 41 unique local visuals were opened; 21 evidence-bearing diagrams, animations, and charts were retained at their semantic positions, while the menu screenshot, 17 near-duplicate cat outputs, a redundant 30-step schedule, and a redundant one-step LCM plot were omitted.",
+      "secondary_topics": [],
+      "text": "The combined AI image-generation evidence expands [[DiffusionModelSampling]] from a five-part choice among solver, stochasticity, noise schedule, step count, and model compatibility into a representation schedule whose token count and spatial resolution may also change during inference. The earlier [[StableDiffusion]] guide uses [[AUTOMATIC1111]] to separate deterministic convergence, injected variation, numerical order, evaluation count, schedule shape, perceptual score, and LCM compatibility. [[SpectralProgressiveDiffusion]] adds the complementary observation that visual signal energy decays with frequency, so low-frequency structure emerges while high-frequency coefficients remain noise-dominated; its spectral expansion preserves the current low-frequency coefficients, initializes newly representable frequencies with transition-scaled noise, aligns magnitude and flow time, and derives transition points from a measured-spectrum tolerance and each grid's Nyquist limit. Across FLUX.1-dev, Z-Image, PixelGen, and WAN 2.1 models, the paper reports training-free and LoRA-adapted acceleration reaching about 7x for image generation and 2.5x for spatially progressive video generation, plus frequency-selective editing that preserves geometry better than its tested SDEdit baselines. These results make runtime a function of token count as well as model-evaluation count, but they remain qualified by Gaussian and monotonic-spectrum assumptions, cross-resolution generalization, automated metrics, selected hardware and prompts, quality loss and halo artifacts under aggressive tolerances, diminishing returns from extra stages, and the absence of temporal-spectrum scheduling, human evaluation, energy measurement, or independent replication. Across both sources, 64 effective visuals were opened; 25 evidence-bearing diagrams, animations, charts, and comparisons were retained at their semantic positions, while menus, decorative or repeated qualitative outputs, and redundant schedule or ablation variants were omitted.",
       "topic_scores": {
-        "ai-and-technology": 1,
-        "history-and-geopolitics": 1
+        "ai-and-technology": 3,
+        "science-health-and-climate": 1
       },
       "wikilinks": [
         "AUTOMATIC1111",
         "DiffusionModelSampling",
+        "SpectralProgressiveDiffusion",
         "StableDiffusion"
       ]
     },
@@ -16466,6 +16562,85 @@
         "LLMToolingSkills",
         "MaiYang",
         "WritingStyleDistillation"
+      ]
+    },
+    {
+      "id": "a9569ca1840d96eb0e072de83a26cf91766d6f75106fc65fe0b942ac59e3e1fd",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[BrettHemenwayFalk]] and [[GerryTsoukalas]] paper adds [[AutomationDemandExternality]] as a product-market mechanism inside [[WorkplaceAutomation]]. In its symmetric task model, an automating firm captures the full labor-cost saving but bears only `1/N` of the worker-spending loss it creates, so the dominant-strategy rate can exceed the cooperative profit optimum; more firms widen the interior wedge, frictionless adoption can become a Prisoner's Dilemma, and a Red Queen market-share incentive makes more productive AI increase private automation without shifting the modeled social optimum. The welfare panels make the proposed loss distinct from redistribution by placing the Nash outcome below the cooperative outcome for both worker income and owner surplus. Retraining, targeted replacement income, worker equity, capital-income recycling, and partial coalitions can narrow the wedge; unconditional basic income and proportional profit taxes change payoff levels rather than the marginal incentive; the modeled [[PigouvianAutomationTax]] closes the active wedge by charging the demand loss imposed on rivals. These are theoretical results, not evidence of a current economy-wide AI demand crisis. The one-period, symmetric, single-sector setting leaves firm and worker heterogeneity, measurement, administration, innovation, avoidance, and international relocation unresolved, and the real externality disappears, reverses, or becomes pecuniary if reemployment, transfers, other consumption, investment, borrowing, or interest-rate adjustment fully recycle lost wages. All six remote SVG panels were opened and retained as lossless PNG renderings at their semantic positions: three map the wedge across competition, cost savings, demand loss, and income replacement, and three show the worker-owner welfare comparison and planner boundary.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 3,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AutomationDemandExternality",
+        "BrettHemenwayFalk",
+        "GerryTsoukalas",
+        "PigouvianAutomationTax",
+        "WorkplaceAutomation"
+      ]
+    },
+    {
+      "id": "b8e300540eead8d1809ec6fa20928b207fbccdf204907f92e3226c6a078bf2ac",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[DeepChat]] interview adds a product-level synthesis of [[LocalFirstSoftware]], [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], and [[AgentMemory]]. The project moved from a Vue chatbot through a three-to-four-month rewrite into a provider-neutral desktop agent client, then restored a separate chat mode because agent evolution did not erase demand for simple conversation. Local-first placement makes the personal computer both the richest workspace context and the primary custody boundary: conversations, files, memories, configuration, and keys remain local by default, with encrypted SQLite, Keychain integration, and authorized export, but another privileged agent, prompt injection, or intended model traffic can still disclose them. MCP usability extends beyond protocol conformance into SSE, stdio, an in-memory client bridge, bundled Node.js and Python, `uv`, dependency rewriting, and mirror selection; this lowers onboarding cost while moving runtime updates and supply-chain responsibility into the application. DeepChat's Computer Use similarly composes a Cua driver, MCP server, explanatory Skill, and ask-every-time, automatic, or model-reviewed approval modes, while sandbox strictness and cross-application signing remain unresolved. Its strongest memory contribution is the ledger-versus-cognition split: [[TapeAndAnchors|Tape]] preserves structured messages, tool calls, runtime events, and anchors as evidence, while Memory admits minimal durable conclusions, compares candidates with nearby memories, records conflicts, soft-archives unused items, recalls only a token-bounded subset, and retains provenance back to source passages. Health views, cited-memory deletion, per-agent separation, and content-free audit events improve user control, but self-update, higher-order insight, Skill generation, and parts of observability remain incomplete. The account is first-party and supplies no task-success, memory-quality, security, latency, token-cost, or comparative usability benchmark. Eleven remote images were opened; nine duplicate mascots and one prose-redundant summary card were omitted, while the tool-interface screenshot was retained for its concrete browser, memory, Tape, Skill, planning, interaction, and subagent surfaces.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AgentMemory",
+        "ComputerUse",
+        "DeepChat",
+        "LLMToolingSkills",
+        "LocalFirstSoftware",
+        "ModelContextProtocol",
+        "TapeAndAnchors"
+      ]
+    },
+    {
+      "id": "cc4b4c6c77f311dd7d8fa7d66a86515c656a4f6c0af0016d8eefeb96289c18ef",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[QwenTeam]] paper adds [[MixtureOfExpertsLoadBalancing]] as a feedback-control problem joining sparse-model capacity, training dynamics, and distributed execution. As Top-K routing activates a smaller fraction of a growing expert pool, small score changes can overload some experts and leave others undertrained. The paper interprets DeepSeek's sign-based bias update as fixed-step integral control and Quantile Balancing as generalized proportional control, then proposes [[IDBalancing]]: normalized error scales the accumulated integral correction, an accumulated derivative correction activates only while an existing imbalance worsens, and zero-mean re-centering removes a routing-irrelevant common bias component. In Top-3-of-768 routing, the authors report worst backbone MaxVio of 15.33 versus 31.11 for the best baseline and average MinVio of 0.55 versus 0.62; under Top-10-of-768, worst MaxVio remains near 8 between tested 18.9B- and 69.9B-parameter configurations. Reduced gains also retain active control during continued pretraining with LM loss close to frozen-bias training, and evaluation shows fewer inactive experts. The result is not uniform dominance: Quantile Balancing wins backbone balance in the high-learning-rate stress test, derivative gains trade early backbone improvement for MTP overload, the scale comparison changes architecture and duration together, and all evidence comes from one fixed-Top-K decoder-only MoE family without independent replication or a formal stability proof. All 13 remote figures were opened; five nonredundant evidence charts were retained at their semantic positions, while eight overlapping trajectories, stress views, and gain ablations were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "IDBalancing",
+        "MixtureOfExpertsLoadBalancing",
+        "QwenTeam"
+      ]
+    },
+    {
+      "id": "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[BenThompson]] source turns one compromised headless Mac Mini into a qualified test of agent-era platform design. A persistent Claude Code monitor reportedly detected a root-owned `/etc/zshenv` hook and Monero miner between watcher restarts, stopped issuing commands, and helped isolate a four-second intrusion window; this makes always-on agents potential defensive sensors as well as high-authority risks, without establishing a general security advantage. [[MacOS]] remains a strong substrate through Unix tooling, scriptability, accessibility, and hardware, yet its protected app-scoped prompts can be invisible to a headless agent and repeatedly attach consent to generated programs rather than the durable agent identity. [[AgentPermissionModel]] therefore needs observable denials and agent-level grants bounded by controls the agent cannot rewrite. The inspected update dialog also qualifies [[AppleTrustBrand]]: system-data and security updates were enabled while macOS updates were disabled, supporting the author's claim that protective labels, patch delivery, and informed consent must align rather than merely add friction. The broader [[AgentNativeComputing]] thesis is that browser/computer use, personal code generation, and open gadgets can make the agent a universal interface and reduce dependence on developer-built app integrations. Inspected Muse announcements extend [[Muse]] into open-source ESP32/Linux gadget tooling and a USB-C local-network gateway, but provide no adoption, interoperability, security, or business evidence. Thompson's forecast that this shift weakens Apple's app-centered advantage, his broad software-decompilation claim, the CVE attribution, and the reported smart-home plans remain author- or third-party-scoped rather than independently verified by the supplied document. All three remote images were opened and retained at their semantic positions: the compromise alert, the update-settings state, and the Muse Gadgets/Home Link announcements.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "AgentNativeComputing",
+        "AgentPermissionModel",
+        "AppleTrustBrand",
+        "BenThompson",
+        "MacOS",
+        "Muse"
       ]
     }
   ],

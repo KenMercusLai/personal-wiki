@@ -6,6 +6,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics](sources/p5662-hao-corrected.md) - Hao and collaborators co-design an ephemeral filter-aware cache format with pushdown execution to approach Arrow CPU and Parquet space efficiency, with non-selective and prototype-scope limits.
+- [FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks](sources/2610.01967.md) - Qiao and collaborators combine runtime-evidence selection, context-aware pruning, risk scheduling, and reversible workload reduction to cut GPU-heavy LLM-framework CI cost and latency, with important first-party coverage limits.
+- [ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control](sources/2609.39137.md) - Qwen researchers cast loss-free sparse-MoE balancing as generalized PID control and report qualified load-control gains from a magnitude-aware integral plus worsening-gated derivative update.
+- [Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning](sources/2607.07508.md) - Hou, Li, Tang, and Dong replace grouped asynchronous sampling with immediate single-rollout actor-critic updates and report qualified stability and benchmark gains.
+- [Spectral Progressive Diffusion for Efficient Image and Video Generation](sources/2605.18736.md) - Xiao, Chao, Yariv, and Wetzstein derive power-spectrum-guided resolution growth for pretrained visual diffusion models and report qualified image and video acceleration.
+- [Revisiting RaBitQ and TurboQuant: A Symmetric Comparison of Methods, Theory, and Experiments](sources/2604.19528.md) - RaBitQ authors unify the two quantizers methodologically, report RaBitQ advantages in most tested error, recall, speed, and low-bit KV-cache settings, and document contested reproducibility and baseline-symmetry failures.
+- [The AI Layoff Trap](sources/2603.20617.md) - Falk and Tsoukalas model a competition-driven demand externality that can make rational firms over-automate, compare policy responses, and bound the result by income-reabsorption and general-equilibrium conditions.
+- [DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale](sources/2609.22978.md) - DeepSeek describes a production multi-backend sandbox platform for bursty, stateful agentic RL with composable images, on-demand storage, dense resource management, preemption-safe recovery, and layered integrity controls.
 - [Training 100x Cheaper Retrieval models Neon and Castform](sources/training-100x-cheaper-retrieval-models-neon-and-castform.md) - Neon and Castform present corpus-derived RL post-training for a hybrid-search agent, with vendor-reported cost/reward gains and elastic database infrastructure.
 - [如何从自己写过的文章里提炼写作风格：我翻了 12 篇旧文，最后只有 2 篇能当骨架](sources/ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia.md) - Mai Yang derives an author-specific writing Skill from verbatim, dimension-selected examples, then makes real editing diffs and non-invention rules the path to improvement.
 - [0% 是机会，20% 是陷阱：Jeff Dean 离职前那场 YC 访谈里，我抄走了三条判断](sources/0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan.md) - Mai Yang extracts a two-stage AI opportunity screen, a forecast-ledger practice for taste, and the rising value of specifications and expert Skills, while preserving demand and moving-frontier limits.
@@ -867,6 +875,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Asana's September 8 Outage](sources/asanas-september-8-outage.md) - Asana's 2016 outage postmortem traces a faulty logging deploy through CPU saturation, misleading symptoms, rollback selection, bad-revision blacklisting, and response improvements.
 - [Details on the January 9th, 2017 Asana Outage](sources/details-on-the-january-9th-2017-asana-outage.md) - Asana's postmortem traces a hung provisioning lock, unnoticed alerts, exceptional Monday demand, nonlinear server collapse, manual scaling, and load-balancer throttling.
 - [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
+- [Apple and a Hacker’s Future](sources/apple-and-a-hackers-future.md) - Ben Thompson uses a compromised headless Mac agent host to examine agent-level permissions, Apple's trust and app models, and the shift toward agent-native computing.
 - [Apple's Middle Age](sources/apples-middle-age-stratechery-by-ben-thompson.md) - Ben Thompson argues that saturated premium smartphones pushed Apple toward inward growth through higher iPhone ASPs, Services, and more Apple-specific devices for existing users.
 - [Apple's Social Network](sources/apples-social-network-stratechery-by-ben-thompson.md) - Ben Thompson argues that Today at Apple is Apple's real-world social network and that Apple's post-unit-sales reporting still needs active-customer and revenue-per-user metrics.
 - [Apple's Stream Team: Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future](sources/apples-stream-team-zane-lowe-bozoma-saint-john-and-larry-jackson-are-taking-music-to-the-future-complex.md) - Complex profiles Apple Music as an early culture-platform bet built around artist collaboration, Beats 1, marketing, and shared streaming moments.
@@ -1170,8 +1179,43 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inside PostgreSQL's 8KB Page](sources/inside-postgresqls-8kb-page.md) - A pageinspect walkthrough connects PostgreSQL's slotted 8KB pages to line pointers, free space, tuple density, recovery metadata, pruning, and index special space.
 - [The Discourse has been Automated](sources/the-discourse-has-been-automated.md) - Xe Iaso uses an OpenClaw agent's rejected Matplotlib contribution and callout post to examine machine-speed social escalation, maintainer burden, and lost newcomer learning paths.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
+- [专访 DeepChat 作者们：聊聊本地优先、MCP 与 Agent Memory](sources/zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory.md) - DeepChat's developers explain its local-first agent-client architecture, productized MCP and Computer Use layers, and Tape-grounded memory lifecycle.
+
+- [Apps, Agents, and Aggregation](sources/apps-agents-and-aggregation.md) - Ben Thompson argues that computer-using agents can abstract apps, generate personal UI, and aggregate inspiration and execution, using Muse and Microsoft Copilot as consumer and enterprise cases.
 
 ## Entities
+- [LiquidCache](entities/LiquidCache.md) - Disaggregated analytical cache that progressively transcodes Parquet into an ephemeral representation co-designed with filter execution.
+- [Apache DataFusion](entities/ApacheDataFusion.md) - Embeddable analytical engine used as LiquidCache's optimizer, connector, and cache-side execution substrate.
+- [Xiangpeng Hao](entities/XiangpengHao.md) - University of Wisconsin-Madison researcher and lead author of the LiquidCache paper.
+- [Andrew Lamb](entities/AndrewLamb.md) - InfluxData-affiliated database engineer and LiquidCache coauthor connected to DataFusion and StringView work.
+- [Yibo Wu](entities/YiboWu.md) - University of Wisconsin-Madison researcher and LiquidCache coauthor.
+- [Andrea Arpaci-Dusseau](entities/AndreaArpaciDusseau.md) - University of Wisconsin-Madison systems researcher and LiquidCache coauthor.
+- [Remzi Arpaci-Dusseau](entities/RemziArpaciDusseau.md) - University of Wisconsin-Madison systems researcher and LiquidCache coauthor.
+- [FastCI](entities/FastCI.md) - Production CI framework using runtime evidence, execution-context pruning, failure-risk scheduling, and validation-scope-aware workload reduction.
+- [Tianshuo Qiao](entities/TianshuoQiao.md) - Peking University-affiliated first-listed coauthor of the FastCI study.
+- [Naiqian Zheng](entities/NaiqianZheng.md) - Peking University-affiliated coauthor of the FastCI method and evaluation.
+- [Xiaopeng Liu](entities/XiaopengLiu.md) - ByteDance Seed-affiliated coauthor studying production GPU-intensive CI.
+- [Shuguang Wang](entities/ShuguangWang.md) - ByteDance Seed-affiliated coauthor of the FastCI method and deployment account.
+- [Diandian Gu](entities/DiandianGu.md) - ByteDance Seed-affiliated coauthor working on CI systems for LLM training infrastructure.
+- [Xuanzhe Liu](entities/XuanzheLiu.md) - Peking University-affiliated coauthor of FastCI's design and production evaluation.
+- [Xin Jin](entities/XinJin.md) - Peking University-affiliated coauthor of the FastCI framework and deployment study.
+- [Peng Jin](entities/PengJin.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
+- [Zihan Qiu](entities/ZihanQiu.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
+- [Zekun Wang](entities/ZekunWang.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
+- [Bo Zheng](entities/BoZheng.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
+- [Dayiheng Liu](entities/DayihengLiu.md) - Corresponding Qwen author of the ID Balancing study.
+- [Qwen Team](entities/QwenTeam.md) - Alibaba research team represented through sparse-MoE load-control work.
+- [Zhenyu Hou](entities/ZhenyuHou.md) - Tsinghua University-affiliated equal-contribution author of the SAO paper and former Z.AI intern during the work.
+- [Yujiang Li](entities/YujiangLi.md) - Tsinghua University-affiliated equal-contribution author of the SAO paper and former Z.AI intern during the work.
+- [Jie Tang](entities/JieTang.md) - Tsinghua University-affiliated coauthor of the single-rollout asynchronous optimization method.
+- [Yuxiao Dong](entities/YuxiaoDong.md) - Tsinghua University-affiliated coauthor of the single-rollout asynchronous optimization method.
+- [Howard Xiao](entities/HowardXiao.md) - Stanford-affiliated coauthor of the spectral progressive diffusion framework.
+- [Brian Chao](entities/BrianChao.md) - Stanford-affiliated coauthor studying efficient progressive-resolution image and video generation.
+- [Lior Yariv](entities/LiorYariv.md) - Stanford-affiliated coauthor linking spectral power with progressive visual generation.
+- [Gordon Wetzstein](entities/GordonWetzstein.md) - Stanford-affiliated coauthor of the spectral progressive generation method and evaluation.
+- [Brett Hemenway Falk](entities/BrettHemenwayFalk.md) - University of Pennsylvania-affiliated coauthor of a theoretical model connecting competitive AI automation, worker income loss, and product demand.
+- [Gerry Tsoukalas](entities/GerryTsoukalas.md) - Boston University-affiliated coauthor of a theoretical model of competitive over-automation and its policy correction.
+- [DSec](entities/DSec.md) - DeepSeek's production elastic sandbox platform for large-scale agent training, evaluation, and environment construction.
 - [Castform](entities/Castform.md) - Model post-training platform that turns an existing corpus into synthetic retrieval tasks and manages tool-using reinforcement-learning rollouts.
 - [Diana Hu](entities/DianaHu.md) - Y Combinator partner, engineer, and entrepreneur represented through an interview method that turns historical achievements into concrete present-day questions.
 - [Discovery Loop](entities/DiscoveryLoop.md) - Source-scoped AI company profile centered on automated parallel experiments in science and engineering.
@@ -1202,7 +1246,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
 - [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
 - [Grok Bot](entities/GrokBot.md) - AI teammate product represented through role design, Skills, recurring routines, and staged authority over real-world actions.
-- [Muse](entities/Muse.md) - Meta consumer agent represented through region-gated access, rewarded referrals, computer operation, and unresolved trust and scaling constraints.
+- [Muse](entities/Muse.md) - Meta consumer agent represented through region-gated access, rewarded referrals, computer operation, open-source gadgets, and unresolved trust and scaling constraints.
 - [Kuafu](entities/Kuafu.md) - Leetao's experimental personal-agent runtime combines an explicit execution loop, persistent lessons, host-tool bridging, and small multi-agent workflows.
 - [ToastPlan](entities/ToastPlan.md) - Leetao's OKR and task system gives agents work access while preserving human-visible task state and activity auditing.
 - [Croxx](entities/Croxx.md) - Technical blogger represented through a qualified account of AI-first lookup, long-form reading, public writing, and Stack Overflow affinity.
@@ -2649,7 +2693,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
 - [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
 - [Stian Westlake](entities/StianWestlake.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
-- [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, high App Store monetization, brand meaning, wearables, AR software, services trust positioning, large-scale buybacks, and mature installed-base growth.
+- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, app model, wearables, services, capital allocation, and agent-era control tradeoffs shape its profile.
+- [macOS](entities/MacOS.md) - Apple's Unix desktop operating system, represented as a strong automation substrate with headless-agent permission, patching, and remote-access constraints.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
 - [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
@@ -3007,8 +3052,25 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Matplotlib](entities/Matplotlib.md) - Open-source plotting project represented through an autonomous-contribution dispute and a maintainer's restrained policy response.
 - [clice](entities/Clice.md) - C++ language server and real-time compilation system using cancellation-aware task graphs, compiler-process isolation, and emerging semantic interfaces for coding agents.
 - [kotatsu](entities/Kotatsu.md) - Modern C++ infrastructure library extracted from clice for async execution, I/O, IPC, reflection, serialization, CLI handling, and tests.
+- [DeepChat](entities/DeepChat.md) - Open-source local-first desktop agent client combining provider-neutral models, MCP, Skills, Tape-grounded memory, and Computer Use.
+
+- [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Filter Pushdown](concepts/FilterPushdown.md) - Early predicate execution whose value depends on selectivity, source compression, decoding cost, operator compatibility, and network representation.
+- [Disaggregated Caching](concepts/DisaggregatedCaching.md) - Shared cache-service architecture that scales separately from compute while trading among network, cache CPU, and cache memory.
+- [GPU-Intensive Continuous Integration](concepts/GPUIntensiveContinuousIntegration.md) - Accelerator-backed CI treated jointly as an evidence, prioritization, workload, and cluster-queue optimization problem.
+- [ID Balancing](concepts/IDBalancing.md) - Auxiliary-loss-free sparse-MoE controller combining magnitude-aware integral correction, worsening-gated derivative correction, and bias re-centering.
+- [Mixture-of-Experts Load Balancing](concepts/MixtureOfExpertsLoadBalancing.md) - Control of token assignments across sparse experts to limit overload, underuse, and training instability.
+- [Asynchronous Reinforcement Learning](concepts/AsynchronousReinforcementLearning.md) - Decoupled rollout and learning that reduces straggler waits while introducing policy lag and off-policy correction requirements.
+- [Single-Rollout Asynchronous Optimization](concepts/SingleRolloutAsynchronousOptimization.md) - Actor-critic method combining immediate trajectory consumption, direct token masking, critic stabilization, and observation-aware GAE.
+- [Spectral Progressive Diffusion](concepts/SpectralProgressiveDiffusion.md) - Power-spectrum-guided resolution scheduling that reduces early diffusion token counts before injecting newly representable high-frequency noise.
+- [Vector Quantization](concepts/VectorQuantization.md) - Compact vector coding evaluated jointly through representation, metadata, estimator guarantees, execution cost, and downstream task quality.
+- [RaBitQ](concepts/RaBitQ.md) - Random-rotation uniform-grid quantizer supporting direct and incremental inner-product estimates from unsigned codes.
+- [TurboQuant](concepts/TurboQuant.md) - Random-rotation centroid quantizer with separate reconstruction and residual-corrected unbiased variants.
+- [Automation Demand Externality](concepts/AutomationDemandExternality.md) - Cross-firm spillover in which labor-replacing automation reduces worker spending while each automating firm internalizes only part of the resulting demand loss.
+- [Pigouvian Automation Tax](concepts/PigouvianAutomationTax.md) - Per-task charge calibrated to the marginal automation-driven demand loss imposed on rival firms.
+- [Agentic Sandbox Infrastructure](concepts/AgenticSandboxInfrastructure.md) - Elastic execution infrastructure for stateful agent rollouts across runtime choice, images, resource overcommit, recovery, and integrity controls.
 - [Writing Style Distillation](concepts/WritingStyleDistillation.md) - Deriving and iteratively refining an author-specific writing guide from verbatim, dimension-selected exemplars and real editing diffs.
 - [AI-Era Career Impact](concepts/AIEraCareerImpact.md) - Source-scoped career framework combining human trust and attention, AI-orchestration ability, intelligence and intensity, superlinear leverage, and outcome ownership.
 - [Traceroute](concepts/Traceroute.md) - TTL-stepped network diagnostic method whose response behavior can reveal path progress but not necessarily a complete, stable router count.
@@ -4096,6 +4158,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent Interface As Context](concepts/AgentInterfaceAsContext.md) - Interface-design frame where GUIs and TUIs deliver timely constraints, diagnostics, and warnings into an agent's observed context.
 - [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through notes, durable evidence, maintained views, and selective recall.
 - [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
+- [Agent-Native Computing](concepts/AgentNativeComputing.md) - Shift from app-specific interfaces and integrations toward agents that coordinate software and create personal capabilities on demand.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
 - [Agent TDD Residual](concepts/AgentTDDResidual.md) - Coding-agent workflow that alternates test-only and implementation-only phases so humans review behavioral residuals.
@@ -4164,6 +4227,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
+- [Local-First Software](concepts/LocalFirstSoftware.md) - Application design making the user's device the primary home for data and execution while keeping network use explicit and scoped.
 - [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, history, context, and noise that produces observed outputs.
 - [Data Monetization](concepts/DataMonetization.md) - Turning collected, combined, or inferred data into internal operational value or external data, insight, and analytics products.
 - [Data Factories](concepts/DataFactories.md) - Organizational and technical systems that repeatedly transform varied data inputs into operational decisions, profiles, insights, and customer-facing services.
@@ -4482,5 +4546,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Automated Discourse](concepts/AutomatedDiscourse.md) - Machine-speed reproduction of grievance, accusation, publicity, apology, and reconciliation scripts by autonomous agents.
 - [Structured Concurrency](concepts/StructuredConcurrency.md) - Concurrency discipline that binds task lifetime and cancellation propagation to explicit parent-child structure and debuggable dependency graphs.
 - [Agent-Native Language Server](concepts/AgentNativeLanguageServer.md) - Semantic code-intelligence service designed for coding-agent batch operations, concurrent worktrees, selective retrieval, and project-wide context.
+
+- [Generative UI](concepts/GenerativeUI.md) - On-demand creation or adaptation of an interface for a particular user's goal, context, or workflow.
 
 ## Syntheses

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "apps-agents-and-aggregation",
+  "images": [
+    {
+      "file": "iphone-home-screens.png",
+      "alt": "Three iPhone home screens showing task-specific apps and folders from Ben Thompson's 2013 setup"
+    },
+    {
+      "file": "muse-recipe-box.png",
+      "alt": "Muse-generated Recipe Box app listing 85 saved Instagram recipes with search and category filters"
+    },
+    {
+      "file": "muse-recipe-analysis.png",
+      "alt": "Muse conversation reporting recipe-video analysis, extracted ingredients, and Instagram rate limiting"
+    }
+  ]
+}

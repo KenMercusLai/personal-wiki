@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source_key": "p5662-hao-corrected",
+  "images": [
+    {
+      "file": "q22-decoding-time-breakdown.png",
+      "alt": "ClickBench Q22 CPU-time breakdown showing Parquet dominated by decoding and decompression while LiquidCache sharply reduces both"
+    },
+    {
+      "file": "liquidcache-architecture.png",
+      "alt": "LiquidCache positioned between a remote object store and nearby shared compute nodes"
+    },
+    {
+      "file": "query-lifecycle.png",
+      "alt": "LiquidCache query lifecycle from plan splitting and object-store download through filtering, network return, and background transcoding"
+    },
+    {
+      "file": "string-encoding-pipeline.png",
+      "alt": "Liquid string encoding pipeline from Arrow through dictionary keys, bit packing, and FSST-compressed dictionary values"
+    },
+    {
+      "file": "selective-decoding-comparison.png",
+      "alt": "Parquet page-level decoding compared with LiquidCache element-selective decoding under a three-of-eight row mask"
+    },
+    {
+      "file": "late-filter-materialization.png",
+      "alt": "Eager Parquet filtering compared with LiquidCache late materialization that uses the first filter mask to reduce later decoding"
+    },
+    {
+      "file": "clickbench-system-comparison.png",
+      "alt": "ClickBench latency, network traffic, cache CPU time, and cache memory for LiquidCache, Arrow pushdown, Parquet pushdown, and a Parquet file server"
+    },
+    {
+      "file": "tpch-cache-latency.png",
+      "alt": "TPC-H SF100 query latency with an eight-gigabyte cache comparing Liquid, Parquet, ORC, and Arrow across scan sizes"
+    },
+    {
+      "file": "q22-cpu-breakdown.png",
+      "alt": "ClickBench Q22 filter evaluation, decoding, and memory-stall time for Parquet pushdown, LiquidCache, Arrow pushdown, and a theoretical optimum"
+    },
+    {
+      "file": "encoding-size-transcoding-cost.png",
+      "alt": "ClickBench Title-column size and bidirectional transcoding time across Parquet, Arrow, dictionary, bit-packed, and fully encoded Liquid representations"
+    },
+    {
+      "file": "background-transcoding.png",
+      "alt": "LiquidCache background transcoding lowers Q21 cache memory about fourfold while query latency remains near Arrow pushdown"
+    },
+    {
+      "file": "cold-run-transcoding-overlap.png",
+      "alt": "Cold- and warm-run latency showing background transcoding hidden by remote and local storage I/O but exposed by memory-speed input"
+    },
+    {
+      "file": "decoding-optimization-ablation.png",
+      "alt": "ClickBench ablation across full decoding, selective decoding, late materialization, and encoded predicate evaluation"
+    }
+  ]
+}

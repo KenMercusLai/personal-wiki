@@ -1,6 +1,22 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "agent-platform-trust-is-topic-spillover",
+      "qualifications": [
+        "The paragraph reaches this topic through trust, consent, and autonomy language; its primary evidence concerns technology and platform strategy.",
+        "One expert user's frustration does not establish ordinary-user comprehension, preference, or psychological outcomes."
+      ],
+      "statement": "[[AppleTrustBrand]] adds a source-scoped consent lesson: protective controls can reduce perceived trust when labels, patch delivery, and permission abstractions do not match an informed user's intended operating model, but the [[MacOS]] and [[AgentPermissionModel]] case is primarily technology evidence rather than general psychology.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AppleTrustBrand",
+        "MacOS",
+        "AgentPermissionModel",
+        "BenThompson"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "participatory-living-balances-reflection-experience-and-responsibility",
       "qualifications": [

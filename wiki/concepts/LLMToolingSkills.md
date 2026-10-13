@@ -13,6 +13,7 @@ sources:
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
   - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
   - ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia
+  - zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -40,6 +41,8 @@ Frost Ming adds an agent-authorship variant. In his Bub experiment, the agent cr
 Mai Yang's account of Jeff Dean supplies a compact expert-procedure example: Dean and Sanjay Ghemawat reportedly encoded their microbenchmark optimization loop—measure, modify, rerun, widen the benchmark set, and inspect cache footprint—so a model could iterate using the approach they would use themselves. The example clarifies what a procedural Skill transfers: an ordered investigation and feedback loop, not merely a reference document or a claim that the model now possesses the experts' complete judgment.
 
 Mai Yang's writing-style experiment adds an editorial Skill pattern. Its package separates the main operating guide from a blacklist and verbatim voice samples, but its deeper contribution is selection and feedback: choose exemplars by dimension rather than averaging every old article, put generative structure before surface prohibitions, test borrowed rules against strong original lines, and update the Skill from real draft-to-edit diffs. The case also shows why a Skill needs priority rules: factual non-invention and explicit unknowns outrank sounding like the author.
+
+DeepChat adds a capability-composition pattern. Its developers call MCP a resource package and Skills the instructions for using tools or completing a task; one distributable unit can pair an MCP server with a Skill that installs it and explains sequencing. DeepChat's Computer Use follows this pattern: Cua provides the driver, an MCP server bridges it into the client, and a “How to use computer use” Skill teaches the agent what each operation means and how to combine them. The same source uses an ASCII-UI Skill to make interface changes legible to both coding agents and human reviewers, illustrating that a Skill can coordinate design communication without itself enforcing code behavior.
 
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
@@ -76,16 +79,18 @@ Mai Yang's writing-style experiment adds an editorial Skill pattern. Its package
 - Expert optimization loop: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] reports Dean and Ghemawat turning their repeated microbenchmark process into a Skill for model-driven iteration.
 - Editorial package: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] describes a writing Skill split across `SKILL.md`, a forty-seven-item blacklist, and twelve voice-sample groups, while noting that only eight source articles were available verbatim.
 - Selection and feedback: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] selects structure and tone examples separately, validates prohibitions against favored original lines, and proposes manual editing diffs as the update loop.
+- Capability composition: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] pairs MCP servers with Skills that install, explain, and sequence their tools.
+- Computer Use instructions: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] describes Cua as the driver, MCP as the client bridge, and a dedicated Skill as the operating guide.
+- Review communication: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] uses ASCII UI and accompanying interaction or sequence descriptions in project Skills so reviewers can inspect intended interface changes before running a branch.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. The optimization example reports no benchmark establishing how much the Skill improved performance reasoning, how often the loop converged, or which expert choices remained implicit. The writing-style case likewise reports no blind output comparison, makes subjective exemplar choices, withholds the completed files from the supplied source, and has not yet run its proposed edit-feedback cycle. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. The optimization example reports no benchmark establishing how much the Skill improved performance reasoning, how often the loop converged, or which expert choices remained implicit. The writing-style and DeepChat cases likewise report no blind or controlled output comparison; the latter does not isolate how much Computer Use or review quality comes from the Skill, the MCP tools, the model, or ordinary project conventions. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
 
 ## What Changed
-- Broadened the definition to cover prompt guidance, bundled executables, and reviewed reference implementations while separating installation auditability from runtime security.
-- Added explicit README loading as a cross-agent, informal progressive-disclosure variant.
-- Added agent-authored Skills as a self-extension mechanism and made their provenance, review, and rollback costs explicit.
-- Added an expert-authored measurement-and-feedback loop as a concrete procedural Skill pattern.
-- Added writing-style Skills as a curated instruction-and-reference package whose rules improve through accepted-edit diffs and remain subordinate to factual integrity.
+- Added the MCP-plus-Skill composition pattern: one layer exposes capability while the other installs, explains, and sequences it.
+- Added Cua-backed Computer Use as a concrete driver, MCP bridge, and usage-Skill stack.
+- Added ASCII UI as a Skill-mediated interface specification and review aid.
+- Preserved the boundary between procedural guidance and runtime enforcement or measured task quality.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.
@@ -100,3 +105,4 @@ The sources evaluate Skills conceptually and through practitioner workflow rathe
 - [[NanoClaw]] - uses reviewed skill merges to keep its installed code surface owner-selected and explicit.
 - [[AINativeAgentArchitecture]] - uses agent-created Skills and runtime artifacts to move capability ownership out of the host framework.
 - [[WritingStyleDistillation]] - applies Skill packaging to author-specific structure, voice samples, prohibitions, and revision feedback.
+- [[DeepChat]] - combines Skills with MCP tools for installation, Computer Use guidance, and interface-review conventions.

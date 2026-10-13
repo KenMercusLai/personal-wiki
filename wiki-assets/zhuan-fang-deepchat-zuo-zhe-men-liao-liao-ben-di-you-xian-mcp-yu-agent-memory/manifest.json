@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory",
+  "images": [
+    {
+      "file": "deepchat-tool-categories.png",
+      "alt": "DeepChat interface listing browser, memory, Tape, Skill, planning, user-interaction, and subagent tools"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "2603.20617",
+  "images": [
+    {
+      "file": "over-automation-wedge-cost-saving.png",
+      "alt": "Over-automation wedge by number of firms and per-task cost saving, with the no-automation threshold shown as a dashed curve"
+    },
+    {
+      "file": "over-automation-wedge-demand-loss.png",
+      "alt": "Over-automation wedge by number of firms and demand loss, with the distortion largest in fragmented markets around the model's interior regime"
+    },
+    {
+      "file": "over-automation-wedge-income-replacement.png",
+      "alt": "Over-automation wedge by number of firms and displaced-income replacement, showing the distortion shrink as replacement approaches full income recovery"
+    },
+    {
+      "file": "welfare-by-automation-rate.png",
+      "alt": "Normalized owner surplus and worker income by automation rate, showing both below their cooperative benchmarks at the Nash rate"
+    },
+    {
+      "file": "factor-payoff-frontier.png",
+      "alt": "Factor-payoff frontier placing the Nash automation outcome below the cooperative outcome for both normalized owner surplus and worker income"
+    },
+    {
+      "file": "planner-rate-by-worker-weight.png",
+      "alt": "Planner automation rate falling with the weight on workers while remaining below the Nash automation rate"
+    }
+  ]
+}

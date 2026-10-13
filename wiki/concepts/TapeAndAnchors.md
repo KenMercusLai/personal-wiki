@@ -5,7 +5,8 @@ tags: [ai, agents, context-management, memory]
 sources:
   - mu-jiang-chui-zi-ding-zi
   - tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi
-last_updated: 2026-09-24
+  - zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,6 +15,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Synthesis
 The sources argue that many session, memory, compact, fork, merge, and handoff designs share an expensive premise: state must continue and history must not be lost. Tape relaxes that premise by preserving every interaction as an immutable entry while allowing active context to contain only selected material. Anchors identify or summarize recoverable moments, views collect relevant entry ranges, and handoff advances the working window after writing a state-bearing anchor. The newer source makes the specification more concrete and shows how [[AgentTopicLifecycle]] can map business topics onto bounded Tape ranges without coupling the model to local files, databases, object storage, or vector retrieval.
+
+An operational Tape can record structured messages, tool calls and results, runtime events, and key anchors, then expose `tape_info`, `tape_search`, `tape_context`, `tape_anchors`, and `tape_handoff` operations, as [[DeepChat]] does. Memory is derived rather than substituted: compact conclusions retain pointers back to source passages, so the system can recall a small statement first and expand the original evidence only when needed. This supports the architectural synthesis while leaving performance, concurrency, retention, and compliance behavior unmeasured.
 
 ## Key Claims
 - Infinite history should be treated as a material library, not a burden automatically inherited by every task.
@@ -32,13 +35,16 @@ The sources argue that many session, memory, compact, fork, merge, and handoff d
 - Core specification: [[tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi]] distinguishes session-scoped Tape, immutable entries, special anchor entries, views, and handoff.
 - Infrastructure flexibility: [[tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi]] allows local JSONL, databases, object stores, vector retrieval, and token observability beneath the same abstractions.
 - Domain extension: [[tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi]] and its four retained diagrams show topic ranges, recall anchors, normal finalization, and unfinished-topic recovery.
+- Product implementation: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] reports DeepChat recording conversation, tool, runtime, and anchor events in Session Tape and exposing search, context, anchor, and handoff tools.
+- Provenance path: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] says derived memories retain links to the sentences and fragments from which they were distilled.
 
 ## Counterevidence & Qualifications
-The sources give a conceptual model and proposed lifecycle rather than a benchmarked implementation protocol. They do not resolve concurrency, anchor-schema evolution, retrieval ranking, topic-boundary accuracy, privacy, access control, deletion, multi-agent conflict, or how much context is sufficient for high-stakes work. Append-only history also requires an explicit compliance strategy where data must be corrected or erased.
+The first two sources give a conceptual model and proposed lifecycle, while DeepChat supplies a first-party implementation account rather than an independent benchmark. The combined evidence does not resolve concurrency, anchor-schema evolution, retrieval ranking, topic-boundary accuracy, privacy, access control, physical deletion, multi-agent conflict, storage growth, or how much context is sufficient for high-stakes work. Append-only history also requires an explicit compliance strategy where data must be corrected or erased.
 
 ## What Changed
-- Created the initial concept page for the tape-and-anchors context model.
-- Added entries, views, handoff, infrastructure portability, and topic-lifecycle evidence from the newer Tape design article.
+- Added DeepChat as an implementation of conversation, tool, runtime, anchor, search, context, and handoff operations over Tape.
+- Strengthened the distinction between immutable evidence and derived memory through traceable source pointers.
+- Preserved the lack of independent evaluation and unresolved retention, deletion, concurrency, and retrieval questions.
 
 ## Related Concepts
 - [[LLMContextManagement]] - tape and anchors offer a model for assembling context on demand.
@@ -48,3 +54,4 @@ The sources give a conceptual model and proposed lifecycle rather than a benchma
 - [[AgentResumability]] - both concern continuation, but tape and anchors focus on context reconstruction rather than side-effect-safe execution recovery.
 - [[AgentTopicLifecycle]] - builds explicit business-topic ranges and hooks over Tape primitives.
 - [[AgentSystemTransparency]] - immutable entries and indexed ranges can support action and token-cost auditability.
+- [[DeepChat]] - implements Tape as the evidence substrate beneath a separately derived memory layer.

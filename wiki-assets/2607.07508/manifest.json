@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "source_key": "2607.07508",
+  "images": [
+    {"file": "sao-versus-grpo-training-flow.png", "alt": "GRPO waits for a complete response group while SAO trains each completed rollout under a double-sided token trust region"},
+    {"file": "benchmark-accuracy-comparison.png", "alt": "SAO, GRPO, and supervised baseline accuracy across four reasoning benchmarks and SWE-Bench Verified"},
+    {"file": "aime-training-accuracy.png", "alt": "AIME 2025 accuracy over training steps for SAO, GRPO with DIS, and vanilla GRPO"},
+    {"file": "beyond-aime-training-accuracy.png", "alt": "BeyondAIME accuracy over training steps for SAO, GRPO with DIS, and vanilla GRPO"},
+    {"file": "hmmt-training-accuracy.png", "alt": "HMMT November 2025 accuracy over training steps for SAO, GRPO with DIS, and vanilla GRPO"},
+    {"file": "critic-explained-variance.png", "alt": "Critic explained variance with two value updates per policy step versus one update"},
+    {"file": "critic-gradient-norm.png", "alt": "Critic gradient norm under frozen-attention and full-parameter value-model training"},
+    {"file": "off-policy-token-clip-ratio.png", "alt": "Token clip ratio for SAO with direct importance sampling versus vanilla VAPO"},
+    {"file": "online-style-adaptation.png", "alt": "Writing-style accuracy shifts as SAO adapts to changing cute, chuunibyou, and classical reward preferences"},
+    {"file": "online-reward-recovery.png", "alt": "Reward recovery after preference changes for SAO and a running-mean baseline"},
+    {"file": "token-versus-step-level-training-reward.png", "alt": "Training reward for token-level SAO and two step-level advantage variants"}
+  ]
+}

@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-10-04
-as_of_overview_commit: f5544ed814fcbd010099ebae4860b87e507b5cbd
-input_digest: bf68f29cccc73c5c81a05e13d999a5bde71eb2cb023abd2c018594eed2942d35
+last_updated: 2026-10-13
+as_of_overview_commit: b36e972f7b97914b3c1ac692813474ced35a8851
+input_digest: 7adff98da82f31243228dd4ce8b398f46f8b79f8a76339533a1cb6d9915d8fa8
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize explicit unit, boundary, and infrastructure thinking across biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery: durable judgments come from identifying what is being classified or controlled, exposing hidden flows and inherited constraints, and making ownership, replacement signals, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.
+Cross-domain sources emphasize explicit units, boundaries, objectives, and execution conditions across vector quantization, biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery. Durable judgments identify what is being classified or controlled, expose hidden flows and inherited constraints, and make ownership, comparison conditions, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.
 
 ## Cross-source Findings
+
+### Fair Comparison Needs Matched Objectives And Execution
+
+Fair [[VectorQuantization]] comparison must align objectives, metadata, estimators, hardware, and executable artifacts: the current interested-party evidence reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings, while their 3.5-bit cache quality is close.
+
+**Evidence:** [[ApproximateNearestNeighborSearch]], [[KVCacheCompression]], [[RaBitQ]], [[TurboQuant]], [[VectorQuantization]]
+
+**Qualifications:**
+
+- The detailed comparison is written primarily by RaBitQ researchers, changes or repairs some implementation paths, and relies partly on private correspondence, so its runtime, recall, and baseline-symmetry findings still need independent replication.
 
 ### Classification Needs Unit And Lifecycle Context
 

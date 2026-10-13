@@ -10,6 +10,7 @@ sources:
   - large-language-model-technical-reports-overview
   - rl-is-an-evolutionary-algorithm
   - training-100x-cheaper-retrieval-models-neon-and-castform
+  - 2607.07508
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -24,6 +25,8 @@ Language models turn generated tokens, searches, and answers into policy actions
 
 [[DeepSeekR1]] sharpens two distinctions. First, R1-Zero reports that outcome-verifiable RL can induce extended reasoning without initial SFT, but the practical R1 model adds cold-start examples, rejection-sampled SFT, language-consistency reward, and a second RL phase to improve readability and general behavior. Second, rule-based correctness and format rewards can be more robust than learned reward models on objectively checkable tasks, but they do not solve reward design for open-ended output. [[KimiK15]] similarly combines long-chain SFT and RL over curated verifiable prompts, then uses curriculum, prioritized sampling, and length penalties to balance difficulty and reasoning cost.
 
+Time and policy freshness become explicit concerns in [[AsynchronousReinforcementLearning]]. When agent trajectories have very different lengths, synchronous batches idle on stragglers, while asynchronous learners consume completed rollouts under increasing policy lag. [[SingleRolloutAsynchronousOptimization]] treats GRPO's prompt group as its own synchronization barrier and restores a critic so one rollout can train immediately. Its direct token masking, faster partly frozen critic, and observation-skipping GAE stabilize the reported runs, but the method trades group generation for value-model memory, compute, initialization, and bias.
+
 A deliberately loose [[EvolutionaryOptimizationAnalogy]] adds a selection-pressure view: sampled behaviors vary, reward changes their future probability, and diverse tasks may favor strategies that transfer. Its practical contribution is the selection-pressure question rather than a new RL definition. [[InstructionRewardAlignment]] determines whether following a stated constraint is actually competitive; mismatched environments may reward cheating or broad avoidance. [[AgenticJudging]] is proposed for qualitative requirements that deterministic checks cannot score, but judge hacking, correlated errors, and rule misspecification remain unresolved.
 
 The [[Castform]] case study grounds those reward-design concerns in a corpus-specific retrieval workflow. It synthetically derives questions and ground truths from documents, exposes a hybrid-search tool, and combines correct-source retrieval, correct-chunk citation, and answer correctness into the reward. The reported reward curve improves while remaining noisy, and individual rollout inspection is intended to reveal broken tools or reward hacking. This shows how proprietary data can define an environment without an existing hand-labeled task set, but inferred ground truth and synthetic questions can also carry generation errors and coverage bias into the policy.
@@ -33,7 +36,7 @@ The [[Castform]] case study grounds those reward-design concerns in a corpus-spe
 - Coarse outcome reward can shape policies without labeling every action, while leaving credit assignment, shortcut learning, evaluation awareness, and reward hacking unresolved.
 - Self-play and simulation are powerful in bounded, observable environments; hidden state, large action spaces, real-time constraints, and limited simulation reduce that advantage.
 - Language-model agents can learn multi-step retrieval and reasoning policies, including when to search, continue, stop, or answer.
-- PPO stabilizes language-model policy updates with a critic/value estimate and reference-policy constraint; GRPO removes the critic by comparing multiple sampled outputs within a prompt group.
+- PPO stabilizes language-model policy updates with a critic/value estimate and reference-policy constraint; GRPO removes the critic through grouped rewards, while asynchronous single-rollout training restores a critic to avoid waiting for that group.
 - Pure outcome-driven RL can induce reasoning in a base model, but usable systems may still require supervised cold starts, readability controls, general-task data, and preference alignment.
 - Verifiable rewards fit mathematics, code, and constrained formats better than subjective open-ended tasks; agentic judges may extend feedback to qualitative behavior but add their own attack and reliability surface.
 
@@ -51,14 +54,16 @@ The [[Castform]] case study grounds those reward-design concerns in a corpus-spe
 - Qualitative feedback: [[rl-is-an-evolutionary-algorithm]] proposes privileged agentic judges while explicitly retaining judge hacking, enforcement reliability, and rule choice as open problems.
 - Corpus-specific post-training: [[training-100x-cheaper-retrieval-models-neon-and-castform]] constructs synthetic tasks from documents and scores retrieval, citation, and final-answer correctness over a hybrid search environment.
 - Learning and infrastructure trace: [[training-100x-cheaper-retrieval-models-neon-and-castform]] shows a rising but noisy average-reward curve and a bursty database workload created by thousands of parallel multi-search rollouts.
+- Asynchronous optimization: [[2607.07508]] contrasts the grouped completion barrier with immediate single-rollout consumption, then reports direct off-policy masking, critic and action-granularity ablations, and stable reasoning and coding training.
 
 ## Counterevidence & Qualifications
-The sources are a career essay, tutorials, historical journalism, a 2016 forecast, secondary overviews, vendor reports, and speculative practitioner material rather than a unified experimental literature. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely on vendor benchmarks and checkable-task-heavy training, with no independent reproduction here. Castform likewise omits evaluation and training details, while corpus-derived synthetic questions and inferred answers can encode errors, blind spots, and reward shortcuts. A rising training reward does not establish held-out generalization. Removing a critic does not remove rollout cost, variance, or reward dependence, and rule rewards can be gamed or become unavailable for subjective work. The evolutionary essay explicitly uses nonstandard agent/policy terminology and does not experimentally establish its claims about multi-domain generalization, deception, evaluation awareness, or agentic judging. More reasoning or tool actions can improve some tasks while increasing latency, cost, infrastructure load, and opportunities for unfaithful or redundant traces.
+The sources are a career essay, tutorials, historical journalism, a 2016 forecast, secondary overviews, vendor reports, one primary asynchronous-RL paper, and speculative practitioner material rather than a unified experimental literature. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely heavily on vendor benchmarks and checkable-task-heavy training. SAO adds direct experiments but uses one MoE backbone, bundles several optimization changes, omits full throughput and compute accounting, and does not publish evidence for its named GLM-5.2 deployment. Castform likewise omits evaluation and training details, while corpus-derived synthetic questions and inferred answers can encode errors, blind spots, and reward shortcuts. A rising training reward does not establish held-out generalization. Removing a critic does not remove rollout cost, variance, or reward dependence; restoring one adds memory, compute, and estimation error; and rule rewards can be gamed or become unavailable for subjective work. The evolutionary essay explicitly uses nonstandard agent/policy terminology and does not experimentally establish its claims about multi-domain generalization, deception, evaluation awareness, or agentic judging. More reasoning or tool actions can improve some tasks while increasing latency, cost, infrastructure load, and opportunities for unfaithful or redundant traces.
 
 ## What Changed
-- Added corpus-derived questions and inferred answers as a way to construct retrieval-training tasks without a pre-existing labeled set.
-- Added composite retrieval, citation, and correctness rewards as a concrete environment design.
-- Added noisy reward trajectories, rollout inspection, synthetic-data bias, and bursty tool load as coupled training and evaluation concerns.
+- Added the distinction between synchronous batch waiting and prompt-group waiting in long-horizon agentic RL.
+- Added single-rollout actor-critic training as a freshness-versus-value-model tradeoff rather than a universal replacement for grouped methods.
+- Added rollout-policy logging, double-sided token masking, critic tracking, and observation-aware credit assignment as coupled stability mechanisms.
+- Narrowed the new evidence to one backbone and bundled method, without full compute, throughput, or production-deployment results.
 
 ## Related Concepts
 - [[GroupRelativePolicyOptimization]] - removes PPO's learned critic and estimates advantage from grouped response rewards.
@@ -73,3 +78,5 @@ The sources are a career essay, tutorials, historical journalism, a 2016 forecas
 - [[AgenticJudging]] - supplies qualitative feedback when deterministic outcome checks are insufficient.
 - [[Castform]] - manages the corpus-derived task, tool, reward, and rollout workflow in the Neon case study.
 - [[Neon]] - supplies the searchable environment queried repeatedly during the retrieval-policy rollouts.
+- [[AsynchronousReinforcementLearning]] - decouples rollout generation and learning while introducing policy-lag and freshness problems.
+- [[SingleRolloutAsynchronousOptimization]] - source-specific actor-critic response to grouped asynchronous training barriers.

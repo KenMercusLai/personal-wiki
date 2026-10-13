@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "2605.18736",
+  "images": [
+    {
+      "file": "spectral-progressive-diffusion-pipeline.jpeg",
+      "alt": "Spectral Progressive Diffusion grows resolution at power-spectrum-derived transition times and injects high-frequency noise at each expansion"
+    },
+    {
+      "file": "latent-power-spectrum-and-denoising.png",
+      "alt": "Image and video latent power spectra decay with frequency while wavelet views show low frequencies emerging before high-frequency detail"
+    },
+    {
+      "file": "generation-quality-comparisons.png",
+      "alt": "Qualitative comparisons across latent image, pixel image, and latent video generation at matched acceleration regimes"
+    },
+    {
+      "file": "schedule-ablation-and-frequency-editing.png",
+      "alt": "ImageReward schedule ablations and frequency-domain editing compared with spatial SDEdit"
+    }
+  ]
+}

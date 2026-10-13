@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "2609.39137",
+  "images": [
+    {
+      "file": "sparsity-and-scale-load-control.png",
+      "alt": "Worst and average backbone load violations across routing sparsity and model scale for four balancing methods"
+    },
+    {
+      "file": "worsening-gated-derivative-effect.png",
+      "alt": "Derivative-gate activity, mean overload, and busiest-expert routing share during sparse MoE training"
+    },
+    {
+      "file": "continued-pretraining-load-control.png",
+      "alt": "Language-model loss and expert load violations during continued pretraining with full, reduced, or frozen ID Balancing updates"
+    },
+    {
+      "file": "per-layer-load-control.png",
+      "alt": "Per-layer overload and underload for auxiliary loss, DeepSeek loss-free, Quantile Balancing, and ID Balancing"
+    },
+    {
+      "file": "inference-expert-utilization.png",
+      "alt": "Inactive-expert ratios and routing-score entropy across layers on nine downstream benchmarks"
+    }
+  ]
+}

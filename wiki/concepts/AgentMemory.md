@@ -11,7 +11,8 @@ sources:
   - ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie
   - wei-ai-agent-gou-jian-ji-yi-xi-tong
   - effective-context-engineering-for-ai-agents-anthropic
-last_updated: 2026-10-08
+  - zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -37,10 +38,12 @@ Working, short-term, long-term, episodic, and semantic memory are useful retenti
 
 Anthropic's long-horizon guidance adds a deliberately small operational form: structured notes can preserve objectives, progress, maps, and learned tactics outside the prompt, then be reread after compaction or a context reset. This supports continuity with low active-token overhead, but a `NOTES.md`-style file is a persistence surface rather than a complete memory system; the existing requirements for admission, correction, provenance, retrieval, expiry, privacy, and user control still apply.
 
+The [[DeepChat]] implementation makes the evidence-versus-view split operational: “Tape is the ledger; memory is the brain.” Session Tape records structured messages, tool calls and results, runtime events, and anchors, while memory keeps only minimal durable conclusions that retain pointers to their originating passages. Candidate writes are compared with the ten nearest existing memories and classified as new, updated, replaced, duplicated, or conflicting; unused items decay into soft archival rather than deletion; recall is relevance-ranked under a token budget; and health views expose unvisited, conflicted, or unvectorized records. Per-agent separation and content-free audit events add privacy boundaries, although self-update, insight formation, and some user-facing control remain incomplete.
+
 ## Key Claims
 - Memory addresses context limits through progressive disclosure: durable evidence stays outside the prompt while compact views and pointers support selective retrieval and expansion.
 - Write access distinguishes agent memory from read-only RAG, but a writeable vector index is still only a persistence and retrieval layer.
-- Durable memory requires distillation, compaction, bitemporal state, evolution, conflict resolution, forgetting, provenance, confidence, retention, privacy, deletion, write admission, recall, and authorization in addition to similarity search.
+- Durable memory requires selective admission, distillation, compaction, bitemporal state, evolution, conflict resolution, soft forgetting, provenance, confidence, retention, privacy, deletion, bounded recall, user correction, observability, and authorization in addition to similarity search.
 - Append-only evidence and derived current-state views can coexist, preserving auditability while keeping recall compact.
 - Memory should retain behavioral feedback that lacks a more authoritative home, not duplicate code, git history, or temporary task state.
 - Broad continuity layers can drift; minimal anchors, bounded topic summaries, and structured working notes reduce inherited-state and active-token costs.
@@ -66,16 +69,23 @@ Anthropic's long-horizon guidance adds a deliberately small operational form: st
 - Cross-tool lifecycle: [[wei-ai-agent-gou-jian-ji-yi-xi-tong]] connects agents through working-memory injection, capture, distillation, local formats, export, and graph visibility.
 - Structured notes: [[effective-context-engineering-for-ai-agents-anthropic]] describes file-backed goals, progress, maps, and tactics that can be restored after context resets without keeping the full trajectory active.
 - Memory boundary: [[effective-context-engineering-for-ai-agents-anthropic]] demonstrates persistence and recall value, while its simple note pattern leaves write admission, conflict handling, expiry, privacy, and correction unspecified.
+- Ledger and cognition split: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] describes Tape as the immutable factual record and Memory as traceable durable conclusions derived from it.
+- Admission and conflict: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] limits writes to stable preferences, project facts, task outcomes, and lessons, then compares each candidate with ten similar memories before adding, updating, replacing, deduplicating, or recording conflict.
+- Forgetting and recall: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] uses half-life-like decay, soft archival, relevance-ranked recall, and a strict token budget while preserving Tape for later re-expansion.
+- Visibility and isolation: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] reports health snapshots, cited-memory inspection and soft deletion, per-agent memory separation, and body-free audit events.
 
 ## Counterevidence & Qualifications
 The infrastructure-stack source names privacy, deletion, and policy requirements but does not specify enforcement, tenant scoping, user correction, retrieval evaluation, or confidence calibration. The memory architectures supply no comparative benchmark for compaction triggers, conflict policies, recall strategies, temporal weights, decay curves, or storage combinations. PsiACE's critique is strongest for detached continuity layers; calling Tape history itself “memory” preserves evidence but does not remove the need for indexing, summarization, temporal interpretation, correction, retention, and authorization. Nowledge Mem is a first-party product account: its numerical gates, boosts, task budgets, and `confidence = max(new, old)` rule are implementation policies rather than validated general laws, and non-decreasing confidence can misrepresent evidence later shown unreliable.
 
 Anthropic's note-taking examples show coherence across resets but provide no controlled comparison with compaction or retrieval systems. A note file can also preserve stale, mistaken, sensitive, or overgeneralized state indefinitely unless a surrounding lifecycle governs it.
 
+DeepChat's account is first-party and provides no memory-quality benchmark, false-write or false-recall rate, longitudinal decay evaluation, conflict-adjudication study, privacy audit, or measured token tradeoff. Comparing against ten nearby memories, using a cheaper model for adjudication, and applying half-life-like decay are implementation policies rather than established optimal values. Self-updating memory, higher-order insight, Skill generation, and parts of human conflict resolution remain roadmap items.
+
 ## What Changed
-- Added structured note-taking as a low-overhead persistence and recovery pattern for long-horizon agents.
-- Preserved the boundary between a useful note file and a governed memory system with admission, correction, provenance, expiry, privacy, and recall policies.
-- Added stale or overgeneralized notes as another continuity-layer failure mode.
+- Added a concrete Tape-to-Memory implementation that separates raw evidence from minimal durable conclusions.
+- Made candidate admission, near-memory comparison, explicit conflict retention, soft archival, and token-bounded recall part of the current lifecycle judgment.
+- Added memory health views, cited-memory deletion, per-agent isolation, and content-free audit events as user-control and privacy surfaces.
+- Kept self-update, insight formation, and Skill synthesis as unvalidated roadmap capabilities rather than current system properties.
 
 ## Related Concepts
 - [[RetrievalAugmentedGeneration]] - agent memory is framed as RAG plus write capability.
@@ -93,3 +103,4 @@ Anthropic's note-taking examples show coherence across resets but provide no con
 - [[BitemporalMemory]] - separates event time from record time and preserves temporal precision.
 - [[MemoryForgetting]] - adjusts salience and archival without equating inactivity with falsity.
 - [[NowledgeMem]] - supplies an integrated first-party implementation of the lifecycle described here.
+- [[DeepChat]] - supplies a second first-party implementation centered on Tape provenance, write adjudication, soft archival, and bounded recall.

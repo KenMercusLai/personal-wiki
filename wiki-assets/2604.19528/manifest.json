@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "2604.19528",
+  "images": [
+    {
+      "file": "rabitq-inner-product-error-distributions.png",
+      "alt": "RaBitQ unbiased and reconstruction-oriented inner-product error distributions across one- to four-bit codes"
+    },
+    {
+      "file": "turboquant-inner-product-error-distributions.png",
+      "alt": "TurboQuant unbiased and reconstruction-oriented inner-product error distributions across one- to four-bit codes"
+    },
+    {
+      "file": "nearest-neighbor-recall-comparison.png",
+      "alt": "Recall at one within top k for RaBitQ and two TurboQuant variants on GloVe-200 and OpenAI3 datasets"
+    },
+    {
+      "file": "kv-cache-needle-retrieval-heatmaps.png",
+      "alt": "Needle-In-A-Haystack scores by context length and needle depth for full precision, RaBitQ, and TurboQuant KV caches"
+    }
+  ]
+}
