@@ -823,12 +823,13 @@
       "a9569ca1840d96eb0e072de83a26cf91766d6f75106fc65fe0b942ac59e3e1fd",
       "b8e300540eead8d1809ec6fa20928b207fbccdf204907f92e3226c6a078bf2ac",
       "cc4b4c6c77f311dd7d8fa7d66a86515c656a4f6c0af0016d8eefeb96289c18ef",
-      "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8"
+      "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8",
+      "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df"
     ],
-    "paragraph_count": 823
+    "paragraph_count": 824
   },
-  "overview_commit": "3a3055c571a3eb0bf458764172c125ddef83f3d1",
-  "overview_digest": "9f51e029318295e39a17d29f38e71f3f44892fe3b456a8a557c608d8f0b0474a",
+  "overview_commit": "c47c8478a4c0237efa0fa36946a9cf48af4c1a08",
+  "overview_digest": "2de342e14401df041ce86a3d2c769aac74cb1d71b37155b41f1b621ddf55ad51",
   "paragraphs": [
     {
       "id": "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
@@ -16641,6 +16642,27 @@
         "BenThompson",
         "MacOS",
         "Muse"
+      ]
+    },
+    {
+      "id": "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[BenThompson]] source adds [[FrontierModelOverhangs]] as a strategy framework for capability improving faster than customers, products, pricing, capital returns, and cyber defense can absorb it. The inspected [[ClaytonChristensen]] diagram supplies the mechanism behind the capability claim: integrated architectures lead while performance is insufficient, but modular alternatives can win on speed, convenience, and customization after a surplus appears. Thompson treats Microsoft's multi-model harness, customer resistance to [[Anthropic]]'s reported data-retention condition, and [[Muse]] running on a non-frontier model as early signals that pure model capability may no longer guarantee a moat. He then argues that slower training could let Anthropic and [[OpenAI]] redirect compute toward inference, lower prices, build sticky products, and monetize infrastructure, while paradoxically extending a cybersecurity window in which automated offense is easier than reliable autonomous defense. The synthesis remains deliberately contested: the article offers no audited unit economics, broad product-adoption evidence, capital threshold, or proof of [[DarioAmodei]]'s motive; faster frontier progress could strengthen attackers as well as defenders; and a correction says Anthropic's reported profitability did include training costs. Both remote images were opened and retained at their semantic positions: New Hampshire's “Live Free or Die” emblem clarifies the article's normative opening, and the integration/modularity chart records the performance-gap-to-surplus transition.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "Anthropic",
+        "BenThompson",
+        "ClaytonChristensen",
+        "DarioAmodei",
+        "FrontierModelOverhangs",
+        "Muse",
+        "OpenAI"
       ]
     }
   ],

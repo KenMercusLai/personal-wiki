@@ -9308,3 +9308,11 @@ Created [[GenerativeUI]] and [[MicrosoftCopilot]], and updated [[BenThompson]], 
 ## [2026-10-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | Frontier Overhangs
+
+Created [[FrontierModelOverhangs]] and [[DarioAmodei]], and updated [[BenThompson]], [[Anthropic]], [[OpenAI]], and [[ClaytonChristensen]] from their complete ordered evidence inventories. Recorded capability, product, pricing, capital, safety, and competition claims while preserving the limited product evidence, unaudited economics, uncertain cyber direction, profitability correction, and the distinction between incentive alignment and proven motive. Opened and retained both evidence-bearing remote images at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

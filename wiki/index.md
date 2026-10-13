@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Frontier Overhangs](sources/frontier-overhangs.md) - Ben Thompson frames frontier AI pacing through capability, product, pricing, capital, and safety overhangs while qualifying the thesis with limited economic, cyber, and motive evidence.
 - [LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics](sources/p5662-hao-corrected.md) - Hao and collaborators co-design an ephemeral filter-aware cache format with pushdown execution to approach Arrow CPU and Parquet space efficiency, with non-selective and prototype-scope limits.
 - [FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks](sources/2610.01967.md) - Qiao and collaborators combine runtime-evidence selection, context-aware pruning, risk scheduling, and reversible workload reduction to cut GPU-heavy LLM-framework CI cost and latency, with important first-party coverage limits.
 - [ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control](sources/2609.39137.md) - Qwen researchers cast loss-free sparse-MoE balancing as generalized PID control and report qualified load-control gains from a magnitude-aware integral plus worsening-gated derivative update.
@@ -1184,6 +1185,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apps, Agents, and Aggregation](sources/apps-agents-and-aggregation.md) - Ben Thompson argues that computer-using agents can abstract apps, generate personal UI, and aggregate inspiration and execution, using Muse and Microsoft Copilot as consumer and enterprise cases.
 
 ## Entities
+- [Dario Amodei](entities/DarioAmodei.md) - Anthropic CEO represented through the contested frontier-pacing debate and Thompson's competitive-incentive interpretation.
 - [LiquidCache](entities/LiquidCache.md) - Disaggregated analytical cache that progressively transcodes Parquet into an ephemeral representation co-designed with filter execution.
 - [Apache DataFusion](entities/ApacheDataFusion.md) - Embeddable analytical engine used as LiquidCache's optimizer, connector, and cache-side execution substrate.
 - [Xiangpeng Hao](entities/XiangpengHao.md) - University of Wisconsin-Madison researcher and lead author of the LiquidCache paper.
@@ -3057,6 +3059,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier-model progress and customer adoption, product capture, inference pricing, capital returns, and defensive capability.
 - [Filter Pushdown](concepts/FilterPushdown.md) - Early predicate execution whose value depends on selectivity, source compression, decoding cost, operator compatibility, and network representation.
 - [Disaggregated Caching](concepts/DisaggregatedCaching.md) - Shared cache-service architecture that scales separately from compute while trading among network, cache CPU, and cache memory.
 - [GPU-Intensive Continuous Integration](concepts/GPUIntensiveContinuousIntegration.md) - Accelerator-backed CI treated jointly as an evidence, prioritization, workload, and cluster-queue optimization problem.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-13
-as_of_overview_commit: 3a3055c571a3eb0bf458764172c125ddef83f3d1
+as_of_overview_commit: c47c8478a4c0237efa0fa36946a9cf48af4c1a08
 summary: "Across domains, durable progress depends on explicit authority boundaries, legible evidence, fair incentives, recoverable systems, and accountable human judgment."
-episode_count: 1154
-source_count: 1154
-paragraph_count: 823
+episode_count: 1155
+source_count: 1155
+paragraph_count: 824
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[AgentNativeComputing]] can join [[ComputerUse]] and [[GenerativeUI]] so a conversational agent operates existing software and creates personal interfaces, but [[MacOS]] and [[Muse]] show that authority, credentials, hosted execution, supplier limits, and protected app-scoped prompts do not disappear; [[AgentPermissionModel]] therefore needs observable denials and agent-level grants bounded by controls the agent cannot rewrite, while [[AppleTrustBrand]] depends on coherent patching, consent, and user autonomy.
+- [[FrontierModelOverhangs]] links rapid model progress to lagging customer absorption, product capture, inference supply, capital returns, and autonomous cyber defense: [[BenThompson]] applies [[ClaytonChristensen]]'s performance-surplus transition to [[Anthropic]], [[OpenAI]], and [[Muse]], while keeping model commoditization, offense-defense direction, and [[DarioAmodei]]'s motive contested rather than established.
 - [[ProductionAgentInfrastructure]] must jointly support fast and introspectable resource delivery, infrastructure-enforced isolation, elastic response to unpredictable fan-out and ad-hoc demand, and accountable verification. [[AIInfrastructureStack]] places those semantics inside explicit compute, model, knowledge, context, orchestration, tool, [[AgentMemory]], [[SoftwareVerification]], and [[ServiceObservability]] responsibilities crossed by security, release, cost, and developer-platform controls; framework, sandbox, and workflow coverage do not replace durable effects, capability mediation, or semantic recovery. [[AutomatedDiscourse]] extends that boundary to public action: the reported [[OpenClaw]] and [[Matplotlib]] incident shows that repository, identity, and publishing authority can create rapid reputational effects, so [[AgentPermissionModel]] and [[AccountabilityInfrastructure]] need distinct attribution, audit, and stopping rules for social escalation. [[DSec]] makes the execution layer concrete through [[AgenticSandboxInfrastructure]]: multiple runtimes, composable images, on-demand storage, dense resource controls, and preemption-safe rollout ownership address bursty stateful training, while observed agent misbehavior keeps isolation distinct from semantic legitimacy.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
@@ -43,7 +43,7 @@ Durable businesses connect customer learning and coherent scope to retention, ec
 
 ### Cross-domain
 
-Across domains, sound judgment identifies the relevant unit, objective, execution context, human constraints, and recovery boundary before comparing outcomes.
+Sound judgment identifies the relevant unit, objective, execution context, human constraints, and recovery boundary before comparing outcomes.
 
 - Fair [[VectorQuantization]] comparison must align objectives, metadata, estimators, hardware, and executable artifacts: the current interested-party evidence reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings, while their 3.5-bit cache quality is close. Evidence: [[ApproximateNearestNeighborSearch]], [[KVCacheCompression]], [[RaBitQ]], [[TurboQuant]], [[VectorQuantization]].
 - Classification must identify the unit and its life-cycle context before applying a label: [[PloidyAndOrganismStatus]] separates chromosome-set count from biological individuality because haploidy can describe a whole organism, a multicellular stage, or one specialized cell. Evidence: [[PloidyAndOrganismStatus]], [[Xiaoyong]].

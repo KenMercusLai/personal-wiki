@@ -14,12 +14,13 @@ sources:
   - ibms-old-playbook-stratechery-by-ben-thompson
   - its-a-tesla-stratechery-by-ben-thompson
   - apps-agents-and-aggregation
-last_updated: 2026-09-30
+  - frontier-overhangs
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, mature-company strategy, consumer-market theory limits, [[AggregationTheory]], operational unbundling, capability stacks, and the prospective shift from apps toward agent-mediated computing.
+[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, mature-company strategy, consumer-market theory limits, [[AggregationTheory]], operational unbundling, capability stacks, agent-mediated computing, and the economic incentives surrounding frontier AI policy.
 
 ## Current Profile
 The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeCloud]] through the economics of packaged software, SaaS, productivity apps, and mobile platforms. His argument moves from user-level willingness to pay to producer incentives and then to platform-owner strategy: subscriptions can help app makers survive, but they can also help platform owners retain users who depend on indispensable apps. The Apple middle-age source shows the same incentive lens applied to a hardware company: Thompson argues that [[AppleMusic]] and Services should be understood as ways to differentiate and sell Apple devices, with [[HomePod]] as a case where service adoption bridges into hardware profit. The Apple social-network source adds a measurement lens: if Apple wants investors to value engagement and installed-base monetization, Thompson argues it should disclose active customers and revenue per user rather than only active devices and Services revenue.
@@ -40,14 +41,16 @@ The Tesla essay adds a theory-scope lens. Thompson agrees that Tesla is sustaini
 
 The 2026 agent essay combines several of these recurring lenses. Thompson uses a first-person Muse recipe experiment to argue that agents equipped with computers can abstract task-specific apps, generate personal UI, and continue work asynchronously. He then extends Aggregation Theory from discovery to inspiration and execution, interpreting Muse and [[MicrosoftCopilot]] as bids to control the primary consumer or employee interface while downstream apps become suppliers. The essay is a forecast grounded in one useful but incomplete workflow and product announcements; it does not establish mass adoption or durable agent concentration.
 
+The frontier-overhangs essay applies Thompson's incentive and modularity lenses directly to frontier AI governance. He groups capability adoption, product capture, pricing, capital returns, and cyber defense as gaps created by rapid model improvement, then argues that slower progress could help labs absorb four of them while worsening the defensive-safety gap. His strongest analytical move is separating concrete malicious use from speculative alignment risk; his most contestable move is inferring that Anthropic's pacing proposal is shaped by its position behind OpenAI. The article preserves one material correction: reported Anthropic profitability did include training costs.
+
 ## Key Characteristics
 - Frames technology announcements and regulation through business-model incentives and system boundaries.
 - Uses economic-surplus reasoning to connect software monetization with user value and platform strategy.
 - Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
 - Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
-- Uses reporting choices, customer metrics, and engagement programs to test whether a company's public story matches its underlying economics.
 - Separates goals, strategies, tactics, capability layers, and theory scope while testing playbooks against changed customers, interfaces, competitors, culture, and value-chain position.
 - Uses first-person technology adoption as a concrete input while distinguishing demonstrated workflow utility from broader platform forecasts.
+- Tests safety-policy arguments against commercialization incentives, competitive timing, and concrete offense-defense dynamics.
 
 ## Evidence
 - Business-model lens: [[adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson]] says Adobe's announcement matters because new business models are rarer than new product versions.
@@ -75,14 +78,18 @@ The 2026 agent essay combines several of these recurring lenses. Thompson uses a
 - Agent workflow: [[apps-agents-and-aggregation]] documents Thompson's use of Muse to create a personal recipe box and continue extracting ingredients under Instagram rate limits.
 - Interface strategy: [[apps-agents-and-aggregation]] argues that computer-using agents and [[GenerativeUI]] can turn apps into implementation suppliers behind one natural-language relationship.
 - Aggregation extension: [[apps-agents-and-aggregation]] proposes that agents may aggregate inspiration and execution, with Meta and Microsoft advantaged by existing distribution and context.
+- Overhang framework: [[frontier-overhangs]] links rapid model progress to gaps in customer adoption, sticky product creation, inference pricing, infrastructure returns, and defensive autonomy.
+- Modularity application: [[frontier-overhangs]] uses Christensen's performance-surplus theory, a multi-model harness, and customer data-policy choice to argue that capability alone may no longer create a moat.
+- Safety distinction: [[frontier-overhangs]] separates malicious human direction of an aligned model from traditional alignment failure and argues that pacing may prolong an offensive cyber advantage.
+- Incentive critique: [[frontier-overhangs]] connects Anthropic's policy position to competitive benefit while stopping short of direct evidence about private motive.
 
 ## Qualifications
-This page covers Thompson only through eleven Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, and agent-aggregation theses were prospective and should not be read as verified later outcomes. The Muse case is one first-person workflow and does not establish general reliability, correctness, accessibility, maintenance, or adoption. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the Facebook monopoly and IBM essays are economic strategy arguments rather than causal, legal, or operational evaluations.
+This page covers Thompson only through twelve Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, and frontier-overhang theses are partly prospective and should not be read as verified later outcomes. The Muse case is one first-person workflow and does not establish general reliability, while the frontier essay provides no audited lab economics, capital limit, broad performance-surplus evidence, or proof of policy motive. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, and frontier essays are strategy arguments rather than causal, legal, financial, or safety evaluations.
 
 ## What Changed
-- Added agent-mediated computing, generative UI, and the shift from discovery toward inspiration as new applications of Thompson's platform lens.
-- Added Muse and Microsoft Copilot as source-scoped consumer and enterprise platform-aggregation cases.
-- Preserved the distinction between one demonstrated personal workflow and a broader market forecast.
+- Added the five-overhang framework as an application of Thompson's incentive and system-boundary analysis to frontier AI.
+- Added the integration-to-modularity transition and the distinction between malicious use and alignment risk.
+- Preserved the limits of motive inference, product anecdotes, unaudited economics, and the source's profitability correction.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -116,3 +123,7 @@ This page covers Thompson only through eleven Stratechery articles. It does not 
 - [[GenerativeUI]] - on-demand interface creation illustrated by Thompson's recipe-box experiment.
 - [[MicrosoftCopilot]] - enterprise-agent platform bid in Thompson's 2026 analysis.
 - [[Muse]] - consumer-agent product Thompson used and interprets as a prospective aggregator.
+- [[FrontierModelOverhangs]] - framework combining capability, product, pricing, capital, safety, and competitive timing.
+- [[DarioAmodei]] - policy advocate whose proposal Thompson evaluates through safety claims and competitive incentives.
+- [[Anthropic]] - frontier lab at the center of Thompson's safety and strategy critique.
+- [[OpenAI]] - competing lab portrayed as setting the frontier in the essay's timing argument.

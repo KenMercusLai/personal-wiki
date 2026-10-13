@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-13
-as_of_overview_commit: 3a3055c571a3eb0bf458764172c125ddef83f3d1
-input_digest: f3d12222316da0f0aabec0e9f66da2b27480645f473977daffc643ea6c5e57a5
+as_of_overview_commit: c47c8478a4c0237efa0fa36946a9cf48af4c1a08
+input_digest: 3d5d2e152bbaceb887388dbd41198fa00d033c19aa26a54fdfafa2df75d4b7af
 ---
 
 # Business and Markets
@@ -2584,3 +2584,15 @@ AI-supported feasibility research can lower the cost of rejecting product ideas,
 - The paper offers a stylized market model rather than firm-level causal estimates, and acknowledges that the scale and speed needed for its empirical signature have not yet materialized.
 - Competition, productivity, and instrument rankings depend on maintained assumptions about symmetric firms, spending leakage, task substitution, observability, and incomplete income replacement.
 - Broader welfare comparison requires administration, innovation, incidence, avoidance, offshoring, and general-equilibrium effects omitted from the model.
+
+### Frontier Ai Value Capture Lags Capability
+
+[[FrontierModelOverhangs]] frames frontier AI as a value-capture timing problem: [[BenThompson]] argues that [[Anthropic]] and [[OpenAI]] may need product differentiation, cheaper inference, and infrastructure revenue after capability becomes good enough for modular alternatives such as [[Muse]], but [[ClaytonChristensen]]'s performance-surplus application and the inferred incentive behind [[DarioAmodei]]'s pacing proposal remain contested.
+
+**Evidence:** [[FrontierModelOverhangs]], [[BenThompson]], [[Anthropic]], [[OpenAI]], [[Muse]], [[ClaytonChristensen]], [[DarioAmodei]]
+
+**Qualifications:**
+
+- The overhang framework supplies no audited unit economics, capacity allocation, capital threshold, broad adoption comparison, or causal evidence that a pause would improve value capture.
+- Selected evidence for a performance surplus may not generalize, and the correction that Anthropic profitability included training costs weakens one stated support for capital pressure.
+- Competitive benefit from frontier pacing is a conflict to examine rather than proof of policy motive, while faster models may expand both offensive and defensive cyber capability.

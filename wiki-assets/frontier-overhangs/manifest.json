@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "frontier-overhangs",
+  "images": [
+    {
+      "file": "new-hampshire-live-free-or-die-emblem.png",
+      "alt": "New Hampshire state emblem bearing the motto Live Free or Die"
+    },
+    {
+      "file": "integration-to-modularity-performance-surplus.png",
+      "alt": "Christensen diagram showing integrated architectures leading during a performance gap and modular architectures competing after a performance surplus"
+    }
+  ]
+}

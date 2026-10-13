@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-13
-as_of_overview_commit: 3a3055c571a3eb0bf458764172c125ddef83f3d1
-input_digest: f71ef8dc516f7132361ef12a72831ec411ae9025ec53aa3a582c4b2aff033702
+as_of_overview_commit: c47c8478a4c0237efa0fa36946a9cf48af4c1a08
+input_digest: c2d34f094a24a5c70b510c4cf88e0d920bd2129860c3f4e1bf37c2eceb86203f
 ---
 
 # AI and Technology
@@ -1439,3 +1439,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is a first-party developer interview without comparative task-success, memory-quality, recall-precision, security, latency, token-cost, retention, or usability evaluation.
 - Local-first placement does not prevent another privileged local agent, malware, prompt injection, dependency compromise, or intended model traffic from disclosing data and credentials.
 - Self-updating memory, higher-order insight, Skill generation, richer observability, stronger sandboxing, and some conflict interaction remain incomplete or unresolved.
+
+### Frontier Model Overhangs Couple Modularity Economics And Cyber Defense
+
+[[FrontierModelOverhangs]] links rapid model progress to lagging customer absorption, product capture, inference supply, capital returns, and autonomous cyber defense: [[BenThompson]] applies [[ClaytonChristensen]]'s performance-surplus transition to [[Anthropic]], [[OpenAI]], and [[Muse]], while keeping model commoditization, offense-defense direction, and [[DarioAmodei]]'s motive contested rather than established.
+
+**Evidence:** [[FrontierModelOverhangs]], [[BenThompson]], [[ClaytonChristensen]], [[Anthropic]], [[OpenAI]], [[Muse]], [[DarioAmodei]]
+
+**Qualifications:**
+
+- The framework is one analyst's synthesis of selected product reports, company statements, first-person use, forecasts, and inferred incentives rather than audited lab economics or comparative adoption evidence.
+- One retention-policy reversal, one multi-model harness, and one strong personal-agent experience do not establish a general performance surplus across customers and workloads.
+- Faster frontier progress could improve offensive as well as defensive capability, and alignment between a policy and a firm's competitive interest does not prove insincere motive; the source also corrects its initial account of whether Anthropic profitability included training costs.
