@@ -27,7 +27,8 @@ SITE_TITLE = "Ken 的个人知识 Wiki"
 PUBLIC_SECTIONS = ("concepts", "entities", "sources")
 ALPHABETICAL_SECTIONS = ("concepts", "entities")
 ALPHABETICAL_BUCKETS = ("0-9", *(chr(code) for code in range(ord("a"), ord("z") + 1)))
-KEY_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*")
+# Independently accept canonical paper IDs; leading/trailing dots remain invalid.
+KEY_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*(?:\.[A-Za-z0-9_-]+)*")
 WIKILINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
 REQUIRED_SYNTHESIS_H2 = {
     "concepts": (
