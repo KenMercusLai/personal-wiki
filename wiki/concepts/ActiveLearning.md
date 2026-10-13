@@ -10,7 +10,8 @@ sources:
   - a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium
   - blog-holden-karnofsky-cold-takes-learning-by-writing
   - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
-last_updated: 2026-09-14
+  - ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ The sources treat active learning as the reason the [[FeynmanTechnique]], creato
 
 Accumulated notes can feel reassuring while still leaving the learner in a comfort zone; writing for real readers, collecting examples, testing a draft, and publishing create the practice loop that passive study lacks.
 
+Mai Yang's masterclass notes add a smaller, immediate test before public output: pause after a short segment and reconstruct its central meaning without replaying it. Her inability to recover apparently obvious terms such as the missing TQ dimension illustrates the difference between recognition fluency and recallable understanding. The source does not establish a universal two-minute interval, but it makes failed reconstruction a diagnostic signal rather than a reason to equate smooth listening with mastery.
+
 The workplace-learning source broadens active learning beyond public output. It argues that a learner can actively learn in private by tracing a colleague's commands and searches, asking why each move worked, using packet capture or source-code experiments to make abstractions tangible, and reviewing what knowledge was known but not usable. This makes active learning a loop of doing, reconstruction, explanation, and correction, not only a loop of writing or teaching.
 
 Wibowo's retrospective adds a related career-scale version: repeated experiments and decisions can create learning even without full supervision or a known final path. Its [[ReinforcementLearning]] metaphor is not the same as active learning pedagogy, but it strengthens the broader pattern that feedback from action can build judgment over time.
@@ -32,7 +35,7 @@ Wulc's speed-reading source adds an intake-to-output bridge. It argues that deep
 
 ## Key Claims
 - Teaching-oriented explanation is presented as a strong active-learning mode.
-- Active learning reveals gaps because failed output makes unclear understanding visible.
+- Active learning reveals gaps because failed output, including immediate paused reconstruction, makes unclear understanding visible.
 - Recreating, writing, and teaching can strengthen retention and conceptual connection.
 - Active learning supports creativity by forcing links between unfamiliar concepts.
 - Public writing can become active learning when it forces topic choice, concrete examples, feedback, and revision.
@@ -51,16 +54,15 @@ Wulc's speed-reading source adds an intake-to-output bridge. It argues that deep
 - Explanation failure modes: [[bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi]] treats blocked writing, repeated stalls, and novice confusion as feedback for active study.
 - Iterative feedback loops: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] uses [[ReinforcementLearning]] to frame repeated decisions under uncertainty as a way to improve future choices; [[blog-holden-karnofsky-cold-takes-learning-by-writing]] uses premature written claims, weakness lists, targeted subquestions, and feedback to repeatedly improve an investigation.
 - Reading-to-output bridge: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] says effective reading means being able to remember and output, then recommends notes, reactions, writing, oral explanation, and teaching as ways to internalize selected material.
+- Immediate reconstruction: [[ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq]] reports that pausing a masterclass and writing the last segment in the listener's own words exposed concepts that had felt clear during continuous playback.
 
 ## Counterevidence & Qualifications
-The sources offer strong practitioner cases for active learning but do not compare active-learning formats experimentally. Their retention claims are presented through Dale's Cone, creator retrospectives, reading advice, and software-work anecdotes, so they should be treated as directional support rather than precise measurement. Public writing and teaching-oriented explanation also require enough prior knowledge, available examples, and feedback access to be useful rather than premature performance pressure. Karnofsky argues for premature hypotheses as private or draft-stage tools, but the approach still depends on judgment about which subquestions matter and enough self-skepticism to revise. Workplace case review depends on access to solved problems, traces, safe tools, and colleagues willing to explain their reasoning. Selective deep reading can also become too instrumental if the reader dismisses valuable but non-immediate material too quickly. The reinforcement-learning metaphor is illustrative rather than a claim that human careers optimize like algorithms.
+The sources offer strong practitioner cases for active learning but do not compare active-learning formats experimentally. Their retention claims are presented through Dale's Cone, creator retrospectives, reading advice, and software-work anecdotes, so they should be treated as directional support rather than precise measurement. Mai Yang's pause-and-write exercise is one person's experience and does not show that a fixed playback interval, writing medium, or inability to recall after seconds reliably distinguishes shallow processing from fatigue, language difficulty, anxiety, unfamiliarity, or normal memory limits. Public writing and teaching-oriented explanation also require enough prior knowledge, available examples, and feedback access to be useful rather than premature performance pressure. Karnofsky argues for premature hypotheses as private or draft-stage tools, but the approach still depends on judgment about which subquestions matter and enough self-skepticism to revise. Workplace case review depends on access to solved problems, traces, safe tools, and colleagues willing to explain their reasoning. Selective deep reading can also become too instrumental if the reader dismisses valuable but non-immediate material too quickly. The reinforcement-learning metaphor is illustrative rather than a claim that human careers optimize like algorithms.
 
 ## What Changed
-- Added public tutorial writing as a concrete active-learning loop beyond the original Feynman-style learning source.
-- Added workplace problem review and hands-on technical experiments as private active-learning loops.
-- Added explanation-failure classification as a way to turn active output into the next study action.
-- Added repeated career/project experimentation as an adjacent feedback-learning pattern.
-- Added writing-centered investigation and output-oriented deep reading as active-learning loops organized around provisional claims, reactions, explanation, drafting, and revision.
+- Added pause-and-reconstruct writing as a low-cost comprehension test before larger teaching or publishing outputs.
+- Distinguished smooth recognition during playback from recallable, explainable understanding.
+- Preserved the exercise as anecdotal and diagnostic rather than a validated timing or retention rule.
 
 ## Related Concepts
 - [[FeynmanTechnique]] - the technique is the source's primary active-learning example.

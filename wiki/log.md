@@ -9192,3 +9192,11 @@ Created [[TracerouteTheWorld]], [[Traceroute]], and [[InternetWideNetworkScannin
 ## [2026-10-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | 听的时候全懂，一动笔全废：硅谷徐老师大师课上的 EQ × TQ × IQ
+
+Created [[HowieXu]] and [[AIEraCareerImpact]], and updated [[MaiYang]], [[ActiveLearning]], [[AIFirstEngineering]], and [[ProfessionalRelationshipCompounding]] from their complete ordered evidence inventories. Captured pause-and-write reconstruction as a test of apparent understanding, the EQ × TQ × IQ career heuristic, trust and attention as compounding constraints, the distinction between workflow automation and redesign, and the requirement to connect engineering efficiency with customer or revenue outcomes. Preserved the source's attendee-note status, secondary historical examples, unmeasured causal claims, and unresolved “angle” versus “anchor” and 1880 details. Opened both remote images, omitted the decorative formula banner, and retained the career-sequence diagram at its semantic position with a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
