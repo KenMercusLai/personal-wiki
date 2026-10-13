@@ -9200,3 +9200,11 @@ Created [[HowieXu]] and [[AIEraCareerImpact]], and updated [[MaiYang]], [[Active
 ## [2026-10-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | 0% 是机会，20% 是陷阱：Jeff Dean 离职前那场 YC 访谈里，我抄走了三条判断
+
+Created [[DianaHu]] and [[DiscoveryLoop]], and updated [[JeffDean]], [[StartupOpportunitySelection]], [[TasteAsProblemSense]], [[SpecDrivenAgentDevelopment]], and [[LLMToolingSkills]] from their complete ordered evidence inventories. Captured the two-stage usefulness-then-capability-gap screen, the moving-frontier qualification, forecast-ledger and assumption-inversion practices for taste, the rising value of explicit specifications for long agent trajectories, expert workflow encoding as a Skill, and automated parallel experimental loops. Preserved the source's secondary-interview status, unverified biographical and technical figures, small-benchmark risk, lack of validated model-frontier thresholds, and absence of delivered Discovery Loop evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

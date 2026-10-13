@@ -11,7 +11,8 @@ sources:
   - dont-trust-ai-agents-nanoclaw-blog
   - mario-zechner-what-if-you-dont-need-mcp-at-all
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
-last_updated: 2026-10-08
+  - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -35,12 +36,14 @@ Zechner adds an intentionally informal analogue: a 225-token README documents a 
 
 Frost Ming adds an agent-authorship variant. In his Bub experiment, the agent creates and modifies the Skill itself, uses it to send Telegram images, stickers, and reactions, and keeps any supporting code as an agent-managed runtime artifact rather than growing the host framework. This makes Skills a mechanism for self-extension, but it also removes code review and stable ownership from the proposed loop, increasing the need for external containment, provenance, tests, and rollback.
 
+Mai Yang's account of Jeff Dean supplies a compact expert-procedure example: Dean and Sanjay Ghemawat reportedly encoded their microbenchmark optimization loop—measure, modify, rerun, widen the benchmark set, and inspect cache footprint—so a model could iterate using the approach they would use themselves. The example clarifies what a procedural Skill transfers: an ordered investigation and feedback loop, not merely a reference document or a claim that the model now possesses the experts' complete judgment.
+
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
 - Skill-following depends on the model's respect for context and remains probabilistic, and over-constraining behavior can make reasoning less flexible.
 - Skills guide reasoning rather than enforce execution; the execution channel can be a separate tool, a bundled executable asset, or reviewed reference code merged into the installation.
 - Skills remain useful when a task is too open-ended, low-interaction, or expensive to encode as a dedicated server API.
-- Skills can encode more than linear SOPs; exploration and brainstorming skills may be valuable precisely because they prompt multi-dimensional analysis.
+- Skills can encode linear SOPs, measurement-and-feedback loops, exploration, and brainstorming; their value lies in transferring an expert approach without implying complete transfer of expert judgment.
 - Skills work best when separated from rules and specs: a lightweight always-on index plus on-demand full instructions protects context capacity and instruction salience better than one undifferentiated prompt file.
 - A skill or informal README-described tool folder can ship instructions, examples, scripts, metadata, safety rules, and recurring-work conventions when the client agent already supplies the runtime.
 
@@ -67,15 +70,17 @@ Frost Ming adds an agent-authorship variant. In his Bub experiment, the agent cr
 - Informal progressive disclosure: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] loads a compact browser-tool README only for relevant sessions and puts the scripts on PATH for reuse across different coding agents.
 - Formal-system comparison: [[mario-zechner-what-if-you-dont-need-mcp-at-all]] credits skills with progressive disclosure and broad accessibility but prefers explicit README loading because of perceived discovery and metadata overhead.
 - Agent-authored self-extension: [[chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog]] reports Bub creating a Telegram Skill that displaced built-in sending code and managing its own supporting artifacts.
+- Expert optimization loop: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] reports Dean and Ghemawat turning their repeated microbenchmark process into a Skill for model-driven iteration.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, merged as code, or modified by the agent itself. The optimization example reports no benchmark establishing how much the Skill improved performance reasoning, how often the loop converged, or which expert choices remained implicit. Selection can fail when metadata is weak or the model does not recognize relevance, while explicit README loading depends on the user remembering and naming the right file. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance; omitting review makes external containment and rollback more important.
 
 ## What Changed
 - Broadened the definition to cover reviewed reference implementations merged into an installation as well as prompt-only guidance and bundled executable assets.
 - Separated the auditability benefit of selective installation from the security guarantees still required at runtime.
 - Added explicit README loading as a cross-agent, informal progressive-disclosure variant.
 - Added agent-authored Skills as a self-extension mechanism and made their provenance, review, and rollback costs explicit.
+- Added an expert-authored measurement-and-feedback loop as a concrete procedural Skill pattern.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.

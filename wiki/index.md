@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [0% 是机会，20% 是陷阱：Jeff Dean 离职前那场 YC 访谈里，我抄走了三条判断](sources/0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan.md) - Mai Yang extracts a two-stage AI opportunity screen, a forecast-ledger practice for taste, and the rising value of specifications and expert Skills, while preserving demand and moving-frontier limits.
 - [听的时候全懂，一动笔全废：硅谷徐老师大师课上的 EQ × TQ × IQ](sources/ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq.md) - Mai Yang uses written reconstruction to expose false comprehension, then connects Howie Xu's EQ × TQ × IQ framework with trust, attention, workflow redesign, and outcome ownership.
 - [Traceroute the World | 卡瓦邦噶！](sources/traceroute-the-world-ka-wa-bang-ga.md) - A Singapore-hosted experiment replaces sequential traceroute with TTL-round IPv4 scans using XDP, ring buffers, bitmaps, mmap, and sparse files, reporting a qualified 34-hop result.
 - [The revolt of the reader](sources/the-revolt-of-the-reader.md) - Bryan Cantrill argues that delegated LLM prose damages reader trust and endorses Pangram-based detection and publication policy, while the survey and accuracy evidence remain limited.
@@ -1169,6 +1170,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - ["Code was never the hard part" is an insult to all programmers](sources/code-was-never-the-hard-part-is-an-insult-to-all-programmers.md) - A practitioner essay argues that implementation craft and product understanding remain complementary, difficult work and that AI must not receive human judgment, empathy, taste, or responsibility.
 
 ## Entities
+- [Diana Hu](entities/DianaHu.md) - Y Combinator partner, engineer, and entrepreneur represented through an interview method that turns historical achievements into concrete present-day questions.
+- [Discovery Loop](entities/DiscoveryLoop.md) - Source-scoped AI company profile centered on automated parallel experiments in science and engineering.
 - [Howie Xu](entities/HowieXu.md) - AI executive, entrepreneur, and lecturer represented through an AI-era career framework built around trust, token orchestration, intensity, and outcome ownership.
 - [Traceroute the World](entities/TracerouteTheWorld.md) - Open-source hobby project using staged high-rate IPv4 probing to search for destinations that answer at unusually high TTL values.
 - [Bryan Cantrill](entities/BryanCantrill.md) - Software writer arguing for human-composed public prose, reader trust, and detector-backed institutional authorship standards.

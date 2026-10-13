@@ -7,7 +7,8 @@ sources:
   - avoiding-zombie-startups
   - knowing-what-you-are-looking-for-avc
   - investment-pace-avc
-last_updated: 2026-10-02
+  - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,14 +22,16 @@ That distinction changes career choice. Founding is not automatically more valua
 
 Investor selection adds prepared recognition and a capacity constraint. While raising [[UnionSquareVentures]]' first fund, [[FredWilson]] and [[BradBurnham]] converted a broad applications-layer thesis into a more specific model for search-style job listings and agreed they would pursue a matching company. A later blog post made [[Indeed]] legible as that match, but selection still required persistent founder courtship. Wilson's pacing essay explains why the filter must remain selective: a high-touch investor making one to two new deals per year may carry roughly seven to fourteen concurrent companies. Together the sources suggest that opportunity selection combines a prior model, direct evidence, willingness to act, continued testing, and explicit capacity; advance clarity can focus attention, but a rigid thesis can also hide companies that redefine the category.
 
+Mai Yang's reading of Jeff Dean adds an AI-product screen. First establish that a problem is useful and motivating; only then ask whether a leading general model already succeeds often enough that the next release could absorb the product's value. Near-zero success can point to inaccessible proprietary data or a narrow specialist-model opportunity, while partial success may indicate an emerging general capability. This is a frontier-risk diagnostic, not a demand test: unwanted problems also score zero, small benchmarks can misrepresent real use, and a current snapshot does not predict the next six to thirty-six months. Re-running a stable real-task suite across model releases can reveal a local trajectory, but the source offers no validated forecasting threshold.
+
 ## Key Claims
-- Startup formation and external funding are weaker quality signals than outsiders may assume.
-- A larger ecosystem produces more attempts across the whole quality distribution, not uniformly better founders.
-- Exceptional companies remain rare even where mediocre startups are common.
-- Joining a strong company can offer a more distinctive experience than founding a weak one.
-- Fundraising, awards, publicity, and survival can sustain startup appearance without demonstrating product, sales, or execution momentum.
-- Employee selection should test backer quality, team incentives, hiring intent, and information access alongside company trajectory.
-- Prepared theses and explicit capacity can improve focus, but missed opportunities remain inevitable and overly rigid filters can create new blind spots.
+- Startup formation, funding, publicity, survival, and general-model failure are weaker opportunity signals than demonstrated user value and operating momentum.
+- A larger ecosystem produces more attempts across the whole quality distribution, while exceptional companies remain rare.
+- Joining a strong company can offer a more distinctive experience than founding or remaining in a weak one.
+- Employee selection should test backer quality, team incentives, hiring intent, information access, and company trajectory.
+- Prepared theses and explicit capacity can improve focus, but missed opportunities remain inevitable and overly rigid filters create blind spots.
+- For AI products, a useful task where general models nearly always fail may offer more room than one they already perform partially, especially when the entrant controls unavailable data or a precise specialist model.
+- Capability-gap scores are second-stage, moving-frontier evidence rather than proof of demand, defensibility, or future model distance.
 
 ## Evidence
 - Base-rate correction: [[andrewchen-10-years-in-the-bay-area]] says starting and funding a company became visibly commonplace after several years in the Bay Area.
@@ -41,14 +44,20 @@ Investor selection adds prepared recognition and a capacity constraint. While ra
 - Prepared recognition: [[knowing-what-you-are-looking-for-avc]] says Wilson and Burnham specified a desirable job-search model before recognizing Indeed through a John Battelle post.
 - Action after fit: [[knowing-what-you-are-looking-for-avc]] says USV persisted after Indeed's self-funded founders initially showed little need for its capital.
 - Capacity-driven selectivity: [[investment-pace-avc]] says long-duration partner involvement requires rejecting most opportunities and committing only after thesis-driven, collaborative judgment.
+- Capability-frontier screen: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] attributes to Dean the heuristic of preferring useful tasks at roughly zero-to-one-percent general-model success over tasks already succeeding around 20 percent.
+- Advantage mechanisms: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] gives proprietary user data and narrow high-accuracy specialist models as two forms of current general-model failure.
+- Demand-before-gap qualification: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] insists that usefulness and founder motivation precede the success-rate filter.
+- Moving-frontier qualification: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] distinguishes present failure from the rate at which capability may improve and proposes repeated benchmark runs only as a provisional local measure.
 
 ## Counterevidence & Qualifications
-Chen's and Wilson's essays are retrospectives from participants in highly selected ecosystems and use later winners to define what was exceptional. Wilson provides no denominator of thesis-matched failures, no direct return data, and no evidence for the hypothetical value Indeed might have reached as an independent public company. His pacing arithmetic shows why choices must be limited but does not prove that a low count improves selection accuracy or returns. Pastor supplies prospective questions, but his framework is also practitioner advice without validated predictive weights and can mistake deliberate small scale, slow research, or public-interest funding for stagnation. “Rocketship” and “strike zone” judgments can rationalize prestige chasing, expose workers or investors to concentrated risk, undervalue durable smaller companies, or make a thesis filter look more predictive after success. Outcomes depend on role, team, timing, compensation, learning, ethics, personal constraints, diligence, and luck as well as company trajectory.
+Chen's and Wilson's essays are retrospectives from participants in highly selected ecosystems and use later winners to define what was exceptional. Wilson provides no denominator of thesis-matched failures, no direct return data, and no evidence for the hypothetical value Indeed might have reached as an independent public company. His pacing arithmetic shows why choices must be limited but does not prove that a low count improves selection accuracy or returns. Pastor supplies prospective questions, but his framework is also practitioner advice without validated predictive weights and can mistake deliberate small scale, slow research, or public-interest funding for stagnation. Dean's reported zero-to-one-versus-20-percent rule is likewise an unvalidated practitioner threshold: benchmark design, task distribution, prompting, tool access, release cadence, proprietary data rights, switching costs, and customer workflow all affect whether a capability becomes a defensible business or is absorbed by a general model. “Rocketship,” “strike zone,” and “model gap” judgments can rationalize prestige or novelty chasing, undervalue durable smaller companies, and look more predictive after success. Outcomes depend on demand, role, team, timing, distribution, compensation, learning, ethics, constraints, diligence, and luck as well as technical trajectory.
 
 ## What Changed
 - Added portfolio capacity and long-duration service obligations as constraints on investor opportunity selection.
 - Connected thesis formation and collaborative rigor to the need to reject most opportunities under a low commitment pace.
 - Preserved the distinction between necessary selectivity and demonstrated selection accuracy.
+- Added a two-stage AI-product screen: establish usefulness first, then measure present general-model capability and its movement.
+- Rejected fixed success-rate thresholds as proof of demand, durability, or future frontier distance.
 
 ## Related Concepts
 - [[CareerPlanning]] - places company quality alongside role fit, constraints, values, and future options.
@@ -60,3 +69,5 @@ Chen's and Wilson's essays are retrospectives from participants in highly select
 - [[ZombieStartup]] - names the mismatch between startup appearance and weak operating momentum.
 - [[VentureCapitalBlindSpots]] - explains how a useful prepared thesis can become an exclusionary filter when treated too rigidly.
 - [[InvestmentPacing]] - determines how many selected opportunities an active investor can support concurrently.
+- [[DifferentiationStrategy]] - capability gaps matter only when they support a meaningful and durable reason for customers to choose the product.
+- [[TasteAsProblemSense]] - judgment about which useful problem to pursue precedes execution and capability testing.

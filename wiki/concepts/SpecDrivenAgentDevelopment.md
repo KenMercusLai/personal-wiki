@@ -6,7 +6,8 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - spec-driven-development-with-spec-kit
-last_updated: 2026-10-07
+  - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,10 +21,12 @@ There is also a lighter individual or team workflow. Specs are not bureaucracy f
 
 The [[GitHubSpecKit]] case adds a staged single-developer variant: constitution, specification, clarification, technical plan, tasks, pre-implementation analysis, phased implementation, and post-implementation convergence. Repository artifacts made agent restarts, fresh chats, and different models practical, while analysis surfaced cross-document conflicts before coding. The same case sets a hard boundary on the method: artifact consistency and mandatory TDD did not prevent stale dependencies, missed UI intent, a broken menu interaction, destructive tag editing, or a missing container dependency. Spec-driven development therefore improves coordination and inspectability; it does not make specifications complete or implementation self-verifying.
 
+Mai Yang's Jeff Dean interview account adds a capability-driven reason for the same pattern. As agents become able to execute more implementation steps, the value of precisely stating desired behavior rises because a human collaborator may infer context and ask clarifying questions while an autonomous trajectory can drift after the specification stops constraining it. Cross-language migration works unusually well when the existing implementation and tests form a detailed behavioral oracle. This strengthens the case for executable examples and comparative tests without implying that all desired behavior is already captured by legacy code.
+
 ## Key Claims
 - Specs are durable coordination interfaces for agents, not merely human bureaucracy.
 - ADRs or constitutions should settle non-negotiable architecture and governance before feature specs and plans fill in negotiable details.
-- Effective specs make behavior, invariants, edge cases, schemas, interfaces, divergence policy, acceptance scenarios, and verification plans explicit.
+- Effective specs make behavior, invariants, edge cases, schemas, interfaces, divergence policy, acceptance scenarios, comparative or executable examples, and verification plans explicit enough to support the intended trajectory.
 - Tables, precise references, checked tasks, and explicit state labels are easier for agents to resume and share than vague prose or conversation-only plans.
 - Analysis before coding and convergence after coding can expose conflicts and implementation gaps across the specification chain.
 - The value of specs rises with project size, compatibility risk, role separation, context pressure, and the need to reuse state across sessions.
@@ -38,15 +41,18 @@ The [[GitHubSpecKit]] case adds a staged single-developer variant: constitution,
 - Early conflict detection: [[spec-driven-development-with-spec-kit]] reports that analysis found critical conflicts involving secrets, versioning, TDD ordering, dependencies, limits, and measurable outcomes before implementation.
 - Persistence and recovery: [[spec-driven-development-with-spec-kit]] reports that repository artifacts and checked tasks let work resume after slow or restarted agent sessions and supported clean conversation boundaries.
 - Residual defects and cost: [[spec-driven-development-with-spec-kit]] reports that convergence found gaps and manual testing still found several bugs; it also reports roughly 7,000 credits for the initial release and estimates, without measurement, a 20–30% token premium.
+- Capability-driven value: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] attributes to Dean the argument that specification quality matters more, not less, when agents can perform longer implementation sequences.
+- Behavioral oracle: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] uses cross-language migration to show how an existing implementation plus translated tests enables repeated behavior comparison.
 
 ## Counterevidence & Qualifications
-The sources are practitioner reports, not controlled comparisons. They warn that this structure can be overkill for small scripts, exploratory prototypes, routine refactors, or changes whose context is already obvious. Precise but wrong specifications can coordinate agents toward the wrong result, and documented acceptance criteria can omit behavior users actually care about. The GitHub Spec Kit case is greenfield and explicitly leaves brownfield reverse engineering and non-technical stakeholder editing unresolved. Its cost figures depend on one model mix, subscription, tool release, and project, while its screenshots and author testing establish feature presence rather than independent correctness or maintainability.
+The sources are practitioner reports, not controlled comparisons. They warn that this structure can be overkill for small scripts, exploratory prototypes, routine refactors, or changes whose context is already obvious. Precise but wrong specifications can coordinate agents toward the wrong result, and documented acceptance criteria can omit behavior users actually care about. Existing code and tests are a strong oracle only for behavior they actually cover; they can preserve bugs, omit usability intent, or encode accidental compatibility. The GitHub Spec Kit case is greenfield and explicitly leaves brownfield reverse engineering and non-technical stakeholder editing unresolved. Its cost figures depend on one model mix, subscription, tool release, and project, while its screenshots and author testing establish feature presence rather than independent correctness or maintainability.
 
 ## What Changed
 - Added a full staged workflow that joins pre-implementation analysis with post-implementation convergence.
 - Added evidence that repository task state supports restarts, fresh chats, phased work, and model changes.
 - Narrowed the judgment: specification consistency and TDD improve control but do not guarantee behavioral fidelity or defect-free implementation.
 - Added project-scale, token-cost, and brownfield-adoption boundaries to the choice between full specs and lighter planning.
+- Added the capability-driven case for specifications and existing implementations plus tests as behavioral oracles for agent migration work.
 
 ## Related Concepts
 - [[AgentTeam]] - specs are the main interface between specialized agent roles.
@@ -56,3 +62,4 @@ The sources are practitioner reports, not controlled comparisons. They warn that
 - [[UpstreamDivergencePolicy]] - divergence tables are one recurring spec component in compatibility-sensitive porting.
 - [[BottleneckAwareAICoding]] - specification rigor helps only when review, verification, and WIP constraints are managed across the delivery system.
 - [[VibeCoding]] - spec-driven work trades some improvisational speed for persistent intent, staged review, and resumability.
+- [[LLMToolingSkills]] - Skills can carry the expert procedure for applying, checking, and iterating against a specification.
