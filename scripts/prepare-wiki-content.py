@@ -23,7 +23,8 @@ PUBLIC_SECTIONS = ("concepts", "entities", "sources")
 ALPHABETICAL_SECTIONS = ("concepts", "entities")
 ALPHABETICAL_BUCKETS = ("0-9", *(chr(code) for code in range(ord("a"), ord("z") + 1)))
 LINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
-KEY_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*")
+# Preserve canonical paper IDs with internal dots, without allowing path segments.
+KEY_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*(?:\.[A-Za-z0-9_-]+)*")
 ASSET_NAME_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]*")
 ALLOWED_IMAGE_SUFFIXES = {".gif", ".jpeg", ".jpg", ".png", ".webp"}
 MAX_IMAGE_BYTES = 32 * 1024 * 1024
