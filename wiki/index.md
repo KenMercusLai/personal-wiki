@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Vortex: One Format for Any Shape](sources/vortex-one-format-for-any-shape.md) - Connor Tsui explains Vortex's separation of extensible logical types, recursive encodings, storage layouts, and compressed-data computation.
 - [Boosting multimodal inference performance by >10% with a single Python dictionary](sources/modal-multimodal-dictionary.md) - Modal engineers remove repeated CUDA IPC storage reconstruction from SGLang's scheduler, reporting 16.2% higher throughput and lower latency on a multimodal H100 workload.
 - [Using Local Coding Agents](sources/using-local-coding-agents.md) - Sebastian Raschka separates local coding agents into model, serving, and harness layers, then evaluates hardware fit, task reliability, token cost, permissions, telemetry, and isolation.
 - [Task Failed Successfully: Saturating NIC and Disk Bandwidth](sources/task-failed-successfully-saturating-nic-and-disk-bandwidth.md) - A two-stage NVMe-to-RDMA investigation separates fixed-buffer page-preparation savings from hugepage dTLB gains and shows why successful optimization still needs causal verification.
@@ -1894,6 +1895,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ronnie Chen](entities/RonnieChen.md) - Coauthor of Slack's 2016 account of multi-engine warehouse and Parquet interoperability.
 - [Diana Pojar](entities/DianaPojar.md) - Coauthor of Slack's 2016 account of multi-engine warehouse and Parquet interoperability.
 - [Apache Parquet](entities/ApacheParquet.md) - Shared columnar format whose engine-specific implementations formed Slack's main warehouse compatibility boundary.
+- [Vortex](entities/Vortex.md) - Extensible Rust columnar format separating logical types, recursive encodings, and storage layouts behind canonical fallbacks.
 - [Danny Glasser](entities/DannyGlasser.md) - Microsoft engineer who conceived and coded the original typing-indicator activity mechanism.
 - [MSN Messenger](entities/MSNMessenger.md) - Microsoft messaging product in which the modern typing indicator debuted in 1999.
 - [Daniel Wessel](entities/DanielWessel.md) - Author and scientist represented through a 2011 large-file personal reference workflow.
@@ -3169,6 +3171,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Point-in-Polygon Indexing](concepts/PointInPolygonIndexing.md) - Candidate-polygon and boundary-segment indexes that reduce exact containment work for coordinate queries.
 - [Vector Database Selection](concepts/VectorDatabaseSelection.md) - Workload-first choice among embedded libraries, retrieval services, incumbent-database extensions, and lower-level index libraries.
 - [Columnar Storage Tradeoffs](concepts/ColumnarStorageTradeoffs.md) - Coupled choices among scan compression, sparse random access, metadata granularity, page sizing, and format evolvability.
+- [Compressed-Data Computation](concepts/CompressedDataComputation.md) - Executing kernels and rewrites over encoded structure before or instead of canonical materialization.
 - [RMSNorm](concepts/RMSNorm.md) - Scale-only normalization using root mean square, with lower arithmetic and affine state than LayerNorm but no additive-shift invariance.
 - [Layer Normalization](concepts/LayerNormalization.md) - Feature normalization combining mean re-centering, variance re-scaling, and learned affine scale and bias.
 - [Linguistic Expressive Boundaries](concepts/LinguisticExpressiveBoundaries.md) - Qualified view that learned symbols and concepts shape the ease and precision of expression without strictly determining all thought or composition.

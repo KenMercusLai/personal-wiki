@@ -5,7 +5,8 @@ tags: [columnar-storage, data-formats, random-access, scan-performance]
 sources:
   - lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi
   - p5662-hao-corrected
-last_updated: 2026-10-13
+  - vortex-one-format-for-any-shape
+last_updated: 2026-10-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,6 +22,8 @@ Metadata design similarly trades a simple common footer against selective loadin
 
 LiquidCache adds execution-aware encoding to the design space. Parquet compresses well but its page-oriented representation makes selective filter execution pay decompression and decoding costs; Arrow eliminates decode work but can use several times more memory. A cache-private representation can combine independent element decoding with cascading compression and evaluate some predicates on encoded values, but it adds transcoding, engine coupling, and a second physical representation. Keeping that representation ephemeral avoids imposing a new durable interoperability contract, while also preventing unrelated readers from consuming it directly.
 
+Vortex generalizes these choices by separating logical types, recursive array encodings, and segment-fetch layouts. Its layout trees can reproduce a PAX hierarchy or compose different chunking and pruning for a storage system, while encoding trees can combine dictionary, run-end, bit-packed, and other representations beneath the same logical type. Canonical encodings provide a general compute fallback; registries let third-party crates add faster or more specialized paths. This moves flexibility into extension code, identifiers, metadata, validation, versioning, and reader distribution rather than removing compatibility cost.
+
 ## Key Claims
 - A shared row-group size can become inefficient when column widths differ greatly.
 - Page-level indexes reduce search scope but do not eliminate sparse-read amplification within a page.
@@ -28,7 +31,7 @@ LiquidCache adds execution-aware encoding to the design space. Parquet compresse
 - Separating I/O scheduling from decoding can overlap storage and CPU work more freely than row-group-bound execution.
 - Selectively addressable column metadata can reduce projection overhead for extremely wide schemas.
 - Independently decodable encodings can reduce selective-filter CPU while retaining compression.
-- Extensibility can live in a durable format or a private cache layer, with different interoperability responsibilities.
+- Extensibility can live in a durable format, shared implementation, or private cache layer, with different interoperability responsibilities.
 
 ## Evidence
 - Row-group and page boundary: [[lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi]] diagrams Parquet's row-group, column-chunk, page, page-index, and footer hierarchy.
@@ -40,18 +43,24 @@ LiquidCache adds execution-aware encoding to the design space. Parquet compresse
 - Decode-versus-space boundary: [[p5662-hao-corrected]] reports Arrow-like CPU with Parquet-like memory for LiquidCache on selected ClickBench queries, while profiling Parquet pushdown's decode cost and Arrow's memory stalls.
 - Independent decoding: [[p5662-hao-corrected]] diagrams element-selective decoding, late filter materialization, and dictionary-aware predicate evaluation.
 - Transcoding boundary: [[p5662-hao-corrected]] reports full Liquid at 2.0 GB versus 2.4 GB Parquet and 12.9 GB Arrow for one large string column, with background conversion usually hidden by I/O.
+- Layer separation: [[vortex-one-format-for-any-shape]] distinguishes logical types, array-encoding trees, and layout trees, and shows one layout fetching only a requested column and row range.
+- Composable compression: [[vortex-one-format-for-any-shape]] constructs a dictionary-to-run-end-to-bit-packed tree and uses sampled data to choose bounded cascades.
+- Compute fallback: [[vortex-one-format-for-any-shape]] combines encoded kernels and rewrites with execution toward one canonical encoding per logical type.
 
 ## Counterevidence & Qualifications
-The Lance source explains layouts but does not supply a controlled benchmark, so it cannot establish that Lance is generally faster than Parquet. The LiquidCache evidence is a first-party prototype benchmark over selected workloads and one engine/hardware setup; warm transcoding, predicate compatibility, implementation maturity, and the absence of TLS or production multi-tenancy narrow its scope. Parquet's maturity, interoperability, compression, and scan orientation may outweigh selective-access and decode costs. Arrow may remain best when data fits memory, and pushdown can lose when predicates are non-selective. Lance's flexibility and LiquidCache's private representation both move complexity into metadata, readers, engine coupling, transcoding, or cache policy. Outcomes depend on schema, value sizes, selectivity, compression, storage minimum reads, cache state, concurrency, object-store behavior, and implementation quality.
+The Lance source explains layouts but does not supply a controlled benchmark, so it cannot establish that Lance is generally faster than Parquet. The LiquidCache evidence is a first-party prototype benchmark over selected workloads and one engine/hardware setup; warm transcoding, predicate compatibility, implementation maturity, and the absence of TLS or production multi-tenancy narrow its scope. The Vortex article supplies architectural examples and links to first-party benchmarks without reproducing workload details, and its readers still need code for registered extensions. Parquet's maturity, interoperability, compression, and scan orientation may outweigh selective-access, decode, or extension costs. Arrow may remain best when data fits memory, and pushdown can lose when predicates are non-selective. Lance, LiquidCache, and Vortex all move complexity into different combinations of metadata, readers, registries, engine coupling, transcoding, layout choice, or cache policy. Outcomes depend on schema, value sizes, selectivity, compression, storage minimum reads, cache state, concurrency, object-store behavior, extension availability, and implementation quality.
 
 ## What Changed
 - Created the synthesis around physical boundaries rather than treating Parquet and Lance as a simple old-versus-new ranking.
 - Added decoding CPU, filter compatibility, transient transcoding, and durable-versus-ephemeral evolution boundaries.
+- Added independent logical-type, encoding-tree, and layout-tree composition with canonical fallback and reader-extension costs.
 
 ## Related Concepts
 - [[LanceFormat]] - implements independent pages, selective column metadata, and extensible encodings.
 - [[ApacheParquet]] - represents the row-group-oriented comparison design.
 - [[LiquidCache]] - adds a cache-private, independently decodable point in the design space.
+- [[Vortex]] - makes logical types, recursive encodings, and storage layouts separately extensible in one durable format.
+- [[CompressedDataComputation]] - uses encoding structure to reduce materialization and predicate or aggregation work.
 - [[FilterPushdown]] - makes decoding and encoding compatibility part of predicate-placement cost.
 - [[ApacheDataFusion]] - demonstrates that engine integration can outweigh nominal format properties.
 - [[DatabaseEngineeringTradeoffs]] - broader principle that database choices depend on workload and operational constraints.

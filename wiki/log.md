@@ -9456,3 +9456,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-14] ingest | Vortex: One Format for Any Shape
+
+Created [[Vortex]] and [[CompressedDataComputation]], and updated [[ApacheParquet]] and [[ColumnarStorageTradeoffs]] from their complete ordered evidence inventories. Captured logical-type, physical-encoding, and storage-layout separation; dictionary-to-run-end-to-bit-packed cascades; specialized kernels and rewrite rules over compressed data; canonical execution fallback; selective segment fetching; extension logical types; session registries; and shared Rust language bindings. Preserved the need for reader extension code, metadata and compatibility obligations, illustrative-example scope, and first-party benchmark boundary. Opened all 13 effective local diagrams, retained them at their semantic positions with descriptive filenames, and recorded them in a canonical manifest; nine retained images are static final states of source animations.
+
+## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

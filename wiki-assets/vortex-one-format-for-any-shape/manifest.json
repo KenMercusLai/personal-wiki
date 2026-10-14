@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "source_key": "vortex-one-format-for-any-shape",
+  "images": [
+    {"file": "physical-encoding-alternatives.png", "alt": "One logical unsigned-integer array represented with dictionary, run-end, and bit-packed physical encodings"},
+    {"file": "dictionary-encoding.png", "alt": "Seven city strings decomposed into two dictionary values and seven integer codes"},
+    {"file": "run-end-encoding.png", "alt": "Dictionary codes compressed into exclusive run ends and one value per run"},
+    {"file": "bitpacked-integer-children.png", "alt": "Run-end integer children bit-packed to three-bit ends and one-bit values"},
+    {"file": "cascading-encoding-tree.png", "alt": "Dictionary array whose codes are run-end encoded and whose integer children are bit-packed"},
+    {"file": "decompress-then-sum.png", "alt": "Run-end array fully decompressed before summing nine integers"},
+    {"file": "sum-compressed-runs.png", "alt": "Specialized kernel summing compressed runs by multiplying each value by its run length"},
+    {"file": "decompress-then-compare.png", "alt": "Dictionary array decompressed before comparing seven city strings"},
+    {"file": "compare-dictionary-values.png", "alt": "Rewrite rule comparing two dictionary values and reusing unchanged codes to form the row mask"},
+    {"file": "decompress-then-filter.png", "alt": "Dictionary array decompressed before a row mask filters the strings"},
+    {"file": "filter-dictionary-codes.png", "alt": "Rewrite rule applying a row mask to dictionary codes while reusing dictionary values"},
+    {"file": "selective-layout-tree.png", "alt": "Flat layout fetching a whole table compared with a layout tree fetching only requested city rows"},
+    {"file": "vector-logical-physical-separation.png", "alt": "Three-dimensional vector logical type stored as a fixed-size float list with dictionary and bit-packed physical encoding"}
+  ]
+}
