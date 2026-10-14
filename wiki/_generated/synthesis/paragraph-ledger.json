@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9d9771cc98b989ed4210701620a81e93d8944334e200ec132f844cbd7cbc849a",
       "4994c05acf26b2900eb7684aad1022c1d970fad3fa7cd6d009c9096f8fcfc919",
       "96d0b4aeba1857fca667fe29c4728fe963d5ad80cf7804f36f07ff6074cea280",
       "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
@@ -830,11 +831,30 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 828
+    "paragraph_count": 829
   },
-  "overview_commit": "a546731bcd13125df66502a2c3cc8d5a5042c98b",
-  "overview_digest": "8b7b1213ad8fa474cc0805848f7d82b98ffb086496aa68bca3619230383ec7eb",
+  "overview_commit": "bfabd2ddfafd5a62ab20dffd9f146a7c62504f94",
+  "overview_digest": "3b4b0f88fb1e767249ed40427c94f8b94a8ab8498c4f3d39dd5fbe71db40dd67",
   "paragraphs": [
+    {
+      "id": "9d9771cc98b989ed4210701620a81e93d8944334e200ec132f844cbd7cbc849a",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Modal]] performance account adds [[InferenceHostOverhead]] as the CPU-side complement to the wiki's device and I/O bottleneck material. In [[SGLang]], a single scheduler thread prepares requests, forms batches, and dispatches GPU work, so repeated PyTorch reconstruction of stable CUDA IPC pool storage for multimodal tensor offsets stalls prefill and decode across all in-flight requests. A dictionary keyed by device and pool handle changes that work from roughly once per tensor per iteration to once per pool; the before/after profile removes the `_new_shared_cuda` hotspot and reduces input processing from 12.94% to 5.84% of scheduler samples. On the reported Qwen2.5-VL-3B-Instruct workload with one H100, throughput rises from 22.2 to 25.7 requests/s, mean TTFT falls 13.2%, mean TPOT falls 17.2%, and mean end-to-end latency falls 10.6%. The decode result is plausible because mixed-chunk batches and shared scheduler capacity couple input preparation to decode dispatch. This is a first-party, single-model and single-configuration result without variance, workload-shape, power, CPU, or cross-engine evidence; it establishes the mechanism in the tested SGLang CUDA IPC path rather than a universal cache gain. All six effective images were opened; five non-duplicative architecture, mechanism, and profiling visuals were retained canonically, while the broad pre-change flamegraph was omitted because the detailed and comparative profiles supersede it.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "InferenceHostOverhead",
+        "Modal",
+        "SGLang"
+      ]
+    },
     {
       "id": "4994c05acf26b2900eb7684aad1022c1d970fad3fa7cd6d009c9096f8fcfc919",
       "primary_topic": "business-and-markets",

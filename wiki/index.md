@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Boosting multimodal inference performance by >10% with a single Python dictionary](sources/modal-multimodal-dictionary.md) - Modal engineers remove repeated CUDA IPC storage reconstruction from SGLang's scheduler, reporting 16.2% higher throughput and lower latency on a multimodal H100 workload.
 - [Using Local Coding Agents](sources/using-local-coding-agents.md) - Sebastian Raschka separates local coding agents into model, serving, and harness layers, then evaluates hardware fit, task reliability, token cost, permissions, telemetry, and isolation.
 - [Task Failed Successfully: Saturating NIC and Disk Bandwidth](sources/task-failed-successfully-saturating-nic-and-disk-bandwidth.md) - A two-stage NVMe-to-RDMA investigation separates fixed-buffer page-preparation savings from hugepage dTLB gains and shows why successful optimization still needs causal verification.
 - [How we found a bug in the hyper HTTP library](sources/how-we-found-a-bug-in-the-hyper-http-library.md) - Cloudflare traces intermittent Images truncation to hyper discarding a pending socket flush and shutting down early, then fixes it with a deterministic constrained-stream test and pre-shutdown flush.
@@ -1203,6 +1204,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [Saatwik Nagpal](entities/SaatwikNagpal.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
+- [Charles Frye](entities/CharlesFrye.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
+- [SGLang](entities/SGLang.md) - Open-source inference engine whose multimodal scheduler path uses CUDA IPC and now caches stable pool-handle storage.
 - [Sebastian Raschka](entities/SebastianRaschka.md) - Machine-learning author and practitioner evaluating local coding-agent stacks across implementation, performance, security, and task fit.
 - [Ollama](entities/Ollama.md) - Local model-serving runtime used to expose open-weight models to multiple coding-agent harnesses through an OpenAI-compatible endpoint.
 - [Qwen Code](entities/QwenCode.md) - Open-source coding-agent harness configured, audited, and compared across several local models.
@@ -3113,6 +3117,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Inference Host Overhead](concepts/InferenceHostOverhead.md) - CPU-side scheduling and bookkeeping that delays accelerator dispatch across in-flight inference requests.
 - [Local Coding Agents](concepts/LocalCodingAgents.md) - User-controlled model, inference-runtime, and coding-harness stacks evaluated across hardware, capability, harness, and trust fit.
 - [BM25](concepts/BM25.md) - Lexical ranking function combining probabilistic term weighting, saturating term frequency, and document-length normalization.
 - [Hybrid Search](concepts/HybridSearch.md) - Retrieval architecture combining lexical candidates with dense retrieval, neural reranking, or rank fusion.

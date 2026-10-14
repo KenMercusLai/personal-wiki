@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "modal-multimodal-dictionary",
+  "images": [
+    {
+      "file": "sglang-process-architecture.jpg",
+      "alt": "SGLang process architecture showing the single CPU scheduler dispatching model forward passes to the GPU"
+    },
+    {
+      "file": "pre-optimization-flamegraph.png",
+      "alt": "Pre-optimization scheduler flamegraph attributing 12.94% of samples to input processing and 3.43% to new shared CUDA storage"
+    },
+    {
+      "file": "per-tensor-ipc-handle-opens.jpg",
+      "alt": "Previous CUDA IPC path reopening shared storage once for every tensor offset sent from a tokenizer process"
+    },
+    {
+      "file": "cached-ipc-pool-handle.webp",
+      "alt": "Optimized CUDA IPC path opening shared storage once per pool handle and reusing it from a cache"
+    },
+    {
+      "file": "before-after-scheduler-flamegraphs.png",
+      "alt": "Before-and-after scheduler flamegraphs showing input processing falling from 12.94% to 5.84% and the shared CUDA storage hotspot disappearing"
+    }
+  ]
+}

@@ -9417,6 +9417,10 @@ Created [[AutoMem]] and [[Metamemory]], and updated [[AgentMemory]] from its com
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-14] ingest | Boosting multimodal inference performance by >10% with a single Python dictionary
+
+Created [[InferenceHostOverhead]], [[SGLang]], [[SaatwikNagpal]], and [[CharlesFrye]], and updated [[Modal]] from its complete ordered evidence inventory. Captured the single-threaded scheduler bottleneck, multimodal CUDA IPC handle-plus-offset path, repeated PyTorch shared-storage reconstruction, stable pool-handle dictionary cache, rare-write locking, mixed prefill/decode coupling, profile verification, and throughput and latency results. Preserved the first-party single-model, single-H100, single-workload scope and missing variance, workload-shape, power, CPU, and cross-engine evidence. Opened all six effective images, retained five non-duplicative architecture, mechanism, and profiling visuals at their semantic positions with descriptive filenames and a canonical manifest, and omitted the superseded broad pre-change flamegraph.
+
 ## [2026-10-14] ingest | BM25: the Search Algorithm Behind Elasticsearch
 
 Created [[BM25]], [[HybridSearch]], [[Elasticsearch]], and [[MichaelBrenndoerfer]], and updated [[InvertedIndex]] and [[TFIDFRanking]] from their complete ordered evidence inventories. Captured probabilistic IDF, bounded term-frequency gain, collection-relative length normalization, index statistics, BM25L/BM25+/BM25F variants, parameter tuning, lexical limitations, serial neural reranking, and parallel reciprocal-rank fusion. Preserved the pedagogical and synthetic scope, absent standard relevance evaluation, collection-specific tuning boundary, and unresolved operational costs. The only effective image reference was a decorative remote author avatar and was omitted; chart and console placeholders in the export were not resolvable image references, so no visual assets or manifest were retained.
@@ -9444,6 +9448,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-14] ingest | Using Local Coding Agents
 
 Created [[LocalCodingAgents]], [[SebastianRaschka]], [[Ollama]], and [[QwenCode]]. Captured the model-runtime-harness split, Qwen3.6 and comparable 30–35B local-model requirements, long-context speed and memory checks, personal capability packs, Qwen Code's privacy and permission audit, Codex and Claude Code integrations, cross-harness success and token-use differences, and SSH-tunneled remote inference. Preserved the five-task first-party scope, machine and quantization dependence, incomplete macOS RSS accounting, distinction between local inference and total data egress, manual-update tradeoff, and absence of code-quality or long-running autonomy evidence. Opened all 33 effective local images, retained eight non-duplicative architecture, benchmark, performance, and security visuals at their semantic positions with descriptive filenames and a canonical manifest, and omitted decorative, peripheral, setup-redundant, and benchmark-redundant images.
+
+## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-14] lint | Wiki health check
 
