@@ -9432,3 +9432,11 @@ Created [[Hyper]] and updated [[Cloudflare]], [[RaceCondition]], and [[AdaptiveB
 ## [2026-10-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-14] ingest | Task Failed Successfully: Saturating NIC and Disk Bandwidth
+
+Created [[HighThroughputIOOptimization]] and updated [[StoragePerformanceBenchmarking]] and [[BottleneckAwareAICoding]] from their complete ordered evidence inventories. Captured fixed-buffer removal of recurring direct-I/O page preparation, scatter-gather splitting and io-wq handoff, throughput-neutral `fget` and split controls, computation-free buffer touching, dTLB counter evidence, and hugepage recovery to near aggregate NIC saturation. Preserved the first-party hardware and workload scope, fixed-buffer versus CPU-translation distinction, and the gap between an agent finding an effective change and correctly explaining it. Opened all ten referenced images, retained the two evidence-bearing topology diagrams and five flamegraphs at their semantic positions with descriptive filenames and a canonical manifest, and omitted three decorative images.
+
+## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

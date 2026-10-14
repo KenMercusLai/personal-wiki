@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "task-failed-successfully-saturating-nic-and-disk-bandwidth",
+  "images": [
+    {
+      "file": "simple-demo-topology.png",
+      "alt": "Single-NIC NVMe-to-RDMA topology with one NUMA-local worker, eight drives, io_uring, and a remote client buffer"
+    },
+    {
+      "file": "simple-demo-baseline-flamegraph.png",
+      "alt": "Baseline single-demo flamegraph dominated by io_uring submission and per-I/O user-page handling"
+    },
+    {
+      "file": "simple-demo-read-fixed-flamegraph.png",
+      "alt": "Single-demo flamegraph after READ_FIXED removes most per-I/O page-discovery and pinning work"
+    },
+    {
+      "file": "large-demo-topology.png",
+      "alt": "Four-server, eight-NUMA-shard architecture connecting eight client NICs to local NVMe, shared indexes, and worker event loops"
+    },
+    {
+      "file": "large-demo-worker-flamegraph.png",
+      "alt": "Large-demo flamegraph showing separate io-wq and application-worker clusters"
+    },
+    {
+      "file": "large-demo-shard-flamegraph.png",
+      "alt": "Per-shard flamegraph before registered files and ring-fd lookup removal"
+    },
+    {
+      "file": "large-demo-registered-files-flamegraph.png",
+      "alt": "Per-shard flamegraph after registered files and a registered ring remove most fget overhead"
+    }
+  ]
+}

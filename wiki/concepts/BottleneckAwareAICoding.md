@@ -7,7 +7,8 @@ sources:
   - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
   - ai-shi-dai-lao-niao-de-kuang-huan-he-diao-ling-nolla
   - ye-tian-zhi-shu-121-when-code-is-cheap
-last_updated: 2026-10-11
+  - task-failed-successfully-saturating-nic-and-disk-bandwidth
+last_updated: 2026-10-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,6 +26,8 @@ Nolla gives the same bottleneck shift an experience-and-accountability interpret
 
 Tison's open-source cases move the constraint inside the expert's own workflow. Once coding-agent capability crosses his ordinary-task baseline, refactors, benchmarks, examples, documentation, tests, and performance iteration become cheap enough that goal clarity, naming and interface decisions, verification evidence, and the physical energy required for judgment dominate. He reports a practical concurrency ceiling of roughly four active projects, organized around primary and secondary work while agents think, but presents this as a personal limit rather than a general throughput law.
 
+The NVMe-to-RDMA case separates successful action from valid explanation. An agent proposed hugepages early and reached the bandwidth target, but its causal account was wrong. The engineer still needed discriminating controls and hardware counters to show that application-side dTLB misses—not CRC arithmetic, io-wq, request splitting, `fget`, disks, or NICs—were the scaled bottleneck. Agent verification therefore includes mechanism validation when future tuning, portability, or operational decisions depend on why a change works.
+
 ## Key Claims
 - AI coding speed, commit frequency, and agent-completion rate are not the same as delivery throughput or product value.
 - Local acceleration can reduce system output when it increases queues at review, testing, or rework stages.
@@ -32,7 +35,7 @@ Tison's open-source cases move the constraint inside the expert's own workflow. 
 - Specs and skills matter because they move AI work toward upstream bottlenecks such as requirements understanding and compatibility analysis.
 - Automated verification turns agent output into work that can be supervised and repaired without continuous human attention.
 - Parallel agent work can improve throughput, but only while planning, integration, review, and validation capacity are protected rather than bypassed.
-- The highest-return AI use may be capability expansion and toil automation rather than producing more application code, provided teams preserve verification capacity, human reasoning energy, and routes for developing future engineering judgment.
+- The highest-return AI use may be capability expansion and toil automation rather than producing more application code, provided teams preserve verification capacity, human reasoning energy, causal understanding, and routes for developing future engineering judgment.
 
 ## Evidence
 - Delivery paradox: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] cites a METR randomized study where experienced developers were objectively slower with AI while perceiving speedup, and Faros telemetry where individual activity rose while DORA delivery metrics did not improve.
@@ -48,14 +51,16 @@ Tison's open-source cases move the constraint inside the expert's own workflow. 
 - Personal bottleneck shift: [[ye-tian-zhi-shu-121-when-code-is-cheap]] reports that after coding-agent capability exceeded the author's daily-work baseline, clear goals, core technical decisions, review judgment, and health became more limiting than implementation time.
 - Cheap hygiene work: [[ye-tian-zhi-shu-121-when-code-is-cheap]] describes agents making benchmarks, examples, documentation, snapshots, and repetitive regression work economical enough to add routinely.
 - Conditional concurrency: [[ye-tian-zhi-shu-121-when-code-is-cheap]] reports about four simultaneous primary and secondary workstreams while agents reason, without presenting a team-wide or controlled throughput measurement.
+- Successful-fix boundary: [[task-failed-successfully-saturating-nic-and-disk-bandwidth]] reports that an agent suggested hugepages and reached near-NIC saturation before it could correctly explain the dTLB mechanism.
+- Causal verification: [[task-failed-successfully-saturating-nic-and-disk-bandwidth]] uses throughput-neutral `fget` removal and extra request splitting, a CRC-free buffer-touch control, and dTLB counters to distinguish the actual bottleneck from plausible alternatives.
 
 ## Counterevidence & Qualifications
-The sources combine industry reports, practitioner interpretation, and analogy rather than proving a universal throughput law for every team. The bottleneck can vary by organization, individual health, task shape, and project phase, and full SDLC discipline may be unnecessary for greenfield prototypes, exploratory spikes, personal tools, or very small changes. Hu's case shows that aggressive automation can genuinely move a local constraint, but it also demonstrates a measurement hazard: bypassed review and deferred maintenance can look like throughput unless quality and downstream work are counted. Tison's claimed capability threshold and four-project ceiling are personal, domain- and model-version-dependent observations, not controlled productivity results. Nolla gives no defect, delivery, workforce, or progression data for the claim that implementation approaches zero marginal cost or that senior supply will contract, and the source is explicitly AI-generated from a conversation and style examples. Parallel agent work assumes task independence, available verification, and enough human energy and judgment to arbitrate design and risk.
+The sources combine industry reports, practitioner interpretation, analogy, and one first-party systems case rather than proving a universal throughput law for every team. The bottleneck can vary by organization, individual health, task shape, project phase, and technical architecture, and full SDLC discipline may be unnecessary for greenfield prototypes, exploratory spikes, personal tools, or very small changes. Hu's case shows that aggressive automation can genuinely move a local constraint, but it also demonstrates a measurement hazard: bypassed review and deferred maintenance can look like throughput unless quality and downstream work are counted. Tison's claimed capability threshold and four-project ceiling are personal, domain- and model-version-dependent observations, not controlled productivity results. Nolla gives no defect, delivery, workforce, or progression data for the claim that implementation approaches zero marginal cost or that senior supply will contract, and the source is explicitly AI-generated from a conversation and style examples. The I/O case shows one agent explanation failing despite an effective intervention, but does not measure how often this happens. Parallel agent work assumes task independence, available verification, and enough human energy and judgment to arbitrate design, mechanism, and risk.
 
 ## What Changed
-- Added an expert solo-workflow case in which the constraint moves from coding to goal clarity, core decisions, verification, and reasoning energy.
-- Extended cheap implementation into cheap engineering hygiene: benchmarks, examples, documentation, and regression coverage.
-- Added a personal concurrency ceiling as evidence that parallel agents remain bounded by human supervision capacity.
+- Distinguished achieving a target from correctly explaining the mechanism behind the result.
+- Extended verification to causal controls and direct counters when the explanation affects future engineering decisions.
+- Added systems evidence that plausible agent narratives can persist after the code is already operationally successful.
 
 ## Related Concepts
 - [[AICodingPractice]] - bottleneck-aware flow is an operating discipline for AI coding work.
@@ -67,3 +72,4 @@ The sources combine industry reports, practitioner interpretation, and analogy r
 - [[VibeCoding]] - speed-amplified coding needs bottleneck controls before it becomes delivery gain.
 - [[PersonalSoftware]] - one-user scope removes some downstream constraints but does not remove verification or maintenance cost.
 - [[JuniorEngineerLearning]] - workforce capacity becomes a delayed bottleneck if automated tasks are not replaced with deliberate learning paths.
+- [[HighThroughputIOOptimization]] - supplies the systems case in which agent success preceded valid bottleneck attribution.

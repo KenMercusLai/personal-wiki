@@ -827,12 +827,13 @@
       "cc4b4c6c77f311dd7d8fa7d66a86515c656a4f6c0af0016d8eefeb96289c18ef",
       "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8",
       "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df",
-      "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88"
+      "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
+      "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 827
+    "paragraph_count": 828
   },
-  "overview_commit": "5d364e334806f866e22c621c037e17b4d182059f",
-  "overview_digest": "fbad05c72b7a9a7f8d5100cf4003031fc135f26ec65c02148b012a4bf3397d5c",
+  "overview_commit": "5d48d174a06ece8777128b733fed58aae2cd5435",
+  "overview_digest": "1b8105d58f05b975864eacb87059008a3614cbaf2834273b6e8ca5d41593544c",
   "paragraphs": [
     {
       "id": "4994c05acf26b2900eb7684aad1022c1d970fad3fa7cd6d009c9096f8fcfc919",
@@ -16726,6 +16727,22 @@
         "RefinerBench",
         "SoLRefiner",
         "VideoRefinement"
+      ]
+    },
+    {
+      "id": "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest high-throughput systems source adds [[HighThroughputIOOptimization]] by separating two memory costs in an NVMe-to-RDMA pipeline. In a single-NIC test, registering a 64 MiB io_uring arena and using fixed buffers moves user-page discovery and pinning out of the request path, lifting queue-depth-64 throughput from 22.15 to 46.00 GiB/s. At eight-NIC scale, however, fixed buffers do not stop application scans from crossing 257 base-page translations per 1,028 KiB value. The investigation strengthens [[StoragePerformanceBenchmarking]] by using negative controls rather than treating flamegraph width as causality: removing most `fget` work, increasing each logical read from three to five block requests, and observing shallow io-wq queues do not move the roughly 211 GiB/s wall; replacing CRC with a computation-free 64-byte-stride touch reproduces it. Hugepages then cut dTLB misses from more than 80 to about five per GET and restore roughly 348-351 GiB/s with CRC enabled, while high L1D-miss counts do not track the slow cases. The result also sharpens [[BottleneckAwareAICoding]]: an agent found the effective hugepage change before it could explain the mechanism, so successful output and causal understanding remain distinct verification targets. This is one first-party, hardware-, kernel-, page-size-, request-shape-, and topology-specific benchmark without independent reproduction, failure tests, mixed workloads, power measurement, or hugepage lifecycle analysis. All ten images were opened; two topology diagrams and five flamegraphs were retained canonically, while the monkey GIF, meme, and song artwork were omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BottleneckAwareAICoding",
+        "HighThroughputIOOptimization",
+        "StoragePerformanceBenchmarking"
       ]
     }
   ],

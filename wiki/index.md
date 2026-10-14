@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Task Failed Successfully: Saturating NIC and Disk Bandwidth](sources/task-failed-successfully-saturating-nic-and-disk-bandwidth.md) - A two-stage NVMe-to-RDMA investigation separates fixed-buffer page-preparation savings from hugepage dTLB gains and shows why successful optimization still needs causal verification.
 - [How we found a bug in the hyper HTTP library](sources/how-we-found-a-bug-in-the-hyper-http-library.md) - Cloudflare traces intermittent Images truncation to hyper discarding a pending socket flush and shutting down early, then fixes it with a deterministic constrained-stream test and pre-shutdown flush.
 - [AutoMem: Automated Learning of Memory as a Cognitive Skill](sources/2607.01224.md) - Wu and collaborators optimize file-memory scaffolds and train a dedicated memory specialist, reporting qualified long-horizon game gains from learned memory management.
 - [Program-as-Weights: A Programming Paradigm for Fuzzy Functions](sources/2607.02512.md) - Zhang and collaborators compile fuzzy-function specifications into reusable pseudo-program and LoRA artifacts for small local interpreters, with strong synthetic-benchmark results and important coupling, opacity, and validation limits.
@@ -3246,6 +3247,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Anycast DNS](concepts/AnycastDNS.md) - DNS architecture in which distributed servers advertise one shared address and routing selects a preferred reachable instance.
 - [Corporate Role Disillusionment](concepts/CorporateRoleDisillusionment.md) - Loss of belief in the meaning of an organizational role despite continued performance for income, stability, status, or future options.
 - [Storage Performance Benchmarking](concepts/StoragePerformanceBenchmarking.md) - Workload-faithful measurement of storage across cache state, concurrency, batching, runtime overhead, and physical-device activity.
+- [High-Throughput I/O Optimization](concepts/HighThroughputIOOptimization.md) - Measurement-led tuning of storage, memory, CPU, and network paths across buffer registration, translation locality, queueing, and topology.
 - [10x Engineer](concepts/TenXEngineer.md) - Contested model of disproportionate programmer leverage qualified by collaboration, organizational context, and whole-team product outcomes.
 - [Product-Minded Engineering](concepts/ProductMindedEngineering.md) - Engineering practice combining technical execution with product intent, user and business context, tradeoffs, validation, and post-release outcomes.
 - [Online Age Verification](concepts/OnlineAgeVerification.md) - Age-assurance methods and policies evaluated across child-safety effect, data minimization, anonymity, security, accessibility, competition, compliance cost, and bypass resistance.
