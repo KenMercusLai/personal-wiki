@@ -9416,3 +9416,11 @@ Created [[AutoMem]] and [[Metamemory]], and updated [[AgentMemory]] from its com
 ## [2026-10-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-14] ingest | BM25: the Search Algorithm Behind Elasticsearch
+
+Created [[BM25]], [[HybridSearch]], [[Elasticsearch]], and [[MichaelBrenndoerfer]], and updated [[InvertedIndex]] and [[TFIDFRanking]] from their complete ordered evidence inventories. Captured probabilistic IDF, bounded term-frequency gain, collection-relative length normalization, index statistics, BM25L/BM25+/BM25F variants, parameter tuning, lexical limitations, serial neural reranking, and parallel reciprocal-rank fusion. Preserved the pedagogical and synthetic scope, absent standard relevance evaluation, collection-specific tuning boundary, and unresolved operational costs. The only effective image reference was a decorative remote author avatar and was omitted; chart and console placeholders in the export were not resolvable image references, so no visual assets or manifest were retained.
+
+## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-13
-as_of_overview_commit: c0a5520dee769bd782dc883883049f426f80d9a6
+as_of_overview_commit: 9a60e70d8b42088d62d020135dc652e732432fed
 summary: "A cross-domain evidence map for matching tools and institutions to real needs while preserving accountable judgment, explicit boundaries, and uncertainty."
-episode_count: 1168
-source_count: 1168
+episode_count: 1169
+source_count: 1169
 paragraph_count: 826
 topic_count: 9
 ---
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technology outcomes depend on workload fit, explicit boundaries, realistic verification, observability, recovery, authority controls, and—newly—learned proficiency in using memory structures rather than storage alone.
+Technology outcomes depend on workload fit, explicit boundaries, realistic verification, observability, recovery, authority controls, and learned proficiency in using memory structures rather than storage alone.
 
 - [[AgentNativeComputing]] can join [[ComputerUse]] and [[GenerativeUI]] so a conversational agent operates existing software and creates personal interfaces, but [[MacOS]] and [[Muse]] show that authority, credentials, hosted execution, supplier limits, and protected app-scoped prompts do not disappear; [[AgentPermissionModel]] therefore needs observable denials and agent-level grants bounded by controls the agent cannot rewrite, while [[AppleTrustBrand]] depends on coherent patching, consent, and user autonomy. Evidence: [[MacOS]], [[AgentNativeComputing]], [[ComputerUse]], [[GenerativeUI]], [[AgentPermissionModel]], [[AppleTrustBrand]], [[BenThompson]], [[Muse]], [[MicrosoftCopilot]].
 - [[AIEraInfrastructureEngineering]] joins [[TechnologyEnablerStack]] and [[AIInfrastructureStack]] into a strategic-to-operational sequence: choose a consequential workload and customer problem, then use AI-assisted implementation without surrendering architecture, optimization, verification, or critical low-level understanding; [[AstroVela]] and [[Vane]] are announced applications of that thesis rather than validation of it. Evidence: [[AIEraInfrastructureEngineering]], [[TechnologyEnablerStack]], [[AIInfrastructureStack]], [[AstroVela]], [[Vane]], [[VaneData]], [[Kakachen]].

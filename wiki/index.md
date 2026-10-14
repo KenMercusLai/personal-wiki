@@ -1197,7 +1197,11 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Apps, Agents, and Aggregation](sources/apps-agents-and-aggregation.md) - Ben Thompson argues that computer-using agents can abstract apps, generate personal UI, and aggregate inspiration and execution, using Muse and Microsoft Copilot as consumer and enterprise cases.
 
+- [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
+
 ## Entities
+- [Michael Brenndoerfer](entities/MichaelBrenndoerfer.md) - Technical author represented through an implementation-oriented explanation of BM25 and hybrid retrieval.
+- [Elasticsearch](entities/Elasticsearch.md) - Search system represented through default BM25 scoring, per-field tuning, phrase matching, and hybrid retrieval.
 - [AutoMem](entities/AutoMem.md) - Two-loop research framework that revises agent memory scaffolds and trains a dedicated memory-operation specialist from trajectory evidence.
 - [Program-as-Weights](entities/ProgramAsWeights.md) - Compiler-interpreter research system that turns natural-language fuzzy-function specifications into reusable local neural programs.
 - [FuzzyBench](entities/FuzzyBench.md) - Synthetic 10M-example corpus for training and evaluating fuzzy-function compilers across more than 800 task subcategories.
@@ -3102,6 +3106,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [BM25](concepts/BM25.md) - Lexical ranking function combining probabilistic term weighting, saturating term frequency, and document-length normalization.
+- [Hybrid Search](concepts/HybridSearch.md) - Retrieval architecture combining lexical candidates with dense retrieval, neural reranking, or rank fusion.
 - [Metamemory](concepts/Metamemory.md) - Learned monitoring and control over what an agent encodes, retrieves, updates, and organizes in external memory.
 - [Fuzzy Functions](concepts/FuzzyFunctions.md) - Input-output behaviors specified more naturally through language, examples, and constraints than exhaustive symbolic rules.
 - [Parameter-Efficient Fine-Tuning](concepts/ParameterEfficientFineTuning.md) - Frozen-base adaptation through compact modules such as LoRA and prefix-tuning, including task-conditioned generated adapters.
