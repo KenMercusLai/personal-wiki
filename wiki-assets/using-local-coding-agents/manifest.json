@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "using-local-coding-agents",
+  "images": [
+    {
+      "file": "local-stack-architecture.png",
+      "alt": "Local coding-agent stack connecting interchangeable models, inference runtimes, and coding harnesses"
+    },
+    {
+      "file": "qwen35-harness-swe-bench.png",
+      "alt": "Qwen3.5-4B SWE-bench Verified scores across Codex, Claude Code, Qwen Code, and Pi before and after Polar RL"
+    },
+    {
+      "file": "long-context-speed-memory.png",
+      "alt": "Prefill speed, decode speed, and memory across prompt lengths for Qwen 35B and Gemma E2B on Mac and DGX"
+    },
+    {
+      "file": "agent-harness-audit-checklist.png",
+      "alt": "Coding-agent audit checklist covering local execution, data egress, file and secret boundaries, and prompt injection"
+    },
+    {
+      "file": "qwen-code-agent-task-results.png",
+      "alt": "Five-task agent benchmark results for four local models running in Qwen Code"
+    },
+    {
+      "file": "codex-agent-task-results.png",
+      "alt": "Five-task agent benchmark results for four local models running in Codex"
+    },
+    {
+      "file": "harness-token-usage.png",
+      "alt": "Total token use across five local-agent tasks by model and harness"
+    },
+    {
+      "file": "cross-harness-task-success.png",
+      "alt": "Cross-harness five-task success rates for Qwen3.6, North Mini Code, Gemma 4 E2B, and Nemotron 3 Nano"
+    }
+  ]
+}

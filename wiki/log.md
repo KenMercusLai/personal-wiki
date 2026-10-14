@@ -9440,3 +9440,11 @@ Created [[HighThroughputIOOptimization]] and updated [[StoragePerformanceBenchma
 ## [2026-10-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-14] ingest | Using Local Coding Agents
+
+Created [[LocalCodingAgents]], [[SebastianRaschka]], [[Ollama]], and [[QwenCode]]. Captured the model-runtime-harness split, Qwen3.6 and comparable 30–35B local-model requirements, long-context speed and memory checks, personal capability packs, Qwen Code's privacy and permission audit, Codex and Claude Code integrations, cross-harness success and token-use differences, and SSH-tunneled remote inference. Preserved the five-task first-party scope, machine and quantization dependence, incomplete macOS RSS accounting, distinction between local inference and total data egress, manual-update tradeoff, and absence of code-quality or long-running autonomy evidence. Opened all 33 effective local images, retained eight non-duplicative architecture, benchmark, performance, and security visuals at their semantic positions with descriptive filenames and a canonical manifest, and omitted decorative, peripheral, setup-redundant, and benchmark-redundant images.
+
+## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

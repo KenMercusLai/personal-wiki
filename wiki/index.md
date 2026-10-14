@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Using Local Coding Agents](sources/using-local-coding-agents.md) - Sebastian Raschka separates local coding agents into model, serving, and harness layers, then evaluates hardware fit, task reliability, token cost, permissions, telemetry, and isolation.
 - [Task Failed Successfully: Saturating NIC and Disk Bandwidth](sources/task-failed-successfully-saturating-nic-and-disk-bandwidth.md) - A two-stage NVMe-to-RDMA investigation separates fixed-buffer page-preparation savings from hugepage dTLB gains and shows why successful optimization still needs causal verification.
 - [How we found a bug in the hyper HTTP library](sources/how-we-found-a-bug-in-the-hyper-http-library.md) - Cloudflare traces intermittent Images truncation to hyper discarding a pending socket flush and shutting down early, then fixes it with a deterministic constrained-stream test and pre-shutdown flush.
 - [AutoMem: Automated Learning of Memory as a Cognitive Skill](sources/2607.01224.md) - Wu and collaborators optimize file-memory scaffolds and train a dedicated memory specialist, reporting qualified long-horizon game gains from learned memory management.
@@ -1202,6 +1203,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [Sebastian Raschka](entities/SebastianRaschka.md) - Machine-learning author and practitioner evaluating local coding-agent stacks across implementation, performance, security, and task fit.
+- [Ollama](entities/Ollama.md) - Local model-serving runtime used to expose open-weight models to multiple coding-agent harnesses through an OpenAI-compatible endpoint.
+- [Qwen Code](entities/QwenCode.md) - Open-source coding-agent harness configured, audited, and compared across several local models.
 - [hyper](entities/Hyper.md) - Open-source Rust HTTP library whose HTTP/1 shutdown path was patched to flush buffered response data before closing a backpressured socket.
 - [Michael Brenndoerfer](entities/MichaelBrenndoerfer.md) - Technical author represented through an implementation-oriented explanation of BM25 and hybrid retrieval.
 - [Elasticsearch](entities/Elasticsearch.md) - Search system represented through default BM25 scoring, per-field tuning, phrase matching, and hybrid retrieval.
@@ -3109,6 +3113,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Local Coding Agents](concepts/LocalCodingAgents.md) - User-controlled model, inference-runtime, and coding-harness stacks evaluated across hardware, capability, harness, and trust fit.
 - [BM25](concepts/BM25.md) - Lexical ranking function combining probabilistic term weighting, saturating term frequency, and document-length normalization.
 - [Hybrid Search](concepts/HybridSearch.md) - Retrieval architecture combining lexical candidates with dense retrieval, neural reranking, or rank fusion.
 - [Metamemory](concepts/Metamemory.md) - Learned monitoring and control over what an agent encodes, retrieves, updates, and organizes in external memory.
