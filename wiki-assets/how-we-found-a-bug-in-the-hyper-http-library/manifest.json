@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "how-we-found-a-bug-in-the-hyper-http-library",
+  "images": [
+    {
+      "file": "images-binding-data-path.png",
+      "alt": "Cloudflare Images binding request and response path through the Workers runtime, intermediary, and socket"
+    },
+    {
+      "file": "nested-image-processing-pipeline.png",
+      "alt": "Nested image-processing pipelines showing the inner binding response feeding the outer URL optimization path"
+    },
+    {
+      "file": "premature-socket-shutdown.png",
+      "alt": "Backpressured socket path where hyper partially fills the kernel buffer before premature shutdown truncates the response"
+    }
+  ]
+}

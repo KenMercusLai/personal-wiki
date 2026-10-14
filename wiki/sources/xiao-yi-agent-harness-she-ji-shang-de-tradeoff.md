@@ -2,7 +2,7 @@
 title: "小议 agent Harness 设计上的 tradeoff"
 type: source
 tags: [ai, agents, harness, architecture, multi-tenancy, context-management]
-date: 2026-09-22
+date: 2026-09-05
 source_file: "/mnt/ken_personal_wiki/Articles/小议 agent Harness 设计上的 tradeoff.md"
 ---
 

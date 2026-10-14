@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How we found a bug in the hyper HTTP library](sources/how-we-found-a-bug-in-the-hyper-http-library.md) - Cloudflare traces intermittent Images truncation to hyper discarding a pending socket flush and shutting down early, then fixes it with a deterministic constrained-stream test and pre-shutdown flush.
 - [AutoMem: Automated Learning of Memory as a Cognitive Skill](sources/2607.01224.md) - Wu and collaborators optimize file-memory scaffolds and train a dedicated memory specialist, reporting qualified long-horizon game gains from learned memory management.
 - [Program-as-Weights: A Programming Paradigm for Fuzzy Functions](sources/2607.02512.md) - Zhang and collaborators compile fuzzy-function specifications into reusable pseudo-program and LoRA artifacts for small local interpreters, with strong synthetic-benchmark results and important coupling, opacity, and validation limits.
 - [A Design Space Exploration of Async/Await](sources/2608.20677.md) - Gray, Krishnamurthi, and Crichton identify nine lifecycle dimensions behind divergent async/await behavior and validate a shared formal model across seven runtime combinations.
@@ -1200,6 +1201,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [hyper](entities/Hyper.md) - Open-source Rust HTTP library whose HTTP/1 shutdown path was patched to flush buffered response data before closing a backpressured socket.
 - [Michael Brenndoerfer](entities/MichaelBrenndoerfer.md) - Technical author represented through an implementation-oriented explanation of BM25 and hybrid retrieval.
 - [Elasticsearch](entities/Elasticsearch.md) - Search system represented through default BM25 scoring, per-field tuning, phrase matching, and hybrid retrieval.
 - [AutoMem](entities/AutoMem.md) - Two-loop research framework that revises agent memory scaffolds and trains a dedicated memory-operation specialist from trajectory evidence.
@@ -2711,7 +2713,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
-- [Cloudflare](entities/Cloudflare.md) - Edge platform represented through hosting, DNS, governance, outage risk, and Stack Overflow's historical CDN, DDoS, and TLS deployment.
+- [Cloudflare](entities/Cloudflare.md) - Edge platform represented through hosting, DNS, governance, image processing, network outage risk, and syscall-level diagnosis of a latent HTTP transport race.
 - [Cloudflare D1](entities/CloudflareD1.md) - Cloudflare database product where Max Rozen became a founding engineer after contributing bug fixes and UX ideas.
 - [Max Rozen](entities/MaxRozen.md) - Web developer and indie SaaS founder arguing from OnlineOrNot that one working product can compound over time.
 - [OnlineOrNot](entities/OnlineOrNot.md) - Max Rozen's focused SaaS product whose customer memory, operating learning, and maturity drove the source's 2023 growth story.
@@ -3409,7 +3411,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Private Company Investor Buyout](concepts/PrivateCompanyInvestorBuyout.md) - Negotiated repurchase of private-company investor shares using cash, debt, or other financing to provide liquidity and change ownership or control.
 - [Employee Profit Sharing](concepts/EmployeeProfitSharing.md) - Compensation that distributes realized company profit to employees and can make operating economics more immediate than illiquid equity upside.
 - [Service Health Checks](concepts/ServiceHealthChecks.md) - Decision-specific signals for routing, traffic reduction, and restart based on reachability, real work, and quality of service.
-- [Adaptive Backpressure](concepts/AdaptiveBackpressure.md) - Feedback loop that propagates changing service capacity upstream through admission, rerouting, bounded queueing, and rejection.
+- [Adaptive Backpressure](concepts/AdaptiveBackpressure.md) - Capacity and readiness signals that propagate through admission control or asynchronous lifecycle boundaries so delayed work is bounded rather than lost.
 - [ISA Extension Complexity](concepts/ISAExtensionComplexity.md) - Implementation, interaction, compatibility, and deployment burden created by extending an established processor architecture.
 - [Hardware–Software Boundary](concepts/HardwareSoftwareBoundary.md) - Layered division between fixed physical implementation and programmable behavior, complicated by microcode beneath the ISA.
 - [Posthumous Account Governance](concepts/PosthumousAccountGovernance.md) - Allocation of preservation, deletion, stewardship, access, and privacy rights for an online account after its owner dies.
@@ -3837,7 +3839,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Concurrency Failure Modes](concepts/ConcurrencyFailureModes.md) - Bugs and progress failures such as deadlock, starvation, and race conditions in coordinated concurrent work.
 - [Deadlock](concepts/Deadlock.md) - Concurrency failure where processes wait in a circular dependency for resources held by one another.
 - [Starvation](concepts/Starvation.md) - Progress failure where a process never receives the CPU time or resources it needs to continue.
-- [Race Condition](concepts/RaceCondition.md) - Timing-dependent bug where uncontrolled operation ordering changes the system's output.
+- [Race Condition](concepts/RaceCondition.md) - Timing-dependent bug spanning shared-state interleavings and asynchronous lifecycle ordering such as flush before shutdown.
 - [Python Concurrency Libraries](concepts/PythonConcurrencyLibraries.md) - Python modules and libraries used for threading, multiprocessing, parallel execution, and distributed tasks.
 - [Web Scraping Proxy Pool](concepts/WebScrapingProxyPool.md) - Operational pattern for collecting, storing, validating, and retiring proxy IPs used by web scrapers.
 - [Stablecoin Yield Farming](concepts/StablecoinYieldFarming.md) - DeFi practice of supplying or lending dollar-pegged stablecoins through smart contracts to earn fees, incentive tokens, or auto-compounded yield.

@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "backpressure-signals-must-gate-transport-completion",
+      "qualifications": [
+        "The evidence is one first-party [[Cloudflare]] incident account; syscall traces, customer confirmation, a deterministic regression test, and a merged patch strengthen the causal case but do not provide independent reproduction or a fleet-wide failure rate.",
+        "The local intermediary is reported to have exposed a pre-existing [[Hyper]] defect through reader timing rather than introduced it, and the source supplies no quantitative old-versus-new timing comparison.",
+        "An initial dispatch-loop fix could impede read polling and keepalive behavior, so propagating backpressure at the wrong lifecycle boundary can create new costs."
+      ],
+      "statement": "[[AdaptiveBackpressure]] is also a transport-correctness signal: the [[Cloudflare]] Images incident shows that when [[Hyper]] discarded a pending partial flush and shut down with bytes buffered, ordinary socket pressure became an intermittent [[RaceCondition]]; application completion and HTTP status therefore cannot substitute for a lifecycle invariant that awaits delivery or surfaces failure.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AdaptiveBackpressure",
+        "Cloudflare",
+        "Hyper",
+        "RaceCondition"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "build-infrastructure-ownership-shifts-operating-governance",
       "qualifications": [
         "The evidence is one company-authored architecture narrative without reproducible performance benchmarks, total-cost data, availability history, cache-consistency details, or a matched comparison with current cloud offerings.",

@@ -9424,3 +9424,11 @@ Created [[BM25]], [[HybridSearch]], [[Elasticsearch]], and [[MichaelBrenndoerfer
 ## [2026-10-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-14] ingest | How we found a bug in the hyper HTTP library
+
+Created [[Hyper]] and updated [[Cloudflare]], [[RaceCondition]], and [[AdaptiveBackpressure]] from their complete ordered evidence inventories. Captured the nested Images path, size- and timing-dependent HTTP `200` truncation, partial `sendto` followed by premature `SHUT_WR`, discarded `Poll::Pending`, observer effects from tracing, deterministic constrained-stream reproduction, and the final flush-before-shutdown fix. Preserved the first-party scope, missing fleet-wide incidence and timing comparison, and the keepalive and read-polling problems in the initial dispatch-loop patch. Opened and retained all three evidence-bearing remote diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
