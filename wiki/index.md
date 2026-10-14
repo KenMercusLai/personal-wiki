@@ -6,6 +6,18 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AutoMem: Automated Learning of Memory as a Cognitive Skill](sources/2607.01224.md) - Wu and collaborators optimize file-memory scaffolds and train a dedicated memory specialist, reporting qualified long-horizon game gains from learned memory management.
+- [Program-as-Weights: A Programming Paradigm for Fuzzy Functions](sources/2607.02512.md) - Zhang and collaborators compile fuzzy-function specifications into reusable pseudo-program and LoRA artifacts for small local interpreters, with strong synthetic-benchmark results and important coupling, opacity, and validation limits.
+- [A Design Space Exploration of Async/Await](sources/2608.20677.md) - Gray, Krishnamurthi, and Crichton identify nine lifecycle dimensions behind divergent async/await behavior and validate a shared formal model across seven runtime combinations.
+- [revisit: HNSW 上的过滤算法](sources/revisit-hnsw-shang-de-guo-lu-suan-fa.md) - Compares pre-filter, post-filter, result-gate, ACORN, and quota-hybrid HNSW filtering across selectivity, routing, recall, and memory-access tradeoffs.
+- [穷人版 PD 分离：在消费级显卡上把 TTS 推理拆成两半](sources/qiong-ren-ban-pd-fen-li-zai-xiao-fei-ji-xian-ka-shang-ba-tts-tui-li-chai-cheng-liang-ban.md) - A production TTS account uses host-local prefill/decode separation, hardware-specific KV transfer, measurement-led tuning, and proof-based recovery to protect streaming decode rates.
+- [Apple: You (Still) Don’t Understand the Vision Pro](sources/apple-you-still-dont-understand-the-vision-pro.md) - Ben Thompson argues that television-style camera switching breaks Vision Pro's distinctive sense of presence and proposes stable, viewer-chosen live-event seats instead.
+- [Write Things Down](sources/write-things-down.md) - Ben Thompson connects GTD-style trusted capture with file-backed agent continuity, deterministic harnesses, disputed AGI definitions, and human responsibility for goals and consequences.
+- [检查工具的自包含分发](sources/self-contained-dist-tools.md) - Chaney Zorn describes a layered offline inspection-tool delivery built from a Python zipapp, embedded Ansible, relocatable native archives, gated distribution, and a single-file HTML report.
+- [小议 agent Harness 设计上的 tradeoff](sources/xiao-yi-agent-harness-she-ji-shang-de-tradeoff.md) - A practitioner argues for multi-tenant server-side agents, conditional lightweight execution, adaptable context policy, and production-faithful offline evaluation.
+- [智算卡生态进校园之我见](sources/zhi-suan-qia-sheng-tai-jin-xiao-yuan-zhi-wo-jian-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji.md) - A teacher-practitioner maps university accelerator adoption across institutional constraints, four course depths, competitions, and long-term self-service ecosystem investment.
+- [Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass](sources/2607.07696.md) - Giannakouris and Trummer evaluate direct PostgreSQL and MySQL storage readers and propose a deterministic generate-and-repair pipeline, with snapshot, precision, version, and automation-evidence limits.
+- [Finding Service Mesh Bugs with Service Flow-Aware End-to-End Testing](sources/3814612.md) - Zheng, Qiao, Liu, and Jin combine service-flow exploration, CFG-based symbolic oracles, and live testbeds to find 25 bugs across Istio, Linkerd, and Cilium, with model-dependent guarantees.
 - [SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video](sources/2609.37969.md) - Liu, Ye, Xue, and colleagues combine paired flow training, frame-reward post-training, staged DMD-GAN distillation, and systems optimization for qualified one-step 4K video refinement.
 - [Frontier Overhangs](sources/frontier-overhangs.md) - Ben Thompson frames frontier AI pacing through capability, product, pricing, capital, and safety overhangs while qualifying the thesis with limited economic, cyber, and motive evidence.
 - [LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics](sources/p5662-hao-corrected.md) - Hao and collaborators co-design an ephemeral filter-aware cache format with pushdown execution to approach Arrow CPU and Parquet space efficiency, with non-selective and prototype-scope limits.
@@ -1186,6 +1198,22 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apps, Agents, and Aggregation](sources/apps-agents-and-aggregation.md) - Ben Thompson argues that computer-using agents can abstract apps, generate personal UI, and aggregate inspiration and execution, using Muse and Microsoft Copilot as consumer and enterprise cases.
 
 ## Entities
+- [AutoMem](entities/AutoMem.md) - Two-loop research framework that revises agent memory scaffolds and trains a dedicated memory-operation specialist from trajectory evidence.
+- [Program-as-Weights](entities/ProgramAsWeights.md) - Compiler-interpreter research system that turns natural-language fuzzy-function specifications into reusable local neural programs.
+- [FuzzyBench](entities/FuzzyBench.md) - Synthetic 10M-example corpus for training and evaluating fuzzy-function compilers across more than 800 task subcategories.
+- [Gavin Gray](entities/GavinGray.md) - Brown University researcher and lead author of the async/await design-space study and executable artifact.
+- [Shriram Krishnamurthi](entities/ShriramKrishnamurthi.md) - Brown University researcher studying programming-language semantics and cross-language mental models.
+- [Will Crichton](entities/WillCrichton.md) - Brown University researcher and coauthor of the lifecycle taxonomy and formal semantics for async/await.
+- [Mooncake](entities/Mooncake.md) - KV-cache transfer system forked for host-local FABRIC and proxy-mediated P2P paths plus stronger transfer-finality semantics.
+- [Vision Pro](entities/VisionPro.md) - Apple's spatial-computing headset, represented through compelling fixed-seat presence and content-production choices that can undermine it.
+- [David Allen](entities/DavidAllen.md) - Productivity author whose Getting Things Done framework treats trusted external capture and contextual review as protections for limited attention.
+- [Chaney Zorn](entities/ChaneyZorn.md) - Infrastructure practitioner describing a self-contained offline server-inspection architecture and a shift toward pragmatic Ansible reuse.
+- [Bare Metal Check](entities/BareMetalCheck.md) - Offline Ubuntu server-inspection tool combining a Python zipapp, embedded Ansible, native-tool archives, conditional delivery, and a portable report.
+- [Loongson Cup](entities/LoongsonCup.md) - Long-running student computing competition presented as a case of sustained faculty and company investment in education, operations, and recruitment.
+- [Jailbreak](entities/Jailbreak.md) - Cornell database-bypass project decoding PostgreSQL and MySQL storage into Arrow through direct readers and a proposed agentic generation loop.
+- [Victor Giannakouris](entities/VictorGiannakouris.md) - Cornell researcher and coauthor of the Jailbreak database-bypass paper.
+- [Immanuel Trummer](entities/ImmanuelTrummer.md) - Cornell researcher and coauthor studying generated database systems code.
+- [MeshTest](entities/MeshTest.md) - Service-flow-aware end-to-end testing framework for service-mesh traffic management.
 - [SoL-Refiner](entities/SoLRefiner.md) - Nvidia one-step model for improving and optionally upsampling generated video across multiple base generators.
 - [Refiner-Bench](entities/RefinerBench.md) - Shared-input benchmark of 150 generated videos from WAN, SANA-Video, and LTX-2 Stage 1.
 - [Haozhe Liu](entities/HaozheLiu.md) - Equal-contribution Nvidia lead author of the SoL-Refiner study.
@@ -1209,13 +1237,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Andrea Arpaci-Dusseau](entities/AndreaArpaciDusseau.md) - University of Wisconsin-Madison systems researcher and LiquidCache coauthor.
 - [Remzi Arpaci-Dusseau](entities/RemziArpaciDusseau.md) - University of Wisconsin-Madison systems researcher and LiquidCache coauthor.
 - [FastCI](entities/FastCI.md) - Production CI framework using runtime evidence, execution-context pruning, failure-risk scheduling, and validation-scope-aware workload reduction.
-- [Tianshuo Qiao](entities/TianshuoQiao.md) - Peking University-affiliated first-listed coauthor of the FastCI study.
-- [Naiqian Zheng](entities/NaiqianZheng.md) - Peking University-affiliated coauthor of the FastCI method and evaluation.
+- [Tianshuo Qiao](entities/TianshuoQiao.md) - Peking University researcher represented through FastCI and MeshTest testing systems.
+- [Naiqian Zheng](entities/NaiqianZheng.md) - Peking University researcher and first-listed author of the MeshTest study.
 - [Xiaopeng Liu](entities/XiaopengLiu.md) - ByteDance Seed-affiliated coauthor studying production GPU-intensive CI.
 - [Shuguang Wang](entities/ShuguangWang.md) - ByteDance Seed-affiliated coauthor of the FastCI method and deployment account.
 - [Diandian Gu](entities/DiandianGu.md) - ByteDance Seed-affiliated coauthor working on CI systems for LLM training infrastructure.
-- [Xuanzhe Liu](entities/XuanzheLiu.md) - Peking University-affiliated coauthor of FastCI's design and production evaluation.
-- [Xin Jin](entities/XinJin.md) - Peking University-affiliated coauthor of the FastCI framework and deployment study.
+- [Xuanzhe Liu](entities/XuanzheLiu.md) - Peking University researcher represented through FastCI and MeshTest.
+- [Xin Jin](entities/XinJin.md) - Peking University researcher and corresponding author of the MeshTest study.
 - [Peng Jin](entities/PengJin.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
 - [Zihan Qiu](entities/ZihanQiu.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
 - [Zekun Wang](entities/ZekunWang.md) - Equal-contribution Qwen coauthor of the ID Balancing study.
@@ -1499,7 +1527,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Paxful](entities/Paxful.md) - Peer-to-peer marketplace coordinating the documented bitcoin-for-gift-card trade through reputation history and dispute resolution.
 - [SpotLister](entities/SpotLister.md) - Paid playlist-curator review and matching marketplace that shut down after Spotify disabled its API access.
 - [SubmitHub](entities/SubmitHub.md) - Music-submission marketplace using curator behavior and artist-supplied stream outcomes to make reach more legible.
-- [NBA](entities/NBA.md) - Basketball league represented as an early adopter of recurring live virtual-reality production and a broader immersive-content portfolio.
+- [NBA](entities/NBA.md) - Basketball league represented through early recurring VR experiments and a later Vision Pro broadcast that validates stable courtside presence while exposing production and supply constraints.
 - [NextVR](entities/NextVR.md) - NBA partner for scheduled live virtual-reality games and on-demand Finals highlights.
 - [Jeff Marsilio](entities/JeffMarsilio.md) - NBA digital-media executive articulating its repeatable-production, engagement, and adoption thesis for virtual reality.
 - [Alex Karp](entities/AlexKarp.md) - Palantir cofounder and CEO who responded to 2016 customer economics and workforce pressure.
@@ -2458,7 +2486,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, theory scope, aggregation, monopoly power, publishing infrastructure, and capability stacks.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, capability stacks, medium affordances, agent continuity, and the human-agency boundary around AI.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -2675,7 +2703,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
-- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through project-wide runtime retrieval, compaction, prompt-cache behavior, simple and multi-agent workflows, and mobile/cloud supervision.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through runtime retrieval, compaction, prompt caching, file-backed continuity, multi-agent workflows, and mobile/cloud supervision.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
@@ -2710,7 +2738,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
 - [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
 - [Stian Westlake](entities/StianWestlake.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
-- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, app model, wearables, services, capital allocation, and agent-era control tradeoffs shape its profile.
+- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, app model, wearables, immersive media, services, capital allocation, and agent-era control tradeoffs shape its profile.
 - [macOS](entities/MacOS.md) - Apple's Unix desktop operating system, represented as a strong automation substrate with headless-agent permission, patching, and remote-access constraints.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
@@ -2822,7 +2850,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Developer-oriented payment infrastructure and an organization case for patient hiring, compatibility, written scaling communication, and early design involvement.
-- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's business-model, platform, organizational-boundary, and transportation-capability analyses.
+- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's business-model, platform, organizational-boundary, medium-affordance, and capability analyses.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
@@ -3074,6 +3102,21 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Metamemory](concepts/Metamemory.md) - Learned monitoring and control over what an agent encodes, retrieves, updates, and organizes in external memory.
+- [Fuzzy Functions](concepts/FuzzyFunctions.md) - Input-output behaviors specified more naturally through language, examples, and constraints than exhaustive symbolic rules.
+- [Parameter-Efficient Fine-Tuning](concepts/ParameterEfficientFineTuning.md) - Frozen-base adaptation through compact modules such as LoRA and prefix-tuning, including task-conditioned generated adapters.
+- [Straight-Line Asynchrony](concepts/StraightLineAsynchrony.md) - Direct-style asynchronous programming whose task start, lifetime, failure, and cancellation semantics vary independently across languages and runtimes.
+- [HNSW Filtering](concepts/HNSWFiltering.md) - Constrained HNSW retrieval whose best routing strategy depends on selectivity, dimensionality, graph expansion cost, and filter-vector correlation.
+- [Prefill/Decode Disaggregation](concepts/PrefillDecodeDisaggregation.md) - Separation of prompt prefill and token decode across accelerators to isolate scheduling and streaming latency at the cost of KV transfer and operational coordination.
+- [Immersive Media Production](concepts/ImmersiveMediaProduction.md) - Presence-first production framework that treats camera position as viewer location and makes stable viewpoints or viewer choice central.
+- [Getting Things Done](concepts/GettingThingsDone.md) - Trusted external capture, contextual review, next actions, and reminders used to protect attention while preserving the need to act.
+- [Human Agency in AI](concepts/HumanAgencyInAI.md) - Human ownership of goals, moral judgment, safeguards, consequences, and accountability around capable AI systems.
+- [Self-Contained Tool Distribution](concepts/SelfContainedToolDistribution.md) - Layered packaging and delivery of code, dependencies, native utilities, integrity metadata, and offline-readable output without target package installation.
+- [Server-Side Agent Architecture](concepts/ServerSideAgentArchitecture.md) - Shared multi-tenant agent execution that separates durable sessions from tools, orchestration, and workload-sensitive sandbox allocation.
+- [Accelerator Ecosystem Adoption](concepts/AcceleratorEcosystemAdoption.md) - Staged development of accelerator familiarity through accessible hardware, self-service tooling, courses, research, and trustworthy competitions.
+- [Database Bypass](concepts/DatabaseBypass.md) - Controlled direct decoding of database storage files for analytical extraction outside the server and wire-protocol path.
+- [Agentic Storage Reader Synthesis](concepts/AgenticStorageReaderSynthesis.md) - Bounded generation workflow that compiles and checks format-specific reader code against deterministic database-derived ground truth.
+- [Service Flow-Aware Testing](concepts/ServiceFlowAwareTesting.md) - End-to-end test generation and checking based on connected declarative-resource flows and executable behavior models.
 - [Video Refinement](concepts/VideoRefinement.md) - Post-generation improvement of local video detail, texture, resolution, and synthesis artifacts while preserving upstream content and motion.
 - [One-Step Diffusion Distillation](concepts/OneStepDiffusionDistillation.md) - Compression of a multi-step diffusion or flow teacher into one learned-model evaluation through staged distribution and adversarial training.
 - [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier-model progress and customer adoption, product capture, inference pricing, capital returns, and defensive capability.
@@ -3146,7 +3189,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Adload-Constrained Mixed Ranking](concepts/AdloadConstrainedMixedRanking.md) - Hierarchical optimization that prices shared ad capacity at application level and searches order-preserving request layouts under placement constraints.
 - [Multi-Channel Ad Optimization](concepts/MultiChannelAdOptimization.md) - Coordination of bids and budgets across heterogeneous advertising channels under calibration, sparsity, marginal-return, feedback-delay, and campaign-constraint tradeoffs.
 - [Automation Bias](concepts/AutomationBias.md) - Tendency to favor an automated recommendation or apparent coverage over conflicting evidence, including mistaking an unreported condition for proof of absence.
-- [Cognitive Offloading](concepts/CognitiveOffloading.md) - Transfer of memory, search, decomposition, reasoning, or judgment work to external tools, with risks determined by which parts of the epistemic loop remain human-owned.
+- [Cognitive Offloading](concepts/CognitiveOffloading.md) - Transfer of memory or reasoning work to external systems, beneficial for trusted capture but risky when framing, validation, and judgment leave the human loop.
 - [Plural Selfhood](concepts/PluralSelfhood.md) - Identity as multiple, situated, and revisable, with action capable of revealing selves that prior labels concealed.
 - [Participatory Living](concepts/ParticipatoryLiving.md) - Reciprocal movement among reflection, desire, embodied experience, judgment, commitment, responsibility, and revision.
 - [Defensive Cynicism](concepts/DefensiveCynicism.md) - Reductive explanation and anticipatory disbelief used to avoid the vulnerability of hope, action, and possible disappointment.
@@ -3306,7 +3349,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gift Card Fraud](concepts/GiftCardFraud.md) - Theft, compromise, double spending, or laundering of stored-value card balances across digital codes, resale markets, and retailer checkout.
 - [Peer-to-Peer Crypto Trading](concepts/PeerToPeerCryptoTrading.md) - Direct cryptocurrency exchange through negotiated marketplace offers and nonstandard settlement instruments such as gift-card codes.
 - [Playlist Manipulation](concepts/PlaylistManipulation.md) - Purchase or inflation of playlist access, placement, and engagement signals to create streams, credibility, revenue, or further platform distribution.
-- [Virtual Reality Sports](concepts/VirtualRealitySports.md) - Immersive sports production and distribution for remote presence, repeated broadcast learning, and prospective interaction.
+- [Virtual Reality Sports](concepts/VirtualRealitySports.md) - Immersive sports production and distribution balancing remote presence, stable spatial orientation, repeated learning, event supply, and adoption constraints.
 - [Bookings to Cash Conversion](concepts/BookingsToCashConversion.md) - Discipline of separating booked commitments from collected cash after timing, conditions, adoption, and cancellation risk.
 - [Platform Neutrality](concepts/PlatformNeutrality.md) - Avoiding competition in an adjacent layer when broad cooperation there creates more value for the core product than first-party control, while accepting lost integration benefits.
 - [Contingent Workforce](concepts/ContingentWorkforce.md) - Labor obtained through temporary appointments, staffing agencies, vendors, or contractors, separating flexible capacity from direct employment and its protections.
@@ -3450,7 +3493,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Augmented Intelligence](concepts/AugmentedIntelligence.md) - AI design aimed at extending human capability through continuing collaboration among people, data, and algorithms.
 - [Human-Centered Design](concepts/HumanCenteredDesign.md) - Iterative inquiry into people's needs and outcomes that can create cultural and economic value without by itself ensuring humane organizational conduct.
 - [Algorithmic Bias](concepts/AlgorithmicBias.md) - Systematic disparity or distortion arising across an algorithmic system's data, objectives, operation, deployment, or outcomes.
-- [Artificial General Intelligence](concepts/ArtificialGeneralIntelligence.md) - Broad AI capability framed as a gradual, disputed transition with economic concentration, access, profit-sharing, and governance consequences.
+- [Artificial General Intelligence](concepts/ArtificialGeneralIntelligence.md) - Disputed transition framed through broad capability, continuous learning, system adaptation, concentration, and governance consequences.
 - [Responsible AI Release](concepts/ResponsibleAIRelease.md) - Layered governance of public AI products, APIs, open-source artifacts, contracts, and downstream accountability.
 - [Art Block](concepts/ArtBlock.md) - Creative inhibition linked here to unrealistic expectations, flaw-focused comparison, and fear of failure.
 - [Venture-Backed Growth Pressure](concepts/VentureBackedGrowthPressure.md) - Incentive risk that external equity and expected liquidity can make expansion or exit more salient than a smaller stable product.
@@ -4176,7 +4219,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Experience](concepts/AgentExperience.md) - Design practice for making user intent, agent context, and external action reliable in AI-agent products.
 - [Agent Interface As Context](concepts/AgentInterfaceAsContext.md) - Interface-design frame where GUIs and TUIs deliver timely constraints, diagnostics, and warnings into an agent's observed context.
-- [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through notes, durable evidence, maintained views, and selective recall.
+- [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through notes, durable evidence, maintained views, and selective recall without implying continuous model learning.
 - [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
 - [Agent-Native Computing](concepts/AgentNativeComputing.md) - Shift from app-specific interfaces and integrations toward agents that coordinate software and create personal capabilities on demand.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
@@ -4282,7 +4325,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Heuristic Evaluation](concepts/HeuristicEvaluation.md) - Expert UX evaluation method for inspecting interfaces against usability principles such as feedback, consistency, error recovery, and help.
 - [Hanlon's Razor](concepts/HanlonsRazor.md) - Judgment heuristic that explains frustrating behavior through ignorance or missing context before assuming malice.
 - [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
-- [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
+- [Harness Engineering](concepts/HarnessEngineering.md) - Building state, task, runtime, permission, feedback, and validation scaffolds that let AI agents perform work reliably.
 - [HNSW Index](concepts/HNSWIndex.md) - Layered graph index for approximate vector search in pgvector.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
 - [HTTP 402 Payment Required](concepts/HTTP402PaymentRequired.md) - Reserved HTTP status code proposed as a browser-readable signal for paid access.
@@ -4335,7 +4378,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
-- [Personal Productivity](concepts/PersonalProductivity.md) - Filtering commitments and arranging priorities, attention, routines, planning, and task triage so meaningful work receives time before execution is optimized.
+- [Personal Productivity](concepts/PersonalProductivity.md) - Filtering commitments and arranging trusted capture, priorities, attention, routines, delegation, and task triage so meaningful work gets done.
 - [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
 - [Pseudowire Transport Types](concepts/PseudowireTransportTypes.md) - MPLS pseudowire Type 4/Type 5 and transport-mode choices that govern Ethernet/VLAN encapsulation behavior.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives and future optionality given up when scarce time, attention, or resources are committed to one direction.

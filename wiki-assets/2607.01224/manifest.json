@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "2607.01224",
+  "images": [
+    {
+      "file": "memory-skill-performance.png",
+      "alt": "Progression across AutoMem scaffold versions and memory-specialist training for Crafter, MiniHack, and NetHack"
+    },
+    {
+      "file": "game-environments.png",
+      "alt": "Crafter, MiniHack, and NetHack environments with action counts, task or achievement counts, and typical episode horizons"
+    },
+    {
+      "file": "automem-two-loop-architecture.png",
+      "alt": "AutoMem architecture with a file-memory inner-loop agent, a scaffold-optimization outer loop, and a memory-specialist training outer loop"
+    },
+    {
+      "file": "scaffold-behavior-metrics.png",
+      "alt": "Charts showing scaffold optimization reducing unproductive actions, redundant writes, empty searches, and per-step input context"
+    },
+    {
+      "file": "nethack-memory-schema-evolution.png",
+      "alt": "NetHack memory schema evolving from duplicate append-only files to coordinate-keyed map updates, preloaded strategy, and auto-synced status and inventory"
+    },
+    {
+      "file": "crafter-optimization-trace.png",
+      "alt": "Crafter episodes progressing from repetitive survival to organized crafting and self-sustaining behavior across AutoMem stages"
+    },
+    {
+      "file": "minihack-optimization-trace.png",
+      "alt": "MiniHack Corridor-R3 episodes progressing from start-room wandering to successful staircase navigation after memory training"
+    },
+    {
+      "file": "nethack-optimization-trace.png",
+      "alt": "NetHack episodes progressing from duplicate map logging and early death to deduplicated mapping, longer survival, and higher experience"
+    }
+  ]
+}

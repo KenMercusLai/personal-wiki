@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "2607.07696",
+  "images": [
+    {
+      "file": "agentic-reader-generation-loop.png",
+      "alt": "Four-stage agent pipeline from dataset generation through architecture and coding to QA, with failed QA returning to coding"
+    },
+    {
+      "file": "postgresql-etl-benchmark.png",
+      "alt": "PostgreSQL to Parquet benchmark comparing direct heap reads with wire-protocol reads across six analytical engines"
+    },
+    {
+      "file": "mysql-etl-benchmark.png",
+      "alt": "MySQL to Parquet benchmark comparing direct InnoDB reads with wire-protocol reads across six analytical engines"
+    },
+    {
+      "file": "database-bypass-speedups.png",
+      "alt": "Reported speedup of direct database-file access over wire protocols for PostgreSQL and MySQL across six engines"
+    }
+  ]
+}

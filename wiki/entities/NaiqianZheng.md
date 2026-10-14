@@ -1,23 +1,24 @@
 ---
 title: "Naiqian Zheng"
 type: entity
-tags: [researcher, continuous-integration, software-testing]
+tags: [researcher, continuous-integration, software-testing, service-mesh]
 sources:
   - 2610.01967
+  - "3814612"
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[NaiqianZheng]] is a Peking University-affiliated coauthor of the paper introducing [[FastCI]].
+[[NaiqianZheng]] is a Peking University-affiliated systems researcher represented through papers introducing [[FastCI]] and [[MeshTest]].
 
 ## Current Profile
-The available source associates Zheng with function-level runtime evidence, selective and context-aware regression testing, risk-based scheduling, and workload optimization for GPU-intensive LLM-framework CI.
+The available sources associate Zheng with automated software testing across two different systems boundaries: selective and context-aware regression testing for GPU-intensive LLM-framework CI, and service-flow-aware end-to-end testing for declarative service-mesh traffic management.
 
 ## Key Characteristics
 - Peking University-affiliated researcher in the source.
-- Coauthor of the FastCI method and evaluation.
-- Associated with CI efficiency and software-testing systems for LLM training frameworks.
+- First-listed author of the MeshTest study and coauthor of the FastCI study.
+- Associated with test generation, executable oracles, formal modeling, CI efficiency, and systems evaluation.
 
 ## Evidence
 Authorship and affiliation:
@@ -25,15 +26,18 @@ Authorship and affiliation:
 
 Research contribution:
 - [[2610.01967]] credits the complete author team with the reported framework and experiments.
+- [[3814612]] credits Zheng and collaborators with MeshTest's service-flow exploration, CFG-based oracle, and three-system evaluation.
 
 ## Qualifications
-The source does not separate individual responsibilities, establish a broader biography, or independently validate the coauthored results.
+The sources do not separate individual responsibilities, establish a broader biography, or independently validate the coauthored results.
 
 ## What Changed
-- Created a source-bounded profile centered on FastCI.
+- Expanded the profile from FastCI to service-mesh end-to-end testing through MeshTest.
 
 ## Relationships
 - [[FastCI]] - framework introduced by the coauthored study.
+- [[MeshTest]] - service-mesh testing framework introduced by the first-authored study.
+- [[ServiceFlowAwareTesting]] - testing approach developed in the MeshTest paper.
 - [[GPUIntensiveContinuousIntegration]] - research problem addressed by the paper.
 - [[TianshuoQiao]] - Peking University-affiliated coauthor.
 - [[XuanzheLiu]] - Peking University-affiliated coauthor.

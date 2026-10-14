@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "self-contained-dist-tools",
+  "images": [
+    {
+      "file": "bare-metal-check-report.webp",
+      "alt": "Bare-metal inspection report showing a five-node status matrix and a failed memory-capacity drill-down"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "2607.02512",
+  "images": [
+    {
+      "file": "compile-once-run-locally.png",
+      "alt": "Program-as-Weights compiles a natural-language function specification in the cloud into discrete text and a continuous LoRA, then executes inputs on a local neural interpreter"
+    },
+    {
+      "file": "text-to-lora-architecture.png",
+      "alt": "LoRA compiler hidden states are mean-pooled and mapped to coefficients over shared LoRA A and B bases before the generated adapter is attached to a frozen interpreter"
+    },
+    {
+      "file": "fuzzybench-task-families.png",
+      "alt": "FuzzyBench task-family distribution: core text processing 30 percent, search and web intelligence 18 percent, classification 15 percent, code and commands 12 percent, safety and domain knowledge 12 percent, agentic tool use 8 percent, and format repair 5 percent"
+    },
+    {
+      "file": "one-runtime-many-programs.png",
+      "alt": "Three function specifications compile into separate pseudo-program and LoRA pairs that are hot-attached to one device-resident interpreter for email triage, JSON repair, and personal-information redaction"
+    }
+  ]
+}

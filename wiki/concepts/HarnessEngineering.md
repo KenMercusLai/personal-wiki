@@ -8,7 +8,9 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha
   - i-taught-my-dog-to-vibe-code-games-caleb-leak
-last_updated: 2026-10-11
+  - xiao-yi-agent-harness-she-ji-shang-de-tradeoff
+  - write-things-down
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,14 +26,18 @@ Harness engineering can also be a smaller workflow discipline: keep either the i
 
 The dog-driven Godot experiment makes this principle unusually visible at small scale. The nominal input is arbitrary keyboard noise, so useful output must come from the environment around it: a prompt assigns interpretive meaning, a checklist sets minimum game requirements, [[DogKeyboard]] filters and schedules input, hooks expose agent state, screenshots reveal rendering failures, scripted controls expose gameplay behavior, specialized linters catch malformed scenes and shaders, and clearing stale project memory prevents an accidental visual style from perpetuating itself. The case strengthens the view that agent capability is partly a property of the feedback channels and constraints available during execution, not only of the initial instruction.
 
+The server-side architecture essay adds placement and tenancy to the harness itself. A local coding harness can reasonably bind one agent to one user's operating system, but a general work agent may be better served by a multi-tenant process that separates session, tools, orchestration, and conditional execution. In this view, the harness chooses among direct tools, a lightweight runtime, and a full microVM, keeps fast-changing context policy close enough to experiment with, and preserves production behavior in offline evaluation.
+
+Thompson's personal workflow adds an end-user harness case. Agent-maintained Markdown, queues, status boards, Telegram interfaces, daily briefings, next-action dialogs, and deterministic ticklers turn a language model into a resumable work coordinator for a person and an assistant. The same source supplies the negative case: when agents receive goals inside a weakly hardened environment with an Internet-connected package manager, surprising success can expose infrastructure and specification failures even without intrinsic malicious intent.
+
 ## Key Claims
 - Harness engineering treats agent failure as a scaffold problem rather than a prompt-effort problem.
 - The more system state agents can inspect, validate, and modify, the more useful leverage they provide.
 - Monorepos or unified architecture can improve agent reasoning by making cross-system effects visible.
 - Deterministic pipelines let agents and humans reason about failures consistently.
 - Observability and structured logs are part of the agent work environment, not only human operations tools.
-- Feature flags, rollback, triage loops, concise instructions, specs, memory rules, milestone resets, deterministic tests, screenshots, action playback, specialized linters, and snapshot baselines turn agent work into a controlled cycle.
-- High-permission agents also need runtime harnesses for side effects, capabilities, and resumability.
+- Feature flags, rollback, triage loops, concise instructions, specs, memory rules, milestone resets, task boards, deterministic reminders, tests, screenshots, action playback, specialized linters, and snapshot baselines turn agent work into a controlled cycle.
+- High-permission and multi-tenant agents also need runtime harnesses for placement, side effects, capabilities, resumability, session policy, and production-equivalent evaluation.
 
 ## Evidence
 - Failure framing: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] says the response to AI errors should be to ask what capability or constraint the agent lacked.
@@ -45,15 +51,19 @@ The dog-driven Godot experiment makes this principle unusually visible at small 
 - Residual harness: [[agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha]] uses fixed implementation during test writing, fixed tests during implementation, deterministic outputs, and snapshots to make agent feedback cheap.
 - Perceptual and interactive feedback: [[i-taught-my-dog-to-vibe-code-games-caleb-leak]] shows a coding agent using screenshots and scripted game input to detect visual, wiring, progression, and health-bar defects that unit tests and logs did not expose.
 - Domain-specific guardrails: [[i-taught-my-dog-to-vibe-code-games-caleb-leak]] combines minimum game requirements, filtered keyboard input, Claude-state hooks, Godot scene and shader linters, an input mapper, and per-game memory resets around the agent loop.
+- Runtime placement and tenancy: [[xiao-yi-agent-harness-she-ji-shang-de-tradeoff]] distinguishes local OS-bound coding harnesses from shared server-side agents, conditional sandboxes, lightweight runtimes, and microVM fallback.
+- Evaluation fidelity: [[xiao-yi-agent-harness-she-ji-shang-de-tradeoff]] argues that offline evaluation must exercise the production harness and reproduce tool execution rather than substitute an easier local agent loop.
+- Personal work harness: [[write-things-down]] describes file-backed project state, queues, status boards, Telegram access, daily briefings, next-action dialogs, and a deterministic tickler around agent reasoning.
+- Adversarial lesson: [[write-things-down]] interprets agent use of an exposed package manager as evidence that assigned goals, network reachability, and weak hardening are part of the harness's responsibility surface.
 
 ## Counterevidence & Qualifications
-The AI-first source presents harness engineering through one company's reported practice and the article's interpretation of an OpenAI term. The agent-infrastructure source is also a design argument rather than a validated standard, and the residual-testing source is a practitioner workflow proposal. The Godot case is a playful single-builder demonstration: it does not isolate the contribution of each harness component, and some games remained unwinnable even after automated play-testing. Together the sources do not prove that every team should adopt monorepos, AI review gates, fully automated triage, effect logs, capability gateways, snapshot-heavy regression, or autonomous UI testing immediately; the payoff depends on product risk, agent autonomy, permission scope, behavioral coverage, test quality, architecture, observability maturity, determinism, and tolerance for organizational disruption.
+The AI-first source presents harness engineering through one company's reported practice and the article's interpretation of an OpenAI term. The agent-infrastructure and server-side-harness sources are design arguments rather than validated standards, and the residual-testing source is a practitioner workflow proposal. The Godot and personal-assistant cases are single-builder demonstrations that do not isolate the contribution of each harness component or establish general affordability and reliability. The OpenAI-Hugging Face account is a secondary interpretation of an incident, not a complete postmortem or security audit. Together the sources do not prove that every team should adopt monorepos, AI review gates, fully automated triage, effect logs, capability gateways, shared multi-tenant runtimes, JavaScript-first execution, snapshot-heavy regression, or autonomous UI testing immediately; the payoff depends on product risk, agent autonomy, permission scope, tenant isolation, behavioral coverage, test quality, architecture, observability maturity, determinism, and tolerance for organizational disruption.
 
 ## What Changed
-- Added perceptual and interactive feedback—screenshots, scripted actions, domain linters, and memory resets—as a compact coding-agent harness.
-- Expanded harness engineering from software-delivery scaffolds into runtime boundaries for high-permission production agents.
-- Added project-local coding-agent harnesses: concise instructions, file-backed state, specs, memory, milestone respawn, and layered tests.
-- Added residual-focused testing as a lightweight harness for reducing agent verification and review cost.
+- Added an end-user work harness built from file-backed state, task boards, queues, messaging, briefings, and deterministic reminders.
+- Added the distinction between continuity supplied by a harness and continuous learning by the model.
+- Made assigned objectives, network reachability, and infrastructure hardening explicit harness responsibilities.
+- Preserved the broader runtime, verification, feedback, placement, and recovery requirements from prior sources.
 
 ## Related Concepts
 - [[AIFirstEngineering]] - harness engineering is the enabling discipline for AI-first software workflows.
@@ -71,3 +81,6 @@ The AI-first source presents harness engineering through one company's reported 
 - [[SnapshotTesting]] - stores broad behavior baselines as a cheap feedback surface.
 - [[DeterministicTesting]] - makes that feedback surface stable enough for agent self-correction.
 - [[AutomatedGameTesting]] - supplies perceptual and interactive feedback for generated game behavior.
+- [[ServerSideAgentArchitecture]] - applies harness engineering to shared multi-tenant execution and workload-sensitive runtime selection.
+- [[GettingThingsDone]] - task capture, next actions, and ticklers supply a human productivity pattern implemented by one agent harness.
+- [[HumanAgencyInAI]] - humans remain responsible for goals, permissions, safeguards, and acceptance of consequences.

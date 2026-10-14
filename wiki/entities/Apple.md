@@ -20,6 +20,7 @@ sources:
   - apples-social-network-stratechery-by-ben-thompson
   - above-avalon-apple-has-the-best-business-model-for-generating-cash
   - apple-and-a-hackers-future
+  - apple-you-still-dont-understand-the-vision-pro
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -32,12 +33,14 @@ The mobile-platform source presents Apple as the company whose [[IPhone]] and [[
 
 Agent-era evidence adds a stress test. [[MacOS]] remains attractive for Unix tooling, automation, accessibility, and hardware, but application-scoped, protected GUI permissions fit a headless agent host poorly. A reported screen-sharing compromise and confusing update configuration qualify Apple's trust positioning: protection, patch delivery, user comprehension, and expert autonomy must cohere. [[AgentNativeComputing]] also presents a strategic challenge to Apple's app-centered model because browser and computer-use agents can bypass bespoke developer integrations and create personal software.
 
+[[VisionPro]] creates a different product-and-content stress test. Apple's immersive cameras can make a fixed scorer's-table or baseline position feel convincingly courtside, but Thompson argues that Apple imports television's producer-directed camera switching, commentary, graphics, and studio packaging into a medium whose advantage is sustained presence. The result is both an experience problem—forced spatial reorientation—and a supply problem, because elaborate production raises the cost of a schedule that reached only six announced Lakers games in 2025–26. This does not negate Apple's hardware integration or media capabilities; it shows that owning the device, capture format, and content pipeline does not ensure a production grammar fitted to the new medium.
+
 ## Key Characteristics
 - Kicked off the smartphone revolution through the iPhone.
 - Won mobile alongside [[Google]] through a smaller but economically concentrated ecosystem compared with Android's user-volume and Google Play download lead.
 - Controls platform access in ways that can limit Google's reach on iOS.
 - Built brand meaning through long-running advertising patterns and used the [[AppStore]] ecosystem as both platform infrastructure and advertising material.
-- Extends the iPhone-centered ecosystem into [[AppleWatch]], [[AirPods]], possible future [[SmartGlasses]], and [[AppleProductTheory]]'s increasingly personal computing ladder.
+- Extends the iPhone-centered ecosystem into [[AppleWatch]], [[AirPods]], possible future [[SmartGlasses]], [[VisionPro]], and [[AppleProductTheory]]'s increasingly personal computing ladder, while the newest media source questions whether Apple's content production exploits Vision Pro's distinctive affordance.
 - Uses services and platform controls to turn trust, privacy, curation, anti-scam positioning, retail sessions, and customer education into retention and engagement strategy, while the newest source argues that permission and update semantics can make the same protective posture feel restrictive or misleading to expert agent operators.
 - Converts product focus, contract manufacturing, integrated hardware, ecosystem scale, and supply-chain leverage into enough excess cash to make [[AppleCashGenerationModel]], [[ShareBuyback]], content distribution, [[AppleServicesMachine]], [[ApplePricingStrategy]], uneven [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], and [[CorporateGiantFragility]] central strategic issues, while withholding some customer-level metrics that would clarify installed-base monetization.
 
@@ -53,6 +56,9 @@ Agent-era evidence adds a stress test. [[MacOS]] remains attractive for Unix too
 - App ecosystem as selling point: [[40-lessons-from-40-years-of-apple-ads-mission-org-medium]] treats the 2011 App Store ad as a reminder that iPhone ownership included access to a distinctive software marketplace.
 - Watch business scale: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] estimates that Apple Watch reached about $4.9 billion in annual revenue and about $12.3 billion cumulative revenue by 2017.
 - Wearable category extension: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] argues that Apple Watch borrowed iPhone functions while opening a distinct fitness and health direction.
+- Immersive hardware potential: [[apple-you-still-dont-understand-the-vision-pro]] says fixed scorer's-table and baseline views on Vision Pro conveyed NBA player scale, speed, power, and physicality.
+- Medium-design mismatch: [[apple-you-still-dont-understand-the-vision-pro]] documents 54 shots in roughly five minutes of an MLS video and reports that producer-controlled cuts repeatedly broke presence in a live NBA broadcast.
+- Content-supply constraint: [[apple-you-still-dont-understand-the-vision-pro]] reports only six immersive Lakers games announced for 2025–26 and argues that television-style staffing and production make broader coverage unnecessarily expensive.
 - Post-iPhone preparation: [[above-avalon-apple-is-figuring-out-whats-next]] argues that Apple was using ARKit, Siri Shortcuts, machine learning, Apple Watch, AirPods, and its developer base to prepare for smart glasses.
 - Installed-base advantage: [[above-avalon-apple-is-figuring-out-whats-next]] contrasts Apple's hundreds of millions of AR-capable devices and developers with Magic Leap's public prototype route.
 - Buyback history: [[above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years]] says Apple reduced AAPL shares outstanding from about 6.6 billion at the 4Q12 peak to about 5.3 billion in 1Q17.
@@ -98,16 +104,14 @@ Agent-era evidence adds a stress test. [[MacOS]] remains attractive for Unix too
 - App-model challenge: [[apple-and-a-hackers-future]] argues that browser use, computer control, personal software generation, and open agent-connected devices can reduce dependence on app-specific integrations.
 
 ## Qualifications
-The agent-host evidence is a single sophisticated user's first-person incident and strategic interpretation; it does not establish ordinary-user outcomes, broad Mac abandonment, Apple's final Full Disk Access design, the announced smart-home product, or the durability and safety of agent-native alternatives.
+The agent-host evidence is a single sophisticated user's first-person incident and strategic interpretation; it does not establish ordinary-user outcomes, broad Mac abandonment, Apple's final Full Disk Access design, the announced smart-home product, or the durability and safety of agent-native alternatives. The Vision Pro evidence is likewise one enthusiast's account of selected immersive videos and one geographically restricted game; it does not establish representative preferences, accessibility, comfort, rights constraints, production economics, device demand, or Apple's later production choices.
 
 The mobile source is a 2015 strategic snapshot and does not cover Apple's later services, silicon, privacy, AI, or regulatory trajectory. The App Annie/VentureBeat source is also a 2015 snapshot and does not include absolute App Store revenue, methodology, later subscriptions, payment-policy changes, regulation, or current app economics. The advertising source is a practitioner retrospective and does not isolate advertising effects from product quality, distribution, pricing, media buying, or broader cultural timing. The Watch, pricing, cash-generation, growth-story, Services-machine, smart-glasses, Stratechery, and trillion-race sources depend on analyst interpretation and estimates; the cash-generation comparison is a 2017 snapshot that does not causally decompose free cash flow or normalize companies with different accounting and capital needs, while the smart-glasses source is explicitly speculative about future product direction. These sources reflect 2017-2018 conditions before later product, pricing, Services, regulatory, AI, market-cap, wearables, and retail-program outcomes. Thompson's HomePod exclusivity argument is qualified by the source's own update that Apple later added Apple Music to Alexa. The social-network source infers strategic importance from Today at Apple and reporting changes, but it does not prove retention, spending, or community outcomes from the program. The buyback source is a 2017 scenario, so its claims depend on then-current tax, share-price, cash-flow, and management assumptions rather than later capital-return outcomes. The content-distribution and Apple-as-Disney sources are 2019 interpretations and do not measure later effects on service adoption, hardware sales, churn reduction, content-industry power, TV+ performance, Card economics, Arcade retention, or regulatory exposure.
 
 ## What Changed
-- Added Apple Watch and Above Avalon's post-iPhone argument as evidence that Apple seeds future devices through wearables, AR software, developers, and retail channels.
-- Added Apple's share-repurchase program as a finance and capital-allocation dimension of the Apple profile.
-- Added Apple's Services-machine structure, product ladder, accessible-luxury pricing strategy, cash-generation model, and corporate-giant fragility frame as connected views of how Apple creates and captures value.
-- Added Thompson's Today at Apple and reporting-metrics critique: real-world engagement may deepen installed-base value, but active-customer and revenue-per-user disclosure remains missing.
-- Added the agent-era tension between Apple's trust controls and expert autonomy, plus a source-scoped challenge to its app-centered integration model.
+- Added Vision Pro as a product whose immersive hardware capability depends on an appropriate content-production grammar.
+- Added forced spatial reorientation and limited event supply as weaknesses in Apple's current immersive-media execution.
+- Preserved the judgment as one expert user's account rather than evidence of general viewer preference or product failure.
 
 ## Relationships
 - [[IOS]] - Apple's mobile operating-system ecosystem.
@@ -147,6 +151,9 @@ The mobile source is a 2015 strategic snapshot and does not cover Apple's later 
 - [[AppleCashGenerationModel]] - Apple's product focus, manufacturing structure, hardware monetization, and scale are synthesized as a free-cash-flow system.
 - [[MacOS]] - Apple's desktop platform combines strong automation foundations with headless-agent permission and patching friction in the newest source.
 - [[AgentNativeComputing]] - agent-as-interface and personal software creation challenge Apple's app-centered platform model.
+- [[VisionPro]] - Apple's headset and immersive-media platform in the newest source.
+- [[ImmersiveMediaProduction]] - framework through which Apple's television-style camera switching is criticized.
+- [[VirtualRealitySports]] - live-event use case connecting Vision Pro presence with production and coverage constraints.
 - [[Amazon]] - another trillion-dollar contender and corporate-giant comparator.
 - [[Microsoft]] - corporate-giant comparator with a differentiated enterprise-services path.
 - [[Facebook]] - corporate-giant comparator exposed to attention shifts.

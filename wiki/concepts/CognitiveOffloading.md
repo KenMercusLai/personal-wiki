@@ -4,7 +4,8 @@ type: concept
 tags: [cognition, ai, learning, judgment]
 sources:
   - sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao
-last_updated: 2026-10-07
+  - write-things-down
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,6 +17,8 @@ The source distinguishes productive offloading from capability-eroding delegatio
 
 Risk rises when problem definition, coverage judgment, and validation move to the model as well. The user then retains less context, has fewer expectations against which to compare the answer, and may interpret a fluent report as complete. Because weaker judgment makes further delegation feel safer, offloading and [[AutomationBias]] can form a reinforcing loop. The source's remedy is not abstinence but deliberate friction: decompose unfamiliar questions before prompting, use AI for bounded assistance, inspect original evidence, and test conclusions in the world.
 
+The GTD account adds a productive memory-offloading case. Unresolved commitments occupy attention when they remain open loops, while a trusted written system can preserve them for later review and action. Thompson's use of assistants and agent-maintained status boards shows that capture, reminders, and task-state maintenance can also be delegated. This strengthens the distinction between offloading storage or routine coordination and surrendering priority, purpose, validation, or action.
+
 ## Key Claims
 - Offloading execution is different from offloading problem definition, evidence standards, and final judgment.
 - Search, coding, calculation, and organization can be delegated without surrendering the human's internal model when the user remains active in decomposition and verification.
@@ -23,6 +26,7 @@ Risk rises when problem definition, coverage judgment, and validation move to th
 - Reduced evaluative capacity can reinforce further delegation through [[AutomationBias]].
 - Some cognitive friction is productive because decomposition, reading, implementation, and error correction are mechanisms of learning.
 - The relevant design question is not whether AI was used, but which parts of the epistemic loop remained human-owned.
+- Trusted external capture can reduce distracting rehearsal of unresolved commitments while leaving prioritization and execution with the person.
 
 ## Evidence
 - Preserved judgment loop: [[sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao]] describes LLM-assisted suspension research and GPS implementation followed by repeated sensor measurements and a track shakedown.
@@ -30,14 +34,16 @@ Risk rises when problem definition, coverage judgment, and validation move to th
 - Missing-coverage example: [[sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao]] uses an agent's hypothetical omission of `legacy_payment_mapping` to show how absent mention can be mistaken for evidence of absence.
 - Learning boundary: [[sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao]] compares direct answer consumption with human decomposition, AI-assisted retrieval and calculation, primary-source reading, measurement, and cross-validation.
 - Critical-thinking shift: [[sui-bi-ai-dao-di-shi-zai-ti-ni-lao-dong-hai-shi-ti-ni-si-kao]] cites a 2025 Microsoft survey reporting that higher confidence in GenAI was associated with less self-reported critical-thinking effort while some effort shifted toward verification, integration, and supervision.
+- Open-loop capture: [[write-things-down]] uses [[DavidAllen]]'s RAM analogy to argue that unresolved commitments consume limited working attention until they enter a trusted review system.
+- Delegated state maintenance: [[write-things-down]] describes human assistants and agents maintaining inboxes, reminders, queues, next actions, and status boards while Thompson retains choice and action.
 
 ## Counterevidence & Qualifications
-The source is a reflective essay rather than a longitudinal study of skill loss. Offloading can free limited attention for higher-level work, improve accessibility, and let novices attempt tasks they otherwise could not begin. The cited survey is correlational and self-reported, while the essay's development examples are personal, hypothetical, or anecdotal. Manual effort is not inherently educational, and preserving friction without feedback can waste time or reinforce mistakes. The practical boundary therefore depends on consequence, learning goals, reversibility, user competence, evidence access, and the quality of independent verification.
+Both sources are reflective essays rather than longitudinal studies of capability, attention, or productivity. Offloading can free limited attention for higher-level work, improve accessibility, and let novices attempt tasks they otherwise could not begin. The cited survey is correlational and self-reported, while the development, assistant, and bot examples are personal, hypothetical, anecdotal, or resource-dependent. A capture system can also become stale or unwieldy when it is not trusted and reviewed. Manual effort is not inherently educational, and preserving friction without feedback can waste time or reinforce mistakes. The practical boundary therefore depends on consequence, learning goals, reversibility, user competence, system reliability, evidence access, and independent verification.
 
 ## What Changed
-- Created a distinction between labor-saving assistance and delegation of the full epistemic loop.
-- Added a reinforcing path from lost context through weaker evaluation to greater automation dependence.
-- Identified deliberate decomposition and real-world verification as ways to preserve learning while using AI.
+- Added trusted external capture as a beneficial form of memory offloading.
+- Distinguished delegated storage and task-state maintenance from human priority, validation, and action.
+- Preserved the risk that unreviewed or over-broad delegation weakens the judgment needed to supervise it.
 
 ## Related Concepts
 - [[AutomationBias]] - reduced internal context makes automated recommendations harder to challenge.
@@ -46,3 +52,5 @@ The source is a reflective essay rather than a longitudinal study of skill loss.
 - [[ActiveLearning]] - productive friction keeps the learner generating questions, retrieving evidence, and testing understanding.
 - [[SearchAssistedProgramming]] - external lookup helps only when the developer can interpret and integrate what is found.
 - [[HumanCodeResponsibility]] - accountability remains with the human even when cognition and implementation are externally assisted.
+- [[GettingThingsDone]] - applies external capture and review to unresolved commitments.
+- [[HumanAgencyInAI]] - keeps goals and consequence judgment with people even when storage or execution is delegated.

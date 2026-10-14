@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "2608.20677",
+  "images": [
+    {
+      "file": "cross-runtime-program-outcomes.png",
+      "alt": "Three small async programs produce different output orders across C#, JavaScript, Swift, Python Asyncio and Trio, and Rust Tokio and Smol"
+    },
+    {
+      "file": "cancellation-awareness-and-invariant-restoration.png",
+      "alt": "Cancellation-aware execution restores a broken invariant in a finally block while unaware cancellation leaves it broken"
+    },
+    {
+      "file": "async-calculus-language-extension-structure.png",
+      "alt": "Async calculus grammar and extension hierarchy for seven language and runtime combinations"
+    },
+    {
+      "file": "seven-runtime-branching-evaluation.png",
+      "alt": "Branching formal evaluation traces one async program across seven runtimes and labels the semantic dimension at each divergence"
+    }
+  ]
+}

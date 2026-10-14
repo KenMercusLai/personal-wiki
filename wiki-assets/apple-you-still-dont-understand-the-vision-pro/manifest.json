@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "apple-you-still-dont-understand-the-vision-pro",
+  "images": [
+    {
+      "file": "mls-video-cut-timing.png",
+      "alt": "Stopwatch log showing 54 timed shots across roughly five minutes of Apple's MLS immersive video"
+    },
+    {
+      "file": "nba-scorers-table-camera.png",
+      "alt": "Bucks-Lakers immersive broadcast view from a scorer's-table camera at midcourt"
+    },
+    {
+      "file": "nba-baseline-camera.png",
+      "alt": "Bucks-Lakers immersive broadcast view from a camera beneath the basket"
+    }
+  ]
+}

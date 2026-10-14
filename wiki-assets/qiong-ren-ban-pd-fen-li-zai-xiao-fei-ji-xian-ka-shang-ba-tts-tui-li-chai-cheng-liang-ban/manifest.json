@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "qiong-ren-ban-pd-fen-li-zai-xiao-fei-ji-xian-ka-shang-ba-tts-tui-li-chai-cheng-liang-ban",
+  "images": [
+    {
+      "file": "pd-handoff.png",
+      "alt": "Prefill on GPU A hands KV cache and the first token to decode on GPU B for streaming generation"
+    },
+    {
+      "file": "stutter-rate-comparison.png",
+      "alt": "Measured stuttering-stream share for monolithic inference and 1P1D disaggregation from 8 to 40 concurrent streams"
+    },
+    {
+      "file": "hardware-transfer-latency.png",
+      "alt": "Same-host and cross-host KV transfer paths and measured latency on RTX 5090 and B300 systems"
+    },
+    {
+      "file": "slowest-request-waterfall.png",
+      "alt": "Waterfall of the slowest one percent of B300 requests showing admission and decode as larger costs than KV transfer"
+    },
+    {
+      "file": "one-p-one-d-deployment.png",
+      "alt": "Fixed 1P1D pod architecture with router, KEDA scaling, local load balancer, GPU workers, and transfer sidecars"
+    },
+    {
+      "file": "late-write-kv-corruption.png",
+      "alt": "Timeline showing a delayed prefill write corrupting KV pages reassigned by decode from request A to request B"
+    },
+    {
+      "file": "ttfa-concurrency-comparison.png",
+      "alt": "Measured p95 time to first audio versus concurrency for monolithic and 1P1D inference"
+    }
+  ]
+}

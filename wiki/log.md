@@ -2,6 +2,18 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-13] ingest | Apple: You (Still) Don’t Understand the Vision Pro
+
+Created [[VisionPro]] and [[ImmersiveMediaProduction]], and updated [[Apple]], [[NBA]], [[BenThompson]], [[Stratechery]], and [[VirtualRealitySports]] from their complete ordered evidence inventories. Recorded the distinction between television's multi-camera grammar and immersive video's sustained spatial presence, the 54-shot MLS timing log, compelling scorer's-table and baseline NBA views, forced-reorientation costs, the six-game Lakers schedule, and the fixed-viewpoint or viewer-choice alternative. Preserved the single-enthusiast scope, missing viewer and cost studies, remaining capture and rights work, and the possibility that some sports and viewers benefit from direction, replays, or context. Opened and retained all three evidence-bearing remote images at their semantic positions.
+
+## [2026-10-13] ingest | 智算卡生态进校园之我见
+
+Created [[AcceleratorEcosystemAdoption]] and [[LoongsonCup]], and updated [[Nvidia]] from its complete ordered evidence inventory. Recorded university equipment and service-budget constraints, deadline-sensitive reliability, local-control preferences, teacher-led governance, four depths of course adoption, newer model-training courses as a beachhead, voluntary pilots, competition operations, and the need for accessible hardware, open documentation, and self-service tooling. Preserved the single-practitioner scope, unvalidated course taxonomy, participant-retrospective competition evidence, and missing campus fleet, cost, uptime, learning, procurement, and recruiting measurements. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-13] ingest | Finding Service Mesh Bugs with Service Flow-Aware End-to-End Testing
+
+Created [[MeshTest]] and [[ServiceFlowAwareTesting]], and updated [[NaiqianZheng]], [[TianshuoQiao]], [[XuanzheLiu]], and [[XinJin]] from their complete ordered evidence inventories. Recorded service-flow skeletons and bodies, SFE-full and SFE-lite, connector-key propagation, CFG interpretation, symbolic request generation, 25 reported bugs across Istio, Linkerd, and Cilium, and campaign efficiency. Preserved the bounded-model and first-party scope, system-specific manual oracle, higher-order interaction gap, excluded behavior classes, and Table 3 arithmetic inconsistency. Opened all 20 effective local images, retained five evidence-bearing workflow, lifecycle, bug, and request-distribution figures at their semantic positions, and omitted prose-redundant algorithms, table snapshots, code, and appendix scans.
+
 ## [2026-10-13] ingest | FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks
 
 Created [[FastCI]], [[GPUIntensiveContinuousIntegration]], [[TianshuoQiao]], [[NaiqianZheng]], [[XiaopengLiu]], [[ShuguangWang]], [[DiandianGu]], [[XuanzheLiu]], and [[XinJin]]. Recorded function-level runtime-evidence selection, conservative expansion for missing traces, context-and-metadata-aware pruning, combined failure-risk scheduling, reversible workload reduction, shadow-CI efficiency results, and staged ByteDance deployment. Preserved the proprietary first-party scope, short evaluation windows, reduced affected-test recall after pruning, Python-line coverage boundary, missing native and module-level evidence, new-code blind spots, and the difference between pass/fail agreement and behavioral equivalence. Opened and retained all eleven evidence-bearing remote diagrams and charts at their semantic positions.
@@ -9229,6 +9241,10 @@ Created [[HowieXu]] and [[AIEraCareerImpact]], and updated [[MaiYang]], [[Active
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-13] ingest | Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass
+
+Created [[Jailbreak]], [[VictorGiannakouris]], [[ImmanuelTrummer]], [[DatabaseBypass]], and [[AgenticStorageReaderSynthesis]]. Captured direct PostgreSQL and MySQL storage decoding into Apache Arrow, the four-role generate-compile-check-repair pipeline, deterministic ground-truth verification, and the reported TPC-H database-to-Parquet speedups across six engines. Preserved the snapshot-only operating scope, lightweight visibility semantics, float64 precision reduction, connector-dependent gains, single-environment benchmark, and missing convergence, latency, version-breadth, and ablation evidence. Opened and retained all four evidence-bearing figures at their semantic positions with descriptive filenames and a canonical manifest.
+
 ## [2026-10-13] ingest | 0% 是机会，20% 是陷阱：Jeff Dean 离职前那场 YC 访谈里，我抄走了三条判断
 
 Created [[DianaHu]] and [[DiscoveryLoop]], and updated [[JeffDean]], [[StartupOpportunitySelection]], [[TasteAsProblemSense]], [[SpecDrivenAgentDevelopment]], and [[LLMToolingSkills]] from their complete ordered evidence inventories. Captured the two-stage usefulness-then-capability-gap screen, the moving-frontier qualification, forecast-ledger and assumption-inversion practices for taste, the rising value of explicit specifications for long agent trajectories, expert workflow encoding as a Skill, and automated parallel experimental loops. Preserved the source's secondary-interview status, unverified biographical and technical figures, small-benchmark risk, lack of validated model-frontier thresholds, and absence of delivered Discovery Loop evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -9240,10 +9256,6 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-13] ingest | 如何从自己写过的文章里提炼写作风格：我翻了 12 篇旧文，最后只有 2 篇能当骨架
 
 Created [[WritingStyleDistillation]] and updated [[MaiYang]], [[AIAssistedWriting]], and [[LLMToolingSkills]] from their complete ordered evidence inventories. Captured verbatim source fidelity, dimension-specific exemplar selection, structure-before-blacklist Skill design, validation of borrowed rules against favored original lines, real-task edit diffs as the improvement loop, and non-invention rules for facts, owners, commitments, risk levels, and quotations. Preserved the source's first-pass, single-author status, missing verbatim text for four of twelve posts, subjective exemplar selection, unavailable Skill files, absent blind comparisons, and not-yet-run feedback loop. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
-
-## [2026-10-13] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
 
 ## [2026-10-13] lint | Wiki health check
 
@@ -9322,5 +9334,85 @@ Ran lint. See lint-report.md for details.
 Created [[SoLRefiner]], [[RefinerBench]], [[VideoRefinement]], [[OneStepDiffusionDistillation]], and profiles for all twelve authors; updated [[Nvidia]] and [[DiffusionModelSampling]] from their complete ordered evidence inventories. Captured truncated-sigma paired flow training, temporally stratified frame rewards, staged DMD-GAN compression, TAE and Sol-Engine acceleration, the shared-input benchmark, cross-generator results, and the distinction between refinement and full semantic or motion correction. Preserved the one-step quality gap to the 23-step model, metric and output-resolution limits, first-party benchmark and hardware dependence, frame-reward temporal blind spot, and separate baselines behind the 8.91x and 27.03x figures. Opened all 11 substantive remote figures, retained seven nonredundant evidence-bearing figures, and omitted decorative badges and redundant overview, deployment, and appendix views.
 
 ## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | 小议 agent Harness 设计上的 tradeoff
+
+Created [[ServerSideAgentArchitecture]] and updated [[HarnessEngineering]], [[AgentLifecycleModel]], and [[AgenticSandboxInfrastructure]] from their complete ordered evidence inventories. Captured the workload split between local coding agents and cloud-backed work agents, the failure modes of all-in-one per-user containers, multi-tenant session ownership, conditional JavaScript runtime and microVM allocation, model-specific context policy, and production-fidelity evaluation. Preserved the lack of comparative measurements, the continuing use cases for per-user sandboxes, the compatibility and isolation risks of lightweight runtimes, and the deliberate tension between modular execution boundaries and fast-changing session policy. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | 检查工具的自包含分发
+
+Created [[ChaneyZorn]], [[BareMetalCheck]], and [[SelfContainedToolDistribution]], and updated [[Ansible]] from its complete ordered evidence inventory. Captured Python zipapp and shiv packaging, alternate embedded Ansible entry points, platform-specific native wheels, `$ORIGIN`-relative native archives, manifest selection, checksum verification, digest-aware idempotent installation, active-test qualification gates, and base64-backed single-file HTML reporting. Preserved the Ubuntu, architecture, Python, glibc, SSH, driver, firmware, and hardware prerequisites; the distinction between one `.pyz` and the complete multi-archive delivery; and the absence of code, performance, security, provenance, and compatibility evidence. Opened and retained the evidence-bearing remote report screenshot at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | Write Things Down
+
+Created [[DavidAllen]], [[GettingThingsDone]], and [[HumanAgencyInAI]], and updated [[BenThompson]], [[ClaudeCode]], [[ArtificialGeneralIntelligence]], [[AgentMemory]], [[CognitiveOffloading]], [[HarnessEngineering]], and [[PersonalProductivity]] from their complete ordered evidence inventories. Captured trusted external task capture, Markdown-backed agent continuity, deterministic personal-work harnesses, the distinction between restored context and continuous model learning, and human responsibility for goals, safeguards, moral direction, and consequences. Preserved the privileged and anecdotal scope of the assistant and bot examples, the personal rather than field-wide AGI definition, the philosophical status of claims about volition and morality, and the security risk of weak infrastructure even without intrinsic agent intent. The source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | 穷人版 PD 分离：在消费级显卡上把 TTS 推理拆成两半
+
+Created [[PrefillDecodeDisaggregation]] and [[Mooncake]]. Captured streaming-rate isolation, same-host transfer constraints, B300 FABRIC direct writes, RTX 5090 proxy-mediated P2P, fragmentation-aware staging, stage-level traffic replay, overlap scheduling, 1P1D operational simplicity, and proof-based KV-page reclamation after failures. Preserved the first-party single-workload scope, hardware and driver dependence, idle-prefill cost, 1P2D density advantage, measurement-scope differences, and ASR-CER rather than byte-identical correctness boundary. Opened all seven evidence-bearing SVGs, retained publication-compatible PNG renderings at their semantic positions, and recorded them in a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | revisit: HNSW 上的过滤算法
+
+Created [[HNSWFiltering]] and updated [[HNSWIndex]] from its complete ordered evidence inventory. Captured post-filter result shrinkage, pre-filter selectivity cost, result-gate full-graph routing, ACORN Neighbor Expansion, lazy and multi-hop variants, exploration-budget tradeoffs, recall-QPS comparisons, memory-bound expansion cost, filter-vector correlation, and quota fusion. Preserved the author-run and hardware-sensitive scope, modeled latency attribution, dataset and filter-construction limits, empirical quota threshold, and the tail-latency rationale for bounded exploration. Opened and retained all ten evidence-bearing remote diagrams and plots at their semantic positions with a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | A Design Space Exploration of Async/Await
+
+Created [[StraightLineAsynchrony]], [[GavinGray]], [[ShriramKrishnamurthi]], and [[WillCrichton]], and updated [[StructuredConcurrency]] from its complete ordered evidence inventory. Captured nine independent dimensions spanning task start, task end, and cancellation; the distinction between cooperative concurrency and physical parallelism; and the continuation-based executable semantics checked against seven runtime combinations. Preserved the study's semantic rather than empirical scope, strict-hierarchy limit, runtime/version boundaries, and finite differential-fuzzing observations. Opened all 17 figures and retained four evidence-bearing comparisons and formal diagrams at their semantic positions with descriptive names and a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-13] ingest | Program-as-Weights: A Programming Paradigm for Fuzzy Functions
+
+Created [[ProgramAsWeights]], [[FuzzyBench]], [[FuzzyFunctions]], and [[ParameterEfficientFineTuning]]. Captured the compile-once/run-locally abstraction, hybrid pseudo-program and generated-PEFT artifact, shared-basis LoRA mapper, FuzzyBench construction, headline accuracy and memory comparisons, specification-noise results, multimodal compiler swap, quantized MacBook deployment, and deterministic composition in five application studies. Preserved the synthetic-data, exact-match, single-step, compiler-interpreter coupling, continuous-program opacity, task-dependent PEFT, and first-party case-study limits. Opened all ten referenced figures and retained four non-duplicative architecture, distribution, and deployment figures at their semantic positions with descriptive names and a canonical manifest.
+
+## [2026-10-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-14] ingest | AutoMem: Automated Learning of Memory as a Cognitive Skill
+
+Created [[AutoMem]] and [[Metamemory]], and updated [[AgentMemory]] from its complete ordered evidence inventory. Captured explicit file operations as trainable memory actions, LOG/PLAN separation, complete-trajectory scaffold revision, fixed-seed acceptance gates, self-trace curation, LoRA training of a dedicated memory specialist, and the frozen gameplay-model handoff. Preserved the three-game, one-model-family, small-evaluation, per-environment tuning, fresh episodic-memory, unmatched serving-cost, and no-high-stakes-validation limits. Opened all eight evidence-bearing figures, retained them at their semantic positions with descriptive filenames, and recorded them in a canonical manifest.
+
+## [2026-10-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "3814612",
+  "images": [
+    {
+      "file": "service-mesh-request-stages.png",
+      "alt": "Service mesh request processing through traffic entrance, service routing, and workload dispatching, with passthrough and drop paths"
+    },
+    {
+      "file": "meshtest-workflow.png",
+      "alt": "MeshTest workflow from resource and connection definitions through service-flow exploration, configuration filling, CFG modeling, symbolic execution, and testbed checking"
+    },
+    {
+      "file": "test-case-evolution.png",
+      "alt": "MeshTest example evolving a service-flow skeleton into an Istio configuration, a fine-grained control-flow graph, and a request suite"
+    },
+    {
+      "file": "wildcard-host-routing-bypass.png",
+      "alt": "Istio bug in which a wildcard-host service entry makes a matching request bypass the virtual-service routing stage"
+    },
+    {
+      "file": "request-suite-size-cdf.png",
+      "alt": "CDFs of request-suite sizes for template fuzzing, SFE-full, and SFE-lite generated configurations"
+    }
+  ]
+}

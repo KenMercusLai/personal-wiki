@@ -12,7 +12,9 @@ sources:
   - wei-ai-agent-gou-jian-ji-yi-xi-tong
   - effective-context-engineering-for-ai-agents-anthropic
   - zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory
-last_updated: 2026-10-13
+  - write-things-down
+  - "2607.01224"
+last_updated: 2026-10-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -40,13 +42,17 @@ Anthropic's long-horizon guidance adds a deliberately small operational form: st
 
 The [[DeepChat]] implementation makes the evidence-versus-view split operational: “Tape is the ledger; memory is the brain.” Session Tape records structured messages, tool calls and results, runtime events, and anchors, while memory keeps only minimal durable conclusions that retain pointers to their originating passages. Candidate writes are compared with the ten nearest existing memories and classified as new, updated, replaced, duplicated, or conflicting; unused items decay into soft archival rather than deletion; recall is relevance-ranked under a token budget; and health views expose unvisited, conflicted, or unvectorized records. Per-agent separation and content-free audit events add privacy boundaries, although self-update, insight formation, and some user-facing control remain incomplete.
 
+Thompson adds a conceptual boundary around the simplest file-backed form. Markdown notes that preserve goals, progress, feedback, and pending work can let a fresh model invocation resume a project and can coordinate separate instances through shared artifacts. This is operational memory and a way to simulate continuity around a frozen model, not evidence that model weights learn continuously or that the resulting system has a persistent self, volition, or moral agency.
+
+The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file operations as actions beside gameplay actions, allowing complete-trajectory review to improve both the scaffold—prompts, schemas, validation, and action vocabulary—and the model policy that chooses when to write, search, read, or update. Reported game results suggest that memory structure and [[Metamemory|memory-use skill]] can be optimized separately: coordinate-keyed upserts, auto-synchronized state, bounded logs, strategy references, and action checks reduce memory waste, while a LoRA-trained specialist learns to consult existing files before writing. This does not remove the lifecycle and governance requirements above; the experiments reset memory each episode and do not test persistent conflicts, privacy, deletion, or cross-domain transfer.
+
 ## Key Claims
-- Memory addresses context limits through progressive disclosure: durable evidence stays outside the prompt while compact views and pointers support selective retrieval and expansion.
+- Memory addresses context limits through progressive disclosure, while learned operation policies can improve what agents encode, retrieve, update, and ignore.
 - Write access distinguishes agent memory from read-only RAG, but a writeable vector index is still only a persistence and retrieval layer.
 - Durable memory requires selective admission, distillation, compaction, bitemporal state, evolution, conflict resolution, soft forgetting, provenance, confidence, retention, privacy, deletion, bounded recall, user correction, observability, and authorization in addition to similarity search.
 - Append-only evidence and derived current-state views can coexist, preserving auditability while keeping recall compact.
 - Memory should retain behavioral feedback that lacks a more authoritative home, not duplicate code, git history, or temporary task state.
-- Broad continuity layers can drift; minimal anchors, bounded topic summaries, and structured working notes reduce inherited-state and active-token costs.
+- Broad continuity layers can drift; minimal anchors, bounded topic summaries, and structured working notes reduce inherited-state and active-token costs while simulating continuity around otherwise stateless or frozen model calls.
 - Storage technologies are composable implementation choices rather than substitutes for explicit memory and lifecycle semantics.
 
 ## Evidence
@@ -73,6 +79,12 @@ The [[DeepChat]] implementation makes the evidence-versus-view split operational
 - Admission and conflict: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] limits writes to stable preferences, project facts, task outcomes, and lessons, then compares each candidate with ten similar memories before adding, updating, replacing, deduplicating, or recording conflict.
 - Forgetting and recall: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] uses half-life-like decay, soft archival, relevance-ranked recall, and a strict token budget while preserving Tape for later re-expansion.
 - Visibility and isolation: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] reports health snapshots, cited-memory inspection and soft deletion, per-agent memory separation, and body-free audit events.
+- Practical continuity: [[write-things-down]] describes Markdown notes and status boards preserving active work, waiting states, feedback, and future tasks across agent sessions.
+- Learning boundary: [[write-things-down]] distinguishes file-restored context from continuous learning in the model's weights and rejects persistence alone as proof of AGI or personhood.
+- Trainable memory actions: [[2607.01224]] places file reads, searches, writes, appends, creates, and updates in the agent action space so memory decisions are traceable and optimizable.
+- Scaffold optimization: [[2607.01224]] reports that coordinate-keyed maps, auto-synced inventory and status, bounded logs, strategy references, and action validation reduce redundant memory and unproductive behavior.
+- Proficiency optimization: [[2607.01224]] selects the base agent's own good memory traces for LoRA training of a dedicated specialist while leaving the task-action model frozen.
+- Long-horizon results: [[2607.01224]] reports roughly 2–4× progression gains over the initial file-memory agent across Crafter, MiniHack, and NetHack, with fewer writes per search after specialist training.
 
 ## Counterevidence & Qualifications
 The infrastructure-stack source names privacy, deletion, and policy requirements but does not specify enforcement, tenant scoping, user correction, retrieval evaluation, or confidence calibration. The memory architectures supply no comparative benchmark for compaction triggers, conflict policies, recall strategies, temporal weights, decay curves, or storage combinations. PsiACE's critique is strongest for detached continuity layers; calling Tape history itself “memory” preserves evidence but does not remove the need for indexing, summarization, temporal interpretation, correction, retention, and authorization. Nowledge Mem is a first-party product account: its numerical gates, boosts, task budgets, and `confidence = max(new, old)` rule are implementation policies rather than validated general laws, and non-decreasing confidence can misrepresent evidence later shown unreliable.
@@ -81,11 +93,16 @@ Anthropic's note-taking examples show coherence across resets but provide no con
 
 DeepChat's account is first-party and provides no memory-quality benchmark, false-write or false-recall rate, longitudinal decay evaluation, conflict-adjudication study, privacy audit, or measured token tradeoff. Comparing against ten nearby memories, using a cheaper model for adjudication, and applying half-life-like decay are implementation policies rather than established optimal values. Self-updating memory, higher-order insight, Skill generation, and parts of human conflict resolution remain roadmap items.
 
+Thompson's agent examples are personal and architectural analogies rather than controlled evidence about task success, memory fidelity, identity, or continuous learning. External files can preserve stale, incorrect, sensitive, or adversarial state and require the same admission, provenance, correction, authorization, and expiry controls identified by the other sources.
+
+AutoMem supplies controlled within-harness task measurements but remains narrow evidence: three games, one base-model family, small fixed-seed evaluations, separate per-environment scaffolds and specialists, and fresh memory each episode. Its results do not establish a universal memory policy, cross-domain transfer, persistent-memory safety, matched serving economics, or human-like introspection. Because the full system changes both scaffold code and a memory-model adapter, “memory alone” means the gameplay model is frozen rather than the complete agent remaining unchanged.
+
 ## What Changed
-- Added a concrete Tape-to-Memory implementation that separates raw evidence from minimal durable conclusions.
-- Made candidate admission, near-memory comparison, explicit conflict retention, soft archival, and token-bounded recall part of the current lifecycle judgment.
-- Added memory health views, cited-memory deletion, per-agent isolation, and content-free audit events as user-control and privacy surfaces.
-- Kept self-update, insight formation, and Skill synthesis as unvalidated roadmap capabilities rather than current system properties.
+- Added simple file-backed state as operational continuity across agent sessions.
+- Distinguished restored context from continuous model-weight learning, persistent identity, volition, and moral agency.
+- Preserved lifecycle requirements because shared notes can also retain stale, unsafe, or unauthorized state.
+- Added memory-operation proficiency as a separately trainable layer above storage and retrieval architecture.
+- Added trajectory-level scaffold revision and consult-before-write training evidence from three long-horizon games.
 
 ## Related Concepts
 - [[RetrievalAugmentedGeneration]] - agent memory is framed as RAG plus write capability.
@@ -104,3 +121,7 @@ DeepChat's account is first-party and provides no memory-quality benchmark, fals
 - [[MemoryForgetting]] - adjusts salience and archival without equating inactivity with falsity.
 - [[NowledgeMem]] - supplies an integrated first-party implementation of the lifecycle described here.
 - [[DeepChat]] - supplies a second first-party implementation centered on Tape provenance, write adjudication, soft archival, and bounded recall.
+- [[ArtificialGeneralIntelligence]] - external continuity does not by itself settle whether a system learns continuously.
+- [[HumanAgencyInAI]] - stored state and coordination do not establish volition or moral agency.
+- [[Metamemory]] - frames memory use as learned monitoring and control over encoding, retrieval, and organization.
+- [[AutoMem]] - supplies a two-loop implementation for optimizing memory structure and operation proficiency.

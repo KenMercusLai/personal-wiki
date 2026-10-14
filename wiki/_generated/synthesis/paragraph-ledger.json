@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "96d0b4aeba1857fca667fe29c4728fe963d5ad80cf7804f36f07ff6074cea280",
       "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
       "34e03a4b4e635fc381b9ccdd8d8e72e102cf13babff865bedb4e39dee5f5773c",
       "6eac8273404dc6210a4a7a0939025013d5ebe3ded83e85f62bbbcce209e46d1c",
@@ -827,11 +828,29 @@
       "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df",
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88"
     ],
-    "paragraph_count": 825
+    "paragraph_count": 826
   },
-  "overview_commit": "10cad487facecd630bfb2b7d301822445927b464",
-  "overview_digest": "619adcef257e4f96a8dc0f8959347dffc62dc07796904519fb23062877b4ab8a",
+  "overview_commit": "c0a5520dee769bd782dc883883049f426f80d9a6",
+  "overview_digest": "e4af677e7dca68abcfacd64ad9e47effc1661b5178b9863221d06ddf99ec41ff",
   "paragraphs": [
+    {
+      "id": "96d0b4aeba1857fca667fe29c4728fe963d5ad80cf7804f36f07ff6074cea280",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest AutoMem paper adds [[Metamemory]] as an optimization target inside [[AgentMemory]] rather than only a cognitive analogy. [[AutoMem]] exposes file reads, searches, writes, appends, creates, and updates beside world actions; a first outer loop reviews complete trajectories and revises prompts, validation, action vocabulary, and file schemas, while a second selects the base agent's own good memory operations and LoRA-trains a dedicated specialist that shares history with a frozen gameplay model. In Crafter, MiniHack, and NetHack, scaffold revision raises reported progression from 25.00% to 47.27%, 7.50% to 27.50%, and 0.42% to 1.57%; specialist training raises it again to 51.36%, 30.00%, and 1.85%. The behavioral evidence matters as much as the scores: unproductive actions, redundant writes, empty searches, and context tokens fall, while the specialist searches before writing more often. This extends the wiki's storage-and-lifecycle synthesis by separating memory affordances from proficiency at using them, but does not remove provenance, conflict, privacy, deletion, authorization, or correction requirements. The evidence remains one first-party study over three games, one base-model family, ten fixed seeds with only five NetHack episodes, separate per-environment systems, fresh memory each episode, unmatched serving economics, and no real-world transfer or high-stakes safety evaluation. All eight evidence-bearing figures were opened and retained at their semantic positions; the quantitative behavior chart was converted from unsupported SVG to publication-compatible PNG.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentMemory",
+        "AutoMem",
+        "Metamemory"
+      ]
+    },
     {
       "id": "8d9a329fb0adb80b4d3fc03a726ecc24e83c13ce85aac65f85dd1a7f4a75f5d8",
       "primary_topic": "ai-and-technology",

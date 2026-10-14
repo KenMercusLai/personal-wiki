@@ -15,7 +15,8 @@ sources:
   - context-engineering-from-the-inside-out
   - claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian
   - effective-context-engineering-for-ai-agents-anthropic
-last_updated: 2026-10-08
+  - write-things-down
+last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -47,6 +48,8 @@ Li Hui's synthesis of Anthropic team anecdotes adds a task-routing profile. It p
 
 Anthropic's context-engineering article adds a first-party explanation for Claude Code's runtime retrieval and continuity. Lightweight file paths and project metadata guide targeted search; shell commands and stored queries load only the necessary slices of large data; `CLAUDE.md` supplies stable preload; and compaction can restart from a high-recall summary plus recently accessed files. These are illustrative product descriptions, not a complete or independently benchmarked specification.
 
+Thompson supplies a historical and conceptual interpretation rather than a product specification. He treats Claude Code's early file-heavy workflow as a harness in which copious Markdown notes let later model calls recover goals and progress after interruption. In this account, Claude Code helped demonstrate practical continuity around a frozen model, but that continuity is not continuous learning in the model's weights and does not establish a persistent self.
+
 ## Key Characteristics
 - Operates as a command-line coding agent with project-wide context rather than an editor-only assistant.
 - Supports planning, custom commands, always-on project context, on-demand skills, action-triggered hooks, targeted runtime retrieval, subagents, todo management, and notification-triggered clarification as workflow and context-placement primitives.
@@ -54,7 +57,7 @@ Anthropic's context-engineering article adds a first-party explanation for Claud
 - Uses provider-aware [[PromptCaching]] tactics and smaller helper-model calls to manage cost, context, and high-volume tool results.
 - Relies on highly structured prompt and tool design, including context files, Markdown/XML sections, examples, emphatic reminders, deterministic higher-level tools, and live Unix-style code search.
 - Works best when paired with small steps, version control, tests, compilation, linting, isolated environments, and human review.
-- Supports role-specialized teams, experienced-programmer leverage, task-contingent synchronous or asynchronous collaboration, mobile/cloud supervision, queue-driven parallel worker pools, and knowledge-vault maintenance when paired with file-backed state, clear intent, reversible checkpoints, isolation, and verification infrastructure.
+- Supports role-specialized teams, experienced-programmer leverage, task-contingent synchronous or asynchronous collaboration, mobile/cloud supervision, queue-driven parallel worker pools, and knowledge-vault maintenance when paired with file-backed state, clear intent, reversible checkpoints, isolation, and verification infrastructure; this operational continuity does not imply that the underlying model learns continuously.
 
 ## Evidence
 - Project-wide operation: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] contrasts Claude Code's command-line project view with editor AI interactions centered on a file or selected lines.
@@ -76,14 +79,16 @@ Anthropic's context-engineering article adds a first-party explanation for Claud
 - Specialized and visual iteration: [[claude-bian-cheng-gong-zuo-liu-chang-jing-hua-shi-jian]] proposes separate agents for decomposed objectives and a screenshot → implementation → preview loop for UI work.
 - Just-in-time exploration: [[effective-context-engineering-for-ai-agents-anthropic]] describes Claude Code using file paths, metadata, targeted queries, and shell primitives to inspect large data without preloading it all.
 - Compaction example: [[effective-context-engineering-for-ai-agents-anthropic]] says Claude Code carries a high-recall summary and recently accessed files into a fresh context while dropping redundant history and raw tool output.
+- Historical harness interpretation: [[write-things-down]] presents Claude Code's Markdown notes as a crude cross-session memory that could restore task state and support later work.
+- Learning boundary: [[write-things-down]] distinguishes that restored state from updates to model weights and therefore from Thompson's personal AGI threshold.
 
 ## Qualifications
-The profile partly reflects practitioner experience, source-code reading, logged request interpretation, two mobile setups, one prescriptive knowledge-vault design, and Anthropic's own product examples rather than controlled benchmarks. The prompt-cache behavior is inferred from private API fields, and the earlier context-engineering source sometimes generalizes from Qwen3 templates and neighboring agent implementations to Claude Code-like design. The first-party context article does not provide retrieval, compaction-fidelity, or cost/latency evaluation. The MinusX source argues for one main loop and limited branching, while the mihomo-rust, mobile, queue-manager, and task-routing cases show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, checkpoints, and verification keep the workflow bounded. Hu's reported increase from roughly 20% to 95% dispatch success is unexplained and does not establish code quality; his use of permissive mode and routine non-review is materially riskier than sources that require human inspection or stronger isolation. Li Hui's success ranges and time-saving figures are secondary, method-free anecdotes, include an internal 60–80% versus 30–50% inconsistency for high-risk or high-complexity work, and do not include quality or maintenance outcomes. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
+The profile partly reflects practitioner experience, source-code reading, logged request interpretation, two mobile setups, one prescriptive knowledge-vault design, Anthropic's own product examples, and Thompson's retrospective interpretation rather than controlled benchmarks. The prompt-cache behavior is inferred from private API fields, and the earlier context-engineering source sometimes generalizes from Qwen3 templates and neighboring agent implementations to Claude Code-like design. The first-party context article does not provide retrieval, compaction-fidelity, or cost/latency evaluation; Thompson likewise does not establish historical implementation details, memory fidelity, persistent identity, or continuous learning. The MinusX source argues for one main loop and limited branching, while the mihomo-rust, mobile, queue-manager, and task-routing cases show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, checkpoints, and verification keep the workflow bounded. Hu's reported increase from roughly 20% to 95% dispatch success is unexplained and does not establish code quality; his use of permissive mode and routine non-review is materially riskier than sources that require human inspection or stronger isolation. Li Hui's success ranges and time-saving figures are secondary, method-free anecdotes, include an internal 60–80% versus 30–50% inconsistency for high-risk or high-complexity work, and do not include quality or maintenance outcomes. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
 
 ## What Changed
-- Added first-party evidence for file- and metadata-guided just-in-time exploration over large data.
-- Added high-recall compaction plus recently accessed files as Claude Code's described fresh-window continuity pattern.
-- Qualified the description because the article supplies no independent retrieval or compaction evaluation.
+- Added a retrospective account of Markdown notes as Claude Code's early cross-session continuity mechanism.
+- Distinguished file-restored task state from continuous model-weight learning and persistent identity.
+- Preserved the account as a conceptual interpretation rather than a benchmark or complete product history.
 
 ## Relationships
 - [[Claude]] - Claude Code is built around the Claude model family in the sources' accounts.
@@ -105,3 +110,5 @@ The profile partly reflects practitioner experience, source-code reading, logged
 - [[PersonalSoftware]] - Claude Code is the implementation engine for Hu's single-user CEO support system.
 - [[TaskContingentAICollaboration]] - task properties determine whether Claude Code acts as a close collaborator, autonomous executor, or exploration guide.
 - [[LiHui]] - practitioner-author who synthesized Anthropic team anecdotes into a scenario-based workflow.
+- [[AgentMemory]] - file-backed state can restore project context after a fresh model invocation.
+- [[ArtificialGeneralIntelligence]] - Thompson argues that harness continuity does not satisfy his continuous-learning definition.

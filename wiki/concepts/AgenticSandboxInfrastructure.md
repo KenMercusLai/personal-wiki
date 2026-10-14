@@ -4,6 +4,7 @@ type: concept
 tags: [ai-agents, sandboxing, reinforcement-learning, distributed-systems]
 sources:
   - 2609.22978
+  - xiao-yi-agent-harness-she-ji-shang-de-tradeoff
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -18,14 +19,16 @@ Agent sandboxes differ from conventional stateless functions because a rollout m
 
 Security is not reducible to a VM boundary. An isolated agent can still obtain forbidden answers, abuse legitimate package or network paths, corrupt its own environment, trigger kernel bugs, or exhaust output storage. Infrastructure must therefore combine process and VM boundaries with file, socket, network, quota, lifecycle, observability, and task-design controls, while higher layers govern the semantic legitimacy and reversibility of authorized actions.
 
+Demand-side routing adds another constraint: not every agent request needs a sandbox, and not every sandbox needs a complete Linux system. A shared agent service can route ordinary tool calls directly, use a lighter JavaScript runtime for many file and scripting operations, and allocate a full microVM only for compatibility or stronger isolation. Sandbox infrastructure is therefore a portfolio of conditional execution resources beneath the session, not necessarily the persistent home of the agent itself.
+
 ## Key Claims
 - Bursty creation, long-lived mutable state, sparse CPU demand, and heterogeneous system requirements make agentic execution a cluster-platform problem rather than a runtime wrapper.
-- A backend portfolio is more efficient than forcing stateless calls, repository work, security tasks, computer use, and commercial operating systems into one isolation abstraction.
+- A backend portfolio is more efficient than forcing stateless calls, ordinary tools, file operations, repository work, security tasks, computer use, and commercial operating systems into one isolation abstraction.
 - Separating base images, workspaces, toolkits, and writable state reduces rebuild amplification and enables layer reuse without repeated extraction.
 - On-demand image access is most valuable when aggregate images exceed node storage, per-image fanout is low, and each sandbox reads only a small fraction of its environment.
 - Safe overcommit requires distinct mechanisms for shared read-only pages, reclaimable cold memory, best-effort scheduling, and latency-sensitive core isolation.
 - Preemption-safe training requires authoritative ownership of both agent-loop state and sandbox state plus coordinated pause, reclamation, snapshot, and resume.
-- Execution isolation limits blast radius but cannot by itself ensure reward integrity, authorized intent, or harmless behavior.
+- Execution isolation should be allocated by compatibility and risk; it limits blast radius but cannot by itself ensure reward integrity, authorized intent, or harmless behavior.
 
 ## Evidence
 - Workload shape: [[2609.22978]] reports task bursts reaching tens of thousands of sandboxes, median lifetimes near 16 minutes, p99 lifetimes above three hours, and approximately 90% of sandboxes averaging at most 5% of requested CPU.
@@ -33,11 +36,15 @@ Security is not reducible to a VM boundary. An isolated agent can still obtain f
 - Image locality: [[2609.22978]] reports low median fanout and 4.2% to 13.3% accessed bytes in sampled language images, supporting shared on-demand storage rather than eager node-local materialization.
 - Mechanism evaluation: [[2609.22978]] reports faster task completion and lower disk writes for EROFS, reduced peak or time-integrated memory from virtio-pmem and free-page reporting, and lower latency inflation from core scheduling.
 - Lifecycle and integrity: [[2609.22978]] describes rollout-state ownership outside preemptible GPU jobs, transparent container and microVM restoration, and concrete attempts to access residual answers or unintended external implementations.
+- Conditional sandboxing: [[xiao-yi-agent-harness-she-ji-shang-de-tradeoff]] argues that requests without Bash or Python may need no sandbox and proposes a lightweight JavaScript runtime before full microVM fallback.
+- Session separation: [[xiao-yi-agent-harness-she-ji-shang-de-tradeoff]] treats sandbox state as disposable execution beneath durable multi-tenant session management.
 
 ## Counterevidence & Qualifications
-The concept currently rests on one first-party production report. Its precise mechanisms reflect DeepSeek's workload mix, 3FS deployment, Linux stack, Firecracker integration, and internal training architecture; other systems may have higher image reuse, shorter sessions, lower privilege, different storage asymmetry, or less need for microVMs. Reported improvements are configuration-specific and do not establish universal superiority over registries, peer-to-peer delivery, tar archives, alternative snapshot systems, or other schedulers. Stronger isolation increases overhead, while aggressive overcommit and reclamation can raise latency or CPU cost. AppArmor and eBPF constrain known paths but do not constitute a complete defense against kernel bugs, covert channels, harmful authorized actions, or adaptive agents.
+The production evidence comes from one first-party report, while the conditional-sandbox proposal comes from one unbenchmarked practitioner essay. DSec's precise mechanisms reflect DeepSeek's workload mix, 3FS deployment, Linux stack, Firecracker integration, and internal training architecture; other systems may have higher image reuse, shorter sessions, lower privilege, different storage asymmetry, or less need for microVMs. JavaScript-first execution may reduce startup and resource cost but can lose POSIX compatibility, packages, debugging familiarity, or mature containment, and the source provides no comparative measurements. Reported improvements are configuration-specific and do not establish universal superiority over registries, peer-to-peer delivery, tar archives, alternative snapshot systems, runtimes, or schedulers. Stronger isolation increases overhead, while aggressive overcommit and reclamation can raise latency or CPU cost. AppArmor and eBPF constrain known paths but do not constitute a complete defense against kernel bugs, covert channels, harmful authorized actions, or adaptive agents.
 
 ## What Changed
+- Added conditional allocation: many tool calls may bypass a sandbox or use a lightweight runtime before microVM fallback.
+- Separated durable agent sessions from disposable sandbox execution in a multi-tenant service.
 - Established agentic sandbox infrastructure as a distinct systems concept spanning execution, storage, scheduling, lifecycle, and integrity.
 
 ## Related Concepts
@@ -47,3 +54,4 @@ The concept currently rests on one first-party production report. Its precise me
 - [[SemanticIsolation]] - governs whether an allowed action is legitimate, not merely whether its process is contained.
 - [[AgentSecurityLayering]] - combines model-independent enforcement points around an untrusted agent.
 - [[ReinforcementLearning]] - supplies the rollout, reward, and preemption workload that drives this infrastructure design.
+- [[ServerSideAgentArchitecture]] - consumes sandbox infrastructure conditionally beneath a shared multi-tenant harness.

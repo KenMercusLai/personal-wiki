@@ -15,6 +15,8 @@ sources:
   - its-a-tesla-stratechery-by-ben-thompson
   - apps-agents-and-aggregation
   - frontier-overhangs
+  - write-things-down
+  - apple-you-still-dont-understand-the-vision-pro
 last_updated: 2026-10-13
 knowledge_schema: synthesis-v1
 ---
@@ -43,13 +45,17 @@ The 2026 agent essay combines several of these recurring lenses. Thompson uses a
 
 The frontier-overhangs essay applies Thompson's incentive and modularity lenses directly to frontier AI governance. He groups capability adoption, product capture, pricing, capital returns, and cyber defense as gaps created by rapid model improvement, then argues that slower progress could help labs absorb four of them while worsening the defensive-safety gap. His strongest analytical move is separating concrete malicious use from speculative alignment risk; his most contestable move is inferring that Anthropic's pacing proposal is shaped by its position behind OpenAI. The article preserves one material correction: reported Anthropic profitability did include training costs.
 
+“Write Things Down” joins Thompson's first-person adoption method with a philosophical boundary around AI. He connects [[DavidAllen]]'s trusted-capture model to assistants, Markdown-backed agent continuity, task boards, and deterministic bot harnesses, then distinguishes those operational gains from continuous model learning, persistent identity, volition, and moral agency. His incident analysis keeps responsibility with the people who specify goals and expose capabilities, while the final productivity coda insists that even excellent systems do not replace action.
+
+The Vision Pro essay applies Thompson's first-person adoption method to medium design. He contrasts television's multi-camera solution to a flat screen with immersive video's ability to make one camera position feel like a physical seat. His proposed production rule—protect continuous presence and let the viewer choose a seat—extends his recurring system-boundary analysis: the device's differentiated value can be destroyed when the content layer imports conventions optimized for the previous medium. The argument is vivid but remains one enthusiast's experience rather than a viewer study or production-cost analysis.
+
 ## Key Characteristics
 - Frames technology announcements and regulation through business-model incentives and system boundaries.
 - Uses economic-surplus reasoning to connect software monetization with user value and platform strategy.
 - Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
 - Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
 - Separates goals, strategies, tactics, capability layers, and theory scope while testing playbooks against changed customers, interfaces, competitors, culture, and value-chain position.
-- Uses first-person technology adoption as a concrete input while distinguishing demonstrated workflow utility from broader platform forecasts.
+- Uses first-person technology adoption as a concrete input while distinguishing demonstrated workflow utility, spatial presence, external continuity, and human agency from broader capability claims.
 - Tests safety-policy arguments against commercialization incentives, competitive timing, and concrete offense-defense dynamics.
 
 ## Evidence
@@ -82,14 +88,19 @@ The frontier-overhangs essay applies Thompson's incentive and modularity lenses 
 - Modularity application: [[frontier-overhangs]] uses Christensen's performance-surplus theory, a multi-model harness, and customer data-policy choice to argue that capability alone may no longer create a moat.
 - Safety distinction: [[frontier-overhangs]] separates malicious human direction of an aligned model from traditional alignment failure and argues that pacing may prolong an offensive cyber advantage.
 - Incentive critique: [[frontier-overhangs]] connects Anthropic's policy position to competitive benefit while stopping short of direct evidence about private motive.
+- External continuity: [[write-things-down]] connects GTD capture, Markdown state, and deterministic reminders to resumable human and agent workflows without calling them continuous model learning.
+- Human-agency boundary: [[write-things-down]] attributes goals, moral direction, infrastructure safeguards, and responsibility for consequences to people rather than to anthropomorphized agents.
+- Medium-specific design: [[apple-you-still-dont-understand-the-vision-pro]] argues that television editing conventions conflict with immersive video's continuous sense of place.
+- First-person product evidence: [[apple-you-still-dont-understand-the-vision-pro]] uses scorer's-table and baseline NBA views, an MLS cut-timing log, and a Metallica production to separate compelling individual shots from a non-immersive edited whole.
+- Cost-and-supply hypothesis: [[apple-you-still-dont-understand-the-vision-pro]] connects elaborate live production with only six announced immersive Lakers games and proposes simpler fixed-camera coverage.
 
 ## Qualifications
-This page covers Thompson only through twelve Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, and frontier-overhang theses are partly prospective and should not be read as verified later outcomes. The Muse case is one first-person workflow and does not establish general reliability, while the frontier essay provides no audited lab economics, capital limit, broad performance-surplus evidence, or proof of policy motive. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, and frontier essays are strategy arguments rather than causal, legal, financial, or safety evaluations.
+This page covers Thompson only through fourteen Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, frontier-overhang, and fixed-camera immersive-media theses are partly prospective and should not be read as verified later outcomes. The Muse, personal-assistant, and Vision Pro cases are first-person experiences and do not establish general reliability, affordability, comfort, preference, or transfer. The frontier essay provides no audited lab economics, capital limit, broad performance-surplus evidence, or proof of policy motive, while “Write Things Down” offers personal AGI, agency, and moral distinctions rather than validated technical tests. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, frontier, agent-incident, and immersive-production essays are strategy arguments rather than causal, legal, financial, security, safety, or audience studies.
 
 ## What Changed
-- Added the five-overhang framework as an application of Thompson's incentive and system-boundary analysis to frontier AI.
-- Added the integration-to-modularity transition and the distinction between malicious use and alignment risk.
-- Preserved the limits of motive inference, product anecdotes, unaudited economics, and the source's profitability correction.
+- Added medium-specific production as another domain where Thompson tests inherited conventions against a new interface.
+- Added spatial presence and forced reorientation to his represented first-person product-analysis method.
+- Preserved the argument's single-viewer and unmeasured-cost limits.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -127,3 +138,9 @@ This page covers Thompson only through twelve Stratechery articles. It does not 
 - [[DarioAmodei]] - policy advocate whose proposal Thompson evaluates through safety claims and competitive incentives.
 - [[Anthropic]] - frontier lab at the center of Thompson's safety and strategy critique.
 - [[OpenAI]] - competing lab portrayed as setting the frontier in the essay's timing argument.
+- [[DavidAllen]] - productivity author whose trusted-capture framework anchors Thompson's agent-memory analogy.
+- [[GettingThingsDone]] - task-management method Thompson extends into assistant and agent workflows.
+- [[HumanAgencyInAI]] - distinction Thompson draws between tool capability and human volition, morality, and accountability.
+- [[VisionPro]] - device used in Thompson's critique of television-style immersive production.
+- [[ImmersiveMediaProduction]] - medium-specific production framework derived from the newest essay.
+- [[VirtualRealitySports]] - live-event domain in which Thompson tests presence, direction, and content-supply tradeoffs.
