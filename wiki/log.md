@@ -9488,3 +9488,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | 如何不背公式解开魔方：小学生也能看懂
+
+Created [[ErnoRubik]], [[RubiksCubeSolving]], [[GroupTheory]], [[Commutators]], and [[RouxMethod]]. Captured the 3×3 state-space motivation, non-commuting `R U` and `U R` turns, the setup-act-restore interpretation of commutators, Roux bridge construction, corner three-cycles, and last-six-edge orientation and placement. Preserved the distinction between reducing rote memorization and literally eliminating algorithms, the tutorial's simplified group-theory language, its single-scramble scope, and its unsupported all-variants and 90-second claims. Opened all 28 unique remote images across representative animation frames, retained seven non-duplicative evidence-bearing visuals at their semantic positions with a canonical manifest, and omitted completed-state, portrait, variant, interface, redundant intermediate, and duplicate images.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

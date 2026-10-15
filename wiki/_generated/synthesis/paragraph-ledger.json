@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
       "b3bec3ed083b609ada4349daa54c59b2cb5cc47d09edec29d432cd5476cbb853",
       "9d9771cc98b989ed4210701620a81e93d8944334e200ec132f844cbd7cbc849a",
       "4994c05acf26b2900eb7684aad1022c1d970fad3fa7cd6d009c9096f8fcfc919",
@@ -832,11 +833,29 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 830
+    "paragraph_count": 831
   },
-  "overview_commit": "c2caf878db420aef785d6d942bbf4662db2a2e66",
-  "overview_digest": "8884610543da9f396d87222160e05da9a706921559cc5566601d692d7fbd8962",
+  "overview_commit": "d837f470ea1286a4172d1bcf5a80526f646a2e12",
+  "overview_digest": "9e633cebff0067440240b8112a35bf67561017e9ed76dad150c59c910507ed70",
   "paragraphs": [
+    {
+      "id": "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Rubik's Cube tutorial adds [[RubiksCubeSolving]] as progressive constraint reduction rather than brute-force search or unsupported formula recall. It introduces [[GroupTheory]] through the visibly different results of `R U` and `U R`, then turns [[Commutators]] into an “open, act, close” heuristic: expose or move a target, perform the local change, and reverse setup moves to protect prior structure. Its beginner adaptation of the [[RouxMethod]] fixes the viewing orientation, builds left and right 1×2×3 bridges, cycles and aligns the four remaining corners, orients the last six edges by whether white or yellow faces vertically, and places those edges mainly with `M` and `U` turns. The durable teaching contribution is attaching spatial meaning to sequences, not eliminating them: the worked solve still provides two corner cycles, a J-perm variant, edge-orientation sequences, and edge three-cycles. It demonstrates one scramble without comparing learning outcomes, move counts, retention, or novice speed, and its claims about every cube variant and 90-second beginner solves remain unsupported. All 28 unique remote images were opened across their animation timelines; seven representative prototype, non-commutativity, commutator, Roux-stage, corner-cycle, and edge-orientation visuals were retained, while completed-state, portrait, variant, interface, redundant intermediate, and duplicate images were omitted.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Commutators",
+        "GroupTheory",
+        "RouxMethod",
+        "RubiksCubeSolving"
+      ]
+    },
     {
       "id": "b3bec3ed083b609ada4349daa54c59b2cb5cc47d09edec29d432cd5476cbb853",
       "primary_topic": "ai-and-technology",

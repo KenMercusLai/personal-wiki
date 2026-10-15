@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何不背公式解开魔方：小学生也能看懂](sources/ru-he-bu-bei-gong-shi-jie-kai-mo-fang-xiao-xue-sheng-ye-neng-kan-dong.md) - Beginner tutorial using non-commuting turns, commutators, Roux blocks, corner cycles, and last-six-edge reasoning to replace blind formula recall with spatial understanding.
 - [Lody: 随时随地指挥你的 Agent 团队](sources/sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao.md) - Leon Zhao presents Lody's cross-device coding-agent control plane, worktree isolation, local-first context layer, and heterogeneous multi-agent roadmap.
 - [Thoughts on slowing the fuck down](sources/thoughts-on-slowing-the-fuck-down.md) - Mario Zechner argues that coding-agent output should stay within human review capacity because local errors, incomplete search, and delegated architecture can compound into brittle production systems.
 - [Lance: Efficient Random Access in Columnar Storage through Adaptive Structural Encodings](sources/2504.15247.md) - Primary comparison of Parquet, Arrow-style, and adaptive Lance encodings for NVMe point lookup and scans.
@@ -1208,6 +1209,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [Ernő Rubik](entities/ErnoRubik.md) - Hungarian architecture professor credited with creating the first Rubik's Cube prototype in 1974.
 - [Lody](entities/Lody.md) - Cross-platform control plane and proposed local-first team workspace for coding agents.
 - [Loro](entities/Loro.md) - CRDT framework for local-first, offline, multi-device, and collaborative data synchronization.
 - [Leon Zhao](entities/LeonZhao.md) - Loro and Lody co-founder advocating local-first context and heterogeneous agent orchestration.
@@ -3126,6 +3128,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Group Theory](concepts/GroupTheory.md) - Study of invertible transformations under composition, introduced here through order-sensitive cube moves.
+- [Commutators](concepts/Commutators.md) - Transformation pattern combining two operations and their inverses to concentrate change while restoring surrounding structure.
+- [Roux Method](concepts/RouxMethod.md) - Block-building 3×3 approach that forms two 1×2×3 bridges before solving corners and the last six edges.
+- [Rubik's Cube Solving](concepts/RubiksCubeSolving.md) - Observation-led transformation of a scrambled cube through staged substructures and reversible piece movement.
 - [Inference Host Overhead](concepts/InferenceHostOverhead.md) - CPU-side scheduling and bookkeeping that delays accelerator dispatch across in-flight inference requests.
 - [Local Coding Agents](concepts/LocalCodingAgents.md) - User-controlled model, inference-runtime, and coding-harness stacks evaluated across hardware, capability, harness, and trust fit.
 - [BM25](concepts/BM25.md) - Lexical ranking function combining probabilistic term weighting, saturating term frequency, and document-length normalization.

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "ru-he-bu-bei-gong-shi-jie-kai-mo-fang-xiao-xue-sheng-ye-neng-kan-dong",
+  "images": [
+    {
+      "file": "rubik-prototype.jpg",
+      "alt": "Erno Rubik's wooden cube prototype beside patent-style diagrams of its internal movable structure"
+    },
+    {
+      "file": "ru-then-u.gif",
+      "alt": "Animated cube sequence applying an R turn followed by a U turn"
+    },
+    {
+      "file": "u-then-r.gif",
+      "alt": "Animated cube sequence applying a U turn followed by an R turn and ending in a different state"
+    },
+    {
+      "file": "commutator-ruru.gif",
+      "alt": "Animated R U R-prime U-prime sequence showing pieces displaced while much of the cube returns"
+    },
+    {
+      "file": "roux-solve-stages.jpg",
+      "alt": "Four-stage Roux-style progression from left bridge and both bridges to oriented corners and a solved cube"
+    },
+    {
+      "file": "corner-three-cycle.jpg",
+      "alt": "Top-corner diagram showing a directed three-cycle from A to B to C and back to A"
+    },
+    {
+      "file": "bad-edge-orientation.jpg",
+      "alt": "Last-six-edges view highlighting three top-layer edges whose white or yellow stickers face sideways"
+    }
+  ]
+}
