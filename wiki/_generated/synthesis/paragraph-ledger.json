@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b3bec3ed083b609ada4349daa54c59b2cb5cc47d09edec29d432cd5476cbb853",
       "9d9771cc98b989ed4210701620a81e93d8944334e200ec132f844cbd7cbc849a",
       "4994c05acf26b2900eb7684aad1022c1d970fad3fa7cd6d009c9096f8fcfc919",
       "96d0b4aeba1857fca667fe29c4728fe963d5ad80cf7804f36f07ff6074cea280",
@@ -831,11 +832,32 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 829
+    "paragraph_count": 830
   },
-  "overview_commit": "403bf3be78d2aa5fa1ace78bbc91c82e3ebc9414",
-  "overview_digest": "2d93be34658848de479eebf9af3c282ff72458821dd5848bab5a88e214e3b46d",
+  "overview_commit": "c2caf878db420aef785d6d942bbf4662db2a2e66",
+  "overview_digest": "8884610543da9f396d87222160e05da9a706921559cc5566601d692d7fbd8962",
   "paragraphs": [
+    {
+      "id": "b3bec3ed083b609ada4349daa54c59b2cb5cc47d09edec29d432cd5476cbb853",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[LeonZhao]] talk adds [[Lody]] as a cross-platform coding-agent control plane built on [[Loro]] and extends the wiki's [[LocalFirstSoftware]] and [[AgentTeam]] material. The current product isolates parallel agent tasks in automatically managed worktrees, synchronizes conversations across desktop, web, and mobile clients, integrates multiple coding CLIs through ACP, and places files, per-turn diffs, pull requests, and CI state beside the conversation; the inspected desktop and mobile screenshots support those interface claims. Loro distinguishes local-first collaboration from both local-only storage and cloud-centralized authority by combining user-device custody, offline work, replicated CRDT operations, version history, and convergence, while explicitly not guaranteeing that an automatic merge matches human intent. The roadmap treats fragmented PRDs, research, designs, discussions, decisions, and agent conversations as versioned “Git for context” data that new sessions can retrieve, then proposes a leader that routes UI, logic, review, search, and small tasks among heterogeneous models. That design separates agent count from model diversity and cost, but remains unproven: the talk is founder-authored, supplies no task-quality, conflict, encryption, security, latency, productivity, or routing comparison, cites homogeneous-agent findings secondhand, and uses a speculative tenfold Codex speedup as motivation. All 16 unique remote images were opened; four evidence-bearing local-first topology, desktop, mobile, and external-post images were retained, while the cover, dividers, repeated summary cards, and prose-redundant slides were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentTeam",
+        "LeonZhao",
+        "LocalFirstSoftware",
+        "Lody",
+        "Loro"
+      ]
+    },
     {
       "id": "9d9771cc98b989ed4210701620a81e93d8944334e200ec132f844cbd7cbc849a",
       "primary_topic": "ai-and-technology",

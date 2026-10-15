@@ -7,7 +7,8 @@ sources:
   - duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong
   - xiang-zuo-xiang-you-leetao
   - agent-shi-dai-de-clice
-last_updated: 2026-10-11
+  - sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao
+last_updated: 2026-10-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,9 +24,11 @@ Kuafu supplies a smaller practitioner case: after connecting several coding CLIs
 
 The clice developer adds an operator-interface case between those extremes. A custom web orchestrator presents multiple workspaces, branches, pull requests, agents, and resource status in one VS Code view, while a mobile view supports remote supervision. The workflow uses multiple agents for implementation, cross-review, and acceptance, but the author still supplies missing context and keeps architecture under human control. This extends Agent Team from role and file topology into an observability and control surface without showing that more agents independently improve code quality.
 
+The Lody roadmap adds model heterogeneity and a shared context layer to this control-surface view. Its proposed leader would interpret intent, decompose work, route UI, logic, review, search, and small tasks to models selected for those strengths, and let agents request help from stronger models. That proposal usefully separates agent count from capability diversity, but it remains a design hypothesis: the source offers no completed routing system, comparison with a single strong model, or quality-adjusted cost result.
+
 ## Key Claims
 - Agent teams are most useful when a project is too large for one context window and one generic agent role.
-- Role separation lets stronger models handle architecture while cheaper or faster models handle structured execution and testing work.
+- Role separation and heterogeneous routing can assign architecture, UI, logic, review, search, or small tasks to models chosen for capability and cost, but routing quality must be demonstrated rather than assumed.
 - File-system state can serve as the shared communication substrate among agents, while a shared desktop or mobile control surface can expose concurrent workspaces, reviews, and resource state to the operator.
 - ADRs, specs, roadmaps, test plans, and CI status prevent decision loops between agents.
 - Milestone boundaries are natural points to restart agents and reload durable project state.
@@ -42,13 +45,15 @@ The clice developer adds an operator-interface case between those extremes. A cu
 - Lightweight pairing: [[xiang-zuo-xiang-you-leetao]] reports using one CLI agent to write code and another to review a recent commit through Telegram.
 - Orchestration interface: [[agent-shi-dai-de-clice]] shows inspected desktop and mobile views with multiple workspaces, agents, branches, pull requests, resource status, and review output.
 - Human boundary: [[agent-shi-dai-de-clice]] says multiple agents can implement and cross-review while the developer continues to provide context and control the system architecture.
+- Heterogeneous routing proposal: [[sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao]] proposes a leader that decomposes intent, assigns work by model strength and cost, permits inter-agent help, and automates verifiable steps.
+- Shared context surface: [[sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao]] proposes versioned local-first decisions, conversations, designs, and code history as inherited team context.
 
 ## Counterevidence & Qualifications
-The large case-study source explicitly says Agent Team is not always worth the overhead. It is less suitable for small projects under roughly 5,000 lines, exploratory prototypes, or projects without test infrastructure, because the role and document structure can become heavier than the work itself. The distributed-systems source adds that coordination mechanisms improve practical outcomes but cannot guarantee safety, liveness, and fault tolerance in every asynchronous failure scenario. Kuafu's “效果感觉还行” and the clice developer's positive experience are unmeasured first-person reports; reviewers using similar models, context, or mistaken requirements may reproduce rather than catch the writer's errors, and neither screenshot demonstrates defect reduction.
+The large case-study source explicitly says Agent Team is not always worth the overhead. It is less suitable for small projects under roughly 5,000 lines, exploratory prototypes, or projects without test infrastructure, because the role and document structure can become heavier than the work itself. The distributed-systems source adds that coordination mechanisms improve practical outcomes but cannot guarantee safety, liveness, and fault tolerance in every asynchronous failure scenario. Kuafu's “效果感觉还行” and the clice developer's positive experience are unmeasured first-person reports; reviewers using similar models, context, or mistaken requirements may reproduce rather than catch the writer's errors, and neither screenshot demonstrates defect reduction. Lody's heterogeneous routing, context inheritance, and automated verification loop are roadmap claims partly motivated by a secondhand homogeneous-agent paper and a speculative tenfold speedup premise, not comparative evidence.
 
 ## What Changed
-- Added an operator-interface case that makes concurrent workspaces, agents, reviews, and resource state visible on desktop and mobile.
-- Clarified that multi-agent implementation and review still depend on human context supply, architecture ownership, and deterministic acceptance.
+- Added heterogeneous model-and-cost routing as a distinct Agent Team hypothesis rather than treating more same-model roles as the only design.
+- Added versioned workspace context as a proposed shared substrate for team delegation while preserving the need for deterministic acceptance and comparative evidence.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - Agent Team is a structured, multi-agent form of collaboration.
@@ -60,3 +65,5 @@ The large case-study source explicitly says Agent Team is not always worth the o
 - [[DistributedConsensus]] - agent teams must converge on a shared prompt interpretation.
 - [[TrustTopology]] - heterogeneous gates help make multi-agent output reliable.
 - [[AgentComputerInterface]] - orchestration dashboards are human control surfaces around agent work rather than proof of reliable coordination.
+- [[Lody]] - product and roadmap case combining cross-device control, worktree isolation, shared context, and heterogeneous routing.
+- [[LocalFirstSoftware]] - proposed team context remains locally owned while synchronizing across devices and collaborators.

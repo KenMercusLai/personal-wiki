@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Lody: 随时随地指挥你的 Agent 团队](sources/sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao.md) - Leon Zhao presents Lody's cross-device coding-agent control plane, worktree isolation, local-first context layer, and heterogeneous multi-agent roadmap.
 - [Thoughts on slowing the fuck down](sources/thoughts-on-slowing-the-fuck-down.md) - Mario Zechner argues that coding-agent output should stay within human review capacity because local errors, incomplete search, and delegated architecture can compound into brittle production systems.
 - [Lance: Efficient Random Access in Columnar Storage through Adaptive Structural Encodings](sources/2504.15247.md) - Primary comparison of Parquet, Arrow-style, and adaptive Lance encodings for NVMe point lookup and scans.
 - [Vortex: One Format for Any Shape](sources/vortex-one-format-for-any-shape.md) - Connor Tsui explains Vortex's separation of extensible logical types, recursive encodings, storage layouts, and compressed-data computation.
@@ -1207,6 +1208,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [Lody](entities/Lody.md) - Cross-platform control plane and proposed local-first team workspace for coding agents.
+- [Loro](entities/Loro.md) - CRDT framework for local-first, offline, multi-device, and collaborative data synchronization.
+- [Leon Zhao](entities/LeonZhao.md) - Loro and Lody co-founder advocating local-first context and heterogeneous agent orchestration.
 - [Apache Arrow](entities/ApacheArrow.md) - In-memory columnar layout whose separate buffers trade direct access against nested storage I/O.
 - [Saatwik Nagpal](entities/SaatwikNagpal.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
 - [Charles Frye](entities/CharlesFrye.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.

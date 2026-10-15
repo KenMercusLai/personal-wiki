@@ -2281,15 +2281,18 @@
       "global_candidate": true,
       "id": "local-first-agent-clients-need-layered-context-capability-and-memory-controls",
       "qualifications": [
-        "The evidence is a first-party developer interview without comparative task-success, memory-quality, recall-precision, security, latency, token-cost, retention, or usability evaluation.",
-        "Local-first placement does not prevent another privileged local agent, malware, prompt injection, dependency compromise, or intended model traffic from disclosing data and credentials.",
-        "Self-updating memory, higher-order insight, Skill generation, richer observability, stronger sandboxing, and some conflict interaction remain incomplete or unresolved."
+        "The evidence is two first-party project accounts without comparative task-success, memory-quality, conflict, routing, security, latency, token-cost, retention, usability, or team-productivity evaluation.",
+        "Local-first placement and CRDT convergence do not guarantee intent-correct merges or prevent another privileged local agent, malware, prompt injection, dependency compromise, synchronization metadata, or intended model traffic from disclosing data and credentials.",
+        "DeepChat's self-updating memory, higher-order insight, Skill generation, richer observability, and stronger sandboxing remain incomplete, while Lody's versioned context layer and heterogeneous agent leader are roadmap claims partly motivated by secondhand and speculative evidence."
       ],
-      "statement": "[[DeepChat]] combines [[LocalFirstSoftware]], [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], and [[AgentMemory]] into a desktop agent architecture: local encrypted custody is paired with embedded MCP runtimes, a Cua-driver/MCP/Skill action stack, approval modes, and a [[TapeAndAnchors|Tape]] ledger from which traceable durable memories are admitted, reconciled, softly archived, and recalled under a token budget.",
+      "statement": "[[DeepChat]] and [[Lody]] make [[LocalFirstSoftware]] a context, custody, synchronization, and control problem rather than local storage alone. DeepChat combines embedded [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], approval modes, and [[AgentMemory]] derived from a [[TapeAndAnchors|Tape]] ledger; Lody uses [[Loro]] CRDT convergence for cross-device coding-agent sessions and proposes versioned workspace context plus heterogeneous [[AgentTeam]] routing, while convergence, encryption, authority, retrieval, and verification still need explicit guarantees.",
       "status": "qualified",
       "supporting_wikilinks": [
         "DeepChat",
+        "Lody",
+        "Loro",
         "LocalFirstSoftware",
+        "AgentTeam",
         "ModelContextProtocol",
         "LLMToolingSkills",
         "ComputerUse",

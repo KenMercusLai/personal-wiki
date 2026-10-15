@@ -3,9 +3,9 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-10-14
-as_of_overview_commit: bfabd2ddfafd5a62ab20dffd9f146a7c62504f94
-input_digest: 7a146a3ef80105889e88629f608d390b4a9d8e8910b321362e59f82589053a7b
+last_updated: 2026-10-15
+as_of_overview_commit: c2caf878db420aef785d6d942bbf4662db2a2e66
+input_digest: e0514408a85650af1f6c53ae68db8d318d1112b81b3b476687ca70932c6018e0
 ---
 
 # AI and Technology
@@ -1431,15 +1431,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 ### Local First Agent Clients Need Layered Context Capability And Memory Controls
 
-[[DeepChat]] combines [[LocalFirstSoftware]], [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], and [[AgentMemory]] into a desktop agent architecture: local encrypted custody is paired with embedded MCP runtimes, a Cua-driver/MCP/Skill action stack, approval modes, and a [[TapeAndAnchors|Tape]] ledger from which traceable durable memories are admitted, reconciled, softly archived, and recalled under a token budget.
+[[DeepChat]] and [[Lody]] make [[LocalFirstSoftware]] a context, custody, synchronization, and control problem rather than local storage alone. DeepChat combines embedded [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], approval modes, and [[AgentMemory]] derived from a [[TapeAndAnchors|Tape]] ledger; Lody uses [[Loro]] CRDT convergence for cross-device coding-agent sessions and proposes versioned workspace context plus heterogeneous [[AgentTeam]] routing, while convergence, encryption, authority, retrieval, and verification still need explicit guarantees.
 
-**Evidence:** [[DeepChat]], [[LocalFirstSoftware]], [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], [[AgentMemory]], [[TapeAndAnchors]]
+**Evidence:** [[DeepChat]], [[Lody]], [[Loro]], [[LocalFirstSoftware]], [[AgentTeam]], [[ModelContextProtocol]], [[LLMToolingSkills]], [[ComputerUse]], [[AgentMemory]], [[TapeAndAnchors]]
 
 **Qualifications:**
 
-- The evidence is a first-party developer interview without comparative task-success, memory-quality, recall-precision, security, latency, token-cost, retention, or usability evaluation.
-- Local-first placement does not prevent another privileged local agent, malware, prompt injection, dependency compromise, or intended model traffic from disclosing data and credentials.
-- Self-updating memory, higher-order insight, Skill generation, richer observability, stronger sandboxing, and some conflict interaction remain incomplete or unresolved.
+- The evidence is two first-party project accounts without comparative task-success, memory-quality, conflict, routing, security, latency, token-cost, retention, usability, or team-productivity evaluation.
+- Local-first placement and CRDT convergence do not guarantee intent-correct merges or prevent another privileged local agent, malware, prompt injection, dependency compromise, synchronization metadata, or intended model traffic from disclosing data and credentials.
+- DeepChat's self-updating memory, higher-order insight, Skill generation, richer observability, and stronger sandboxing remain incomplete, while Lody's versioned context layer and heterogeneous agent leader are roadmap claims partly motivated by secondhand and speculative evidence.
 
 ### Frontier Model Overhangs Couple Modularity Economics And Cyber Defense
 

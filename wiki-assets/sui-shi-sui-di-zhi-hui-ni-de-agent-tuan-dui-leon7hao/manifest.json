@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao",
+  "images": [
+    {
+      "file": "local-first-topology.webp",
+      "alt": "Local-first topology contrasts isolated local storage and cloud-centralized clients with user-owned data synchronized across devices"
+    },
+    {
+      "file": "lody-desktop-interface.webp",
+      "alt": "Lody desktop interface showing workspaces, worktree sessions, an agent conversation, file changes, and pull-request details"
+    },
+    {
+      "file": "lody-mobile-interface.webp",
+      "alt": "Lody mobile interface showing session navigation, agent creation, and a completed coding-agent conversation"
+    },
+    {
+      "file": "codex-speedup-post.webp",
+      "alt": "Tibo social post saying Codex speed could improve by at least an order of magnitude during 2026"
+    }
+  ]
+}

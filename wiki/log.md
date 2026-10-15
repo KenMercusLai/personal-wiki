@@ -9473,9 +9473,17 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-15] ingest | Lody: 随时随地指挥你的 Agent 团队
+
+Created [[Lody]], [[Loro]], and [[LeonZhao]], and updated [[LocalFirstSoftware]] and [[AgentTeam]] from their complete ordered evidence inventories. Recorded cross-device coding-agent control, agent-only worktree isolation, ACP-based model switching, inspectable diffs and PR state, CRDT convergence and its intent-correctness boundary, the proposed “Git for context,” and heterogeneous model routing. Preserved the founder-authored and unbenchmarked scope, missing encryption and conflict evidence, roadmap status of the context and leader layers, secondhand multi-agent citation, and speculative tenfold-speed premise. Opened all 16 unique remote images, retained four evidence-bearing topology, desktop, mobile, and external-post images at their semantic positions, and omitted the cover, dividers, repeated summary cards, prose-redundant slides, and one duplicate reference.
+
 ## [2026-10-15] ingest | Thoughts on slowing the fuck down
 
 Created [[AgenticCodeSearchRecall]] and updated [[MarioZechner]], [[AICodingPractice]], [[BottleneckAwareAICoding]], and [[HumanCodeResponsibility]] from their complete ordered evidence inventories. Captured generated-output pacing against human review capacity, compounding local errors, incomplete cross-run context, declining discovery of affected and reusable code, the limits of narrow evaluation functions, and direct human control of architecture, APIs, acceptance, and recovery. Preserved the essay's anecdotal scope, missing defect and retrieval measurements, and its tension with evidence that bounded, strongly verified work can responsibly receive less line-by-line inspection. Opened the sole remote image and omitted it as a decorative tortoise-and-hare illustration without independent evidence.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-15] lint | Wiki health check
 
