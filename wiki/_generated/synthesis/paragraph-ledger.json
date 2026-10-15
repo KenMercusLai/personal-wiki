@@ -830,6 +830,7 @@
       "9289b60d8d0f19818eb956e67ad8389589342ac400600eac8fcebfa7a44ee22f",
       "75d24c045561bbf3bf61df602f5862246a19b186423136de49f51b246f60767d",
       "f2ef6072ae5fc0fa9806517b1d648aa8804506a2348cb2af0f02ac8dfa0f76ed",
+      "b395b25482b30b8b724bc346cedfdc5420a9778b4c3fdd0cb91497d49bff070b",
       "a9569ca1840d96eb0e072de83a26cf91766d6f75106fc65fe0b942ac59e3e1fd",
       "b8e300540eead8d1809ec6fa20928b207fbccdf204907f92e3226c6a078bf2ac",
       "cc4b4c6c77f311dd7d8fa7d66a86515c656a4f6c0af0016d8eefeb96289c18ef",
@@ -838,10 +839,10 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 836
+    "paragraph_count": 837
   },
-  "overview_commit": "da63f6b99fa725dbe3a7f7e3a47373800c124d86",
-  "overview_digest": "2485036aef7e8331b48e83390c797510aedc0053b99ea83d9df360d4ec6bb329",
+  "overview_commit": "9109dd456704c832995f10f3e2570fe1c90c1c77",
+  "overview_digest": "9045ac22514bda2b519d0f5b25b83d539613ac4f2cc4e4d448c80ece624ad43a",
   "paragraphs": [
     {
       "id": "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
@@ -16751,6 +16752,24 @@
         "LLMToolingSkills",
         "MaiYang",
         "WritingStyleDistillation"
+      ]
+    },
+    {
+      "id": "b395b25482b30b8b724bc346cedfdc5420a9778b4c3fdd0cb91497d49bff070b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[YeungYeah]] source joins the wiki's writing and knowledge-management threads around a scarcity shift. When AI can generate explanations, summarize documents, and write directly into [[Obsidian]], capture volume no longer shows that a person learned, will revisit the material, or can orient themselves inside it. [[PersonalKnowledgeManagement]] therefore gains a sharper distinction between excerpt or generated accumulation and own-words synthesis, while preserving personal outlines, keyword indexes, and frameworks as the layer that helps someone remember, retrieve, and know what to ask. [[AIAssistedWriting]] gains a paired authorship test from the article's own workflow: the essay began as speech, passed through model-mediated transcription, and received another polishing pass, so retaining the author's ideas and judgments may preserve intellectual ownership without proving that lived voice, emotion, or idiosyncrasy survived. Process narratives, personal experience, and genuine opinion remain valuable even when they are not generic technical references. The evidence is one reflective essay with no note-reuse measurements, before-and-after drafts, reader study, or comparative test of AI and manual capture, so its claim that shallow technical posts have lost value remains a source-scoped judgment. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "Obsidian",
+        "PersonalKnowledgeManagement",
+        "YeungYeah"
       ]
     },
     {

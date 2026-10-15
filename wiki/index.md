@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AI 时代，还有什么值得自己写？](sources/ai-shi-dai-hai-you-shi-me-zhi-de-zi-ji-xie.md) - YeungYeah argues that AI weakens the value of generic capture while preserving personal frameworks, process narratives, lived judgment, and human-owned voice as reasons to write.
 - [详细谈谈DSpark投机解码的原理](sources/wechat-rrhg9uccinsc-zecigjnbq.md) - Zartbot reconstructs speculative-decoding theory and draft-model evolution, then explains DSpark's semi-autoregressive drafting, calibrated confidence estimates, and hardware-aware verification scheduling.
 - [A Field Guide to Fable: Finding Your Unknowns](sources/a-field-guide-to-fable-finding-your-unknowns.md) - Thariq frames agentic coding as iterative discovery of known, tacit, and unrecognized gaps through blind-spot passes, prototypes, interviews, plans, deviation notes, explainers, and quizzes.
 - [A Real DuckDB Database in S3, With Nothing Else to Run](sources/duckdb-on-object-storage.md) - A native DuckDB database is mapped through SlateDB and OpenDAL onto object storage with atomic durability, one fenced writer, consistent readers, and explicit performance and interoperability limits.
@@ -1219,6 +1220,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [YeungYeah](entities/YeungYeah.md) - Blogger reflecting on AI-era note-taking, technical writing, lived experience, personal voice, and human-owned judgment.
 - [DSpark](entities/DSpark.md) - DeepSeek speculative-decoding system combining semi-autoregressive drafting with confidence-calibrated, load-aware verification.
 - [duckdb_object_storage](entities/DuckDBObjectStorage.md) - DuckDB filesystem extension preserving native database features over a SlateDB-backed object-store substrate.
 - [DuckDB](entities/DuckDB.md) - Embedded analytical database whose native format, storage semantics, constraints, indexes, WAL, and checkpoints are preserved by the extension.

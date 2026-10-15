@@ -9568,3 +9568,11 @@ Created [[DSpark]] and [[SpeculativeDecoding]], and updated [[Zartbot]] from its
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | AI 时代，还有什么值得自己写？
+
+Created [[YeungYeah]], and updated [[AIAssistedWriting]] and [[PersonalKnowledgeManagement]] from their complete ordered evidence inventories. Distinguished own-words synthesis from excerpt and AI-generated accumulation, retained personal outlines and indexes as orientation layers, and added process narrative, lived judgment, emotion, and personal voice as writing value that generic generation does not replace. Captured the article's voice-input and two-stage AI-processing workflow while preserving its unresolved fidelity question, first-person scope, lack of reuse or reader measurements, and untested claim about the declining value of shallow technical posts. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
