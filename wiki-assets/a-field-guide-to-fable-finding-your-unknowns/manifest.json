@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "a-field-guide-to-fable-finding-your-unknowns",
+  "images": [
+    {
+      "file": "map-territory-unknowns.jpg",
+      "alt": "A simple planned route on a map contrasted with an obstacle-filled path through the real territory, with the gap labeled as your unknowns"
+    },
+    {
+      "file": "four-classes-of-unknowns.jpg",
+      "alt": "Four quadrants defining known knowns, known unknowns, unknown knowns, and unknown unknowns"
+    },
+    {
+      "file": "finding-unknowns-iceberg.jpg",
+      "alt": "Before-and-after iceberg diagram showing previously hidden unknowns made visible through discovery"
+    },
+    {
+      "file": "unknowns-workflow-timeline.jpg",
+      "alt": "Workflow from blind-spot discovery and prototypes through implementation notes to explainers and quizzes, with lessons feeding the next project's map"
+    },
+    {
+      "file": "pitch-explainer-buy-in.jpg",
+      "alt": "Prototype, specification, and notes converging into one demo-led document that produces reviewer buy-in"
+    }
+  ]
+}

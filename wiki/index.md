@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Field Guide to Fable: Finding Your Unknowns](sources/a-field-guide-to-fable-finding-your-unknowns.md) - Thariq frames agentic coding as iterative discovery of known, tacit, and unrecognized gaps through blind-spot passes, prototypes, interviews, plans, deviation notes, explainers, and quizzes.
 - [A Real DuckDB Database in S3, With Nothing Else to Run](sources/duckdb-on-object-storage.md) - A native DuckDB database is mapped through SlateDB and OpenDAL onto object storage with atomic durability, one fenced writer, consistent readers, and explicit performance and interoperability limits.
 - [不会 CUDA 也能轻松看懂的 FlashAttention 教程（算法原理篇）](sources/flashattention-1.md) - Zhou Yifan derives a simplified fused streaming attention loop from GPU memory traffic, operator fusion, and query-parallel decomposition while distinguishing it from the full FlashAttention algorithm.
 - [The Eternal Sloptember](sources/the-eternal-sloptember.md) - George Hotz argues that coding agents front-load plausible progress while shifting error correction, polish, and organizational quality risk onto humans.
@@ -2749,8 +2750,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
-- [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
-- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through runtime retrieval, compaction, prompt caching, file-backed continuity, multi-agent workflows, and mobile/cloud supervision.
+- [Claude](entities/Claude.md) - AI assistant used for engineering, analysis, writing, conversational reading, and iterative uncertainty discovery.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through runtime retrieval, prompt caching, file-backed continuity, uncertainty discovery, multi-agent workflows, and mobile/cloud supervision.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
@@ -3147,6 +3148,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [DeepChat](entities/DeepChat.md) - Open-source local-first desktop agent client combining provider-neutral models, MCP, Skills, Tape-grounded memory, and Computer Use.
 
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
+
+- [Thariq](entities/Thariq.md) - Practitioner-author presenting an unknowns-driven workflow for collaborating with Claude and Claude Code.
 
 ## Concepts
 - [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving native database semantics while making immutable object storage the durable source of truth.
@@ -3799,7 +3802,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing formative relationships and information inputs while recognizing the unchosen teachers, sponsors, gatekeepers, and communities that also shape opportunity.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
 - [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring, curiosity-led conversations that combine listening, explicit purpose, strength recognition, and employee self-evaluation.
-- [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
+- [Unknown Unknowns](concepts/UnknownUnknowns.md) - Unrecognized questions, constraints, possibilities, and failure modes surfaced through external evidence and iterative implementation.
 - [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
 - [Contextual Technology Selection](concepts/ContextualTechnologySelection.md) - Practice of comparing a technology's historical priorities, tradeoffs, and scale assumptions with the adopter's actual problem.
 - [University Website Governance](concepts/UniversityWebsiteGovernance.md) - Allocation of purpose, authority, staffing, standards, access, and maintenance responsibility across a university web presence.
@@ -4295,7 +4298,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Trust Topology](concepts/TrustTopology.md) - Verification-gate arrangement for making unreliable AI agents produce more reliable software systems.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
-- [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
+- [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents to discover uncertainty and build while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, design-centered, verified, and scope-appropriately reviewed work with AI coding agents.
 - [Agentic Code Search Recall](concepts/AgenticCodeSearchRecall.md) - Completeness with which a coding agent discovers affected code, dependencies, prior decisions, and reusable implementations before making a change.
 - [AI Coding Framework–Library Model](concepts/AICodingFrameworkLibraryModel.md) - Control continuum between agent-structured high-level delegation and human-structured bounded use of AI as a callable capability.

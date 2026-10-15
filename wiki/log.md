@@ -9552,3 +9552,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | A Field Guide to Fable: Finding Your Unknowns
+
+Created [[Thariq]], and updated [[UnknownUnknowns]], [[AIAgentCollaboration]], [[Claude]], and [[ClaudeCode]] from their complete ordered evidence inventories. Captured the map-versus-territory gap, four classes of unknowns, blind-spot passes, brainstorms and prototypes, interviews, references, decision-focused plans, implementation deviation notes, demo-led explainers, and post-build quizzes. Preserved the single-practitioner scope, model- and user-dependence, missing comparative measures, artifact overhead, anchoring risk, and distinction between articulated understanding and behavioral correctness. Opened and retained all five evidence-bearing remote diagrams at their semantic positions with a canonical manifest.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
