@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [HAKES: Scalable Vector Database for Embedding Search Service](sources/p3049-ooi.md) - Hu and collaborators combine learned filter-and-refine indexing, decoupled insert/search parameters, and independently scalable filter and refine workers for high-recall mutable vector search.
 - [如何不背公式解开魔方：小学生也能看懂](sources/ru-he-bu-bei-gong-shi-jie-kai-mo-fang-xiao-xue-sheng-ye-neng-kan-dong.md) - Beginner tutorial using non-commuting turns, commutators, Roux blocks, corner cycles, and last-six-edge reasoning to replace blind formula recall with spatial understanding.
 - [Lody: 随时随地指挥你的 Agent 团队](sources/sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao.md) - Leon Zhao presents Lody's cross-device coding-agent control plane, worktree isolation, local-first context layer, and heterogeneous multi-agent roadmap.
 - [Thoughts on slowing the fuck down](sources/thoughts-on-slowing-the-fuck-down.md) - Mario Zechner argues that coding-agent output should stay within human review capacity because local errors, incomplete search, and delegated architecture can compound into brittle production systems.
@@ -1209,6 +1210,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [HAKES](entities/HAKES.md) - Distributed vector database that replicates a compressed global filter index and shards full vectors for independent compute and storage scaling.
 - [Ernő Rubik](entities/ErnoRubik.md) - Hungarian architecture professor credited with creating the first Rubik's Cube prototype in 1974.
 - [Lody](entities/Lody.md) - Cross-platform control plane and proposed local-first team workspace for coding agents.
 - [Loro](entities/Loro.md) - CRDT framework for local-first, offline, multi-device, and collaborative data synchronization.
@@ -4356,6 +4358,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Web Ad Economics](concepts/WebAdEconomics.md) - Web funding model where users receive content without direct payment while advertising and tracking monetize attention and behavior.
 - [GPV Career Formula](concepts/GPVCareerFormula.md) - Career-reflection framework combining gifts, passion, and values to reason about fit.
 - [Approximate Nearest Neighbor Search](concepts/ApproximateNearestNeighborSearch.md) - Vector search strategy that trades perfect recall for lower-latency retrieval.
+- [HAKES Index](concepts/HAKESIndex.md) - Two-stage ANN index with learned compressed filtering, exact refinement, and decoupled search and insert parameters.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
 - [Head-of-Line Blocking](concepts/HeadOfLineBlocking.md) - A blocking pattern where later HTTP work waits behind stalled earlier work or lost TCP data.

@@ -4,7 +4,8 @@ type: concept
 tags: [machine-learning, compression, vector-search, numerical-computing]
 sources:
   - 2604.19528
-last_updated: 2026-10-13
+  - p3049-ooi
+last_updated: 2026-10-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,11 +17,15 @@ The source separates quantization into an encoding stage and an estimation stage
 
 [[RaBitQ]] and [[TurboQuant]] illustrate objective-dependent design. Both exploit the coordinate distribution induced by random rotation, but RaBitQ uses a rescaled uniform grid and direct arithmetic while TurboQuant uses a non-uniform centroid codebook and, for unbiased inner products, a separate signed residual sketch. Reconstruction MSE, estimator bias, tail error, quantization time, estimation time, and retrieval recall are therefore complementary rather than interchangeable evaluation axes.
 
+In a filter-and-refine objective, compressed codes only nominate candidates and full vectors determine the final ranking, so a learned 4-bit product quantizer need not reproduce every vector or score accurately. [[HAKESIndex]] instead preserves local similarity-score distributions among approximate neighbors. Fixed original code assignments plus separately learned search centroids also show that encoding and query-time interpretation can evolve independently, provided the training procedure explicitly preserves that contract.
+
 ## Key Claims
 - A vector code must be evaluated against the geometric quantity and downstream task it is intended to preserve.
 - Random rotation can make coordinate distributions more regular, enabling scalar codebooks while preserving inner products under a shared transform.
 - Nominal bits per dimension omit scalar metadata, codebook access, decoding, rotation, residual correction, and hardware execution costs.
 - An unbiased mean error does not determine variance, worst observed error, tail probability, nearest-neighbor recall, or attention quality.
+- In filter-and-refine retrieval, candidate inclusion can matter more than globally accurate reconstruction or score estimation.
+- Separating code assignment from query-time code interpretation can avoid bulk re-encoding, but only when training is consistent with the fixed assignments.
 - Reproducible comparison requires matched hardware, parallelism, preprocessing, variants, datasets, metrics, and released executable paths.
 
 ## Evidence
@@ -32,14 +37,19 @@ Objective dependence:
 
 System and task evaluation:
 - [[2604.19528]] compares quantization time, error distributions, Recall@1@k, Needle-In-A-Haystack retrieval, and LongBench-E rather than treating reconstruction error as a complete proxy.
+- [[p3049-ooi]] combines 4-bit PQ with dimensionality reduction and exact reranking, then reports a leading high-recall throughput frontier on five one-million-scale embedding datasets.
+
+Learned filter-stage compression:
+- [[p3049-ooi]] jointly tunes dimensionality reduction and PQ centroids against local similarity-distribution mismatch and reports consistent recall improvement at fixed search parameters on two ten-million-scale datasets.
+- [[p3049-ooi]] shows recall degrading when learned search parameters replace original insert parameters, grounding the need to keep code assignment and search interpretation separate.
 
 ## Counterevidence & Qualifications
-The framework comes from one contested comparison written by RaBitQ authors. Its experiments cover selected bit widths, datasets, implementations, hardware, and two application families; they do not establish a universal ranking across quantizers. Randomized rotations, metadata accounting, optimized kernels, reconstruction objectives, and integration-specific outlier handling can all change results.
+The RaBitQ–TurboQuant framework comes from one contested comparison written by RaBitQ authors. HAKES is another first-party evaluation, and its objective assumes a two-stage index with full vectors available for refinement; it does not establish that local distribution matching is best for standalone compressed retrieval. Across both sources, selected bit widths, datasets, implementations, hardware, rotations, metadata accounting, optimized kernels, reconstruction objectives, and integration-specific handling can change results.
 
 ## What Changed
-- Created a task- and system-aware model of vector quantization from the RaBitQ–TurboQuant comparison.
-- Distinguished nominal code width from metadata, decoding, preprocessing, and hardware costs.
-- Separated unbiasedness and reconstruction error from tail behavior and downstream task quality.
+- Added candidate inclusion as a quantization objective for filter-and-refine retrieval.
+- Added joint dimensionality-reduction and PQ learning against local similarity distributions.
+- Added the fixed-assignment constraint behind changing search-time code interpretation without re-encoding.
 
 ## Related Concepts
 - [[RaBitQ]] - uniform-grid vector quantizer designed for direct inner-product estimation.
@@ -48,3 +58,5 @@ The framework comes from one contested comparison written by RaBitQ authors. Its
 - [[KVCacheCompression]] - applies low-bit vector representations to attention state.
 - [[BlockQuantization]] - shares scales over groups of tensor values rather than using only per-coordinate codebooks.
 - [[QuantizationAwareTraining]] - adapts learned parameters to quantization effects during training.
+- [[HAKESIndex]] - uses learned product quantization as an aggressive candidate filter before exact refinement.
+- [[HAKES]] - turns compressed filtering into a separately scalable distributed service layer.

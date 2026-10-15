@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-15
-as_of_overview_commit: d837f470ea1286a4172d1bcf5a80526f646a2e12
+as_of_overview_commit: 04f1486c9efac658de017b5755d71930051cac38
 summary: "A cross-domain evidence map for matching tools and institutions to real needs while preserving accountable judgment, explicit boundaries, and uncertainty."
-episode_count: 1178
-source_count: 1178
-paragraph_count: 831
+episode_count: 1179
+source_count: 1179
+paragraph_count: 832
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[AgentMemory]] is more than writeable similarity retrieval: [[Embeddings]] plus a [[VectorDatabase]] can surface related records, while [[MemoryCompaction]], [[MemoryEvolution]], [[MemoryConflictResolution]], [[BitemporalMemory]], and [[MemoryForgetting]] maintain qualified, time-aware, attention-bounded state. [[NowledgeMem]] implements this as Trace-to-Unit-to-Crystal distillation, hybrid retrieval with raw-thread pointers, daily working-memory prefetch, explicit progression and validation edges, and user-visible conflict review; [[TapeAndAnchors]] can preserve the raw evidence beneath those revisable views. [[AutoMem]] adds [[Metamemory]] as a separately optimizable operation policy: complete-trajectory review revises file schemas and action affordances, then a dedicated specialist learns when to search, write, and update while the task model remains frozen.
 - [[AgentNativeComputing]] may reorder platform advantage by combining browser use, [[ComputerUse]], [[GenerativeUI]], hosted execution, and open gadgets behind one context-rich agent relationship; [[Muse]] and [[MicrosoftCopilot]] illustrate consumer and enterprise bids to shift aggregation from discovering supply toward framing intent and executing across suppliers, while [[AppleTrustBrand]] and app-centered control retain a qualified autonomy-versus-curation tradeoff.
-- Fair [[VectorQuantization]] comparison must align objectives, metadata, estimators, hardware, and executable artifacts: the current interested-party evidence reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings, while their 3.5-bit cache quality is close.
+- Approximation must be judged against its pipeline objective and execution conditions: [[HAKESIndex]] trains [[VectorQuantization]] for candidate inclusion before full-vector refinement, while the current interested-party comparison reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect.
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof.
@@ -43,9 +43,9 @@ Durable business value depends on demand, distribution, incentives, unit economi
 
 ### Cross-domain
 
-Across domains, fair comparison requires matched objectives, execution conditions, time horizons, and error costs, with provenance constraining transfer.
+Across domains, fair comparison requires pipeline-matched objectives, execution conditions, time horizons, and error costs, with provenance constraining transfer.
 
-- Fair [[VectorQuantization]] comparison must align objectives, metadata, estimators, hardware, and executable artifacts: the current interested-party evidence reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings, while their 3.5-bit cache quality is close. Evidence: [[ApproximateNearestNeighborSearch]], [[KVCacheCompression]], [[RaBitQ]], [[TurboQuant]], [[VectorQuantization]].
+- Approximation must be judged against its pipeline objective and execution conditions: [[HAKESIndex]] trains [[VectorQuantization]] for candidate inclusion before full-vector refinement, while the current interested-party comparison reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings. Evidence: [[ApproximateNearestNeighborSearch]], [[KVCacheCompression]], [[RaBitQ]], [[TurboQuant]], [[VectorQuantization]], [[HAKES]], [[HAKESIndex]].
 - Classification must identify the unit and its life-cycle context before applying a label: [[PloidyAndOrganismStatus]] separates chromosome-set count from biological individuality because haploidy can describe a whole organism, a multicellular stage, or one specialized cell. Evidence: [[PloidyAndOrganismStatus]], [[Xiaoyong]].
 
 ### Culture and Media

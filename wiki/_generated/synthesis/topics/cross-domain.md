@@ -3,28 +3,29 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-10-13
-as_of_overview_commit: b36e972f7b97914b3c1ac692813474ced35a8851
-input_digest: 7adff98da82f31243228dd4ce8b398f46f8b79f8a76339533a1cb6d9915d8fa8
+last_updated: 2026-10-15
+as_of_overview_commit: 04f1486c9efac658de017b5755d71930051cac38
+input_digest: 0351c29e7e158d075a6cc21f117b03c4d24d0567f9083d58d16a8e4b1b98209e
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize explicit units, boundaries, objectives, and execution conditions across vector quantization, biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery. Durable judgments identify what is being classified or controlled, expose hidden flows and inherited constraints, and make ownership, comparison conditions, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.
+Cross-domain sources emphasize explicit units, boundaries, objectives, and execution conditions across vector quantization and distributed vector indexing, biological classification, network fabrics, conversational platforms, process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, managed-service composition, and disaster recovery. Durable judgments identify what is being classified or controlled, expose hidden flows and inherited constraints, and make ownership, comparison conditions, recovery paths, discovery mechanisms, evidence limits, and tradeoffs inspectable.
 
 ## Cross-source Findings
 
 ### Fair Comparison Needs Matched Objectives And Execution
 
-Fair [[VectorQuantization]] comparison must align objectives, metadata, estimators, hardware, and executable artifacts: the current interested-party evidence reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings, while their 3.5-bit cache quality is close.
+Approximation must be judged against its pipeline objective and execution conditions: [[HAKESIndex]] trains [[VectorQuantization]] for candidate inclusion before full-vector refinement, while the current interested-party comparison reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings.
 
-**Evidence:** [[ApproximateNearestNeighborSearch]], [[KVCacheCompression]], [[RaBitQ]], [[TurboQuant]], [[VectorQuantization]]
+**Evidence:** [[ApproximateNearestNeighborSearch]], [[KVCacheCompression]], [[RaBitQ]], [[TurboQuant]], [[VectorQuantization]], [[HAKES]], [[HAKESIndex]]
 
 **Qualifications:**
 
-- The detailed comparison is written primarily by RaBitQ researchers, changes or repairs some implementation paths, and relies partly on private correspondence, so its runtime, recall, and baseline-symmetry findings still need independent replication.
+- The detailed quantizer comparison is written primarily by RaBitQ researchers, changes or repairs some implementation paths, and relies partly on private correspondence, so its runtime, recall, and baseline-symmetry findings still need independent replication.
+- HAKES is also first-party, in-memory, and implementation-sensitive; its systems have unequal feature and runtime stacks, and the design trades away strong consistency.
 
 ### Classification Needs Unit And Lifecycle Context
 

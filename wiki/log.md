@@ -9473,6 +9473,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-15] ingest | HAKES: Scalable Vector Database for Embedding Search Service
+
+Created [[HAKES]] and [[HAKESIndex]], and updated [[ApproximateNearestNeighborSearch]] and [[VectorQuantization]] from their complete ordered evidence inventories. Captured learned local-distribution-preserving compression, exact candidate refinement, decoupled insert and search parameters, heuristic early termination, append-oriented writes, and independent scaling of replicated IndexWorkers and sharded RefineWorkers. Preserved premature-termination risk, rebuild boundaries, lack of strong consistency, implementation-sensitive baseline comparisons, and missing production and independent-reproduction evidence. Opened all 23 referenced visuals, retained nine evidence-bearing architecture, benchmark, ablation, and scaling assets at their semantic positions with a canonical manifest, and omitted prose-redundant equations, introductory diagrams, duplicate tables, and secondary plots.
+
 ## [2026-10-15] ingest | Lody: 随时随地指挥你的 Agent 团队
 
 Created [[Lody]], [[Loro]], and [[LeonZhao]], and updated [[LocalFirstSoftware]] and [[AgentTeam]] from their complete ordered evidence inventories. Recorded cross-device coding-agent control, agent-only worktree isolation, ACP-based model switching, inspectable diffs and PR state, CRDT convergence and its intent-correctness boundary, the proposed “Git for context,” and heterogeneous model routing. Preserved the founder-authored and unbenchmarked scope, missing encryption and conflict evidence, roadmap status of the context and leader layers, secondhand multi-agent citation, and speculative tenfold-speed premise. Opened all 16 unique remote images, retained four evidence-bearing topology, desktop, mobile, and external-post images at their semantic positions, and omitted the cover, dividers, repeated summary cards, prose-redundant slides, and one duplicate reference.
@@ -9485,13 +9489,13 @@ Created [[AgenticCodeSearchRecall]] and updated [[MarioZechner]], [[AICodingPrac
 
 Ran lint. See lint-report.md for details.
 
-## [2026-10-15] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
-
 ## [2026-10-15] ingest | 如何不背公式解开魔方：小学生也能看懂
 
 Created [[ErnoRubik]], [[RubiksCubeSolving]], [[GroupTheory]], [[Commutators]], and [[RouxMethod]]. Captured the 3×3 state-space motivation, non-commuting `R U` and `U R` turns, the setup-act-restore interpretation of commutators, Roux bridge construction, corner three-cycles, and last-six-edge orientation and placement. Preserved the distinction between reducing rote memorization and literally eliminating algorithms, the tutorial's simplified group-theory language, its single-scramble scope, and its unsupported all-variants and 90-second claims. Opened all 28 unique remote images across representative animation frames, retained seven non-duplicative evidence-bearing visuals at their semantic positions with a canonical manifest, and omitted completed-state, portrait, variant, interface, redundant intermediate, and duplicate images.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-15] lint | Wiki health check
 

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "p3049-ooi",
+  "images": [
+    {
+      "file": "hakes-index-search-insert-architecture.png",
+      "alt": "HAKES-Index architecture showing separate learned search parameters and initialized insert parameters over compressed partitions and full vectors"
+    },
+    {
+      "file": "end-to-end-index-construction.png",
+      "alt": "HAKES-Index construction from base indexing through self-supervised compression training and installation without index rebuild"
+    },
+    {
+      "file": "distributed-index-refine-workers.png",
+      "alt": "HAKES distributed architecture with replicated compute-heavy IndexWorkers and sharded full-vector RefineWorkers"
+    },
+    {
+      "file": "sequential-read-throughput-recall.png",
+      "alt": "Throughput-recall curves comparing HAKES-Index with twelve ANN baselines across five high-dimensional datasets"
+    },
+    {
+      "file": "concurrent-read-write-index-throughput.png",
+      "alt": "Concurrent read-write throughput showing partitioning indexes retaining more throughput than HNSW as write ratio rises"
+    },
+    {
+      "file": "learned-compression-recall-table.png",
+      "alt": "Recall table showing learned HAKES compression outperforming base parameters across probe and candidate ratios on two ten-million-scale datasets"
+    },
+    {
+      "file": "search-insert-parameter-decoupling.png",
+      "alt": "Recall comparison showing stable quality with decoupled search and insert parameters and degradation when learned parameters replace insert parameters"
+    },
+    {
+      "file": "distributed-read-scaling.png",
+      "alt": "Read-only scaling curves showing HAKES throughput rising nearly linearly while distributed vector database baselines flatten"
+    },
+    {
+      "file": "distributed-concurrent-read-write-throughput.png",
+      "alt": "Concurrent workload throughput comparing HAKES and five distributed vector database baselines at increasing write ratios"
+    }
+  ]
+}

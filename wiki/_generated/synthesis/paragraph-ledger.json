@@ -548,6 +548,7 @@
       "e19f58d40d13b532d0b3c96405f0f3831250ddd8d23583ab20ca29c3491e2336",
       "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
       "dd0b1158b5d5036fa70446ae38d0256cd60d044c7a5433fdf82482c86bf6bc01",
+      "7cfc0ed726cee3659d7d71d4a2c03433efab92bf59a432e445cb5a594b97760d",
       "8d480cf0539c3da3e6252385d11cd2e75d9108bddf13d309e37d908b50745782",
       "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
       "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
@@ -833,10 +834,10 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 831
+    "paragraph_count": 832
   },
-  "overview_commit": "d837f470ea1286a4172d1bcf5a80526f646a2e12",
-  "overview_digest": "9e633cebff0067440240b8112a35bf67561017e9ed76dad150c59c910507ed70",
+  "overview_commit": "04f1486c9efac658de017b5755d71930051cac38",
+  "overview_digest": "942c2785d0dc5666e3186f485f0e4b76af0a7ee61754852f013559e7ec1c517c",
   "paragraphs": [
     {
       "id": "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
@@ -11297,6 +11298,18 @@
         "Pgvector",
         "PostgreSQL",
         "VectorDatabase"
+      ]
+    },
+    {
+      "id": "7cfc0ed726cee3659d7d71d4a2c03433efab92bf59a432e445cb5a594b97760d",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The HAKES paper adds a mutable, distributed systems layer to that vector-search thread. [[HAKESIndex]] treats ANN as an explicit filter-and-refine pipeline: dimensionality reduction, IVF, and 4-bit [[VectorQuantization]] cheaply nominate candidates, while full vectors recover final ranking quality. Its self-supervised objective preserves local similarity-score distributions rather than global reconstruction, and separate initialized insert parameters let learned search parameters be installed without rewriting stored codes. [[HAKES]] maps those stages onto replicated IndexWorkers and sharded RefineWorkers so filter compute and full-vector storage scale independently. The selected figures show learned compression improving recall at fixed search budgets, stable recall only when insert/search parameters remain decoupled, and near-linear one-to-eight-node scaling where sharded graph baselines flatten. These remain author-run, in-memory, implementation-sensitive results: HAKES lacks strong consistency, compares systems with unequal feature and runtime stacks, and does not establish production security, multi-tenancy, cost, or independent reproducibility. All 23 referenced visuals were opened; nine evidence-bearing architecture, benchmark, ablation, and scaling visuals were retained canonically at their semantic positions, while prose-redundant equations, introductory diagrams, duplicate tables, and secondary plots were omitted.",
+      "topic_scores": {},
+      "wikilinks": [
+        "HAKES",
+        "HAKESIndex",
+        "VectorQuantization"
       ]
     },
     {
