@@ -9528,3 +9528,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-15] ingest | Notes on RL: Policy Gradient & Log Derivative Trick
 
 Created [[PolicyGradient]], [[MonteCarloEstimation]], [[LogDerivativeTrick]], and [[ScoreFunctionEstimator]], and updated [[ReinforcementLearning]] from its complete ordered evidence inventory. Captured the expectation-to-sample-average bridge, likelihood-ratio identity, score-function gradient, trajectory factorization, parameter-independent environment terms, and automatic-differentiation loss. Preserved the tutorial scope, full-trajectory-return variance, omitted baselines and reward-to-go, and one apparent intermediate algebraic typo. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-15] ingest | The Eternal Sloptember
+
+Created [[GeorgeHotz]] and [[Tinygrad]], and updated [[AICodingPractice]], [[BottleneckAwareAICoding]], and [[OrganizationalScaleTradeoffs]] from their complete ordered evidence inventories. Captured the reported prototype-to-polish failure pattern, weakening of syntax and grammar as quality proxies, task-selective use for search and disposable prototypes, human error correction as a trust boundary, and the forecast that slow feedback and output incentives amplify generated-code quality risk in large organizations. Preserved the essay's first-person and polemical scope, missing timed comparisons and defect or maintenance data, untested organizational and macOS predictions, hearsay Apple example, and unsupported necessity claim for world models. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Eternal Sloptember](sources/the-eternal-sloptember.md) - George Hotz argues that coding agents front-load plausible progress while shifting error correction, polish, and organizational quality risk onto humans.
 - [SymphonyQG: Towards Symphonious Integration of Quantization and Graph for Approximate Nearest Neighbor Search](sources/2411.12229.md) - Gou and collaborators co-design RaBitQ, FastScan, graph traversal, data layout, and graph construction for higher-throughput in-memory ANN with an explicit memory premium.
 - [Belief Revision and Incongruity: Is It a Joke?](sources/2309.02009.md) - Dupin de Saint-Cyr and Prade formalize listener-relative surprise, revelation, and norm-violating incongruity through belief revision and nonmonotonic reasoning.
 - [HAKES: Scalable Vector Database for Embedding Search Service](sources/p3049-ooi.md) - Hu and collaborators combine learned filter-and-refine indexing, decoupled insert/search parameters, and independently scalable filter and refine workers for high-recall mutable vector search.
@@ -1214,6 +1215,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [George Hotz](entities/GeorgeHotz.md) - Programmer arguing from systems-work experiments that current coding agents lack reliable error correction and finishing discipline.
+- [Tinygrad](entities/Tinygrad.md) - Software project used by George Hotz as a real-world testbed for agent-assisted systems programming.
 - [SymphonyQG](entities/SymphonyQG.md) - In-memory graph ANN project co-designing RaBitQ codes, FastScan batches, implicit reranking, and graph construction.
 - [Florence Dupin de Saint-Cyr](entities/FlorenceDupinDeSaintCyr.md) - AI researcher coauthoring a formal account of joke comprehension through belief revision, default reasoning, and norm violation.
 - [Henri Prade](entities/HenriPrade.md) - AI researcher connecting possibility theory, nonmonotonic reasoning, and listener-relative joke interpretation.
