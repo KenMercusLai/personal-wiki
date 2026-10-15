@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "flashattention-1",
+  "images": [
+    {
+      "file": "gpu-memory-hierarchy.jpg",
+      "alt": "GPU storage hierarchy with SRAM above HBM and CPU DRAM"
+    },
+    {
+      "file": "program-id-vector-partition.jpg",
+      "alt": "Program IDs selecting equal four-element vector partitions"
+    },
+    {
+      "file": "naive-attention-hbm-traffic.jpg",
+      "alt": "Naive attention storing and reloading score and probability matrices in HBM"
+    },
+    {
+      "file": "per-query-streaming-attention.jpg",
+      "alt": "Per-query attention streaming keys and values while still materializing sequence-length intermediates"
+    },
+    {
+      "file": "fused-streaming-attention.jpg",
+      "alt": "Final fused streaming attention pseudocode with scalar denominator and vector output accumulator"
+    }
+  ]
+}

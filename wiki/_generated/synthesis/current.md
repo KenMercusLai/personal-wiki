@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-15
-as_of_overview_commit: 404fd4a6268c394f904841cd4679e1cdcf8ea97d
+as_of_overview_commit: dd1fef3b80e4fee597069dadea65ce48c97a0097
 summary: "A cross-domain evidence map for matching tools and institutions to real needs while preserving accountable judgment, explicit boundaries, and uncertainty."
-episode_count: 1184
-source_count: 1184
-paragraph_count: 833
+episode_count: 1185
+source_count: 1185
+paragraph_count: 834
 topic_count: 9
 ---
 
@@ -82,7 +82,7 @@ Scientific and health claims require mechanism, measurement, representative popu
 
 ### Work, Education, and Society
 
-Learning and sustainable work depend on feedback, mentorship, role clarity, psychological safety, realistic capacity, and durable institutions.
+Learning and sustainable work depend on feedback, mentorship, role clarity, psychological safety, realistic capacity, and durable institutions; technical teaching also needs clear boundaries between intuition and production evidence.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

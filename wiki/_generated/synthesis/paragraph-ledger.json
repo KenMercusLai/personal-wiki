@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "69aad3644774166171f0dfc355bec111565764c40b7082aa49b14b4d6eb35b87",
       "8af697e616ad10722b1ba20fb406cba609aa3f3b4d5d1ea0d1c86266d01658d0",
       "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
       "b3bec3ed083b609ada4349daa54c59b2cb5cc47d09edec29d432cd5476cbb853",
@@ -835,11 +836,27 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 833
+    "paragraph_count": 834
   },
-  "overview_commit": "404fd4a6268c394f904841cd4679e1cdcf8ea97d",
-  "overview_digest": "471bdfdd8b3b5ccbe40bcf651a20d298c41af96b652b5904dd122834df6d5e1e",
+  "overview_commit": "dd1fef3b80e4fee597069dadea65ce48c97a0097",
+  "overview_digest": "c741704a3100dfa13a856b273d667335331f00be71ce9a1ac597175e3a805ca1",
   "paragraphs": [
+    {
+      "id": "69aad3644774166171f0dfc355bec111565764c40b7082aa49b14b4d6eb35b87",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[ZhouYifan]] tutorial adds an implementation layer to the wiki's mathematical account of [[AttentionMechanism]]. New [[GPUMemoryHierarchy]] treats CPU DRAM, GPU HBM, and bounded on-chip storage as a capacity-versus-speed hierarchy, while [[OperatorFusion]] explains why reusing loaded inputs and retaining intermediates locally can matter more than changing arithmetic. The tutorial's simplified [[FlashAttention]] derivation assigns independent query outputs to GPU programs, streams keys and values, accumulates `exp(q·kᵢ)vᵢ` together with the softmax denominator, and normalizes once after the loop, thereby avoiding `[SL, SL]` score and probability materialization in HBM. The conceptual result is intentionally narrower than production FlashAttention: it omits stable online softmax, block tiling, score scaling, masking, batching, multiple heads, backward recomputation, real kernels, and benchmarks. All 20 local images were opened; five non-duplicative memory-hierarchy, work-partitioning, memory-traffic, per-query baseline, and final fused-algorithm diagrams were retained at their semantic positions, while formula diagrams and intermediate rewrites fully represented by the retained progression and prose were omitted.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionMechanism",
+        "FlashAttention",
+        "GPUMemoryHierarchy",
+        "OperatorFusion",
+        "ZhouYifan"
+      ]
+    },
     {
       "id": "8af697e616ad10722b1ba20fb406cba609aa3f3b4d5d1ea0d1c86266d01658d0",
       "primary_topic": "ai-and-technology",

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [不会 CUDA 也能轻松看懂的 FlashAttention 教程（算法原理篇）](sources/flashattention-1.md) - Zhou Yifan derives a simplified fused streaming attention loop from GPU memory traffic, operator fusion, and query-parallel decomposition while distinguishing it from the full FlashAttention algorithm.
 - [The Eternal Sloptember](sources/the-eternal-sloptember.md) - George Hotz argues that coding agents front-load plausible progress while shifting error correction, polish, and organizational quality risk onto humans.
 - [SymphonyQG: Towards Symphonious Integration of Quantization and Graph for Approximate Nearest Neighbor Search](sources/2411.12229.md) - Gou and collaborators co-design RaBitQ, FastScan, graph traversal, data layout, and graph construction for higher-throughput in-memory ANN with an explicit memory premium.
 - [Belief Revision and Incongruity: Is It a Joke?](sources/2309.02009.md) - Dupin de Saint-Cyr and Prade formalize listener-relative surprise, revelation, and norm-violating incongruity through belief revision and nonmonotonic reasoning.
@@ -1215,6 +1216,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [Zhou Yifan](entities/ZhouYifan.md) - Chinese-language technical author explaining FlashAttention's memory-avoidance intuition for readers without CUDA experience.
 - [George Hotz](entities/GeorgeHotz.md) - Programmer arguing from systems-work experiments that current coding agents lack reliable error correction and finishing discipline.
 - [Tinygrad](entities/Tinygrad.md) - Software project used by George Hotz as a real-world testbed for agent-assisted systems programming.
 - [SymphonyQG](entities/SymphonyQG.md) - In-memory graph ANN project co-designing RaBitQ codes, FastScan batches, implicit reranking, and graph construction.
@@ -3141,6 +3143,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [FlashAttention](concepts/FlashAttention.md) - Attention implementation family that reorganizes exact computation around bounded on-chip state to avoid materializing quadratic intermediates in HBM.
+- [Operator Fusion](concepts/OperatorFusion.md) - Combining adjacent operations so shared inputs and intermediates remain in fast local memory rather than round-tripping through slower memory.
+- [GPU Memory Hierarchy](concepts/GPUMemoryHierarchy.md) - Capacity and access-speed hierarchy across host DRAM, GPU HBM, and on-chip local storage that constrains accelerator dataflow.
 - [Belief Revision](concepts/BeliefRevision.md) - Minimal-change integration of new information represented by selecting preferred compatible interpretations.
 - [Nonmonotonic Reasoning](concepts/NonmonotonicReasoning.md) - Defeasible inference from incomplete information whose conclusions can be withdrawn when exceptions arrive.
 - [Computational Humor](concepts/ComputationalHumor.md) - Formal or computational modeling of humorous material and its cognitive or social interpretation.

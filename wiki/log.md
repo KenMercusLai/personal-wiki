@@ -9536,3 +9536,11 @@ Created [[GeorgeHotz]] and [[Tinygrad]], and updated [[AICodingPractice]], [[Bot
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | 不会 CUDA 也能轻松看懂的 FlashAttention 教程（算法原理篇）
+
+Created [[FlashAttention]], [[OperatorFusion]], [[GPUMemoryHierarchy]], and [[ZhouYifan]], and updated [[AttentionMechanism]] and [[ParallelProgramming]] from their complete ordered evidence inventories. Captured HBM/SRAM data movement, ID-based GPU work partitioning, quadratic attention intermediates, per-query streaming, fused exponential score and value accumulation, and deferred normalization. Preserved the author's explicit boundary that the tutorial is not the full FlashAttention algorithm and its omissions of stable online softmax, block tiling, score scaling, masking, batching, multiple heads, backward recomputation, real kernels, and benchmarks. Opened all 20 local images, retained five evidence-bearing hierarchy, partitioning, memory-traffic, baseline, and final-algorithm diagrams at their semantic positions with a canonical manifest, and omitted prose-redundant equations and intermediate rewrites.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
