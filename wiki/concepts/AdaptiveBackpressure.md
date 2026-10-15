@@ -5,7 +5,8 @@ tags: [distributed-systems, backpressure, load-shedding, concurrency, queues]
 sources:
   - health-checks-and-graceful-degradation-in-distributed-systems
   - how-we-found-a-bug-in-the-hyper-http-library
-last_updated: 2026-10-14
+  - lychee-recursion
+last_updated: 2026-10-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,12 +20,14 @@ The Imgix case combines local and upstream decisions. Workers could refuse indiv
 
 The Cloudflare Images incident adds a correctness boundary below admission control. A reader that paused for only milliseconds could fill a Unix socket's outbound buffer, causing hyper's flush to return `Poll::Pending`. Backpressure itself was legitimate, but hyper discarded that signal and shut down before its internal buffer drained. This distinguishes backpressure from overload: even a brief local capacity mismatch must be propagated through asynchronous lifecycle control so that completion waits rather than silently losing data.
 
+The [[Lychee]] recursion attempts add a topology boundary. A bounded request channel can regulate a one-way producer, yet deadlock when the response consumer is also a recursive producer: once the request channel fills, the handler blocks sending discoveries, stops draining responses, and prevents request capacity from being released. Moving sends into detached tasks restores response progress but can replace bounded queue growth with unbounded tasks and memory. Backpressure therefore needs an acyclic escape path or a coordination design that preserves both bounded admission and consumer progress.
+
 ## Key Claims
 - Unbounded concurrency is a common route from rising demand to queueing, latency, timeouts, retries, and sustained degradation.
 - Feedback should reflect current application capacity rather than only static infrastructure thresholds.
 - Admission decisions can be request-specific when work items have materially different cost.
 - Backpressure must propagate through the call chain or excess work accumulates elsewhere.
-- Bounded queues and explicit rejection make overload behavior finite and observable.
+- Bounded queues and explicit rejection make overload behavior finite and observable only when producers cannot block the consumer that must release capacity.
 - Local decision-making can scale without global coordination, but does not eliminate the need for broader rate limits.
 - Backpressure is also a correctness signal: an incomplete write must prevent shutdown or other terminal state changes until buffered data is delivered or an error is surfaced.
 
@@ -37,15 +40,16 @@ The Cloudflare Images incident adds a correctness boundary below admission contr
 - Socket-level trigger: [[how-we-found-a-bug-in-the-hyper-http-library]] says a briefly slower reader filled the outbound buffer during large responses and caused `poll_flush` to return `Poll::Pending`.
 - Lost signal: [[how-we-found-a-bug-in-the-hyper-http-library]] traces data loss to the state machine discarding pending flush status and issuing shutdown with bytes still buffered.
 - Controlled validation: [[how-we-found-a-bug-in-the-hyper-http-library]] reproduces the condition with a stream that accepts one chunk and then blocks, confirming that the fix waits.
+- Cyclic deadlock: [[lychee-recursion]] reports a full bounded request channel blocking the response handler that had to drain responses before request slots could become available.
+- Displacement risk: [[lychee-recursion]] says spawning recursive sends avoided the direct deadlock but allowed an unbounded number of background tasks to accumulate.
 
 ## Counterevidence & Qualifications
-Backpressure moves, delays, or limits work; it does not create capacity. Retries can worsen overload unless attempts, budgets, and backoff are bounded. Local decisions may be mutually inconsistent or unfair, while centralized coordination can become a bottleneck. The Spillway source does not compare its policy with alternatives or provide quantitative outcomes. The Cloudflare incident is not a general overload study: a temporary reader pause exposed a pre-existing hyper defect, and its first-party account provides no fleet-wide incidence or measured reader-speed comparison. Its initial dispatch-loop fix also shows that propagating `Pending` at the wrong layer can reduce unrelated progress or break keepalive semantics.
+Backpressure moves, delays, or limits work; it does not create capacity. Retries can worsen overload unless attempts, budgets, and backoff are bounded. Local decisions may be mutually inconsistent or unfair, while centralized coordination can become a bottleneck. The Spillway source does not compare its policy with alternatives or provide quantitative outcomes. The Cloudflare incident is not a general overload study: a temporary reader pause exposed a pre-existing hyper defect, and its first-party account provides no fleet-wide incidence or measured reader-speed comparison. Its initial dispatch-loop fix also shows that propagating `Pending` at the wrong layer can reduce unrelated progress or break keepalive semantics. The lychee account is a maintainer retrospective rather than a measured queueing study, and its detached-send workaround demonstrates a failure transfer rather than a validated solution.
 
 ## What Changed
-- Added asynchronous I/O readiness as a correctness-bearing backpressure signal, not only an overload-control input.
-- Distinguished brief local buffer saturation from service-wide overload.
-- Added the requirement that terminal lifecycle actions wait for buffered work or surface failure.
-- Preserved the placement tradeoff: reacting too early in a dispatch loop can impede reads and keepalive behavior.
+- Added cyclic producer-consumer topology as a condition under which bounded channels can deadlock.
+- Distinguished bounded admission from bounded total work when blocked sends move into detached tasks.
+- Added continued consumer progress as a design requirement for recursive backpressure paths.
 
 ## Related Concepts
 - [[ServiceHealthChecks]] - capacity-sensitive health is the feedback signal used by upstream controllers.
@@ -56,3 +60,4 @@ Backpressure moves, delays, or limits work; it does not create capacity. Retries
 - [[Hyper]] - mishandled a pending socket flush until shutdown was changed to await it.
 - [[RaceCondition]] - flush and shutdown ordering turned ordinary buffer pressure into intermittent truncation.
 - [[ServiceObservability]] - syscall traces showed whether queued bytes actually crossed the socket boundary.
+- [[DistributedTerminationDetection]] - completion accounting and capacity control are separate obligations in a dynamic recursive pipeline.

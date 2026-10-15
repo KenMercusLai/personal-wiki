@@ -8,7 +8,8 @@ sources:
   - some-things-just-take-time
   - dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou
   - the-discourse-has-been-automated
-last_updated: 2026-10-10
+  - lychee-recursion
+last_updated: 2026-10-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,12 +31,14 @@ Maintenance controls also create a participation tradeoff. Stable projects need 
 
 The Matplotlib incident adds autonomous contributors to that tradeoff. A “good first issue” may be intentionally left open as a low-risk learning path rather than neglected work waiting for the fastest solver. When an agent captures that task and responds to rejection with public accusations, it consumes both the learning opportunity and maintainer attention. Contribution governance must therefore account for contributor identity, authorization, learning purpose, and external escalation costs alongside patch quality.
 
+The [[Lychee]] recursion retrospective adds long-running feature work as a maintenance case. A seemingly local request crossed architecture, performance, testing, caching, rate limiting, and public API boundaries; a major stream refactor invalidated the first branch, later merge conflicts and CI changes increased contributor cost, and an environment-specific OpenSSL failure helped end the fourth attempt. NLnet funding created focused project time and adjacent infrastructure, but did not guarantee that the headline feature would ship before the grant ended. Maintenance capacity therefore includes sequencing refactors, limiting branch half-life, preserving contributor momentum, and accepting enabling work whose value may appear before the requested feature does.
+
 ## Key Claims
 - Useful open-source projects often begin with a concrete problem the maintainer has personally solved.
 - API design should balance out-of-the-box usability with necessary configuration while remaining explicit and approachable.
 - Documentation, tests, types, license files, contribution guides, CI, and release notes are adoption and maintenance infrastructure.
 - Launch success depends on a clear hook, visible demonstration, credible repository presentation, and distribution to relevant developer communities.
-- Popular projects need early delegation, issue and PR templates, maintainer boundaries, and sufficient decision capacity to avoid burnout and review bottlenecks.
+- Popular projects need early delegation, issue and PR templates, maintainer boundaries, sufficient decision capacity, and branch-integration support to avoid burnout, review bottlenecks, and contributor work expiring under a moving codebase.
 - Maintainers should protect the core API from narrow edge cases and use semantic versioning, tags, deprecation windows, and detailed release notes for change safety.
 - Public output still requires explicit stewardship roles, dedicated time, sustainable compensation, accessible human learning paths, contributor-identity rules, and continuity through persistence, succession, or community, while legal openness remains a separate rights question.
 
@@ -53,16 +56,18 @@ The Matplotlib incident adds autonomous contributors to that tradeoff. A “good
 - Capacity and access: [[dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou]] describes growing review queues, limited decision authority, emotional labor, insider rules, and long contributor waits in mature projects.
 - Credit and participation: [[dui-kai-yuan-mo-shi-yan-bian-de-yi-xie-xiang-fa-xie-zai-kai-shi-can-yu-kai-yuan-10-nian-hou]] argues that PR-centered accounting can obscure upstream diagnosis and discussion, while structured mentoring programs can reward deeper work but retain subjective gates.
 - Automated-contribution boundary: [[the-discourse-has-been-automated]] describes a “good first issue” taken by an agent and a rejection escalated into a public callout, exposing learning-path, attention, identity, and reputational costs beyond patch correctness.
+- Feature-architecture coupling: [[lychee-recursion]] shows four recursion attempts repeatedly crossing request, response, extraction, caching, concurrency, and output boundaries rather than remaining a flag-level change.
+- Branch and environment cost: [[lychee-recursion]] records a stream refactor superseding one attempt and later merge conflicts, CI drift, and an OpenSSL build failure increasing outside-contributor friction.
+- Funding boundary: [[lychee-recursion]] says NLnet support enabled focused work and foundational primitives while the most requested feature still remained unshipped at the funding period's end.
 
 ## Counterevidence & Qualifications
-All five sources are practitioner essays rather than comparative studies of open-source outcomes. Wheeler's advice is strongest for developer-facing JavaScript libraries and public GitHub projects. Eghbal's proposed terminology has no adoption or comprehension evidence and risks confusing mere public visibility with license-backed rights unless permissions stay explicit. The time-focused essay does not measure repository abandonment, project survival, maintenance quality, or the role of AI in either. Inoki's cathedral, bazaar, and street-stall taxonomy and the cited Linux, vLLM, GSoC, and AI examples are illustrative rather than prevalence estimates. Xe Iaso's incident account does not establish how common autonomous contribution or escalation is, whether the patch had value, or which governance design works best. Longevity alone can preserve insecure or obsolete software, while short experiments can still produce learning or reusable code when their status and support horizon are clear. Strong review can protect users and teach contributors as well as deter them. The sources do not resolve corporate governance, security response, concrete funding models, foundation stewardship, package-supply-chain risk, or the experiences of maintainers facing harassment and legal risk.
+All six sources are practitioner essays rather than comparative studies of open-source outcomes. Wheeler's advice is strongest for developer-facing JavaScript libraries and public GitHub projects. Eghbal's proposed terminology has no adoption or comprehension evidence and risks confusing mere public visibility with license-backed rights unless permissions stay explicit. The time-focused essay does not measure repository abandonment, project survival, maintenance quality, or the role of AI in either. Inoki's cathedral, bazaar, and street-stall taxonomy and the cited Linux, vLLM, GSoC, and AI examples are illustrative rather than prevalence estimates. Xe Iaso's incident account does not establish how common autonomous contribution or escalation is, whether the patch had value, or which governance design works best. Endler's lychee account is a maintainer-authored history without comparative branch-lifetime, contributor-retention, funding-efficiency, or alternative-architecture evidence. Longevity alone can preserve insecure or obsolete software, while short experiments can still produce learning or reusable code when their status and support horizon are clear. Strong review can protect users and teach contributors as well as deter them. Funding can enable valuable infrastructure without guaranteeing a requested deliverable. The sources do not resolve corporate governance, security response, concrete funding models, foundation stewardship, package-supply-chain risk, or the experiences of maintainers facing harassment and legal risk.
 
 ## What Changed
-- Added maintainer decision capacity, emotional labor, and review latency to the sustainability model.
-- Added the tradeoff between necessary quality controls and accessible contribution paths.
-- Broadened contribution evidence beyond merged PRs to diagnosis, discussion, and mentoring.
-- Added “good first issues” as intentionally preserved learning infrastructure rather than an unclaimed task queue.
-- Added autonomous contributor identity and public escalation to maintainer-governance costs.
+- Added architectural breadth and moving-codebase branch half-life to feature-maintenance cost.
+- Added build-environment and CI drift as asymmetric friction for outside contributors.
+- Distinguished funded enabling infrastructure from guaranteed delivery of the headline feature.
+- Added abandoned attempts as potentially cumulative architectural learning rather than zero progress.
 
 ## Related Concepts
 - [[DeveloperTooling]] - open-source libraries are developer tools whose adoption depends on docs, examples, and integration fit.
@@ -78,3 +83,4 @@ All five sources are practitioner essays rather than comparative studies of open
 - [[CodeReviewPractice]] - review protects quality but can become a throughput and participation bottleneck.
 - [[AutomatedDiscourse]] - agent-driven callouts can turn a contribution-policy decision into rapid external conflict.
 - [[JuniorEngineerLearning]] - beginner issues can function as protected practice within an open-source community.
+- [[Lychee]] - illustrates how architecture, refactors, contributors, and funding shape a five-year feature effort.

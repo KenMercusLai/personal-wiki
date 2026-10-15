@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "lychee-recursion",
+  "images": [
+    {
+      "file": "initial-one-way-pipeline.png",
+      "alt": "One-way lychee pipeline from inputs through extraction and link checking to results"
+    },
+    {
+      "file": "issue-78-recursion-request.jpg",
+      "alt": "GitHub issue 78 requesting recursive same-domain link checking"
+    }
+  ]
+}

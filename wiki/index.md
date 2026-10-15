@@ -1208,8 +1208,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apps, Agents, and Aggregation](sources/apps-agents-and-aggregation.md) - Ben Thompson argues that computer-using agents can abstract apps, generate personal UI, and aggregate inspiration and execution, using Muse and Microsoft Copilot as consumer and enterprise cases.
 
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
+- [Five Years of Trying to Add Recursion to lychee](sources/lychee-recursion.md) - Matthias Endler's retrospective traces four failed recursion designs through dynamic-work termination, cyclic channel deadlocks, backpressure, deduplication, Rust ownership, and the infrastructure that now makes a solution plausible.
 
 ## Entities
+- [lychee](entities/Lychee.md) - Open-source Rust link checker whose one-way asynchronous pipeline has resisted recursive crawling despite four implementation attempts.
 - [HAKES](entities/HAKES.md) - Distributed vector database that replicates a compressed global filter index and shards full vectors for independent compute and storage scaling.
 - [Ernő Rubik](entities/ErnoRubik.md) - Hungarian architecture professor credited with creating the first Rubik's Cube prototype in 1974.
 - [Lody](entities/Lody.md) - Cross-platform control plane and proposed local-first team workspace for coding agents.
@@ -3130,6 +3132,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Distributed Termination Detection](concepts/DistributedTerminationDetection.md) - Detecting quiescence when asynchronous work can dynamically create further work and no local empty state proves global completion.
 - [Group Theory](concepts/GroupTheory.md) - Study of invertible transformations under composition, introduced here through order-sensitive cube moves.
 - [Commutators](concepts/Commutators.md) - Transformation pattern combining two operations and their inverses to concentrate change while restoring surrounding structure.
 - [Roux Method](concepts/RouxMethod.md) - Block-building 3×3 approach that forms two 1×2×3 bridges before solving corners and the last six edges.

@@ -9500,3 +9500,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | Five Years of Trying to Add Recursion to lychee
+
+Created [[Lychee]] and [[DistributedTerminationDetection]], and updated [[AdaptiveBackpressure]], [[ConcurrencyFailureModes]], and [[OpenSourceProjectMaintenance]] from their complete ordered evidence inventories. Captured the one-way pipeline's missing feedback edge, four failed counter, channel, semaphore, and atomic-counter designs, cyclic closure and backpressure deadlocks, duplicate-admission races, Rust ownership friction, and the later `WaitGroup`, `HostPool`, unified-fetching, and sitemap primitives. Preserved the maintainer-authored scope, unshipped feature status, open response-body path, and missing end-to-end benchmarks. Opened all three effective local images, retained the evidence-bearing issue screenshot and pipeline diagram at their semantic positions with a canonical manifest, and omitted the animated terminal screencast as a decorative product demo.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
