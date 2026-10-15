@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "23574da14e992258b0dfc4a588f2ee02184b2ad34a0ca99a7031b995e3123217",
       "69aad3644774166171f0dfc355bec111565764c40b7082aa49b14b4d6eb35b87",
       "8af697e616ad10722b1ba20fb406cba609aa3f3b4d5d1ea0d1c86266d01658d0",
       "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
@@ -836,11 +837,27 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 834
+    "paragraph_count": 835
   },
-  "overview_commit": "dd1fef3b80e4fee597069dadea65ce48c97a0097",
-  "overview_digest": "c741704a3100dfa13a856b273d667335331f00be71ce9a1ac597175e3a805ca1",
+  "overview_commit": "98df01005a6c1d0760f57b34baa303207cc00a22",
+  "overview_digest": "31c44cf43b89f647943b72c51c5d41190a36ce70e0c2371a185a72688db1d1e4",
   "paragraphs": [
+    {
+      "id": "23574da14e992258b0dfc4a588f2ee02184b2ad34a0ca99a7031b995e3123217",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest object-storage source adds [[DuckDBObjectStorage]] as a concrete [[ObjectStorageNativeDatabase]] design. Instead of translating DuckDB tables into Parquet and coordinating them through a separate catalog, the extension leaves [[DuckDB]]'s storage engine and format unchanged and replaces the filesystem beneath them. A C++ shim and Rust core map the 12 KiB header and 256 KiB blocks onto path, metadata, and content keys in [[SlateDB]], while [[ApacheOpenDAL]] supplies S3-compatible, local, and memory backends. Atomic write batches make `FileSync` durable in the bucket; transactional path updates implement checkpoint renames; and complete manifest refreshes let many readers move among committed versions while one writer is protected by eventual fencing. This preserves indexes, enforced constraints, WAL, checkpoints, catalog objects, adaptive compression, small writes, and extensions, but makes the representation DuckDB-only rather than an open multi-engine table format. The first-party Apple M4 results report 0.92× native time for memory-backend reads, 1.08× for local disk, and 1.20× for cold S3 against HTTPFS, while local writes fall to 0.19× native. The operational claim also needs qualification: “nothing else to run” removes standalone services, but compaction, garbage collection, caching, polling, and fencing still consume client and bucket resources; readers can lag about ten seconds; second writers are not rejected immediately; and strong refresh, distributed snapshot pinning, single-WAL durability, direct imports, and block-manager integration remain future work. All 15 local SVG diagrams were opened, converted to PNGs, and retained at their semantic positions.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ApacheOpenDAL",
+        "DuckDB",
+        "DuckDBObjectStorage",
+        "ObjectStorageNativeDatabase",
+        "SlateDB"
+      ]
+    },
     {
       "id": "69aad3644774166171f0dfc355bec111565764c40b7082aa49b14b4d6eb35b87",
       "primary_topic": "work-education-and-society",

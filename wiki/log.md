@@ -9541,6 +9541,14 @@ Ran lint. See lint-report.md for details.
 
 Created [[FlashAttention]], [[OperatorFusion]], [[GPUMemoryHierarchy]], and [[ZhouYifan]], and updated [[AttentionMechanism]] and [[ParallelProgramming]] from their complete ordered evidence inventories. Captured HBM/SRAM data movement, ID-based GPU work partitioning, quadratic attention intermediates, per-query streaming, fused exponential score and value accumulation, and deferred normalization. Preserved the author's explicit boundary that the tutorial is not the full FlashAttention algorithm and its omissions of stable online softmax, block tiling, score scaling, masking, batching, multiple heads, backward recomputation, real kernels, and benchmarks. Opened all 20 local images, retained five evidence-bearing hierarchy, partitioning, memory-traffic, baseline, and final-algorithm diagrams at their semantic positions with a canonical manifest, and omitted prose-redundant equations and intermediate rewrites.
 
+## [2026-10-15] ingest | A Real DuckDB Database in S3, With Nothing Else to Run
+
+Created [[DuckDBObjectStorage]], [[DuckDB]], [[SlateDB]], [[ApacheOpenDAL]], [[Duckherder]], and [[ObjectStorageNativeDatabase]]. Captured the native-format filesystem substitution, aligned block-to-key mapping, atomic sync and rename behavior, manifest-based fencing and reader snapshots, cache and range-read path, distributed single-writer execution, test-suite approach, and reported backend-specific performance. Preserved DuckDB-only interoperability, one-writer restriction, delayed fencing, bounded reader staleness, duplicate WAL, local-write gap, object-store commit latency, first-party benchmark scope, and roadmap status of strong refresh, snapshot pinning, and block-manager integration. Opened all 15 evidence-bearing local SVG diagrams, converted them to publication-compatible PNGs, and retained them at their semantic positions with a canonical manifest.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

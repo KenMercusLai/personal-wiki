@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source_key": "duckdb-on-object-storage",
+  "images": [
+    {"file": "stack-comparison.png", "alt": "Iceberg, DuckLake, and duckdb_object_storage deployment stacks compared by required services and object-storage representation"},
+    {"file": "workflow.png", "alt": "Repeated local DuckDB upload workflow compared with direct read-write and read-only bucket attachments"},
+    {"file": "feature-matrix.png", "alt": "Feature matrix comparing duckdb_object_storage, DuckLake, and Iceberg"},
+    {"file": "compression.png", "alt": "DuckDB selecting the smallest measured encoding for timestamp and string column segments"},
+    {"file": "architecture.png", "alt": "DuckDB storage calls flowing through duckdb_objfs, a Rust core, SlateDB, and OpenDAL to multiple backends"},
+    {"file": "one-object.png", "alt": "Whole-object rewriting compared with one-key-per-block updates through SlateDB"},
+    {"file": "chunk-layout.png", "alt": "DuckDB header and 256 KiB blocks mapped to path, metadata, and content keys in SlateDB"},
+    {"file": "write-path.png", "alt": "Atomic FileSync write batch and transactional checkpoint rename in object storage"},
+    {"file": "readers-writer.png", "alt": "One read-write ingest job and multiple read-only consumers sharing a bucket with writer fencing"},
+    {"file": "snapshot-timeline.png", "alt": "Read-only process advancing between complete committed table versions without mixing blocks"},
+    {"file": "read-path.png", "alt": "Contiguous requested chunks grouped into parallel range scans and served through caches"},
+    {"file": "distributed.png", "alt": "Duckherder driver partitioning work among read-only workers over one bucket-backed database"},
+    {"file": "benchmark-summary.png", "alt": "ObjFS execution time relative to native DuckDB for memory, local disk, cold S3 reads, and S3 delivery"},
+    {"file": "two-wals.png", "alt": "Current double-WAL commit path and two proposed single-log durability designs"},
+    {"file": "block-manager.png", "alt": "Current filesystem block-to-offset-to-key path compared with a proposed SlateDB-backed block manager"}
+  ]
+}

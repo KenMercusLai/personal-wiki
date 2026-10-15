@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Real DuckDB Database in S3, With Nothing Else to Run](sources/duckdb-on-object-storage.md) - A native DuckDB database is mapped through SlateDB and OpenDAL onto object storage with atomic durability, one fenced writer, consistent readers, and explicit performance and interoperability limits.
 - [不会 CUDA 也能轻松看懂的 FlashAttention 教程（算法原理篇）](sources/flashattention-1.md) - Zhou Yifan derives a simplified fused streaming attention loop from GPU memory traffic, operator fusion, and query-parallel decomposition while distinguishing it from the full FlashAttention algorithm.
 - [The Eternal Sloptember](sources/the-eternal-sloptember.md) - George Hotz argues that coding agents front-load plausible progress while shifting error correction, polish, and organizational quality risk onto humans.
 - [SymphonyQG: Towards Symphonious Integration of Quantization and Graph for Approximate Nearest Neighbor Search](sources/2411.12229.md) - Gou and collaborators co-design RaBitQ, FastScan, graph traversal, data layout, and graph construction for higher-throughput in-memory ANN with an explicit memory premium.
@@ -1216,6 +1217,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [duckdb_object_storage](entities/DuckDBObjectStorage.md) - DuckDB filesystem extension preserving native database features over a SlateDB-backed object-store substrate.
+- [DuckDB](entities/DuckDB.md) - Embedded analytical database whose native format, storage semantics, constraints, indexes, WAL, and checkpoints are preserved by the extension.
+- [SlateDB](entities/SlateDB.md) - Embedded Rust LSM tree translating mutable database blocks into transactional object-storage keys and manifests.
+- [Apache OpenDAL](entities/ApacheOpenDAL.md) - Common backend operator connecting the storage stack to S3-compatible, local, and memory stores.
+- [Duckherder](entities/Duckherder.md) - Distributed DuckDB execution extension using one driver and read-only workers over a shared bucket-backed database.
 - [Zhou Yifan](entities/ZhouYifan.md) - Chinese-language technical author explaining FlashAttention's memory-avoidance intuition for readers without CUDA experience.
 - [George Hotz](entities/GeorgeHotz.md) - Programmer arguing from systems-work experiments that current coding agents lack reliable error correction and finishing discipline.
 - [Tinygrad](entities/Tinygrad.md) - Software project used by George Hotz as a real-world testbed for agent-assisted systems programming.
@@ -3143,6 +3149,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving native database semantics while making immutable object storage the durable source of truth.
 - [FlashAttention](concepts/FlashAttention.md) - Attention implementation family that reorganizes exact computation around bounded on-chip state to avoid materializing quadratic intermediates in HBM.
 - [Operator Fusion](concepts/OperatorFusion.md) - Combining adjacent operations so shared inputs and intermediates remain in fast local memory rather than round-tripping through slower memory.
 - [GPU Memory Hierarchy](concepts/GPUMemoryHierarchy.md) - Capacity and access-speed hierarchy across host DRAM, GPU HBM, and on-chip local storage that constrains accelerator dataflow.

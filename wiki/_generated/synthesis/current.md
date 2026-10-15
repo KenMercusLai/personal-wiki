@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-15
-as_of_overview_commit: dd1fef3b80e4fee597069dadea65ce48c97a0097
-summary: "A cross-domain evidence map for matching tools and institutions to real needs while preserving accountable judgment, explicit boundaries, and uncertainty."
-episode_count: 1185
-source_count: 1185
-paragraph_count: 834
+as_of_overview_commit: 98df01005a6c1d0760f57b34baa303207cc00a22
+summary: "A cross-domain evidence map for matching technologies and institutions to real needs while preserving explicit boundaries, accountable judgment, and uncertainty."
+episode_count: 1186
+source_count: 1186
+paragraph_count: 835
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[AgentMemory]] is more than writeable similarity retrieval: [[Embeddings]] plus a [[VectorDatabase]] can surface related records, while [[MemoryCompaction]], [[MemoryEvolution]], [[MemoryConflictResolution]], [[BitemporalMemory]], and [[MemoryForgetting]] maintain qualified, time-aware, attention-bounded state. [[NowledgeMem]] implements this as Trace-to-Unit-to-Crystal distillation, hybrid retrieval with raw-thread pointers, daily working-memory prefetch, explicit progression and validation edges, and user-visible conflict review; [[TapeAndAnchors]] can preserve the raw evidence beneath those revisable views. [[AutoMem]] adds [[Metamemory]] as a separately optimizable operation policy: complete-trajectory review revises file schemas and action affordances, then a dedicated specialist learns when to search, write, and update while the task model remains frozen.
-- [[AgentNativeComputing]] may reorder platform advantage by combining browser use, [[ComputerUse]], [[GenerativeUI]], hosted execution, and open gadgets behind one context-rich agent relationship; [[Muse]] and [[MicrosoftCopilot]] illustrate consumer and enterprise bids to shift aggregation from discovering supply toward framing intent and executing across suppliers, while [[AppleTrustBrand]] and app-centered control retain a qualified autonomy-versus-curation tradeoff.
+- [[KhanAcademy]] shows a large rewrite as a business operating program: [[IncrementalMonolithMigration]] used federated [[GraphQL]], shadow comparison, canaries, fallback, and removal to bound production exposure; [[MinimumViableExperience]] created an identity-preserving first milestone; and [[MicroserviceDataBoundaries]] used one-writer ownership while fixed scope, staffing movement, and deadline coordination managed the remaining cost and dependency path.
 - Approximation must be judged against its pipeline objective and execution conditions: [[HAKESIndex]] trains [[VectorQuantization]] for candidate inclusion before full-vector refinement, while the current interested-party comparison reports [[RaBitQ]] ahead of [[TurboQuant]] on most tested error, [[ApproximateNearestNeighborSearch]] recall, speed, and 2.5-bit [[KVCacheCompression]] settings.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect.
@@ -50,7 +50,7 @@ Across domains, fair comparison requires pipeline-matched objectives, execution 
 
 ### Culture and Media
 
-Media systems redistribute attention, authorship, access, trust, and bargaining power; tools can formalize interpretation or enable participation without uniquely explaining culture or guaranteeing durable livelihoods.
+Media systems redistribute attention, authorship, access, trust, and bargaining power; tools can formalize interpretation or enable participation without guaranteeing durable livelihoods.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -82,7 +82,7 @@ Scientific and health claims require mechanism, measurement, representative popu
 
 ### Work, Education, and Society
 
-Learning and sustainable work depend on feedback, mentorship, role clarity, psychological safety, realistic capacity, and durable institutions; technical teaching also needs clear boundaries between intuition and production evidence.
+Learning and sustainable work depend on feedback, mentorship, role clarity, psychological safety, realistic capacity, and durable institutions; technical teaching and infrastructure claims also need clear evidence boundaries.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
