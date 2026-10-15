@@ -9472,3 +9472,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | Thoughts on slowing the fuck down
+
+Created [[AgenticCodeSearchRecall]] and updated [[MarioZechner]], [[AICodingPractice]], [[BottleneckAwareAICoding]], and [[HumanCodeResponsibility]] from their complete ordered evidence inventories. Captured generated-output pacing against human review capacity, compounding local errors, incomplete cross-run context, declining discovery of affected and reusable code, the limits of narrow evaluation functions, and direct human control of architecture, APIs, acceptance, and recovery. Preserved the essay's anecdotal scope, missing defect and retrieval measurements, and its tension with evidence that bounded, strongly verified work can responsibly receive less line-by-line inspection. Opened the sole remote image and omitted it as a decorative tortoise-and-hare illustration without independent evidence.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

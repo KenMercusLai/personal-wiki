@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Thoughts on slowing the fuck down](sources/thoughts-on-slowing-the-fuck-down.md) - Mario Zechner argues that coding-agent output should stay within human review capacity because local errors, incomplete search, and delegated architecture can compound into brittle production systems.
 - [Lance: Efficient Random Access in Columnar Storage through Adaptive Structural Encodings](sources/2504.15247.md) - Primary comparison of Parquet, Arrow-style, and adaptive Lance encodings for NVMe point lookup and scans.
 - [Vortex: One Format for Any Shape](sources/vortex-one-format-for-any-shape.md) - Connor Tsui explains Vortex's separation of extensible logical types, recursive encodings, storage layouts, and compressed-data computation.
 - [Boosting multimodal inference performance by >10% with a single Python dictionary](sources/modal-multimodal-dictionary.md) - Modal engineers remove repeated CUDA IPC storage reconstruction from SGLang's scheduler, reporting 16.2% higher throughput and lower latency on a multimodal H100 workload.
@@ -3070,7 +3071,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [This One's for You Campaign](entities/ThisOnesForYouCampaign.md) - Twelve-language recording and personalized-artwork experience built around David Guetta's UEFA EURO 2016 anthem.
 
 - [Johnathan Nightingale](entities/JohnathanNightingale.md) - Product-team leader arguing for experienced early PM hires, measured execution, and product management as integration rather than CEO authority.
-- [Mario Zechner](entities/MarioZechner.md) - Developer-author advocating small composable command-line tools for bounded agent workflows.
+- [Mario Zechner](entities/MarioZechner.md) - Developer-author advocating minimal agent tooling, bounded delegation, review-capacity pacing, and human control of system-defining decisions.
 - [Puppeteer](entities/Puppeteer.md) - Browser automation library used beneath a minimal agent-facing Chrome CLI.
 - [Mitchell Lee](entities/MitchellLee.md) - Penny cofounder documenting a learning-first, multi-channel path to the app's first 500 reported signups.
 - [Penny](entities/Penny.md) - Personal-finance app represented through observed onboarding, founder-network seeding, community acquisition, and uneven press-driven signup growth.
@@ -4256,6 +4257,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, design-centered, verified, and scope-appropriately reviewed work with AI coding agents.
+- [Agentic Code Search Recall](concepts/AgenticCodeSearchRecall.md) - Completeness with which a coding agent discovers affected code, dependencies, prior decisions, and reusable implementations before making a change.
 - [AI Coding Framework–Library Model](concepts/AICodingFrameworkLibraryModel.md) - Control continuum between agent-structured high-level delegation and human-structured bounded use of AI as a callable capability.
 - [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that AI substitution weakens practiced skill and judgment while abundant generic output also worsens the information environment, qualified by deliberate AI adoption.
 - [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting constraint across delivery, verification, supervision, judgment, and human reasoning capacity.
