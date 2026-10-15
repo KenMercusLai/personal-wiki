@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8af697e616ad10722b1ba20fb406cba609aa3f3b4d5d1ea0d1c86266d01658d0",
       "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
       "b3bec3ed083b609ada4349daa54c59b2cb5cc47d09edec29d432cd5476cbb853",
       "9d9771cc98b989ed4210701620a81e93d8944334e200ec132f844cbd7cbc849a",
@@ -834,11 +835,32 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 832
+    "paragraph_count": 833
   },
-  "overview_commit": "ccc2d512536b2f0f46e420af681ecc605eff4cd1",
-  "overview_digest": "942c2785d0dc5666e3186f485f0e4b76af0a7ee61754852f013559e7ec1c517c",
+  "overview_commit": "327bd45b21a989ed6d7d3a004f34b8660fb2a1c8",
+  "overview_digest": "4b9439152feaa9e30730bdc8d992ddf61cdcae1eba4d4c4810fa119a82655ef8",
   "paragraphs": [
+    {
+      "id": "8af697e616ad10722b1ba20fb406cba609aa3f3b4d5d1ea0d1c86266d01658d0",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest [[FlorenceDupinDeSaintCyr]] and [[HenriPrade]] paper adds [[ComputationalHumor]] as a listener-relative belief-change problem. A setup uses [[NonmonotonicReasoning]] to induce a plausible but defeasible interpretation; a potentially funny punchline is surprising when its preferred models no longer overlap the setup's preferred models and revealing when revising by it explains the setup. [[BeliefRevision]] therefore supplies the transition, while possibility-theoretic best-out or lexicographic rankings make the listener's defaults operational and can change whether an example succeeds. [[IncongruityResolution]] adds a different conflict: the full story violates a strict or default rule treated as a norm, yet remains explanatory when reasoning proceeds in disregard of that rule. The retained figure shows the preferred-model layers behind simultaneous surprise and revelation. The framework is a preliminary hand-encoded account rather than a complete or empirically validated theory of laughter: the natural-language mapping is omitted, surprise and revelation also occur outside humor, incongruity can create wonder or discomfort, and teller strategy, superiority, delivery, identification, emotion, culture, and multi-agent beliefs remain open.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "culture-and-media": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BeliefRevision",
+        "ComputationalHumor",
+        "FlorenceDupinDeSaintCyr",
+        "HenriPrade",
+        "IncongruityResolution",
+        "NonmonotonicReasoning"
+      ]
+    },
     {
       "id": "916f15cbc742d13ecba5b01c07548b8b49b0e038d08efb6a4a4640f34278c30a",
       "primary_topic": "governance-and-institutions",

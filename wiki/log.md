@@ -9508,3 +9508,11 @@ Created [[Lychee]] and [[DistributedTerminationDetection]], and updated [[Adapti
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | Belief Revision and Incongruity: Is It a Joke?
+
+Created [[FlorenceDupinDeSaintCyr]], [[HenriPrade]], [[BeliefRevision]], [[NonmonotonicReasoning]], [[ComputationalHumor]], and [[IncongruityResolution]]. Captured the two-stage context-and-punchline model, preferred-model definitions of surprise and revelation, the need for defeasible expectation formation, narrative-order and brevity results, best-out versus lexicographic sensitivity, possibility-based graduality, and incongruity as norm violation plus revelation in disregard of the norm. Preserved the hand-encoded propositional scope, omitted natural-language mapping, listener dependence, preliminary status, insufficiency of the modeled ingredients as a full theory of laughter, and the conversion warning on 86 math expressions. Opened and retained the sole evidence-bearing figure at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

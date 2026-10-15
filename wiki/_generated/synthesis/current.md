@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-15
-as_of_overview_commit: ccc2d512536b2f0f46e420af681ecc605eff4cd1
+as_of_overview_commit: 327bd45b21a989ed6d7d3a004f34b8660fb2a1c8
 summary: "A cross-domain evidence map for matching tools and institutions to real needs while preserving accountable judgment, explicit boundaries, and uncertainty."
-episode_count: 1180
-source_count: 1180
-paragraph_count: 832
+episode_count: 1181
+source_count: 1181
+paragraph_count: 833
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technology outcomes depend on workload fit, explicit authority and state boundaries, realistic verification, observability, and recovery; local custody and convergence do not alone establish intent correctness or safety.
+Technology outcomes depend on workload fit, explicit authority and state boundaries, realistic verification, observability, and recovery; formal models such as computational humor remain useful only within their representation and evidence limits.
 
 - [[AgentNativeComputing]] can join [[ComputerUse]] and [[GenerativeUI]] so a conversational agent operates existing software and creates personal interfaces, but [[MacOS]] and [[Muse]] show that authority, credentials, hosted execution, supplier limits, and protected app-scoped prompts do not disappear; [[AgentPermissionModel]] therefore needs observable denials and agent-level grants bounded by controls the agent cannot rewrite, while [[AppleTrustBrand]] depends on coherent patching, consent, and user autonomy. Evidence: [[MacOS]], [[AgentNativeComputing]], [[ComputerUse]], [[GenerativeUI]], [[AgentPermissionModel]], [[AppleTrustBrand]], [[BenThompson]], [[Muse]], [[MicrosoftCopilot]].
 - [[AIEraInfrastructureEngineering]] joins [[TechnologyEnablerStack]] and [[AIInfrastructureStack]] into a strategic-to-operational sequence: choose a consequential workload and customer problem, then use AI-assisted implementation without surrendering architecture, optimization, verification, or critical low-level understanding; [[AstroVela]] and [[Vane]] are announced applications of that thesis rather than validation of it. Evidence: [[AIEraInfrastructureEngineering]], [[TechnologyEnablerStack]], [[AIInfrastructureStack]], [[AstroVela]], [[Vane]], [[VaneData]], [[Kakachen]].
@@ -50,7 +50,7 @@ Across domains, fair comparison requires pipeline-matched objectives, execution 
 
 ### Culture and Media
 
-Media systems redistribute attention, authorship, access, trust, and bargaining power; new tools enable participation without guaranteeing durable livelihoods.
+Media systems redistribute attention, authorship, access, trust, and bargaining power; tools can formalize interpretation or enable participation without uniquely explaining culture or guaranteeing durable livelihoods.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].

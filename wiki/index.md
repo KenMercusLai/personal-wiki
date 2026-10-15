@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Belief Revision and Incongruity: Is It a Joke?](sources/2309.02009.md) - Dupin de Saint-Cyr and Prade formalize listener-relative surprise, revelation, and norm-violating incongruity through belief revision and nonmonotonic reasoning.
 - [HAKES: Scalable Vector Database for Embedding Search Service](sources/p3049-ooi.md) - Hu and collaborators combine learned filter-and-refine indexing, decoupled insert/search parameters, and independently scalable filter and refine workers for high-recall mutable vector search.
 - [如何不背公式解开魔方：小学生也能看懂](sources/ru-he-bu-bei-gong-shi-jie-kai-mo-fang-xiao-xue-sheng-ye-neng-kan-dong.md) - Beginner tutorial using non-commuting turns, commutators, Roux blocks, corner cycles, and last-six-edge reasoning to replace blind formula recall with spatial understanding.
 - [Lody: 随时随地指挥你的 Agent 团队](sources/sui-shi-sui-di-zhi-hui-ni-de-agent-tuan-dui-leon7hao.md) - Leon Zhao presents Lody's cross-device coding-agent control plane, worktree isolation, local-first context layer, and heterogeneous multi-agent roadmap.
@@ -1211,6 +1212,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Five Years of Trying to Add Recursion to lychee](sources/lychee-recursion.md) - Matthias Endler's retrospective traces four failed recursion designs through dynamic-work termination, cyclic channel deadlocks, backpressure, deduplication, Rust ownership, and the infrastructure that now makes a solution plausible.
 
 ## Entities
+- [Florence Dupin de Saint-Cyr](entities/FlorenceDupinDeSaintCyr.md) - AI researcher coauthoring a formal account of joke comprehension through belief revision, default reasoning, and norm violation.
+- [Henri Prade](entities/HenriPrade.md) - AI researcher connecting possibility theory, nonmonotonic reasoning, and listener-relative joke interpretation.
 - [lychee](entities/Lychee.md) - Open-source Rust link checker whose one-way asynchronous pipeline has resisted recursive crawling despite four implementation attempts.
 - [HAKES](entities/HAKES.md) - Distributed vector database that replicates a compressed global filter index and shards full vectors for independent compute and storage scaling.
 - [Ernő Rubik](entities/ErnoRubik.md) - Hungarian architecture professor credited with creating the first Rubik's Cube prototype in 1974.
@@ -3132,6 +3135,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Copilot](entities/MicrosoftCopilot.md) - Enterprise agent interface combining chat, generated internal apps, long-running cloud work, organizational context, and governance controls.
 
 ## Concepts
+- [Belief Revision](concepts/BeliefRevision.md) - Minimal-change integration of new information represented by selecting preferred compatible interpretations.
+- [Nonmonotonic Reasoning](concepts/NonmonotonicReasoning.md) - Defeasible inference from incomplete information whose conclusions can be withdrawn when exceptions arrive.
+- [Computational Humor](concepts/ComputationalHumor.md) - Formal or computational modeling of humorous material and its cognitive or social interpretation.
+- [Incongruity Resolution](concepts/IncongruityResolution.md) - Recognition of a norm or frame violation followed by an interpretation that makes the mismatch intelligible.
 - [Distributed Termination Detection](concepts/DistributedTerminationDetection.md) - Detecting quiescence when asynchronous work can dynamically create further work and no local empty state proves global completion.
 - [Group Theory](concepts/GroupTheory.md) - Study of invertible transformations under composition, introduced here through order-sensitive cube moves.
 - [Commutators](concepts/Commutators.md) - Transformation pattern combining two operations and their inverses to concentrate change while restoring surrounding structure.
