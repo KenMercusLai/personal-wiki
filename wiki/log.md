@@ -9560,3 +9560,11 @@ Created [[Thariq]], and updated [[UnknownUnknowns]], [[AIAgentCollaboration]], [
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | 详细谈谈DSpark投机解码的原理
+
+Created [[DSpark]] and [[SpeculativeDecoding]], and updated [[Zartbot]] from its complete ordered evidence inventory. Captured exact rejection-and-residual sampling, the acceptance-cost-length performance model, autoregressive and parallel draft tradeoffs, semi-autoregressive Markov and RNN correction, position-weighted distribution matching, conditional acceptance prediction, sequential temperature calibration, hardware-aware prefix scheduling, variable-length flattened execution, and reported preview-model serving behavior. Preserved the secondary-source scope, distinction between distribution-exact sampling and nonzero-temperature sample-and-compare verification, author-raised JetSpec causality qualification, strict-SLA baseline-boundary effect, calibration and hardware-profile dependence, and irrecoverable fixed drafting cost on difficult requests. Opened all 48 local images, retained eight nonredundant architecture, algorithm, ablation, calibration, and production figures at their semantic positions with a canonical manifest, and omitted explanatory duplicates, historical tables, and prose-redundant diagrams.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

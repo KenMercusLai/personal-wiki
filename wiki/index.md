@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [详细谈谈DSpark投机解码的原理](sources/wechat-rrhg9uccinsc-zecigjnbq.md) - Zartbot reconstructs speculative-decoding theory and draft-model evolution, then explains DSpark's semi-autoregressive drafting, calibrated confidence estimates, and hardware-aware verification scheduling.
 - [A Field Guide to Fable: Finding Your Unknowns](sources/a-field-guide-to-fable-finding-your-unknowns.md) - Thariq frames agentic coding as iterative discovery of known, tacit, and unrecognized gaps through blind-spot passes, prototypes, interviews, plans, deviation notes, explainers, and quizzes.
 - [A Real DuckDB Database in S3, With Nothing Else to Run](sources/duckdb-on-object-storage.md) - A native DuckDB database is mapped through SlateDB and OpenDAL onto object storage with atomic durability, one fenced writer, consistent readers, and explicit performance and interoperability limits.
 - [不会 CUDA 也能轻松看懂的 FlashAttention 教程（算法原理篇）](sources/flashattention-1.md) - Zhou Yifan derives a simplified fused streaming attention loop from GPU memory traffic, operator fusion, and query-parallel decomposition while distinguishing it from the full FlashAttention algorithm.
@@ -1218,6 +1219,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [DSpark](entities/DSpark.md) - DeepSeek speculative-decoding system combining semi-autoregressive drafting with confidence-calibrated, load-aware verification.
 - [duckdb_object_storage](entities/DuckDBObjectStorage.md) - DuckDB filesystem extension preserving native database features over a SlateDB-backed object-store substrate.
 - [DuckDB](entities/DuckDB.md) - Embedded analytical database whose native format, storage semantics, constraints, indexes, WAL, and checkpoints are preserved by the extension.
 - [SlateDB](entities/SlateDB.md) - Embedded Rust LSM tree translating mutable database blocks into transactional object-storage keys and manifests.
@@ -3152,6 +3154,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thariq](entities/Thariq.md) - Practitioner-author presenting an unknowns-driven workflow for collaborating with Claude and Claude Code.
 
 ## Concepts
+- [Speculative Decoding](concepts/SpeculativeDecoding.md) - Draft-and-verify inference framework whose value depends on sampling correctness, accepted-prefix yield, draft cost, verification cost, and serving load.
 - [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving native database semantics while making immutable object storage the durable source of truth.
 - [FlashAttention](concepts/FlashAttention.md) - Attention implementation family that reorganizes exact computation around bounded on-chip state to avoid materializing quadratic intermediates in HBM.
 - [Operator Fusion](concepts/OperatorFusion.md) - Combining adjacent operations so shared inputs and intermediates remain in fast local memory rather than round-tripping through slower memory.

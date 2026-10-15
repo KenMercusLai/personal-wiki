@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-15
-as_of_overview_commit: 6ce7f1a34c7a72904ac963f795ea2acbd306de4a
+as_of_overview_commit: da63f6b99fa725dbe3a7f7e3a47373800c124d86
 summary: "A cross-domain evidence map for matching technologies and institutions to real needs while preserving explicit boundaries, accountable judgment, and uncertainty."
-episode_count: 1187
-source_count: 1187
-paragraph_count: 835
+episode_count: 1188
+source_count: 1188
+paragraph_count: 836
 topic_count: 9
 ---
 
@@ -64,7 +64,7 @@ Institutional design allocates authority, evidence burdens, privacy risk, enforc
 
 ### History and Geopolitics
 
-Historical and geopolitical analogies support mechanisms and scenarios only when chronology, institutional differences, missing cases, and hindsight remain explicit.
+Historical and geopolitical analogies support mechanisms and scenarios only when chronology, institutional differences, missing cases, hindsight, and technical-history spillover remain explicit.
 
 ### Psychology and Personal Development
 

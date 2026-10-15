@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
       "23574da14e992258b0dfc4a588f2ee02184b2ad34a0ca99a7031b995e3123217",
       "69aad3644774166171f0dfc355bec111565764c40b7082aa49b14b4d6eb35b87",
       "8af697e616ad10722b1ba20fb406cba609aa3f3b4d5d1ea0d1c86266d01658d0",
@@ -837,11 +838,25 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 835
+    "paragraph_count": 836
   },
-  "overview_commit": "6ce7f1a34c7a72904ac963f795ea2acbd306de4a",
-  "overview_digest": "31c44cf43b89f647943b72c51c5d41190a36ce70e0c2371a185a72688db1d1e4",
+  "overview_commit": "da63f6b99fa725dbe3a7f7e3a47373800c124d86",
+  "overview_digest": "2485036aef7e8331b48e83390c797510aedc0053b99ea83d9df360d4ec6bb329",
   "paragraphs": [
+    {
+      "id": "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [],
+      "text": "The newest [[Zartbot]] source adds [[SpeculativeDecoding]] as both a sampling-correctness mechanism and a serving-capacity problem. Exact rejection-and-residual sampling can preserve the target distribution while accepting a contiguous draft prefix, but speed depends on expected accepted length, draft latency, verification latency, proposal length, and concurrent batch opportunity cost rather than acceptance alone. New [[DSpark]] combines a deep parallel draft backbone with a cheap Markov or RNN correction head: the backbone strengthens the high-leverage first proposal, while sequential logit corrections reduce the suffix decay caused by independent parallel positions. A confidence head estimates conditional acceptance, sequential temperature scaling calibrates cumulative prefix survival, and a hardware-aware scheduler admits request-specific prefix extensions against the measured steps-per-second curve. Preview DeepSeek-V4 telemetry reports moderate-SLA throughput gains near 51–52%, matched-capacity per-user speed gains of 57–85%, and shrinking verification budgets as load rises. These remain secondary, first-party-derived results whose large strict-SLA percentages compare against a baseline near its operating boundary; exact speculative sampling must also be distinguished from DFlash-style sample-and-compare verification at nonzero temperature. All 48 local images were opened; eight nonredundant architecture, algorithm, ablation, calibration, and production charts were retained at their semantic positions, while explanatory duplicates, historical tables, and prose-redundant diagrams were omitted.",
+      "topic_scores": {
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "DSpark",
+        "SpeculativeDecoding",
+        "Zartbot"
+      ]
+    },
     {
       "id": "23574da14e992258b0dfc4a588f2ee02184b2ad34a0ca99a7031b995e3123217",
       "primary_topic": "work-education-and-society",

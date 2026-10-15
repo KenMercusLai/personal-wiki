@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "wechat-rrhg9uccinsc-zecigjnbq",
+  "images": [
+    {
+      "file": "semi-autoregressive-generation.jpg",
+      "alt": "DSpark combines a parallel draft backbone with a lightweight sequential correction head"
+    },
+    {
+      "file": "dspark-end-to-end.png",
+      "alt": "DSpark drafts, sequentially corrects, schedules, verifies, and advances one accepted prefix"
+    },
+    {
+      "file": "hardware-aware-prefix-scheduler.png",
+      "alt": "Hardware-aware prefix scheduling greedily admits prefix extensions while expected throughput improves"
+    },
+    {
+      "file": "conditional-acceptance-by-position.png",
+      "alt": "Conditional acceptance by draft position compares DFlash, EAGLE-3, and DSpark across math, code, and chat"
+    },
+    {
+      "file": "sequential-head-ablation.png",
+      "alt": "A shallow DSpark sequential head improves accepted length over similarly deep parallel DFlash drafts"
+    },
+    {
+      "file": "confidence-calibration.png",
+      "alt": "Sequential temperature scaling aligns predicted and observed acceptance across draft positions"
+    },
+    {
+      "file": "serving-pareto-frontier.png",
+      "alt": "Reported DeepSeek-V4 preview serving frontiers compare DSpark with the MTP-1 baseline"
+    },
+    {
+      "file": "throughput-under-load.png",
+      "alt": "DSpark throughput rises while its verification budget falls as concurrent request count increases"
+    }
+  ]
+}
