@@ -1211,6 +1211,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 - [Five Years of Trying to Add Recursion to lychee](sources/lychee-recursion.md) - Matthias Endler's retrospective traces four failed recursion designs through dynamic-work termination, cyclic channel deadlocks, backpressure, deduplication, Rust ownership, and the infrastructure that now makes a solution plausible.
+- [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
 - [SymphonyQG](entities/SymphonyQG.md) - In-memory graph ANN project co-designing RaBitQ codes, FastScan batches, implicit reranking, and graph construction.
@@ -4663,5 +4664,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent-Native Language Server](concepts/AgentNativeLanguageServer.md) - Semantic code-intelligence service designed for coding-agent batch operations, concurrent worktrees, selective retrieval, and project-wide context.
 
 - [Generative UI](concepts/GenerativeUI.md) - On-demand creation or adaptation of an interface for a particular user's goal, context, or workflow.
+- [Monte Carlo Estimation](concepts/MonteCarloEstimation.md) - Sample-average approximation of expectations, including expectations over policy-generated trajectories.
+- [Log Derivative Trick](concepts/LogDerivativeTrick.md) - Identity that rewrites probability derivatives as probability-weighted log-probability gradients.
+- [Score Function Estimator](concepts/ScoreFunctionEstimator.md) - Likelihood-ratio estimator for gradients of expectations under parameterized distributions.
+- [Policy Gradient](concepts/PolicyGradient.md) - Direct optimization of stochastic policies using return-weighted action log-probability gradients.
 
 ## Syntheses

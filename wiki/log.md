@@ -9524,3 +9524,7 @@ Created [[SymphonyQG]] and updated [[ApproximateNearestNeighborSearch]], [[Vecto
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | Notes on RL: Policy Gradient & Log Derivative Trick
+
+Created [[PolicyGradient]], [[MonteCarloEstimation]], [[LogDerivativeTrick]], and [[ScoreFunctionEstimator]], and updated [[ReinforcementLearning]] from its complete ordered evidence inventory. Captured the expectation-to-sample-average bridge, likelihood-ratio identity, score-function gradient, trajectory factorization, parameter-independent environment terms, and automatic-differentiation loss. Preserved the tutorial scope, full-trajectory-return variance, omitted baselines and reward-to-go, and one apparent intermediate algebraic typo. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.

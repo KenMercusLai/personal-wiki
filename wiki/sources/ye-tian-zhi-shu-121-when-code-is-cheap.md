@@ -2,7 +2,7 @@
 title: "夜天之书 #121 When Code Is Cheap"
 type: source
 tags: [ai, software-engineering, coding-agents, open-source]
-date: 2026-10-11
+date: 2026-08-25
 source_file: "/mnt/ken_personal_wiki/Articles/夜天之书 #121 When Code Is Cheap.md"
 ---
 

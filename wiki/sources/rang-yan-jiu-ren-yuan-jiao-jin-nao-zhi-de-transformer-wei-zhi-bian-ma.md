@@ -2,7 +2,7 @@
 title: "让研究人员绞尽脑汁的 Transformer 位置编码"
 type: source
 tags: [transformers, positional-encoding, attention, sequence-modeling]
-date: 2021-03-23
+date: 2021-02-03
 source_file: "/mnt/ken_personal_wiki/Articles/让研究人员绞尽脑汁的Transformer位置编码 - 科学空间|Scientific Spaces.md"
 ---
 

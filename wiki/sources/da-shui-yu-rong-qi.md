@@ -2,7 +2,7 @@
 title: "大水与容器"
 type: source
 tags: [mutual-funds, investor-behavior, retirement, defaults, fund-advisory]
-date: 2026-10-11
+date: 2026-08-07
 source_file: "/mnt/ken_personal_wiki/Articles/大水与容器.md"
 ---
 

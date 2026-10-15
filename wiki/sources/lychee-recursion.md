@@ -2,7 +2,7 @@
 title: "Five Years of Trying to Add Recursion to lychee"
 type: source
 tags: [lychee, rust, concurrency, recursion, open-source]
-date: 2026-06-11
+date: 2026-05-31
 source_file: /mnt/ken_personal_wiki/Articles/lychee-recursion.md
 ---
 
