@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "source_key": "2504.15247",
+  "images": [
+    {"file": "nvme-vs-s3-read-size.png", "alt": "NVMe and S3 IOPS and bandwidth as read size increases"},
+    {"file": "file-format-layout-comparison.png", "alt": "Parquet, Arrow, and Lance file-layout comparison"},
+    {"file": "parquet-page-structural-encoding.png", "alt": "Parquet pages containing repetition, definition, length, and data buffers"},
+    {"file": "arrow-nested-buffer-access.png", "alt": "Nested Arrow list and string buffers needed for one lookup"},
+    {"file": "lance-full-zip-layout.png", "alt": "Full-zip transposition from column buffers to per-value records"},
+    {"file": "lance-full-zip-nested-example.png", "alt": "Full-zip control words and values for a nested nullable example"},
+    {"file": "lance-repetition-index.png", "alt": "Repetition index pointing to top-level full-zip values"},
+    {"file": "lance-miniblock-chunk.png", "alt": "Miniblock chunk header and aligned buffers for nullable strings"},
+    {"file": "coalesced-access-scale.png", "alt": "Selected-page overlap declining with dataset scale"},
+    {"file": "parquet-random-access-by-type.png", "alt": "Parquet random-access throughput across tested data types"},
+    {"file": "parquet-random-access-by-page-size.png", "alt": "Parquet random-access throughput declining with page size"},
+    {"file": "arrow-style-vs-lance-random-access.png", "alt": "Arrow-style Lance 2.0, Lance 2.1, Parquet, and hardware random-access results"},
+    {"file": "nesting-random-access-performance.png", "alt": "Random-access throughput as validity and offset nesting grows"},
+    {"file": "lance-random-access-by-value-size.png", "alt": "Full-zip and miniblock random access by bytes per value"},
+    {"file": "compression-ratios.png", "alt": "Compression ratios for Parquet and Lance across eight datasets"},
+    {"file": "parquet-scan-disk-utilization.png", "alt": "Best Parquet scan bandwidth across tested datasets"},
+    {"file": "parquet-row-group-sensitivity.png", "alt": "Parquet scan sensitivity to row-group size and data type"},
+    {"file": "lance-vs-parquet-scan-performance.png", "alt": "Lance scan performance normalized to the best Parquet configuration"},
+    {"file": "lance-scan-disk-utilization.png", "alt": "Lance and Parquet disk bandwidth during scans"},
+    {"file": "lance-scan-by-value-size.png", "alt": "Full-zip and miniblock scan throughput by bytes per value"},
+    {"file": "struct-packing-tradeoff.png", "alt": "Struct packing tradeoff between whole-struct lookup and single-field scan"}
+  ]
+}

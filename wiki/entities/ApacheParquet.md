@@ -7,7 +7,8 @@ sources:
   - lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi
   - p5662-hao-corrected
   - vortex-one-format-for-any-shape
-last_updated: 2026-10-14
+  - "2504.15247"
+last_updated: 2026-10-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,9 @@ knowledge_schema: synthesis-v1
 ## Current Profile
 Slack selected Parquet because Hive, Presto, and Spark could share it and because columnar storage improved query and space efficiency. The effective contract nevertheless extended beyond the specification: library versions, patches, null semantics, schema mapping, and encoding support varied across engines. Slack therefore sanitized inputs, constrained schema evolution, tested live reader/writer combinations, and ultimately pinned behavior behind owned input and output formats.
 
-Physically, Parquet partitions files into row groups, column chunks, and pages, with common footer metadata. That hierarchy favors compression, scans, and distributed processing, but page-level access can amplify sparse reads, one row-group boundary can fit unequal-width columns poorly, and a wide footer can add projection overhead. LiquidCache adds a different limit: ordinary filter pushdown must decompress and decode relevant pages before vectorized predicates run, making decoding more expensive than the predicate in the evaluated selective queries. Its response is not to replace Parquet, but to retain Parquet as the durable interoperable layer and transcode hot cache data into a private representation.
+Physically, Parquet partitions files into row groups, column chunks, and pages, with common footer metadata. That hierarchy favors compression, scans, and distributed processing, but page-level access can amplify sparse reads, one row-group boundary can fit unequal-width columns poorly, and a wide footer can add projection overhead. The primary Lance paper shows that these are tunable tradeoffs rather than an inherent inability to perform point lookup: parquet-rs page-offset indexes and 8 KiB pages raised its small-scalar result from about 5,500 rows per second at defaults to about 350,000. The costs were configuration sensitivity, page-index RAM for large values, weaker dictionary results in random data, and row-group preferences that varied by data type.
+
+LiquidCache adds a different limit: ordinary filter pushdown must decompress and decode relevant pages before vectorized predicates run, making decoding more expensive than the predicate in the evaluated selective queries. Its response is not to replace Parquet, but to retain Parquet as the durable interoperable layer and transcode hot cache data into a private representation.
 
 Format evolvability creates another boundary. Parquet logical types must map onto a small set of prescribed physical types, encodings, and layout conventions, while new encodings require specification agreement and implementation by independent readers. A registrable design can instead make types, encodings, and layouts composable, although its readers then require extension code. From that design perspective, Parquet's PAX-style row-group, column-chunk, and page hierarchy is one reproducible layout choice rather than the only possible container structure.
 
@@ -27,7 +30,7 @@ Format evolvability creates another boundary. Parquet logical types must map ont
 - Must remain compatible with table and partition metadata as schemas evolve.
 - Can require an owned, version-pinned read/write boundary when engine-bundled libraries diverge.
 - Uses row groups, column chunks, and pages as nested physical boundaries, with file-level metadata in the footer.
-- Favors scan and compression behavior that can impose point-lookup, width-imbalance, metadata, or filter-decoding costs for selective workloads.
+- Can deliver strong indexed point lookup with small pages, while trading page-index RAM, read amplification, and configuration sensitivity against scans.
 - Remains valuable as a durable ecosystem boundary even when another system uses a private, extensible, or workload-specific representation.
 
 ## Evidence
@@ -42,18 +45,20 @@ Format evolvability creates another boundary. Parquet logical types must map ont
 - Integration dependence: [[p5662-hao-corrected]] reports Parquet outperforming similarly compressed ORC partly because DataFusion and DuckDB provide stronger Parquet integration.
 - Extensibility boundary: [[vortex-one-format-for-any-shape]] contrasts Parquet's standardized physical types, encodings, layouts, and independently implemented readers with Vortex's registries and shared Rust implementation.
 - Layout reproducibility: [[vortex-one-format-for-any-shape]] says composable Vortex layouts can recreate Parquet's row-group-to-column-chunk-to-page hierarchy.
+- Tuned point lookup: [[2504.15247]] reports one page I/O per selected row, about 350,000 small-scalar rows per second with 8 KiB pages, and more than 60-fold improvement over default parquet-rs settings.
+- Scan and metadata tradeoff: [[2504.15247]] reports data-dependent row-group preferences, comparable compression, underused disk bandwidth, and a projected 20 GiB page-offset cache per billion one-page values in parquet-rs.
 
 ## Qualifications
-The interoperability evidence reflects one 2016 Slack deployment, not current implementations or present-day best practice. The Lance comparison is a secondary 2025 account largely translated from a competing format project's materials and supplies no reproduced benchmark. LiquidCache is a first-party prototype evaluated on selected ClickBench filters and scan-heavy TPC-H queries in one environment; its comparison is shaped by implementation maturity and usually favors warm transcoded data. The Vortex comparison is another format author's first-party argument: its timeline examples and linked benchmarks do not prove that standardization is generally too slow or that registries reduce total ecosystem cost. Parquet can outperform pushdown for non-selective predicates, and its ecosystem maturity and durable compatibility may outweigh selective-access, decoding, or extension costs. The combined profile therefore identifies workload and governance tradeoffs rather than establishing that Parquet is generally inferior.
+The interoperability evidence reflects one 2016 Slack deployment, not current implementations or present-day best practice. The new point-lookup evidence is stronger than the earlier secondary Lance account, but it is still a competing format team's benchmark on one device, parquet-rs 54, custom row-selection orchestration, warm indexes, and chosen page and row-group sweeps. It shows Parquet's capability when tuned, not the behavior of every reader or workload. LiquidCache and Vortex are likewise first-party comparisons with their own workload and maturity boundaries. Parquet's ecosystem maturity and durable compatibility may outweigh selective-access, decoding, or extension costs, and its implementations can improve without a format change.
 
 ## What Changed
-- Created a source-bounded profile of Parquet as both Slack's common warehouse format and its main cross-engine compatibility boundary.
-- Added the row-group, page, point-lookup, wide-column, and footer-metadata tradeoffs from the Lance comparison.
-- Added filter-decoding CPU cost, query-engine integration, and Parquet's role as the durable boundary beneath an ephemeral cache format.
-- Added the standardized-extension versus registrable-extension tradeoff and the observation that Parquet's physical hierarchy can be composed within a more flexible layout system.
+- Added primary evidence that page-offset indexes and 8 KiB pages can make Parquet a strong NVMe point-lookup format.
+- Added the page-index RAM, dictionary, row-group tuning, and scan-scheduling costs observed in that experiment.
+- Preserved interoperability, durable-boundary, filter-decoding, and standardized-extension roles from the complete evidence set.
 
 ## Relationships
 - [[LanceFormat]] - contrasting columnar design that removes shared row groups and makes column metadata independently addressable.
+- [[ApacheArrow]] - contrasting dense multi-buffer layout with different point-access and decoding costs.
 - [[ColumnarStorageTradeoffs]] - frames Parquet's scan strengths and selective-access costs as workload-dependent choices.
 - [[LiquidCache]] - preserves Parquet at the durable boundary while transcoding hot cache batches.
 - [[Vortex]] - extensible comparison format that can reproduce Parquet's physical hierarchy through composable layouts.

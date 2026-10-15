@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Lance: Efficient Random Access in Columnar Storage through Adaptive Structural Encodings](sources/2504.15247.md) - Primary comparison of Parquet, Arrow-style, and adaptive Lance encodings for NVMe point lookup and scans.
 - [Vortex: One Format for Any Shape](sources/vortex-one-format-for-any-shape.md) - Connor Tsui explains Vortex's separation of extensible logical types, recursive encodings, storage layouts, and compressed-data computation.
 - [Boosting multimodal inference performance by >10% with a single Python dictionary](sources/modal-multimodal-dictionary.md) - Modal engineers remove repeated CUDA IPC storage reconstruction from SGLang's scheduler, reporting 16.2% higher throughput and lower latency on a multimodal H100 workload.
 - [Using Local Coding Agents](sources/using-local-coding-agents.md) - Sebastian Raschka separates local coding agents into model, serving, and harness layers, then evaluates hardware fit, task reliability, token cost, permissions, telemetry, and isolation.
@@ -1205,6 +1206,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [BM25: the Search Algorithm Behind Elasticsearch](sources/bm25-the-search-algorithm-behind-elasticsearch.md) - Michael Brenndoerfer derives BM25's IDF, term-frequency saturation, and length normalization, then covers implementation, variants, Elasticsearch tuning, and hybrid-search limits.
 
 ## Entities
+- [Apache Arrow](entities/ApacheArrow.md) - In-memory columnar layout whose separate buffers trade direct access against nested storage I/O.
 - [Saatwik Nagpal](entities/SaatwikNagpal.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
 - [Charles Frye](entities/CharlesFrye.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
 - [SGLang](entities/SGLang.md) - Open-source inference engine whose multimodal scheduler path uses CUDA IPC and now caches stable pool-handle storage.

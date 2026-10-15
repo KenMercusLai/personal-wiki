@@ -9417,6 +9417,10 @@ Created [[AutoMem]] and [[Metamemory]], and updated [[AgentMemory]] from its com
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-15] ingest | Lance: Efficient Random Access in Columnar Storage through Adaptive Structural Encodings
+
+Created [[ApacheArrow]] and updated [[LanceFormat]], [[ApacheParquet]], and [[ColumnarStorageTradeoffs]] from their complete ordered evidence inventories. Captured the storage-tier read-size boundary; Parquet page-offset tuning and index-RAM cost; Arrow-style nesting I/O; Lance miniblock, full-zip, repetition-index, and struct-packing mechanisms; and the controlled random-access, compression, and scan results. Preserved the first-party single-system scope, Lance 2.0 proxy for Arrow, incomplete nested and run-length mechanisms, and the result that tuned Parquet is a strong point-lookup design rather than a strawman. Opened and retained all 21 evidence-bearing local figures once at their semantic positions with descriptive filenames and a canonical manifest.
+
 ## [2026-10-14] ingest | Boosting multimodal inference performance by >10% with a single Python dictionary
 
 Created [[InferenceHostOverhead]], [[SGLang]], [[SaatwikNagpal]], and [[CharlesFrye]], and updated [[Modal]] from its complete ordered evidence inventory. Captured the single-threaded scheduler bottleneck, multimodal CUDA IPC handle-plus-offset path, repeated PyTorch shared-storage reconstruction, stable pool-handle dictionary cache, rare-write locking, mixed prefill/decode coupling, profile verification, and throughput and latency results. Preserved the first-party single-model, single-H100, single-workload scope and missing variance, workload-shape, power, CPU, and cross-engine evidence. Opened all six effective images, retained five non-duplicative architecture, mechanism, and profiling visuals at their semantic positions with descriptive filenames and a canonical manifest, and omitted the superseded broad pre-change flamegraph.
@@ -9462,5 +9466,9 @@ Ran lint. See lint-report.md for details.
 Created [[Vortex]] and [[CompressedDataComputation]], and updated [[ApacheParquet]] and [[ColumnarStorageTradeoffs]] from their complete ordered evidence inventories. Captured logical-type, physical-encoding, and storage-layout separation; dictionary-to-run-end-to-bit-packed cascades; specialized kernels and rewrite rules over compressed data; canonical execution fallback; selective segment fetching; extension logical types; session registries; and shared Rust language bindings. Preserved the need for reader extension code, metadata and compatibility obligations, illustrative-example scope, and first-party benchmark boundary. Opened all 13 effective local diagrams, retained them at their semantic positions with descriptive filenames, and recorded them in a canonical manifest; nine retained images are static final states of source animations.
 
 ## [2026-10-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
