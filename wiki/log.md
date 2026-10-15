@@ -9576,3 +9576,11 @@ Created [[YeungYeah]], and updated [[AIAssistedWriting]] and [[PersonalKnowledge
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | Linker I/O tricks and their downsides
+
+Created [[MaskRay]], [[MoldLinker]], [[WildLinker]], and [[LinkerOptimizationTradeoffs]], and updated [[StoragePerformanceBenchmarking]] and [[AbstractionLeakage]] from their complete ordered evidence inventories. Captured warm-versus-cold inode-reuse reversals, hard-link and mapped-reader corruption, Linux executable-write compatibility, early-parent-exit accounting and scheduler effects, hugepage-dependent teardown, and synchronous compaction from hugepage hints. Preserved the single-host and selected-workload scope, in-development mold port, missing memory-policy and storage-environment measurements, and distinction between shorter visible wall time and lower total system work. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

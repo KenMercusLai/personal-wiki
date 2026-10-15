@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "466be59a2cc10d61b04b3c6c7b9e52827b0ca86cc88467e4964fd3565326a17b",
       "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
       "23574da14e992258b0dfc4a588f2ee02184b2ad34a0ca99a7031b995e3123217",
       "69aad3644774166171f0dfc355bec111565764c40b7082aa49b14b4d6eb35b87",
@@ -839,11 +840,29 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 837
+    "paragraph_count": 838
   },
-  "overview_commit": "9109dd456704c832995f10f3e2570fe1c90c1c77",
-  "overview_digest": "9045ac22514bda2b519d0f5b25b83d539613ac4f2cc4e4d448c80ece624ad43a",
+  "overview_commit": "9330e1c7ac2c420204afd76b51bf46afc300bae9",
+  "overview_digest": "ff35d9263ea08f2e4ab7435788043bfba60b769b2be2c33ebf98203885eb5663",
   "paragraphs": [
+    {
+      "id": "466be59a2cc10d61b04b3c6c7b9e52827b0ca86cc88467e4964fd3565326a17b",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[MaskRay]] source adds [[LinkerOptimizationTradeoffs]] as a cross-layer correction to optimizing only the visible edit-relink interval. [[MoldLinker|mold]] and [[WildLinker|wild]] can reuse an output inode, let a spawned parent report success while a linking child tears down memory, and request transparent huge pages. Each moves or hides work as well as potentially removing it: warm inode reuse saves roughly 40–120 ms per GiB but a cold 2 GiB mold output took 3.89 seconds in place versus 0.38 seconds through a new inode; early exit saved 60–70 ms for a 1.5 GB 4 KiB-page heap but about 10 ms with huge pages while `wait4` tools missed the child's CPU and memory; and an explicit hugepage hint under `enabled=always` added roughly 550 compaction stalls without adding many huge pages. Correctness and compatibility are part of the result: inode reuse mutates hard-linked snapshots, can preserve a partial failed result under another name, and can change mapped code or data, while early exit frees a build job slot before cgroup memory is gone. This grounds [[AbstractionLeakage]] in inode identity, mapped-file stability, and process lifetime, and extends [[StoragePerformanceBenchmarking]] with cache residency, fragmentation, process-tree accounting, and completion-boundary controls. The evidence remains one Linux 6.18 host, ext4 SATA storage, selected workloads, an in-development mold Rust port, and one wild commit, with no measurements for several memory policies or storage environments. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AbstractionLeakage",
+        "LinkerOptimizationTradeoffs",
+        "MaskRay",
+        "MoldLinker",
+        "StoragePerformanceBenchmarking",
+        "WildLinker"
+      ]
+    },
     {
       "id": "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
       "primary_topic": "history-and-geopolitics",
