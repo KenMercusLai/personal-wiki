@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "2411.12229",
+  "images": [
+    {"file": "ann-memory-layout-comparison.png", "alt": "Memory layout comparison of vanilla graph ANN, NGT-QG explicit reranking, and SymphonyQG implicit reranking"},
+    {"file": "querying-algorithm.png", "alt": "SymphonyQG query algorithm interleaving exact scoring of visited vertices with FastScan estimates for their neighbors"},
+    {"file": "fastscan-aligned-graph-refinement.png", "alt": "Graph refinement supplementing pruned edges so each vertex fills a FastScan batch"},
+    {"file": "indexing-algorithm.png", "alt": "SymphonyQG iterative graph indexing algorithm with FastScan candidate search and final edge supplementation"},
+    {"file": "qps-recall-comparison.png", "alt": "QPS versus recall curves for SymphonyQG and four graph ANN baselines across six moderate-scale datasets"},
+    {"file": "qps-memory-tradeoff.png", "alt": "QPS at 95 percent recall versus memory footprint across six datasets and five ANN implementations"},
+    {"file": "hundred-million-vector-scalability.png", "alt": "QPS versus recall on Deep-100M and MSTuring-100M for SymphonyQG and three baselines"},
+    {"file": "component-ablation.png", "alt": "QPS-recall ablation of multiple estimates, graph refinement, and SymphonyQG graph construction across six datasets"}
+  ]
+}

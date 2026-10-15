@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [SymphonyQG: Towards Symphonious Integration of Quantization and Graph for Approximate Nearest Neighbor Search](sources/2411.12229.md) - Gou and collaborators co-design RaBitQ, FastScan, graph traversal, data layout, and graph construction for higher-throughput in-memory ANN with an explicit memory premium.
 - [Belief Revision and Incongruity: Is It a Joke?](sources/2309.02009.md) - Dupin de Saint-Cyr and Prade formalize listener-relative surprise, revelation, and norm-violating incongruity through belief revision and nonmonotonic reasoning.
 - [HAKES: Scalable Vector Database for Embedding Search Service](sources/p3049-ooi.md) - Hu and collaborators combine learned filter-and-refine indexing, decoupled insert/search parameters, and independently scalable filter and refine workers for high-recall mutable vector search.
 - [如何不背公式解开魔方：小学生也能看懂](sources/ru-he-bu-bei-gong-shi-jie-kai-mo-fang-xiao-xue-sheng-ye-neng-kan-dong.md) - Beginner tutorial using non-commuting turns, commutators, Roux blocks, corner cycles, and last-six-edge reasoning to replace blind formula recall with spatial understanding.
@@ -1212,6 +1213,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Five Years of Trying to Add Recursion to lychee](sources/lychee-recursion.md) - Matthias Endler's retrospective traces four failed recursion designs through dynamic-work termination, cyclic channel deadlocks, backpressure, deduplication, Rust ownership, and the infrastructure that now makes a solution plausible.
 
 ## Entities
+- [SymphonyQG](entities/SymphonyQG.md) - In-memory graph ANN project co-designing RaBitQ codes, FastScan batches, implicit reranking, and graph construction.
 - [Florence Dupin de Saint-Cyr](entities/FlorenceDupinDeSaintCyr.md) - AI researcher coauthoring a formal account of joke comprehension through belief revision, default reasoning, and norm violation.
 - [Henri Prade](entities/HenriPrade.md) - AI researcher connecting possibility theory, nonmonotonic reasoning, and listener-relative joke interpretation.
 - [lychee](entities/Lychee.md) - Open-source Rust link checker whose one-way asynchronous pipeline has resisted recursive crawling despite four implementation attempts.

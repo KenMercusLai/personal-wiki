@@ -9516,3 +9516,11 @@ Created [[FlorenceDupinDeSaintCyr]], [[HenriPrade]], [[BeliefRevision]], [[Nonmo
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-15] ingest | SymphonyQG: Towards Symphonious Integration of Quantization and Graph for Approximate Nearest Neighbor Search
+
+Created [[SymphonyQG]] and updated [[ApproximateNearestNeighborSearch]], [[VectorQuantization]], and [[RaBitQ]] from their complete ordered evidence inventories. Captured center-relative neighbor codes, reusable FastScan lookup tables, implicit reranking during graph traversal, multiple distance estimates, SIMD-aligned graph refinement, accelerated iterative construction, reported throughput and scalability gains, and the duplicated-code memory premium. Preserved the first-party CPU evaluation scope, Euclidean/cosine and in-memory restrictions, excluded large-scale NGT-QG result, and unevaluated dynamic, disk, distributed, and tail-latency behavior. Opened all 14 supplied image files across 14 effective references, retained eight non-duplicative evidence-bearing architecture, algorithm, benchmark, scalability, and ablation visuals at their semantic positions with a canonical manifest, and omitted the redundant data-layout, ADR, iteration-count, and appendix ablation variants.
+
+## [2026-10-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
