@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-17] ingest | I'm switching to a dumbphone this summer
+
+Created [[DigitalIntentionality]], [[SmartphoneDependenceExternalities]], and [[SunbeamF1Horizon]], and updated [[AttentionManagement]] from its complete ordered evidence inventory. Recorded the gap between minimal smartphone configuration and ambient checking, the three-month device-substitution experiment, parental role modeling, the Eagle's calls, SMS, offline navigation, removable hardware, MicroSD and nano-SIM access, and Wi-Fi or USB 4G tethering. Preserved the unfinished first-impressions scope, missing behavioral outcomes, service-access tradeoffs, and unresolved BasicOS provenance, Android version, security, openness, application, subscription, and reliability questions. Opened and retained all four evidence-bearing remote photographs at their semantic positions with a canonical manifest.
+
 ## [2026-10-16] ingest | Beyond Indexes: How Open Table Formats Optimize Query Performance
 
 Created [[JackVanlightly]], [[ApacheIceberg]], [[OpenTableFormats]], and [[DataPruning]], and updated [[ApacheParquet]] and [[ColumnarStorageTradeoffs]] from their complete ordered evidence inventories. Captured OLTP clustered and secondary index access, analytical scan economics, Iceberg snapshot and manifest hierarchy, partitioning, sorting, compaction, hierarchical min/max pruning, Bloom filters, primary-key-to-file maps, materialized projections, and star-schema physical design. Preserved the conceptual rather than benchmarked scope, system and engine variation, selective analytical and hybrid-workload exceptions, metadata limits under scattered layouts, and lifecycle costs of alternate representations. Opened and retained all seven evidence-bearing local diagrams at their semantic positions with a canonical manifest.
@@ -9636,6 +9640,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] ingest | The LLVM Compiler Infrastructure
 
 Created [[LLVM]], [[ChrisLattner]], [[VikramAdve]], [[LLVMIntermediateRepresentation]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], and [[StaticSingleAssignment]]. Captured the common executable IR, partial SSA, vectors and intrinsics, modular pass and library design, link-time and lifelong compilation flows, research funding, open-source development, adoption, education, and emerging compiler research. Preserved the co-author retrospective scope, unverified reach and counterfactual claims, growing IR complexity, and the source's conflicting October-versus-December 2003 release dates. Opened all three local images, retained the architecture diagram at its semantic position with a canonical manifest, and omitted the decorative cover illustration and license badge.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-17] lint | Wiki health check
 

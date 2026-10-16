@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
       "797bc6bdcf78e37879060fa4127ec463ad24b2263112ee2e059173b7a64584fb",
       "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
       "af21b34c5f295b13ee8569ba5e1498346935adbebf4131282c49aa3b02dc0cec",
@@ -845,11 +846,29 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 843
+    "paragraph_count": 844
   },
-  "overview_commit": "517597396b05b320f5ad7fffcbf99680c9cdbdc1",
-  "overview_digest": "89fbb178cb1c9b6a8852b382d2f330efb20800e0edf785576a6e1d6d6b0ccc56",
+  "overview_commit": "95b9517925e4526ca313032b5f074fda54249e3c",
+  "overview_digest": "07cb46071786de30b2d1349bb2e909b298b0a03ce17e3a9b03545f9248f23777",
   "paragraphs": [
+    {
+      "id": "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Veronica Explains source adds [[DigitalIntentionality]] as environmental design for attention rather than merely fewer notifications. A browser-disabled smartphone with only a task list, music, email, and Signal still carried reminders, newsletter scrolling, and immediate social sharing everywhere, so the author begins a three-month experiment with the [[SunbeamF1Horizon]] Eagle. The feature phone retains calls, SMS, downloaded maps, a removable battery area with nano-SIM and MicroSD slots, and 4G tethering over Wi-Fi and USB while making interaction intentionally unrewarding. This extends [[AttentionManagement]] from batching and app controls to temporary device substitution and visible [[RoleModeling]] for a child. It also creates [[SmartphoneDependenceExternalities]]: QR-based parking, mobile restaurant ordering, and in-store lookup can become unavailable when services presume every customer carries a browser and scanner. The account is only a first-impressions plan, not a completed behavioral experiment or product audit; BasicOS provenance, Android version, security, openness, application removability, subscription value, durability, and long-term habit change remain unresolved. All four remote photographs were opened and retained at their semantic positions to document size, removable hardware, and the live SMS interface.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "DigitalIntentionality",
+        "RoleModeling",
+        "SmartphoneDependenceExternalities",
+        "SunbeamF1Horizon"
+      ]
+    },
     {
       "id": "797bc6bdcf78e37879060fa4127ec463ad24b2263112ee2e059173b7a64584fb",
       "primary_topic": "ai-and-technology",

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "im-switching-to-a-dumbphone-this-summer",
+  "images": [
+    {
+      "file": "older-sanyo-and-sunbeam-eagle.webp",
+      "alt": "Older Sanyo flip phone beside the larger Sunbeam F1 Horizon Eagle"
+    },
+    {
+      "file": "sunbeam-eagle-and-pixel-8.webp",
+      "alt": "Sunbeam F1 Horizon Eagle is substantially smaller than a Pixel 8 smartphone"
+    },
+    {
+      "file": "sunbeam-eagle-open-back.webp",
+      "alt": "Open Sunbeam F1 Horizon back showing labeled nano-SIM and MicroSD slots"
+    },
+    {
+      "file": "sunbeam-eagle-sms-screen.webp",
+      "alt": "Sunbeam SMS screen displaying a test conversation and 4G status"
+    }
+  ]
+}
