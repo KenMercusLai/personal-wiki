@@ -9595,7 +9595,7 @@ Created [[DiffusionGemma]], [[VLLM]], and [[DiffusionLanguageModels]], and updat
 
 ## [2026-10-16] lint | Wiki health check
 
-Ran lint. See lint-report.md for details.
+Ran lint. Deterministic and graph-aware results were printed; semantic checks were unavailable because the configured LiteLLM model lacked a provider prefix. The existing lint-report.md was not overwritten.
 
 ## [2026-10-16] ingest | Sneakerweb：互联网的脆弱与韧性 | 螺莉莉的数据中心
 
@@ -9620,6 +9620,14 @@ Created [[MaartenGrootendorst]] and updated [[DiffusionGemma]] and [[DiffusionLa
 ## [2026-10-16] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-16] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-16] ingest | My Thoughts on the Bun Rust Rewrite
+
+Created [[AndrewKelley]], [[JarredSumner]], [[Bun]], [[Zig]], [[ZigSoftwareFoundation]], and [[OrganizationalEngineeringIncentives]], and updated [[Anthropic]] and [[InternalSoftwareQuality]] from their complete ordered evidence inventories. Captured Kelley's argument that engineering resources, review, fuzzing, defect removal, management, financing pressure, and upstream relationships explain software outcomes more directly than a Zig-versus-Rust dichotomy. Preserved the contested limits around tests, LTO, binary-size work, compile-speed evidence, acquisition causality, and post-rewrite outcomes; treated employment claims as serious attributed allegations without independent verification. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
 
 ## [2026-10-16] lint | Wiki health check
 

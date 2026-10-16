@@ -706,6 +706,7 @@
       "ad9744e6ff9acd38000b76af0f37c44d1617b2eb00eb4544c8f11abfe5e89b27",
       "95dc190abe1157db9ea6688798b04d18b3df79c7a06a7f4abe9dc22b85e26ac5",
       "e8a553d5ac4219d2fd1e514514f81c92ecca26b5d4b1e1f62b8da25ebd4abecc",
+      "2929456ade477ce53b49b92d893a03d18cb8f26503afd2d394036af3bffec02c",
       "6cd94b47b7ee001061ed6003196019b541051111d5d7190f6eda8c404f500ce7",
       "fd94e705e1bcb2d224f7f8cd8ec2bcd3bc24f50a4e2e15e7c221472df468ab5b",
       "95d46d4afce12cddc387604c9619e08db6e71c23ff7acc19d233da8cfd7631a2",
@@ -843,10 +844,10 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 841
+    "paragraph_count": 842
   },
-  "overview_commit": "3cd95401f4093ba757c348226242edde86a59124",
-  "overview_digest": "0d6540d6fd0ab5a1cb7201027b42e4efe3d1e62f3308162ae2d2b23983ea2755",
+  "overview_commit": "4a930319637ea0646f33974acdb6b7435e1e0664",
+  "overview_digest": "c76e5e97b8bced4f1da420270b675721471c53dc0091c88d35666f8d95d034ad",
   "paragraphs": [
     {
       "id": "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
@@ -14362,6 +14363,29 @@
         "AssetAllocation",
         "FredWilson",
         "TechnologyBubbles"
+      ]
+    },
+    {
+      "id": "2929456ade477ce53b49b92d893a03d18cb8f26503afd2d394036af3bffec02c",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[AndrewKelley]] source adds [[OrganizationalEngineeringIncentives]] as an alternative to language-deterministic explanations of software quality. Kelley's account of [[Bun]] argues that a style guide, safety feature, test suite, LTO setting, or Rust rewrite cannot substitute for time spent reviewing code, fuzzing behavior, removing defects, and controlling [[TechnicalDebt]]; financing pressure, management, staffing, and upstream relationships shape whether that work occurs. This extends [[InternalSoftwareQuality]] by treating test passage as bounded evidence rather than sufficient justification for roughly one million lines of unreviewed translated code, especially when the prior implementation still had bugs outside the suite's effective coverage. It also adds an ecosystem externality: Bun's public credit and reported US$60,000 annualized donation benefited the [[ZigSoftwareFoundation]], while ZSF says Bun's practices, acquisition by [[Anthropic]], and AI-community spillover imposed reputation and moderation costs. The source is openly resentful and one-sided. It provides no repository audit, comparative defect or build data, employee records, named witnesses, responses from the criticized parties, or post-rewrite outcome measures; its serious allegations against [[JarredSumner]] remain attributed and unverified. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AndrewKelley",
+        "Anthropic",
+        "Bun",
+        "InternalSoftwareQuality",
+        "JarredSumner",
+        "OrganizationalEngineeringIncentives",
+        "TechnicalDebt",
+        "ZigSoftwareFoundation"
       ]
     },
     {

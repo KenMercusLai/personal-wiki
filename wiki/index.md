@@ -1225,6 +1225,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Five Years of Trying to Add Recursion to lychee](sources/lychee-recursion.md) - Matthias Endler's retrospective traces four failed recursion designs through dynamic-work termination, cyclic channel deadlocks, backpressure, deduplication, Rust ownership, and the infrastructure that now makes a solution plausible.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
+- [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
+
 ## Entities
 - [Jack Vanlightly](entities/JackVanlightly.md) - Data-systems writer contrasting transactional indexing with analytical physical design.
 - [Apache Iceberg](entities/ApacheIceberg.md) - Snapshot-and-manifest open table format whose query performance depends on locality and pruning metadata.
@@ -3171,6 +3173,12 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Thariq](entities/Thariq.md) - Practitioner-author presenting an unknowns-driven workflow for collaborating with Claude and Claude Code.
 
+- [Andrew Kelley](entities/AndrewKelley.md) - Zig project leader presenting a critical insider retrospective on Bun's engineering practices and departure from Zig.
+- [Jarred Sumner](entities/JarredSumner.md) - Bun founder represented through a one-sided account of rapid execution, Zig-community support, management, and disputed employment conduct.
+- [Bun](entities/Bun.md) - JavaScript toolchain represented through its Zig implementation, Anthropic acquisition, and disputed Rust rewrite rationale.
+- [Zig](entities/Zig.md) - Systems programming language represented through Bun's former use, quality dispute, and community-boundary concerns.
+- [Zig Software Foundation](entities/ZigSoftwareFoundation.md) - Zig steward and former recipient of Bun's financial and technical-community engagement.
+
 ## Concepts
 - [Open Table Formats](concepts/OpenTableFormats.md) - Metadata and table-management specifications over analytical data files, optimized through layout, pruning, and maintenance.
 - [Data Pruning](concepts/DataPruning.md) - Exclusion of partitions, files, row groups, or columns proven irrelevant to a query predicate.
@@ -4715,5 +4723,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Log Derivative Trick](concepts/LogDerivativeTrick.md) - Identity that rewrites probability derivatives as probability-weighted log-probability gradients.
 - [Score Function Estimator](concepts/ScoreFunctionEstimator.md) - Likelihood-ratio estimator for gradients of expectations under parameterized distributions.
 - [Policy Gradient](concepts/PolicyGradient.md) - Direct optimization of stochastic policies using return-weighted action log-probability gradients.
+
+- [Organizational Engineering Incentives](concepts/OrganizationalEngineeringIncentives.md) - Ownership, financing, leadership, staffing, and reward conditions that determine whether quality work is funded or crowded out.
 
 ## Syntheses
