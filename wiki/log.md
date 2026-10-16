@@ -9592,3 +9592,11 @@ Created [[DiffusionGemma]], [[VLLM]], and [[DiffusionLanguageModels]], and updat
 ## [2026-10-16] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-16] ingest | Sneakerweb：互联网的脆弱与韧性 | 螺莉莉的数据中心
+
+Created [[Sneakerweb]], [[OfflineWebDistribution]], and [[DigitalContentDurability]], and updated [[RORIRI]] and [[LocalFirstSoftware]] from their complete ordered source inventories. Captured publisher-generated SNK packaging, public-key-derived addresses, browser replay, proposed Willow synchronization across physical, local, and internet transports, the El Paquete Semanal precedent, and the distinction between hosted access and reader custody. Preserved the first-person and prototype scope, immature performance, uncited Cuban access figures, 300 MB package cost, uncertain adoption, and unresolved discovery, key, revocation, privacy, safety, interoperability, and long-term replay questions. Opened and retained the sole Walky6 screenshot because it shows concrete import, navigation, archive sorting, dated replicas, and address behavior.
+
+## [2026-10-16] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

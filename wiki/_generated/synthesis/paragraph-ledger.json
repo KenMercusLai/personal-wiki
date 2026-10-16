@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e212ab1ca851c9cccab2575ab93bb688ba87fff269795a1f11e416d782659304",
       "466be59a2cc10d61b04b3c6c7b9e52827b0ca86cc88467e4964fd3565326a17b",
       "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
       "23574da14e992258b0dfc4a588f2ee02184b2ad34a0ca99a7031b995e3123217",
@@ -840,11 +841,28 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 838
+    "paragraph_count": 839
   },
-  "overview_commit": "f67e8addcb695c7f0e3c28b02fcc7c7a1352dea4",
-  "overview_digest": "53ded0da1d93b900c501d1c7dd20fa3e916f786d2b9f2f970a2e53eebdf44016",
+  "overview_commit": "2d1e44b1a2756c86ccef36487388cf0576f740af",
+  "overview_digest": "f43b5b82f0025f25968896bda3ae359dc79afb5805988bd45f9bc98bd17d4897",
   "paragraphs": [
+    {
+      "id": "e212ab1ca851c9cccab2575ab93bb688ba87fff269795a1f11e416d782659304",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[RORIRI]] essay adds [[DigitalContentDurability]] and [[OfflineWebDistribution]] as complementary responses to the difference between hosted access and reader custody. Servers, domains, subscriptions, electronic licenses, certificate chains, publisher decisions, censorship, and incomplete archival capture can all make content disappear even when it was once widely available. [[Sneakerweb]] packages a publisher-built site into an importable SNK archive with a public-key-derived address, browser replay, links among archived sites, and intended Willow synchronization over USB, local radio, QR codes, LANs, or internet connections. This extends [[LocalFirstSoftware]] from private application state to published websites whose local replicas remain usable without the origin and can later synchronize through replaceable transports. The inspected Walky6 screenshot grounds the prototype interface in import, navigation, sorting, dated copies, and key-derived addresses. The governance result is deliberately double-edged: reader-held copies resist neglect and withdrawal, but make correction, revocation, privacy enforcement, and malware response harder. Evidence remains a first-person prototype account; Willow and Sneakerweb are described as immature and slow, the roughly 300 MB blog snapshot exposes distribution cost, the Cuban access figures are uncited, and discovery, key lifecycle, replay longevity, security, interoperability, and adoption are unmeasured.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 2
+      },
+      "wikilinks": [
+        "DigitalContentDurability",
+        "LocalFirstSoftware",
+        "OfflineWebDistribution",
+        "RORIRI",
+        "Sneakerweb"
+      ]
+    },
     {
       "id": "466be59a2cc10d61b04b3c6c7b9e52827b0ca86cc88467e4964fd3565326a17b",
       "primary_topic": "work-education-and-society",

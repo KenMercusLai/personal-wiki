@@ -11,24 +11,25 @@ sources:
   - agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin
   - ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin
   - jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin
-last_updated: 2026-10-10
+  - sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin
+last_updated: 2026-10-16
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, workplace-management tools, and the limits and incentives of persona simulation.
+[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, workplace-management tools, persona simulation, and durable reader custody of web content.
 
 ## Current Profile
-Within this wiki, RORIRI appears as an AI commentator and educator who connects practical tools to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, incentives, and human agency. One source ties MCP, Skills, RAG, Memory, prompt caching, and Computer Use to the shared problem of shaping LLM context; the AX essay expands that frame into user input, internal state, external action, transparency, permissions, interface-delivered context, and humanistic agent design. The education source asks what abilities humans need when AI handles more execution; the statistics sources turn model thinking into concrete lessons about data generation, variance, covariance, orthogonality, regression error, residuals, omitted variables, and heteroskedasticity; and the UX research source shows how conflicting evidence can be arranged into an explanatory report structure. A self-imitation experiment applies those same context and data-generation concerns to persona prompts, arguing that style reproduction and factual retrieval should not be mistaken for reconstruction of a person, and links shallow AI artifacts to traffic-driven content farming. The workplace essay applies the same label-versus-mechanism style of analysis to OKRs, KPIs, Agile, and waterfall planning, arguing that authority and evaluation incentives can invert tools designed for direction, feedback, and adaptation.
+Within this wiki, RORIRI appears as a technical commentator and educator who connects practical tools to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, incentives, agency, and digital custody. The LLM and AX sources connect context management with user intent, external action, permissions, transparency, and humanistic design. The education, statistics, and UX sources turn model thinking into concrete lessons about problem definition, evidence chains, error, covariance, regression, cognitive load, and apparently contradictory research findings. The persona and workplace essays apply the same label-versus-mechanism scrutiny to identity simulation, content incentives, OKRs, KPIs, Agile, and waterfall planning. The Sneakerweb essay expands that pattern beyond AI: hosted access, subscriptions, electronic licenses, DNS names, and certificate chains are treated as mechanisms whose promises should not be confused with reader possession; publisher-generated archives and the author's Walky6 prototype are offered as an experimental path toward durable custody.
 
 ## Key Characteristics
 - Explains LLM tooling concepts through context management, action control, retrieval, memory, and active compression.
-- Treats Agent Experience as a three-layer design problem spanning intent, context, external action, transparency, permissions, and interface context.
-- Frames Computer Use as a packaging layer over lower-level agent action mechanisms and interface-observation routes.
+- Treats Agent Experience as a three-layer design problem spanning intent, context, external action, transparency, permissions, interface context, and the lower-level mechanisms packaged as Computer Use.
 - Extends computational thinking for AI-era education through statistics, abstraction/programming, academic writing, and taste as problem sense.
 - Explains statistics through examples that distinguish data-generation assumptions, sample relationships, model error, residuals, inference uncertainty, and plausible explanations that blur diagnostics or target quantities.
 - Treats UX research reporting as information design, where data layers and contradictions require an explicit explanatory chain.
 - Critiques LLM sycophancy, persona-resurrection rhetoric, and management-by-relabeling, proposing clearer boundaries around cognition, intent, identity, metrics, feedback, and tool purpose.
+- Extends user agency from software interaction to digital custody by comparing live service access with complete, reader-held web archives.
 
 ## Evidence
 - Context frame: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] ties Skills, MCP, RAG, Memory, and Computer Use to context pollution and context limits.
@@ -51,15 +52,15 @@ Within this wiki, RORIRI appears as an AI commentator and educator who connects 
 - Incentive critique: [[ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin]] connects thin persona repositories and unreliable AI products to traffic- and advertising-driven farming.
 - Management-tool boundary: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] distinguishes directional OKRs from operating KPIs and adaptive user feedback from waterfall plans partitioned into sprints.
 - Workplace mechanism: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] argues that performance penalties, arbitrary requirement changes, and deferred technical quality can turn ostensibly human-centered tools into control systems.
+- Digital-custody argument: [[sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin]] connects hosting, domain, licensing, censorship, and archival failure to the fragility of service-mediated access.
+- Prototype practice: [[sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin]] reports publishing a Sneakerweb snapshot and building the small Tauri-based Walky6 interface around the protocol.
 
 ## Qualifications
-The wiki's RORIRI evidence is still limited to explanatory essays, a practitioner UX research case, and a first-person persona experiment rather than formal specifications, empirical education or management research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, or validated agent-safety standards. The persona article's fit percentage and allegations about unnamed farmers are subjective and should not be treated as performance measurements or independently established misconduct. The workplace essay's OKR completion heuristic, sprint boundaries, and claims about standard management teaching are likewise practitioner prescriptions rather than universal definitions or measured causal findings.
+The wiki's RORIRI evidence is still limited to explanatory essays, practitioner cases, and first-person experiments rather than formal specifications, empirical education or management research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, validated agent-safety standards, or independent protocol audits. The persona article's fit percentage and allegations about unnamed farmers are subjective. The workplace essay's OKR and sprint prescriptions are not universal standards. The Sneakerweb comparison likewise reflects the author's preservation priorities; its Cuban access figures are uncited, and the prototype supplies no adoption, usability, performance, security, or long-term replay evidence.
 
 ## What Changed
-- Added RORIRI's UX research article as evidence that their teaching style also covers report architecture, mixed-method interpretation, and cognitive explanations for contradictory usability findings.
-- Added the full Agent Experience essay as evidence that RORIRI connects agent tooling to interface design, permissions, transparency, sycophancy, and humanistic AI.
-- Added RORIRI's self-imitation experiment and critique of persona-distillation rhetoric, context limits, and traffic-driven AI farming.
-- Added RORIRI's analysis of OKR/KPI confusion, pseudo-Agile planning, workplace incentives, and authority.
+- Added the Sneakerweb essay and Walky6 prototype as evidence that RORIRI's mechanism-focused analysis extends to web preservation, digital custody, and offline distribution.
+- Broadened the profile from AI, education, statistics, UX, and management commentary to include practical participation in experimental web infrastructure.
 
 ## Relationships
 - [[LLMContextManagement]] - RORIRI uses this as the unifying frame for LLM tooling terms.
@@ -88,3 +89,6 @@ The wiki's RORIRI evidence is still limited to explanatory essays, a practitione
 - [[ObjectivesAndKeyResults]] - RORIRI distinguishes directional stretch goals from operational KPIs and performance scoring.
 - [[AgileSoftwareDevelopment]] - RORIRI distinguishes evidence-led iteration from fixed plans relabeled as sprints.
 - [[WorkplaceIncentiveDesign]] - RORIRI treats reward and penalty structures as capable of reversing a tool's stated purpose.
+- [[Sneakerweb]] - RORIRI published a site archive and built the Walky6 prototype around this experimental system.
+- [[DigitalContentDurability]] - RORIRI distinguishes hosted availability from durable reader custody.
+- [[OfflineWebDistribution]] - RORIRI connects physical-media content networks with publisher-generated offline website packages.
