@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "af21b34c5f295b13ee8569ba5e1498346935adbebf4131282c49aa3b02dc0cec",
       "e212ab1ca851c9cccab2575ab93bb688ba87fff269795a1f11e416d782659304",
       "466be59a2cc10d61b04b3c6c7b9e52827b0ca86cc88467e4964fd3565326a17b",
       "9e25dd0f0f1bec686c00b2b0661a60595cc1a42c39ef18c5687156bfcf62fd8e",
@@ -841,11 +842,25 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 839
+    "paragraph_count": 840
   },
-  "overview_commit": "2d1e44b1a2756c86ccef36487388cf0576f740af",
-  "overview_digest": "f43b5b82f0025f25968896bda3ae359dc79afb5805988bd45f9bc98bd17d4897",
+  "overview_commit": "5d4fd4b59b428a609a08777e14c21617d43f9715",
+  "overview_digest": "afc4ba26bc09d1391df9fce86ee2df77b3cab01739573367c5898e661dcb3524",
   "paragraphs": [
+    {
+      "id": "af21b34c5f295b13ee8569ba5e1498346935adbebf4131282c49aa3b02dc0cec",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest [[Purplesyringa]] source adds [[BurrowsWheelerTransform]] as two related but nonidentical constructions. Cyclic-shift BWT sorts rotations and uses occurrence-rank-preserving LF mapping plus a primary index for exact inversion; suffix BWT sorts suffixes, includes the empty suffix, and omits the full suffix's nonexistent predecessor, forcing decoder index corrections around both boundaries. A naive attempt to assign the full suffix a cyclic predecessor fails because wrapping can reorder prefix-related suffixes. [[SuffixArrays]] explain the engineering reversal: suffix BWT has the more complicated decoder but benefits from mature linear-time SA-IS construction and libsais, while cyclic-shift BWT has cleaner decoding and suits tiny-decoder or full-alphabet settings. Cyclic ordering can still reuse suffix machinery by doubling the input and filtering starts or by rotating to the lexicographically smallest shift with Duval's algorithm; the latter then recovers the original primary index through suffix-array lookup or Z-function comparison. Unique sentinels can make the variants coincide operationally. These are reasoned algorithms and implementation guidance rather than controlled performance results, and the author revised the literature survey after finding a cyclic SA-IS variation with no apparent optimized implementation. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "BurrowsWheelerTransform",
+        "Purplesyringa",
+        "SuffixArrays"
+      ]
+    },
     {
       "id": "e212ab1ca851c9cccab2575ab93bb688ba87fff269795a1f11e416d782659304",
       "primary_topic": "governance-and-institutions",

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-16
-as_of_overview_commit: 2d1e44b1a2756c86ccef36487388cf0576f740af
+as_of_overview_commit: 5d4fd4b59b428a609a08777e14c21617d43f9715
 summary: "A cross-domain evidence map for matching technologies and institutions to real needs while preserving explicit boundaries, accountable judgment, human voice, and uncertainty."
-episode_count: 1192
-source_count: 1192
-paragraph_count: 839
+episode_count: 1193
+source_count: 1193
+paragraph_count: 840
 topic_count: 9
 ---
 

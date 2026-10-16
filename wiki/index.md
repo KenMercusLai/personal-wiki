@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Suffix BWT vs cyclic shift BWT, and fast computation](sources/suffix-bwt.md) - Purplesyringa distinguishes suffix and cyclic-shift BWT boundary semantics, decoding costs, and suffix-array-based routes to fast construction.
 - [Sneakerweb：互联网的脆弱与韧性 | 螺莉莉的数据中心](sources/sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI presents publisher-generated, replayable SNK website archives as a path from fragile hosted access toward transport-independent offline distribution and reader custody.
 - [DiffusionGemma: The First Diffusion LLM (dLLM) Natively Supported in vLLM](sources/diffusion-gemma.md) - The vLLM and Google DeepMind teams map 256-token diffusion denoising onto vLLM's speculative path with phase-aware attention, self-conditioning, and qualified batch-one speed results.
 - [Linker I/O tricks and their downsides](sources/linker-io-tricks-and-their-downsides.md) - MaskRay measures how output-inode reuse, early parent exit, and hugepage hints trade small favorable-path linker gains for correctness, observability, and worst-case performance risks.
@@ -1223,6 +1224,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [purplesyringa](entities/Purplesyringa.md) - Software practitioner explaining BWT variants through worked decoding, algorithm reductions, and qualified implementation tradeoffs.
 - [Sneakerweb](entities/Sneakerweb.md) - Experimental system for publisher-generated, locally replayable website packages with key-derived addresses and intended transport-independent synchronization.
 - [DiffusionGemma](entities/DiffusionGemma.md) - 26B-parameter Gemma4-based language model that denoises and commits fixed 256-token blocks.
 - [vLLM](entities/VLLM.md) - Language-model inference engine hosting DiffusionGemma through ModelState hooks and reused speculative-decoding infrastructure.
@@ -3165,6 +3167,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thariq](entities/Thariq.md) - Practitioner-author presenting an unknowns-driven workflow for collaborating with Claude and Claude Code.
 
 ## Concepts
+- [Burrows–Wheeler Transform](concepts/BurrowsWheelerTransform.md) - Reversible context-grouping transform with distinct cyclic-shift and suffix formulations, boundary rules, and encoder-decoder tradeoffs.
+- [Suffix Arrays](concepts/SuffixArrays.md) - Lexicographic suffix ordering used for text indexing, suffix BWT construction, and adapted cyclic-shift construction.
 - [Offline Web Distribution](concepts/OfflineWebDistribution.md) - Packaging and moving complete browser-rendered content through files, physical media, local links, or the internet for use without continuous origin access.
 - [Digital Content Durability](concepts/DigitalContentDurability.md) - Continued retrievability, authenticity, interpretation, and use of content after its original service, domain, license, or access path disappears.
 - [Diffusion Language Models](concepts/DiffusionLanguageModels.md) - Language models that generate by iteratively refining noisy token canvases before committing blocks.

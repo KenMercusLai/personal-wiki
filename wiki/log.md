@@ -9600,3 +9600,11 @@ Created [[Sneakerweb]], [[OfflineWebDistribution]], and [[DigitalContentDurabili
 ## [2026-10-16] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-16] ingest | Suffix BWT vs cyclic shift BWT, and fast computation
+
+Created [[Purplesyringa]], [[BurrowsWheelerTransform]], and [[SuffixArrays]]. Distinguished cyclic-shift and suffix BWT ordering, inversion, omitted-boundary handling, and sentinel equivalence; captured SA-IS and libsais construction, doubled-string filtering, minimum rotation through Duval's algorithm, and primary-index recovery through suffix-array lookup or the Z-function. Preserved the absence of controlled benchmarks, the author's stated uncertainty, periodic-input qualification, and the later-added cyclic SA-IS reference. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-16] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
