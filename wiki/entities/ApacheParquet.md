@@ -8,7 +8,8 @@ sources:
   - p5662-hao-corrected
   - vortex-one-format-for-any-shape
   - "2504.15247"
-last_updated: 2026-10-15
+  - beyond-indexes
+last_updated: 2026-10-16
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ Physically, Parquet partitions files into row groups, column chunks, and pages, 
 
 LiquidCache adds a different limit: ordinary filter pushdown must decompress and decode relevant pages before vectorized predicates run, making decoding more expensive than the predicate in the evaluated selective queries. Its response is not to replace Parquet, but to retain Parquet as the durable interoperable layer and transcode hot cache data into a private representation.
 
+At the table-format layer, Parquet's row-group statistics are one stage in hierarchical [[DataPruning]]. Iceberg manifest statistics can reject whole files first; for files that remain, per-column row-group min/max values can reject blocks. These statistics are most selective when partitioning, sorting, and compaction keep related values together. If every row group spans most of a column's domain, metadata accurately describes a layout that offers little opportunity to skip data.
+
 Format evolvability creates another boundary. Parquet logical types must map onto a small set of prescribed physical types, encodings, and layout conventions, while new encodings require specification agreement and implementation by independent readers. A registrable design can instead make types, encodings, and layouts composable, although its readers then require extension code. From that design perspective, Parquet's PAX-style row-group, column-chunk, and page hierarchy is one reproducible layout choice rather than the only possible container structure.
 
 ## Key Characteristics
@@ -29,7 +32,7 @@ Format evolvability creates another boundary. Parquet logical types must map ont
 - Exposes implementation-dependent behavior around nulls, complex structures, field ordering, and encoding versions.
 - Must remain compatible with table and partition metadata as schemas evolve.
 - Can require an owned, version-pinned read/write boundary when engine-bundled libraries diverge.
-- Uses row groups, column chunks, and pages as nested physical boundaries, with file-level metadata in the footer.
+- Uses row groups, column chunks, and pages as nested physical boundaries; row-group statistics can support lower-level pruning after a table format selects files.
 - Can deliver strong indexed point lookup with small pages, while trading page-index RAM, read amplification, and configuration sensitivity against scans.
 - Remains valuable as a durable ecosystem boundary even when another system uses a private, extensible, or workload-specific representation.
 
@@ -47,14 +50,15 @@ Format evolvability creates another boundary. Parquet logical types must map ont
 - Layout reproducibility: [[vortex-one-format-for-any-shape]] says composable Vortex layouts can recreate Parquet's row-group-to-column-chunk-to-page hierarchy.
 - Tuned point lookup: [[2504.15247]] reports one page I/O per selected row, about 350,000 small-scalar rows per second with 8 KiB pages, and more than 60-fold improvement over default parquet-rs settings.
 - Scan and metadata tradeoff: [[2504.15247]] reports data-dependent row-group preferences, comparable compression, underused disk bandwidth, and a projected 20 GiB page-offset cache per billion one-page values in parquet-rs.
+- Hierarchical pruning: [[beyond-indexes]] explains how Parquet row-group min/max statistics complement Iceberg manifest statistics and become more selective when sorting narrows stored value ranges.
 
 ## Qualifications
-The interoperability evidence reflects one 2016 Slack deployment, not current implementations or present-day best practice. The new point-lookup evidence is stronger than the earlier secondary Lance account, but it is still a competing format team's benchmark on one device, parquet-rs 54, custom row-selection orchestration, warm indexes, and chosen page and row-group sweeps. It shows Parquet's capability when tuned, not the behavior of every reader or workload. LiquidCache and Vortex are likewise first-party comparisons with their own workload and maturity boundaries. Parquet's ecosystem maturity and durable compatibility may outweigh selective-access, decoding, or extension costs, and its implementations can improve without a format change.
+The interoperability evidence reflects one 2016 Slack deployment, not current implementations or present-day best practice. The new point-lookup evidence is stronger than the earlier secondary Lance account, but it is still a competing format team's benchmark on one device, parquet-rs 54, custom row-selection orchestration, warm indexes, and chosen page and row-group sweeps. It shows Parquet's capability when tuned, not the behavior of every reader or workload. LiquidCache and Vortex are likewise first-party comparisons with their own workload and maturity boundaries. The pruning account is conceptual and engine-dependent: statistics cannot rescue a scattered layout, and null, NaN, truncation, predicate, and reader semantics affect safe exclusion. Parquet's ecosystem maturity and durable compatibility may outweigh selective-access, decoding, or extension costs, and its implementations can improve without a format change.
 
 ## What Changed
 - Added primary evidence that page-offset indexes and 8 KiB pages can make Parquet a strong NVMe point-lookup format.
 - Added the page-index RAM, dictionary, row-group tuning, and scan-scheduling costs observed in that experiment.
-- Preserved interoperability, durable-boundary, filter-decoding, and standardized-extension roles from the complete evidence set.
+- Added Parquet's row-group statistics as a lower tier in table-format pruning while preserving interoperability, durable-boundary, filter-decoding, and extension roles.
 
 ## Relationships
 - [[LanceFormat]] - contrasting columnar design that removes shared row groups and makes column metadata independently addressable.
@@ -68,3 +72,5 @@ The interoperability evidence reflects one 2016 Slack deployment, not current im
 - [[DataFormatInteroperability]] - Parquet is the concrete format through which incompatible implementations surfaced.
 - [[APIBackwardCompatibility]] - related obligation to preserve existing consumers as encodings evolve.
 - [[ChangeSafety]] - format and engine upgrades need explicit compatibility validation.
+- [[DataPruning]] - consumes Parquet row-group statistics to skip blocks that cannot satisfy a predicate.
+- [[ApacheIceberg]] - uses Parquet as one data-file layer beneath snapshot and manifest metadata.

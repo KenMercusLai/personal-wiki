@@ -7,7 +7,8 @@ sources:
   - p5662-hao-corrected
   - vortex-one-format-for-any-shape
   - "2504.15247"
-last_updated: 2026-10-15
+  - beyond-indexes
+last_updated: 2026-10-16
 knowledge_schema: synthesis-v1
 ---
 
@@ -27,6 +28,8 @@ LiquidCache adds execution-aware encoding to the design space. Parquet compresse
 
 Vortex generalizes these choices by separating logical types, recursive array encodings, and segment-fetch layouts. Its layout trees can reproduce a PAX hierarchy or compose different chunking and pruning for a storage system, while encoding trees can combine dictionary, run-end, bit-packed, and other representations beneath the same logical type. Canonical encodings provide a general compute fallback; registries let third-party crates add faster or more specialized paths. This moves flexibility into extension code, identifiers, metadata, validation, versioning, and reader distribution rather than removing compatibility cost.
 
+The open-table-format view adds a hierarchy above the file. Table partitioning and sorting decide which values become colocated; manifests describe files; Parquet statistics describe row groups; and compaction repairs small-file and cross-write locality drift. Metadata does not create locality: broad overlapping ranges faithfully report that little can be pruned. Supporting incompatible query shapes therefore requires either a compromise layout or maintained alternate representations such as materialized views.
+
 ## Key Claims
 - A shared row-group size can become inefficient when column widths differ greatly.
 - Page-level indexes can make Parquet point lookup fast, but trade sparse-read amplification and index RAM against page size.
@@ -34,7 +37,7 @@ Vortex generalizes these choices by separating logical types, recursive array en
 - Separating I/O scheduling from decoding can overlap storage and CPU work more freely than row-group-bound execution.
 - Selectively addressable column metadata can reduce projection overhead for extremely wide schemas.
 - Structural encoding should adapt to value width, nesting, storage read units, and whether scan or point-decode work dominates.
-- Extensibility can live in a durable format, shared implementation, or private cache layer, with different interoperability responsibilities.
+- Extensibility and query diversity can live in a durable format, table metadata, shared implementation, private cache, or alternate materialized layout, with different interoperability and maintenance responsibilities.
 
 ## Evidence
 - Row-group and page boundary: [[lance-mian-xiang-ai-chang-jing-de-shu-ju-cun-chu-ge-shi]] diagrams Parquet's row-group, column-chunk, page, page-index, and footer hierarchy.
@@ -53,14 +56,15 @@ Vortex generalizes these choices by separating logical types, recursive array en
 - Adaptive structure: [[2504.15247]] compares Parquet pages, Arrow buffers, Lance miniblocks, and full zip across nesting, cache size, random access, compression, and scans.
 - Benchmark controls: [[2504.15247]] shows coalesced-access benefits shrinking with dataset scale and reports tuned Parquet more than 60 times faster than its default small-scalar configuration.
 - Packing tradeoff: [[2504.15247]] shows multi-field struct lookup improving when fields share an access unit while single-field scan throughput declines.
+- Table-to-file hierarchy: [[beyond-indexes]] connects partitions, sort order, manifests, Parquet row-group statistics, Bloom filters, compaction, and alternate projections as layers of analytical I/O avoidance.
 
 ## Counterevidence & Qualifications
-The primary Lance paper now supplies a controlled benchmark, but it remains first-party, uses one NVMe device and CPU, selected datasets, warm metadata, parquet-rs 54, and experimental Lance versions. Its Arrow result uses Lance 2.0 as a proxy rather than Arrow IPC, and several Lance mechanisms were incomplete. LiquidCache and Vortex add separate first-party and prototype boundaries. Parquet's maturity and interoperability may outweigh selective-access costs; Arrow may remain best in memory; and pushdown can lose on non-selective predicates. Every design moves complexity among metadata, readers, cache RAM, decoding, registries, transcoding, layout selection, and scheduling. Outcomes remain conditional on schema, value width, nesting, compression, storage minimum reads, cache state, concurrency, implementation quality, and operational workload.
+The primary Lance paper now supplies a controlled benchmark, but it remains first-party, uses one NVMe device and CPU, selected datasets, warm metadata, parquet-rs 54, and experimental Lance versions. Its Arrow result uses Lance 2.0 as a proxy rather than Arrow IPC, and several Lance mechanisms were incomplete. LiquidCache and Vortex add separate first-party and prototype boundaries, while the open-table-format account is conceptual rather than measured. Parquet's maturity and interoperability may outweigh selective-access costs; Arrow may remain best in memory; and pushdown can lose on non-selective predicates. Every design moves complexity among metadata, readers, cache RAM, decoding, registries, transcoding, partition choice, rewrite maintenance, layout selection, and scheduling. Outcomes remain conditional on schema, value width, nesting, distribution, predicates, compression, storage minimum reads, cache state, concurrency, implementation quality, and operational workload.
 
 ## What Changed
 - Added controlled evidence that tuned Parquet point lookup can be strong while remaining sensitive to page size and index RAM.
 - Added adaptive structural encoding by value width and nesting as a distinct design axis from compression.
-- Added coalescing, storage read size, struct packing, and I/O scheduling as benchmark and layout qualifications.
+- Added table-level locality, hierarchical pruning, compaction drift, and alternate physical copies above file-level layout choices.
 
 ## Related Concepts
 - [[LanceFormat]] - implements independent pages, selective column metadata, and extensible encodings.
@@ -75,3 +79,5 @@ The primary Lance paper now supplies a controlled benchmark, but it remains firs
 - [[StoragePerformanceBenchmarking]] - provides the measurement discipline needed to test layout claims.
 - [[VectorDatabase]] - selective candidate-row fetching makes random-access costs operationally important.
 - [[DataFormatInteroperability]] - flexible encodings and readers must still preserve shared data meaning.
+- [[OpenTableFormats]] - add partition, manifest, maintenance, and alternate-layout choices above columnar files.
+- [[DataPruning]] - turns physical locality and statistics into avoided I/O.

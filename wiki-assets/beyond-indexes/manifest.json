@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "beyond-indexes",
+  "images": [
+    {
+      "file": "clustered-b-tree-seek-and-scan.png",
+      "alt": "Clustered B-tree showing a direct seek through intermediate nodes and a sequential scan across linked leaf pages"
+    },
+    {
+      "file": "secondary-index-row-lookups.png",
+      "alt": "Last-name and country secondary indexes mapping predicate values to primary keys in a clustered Users table"
+    },
+    {
+      "file": "iceberg-snapshot-manifest-data-tree.png",
+      "alt": "Iceberg snapshot tree from a manifest list through manifest files to immutable data files"
+    },
+    {
+      "file": "partition-sort-and-compaction-layout.png",
+      "alt": "Country partitions whose surname ranges become broader and fewer as repeated compactions restore cross-file sort locality"
+    },
+    {
+      "file": "parquet-row-group-column-layout.png",
+      "alt": "Parquet file divided into row groups with each selected column stored contiguously inside every group"
+    },
+    {
+      "file": "materialized-view-alternate-layouts.png",
+      "alt": "Base table feeding a full differently laid-out copy and smaller aggregated or filtered materialized views"
+    },
+    {
+      "file": "star-schema-fact-and-dimensions.png",
+      "alt": "Sales fact table joined to product, customer, seller, date, and region dimension tables"
+    }
+  ]
+}

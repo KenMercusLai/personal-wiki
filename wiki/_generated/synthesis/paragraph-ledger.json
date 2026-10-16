@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
       "af21b34c5f295b13ee8569ba5e1498346935adbebf4131282c49aa3b02dc0cec",
       "e212ab1ca851c9cccab2575ab93bb688ba87fff269795a1f11e416d782659304",
       "466be59a2cc10d61b04b3c6c7b9e52827b0ca86cc88467e4964fd3565326a17b",
@@ -842,11 +843,25 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 840
+    "paragraph_count": 841
   },
-  "overview_commit": "1245be58bcb09fc310a6bb1f92d9465c03fdc939",
-  "overview_digest": "afc4ba26bc09d1391df9fce86ee2df77b3cab01739573367c5898e661dcb3524",
+  "overview_commit": "3cd95401f4093ba757c348226242edde86a59124",
+  "overview_digest": "0d6540d6fd0ab5a1cb7201027b42e4efe3d1e62f3308162ae2d2b23983ea2755",
   "paragraphs": [
+    {
+      "id": "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[JackVanlightly]] source adds [[OpenTableFormats]] and [[DataPruning]] as the table-level context above the wiki's file-format comparisons. OLTP B-trees reduce I/O through selective seeks and secondary mappings whose value depends on selectivity, covering data, statistics, and random-access cost. Analytical systems instead project columns and prune large immutable regions: an [[ApacheIceberg]] snapshot leads through a manifest list and manifests to data files, then [[ApacheParquet]] statistics can exclude row groups inside selected files. Partitioning creates guaranteed locality, sorting tightens value ranges, and compaction consolidates small independently sorted writes so metadata becomes selective again; statistics describe this layout but cannot repair scattered values. Bloom filters add exact-match absence tests, while star schemas align logical access with coarse partitions and selective fact-table sort keys. A single canonical layout cannot satisfy incompatible access paths, so transparent materialized projections exchange storage, freshness, and maintenance for query diversity. This is a conceptual practitioner account without benchmarks, and support varies across Iceberg, Delta, Hudi, Paimon, file formats, and engines. All seven local diagrams were opened and retained once at their semantic positions.",
+      "topic_scores": {},
+      "wikilinks": [
+        "ApacheIceberg",
+        "ApacheParquet",
+        "DataPruning",
+        "JackVanlightly",
+        "OpenTableFormats"
+      ]
+    },
     {
       "id": "af21b34c5f295b13ee8569ba5e1498346935adbebf4131282c49aa3b02dc0cec",
       "primary_topic": "culture-and-media",

@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-16] ingest | Beyond Indexes: How Open Table Formats Optimize Query Performance
+
+Created [[JackVanlightly]], [[ApacheIceberg]], [[OpenTableFormats]], and [[DataPruning]], and updated [[ApacheParquet]] and [[ColumnarStorageTradeoffs]] from their complete ordered evidence inventories. Captured OLTP clustered and secondary index access, analytical scan economics, Iceberg snapshot and manifest hierarchy, partitioning, sorting, compaction, hierarchical min/max pruning, Bloom filters, primary-key-to-file maps, materialized projections, and star-schema physical design. Preserved the conceptual rather than benchmarked scope, system and engine variation, selective analytical and hybrid-workload exceptions, metadata limits under scattered layouts, and lifecycle costs of alternate representations. Opened and retained all seven evidence-bearing local diagrams at their semantic positions with a canonical manifest.
+
 ## [2026-10-13] ingest | Apple: You (Still) Don’t Understand the Vision Pro
 
 Created [[VisionPro]] and [[ImmersiveMediaProduction]], and updated [[Apple]], [[NBA]], [[BenThompson]], [[Stratechery]], and [[VirtualRealitySports]] from their complete ordered evidence inventories. Recorded the distinction between television's multi-camera grammar and immersive video's sustained spatial presence, the 54-shot MLS timing log, compelling scorer's-table and baseline NBA views, forced-reorientation costs, the six-game Lakers schedule, and the fixed-viewpoint or viewer-choice alternative. Preserved the single-enthusiast scope, missing viewer and cost studies, remaining capture and rights work, and the possibility that some sports and viewers benefit from direction, replays, or context. Opened and retained all three evidence-bearing remote images at their semantic positions.
@@ -9612,6 +9616,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-16] ingest | A Visual Guide to DiffusionGemma
 
 Created [[MaartenGrootendorst]] and updated [[DiffusionGemma]] and [[DiffusionLanguageModels]] from their complete ordered evidence inventories. Captured the hardware-utilization motivation, masked-versus-uniform-state corruption, revisable random-token canvases, shared causal-encoder and bidirectional-denoiser weights, KV-cache reuse, soft self-conditioning, sequential 256-token blocks, temperature decay, adaptive stopping, entropy-ranked group acceptance, and rejected-token re-noising. Preserved the secondary explainer scope, absence of controlled latency and quality measurements, distinction between stopping and acceptance thresholds, and illustrative rather than universal step counts. Opened all 45 local diagrams, retained 11 nonredundant architecture, comparison, scheduler, and sampler visuals at their semantic positions with a canonical manifest, and omitted intermediate or prose-redundant diagrams.
+
+## [2026-10-16] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-16] lint | Wiki health check
 
