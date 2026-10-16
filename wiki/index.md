@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [DiffusionGemma: The First Diffusion LLM (dLLM) Natively Supported in vLLM](sources/diffusion-gemma.md) - The vLLM and Google DeepMind teams map 256-token diffusion denoising onto vLLM's speculative path with phase-aware attention, self-conditioning, and qualified batch-one speed results.
 - [Linker I/O tricks and their downsides](sources/linker-io-tricks-and-their-downsides.md) - MaskRay measures how output-inode reuse, early parent exit, and hugepage hints trade small favorable-path linker gains for correctness, observability, and worst-case performance risks.
 - [AI 时代，还有什么值得自己写？](sources/ai-shi-dai-hai-you-shi-me-zhi-de-zi-ji-xie.md) - YeungYeah argues that AI weakens the value of generic capture while preserving personal frameworks, process narratives, lived judgment, and human-owned voice as reasons to write.
 - [详细谈谈DSpark投机解码的原理](sources/wechat-rrhg9uccinsc-zecigjnbq.md) - Zartbot reconstructs speculative-decoding theory and draft-model evolution, then explains DSpark's semi-autoregressive drafting, calibrated confidence estimates, and hardware-aware verification scheduling.
@@ -1221,6 +1222,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [DiffusionGemma](entities/DiffusionGemma.md) - 26B-parameter Gemma4-based language model that denoises and commits fixed 256-token blocks.
+- [vLLM](entities/VLLM.md) - Language-model inference engine hosting DiffusionGemma through ModelState hooks and reused speculative-decoding infrastructure.
 - [MaskRay](entities/MaskRay.md) - Systems practitioner investigating linker performance through filesystem, process, and Linux memory behavior.
 - [mold](entities/MoldLinker.md) - High-speed linker using examined inode-reuse, asynchronous-teardown, and hugepage optimizations on Linux.
 - [wild](entities/WildLinker.md) - Linker with examined in-place output, early-parent-exit, and output-hugepage behavior.
@@ -3160,6 +3163,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thariq](entities/Thariq.md) - Practitioner-author presenting an unknowns-driven workflow for collaborating with Claude and Claude Code.
 
 ## Concepts
+- [Diffusion Language Models](concepts/DiffusionLanguageModels.md) - Language models that generate by iteratively refining noisy token canvases before committing blocks.
 - [Linker Optimization Tradeoffs](concepts/LinkerOptimizationTradeoffs.md) - Correctness, observability, and workload-dependent costs of shortening visible link time through inode reuse, asynchronous teardown, or hugepage requests.
 - [Speculative Decoding](concepts/SpeculativeDecoding.md) - Draft-and-verify inference framework whose value depends on sampling correctness, accepted-prefix yield, draft cost, verification cost, and serving load.
 - [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving native database semantics while making immutable object storage the durable source of truth.

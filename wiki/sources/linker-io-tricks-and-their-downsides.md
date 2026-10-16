@@ -2,7 +2,7 @@
 title: "Linker I/O tricks and their downsides"
 type: source
 tags: [linkers, linux, performance, filesystems, benchmarking, hugepages]
-date: 2026-10-15
+date: 2026-09-20
 source_file: "/mnt/ken_personal_wiki/Articles/Linker I:O tricks and their downsides.md"
 ---
 

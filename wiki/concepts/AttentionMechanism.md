@@ -6,7 +6,8 @@ sources:
   - what-is-chatgpt-doing-and-why-does-it-work
   - jay-alammar-the-illustrated-transformer
   - flashattention-1
-last_updated: 2026-10-15
+  - diffusion-gemma
+last_updated: 2026-10-16
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ The broader evidence preserves a competence boundary. In Wolfram's balanced-pare
 
 The mathematical definition does not determine an efficient execution order. A direct implementation materializes score and probability matrices whose two dimensions both grow with sequence length. The FlashAttention tutorial shows that the same simplified forward result can instead stream keys and values for each independent query, accumulate unnormalized weighted values and the softmax denominator together, and normalize at the end. This adds an implementation boundary to the concept: attention semantics may be unchanged while [[OperatorFusion]] and the [[GPUMemoryHierarchy]] substantially change its memory traffic.
 
+Nor must causality be fixed for an entire model or batch. [[DiffusionGemma]] uses the same backbone causally when prefilling or committing tokens and bidirectionally while denoising an active block. A mixed serving batch can therefore need different masks per sequence, while sliding-window layers need left-only bounds for causal requests and symmetric bounds for bidirectional canvases. The attention implementation must preserve useful tiling and mask-skipping behavior under that finer-grained control.
+
 ## Key Claims
 - Attention computes a context-sensitive weighted sum of value vectors from query-key compatibility scores.
 - Scaling scores by the square root of key width before softmax improves numerical and gradient stability in the illustrated formulation.
@@ -29,7 +32,7 @@ The mathematical definition does not determine an efficient execution order. A d
 - Multi-head attention uses independent learned projections, then concatenates and projects their outputs into one representation.
 - Attention removes the fixed context window of an n-gram and lets positions directly use distant sequence information.
 - Learned attention can approximate nested dependencies while still failing exact algorithmic constraints at longer lengths.
-- Attention's mathematical form permits memory-efficient evaluation that avoids materializing quadratic intermediates in HBM.
+- Attention's mathematical form permits both memory-efficient evaluation and per-sequence causal or bidirectional masking without changing the learned backbone weights.
 
 ## Evidence
 - Query-key-value calculation: [[jay-alammar-the-illustrated-transformer]] walks from per-token projections and dot products through scaling, softmax, weighted values, and the compact matrix formula `softmax(QKᵀ / √dₖ)V`.
@@ -39,15 +42,17 @@ The mathematical definition does not determine an efficient execution order. A d
 - Inspected GPT patterns: [[what-is-chatgpt-doing-and-why-does-it-work]] plots GPT-2 attention weights across heads and blocks, revealing structured causal look-back patterns.
 - Nested-sequence test: [[what-is-chatgpt-doing-and-why-does-it-work]] reports that one attention block learns little on balanced parentheses, while two blocks converge but retain invalid continuation probability and fail as sequences lengthen.
 - Execution order: [[flashattention-1]] derives a pedagogical per-query loop that accumulates exponential score-weighted values and the softmax denominator together before one final normalization.
+- Dynamic causality: [[diffusion-gemma]] diagrams one live batch containing causal prefill, bidirectional denoising, and causal commit masks, including symmetric sliding windows only for the denoising request.
 
 ## Counterevidence & Qualifications
-The pronoun diagrams are individual visualizations, not evidence that heads always implement a fixed grammatical function; attention weights can be distributed, layer-dependent, and insufficient as a causal explanation. The original article's dimensions and eight-head configuration describe one model, not requirements of attention generally. Wolfram's parenthesis experiment is a small constructed task rather than a general benchmark, and its negative result bounds one trained configuration rather than proving that every attention-based system cannot count. The FlashAttention tutorial omits score scaling and stable online softmax and explicitly says its loop is not the real algorithm, so it supports an execution-order intuition rather than a production implementation or performance claim.
+The pronoun diagrams are individual visualizations, not evidence that heads always implement a fixed grammatical function; attention weights can be distributed, layer-dependent, and insufficient as a causal explanation. The original article's dimensions and eight-head configuration describe one model, not requirements of attention generally. Wolfram's parenthesis experiment is a small constructed task rather than a general benchmark, and its negative result bounds one trained configuration rather than proving that every attention-based system cannot count. The FlashAttention tutorial omits score scaling and stable online softmax and explicitly says its loop is not the real algorithm, so it supports an execution-order intuition rather than a production implementation or performance claim. Dynamic per-sequence masking is evidenced here by one first-party integration in two named backends, not by a general comparison of kernel cost, compatibility, or numerical behavior.
 
 ## What Changed
 - Added the scaled query-key-value computation and matrix formulation.
 - Distinguished self-attention, causal masked attention, and encoder-decoder cross-attention.
 - Reframed head visualizations as useful routing evidence with an explicit interpretability limit.
 - Added the distinction between attention semantics and memory-efficient execution order.
+- Added per-sequence causal, bidirectional, and sliding-window mask selection within a mixed serving batch.
 
 ## Related Concepts
 - [[TransformerArchitecture]] - organizes attention into encoder, decoder, or decoder-only blocks.
@@ -58,3 +63,4 @@ The pronoun diagrams are individual visualizations, not evidence that heads alwa
 - [[NeuralNetworkTraining]] - learns every projection and output matrix used by attention.
 - [[FlashAttention]] - reorganizes exact attention to avoid large HBM intermediates.
 - [[OperatorFusion]] - combines scoring, softmax state, and value aggregation in one bounded dataflow.
+- [[DiffusionLanguageModels]] - use bidirectional attention inside an active canvas while preserving causal dependence across committed blocks.

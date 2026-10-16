@@ -9584,3 +9584,11 @@ Created [[MaskRay]], [[MoldLinker]], [[WildLinker]], and [[LinkerOptimizationTra
 ## [2026-10-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-16] ingest | DiffusionGemma: The First Diffusion LLM (dLLM) Natively Supported in vLLM
+
+Created [[DiffusionGemma]], [[VLLM]], and [[DiffusionLanguageModels]], and updated [[SpeculativeDecoding]], [[AttentionMechanism]], and [[DeepMind]] from their complete ordered evidence inventories. Captured fixed-block denoising, causal prefill and commit, bidirectional canvas attention, entropy-bounded token retention, self-conditioning, convergence, speculative-path accounting, ModelState hooks, dynamic per-sequence causality, symmetric sliding windows, quantized checkpoints, and reported H100/H200 batch-one throughput. Preserved the first-party scope, missing in-post quality table, excluded prefill, fixed 16-step setting, synthetic MTP assumption, and absent concurrency, energy, cost, convergence-distribution, and long-output evidence. Opened all eight distinct evidence-bearing SVGs, converted them to publication-compatible PNGs, and retained them at their semantic positions with a canonical manifest.
+
+## [2026-10-16] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

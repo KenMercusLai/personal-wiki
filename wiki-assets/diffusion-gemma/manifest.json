@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "diffusion-gemma",
+  "images": [
+    {
+      "file": "autoregressive-vs-block-diffusion.png",
+      "alt": "Autoregressive token-at-a-time decoding compared with DiffusionGemma block denoising and commit"
+    },
+    {
+      "file": "block-sampling-loop.png",
+      "alt": "DiffusionGemma loop from causal prompt prefill through bidirectional denoising and causal block commit"
+    },
+    {
+      "file": "entropy-bound-denoising.png",
+      "alt": "Entropy-bound denoising progressively retaining confident tokens and renoising uncertain positions"
+    },
+    {
+      "file": "self-conditioning-feedback.png",
+      "alt": "Previous-step token probabilities feeding a gated self-conditioning residual into canvas embeddings"
+    },
+    {
+      "file": "vllm-integration-stack.png",
+      "alt": "DiffusionGemma ModelState and sampler integrated into the reused vLLM speculative-decoding stack"
+    },
+    {
+      "file": "per-sequence-causal-attention.png",
+      "alt": "Mixed vLLM batch using causal prefill and commit masks alongside a bidirectional denoising canvas"
+    },
+    {
+      "file": "per-sequence-sliding-window-attention.png",
+      "alt": "Per-sequence sliding-window masks with one-sided causal and symmetric bidirectional windows"
+    },
+    {
+      "file": "h100-h200-generation-throughput.png",
+      "alt": "Batch-one generation throughput for FP8 DiffusionGemma and Gemma4 baselines on H100 and H200"
+    }
+  ]
+}
