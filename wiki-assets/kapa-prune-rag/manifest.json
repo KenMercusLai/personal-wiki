@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "kapa-prune-rag",
+  "images": [
+    {
+      "file": "rag-pruning-pipeline.png",
+      "alt": "RAG pipeline from a 200,000-chunk knowledge base through search, reranking, listwise pruning, and generation"
+    },
+    {
+      "file": "query-cost-breakdown.png",
+      "alt": "Kapa per-query cost split led by retrieved chunks at 65.3 percent"
+    },
+    {
+      "file": "pointwise-reranker-set-dependence.png",
+      "alt": "Audit-log example where a low-scoring chunk is required together with a high-scoring chunk"
+    },
+    {
+      "file": "compression-recall-frontier.png",
+      "alt": "Compression-recall frontier comparing LLM scoring, budget selection, keep-drop selection, and naive top-N truncation"
+    }
+  ]
+}

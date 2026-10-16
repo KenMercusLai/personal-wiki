@@ -11,7 +11,8 @@ sources:
   - blog-intel-labs-knowledge-retrieval-takes-center-stage
   - blog-timescale-rag-is-more-than-just-vector-search
   - yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag
-last_updated: 2026-09-26
+  - kapa-prune-rag
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,13 +26,15 @@ RAG is broader than vector similarity. Useful retrieval can include lexical matc
 
 The fixed retrieve-once pipeline has fit boundaries. Top-k context can be noisy or incomplete, multi-hop questions may require task decomposition, and a weak first query may need rewriting or fallback exploration. [[AgenticRAG]] addresses those cases by making search and reading iterative model-controlled actions, while conventional RAG remains useful when predictable interactive latency matters. A hybrid system can retain vector or structured retrieval as tools inside a bounded agent loop.
 
+Fixed RAG can also refine the retrieved set after reranking. [[RAGContextPruning]] uses a small listwise model to judge the question and all candidate chunks together before generation, preserving complementary or prerequisite chunks that pointwise reranker scores may undervalue. This creates a workload-specific frontier among full-needed-set recall, compression, generator cost, and added critical-path latency rather than a universally safe score cutoff.
+
 [[RetrievalCentricGeneration]] exposes another boundary: ordinary RAG often supplements facts already in the model, whereas RCG proposes making curated retrieval the dominant factual layer and training the model mainly to interpret unseen context. This highlights conflicts between retrieved and memorized facts without establishing that one architecture is generally superior.
 
 ## Key Claims
 - Baseline RAG separates offline ingestion and indexing from online retrieval, context assembly, and generation.
 - Retrieved context can connect a general model to private, proprietary, current, or source-grounded information without full-corpus retraining.
 - RAG can compose vector search with lexical, metadata, temporal, relational, summary, raw-record, and SQL retrieval.
-- Corpus quality, chunking, embedding fit, freshness, routing, reranking, index choice, and context limits jointly shape answer quality.
+- Corpus quality, chunking, embedding fit, freshness, routing, reranking, index choice, post-rerank pruning, and context limits jointly shape answer quality; pruning must preserve set-dependent evidence while balancing recall, compression, net cost, and latency.
 - Exact and approximate vector search trade recall, latency, build cost, memory, and tuning effort.
 - Fixed RAG favors predictable bounded latency, while multi-hop or initially weak retrieval may justify iterative [[AgenticRAG]].
 - Retrieved evidence can conflict with parametric memory, motivating architectures that make external curated sources more authoritative.
@@ -43,16 +46,16 @@ The fixed retrieve-once pipeline has fit boundaries. Top-k context can be noisy 
 - Beyond vector-only retrieval: [[blog-timescale-rag-is-more-than-just-vector-search]] combines embeddings with repository filters, time-series data, aggregation, raw records, summaries, and SQL.
 - Agent-tool placement: [[blog-arthur-chiao-yi-ai-agent-ji-shu-bai-pi-shu-google-2024]] places query embedding, vector matching, and retrieved text inside an agent runtime; [[yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag]] shows search as a repeatedly callable tool.
 - Fit boundary: [[mu-jiang-chui-zi-ding-zi]] argues that code churn and embedding mismatch can favor live grep/read loops, while [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] names latency as a reason non-agentic RAG persists.
+- Post-rerank pruning: [[kapa-prune-rag]] reports a listwise small-LLM stage that selected about 32% of reranked chunks while preserving every labeled necessary chunk for about 96% of questions, reducing cost by about 34% net and adding roughly 0.7 seconds.
 - Parametric-memory conflict: [[blog-intel-labs-knowledge-retrieval-takes-center-stage]] reproduces one query where a RAG answer adds unsupported locations and proposes retrieval-centric generation instead.
 
 ## Counterevidence & Qualifications
-These sources explain architectures and implementation cases more often than they measure end-to-end answer quality. They do not jointly benchmark retrieval recall, citation faithfulness, reranking, prompt-injection defense, permissions, source freshness, conflict resolution, or total application cost. The AWS performance figures concern vector-query infrastructure rather than generated-answer accuracy; the Timescale tutorial contains schema inconsistencies; and the Intel Labs RAG-versus-RCG case is one qualitative query. The new native-versus-agentic comparison is conceptual and tutorial-based: iterative retrieval can recover from weak evidence, but it also adds latency, tool and policy failures, larger action surfaces, and evaluation burden.
+These sources explain architectures and implementation cases more often than they measure end-to-end answer quality. They do not jointly benchmark retrieval recall, citation faithfulness, reranking, prompt-injection defense, permissions, source freshness, conflict resolution, or total application cost. The AWS performance figures concern vector-query infrastructure rather than generated-answer accuracy; the Timescale tutorial contains schema inconsistencies; and the Intel Labs RAG-versus-RCG case is one qualitative query. The native-versus-agentic comparison is conceptual and tutorial-based: iterative retrieval can recover from weak evidence, but it also adds latency, tool and policy failures, larger action surfaces, and evaluation burden. Kapa's pruning result is first-party and omits sample size, pruner identity, thresholds, uncertainty, and end-answer quality; necessary-chunk recall is useful but does not prove faithful generation.
 
 ## What Changed
-- Added the explicit offline-ingestion and online-answering split for baseline RAG.
-- Added fixed-pipeline failure modes around noisy top-k context, incomplete chunks, weak first queries, and multi-step evidence gathering.
-- Clarified that vector and structured retrieval can remain tools inside an agentic loop rather than being replaced by it.
-- Preserved latency as a reason to choose conventional RAG despite the greater adaptability of iterative retrieval.
+- Added listwise post-rerank pruning as an optional fixed-pipeline stage before generation.
+- Added set-dependent relevance as a limit of pointwise reranker cutoffs.
+- Added full-needed-set recall, compression, net cost, and latency as a joint operating-point evaluation.
 
 ## Related Concepts
 - [[PrivateDataChatbot]] - private-data chatbots retrieve user- or organization-held content for grounded answers.
@@ -65,3 +68,4 @@ These sources explain architectures and implementation cases more often than the
 - [[RetrievalCentricGeneration]] - RCG proposes making retrieval the dominant source of facts.
 - [[TextToSQL]] - structured analytical retrieval covers questions vector similarity cannot answer alone.
 - [[EvalsDrivenAIDevelopment]] - routing, retrieval, and final-answer behavior need separate evaluation layers.
+- [[RAGContextPruning]] - pruning removes retrieved chunks judged unnecessary before generator inference.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How we taught a small LLM to throw away 68% of our RAG context](sources/kapa-prune-rag.md) - Kapa's first-party account of listwise post-rerank pruning, its recall-compression frontier, cost savings, and latency tradeoff.
 - [GeminiFS: A Companion File System for GPUs](sources/geminifs.md) - FAST 2025 companion file system combining host-managed files, embedded block maps, GPU NVMe queues, a shareable page cache, and qualified near-raw-device performance.
 - [MAI-Thinking-1: Building a Hill-Climbing Machine](sources/mai-thinking-1-continuous.md) - Microsoft AI presents a 35B-active, roughly 1T-parameter reasoning model and the coupled data, architecture, infrastructure, RL, evaluation, and safety process used to build it.
 - [I'm switching to a dumbphone this summer](sources/im-switching-to-a-dumbphone-this-summer.md) - Veronica Explains begins a three-month feature-phone experiment to restore intentional access, reviews the Sunbeam F1 Horizon Eagle, and exposes smartphone-dependent service assumptions.
@@ -1232,6 +1233,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
 
 ## Entities
+- [Lars Baltensperger](entities/LarsBaltensperger.md) - Author of Kapa's production account of listwise RAG context pruning.
+- [Kapa AI](entities/KapaAI.md) - Product-knowledge retrieval and assistant provider reporting a small-LLM pruning stage before generation.
 - [GeminiFS](entities/GeminiFS.md) - GPU companion file system preserving host file management while moving stable per-file translation and NVMe request handling onto the accelerator.
 - [Microsoft AI](entities/MicrosoftAI.md) - Microsoft team represented through its integrated data, model, infrastructure, evaluation, and safety development process.
 - [MAI-Thinking-1](entities/MAIThinking1.md) - 35B-active, roughly 1T-parameter sparse-MoE reasoning model trained for STEM, agentic coding, tool use, helpfulness, and safety.
@@ -3191,6 +3194,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zig Software Foundation](entities/ZigSoftwareFoundation.md) - Zig steward and former recipient of Bun's financial and technical-community engagement.
 
 ## Concepts
+- [RAG Context Pruning](concepts/RAGContextPruning.md) - Set-aware removal of unnecessary retrieved chunks before generation, evaluated across recall, compression, cost, and latency.
 - [GPU-Centric Storage Access](concepts/GPUCentricStorageAccess.md) - GPU-initiated NVMe I/O architecture separating direct data movement from CPU-free request control and file-management tradeoffs.
 - [Hill-Climbing Machine](concepts/HillClimbingMachine.md) - System-level model-development loop coupling data, architecture, infrastructure, RL environments, evaluation, and safety feedback.
 - [Digital Intentionality](concepts/DigitalIntentionality.md) - Purpose-shaped use of connected technology through chosen access boundaries, deliberate friction, and attention to relationship and service tradeoffs.

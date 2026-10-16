@@ -9645,6 +9645,10 @@ Created [[LLVM]], [[ChrisLattner]], [[VikramAdve]], [[LLVMIntermediateRepresenta
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-17] ingest | How we taught a small LLM to throw away 68% of our RAG context
+
+Created [[LarsBaltensperger]], [[KapaAI]], and [[RAGContextPruning]], and updated [[RetrievalAugmentedGeneration]] from its complete ordered evidence inventory. Captured the post-rerank listwise pruning stage, five-level grading scale, keep-top-k safeguard, set-dependent relevance failure of pointwise scores, full-needed-set recall metric, compression frontier, and reported 68% context reduction, 96% recall preservation, 34% net cost reduction, and roughly 0.7-second latency. Preserved the first-party, workload-specific scope and missing sample size, model, prompt, threshold, uncertainty, end-answer-quality, and independent-replication evidence. Opened and retained all four evidence-bearing local figures at their semantic positions with descriptive filenames and a canonical manifest.
+
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -9660,6 +9664,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] ingest | GeminiFS: A Companion File System for GPUs
 
 Created [[GeminiFS]] and [[GPUCentricStorageAccess]], and updated [[GPUMemoryHierarchy]] from its complete ordered evidence inventory. Captured the host/GPU responsibility split, embedded GVDK block map, shared NVMe queues, GPU-side file I/O, shareable warp-granular page cache, uncached 4 KiB results, and GPT-2 activation-offload experiment. Preserved the narrowed POSIX and crash-consistency semantics, predictable and pre-allocated workload assumptions, vendor-specific APIs, single-GPU and single-device scope, cache-versus-storage measurement boundary, absent failure testing, future multi-GPU status, and the paper's inconsistent GPT2-124M parameter count. Opened and retained all 11 architecture, lifecycle, latency, bandwidth, cache-scaling, and training-runtime figures at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-17] lint | Wiki health check
 
