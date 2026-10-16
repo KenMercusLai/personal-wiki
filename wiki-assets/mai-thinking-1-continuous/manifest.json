@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "mai-thinking-1-continuous",
+  "images": [
+    {
+      "file": "model-architecture.png",
+      "alt": "MAI-Base-1 architecture interleaving sparse MoE and dense feed-forward blocks with local and global attention"
+    },
+    {
+      "file": "data-mixture-rank-reversal.png",
+      "alt": "STEM-heavy data mixture leading at small scale before a code-heavy mixture overtakes it at 23B scale"
+    },
+    {
+      "file": "architecture-infrastructure-co-design.png",
+      "alt": "MAI-Base architecture generations showing modeling-efficiency gains, temporary MFU regressions, and recovery through systems optimization"
+    },
+    {
+      "file": "specialist-rl-consolidation.png",
+      "alt": "Three specialist reinforcement-learning climbs consolidated by supervised fine-tuning before a final MAI-Thinking-1 climb"
+    },
+    {
+      "file": "self-distillation-recovery.png",
+      "alt": "AIME and LiveCodeBench performance across long RL climbs with self-distillation resets and progressively longer output limits"
+    },
+    {
+      "file": "agentic-tool-loop.png",
+      "alt": "Agentic reinforcement-learning loop connecting policy steps, orchestration, tool dispatch, and sandbox environment observations"
+    },
+    {
+      "file": "progressive-long-context-extension.png",
+      "alt": "Long-context evaluations showing rapid adaptation and full-context retrieval after a short progressive extension phase"
+    }
+  ]
+}

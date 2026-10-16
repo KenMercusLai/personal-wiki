@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [MAI-Thinking-1: Building a Hill-Climbing Machine](sources/mai-thinking-1-continuous.md) - Microsoft AI presents a 35B-active, roughly 1T-parameter reasoning model and the coupled data, architecture, infrastructure, RL, evaluation, and safety process used to build it.
 - [I'm switching to a dumbphone this summer](sources/im-switching-to-a-dumbphone-this-summer.md) - Veronica Explains begins a three-month feature-phone experiment to restore intentional access, reviews the Sunbeam F1 Horizon Eagle, and exposes smartphone-dependent service assumptions.
 - [The LLVM Compiler Infrastructure](sources/llvm-compiler.md) - Vikram Adve and Chris Lattner trace LLVM's modular IR-centered design, institutional origins, broad adoption, and growing complexity.
 - [Beyond Indexes: How Open Table Formats Optimize Query Performance](sources/beyond-indexes.md) - Jack Vanlightly contrasts OLTP B-trees with analytical layout, metadata, pruning, compaction, modeling, and alternate projections.
@@ -1230,6 +1231,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
 
 ## Entities
+- [Microsoft AI](entities/MicrosoftAI.md) - Microsoft team represented through its integrated data, model, infrastructure, evaluation, and safety development process.
+- [MAI-Thinking-1](entities/MAIThinking1.md) - 35B-active, roughly 1T-parameter sparse-MoE reasoning model trained for STEM, agentic coding, tool use, helpfulness, and safety.
 - [Sunbeam F1 Horizon](entities/SunbeamF1Horizon.md) - Android-derived feature-phone family whose Eagle model combines basic communication, navigation, tethering, removable hardware, and unresolved software-security questions.
 - [LLVM](entities/LLVM.md) - Open-source modular compiler infrastructure spanning static, link-time, and dynamic compilation.
 - [Chris Lattner](entities/ChrisLattner.md) - LLVM co-creator, initial implementer, and leader of Clang, Swift, and MLIR development.
@@ -3186,6 +3189,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zig Software Foundation](entities/ZigSoftwareFoundation.md) - Zig steward and former recipient of Bun's financial and technical-community engagement.
 
 ## Concepts
+- [Hill-Climbing Machine](concepts/HillClimbingMachine.md) - System-level model-development loop coupling data, architecture, infrastructure, RL environments, evaluation, and safety feedback.
 - [Digital Intentionality](concepts/DigitalIntentionality.md) - Purpose-shaped use of connected technology through chosen access boundaries, deliberate friction, and attention to relationship and service tradeoffs.
 - [Smartphone Dependence Externalities](concepts/SmartphoneDependenceExternalities.md) - Access and inclusion costs created when ordinary services presume customers carry a compatible connected smartphone.
 - [LLVM Intermediate Representation](concepts/LLVMIntermediateRepresentation.md) - Self-contained executable common IR for analysis, transformation, distribution, and code generation.

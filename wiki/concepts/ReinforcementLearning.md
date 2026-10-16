@@ -12,7 +12,8 @@ sources:
   - training-100x-cheaper-retrieval-models-neon-and-castform
   - 2607.07508
   - policy-gradient
-last_updated: 2026-10-15
+  - mai-thinking-1-continuous
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -34,6 +35,8 @@ A deliberately loose [[EvolutionaryOptimizationAnalogy]] adds a selection-pressu
 
 The [[Castform]] case study grounds those reward-design concerns in a corpus-specific retrieval workflow. It synthetically derives questions and ground truths from documents, exposes a hybrid-search tool, and combines correct-source retrieval, correct-chunk citation, and answer correctness into the reward. The reported reward curve improves while remaining noisy, and individual rollout inspection is intended to reveal broken tools or reward hacking. This shows how proprietary data can define an environment without an existing hand-labeled task set, but inferred ground truth and synthetic questions can also carry generation errors and coverage bias into the policy.
 
+Sustained, multi-domain RL from a mid-trained checkpoint with no prior reasoning traces makes stability, environment design, and continuity first-class concerns. The [[MAIThinking1]] recipe modifies GRPO with adaptive entropy control, a hard outer importance-ratio clip, top-p mask replay, staged rollout-length expansion, and pass-rate filtering; task-specific rewards are combined with language-consistency and difficulty-aware length terms. Verifiable STEM and code tasks, stateful software and tool environments, and subjective preference and safety tasks share one core objective but require different graders. Self-distillation transfers later successful traces into a fresh or newer base after collapse or model updates, while specialist models are consolidated by SFT and refined by a final RL stage.
+
 ## Key Claims
 - Reinforcement learning is suited to sequences of decisions whose quality is evaluated through later outcomes; policy gradients directly increase the probability of sampled actions in proportion to estimated return, while the environment, instructions, reward, and judge determine what behavior is competitive.
 - Coarse outcome reward can shape policies without labeling every action, while leaving credit assignment, shortcut learning, evaluation awareness, and reward hacking unresolved.
@@ -41,7 +44,7 @@ The [[Castform]] case study grounds those reward-design concerns in a corpus-spe
 - Language-model agents can learn multi-step retrieval and reasoning policies, including when to search, continue, stop, or answer.
 - PPO stabilizes language-model policy updates with a critic/value estimate and reference-policy constraint; GRPO removes the critic through grouped rewards, while asynchronous single-rollout training restores a critic to avoid waiting for that group.
 - Pure outcome-driven RL can induce reasoning in a base model, but usable systems may still require supervised cold starts, readability controls, general-task data, and preference alignment.
-- Verifiable rewards fit mathematics, code, and constrained formats better than subjective open-ended tasks; agentic judges may extend feedback to qualitative behavior but add their own attack and reliability surface.
+- Verifiable rewards fit mathematics, code, and constrained formats better than subjective open-ended tasks; agentic judges extend feedback to qualitative behavior but add an attack and reliability surface, while sustained frontier-scale RL also depends on rollout freshness, inference/learner agreement, recovery, expert routing, isolation, and weight transfer.
 
 ## Evidence
 - Feedback and human response: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] uses a Pong-like policy analogy and describes pleased or frustrated expressions as feedback in ASIMO work.
@@ -59,15 +62,16 @@ The [[Castform]] case study grounds those reward-design concerns in a corpus-spe
 - Learning and infrastructure trace: [[training-100x-cheaper-retrieval-models-neon-and-castform]] shows a rising but noisy average-reward curve and a bursty database workload created by thousands of parallel multi-search rollouts.
 - Asynchronous optimization: [[2607.07508]] contrasts the grouped completion barrier with immediate single-rollout consumption, then reports direct off-policy masking, critic and action-granularity ablations, and stable reasoning and coding training.
 - Direct policy-gradient mechanism: [[policy-gradient]] derives expected trajectory return, the likelihood-ratio gradient, trajectory factorization, Monte Carlo sampling, and a negative return-weighted log-probability loss.
+- Long multi-domain climb: [[mai-thinking-1-continuous]] reports entropy-controlled and outer-clipped GRPO, top-p and MoE-routing replay, curriculum length extension, specialist climbs, self-distillation recovery, and verifiable or judged rewards across STEM, agents, helpfulness, and safety.
 
 ## Counterevidence & Qualifications
-The sources are a career essay, tutorials, historical journalism, a 2016 forecast, secondary overviews, vendor reports, one primary asynchronous-RL paper, and speculative practitioner material rather than a unified experimental literature. The new policy-gradient source is a pedagogical derivation, not an experimental comparison; its vanilla estimator gives every action the same undiscounted trajectory return and omits baselines, reward-to-go, advantage estimates, and other variance controls. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely heavily on vendor benchmarks and checkable-task-heavy training. SAO adds direct experiments but uses one MoE backbone, bundles several optimization changes, omits full throughput and compute accounting, and does not publish evidence for its named GLM-5.2 deployment. Castform likewise omits evaluation and training details, while corpus-derived synthetic questions and inferred answers can encode errors, blind spots, and reward shortcuts. A rising training reward does not establish held-out generalization. Removing a critic does not remove rollout cost, variance, or reward dependence; restoring one adds memory, compute, and estimation error; and rule rewards can be gamed or become unavailable for subjective work. The evolutionary essay explicitly uses nonstandard agent/policy terminology and does not experimentally establish its claims about multi-domain generalization, deception, evaluation awareness, or agentic judging. More reasoning or tool actions can improve some tasks while increasing latency, cost, infrastructure load, and opportunities for unfaithful or redundant traces.
+The sources are a career essay, tutorials, historical journalism, a 2016 forecast, secondary overviews, vendor reports, primary but first-party RL papers, and speculative practitioner material rather than a unified experimental literature. The policy-gradient source is a pedagogical derivation, not an experimental comparison; its vanilla estimator gives every action the same undiscounted trajectory return and omits baselines, reward-to-go, advantage estimates, and other variance controls. The career metaphor is not a technical objective; the Search-R1 article substitutes teaching pseudocode for its named GRPO implementation; the AlphaGo and data-center accounts omit reproducible details; and the StarCraft piece is historically scoped. The reasoning-model claims rely heavily on vendor benchmarks and checkable-task-heavy training. SAO uses one MoE backbone, bundles several optimization changes, omits full throughput and compute accounting, and does not publish evidence for its named GLM-5.2 deployment. The MAI report is more operationally detailed but still withholds weights, complete data, training code, private evaluations, and equal-budget comparisons; its success does not isolate the causal contribution of the many bundled algorithmic and infrastructure changes. Castform likewise omits evaluation and training details, while corpus-derived synthetic questions and inferred answers can encode errors, blind spots, and reward shortcuts. A rising training reward does not establish held-out generalization. Removing a critic does not remove rollout cost, variance, or reward dependence; restoring one adds memory, compute, and estimation error; and rule rewards can be gamed or become unavailable for subjective work. The evolutionary essay explicitly uses nonstandard agent/policy terminology and does not experimentally establish its claims about multi-domain generalization, deception, evaluation awareness, or agentic judging. More reasoning or tool actions can improve some tasks while increasing latency, cost, infrastructure load, and opportunities for unfaithful or redundant traces.
 
 ## What Changed
-- Added the likelihood-ratio derivation connecting expected trajectory return to sampled action log-probability gradients.
-- Distinguished direct stochastic-policy optimization from value-first Q-learning.
-- Added parameter-independent environment dynamics as the reason transition terms vanish from the policy gradient.
-- Preserved full-return credit assignment and high variance as limits of the vanilla estimator.
+- Added sustained multi-domain RL as a coupled objective, environment, inference, learner, and recovery problem.
+- Added adaptive entropy control, outer clipping, rollout-mask replay, and length curriculum as reported stability mechanisms.
+- Added self-distillation and specialist consolidation as continuity mechanisms across long climbs.
+- Added first-party reproducibility and bundled-causality limits to the frontier-scale evidence.
 
 ## Related Concepts
 - [[PolicyGradient]] - directly optimizes a stochastic policy using return-weighted action log-probability gradients.
@@ -88,3 +92,5 @@ The sources are a career essay, tutorials, historical journalism, a 2016 forecas
 - [[Neon]] - supplies the searchable environment queried repeatedly during the retrieval-policy rollouts.
 - [[AsynchronousReinforcementLearning]] - decouples rollout generation and learning while introducing policy-lag and freshness problems.
 - [[SingleRolloutAsynchronousOptimization]] - source-specific actor-critic response to grouped asynchronous training barriers.
+- [[MAIThinking1]] - model-level case combining reasoning, agentic, preference, and safety RL.
+- [[HillClimbingMachine]] - places RL inside a broader data, infrastructure, evaluation, and safety improvement loop.

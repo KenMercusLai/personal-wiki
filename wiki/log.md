@@ -9648,3 +9648,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | MAI-Thinking-1: Building a Hill-Climbing Machine
+
+Created [[MicrosoftAI]], [[MAIThinking1]], and [[HillClimbingMachine]], and updated [[ReinforcementLearning]], [[ReasoningModelDistillation]], [[DistributedNeuralNetworkTraining]], and [[MixtureOfExpertsLoadBalancing]] from their complete ordered evidence inventories. Captured the 35B-active/roughly-1T sparse architecture, 30T-token pretraining and 3.55T-token mid-training, scale-dependent data-mixture reversal, architecture-infrastructure co-design, modified GRPO, self-distillation recovery, specialist consolidation, agentic environments, progressive 256K context extension, determinism, goodput, evaluation, and safety feedback loops. Preserved first-party and non-reproducible scope, unequal benchmark harnesses and reasoning budgets, proprietary-data limits, bundled causality, benchmark-specialization risk, and incomplete multilingual, multimodal, agentic-safety, and dangerous-capability coverage. Opened all 79 effective images and retained seven nonredundant architecture, training, agent-loop, and long-context figures with a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

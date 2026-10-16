@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: 95b9517925e4526ca313032b5f074fda54249e3c
+as_of_overview_commit: 378a78395cf72aaf6b495f9f61f8bf0ceca42532
 summary: "Podcast Atlas connects evidence across domains by matching systems to real workloads and human constraints, then qualifying claims by measurement and failure boundaries."
-episode_count: 1198
-source_count: 1198
+episode_count: 1199
+source_count: 1199
 paragraph_count: 844
 topic_count: 9
 ---
