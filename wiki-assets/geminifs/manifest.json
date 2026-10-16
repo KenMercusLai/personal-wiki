@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "source_key": "geminifs",
+  "images": [
+    {"file": "storage-architecture-comparison.png", "alt": "CPU-centric GPU storage paths through host software compared with GPU-centric direct NVMe control and data paths"},
+    {"file": "cpu-centric-read-latency.png", "alt": "GPUfs thread-count and GDS batch-size effects on average and tail latency for 4 KiB reads"},
+    {"file": "geminifs-architecture.png", "alt": "GeminiFS architecture dividing host file management, embedded metadata, GPU file translation, page cache, and shared NVMe queues"},
+    {"file": "gvdk-metadata-layout.png", "alt": "GVDK file header, two-level logical-to-NVMe block map, dirty bitmap, and data blocks"},
+    {"file": "file-io-lifecycle.png", "alt": "GeminiFS lifecycle from shared-NVMe startup and GVDK pre-allocation through GPU open, read or write, and close"},
+    {"file": "read-bandwidth-by-thread-count.png", "alt": "Four-kilobyte read bandwidth of GPUfs, GDS, BaM, and GeminiFS as GPU thread count increases"},
+    {"file": "read-latency-by-thread-count.png", "alt": "Four-kilobyte average read latency of GPUfs, GDS, BaM, and GeminiFS as GPU thread count increases"},
+    {"file": "page-cache-prefetch.png", "alt": "GeminiFS page-cache read and write bandwidth with zero to eight prefetched pages"},
+    {"file": "page-cache-warp-scaling.png", "alt": "GeminiFS page-cache read and write bandwidth scaling from one to 1024 GPU warps"},
+    {"file": "page-cache-page-size.png", "alt": "GeminiFS page-cache read and write bandwidth across 4 KiB to 4 MiB page sizes"},
+    {"file": "gpt2-training-runtime.png", "alt": "GPT-2 training runtime comparison with activation offloading disabled and enabled"}
+  ]
+}

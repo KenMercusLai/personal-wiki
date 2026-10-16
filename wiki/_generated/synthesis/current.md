@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: 378a78395cf72aaf6b495f9f61f8bf0ceca42532
+as_of_overview_commit: 7a904a9d61103d0df06f945114663b2ed438332f
 summary: "Podcast Atlas connects evidence across domains by matching systems to real workloads and human constraints, then qualifying claims by measurement and failure boundaries."
-episode_count: 1199
-source_count: 1199
-paragraph_count: 844
+episode_count: 1200
+source_count: 1200
+paragraph_count: 845
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage comes from explicit architecture, verification, observability, authority boundaries, organizational incentives, and workload-specific evidence rather than from tools, languages, or labels alone.
+Technical leverage comes from explicit architecture, verification, observability, authority boundaries, organizational incentives, and workload-specific evidence across models, software, infrastructure, accelerators, memory, and storage paths.
 
 - [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs. Evidence: [[LLVM]], [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], [[VikramAdve]], [[ChrisLattner]].
 - [[AgentNativeComputing]] can join [[ComputerUse]] and [[GenerativeUI]] so a conversational agent operates existing software and creates personal interfaces, but [[MacOS]] and [[Muse]] show that authority, credentials, hosted execution, supplier limits, and protected app-scoped prompts do not disappear; [[AgentPermissionModel]] therefore needs observable denials and agent-level grants bounded by controls the agent cannot rewrite, while [[AppleTrustBrand]] depends on coherent patching, consent, and user autonomy. Evidence: [[MacOS]], [[AgentNativeComputing]], [[ComputerUse]], [[GenerativeUI]], [[AgentPermissionModel]], [[AppleTrustBrand]], [[BenThompson]], [[Muse]], [[MicrosoftCopilot]].

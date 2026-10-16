@@ -844,12 +844,13 @@
       "f90373a7c8bf1f17e0e46bf8514b2c975ea05c3c8e6903d7e8b5467ebc7675f8",
       "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df",
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
-      "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
+      "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
+      "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427"
     ],
-    "paragraph_count": 844
+    "paragraph_count": 845
   },
-  "overview_commit": "378a78395cf72aaf6b495f9f61f8bf0ceca42532",
-  "overview_digest": "07cb46071786de30b2d1349bb2e909b298b0a03ce17e3a9b03545f9248f23777",
+  "overview_commit": "7a904a9d61103d0df06f945114663b2ed438332f",
+  "overview_digest": "2b9e560f8820689c9341f5e7d0356ef5f02fa7697dc0b379dec9641ae12450e7",
   "paragraphs": [
     {
       "id": "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
@@ -17039,6 +17040,20 @@
         "BottleneckAwareAICoding",
         "HighThroughputIOOptimization",
         "StoragePerformanceBenchmarking"
+      ]
+    },
+    {
+      "id": "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest FAST systems paper adds [[GPUCentricStorageAccess]] as a control-plane distinction inside [[GPUMemoryHierarchy]]. Direct DMA between NVMe and HBM can remain CPU-orchestrated; true GPU-centric access also puts request submission and completion queues under GPU-thread control. [[GeminiFS]] uses a companion-file-system split to recover a file boundary without building full POSIX semantics on the accelerator: the CPU creates and pre-allocates GVDK files, embeds a two-level logical-to-NVMe block map, retains namespace authority, and registers GPU-resident I/O queues, while libGemini performs validated offset translation, read, write, and sync on the GPU. A shareable HBM page cache uses warp-granular acquisition, constant-time structures, prefetching, and configurable page size. The paper reports uncached 4 KiB performance within roughly 5% of raw-device BaM, large gains over GPUfs and GDS at high concurrency, and major savings in one three-step activation-offload experiment, but those claims are bounded by one A100-class GPU, one Optane SSD, EXT4, Nvidia-specific APIs, predictable and pre-allocated mostly read-only or append-only data, explicit consistency, and no multi-GPU or failure-injection evaluation. Its hundreds-of-GB/s cache charts use memory replication rather than NVMe, and its GPT2-124M section inconsistently describes the model as having 1.5 billion parameters. All 11 supplied figures were opened and retained once at their semantic positions with descriptive canonical filenames.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "GPUCentricStorageAccess",
+        "GPUMemoryHierarchy",
+        "GeminiFS"
       ]
     }
   ],

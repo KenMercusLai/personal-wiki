@@ -9656,3 +9656,11 @@ Created [[MicrosoftAI]], [[MAIThinking1]], and [[HillClimbingMachine]], and upda
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | GeminiFS: A Companion File System for GPUs
+
+Created [[GeminiFS]] and [[GPUCentricStorageAccess]], and updated [[GPUMemoryHierarchy]] from its complete ordered evidence inventory. Captured the host/GPU responsibility split, embedded GVDK block map, shared NVMe queues, GPU-side file I/O, shareable warp-granular page cache, uncached 4 KiB results, and GPT-2 activation-offload experiment. Preserved the narrowed POSIX and crash-consistency semantics, predictable and pre-allocated workload assumptions, vendor-specific APIs, single-GPU and single-device scope, cache-versus-storage measurement boundary, absent failure testing, future multi-GPU status, and the paper's inconsistent GPT2-124M parameter count. Opened and retained all 11 architecture, lifecycle, latency, bandwidth, cache-scaling, and training-runtime figures at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

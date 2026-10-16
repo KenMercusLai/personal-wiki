@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-17
-as_of_overview_commit: 517597396b05b320f5ad7fffcbf99680c9cdbdc1
-input_digest: 791ecbdfd92f930ba54dfba5cdfa6d801a0a251713e296a8e03d314c11f88c2f
+as_of_overview_commit: 7a904a9d61103d0df06f945114663b2ed438332f
+input_digest: 7a9205b1560672bc9a2e6d3d7d8d3de3a1748c2a8c9f767973d562ceb2ded8a0
 ---
 
 # AI and Technology
@@ -1525,3 +1525,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is Andrew Kelley's openly resentful participant account without a repository audit, comparative defect or build data, named witnesses, responses from the criticized parties, or post-rewrite outcomes.
 - Tests, language features, and rewrites can improve quality; the narrower claim is that they do not independently allocate review, fuzzing, defect-removal, or technical-debt work.
 - The managerial and employment allegations remain attributed and unverified rather than settled facts about Jarred Sumner or Anthropic.
+
+### Gpu Centric Storage Splits File Authority From Io Control
+
+[[GPUCentricStorageAccess]] distinguishes direct DMA from GPU-owned request control: [[GeminiFS]] keeps namespace and file allocation on the CPU, embeds a stable per-file NVMe block map, and moves translation plus I/O queues to the GPU, while [[GPUMemoryHierarchy]] and [[StoragePerformanceBenchmarking]] keep device bandwidth, HBM-cache throughput, workload shape, and reduced file semantics explicit.
+
+**Evidence:** [[GPUCentricStorageAccess]], [[GeminiFS]], [[GPUMemoryHierarchy]], [[HighThroughputIOOptimization]], [[StoragePerformanceBenchmarking]]
+
+**Qualifications:**
+
+- The evidence is one author-run FAST 2025 prototype evaluation on one 64-core host, one A100-class GPU, one Optane P5800X, EXT4, and selected microbenchmarks or a three-step training study.
+- GeminiFS narrows the problem through predictable pre-allocation, mostly read-only or append-only data, explicit synchronization, a subset of POSIX operations, Nvidia-specific peer-memory APIs, and no demonstrated multi-GPU or failure-injection behavior.
+- The hundreds-of-GB/s page-cache charts use memory replication rather than NVMe, and the paper internally misstates GPT2-124M as having 1.5 billion parameters.
