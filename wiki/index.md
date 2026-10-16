@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Visual Guide to DiffusionGemma](sources/visual-diffusiongemma.md) - Maarten Grootendorst visually derives uniform-state text diffusion, DiffusionGemma's shared encoder-denoiser architecture, blockwise inference, scheduler, and entropy-bounded sampler.
 - [Suffix BWT vs cyclic shift BWT, and fast computation](sources/suffix-bwt.md) - Purplesyringa distinguishes suffix and cyclic-shift BWT boundary semantics, decoding costs, and suffix-array-based routes to fast construction.
 - [Sneakerweb：互联网的脆弱与韧性 | 螺莉莉的数据中心](sources/sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI presents publisher-generated, replayable SNK website archives as a path from fragile hosted access toward transport-independent offline distribution and reader custody.
 - [DiffusionGemma: The First Diffusion LLM (dLLM) Natively Supported in vLLM](sources/diffusion-gemma.md) - The vLLM and Google DeepMind teams map 256-token diffusion denoising onto vLLM's speculative path with phase-aware attention, self-conditioning, and qualified batch-one speed results.
@@ -1224,6 +1225,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 ## Entities
+- [Maarten Grootendorst](entities/MaartenGrootendorst.md) - Author and visual explainer of DiffusionGemma's architecture and sampling mechanics.
 - [purplesyringa](entities/Purplesyringa.md) - Software practitioner explaining BWT variants through worked decoding, algorithm reductions, and qualified implementation tradeoffs.
 - [Sneakerweb](entities/Sneakerweb.md) - Experimental system for publisher-generated, locally replayable website packages with key-derived addresses and intended transport-independent synchronization.
 - [DiffusionGemma](entities/DiffusionGemma.md) - 26B-parameter Gemma4-based language model that denoises and commits fixed 256-token blocks.

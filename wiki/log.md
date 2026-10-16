@@ -9608,3 +9608,11 @@ Created [[Purplesyringa]], [[BurrowsWheelerTransform]], and [[SuffixArrays]]. Di
 ## [2026-10-16] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-16] ingest | A Visual Guide to DiffusionGemma
+
+Created [[MaartenGrootendorst]] and updated [[DiffusionGemma]] and [[DiffusionLanguageModels]] from their complete ordered evidence inventories. Captured the hardware-utilization motivation, masked-versus-uniform-state corruption, revisable random-token canvases, shared causal-encoder and bidirectional-denoiser weights, KV-cache reuse, soft self-conditioning, sequential 256-token blocks, temperature decay, adaptive stopping, entropy-ranked group acceptance, and rejected-token re-noising. Preserved the secondary explainer scope, absence of controlled latency and quality measurements, distinction between stopping and acceptance thresholds, and illustrative rather than universal step counts. Opened all 45 local diagrams, retained 11 nonredundant architecture, comparison, scheduler, and sampler visuals at their semantic positions with a canonical manifest, and omitted intermediate or prose-redundant diagrams.
+
+## [2026-10-16] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

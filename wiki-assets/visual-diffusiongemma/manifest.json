@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source_key": "visual-diffusiongemma",
+  "images": [
+    {
+      "file": "autoregressive-token-decoding.png",
+      "alt": "Autoregressive decoding emits one token per forward pass and repeatedly manages model weights"
+    },
+    {
+      "file": "parallel-canvas-refinement.png",
+      "alt": "DiffusionGemma iteratively revises every position until a noisy canvas becomes coherent text"
+    },
+    {
+      "file": "masked-diffusion-noising.png",
+      "alt": "Masked text diffusion replaces a selected fraction of tokens with mask tokens"
+    },
+    {
+      "file": "uniform-state-token-revision.png",
+      "alt": "Uniform-state diffusion revises any canvas position across successive denoising steps"
+    },
+    {
+      "file": "autoregression-vs-text-diffusion.png",
+      "alt": "Table comparing autoregressive and diffusion text generation across order, revision, bottleneck, and latency"
+    },
+    {
+      "file": "diffusiongemma-architecture.png",
+      "alt": "Full DiffusionGemma architecture with causal encoder KV cache, bidirectional denoiser, and self-conditioning"
+    },
+    {
+      "file": "block-diffusion-generation.png",
+      "alt": "Sequential 256-token canvases combine diffusion within blocks with autoregression between blocks"
+    },
+    {
+      "file": "temperature-schedule.png",
+      "alt": "Worked temperature schedule decreasing from exploration early in denoising to sharper later predictions"
+    },
+    {
+      "file": "exploration-to-exploitation.png",
+      "alt": "Early denoising steps emphasize exploration while later steps emphasize exploitation"
+    },
+    {
+      "file": "entropy-bounded-acceptance.png",
+      "alt": "Worked entropy-budget example accepting two low-entropy tokens and rejecting the next"
+    },
+    {
+      "file": "entropy-bounded-renoising-loop.png",
+      "alt": "Entropy-bounded sampler accepts confident predictions and re-noises rejected positions for the next step"
+    }
+  ]
+}
