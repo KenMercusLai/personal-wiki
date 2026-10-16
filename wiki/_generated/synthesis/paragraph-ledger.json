@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "797bc6bdcf78e37879060fa4127ec463ad24b2263112ee2e059173b7a64584fb",
       "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
       "af21b34c5f295b13ee8569ba5e1498346935adbebf4131282c49aa3b02dc0cec",
       "e212ab1ca851c9cccab2575ab93bb688ba87fff269795a1f11e416d782659304",
@@ -844,11 +845,32 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93"
     ],
-    "paragraph_count": 842
+    "paragraph_count": 843
   },
-  "overview_commit": "4a930319637ea0646f33974acdb6b7435e1e0664",
-  "overview_digest": "c76e5e97b8bced4f1da420270b675721471c53dc0091c88d35666f8d95d034ad",
+  "overview_commit": "517597396b05b320f5ad7fffcbf99680c9cdbdc1",
+  "overview_digest": "89fbb178cb1c9b6a8852b382d2f330efb20800e0edf785576a6e1d6d6b0ccc56",
   "paragraphs": [
+    {
+      "id": "797bc6bdcf78e37879060fa4127ec463ad24b2263112ee2e059173b7a64584fb",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest compiler-infrastructure retrospective adds [[LLVM]] as a case where representation design, [[ModularCompilerArchitecture]], public research funding, permissive licensing, and community leadership reinforced one another. [[LLVMIntermediateRepresentation]] combines partial [[StaticSingleAssignment|SSA]], executable language- and hardware-independent semantics, vectors, intrinsics, and persistent textual or binary forms; language front ends and libraries can converge at IR linking and interprocedural optimization before ahead-of-time, user-site native, or JIT/runtime code generation. This supports [[LifelongCompilation]] across build, link, distribution, load, run, and idle stages and helps explain reported reuse across languages, operating systems, browsers, databases, mobile and cloud platforms, consoles, scientific computing, hardware tools, and AI stacks. The same success expands semantic complexity: the authors report growth from fewer than 35 polymorphic operations to more than 175 plus hundreds of significant intrinsics, raising costs for back ends and formalization. The account is a retrospective by co-creators [[VikramAdve]] and [[ChrisLattner]], so claims of unique capability, majority-user reach, vast economic impact, and counterfactual dependence remain author-attributed rather than independently measured; it also gives conflicting October and December 2003 dates for the first open-source release. One architecture diagram was retained to preserve the compilation flows; the decorative dragon and license badge were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "ChrisLattner",
+        "LLVM",
+        "LLVMIntermediateRepresentation",
+        "LifelongCompilation",
+        "ModularCompilerArchitecture",
+        "StaticSingleAssignment",
+        "VikramAdve"
+      ]
+    },
     {
       "id": "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
       "primary_topic": "cross-domain",

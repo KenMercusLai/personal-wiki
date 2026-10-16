@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The LLVM Compiler Infrastructure](sources/llvm-compiler.md) - Vikram Adve and Chris Lattner trace LLVM's modular IR-centered design, institutional origins, broad adoption, and growing complexity.
 - [Beyond Indexes: How Open Table Formats Optimize Query Performance](sources/beyond-indexes.md) - Jack Vanlightly contrasts OLTP B-trees with analytical layout, metadata, pruning, compaction, modeling, and alternate projections.
 - [A Visual Guide to DiffusionGemma](sources/visual-diffusiongemma.md) - Maarten Grootendorst visually derives uniform-state text diffusion, DiffusionGemma's shared encoder-denoiser architecture, blockwise inference, scheduler, and entropy-bounded sampler.
 - [Suffix BWT vs cyclic shift BWT, and fast computation](sources/suffix-bwt.md) - Purplesyringa distinguishes suffix and cyclic-shift BWT boundary semantics, decoding costs, and suffix-array-based routes to fast construction.
@@ -1228,6 +1229,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
 
 ## Entities
+- [LLVM](entities/LLVM.md) - Open-source modular compiler infrastructure spanning static, link-time, and dynamic compilation.
+- [Chris Lattner](entities/ChrisLattner.md) - LLVM co-creator, initial implementer, and leader of Clang, Swift, and MLIR development.
+- [Vikram S. Adve](entities/VikramAdve.md) - LLVM co-creator whose research program, teaching, and federal funding framed the project.
 - [Jack Vanlightly](entities/JackVanlightly.md) - Data-systems writer contrasting transactional indexing with analytical physical design.
 - [Apache Iceberg](entities/ApacheIceberg.md) - Snapshot-and-manifest open table format whose query performance depends on locality and pruning metadata.
 - [Maarten Grootendorst](entities/MaartenGrootendorst.md) - Author and visual explainer of DiffusionGemma's architecture and sampling mechanics.
@@ -3180,6 +3184,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zig Software Foundation](entities/ZigSoftwareFoundation.md) - Zig steward and former recipient of Bun's financial and technical-community engagement.
 
 ## Concepts
+- [LLVM Intermediate Representation](concepts/LLVMIntermediateRepresentation.md) - Self-contained executable common IR for analysis, transformation, distribution, and code generation.
+- [Modular Compiler Architecture](concepts/ModularCompilerArchitecture.md) - Reusable compiler components joined by explicit interfaces and a common program representation.
+- [Lifelong Compilation](concepts/LifelongCompilation.md) - Preserving program information so compilation and optimization can occur across an application's lifetime.
+- [Static Single Assignment](concepts/StaticSingleAssignment.md) - Value-flow discipline using single definitions and explicit control-flow merges.
 - [Open Table Formats](concepts/OpenTableFormats.md) - Metadata and table-management specifications over analytical data files, optimized through layout, pruning, and maintenance.
 - [Data Pruning](concepts/DataPruning.md) - Exclusion of partitions, files, row groups, or columns proven irrelevant to a query predicate.
 - [Burrows–Wheeler Transform](concepts/BurrowsWheelerTransform.md) - Reversible context-grouping transform with distinct cyclic-shift and suffix formulations, boundary rules, and encoder-decoder tradeoffs.

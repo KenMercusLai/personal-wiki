@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "llvm-compiler",
+  "images": [
+    {
+      "file": "compiler-architecture.webp",
+      "alt": "LLVM compilation architecture showing language front ends and libraries converging on linked LLVM IR, then branching to ahead-of-time, user-site native, and JIT runtime code generation with profile feedback"
+    }
+  ]
+}

@@ -9632,3 +9632,11 @@ Created [[AndrewKelley]], [[JarredSumner]], [[Bun]], [[Zig]], [[ZigSoftwareFound
 ## [2026-10-16] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | The LLVM Compiler Infrastructure
+
+Created [[LLVM]], [[ChrisLattner]], [[VikramAdve]], [[LLVMIntermediateRepresentation]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], and [[StaticSingleAssignment]]. Captured the common executable IR, partial SSA, vectors and intrinsics, modular pass and library design, link-time and lifelong compilation flows, research funding, open-source development, adoption, education, and emerging compiler research. Preserved the co-author retrospective scope, unverified reach and counterfactual claims, growing IR complexity, and the source's conflicting October-versus-December 2003 release dates. Opened all three local images, retained the architecture diagram at its semantic position with a canonical manifest, and omitted the decorative cover illustration and license badge.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -2,6 +2,25 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "llvm-is-science-router-spillover",
+      "qualifications": [
+        "The deterministic router cross-classified a compiler-infrastructure paragraph through scientific-computing and research language; it adds no direct natural-science, medical, or climate result.",
+        "The source is a retrospective by LLVM's co-creators and its reach, economic-impact, and counterfactual claims are not independently measured."
+      ],
+      "statement": "[[LLVM]], [[LLVMIntermediateRepresentation]], and [[LifelongCompilation]] reach science-health-and-climate only as source-scoped router spillover through scientific computing and research; their substantive claim concerns reusable compiler infrastructure rather than a direct health, climate, or natural-science finding.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "LLVM",
+        "LLVMIntermediateRepresentation",
+        "LifelongCompilation",
+        "ModularCompilerArchitecture",
+        "StaticSingleAssignment",
+        "VikramAdve",
+        "ChrisLattner"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "semantic-join-is-science-router-spillover",
       "qualifications": [
         "The deterministic router cross-classified a database and AI paragraph; it supplies no direct health, climate, or natural-science evidence.",

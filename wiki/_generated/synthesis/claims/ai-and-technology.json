@@ -1,6 +1,26 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "llvm-modular-ir-supports-lifelong-compilation",
+      "qualifications": [
+        "The evidence is a retrospective co-authored by LLVM's creators rather than an independent adoption census or systematic comparison of contemporary compiler infrastructures.",
+        "The source gives conflicting October and December 2003 dates for LLVM's first open-source release and does not independently establish its majority-user, economic-impact, or counterfactual language claims.",
+        "A common extensible IR lowers reuse costs but has accumulated substantial operation and intrinsic complexity that burdens new back ends and formal semantics."
+      ],
+      "statement": "[[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "LLVM",
+        "LLVMIntermediateRepresentation",
+        "StaticSingleAssignment",
+        "ModularCompilerArchitecture",
+        "LifelongCompilation",
+        "VikramAdve",
+        "ChrisLattner"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "joke-comprehension-combines-defeasible-expectation-revision-and-norm-disregard",
       "qualifications": [
