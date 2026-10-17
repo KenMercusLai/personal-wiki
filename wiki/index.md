@@ -1249,6 +1249,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
 - [Parsing JSON at tens of gigabytes per second... in Python](sources/lemire-parsing-json.md) - Daniel Lemire combines free-threaded Python, lazy value materialization, and thread-local reduction in a 7.6 GB selective NDJSON benchmark.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
+- [Lakebase: Serverless Postgres over Open Lake Storage](sources/p4385-pandis.md) - Databricks and Neon authors describe disaggregated PostgreSQL compute, quorum WAL, versioned Pageservers, object storage, branching, elasticity, and Lakehouse access.
 
 ## Entities
 - [云风](entities/YunFeng.md) - Technical blogger presenting landmark-distance and flow-field guidance for A* pathfinding.
@@ -3230,6 +3231,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fluent Design](entities/FluentDesign.md) - Microsoft design system represented through first-generation lighting, material, depth, navigation, and pressure effects.
 - [Daniel Lemire](entities/DanielLemire.md) - Author and fastsimdjson contributor represented through selective JSON parsing and thread-local parallel reduction.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
+- [Lakebase](entities/Lakebase.md) - Serverless PostgreSQL service separating compute, WAL durability, page materialization, and object-store persistence.
+- [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
 
 ## Concepts
 - [Proxy Rule-Set Semantics](concepts/ProxyRuleSetSemantics.md) - Separation of within-set Boolean OR matching from the ordered evaluation of distinct proxy rule sets.
@@ -4808,5 +4811,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Autonomous Cyber Defense](concepts/AutonomousCyberDefense.md) - Closed agentic loop spanning vulnerability discovery, remediation, verification, rollout, monitoring, and rollback.
 - [AI-Native Organization](concepts/AINativeOrganization.md) - Organization designed around end-to-end AI execution and machine-speed feedback rather than AI assistance inside inherited workflows.
 - [Selective JSON Parsing](concepts/SelectiveJSONParsing.md) - Processing only required JSON fields while avoiding eager native-object creation for unused values.
+- [Database Branching](concepts/DatabaseBranching.md) - Copy-on-write forking of database history at a consistent version for isolated development, recovery, and agent workflows.
+- [Disaggregated Transactional Database](concepts/DisaggregatedTransactionalDatabase.md) - Architecture separating transaction execution, quorum WAL, page materialization, and durable storage.
 
 ## Syntheses

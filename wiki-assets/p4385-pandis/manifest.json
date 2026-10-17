@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "source_key": "p4385-pandis",
+  "images": [
+    {"file": "compute-lifetime.png", "alt": "Production Lakebase compute lifetimes concentrated between one and ten seconds"},
+    {"file": "branch-depth.png", "alt": "Production Lakebase project distribution by database branch depth"},
+    {"file": "architecture.png", "alt": "Lakebase architecture separating PostgreSQL compute, Safekeepers, Pageservers, and cloud object storage"},
+    {"file": "wal-lsn-coordination.png", "alt": "Compute, Safekeeper, Pageserver, and branch LSN positions on database logs"},
+    {"file": "pageserver-storage.png", "alt": "Pageserver key-by-LSN layer organization and GetPage reconstruction"},
+    {"file": "amplification-model.png", "alt": "Pageserver amplification definitions, compaction controls, and read-cost bounds"},
+    {"file": "space-amplification.png", "alt": "Lakebase space-amplification model and reported production factor"},
+    {"file": "read-path.png", "alt": "Lakebase read path through compute caches, Pageserver layers, and object storage"},
+    {"file": "write-path.png", "alt": "Lakebase write path from WAL proposer through Safekeepers to Pageservers and object storage"},
+    {"file": "multi-az-availability.png", "alt": "Lakebase compute, Safekeeper, and Pageserver redundancy across three availability zones"},
+    {"file": "compute-startup.png", "alt": "Production p95 compute startup time with and without a warm pool"},
+    {"file": "autoscaling.png", "alt": "Lakebase CPU autoscaling response alongside target and actual query rates"},
+    {"file": "direct-access-tpch.png", "alt": "TPC-H query times for PostgreSQL Lakebase and Lakehouse Direct Access"}
+  ]
+}

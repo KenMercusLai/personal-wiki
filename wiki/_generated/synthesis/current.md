@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: da40970b95e9295aff8c6bee7e401b9123e8b8da
+as_of_overview_commit: 06cfe63aa4a17f4fdb95b92f8b2dfac09d4449fa
 summary: "Podcast Atlas connects systems to real workloads, then qualifies claims through measurement, incentives, authorship, failure boundaries, and explicit controls."
-episode_count: 1219
-source_count: 1219
+episode_count: 1220
+source_count: 1220
 paragraph_count: 857
 topic_count: 9
 ---
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage comes from workload-specific co-design across architecture, data movement, verification, observability, repository context, ownership, authority boundaries, and operational evidence.
+Technical leverage comes from workload-specific co-design across architecture, data movement, verification, observability, ownership, authority, and operational evidence.
 
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
 - [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs. Evidence: [[LLVM]], [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], [[VikramAdve]], [[ChrisLattner]].
@@ -43,7 +43,7 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when boundaries match the task, proven guarantees remain distinct from heuristic policies, and evidence and recovery are preserved.
+Across domains, designs work when boundaries match the task, guarantees remain distinct from heuristics, and evidence and recovery are preserved.
 
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
 - Replacing [[SpanningTreeProtocol]] inside a controlled [[DataCenterNetworkFabric]] does not remove edge loops, so [[EdgeNetworkLoopProtection]] must preserve detection and bounded containment across client and virtualization boundaries. Evidence: [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[VMware]], [[NetworkJanitor]].

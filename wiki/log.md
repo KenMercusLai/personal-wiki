@@ -9812,3 +9812,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | Lakebase: Serverless Postgres over Open Lake Storage
+
+Created [[Lakebase]], [[Databricks]], [[DatabaseBranching]], and [[DisaggregatedTransactionalDatabase]], and updated [[Neon]] and [[ObjectStorageNativeDatabase]] from their complete ordered evidence inventories. Captured quorum WAL durability, versioned page reconstruction, LSN boundaries, object-store persistence, copy-on-write timelines, warm-pool startup, in-place autoscaling, cross-zone recovery, direct-to-storage ingestion, and external analytical reads. Preserved the first-party and anonymized-benchmark scope, physical-format interoperability boundary, roughly 7x reported space amplification, deep-ancestry read cost, unsupported branch merging, and query paths where Direct Access is slower. Opened and retained all 13 evidence-bearing figures and formula regions at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
