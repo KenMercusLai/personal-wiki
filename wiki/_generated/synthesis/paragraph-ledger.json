@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
       "59ff7688e27a7f93317f1abc35eaeb4dc630014b444822dd4b593aedbff21581",
       "e398fcf1585d7ef4e8e90e76475dc9982550eb0418c078382166dab15a273961",
       "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
@@ -856,11 +857,32 @@
       "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd"
     ],
-    "paragraph_count": 854
+    "paragraph_count": 855
   },
-  "overview_commit": "5c72bb13baaf8d900ff7c73b990f3c5fbf22f219",
-  "overview_digest": "7b28f035e5e3cc1b0463884da3d8845026b30b9a96283ec096a9f49ca0d6337b",
+  "overview_commit": "4be1764c64e3d55280f967f37795d61a56c1e88b",
+  "overview_digest": "81acc292a5c91db4f30e9a55bf68e0ba252cac0e2e6cf4c9ef82bb668953840f",
   "paragraphs": [
+    {
+      "id": "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "science-health-and-climate",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[PranjalShankhdhar]] source turns the wiki's broad [[FoundationModelKernelOptimization]] framework into a Blackwell NVFP4 case. A two-CTA 256 by 256 tile divides seven warps among packed-operand TMA, scale TMA, scale copies plus K96 MMA issue, and FP32-to-FP16 epilogue work; K192 scale stages, K256 operand stages, and one manually unrolled K768 period make differently sized rings and release boundaries coexist. The measured ladder then joins a direct `%laneid` compiler cue, fine-grained buffer release, 36-column TMEM accumulator overlap, 256-bit stores, write-once cache hints, exact thread-count information, dead-tail removal, and mixed K96/K64 completion. [[GPUMemoryHierarchy]] gains distinct SMEM, TMEM, register, and behavioral split-L2 roles, while [[BlockQuantization]] gains NVFP4's sixteen E2M1 values plus one UE4M3 scale and 4.5-bit effective payload. Local 8 by 8 tile order alone regressed, but assigning reusable A rows to one reverse-engineered requester-side L2 population before local ordering produced the reported 7.653 PFLOP/s result, 4.7% above cuBLASLt under the selected protocol. That headline remains one author, GB300, CUDA 13.1, 8192-cubed shape, FP16 output, and benchmark protocol; the article admits losing shapes, four protocols give different margins, the L2 topology is reverse-engineered, and no end-to-end model, energy, portability, or independent-reproduction evidence is supplied. The source says [[Claude]] generated all kernels but provides no interaction trace, so the wiki records expert-directed code generation rather than autonomous discovery or validation. All 17 local visuals were opened; 14 unique evidence-bearing diagrams and charts were retained, while one exact duplicate and two redundant performance summaries were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BlockQuantization",
+        "Claude",
+        "FoundationModelKernelOptimization",
+        "GPUMemoryHierarchy",
+        "PranjalShankhdhar"
+      ]
+    },
     {
       "id": "59ff7688e27a7f93317f1abc35eaeb4dc630014b444822dd4b593aedbff21581",
       "primary_topic": "ai-and-technology",

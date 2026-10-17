@@ -4,6 +4,7 @@ type: concept
 tags: [foundation-models, gpu, kernels, performance, co-design]
 sources:
   - foundation-model-kernel-optimization
+  - outperforming-cublas-nvfp4
 last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
@@ -17,6 +18,8 @@ The useful unit of optimization is the critical end-to-end path, not a kernel in
 The framework has four coupled layers. On-chip work controls tiling, asynchronous movement, matrix instructions, special functions, and epilogues. The operator graph controls fusion, layout, paging, recomputation, and persistent scheduling. Multi-GPU dataflow controls collective decomposition, topology, and tile or chunk dependencies. Model structure changes the amount or regularity of work through shared or compressed KV, sparse routing, token budgets, fixed latent sets, recurrence, and cross-timestep reuse.
 
 Optimization proceeds as a measurement loop. Freeze the workload, identify which resource remains exposed, apply the narrowest matching intervention, and return to end-to-end throughput or latency, memory, numerics, and quality. When a path approaches a resource ceiling, model-kernel co-design can outperform further micro-tuning by reducing tokens, KV state, routed work, or full-network calls.
+
+The GB300 NVFP4 case makes the on-chip layer concrete and also shows why it cannot be separated from topology or measurement. Two-CTA tensor-core tiles, independent TMA rings, scale copies into TMEM, overlapping accumulators, compiler-recognizable uniform control, write-once cache hints, and exact tail instructions all matter. A final gain comes from assigning reusable matrix rows to one of two requester-side L2 populations before choosing local tile order. The best route therefore depends on matrix shape, GPU-side census, compiler, power state, and benchmark protocol rather than one universally optimal traversal.
 
 ## Key Claims
 - Data movement, temporary materialization, collectives, launch latency, and imbalance can dominate nominal floating-point work.
@@ -42,15 +45,18 @@ Memory and communication:
 
 Benchmark discipline:
 - [[foundation-model-kernel-optimization]] requires frozen shapes, topology, precision, software, and quality; real-shape microbenchmarks; resource profiling; and return to end-to-end behavior after every swap.
+- [[outperforming-cublas-nvfp4]] rotates inputs, alternates benchmark order, cools the GPU, reports four protocols, and finds margins from 3.92% to 7.83%, demonstrating that cache and power controls change comparative results.
+
+Blackwell dataflow and topology:
+- [[outperforming-cublas-nvfp4]] reports a measured ladder combining two-CTA K96 MMA, K256 operand stages, independently sized scale stages, TMEM accumulator overlap, compiler and store-path changes, exact tails, and L2-side ownership.
+- [[outperforming-cublas-nvfp4]] shows that local 8 by 8 order regresses without requester-side ownership, while the combined owned-side schedule improves the selected 8192-cubed result.
 
 ## Counterevidence & Qualifications
-The framework is a broad practitioner synthesis, not one controlled experiment, and implementation choices remain shape-, hardware-, software-, topology-, precision-, and quality-dependent. Linked speedups come from different papers and baselines and cannot be multiplied without an end-to-end ablation. Some high-leverage interventions change model semantics or call count, so they require training or quality validation and must be reported separately from math-equivalent kernel optimization. Fine-grained fusion and overlap also increase engineering, debugging, portability, and fallback costs that can outweigh gains for unstable or long-tail shapes.
+The framework is a broad practitioner synthesis, while the GB300 article is one self-authored kernel experiment; neither is an independently reproduced cross-platform comparison. Implementation choices remain shape-, hardware-, software-, topology-, precision-, power-, and quality-dependent. The NVFP4 result covers one GPU, CUDA 13.1, selected layouts and outputs, and admits losing shapes; its reverse-engineered L2 model and stepwise gains may not transfer. Linked speedups from different papers or ablations cannot be multiplied without an end-to-end test. Some high-leverage interventions change model semantics or call count, so they require training or quality validation and must be reported separately from math-equivalent kernel optimization. Fine-grained fusion and overlap also increase engineering, debugging, portability, and fallback costs that can outweigh gains for unstable or long-tail shapes.
 
 ## What Changed
-- Added a four-layer model joining local kernels, operator graphs, distributed execution, and model structure.
-- Made exposed HBM, network, launch, synchronization, and imbalance costs coequal diagnostic dimensions.
-- Separated math-equivalent kernel work from runtime scheduling and algorithmic reductions in work.
-- Added an iterative resource-led decision loop with mandatory end-to-end and numeric remeasurement.
+- Added a concrete Blackwell NVFP4 case in which pipeline geometry, TMEM capacity, compiler uniformity, tail work, and L2 requester topology jointly determine performance.
+- Added benchmark-protocol and power-state sensitivity plus explicit evidence that one local tile order can regress before topology-aware ownership is added.
 
 ## Related Concepts
 - [[GPUMemoryHierarchy]] - supplies the capacity and movement constraints behind tiling, fusion, paging, and reuse.

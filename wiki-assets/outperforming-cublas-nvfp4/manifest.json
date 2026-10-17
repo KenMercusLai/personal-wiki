@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "source_key": "outperforming-cublas-nvfp4",
+  "images": [
+    {"file": "optimization-ladder.png", "alt": "Optimization ladder from a 3.271 PFLOP/s Blackwell baseline to a 7.653 PFLOP/s L2-aware NVFP4 kernel"},
+    {"file": "nvfp4-block-format.png", "alt": "NVFP4 E2M1 values grouped in blocks of sixteen with one shared UE4M3 scale"},
+    {"file": "baseline-kernel-dataflow.png", "alt": "Baseline two-CTA NVFP4 kernel dataflow through global memory, TMA, shared memory, tensor cores, TMEM, and the epilogue"},
+    {"file": "two-cta-sharding.png", "alt": "Two-CTA sharding of FP4 operands, scale factors, and FP32 output across paired Blackwell SMs"},
+    {"file": "k192-aligned-pipeline.png", "alt": "K192 feed in which scale and operand TMA slots align with pairs of K96 tensor-core operations"},
+    {"file": "baseline-tmem-layout.png", "alt": "Baseline TMEM layout with a 256-column accumulator, 36 scale columns, and 220 unused columns"},
+    {"file": "k256-pipeline.png", "alt": "K256 operand feed with fine-grained buffer release across a K768 unrolled pipeline"},
+    {"file": "straddled-smem-windows.png", "alt": "Two K96 tensor-core operations straddling adjacent 128-byte shared-memory windows"},
+    {"file": "overlapping-tmem-accumulators.png", "alt": "Two 256-column TMEM accumulator windows overlapping by 36 columns while scales occupy the reclaimed edge"},
+    {"file": "optimized-kernel-dataflow.png", "alt": "Optimized NVFP4 kernel dataflow with K256 operand stages and overlapping TMEM output buffers"},
+    {"file": "tile-order-comparison.png", "alt": "Row-major output-tile traversal compared with local 8 by 8 scheduling pockets"},
+    {"file": "gb300-dual-die-l2.png", "alt": "GB300 dual-die topology with separate SM groups, behavioral L2 halves, HBM sides, and cross-die reads"},
+    {"file": "l2-address-hash.png", "alt": "Physical-address hash assigning 4 KiB memory granules to the two GB300 L2 home sides"},
+    {"file": "shape-specific-schedules.png", "alt": "Shape-specific owned-side schedules and measured PFLOP per second gains over cuBLASLt"}
+  ]
+}

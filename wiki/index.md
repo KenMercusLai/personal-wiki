@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Outperforming cuBLAS on NVFP4](sources/outperforming-cublas-nvfp4.md) - Pranjal Shankhdhar combines Blackwell dataflow, compiler, tail, and split-L2 scheduling work into a shape-specific NVFP4 GEMM reported 4.7% faster than cuBLASLt.
 - [Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion](sources/foundation-model-kernel-optimization.md) - Duo An organizes foundation-model performance around on-chip dataflow, fused operator graphs, distributed execution, and model structure, with explicit measurement and quality boundaries.
 - [What is a Harness?](sources/what-is-a-harness.md) - Earendil defines an agent harness through instructions, tools, an agentic loop, and model translation, then argues that local open-source ownership can preserve user choice and session custody.
 - [How Other Link Checkers Do Recursion](sources/link-checkers-recurse.md) - Matthias Endler compares four recursive link checkers and derives the shared frontier, enqueue-time deduplication, execution-limiting, and quiescence pattern that lychee is retrofitting.
@@ -1246,6 +1247,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [Pranjal Shankhdhar](entities/PranjalShankhdhar.md) - GPU performance writer and implementer reporting a GB300 NVFP4 kernel, reverse-engineered L2 topology, and shape-aware scheduling work.
 - [Duo An](entities/DuoAn.md) - Systems-oriented technical writer presenting a four-layer, resource-led field guide to foundation-model performance optimization.
 - [Earendil](entities/Earendil.md) - AI-software organization advocating neutral, locally owned agent harnesses and presenting Pi and Lefos as its projects.
 - [Pi Agent Harness](entities/PiAgentHarness.md) - Minimal open-source local harness presented as extensible and model-provider-neutral.
@@ -1795,7 +1797,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Yann LeCun](entities/YannLeCun.md) - Neural-network researcher connecting early multilayer and applied image-recognition work to the later deep-learning revival.
 - [ImageNet](entities/ImageNet.md) - Large labeled-image dataset and competition that made the 2012 deep-learning performance jump publicly visible.
 - [AlphaGo](entities/AlphaGo.md) - DeepMind Go system represented through deep learning, reinforcement learning, professional games, and extensive self-play.
-- [Nvidia](entities/Nvidia.md) - GPU company represented as a compute enabler and commercial beneficiary of deep learning's early-2010s expansion.
+- [Nvidia](entities/Nvidia.md) - GPU company spanning deep-learning enablement, model-system co-design, ecosystem incumbency, infrastructure finance, and low-level Blackwell programmability.
 - [Fred Destin](entities/FredDestin.md) - Venture investor represented through Zoopla financing, ownership, market-quality, and operating lessons.
 - [Zoopla](entities/Zoopla.md) - UK property-technology company presented as a focused vertical, stakeholder-alignment, and acquisition-integration case.
 - [Alex Chesterman](entities/AlexChesterman.md) - Zoopla founder credited with focus, stakeholder strategy, integration discipline, delegation, and operational attention.
@@ -2810,7 +2812,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
-- [Claude](entities/Claude.md) - AI assistant used for engineering, analysis, writing, conversational reading, uncertainty discovery, and expert-directed graphics implementation.
+- [Claude](entities/Claude.md) - AI assistant used for engineering, analysis, writing, conversational reading, uncertainty discovery, graphics implementation, and source-scoped GPU-kernel generation.
 - [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through runtime retrieval, prompt caching, file-backed continuity, uncertainty discovery, multi-agent workflows, and mobile/cloud supervision.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
@@ -3256,7 +3258,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving database semantics over immutable object storage while making request cost, cache granularity, and coordination placement explicit design constraints.
 - [FlashAttention](concepts/FlashAttention.md) - Attention implementation family that reorganizes exact computation around bounded on-chip state to avoid materializing quadratic intermediates in HBM.
 - [Operator Fusion](concepts/OperatorFusion.md) - Combining adjacent operations so shared inputs and intermediates remain in fast local memory rather than round-tripping through slower memory.
-- [GPU Memory Hierarchy](concepts/GPUMemoryHierarchy.md) - Capacity and access-speed hierarchy across host DRAM, GPU HBM, and on-chip local storage that constrains accelerator dataflow.
+- [GPU Memory Hierarchy](concepts/GPUMemoryHierarchy.md) - Capacity, access, ownership, and synchronization hierarchy across NVMe, host DRAM, HBM, partitioned L2, shared memory, TMEM, and registers.
 - [Belief Revision](concepts/BeliefRevision.md) - Minimal-change integration of new information represented by selecting preferred compatible interpretations.
 - [Nonmonotonic Reasoning](concepts/NonmonotonicReasoning.md) - Defeasible inference from incomplete information whose conclusions can be withdrawn when exceptions arrive.
 - [Computational Humor](concepts/ComputationalHumor.md) - Formal or computational modeling of humorous material and its cognitive or social interpretation.
@@ -3369,7 +3371,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [VM Snapshot Cloning](concepts/VMSnapshotCloning.md) - Repeated restoration of prepared VM state with shared clean pages, private dirty pages, and renewed per-instance uniqueness.
 - [Bounded Lifetime Simplification](concepts/BoundedLifetimeSimplification.md) - Using enforced maximum lifetimes to replace some fine-grained reclamation and reference tracking with safe age bounds.
 - [Quantization-Aware Training](concepts/QuantizationAwareTraining.md) - Training under simulated low-precision effects whose success must be judged by validation and activation diagnostics, not falling training loss alone.
-- [Block Quantization](concepts/BlockQuantization.md) - Shared-scale tensor representation whose block shape determines outlier coupling, underflow, signal quality, and causal-token risks.
+- [Block Quantization](concepts/BlockQuantization.md) - Shared-scale tensor representation whose block shape governs numerical coupling and hardware scale-storage, movement, and instruction tradeoffs.
 - [Public Knowledge Commons](concepts/PublicKnowledgeCommons.md) - Durable openly reusable knowledge whose continued value depends on public contribution, licensing, retrieval, correction, governance, and community maintenance.
 - [Agent Security Layering](concepts/AgentSecurityLayering.md) - Assignment of hard capabilities, credential mediation, and residual content or workflow controls to independently enforceable layers.
 - [Bluetooth Audio Routing](concepts/BluetoothAudioRouting.md) - Routing audio from one computing device into another Bluetooth-capable endpoint for consolidated playback.

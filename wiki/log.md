@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-18] ingest | Outperforming cuBLAS on NVFP4
+
+Created [[PranjalShankhdhar]] and updated [[FoundationModelKernelOptimization]], [[GPUMemoryHierarchy]], [[BlockQuantization]], [[Nvidia]], and [[Claude]] from their complete ordered evidence inventories. Recorded NVFP4 E2M1-plus-UE4M3 blocks, two-CTA K96 tensor-core execution, separate operand and scale rings, K256/K768 pipeline staging, TMEM accumulator overlap, compiler and store-path effects, exact K tails, split-L2 requester ownership, shape-specific scheduling, and four benchmark protocols. Preserved the single-author, single-GPU, shape-, compiler-, power-, and protocol-specific scope; acknowledged losing shapes and reverse-engineered topology; and separated Claude code-generation attribution from undocumented human-agent process and autonomous capability. Opened all 17 local images, retained 14 unique evidence-bearing charts and diagrams at their semantic positions, and omitted one exact duplicate plus two performance summaries redundant with the retained optimization ladder.
+
 ## [2026-10-18] ingest | Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion
 
 Created [[DuoAn]] and [[FoundationModelKernelOptimization]], and updated [[FlashAttention]] and [[OperatorFusion]] from their complete ordered evidence inventories. Recorded the four-layer co-design model, compute/HBM/network/launch/imbalance diagnosis, fusion risk ladder, training-prefill-decode distinction, FA1-through-FA4 hardware progression, full MoE token-expert pipeline, six memory levers, compounding model-level reductions, and end-to-end validation loop. Preserved the practitioner-synthesis scope, configuration-specific cited results, resource and portability costs of large fusion, and the need to separate kernel, runtime, communication, and algorithmic speedups. Opened all five effective local visuals and retained the four-layer stack, fusion ladder, attention-generation map, MoE pipeline, and optimization decision tree once at their semantic positions with a canonical manifest.
@@ -9766,6 +9770,10 @@ Created [[CrawlerArchitecture]], [[Muffet]], [[LinkChecker]], [[Linkinator]], an
 Ran lint. See lint-report.md for details.
 
 ## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
 

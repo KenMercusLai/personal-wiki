@@ -7,7 +7,8 @@ sources:
   - 2609.37969
   - zhi-suan-qia-sheng-tai-jin-xiao-yuan-zhi-wo-jian-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji
   - nvidias-risky-business
-last_updated: 2026-10-17
+  - outperforming-cublas-nvfp4
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,6 +26,8 @@ The August 2026 [[BenThompson]] analysis adds capital structure to that ecosyste
 
 This move responds to a competitive boundary not captured by peak chip performance alone. [[Google]] and Amazon can finance TPU and Trainium capacity internally and sell it to major labs, while [[Anthropic]] is presented as already using non-CUDA accelerators and OpenAI as reducing CUDA dependence for inference. Nvidia's software ecosystem remains valuable, but customers constrained by upfront capital may prefer cheaper financing even when Nvidia hardware has better operating efficiency.
 
+The GB300 kernel work adds a reverse-engineered practitioner view of that hardware-software stack. Blackwell exposes two-CTA `tcgen05` tensor-core operations, TMA, TMEM, large shared-memory capacity, 256-bit stores, compiler directives, and cache hints that can be composed into a specialized NVFP4 GEMM. It also exposes hidden or lightly documented behavior: the author models GB300 as two dies with separate requester-side L2 populations and reports GPU-to-GPU variation in how 152 SMs divide between them. This is evidence of programmability and optimization depth, but also of specialization and the engineering cost behind peak results.
+
 ## Key Characteristics
 - Produced GPUs originally optimized for rich real-time graphics and highly parallel calculation, then benefited when researchers adapted them to neural-network computation.
 - Was reported as offering 20 to 50 times the efficiency of traditional CPUs for deep-learning workloads in the article's historical account.
@@ -32,7 +35,7 @@ This move responds to a competitive boundary not captured by peak chip performan
 - Reported rapidly growing data-center revenue tied primarily to deep-learning demand.
 - Develops video-generation and refinement software that is evaluated jointly with Nvidia H100, GB200, and GB10 hardware.
 - Integrates model distillation, autoencoding, sparse attention, kernel fusion, and benchmarking into one first-party acceleration stack.
-- Holds an incumbent education and developer ecosystem, but now also competes through third-party financing and a partial residual-value backstop as custom accelerators pressure upfront economics.
+- Holds an incumbent education and developer ecosystem, exposes deep low-level Blackwell control, and now also competes through third-party financing and a partial residual-value backstop as custom accelerators pressure upfront economics.
 
 ## Evidence
 - Hardware reuse: [[from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune]] explains that gaming GPUs proved well suited to deep-learning calculation in the late 2000s.
@@ -45,17 +48,20 @@ This move responds to a competitive boundary not captured by peak chip performan
 - Financing platform: [[nvidias-risky-business]] reports partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR intended to mobilize more than $500 billion for AI infrastructure over time.
 - Vendor risk sharing: [[nvidias-risky-business]] reports residual-value financing of up to 25% and interprets it as both a capital-cost subsidy and exposure to the financed assets' future value.
 - Substitution pressure: [[nvidias-risky-business]] argues that major model providers' use of TPUs, Trainium, and non-CUDA inference weakens the assumption that frontier AI demand must flow through Nvidia.
+- Blackwell programmability: [[outperforming-cublas-nvfp4]] combines GB300 two-CTA tensor cores, TMA, TMEM, shared memory, PTX store and cache controls, and compiler directives into a 7.653 PFLOP/s NVFP4 result.
+- Hidden topology: [[outperforming-cublas-nvfp4]] reports a behavioral split-L2 model, 148 versus 344 ns near/far dependent atomic latency, and variable SM-side census used to construct a requester-aware schedule.
 
 ## Qualifications
 The sources are a 2016 journalistic snapshot, a 2026 first-party technical paper, one 2026 Chinese teacher-practitioner's ecosystem essay, and an August 2026 analyst argument, not a complete current company description. Historical efficiency and revenue claims lack workload-normalized benchmarks, while the newer video results combine model, software, benchmark, and Nvidia hardware choices created by the same organization. The 8.91x and 27.03x figures use different baselines and settings; neither establishes a general hardware or model advantage. The campus account supplies no procurement, enrollment, fleet, uptime, or platform-share data, and its expectation of future substitution is a forecast.
 
 The financing announcement supplies no contracts, underwriting standards, deployed-capital figure, default history, utilization cohorts, or independent residual-value estimates. More than $500 billion is an intended mobilization scale, and the backstop's triggers and loss priority are unspecified. Thompson's interpretations of the guarantee as a price concession and of non-CUDA adoption as a threat are reasoned but not independently demonstrated by the source. GPU acceleration remains one condition among capital, data, algorithms, software, networking, storage, education, and engineering practice.
 
+The GB300 evidence is one self-authored benchmark on one shape and software stack, not a general product comparison or vendor-confirmed topology disclosure. The article reports losses on several shapes, different gains under four timing protocols, and hardware-specific schedules; its result does not establish that custom or AI-generated kernels generally beat cuBLASLt. Reverse-engineered address hashes, SM grouping, and latency behavior may change across units or revisions.
+
 ## What Changed
-- Expanded the profile from historical GPU enablement to first-party model-and-systems co-design for video generation.
-- Added the SoL-Refiner, Refiner-Bench, Sol-Engine, and Nvidia-accelerator relationship with benchmark-scope qualifications.
-- Added Nvidia's university-teaching incumbency as a path-dependent ecosystem claim, qualified by the absence of campus adoption data.
-- Added third-party AI-factory financing, the partial residual-value backstop, and custom-accelerator substitution pressure.
+- Added a practitioner view of GB300's programmable NVFP4 tensor-core, memory, compiler, and cache-control surface.
+- Added the reverse-engineered split-L2 requester topology and device-to-device SM-side variation with explicit evidence limits.
+- Added one shape-specific case of a custom kernel exceeding cuBLASLt without generalizing it to all shapes or protocols.
 
 ## Relationships
 - [[DeepLearning]] - workload that created new demand for Nvidia's parallel processors.
@@ -69,3 +75,5 @@ The financing announcement supplies no contracts, underwriting standards, deploy
 - [[JensenHuang]] - CEO advancing the AI-factory asset-class thesis and financing partnerships.
 - [[AIInfrastructureFinancing]] - capital-structure layer through which Nvidia now supports accelerator demand and shares residual-value risk.
 - [[Anthropic]] - frontier-model provider presented as using TPU and Trainium capacity rather than depending exclusively on CUDA.
+- [[PranjalShankhdhar]] - practitioner reporting the GB300 NVFP4 kernel and topology experiments.
+- [[FoundationModelKernelOptimization]] - co-design discipline illustrated by the Blackwell case.
