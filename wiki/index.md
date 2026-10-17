@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Nvidia’s Risky Business](sources/nvidias-risky-business.md) - Ben Thompson analyzes debt, equity, third-party infrastructure funds, and Nvidia's residual-value backstop as competing ways to finance AI compute under uncertain demand.
 - [Autonomy and Innovation](sources/autonomy-and-innovation.md) - Ben Thompson connects agentic cyber offense-defense asymmetry with slower AI diffusion and the different autonomy incentives of incumbents and startups.
 - [Axiom 设计系统](sources/ax-design.md) - Losses Don rebuilds Axiom around shared shape, rendering, and token infrastructure, using expert-directed AI while preserving coherent metaphor, accessibility, browser fallbacks, and human judgment.
 - [A Brief History of Data Placement Technologies](sources/samsung-data-placement.md) - Samsung compares conventional SSDs, OCSSD, Streams, ZNS, and FDP through host control, compatibility, integration effort, feedback, and write amplification.
@@ -1238,6 +1239,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
 
 ## Entities
+- [Jensen Huang](entities/JensenHuang.md) - Nvidia CEO advocating AI factories as financeable infrastructure while supporting the thesis with partial residual-value risk sharing.
 - [Lars Baltensperger](entities/LarsBaltensperger.md) - Author of Kapa's production account of listwise RAG context pruning.
 - [Kapa AI](entities/KapaAI.md) - Product-knowledge retrieval and assistant provider reporting a small-LLM pruning stage before generation.
 - [GeminiFS](entities/GeminiFS.md) - GPU companion file system preserving host file management while moving stable per-file translation and NVMe request handling onto the accelerator.
@@ -3202,6 +3204,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fluent Design](entities/FluentDesign.md) - Microsoft design system represented through first-generation lighting, material, depth, navigation, and pressure effects.
 
 ## Concepts
+- [AI Infrastructure Financing](concepts/AIInfrastructureFinancing.md) - Allocation of dilution, repayment, utilization, obsolescence, and residual-value risk across AI compute funding structures.
 - [SSD Data Placement](concepts/SSDDataPlacement.md) - Host-device coordination that groups writes for lower garbage-collection cost while trading control against compatibility and integration effort.
 - [SSD Write Amplification](concepts/SSDWriteAmplification.md) - Extra physical SSD writes created by erase-before-write reclamation and valid-page relocation.
 - [Flexible Data Placement](concepts/FlexibleDataPlacement.md) - Backward-compatible NVMe placement control combining host-selected segregation with device-state feedback and device-managed NAND.

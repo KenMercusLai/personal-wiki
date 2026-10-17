@@ -848,12 +848,13 @@
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
       "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427",
-      "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc"
+      "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc",
+      "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02"
     ],
-    "paragraph_count": 848
+    "paragraph_count": 849
   },
-  "overview_commit": "3ea9a8ff5f782f592b0d336a187ebdee601e14c1",
-  "overview_digest": "c92a0175b91d74f0d6b6e056a7b50da3e89072d1482449ad3a3d8bbaffd6be2a",
+  "overview_commit": "7e974daafc03a24abc9494896e53f0e9a5531b35",
+  "overview_digest": "6130c303c29551c458da8bea8a408a9f87bb4cc8bae0031e4c2cce2cf8f7954f",
   "paragraphs": [
     {
       "id": "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
@@ -17114,6 +17115,28 @@
         "HumanAgencyInAI",
         "InnovatorsDilemma",
         "OpenAI"
+      ]
+    },
+    {
+      "id": "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[BenThompson]] source adds [[AIInfrastructureFinancing]] as a competitive and risk-allocation layer inside [[AIInvestmentTheme]]. Hyperscaler free cash flow, debt, equity, third-party infrastructure funds, and vendor guarantees can all pull expected future compute demand into present construction, but they allocate dilution, repayment, utilization, obsolescence, and residual-value risk differently. [[JensenHuang]] presents Nvidia-based AI factories as revenue-producing, improving, redeployable infrastructure and announced partnerships intended to mobilize more than $500 billion; [[Nvidia]]'s reported residual-value backstop of up to 25% lowers builders' financing cost while returning part of the asset risk to the vendor. That matters competitively because [[Google]] and Amazon can finance TPU and Trainium capacity and sell it to labs such as [[Anthropic]], so upfront capital cost may influence platform choice even when Nvidia hardware has better operating efficiency. The Northern Pacific and Panic of 1873 analogy is a stress test, not a forecast: useful infrastructure and damaging financing failure can coexist, but AI assets differ in modularity, technology cycles, regulation, and potential redeployment. The article supplies no contracts, underwriting standards, deployed-capital totals, utilization cohorts, default rates, or independent resale values, and its company financing, DeepMind, customer-allocation, and relative-cost figures remain time-sensitive and source-scoped. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 4,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AIInfrastructureFinancing",
+        "AIInvestmentTheme",
+        "Anthropic",
+        "BenThompson",
+        "Google",
+        "JensenHuang",
+        "Nvidia"
       ]
     }
   ],

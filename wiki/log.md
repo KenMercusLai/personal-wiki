@@ -9708,3 +9708,11 @@ Created [[AutonomousCyberDefense]] and [[AINativeOrganization]], and updated [[B
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | Nvidia’s Risky Business
+
+Created [[AIInfrastructureFinancing]] and [[JensenHuang]], and updated [[Nvidia]] and [[AIInvestmentTheme]] from their complete ordered evidence inventories. Captured the progression from free cash flow through debt, equity, third-party infrastructure funds, and vendor residual-value support; Nvidia's intended more-than-$500-billion financing platforms and up-to-25% backstop; and custom-accelerator pressure from TPU and Trainium capacity. Preserved the distinction between announced and deployed capital, current orders and durable paid demand, nominal fungibility and economic redeployability, and historical analogy versus demonstrated systemic risk. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

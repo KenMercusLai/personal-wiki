@@ -2,6 +2,25 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "accelerator-platform-competition-includes-financing-and-substitution",
+      "qualifications": [
+        "The evidence is one analyst article built partly from company announcements and cited third-party reporting rather than matched accelerator benchmarks, customer migration data, or independently verified utilization.",
+        "The announced financing platforms provide no contracts, deployed-capital totals, underwriting rules, or independent residual-value estimates, while the more-than-$500-billion figure is an intended mobilization scale.",
+        "TPU, Trainium, and non-CUDA adoption show that substitution is possible for some frontier workloads, not that CUDA's broader installed base or Nvidia's technical advantages have disappeared."
+      ],
+      "statement": "[[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIInfrastructureFinancing",
+        "Nvidia",
+        "Google",
+        "Anthropic",
+        "JensenHuang",
+        "AIInvestmentTheme"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "llvm-modular-ir-supports-lifelong-compilation",
       "qualifications": [
         "The evidence is a retrospective co-authored by LLVM's creators rather than an independent adoption census or systematic comparison of contemporary compiler infrastructures.",

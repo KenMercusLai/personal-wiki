@@ -1,6 +1,26 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "ai-infrastructure-financing-transfers-rather-than-removes-risk",
+      "qualifications": [
+        "The source supplies no financing contracts, underwriting standards, deployed-capital totals, utilization cohorts, default rates, loss priorities, or independent accelerator resale values.",
+        "The more-than-$500-billion figure is an intended mobilization scale, and Nvidia's reported up-to-25% residual-value support has unspecified triggers and terms.",
+        "The Northern Pacific and Panic of 1873 comparison is a stress-test analogy rather than evidence that modular AI hardware, technology cycles, regulation, and modern financial institutions will produce the same outcome."
+      ],
+      "statement": "[[AIInfrastructureFinancing]] makes capital structure part of [[AIInvestmentTheme]]: free cash flow, debt, equity, third-party infrastructure funds, and [[Nvidia]] residual-value support can all turn expected compute demand into current construction, but they allocate dilution, repayment, utilization, obsolescence, and resale risk differently; durable paid use and asset value therefore matter more than present orders alone.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIInfrastructureFinancing",
+        "AIInvestmentTheme",
+        "Nvidia",
+        "JensenHuang",
+        "Google",
+        "Anthropic",
+        "BenThompson"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "smartphone-service-dependence-makes-disconnection-costly",
       "qualifications": [
