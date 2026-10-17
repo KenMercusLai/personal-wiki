@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
       "23990c99abf0fea7c8ddf3fb214abb99081e6a78a1fe3735f8c6e4d68967b59f",
       "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
       "797bc6bdcf78e37879060fa4127ec463ad24b2263112ee2e059173b7a64584fb",
@@ -848,11 +849,34 @@
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
       "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427"
     ],
-    "paragraph_count": 846
+    "paragraph_count": 847
   },
-  "overview_commit": "06fc9d53665def774e54b2ad5a7ea900d16d1032",
-  "overview_digest": "3ea5cca0368dce49b60954d0e4652c82253f5e645d27f8df7ff7080cf50a64e5",
+  "overview_commit": "23e4dd2869daca1ff0e65da1a5bb8d07e46aa43f",
+  "overview_digest": "1be28ef286369d0902c387ba68ac63ca3336cd04e36822363f3aba2ba0d6bb8e",
   "paragraphs": [
+    {
+      "id": "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "culture-and-media"
+      ],
+      "text": "The newest [[Samsung]] storage source adds [[SSDDataPlacement]] as a responsibility-allocation problem beneath NVMe performance. NAND's page writes, block erases, and erase-before-write behavior make an FTL redirect updates and reclaim invalid space; when blocks mix live and invalid pages, garbage collection relocates live data, raising [[SSDWriteAmplification]], consuming program/erase endurance, and disturbing latency. The retained control-spectrum and stack diagrams separate logical placement from media management: OCSSD moved mapping, garbage collection, and NAND management into a host FTL; [[ZonedNamespaceStorage]] leaves media management in the device but makes the host manage sequential zones, mapping, and reclamation; Streams and [[FlexibleDataPlacement]] keep the FTL inside the SSD. This history makes adoption a joint function of device WAF, end-to-end amplification, compatibility, host-state burden, workload shape, and use-case pull. ZNS guarantees device WAF 1 for sequential zones but can shift relocation writes into the application, so it fits already log-structured workloads better than arbitrary random writes. FDP instead preserves normal writes and backward compatibility, separates traffic by placement ID, and exposes logs or device state so hosts can tune toward WAF near 1. Its retained comparison table adds static write-resource allocation, placement IDs independent of LBA, and multi-namespace sharing. Samsung's conclusion that FDP offers the best integration-effort tradeoff remains vendor-scoped: the article supplies no matched benchmarks, deployment counts, failure analysis, or independent ecosystem evidence, and its Streams comparison distinguishes achievable WAF 1 from a guarantee. All five evidence-bearing diagrams and the table were opened and retained at their semantic positions.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "FlexibleDataPlacement",
+        "SSDDataPlacement",
+        "SSDWriteAmplification",
+        "Samsung",
+        "ZonedNamespaceStorage"
+      ]
+    },
     {
       "id": "23990c99abf0fea7c8ddf3fb214abb99081e6a78a1fe3735f8c6e4d68967b59f",
       "primary_topic": "governance-and-institutions",

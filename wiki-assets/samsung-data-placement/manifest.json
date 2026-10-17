@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "samsung-data-placement",
+  "images": [
+    {
+      "file": "nand-flash-hierarchy.jpg",
+      "alt": "NAND flash hierarchy showing a die divided into planes, blocks, and pages"
+    },
+    {
+      "file": "host-control-spectrum.png",
+      "alt": "SSD data-placement technologies ordered from conventional SSDs through Streams, FDP, and ZNS to OCSSD by increasing host control"
+    },
+    {
+      "file": "host-device-responsibility-split.png",
+      "alt": "Host and SSD responsibility split for conventional SSDs and Streams or FDP, ZNS, and OCSSD"
+    },
+    {
+      "file": "data-placement-timeline.jpg",
+      "alt": "Timeline from conventional SSDs in the 1970s through OCSSD, NVMe Streams, ZNS, and FDP in 2023"
+    },
+    {
+      "file": "streams-fdp-zns-comparison.png",
+      "alt": "Comparison of Streams, FDP, and ZNS across write conformance, alignment, feedback, WAF, compatibility, addressing, namespaces, resource allocation, and adoption"
+    }
+  ]
+}

@@ -9680,3 +9680,11 @@ Updated [[SlateDB]], [[StoragePerformanceBenchmarking]], and [[ObjectStorageNati
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | A Brief History of Data Placement Technologies
+
+Created [[SSDDataPlacement]], [[SSDWriteAmplification]], [[FlexibleDataPlacement]], and [[ZonedNamespaceStorage]], and updated [[Samsung]] from its complete ordered evidence inventory. Captured NAND erase-before-write behavior, device-versus-host responsibility boundaries, OCSSD and Streams adoption lessons, ZNS's device-versus-end-to-end WAF distinction, and FDP's feedback, compatibility, placement-resource, and multi-namespace tradeoffs. Preserved Samsung's vendor-advocacy scope, time-sensitive ecosystem claims, absent matched benchmarks and deployment counts, and the distinction between achievable and guaranteed WAF 1. Opened and retained all five evidence-bearing local diagrams and comparison-table visuals at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

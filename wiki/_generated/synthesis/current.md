@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: 06fc9d53665def774e54b2ad5a7ea900d16d1032
+as_of_overview_commit: 23e4dd2869daca1ff0e65da1a5bb8d07e46aa43f
 summary: "Podcast Atlas connects evidence across domains by matching systems to real workloads and human constraints, then qualifying claims by measurement and failure boundaries."
-episode_count: 1202
-source_count: 1202
-paragraph_count: 846
+episode_count: 1203
+source_count: 1203
+paragraph_count: 847
 topic_count: 9
 ---
 
@@ -50,21 +50,21 @@ Across domains, designs work when physical and organizational boundaries match t
 
 ### Culture and Media
 
-Media value emerges from the interaction of form, authorship, infrastructure, platform incentives, access, durability, and audience relationships.
+Media value emerges from the interaction of form, authorship, infrastructure, platform incentives, access, durability, and audience relationships; planner-routed storage material remains explicitly technical spillover.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Institutions, platforms, and technical operators need transparent authority, accountable decisions, enforceable boundaries, observable costs and effects, and credible exit or recovery mechanisms.
+Institutions, platforms, and technical operators need transparent authority, accountable decisions, enforceable boundaries, observable costs and effects, and credible exit or recovery mechanisms; host-device storage responsibility is one qualified technical example.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 
 ### History and Geopolitics
 
-Historical and geopolitical claims require attention to institutions, incentives, technology, source perspective, path dependence, and contested causal interpretation.
+Historical claims require attention to institutions, incentives, technology, source perspective, path dependence, and contested causality, while the topic's many technical histories—including SSD placement—remain distinct from geopolitical evidence.
 
 ### Psychology and Personal Development
 

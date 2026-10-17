@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Brief History of Data Placement Technologies](sources/samsung-data-placement.md) - Samsung compares conventional SSDs, OCSSD, Streams, ZNS, and FDP through host control, compatibility, integration effort, feedback, and write amplification.
 - [Benchmarking SlateDB](sources/slatedb-benchmark.md) - SlateDB's public object-storage benchmark turns routing, compaction, polling cost, and cache-granularity measurements into implementation changes while preserving important comparison limits.
 - [How we taught a small LLM to throw away 68% of our RAG context](sources/kapa-prune-rag.md) - Kapa's first-party account of listwise post-rerank pruning, its recall-compression frontier, cost savings, and latency tradeoff.
 - [GeminiFS: A Companion File System for GPUs](sources/geminifs.md) - FAST 2025 companion file system combining host-managed files, embedded block maps, GPU NVMe queues, a shareable page cache, and qualified near-raw-device performance.
@@ -2335,7 +2336,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
 - [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to writing, connected technology, historical context, incumbent competition, and disciplined learning from business cases.
-- [Samsung](entities/Samsung.md) - Korean consumer-electronics manufacturer represented through displays, appliances, connected-home breadth, Bixby, and endpoint-lifecycle tradeoffs.
+- [Samsung](entities/Samsung.md) - Korean technology manufacturer represented through consumer-electronics integration and a vendor-scoped SSD data-placement architecture perspective.
 - [LG](entities/LG.md) - Korean consumer-electronics manufacturer represented through OLED, WebOS, appliances, Cloi, and endpoint-lifecycle tradeoffs.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
@@ -3195,6 +3196,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zig Software Foundation](entities/ZigSoftwareFoundation.md) - Zig steward and former recipient of Bun's financial and technical-community engagement.
 
 ## Concepts
+- [SSD Data Placement](concepts/SSDDataPlacement.md) - Host-device coordination that groups writes for lower garbage-collection cost while trading control against compatibility and integration effort.
+- [SSD Write Amplification](concepts/SSDWriteAmplification.md) - Extra physical SSD writes created by erase-before-write reclamation and valid-page relocation.
+- [Flexible Data Placement](concepts/FlexibleDataPlacement.md) - Backward-compatible NVMe placement control combining host-selected segregation with device-state feedback and device-managed NAND.
+- [Zoned Namespace Storage](concepts/ZonedNamespaceStorage.md) - Sequential host-managed zones that guarantee device WAF 1 while shifting mapping, reclamation, and state into host software.
 - [RAG Context Pruning](concepts/RAGContextPruning.md) - Set-aware removal of unnecessary retrieved chunks before generation, evaluated across recall, compression, cost, and latency.
 - [GPU-Centric Storage Access](concepts/GPUCentricStorageAccess.md) - GPU-initiated NVMe I/O architecture separating direct data movement from CPU-free request control and file-management tradeoffs.
 - [Hill-Climbing Machine](concepts/HillClimbingMachine.md) - System-level model-development loop coupling data, architecture, infrastructure, RL environments, evaluation, and safety feedback.
