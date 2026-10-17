@@ -6,7 +6,8 @@ sources:
   - health-checks-and-graceful-degradation-in-distributed-systems
   - how-we-found-a-bug-in-the-hyper-http-library
   - lychee-recursion
-last_updated: 2026-10-15
+  - link-checkers-recurse
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,14 +21,16 @@ The Imgix case combines local and upstream decisions. Workers could refuse indiv
 
 The Cloudflare Images incident adds a correctness boundary below admission control. A reader that paused for only milliseconds could fill a Unix socket's outbound buffer, causing hyper's flush to return `Poll::Pending`. Backpressure itself was legitimate, but hyper discarded that signal and shut down before its internal buffer drained. This distinguishes backpressure from overload: even a brief local capacity mismatch must be propagated through asynchronous lifecycle control so that completion waits rather than silently losing data.
 
-The [[Lychee]] recursion attempts add a topology boundary. A bounded request channel can regulate a one-way producer, yet deadlock when the response consumer is also a recursive producer: once the request channel fills, the handler blocks sending discoveries, stops draining responses, and prevents request capacity from being released. Moving sends into detached tasks restores response progress but can replace bounded queue growth with unbounded tasks and memory. Backpressure therefore needs an acyclic escape path or a coordination design that preserves both bounded admission and consumer progress.
+The [[Lychee]] recursion attempts add a topology boundary. A bounded request channel can regulate a one-way producer, yet deadlock when the response consumer is also a recursive producer: once the request channel fills, the handler blocks sending discoveries, stops draining responses, and prevents request capacity from being released. Moving sends into detached tasks restores response progress but can replace bounded queue growth with unbounded tasks and memory.
+
+The comparison with four recursive checkers sharpens the rule: the frontier that records what may run next and the limiter that decides how fast it runs are different control surfaces. Muffet pairs a set and daemon channel with a semaphore and host throttler; LinkChecker pairs an unbounded frontier with fixed threads and host pacing; the Node tools pair recursive queues with concurrency, socket, or delay controls. This separation preserves consumer progress, but it does not remove memory risk: an unbounded in-memory frontier trades cyclic blocking for explicit caps, cleanup, spill-to-disk, rejection, or operator limits elsewhere.
 
 ## Key Claims
 - Unbounded concurrency is a common route from rising demand to queueing, latency, timeouts, retries, and sustained degradation.
 - Feedback should reflect current application capacity rather than only static infrastructure thresholds.
 - Admission decisions can be request-specific when work items have materially different cost.
 - Backpressure must propagate through the call chain or excess work accumulates elsewhere.
-- Bounded queues and explicit rejection make overload behavior finite and observable only when producers cannot block the consumer that must release capacity.
+- Frontier capacity and execution limits must be designed separately so recursive producers cannot block the consumer that must release capacity.
 - Local decision-making can scale without global coordination, but does not eliminate the need for broader rate limits.
 - Backpressure is also a correctness signal: an incomplete write must prevent shutdown or other terminal state changes until buffered data is delivered or an error is surfaced.
 
@@ -42,14 +45,16 @@ The [[Lychee]] recursion attempts add a topology boundary. A bounded request cha
 - Controlled validation: [[how-we-found-a-bug-in-the-hyper-http-library]] reproduces the condition with a stream that accepts one chunk and then blocks, confirming that the fix waits.
 - Cyclic deadlock: [[lychee-recursion]] reports a full bounded request channel blocking the response handler that had to drain responses before request slots could become available.
 - Displacement risk: [[lychee-recursion]] says spawning recursive sends avoided the direct deadlock but allowed an unbounded number of background tasks to accumulate.
+- Comparative frontier design: [[link-checkers-recurse]] shows all four crawlers limiting workers, sockets, or hosts separately from the recursive admission path.
+- Memory qualification: [[link-checkers-recurse]] shows that LinkChecker's deliberate unbounded queue and the other tools' in-memory visited state avoid one deadlock at the cost of explicit memory exposure.
 
 ## Counterevidence & Qualifications
-Backpressure moves, delays, or limits work; it does not create capacity. Retries can worsen overload unless attempts, budgets, and backoff are bounded. Local decisions may be mutually inconsistent or unfair, while centralized coordination can become a bottleneck. The Spillway source does not compare its policy with alternatives or provide quantitative outcomes. The Cloudflare incident is not a general overload study: a temporary reader pause exposed a pre-existing hyper defect, and its first-party account provides no fleet-wide incidence or measured reader-speed comparison. Its initial dispatch-loop fix also shows that propagating `Pending` at the wrong layer can reduce unrelated progress or break keepalive semantics. The lychee account is a maintainer retrospective rather than a measured queueing study, and its detached-send workaround demonstrates a failure transfer rather than a validated solution.
+Backpressure moves, delays, or limits work; it does not create capacity. Retries can worsen overload unless attempts, budgets, and backoff are bounded. Local decisions may be mutually inconsistent or unfair, while centralized coordination can become a bottleneck. The Spillway source does not compare its policy with alternatives or provide quantitative outcomes. The Cloudflare incident is not a general overload study: a temporary reader pause exposed a pre-existing hyper defect, and its first-party account provides no fleet-wide incidence or measured reader-speed comparison. Its initial dispatch-loop fix also shows that propagating `Pending` at the wrong layer can reduce unrelated progress or break keepalive semantics. The lychee sources are maintainer accounts rather than measured queueing studies; the detached-send workaround transfers failure to task growth, while the compared tools' in-memory or unbounded frontiers transfer it toward memory consumption.
 
 ## What Changed
-- Added cyclic producer-consumer topology as a condition under which bounded channels can deadlock.
-- Distinguished bounded admission from bounded total work when blocked sends move into detached tasks.
-- Added continued consumer progress as a design requirement for recursive backpressure paths.
+- Generalized frontier-versus-limiter separation across four recursive link checkers.
+- Added unbounded frontier memory growth as the counter-risk to cyclic blocking.
+- Preserved continued consumer progress as the key topology constraint.
 
 ## Related Concepts
 - [[ServiceHealthChecks]] - capacity-sensitive health is the feedback signal used by upstream controllers.
@@ -61,3 +66,4 @@ Backpressure moves, delays, or limits work; it does not create capacity. Retries
 - [[RaceCondition]] - flush and shutdown ordering turned ordinary buffer pressure into intermittent truncation.
 - [[ServiceObservability]] - syscall traces showed whether queued bytes actually crossed the socket boundary.
 - [[DistributedTerminationDetection]] - completion accounting and capacity control are separate obligations in a dynamic recursive pipeline.
+- [[CrawlerArchitecture]] - separates the recursive work frontier from worker, socket, rate, and per-host limits.

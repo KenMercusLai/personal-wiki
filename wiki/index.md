@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How Other Link Checkers Do Recursion](sources/link-checkers-recurse.md) - Matthias Endler compares four recursive link checkers and derives the shared frontier, enqueue-time deduplication, execution-limiting, and quiescence pattern that lychee is retrofitting.
 - [Artistic Halftoning - Between Technology and Art](sources/spie2000-techart.md) - Victor Ostromoukhov unifies contour-driven artistic screens, side-by-side multicolor dithering, and layered digital engraving through designed threshold structures.
 - [The Google Capital Company](sources/the-google-capital-company.md) - Ben Thompson argues that Google Services' cash engine can fund a lower-margin but potentially larger cloud-and-AI infrastructure business, while Alphabet's equity raise may signal either extraordinary compute demand or shared capex risk.
 - [Nvidia’s Risky Business](sources/nvidias-risky-business.md) - Ben Thompson analyzes debt, equity, third-party infrastructure funds, and Nvidia's residual-value backstop as competing ways to finance AI compute under uncertain demand.
@@ -1243,6 +1244,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [muffet](entities/Muffet.md) - Go link checker combining enqueue-time URL claiming, WaitGroup completion, and separate semaphore and host throttling.
+- [LinkChecker](entities/LinkChecker.md) - Python crawler using a joinable unbounded frontier, cache-sentinel deduplication, fixed worker threads, and per-host pacing.
+- [linkinator](entities/Linkinator.md) - Node link checker using event-loop-serialized admission, a concurrency queue, idle detection, and body-bearing crawling requests.
+- [broken-link-checker](entities/BrokenLinkChecker.md) - Event-driven JavaScript crawler with policy-aware admission, nested queues, rate limits, and drain-event completion.
 - [Falk Hüffner](entities/FalkHuffner.md) - Software practitioner deriving, explaining, and cautiously evaluating a solver-generated bounded leap-year predicate.
 - [Victor Ostromoukhov](entities/VictorOstromoukhov.md) - Computer-graphics researcher connecting designed threshold structures with artistic screening, multicolor printing, and digital facial engraving.
 - [Berkshire Hathaway](entities/BerkshireHathaway.md) - Capital allocator using high-return cash generators to fund larger productive assets and reported in the source as a $10 billion Alphabet investor.
@@ -3213,6 +3218,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
+- [Crawler Architecture](concepts/CrawlerArchitecture.md) - Recursive worklist design separating enqueue-time identity, frontier storage, bounded execution, crawl policy, and quiescence detection.
 - [Solver-Aided Optimization](concepts/SolverAidedOptimization.md) - Constraint-guided synthesis of implementation parameters within an explicit expression form, arithmetic model, and validity domain.
 - [Artistic Halftoning](concepts/ArtisticHalftoning.md) - Tone reproduction whose shaped and transformed screen elements carry recognizable artistic, cultural, or security information.
 - [Multicolor Dithering](concepts/MulticolorDithering.md) - Cumulative-threshold allocation of barycentric color proportions into mutually exclusive, side-by-side pixel coverage.

@@ -9748,3 +9748,11 @@ Created [[FalkHuffner]] and [[SolverAidedOptimization]]. Captured the divisibili
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | How Other Link Checkers Do Recursion
+
+Created [[CrawlerArchitecture]], [[Muffet]], [[LinkChecker]], [[Linkinator]], and [[BrokenLinkChecker]], and updated [[Lychee]], [[DistributedTerminationDetection]], [[AdaptiveBackpressure]], and [[ConcurrencyFailureModes]] from their complete ordered evidence inventories. Captured the common recursive frontier, enqueue-time URL claiming, descendant-aware quiescence, frontier-versus-limiter separation, GET body requirement, crawler policy filters, and runtime-specific synchronization tradeoffs. Preserved the maintainer-authored and version-specific scope, missing controlled benchmarks, unbounded-frontier memory risk, and the distinction between lychee's architectural readiness and shipped recursion. Opened and retained both evidence-bearing architecture diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

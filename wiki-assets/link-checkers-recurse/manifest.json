@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "link-checkers-recurse",
+  "images": [
+    {
+      "file": "stream-dag-versus-crawler-cycle.png",
+      "alt": "One-way lychee pipeline compared with a recursive crawler whose fetched links return to the frontier"
+    },
+    {
+      "file": "crawler-frontier-and-termination-flow.png",
+      "alt": "Recursive crawler flow from seed URLs through enqueue-time deduplication, frontier queue, bounded workers, link extraction, and quiescence detection"
+    }
+  ]
+}

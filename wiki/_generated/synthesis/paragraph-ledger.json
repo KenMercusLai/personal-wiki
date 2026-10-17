@@ -851,12 +851,13 @@
       "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427",
       "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc",
       "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02",
-      "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940"
+      "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
+      "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd"
     ],
-    "paragraph_count": 851
+    "paragraph_count": 852
   },
-  "overview_commit": "1f6a9a56e55cdc1b02116925ffc28085e940e24a",
-  "overview_digest": "08cfcddb1000f3d1ef988259e3e53167c91663688d81de869833b06f977ff895",
+  "overview_commit": "10d4da9abced86b0018b321d27317f7eea3b9287",
+  "overview_digest": "e6218d0472fd869f7f953084b932dbe56b5860ac59644f41db1b82856b13f893",
   "paragraphs": [
     {
       "id": "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
@@ -17173,6 +17174,32 @@
         "ParallelProgramming",
         "Python",
         "SelectiveJSONParsing"
+      ]
+    },
+    {
+      "id": "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Lychee]] maintainer source generalizes its failed recursion attempts into [[CrawlerArchitecture]]. Across [[Muffet]], [[LinkChecker]], [[Linkinator]], and [[BrokenLinkChecker]], recursive crawling has the same invariant structure: fetched pages return discovered URLs to a mutable frontier; admission atomically claims URL identity before network work; completion requires the frontier to be empty with no active task capable of adding descendants; and semaphores, worker counts, socket caps, delays, or host throttlers limit execution separately from the frontier itself. This strengthens [[DistributedTerminationDetection]] by showing `WaitGroup`, joinable-queue counters, idle promises, and drain events as runtime-specific expressions of the same descendant-before-parent completion ordering. It also sharpens [[AdaptiveBackpressure]] and [[ConcurrencyFailureModes]]: using one bounded feedback channel as both frontier and limiter can deadlock its own consumer, while making the frontier unbounded trades that progress failure for memory exposure. The comparison supports lychee's newer `WaitGroup`, per-URI active-request state, and `HostPool` direction without establishing that recursive crawling shipped; both sources are maintainer-authored code readings, and their throughput, memory, maturity, and extensibility comparisons lack controlled benchmarks. Both inspected diagrams were retained canonically at their semantic positions because they show the DAG-to-cycle transition and the full enqueue, deduplication, worker, feedback, and quiescence flow.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AdaptiveBackpressure",
+        "BrokenLinkChecker",
+        "ConcurrencyFailureModes",
+        "CrawlerArchitecture",
+        "DistributedTerminationDetection",
+        "LinkChecker",
+        "Linkinator",
+        "Lychee",
+        "Muffet"
       ]
     }
   ],
