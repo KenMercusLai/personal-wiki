@@ -1,27 +1,27 @@
 {
   "content_date": "2026-10-18",
   "corpus": {
-    "episode_count": 1217,
-    "source_count": 1217
+    "episode_count": 1218,
+    "source_count": 1218
   },
   "generated": true,
   "global": {
-    "candidate_digest": "134924770f77feab934d1d77ef5e7ce489661ad9e9c5e4bb10aea2a8ced3193e",
-    "compacted_at": "2026-10-17T23:05:28.443379Z",
+    "candidate_digest": "2c9ce8be7798180e1a4f5cf21965acbe9e3417dd44c17c54dd266e6943cb024c",
+    "compacted_at": "2026-10-17T23:17:18.800704Z",
     "content_date": "2026-10-18",
     "corpus": {
-      "episode_count": 1217,
-      "source_count": 1217
+      "episode_count": 1218,
+      "source_count": 1218
     },
-    "output_digest": "f4b1f03a8c262799e3139ece38ad1b3f8471ebe30235e0c11f046d0f7317d39f",
-    "overview_commit": "0bb70b21e90beabfa08e3dedf27382ee0e5b3392",
-    "overview_digest": "a42b88e46d3f62f6658dfeacb4aad157553e1898ff8325d49edcc6a2f38e722a",
+    "output_digest": "f4b2166506238eadb8dbad78f1211d4427bdececa224aa9d309eb3468c24b69f",
+    "overview_commit": "145cdd6b9cbb65b811b81aa136c85d05df655e8f",
+    "overview_digest": "c28d46b127704583befe1b8894cc1f9b70bbd00f40f3f36302881c0b00789b8a",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "0bb70b21e90beabfa08e3dedf27382ee0e5b3392",
-  "overview_digest": "a42b88e46d3f62f6658dfeacb4aad157553e1898ff8325d49edcc6a2f38e722a",
-  "paragraph_count": 856,
+  "overview_commit": "145cdd6b9cbb65b811b81aa136c85d05df655e8f",
+  "overview_digest": "c28d46b127704583befe1b8894cc1f9b70bbd00f40f3f36302881c0b00789b8a",
+  "paragraph_count": 857,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -37,9 +37,9 @@
       "title": "Business and Markets"
     },
     "cross-domain": {
-      "claim_digest": "233361e52c13476cbd759daf22378bdd86ee13a2d07d0c2c2e555be997d87704",
-      "input_digest": "5f3d7b163c9a3e94ff4fabe9bc6bea0f929e6cdf020aa571b61043551ef0effd",
-      "output_digest": "7ccea3ea916236b1bc2525e4c4bff4a03571dbf4bb1f7711f8f13cb4d88d4c3b",
+      "claim_digest": "58e0f608239f634bd815a57d8359ff9814072e20a8640952b6b62df5c5bb9cda",
+      "input_digest": "0500af18767ab9ad77a0e3c3265300baa95736df311758af12741158e83782fc",
+      "output_digest": "3742b52b1fb5638f90d1ae2b42d57dcfb31245bfdae67498ccd1550c530ee4bb",
       "title": "Cross-domain"
     },
     "culture-and-media": {

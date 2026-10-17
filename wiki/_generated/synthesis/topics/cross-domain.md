@@ -3,16 +3,16 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-10-16
-as_of_overview_commit: 3cd95401f4093ba757c348226242edde86a59124
-input_digest: 5f3d7b163c9a3e94ff4fabe9bc6bea0f929e6cdf020aa571b61043551ef0effd
+last_updated: 2026-10-18
+as_of_overview_commit: 145cdd6b9cbb65b811b81aa136c85d05df655e8f
+input_digest: 0500af18767ab9ad77a0e3c3265300baa95736df311758af12741158e83782fc
 ---
 
 # Cross-domain
 
 ## Current State
 
-Across otherwise unrelated domains, the current evidence repeatedly favors workload- and boundary-aware design over labels or isolated features: storage layouts must match queries, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, interfaces must expose scope and recovery, and optimizations must be judged with explicit accuracy, lifecycle, ownership, and evidence limits.
+Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: storage layouts must match queries, landmark pathfinding must separate proven bounds from directional policies, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.
 
 ## Cross-source Findings
 
@@ -25,6 +25,17 @@ Across otherwise unrelated domains, the current evidence repeatedly favors workl
 **Qualifications:**
 
 - The evidence is a conceptual practitioner account without comparative benchmarks, and capabilities vary across formats and engines.
+
+### Landmark Flow Guidance Needs Separate Validation
+
+[[DifferentialHeuristic]] can use exact landmark distances as admissible scalar lower bounds, while [[FlowFieldPathfinding]] caches topology-aware directions; [[YunFeng]]'s smaller-bound switching rule needs separate validation rather than inheriting the scalar heuristic's guarantees.
+
+**Evidence:** [[DifferentialHeuristic]], [[FlowFieldPathfinding]], [[YunFeng]]
+
+**Qualifications:**
+
+- The directional switching and smaller-bound selection rule has no supplied proof, implementation, explored-node benchmark, or production evidence.
+- Constant-time lookup assumes a fixed landmark count, and the reachability conclusions implicitly require undirected connectivity.
 
 ### Quantizer Comparisons Require Symmetric Reproduction
 

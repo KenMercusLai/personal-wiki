@@ -17,6 +17,21 @@
     },
     {
       "global_candidate": false,
+      "id": "landmark-flow-guidance-needs-separate-validation",
+      "qualifications": [
+        "The directional switching and smaller-bound selection rule has no supplied proof, implementation, explored-node benchmark, or production evidence.",
+        "Constant-time lookup assumes a fixed landmark count, and the reachability conclusions implicitly require undirected connectivity."
+      ],
+      "statement": "[[DifferentialHeuristic]] can use exact landmark distances as admissible scalar lower bounds, while [[FlowFieldPathfinding]] caches topology-aware directions; [[YunFeng]]'s smaller-bound switching rule needs separate validation rather than inheriting the scalar heuristic's guarantees.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DifferentialHeuristic",
+        "FlowFieldPathfinding",
+        "YunFeng"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "quantizer-comparisons-require-symmetric-reproduction",
       "qualifications": [
         "Released code, repeated runs, and correspondence strengthen the critique but do not substitute for independent replication."
@@ -299,6 +314,6 @@
       ]
     }
   ],
-  "summary": "Across otherwise unrelated domains, the current evidence repeatedly favors workload- and boundary-aware design over labels or isolated features: storage layouts must match queries, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, interfaces must expose scope and recovery, and optimizations must be judged with explicit accuracy, lifecycle, ownership, and evidence limits.",
+  "summary": "Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: storage layouts must match queries, landmark pathfinding must separate proven bounds from directional policies, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.",
   "topic_id": "cross-domain"
 }

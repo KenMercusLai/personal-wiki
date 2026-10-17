@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-18] ingest | 云风的 BLOG: 用地标改进 A star 寻路的启发函数
+
+Created [[YunFeng]] and [[FlowFieldPathfinding]], and updated [[AStarSearch]], [[DifferentialHeuristic]], and [[DijkstrasAlgorithm]] from their complete ordered evidence inventories. Recorded the triangle-inequality landmark bound, fixed-destination distance and direction caching, obstacle-aware guidance, reachability uses, multiple and adaptive landmarks, and the fixed-landmark-count boundary on `O(1)` lookup. Preserved the source's missing implementation, benchmark, complexity accounting, and production evidence; separated its smaller-bound directional choice from the standard maximum admissible bound; and made its implicit undirected-connectivity assumption explicit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-18] ingest | Outperforming cuBLAS on NVFP4
 
 Created [[PranjalShankhdhar]] and updated [[FoundationModelKernelOptimization]], [[GPUMemoryHierarchy]], [[BlockQuantization]], [[Nvidia]], and [[Claude]] from their complete ordered evidence inventories. Recorded NVFP4 E2M1-plus-UE4M3 blocks, two-CTA K96 tensor-core execution, separate operand and scale rings, K256/K768 pipeline staging, TMEM accumulator overlap, compiler and store-path effects, exact K tails, split-L2 requester ownership, shape-specific scheduling, and four benchmark protocols. Preserved the single-author, single-GPU, shape-, compiler-, power-, and protocol-specific scope; acknowledged losing shapes and reverse-engineered topology; and separated Claude code-generation attribution from undocumented human-agent process and autonomous capability. Opened all 17 local images, retained 14 unique evidence-bearing charts and diagrams at their semantic positions, and omitted one exact duplicate plus two performance summaries redundant with the retained optimization ladder.
@@ -9788,6 +9792,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-18] ingest | Scaling Elections with GPUs and Mojo across Nvidia and AMD 🔥
 
 Created [[SchulzeMethod]] and [[Mojo]], and updated [[AshVardanian]] and [[ParallelProgramming]] from their complete ordered evidence inventories. Captured pairwise strongest paths, the max-min recurrence, the participation-paradox example, dependent and independent blocked phases, CPU SIMD, GPU orchestration, and the reported unchanged Mojo source across Nvidia and AMD. Preserved cubic work, quadratic storage, sequential pivot dependencies, voting-system limits, heterogeneous hardware and tuning, immature deployment tooling, and the author-run benchmark scope. Inspected both self-contained SVGs from their elements and labels, converted them losslessly in dimensions to supported PNG assets, opened the rendered results, and retained the two evidence-bearing before-and-after strongest-path diagrams with descriptive filenames and a canonical manifest.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-18] graph | Knowledge graph rebuilt
+
+4715 nodes, 28044 edges (28044 extracted, 0 inferred).
 
 ## [2026-10-18] lint | Wiki health check
 

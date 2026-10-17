@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "bf3d62bfad1a454812af6da106572959eb71ed67955657758106195c5429f2d5",
       "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
       "59ff7688e27a7f93317f1abc35eaeb4dc630014b444822dd4b593aedbff21581",
       "e398fcf1585d7ef4e8e90e76475dc9982550eb0418c078382166dab15a273961",
@@ -858,11 +859,23 @@
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66"
     ],
-    "paragraph_count": 856
+    "paragraph_count": 857
   },
-  "overview_commit": "0bb70b21e90beabfa08e3dedf27382ee0e5b3392",
-  "overview_digest": "a42b88e46d3f62f6658dfeacb4aad157553e1898ff8325d49edcc6a2f38e722a",
+  "overview_commit": "145cdd6b9cbb65b811b81aa136c85d05df655e8f",
+  "overview_digest": "c28d46b127704583befe1b8894cc1f9b70bbd00f40f3f36302881c0b00789b8a",
   "paragraphs": [
+    {
+      "id": "bf3d62bfad1a454812af6da106572959eb71ed67955657758106195c5429f2d5",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[YunFeng]] article strengthens the wiki's pathfinding thread while exposing an important algorithm boundary. Like the existing [[DifferentialHeuristic]] source, it derives `d(S,E) >= d(S,L) - d(E,L)` from triangle inequality: exact distances to a small landmark set can reveal walls and detours that a cheap Euclidean estimate cannot see. It additionally creates [[FlowFieldPathfinding]] from the same Dijkstra preprocessing by caching a next-step direction at every node, then proposes temporarily following a nearby landmark's field before returning to geometric guidance. That direct steering rule should not be conflated with the standard admissible scalar heuristic. The existing method takes the maximum across valid landmark bounds and the base heuristic, while this article says the smaller `SL - EL` chooses among landmarks and supplies no implementation, proof, explored-node count, preprocessing or memory measurement, or production result. Its `O(1)` claim applies only to lookup with a fixed landmark count, and its reachability conclusions implicitly assume undirected connectivity. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {},
+      "wikilinks": [
+        "DifferentialHeuristic",
+        "FlowFieldPathfinding",
+        "YunFeng"
+      ]
+    },
     {
       "id": "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
       "primary_topic": "ai-and-technology",

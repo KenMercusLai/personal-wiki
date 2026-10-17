@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: 0bb70b21e90beabfa08e3dedf27382ee0e5b3392
+as_of_overview_commit: 145cdd6b9cbb65b811b81aa136c85d05df655e8f
 summary: "Podcast Atlas connects systems to real workloads, then qualifies claims through measurement, incentives, authorship, failure boundaries, and explicit controls."
-episode_count: 1217
-source_count: 1217
-paragraph_count: 856
+episode_count: 1218
+source_count: 1218
+paragraph_count: 857
 topic_count: 9
 ---
 
@@ -43,7 +43,7 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when physical, financial, informational, and organizational boundaries match the task and preserve evidence and recovery.
+Across domains, designs work when boundaries match the task, proven guarantees remain distinct from heuristic policies, and evidence and recovery are preserved.
 
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
 - Replacing [[SpanningTreeProtocol]] inside a controlled [[DataCenterNetworkFabric]] does not remove edge loops, so [[EdgeNetworkLoopProtection]] must preserve detection and bounded containment across client and virtualization boundaries. Evidence: [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[VMware]], [[NetworkJanitor]].

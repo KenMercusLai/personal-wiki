@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [云风的 BLOG: 用地标改进 A star 寻路的启发函数](sources/yun-feng-de-blog-yong-di-biao-gai-jin-a-star-xun-lu-de-qi-fa-han-shu.md) - 云风 derives a landmark-distance lower bound and proposes reusing fixed-destination flow directions to guide A* around obstacles, with unproven selection and directed-graph boundaries.
 - [Scaling Elections with GPUs and Mojo across Nvidia and AMD 🔥](sources/scaling-elections.md) - Ash Vardanian maps Schulze strongest paths onto blocked CPU and GPU execution, reporting cross-vendor Mojo portability while preserving voting and benchmark limits.
 - [Modern Engineering Values](sources/modern-engineering-values.md) - Christoph Nakazawa argues that agent-era engineering shifts the constraint from implementation toward ownership, judgment, repository context, guardrails, feedback, and technical leadership.
 - [Outperforming cuBLAS on NVFP4](sources/outperforming-cublas-nvfp4.md) - Pranjal Shankhdhar combines Blackwell dataflow, compiler, tail, and split-L2 scheduling work into a shape-specific NVFP4 GEMM reported 4.7% faster than cuBLASLt.
@@ -1249,6 +1250,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [云风](entities/YunFeng.md) - Technical blogger presenting landmark-distance and flow-field guidance for A* pathfinding.
 - [Christoph Nakazawa](entities/ChristophNakazawa.md) - Software engineer and product builder advocating ownership, repository-local context, strict feedback loops, and judgment-centered agent use.
 - [Pranjal Shankhdhar](entities/PranjalShankhdhar.md) - GPU performance writer and implementer reporting a GB300 NVFP4 kernel, reverse-engineered L2 topology, and shape-aware scheduling work.
 - [Duo An](entities/DuoAn.md) - Systems-oriented technical writer presenting a four-layer, resource-led field guide to foundation-model performance optimization.
@@ -3229,6 +3231,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
+- [Flow-Field Pathfinding](concepts/FlowFieldPathfinding.md) - Fixed-destination shortest-path preprocessing that caches exact costs and next-step directions for repeated route queries.
 - [Schulze Method](concepts/SchulzeMethod.md) - Ranked Condorcet method comparing candidates through maximum-bottleneck paths in a pairwise preference graph.
 - [Foundation Model Kernel Optimization](concepts/FoundationModelKernelOptimization.md) - Co-design of accelerator dataflow, operator graphs, distributed communication, and model structure around exposed end-to-end cost.
 - [Crawler Architecture](concepts/CrawlerArchitecture.md) - Recursive worklist design separating enqueue-time identity, frontier storage, bounded execution, crawl policy, and quiescence detection.
