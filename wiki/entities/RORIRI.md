@@ -12,15 +12,16 @@ sources:
   - ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin
   - jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin
   - sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin
-last_updated: 2026-10-16
+  - vibe-coding
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, workplace-management tools, persona simulation, and durable reader custody of web content.
+[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, workplace-management tools, persona simulation, durable reader custody of web content, and architecture-conscious AI-assisted product development.
 
 ## Current Profile
-Within this wiki, RORIRI appears as a technical commentator and educator who connects practical tools to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, incentives, agency, and digital custody. The LLM and AX sources connect context management with user intent, external action, permissions, transparency, and humanistic design. The education, statistics, and UX sources turn model thinking into concrete lessons about problem definition, evidence chains, error, covariance, regression, cognitive load, and apparently contradictory research findings. The persona and workplace essays apply the same label-versus-mechanism scrutiny to identity simulation, content incentives, OKRs, KPIs, Agile, and waterfall planning. The Sneakerweb essay expands that pattern beyond AI: hosted access, subscriptions, electronic licenses, DNS names, and certificate chains are treated as mechanisms whose promises should not be confused with reader possession; publisher-generated archives and the author's Walky6 prototype are offered as an experimental path toward durable custody.
+Within this wiki, RORIRI appears as a technical commentator and educator who connects practical tools to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, incentives, agency, software architecture, and digital custody. The LLM and AX sources connect context management with user intent, external action, permissions, transparency, and humanistic design. The education, statistics, UX, and vibe-coding sources turn model thinking into concrete lessons about problem definition, evidence chains, real-user contact, error, architecture, verification, cognitive load, and apparently contradictory findings. The persona and workplace essays apply the same label-versus-mechanism scrutiny to identity simulation, content incentives, OKRs, KPIs, Agile, and waterfall planning. The Sneakerweb essay expands that pattern beyond AI: hosted access, subscriptions, electronic licenses, DNS names, and certificate chains are treated as mechanisms whose promises should not be confused with reader possession; publisher-generated archives and the author's Walky6 prototype are offered as an experimental path toward durable custody.
 
 ## Key Characteristics
 - Explains LLM tooling concepts through context management, action control, retrieval, memory, and active compression.
@@ -28,7 +29,7 @@ Within this wiki, RORIRI appears as a technical commentator and educator who con
 - Extends computational thinking for AI-era education through statistics, abstraction/programming, academic writing, and taste as problem sense.
 - Explains statistics through examples that distinguish data-generation assumptions, sample relationships, model error, residuals, inference uncertainty, and plausible explanations that blur diagnostics or target quantities.
 - Treats UX research reporting as information design, where data layers and contradictions require an explicit explanatory chain.
-- Critiques LLM sycophancy, persona-resurrection rhetoric, and management-by-relabeling, proposing clearer boundaries around cognition, intent, identity, metrics, feedback, and tool purpose.
+- Critiques LLM sycophancy, persona-resurrection rhetoric, management-by-relabeling, and AI productivity reductionism, proposing clearer boundaries around cognition, intent, identity, metrics, feedback, architecture, accountability, and tool purpose.
 - Extends user agency from software interaction to digital custody by comparing live service access with complete, reader-held web archives.
 
 ## Evidence
@@ -54,13 +55,17 @@ Within this wiki, RORIRI appears as a technical commentator and educator who con
 - Workplace mechanism: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] argues that performance penalties, arbitrary requirement changes, and deferred technical quality can turn ostensibly human-centered tools into control systems.
 - Digital-custody argument: [[sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin]] connects hosting, domain, licensing, censorship, and archival failure to the fragility of service-mediated access.
 - Prototype practice: [[sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin]] reports publishing a Sneakerweb snapshot and building the small Tauri-based Walky6 interface around the protocol.
+- Product dependency model: [[vibe-coding]] orders product work from problem and user evidence through experience and information design into engineering architecture, making foundational changes the widest in scope.
+- AI-speed qualification: [[vibe-coding]] argues that faster code generation can accelerate architectural decay and should release time for debt reduction, documentation, testing, and review.
+- Human boundary: [[vibe-coding]] permits LLM-assisted analysis of real research records but rejects generated personas, simulated empathy, and model output as substitutes for users or accountable human judgment.
+- Agent operating system: [[vibe-coding]] proposes local model evaluation, provider diversity, precise falsifiable communication, hooks, memory, lint rules, phased documents, independent review, and layered tests.
 
 ## Qualifications
-The wiki's RORIRI evidence is still limited to explanatory essays, practitioner cases, and first-person experiments rather than formal specifications, empirical education or management research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, validated agent-safety standards, or independent protocol audits. The persona article's fit percentage and allegations about unnamed farmers are subjective. The workplace essay's OKR and sprint prescriptions are not universal standards. The Sneakerweb comparison likewise reflects the author's preservation priorities; its Cuban access figures are uncited, and the prototype supplies no adoption, usability, performance, security, or long-term replay evidence.
+The wiki's RORIRI evidence is still limited to explanatory essays, practitioner cases, and first-person experiments rather than formal specifications, empirical education or management research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, validated agent-safety standards, comparative software-delivery studies, or independent protocol audits. The persona article's fit percentage and allegations about unnamed farmers are subjective. The workplace essay's OKR and sprint prescriptions are not universal standards. The vibe-coding essay's claims about model empathy, vendor diversity, architectural decay, documentation structure, cumulative agent approval, and linting practice are plausible mechanisms and personal operating rules rather than measured outcome evidence. The Sneakerweb comparison likewise reflects the author's preservation priorities; its Cuban access figures are uncited, and the prototype supplies no adoption, usability, performance, security, or long-term replay evidence.
 
 ## What Changed
-- Added the Sneakerweb essay and Walky6 prototype as evidence that RORIRI's mechanism-focused analysis extends to web preservation, digital custody, and offline distribution.
-- Broadened the profile from AI, education, statistics, UX, and management commentary to include practical participation in experimental web infrastructure.
+- Added AI-assisted product development and software architecture to RORIRI's mechanism-focused profile.
+- Added real-user research, human accountability, durable agent documentation, executable constraints, and debt reduction as recurring boundaries around AI leverage.
 
 ## Relationships
 - [[LLMContextManagement]] - RORIRI uses this as the unifying frame for LLM tooling terms.
@@ -92,3 +97,7 @@ The wiki's RORIRI evidence is still limited to explanatory essays, practitioner 
 - [[Sneakerweb]] - RORIRI published a site archive and built the Walky6 prototype around this experimental system.
 - [[DigitalContentDurability]] - RORIRI distinguishes hosted availability from durable reader custody.
 - [[OfflineWebDistribution]] - RORIRI connects physical-media content networks with publisher-generated offline website packages.
+- [[VibeCoding]] - RORIRI treats generation speed as useful only when paired with product evidence, architecture maintenance, and human responsibility.
+- [[TechnicalDebt]] - RORIRI argues that rapid implementation can accelerate architectural decay unless saved time is reinvested in repair.
+- [[SpecDrivenAgentDevelopment]] - RORIRI proposes persistent requirement, architecture, revision, and review artifacts for agent work.
+- [[UserJourneyMapping]] - RORIRI uses journeys to bridge observed user experience into opportunities and measurable product decisions.

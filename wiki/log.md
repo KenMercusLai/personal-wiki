@@ -9669,10 +9669,6 @@ Created [[GeminiFS]] and [[GPUCentricStorageAccess]], and updated [[GPUMemoryHie
 
 Ran lint. See lint-report.md for details.
 
-## [2026-10-17] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
-
 ## [2026-10-17] ingest | Benchmarking SlateDB
 
 Updated [[SlateDB]], [[StoragePerformanceBenchmarking]], and [[ObjectStorageNativeDatabase]] from their complete ordered evidence inventories. Captured the public benchmark suite, declared SlateDB-versus-RocksDB asymmetry, routing-driven ingest instability, non-overlap trivial moves, object-store cost measurement, local-versus-remote compaction coordination, and coarse-versus-fine cache boundary. Preserved first-party and configuration-specific scope, disabled-optimization baseline, mixed-workload coupling, incomplete pricing assumptions, and absent controlled before-and-after evidence. Opened and retained both evidence-bearing charts at their semantic positions with descriptive filenames and a canonical manifest.
@@ -9692,6 +9688,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] ingest | Axiom 设计系统
 
 Created [[AxiomDesignSystem]], [[LossesDon]], [[FluentDesign]], and [[DesignSystemArchitecture]], and updated [[MaterialDesign]], [[Firefox]], [[Claude]], and [[AICodingPractice]] from their complete ordered evidence inventories. Captured the quality-floor model of design-system constraint, reconciliation of outward Material and inward Fluent depth, shared Shape/Surface/Typed-OM infrastructure, interruption-safe navigation, fractional-scale Canvas elevation, Firefox's perceptual pressure fallback, and expert-directed AI implementation. Preserved first-person performance and browser-report scope, subjective version critiques, missing independent accessibility and runtime evaluation, and the continuing human role in specification, tuning, debugging, and acceptance. Opened all nine referenced images, omitted the decorative cover, and retained all eight animated evidence-bearing demos at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] ingest | Vibe Coding 时代的角色与架构
+
+Updated [[RORIRI]], [[VibeCoding]], [[TechnicalDebt]], [[AgileSoftwareDevelopment]], and [[SpecDrivenAgentDevelopment]] from their complete ordered evidence inventories. Captured the product-layer dependency model, architecture-decay risk from faster generation, real-user research boundary, prototype and journey sequence, task-local model evaluation, durable documentation and review lifecycle, executable hooks and tests, dual-track discovery and delivery, and continuing human accountability. Preserved the source's practitioner and polemical scope, missing comparative outcome evidence, and possible process overhead for small or disposable projects. Opened the single local cover image and omitted it as decorative, so no retained-image manifest was required.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-17] lint | Wiki health check
 

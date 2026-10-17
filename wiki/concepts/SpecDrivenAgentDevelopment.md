@@ -7,7 +7,8 @@ sources:
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - spec-driven-development-with-spec-kit
   - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
-last_updated: 2026-10-13
+  - vibe-coding
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,12 +24,14 @@ The [[GitHubSpecKit]] case adds a staged single-developer variant: constitution,
 
 Mai Yang's Jeff Dean interview account adds a capability-driven reason for the same pattern. As agents become able to execute more implementation steps, the value of precisely stating desired behavior rises because a human collaborator may infer context and ask clarifying questions while an autonomous trajectory can drift after the specification stops constraining it. Cross-language migration works unusually well when the existing implementation and tests form a detailed behavioral oracle. This strengthens the case for executable examples and comparative tests without implying that all desired behavior is already captured by legacy code.
 
+RORIRI adds a document-lifecycle variant organized around one-problem phases. Stable technical notes hold architecture and data-flow decisions; case studies preserve difficult problem-solving context; requirement files capture the problem, existing knowledge, implementation path, and phase boundaries; independent requirement and development reviews create durable audit artifacts. Hooks, linters, tests, and saved error examples complement those documents by moving machine-detectable correction earlier. The useful synthesis is not the source's particular prefixes or five-reviewer rule, but explicit ownership of current intent, review state, and failure evidence across planning, implementation, and audit.
+
 ## Key Claims
 - Specs are durable coordination interfaces for agents, not merely human bureaucracy.
 - ADRs or constitutions should settle non-negotiable architecture and governance before feature specs and plans fill in negotiable details.
 - Effective specs make behavior, invariants, edge cases, schemas, interfaces, divergence policy, acceptance scenarios, comparative or executable examples, and verification plans explicit enough to support the intended trajectory.
 - Tables, precise references, checked tasks, and explicit state labels are easier for agents to resume and share than vague prose or conversation-only plans.
-- Analysis before coding and convergence after coding can expose conflicts and implementation gaps across the specification chain.
+- Analysis before coding and convergence after coding can expose conflicts and implementation gaps across the specification chain, while machine-enforced hooks and tests should catch repeatable failures before review.
 - The value of specs rises with project size, compatibility risk, role separation, context pressure, and the need to reuse state across sessions.
 - Specification depth has setup, review, token, and cost overhead and cannot replace runtime testing, usability inspection, dependency maintenance, or human acceptance.
 
@@ -43,16 +46,18 @@ Mai Yang's Jeff Dean interview account adds a capability-driven reason for the s
 - Residual defects and cost: [[spec-driven-development-with-spec-kit]] reports that convergence found gaps and manual testing still found several bugs; it also reports roughly 7,000 credits for the initial release and estimates, without measurement, a 20–30% token premium.
 - Capability-driven value: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] attributes to Dean the argument that specification quality matters more, not less, when agents can perform longer implementation sequences.
 - Behavioral oracle: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] uses cross-language migration to show how an existing implementation plus translated tests enables repeated behavior comparison.
+- Document lifecycle: [[vibe-coding]] separates stable technical notes, reusable case studies, phase requirements, requirement-review records, revision journals, development reviews, and cycle-audit reports so planning and correction survive context loss.
+- Phase boundary: [[vibe-coding]] recommends solving and committing one bounded problem per phase, with requirement review before implementation and self-check before independent code review.
+- Executable constraints: [[vibe-coding]] pairs documents with hooks, strict lint rules, similarity detection, and unit, integration, and end-to-end tests for failures that can be recognized mechanically.
 
 ## Counterevidence & Qualifications
-The sources are practitioner reports, not controlled comparisons. They warn that this structure can be overkill for small scripts, exploratory prototypes, routine refactors, or changes whose context is already obvious. Precise but wrong specifications can coordinate agents toward the wrong result, and documented acceptance criteria can omit behavior users actually care about. Existing code and tests are a strong oracle only for behavior they actually cover; they can preserve bugs, omit usability intent, or encode accidental compatibility. The GitHub Spec Kit case is greenfield and explicitly leaves brownfield reverse engineering and non-technical stakeholder editing unresolved. Its cost figures depend on one model mix, subscription, tool release, and project, while its screenshots and author testing establish feature presence rather than independent correctness or maintainability.
+The sources are practitioner reports, not controlled comparisons. They warn that this structure can be overkill for small scripts, exploratory prototypes, routine refactors, or changes whose context is already obvious. Precise but wrong specifications can coordinate agents toward the wrong result, and documented acceptance criteria can omit behavior users actually care about. Existing code and tests are a strong oracle only for behavior they actually cover; they can preserve bugs, omit usability intent, or encode accidental compatibility. The GitHub Spec Kit case is greenfield and explicitly leaves brownfield reverse engineering and non-technical stakeholder editing unresolved. Its cost figures depend on one model mix, subscription, tool release, and project, while its screenshots and author testing establish feature presence rather than independent correctness or maintainability. RORIRI's document codes, separate review journals, role chain, cumulative five-reviewer approval, and strict lint rules are one personal operating system with no measured comparison of defect detection, token cost, reviewer correlation, or documentation staleness; copying the ceremony without the underlying risk may only enlarge overhead.
 
 ## What Changed
-- Added a full staged workflow that joins pre-implementation analysis with post-implementation convergence.
-- Added evidence that repository task state supports restarts, fresh chats, phased work, and model changes.
-- Narrowed the judgment: specification consistency and TDD improve control but do not guarantee behavioral fidelity or defect-free implementation.
-- Added project-scale, token-cost, and brownfield-adoption boundaries to the choice between full specs and lighter planning.
-- Added the capability-driven case for specifications and existing implementations plus tests as behavioral oracles for agent migration work.
+- Added a durable document lifecycle spanning requirements, architecture, revision, development review, and cycle audit.
+- Added one-problem phase boundaries and explicit review state as controls on long-running agent work.
+- Added hooks, lint rules, similarity checks, and layered tests as executable complements to prose specifications.
+- Preserved the source's prefixes and cumulative-review rule as unmeasured practitioner choices rather than universal requirements.
 
 ## Related Concepts
 - [[AgentTeam]] - specs are the main interface between specialized agent roles.

@@ -1234,6 +1234,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notes on RL: Policy Gradient & Log Derivative Trick](sources/policy-gradient.md) - A tutorial derives vanilla policy gradients through Monte Carlo estimation, the log-derivative identity, score-function gradients, and trajectory factorization.
 
 - [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
+- [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
 
 ## Entities
 - [Lars Baltensperger](entities/LarsBaltensperger.md) - Author of Kapa's production account of listwise RAG context pruning.

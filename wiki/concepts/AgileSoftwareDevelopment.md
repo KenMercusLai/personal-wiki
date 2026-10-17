@@ -10,7 +10,8 @@ sources:
   - elegant-coding-the-problem-with-todays-software-thought-leaders
   - gal-zellermayer-0-bugs-policy
   - jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin
-last_updated: 2026-10-10
+  - vibe-coding
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -34,11 +35,13 @@ Zellermayer adds a strict defect-decision practice to the definition of done. Bu
 
 RORIRI adds a boundary between adaptive iteration and fixed-plan execution wearing sprint terminology. A sprint creates learning only when a usable increment reaches users and their feedback can change later priorities; slicing a predetermined waterfall plan into reporting intervals preserves the plan's one-way logic. The same source distinguishes market feedback from arbitrary product-manager preference and presents a stable in-sprint scope as protection for current work, while the backlog absorbs evidence for later iterations. Together with the earlier sources, this makes agility a disciplined feedback system: adaptation needs real external evidence, bounded work, and continuing technical quality rather than perpetual interruption.
 
+RORIRI's vibe-coding essay adds a dual-track clarification. Discovery can prepare the next items while delivery implements already validated ones, so the tracks overlap at team level without making problem and solution interchangeable inside one feature. Before delivery, an item still has to address value, usability, feasibility, and business-viability risk through user evidence and product definition; code cannot answer those risks by itself. Faster agent implementation therefore increases the importance of upstream discovery and downstream architecture repair rather than licensing code-first improvisation.
+
 ## Key Claims
 - Agile depends on interconnected value, planning, collaboration, reliable-delivery, and explicit completion practices rather than isolated rituals or fixed plans divided into sprints, while claims about its causal benefits require empirical support.
 - Technical practices are often under-taught, creating a gap between agile vocabulary and agile capability.
 - [[ExtremeProgramming]] is an important practice foundation for the Agile movement.
-- Production delivery and observation help teams learn what is valuable in real use, and later work should change in response to user evidence rather than managerial whim.
+- Production delivery and observation help teams learn what is valuable in real use, while dual-track work lets discovery prepare later items without skipping problem validation for the feature entering delivery.
 - Agile requirements work benefits from collaborative story writing, explicit ready/done agreements, and user stories that remain conversation starters.
 - Sustainable agile speed depends on small feedback loops, low WIP, and shared understanding of the user's problem.
 - A story with an unresolved in-sprint defect has not met a meaningful definition of done.
@@ -57,6 +60,9 @@ RORIRI adds a boundary between adaptive iteration and fixed-plan execution weari
 - Adaptive boundary: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] distinguishes user-feedback-driven iteration from a fixed waterfall plan merely partitioned into sprints.
 - Change containment: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] argues that current sprint scope should remain stable while new evidence changes later backlog priorities.
 - Technical sustainability: [[jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin]] treats refactoring and quality standards as part of iterative completion rather than optional deferred cleanup.
+- Dual-track sequencing: [[vibe-coding]] says Discovery and Delivery may overlap across a team while problem-space validation still precedes solution commitment within an individual feature.
+- Risk boundary: [[vibe-coding]] argues that value, usability, feasibility, and business-viability risks require research and product definition rather than code output alone.
+- AI-speed qualification: [[vibe-coding]] treats faster generation without corresponding architecture maintenance as a catalyst for technical debt, not evidence of agility.
 
 ## Counterevidence & Qualifications
 The current evidence comes from Fowler's foreword and is intentionally normative. It criticizes ceremony-led agile adoption but does not compare named agile frameworks empirically or define when lightweight Scrum-like practice may be sufficient.
@@ -73,11 +79,12 @@ The zero-bugs article is likewise practitioner evidence. It does not compare tea
 
 RORIRI's essay is also normative and uncited. Its fixed sprint-length range and claim that every sprint must include refactoring are useful guardrails, not universal Scrum rules or measured thresholds. Real user feedback can be noisy, unrepresentative, delayed, or strategically incomplete; urgent incidents, legal duties, security fixes, and newly discovered safety risks can also justify changing current work. The durable distinction is between evidence-led adaptation with explicit interruption rules and unbounded preference changes disguised as agility.
 
+The newer vibe-coding essay remains a practitioner prescription rather than evidence that its persona-to-Epic-to-story-to-journey sequence, four-risk gate, or dual-track interpretation improves outcomes in every team. Discovery artifacts can themselves become ceremony when they are speculative, redundant, or disconnected from actual decisions; rapid prototypes may sometimes reveal more than extended up-front analysis. Its durable contribution is the boundary between parallel organizational work and the evidence sequence needed before one feature is treated as validated.
+
 ## What Changed
-- Added prompt defect decisions and unresolved in-sprint bugs to the definition-of-done synthesis.
-- Qualified zero-bug practice for traceability, safety, security, and bounded-deferral contexts.
-- Distinguished adaptive user-feedback loops from waterfall plans partitioned into sprints.
-- Added stable sprint scope and evidence-led backlog change as complementary protections against arbitrary interruption.
+- Added dual-track discovery and delivery while preserving problem-before-solution ordering within each feature.
+- Added explicit value, usability, feasibility, and business-viability risks that code generation cannot resolve by itself.
+- Qualified agentic speed as agile only when user evidence and architecture maintenance remain inside the feedback system.
 
 ## Related Concepts
 - [[ExtremeProgramming]] - agile practice tradition Fowler presents as a central pillar.
@@ -93,3 +100,4 @@ RORIRI's essay is also normative and uncited. Its fixed sprint-length range and 
 - [[ZeroBugsPolicy]] - applies a fix-or-close inventory rule to agile defect handling.
 - [[PsychologicalSafety]] - candid learning and ambitious iteration depend on making uncertainty and partial failure safe to report.
 - [[WorkplaceIncentiveDesign]] - incentives can turn adaptive practices into compliance and output theater.
+- [[VibeCoding]] - faster implementation raises the value of disciplined discovery, validation, and technical-quality loops.
