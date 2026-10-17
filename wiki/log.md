@@ -9688,3 +9688,11 @@ Created [[SSDDataPlacement]], [[SSDWriteAmplification]], [[FlexibleDataPlacement
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | Axiom 设计系统
+
+Created [[AxiomDesignSystem]], [[LossesDon]], [[FluentDesign]], and [[DesignSystemArchitecture]], and updated [[MaterialDesign]], [[Firefox]], [[Claude]], and [[AICodingPractice]] from their complete ordered evidence inventories. Captured the quality-floor model of design-system constraint, reconciliation of outward Material and inward Fluent depth, shared Shape/Surface/Typed-OM infrastructure, interruption-safe navigation, fractional-scale Canvas elevation, Firefox's perceptual pressure fallback, and expert-directed AI implementation. Preserved first-person performance and browser-report scope, subjective version critiques, missing independent accessibility and runtime evaluation, and the continuing human role in specification, tuning, debugging, and acceptance. Opened all nine referenced images, omitted the decorative cover, and retained all eight animated evidence-bearing demos at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

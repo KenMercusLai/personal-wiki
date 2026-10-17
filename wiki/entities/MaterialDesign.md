@@ -6,7 +6,8 @@ sources:
   - advocating-for-a-complete-product-redesign-google-design-medium
   - design-principles-behind-great-products-muzli-design-inspiration
   - google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld
-last_updated: 2026-09-28
+  - ax-design
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ The Crashlytics source shows the system acting as a practical constraint and opp
 
 The Macworld essay supplies counterpressure to system-wide coherence. It argues that applying Material Design to Google applications on iOS made them feel like Android transplants, and identifies the floating action button, vertical overflow dots, and card-style menus as examples. This does not invalidate a shared system, but it makes host-platform adaptation an explicit design-system responsibility rather than an implementation detail.
 
+Losses Don adds an implementer's version distinction. The source admires the first Material Design's outward paper-stack metaphor, soft multi-layer shadows, visual richness, accessibility, and room for expert expression, while judging Material Design 2 too weakly constraining to raise the quality floor and Material You's shape system as a valuable escape from repetitive card layouts. These are informed practitioner judgments rather than comparative evaluations of the complete releases.
+
 ## Key Characteristics
 - Uses a tactile material metaphor to make spatial relationships and affordances legible.
 - Uses typography, grids, space, scale, color, and imagery to create hierarchy, meaning, and focus.
@@ -27,6 +30,7 @@ The Macworld essay supplies counterpressure to system-wide coherence. It argues 
 - Functions as Firebase's visual design system and created a mismatch with the existing Fabric Crashlytics interface.
 - Forced a visual update that became the catalyst for a deeper [[ProductRedesign]] argument.
 - Can conflict with [[PlatformNativeDesign]] when Android-associated patterns are carried unchanged into iOS.
+- Supplies [[AxiomDesignSystem]] with an outward surface metaphor, multi-layer elevation model, and later shape-system inspiration.
 
 ## Evidence
 - System principles: [[design-principles-behind-great-products-muzli-design-inspiration]] summarizes Material Design around material metaphor, bold intentional graphic hierarchy, and meaningful motion.
@@ -36,12 +40,14 @@ The Macworld essay supplies counterpressure to system-wide coherence. It argues 
 - Screenshot evidence: [[advocating-for-a-complete-product-redesign-google-design-medium]] shows the redesigned Firebase Crashlytics UI with lighter Material-style surfaces, cards, filters, tables, and action controls.
 - Cross-platform critique: [[google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld]] argues that Google's 2016 iOS applications prioritized Material consistency over iOS conventions.
 - Control examples: [[google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld]] names Google Docs' floating action button, vertical overflow dots, and card-style menus; its archived iOS screenshot is unavailable as visual evidence.
+- Versioned influence: [[ax-design]] credits first-generation Material's paper-like depth and soft ambient/key-light shadows, criticizes Material Design 2's weak quality floor, and praises Material You's shape vocabulary.
 
 ## Qualifications
-The Muzli source is a 2017 secondary compilation of public guidance, while the Crashlytics account covers one migration and the Macworld source is a 2016 opinion essay. None describes the full component system, accessibility implementation, governance, later evolution, or measured outcomes. A coherent design language does not by itself supply a product's distinctive [[ProductDesignPrinciples]], repair underlying user journeys, or establish the right balance between vendor coherence and host-platform familiarity.
+The Muzli source is a 2017 secondary compilation of public guidance, the Crashlytics account covers one migration, the Macworld source is a 2016 opinion essay, and the Axiom source is a creator's retrospective. None independently compares complete Material generations, accessibility implementation, governance, adoption, or measured outcomes. A coherent design language does not by itself supply a product's distinctive [[ProductDesignPrinciples]], repair underlying user journeys, or establish the right balance between vendor coherence, host-platform familiarity, constraint, and expressive freedom.
 
 ## What Changed
-- Added the qualified cross-platform judgment that system coherence can impose contextual costs when host-platform conventions differ.
+- Added a version-aware practitioner view separating first-generation spatial and elevation strengths from later constraint and shape-system judgments.
+- Added Material Design's concrete influence on Axiom's geometry and elevation architecture.
 
 ## Relationships
 - [[Firebase]] - Firebase used Material Design.
@@ -53,3 +59,6 @@ The Muzli source is a 2017 secondary compilation of public guidance, while the C
 - [[DesignOperations]] - governance and implementation are required to carry a design language across products and platforms.
 - [[PlatformNativeDesign]] - creates a host-platform adaptation requirement that can limit uniform application of the system.
 - [[IOS]] - platform whose local conventions anchor the Macworld critique.
+- [[AxiomDesignSystem]] - adapts Material's outward depth, elevation, and shape ideas within a different system.
+- [[FluentDesign]] - paired with Material in Axiom after their opposing depth metaphors are reconciled.
+- [[DesignSystemArchitecture]] - turns spatial metaphor and visual constraints into shared implementation rules.

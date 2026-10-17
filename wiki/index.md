@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Axiom 设计系统](sources/ax-design.md) - Losses Don rebuilds Axiom around shared shape, rendering, and token infrastructure, using expert-directed AI while preserving coherent metaphor, accessibility, browser fallbacks, and human judgment.
 - [A Brief History of Data Placement Technologies](sources/samsung-data-placement.md) - Samsung compares conventional SSDs, OCSSD, Streams, ZNS, and FDP through host control, compatibility, integration effort, feedback, and write amplification.
 - [Benchmarking SlateDB](sources/slatedb-benchmark.md) - SlateDB's public object-storage benchmark turns routing, compaction, polling cost, and cache-granularity measurements into implementation changes while preserving important comparison limits.
 - [How we taught a small LLM to throw away 68% of our RAG context](sources/kapa-prune-rag.md) - Kapa's first-party account of listwise post-rerank pruning, its recall-compression frontier, cost savings, and latency tradeoff.
@@ -2263,7 +2264,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [FirstMark](entities/FirstMark.md) - Event organizer for the 2017 CTO Summit where Boufford presented the framework.
 - [The Startup](entities/TheStartup.md) - Medium entrepreneurship publication context for the Greenhouse organization-design article.
 - [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO represented through public operating updates, strategic leadership change, investor liquidity, and a founder-supportive angel practice.
-- [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
+- [Firefox](entities/Firefox.md) - Mozilla browser represented through independent-web positioning and a qualified Axiom rendering-compatibility report.
 - [Chrome](entities/Chrome.md) - Google browser represented as a dominant platform, a privacy and standards-governance surface, and a high-permutation mobile interface system.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented by power-aware reviews, time stewardship, and systematic workplace information seeking.
@@ -2496,7 +2497,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Crashlytics](entities/Crashlytics.md) - Mobile crash-reporting product redesigned from Fabric into Firebase through journey mapping, internal co-design, and information-hierarchy repair.
 - [Firebase](entities/Firebase.md) - Google developer platform that became the destination environment for the Crashlytics redesign.
 - [Fabric](entities/Fabric.md) - Acquired product context that brought Crashlytics into Firebase and supplied the pre-redesign interface baseline.
-- [Material Design](entities/MaterialDesign.md) - Google design system combining tactile spatial metaphor, intentional graphic hierarchy, meaningful motion, and a practical Firebase redesign constraint.
+- [Material Design](entities/MaterialDesign.md) - Google design system represented through tactile spatial metaphor, motion, cross-platform tension, and versioned influence on Axiom.
 - [Coach Tony](entities/CoachTony.md) - Authorial identity behind a headcount and opportunity-design critique of company growth.
 - [WhatsApp](entities/WhatsApp.md) - Messaging company used as both a small-headcount startup counterexample and an anti-ad qualification in Facebook's messaging portfolio.
 - [Josh Elman](entities/JoshElman.md) - Greylock investor and former Facebook Platform builder advising startups on platform distribution, growth models, onboarding, and staged engagement.
@@ -2788,7 +2789,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
-- [Claude](entities/Claude.md) - AI assistant used for engineering, analysis, writing, conversational reading, and iterative uncertainty discovery.
+- [Claude](entities/Claude.md) - AI assistant used for engineering, analysis, writing, conversational reading, uncertainty discovery, and expert-directed graphics implementation.
 - [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through runtime retrieval, prompt caching, file-backed continuity, uncertainty discovery, multi-agent workflows, and mobile/cloud supervision.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
@@ -3194,6 +3195,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bun](entities/Bun.md) - JavaScript toolchain represented through its Zig implementation, Anthropic acquisition, and disputed Rust rewrite rationale.
 - [Zig](entities/Zig.md) - Systems programming language represented through Bun's former use, quality dispute, and community-boundary concerns.
 - [Zig Software Foundation](entities/ZigSoftwareFoundation.md) - Zig steward and former recipient of Bun's financial and technical-community engagement.
+- [Axiom Design System](entities/AxiomDesignSystem.md) - Web Component design system unifying geometry, rendering, tokens, and selected early Material and Fluent effects.
+- [Losses Don](entities/LossesDon.md) - Designer-developer behind Axiom's seven-year evolution and expert-directed AI rebuild.
+- [Fluent Design](entities/FluentDesign.md) - Microsoft design system represented through first-generation lighting, material, depth, navigation, and pressure effects.
 
 ## Concepts
 - [SSD Data Placement](concepts/SSDDataPlacement.md) - Host-device coordination that groups writes for lower garbage-collection cost while trading control against compatibility and integration effort.
@@ -4754,5 +4758,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Policy Gradient](concepts/PolicyGradient.md) - Direct optimization of stochastic policies using return-weighted action log-probability gradients.
 
 - [Organizational Engineering Incentives](concepts/OrganizationalEngineeringIncentives.md) - Ownership, financing, leadership, staffing, and reward conditions that determine whether quality work is funded or crowded out.
+- [Design System Architecture](concepts/DesignSystemArchitecture.md) - Shared semantic and technical infrastructure that makes components express one coherent visual language.
 
 ## Syntheses

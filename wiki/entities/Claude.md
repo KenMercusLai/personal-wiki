@@ -9,7 +9,8 @@ sources:
   - shi-de-wo-yong-ai-xie-wen-zhang-za-di
   - mai-yang-dwarkesh-ru-he-yong-ai-zuo-shen-du-zhun-bei
   - a-field-guide-to-fable-finding-your-unknowns
-last_updated: 2026-10-15
+  - ax-design
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,6 +24,8 @@ Mai Yang's Dwarkesh synthesis adds a reading role. The account describes uploadi
 
 Thariq's Fable field guide adds a metacognitive collaboration role. Rather than assuming the user's prompt fully specifies the task, Claude searches the codebase and external information, proposes blind spots and alternatives, interviews the user, prototypes tacit preferences, records implementation deviations, packages explanations, and quizzes the user afterward. In this account the model's usefulness grows when the user discloses their experience and current reasoning, but Claude does not eliminate uncertainty: its artifacts help move some unknowns into forms the human can inspect and decide.
 
+The Axiom report adds an expert-directed graphics-engineering role. Losses Don reports that Claude Opus identified a rendering-schedule read/write flaw and produced a benchmark showing more than 20x improvement, helped turn a long-developed Shape specification into equivalent Canvas and SVG implementations, and participated in the search for a Firefox workaround. This case ties model leverage to a detailed human design model, visual comparison, API judgment, and final acceptance rather than treating generated implementation as autonomous system design.
+
 ## Key Characteristics
 - Performs code review, implementation planning, debugging, observability reporting, and issue triage in the described engineering workflow.
 - Serves as a component in the broader harness rather than a standalone replacement for engineering process.
@@ -30,6 +33,7 @@ Thariq's Fable field guide adds a metacognitive collaboration role. Rather than 
 - Can refuse explicit research-misconduct requests while still being vulnerable to reframed or user-led statistical-analysis mistakes.
 - Supports public writing workflows by helping surface article topics and draft visual-scene prompts.
 - Supports conversational reading and uncertainty discovery through explanation, comparison, counterargument, blind-spot prompts, interviews, prototypes, quizzes, and connection prompts over supplied materials and environments.
+- Can accelerate optimization, graphics implementation, and browser debugging when an expert supplies a detailed specification and perceptual acceptance criteria.
 
 ## Evidence
 - Engineering review: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] says Claude performs three parallel pull-request reviews covering quality, security, and dependencies.
@@ -43,14 +47,17 @@ Thariq's Fable field guide adds a metacognitive collaboration role. Rather than 
 - Conversational reading: [[mai-yang-dwarkesh-ru-he-yong-ai-zuo-shen-du-zhun-bei]] says Patel uploads books and papers to Claude, asks chapter-level questions, requests objections, and uses it to draft review cards and cross-domain connections.
 - Unknown discovery: [[a-field-guide-to-fable-finding-your-unknowns]] uses Fable for blind-spot passes, brainstorms, alternative prototypes, interviews, references, decision-focused plans, deviation logs, explainers, and post-build quizzes.
 - Cross-domain implementation: [[a-field-guide-to-fable-finding-your-unknowns]] describes using Claude Code for transcription, Remotion prototyping, timed video UI, editing, and color-grading instruction while producing the Fable launch video.
+- Rendering optimization: [[ax-design]] reports that Claude Opus found a scheduling flaw and supplied a benchmark showing more than 20x improvement.
+- Graphics implementation: [[ax-design]] credits Claude with organizing the Shape API and implementing visually compared Canvas and SVG paths from the author's specification.
+- Browser debugging: [[ax-design]] describes Claude and Kimi helping search combinations that led to a perceptually equivalent Firefox pressure-effect fallback.
 
 ## Qualifications
-The articles include model-version and behavior claims that are source-scoped. This page does not treat them as current Anthropic product documentation, current usage limits, or independent evidence that all Claude versions behave the same way in engineering, statistics, research integrity, writing, learning, or uncertainty discovery. The reading source is a secondary practitioner synthesis without a fidelity audit, retention test, comparison group, or validation of its “10x” framing. Thariq's Fable account is likewise one expert user's qualitative field guide without task baselines, defect rates, or evidence that elicitation artifacts reliably find the most consequential unknowns. Explanations, plans, quizzes, and cards still require checking against source material, real behavior, and domain constraints.
+The articles include model-version and behavior claims that are source-scoped. This page does not treat them as current Anthropic product documentation, current usage limits, or independent evidence that all Claude versions behave the same way in engineering, statistics, research integrity, writing, learning, uncertainty discovery, or graphics work. The reading source is a secondary practitioner synthesis without a fidelity audit, retention test, comparison group, or validation of its “10x” framing. Thariq's Fable account and Losses Don's Axiom report are expert first-person cases without controlled task baselines, independent defect measurement, released benchmark artifacts, or evidence that their workflows transfer to novices. Explanations, plans, quizzes, generated code, visual comparisons, and benchmarks still require checking against source material, real behavior, and domain constraints.
 
 ## What Changed
-- Added Fable's source-scoped role in blind-spot discovery, iterative clarification, and post-build explanation.
-- Added the launch-video workflow as a cross-domain implementation example without converting it into a general capability benchmark.
-- Clarified that richer elicitation exposes some uncertainty but does not prove completeness or correctness.
+- Added the source-scoped Axiom optimization, dual-renderer implementation, and browser-debugging case.
+- Made prior expert specification and perceptual acceptance explicit conditions on the reported leverage.
+- Preserved the lack of independent benchmark, defect, accessibility, and transfer evidence.
 
 ## Relationships
 - [[Anthropic]] - Claude is Anthropic's assistant family, though this source focuses on usage rather than provider documentation.
@@ -69,3 +76,6 @@ The articles include model-version and behavior claims that are source-scoped. T
 - [[AIKnowledgeAssistant]] - conversational reading extends knowledge assistance beyond storage and retrieval.
 - [[UnknownUnknowns]] - Claude is used to surface questions and constraints the user may not know to ask.
 - [[Thariq]] - practitioner-author describing the Fable uncertainty-discovery workflow.
+- [[AxiomDesignSystem]] - graphics-heavy design system whose rebuild used Claude for optimization and implementation.
+- [[LossesDon]] - expert who supplied Axiom's specification, visual judgment, and final acceptance.
+- [[DesignSystemArchitecture]] - domain model translated into shared Shape, Surface, and token infrastructure.

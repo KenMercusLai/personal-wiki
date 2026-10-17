@@ -2,7 +2,7 @@
 title: "My Thoughts on the Bun Rust Rewrite"
 type: source
 tags: [bun, zig, rust, software-quality, open-source, management]
-date: 2026-10-16
+date: 2026-07-09
 source_file: "/mnt/ken_personal_wiki/Articles/My Thoughts on the Bun Rust Rewrite.md"
 ---
 

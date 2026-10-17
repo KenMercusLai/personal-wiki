@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "ax-design",
+  "images": [
+    {
+      "file": "shape-shoulder.webp",
+      "alt": "A shape demo morphs among concave, rounded, stepped, and pointed edge and corner decorations."
+    },
+    {
+      "file": "idea-shapes.webp",
+      "alt": "A collection of badges, cards, and progress controls built from composable Axiom shapes."
+    },
+    {
+      "file": "acrylic-shape-transition.webp",
+      "alt": "An acrylic panel changes shape while preserving translucent background blur."
+    },
+    {
+      "file": "navigation-arrow-morph.webp",
+      "alt": "A navigation indicator stretches toward a new tab and briefly forms a directional arrow."
+    },
+    {
+      "file": "navigation-interruption.webp",
+      "alt": "A navigation indicator remains continuous while rapid tab changes interrupt its motion."
+    },
+    {
+      "file": "elevation-depth.webp",
+      "alt": "A card's Canvas-rendered shadow changes continuously with its elevation depth."
+    },
+    {
+      "file": "tile-group-reflow.webp",
+      "alt": "Mixed-size live tiles move and reflow around one another during drag operations."
+    },
+    {
+      "file": "player-card.webp",
+      "alt": "A player card combines concave shape decoration, acrylic material, and reveal lighting."
+    }
+  ]
+}
