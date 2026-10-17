@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: de8cb72c2d4b182b6deefeb92645d01a711f48fc
+as_of_overview_commit: fe5a72e70f6b925fe16ea8235871ac4df8540f23
 summary: "Podcast Atlas connects systems to real workloads across domains, then qualifies claims through measurement, incentives, authorship, and failure boundaries."
-episode_count: 1209
-source_count: 1209
-paragraph_count: 850
+episode_count: 1210
+source_count: 1210
+paragraph_count: 851
 topic_count: 9
 ---
 
@@ -75,7 +75,7 @@ Agency and judgment develop through feedback-rich practice, attention allocation
 
 ### Science, Health, and Climate
 
-Scientific and health conclusions remain conditional on mechanism, population, measurement, adherence, environmental context, and the difference between association and intervention evidence.
+Scientific and health conclusions remain conditional on mechanism, population, measurement, adherence, environmental context, and the difference between association and intervention evidence; routed software-performance claims remain explicitly outside those evidence domains.
 
 - [[HungerPhysiology]] distinguishes homeostatic energy need from hedonic eating without an urgent caloric deficit inside a redundant sensory, neuroendocrine, endocrine, and metabolic system; an evolved bias toward surplus intake and fat storage may become harmful when psychological, cultural, socioeconomic, and food-environment conditions make palatable energy-dense food abundant. Evidence: [[HungerPhysiology]].
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism. Evidence: [[ExerciseForMentalHealth]], [[ExerciseAdherence]], [[Neuroplasticity]], [[SelfEfficacy]], [[PatrickJSmith]], [[RhondaMMerwin]].

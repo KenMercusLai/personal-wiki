@@ -10,7 +10,8 @@ sources:
   - yuchanns-python-web-kuang-jia-zhong-de-hou-tai-ren-wu
   - idiomatic-python-eafp-versus-lbyl-python
   - welcoming-the-next-generation-of-programmers
-last_updated: 2026-10-08
+  - lemire-parsing-json
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,10 +27,12 @@ Exception-handling style extends that profile from function interfaces to how co
 
 Ronacher adds Python's social role. He presents the language and its community as a frequent landing place for people whose first programs are generated through ChatGPT or agents. The important opportunity is not merely language adoption: a historically outreach-oriented community can connect those newcomers to human peers, conferences, mentorship, and engineering lessons that a solitary tool interaction may omit.
 
+Lemire adds a performance profile specific to free-threaded Python 3.14. In his selective NDJSON benchmark, 64 Python threads run CPU-bound callbacks in one process, while [[Fastsimdjson]] supplies record partitioning and lazy views and thread-local counters avoid shared hot-path mutation. The reported 65.7 GB/s result shows that Python can coordinate very high throughput when parsing, allocation, accessed-field fraction, native-library work, and reduction design align; it does not imply that ordinary Python code or the default interpreter build inherits that rate.
+
 ## Key Characteristics
 - Hosts the [[ScientificPython]] workflow through [[NumPy]], whose C-backed arrays provide numerical behavior beyond plain Python loops.
 - Can expose protocol internals through compact, dependency-free educational implementations.
-- Provides built-in and third-party routes into [[PythonConcurrencyLibraries]].
+- Provides built-in and third-party routes into [[PythonConcurrencyLibraries]], including true multi-core CPU execution in a free-threaded build when libraries and application state permit it.
 - Supports cooperative service-lifetime work through `asyncio` when the task fits one process and an asynchronous I/O model.
 - Makes small, isolated functions readable, reusable, and testable through names, narrow arguments, type hints, and return conventions.
 - Uses exception structure to distinguish an expected operation from a specifically handled alternative, while requiring narrow `try` scope.
@@ -50,11 +53,15 @@ Ronacher adds Python's social role. He presents the language and its community a
 - Exception-style communication: [[idiomatic-python-eafp-versus-lbyl-python]] contrasts prechecking dictionary membership with direct lookup and `KeyError` handling.
 - Exception locality: [[idiomatic-python-eafp-versus-lbyl-python]] moves dependent work outside the `try` block so its own `KeyError` is not suppressed.
 - Community on-ramp: [[welcoming-the-next-generation-of-programmers]] argues that AI often selects Python for newcomers' first programs and asks the Python community to connect them to people, conferences, mentorship, and engineering practice.
+- Free-threaded parallelism: [[lemire-parsing-json]] runs a CPU-bound JSON callback across 64 threads in Python 3.14.6t and reports roughly 31-fold throughput over one thread.
+- Allocation-aware performance: [[lemire-parsing-json]] reports 65.7 GB/s for lazy fastsimdjson versus 29.8 GB/s for its eager mode, attributing much of the gap to avoided Python-object creation.
 
 ## Qualifications
-This profile remains source-scoped. It does not summarize Python's full ecosystem, packaging model, web frameworks, deployment patterns, the GIL, or performance tradeoffs beyond the uses evidenced here. The FastAPI example covers one `asyncio` lifecycle pattern but not multi-process execution, CPU-bound work, durability, or distributed-worker design. The function and exception-design advice is practical and heuristic rather than a complete Python style guide, and the 2016 claim that exceptions are cheap is not a substitute for workload-specific measurement. Ronacher supplies no generated-code language-frequency data or measured newcomer outcomes, so Python's AI-mediated entry role is a community observation rather than an adoption result.
+This profile remains source-scoped. It does not summarize Python's full ecosystem, packaging model, web frameworks, deployment patterns, or general performance tradeoffs. The free-threaded result uses Python 3.14.6t, one dual-Xeon server, native parser code, in-memory decompressed data, a sparse-field workload, and best-run timing; it neither characterizes the traditional GIL build nor proves similar scaling for arbitrary Python programs. The FastAPI example covers one `asyncio` lifecycle pattern but not multi-process execution, CPU-bound work, durability, or distributed-worker design. The function and exception-design advice is practical and heuristic rather than a complete Python style guide, and the 2016 claim that exceptions are cheap is not a substitute for workload-specific measurement. Ronacher supplies no generated-code language-frequency data or measured newcomer outcomes, so Python's AI-mediated entry role is a community observation rather than an adoption result.
 
 ## What Changed
+- Added free-threaded CPU parallelism and lazy native-object materialization as a qualified high-throughput Python profile.
+- Distinguished the reported parser pipeline from a general claim about ordinary Python execution speed.
 - Added Python's proposed role as an AI-mediated programming on-ramp supported by community outreach and mentorship.
 - Kept claims about generated-code frequency and newcomer growth explicitly observational and unmeasured.
 
@@ -74,3 +81,5 @@ This profile remains source-scoped. It does not summarize Python's full ecosyste
 - [[BrettCannon]] - author who explains and qualifies those Python idioms.
 - [[ArminRonacher]] - Python-community member advocating welcome and mentorship for AI-first programmers.
 - [[TechCommunityParticipation]] - peer spaces can connect Python's tool-level adoption to social learning.
+- [[Fastsimdjson]] - binding used to combine native JSON parsing, lazy views, and multi-threaded callbacks.
+- [[SelectiveJSONParsing]] - avoids Python-object creation for fields the application never accesses.

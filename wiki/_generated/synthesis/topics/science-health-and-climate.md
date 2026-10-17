@@ -4,8 +4,8 @@ generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
 last_updated: 2026-10-17
-as_of_overview_commit: 517597396b05b320f5ad7fffcbf99680c9cdbdc1
-input_digest: 13f66d7d55ac6a0f9d61d6db599633dff5174e35a368f18cd016ec2cd51c1095
+as_of_overview_commit: fe5a72e70f6b925fe16ea8235871ac4df8540f23
+input_digest: 144b50d3e19211fa232a3867c8a6737194466e54ce5d24c03acc347fe46245cf
 ---
 
 # Science, Health, and Climate
@@ -311,3 +311,14 @@ The language-model source reaches this topic through scientific framing rather t
 
 - The deterministic router cross-classified a technical AI paragraph and the source supplies no direct health, climate, or natural-science evidence.
 - Its neural-ODE and CNN-padding examples are model-design mechanisms, not biological or physical findings.
+
+### Selective Json Parsing Is Science Router Spillover
+
+[[SelectiveJSONParsing]], [[Fastsimdjson]], and free-threaded [[Python]] reach science-health-and-climate only as source-scoped router spillover: their substantive result concerns avoided object materialization, thread-local reduction, and parallel JSON throughput.
+
+**Evidence:** [[SelectiveJSONParsing]], [[Fastsimdjson]], [[Python]], [[ParallelProgramming]], [[DanielLemire]]
+
+**Qualifications:**
+
+- The deterministic router assigned a software-performance paragraph to this topic through measurement and experimental language; it provides no health, climate, or natural-science finding.
+- The throughput figures are maintainer-authored, hardware-, version-, selectivity-, and workload-specific best-run results with decompressed in-memory data and no independent replication.

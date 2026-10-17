@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "lemire-parsing-json",
+  "images": [
+    {
+      "file": "one-core-json-throughput.webp",
+      "alt": "One-core JSON throughput for 2.2 million GitHub events, led by lazy fastsimdjson at 2.13 GB/s"
+    },
+    {
+      "file": "sixty-four-core-json-throughput.webp",
+      "alt": "Sixty-four-core JSON throughput in free-threaded Python 3.14, led by lazy fastsimdjson at 65.7 GB/s"
+    }
+  ]
+}

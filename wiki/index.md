@@ -1239,6 +1239,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
 - [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
+- [Parsing JSON at tens of gigabytes per second... in Python](sources/lemire-parsing-json.md) - Daniel Lemire combines free-threaded Python, lazy value materialization, and thread-local reduction in a 7.6 GB selective NDJSON benchmark.
 
 ## Entities
 - [Victor Ostromoukhov](entities/VictorOstromoukhov.md) - Computer-graphics researcher connecting designed threshold structures with artistic screening, multicolor printing, and digital facial engraving.
@@ -3206,6 +3207,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Axiom Design System](entities/AxiomDesignSystem.md) - Web Component design system unifying geometry, rendering, tokens, and selected early Material and Fluent effects.
 - [Losses Don](entities/LossesDon.md) - Designer-developer behind Axiom's seven-year evolution and expert-directed AI rebuild.
 - [Fluent Design](entities/FluentDesign.md) - Microsoft design system represented through first-generation lighting, material, depth, navigation, and pressure effects.
+- [Daniel Lemire](entities/DanielLemire.md) - Author and fastsimdjson contributor represented through selective JSON parsing and thread-local parallel reduction.
+- [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
 - [Artistic Halftoning](concepts/ArtisticHalftoning.md) - Tone reproduction whose shaped and transformed screen elements carry recognizable artistic, cultural, or security information.
@@ -4774,5 +4777,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Design System Architecture](concepts/DesignSystemArchitecture.md) - Shared semantic and technical infrastructure that makes components express one coherent visual language.
 - [Autonomous Cyber Defense](concepts/AutonomousCyberDefense.md) - Closed agentic loop spanning vulnerability discovery, remediation, verification, rollout, monitoring, and rollback.
 - [AI-Native Organization](concepts/AINativeOrganization.md) - Organization designed around end-to-end AI execution and machine-speed feedback rather than AI assistance inside inherited workflows.
+- [Selective JSON Parsing](concepts/SelectiveJSONParsing.md) - Processing only required JSON fields while avoiding eager native-object creation for unused values.
 
 ## Syntheses

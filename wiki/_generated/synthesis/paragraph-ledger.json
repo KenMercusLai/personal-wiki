@@ -850,12 +850,13 @@
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
       "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427",
       "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc",
-      "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02"
+      "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02",
+      "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940"
     ],
-    "paragraph_count": 850
+    "paragraph_count": 851
   },
-  "overview_commit": "de8cb72c2d4b182b6deefeb92645d01a711f48fc",
-  "overview_digest": "2bc1197a94ee422c189d299b5ff131619b07645e03ccdfd45e778548f7b86dc2",
+  "overview_commit": "fe5a72e70f6b925fe16ea8235871ac4df8540f23",
+  "overview_digest": "08cfcddb1000f3d1ef988259e3e53167c91663688d81de869833b06f977ff895",
   "paragraphs": [
     {
       "id": "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
@@ -17156,6 +17157,22 @@
         "Google",
         "JensenHuang",
         "Nvidia"
+      ]
+    },
+    {
+      "id": "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
+      "primary_topic": "science-health-and-climate",
+      "secondary_topics": [],
+      "text": "The newest [[DanielLemire]] source adds [[SelectiveJSONParsing]] as an allocation boundary inside [[ParallelProgramming]]. Its 7.6 GB GH Archive task touches event type on every roughly 3.4 kB record but descends into only qualifying pull-request payloads; [[Fastsimdjson]] lazy views therefore create Python objects only for accessed values, while typed msgspec structures provide a schema-first alternative. Free-threaded [[Python]] 3.14 lets 64 CPU threads run callbacks in one process, and per-thread counters remove shared hot-path mutation before a small final merge. The author reports lazy fastsimdjson at 2.13 GB/s on one core and 65.7 GB/s on 64 cores, about 31-fold scaling, versus 0.63 and 29.8 GB/s for eager fastsimdjson and 24.6 GB/s for typed msgspec on 64 cores. These figures demonstrate interaction among syntax scanning, native-object materialization, field selectivity, partition independence, and reduction design rather than universal Python or parser speed. The data was decompressed in memory before timing; the comparison uses one dual-Xeon machine, fixed library versions, best-of-seven peak results for fast methods, one run for slow methods, and one selective aggregation workload without I/O, decompression, tail-latency, energy, cost, or independent replication. All three local images were opened; the decorative cover was omitted because its 74.8 GB/s label is not a reported result, while both benchmark charts were retained canonically at their semantic positions.",
+      "topic_scores": {
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "DanielLemire",
+        "Fastsimdjson",
+        "ParallelProgramming",
+        "Python",
+        "SelectiveJSONParsing"
       ]
     }
   ],

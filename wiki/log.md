@@ -9732,3 +9732,11 @@ Created [[VictorOstromoukhov]], [[ArtisticHalftoning]], [[MulticolorDithering]],
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | Parsing JSON at tens of gigabytes per second... in Python
+
+Created [[DanielLemire]], [[Fastsimdjson]], and [[SelectiveJSONParsing]], and updated [[Python]] and [[ParallelProgramming]] from their complete ordered evidence inventories. Captured free-threaded Python 3.14 execution, lazy and typed selective materialization, thread-local aggregation, one-core and 64-core throughput, and the roughly 31-fold scaling boundary. Preserved the maintainer-authored, hardware-, version-, workload-, selectivity-, and best-run-specific scope; in-memory decompressed timing; unequal repetition for slow methods; and absent I/O, decompression, tail-latency, power, cost, and independent-reproduction evidence. Opened all three local images, omitted the decorative cover whose 74.8 GB/s label is not a benchmark result, and retained both evidence-bearing charts at their semantic positions with a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
