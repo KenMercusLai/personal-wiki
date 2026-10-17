@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "slatedb-benchmark",
+  "images": [
+    {
+      "file": "sustained-ingest-throughput.png",
+      "alt": "SlateDB sustained-ingest throughput averaging 91.58 MiB/s with repeated sharp collapses during the 1,200-second run"
+    },
+    {
+      "file": "balanced-get-tail-latency.png",
+      "alt": "SlateDB balanced-get latency with near-zero p50, p99 around 45-65 ms, and repeated p99.9 spikes above 200 ms"
+    }
+  ]
+}

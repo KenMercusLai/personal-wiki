@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: 4e53cc43ba16f779cc7030ce3a44e9833bf7da51
+as_of_overview_commit: 06fc9d53665def774e54b2ad5a7ea900d16d1032
 summary: "Podcast Atlas connects evidence across domains by matching systems to real workloads and human constraints, then qualifying claims by measurement and failure boundaries."
-episode_count: 1201
-source_count: 1201
-paragraph_count: 845
+episode_count: 1202
+source_count: 1202
+paragraph_count: 846
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions and platforms need transparent authority, accountable decision systems, enforceable boundaries, instrumentation, and credible exit or voice mechanisms.
+Institutions, platforms, and technical operators need transparent authority, accountable decisions, enforceable boundaries, observable costs and effects, and credible exit or recovery mechanisms.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].

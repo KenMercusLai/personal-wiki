@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "23990c99abf0fea7c8ddf3fb214abb99081e6a78a1fe3735f8c6e4d68967b59f",
       "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
       "797bc6bdcf78e37879060fa4127ec463ad24b2263112ee2e059173b7a64584fb",
       "0e762f2e7bdf95f75f9cb83ecd5f8ab6b2342d4d770202c175bc055138a80d56",
@@ -847,11 +848,25 @@
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
       "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427"
     ],
-    "paragraph_count": 845
+    "paragraph_count": 846
   },
-  "overview_commit": "4e53cc43ba16f779cc7030ce3a44e9833bf7da51",
-  "overview_digest": "350152ee1cb7435072c7704772ae1c34ee2e4c6bdb33f5441fd87f6b56a58b69",
+  "overview_commit": "06fc9d53665def774e54b2ad5a7ea900d16d1032",
+  "overview_digest": "3ea5cca0368dce49b60954d0e4652c82253f5e645d27f8df7ff7080cf50a64e5",
   "paragraphs": [
+    {
+      "id": "23990c99abf0fea7c8ddf3fb214abb99081e6a78a1fe3735f8c6e4d68967b59f",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[SlateDB]] source extends the wiki's object-storage database material from file semantics into measurement-led operation. Its public suite combines reusable workloads, automated runs, an inspectable results site, and API-cost metrics; the tested setup keeps roughly 10% of SlateDB data cached over remote S3 or Tigris while the RocksDB comparison stays entirely on local disk, so it is a declared system comparison rather than an engine ranking. [[StoragePerformanceBenchmarking]] gains topology, provider routing, cache-fetch granularity, background coordination, and object-request cost as controlled dimensions. The suite exposed routing-induced ingest collapses, justified non-overlap trivial moves, found roughly US$40 per month of idle persisted-state polling that local in-memory coordination reduced below US$5, and linked repeated balanced-workload p99.9 spikes to 4 MiB cache fetches for small keys. [[ObjectStorageNativeDatabase]] now distinguishes coarse whole-database mirroring from smaller evictable partial caching and colocated coordination from state needed by remote compactors. These are first-party, configuration-specific findings: trivial moves are disabled in the baseline, mixed reads and writes share one task, the cost assumptions are incomplete, and the retained charts do not provide controlled before-and-after causal evidence. Both effective local charts were opened and retained at their semantic positions.",
+      "topic_scores": {
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "ObjectStorageNativeDatabase",
+        "SlateDB",
+        "StoragePerformanceBenchmarking"
+      ]
+    },
     {
       "id": "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
       "primary_topic": "business-and-markets",

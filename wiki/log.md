@@ -9672,3 +9672,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | Benchmarking SlateDB
+
+Updated [[SlateDB]], [[StoragePerformanceBenchmarking]], and [[ObjectStorageNativeDatabase]] from their complete ordered evidence inventories. Captured the public benchmark suite, declared SlateDB-versus-RocksDB asymmetry, routing-driven ingest instability, non-overlap trivial moves, object-store cost measurement, local-versus-remote compaction coordination, and coarse-versus-fine cache boundary. Preserved first-party and configuration-specific scope, disabled-optimization baseline, mixed-workload coupling, incomplete pricing assumptions, and absent controlled before-and-after evidence. Opened and retained both evidence-bearing charts at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

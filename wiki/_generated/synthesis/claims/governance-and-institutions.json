@@ -1465,6 +1465,21 @@
     },
     {
       "global_candidate": false,
+      "id": "object-storage-benchmarking-is-operational-governance-spillover",
+      "qualifications": [
+        "The evidence is a first-party, configuration-specific engineering benchmark rather than a governance or institutional study.",
+        "The SlateDB and RocksDB environments are deliberately asymmetric, cost assumptions are incomplete, and the retained charts do not provide controlled before-and-after causal evidence."
+      ],
+      "statement": "[[SlateDB]], [[StoragePerformanceBenchmarking]], and [[ObjectStorageNativeDatabase]] reach governance through explicit ownership of remote request cost, cache granularity, compaction coordination, and benchmark baselines; their substantive evidence concerns storage-system operation rather than public or institutional governance.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "SlateDB",
+        "StoragePerformanceBenchmarking",
+        "ObjectStorageNativeDatabase"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "inference-host-overhead-is-technology-spillover",
       "qualifications": [
         "The benchmark is first-party, single-model, single-H100, and configuration-specific.",

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Benchmarking SlateDB](sources/slatedb-benchmark.md) - SlateDB's public object-storage benchmark turns routing, compaction, polling cost, and cache-granularity measurements into implementation changes while preserving important comparison limits.
 - [How we taught a small LLM to throw away 68% of our RAG context](sources/kapa-prune-rag.md) - Kapa's first-party account of listwise post-rerank pruning, its recall-compression frontier, cost savings, and latency tradeoff.
 - [GeminiFS: A Companion File System for GPUs](sources/geminifs.md) - FAST 2025 companion file system combining host-managed files, embedded block maps, GPU NVMe queues, a shareable page cache, and qualified near-raw-device performance.
 - [MAI-Thinking-1: Building a Hill-Climbing Machine](sources/mai-thinking-1-continuous.md) - Microsoft AI presents a 35B-active, roughly 1T-parameter reasoning model and the coupled data, architecture, infrastructure, RL, evaluation, and safety process used to build it.
@@ -1256,7 +1257,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [DSpark](entities/DSpark.md) - DeepSeek speculative-decoding system combining semi-autoregressive drafting with confidence-calibrated, load-aware verification.
 - [duckdb_object_storage](entities/DuckDBObjectStorage.md) - DuckDB filesystem extension preserving native database features over a SlateDB-backed object-store substrate.
 - [DuckDB](entities/DuckDB.md) - Embedded analytical database whose native format, storage semantics, constraints, indexes, WAL, and checkpoints are preserved by the extension.
-- [SlateDB](entities/SlateDB.md) - Embedded Rust LSM tree translating mutable database blocks into transactional object-storage keys and manifests.
+- [SlateDB](entities/SlateDB.md) - Embedded Rust LSM tree whose object-backed durability, compaction, caching, and local-or-distributed coordination expose explicit latency and API-cost tradeoffs.
 - [Apache OpenDAL](entities/ApacheOpenDAL.md) - Common backend operator connecting the storage stack to S3-compatible, local, and memory stores.
 - [Duckherder](entities/Duckherder.md) - Distributed DuckDB execution extension using one driver and read-only workers over a shared bucket-backed database.
 - [Zhou Yifan](entities/ZhouYifan.md) - Chinese-language technical author explaining FlashAttention's memory-avoidance intuition for readers without CUDA experience.
@@ -3212,7 +3213,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Diffusion Language Models](concepts/DiffusionLanguageModels.md) - Language models that generate by iteratively refining noisy token canvases before committing blocks.
 - [Linker Optimization Tradeoffs](concepts/LinkerOptimizationTradeoffs.md) - Correctness, observability, and workload-dependent costs of shortening visible link time through inode reuse, asynchronous teardown, or hugepage requests.
 - [Speculative Decoding](concepts/SpeculativeDecoding.md) - Draft-and-verify inference framework whose value depends on sampling correctness, accepted-prefix yield, draft cost, verification cost, and serving load.
-- [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving native database semantics while making immutable object storage the durable source of truth.
+- [Object-Storage-Native Database](concepts/ObjectStorageNativeDatabase.md) - Architecture preserving database semantics over immutable object storage while making request cost, cache granularity, and coordination placement explicit design constraints.
 - [FlashAttention](concepts/FlashAttention.md) - Attention implementation family that reorganizes exact computation around bounded on-chip state to avoid materializing quadratic intermediates in HBM.
 - [Operator Fusion](concepts/OperatorFusion.md) - Combining adjacent operations so shared inputs and intermediates remain in fast local memory rather than round-tripping through slower memory.
 - [GPU Memory Hierarchy](concepts/GPUMemoryHierarchy.md) - Capacity and access-speed hierarchy across host DRAM, GPU HBM, and on-chip local storage that constrains accelerator dataflow.
@@ -3365,7 +3366,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Internal Champion Selling](concepts/InternalChampionSelling.md) - B2B sales practice aligning organizational value with an internal advocate's goals, incentives, authority, and adoption risk.
 - [Anycast DNS](concepts/AnycastDNS.md) - DNS architecture in which distributed servers advertise one shared address and routing selects a preferred reachable instance.
 - [Corporate Role Disillusionment](concepts/CorporateRoleDisillusionment.md) - Loss of belief in the meaning of an organizational role despite continued performance for income, stability, status, or future options.
-- [Storage Performance Benchmarking](concepts/StoragePerformanceBenchmarking.md) - Workload-faithful measurement of storage across cache state, concurrency, batching, runtime overhead, and physical-device activity.
+- [Storage Performance Benchmarking](concepts/StoragePerformanceBenchmarking.md) - Workload-faithful measurement across cache state, concurrency, topology, completion semantics, cost, and physical work, with controlled evidence for causal diagnosis.
 - [High-Throughput I/O Optimization](concepts/HighThroughputIOOptimization.md) - Measurement-led tuning of storage, memory, CPU, and network paths across buffer registration, translation locality, queueing, and topology.
 - [10x Engineer](concepts/TenXEngineer.md) - Contested model of disproportionate programmer leverage qualified by collaboration, organizational context, and whole-team product outcomes.
 - [Product-Minded Engineering](concepts/ProductMindedEngineering.md) - Engineering practice combining technical execution with product intent, user and business context, tradeoffs, validation, and post-release outcomes.

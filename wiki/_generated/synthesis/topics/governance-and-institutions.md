@@ -3,9 +3,9 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-10-16
-as_of_overview_commit: 2d1e44b1a2756c86ccef36487388cf0576f740af
-input_digest: a9e79cea21acdb3125bac4a5ccb165f185969e0ed8bec6bc0df1e1ec9c0e933b
+last_updated: 2026-10-17
+as_of_overview_commit: 06fc9d53665def774e54b2ad5a7ea900d16d1032
+input_digest: 63d93cf8be696322bacd412c695771e3d971ef6f55ea7dad3175580fe71b21c5
 ---
 
 # Governance and Institutions
@@ -975,6 +975,17 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The source is Cursor’s first-party comparison written while launching Origin, not GitHub documentation, a complete protocol, or independent operational evidence.
 - The claim of “no consensus” is narrow: coordination among repository replicas is removed, but serialization and trust move to the object store and its conditional operations.
+
+### Object Storage Benchmarking Is Operational Governance Spillover
+
+[[SlateDB]], [[StoragePerformanceBenchmarking]], and [[ObjectStorageNativeDatabase]] reach governance through explicit ownership of remote request cost, cache granularity, compaction coordination, and benchmark baselines; their substantive evidence concerns storage-system operation rather than public or institutional governance.
+
+**Evidence:** [[SlateDB]], [[StoragePerformanceBenchmarking]], [[ObjectStorageNativeDatabase]]
+
+**Qualifications:**
+
+- The evidence is a first-party, configuration-specific engineering benchmark rather than a governance or institutional study.
+- The SlateDB and RocksDB environments are deliberately asymmetric, cost assumptions are incomplete, and the retained charts do not provide controlled before-and-after causal evidence.
 
 ### Inference Host Overhead Is Technology Spillover
 
