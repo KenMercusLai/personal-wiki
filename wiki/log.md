@@ -9740,3 +9740,11 @@ Created [[DanielLemire]], [[Fastsimdjson]], and [[SelectiveJSONParsing]], and up
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | A leap year check in three instructions
+
+Created [[FalkHuffner]] and [[SolverAidedOptimization]]. Captured the divisibility reductions, constant-remainder lowering, bounded Z3 bit-vector synthesis, bit-field interpretation, fixed-point error boundary at year 102500, 64-bit extension, and predictable-versus-random benchmark tradeoff. Preserved the displayed-versus-metadata date discrepancy, restricted-form optimality, arithmetic-domain assumptions, hardware-specific measurements, maintenance cost, and need for realistic enclosing benchmarks. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

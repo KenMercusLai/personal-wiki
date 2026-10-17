@@ -1240,8 +1240,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [My Thoughts on the Bun Rust Rewrite](sources/my-thoughts-on-the-bun-rust-rewrite.md) - Andrew Kelley argues that Bun's Rust rewrite reflects organizational incentives, engineering practice, and a broken upstream relationship more than a simple language-feature comparison.
 - [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
 - [Parsing JSON at tens of gigabytes per second... in Python](sources/lemire-parsing-json.md) - Daniel Lemire combines free-threaded Python, lazy value materialization, and thread-local reduction in a 7.6 GB selective NDJSON benchmark.
+- [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [Falk Hüffner](entities/FalkHuffner.md) - Software practitioner deriving, explaining, and cautiously evaluating a solver-generated bounded leap-year predicate.
 - [Victor Ostromoukhov](entities/VictorOstromoukhov.md) - Computer-graphics researcher connecting designed threshold structures with artistic screening, multicolor printing, and digital facial engraving.
 - [Berkshire Hathaway](entities/BerkshireHathaway.md) - Capital allocator using high-return cash generators to fund larger productive assets and reported in the source as a $10 billion Alphabet investor.
 - [Jensen Huang](entities/JensenHuang.md) - Nvidia CEO advocating AI factories as financeable infrastructure while supporting the thesis with partial residual-value risk sharing.
@@ -3211,6 +3213,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
+- [Solver-Aided Optimization](concepts/SolverAidedOptimization.md) - Constraint-guided synthesis of implementation parameters within an explicit expression form, arithmetic model, and validity domain.
 - [Artistic Halftoning](concepts/ArtisticHalftoning.md) - Tone reproduction whose shaped and transformed screen elements carry recognizable artistic, cultural, or security information.
 - [Multicolor Dithering](concepts/MulticolorDithering.md) - Cumulative-threshold allocation of barycentric color proportions into mutually exclusive, side-by-side pixel coverage.
 - [Digital Engraving](concepts/DigitalEngraving.md) - Engraving-like rendering built from warped, merged, and locally equilibrated dither threshold layers.
