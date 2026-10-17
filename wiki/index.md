@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion](sources/foundation-model-kernel-optimization.md) - Duo An organizes foundation-model performance around on-chip dataflow, fused operator graphs, distributed execution, and model structure, with explicit measurement and quality boundaries.
 - [What is a Harness?](sources/what-is-a-harness.md) - Earendil defines an agent harness through instructions, tools, an agentic loop, and model translation, then argues that local open-source ownership can preserve user choice and session custody.
 - [How Other Link Checkers Do Recursion](sources/link-checkers-recurse.md) - Matthias Endler compares four recursive link checkers and derives the shared frontier, enqueue-time deduplication, execution-limiting, and quiescence pattern that lychee is retrofitting.
 - [Artistic Halftoning - Between Technology and Art](sources/spie2000-techart.md) - Victor Ostromoukhov unifies contour-driven artistic screens, side-by-side multicolor dithering, and layered digital engraving through designed threshold structures.
@@ -1245,6 +1246,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [Duo An](entities/DuoAn.md) - Systems-oriented technical writer presenting a four-layer, resource-led field guide to foundation-model performance optimization.
 - [Earendil](entities/Earendil.md) - AI-software organization advocating neutral, locally owned agent harnesses and presenting Pi and Lefos as its projects.
 - [Pi Agent Harness](entities/PiAgentHarness.md) - Minimal open-source local harness presented as extensible and model-provider-neutral.
 - [muffet](entities/Muffet.md) - Go link checker combining enqueue-time URL claiming, WaitGroup completion, and separate semaphore and host throttling.
@@ -3221,6 +3223,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
+- [Foundation Model Kernel Optimization](concepts/FoundationModelKernelOptimization.md) - Co-design of accelerator dataflow, operator graphs, distributed communication, and model structure around exposed end-to-end cost.
 - [Crawler Architecture](concepts/CrawlerArchitecture.md) - Recursive worklist design separating enqueue-time identity, frontier storage, bounded execution, crawl policy, and quiescence detection.
 - [Solver-Aided Optimization](concepts/SolverAidedOptimization.md) - Constraint-guided synthesis of implementation parameters within an explicit expression form, arithmetic model, and validity domain.
 - [Artistic Halftoning](concepts/ArtisticHalftoning.md) - Tone reproduction whose shaped and transformed screen elements carry recognizable artistic, cultural, or security information.

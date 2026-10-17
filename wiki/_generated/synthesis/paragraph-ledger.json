@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "59ff7688e27a7f93317f1abc35eaeb4dc630014b444822dd4b593aedbff21581",
       "e398fcf1585d7ef4e8e90e76475dc9982550eb0418c078382166dab15a273961",
       "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
       "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
@@ -855,11 +856,32 @@
       "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd"
     ],
-    "paragraph_count": 853
+    "paragraph_count": 854
   },
-  "overview_commit": "bad9f3fbd046071e720c0bda4076c34b0322443c",
-  "overview_digest": "e274b5cdaaad2ee808f84c51681b91be3aadf1cec13eee8e8cfa12895469d42a",
+  "overview_commit": "5c72bb13baaf8d900ff7c73b990f3c5fbf22f219",
+  "overview_digest": "7b28f035e5e3cc1b0463884da3d8845026b30b9a96283ec096a9f49ca0d6337b",
   "paragraphs": [
+    {
+      "id": "59ff7688e27a7f93317f1abc35eaeb4dc630014b444822dd4b593aedbff21581",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[DuoAn]] field guide adds [[FoundationModelKernelOptimization]] as four coupled layers: on-chip tiling and asynchronous pipelines, operator-graph fusion and layout, multi-GPU collectives and topology, and model structure that changes tokens, cache state, routed work, or repeated calls. Its resource model extends a compute-versus-HBM roofline with network traffic, launch latency, synchronization, and dynamic imbalance, then makes training, prefill, and decode distinct optimization regimes. [[OperatorFusion]] now has an explicit risk ladder from pointwise chains through GEMM epilogues to GEMM-to-GEMM and compute-to-communication fusion; larger scope helps only while layouts, dependencies, registers, local memory, occupancy, and fan-out remain compatible. [[FlashAttention]] gains a hardware progression from FA1's I/O-aware tiling through FA2 partitioning, Hopper TMA/WGMMA pipelines, and Blackwell TMEM, asynchronous MMA, SFU, and two-CTA rebalancing. The MoE diagrams and discussion treat router, top-k, permutation, All-to-All, grouped expert GEMMs, activation, and combine as one pipeline whose proper KPI is exposed communication, while multimodal token budgets and diffusion timestep reuse show why model changes can compound beyond one kernel. These are synthesized design rules rather than a controlled cross-platform benchmark: cited speedups use different baselines, high-leverage changes can alter semantics or quality, and every intervention must return to frozen-workload end-to-end, memory, numeric, p99, and quality measurement. All five local visuals were opened and retained at their semantic positions: the four-layer stack, fusion-risk ladder, FlashAttention generation map, MoE pipeline, and executable optimization decision tree.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DuoAn",
+        "FlashAttention",
+        "FoundationModelKernelOptimization",
+        "OperatorFusion"
+      ]
+    },
     {
       "id": "e398fcf1585d7ef4e8e90e76475dc9982550eb0418c078382166dab15a273961",
       "primary_topic": "ai-and-technology",

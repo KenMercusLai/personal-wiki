@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "foundation-model-kernel-optimization",
+  "images": [
+    {
+      "file": "four-layers.png",
+      "alt": "Four layers of foundation-model kernel co-design"
+    },
+    {
+      "file": "fusion-levels.png",
+      "alt": "Fusion levels and their increasing resource risks"
+    },
+    {
+      "file": "attention-generations.png",
+      "alt": "FlashAttention generations shifting with hardware bottlenecks"
+    },
+    {
+      "file": "moe-pipeline.png",
+      "alt": "MoE routing dispatch expert computation and combine pipeline"
+    },
+    {
+      "file": "optimization-decision-tree.png",
+      "alt": "Decision tree from exposed bottleneck to remeasurement and model co-design"
+    }
+  ]
+}

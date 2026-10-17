@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-18] ingest | Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion
+
+Created [[DuoAn]] and [[FoundationModelKernelOptimization]], and updated [[FlashAttention]] and [[OperatorFusion]] from their complete ordered evidence inventories. Recorded the four-layer co-design model, compute/HBM/network/launch/imbalance diagnosis, fusion risk ladder, training-prefill-decode distinction, FA1-through-FA4 hardware progression, full MoE token-expert pipeline, six memory levers, compounding model-level reductions, and end-to-end validation loop. Preserved the practitioner-synthesis scope, configuration-specific cited results, resource and portability costs of large fusion, and the need to separate kernel, runtime, communication, and algorithmic speedups. Opened all five effective local visuals and retained the four-layer stack, fusion ladder, attention-generation map, MoE pipeline, and optimization decision tree once at their semantic positions with a canonical manifest.
+
 ## [2026-10-17] ingest | What is a Harness?
 
 Created [[Earendil]] and [[PiAgentHarness]], and updated [[HarnessEngineering]] from its complete ordered evidence inventory. Captured the four-part system-prompt, tool, agentic-loop, and model-translation model; the separation between a model and its operating environment; and the user-agency case for local ownership, extensions, model choice, and session custody. Preserved the article's introductory and interested-party scope, its non-exhaustive architecture, and the absence of independent portability, security, reliability, ecosystem-quality, and adoption evidence. Opened the single local photograph and retained it at the controlling climbing-harness analogy with a descriptive canonical filename and manifest.
@@ -9762,5 +9766,9 @@ Created [[CrawlerArchitecture]], [[Muffet]], [[LinkChecker]], [[Linkinator]], an
 Ran lint. See lint-report.md for details.
 
 ## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

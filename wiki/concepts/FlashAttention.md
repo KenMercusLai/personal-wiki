@@ -4,43 +4,54 @@ type: concept
 tags: [ai, attention, gpu, performance]
 sources:
   - flashattention-1
-last_updated: 2026-10-15
+  - foundation-model-kernel-optimization
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[FlashAttention]] is a family of attention implementations that reorganizes exact attention around the GPU memory hierarchy so large score and probability intermediates need not be materialized in HBM.
+[[FlashAttention]] is a family of exact attention implementations that tiles queries, keys, values, and online-softmax state so the quadratic score and probability matrices need not be materialized in HBM.
 
 ## Current Synthesis
-The tutorial motivates FlashAttention from data movement rather than from fewer mathematical operations. A conventional composition computes `QKᵀ`, writes the `[SL, SL]` scores to HBM, reloads them for softmax, writes the equally large probability matrix, reloads it, and finally multiplies by `V`. When sequence length is much larger than head width, traffic for those quadratic intermediates can dominate the `[SL, D]` inputs and outputs.
+The foundational optimization is algorithmic dataflow rather than fewer attention FLOPs. Conventional composition writes `[S,S]` scores to HBM, reloads them for softmax, writes probabilities, reloads them, and then multiplies by values. A bounded on-chip working set can instead stream or tile keys and values, maintain numerically stable row statistics and output accumulators, and write only the final output plus limited backward state.
 
-Its pedagogical rewrite assigns an independent query output to each GPU program and streams across keys and values. For each pair it computes an exponential score, adds that scalar to a denominator, and adds the score-weighted value to an output vector; after the loop it divides the vector by the denominator. This algebraically defers normalization and reduces the live state to one query, one key/value pair, a scalar denominator, and an output accumulator.
+The earlier tutorial isolates that intuition with one query per program and scalar-by-scalar accumulation of `exp(q·kᵢ)vᵢ` plus its denominator. It is deliberately not a production algorithm: direct exponentials can overflow, one-element work misses accelerator matrix tiles, and the derivation omits masks, batching, backward, and hardware scheduling.
 
-That derivation captures the memory-avoidance intuition but not the published production algorithm. The source does not implement block tiling or numerically stable online softmax, does not cover backward recomputation or masks, and supplies no kernel or benchmark. It should therefore be read as a conceptual bridge into memory-efficient attention, not as an executable FlashAttention specification.
+The field guide adds the production lineage as a sequence of changing bottlenecks. FA1 addressed quadratic HBM I/O; FA2 reduced non-matmul work and improved work partitioning; FA3 used Hopper TMA, WGMMA, and warp specialization to overlap movement, matrix multiplication, and softmax; FA4 rescheduled around Blackwell's different Tensor Core, SFU, shared-memory, TMEM, and two-CTA ratios. The stable principle is bounded intermediate state, while the best tile, partition, and pipeline remain hardware- and shape-specific.
 
 ## Key Claims
-- The main optimization target is HBM traffic for quadratic score and probability intermediates, not a change to the mathematical attention result.
-- Independent query outputs provide a natural parallel partition, subject to each program's limited SRAM.
-- Fusing query-key scoring, exponentiation, denominator accumulation, and value aggregation avoids storing length-`SL` intermediate vectors in the simplified forward pass.
-- Softmax normalization can be deferred until after the unnormalized weighted-value sum and denominator are complete.
-- A pedagogical streaming loop is insufficient to specify production FlashAttention without stability, tiling, masking, backward, and hardware details.
+- Exact attention can avoid quadratic score and probability materialization by combining tiled Q/K/V movement with online normalization.
+- HBM traffic, not only arithmetic count, explains why changing evaluation order can improve attention.
+- Production implementations require stable softmax, matrix-shaped tiles, masks, tail handling, backward recomputation, and device-specific scheduling beyond the pedagogical loop.
+- FA1 through FA4 preserve the broad I/O-aware idea while changing work partition and hardware pipeline as the binding resource moves.
+- A forward-only or one-shape result does not establish the best training, prefill, decode, backward, mask, head-dimension, or hardware implementation.
 
 ## Evidence
-- Memory bottleneck: [[flashattention-1]] contrasts `[SL, SL]` score and probability matrices with `[SL, D]` inputs and outputs and diagrams their repeated HBM store/load path.
-- Parallel decomposition: [[flashattention-1]] assigns one query row and output row to each program ID, then streams keys and values that do not fit in SRAM.
-- Fused recurrence: [[flashattention-1]] derives a single loop accumulating `exp(q·kᵢ)vᵢ` and `exp(q·kᵢ)`, followed by one division.
-- Scope boundary: [[flashattention-1]] explicitly says its result is not the real FlashAttention algorithm and presents no measured implementation.
+Memory bottleneck and algebraic intuition:
+- [[flashattention-1]] contrasts `[S,S]` score and probability matrices with `[S,D]` inputs and outputs and derives a fused loop accumulating an unnormalized weighted sum and denominator.
+
+Scope of the simplified derivation:
+- [[flashattention-1]] explicitly says its result is not the real FlashAttention algorithm and provides no stable online recurrence, tiled kernel, backward path, or benchmark.
+
+Hardware-generation progression:
+- [[foundation-model-kernel-optimization]] maps FA1 to I/O-aware tiling, FA2 to improved partitioning and reduced non-matmul work, FA3 to Hopper TMA/WGMMA and warp specialization, and FA4 to Blackwell TMEM, asynchronous MMA, software exponentiation choices, and two-CTA scheduling.
+
+Workload boundary:
+- [[foundation-model-kernel-optimization]] distinguishes prefill attention from bandwidth-bound paged or split-KV decode attention and warns that the fastest forward schedule may not minimize forward-plus-backward time.
 
 ## Counterevidence & Qualifications
-The source's direct exponential accumulation can overflow and is not the stable online-softmax recurrence used by practical implementations. Processing one key/value at a time also omits the tiled matrix operations required for efficient accelerator use. The derivation ignores score scaling, masks, batches, multiple heads, non-divisible shapes, backward propagation, recomputation, layout, synchronization, and device-specific scheduling. It establishes a conceptual mechanism, not speed, bandwidth, or memory measurements.
+The tutorial is conceptual and the field guide is a secondary synthesis of cited primary papers and author notes rather than an independent cross-generation reproduction. Reported utilization figures are configuration-specific, and implementation choice depends on sequence length, head dimension, dtype, mask, dropout, determinism, batch raggedness, backward requirements, accelerator generation, and surrounding layout. Decode with query length near one is a different bandwidth and scheduling regime, so replacing a prefill FlashAttention kernel alone may not improve end-to-end serving.
 
 ## What Changed
-- Created the concept around HBM-traffic avoidance and deferred softmax normalization.
-- Explicitly separated the tutorial's simplified streaming loop from production FlashAttention.
+- Extended the concept from a pedagogical streaming loop to the FA1-through-FA4 production lineage.
+- Made stable softmax, tiling, backward, masks, shapes, and hardware scheduling explicit implementation requirements.
+- Distinguished large-tile prefill attention from paged, split-KV, bandwidth-bound decode attention.
+- Reframed generation changes as responses to moving HBM, partitioning, asynchronous-pipeline, and SFU or on-chip-memory bottlenecks.
 
 ## Related Concepts
-- [[AttentionMechanism]] - provides the exact query-key softmax and weighted-value computation being preserved.
-- [[OperatorFusion]] - combines attention stages so intermediates remain on chip.
-- [[GPUMemoryHierarchy]] - makes SRAM capacity and HBM traffic determine the dataflow.
-- [[ParallelProgramming]] - distributes independent query outputs across GPU programs.
-- [[TransformerArchitecture]] - repeatedly invokes attention and therefore inherits its memory cost.
+- [[AttentionMechanism]] - supplies the exact query-key softmax and weighted-value computation being preserved.
+- [[OperatorFusion]] - keeps attention stages and bounded intermediates within one coordinated dataflow.
+- [[GPUMemoryHierarchy]] - makes HBM traffic and on-chip capacity central constraints.
+- [[FoundationModelKernelOptimization]] - places FlashAttention inside a wider workload, communication, and model co-design loop.
+- [[KVCacheCompression]] - reduces the cache bytes that dominate long-context decode outside the prefill regime.
+- [[ParallelProgramming]] - determines how rows, heads, sequence tiles, warps, and CTAs share the work.

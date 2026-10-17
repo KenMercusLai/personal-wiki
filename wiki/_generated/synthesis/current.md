@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: bad9f3fbd046071e720c0bda4076c34b0322443c
+as_of_overview_commit: 5c72bb13baaf8d900ff7c73b990f3c5fbf22f219
 summary: "Podcast Atlas connects systems to real workloads, then qualifies claims through measurement, incentives, authorship, failure boundaries, and explicit controls."
-episode_count: 1213
-source_count: 1213
-paragraph_count: 853
+episode_count: 1214
+source_count: 1214
+paragraph_count: 854
 topic_count: 9
 ---
 
@@ -20,8 +20,8 @@ topic_count: 9
 - [[HumanAgencyInAI]] separates shared capability from the goals, permissions, information, feedback, and incentives that direct it; [[AutonomousCyberDefense]] therefore needs one bounded loop across vulnerability discovery, patch verification, progressive rollout, observation, and rollback, while [[AutomationErrorTolerance]], [[AINativeOrganization]], and [[InnovatorsDilemma]] explain why incumbent downside exposure can preserve human review as startups accept more autonomy against a higher failure baseline.
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose guarantees become meaningful only under concrete failure, concurrency, latency, scaling, and migration behavior. OpenAI's [[PostgreSQLReadScaling]] case adds that replicas can extend a read-heavy single-primary system only when write-heavy work moves elsewhere, while [[DatabaseOverloadProtection]] must bound cache misses, connections, expensive queries, retries, backfills, and priority traffic before saturation cascades.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
+- [[FoundationModelKernelOptimization]] joins on-chip schedules, [[OperatorFusion]], distributed dataflow, and model structure in one resource-led optimization loop, while [[FlashAttention]] shows that a stable I/O-avoidance principle still needs hardware-specific partitioning and pipelines.
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost.
-- [[IndieGameDevelopment]] and [[AudienceCenteredGameDesign]] treat games as expressive experiences whose relevance depends on identity, care, relationships, themes, controls, and challenge, while [[GameLocalization]], [[AutomatedGameTesting]], [[GameServerScaleAndStability]], [[ContinuousGameServerUpdates]], and [[ServerSideGameLogic]] show that equivalent player experience also depends on translation, verification, delivery, and live operations. [[CalebLeak]], [[MomoDog]], [[DogKeyboard]], [[ClaudeCode]], and [[HarnessEngineering]] make that dependence explicit: arbitrary input yields playable output only when prompts, safe orchestration, screenshots, scripted play, domain linters, and memory resets surround the generation loop.
 - [[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], [[ProlificPractice]], and [[PersonalKnowledgeManagement]] treat useful output as an iterative system of selective capture, own-words synthesis, small attempts, reflection, failure information, and audience or self-feedback rather than text accumulation alone. [[YeungYeah]] adds that AI-generated summaries can enlarge a low-use archive while personal outlines and indexes preserve orientation, and [[AIAssistedWriting]] remains valuable only insofar as processing preserves the author's judgments and lived voice.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage comes from explicit architecture, verification, observability, authority boundaries, workload evidence, and designed representations.
+Technical leverage comes from workload-specific co-design across architecture, data movement, verification, observability, authority boundaries, and operational evidence.
 
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
 - [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs. Evidence: [[LLVM]], [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], [[VikramAdve]], [[ChrisLattner]].
 
 ### Business and Markets
 
-Durable outcomes join demonstrated demand to economics, financing, distribution, operational capacity, and bounded execution; recursive technical products add explicit frontier, identity, capacity, and completion boundaries.
+Durable outcomes join demonstrated demand to economics, financing, distribution, operational capacity, and bounded execution.
 
 - [[AIInfrastructureFinancing]] makes capital structure part of [[AIInvestmentTheme]]: free cash flow, debt, equity, third-party infrastructure funds, and [[Nvidia]] residual-value support can all turn expected compute demand into current construction, but they allocate dilution, repayment, utilization, obsolescence, and resale risk differently; durable paid use and asset value therefore matter more than present orders alone. Evidence: [[AIInfrastructureFinancing]], [[AIInvestmentTheme]], [[Nvidia]], [[JensenHuang]], [[Google]], [[Anthropic]], [[BenThompson]].
 - [[AgentNativeComputing]] may reorder platform advantage by combining browser use, [[ComputerUse]], [[GenerativeUI]], hosted execution, and open gadgets behind one context-rich agent relationship; [[Muse]] and [[MicrosoftCopilot]] illustrate consumer and enterprise bids to shift aggregation from discovering supply toward framing intent and executing across suppliers, while [[AppleTrustBrand]] and app-centered control retain a qualified autonomy-versus-curation tradeoff. Evidence: [[AgentNativeComputing]], [[ComputerUse]], [[GenerativeUI]], [[Muse]], [[MicrosoftCopilot]], [[AggregationTheory]], [[AppleTrustBrand]], [[MacOS]], [[BenThompson]].
@@ -82,7 +82,7 @@ Scientific and health conclusions remain conditional on mechanism, population, m
 
 ### Work, Education, and Society
 
-Sustainable work and learning depend on active practice, feedback, clear roles, fair incentives, real teaching capacity, and engineering structures that separate identity, capacity, and completion obligations.
+Sustainable work and learning depend on active practice, feedback, clear roles, fair incentives, real teaching capacity, and engineering structures that make responsibility and recovery explicit.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
