@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Google Capital Company](sources/the-google-capital-company.md) - Ben Thompson argues that Google Services' cash engine can fund a lower-margin but potentially larger cloud-and-AI infrastructure business, while Alphabet's equity raise may signal either extraordinary compute demand or shared capex risk.
 - [Nvidia’s Risky Business](sources/nvidias-risky-business.md) - Ben Thompson analyzes debt, equity, third-party infrastructure funds, and Nvidia's residual-value backstop as competing ways to finance AI compute under uncertain demand.
 - [Autonomy and Innovation](sources/autonomy-and-innovation.md) - Ben Thompson connects agentic cyber offense-defense asymmetry with slower AI diffusion and the different autonomy incentives of incumbents and startups.
 - [Axiom 设计系统](sources/ax-design.md) - Losses Don rebuilds Axiom around shared shape, rendering, and token infrastructure, using expert-directed AI while preserving coherent metaphor, accessibility, browser fallbacks, and human judgment.
@@ -1239,6 +1240,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
 
 ## Entities
+- [Berkshire Hathaway](entities/BerkshireHathaway.md) - Capital allocator using high-return cash generators to fund larger productive assets and reported in the source as a $10 billion Alphabet investor.
 - [Jensen Huang](entities/JensenHuang.md) - Nvidia CEO advocating AI factories as financeable infrastructure while supporting the thesis with partial residual-value risk sharing.
 - [Lars Baltensperger](entities/LarsBaltensperger.md) - Author of Kapa's production account of listwise RAG context pruning.
 - [Kapa AI](entities/KapaAI.md) - Product-knowledge retrieval and assistant provider reporting a small-LLM pruning stage before generation.
@@ -1569,7 +1571,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jay Kim](entities/JayKim.md) - Technical author represented through a starter Python pipeline for embedding and ranking resumes against job descriptions.
 - [Jay Alammar](entities/JayAlammar.md) - Machine-learning author represented through a visual, progressively layered explanation of the original Transformer architecture.
 - [Jason Rowley](entities/JasonRowley.md) - Technology and venture-capital writer represented through a historical Crunchbase analysis of Alphabet's investment network.
-- [Alphabet](entities/Alphabet.md) - Google parent represented through a distributed system of venture, growth, AI, direct, accelerator, and impact investment.
+- [Alphabet](entities/Alphabet.md) - Google parent combining distributed investment vehicles with an advertising cash engine, cloud growth, and capital-intensive AI optionality.
 - [CapitalG](entities/CapitalG.md) - Alphabet growth-equity fund focused primarily on later-stage deals in the source's 2017 portfolio snapshot.
 - [Gradient Ventures](entities/GradientVentures.md) - Google-affiliated venture fund distinguished by an artificial-intelligence focus in the 2018 source.
 - [Jason Roberts](entities/JasonRoberts.md) - Writer represented through the “Luck Surface Area” heuristic linking substantive work, visible enthusiasm, and effective communication with opportunity exposure.
@@ -3204,6 +3206,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fluent Design](entities/FluentDesign.md) - Microsoft design system represented through first-generation lighting, material, depth, navigation, and pressure effects.
 
 ## Concepts
+- [Productive Capital Allocation](concepts/ProductiveCapitalAllocation.md) - Redeploying cash from high-return businesses with limited reinvestment runway into larger capital-consuming opportunities capable of greater absolute profit.
 - [AI Infrastructure Financing](concepts/AIInfrastructureFinancing.md) - Allocation of dilution, repayment, utilization, obsolescence, and residual-value risk across AI compute funding structures.
 - [SSD Data Placement](concepts/SSDDataPlacement.md) - Host-device coordination that groups writes for lower garbage-collection cost while trading control against compatibility and integration effort.
 - [SSD Write Amplification](concepts/SSDWriteAmplification.md) - Extra physical SSD writes created by erase-before-write reclamation and valid-page relocation.

@@ -9716,3 +9716,11 @@ Created [[AIInfrastructureFinancing]] and [[JensenHuang]], and updated [[Nvidia]
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | The Google Capital Company
+
+Created [[BerkshireHathaway]] and [[ProductiveCapitalAllocation]], and updated [[Alphabet]] and [[AIInfrastructureFinancing]] from their complete ordered evidence inventories. Captured the See's-to-BNSF and Google-Services-to-Cloud capital-allocation analogy, Google Cloud's reported operating progression, the demand-signal versus risk-sharing interpretations of Alphabet's equity issuance, multi-path AI capacity use, and cash capacity as a possible compute-allocation advantage. Preserved uncertainty about transaction terms and management intent, the unresolved $80 billion versus $85 billion equity-raise figures, and the distinction between infrastructure construction and realized productive returns. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
