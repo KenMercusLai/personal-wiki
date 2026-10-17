@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [What is a Harness?](sources/what-is-a-harness.md) - Earendil defines an agent harness through instructions, tools, an agentic loop, and model translation, then argues that local open-source ownership can preserve user choice and session custody.
 - [How Other Link Checkers Do Recursion](sources/link-checkers-recurse.md) - Matthias Endler compares four recursive link checkers and derives the shared frontier, enqueue-time deduplication, execution-limiting, and quiescence pattern that lychee is retrofitting.
 - [Artistic Halftoning - Between Technology and Art](sources/spie2000-techart.md) - Victor Ostromoukhov unifies contour-driven artistic screens, side-by-side multicolor dithering, and layered digital engraving through designed threshold structures.
 - [The Google Capital Company](sources/the-google-capital-company.md) - Ben Thompson argues that Google Services' cash engine can fund a lower-margin but potentially larger cloud-and-AI infrastructure business, while Alphabet's equity raise may signal either extraordinary compute demand or shared capex risk.
@@ -1244,6 +1245,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [Earendil](entities/Earendil.md) - AI-software organization advocating neutral, locally owned agent harnesses and presenting Pi and Lefos as its projects.
+- [Pi Agent Harness](entities/PiAgentHarness.md) - Minimal open-source local harness presented as extensible and model-provider-neutral.
 - [muffet](entities/Muffet.md) - Go link checker combining enqueue-time URL claiming, WaitGroup completion, and separate semaphore and host throttling.
 - [LinkChecker](entities/LinkChecker.md) - Python crawler using a joinable unbounded frontier, cache-sentinel deduplication, fixed worker threads, and per-host pacing.
 - [linkinator](entities/Linkinator.md) - Node link checker using event-loop-serialized admission, a concurrency queue, idle detection, and body-bearing crawling requests.

@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-17
-as_of_overview_commit: de8cb72c2d4b182b6deefeb92645d01a711f48fc
-input_digest: 40c146e24c715d930b37e55ca9f7b3b567444af1c6b38df6bed6d2af9d490212
+as_of_overview_commit: bad9f3fbd046071e720c0bda4076c34b0322443c
+input_digest: ba3554db647cbbc359476b231a5699102dd9eeb0c4b41888843621b5cf4b65a5
 ---
 
 # AI and Technology
@@ -1561,6 +1561,18 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The OpenAI-Hugging Face incident is reported through an analyst article before the promised primary technical report, so the exploit chain, evaluation design, impact, and remediation remain provisional.
 - The attacker-defender expected-value framing is qualitative and omits attacker costs, detection, repeated play, formal verification, staged exposure, recovery, and attacks on the defensive system itself.
 - The AI-native startup thesis is a strategy forecast without adoption cohorts, quantified downside, or comparative company outcomes; incumbents can also redesign workflows and startups still face liability, trust, regulation, capital, and catastrophic risk.
+
+### Agent Harnesses Separate Models From Operating Environments
+
+[[HarnessEngineering]] separates the model from its operating environment: [[Earendil]] describes a base harness as system instructions, callable tools, a model-directed action-and-observation loop, and provider translation, while [[PiAgentHarness]] adds local ownership, extensibility, model choice, and session custody as user-facing properties that still require the corpus's broader verification, permission, persistence, isolation, and recovery controls.
+
+**Evidence:** [[HarnessEngineering]], [[Earendil]], [[PiAgentHarness]]
+
+**Qualifications:**
+
+- The four-part harness model is an interested-party introduction rather than an exhaustive architecture or reproduced portability evaluation.
+- Local execution and open-source availability do not by themselves establish safe extensions, provider parity, permission isolation, durable effects, reliability, or recoverability.
+- The reported ecosystem of more than 5,000 Pi extensions is a point-in-time publisher claim without a counting method, activity distribution, quality review, or security analysis.
 
 ### Threshold Structures Unify Artistic Screening Color And Engraving
 

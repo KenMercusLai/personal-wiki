@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-17] ingest | What is a Harness?
+
+Created [[Earendil]] and [[PiAgentHarness]], and updated [[HarnessEngineering]] from its complete ordered evidence inventory. Captured the four-part system-prompt, tool, agentic-loop, and model-translation model; the separation between a model and its operating environment; and the user-agency case for local ownership, extensions, model choice, and session custody. Preserved the article's introductory and interested-party scope, its non-exhaustive architecture, and the absence of independent portability, security, reliability, ecosystem-quality, and adoption evidence. Opened the single local photograph and retained it at the controlling climbing-harness analogy with a descriptive canonical filename and manifest.
+
 ## [2026-10-17] ingest | I'm switching to a dumbphone this summer
 
 Created [[DigitalIntentionality]], [[SmartphoneDependenceExternalities]], and [[SunbeamF1Horizon]], and updated [[AttentionManagement]] from its complete ordered evidence inventory. Recorded the gap between minimal smartphone configuration and ambient checking, the three-month device-substitution experiment, parental role modeling, the Eagle's calls, SMS, offline navigation, removable hardware, MicroSD and nano-SIM access, and Wi-Fi or USB 4G tethering. Preserved the unfinished first-impressions scope, missing behavioral outcomes, service-access tradeoffs, and unresolved BasicOS provenance, Android version, security, openness, application, subscription, and reliability questions. Opened and retained all four evidence-bearing remote photographs at their semantic positions with a canonical manifest.
@@ -9752,6 +9756,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] ingest | How Other Link Checkers Do Recursion
 
 Created [[CrawlerArchitecture]], [[Muffet]], [[LinkChecker]], [[Linkinator]], and [[BrokenLinkChecker]], and updated [[Lychee]], [[DistributedTerminationDetection]], [[AdaptiveBackpressure]], and [[ConcurrencyFailureModes]] from their complete ordered evidence inventories. Captured the common recursive frontier, enqueue-time URL claiming, descendant-aware quiescence, frontier-versus-limiter separation, GET body requirement, crawler policy filters, and runtime-specific synchronization tradeoffs. Preserved the maintainer-authored and version-specific scope, missing controlled benchmarks, unbounded-frontier memory risk, and the distinction between lychee's architectural readiness and shipped recursion. Opened and retained both evidence-bearing architecture diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-17] lint | Wiki health check
 

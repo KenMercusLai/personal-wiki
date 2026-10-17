@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e398fcf1585d7ef4e8e90e76475dc9982550eb0418c078382166dab15a273961",
       "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
       "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
       "23990c99abf0fea7c8ddf3fb214abb99081e6a78a1fe3735f8c6e4d68967b59f",
@@ -854,11 +855,26 @@
       "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd"
     ],
-    "paragraph_count": 852
+    "paragraph_count": 853
   },
-  "overview_commit": "10d4da9abced86b0018b321d27317f7eea3b9287",
-  "overview_digest": "e6218d0472fd869f7f953084b932dbe56b5860ac59644f41db1b82856b13f893",
+  "overview_commit": "bad9f3fbd046071e720c0bda4076c34b0322443c",
+  "overview_digest": "e274b5cdaaad2ee808f84c51681b91be3aadf1cec13eee8e8cfa12895469d42a",
   "paragraphs": [
+    {
+      "id": "e398fcf1585d7ef4e8e90e76475dc9982550eb0418c078382166dab15a273961",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Earendil]] explainer gives the wiki's [[HarnessEngineering]] material a compact base model: an agent harness surrounds a model with a system prompt, callable tools, an agentic loop that feeds observations back into model-directed retries, and a translation layer across model providers. Its climbing analogy makes the dual function concrete—the harness constrains and supports action while carrying adaptable tools—and [[PiAgentHarness]] supplies the user-ownership case through local execution, minimal defaults, extensions, model choice, and retained sessions. This complements rather than replaces the wiki's deeper layers of context, persistence, verification, permissions, isolation, observability, evaluation, and effect recovery. The article is an interested-party introduction from the organization presenting Pi and Lefos; it does not independently establish provider parity, extension safety, security, reliability, or the reported count of more than 5,000 shared extensions. The retained historical photograph visibly grounds the analogy by showing Royal Robbins supported by ropes and a harness loaded with ascent tools.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "Earendil",
+        "HarnessEngineering",
+        "PiAgentHarness"
+      ]
+    },
     {
       "id": "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
       "primary_topic": "ai-and-technology",

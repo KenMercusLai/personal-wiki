@@ -2494,6 +2494,22 @@
     },
     {
       "global_candidate": false,
+      "id": "agent-harnesses-separate-models-from-operating-environments",
+      "qualifications": [
+        "The four-part harness model is an interested-party introduction rather than an exhaustive architecture or reproduced portability evaluation.",
+        "Local execution and open-source availability do not by themselves establish safe extensions, provider parity, permission isolation, durable effects, reliability, or recoverability.",
+        "The reported ecosystem of more than 5,000 Pi extensions is a point-in-time publisher claim without a counting method, activity distribution, quality review, or security analysis."
+      ],
+      "statement": "[[HarnessEngineering]] separates the model from its operating environment: [[Earendil]] describes a base harness as system instructions, callable tools, a model-directed action-and-observation loop, and provider translation, while [[PiAgentHarness]] adds local ownership, extensibility, model choice, and session custody as user-facing properties that still require the corpus's broader verification, permission, persistence, isolation, and recovery controls.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "HarnessEngineering",
+        "Earendil",
+        "PiAgentHarness"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "threshold-structures-unify-artistic-screening-color-and-engraving",
       "qualifications": [
         "The evidence is a 2000 synthesis by the technique author with visual demonstrations but no independent replication, perceptual study, security evaluation, production benchmark, or comparative quality measurement.",

@@ -10,15 +10,18 @@ sources:
   - i-taught-my-dog-to-vibe-code-games-caleb-leak
   - xiao-yi-agent-harness-she-ji-shang-de-tradeoff
   - write-things-down
-last_updated: 2026-10-13
+  - what-is-a-harness
+last_updated: 2026-10-17
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[HarnessEngineering]] is the practice of building the scaffolds, constraints, runtime boundaries, feedback signals, and validation systems that allow AI agents to perform useful work reliably.
+[[HarnessEngineering]] is the practice of designing the software environment around an AI model: instructions, tools, agentic control loops, model-provider translation, state, runtime boundaries, feedback signals, and validation systems that let an agent perform useful work.
 
 ## Current Synthesis
 The sources use harness engineering to name a shift in engineering work: when agents can generate code or operate external systems, the scarce skill becomes designing the environment in which they operate. At the software-workflow layer, that environment includes repository architecture, structured tasks, deterministic CI/CD, review gates, tests, feature flags, logs, metrics, triage loops, and rollback mechanisms. The production-agent source adds a runtime layer: effect logs, capability gateways, scoped credentials, and forkable checkpoints are also harnesses because they make model errors predictable, bounded, and recoverable.
+
+Earendil's introductory account supplies a compact component model beneath those operational layers. A harness wraps a model with a system prompt, callable tools, an agentic loop that returns observations and permits retries, and a translation layer across model providers. The climbing analogy emphasizes both control and adaptability: the harness supports and constrains the operator while carrying modular tools. This also makes ownership part of the design question. A local, open, extensible harness can preserve workflow customization, model choice, and session custody, although those properties do not by themselves establish safety, interoperability, or reliability.
 
 The mihomo-rust case study adds a project-local harness layer. For coding agents, the harness can include `CLAUDE.md`, role-owned docs, ADRs, specs, test plans, milestone resets, narrow feedback memory, and explicit state documents. These artifacts make large-agent work repeatable by moving durable state out of fragile conversation context and into reviewable files.
 
@@ -31,7 +34,7 @@ The server-side architecture essay adds placement and tenancy to the harness its
 Thompson's personal workflow adds an end-user harness case. Agent-maintained Markdown, queues, status boards, Telegram interfaces, daily briefings, next-action dialogs, and deterministic ticklers turn a language model into a resumable work coordinator for a person and an assistant. The same source supplies the negative case: when agents receive goals inside a weakly hardened environment with an Internet-connected package manager, surprising success can expose infrastructure and specification failures even without intrinsic malicious intent.
 
 ## Key Claims
-- Harness engineering treats agent failure as a scaffold problem rather than a prompt-effort problem.
+- Harness engineering treats agent failure as a scaffold problem rather than a prompt-effort problem; its basic layer joins instructions, tools, a model-directed action-and-observation loop, and model-provider translation around the underlying model.
 - The more system state agents can inspect, validate, and modify, the more useful leverage they provide.
 - Monorepos or unified architecture can improve agent reasoning by making cross-system effects visible.
 - Deterministic pipelines let agents and humans reason about failures consistently.
@@ -55,15 +58,15 @@ Thompson's personal workflow adds an end-user harness case. Agent-maintained Mar
 - Evaluation fidelity: [[xiao-yi-agent-harness-she-ji-shang-de-tradeoff]] argues that offline evaluation must exercise the production harness and reproduce tool execution rather than substitute an easier local agent loop.
 - Personal work harness: [[write-things-down]] describes file-backed project state, queues, status boards, Telegram access, daily briefings, next-action dialogs, and a deterministic tickler around agent reasoning.
 - Adversarial lesson: [[write-things-down]] interprets agent use of an exposed package manager as evidence that assigned goals, network reachability, and weak hardening are part of the harness's responsibility surface.
+- Component model and ownership: [[what-is-a-harness]] defines the harness through system prompts, tools, an agentic loop, and model translation, then connects local open-source operation to user customization, provider choice, and retained sessions.
 
 ## Counterevidence & Qualifications
-The AI-first source presents harness engineering through one company's reported practice and the article's interpretation of an OpenAI term. The agent-infrastructure and server-side-harness sources are design arguments rather than validated standards, and the residual-testing source is a practitioner workflow proposal. The Godot and personal-assistant cases are single-builder demonstrations that do not isolate the contribution of each harness component or establish general affordability and reliability. The OpenAI-Hugging Face account is a secondary interpretation of an incident, not a complete postmortem or security audit. Together the sources do not prove that every team should adopt monorepos, AI review gates, fully automated triage, effect logs, capability gateways, shared multi-tenant runtimes, JavaScript-first execution, snapshot-heavy regression, or autonomous UI testing immediately; the payoff depends on product risk, agent autonomy, permission scope, tenant isolation, behavioral coverage, test quality, architecture, observability maturity, determinism, and tolerance for organizational disruption.
+The AI-first source presents harness engineering through one company's reported practice and the article's interpretation of an OpenAI term. The agent-infrastructure and server-side-harness sources are design arguments rather than validated standards, and the residual-testing source is a practitioner workflow proposal. The Godot and personal-assistant cases are single-builder demonstrations that do not isolate the contribution of each harness component or establish general affordability and reliability. Earendil's four-part model is an interested-party introduction, not an exhaustive architecture or a reproduced demonstration of model portability; local ownership and open source do not automatically provide isolation, safe extensions, provider parity, or recoverable effects. The OpenAI-Hugging Face account is a secondary interpretation of an incident, not a complete postmortem or security audit. Together the sources do not prove that every team should adopt monorepos, AI review gates, fully automated triage, effect logs, capability gateways, shared multi-tenant runtimes, JavaScript-first execution, snapshot-heavy regression, or autonomous UI testing immediately; the payoff depends on product risk, agent autonomy, permission scope, tenant isolation, behavioral coverage, test quality, architecture, observability maturity, determinism, and tolerance for organizational disruption.
 
 ## What Changed
-- Added an end-user work harness built from file-backed state, task boards, queues, messaging, briefings, and deterministic reminders.
-- Added the distinction between continuity supplied by a harness and continuous learning by the model.
-- Made assigned objectives, network reachability, and infrastructure hardening explicit harness responsibilities.
-- Preserved the broader runtime, verification, feedback, placement, and recovery requirements from prior sources.
+- Added the four-part base model of system prompt, tools, agentic loop, and model-provider translation.
+- Added local ownership, extensibility, model choice, and session custody as user-facing harness properties.
+- Qualified the introductory model with the existing runtime, verification, permission, persistence, evaluation, and recovery requirements.
 
 ## Related Concepts
 - [[AIFirstEngineering]] - harness engineering is the enabling discipline for AI-first software workflows.
@@ -84,3 +87,4 @@ The AI-first source presents harness engineering through one company's reported 
 - [[ServerSideAgentArchitecture]] - applies harness engineering to shared multi-tenant execution and workload-sensitive runtime selection.
 - [[GettingThingsDone]] - task capture, next actions, and ticklers supply a human productivity pattern implemented by one agent harness.
 - [[HumanAgencyInAI]] - humans remain responsible for goals, permissions, safeguards, and acceptance of consequences.
+- [[PiAgentHarness]] - minimal local harness used to illustrate customization and model-provider translation.
