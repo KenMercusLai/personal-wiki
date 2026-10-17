@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Autonomy and Innovation](sources/autonomy-and-innovation.md) - Ben Thompson connects agentic cyber offense-defense asymmetry with slower AI diffusion and the different autonomy incentives of incumbents and startups.
 - [Axiom 设计系统](sources/ax-design.md) - Losses Don rebuilds Axiom around shared shape, rendering, and token infrastructure, using expert-directed AI while preserving coherent metaphor, accessibility, browser fallbacks, and human judgment.
 - [A Brief History of Data Placement Technologies](sources/samsung-data-placement.md) - Samsung compares conventional SSDs, OCSSD, Streams, ZNS, and FDP through host control, compatibility, integration effort, feedback, and write amplification.
 - [Benchmarking SlateDB](sources/slatedb-benchmark.md) - SlateDB's public object-storage benchmark turns routing, compaction, polling cost, and cache-granularity measurements into implementation changes while preserving important comparison limits.
@@ -2026,7 +2027,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Telegram](entities/Telegram.md) - Messaging app used as the host of an early in-chat music bot and as an example of messaging becoming a service runtime.
 - [Maxim](entities/Maxim.md) - Semiconductor company used as both a focused challenger and a larger entrant unable to displace committed specialists.
 - [Brett Fox](entities/BrettFox.md) - Founder-author and former semiconductor operator writing about investor obligations, focused competition, and market-entry strategy.
-- [Hugging Face](entities/HuggingFace.md) - Machine-learning company and ecosystem connecting open-source libraries with hosted models, datasets, and AI applications.
+- [Hugging Face](entities/HuggingFace.md) - Machine-learning tooling and artifact ecosystem, also represented as affected infrastructure and a defender in a provisionally reported agentic-security incident.
 - [Geoffrey Hinton](entities/GeoffreyHinton.md) - Neural-network researcher represented through psychology-inspired learning, multilayer training, speech recognition, deep belief networks, and AlexNet.
 - [Bhutan](entities/Bhutan.md) - Himalayan Buddhist kingdom balancing cultural and environmental preservation with youth migration and economic opportunity.
 - [Gelephu Mindfulness City](entities/GelephuMindfulnessCity.md) - Planned Bhutanese innovation hub intended to create opportunity while preserving national tradition.
@@ -2574,7 +2575,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, capability stacks, medium affordances, agent continuity, and the human-agency boundary around AI.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, capability stacks, agent autonomy, and the incentive asymmetries behind cyber defense and innovation.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -2694,7 +2695,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
 - [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
-- [Sam Altman](entities/SamAltman.md) - Startup advisor and OpenAI CEO represented through startup execution, ChatGPT launch judgment, gradual-AGI governance, and an action-oriented philosophy of life priorities.
+- [Sam Altman](entities/SamAltman.md) - Startup advisor and OpenAI CEO represented through startup execution, ChatGPT launch judgment, gradual-AGI governance, and a revised view of slower AI diffusion.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - File-platform company represented through early discipline, referral growth, founder learning, international expansion, and exabyte-scale hybrid-infrastructure operations.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
@@ -2916,7 +2917,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
-- [OpenAI](entities/OpenAI.md) - AI organization represented across early research engineering, GPT and APIs, ChatGPT productization, governance, and global production infrastructure.
+- [OpenAI](entities/OpenAI.md) - AI organization represented across research engineering, GPT products and infrastructure, governance, and a provisional agentic-cyber incident and defensive-automation prescription.
 - [OpenClaw](entities/OpenClaw.md) - Peter Steinberger's local-first personal-agent platform centers a Gateway over channels, sessions, memory, tools, plugins, and configurable security boundaries.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
@@ -3248,7 +3249,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Prefill/Decode Disaggregation](concepts/PrefillDecodeDisaggregation.md) - Separation of prompt prefill and token decode across accelerators to isolate scheduling and streaming latency at the cost of KV transfer and operational coordination.
 - [Immersive Media Production](concepts/ImmersiveMediaProduction.md) - Presence-first production framework that treats camera position as viewer location and makes stable viewpoints or viewer choice central.
 - [Getting Things Done](concepts/GettingThingsDone.md) - Trusted external capture, contextual review, next actions, and reminders used to protect attention while preserving the need to act.
-- [Human Agency in AI](concepts/HumanAgencyInAI.md) - Human ownership of goals, moral judgment, safeguards, consequences, and accountability around capable AI systems.
+- [Human Agency in AI](concepts/HumanAgencyInAI.md) - Human and institutional ownership of goals, permissions, incentives, safeguards, consequences, and accountability around capable AI systems.
 - [Self-Contained Tool Distribution](concepts/SelfContainedToolDistribution.md) - Layered packaging and delivery of code, dependencies, native utilities, integrity metadata, and offline-readable output without target package installation.
 - [Server-Side Agent Architecture](concepts/ServerSideAgentArchitecture.md) - Shared multi-tenant agent execution that separates durable sessions from tools, orchestration, and workload-sensitive sandbox allocation.
 - [Accelerator Ecosystem Adoption](concepts/AcceleratorEcosystemAdoption.md) - Staged development of accelerator familiarity through accessible hardware, self-service tooling, courses, research, and trustworthy competitions.
@@ -3257,7 +3258,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Service Flow-Aware Testing](concepts/ServiceFlowAwareTesting.md) - End-to-end test generation and checking based on connected declarative-resource flows and executable behavior models.
 - [Video Refinement](concepts/VideoRefinement.md) - Post-generation improvement of local video detail, texture, resolution, and synthesis artifacts while preserving upstream content and motion.
 - [One-Step Diffusion Distillation](concepts/OneStepDiffusionDistillation.md) - Compression of a multi-step diffusion or flow teacher into one learned-model evaluation through staged distribution and adversarial training.
-- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier-model progress and customer adoption, product capture, inference pricing, capital returns, and defensive capability.
+- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier-model progress and customer, product, pricing, capital, and closed-loop defensive absorption.
 - [Filter Pushdown](concepts/FilterPushdown.md) - Early predicate execution whose value depends on selectivity, source compression, decoding cost, operator compatibility, and network representation.
 - [Disaggregated Caching](concepts/DisaggregatedCaching.md) - Shared cache-service architecture that scales separately from compute while trading among network, cache CPU, and cache memory.
 - [GPU-Intensive Continuous Integration](concepts/GPUIntensiveContinuousIntegration.md) - Accelerator-backed CI treated jointly as an evidence, prioritization, workload, and cluster-queue optimization problem.
@@ -3722,7 +3723,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Data Format Interoperability](concepts/DataFormatInteroperability.md) - Preservation of structure, values, and meaning across data engines, metadata layers, schemas, encodings, and software versions.
 - [Typing Indicator](concepts/TypingIndicator.md) - Transient activity state balancing conversational feedback, network efficiency, expiry, and draft privacy.
 - [Digital Archive Organization](concepts/DigitalArchiveOrganization.md) - Layering primary locations, virtual views, synchronized references, duplicate controls, and retrieval conventions across a large personal file collection.
-- [Automation Error Tolerance](concepts/AutomationErrorTolerance.md) - Acceptable failure threshold for automated systems when machine-caused mistakes receive more blame than comparable human errors.
+- [Automation Error Tolerance](concepts/AutomationErrorTolerance.md) - Acceptable automated-failure threshold shaped by blame, existing-asset downside, throughput, containment, and recoverability.
 - [Venture Investor Development](concepts/VentureInvestorDevelopment.md) - Selection, entry, and formation of venture investors through differentiated deal access, multidimensional capability, sourcing practice, mentorship, and apprenticeship.
 
 - [Technology-Enabled Product Innovation](concepts/TechnologyEnabledProductInnovation.md) - Product discovery that combines observed customer problems with engineering knowledge of newly practical technical possibilities.
@@ -3843,7 +3844,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mission-Aligned Capital](concepts/MissionAlignedCapital.md) - Financing whose return expectations, time horizon, ownership terms, and governance fit a company's mission and sustainable operating path.
 - [No-Code Workflow Automation](concepts/NoCodeWorkflowAutomation.md) - User configuration of triggers, transformations, searches, and actions across software services without conventional integration code.
 - [Technology S-Curve](concepts/TechnologySCurve.md) - Model of slow early improvement, rapid growth, and mature flattening that separates current financial performance from future strategic position.
-- [Innovator's Dilemma](concepts/InnovatorsDilemma.md) - Incumbent conflict between optimizing a profitable current product and funding a weak, uncertain successor that may define the next market.
+- [Innovator's Dilemma](concepts/InnovatorsDilemma.md) - Incumbent conflict between optimizing current operations and adopting a weak or risky successor operating model that may define the next market.
 - [BCG Growth-Share Matrix](concepts/BCGGrowthShareMatrix.md) - Portfolio model whose capital-allocation logic routes cash from mature leaders toward uncertain future stars.
 - [Strategic Self-Cannibalization](concepts/StrategicSelfCannibalization.md) - Deliberately allowing a new offer to displace a successful existing product in order to preserve customer relevance.
 - [Self-Efficacy](concepts/SelfEfficacy.md) - Belief in one's capacity for effective action, strengthened in the source through repeated, progressively demanding mastery experiences.
@@ -4760,5 +4761,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Organizational Engineering Incentives](concepts/OrganizationalEngineeringIncentives.md) - Ownership, financing, leadership, staffing, and reward conditions that determine whether quality work is funded or crowded out.
 - [Design System Architecture](concepts/DesignSystemArchitecture.md) - Shared semantic and technical infrastructure that makes components express one coherent visual language.
+- [Autonomous Cyber Defense](concepts/AutonomousCyberDefense.md) - Closed agentic loop spanning vulnerability discovery, remediation, verification, rollout, monitoring, and rollback.
+- [AI-Native Organization](concepts/AINativeOrganization.md) - Organization designed around end-to-end AI execution and machine-speed feedback rather than AI assistance inside inherited workflows.
 
 ## Syntheses

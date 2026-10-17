@@ -9700,3 +9700,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | Autonomy and Innovation
+
+Created [[AutonomousCyberDefense]] and [[AINativeOrganization]], and updated [[BenThompson]], [[OpenAI]], [[SamAltman]], [[HuggingFace]], [[HumanAgencyInAI]], [[AutomationErrorTolerance]], [[FrontierModelOverhangs]], and [[InnovatorsDilemma]] from their complete ordered evidence inventories. Captured the capability-intent-incentive separation, provisionally reported OpenAI-Hugging Face incident, offensive-versus-defensive payoff asymmetry, closed discovery-to-rollback loop, adoption inertia, human-review bottleneck, and the sustaining-incumbent versus disruptive-startup thesis. Preserved the absent promised incident report, unquantified expected-value framing, autonomous-remediation risks, and lack of comparative adoption or company-outcome evidence. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: 1a297d764605943aadeef34fb2365085b4d75154
+as_of_overview_commit: 3ea9a8ff5f782f592b0d336a187ebdee601e14c1
 summary: "Podcast Atlas connects evidence across domains by matching systems to real workloads and human constraints, then qualifying claims by measurement and failure boundaries."
-episode_count: 1205
-source_count: 1205
-paragraph_count: 847
+episode_count: 1206
+source_count: 1206
+paragraph_count: 848
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs.
+- [[HumanAgencyInAI]] separates shared capability from the goals, permissions, information, feedback, and incentives that direct it; [[AutonomousCyberDefense]] therefore needs one bounded loop across vulnerability discovery, patch verification, progressive rollout, observation, and rollback, while [[AutomationErrorTolerance]], [[AINativeOrganization]], and [[InnovatorsDilemma]] explain why incumbent downside exposure can preserve human review as startups accept more autonomy against a higher failure baseline.
 - [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose guarantees become meaningful only under concrete failure, concurrency, latency, scaling, and migration behavior. OpenAI's [[PostgreSQLReadScaling]] case adds that replicas can extend a read-heavy single-primary system only when write-heavy work moves elsewhere, while [[DatabaseOverloadProtection]] must bound cache misses, connections, expensive queries, retries, backfills, and priority traffic before saturation cascades.
 - [[OrganizationalEngineeringIncentives]] shape [[InternalSoftwareQuality]] because language features, style rules, tests, and rewrites do not themselves allocate time for review, fuzzing, defect removal, and [[TechnicalDebt]] control; [[AndrewKelley]] applies that contested lens to [[Bun]], its relationship with the [[ZigSoftwareFoundation]], and its acquisition by [[Anthropic]].
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.

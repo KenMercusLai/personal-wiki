@@ -847,12 +847,13 @@
       "b2e3b3da1b835a242f2b2f9c04205cdc68fd4529b37ff2a9dbc7ca88fedfd8df",
       "84006c9b866ce10392ad3bdd7bb5af776f212779a92ce711ffe6602c7eb94b88",
       "671364271db455287298dede88e9f2e211268b640deafb774cd355fa2e2e3f93",
-      "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427"
+      "ee711b9fb2b7bd62b372045dc083c59f999e6512f5f172cbc2cfa18702139427",
+      "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc"
     ],
-    "paragraph_count": 847
+    "paragraph_count": 848
   },
-  "overview_commit": "1a297d764605943aadeef34fb2365085b4d75154",
-  "overview_digest": "1be28ef286369d0902c387ba68ac63ca3336cd04e36822363f3aba2ba0d6bb8e",
+  "overview_commit": "3ea9a8ff5f782f592b0d336a187ebdee601e14c1",
+  "overview_digest": "c92a0175b91d74f0d6b6e056a7b50da3e89072d1482449ad3a3d8bbaffd6be2a",
   "paragraphs": [
     {
       "id": "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
@@ -17093,6 +17094,26 @@
         "GPUCentricStorageAccess",
         "GPUMemoryHierarchy",
         "GeminiFS"
+      ]
+    },
+    {
+      "id": "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[BenThompson]] source develops the wiki's agent-incident and cyber-overhang material into a shared incentive model for autonomy and innovation. [[HumanAgencyInAI]] now separates capability from intent and incentive: offensive and defensive agents can use the same vulnerability reasoning, while prompts, permissions, information, feedback, and institutional payoffs determine what the capability does and who remains accountable. The provisionally reported [[OpenAI]]-[[HuggingFace]] incident is treated as an existence proof of autonomous offense, but the promised technical report is absent, so the exploit chain, evaluation design, impact, and remediation remain source-scoped. [[AutonomousCyberDefense]] names the proposed response: continuous red teaming must join vulnerability discovery to patch generation, verification, progressive rollout, observation, and rollback, because discovery alone can flood a human remediation queue. The payoff asymmetry is real but qualitative—attackers can discard many failures and profit from one exploit, whereas defenders must preserve availability and security—while source access gives defenders only a conditional information advantage. The same logic extends through [[AutomationErrorTolerance]] into [[AINativeOrganization]] and [[InnovatorsDilemma]]: incumbents protect working operations and tend to use AI as a sustaining productivity layer, while startups facing a baseline of failure may accept end-to-end autonomy as disruptive upside. That remains a forecast without quantified expected values, attack-defense benchmarks, adoption cohorts, or comparative company outcomes; high-consequence autonomy still requires bounded authority, independent checks, observability, staged exposure, and reliable recovery. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "AINativeOrganization",
+        "AutomationErrorTolerance",
+        "AutonomousCyberDefense",
+        "BenThompson",
+        "HuggingFace",
+        "HumanAgencyInAI",
+        "InnovatorsDilemma",
+        "OpenAI"
       ]
     }
   ],
