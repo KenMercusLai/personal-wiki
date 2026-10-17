@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-18] ingest | 生活在字典树上 —— 存储和匹配海量的域名和 IP 地址
+
+Created [[ProxyRuleSetSemantics]], [[DomainTrieIndexing]], [[AhoCorasickMatching]], and [[TreeBitmapIPPrefixLookup]], and updated [[Sukka]] from its complete ordered evidence inventory. Recorded within-set OR versus between-set order, streaming type classification, reversed domain tries, exact-versus-suffix terminal metadata, label and public-suffix granularity, radix compression, Aho–Corasick failure links, binary CIDR prefixes, four-bit strides, and Tree Bitmap internal and external roles. Preserved build, storage, normalization, reporting, implementation, and benchmark boundaries; treated the source's embedded summary command as quoted source content rather than an instruction. The supplied text-only archive contains no effective image references and explicitly lacks its cover and nine interactive demonstrations, so no visual assets or manifest were created and the missing visual evidence is recorded in the source note.
+
 ## [2026-10-18] ingest | 云风的 BLOG: 用地标改进 A star 寻路的启发函数
 
 Created [[YunFeng]] and [[FlowFieldPathfinding]], and updated [[AStarSearch]], [[DifferentialHeuristic]], and [[DijkstrasAlgorithm]] from their complete ordered evidence inventories. Recorded the triangle-inequality landmark bound, fixed-destination distance and direction caching, obstacle-aware guidance, reachability uses, multiple and adaptive landmarks, and the fixed-landmark-count boundary on `O(1)` lookup. Preserved the source's missing implementation, benchmark, complexity accounting, and production evidence; separated its smaller-bound directional choice from the standard maximum admissible bound; and made its implicit undirected-connectivity assumption explicit. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -9800,6 +9804,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-18] graph | Knowledge graph rebuilt
 
 4715 nodes, 28044 edges (28044 extracted, 0 inferred).
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-18] lint | Wiki health check
 

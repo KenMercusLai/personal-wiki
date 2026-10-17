@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [生活在字典树上 —— 存储和匹配海量的域名和 IP 地址](sources/store-domains-ips-text-only.md) - Sukka derives typed proxy-rule indexes using reversed and radix tries, Aho–Corasick failure links, and Tree Bitmap CIDR lookup, with nine archived demonstrations missing.
 - [云风的 BLOG: 用地标改进 A star 寻路的启发函数](sources/yun-feng-de-blog-yong-di-biao-gai-jin-a-star-xun-lu-de-qi-fa-han-shu.md) - 云风 derives a landmark-distance lower bound and proposes reusing fixed-destination flow directions to guide A* around obstacles, with unproven selection and directed-graph boundaries.
 - [Scaling Elections with GPUs and Mojo across Nvidia and AMD 🔥](sources/scaling-elections.md) - Ash Vardanian maps Schulze strongest paths onto blocked CPU and GPU execution, reporting cross-vendor Mojo portability while preserving voting and benchmark limits.
 - [Modern Engineering Values](sources/modern-engineering-values.md) - Christoph Nakazawa argues that agent-era engineering shifts the constraint from implementation toward ownership, judgment, repository context, guardrails, feedback, and technical leadership.
@@ -1411,7 +1412,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ToastPlan](entities/ToastPlan.md) - Leetao's OKR and task system gives agents work access while preserving human-visible task state and activity auditing.
 - [Croxx](entities/Croxx.md) - Technical blogger represented through a qualified account of AI-first lookup, long-form reading, public writing, and Stack Overflow affinity.
 - [Namespace](entities/Namespace.md) - Developer-infrastructure company operating a vertically integrated, owned-hardware CI platform designed around build performance and cache locality.
-- [Sukka](entities/Sukka.md) - Technical blogger represented through a historically grounded but qualified argument against meta keywords as an SEO practice.
+- [Sukka](entities/Sukka.md) - Technical blogger deriving practical guidance from web standards, search evidence, proxy-rule semantics, and matching data structures.
 - [Frost Ming](entities/FrostMing.md) - Software practitioner advocating a minimal, agent-managed runtime through a Bub and Telegram experiment.
 - [Zou Runyang](entities/ZouRunyang.md) - Software engineer and former technical manager represented through a qualified transition into startup HR leadership and organization design.
 - [Armin Ronacher](entities/ArminRonacher.md) - Python-community member advocating welcome, mentorship, and human on-ramps for people who begin programming through AI.
@@ -3231,6 +3232,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
+- [Proxy Rule-Set Semantics](concepts/ProxyRuleSetSemantics.md) - Separation of within-set Boolean OR matching from the ordered evaluation of distinct proxy rule sets.
+- [Domain Trie Indexing](concepts/DomainTrieIndexing.md) - Reversed domain hierarchy, terminal match metadata, node-granularity tradeoffs, and radix compression for scalable lookup.
+- [Aho–Corasick Matching](concepts/AhoCorasickMatching.md) - Multi-pattern string matching through a forward trie and failure links that avoid restarting input traversal.
+- [Tree Bitmap IP Prefix Lookup](concepts/TreeBitmapIPPrefixLookup.md) - Compact stride-based CIDR trie using internal and external bitmaps for partial prefixes and sparse branches.
 - [Flow-Field Pathfinding](concepts/FlowFieldPathfinding.md) - Fixed-destination shortest-path preprocessing that caches exact costs and next-step directions for repeated route queries.
 - [Schulze Method](concepts/SchulzeMethod.md) - Ranked Condorcet method comparing candidates through maximum-bottleneck paths in a pairwise preference graph.
 - [Foundation Model Kernel Optimization](concepts/FoundationModelKernelOptimization.md) - Co-design of accelerator dataflow, operator graphs, distributed communication, and model structure around exposed end-to-end cost.

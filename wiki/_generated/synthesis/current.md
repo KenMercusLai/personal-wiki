@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: 145cdd6b9cbb65b811b81aa136c85d05df655e8f
+as_of_overview_commit: da40970b95e9295aff8c6bee7e401b9123e8b8da
 summary: "Podcast Atlas connects systems to real workloads, then qualifies claims through measurement, incentives, authorship, failure boundaries, and explicit controls."
-episode_count: 1218
-source_count: 1218
+episode_count: 1219
+source_count: 1219
 paragraph_count: 857
 topic_count: 9
 ---
