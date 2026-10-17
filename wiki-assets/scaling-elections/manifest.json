@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "scaling-elections",
+  "images": [
+    {
+      "file": "schulze-before-extra-voter.png",
+      "alt": "Before an extra voter, the strongest-path comparison gives Java one victory and makes Java the Schulze winner"
+    },
+    {
+      "file": "schulze-after-extra-voter.png",
+      "alt": "After a Java-first voter is added, Python gains two strongest-path victories and becomes the Schulze winner"
+    }
+  ]
+}

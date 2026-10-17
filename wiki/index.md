@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Scaling Elections with GPUs and Mojo across Nvidia and AMD 🔥](sources/scaling-elections.md) - Ash Vardanian maps Schulze strongest paths onto blocked CPU and GPU execution, reporting cross-vendor Mojo portability while preserving voting and benchmark limits.
 - [Modern Engineering Values](sources/modern-engineering-values.md) - Christoph Nakazawa argues that agent-era engineering shifts the constraint from implementation toward ownership, judgment, repository context, guardrails, feedback, and technical leadership.
 - [Outperforming cuBLAS on NVFP4](sources/outperforming-cublas-nvfp4.md) - Pranjal Shankhdhar combines Blackwell dataflow, compiler, tail, and split-L2 scheduling work into a shape-specific NVFP4 GEMM reported 4.7% faster than cuBLASLt.
 - [Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion](sources/foundation-model-kernel-optimization.md) - Duo An organizes foundation-model performance around on-chip dataflow, fused operator graphs, distributed execution, and model structure, with explicit measurement and quality boundaries.
@@ -1388,7 +1389,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AstroVela](entities/AstroVela.md) - Announced company betting on multimodal AI, Physical AI, and the Vane infrastructure family.
 - [Vane](entities/Vane.md) - AstroVela's announced four-part product family spanning Core, Data, RL, and Agent components.
 - [Tison Kun](entities/TisonKun.md) - Open-source and database engineer using coding agents for test-backed refactoring, performance work, and rewrites while retaining design and acceptance judgment.
-- [Ash Vardanian](entities/AshVardanian.md) - Unum founder represented through a first-party account of Amare, USearch, and vector-indexed stable matching.
+- [Ash Vardanian](entities/AshVardanian.md) - Unum founder connecting combinatorial algorithms with vector search, database joins, SIMD, and GPU implementations.
+- [Mojo](entities/Mojo.md) - Systems language represented through one CPU, SIMD, Nvidia, and AMD implementation of blocked strongest paths.
 - [Unum](entities/Unum.md) - Software company and project context for USearch and UForm.
 - [USearch](entities/USearch.md) - HNSW-based vector-search library with a bounded stable-matching-inspired join operation.
 - [TeX](entities/TeX.md) - Donald Knuth's typesetting system and the implementation context for the transition from rule-based to pattern-based automatic hyphenation.
@@ -3227,6 +3229,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 
 ## Concepts
+- [Schulze Method](concepts/SchulzeMethod.md) - Ranked Condorcet method comparing candidates through maximum-bottleneck paths in a pairwise preference graph.
 - [Foundation Model Kernel Optimization](concepts/FoundationModelKernelOptimization.md) - Co-design of accelerator dataflow, operator graphs, distributed communication, and model structure around exposed end-to-end cost.
 - [Crawler Architecture](concepts/CrawlerArchitecture.md) - Recursive worklist design separating enqueue-time identity, frontier storage, bounded execution, crawl policy, and quiescence detection.
 - [Solver-Aided Optimization](concepts/SolverAidedOptimization.md) - Constraint-guided synthesis of implementation parameters within an explicit expression form, arithmetic model, and validity domain.

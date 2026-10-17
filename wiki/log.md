@@ -9784,3 +9784,11 @@ Created [[ChristophNakazawa]] and updated [[AIFirstEngineering]], [[EngineeringM
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | Scaling Elections with GPUs and Mojo across Nvidia and AMD 🔥
+
+Created [[SchulzeMethod]] and [[Mojo]], and updated [[AshVardanian]] and [[ParallelProgramming]] from their complete ordered evidence inventories. Captured pairwise strongest paths, the max-min recurrence, the participation-paradox example, dependent and independent blocked phases, CPU SIMD, GPU orchestration, and the reported unchanged Mojo source across Nvidia and AMD. Preserved cubic work, quadratic storage, sequential pivot dependencies, voting-system limits, heterogeneous hardware and tuning, immature deployment tooling, and the author-run benchmark scope. Inspected both self-contained SVGs from their elements and labels, converted them losslessly in dimensions to supported PNG assets, opened the rendered results, and retained the two evidence-bearing before-and-after strongest-path diagrams with descriptive filenames and a canonical manifest.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
