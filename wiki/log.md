@@ -9724,3 +9724,11 @@ Created [[BerkshireHathaway]] and [[ProductiveCapitalAllocation]], and updated [
 ## [2026-10-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-17] ingest | Artistic Halftoning - Between Technology and Art
+
+Created [[VictorOstromoukhov]], [[ArtisticHalftoning]], [[MulticolorDithering]], and [[DigitalEngraving]]. Captured contour-interpolated artistic screens, nonlinear screen mapping, microletter security printing, cumulative barycentric color allocation, mixed continuous-random motives, the virtual-copperplate threshold analogy, warped feature-following layers, merge modes, local perceptual equilibration, reusable engraving styles, cross-hatching, mezzotint, and portrait enhancement. Preserved the authorial and qualitative evidence scope, artist-intensive workflow, calibration and gamut boundaries, and print-physics limits. Opened all 17 effective images and retained 13 nonredundant evidence-bearing diagrams, equations, process examples, and comparisons at their semantic positions with a canonical manifest.
+
+## [2026-10-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

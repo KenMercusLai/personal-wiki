@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source_key": "spie2000-techart",
+  "images": [
+    {
+      "file": "artistic-contour-interpolation.png",
+      "alt": "Fixed fish and bird contours interpolated into rasterized artistic screen elements across a grayscale wedge"
+    },
+    {
+      "file": "nonlinear-screen-mappings.png",
+      "alt": "Nonlinear conformal and fisheye mappings deform text and halftone grids while preserving a coherent screen layer"
+    },
+    {
+      "file": "microletter-security-screen.png",
+      "alt": "Conventional banknote engraving compared with a portrait screened entirely by warped SIGGRAPH95 microletters"
+    },
+    {
+      "file": "multicolor-threshold-allocation.png",
+      "alt": "Black-white and four-color dithering derived by intersecting a threshold function with cumulative color proportions"
+    },
+    {
+      "file": "tetrahedral-color-separation.png",
+      "alt": "RGB cube decomposed into six tetrahedra beside a side-by-side multicolor dithered color wedge"
+    },
+    {
+      "file": "mixed-continuous-random-screen.png",
+      "alt": "Continuous and partially randomized SIGGRAPH99 screens showing longer motif visibility in dark tones"
+    },
+    {
+      "file": "universal-copperplate-thresholds.png",
+      "alt": "Physical copperplate furrows compared with a virtual threshold surface cut and inked at three heights"
+    },
+    {
+      "file": "engraving-layer-warp.png",
+      "alt": "Regular parametric grid and engraving waves warped into a curved image-space patch"
+    },
+    {
+      "file": "engraving-patch-interpolation.png",
+      "alt": "Patch interpolation equation combining opposite boundary curves with left and right correction terms"
+    },
+    {
+      "file": "layer-merging-modes.png",
+      "alt": "Threshold-layer copy, minimum, maximum, multiply, add, and shifted-minimum merging modes with rendered results"
+    },
+    {
+      "file": "engraving-style-construction.png",
+      "alt": "Five feature-following grids, their range-shift masks, and the successive construction of a facial engraving"
+    },
+    {
+      "file": "crosshatching-mezzotint-comparison.png",
+      "alt": "Facial engraving combining cross-hatching and simulated mezzotint with a real aquatint microphotograph"
+    },
+    {
+      "file": "facial-feature-enhancement.png",
+      "alt": "Portrait enhancement using abrupt etching changes around glasses and an added layer along a nasolabial fold"
+    }
+  ]
+}

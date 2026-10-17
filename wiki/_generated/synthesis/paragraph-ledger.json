@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
       "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
       "23990c99abf0fea7c8ddf3fb214abb99081e6a78a1fe3735f8c6e4d68967b59f",
       "8482fee898afa6face6411106c86d3e064ca5c06bb2a033c8920ef442a28f3a2",
@@ -851,11 +852,29 @@
       "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc",
       "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02"
     ],
-    "paragraph_count": 849
+    "paragraph_count": 850
   },
-  "overview_commit": "8e06d2a0d889deda837a6c75459b9fbfb2d18a1a",
-  "overview_digest": "6130c303c29551c458da8bea8a408a9f87bb4cc8bae0031e4c2cce2cf8f7954f",
+  "overview_commit": "de8cb72c2d4b182b6deefeb92645d01a711f48fc",
+  "overview_digest": "2bc1197a94ee422c189d299b5ff131619b07645e03ccdfd45e778548f7b86dc2",
   "paragraphs": [
+    {
+      "id": "5ded256507eb42212d6b7ab0c7ad3cd174c137e05acaf69befe0a517ed62a07c",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[VictorOstromoukhov]] paper adds [[ArtisticHalftoning]], [[MulticolorDithering]], and [[DigitalEngraving]] as a common threshold-design program spanning tone reproduction and authored visual form. Fixed artist-drawn contours are interpolated and rasterized across intensity levels, while large screen tiles and nonlinear mappings make halftone structure carry recognizable motifs, cultural references, or nonrepetitive microletters. In color, tetrahedral separation expresses each in-gamut target through four basic inks and cumulative thresholds assign exactly one ink per output location, enabling side-by-side opaque or special-color coverage; mixed continuous-random matrices preserve motives over more of the tonal range. In engraving, a virtual copperplate height field becomes a dither matrix, regular wave layers are warped into feature-following patches, masks and ordered merge rules build cross-hatching and transitions, and local equilibration compensates for dot gain and visual filtering. This makes engraving style a reusable bundle of layers, scales, shifts, and merge rules, but the workflow remains artist-intensive and the evidence qualitative and self-authored. The paper supplies no perceptual study, security test, production benchmark, or independent replication, assumes in-gamut inputs, leaves full printer calibration outside scope, and makes results dependent on registration, substrate, ink behavior, viewing scale, and the printer/perception model. All 17 effective source images were opened; 13 nonredundant diagrams, equations, process examples, and comparisons were retained canonically at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ArtisticHalftoning",
+        "DigitalEngraving",
+        "MulticolorDithering",
+        "VictorOstromoukhov"
+      ]
+    },
     {
       "id": "b9fd47cf7790f5e0d5e6dad1caebabeb2ee40d14e9358aae80c06eec8b81eecc",
       "primary_topic": "governance-and-institutions",

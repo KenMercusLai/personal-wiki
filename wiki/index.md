@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Artistic Halftoning - Between Technology and Art](sources/spie2000-techart.md) - Victor Ostromoukhov unifies contour-driven artistic screens, side-by-side multicolor dithering, and layered digital engraving through designed threshold structures.
 - [The Google Capital Company](sources/the-google-capital-company.md) - Ben Thompson argues that Google Services' cash engine can fund a lower-margin but potentially larger cloud-and-AI infrastructure business, while Alphabet's equity raise may signal either extraordinary compute demand or shared capex risk.
 - [Nvidia’s Risky Business](sources/nvidias-risky-business.md) - Ben Thompson analyzes debt, equity, third-party infrastructure funds, and Nvidia's residual-value backstop as competing ways to finance AI compute under uncertain demand.
 - [Autonomy and Innovation](sources/autonomy-and-innovation.md) - Ben Thompson connects agentic cyber offense-defense asymmetry with slower AI diffusion and the different autonomy incentives of incumbents and startups.
@@ -1240,6 +1241,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vibe Coding 时代的角色与架构](sources/vibe-coding.md) - RORIRI argues that faster agentic code generation must be reinvested in user evidence, architecture, documentation, testing, review, and debt reduction rather than treated as automatic delivery speed.
 
 ## Entities
+- [Victor Ostromoukhov](entities/VictorOstromoukhov.md) - Computer-graphics researcher connecting designed threshold structures with artistic screening, multicolor printing, and digital facial engraving.
 - [Berkshire Hathaway](entities/BerkshireHathaway.md) - Capital allocator using high-return cash generators to fund larger productive assets and reported in the source as a $10 billion Alphabet investor.
 - [Jensen Huang](entities/JensenHuang.md) - Nvidia CEO advocating AI factories as financeable infrastructure while supporting the thesis with partial residual-value risk sharing.
 - [Lars Baltensperger](entities/LarsBaltensperger.md) - Author of Kapa's production account of listwise RAG context pruning.
@@ -3206,6 +3208,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fluent Design](entities/FluentDesign.md) - Microsoft design system represented through first-generation lighting, material, depth, navigation, and pressure effects.
 
 ## Concepts
+- [Artistic Halftoning](concepts/ArtisticHalftoning.md) - Tone reproduction whose shaped and transformed screen elements carry recognizable artistic, cultural, or security information.
+- [Multicolor Dithering](concepts/MulticolorDithering.md) - Cumulative-threshold allocation of barycentric color proportions into mutually exclusive, side-by-side pixel coverage.
+- [Digital Engraving](concepts/DigitalEngraving.md) - Engraving-like rendering built from warped, merged, and locally equilibrated dither threshold layers.
 - [Productive Capital Allocation](concepts/ProductiveCapitalAllocation.md) - Redeploying cash from high-return businesses with limited reinvestment runway into larger capital-consuming opportunities capable of greater absolute profit.
 - [AI Infrastructure Financing](concepts/AIInfrastructureFinancing.md) - Allocation of dilution, repayment, utilization, obsolescence, and residual-value risk across AI compute funding structures.
 - [SSD Data Placement](concepts/SSDDataPlacement.md) - Host-device coordination that groups writes for lower garbage-collection cost while trading control against compatibility and integration effort.

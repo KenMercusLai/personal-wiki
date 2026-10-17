@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-17
-as_of_overview_commit: 8e06d2a0d889deda837a6c75459b9fbfb2d18a1a
-summary: "Podcast Atlas connects evidence across domains by matching systems and capital to real workloads, then qualifying claims by measurement, incentives, and failure boundaries."
-episode_count: 1208
-source_count: 1208
-paragraph_count: 849
+as_of_overview_commit: de8cb72c2d4b182b6deefeb92645d01a711f48fc
+summary: "Podcast Atlas connects systems to real workloads across domains, then qualifies claims through measurement, incentives, authorship, and failure boundaries."
+episode_count: 1209
+source_count: 1209
+paragraph_count: 850
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage comes from explicit architecture, verification, observability, authority boundaries, organizational incentives, financing constraints, and workload-specific evidence across models, software, infrastructure, accelerators, memory, and storage paths.
+Technical leverage comes from explicit architecture, verification, observability, authority boundaries, workload evidence, and designed representations; artistic threshold systems add authored visual form while remaining bounded by print physics and calibration.
 
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
 - [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs. Evidence: [[LLVM]], [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], [[VikramAdve]], [[ChrisLattner]].
@@ -43,7 +43,7 @@ Durable business outcomes join demonstrated customer demand to economics, financ
 
 ### Cross-domain
 
-Across domains, designs work when physical, financial, and organizational boundaries match the task, preserve necessary protections, and expose evidence and recovery limits.
+Across domains, designs work when physical, financial, informational, and organizational boundaries match the task, preserve necessary protections, and expose evidence and recovery limits.
 
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
 - Replacing [[SpanningTreeProtocol]] inside a controlled [[DataCenterNetworkFabric]] does not remove edge loops, so [[EdgeNetworkLoopProtection]] must preserve detection and bounded containment across client and virtualization boundaries. Evidence: [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[VMware]], [[NetworkJanitor]].
@@ -57,7 +57,7 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions, platforms, and technical operators need transparent authority, accountable decisions, enforceable boundaries, observable costs and effects, and credible exit or recovery mechanisms.
+Institutions, platforms, and technical operators need transparent authority, accountable decisions, enforceable boundaries, observable effects, and credible exit or recovery mechanisms.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
@@ -68,7 +68,7 @@ Historical claims require attention to institutions, incentives, technology, sou
 
 ### Psychology and Personal Development
 
-Agency and judgment develop through feedback-rich practice, attention allocation, calibrated risk, adaptable routines, and awareness of cognitive and social shortcuts.
+Agency and judgment develop through feedback-rich practice, attention allocation, calibrated risk, adaptable routines, and awareness of cognitive and social shortcuts; routed technical claims remain source-scoped.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
