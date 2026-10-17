@@ -6,50 +6,53 @@ sources:
   - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
   - ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq
-last_updated: 2026-10-13
+  - modern-engineering-values
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[AIFirstEngineering]] is an engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
+[[AIFirstEngineering]] is an engineering operating model that redesigns planning, implementation, verification, deployment, runtime control, knowledge placement, and team responsibility around AI agents as primary execution systems.
 
 ## Current Synthesis
-The sources present AI-first engineering as a workflow and infrastructure redesign, not a coding-tool upgrade. The earlier AI-first source claims that agents can implement features, open pull requests, run tests, review code, deploy, monitor production, and triage bugs while humans concentrate on architecture, judgment, strategic risk, and approval. Mai Yang's masterclass notes reinforce the distinction through factory electrification: replacing a central steam engine with a central motor preserved the old layout, while distributed motors allowed production to be rearranged around flow. The analogy warns that adding AI to every inherited step can automate waste rather than redesign work, and it adds an accountability test: local engineering speed is incomplete unless it connects to a customer, revenue, or other business outcome. The agent-infrastructure source adds a harder boundary: if agents become long-running, high-permission actors with real side effects, tests and CI/CD are not enough; the runtime must log effects, isolate capabilities, and resume execution safely after failure.
+AI-first engineering is a workflow and organization redesign rather than a coding-tool upgrade. The bounded evidence converges on a layered model: humans select goals, encode product and architectural judgment, define ownership boundaries, and accept outcomes; repositories concentrate durable context; deterministic tests, linting, CI/CD, observability, feature flags, rollback, and fast tooling constrain implementation; production runtimes additionally isolate capabilities, log side effects, and recover long-running work safely.
+
+The sources disagree less about whether agents can write code than about the strength and location of controls. CREAO's reported workflow places agents across implementation, review, deployment, monitoring, and triage. Nakazawa's project account similarly reports broad delegation, but keeps planning, review, taste, domain expertise, and risk-sensitive acceptance with the human. Mai Yang's factory-electrification analogy warns that inserting AI into inherited rituals can automate waste, while her outcome test asks whether local speed improves a customer or business result. Guanlan adds the runtime boundary: ordinary CI and code sandboxes do not safely govern long-running agents with credentials and irreversible side effects.
+
+The organizational implication is conditional. Cheap implementation can favor smaller ownership units and make core-stack ownership more economical, but coordination, maintenance, security, and dependency costs do not disappear. The best fit remains work with explicit goals, fast measurable feedback, clean architecture, and reversible delivery; UI-dense, safety-critical, regulated, or weakly observable systems need stronger human and runtime gates.
 
 ## Key Claims
-- AI-first engineering differs from AI-assisted work because it redesigns the workflow around agents and business outcomes rather than inserting agents into inherited rituals or optimizing isolated task speed.
-- Human planning, QA, and staffing become bottlenecks when implementation speed collapses from weeks to hours.
-- The model depends on strong automated tests, CI/CD, feature flags, observability, task management, and clean architecture.
-- It fits backend-heavy, data-measurable, early-stage, and internal-tool contexts better than UI-dense or safety-critical products.
-- Human value shifts from code volume toward architecture, critical thinking, product taste, and risk judgment.
-- Organization-wide adoption can expose new bottlenecks in product, marketing, reporting, and growth workflows.
-- High-autonomy AI-first execution needs production-agent primitives before it can safely handle long-running, side-effecting work.
+- AI-first engineering redesigns the whole delivery system around agent execution and real outcomes rather than adding AI to inherited steps.
+- Human value shifts toward goal selection, domain ownership, architecture, taste, risk judgment, and acceptance as implementation becomes cheaper.
+- Repository-local specifications, principles, commands, and product context reduce repeated context loss for both agents and people.
+- Strict automated guardrails and fast scalable feedback loops determine whether agent speed becomes useful throughput or rapid error production.
+- Long-running high-permission agents require capability isolation, durable effect records, and resumable execution beyond ordinary CI/CD and sandboxes.
+- Small teams and selective core-stack ownership can gain leverage from agents, but only when their coordination and lifecycle costs remain supportable.
+- Adoption should be judged by product, customer, reliability, and business outcomes rather than commits, lines changed, or local task speed alone.
 
 ## Evidence
-- Workflow redesign: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] distinguishes real AI-first work from adding Cursor, ChatGPT, or AI-generated test cases to an unchanged process.
-- Bottlenecks: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes product planning, QA, and headcount as bottlenecks once agents can implement in hours.
-- Engineering prerequisites: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] lists automated tests, CI/CD, A/B testing, monitoring, task granularity, and architecture as necessary foundations.
-- Context fit: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] says backend-centric APIs, data platforms, internal tools, and early experiments suit this model better than complex UI, quality-sensitive products, or safety-critical systems.
-- Role shift: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] argues that architects define what good looks like for agents, while operators validate, investigate, and approve work.
-- Cross-functional bottlenecks: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] warns that marketing, product planning, and reporting can become the next slow human links.
-- Production-agent boundary: [[wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong]] argues that long-running agents with credentials and irreversible side effects require [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], and [[AgentResumability]].
-- Redesign and outcome test: [[ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq]] uses factory electrification to distinguish automation from redesign and argues that engineering efficiency should be traced to revenue or customer outcomes rather than treated as sufficient by itself.
+- Workflow and outcome redesign: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] places agents across the delivery lifecycle, while [[ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq]] distinguishes process redesign from automating inherited steps and requires outcome ownership.
+- Human judgment and ownership: [[modern-engineering-values]] reports that broad agent implementation moves the bottleneck toward product judgment, review, domain context, and taste.
+- Repository context: [[modern-engineering-values]] argues that code, specifications, architecture, values, and operational knowledge should be colocated because each agent session resembles a new contributor with incomplete context.
+- Guardrails and feedback: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] lists tests, CI/CD, feature flags, monitoring, task granularity, and architecture; [[modern-engineering-values]] adds changed-file scalability and test-first bug diagnosis.
+- Production runtime boundary: [[wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong]] requires [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], and [[AgentResumability]] for high-permission side-effecting work.
+- Team and stack design: [[modern-engineering-values]] proposes small explicit ownership units and re-evaluating third-party dependencies when agent labor lowers implementation cost.
+- Context fit: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] favors backend-heavy, measurable, internal-tool, and early-stage work over UI-dense or safety-critical domains.
 
 ## Counterevidence & Qualifications
-The AI-first source is partly a case-study translation and partly a skeptical commentary. Its strongest production claims come from [[CREAO]]'s reported two-month transformation, not from independent benchmark evidence. The electrification analogy is historically suggestive but does not establish the timing, productivity effect, or correct redesign for a particular software organization, and the masterclass notes offer no metric that causally connects engineering speed to revenue. Some necessary engineering work protects reliability, security, compliance, learning, or future option value without an immediate revenue line. The agent-infrastructure source adds that even strong workflow scaffolds may be insufficient when agents hold real credentials and act for many steps, because nondeterministic execution and irreversible side effects create recovery and security problems at the runtime layer.
+The evidence is practitioner-led rather than comparative organizational research. CREAO's transformation and Nakazawa's quality and productivity claims are self-reported; commits and changed lines do not establish customer value, maintainability, safety, or sustainable pace. The electrification analogy does not identify the right redesign for a particular company, and some reliability, compliance, accessibility, learning, or option-value work lacks an immediate revenue line. Small repositories and direct-to-main workflows can increase cross-system coordination or governance risk. Owning more of a stack can improve control while adding maintenance, security, compatibility, and staffing burdens. Finally, strong code-level verification remains insufficient when agents hold credentials or cause irreversible effects, and even semantic runtime controls cannot prove that the human goal or product decision was correct.
 
 ## What Changed
-- Added the production-agent qualification: AI-first autonomy needs semantic runtime infrastructure, not only workflow automation and verification.
-- Added factory electrification as a source-scoped analogy for redesigning work around new technical affordances.
-- Added business-outcome traceability as a qualification on local engineering-efficiency metrics.
+- Added repository-local context as shared human-agent infrastructure.
+- Added explicit ownership boundaries, small-team coordination, and selective stack ownership to the operating model.
+- Added risk-sensitive review and changed-file feedback speed as practical control surfaces.
+- Tightened the measurement boundary between implementation activity and product or business outcomes.
 
 ## Related Concepts
-- [[HarnessEngineering]] - provides the scaffold-building philosophy that makes AI-first engineering operational.
-- [[AICodingPractice]] - AI-first engineering broadens individual AI coding habits into team and organization workflows.
-- [[SoftwareVerification]] - deterministic validation is the main safety gate for AI-first implementation speed.
-- [[AIAgentCollaboration]] - both involve agents in software work, but this model relies more heavily on automated handoffs and pipelines.
-- [[HumanCodeResponsibility]] - human responsibility shifts toward architecture, constraints, and risk review.
-- [[JuniorEngineerLearning]] - the model raises questions about adaptation, learning, and role design for early-career engineers.
-- [[ProductionAgentInfrastructure]] - high-permission AI-first systems need agent-specific runtime infrastructure.
-- [[AgentResumability]] - resumability is a reliability target for long-running AI-first agents.
-- [[AIEraCareerImpact]] - extends outcome ownership and AI leverage from workflow design into an individual career heuristic.
+- [[HarnessEngineering]] - provides the instructions, tools, constraints, and feedback scaffolds used by AI-first workflows.
+- [[AICodingPractice]] - governs individual planning, delegation, review, verification, and learning inside the wider operating model.
+- [[SoftwareVerification]] - supplies deterministic behavioral evidence and release gates for generated changes.
+- [[LLMContextManagement]] - determines which repository and task information reaches an agent at the right time.
+- [[ProductionAgentInfrastructure]] - adds capability, side-effect, recovery, and audit controls for autonomous production work.
+- [[EngineeringManagerRoleDesign]] - allocates technical leadership, domain knowledge, and people responsibility under increased agent leverage.
+- [[DeveloperExperience]] - fast, scalable tooling controls the latency of agent feedback and correction.

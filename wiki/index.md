@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Modern Engineering Values](sources/modern-engineering-values.md) - Christoph Nakazawa argues that agent-era engineering shifts the constraint from implementation toward ownership, judgment, repository context, guardrails, feedback, and technical leadership.
 - [Outperforming cuBLAS on NVFP4](sources/outperforming-cublas-nvfp4.md) - Pranjal Shankhdhar combines Blackwell dataflow, compiler, tail, and split-L2 scheduling work into a shape-specific NVFP4 GEMM reported 4.7% faster than cuBLASLt.
 - [Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion](sources/foundation-model-kernel-optimization.md) - Duo An organizes foundation-model performance around on-chip dataflow, fused operator graphs, distributed execution, and model structure, with explicit measurement and quality boundaries.
 - [What is a Harness?](sources/what-is-a-harness.md) - Earendil defines an agent harness through instructions, tools, an agentic loop, and model translation, then argues that local open-source ownership can preserve user choice and session custody.
@@ -1247,6 +1248,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 
 ## Entities
+- [Christoph Nakazawa](entities/ChristophNakazawa.md) - Software engineer and product builder advocating ownership, repository-local context, strict feedback loops, and judgment-centered agent use.
 - [Pranjal Shankhdhar](entities/PranjalShankhdhar.md) - GPU performance writer and implementer reporting a GB300 NVFP4 kernel, reverse-engineered L2 topology, and shape-aware scheduling work.
 - [Duo An](entities/DuoAn.md) - Systems-oriented technical writer presenting a four-layer, resource-led field guide to foundation-model performance optimization.
 - [Earendil](entities/Earendil.md) - AI-software organization advocating neutral, locally owned agent harnesses and presenting Pi and Lefos as its projects.
@@ -3048,7 +3050,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brendan Eich](entities/BrendanEich.md) - Brave leader whose JavaScript, Mozilla, and Firefox background supports the article's credibility argument.
 - [bmpi.dev](entities/BMPIDev.md) - Developer-author documenting a low-cost hybrid AWS serverless application and its infrastructure tradeoffs.
 - [Orhun Parmaksız](entities/OrhunParmaksiz.md) - Rust and open-source developer advocating selective AI assistance, retained craft, and accountable software publication.
-- [Codex](entities/Codex.md) - OpenAI coding agent profiled through review-centered, high-autonomy, and test-conditioned systems workflows.
+- [Codex](entities/Codex.md) - OpenAI coding agent profiled through review-centered, high-autonomy, test-conditioned, and multi-project systems workflows.
 - [Peter Steinberger](entities/PeterSteinberger.md) - OpenClaw creator and software developer running a high-throughput, CLI-first, coding-agent-centered solo workflow.
 
 - [Vine](entities/Vine.md) - Six-second looping-video platform whose creator culture, weak monetization, and creator churn outpaced Twitter's strategy.

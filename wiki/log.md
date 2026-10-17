@@ -9777,6 +9777,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-18] ingest | Modern Engineering Values
+
+Created [[ChristophNakazawa]] and updated [[AIFirstEngineering]], [[EngineeringManagerRoleDesign]], and [[Codex]] from their complete ordered evidence inventories. Captured the shift from implementation toward judgment, strong ownership, repository-local context, strict guardrails, scalable feedback loops, selective stack ownership, option value, and renewed technical expectations for engineering managers. Preserved the disagreement over review depth and management's relationship to engineering, along with the limits of self-reported project outcomes, commit and changed-line metrics, expert workflow transfer, direct-to-main practice, and custom-stack maintenance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: 4be1764c64e3d55280f967f37795d61a56c1e88b
+as_of_overview_commit: d362719404da3fc31817f63d1ff0b150243a77b1
 summary: "Podcast Atlas connects systems to real workloads, then qualifies claims through measurement, incentives, authorship, failure boundaries, and explicit controls."
-episode_count: 1215
-source_count: 1215
-paragraph_count: 855
+episode_count: 1216
+source_count: 1216
+paragraph_count: 856
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage comes from workload-specific co-design across architecture, data movement, verification, observability, authority boundaries, and operational evidence.
+Technical leverage comes from workload-specific co-design across architecture, data movement, verification, observability, repository context, ownership, authority boundaries, and operational evidence.
 
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
 - [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs. Evidence: [[LLVM]], [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], [[VikramAdve]], [[ChrisLattner]].

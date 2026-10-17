@@ -855,12 +855,13 @@
       "b84d27068ee66a0e5b15670f86613821e09fac46841494a31c035028e9bdbdcc",
       "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02",
       "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
-      "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd"
+      "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
+      "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66"
     ],
-    "paragraph_count": 855
+    "paragraph_count": 856
   },
-  "overview_commit": "4be1764c64e3d55280f967f37795d61a56c1e88b",
-  "overview_digest": "81acc292a5c91db4f30e9a55bf68e0ba252cac0e2e6cf4c9ef82bb668953840f",
+  "overview_commit": "d362719404da3fc31817f63d1ff0b150243a77b1",
+  "overview_digest": "a42b88e46d3f62f6658dfeacb4aad157553e1898ff8325d49edcc6a2f38e722a",
   "paragraphs": [
     {
       "id": "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
@@ -17260,6 +17261,23 @@
         "Linkinator",
         "Lychee",
         "Muffet"
+      ]
+    },
+    {
+      "id": "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[ChristophNakazawa]] source extends [[AIFirstEngineering]] from lifecycle automation into ownership, repository, stack, and management design. In his reported workflow, [[Codex]] performs most implementation across Vite+, fate, Codiff, Athena Crisis, and Void, while proposal discussion, domain context, architectural direction, failing-test diagnosis, focused review, and final visual, functional, or test validation remain human controls. This strengthens the existing bottleneck shift from code production toward judgment and acceptance, and adds repository-local specifications, principles, commands, and product context as shared infrastructure for agents and people. Strict linting, automated tests, scalable changed-file checks, and short feedback loops become throughput controls rather than cleanup, while small ownership units and selective core-stack control are proposed responses to coordination and dependency costs. [[EngineeringManagerRoleDesign]] gains a qualified counterpoint to strict role separation: cheaper implementation may increase the need for current technical and domain judgment, but direct coding helps only when it multiplies team performance instead of displacing coaching, staffing, conflict resolution, and organizational care. The evidence is one expert's self-authored project account; twofold commit and threefold changed-line increases do not establish proportional customer value, reliability, maintainability, or sustainable pace, and the model, reasoning-level, review, repository, and direct-to-main preferences are task-, risk-, and time-specific. The source contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AIFirstEngineering",
+        "ChristophNakazawa",
+        "Codex",
+        "EngineeringManagerRoleDesign"
       ]
     }
   ],
