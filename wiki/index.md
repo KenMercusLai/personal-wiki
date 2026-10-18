@@ -1259,6 +1259,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Snowsky Echo Mini 固件逆向背后的故事](sources/echo-mini-sre.md) - RORIRI recounts an LLM-assisted firmware investigation, its context-isolation workflow, human validation boundaries, community editor, security implications, and variable-reward wellbeing risk.
 - [How to Build Your Own Custom LLM Memory Layer from Scratch](sources/custom-llm-memory-layer.md) - Avishek Biswas implements atomic extraction, per-user vector retrieval, optional ReAct lookup, and explicit memory maintenance while exposing important code and evaluation gaps.
+- [像管理代码一样管理需求：B端产品经理的Gemini全家桶实战指南](sources/manage-requirements-like-code.md) - Zhang documents a Gemini-centered workflow for versioned PRDs, governed edits, Mermaid flows, HTML prototypes, NotebookLM continuity, and deterministic data analysis.
 
 ## Entities
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
@@ -4847,5 +4848,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LLM Variable-Reward Risk](concepts/LLMVariableRewardRisk.md) - Proposed wellbeing risk from rapid uncertain progress cycles that weaken natural stopping points.
 
 - [Tech Employment Regime Shift](concepts/TechEmploymentRegimeShift.md) - Proposed shift from cheap-capital hiring and broad experimentation toward profitability, executive focus, layoffs, and weaker engineer bargaining power.
+- [Requirements as Code](concepts/RequirementsAsCode.md) - Product-work discipline treating requirements, diagrams, and prototypes as structured, versioned, reviewed, and recoverable artifacts.
 
 ## Syntheses

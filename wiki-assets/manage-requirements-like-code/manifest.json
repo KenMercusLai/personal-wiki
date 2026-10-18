@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source_key": "manage-requirements-like-code",
+  "images": [
+    {
+      "file": "gemini-gems-creation.png",
+      "alt": "Gemini custom Gem editor configuring the PRD assistant, its instructions, Canvas default tool, and optional knowledge files"
+    },
+    {
+      "file": "gemini-gems-ai-model-select.png",
+      "alt": "PRD assistant startup gate asking the user to select Gemini 3 Pro or Thinking before continuing"
+    },
+    {
+      "file": "gemini-gems-docs-version-control.png",
+      "alt": "Gemini Canvas PRD showing prototype linkage and a dated V1.0.0 version-change record"
+    },
+    {
+      "file": "gemini-gems-instructions-plan-confirm-execute.png",
+      "alt": "Gemini change briefing listing planned PRD edits and waiting for explicit confirmation before execution"
+    },
+    {
+      "file": "gemini-prd-review-prompts.png",
+      "alt": "Gemini PRD assistant responding to the review basic command with a structured completeness audit"
+    },
+    {
+      "file": "gemini-prd-mermaid-code.png",
+      "alt": "Gemini Canvas PRD containing Mermaid sequence-diagram code for a chargeback workflow"
+    },
+    {
+      "file": "feishu-insert-mermaid-code.png",
+      "alt": "Feishu document slash menu selecting the Mermaid-based text drawing component"
+    },
+    {
+      "file": "feishu-mermaid-code-view.png",
+      "alt": "Feishu split view showing editable Mermaid sequence code beside the rendered business-flow diagram"
+    },
+    {
+      "file": "gemini-prototype-share.png",
+      "alt": "Gemini Canvas interactive chargeback dashboard prototype with Share and Copy contents actions"
+    },
+    {
+      "file": "netlify-host-gemini-html.png",
+      "alt": "Netlify project deployment screen used to host a stable public URL for the changing Gemini prototype"
+    },
+    {
+      "file": "gemini-link-to-notebooklm.png",
+      "alt": "Gemini conversation with a NotebookLM project attached while requesting a V1.1.0 PRD update from V1.0.0"
+    }
+  ]
+}

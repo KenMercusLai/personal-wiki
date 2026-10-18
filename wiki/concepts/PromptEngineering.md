@@ -4,7 +4,8 @@ type: concept
 tags: [ai, llm, prompting, context-engineering]
 sources:
   - philipp-schmid-gemini-3-prompting-best-practices-for-general-usage
-last_updated: 2026-10-01
+  - manage-requirements-like-code
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,16 +17,18 @@ knowledge_schema: synthesis-v1
 
 For more complex work, the prompt can request decomposition, an input-completeness check, method selection, progress tracking, and a final constraint review. Agentic variants add persistence and recovery when a tool fails, while research variants require claim-level citation. Multimodal tasks need the instructions to identify which text, image, audio, or video inputs must be combined rather than leaving the model to treat them as unrelated attachments.
 
-The source's most durable principle is experimental: templates are baselines. Extra planning, reflection, tags, or personas should earn their cost through better task results, and practices that work for one model, domain, or latency budget should be measured before becoming defaults elsewhere.
+Zhang's custom product-management Gem shows how that interface contract can become a reusable operating protocol. Its instructions define initialization, document schema, semantic versions, atomic-edit boundaries, plan-confirm-execute gates, named review commands, PRD/prototype synchronization rules, session isolation, and separate channels for discussion and deliverables. This moves prompting from wording a single request toward governing a multi-artifact workflow, while also showing the risk that a long natural-language contract becomes internally inconsistent or only partially followed.
+
+The most durable principle across both sources is experimental: templates are baselines. Extra planning, reflection, tags, personas, gates, or protocols should earn their cost through better task results, and practices that work for one model, domain, or latency budget should be measured before becoming defaults elsewhere.
 
 ## Key Claims
-- State the goal, definitions, constraints, and desired output directly and concisely.
-- Use consistent boundaries to distinguish instructions, source material, process, and output format.
+- State the goal, definitions, constraints, desired output, and boundaries among instructions, source material, process, and output directly and consistently.
 - Put durable behavior constraints early, but place a question about a large supplied context after the evidence and anchor it back to that material.
 - Ask for decomposition, missing-input detection, method selection, or self-review when task complexity justifies the added process.
 - Reference modalities explicitly when an answer must synthesize text, images, audio, or video.
 - Tie agentic persistence and tool use to verification, failure recovery, and the user's actual completion criterion.
-- Treat every template as a model- and task-dependent hypothesis to iterate and evaluate.
+- Reusable system instructions can define commands, state transitions, approval boundaries, artifact identity, and output channels for a continuing workflow.
+- Treat every template or protocol as a model- and task-dependent hypothesis to iterate and evaluate.
 
 ## Evidence
 - Direct contract: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] recommends precise instructions, defined parameters, explicit verbosity, and consistent XML or Markdown structure.
@@ -34,14 +37,17 @@ The source's most durable principle is experimental: templates are baselines. Ex
 - Reasoning workflow: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] supplies decomposition, completeness, alternative-method, outline, and critique checklists.
 - Agentic execution: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] combines persistence after tool failure with pre-tool statements of purpose and expected evidence.
 - Iteration boundary: [[philipp-schmid-gemini-3-prompting-best-practices-for-general-usage]] calls its template a starting point and says optimal structure depends on data, latency, task, and domain.
+- Workflow protocol: [[manage-requirements-like-code]] defines a custom Gem whose instructions govern initialization, PRD structure, versions, scoped edits, review commands, Canvas output, and cross-artifact synchronization.
+- Approval boundary: [[manage-requirements-like-code]] shows a change briefing that stops for explicit confirmation before mutating the PRD and requires permission before synchronizing the prototype.
+- Recovery behavior: [[manage-requirements-like-code]] recommends topic isolation, artifact export, a structured context-migration summary, and a clean session after sustained answer drift.
 
 ## Counterevidence & Qualifications
-The evidence is one author's experience with Gemini 3 Pro, not a controlled comparison across prompts, models, tasks, or users. The source does not measure whether explicit planning, TODO tracking, pre-tool reflection, self-critique, XML, or Markdown improves correctness enough to justify extra tokens and latency. Requiring visible reasoning or repeated reflection may produce ceremonial text rather than better decisions, and rigid personas or formats can distract from simple tasks. Model training and product behavior also change, so model-specific advice should be retested; high-stakes work still needs external evidence, deterministic checks, and accountable human review rather than confidence in prompt wording alone.
+The evidence comes from two practitioner accounts, not controlled comparisons across prompts, models, tasks, or users. Neither measures whether explicit planning, review personas, approval gates, TODO tracking, self-critique, XML, Markdown, or channel rules improve correctness enough to justify extra tokens, latency, and interaction. Visible process can become ceremonial, and a long instruction contract can contain competing rules or be followed selectively. The product-management case also embeds version history in generated prose rather than an independently enforced store. Model training and product behavior change, so model-specific advice should be retested; high-stakes work still needs external evidence, deterministic checks, and accountable human review rather than confidence in prompt wording alone.
 
 ## What Changed
-- Created the concept from Schmid's Gemini 3 prompting principles and reusable templates.
-- Reconciled early constraint placement with end-positioned questions over large evidence blocks as separate prompt layers.
-- Made empirical evaluation and model specificity explicit boundaries on template reuse.
+- Extended prompt engineering from single-task structure to reusable workflow protocols with commands, gates, artifact identity, and output channels.
+- Added instruction-length, partial-compliance, and ceremonial-process risks.
+- Preserved empirical evaluation and model specificity as boundaries on template reuse.
 
 ## Related Concepts
 - [[LLMContextManagement]] - prompt placement and selective context determine what instructions and evidence remain salient.
@@ -50,3 +56,4 @@ The evidence is one author's experience with Gemini 3 Pro, not a controlled comp
 - [[PromptCaching]] - stable reusable prompt prefixes can affect the cost of instruction structure.
 - [[SchemaBasedReasoning]] - explicit structures can constrain how inputs and outputs are organized.
 - [[SoftwareVerification]] - external checks are stronger evidence of correctness than self-critique alone.
+- [[RequirementsAsCode]] - applies prompt-level workflow contracts to versioned PRDs, prototypes, reviews, and recovery.

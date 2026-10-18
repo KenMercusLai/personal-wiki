@@ -9881,3 +9881,11 @@ Created [[TechEmploymentRegimeShift]] and updated [[SeanGoedecke]] and [[Organiz
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | 像管理代码一样管理需求：B端产品经理的Gemini全家桶实战指南
+
+Created [[RequirementsAsCode]] and updated [[Gemini]], [[NotebookLM]], and [[PromptEngineering]] from their complete ordered evidence inventories. Captured the custom-Gem operating protocol, semantic PRD and prototype versions, atomic edit and approval gates, role-based reviews, editable Mermaid flows, stable prototype entry URL, NotebookLM-backed iteration, executed spreadsheet analysis, and context-reset practice. Preserved the practitioner-only scope, distinction between text version records and real source control, unmeasured retrieval and review accuracy, cloud-data-governance boundary, and continuing need for accountable human and executable verification. Opened and retained all 11 evidence-bearing screenshots at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
