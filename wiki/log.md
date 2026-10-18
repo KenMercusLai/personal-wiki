@@ -9820,3 +9820,10 @@ Created [[Lakebase]], [[Databricks]], [[DatabaseBranching]], and [[Disaggregated
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-10-18] ingest | 中文独立博客的年化“腐烂率”——8%
+
+Created [[LinkRot]], [[YZQZSS]], and [[ForeverBlog]], and updated [[DigitalContentDurability]] from its complete ordered evidence inventory. Recorded the source's 8.41% annual site-loss calculation, later 10–12% article-link-loss estimate, redirect-related failures, screened-cohort comparison, and individual-versus-concentrated hosting tradeoff. Preserved the differing units and classifications, stable-hazard assumption, broad “abnormal” category, small article sample, and missing reproducibility details. The supplied source contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

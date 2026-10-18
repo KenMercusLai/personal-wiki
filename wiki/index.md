@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [中文独立博客的年化“腐烂率”——8%](sources/chinese-blogs-link-rot-2022.md) - YZQZSS reports source-scoped annual loss estimates for Chinese independent-blog sites and article URLs, with migration, cohort, and hosting-risk qualifications.
 - [生活在字典树上 —— 存储和匹配海量的域名和 IP 地址](sources/store-domains-ips-text-only.md) - Sukka derives typed proxy-rule indexes using reversed and radix tries, Aho–Corasick failure links, and Tree Bitmap CIDR lookup, with nine archived demonstrations missing.
 - [云风的 BLOG: 用地标改进 A star 寻路的启发函数](sources/yun-feng-de-blog-yong-di-biao-gai-jin-a-star-xun-lu-de-qi-fa-han-shu.md) - 云风 derives a landmark-distance lower bound and proposes reusing fixed-destination flow directions to guide A* around obstacles, with unproven selection and directed-graph boundaries.
 - [Scaling Elections with GPUs and Mojo across Nvidia and AMD 🔥](sources/scaling-elections.md) - Ash Vardanian maps Schulze strongest paths onto blocked CPU and GPU execution, reporting cross-vendor Mojo portability while preserving voting and benchmark limits.
@@ -1252,6 +1253,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lakebase: Serverless Postgres over Open Lake Storage](sources/p4385-pandis.md) - Databricks and Neon authors describe disaggregated PostgreSQL compute, quorum WAL, versioned Pageservers, object storage, branching, elasticity, and Lakehouse access.
 
 ## Entities
+- [YZQZSS](entities/YZQZSS.md) - Chinese independent-blog author who estimated site-level and article-level link-loss rates.
+- [十年之约 (ForeverBlog)](entities/ForeverBlog.md) - Screened Chinese independent-blog catalog used as a higher-persistence comparison cohort.
 - [云风](entities/YunFeng.md) - Technical blogger presenting landmark-distance and flow-field guidance for A* pathfinding.
 - [Christoph Nakazawa](entities/ChristophNakazawa.md) - Software engineer and product builder advocating ownership, repository-local context, strict feedback loops, and judgment-centered agent use.
 - [Pranjal Shankhdhar](entities/PranjalShankhdhar.md) - GPU performance writer and implementer reporting a GB300 NVFP4 kernel, reverse-engineered L2 topology, and shape-aware scheduling work.
@@ -3235,6 +3238,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
 
 ## Concepts
+- [Link Rot](concepts/LinkRot.md) - Loss of access or intended meaning at a URL through site, domain, route, certificate, hosting, or redirect failure.
 - [Proxy Rule-Set Semantics](concepts/ProxyRuleSetSemantics.md) - Separation of within-set Boolean OR matching from the ordered evaluation of distinct proxy rule sets.
 - [Domain Trie Indexing](concepts/DomainTrieIndexing.md) - Reversed domain hierarchy, terminal match metadata, node-granularity tradeoffs, and radix compression for scalable lookup.
 - [Aho–Corasick Matching](concepts/AhoCorasickMatching.md) - Multi-pattern string matching through a forward trie and failure links that avoid restarting input traversal.
