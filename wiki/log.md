@@ -9857,3 +9857,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | Snowsky Echo Mini 固件逆向背后的故事
+
+Created [[SnowskyEchoMini]], [[FlameOcean]], [[AIAssistedReverseEngineering]], [[ContextIsolatedMultiModelWorkflow]], and [[LLMVariableRewardRisk]], and updated [[RORIRI]] and [[NotebookLM]] from their complete ordered evidence inventories. Captured the firmware investigation, model-induced evidence corruption, human visual and physical validation, problem-tree and task-brief/report workflow, community editor, security implications, and variable-reward wellbeing warning. Preserved the first-person scope, missing expert baseline and independent reproduction, device-specific update result, unmeasured model contribution, and non-clinical reinforcement analogy. The single cover image was opened and omitted as decorative generic circuit-board artwork, so no visual asset or manifest was required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

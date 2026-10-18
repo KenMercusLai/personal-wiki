@@ -1256,6 +1256,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A leap year check in three instructions](sources/leap-year-three-instructions.md) - Falk Hüffner explains a Z3-discovered branchless leap-year predicate that is correct through year 102499 and conditionally faster in a microbenchmark.
 - [Lakebase: Serverless Postgres over Open Lake Storage](sources/p4385-pandis.md) - Databricks and Neon authors describe disaggregated PostgreSQL compute, quorum WAL, versioned Pageservers, object storage, branching, elasticity, and Lakehouse access.
 
+- [Snowsky Echo Mini 固件逆向背后的故事](sources/echo-mini-sre.md) - RORIRI recounts an LLM-assisted firmware investigation, its context-isolation workflow, human validation boundaries, community editor, security implications, and variable-reward wellbeing risk.
+
 ## Entities
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
 - [Monty](entities/Monty.md) - Restricted Python interpreter representing a very-low-startup but lower-compatibility sandbox option.
@@ -3247,6 +3249,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lakebase](entities/Lakebase.md) - Serverless PostgreSQL service separating compute, WAL durability, page materialization, and object-store persistence.
 - [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
 
+- [Snowsky Echo Mini](entities/SnowskyEchoMini.md) - Compact cassette-styled audio player whose UI resources, font renderer, and update path were reverse-engineered.
+- [Flame Ocean](entities/FlameOcean.md) - Browser-based editor for replacing Echo Mini firmware images, animations, and fonts.
+
 ## Concepts
 - [AI-Era CS Education](concepts/AIEraCSEducation.md) - Curriculum and assessment design for preserving foundational understanding while teaching accountable AI-assisted implementation.
 - [Unikernel](concepts/Unikernel.md) - Application-specific machine image whose small surface and fast boot trade against Python, process, and tooling compatibility.
@@ -4830,5 +4835,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Selective JSON Parsing](concepts/SelectiveJSONParsing.md) - Processing only required JSON fields while avoiding eager native-object creation for unused values.
 - [Database Branching](concepts/DatabaseBranching.md) - Copy-on-write forking of database history at a consistent version for isolated development, recovery, and agent workflows.
 - [Disaggregated Transactional Database](concepts/DisaggregatedTransactionalDatabase.md) - Architecture separating transaction execution, quorum WAL, page materialization, and durable storage.
+
+- [AI-Assisted Reverse Engineering](concepts/AIAssistedReverseEngineering.md) - Model-accelerated binary investigation bounded by evidence provenance, human judgment, verification, and security consequences.
+- [Context-Isolated Multi-Model Workflow](concepts/ContextIsolatedMultiModelWorkflow.md) - Separation of durable knowledge and current execution through problem trees, structured briefs, reports, and independent critique.
+- [LLM Variable-Reward Risk](concepts/LLMVariableRewardRisk.md) - Proposed wellbeing risk from rapid uncertain progress cycles that weaken natural stopping points.
 
 ## Syntheses

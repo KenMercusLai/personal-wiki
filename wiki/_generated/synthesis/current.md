@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: eb09384018dfaf8083beec9124a71fdf2692d57e
+as_of_overview_commit: 3a0b12b842e317f965a80ef8ed28e42b9dc5a008
 summary: "Podcast Atlas connects systems and institutions to real workloads through verification, incentives, learning, authorship, failure boundaries, and accountable control."
-episode_count: 1225
-source_count: 1225
-paragraph_count: 860
+episode_count: 1226
+source_count: 1226
+paragraph_count: 861
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific co-design across architecture, data movement, context, verification, observability, ownership, authority, and operational evidence; AI-era education adds that generated artifacts must not be confused with demonstrated understanding.
+Technical leverage depends on workload-specific co-design across architecture, data movement, context, verification, observability, ownership, authority, operational evidence, and healthy stopping boundaries; generated artifacts and confident model output must not be confused with demonstrated understanding or validated evidence.
 
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].

@@ -13,15 +13,16 @@ sources:
   - jian-dan-yi-dong-de-you-du-zhi-chang-lian-cheng-shu-luo-li-li-de-shu-ju-zhong-xin
   - sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin
   - vibe-coding
-last_updated: 2026-10-17
+  - echo-mini-sre
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, workplace-management tools, persona simulation, durable reader custody of web content, and architecture-conscious AI-assisted product development.
+[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, workplace-management tools, persona simulation, durable reader custody of web content, architecture-conscious AI-assisted product development, and an LLM-assisted firmware reverse-engineering project.
 
 ## Current Profile
-Within this wiki, RORIRI appears as a technical commentator and educator who connects practical tools to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, incentives, agency, software architecture, and digital custody. The LLM and AX sources connect context management with user intent, external action, permissions, transparency, and humanistic design. The education, statistics, UX, and vibe-coding sources turn model thinking into concrete lessons about problem definition, evidence chains, real-user contact, error, architecture, verification, cognitive load, and apparently contradictory findings. The persona and workplace essays apply the same label-versus-mechanism scrutiny to identity simulation, content incentives, OKRs, KPIs, Agile, and waterfall planning. The Sneakerweb essay expands that pattern beyond AI: hosted access, subscriptions, electronic licenses, DNS names, and certificate chains are treated as mechanisms whose promises should not be confused with reader possession; publisher-generated archives and the author's Walky6 prototype are offered as an experimental path toward durable custody.
+Within this wiki, RORIRI appears as a technical commentator, educator, and experimental builder who connects practical tools to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, incentives, agency, software architecture, digital custody, and wellbeing. The LLM and AX sources connect context management with user intent, external action, permissions, transparency, and humanistic design. The education, statistics, UX, and vibe-coding sources turn model thinking into concrete lessons about problem definition, evidence chains, real-user contact, error, architecture, verification, cognitive load, and apparently contradictory findings. The persona and workplace essays apply the same label-versus-mechanism scrutiny to identity simulation, content incentives, OKRs, KPIs, Agile, and waterfall planning. The Sneakerweb and Echo Mini projects add prototype evidence: Walky6 explores durable reader custody, while [[FlameOcean]] grew from a firmware investigation that required structured notes, a problem tree, multiple models, human perceptual judgment, physical tests, and explicit attention to security and compulsive-feedback risks.
 
 ## Key Characteristics
 - Explains LLM tooling concepts through context management, action control, retrieval, memory, and active compression.
@@ -29,8 +30,8 @@ Within this wiki, RORIRI appears as a technical commentator and educator who con
 - Extends computational thinking for AI-era education through statistics, abstraction/programming, academic writing, and taste as problem sense.
 - Explains statistics through examples that distinguish data-generation assumptions, sample relationships, model error, residuals, inference uncertainty, and plausible explanations that blur diagnostics or target quantities.
 - Treats UX research reporting as information design, where data layers and contradictions require an explicit explanatory chain.
-- Critiques LLM sycophancy, persona-resurrection rhetoric, management-by-relabeling, and AI productivity reductionism, proposing clearer boundaries around cognition, intent, identity, metrics, feedback, architecture, accountability, and tool purpose.
-- Extends user agency from software interaction to digital custody by comparing live service access with complete, reader-held web archives.
+- Critiques LLM sycophancy, persona-resurrection rhetoric, management-by-relabeling, AI productivity reductionism, and unverified reverse-engineering confidence, proposing clearer boundaries around cognition, intent, identity, metrics, evidence, architecture, accountability, and tool purpose.
+- Builds experimental tools while treating human perception, physical validation, context hygiene, digital custody, and healthy stopping points as limits on model autonomy.
 
 ## Evidence
 - Context frame: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] ties Skills, MCP, RAG, Memory, and Computer Use to context pollution and context limits.
@@ -59,13 +60,19 @@ Within this wiki, RORIRI appears as a technical commentator and educator who con
 - AI-speed qualification: [[vibe-coding]] argues that faster code generation can accelerate architectural decay and should release time for debt reduction, documentation, testing, and review.
 - Human boundary: [[vibe-coding]] permits LLM-assisted analysis of real research records but rejects generated personas, simulated empathy, and model output as substitutes for users or accountable human judgment.
 - Agent operating system: [[vibe-coding]] proposes local model evaluation, provider diversity, precise falsifiable communication, hooks, memory, lint rules, phased documents, independent review, and layered tests.
+- Reverse-engineering practice: [[echo-mini-sre]] reports using models to inspect firmware, generate instruments, trace rendering logic, and build [[FlameOcean]], while retaining human control over visual judgment, missing-information search, physical tests, and credibility decisions.
+- Context isolation: [[echo-mini-sre]] separates durable notes and problem-tree planning in [[NotebookLM]] from bounded GLM execution through fixed task briefs and reports.
+- Failure correction: [[echo-mini-sre]] traces torn glyphs to a model-generated repair script, showing that an early unverified transformation can corrupt an entire downstream analysis.
+- Wellbeing boundary: [[echo-mini-sre]] reports stress and difficulty stopping under rapid, uncertain model feedback and frames emotional state and stopping capacity as engineering variables.
 
 ## Qualifications
-The wiki's RORIRI evidence is still limited to explanatory essays, practitioner cases, and first-person experiments rather than formal specifications, empirical education or management research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, validated agent-safety standards, comparative software-delivery studies, or independent protocol audits. The persona article's fit percentage and allegations about unnamed farmers are subjective. The workplace essay's OKR and sprint prescriptions are not universal standards. The vibe-coding essay's claims about model empathy, vendor diversity, architectural decay, documentation structure, cumulative agent approval, and linting practice are plausible mechanisms and personal operating rules rather than measured outcome evidence. The Sneakerweb comparison likewise reflects the author's preservation priorities; its Cuban access figures are uncited, and the prototype supplies no adoption, usability, performance, security, or long-term replay evidence.
+The wiki's RORIRI evidence is still limited to explanatory essays, practitioner cases, and first-person experiments rather than formal specifications, empirical education or management research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, validated agent-safety standards, comparative software-delivery studies, clinical wellbeing evidence, or independent protocol and firmware audits. The persona article's fit percentage and allegations about unnamed farmers are subjective. The workplace essay's OKR and sprint prescriptions are not universal standards. The vibe-coding essay's claims about model empathy, vendor diversity, architectural decay, documentation structure, cumulative agent approval, and linting practice are plausible mechanisms and personal operating rules rather than measured outcome evidence. The Sneakerweb comparison likewise reflects the author's preservation priorities; its Cuban access figures are uncited, and the prototype supplies no adoption, usability, performance, security, or long-term replay evidence. The Echo Mini account cannot separate model contribution from persistence, documentation, tools, friends, and community help; its device-security and variable-reward claims should remain source-scoped.
 
 ## What Changed
-- Added AI-assisted product development and software architecture to RORIRI's mechanism-focused profile.
-- Added real-user research, human accountability, durable agent documentation, executable constraints, and debt reduction as recurring boundaries around AI leverage.
+- Added experimental firmware reverse engineering and [[FlameOcean]] to RORIRI's builder profile.
+- Added problem trees, task-brief/report handoffs, multi-model critique, and clean-context resets as long-horizon collaboration practices.
+- Added visual and physical validation, missing-information search, and transformation provenance as limits on model-led analysis.
+- Added compulsive feedback and sustained stress as wellbeing qualifications on productive AI use.
 
 ## Relationships
 - [[LLMContextManagement]] - RORIRI uses this as the unifying frame for LLM tooling terms.
@@ -101,3 +108,7 @@ The wiki's RORIRI evidence is still limited to explanatory essays, practitioner 
 - [[TechnicalDebt]] - RORIRI argues that rapid implementation can accelerate architectural decay unless saved time is reinvested in repair.
 - [[SpecDrivenAgentDevelopment]] - RORIRI proposes persistent requirement, architecture, revision, and review artifacts for agent work.
 - [[UserJourneyMapping]] - RORIRI uses journeys to bridge observed user experience into opportunities and measurable product decisions.
+- [[AIAssistedReverseEngineering]] - RORIRI's Echo Mini project combines model execution with human evidence checks and device testing.
+- [[ContextIsolatedMultiModelWorkflow]] - RORIRI separates knowledge maintenance, task formulation, execution, and critique across bounded contexts.
+- [[LLMVariableRewardRisk]] - RORIRI identifies dense uncertain feedback as a potential barrier to healthy stopping.
+- [[FlameOcean]] - RORIRI built this firmware-resource editor from the reverse-engineering findings.

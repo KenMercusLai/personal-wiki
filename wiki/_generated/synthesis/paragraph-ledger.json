@@ -860,12 +860,13 @@
       "33cfe080660287a25c152f82b3b47a77d920f1004f572ce19f890a0da452ad02",
       "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
-      "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66"
+      "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66",
+      "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37"
     ],
-    "paragraph_count": 860
+    "paragraph_count": 861
   },
-  "overview_commit": "eb09384018dfaf8083beec9124a71fdf2692d57e",
-  "overview_digest": "a6b0eea946af5d6eb7e8f3a21badbc945cebda708b0b4a3d85ea75462615fb7f",
+  "overview_commit": "3a0b12b842e317f965a80ef8ed28e42b9dc5a008",
+  "overview_digest": "4ba2a0a2ce4b6285da4318890673b0855215fe9f8e29ddfcc0fc83011cae7625",
   "paragraphs": [
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -17344,6 +17345,25 @@
         "ChristophNakazawa",
         "Codex",
         "EngineeringManagerRoleDesign"
+      ]
+    },
+    {
+      "id": "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[RORIRI]] source adds [[AIAssistedReverseEngineering]] through a first-person [[SnowskyEchoMini]] firmware project. GLM 4.7 reportedly accelerated chip, partition, filesystem, bitmap, font, renderer, and tool investigation, but a model-generated repair script corrupted the evidence, the model repeatedly accepted visibly torn glyphs, and a missed compiler strength-reduction pattern stalled analysis. Human vision, a manually recovered TRM, device metadata, physical firmware testing, and a clean [[NotebookLM]] evidence context corrected those failures. [[ContextIsolatedMultiModelWorkflow]] captures the resulting operating pattern: indexed notes and a dynamic problem tree stay on the knowledge side, fixed-format briefs cross into a narrow execution context, structured reports return, and models can exchange constructive criticism while the person retains routing and acceptance authority. The work produced [[FlameOcean]] and community themes, but also widens the security boundary because easier firmware analysis can support customization or offense. [[LLMVariableRewardRisk]] adds a separate wellbeing qualification: rapid uncertain progress, constant breakthrough language, and no natural stopping point reportedly sustained late-night work and stress, especially under ADHD hyperfocus. These are source-scoped observations without expert baseline, independent reproduction, clinical assessment, exploit audit, or proof that multi-model agreement removes correlated error. The generic circuit-board cover was inspected and omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIAssistedReverseEngineering",
+        "ContextIsolatedMultiModelWorkflow",
+        "FlameOcean",
+        "LLMVariableRewardRisk",
+        "NotebookLM",
+        "RORIRI",
+        "SnowskyEchoMini"
       ]
     }
   ],
