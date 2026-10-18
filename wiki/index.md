@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The good times in tech are over](sources/the-good-times-in-tech-are-over.md) - Sean Goedecke attributes the post-boom engineering labor shift to costlier capital, the end of COVID hiring, and narrower executive priorities while treating AI displacement as an unsupported contemporary explanation.
 - [AI 时代的本科 CS 教育随想](sources/ai-shi-dai-de-ben-ke-cs-jiao-yu-sui-xiang-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji.md) - A practitioner reflection arguing that coding agents weaken take-home assignments as evidence of mastery and shift CS education toward architecture, judgment, verification, visible reasoning, and equitable AI-enabled assessment.
 - [Agent sandbox 可能的选型以及 unikernel 的机会](sources/unikernel-agent.md) - Gao Ce compares containers, Firecracker platforms, Kata, WebAssembly, Monty, and unikernels while arguing that compatibility, snapshots, packaging, and image delivery matter alongside boot latency.
 - [The differences between QEMU microvm and Cloud Hypervisor](sources/qemu-cloud-hypervisor.md) - Peter Hasko-Nagy compares API, device, snapshot, migration, and hotplug tradeoffs for two lightweight VMM choices.
@@ -1520,7 +1521,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [OpenFlow](entities/OpenFlow.md) - Open control protocol represented as the programmable forwarding substrate and mediation boundary used by FlowVisor.
 - [Seth Godin](entities/SethGodin.md) - Author who frames preparation, resourcefulness, relationships, and tool choice as substantive forms of hard work.
 - [Sean Kelly](entities/SeanKelly.md) - Software engineer and writer represented through a conditional critique of premature microservice adoption.
-- [Sean Goedecke](entities/SeanGoedecke.md) - Software engineer and writer represented through a simplicity-first, state-centered, and failure-aware approach to system design.
+- [Sean Goedecke](entities/SeanGoedecke.md) - Software engineer and writer applying incentive-first reasoning to system design and the changing technology employment bargain.
 - [Nielsen Norman Group](entities/NielsenNormanGroup.md) - UX research and guidance organization represented as publisher of the six-part brand-vocabulary framework.
 - [Kate Kaplan](entities/KateKaplan.md) - Nielsen Norman Group coauthor connecting shared brand terminology to UX decisions.
 - [Sarah Gibbons](entities/SarahGibbons.md) - Nielsen Norman Group coauthor connecting shared brand terminology to UX decisions.
@@ -4844,5 +4845,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-Assisted Reverse Engineering](concepts/AIAssistedReverseEngineering.md) - Model-accelerated binary investigation bounded by evidence provenance, human judgment, verification, and security consequences.
 - [Context-Isolated Multi-Model Workflow](concepts/ContextIsolatedMultiModelWorkflow.md) - Separation of durable knowledge and current execution through problem trees, structured briefs, reports, and independent critique.
 - [LLM Variable-Reward Risk](concepts/LLMVariableRewardRisk.md) - Proposed wellbeing risk from rapid uncertain progress cycles that weaken natural stopping points.
+
+- [Tech Employment Regime Shift](concepts/TechEmploymentRegimeShift.md) - Proposed shift from cheap-capital hiring and broad experimentation toward profitability, executive focus, layoffs, and weaker engineer bargaining power.
 
 ## Syntheses

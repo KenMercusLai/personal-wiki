@@ -4,17 +4,20 @@ type: concept
 tags: [software-engineering, organizations, incentives, quality]
 sources:
   - my-thoughts-on-the-bun-rust-rewrite
-last_updated: 2026-10-16
+  - the-good-times-in-tech-are-over
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[OrganizationalEngineeringIncentives]] are the ownership, financing, leadership, staffing, schedule, and reward conditions that determine whether a team invests in review, testing, defect removal, maintainability, and sustainable work.
+[[OrganizationalEngineeringIncentives]] are the ownership, financing, leadership, staffing, schedule, and reward conditions that determine which technical work an organization funds, how it defines value, and whether teams invest in review, testing, defect removal, maintainability, and sustainable work.
 
 ## Current Synthesis
-Kelley's Bun retrospective argues that language comparisons can conceal the organizational causes of software outcomes. Memory-safety features, style rules, test suites, LTO, and rewrites may all matter, but none allocates time to inspect code, fuzz behavior, remove bugs, limit technical debt, or listen to external guidance. In this account, venture-backed urgency and an exit orientation rewarded rapid feature throughput while weak management discouraged experienced Zig contributors from joining, reducing both quality investment and access to relevant talent.
+The sources describe incentives at two scales. Kelley's Bun retrospective argues that language comparisons can conceal the organizational causes of software quality: features, style rules, test suites, and rewrites do not allocate time for review, fuzzing, defect removal, technical-debt control, or external guidance. Goedecke's labor-market essay widens the mechanism by arguing that capital cost and executive focus determine whether companies fund whole categories of engineering work in the first place.
 
-The source also connects technical incentives to ecosystem relationships. A commercial user may credit and fund an open-source dependency, yet still impose reputational and support costs when its practices become publicly identified with that dependency. The eventual language rewrite then changes not only implementation but institutional boundaries. This is a plausible mechanism from one participant's retrospective, not a controlled explanation of Bun's defects or rewrite outcome.
+Together they distinguish local quality practice from portfolio selection. Cheap capital can support hiring, developer experience, open source, platform expansion, and speculative projects; tighter conditions can concentrate resources on a smaller set of leadership-selected bets. Within any selected bet, management still determines review capacity, staffing, psychological safety, and cleanup time. Corporate priority and technical quality are therefore related but not interchangeable: advancing an executive plan does not establish that the plan is durable, safe, ethical, or technically sound.
+
+Both mechanisms remain source-scoped. Kelley's account is adversarial and project-specific, while Goedecke offers no causal labor-market evidence that rates alone produced the sector shift. They support an investigative framework—follow money, authority, staffing, and rewards—rather than a complete explanation of software outcomes.
 
 ## Key Claims
 - Language features and style guidance cannot substitute for engineering time allocated to review, testing, fuzzing, defect removal, and technical-debt reduction.
@@ -22,7 +25,8 @@ The source also connects technical incentives to ecosystem relationships. A comm
 - Management quality affects technical outcomes by shaping communication, expectations, retention, and access to experienced contributors.
 - Test suites support review but do not automatically justify large volumes of unreviewed code or prove coverage of unmeasured failure modes.
 - Commercial open-source users can create both funding benefits and reputational or community costs for the upstream project.
-- A rewrite may change organizational ownership and public association without proving that the previous language caused the underlying problems.
+- Capital conditions and executive portfolio choices can determine whether entire categories of engineering work receive funding.
+- Work rewarded as company value may diverge from engineers' technical interests and from durable safety, quality, or ethical obligations.
 
 ## Evidence
 - Resource-allocation mechanism: [[my-thoughts-on-the-bun-rust-rewrite]] argues that TigerBeetle's quality reflects time spent eliminating defects and maintaining a healthy upstream relationship, not language features alone.
@@ -30,14 +34,16 @@ The source also connects technical incentives to ecosystem relationships. A comm
 - Talent and management: [[my-thoughts-on-the-bun-rust-rewrite]] says negative reports about Bun's workplace caused interested Zig programmers to avoid the company.
 - Verification boundary: [[my-thoughts-on-the-bun-rust-rewrite]] challenges simultaneous claims that tests explain confidence in unreviewed translated code but did not prevent defects in the prior implementation.
 - Ecosystem externality: [[my-thoughts-on-the-bun-rust-rewrite]] describes ZSF receiving funding while also fearing reputational damage and unwanted AI-community spillover.
+- Portfolio allocation: [[the-good-times-in-tech-are-over]] links higher capital costs to narrower company focus and reduced support for open source, developer experience, and speculative expansion.
+- Reward definition: [[the-good-times-in-tech-are-over]] argues that engineers are increasingly evaluated by progress against explicit executive plans and face more risk when pursuing other interests.
 
 ## Counterevidence & Qualifications
-The mechanism is based on Kelley's participant account, which is technically informed but openly adversarial. The source provides no comparative defect data, staff survey, repository analysis, causal model, or post-rewrite outcomes. Venture funding does not inherently require unsafe speed, rewrites can improve systems for reasons not isolated here, and tests can cover translated behavior better than undocumented properties of an older implementation. Claims about management, staffing, and employment conditions are partly anonymous and unverified. The concept should therefore guide investigation of incentives rather than predetermine blame.
+The evidence consists of two practitioner interpretations rather than controlled analysis. Kelley's account is technically informed but openly adversarial and provides no comparative defect data, staff survey, repository analysis, or post-rewrite outcomes. Goedecke supplies no investment, hiring, profitability, or cross-company data isolating interest rates from pandemic over-hiring, company maturity, market repricing, or management imitation. Venture funding does not inherently require unsafe speed, tighter focus can remove genuine waste, and executive priorities can produce durable value. Conversely, alignment with leadership cannot excuse unlawful, deceptive, unsafe, or professionally irresponsible work. The concept should guide investigation of incentives rather than predetermine blame or reduce value to obedience.
 
 ## What Changed
-- Established an organizational alternative to language-deterministic explanations of software quality.
-- Added upstream funding, reputation, support load, and community identity as engineering externalities.
-- Added review capacity and measured coverage as limits on test-suite-based confidence.
+- Expanded the framework from within-project quality allocation to company-wide selection of funded engineering work.
+- Added capital cost and executive focus as upstream influences on staffing, initiative breadth, and reward.
+- Distinguished rewarded alignment from durable technical, ethical, and company value.
 
 ## Related Concepts
 - [[InternalSoftwareQuality]] - incentives determine whether teams fund the practices that preserve safe and economical change.
@@ -46,3 +52,4 @@ The mechanism is based on Kelley's participant account, which is technically inf
 - [[VentureBackedGrowthPressure]] - financing expectations can narrow the acceptable pace and outcome of a company.
 - [[OpenSourceCommercialization]] - commercial users may fund upstream work while creating governance and reputation tensions.
 - [[EngineeringTeamMotivation]] - management conditions influence whether skilled contributors join, stay, and apply judgment.
+- [[TechEmploymentRegimeShift]] - applies financing and portfolio incentives to the changing technology employment bargain.

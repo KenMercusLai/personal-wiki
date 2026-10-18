@@ -9873,3 +9873,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | The good times in tech are over
+
+Created [[TechEmploymentRegimeShift]] and updated [[SeanGoedecke]] and [[OrganizationalEngineeringIncentives]] from their complete ordered evidence inventories. Captured the proposed transition from cheap-capital hiring, perks, and broad initiatives toward profitability, layoffs, and concentrated executive priorities; separated the COVID hiring correction from the longer financing thesis; and preserved engineer-employer interest divergence. Treated the interest-rate explanation and March 2025 rejection of AI-caused layoffs as source-scoped claims without causal labor-market evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
