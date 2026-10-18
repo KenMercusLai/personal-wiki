@@ -9835,3 +9835,11 @@ Created [[Amp]] and updated [[CodingAgentMinimalTooling]] and [[AIFirstEngineeri
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | The differences between QEMU microvm and Cloud Hypervisor
+
+Created [[PeterHaskoNagy]], [[QEMU]], [[CloudHypervisor]], and [[MicroVM]]. Captured the shared lightweight-virtualization goals and the differences in API shape, host support, device transport, GPU passthrough, snapshot mechanics, live migration, and hotplug. Preserved the documentation-based, version- and configuration-sensitive scope, the absence of reproduced performance or security measurements, QEMU migration uncertainty, PCIe exception, VFIO snapshot omission, external-I/O boundary, and lack of cross-VMM live migration. Opened the single local cover image and omitted it as decorative abstract line art without evidence, so no visual asset or manifest was required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

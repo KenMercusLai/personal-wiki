@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The differences between QEMU microvm and Cloud Hypervisor](sources/qemu-cloud-hypervisor.md) - Peter Hasko-Nagy compares API, device, snapshot, migration, and hotplug tradeoffs for two lightweight VMM choices.
 - [The Coding Agent Is Dead](sources/the-coding-agent-is-dead.md) - Amp argues that frontier models commoditize much coding-agent scaffolding, shifting bottlenecks toward repositories and organizations, while offering only a first-party product bet as evidence.
 - [中文独立博客的年化“腐烂率”——8%](sources/chinese-blogs-link-rot-2022.md) - YZQZSS reports source-scoped annual loss estimates for Chinese independent-blog sites and article URLs, with migration, cohort, and hosting-risk qualifications.
 - [生活在字典树上 —— 存储和匹配海量的域名和 IP 地址](sources/store-domains-ips-text-only.md) - Sukka derives typed proxy-rule indexes using reversed and radix tries, Aho–Corasick failure links, and Tree Bitmap CIDR lookup, with nine archived demonstrations missing.
@@ -1254,6 +1255,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lakebase: Serverless Postgres over Open Lake Storage](sources/p4385-pandis.md) - Databricks and Neon authors describe disaggregated PostgreSQL compute, quorum WAL, versioned Pageservers, object storage, branching, elasticity, and Lakehouse access.
 
 ## Entities
+- [Peter Hasko-Nagy](entities/PeterHaskoNagy.md) - Platform-oriented author comparing lightweight VMMs through operational requirements and integration tradeoffs.
+- [QEMU](entities/QEMU.md) - General machine emulator and virtualizer whose Linux/KVM microvm type reduces legacy devices for lightweight cloud workloads.
+- [Cloud Hypervisor](entities/CloudHypervisor.md) - Rust cloud VMM with a REST-first control interface, VFIO passthrough, migration, snapshots, and dynamic-resource support.
 - [Amp](entities/Amp.md) - Coding-agent company and product replacing editor extensions with a CLI while betting that repository and organizational design are the new constraints.
 - [YZQZSS](entities/YZQZSS.md) - Chinese independent-blog author who estimated site-level and article-level link-loss rates.
 - [十年之约 (ForeverBlog)](entities/ForeverBlog.md) - Screened Chinese independent-blog catalog used as a higher-persistence comparison cohort.
@@ -3240,6 +3244,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
 
 ## Concepts
+- [MicroVM](concepts/MicroVM.md) - Lightweight virtual machine reducing legacy hardware and guest startup work for isolated, dense, ephemeral execution.
 - [Link Rot](concepts/LinkRot.md) - Loss of access or intended meaning at a URL through site, domain, route, certificate, hosting, or redirect failure.
 - [Proxy Rule-Set Semantics](concepts/ProxyRuleSetSemantics.md) - Separation of within-set Boolean OR matching from the ordered evaluation of distinct proxy rule sets.
 - [Domain Trie Indexing](concepts/DomainTrieIndexing.md) - Reversed domain hierarchy, terminal match metadata, node-granularity tradeoffs, and radix compression for scalable lookup.

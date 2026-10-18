@@ -2,7 +2,7 @@
 title: "Artistic Halftoning - Between Technology and Art"
 type: source
 tags: [halftoning, dithering, digital-engraving, color-printing, non-photorealistic-rendering]
-date: 2000-01-01
+date: 1999-12-21
 source_file: "/mnt/ken_personal_wiki/Articles/SPIE2000_TechArt.md"
 ---
 

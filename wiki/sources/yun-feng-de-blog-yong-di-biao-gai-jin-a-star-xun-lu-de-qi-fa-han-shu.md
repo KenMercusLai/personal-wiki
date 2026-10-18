@@ -2,7 +2,7 @@
 title: "云风的 BLOG: 用地标改进 A star 寻路的启发函数"
 type: source
 tags: [algorithms, pathfinding, graph-theory, game-development]
-date: 2026-08
+date: 2026-08-09
 source_file: "/mnt/ken_personal_wiki/Articles/云风的 BLOG- 用地标改进 A star 寻路的启发函数.md"
 ---
 

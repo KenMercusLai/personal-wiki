@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d3d99a8a1fd8a6f8067c2bd5129122d89b2f578a1461cfdfd5b6aa4f227f56f2",
       "2d3cb5e57d04a582aa69f7ca09834f5014b12ce76fa2f27b84e865a01fd1f892",
       "bf3d62bfad1a454812af6da106572959eb71ed67955657758106195c5429f2d5",
       "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
@@ -860,11 +861,29 @@
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66"
     ],
-    "paragraph_count": 858
+    "paragraph_count": 859
   },
-  "overview_commit": "14d0922b9257f96dc9262f4424ac129158ccfef8",
-  "overview_digest": "9e9260702d3b44cd8da13d98a51f3b16b350961234d595495725f000e102d7fe",
+  "overview_commit": "ba9319b4b74627a27fb87fc46783faf5757273ed",
+  "overview_digest": "c1e72815ece30b56ea51bd2a4b154d73029d485ca9045204d90163581288944e",
   "paragraphs": [
+    {
+      "id": "d3d99a8a1fd8a6f8067c2bd5129122d89b2f578a1461cfdfd5b6aa4f227f56f2",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest [[PeterHaskoNagy]] source adds [[MicroVM]] as a requirements-driven virtualization category rather than a synonym for any one lightweight VMM. Paravirtualized devices, minimal kernels, lightweight init, and reduced legacy-device surfaces jointly target fast boot, high density, and isolated ephemeral workloads, but the comparison shows that those common goals do not make implementations interchangeable. [[CloudHypervisor]] provides a per-VM REST interface, KVM and Microsoft Hypervisor host support, VFIO PCI and GPU passthrough, snapshots, live migration, and x86 CPU, memory, and PCI hotplug; [[QEMU]] microvm stays inside the wider QEMU ecosystem, uses QMP or libvirt, defaults to virtio-mmio without PCI, offers qcow2-backed or migration-based state capture, and lacks hotplug. Both retain snapshot and migration boundaries around device state, storage handling, active external I/O, and version compatibility, while cross-VMM live migration is unavailable. The account supplies no reproduced performance, density, security, failure, or compatibility measurements, treats QEMU microvm live migration cautiously from documentation, and notes that PCIe can be enabled despite the default no-PCI design. The one inspected cover image is abstract decorative line art and was omitted.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "CloudHypervisor",
+        "MicroVM",
+        "PeterHaskoNagy",
+        "QEMU"
+      ]
+    },
     {
       "id": "2d3cb5e57d04a582aa69f7ca09834f5014b12ce76fa2f27b84e865a01fd1f892",
       "primary_topic": "ai-and-technology",

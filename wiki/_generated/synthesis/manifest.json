@@ -1,27 +1,27 @@
 {
   "content_date": "2026-10-18",
   "corpus": {
-    "episode_count": 1222,
-    "source_count": 1222
+    "episode_count": 1223,
+    "source_count": 1223
   },
   "generated": true,
   "global": {
-    "candidate_digest": "7fbbf4fb2229161f53a8c639e4138d8af8434e1f9596c6f7cc274fd5412aa2e1",
-    "compacted_at": "2026-10-18T00:15:21.777448Z",
+    "candidate_digest": "9dd60efc2c708239678c0c59097005616403403b90d3fa9fee60cc2e695d64fe",
+    "compacted_at": "2026-10-18T02:34:04.779121Z",
     "content_date": "2026-10-18",
     "corpus": {
-      "episode_count": 1222,
-      "source_count": 1222
+      "episode_count": 1223,
+      "source_count": 1223
     },
-    "output_digest": "080eff9f14100ed1ee4ce49d359e871eae5f038a309007d451c164994be555af",
-    "overview_commit": "14d0922b9257f96dc9262f4424ac129158ccfef8",
-    "overview_digest": "9e9260702d3b44cd8da13d98a51f3b16b350961234d595495725f000e102d7fe",
+    "output_digest": "2c9bd2eebc7c1ae48a2fc24ceced701f9a271b97e4757ae2575d146346f86204",
+    "overview_commit": "ba9319b4b74627a27fb87fc46783faf5757273ed",
+    "overview_digest": "c1e72815ece30b56ea51bd2a4b154d73029d485ca9045204d90163581288944e",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "14d0922b9257f96dc9262f4424ac129158ccfef8",
-  "overview_digest": "9e9260702d3b44cd8da13d98a51f3b16b350961234d595495725f000e102d7fe",
-  "paragraph_count": 858,
+  "overview_commit": "ba9319b4b74627a27fb87fc46783faf5757273ed",
+  "overview_digest": "c1e72815ece30b56ea51bd2a4b154d73029d485ca9045204d90163581288944e",
+  "paragraph_count": 859,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -43,15 +43,15 @@
       "title": "Cross-domain"
     },
     "culture-and-media": {
-      "claim_digest": "8038ba235f93c9e83fa1a6690df57b15e3361155645bbecf0a48ca0e0d00b032",
-      "input_digest": "7ca16a102aa4c28f0e20cddcec3fccbbe60bd43b472fa75af3dcf3571af72ee7",
-      "output_digest": "0f54b6e088d5ba0d3705e6f6a6fd081d9171a66ea661a4adeb31fcbda4b88253",
+      "claim_digest": "f54c5d200fcc7a38d06c0f07628fb2ea7f80c05cf391083bfb10cc730ddeee6f",
+      "input_digest": "55e37b4b4dce18e30e2160ac63540949f528255cb6f4e0f4b78218950f13a6f0",
+      "output_digest": "6e890d4af99f1abde69895632740e127bc156d725ce69c246beadf665b550014",
       "title": "Culture and Media"
     },
     "governance-and-institutions": {
-      "claim_digest": "514316d331b74fafb567a7369f886290a1fdcbb858b5f4c486ff0f3d7f42222c",
-      "input_digest": "3d4e1d8905dc0a7c36640be6bff06129e54992b2573ec46ca83de8030148b828",
-      "output_digest": "c503e2135d65613d2c8a2174b4a5536362080e8734baa484c03d2a38fa2ded93",
+      "claim_digest": "80ad4762c1ac206bffd0100961e5917a3c20dbfb7d0ad4c2f59229a120e7d085",
+      "input_digest": "6cb59e949eee5736a585da8c9ef5d4a6dde0f18b39f193cb7b434d199a5a4fca",
+      "output_digest": "f5b0b8fb14bfdf7288b00c786ba247c008a075d31cf16380559af209d6855668",
       "title": "Governance and Institutions"
     },
     "history-and-geopolitics": {
