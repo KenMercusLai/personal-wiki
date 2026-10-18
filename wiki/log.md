@@ -9827,3 +9827,11 @@ Created [[LinkRot]], [[YZQZSS]], and [[ForeverBlog]], and updated [[DigitalConte
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | The Coding Agent Is Dead
+
+Created [[Amp]] and updated [[CodingAgentMinimalTooling]] and [[AIFirstEngineering]] from their complete ordered evidence inventories. Captured Amp's thesis that frontier coding models reduce wrapper differentiation, `bash` can often suffice, and repository and organizational design are becoming the bottlenecks, along with its announced editor-extension shutdown and CLI transition. Preserved the first-party promotional scope, missing model and task comparisons, absence of migration and outcome evidence, and continuing context, verification, permission, persistence, and recovery responsibilities. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

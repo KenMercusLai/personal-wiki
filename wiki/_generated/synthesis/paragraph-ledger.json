@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2d3cb5e57d04a582aa69f7ca09834f5014b12ce76fa2f27b84e865a01fd1f892",
       "bf3d62bfad1a454812af6da106572959eb71ed67955657758106195c5429f2d5",
       "b636789211012fcc2b624615628c1bd904489252f9b1ff263c34607d2b165f0b",
       "59ff7688e27a7f93317f1abc35eaeb4dc630014b444822dd4b593aedbff21581",
@@ -859,11 +860,27 @@
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66"
     ],
-    "paragraph_count": 857
+    "paragraph_count": 858
   },
-  "overview_commit": "6ce95945c165e68c4d979bc321224a3dc5c300a3",
-  "overview_digest": "c28d46b127704583befe1b8894cc1f9b70bbd00f40f3f36302881c0b00789b8a",
+  "overview_commit": "14d0922b9257f96dc9262f4424ac129158ccfef8",
+  "overview_digest": "9e9260702d3b44cd8da13d98a51f3b16b350961234d595495725f000e102d7fe",
   "paragraphs": [
+    {
+      "id": "2d3cb5e57d04a582aa69f7ca09834f5014b12ce76fa2f27b84e865a01fd1f892",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Amp]] strategy essay sharpens the wiki's coding-agent constraint shift. It argues that frontier models now arrive with enough coding behavior that many competent prompts and tool wrappers produce similar results, while `bash` often supplies the necessary action surface; [[CodingAgentMinimalTooling]] therefore gains a model-capability explanation, not just an interface-design argument. The more durable synthesis is conditional: as implementation and wrapper differentiation become cheaper, [[AIFirstEngineering]] moves value toward repository structure, durable context, organizational workflow, verification, and ownership. Amp's announced removal of its VS Code and Cursor extensions in favor of a CLI expresses a move from supervised sidebar assistance toward execution that can continue outside the editor. The evidence does not establish the full thesis, however. It is one company's promotional strategy declaration with no named-model comparison, benchmark, migration outcome, reliability measure, security analysis, or proof that editor context and harness controls no longer matter; even Amp describes the CLI as a temporary ladder.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AIFirstEngineering",
+        "Amp",
+        "CodingAgentMinimalTooling"
+      ]
+    },
     {
       "id": "bf3d62bfad1a454812af6da106572959eb71ed67955657758106195c5429f2d5",
       "primary_topic": "cross-domain",
