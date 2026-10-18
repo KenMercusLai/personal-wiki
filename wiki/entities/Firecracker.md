@@ -5,7 +5,8 @@ tags: [infrastructure, microvm, isolation]
 sources:
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
   - seven-years-of-firecracker-marcs-blog
-last_updated: 2026-10-07
+  - unikernel-agent
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ Firecracker moves the security-critical interface from a general-purpose operati
 
 The newer AWS account supplies two concrete production patterns. [[AmazonBedrockAgentCore]] assigns one resizable microVM to each agent session and destroys it at session end. [[AuroraDSQL]] restores database-specific query processors from snapshots, shares unchanged clean pages across clones, keeps dirty pages private, and retires processors on a fixed schedule. Together these examples show that Firecracker's value comes from how isolation, resource control, state placement, cloning, and lifecycle rules fit the larger system.
 
+The agent-sandbox comparison adds two packaging paths. [[E2B]] reportedly converts Docker-derived filesystems into ext4-rooted templates, performs preparation boots, and snapshots the initialized environment; Kata-based k7 instead preserves ordinary OCI images and Kubernetes integration but may not expose the same snapshot-resume path. This makes Firecracker only one component of startup performance: template construction, image distribution, guest initialization, and platform abstraction decide how much of its lifecycle capability reaches users.
+
 ## Key Characteristics
 - Provides hardware-virtualized microVM workload isolation through a comparatively small monitor.
 - Supports session-scoped and transaction-scoped disposable execution environments.
@@ -24,6 +27,7 @@ The newer AWS account supplies two concrete production patterns. [[AmazonBedrock
 - Supports snapshot restoration and repeated cloning of initialized VM state.
 - Allows clones to share unchanged clean pages while preserving private written pages.
 - Helps execution isolation but cannot enforce semantic authorization or side-effect recovery on its own.
+- Reaches users through platform-specific image, guest, snapshot, and orchestration layers that trade preparation complexity against OCI compatibility.
 
 ## Evidence
 - Isolation role: [[wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong]] describes Firecracker microVMs as combining VM isolation and container speed.
@@ -33,14 +37,16 @@ The newer AWS account supplies two concrete production patterns. [[AmazonBedrock
 - Transaction processors: [[seven-years-of-firecracker-marcs-blog]] describes PostgreSQL-derived DSQL query processors running in separate Firecracker instances and handling one transaction at a time.
 - Cloning: [[seven-years-of-firecracker-marcs-blog]] says DSQL restores initialized processor snapshots rather than repeating Linux and PostgreSQL startup.
 - Memory sharing: [[seven-years-of-firecracker-marcs-blog]] diagrams exclusive dirty pages and clean pages shared across clones.
+- E2B packaging: [[unikernel-agent]] traces a Docker-derived root filesystem through guest preparation, service initialization, final configuration, snapshot creation, and template upload.
+- Kata contrast: [[unikernel-agent]] describes k7 as using Firecracker beneath Kata while retaining OCI-image and Kubernetes workflows, with uncertain direct snapshot access.
 
 ## Qualifications
-The earlier article does not compare Firecracker deployments or performance and uses it only to establish an abstraction-layer limit. The newer article is a first-party AWS account that supplies production mechanisms but not startup timings, memory savings, cache measurements, density, cost, attack analysis, or failure behavior. Snapshots also need extra work to restore per-instance uniqueness. MicroVM teardown removes local state but not external effects, memory-service records, tool writes, or logs.
+The earlier article does not compare Firecracker deployments or performance and uses it only to establish an abstraction-layer limit. The AWS account is first-party and supplies production mechanisms but not startup timings, memory savings, cache measurements, density, cost, attack analysis, or failure behavior. The sandbox comparison is a practitioner code-reading account rather than a reproducible benchmark; it explicitly expresses uncertainty about Kata snapshot behavior and mixes unlike latency scopes. Snapshots also need extra work to restore per-instance uniqueness. MicroVM teardown removes local state but not external effects, memory-service records, tool writes, or logs.
 
 ## What Changed
+- Added E2B's prepared-template path and Kata's OCI-compatible integration as contrasting Firecracker product layers.
+- Clarified that image construction and platform abstraction mediate Firecracker's startup and resume value.
 - Added AgentCore's per-session, resizable, disposable microVM pattern.
-- Added DSQL's prepared clones, clean-page sharing, and fixed-lifetime processor pattern.
-- Preserved the boundary between execution isolation and semantic control of external actions.
 
 ## Relationships
 - [[SemanticIsolation]] - Firecracker is useful execution isolation but not semantic isolation.
@@ -51,3 +57,5 @@ The earlier article does not compare Firecracker deployments or performance and 
 - [[SessionScopedMicroVMIsolation]] - scopes local agent state to a disposable session environment.
 - [[VMSnapshotCloning]] - restores prepared VM state and shares unchanged pages.
 - [[BoundedLifetimeSimplification]] - makes teardown part of resource reclamation and architectural simplification.
+- [[E2B]] - wraps Firecracker in a prepared and snapshot-oriented agent-sandbox template workflow.
+- [[Unikernel]] - competing route toward small hardware-isolated application environments.

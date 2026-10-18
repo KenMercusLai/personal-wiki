@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "unikernel-agent",
+  "images": [
+    {
+      "file": "monty-sandbox-runtime-comparison.png",
+      "alt": "Table comparing Monty, Docker, Pyodide, Starlark, WASI or Wasmer, sandbox services, and unrestricted Python across language completeness, security, startup latency, setup, file mounting, and snapshots"
+    }
+  ]
+}

@@ -9843,3 +9843,9 @@ Created [[PeterHaskoNagy]], [[QEMU]], [[CloudHypervisor]], and [[MicroVM]]. Capt
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-18] ingest | Agent sandbox 可能的选型以及 unikernel 的机会
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

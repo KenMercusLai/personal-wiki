@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Agent sandbox 可能的选型以及 unikernel 的机会](sources/unikernel-agent.md) - Gao Ce compares containers, Firecracker platforms, Kata, WebAssembly, Monty, and unikernels while arguing that compatibility, snapshots, packaging, and image delivery matter alongside boot latency.
 - [The differences between QEMU microvm and Cloud Hypervisor](sources/qemu-cloud-hypervisor.md) - Peter Hasko-Nagy compares API, device, snapshot, migration, and hotplug tradeoffs for two lightweight VMM choices.
 - [The Coding Agent Is Dead](sources/the-coding-agent-is-dead.md) - Amp argues that frontier models commoditize much coding-agent scaffolding, shifting bottlenecks toward repositories and organizations, while offering only a first-party product bet as evidence.
 - [中文独立博客的年化“腐烂率”——8%](sources/chinese-blogs-link-rot-2022.md) - YZQZSS reports source-scoped annual loss estimates for Chinese independent-blog sites and article URLs, with migration, cohort, and hosting-risk qualifications.
@@ -1255,6 +1256,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lakebase: Serverless Postgres over Open Lake Storage](sources/p4385-pandis.md) - Databricks and Neon authors describe disaggregated PostgreSQL compute, quorum WAL, versioned Pageservers, object storage, branching, elasticity, and Lakehouse access.
 
 ## Entities
+- [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
+- [Monty](entities/Monty.md) - Restricted Python interpreter representing a very-low-startup but lower-compatibility sandbox option.
 - [Peter Hasko-Nagy](entities/PeterHaskoNagy.md) - Platform-oriented author comparing lightweight VMMs through operational requirements and integration tradeoffs.
 - [QEMU](entities/QEMU.md) - General machine emulator and virtualizer whose Linux/KVM microvm type reduces legacy devices for lightweight cloud workloads.
 - [Cloud Hypervisor](entities/CloudHypervisor.md) - Rust cloud VMM with a REST-first control interface, VFIO passthrough, migration, snapshots, and dynamic-resource support.
@@ -3244,6 +3247,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
 
 ## Concepts
+- [Unikernel](concepts/Unikernel.md) - Application-specific machine image whose small surface and fast boot trade against Python, process, and tooling compatibility.
 - [MicroVM](concepts/MicroVM.md) - Lightweight virtual machine reducing legacy hardware and guest startup work for isolated, dense, ephemeral execution.
 - [Link Rot](concepts/LinkRot.md) - Loss of access or intended meaning at a URL through site, domain, route, certificate, hosting, or redirect failure.
 - [Proxy Rule-Set Semantics](concepts/ProxyRuleSetSemantics.md) - Separation of within-set Boolean OR matching from the ordered evaluation of distinct proxy rule sets.
