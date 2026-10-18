@@ -14,7 +14,8 @@ sources:
   - zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory
   - write-things-down
   - "2607.01224"
-last_updated: 2026-10-14
+  - custom-llm-memory-layer
+last_updated: 2026-10-18
 knowledge_schema: synthesis-v1
 ---
 
@@ -46,8 +47,10 @@ Thompson adds a conceptual boundary around the simplest file-backed form. Markdo
 
 The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file operations as actions beside gameplay actions, allowing complete-trajectory review to improve both the scaffold—prompts, schemas, validation, and action vocabulary—and the model policy that chooses when to write, search, read, or update. Reported game results suggest that memory structure and [[Metamemory|memory-use skill]] can be optimized separately: coordinate-keyed upserts, auto-synchronized state, bounded logs, strategy references, and action checks reduce memory waste, while a LoRA-trained specialist learns to consult existing files before writing. This does not remove the lifecycle and governance requirements above; the experiments reset memory each episode and do not test persistent conflicts, privacy, deletion, or cross-domain transfer.
 
+[[AvishekBiswas]] supplies a compact implementation path inspired by [[Mem0]]. [[DSPy]] extracts atomic user factoids, [[Qdrant]] stores embeddings under an application-supplied `user_id`, and a ReAct response agent decides whether retrieval is needed before a second agent chooses add, update, delete, or no-op. The design usefully makes retrieval and mutation optional rather than automatic. It also demonstrates why implementation is not evaluation: the published extraction output reverses the user's stated tea preference, several snippets contain mismatched identifiers, and no accuracy, isolation, latency, cost, or lifecycle benchmark is supplied.
+
 ## Key Claims
-- Memory addresses context limits through progressive disclosure, while learned operation policies can improve what agents encode, retrieve, update, and ignore.
+- Memory addresses context limits through progressive disclosure, while optional tool use and learned operation policies can improve what agents encode, retrieve, update, and ignore.
 - Write access distinguishes agent memory from read-only RAG, but a writeable vector index is still only a persistence and retrieval layer.
 - Durable memory requires selective admission, distillation, compaction, bitemporal state, evolution, conflict resolution, soft forgetting, provenance, confidence, retention, privacy, deletion, bounded recall, user correction, observability, and authorization in addition to similarity search.
 - Append-only evidence and derived current-state views can coexist, preserving auditability while keeping recall compact.
@@ -85,6 +88,10 @@ The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file 
 - Scaffold optimization: [[2607.01224]] reports that coordinate-keyed maps, auto-synced inventory and status, bounded logs, strategy references, and action validation reduce redundant memory and unproductive behavior.
 - Proficiency optimization: [[2607.01224]] selects the base agent's own good memory traces for LoRA training of a dedicated specialist while leaving the task-action model frozen.
 - Long-horizon results: [[2607.01224]] reports roughly 2–4× progression gains over the initial file-memory agent across Crafter, MiniHack, and NetHack, with fewer writes per search after specialist training.
+- Minimal implementation lifecycle: [[custom-llm-memory-layer]] separates atomic extraction, per-user vector storage, optional retrieval, and add/update/delete/no-op maintenance.
+- Trusted tenant filter: [[custom-llm-memory-layer]] supplies `user_id` from application state and applies it as an indexed Qdrant payload filter rather than asking the model to invent it.
+- Selective recall: [[custom-llm-memory-layer]] gives a ReAct response agent a search tool so memory lookup can be skipped when the active transcript is sufficient.
+- Persistence and correction example: [[custom-llm-memory-layer]] shows a name corrected from AVB to Avishek and retrieved after the program restarts.
 
 ## Counterevidence & Qualifications
 The infrastructure-stack source names privacy, deletion, and policy requirements but does not specify enforcement, tenant scoping, user correction, retrieval evaluation, or confidence calibration. The memory architectures supply no comparative benchmark for compaction triggers, conflict policies, recall strategies, temporal weights, decay curves, or storage combinations. PsiACE's critique is strongest for detached continuity layers; calling Tape history itself “memory” preserves evidence but does not remove the need for indexing, summarization, temporal interpretation, correction, retention, and authorization. Nowledge Mem is a first-party product account: its numerical gates, boosts, task budgets, and `confidence = max(new, old)` rule are implementation policies rather than validated general laws, and non-decreasing confidence can misrepresent evidence later shown unreliable.
@@ -97,12 +104,14 @@ Thompson's agent examples are personal and architectural analogies rather than c
 
 AutoMem supplies controlled within-harness task measurements but remains narrow evidence: three games, one base-model family, small fixed-seed evaluations, separate per-environment scaffolds and specialists, and fresh memory each episode. Its results do not establish a universal memory policy, cross-domain transfer, persistent-memory safety, matched serving economics, or human-like introspection. Because the full system changes both scaffold code and a memory-model adapter, “memory alone” means the gameplay model is frozen rather than the complete agent remaining unchanged.
 
+The Mem0-inspired tutorial is architectural and pedagogical rather than evaluative. Its 64-dimensional embeddings, similarity threshold, top-k, and ReAct iteration limits are unvalidated settings; the extraction example itself produces facts contrary to the input; and undefined or mismatched variables make several snippets non-runnable as printed. It also leaves provenance, temporal validity, retention, deletion, authorization, user review, and cross-tenant testing outside the worked implementation.
+
 ## What Changed
-- Added simple file-backed state as operational continuity across agent sessions.
-- Distinguished restored context from continuous model-weight learning, persistent identity, volition, and moral agency.
+- Distinguished operational continuity, whether file-backed or vector-backed, from continuous model-weight learning, persistent identity, volition, and moral agency.
 - Preserved lifecycle requirements because shared notes can also retain stale, unsafe, or unauthorized state.
 - Added memory-operation proficiency as a separately trainable layer above storage and retrieval architecture.
 - Added trajectory-level scaffold revision and consult-before-write training evidence from three long-horizon games.
+- Added a minimal optional retrieval-and-maintenance implementation while preserving its extraction and code-quality failures as evidence against treating a tutorial architecture as validated memory.
 
 ## Related Concepts
 - [[RetrievalAugmentedGeneration]] - agent memory is framed as RAG plus write capability.
@@ -125,3 +134,6 @@ AutoMem supplies controlled within-harness task measurements but remains narrow 
 - [[HumanAgencyInAI]] - stored state and coordination do not establish volition or moral agency.
 - [[Metamemory]] - frames memory use as learned monitoring and control over encoding, retrieval, and organization.
 - [[AutoMem]] - supplies a two-loop implementation for optimizing memory structure and operation proficiency.
+- [[Mem0]] - supplies the extraction and update architecture adapted by the newest tutorial.
+- [[DSPy]] - supplies structured extraction and ReAct tool loops for retrieval and maintenance.
+- [[Qdrant]] - supplies filtered vector persistence in the tutorial implementation.

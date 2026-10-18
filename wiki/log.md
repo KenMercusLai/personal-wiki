@@ -9785,6 +9785,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-18] ingest | How to Build Your Own Custom LLM Memory Layer from Scratch
+
+Created [[AvishekBiswas]], [[Mem0]], [[DSPy]], and [[Qdrant]], and updated [[AgentMemory]] from its complete ordered evidence inventory. Captured the tutorial's atomic extraction, trusted per-user filtering, optional ReAct retrieval, explicit add/update/delete/no-op maintenance, and process-restart correction example. Preserved the internally contradictory extraction result, non-runnable variable and identifier mismatches, unvalidated embedding and retrieval settings, and missing accuracy, isolation, governance, cost, and latency evaluation. Opened all eight local images and retained them at their semantic positions with canonical descriptive filenames and a manifest.
+
 ## [2026-10-18] ingest | Modern Engineering Values
 
 Created [[ChristophNakazawa]] and updated [[AIFirstEngineering]], [[EngineeringManagerRoleDesign]], and [[Codex]] from their complete ordered evidence inventories. Captured the shift from implementation toward judgment, strong ownership, repository-local context, strict guardrails, scalable feedback loops, selective stack ownership, option value, and renewed technical expectations for engineering managers. Preserved the disagreement over review depth and management's relationship to engineering, along with the limits of self-reported project outcomes, commit and changed-line metrics, expert workflow transfer, direct-to-main practice, and custom-stack maintenance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -9861,6 +9865,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-18] ingest | Snowsky Echo Mini 固件逆向背后的故事
 
 Created [[SnowskyEchoMini]], [[FlameOcean]], [[AIAssistedReverseEngineering]], [[ContextIsolatedMultiModelWorkflow]], and [[LLMVariableRewardRisk]], and updated [[RORIRI]] and [[NotebookLM]] from their complete ordered evidence inventories. Captured the firmware investigation, model-induced evidence corruption, human visual and physical validation, problem-tree and task-brief/report workflow, community editor, security implications, and variable-reward wellbeing warning. Preserved the first-person scope, missing expert baseline and independent reproduction, device-specific update result, unmeasured model contribution, and non-clinical reinforcement analogy. The single cover image was opened and omitted as decorative generic circuit-board artwork, so no visual asset or manifest was required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-18] lint | Wiki health check
 

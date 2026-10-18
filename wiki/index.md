@@ -1257,6 +1257,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lakebase: Serverless Postgres over Open Lake Storage](sources/p4385-pandis.md) - Databricks and Neon authors describe disaggregated PostgreSQL compute, quorum WAL, versioned Pageservers, object storage, branching, elasticity, and Lakehouse access.
 
 - [Snowsky Echo Mini 固件逆向背后的故事](sources/echo-mini-sre.md) - RORIRI recounts an LLM-assisted firmware investigation, its context-isolation workflow, human validation boundaries, community editor, security implications, and variable-reward wellbeing risk.
+- [How to Build Your Own Custom LLM Memory Layer from Scratch](sources/custom-llm-memory-layer.md) - Avishek Biswas implements atomic extraction, per-user vector retrieval, optional ReAct lookup, and explicit memory maintenance while exposing important code and evaluation gaps.
 
 ## Entities
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
@@ -3251,6 +3252,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Snowsky Echo Mini](entities/SnowskyEchoMini.md) - Compact cassette-styled audio player whose UI resources, font renderer, and update path were reverse-engineered.
 - [Flame Ocean](entities/FlameOcean.md) - Browser-based editor for replacing Echo Mini firmware images, animations, and fonts.
+- [Avishek Biswas](entities/AvishekBiswas.md) - Technical author presenting a compact DSPy and Qdrant implementation of persistent agent memory.
+- [Mem0](entities/Mem0.md) - Agent-memory architecture separating candidate extraction from similarity-informed state updates.
+- [DSPy](entities/DSPy.md) - LLM application framework used for structured prediction, tools, and ReAct loops.
+- [Qdrant](entities/Qdrant.md) - Vector database used for filtered per-user memory storage and similarity retrieval.
 
 ## Concepts
 - [AI-Era CS Education](concepts/AIEraCSEducation.md) - Curriculum and assessment design for preserving foundational understanding while teaching accountable AI-assisted implementation.

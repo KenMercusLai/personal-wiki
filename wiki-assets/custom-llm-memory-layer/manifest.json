@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "custom-llm-memory-layer",
+  "images": [
+    {
+      "file": "agent-memory-lifecycle-cover.jpg",
+      "alt": "Illustrated lifecycle connecting conversation, an LLM agent, stored vector memories, maintenance logic, and later recall"
+    },
+    {
+      "file": "stateless-cross-session-example.jpg",
+      "alt": "Two chat sessions showing that a name supplied in the first session is unavailable in the second without external context"
+    },
+    {
+      "file": "mem0-extraction-update-architecture.png",
+      "alt": "Mem0 architecture separating extraction from an update phase that compares new facts with similar stored memories"
+    },
+    {
+      "file": "atomic-memory-extraction.jpg",
+      "alt": "Conversation messages flowing through memory extraction into three atomic factoids"
+    },
+    {
+      "file": "vector-database-storage.jpg",
+      "alt": "Three memory factoids embedded as points in a vector database"
+    },
+    {
+      "file": "selective-memory-retrieval.jpg",
+      "alt": "A query retrieving two relevant memories from a vector database before the conversation and memories reach the LLM"
+    },
+    {
+      "file": "memory-consolidation.jpg",
+      "alt": "A new memory and existing vector database entering consolidation and producing an updated database"
+    },
+    {
+      "file": "persistent-name-correction-example.png",
+      "alt": "Terminal transcript retrieving the name AVB, correcting it to Avishek, restarting the program, and retrieving Avishek"
+    }
+  ]
+}
