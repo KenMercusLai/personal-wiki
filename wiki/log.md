@@ -9846,6 +9846,14 @@ Ran lint. See lint-report.md for details.
 
 ## [2026-10-18] ingest | Agent sandbox 可能的选型以及 unikernel 的机会
 
+## [2026-10-18] ingest | AI 时代的本科 CS 教育随想
+
+Created [[AIEraCSEducation]] and updated [[ComputationalThinking]], [[ProgrammingLiteracy]], and [[TasteAsProblemSense]] from their complete ordered evidence inventories. Captured the collapse of take-home code as a reliable proxy for student understanding, the continued need for foundational implementation practice, the shift toward requirements, architecture, verification, research direction, and academic ethics, and the tradeoffs among oral defense, AI-use records, common model access, and explicitly AI-enabled assessment. Preserved the source's reflective rather than experimental scope, missing course and model details, assessment workload and bias, access inequities, and the unresolved amount of manual practice needed to develop higher-order judgment. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-18] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

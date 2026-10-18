@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
       "d3d99a8a1fd8a6f8067c2bd5129122d89b2f578a1461cfdfd5b6aa4f227f56f2",
       "2d3cb5e57d04a582aa69f7ca09834f5014b12ce76fa2f27b84e865a01fd1f892",
       "bf3d62bfad1a454812af6da106572959eb71ed67955657758106195c5429f2d5",
@@ -861,11 +862,27 @@
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66"
     ],
-    "paragraph_count": 859
+    "paragraph_count": 860
   },
-  "overview_commit": "22e3d31e40788f76bfaa6bad86d45b9ba490561d",
-  "overview_digest": "c1e72815ece30b56ea51bd2a4b154d73029d485ca9045204d90163581288944e",
+  "overview_commit": "eb09384018dfaf8083beec9124a71fdf2692d57e",
+  "overview_digest": "a6b0eea946af5d6eb7e8f3a21badbc945cebda708b0b4a3d85ea75462615fb7f",
   "paragraphs": [
+    {
+      "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest CS-education reflection adds [[AIEraCSEducation]] as a curriculum and assessment problem created by capable coding agents. A passing take-home program no longer proves that its submitter can explain, debug, extend, or verify it, so the source separates preserved foundational practice from a newer layer of requirement analysis, architecture, AI supervision, reliability and safety judgment, research direction, and academic ethics. [[ComputationalThinking]] must therefore become visible in plans, explanations, live dialogue, and verification rather than being inferred from artifact completion; [[ProgrammingLiteracy]] also broadens because non-CS students can build useful software rapidly, while successful output remains compatible with shallow understanding and dependence on the model's capability boundary. Proposed responses include oral defense, presentations, full AI-use records, common exam access, and tasks that explicitly assess AI collaboration. Each carries limits: human assessment is expensive, logs do not prove comprehension, common services create capacity and ecosystem problems, local hardware can create inequity, and the article gives no course-level protocol, sample, model comparison, or measured learning outcome. Its architect-versus-implementer forecast therefore remains a direction for experimentation, not evidence that novices can acquire higher-order judgment without substantial implementation practice. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIEraCSEducation",
+        "ComputationalThinking",
+        "ProgrammingLiteracy"
+      ]
+    },
     {
       "id": "d3d99a8a1fd8a6f8067c2bd5129122d89b2f578a1461cfdfd5b6aa4f227f56f2",
       "primary_topic": "governance-and-institutions",

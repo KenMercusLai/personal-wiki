@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AI 时代的本科 CS 教育随想](sources/ai-shi-dai-de-ben-ke-cs-jiao-yu-sui-xiang-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji.md) - A practitioner reflection arguing that coding agents weaken take-home assignments as evidence of mastery and shift CS education toward architecture, judgment, verification, visible reasoning, and equitable AI-enabled assessment.
 - [Agent sandbox 可能的选型以及 unikernel 的机会](sources/unikernel-agent.md) - Gao Ce compares containers, Firecracker platforms, Kata, WebAssembly, Monty, and unikernels while arguing that compatibility, snapshots, packaging, and image delivery matter alongside boot latency.
 - [The differences between QEMU microvm and Cloud Hypervisor](sources/qemu-cloud-hypervisor.md) - Peter Hasko-Nagy compares API, device, snapshot, migration, and hotplug tradeoffs for two lightweight VMM choices.
 - [The Coding Agent Is Dead](sources/the-coding-agent-is-dead.md) - Amp argues that frontier models commoditize much coding-agent scaffolding, shifting bottlenecks toward repositories and organizations, while offering only a first-party product bet as evidence.
@@ -3247,6 +3248,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
 
 ## Concepts
+- [AI-Era CS Education](concepts/AIEraCSEducation.md) - Curriculum and assessment design for preserving foundational understanding while teaching accountable AI-assisted implementation.
 - [Unikernel](concepts/Unikernel.md) - Application-specific machine image whose small surface and fast boot trade against Python, process, and tooling compatibility.
 - [MicroVM](concepts/MicroVM.md) - Lightweight virtual machine reducing legacy hardware and guest startup work for isolated, dense, ephemeral execution.
 - [Link Rot](concepts/LinkRot.md) - Loss of access or intended meaning at a URL through site, domain, route, certificate, hosting, or redirect failure.

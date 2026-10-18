@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: 22e3d31e40788f76bfaa6bad86d45b9ba490561d
-summary: "Podcast Atlas connects systems and institutions to real workloads, qualifying claims through measurement, incentives, authorship, failure boundaries, and accountable controls."
-episode_count: 1224
-source_count: 1224
-paragraph_count: 859
+as_of_overview_commit: eb09384018dfaf8083beec9124a71fdf2692d57e
+summary: "Podcast Atlas connects systems and institutions to real workloads through verification, incentives, learning, authorship, failure boundaries, and accountable control."
+episode_count: 1225
+source_count: 1225
+paragraph_count: 860
 topic_count: 9
 ---
 
@@ -16,11 +16,11 @@ topic_count: 9
 
 ## Executive Summary
 
-- Effective coding-agent systems depend on simple, debuggable operating environments: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops users can understand. [[Amp]] argues that frontier coding models reduce the marginal differentiation of prompts and tool wrappers and can often work through `bash`; the corpus qualifies that product bet by shifting durable advantage toward [[AIFirstEngineering]] through repository structure, organizational workflow, ownership, and acceptance while retaining [[HarnessEngineering]] controls. [[HuYuanming]] extends [[ClaudeCode]] into a queue-driven worker pool with worktrees, streamed logs, durable lessons, mobile planning, and [[AIVoiceInput]], while [[BottleneckAwareAICoding]] keeps commit velocity distinct from delivery value and [[PersonalSoftware]] limits the strongest economics claim to a single-user scope.
-- [[FoundationModelKernelOptimization]] joins on-chip schedules, [[OperatorFusion]], distributed dataflow, and model structure in one resource-led optimization loop; [[FlashAttention]] shows why stable I/O-avoidance principles need hardware-specific pipelines, while [[PranjalShankhdhar]]'s GB300 case couples [[BlockQuantization]], [[GPUMemoryHierarchy]], compiler behavior, exact tails, and requester-side L2 scheduling into a shape-specific result whose kernel code is attributed to [[Claude]].
-- [[DatabaseEngineeringTradeoffs]] treats a database as a socio-technical component whose guarantees become meaningful only under concrete failure, concurrency, latency, scaling, and migration behavior. OpenAI's [[PostgreSQLReadScaling]] case adds that replicas can extend a read-heavy single-primary system only when write-heavy work moves elsewhere, while [[DatabaseOverloadProtection]] must bound cache misses, connections, expensive queries, retries, backfills, and priority traffic before saturation cascades.
+- [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use.
+- [[AIEraInfrastructureEngineering]] joins [[TechnologyEnablerStack]] and [[AIInfrastructureStack]] into a strategic-to-operational sequence: choose a consequential workload and customer problem, then use AI-assisted implementation without surrendering architecture, optimization, verification, or critical low-level understanding; [[AstroVela]] and [[Vane]] are announced applications of that thesis rather than validation of it.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
-- [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost.
+- [[BackOfEnvelopeEstimation]] uses [[LatencyHierarchy]] and decomposition to reject implausible architectures before implementation, complementing [[CloudCostOptimization]] and [[ComputationalThinking]].
+- [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Writing adds a distinctive understanding test by exposing gaps, forcing insight-preserving compression, and reconstructing ideas for a reader rather than merely producing finished text. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
@@ -29,10 +29,10 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage comes from workload-specific co-design across architecture, data movement, context, verification, observability, ownership, authority, and operational evidence.
+Technical leverage depends on workload-specific co-design across architecture, data movement, context, verification, observability, ownership, authority, and operational evidence; AI-era education adds that generated artifacts must not be confused with demonstrated understanding.
 
+- [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
-- [[LLVM]] combines [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], and [[ModularCompilerArchitecture]] so multiple languages and libraries can share linking, interprocedural optimization, ahead-of-time generation, user-site generation, and JIT/runtime optimization; [[LifelongCompilation]] extends that representation across a program's lifetime while preserving explicit complexity and deployment tradeoffs. Evidence: [[LLVM]], [[LLVMIntermediateRepresentation]], [[StaticSingleAssignment]], [[ModularCompilerArchitecture]], [[LifelongCompilation]], [[VikramAdve]], [[ChrisLattner]].
 
 ### Business and Markets
 
@@ -82,7 +82,7 @@ Scientific and health conclusions remain conditional on mechanism, population, m
 
 ### Work, Education, and Society
 
-Sustainable work and learning depend on active practice, feedback, clear roles, fair incentives, teaching capacity, responsibility, and recovery.
+Sustainable work and learning depend on active practice, observable reasoning, feedback, clear roles, fair incentives, teaching capacity, responsibility, and recovery.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
