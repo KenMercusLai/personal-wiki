@@ -861,12 +861,13 @@
       "c6dbca59c5793194b966e5453f83b051fe874984fd483812102709452df92940",
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66",
-      "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37"
+      "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37",
+      "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005"
     ],
-    "paragraph_count": 861
+    "paragraph_count": 862
   },
-  "overview_commit": "d6cb7a07f8425a69165c003cd210131ba9cdc849",
-  "overview_digest": "4ba2a0a2ce4b6285da4318890673b0855215fe9f8e29ddfcc0fc83011cae7625",
+  "overview_commit": "60cb5569c71daa2546fc4a40e64e6f530c1e77de",
+  "overview_digest": "5bf3a6039f8595e1fc333af4bd481cb23077925837801c8f52f4d852b3624cc9",
   "paragraphs": [
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -17364,6 +17365,21 @@
         "NotebookLM",
         "RORIRI",
         "SnowskyEchoMini"
+      ]
+    },
+    {
+      "id": "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[ChenxiZhang]] source adds [[CloudflareSmartTieredCache]] as a case where network locality and backend placement diverge. One upper-tier cache can concentrate misses and improve reuse for a fixed origin, but an [[AnycastRouting|anycast]] or regional-unicast cloud frontend can make one IP appear near several [[Cloudflare]] data centers while the backend remains in one public-cloud region; the retained example shows an Asia request hairpinning through Chicago before returning to Singapore. Cloudflare's response combines a physical-plausibility anycast test, safe multi-tier fallback, and operator-supplied region hints. Provider IP ranges refreshed every few hours and latency-derived assignments refreshed every 15 minutes feed weighted regional voting, with primary and fallback in different PoPs and a Tier 1 geographic guess where probe evidence is sparse. The durable systems lesson is that measurement identifies the endpoint actually observed, not necessarily the resource a later internal hop will serve, so optimization sometimes needs explicit topology metadata and a conservative ambiguity mode. The post is a first-party launch account without classifier error rates, voting details, control-plane failure analysis, or before-and-after latency, hit-ratio, origin-load, failover, adoption, and customer-outcome measurements. Six inspected evidence-bearing topology, detection, UI, and selection images were retained at their semantic positions; the generic cover was omitted as decorative.",
+      "topic_scores": {
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "AnycastRouting",
+        "ChenxiZhang",
+        "Cloudflare",
+        "CloudflareSmartTieredCache"
       ]
     }
   ],

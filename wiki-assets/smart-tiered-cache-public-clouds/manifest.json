@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "smart-tiered-cache-public-clouds",
+  "images": [
+    {
+      "file": "single-upper-tier-cache-topology.png",
+      "alt": "Lower-tier Cloudflare caches funnel misses through one upper tier before reaching the origin"
+    },
+    {
+      "file": "chicago-singapore-cache-hairpin.png",
+      "alt": "An Asia client reaches a Singapore origin through an incorrectly selected Chicago upper tier, creating a cross-continent hairpin"
+    },
+    {
+      "file": "anycast-latency-detection.png",
+      "alt": "Cloudflare data centers compare probe paths to determine whether one origin IP answers from multiple locations"
+    },
+    {
+      "file": "origin-region-hint-configuration.png",
+      "alt": "Cloudflare Tiered Cache origin table exposes per-origin cloud region hints and primary and secondary data centers"
+    },
+    {
+      "file": "bulk-region-hint-configuration.png",
+      "alt": "Bulk region-hint dialog applies one cloud provider and region to four selected origin IPs"
+    },
+    {
+      "file": "cloud-region-upper-tier-selection.png",
+      "alt": "Cloud-provider region ranges and latency probe data feed periodic upper-tier selection, producing separate-PoP primary and fallback caches"
+    }
+  ]
+}

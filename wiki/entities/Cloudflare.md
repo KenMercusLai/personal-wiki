@@ -9,12 +9,13 @@ sources:
   - cryptocurrency-mining-affects-over-500-million-people-and-they-have-no-idea-it-is-happening
   - nick-craver-https-on-stack-overflow-the-end-of-a-long-road
   - how-we-found-a-bug-in-the-hyper-http-library
-last_updated: 2026-10-14
+  - smart-tiered-cache-public-clouds
+last_updated: 2026-10-19
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Cloudflare]] is an edge-infrastructure company represented in the sources through low-cost hosting, DNS, security, compute, data, storage, and image-processing services; policy enforcement against undisclosed browser mining; employment and product-development context; and first-party accounts of network-configuration and HTTP transport failures.
+[[Cloudflare]] is an edge-infrastructure company represented in the sources through low-cost hosting, DNS, security, compute, data, storage, image-processing, and tiered-caching services; policy enforcement against undisclosed browser mining; employment and product-development context; and first-party accounts of network-configuration and HTTP transport failures.
 
 ## Current Profile
 The migration article frames Cloudflare as both a Vercel alternative and a broader service-substitution platform. Pages can deploy Next.js projects, while DNS, security features, Workers, D1, and R2 can replace or complement services bought from Vercel, AWS, Supabase, or other providers. Rozen's retrospective adds an organizational angle: Cloudflare employment can support slow independent SaaS building, and internal D1 work can draw on product and writing skills developed outside the company.
@@ -27,14 +28,16 @@ The [[StackOverflow]] HTTPS retrospective supplies a historical customer case. C
 
 The 2026 Images incident adds a lower-level reliability case. After Cloudflare replaced its FL network path with a same-machine intermediary and Unix sockets, larger binding responses intermittently returned HTTP `200` with bodies truncated near the socket-buffer size. The architectural change exposed rather than introduced a long-standing [[Hyper]] HTTP/1 race: a partial asynchronous flush could be treated as complete, followed by premature socket shutdown. Cloudflare used narrow syscall tracing and a deterministic constrained-stream test to diagnose the failure, ran a patched fork, and upstreamed a pre-shutdown flush and regression test.
 
+The July 2026 [[CloudflareSmartTieredCache]] post adds an optimization and control-plane profile. Cloudflare measures origin latency to choose an upper-tier cache, but a public-cloud anycast or regional-unicast frontend can make one address appear close to many edge locations while concealing the backend's region. The new configuration lets operators supply a cloud-region hint. Cloudflare joins periodically refreshed provider IP ranges with continuously probed tier assignments, uses weighted subnet votes to select a primary and a separate-PoP fallback, and uses a Tier 1 geographic guess where observations are sparse. This is first-party architecture evidence without measured latency, cache-hit, origin-load, availability, or hint-error outcomes.
+
 ## Key Characteristics
-- Offers low-cost or free-tier-friendly website infrastructure through Pages, Workers, DNS, security controls, D1, and R2 across hosting, compute, database, and storage needs.
-- Requires edge-runtime compatibility work for Next.js applications and cross-layer transport validation for streamed service responses.
-- Operates authoritative addressing workflows in which customer configuration can propagate to BGP routers and edge machines.
-- Has committed to typed API schemas, desired-versus-operational-state separation, staged health-mediated snapshots, and circuit breakers after the 2026 BYOIP outage.
-- Was reported in 2017 as suspending service for websites that conducted browser mining without user permission.
-- Historically supplied Stack Overflow with distributed DNS, CDN, DDoS protection, proxying, and local TLS termination before its move to Fastly.
-- Operates Images and Workers bindings whose local service path includes application, runtime, intermediary, HTTP-library, kernel-buffer, and client boundaries.
+- Offers website and edge infrastructure spanning Pages, Workers, DNS, security, D1, R2, Images, and tiered caching.
+- Requires customers and operators to manage compatibility and topology context that platform automation cannot always infer, including edge-runtime APIs and public-cloud origin regions.
+- Operates authoritative addressing and cache-routing control planes whose configuration can alter BGP, edge, and origin-fetch behavior.
+- Uses latency probing, provider metadata, voting, geographic fallback, and separate-PoP placement in Smart Tiered Cache's public-cloud selection path.
+- Has committed to typed schemas, configured-versus-operational-state separation, staged health mediation, snapshots, and circuit breakers after the 2026 BYOIP outage.
+- Historically supplied Stack Overflow with distributed DNS, CDN, DDoS protection, proxying, and local TLS termination, and was reported as enforcing consent against undisclosed browser mining.
+- Diagnoses lower-layer failures with operational evidence, including global prefix recovery, syscall traces, constrained-stream reproduction, and upstream fixes.
 
 ## Evidence
 - Platform breadth and cost: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes Pages, Workers, DNS, security controls, D1, and R2 as a lower-cost service combination.
@@ -48,14 +51,17 @@ The 2026 Images incident adds a lower-level reliability case. After Cloudflare r
 - Railgun boundary: [[nick-craver-https-on-stack-overflow-the-end-of-a-long-road]] says its diffing and persistent-connection design could improve performance but the deployment's instability eventually cost more than it saved.
 - Images path and symptom: [[how-we-found-a-bug-in-the-hyper-http-library]] describes intermittent truncation of large responses after a local-binding rollout, despite HTTP `200` and successful application-level encoding.
 - Diagnosis and repair: [[how-we-found-a-bug-in-the-hyper-http-library]] shows a partial `sendto` followed by `SHUT_WR`, reproduces the lifecycle bug with a constrained socket, and reports an upstream fix that flushes before shutdown.
+- Anycast-origin ambiguity: [[smart-tiered-cache-public-clouds]] explains why latency to a cloud frontend can misidentify the backend region and shows a Singapore origin hairpinning through Chicago.
+- Region-aware tier selection: [[smart-tiered-cache-public-clouds]] describes provider-prefix refresh, latency-derived weighted voting, a separate-PoP fallback, sparse-data geographic initialization, and dashboard, API, and Terraform hints.
 
 ## Qualifications
-These sources are not a comprehensive or independent Cloudflare assessment. The low-cost migration source is strongly favorable but leaves service-migration questions unresolved; Rozen describes Cloudflare mainly as employer and work context. The Stack Overflow comparison reflects one large customer's 2017 requirements, legacy deployment, and provider capabilities, so it should not be generalized to current products. The 2017 enforcement claim is a short second-party report that does not identify affected accounts, policy language, consistency, appeals, or outcomes. Both incident accounts are Cloudflare-authored. The BYOIP postmortem supplies no independent customer-impact measure and describes remediation commitments rather than completed controls; 1.1.1.1 DNS resolution remained available despite one.one.one.one website failures. The Images account provides syscall evidence, a deterministic regression test, customer confirmation, and an upstream patch but no independent reproduction, fleet-wide incidence, or old-versus-new intermediary timing comparison.
+These sources are not a comprehensive or independent Cloudflare assessment. The low-cost migration source is strongly favorable but leaves service-migration questions unresolved; Rozen describes Cloudflare mainly as employer and work context. The Stack Overflow comparison reflects one large customer's 2017 requirements, legacy deployment, and provider capabilities, so it should not be generalized to current products. The 2017 enforcement claim is a short second-party report that does not identify affected accounts, policy language, consistency, appeals, or outcomes. The BYOIP, Images, and Smart Tiered Cache accounts are Cloudflare-authored. The BYOIP postmortem supplies no independent customer-impact measure and describes remediation commitments rather than completed controls; 1.1.1.1 DNS resolution remained available despite one.one.one.one website failures. The Images account provides syscall evidence, a deterministic regression test, customer confirmation, and an upstream patch but no independent reproduction, fleet-wide incidence, or old-versus-new intermediary timing comparison. The Smart Tiered Cache launch post provides system logic and UI evidence but no selection-accuracy, latency, hit-ratio, origin-load, failover, adoption, or customer-outcome data; its four-provider scope and configuration behavior are time-sensitive.
 
 ## What Changed
-- Added the Images binding as a local service path spanning Workers, an intermediary, hyper, and kernel socket buffers.
-- Added the 2026 response-truncation incident, its syscall-level diagnosis, deterministic test, patched fork, and upstream fix.
-- Distinguished an architecture change that exposed a latent dependency bug from a change that directly introduced one.
+- Added tiered cache routing to Cloudflare's platform profile.
+- Added the anycast-frontend versus backend-region boundary and explicit region hints where latency cannot infer placement.
+- Added the provider-prefix, probe-data, weighted-vote, geographic-fallback, and separate-PoP selection pipeline.
+- Qualified the claimed cache and latency benefits against the launch post's lack of outcome measurements.
 
 ## Relationships
 - [[Vercel]] - Cloudflare Pages is presented as a lower-cost managed alternative to Vercel.
@@ -74,3 +80,5 @@ These sources are not a comprehensive or independent Cloudflare assessment. The 
 - [[RaceCondition]] - partial flush and shutdown timing caused intermittent response data loss.
 - [[AdaptiveBackpressure]] - a briefly slower reader filled a socket buffer and exposed the latent lifecycle defect.
 - [[ServiceObservability]] - syscall tracing revealed transport behavior that application logs and traces missed.
+- [[CloudflareSmartTieredCache]] - product that selects upper-tier caches and now accepts public-cloud region hints.
+- [[AnycastRouting]] - shared-address frontend behavior that makes origin IP latency an unreliable backend locator.

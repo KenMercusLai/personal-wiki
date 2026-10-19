@@ -9897,3 +9897,11 @@ Created [[KenThompson]] and updated [[UnixEditorLineage]], [[Vim]], [[BillJoy]],
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | Improving Smart Tiered Cache for Public Cloud Regions
+
+Created [[ChenxiZhang]], [[CloudflareSmartTieredCache]], and [[AnycastRouting]], and updated [[Cloudflare]] from its complete ordered evidence inventory. Captured the anycast-frontend versus backend-region distinction, physically constrained multi-vantage detection, safe multi-tier fallback, operator-supplied region hints, provider-prefix refresh, latency-weighted regional voting, separate-PoP failover, and sparse-data geographic fallback. Preserved the first-party launch scope, time-sensitive provider coverage, undisclosed classifier and voting details, configuration-error boundary, and missing latency, hit-ratio, origin-load, failover, adoption, and customer-outcome measurements. Opened all seven local PNGs, retained six evidence-bearing topology, detection, UI, and selection visuals at their semantic positions with descriptive filenames and a canonical manifest, and omitted the decorative cover illustration.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

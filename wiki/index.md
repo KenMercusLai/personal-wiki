@@ -1262,6 +1262,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [像管理代码一样管理需求：B端产品经理的Gemini全家桶实战指南](sources/manage-requirements-like-code.md) - Zhang documents a Gemini-centered workflow for versioned PRDs, governed edits, Mermaid flows, HTML prototypes, NotebookLM continuity, and deterministic data analysis.
 
 - [Vim 的起源](sources/where-vim-came-from.md) - Chinese translation of Sinclair Target's Vim history tracing QED and `ed` through `vi` clones to Vim, with retained teletype and ADM-3A keyboard evidence.
+- [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
 
 ## Entities
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
@@ -3262,6 +3263,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Qdrant](entities/Qdrant.md) - Vector database used for filtered per-user memory storage and similarity retrieval.
 
 - [Ken Thompson](entities/KenThompson.md) - Bell Labs computer scientist whose QED and Unix `ed` work established editor commands and interaction grammar that persist in Vim.
+- [Chenxi Zhang](entities/ChenxiZhang.md) - Cloudflare author of the public-cloud region-hint explanation for Smart Tiered Cache.
+- [Cloudflare Smart Tiered Cache](entities/CloudflareSmartTieredCache.md) - Tiered-caching product using latency, cloud-region hints, provider prefixes, and separate-PoP fallback to select upper-tier caches.
 
 ## Concepts
 - [AI-Era CS Education](concepts/AIEraCSEducation.md) - Curriculum and assessment design for preserving foundational understanding while teaching accountable AI-assisted implementation.
@@ -4853,5 +4856,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Tech Employment Regime Shift](concepts/TechEmploymentRegimeShift.md) - Proposed shift from cheap-capital hiring and broad experimentation toward profitability, executive focus, layoffs, and weaker engineer bargaining power.
 - [Requirements as Code](concepts/RequirementsAsCode.md) - Product-work discipline treating requirements, diagrams, and prototypes as structured, versioned, reviewed, and recoverable artifacts.
+- [Anycast Routing](concepts/AnycastRouting.md) - Shared-address routing that improves locality and resilience while making a frontend IP an unreliable locator for downstream backends.
 
 ## Syntheses
