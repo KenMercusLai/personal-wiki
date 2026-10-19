@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "powermem-forgetting-design",
+  "images": [
+    {
+      "file": "synaptic-plasticity.png",
+      "alt": "Synaptic plasticity diagram contrasting long-term potentiation that strengthens active connections with long-term depression that weakens inactive connections"
+    },
+    {
+      "file": "memory-consolidation.png",
+      "alt": "Memory consolidation diagram showing sleep-time replay selectively transferring memories from the hippocampus to the neocortex"
+    },
+    {
+      "file": "ebbinghaus-decay-curve.png",
+      "alt": "Illustrated exponential forgetting curve with retention falling rapidly at first and then more slowly over time"
+    },
+    {
+      "file": "powermem-forgetting-architecture.png",
+      "alt": "PowerMem forgetting architecture flowing from importance evaluation through decay decisions and lifecycle hooks to exact deduplication, semantic deduplication, and LLM compression"
+    }
+  ]
+}

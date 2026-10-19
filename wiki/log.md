@@ -9929,3 +9929,11 @@ Created [[JianyangGao]] and updated [[RaBitQ]] and [[TurboQuant]] from their com
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | 从神经元到代码工程：PowerMem 记忆系统的遗忘设计
+
+Created [[PowerMem]] and updated [[MemoryForgetting]] from its complete ordered evidence inventory. Recorded importance-scored working, short-term, and long-term tiers; tier-specific exponential decay; access-driven promotion; decay-weighted retrieval; lifecycle hooks; and separate exact deduplication, semantic deduplication, and LLM compression. Preserved the project-authored version 1.1.1 scope, lack of retrieval or calibration evidence, narrower treatment of confidence, internally inconsistent chart unit, and the difference between biological analogy and validated engineering policy. Opened all six local images, retained four evidence-bearing synaptic, consolidation, decay, and architecture diagrams at their semantic positions with descriptive filenames and a canonical manifest, and omitted two decorative title and promotional images.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

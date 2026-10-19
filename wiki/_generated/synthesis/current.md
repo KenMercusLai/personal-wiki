@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-19
-as_of_overview_commit: dc17433f0996160314f17ea8953187e7fa9450bb
+as_of_overview_commit: 7ebc88fe59db0328e5e80eaad5cd0ef0f1149271
 summary: "Podcast Atlas connects systems and institutions to real workloads through mechanism, measurement, verification, incentives, learning, authorship, and accountable control."
-episode_count: 1234
-source_count: 1234
-paragraph_count: 864
+episode_count: 1235
+source_count: 1235
+paragraph_count: 865
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, authority, and accountable human judgment.
+Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, bounded authority, and accountable human judgment.
 
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
 
 ### Business and Markets
 
-Durable outcomes join demonstrated demand to economics, financing, distribution, operational capacity, incentives, and explicit topology or dependency boundaries.
+Durable outcomes join demonstrated demand to economics, financing, distribution, operational capacity, incentives, and explicit dependency boundaries.
 
 - [[AIInfrastructureFinancing]] makes capital structure part of [[AIInvestmentTheme]]: free cash flow, debt, equity, third-party infrastructure funds, and [[Nvidia]] residual-value support can all turn expected compute demand into current construction, but they allocate dilution, repayment, utilization, obsolescence, and resale risk differently; durable paid use and asset value therefore matter more than present orders alone. Evidence: [[AIInfrastructureFinancing]], [[AIInvestmentTheme]], [[Nvidia]], [[JensenHuang]], [[Google]], [[Anthropic]], [[BenThompson]].
 - [[AgentNativeComputing]] may reorder platform advantage by combining browser use, [[ComputerUse]], [[GenerativeUI]], hosted execution, and open gadgets behind one context-rich agent relationship; [[Muse]] and [[MicrosoftCopilot]] illustrate consumer and enterprise bids to shift aggregation from discovering supply toward framing intent and executing across suppliers, while [[AppleTrustBrand]] and app-centered control retain a qualified autonomy-versus-curation tradeoff. Evidence: [[AgentNativeComputing]], [[ComputerUse]], [[GenerativeUI]], [[Muse]], [[MicrosoftCopilot]], [[AggregationTheory]], [[AppleTrustBrand]], [[MacOS]], [[BenThompson]].

@@ -864,12 +864,13 @@
       "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37",
       "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005",
       "69cd8d0ec0038e1584e4882aba95737ec0adffb18cb6c4771d4894f2507449ee",
-      "9edb28f813dd0ff0202025ca1d20ac76eb3cc44e3898e276a255bf4a09acdf36"
+      "9edb28f813dd0ff0202025ca1d20ac76eb3cc44e3898e276a255bf4a09acdf36",
+      "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5"
     ],
-    "paragraph_count": 864
+    "paragraph_count": 865
   },
-  "overview_commit": "dc17433f0996160314f17ea8953187e7fa9450bb",
-  "overview_digest": "1ea75642d8adc85a05b6874ce61bfcee6677d0e223d0cf21f1a23dd5dadc66ac",
+  "overview_commit": "7ebc88fe59db0328e5e80eaad5cd0ef0f1149271",
+  "overview_digest": "71e5457ebf3ab9abec7a55b3e5514e55e752a40a7bfd509311b0e39c3ddd610c",
   "paragraphs": [
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -17420,6 +17421,21 @@
         "DatabasePartitioning",
         "TimeSeriesDatabase",
         "Wayne"
+      ]
+    },
+    {
+      "id": "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[PowerMem]] source sharpens [[MemoryForgetting]] into a concrete three-tier retrieval policy. Importance scores assign working, short-term, or long-term status; tier multipliers change exponential decay speed; repeated access or sufficient importance promotes a memory; and search multiplies semantic relevance by the current decay factor. A separate optimizer performs exact deduplication, semantic deduplication, and LLM compression, so soft forgetting, consolidation, and deletion remain distinct controls. This complements [[NowledgeMem]]'s separation of decay from confidence and conservative archival: the combined model treats forgetting as allocation of finite retrieval attention over recoverable evidence, while still requiring an independent path for revising discredited beliefs. The article is a project-authored explanation of version 1.1.1, not an evaluation; it provides no retrieval benchmark, calibration study, ablation, false-forgetting rate, or evidence that its biological analogies, importance thresholds, decay multipliers, and `relevance × decay` formula are optimal. Four inspected evidence-bearing diagrams were retained at their semantic positions, while two decorative title and promotional images were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 2
+      },
+      "wikilinks": [
+        "MemoryForgetting",
+        "NowledgeMem",
+        "PowerMem"
       ]
     }
   ],
