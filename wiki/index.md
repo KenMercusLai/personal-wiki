@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [重新思考 GreptimeDB 的数据分区机制](sources/rethink-greptimedb-partition.md) - Wayne argues that GreptimeDB's overloaded Region abstraction makes repartitioning expensive and proposes separating stateless writes from query-led multidimensional placement.
 - [Virtual Memory From First Principles](sources/virtual-memory.md) - Abhinav Upadhyay connects Linux/x86-64 address translation, demand paging, reclaim, mapped I/O, huge pages, shootdowns, NUMA, and observability into a practical VM model.
 - [The good times in tech are over](sources/the-good-times-in-tech-are-over.md) - Sean Goedecke attributes the post-boom engineering labor shift to costlier capital, the end of COVID hiring, and narrower executive priorities while treating AI displacement as an unsupported contemporary explanation.
 - [AI 时代的本科 CS 教育随想](sources/ai-shi-dai-de-ben-ke-cs-jiao-yu-sui-xiang-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji.md) - A practitioner reflection arguing that coding agents weaken take-home assignments as evidence of mastery and shift CS education toward architecture, judgment, verification, visible reasoning, and equitable AI-enabled assessment.
@@ -1266,6 +1267,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
 
 ## Entities
+- [Wayne](entities/Wayne.md) - Database practitioner and author reflecting on GreptimeDB partitioning, Region responsibility, and query-led placement.
 - [Abhinav Upadhyay](entities/AbhinavUpadhyay.md) - Systems writer explaining Linux virtual memory and its application-performance consequences from first principles.
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
 - [Monty](entities/Monty.md) - Restricted Python interpreter representing a very-low-startup but lower-compatibility sandbox option.
@@ -3269,6 +3271,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cloudflare Smart Tiered Cache](entities/CloudflareSmartTieredCache.md) - Tiered-caching product using latency, cloud-region hints, provider prefixes, and separate-PoP fallback to select upper-tier caches.
 
 ## Concepts
+- [Database Partitioning](concepts/DatabasePartitioning.md) - Separation of retention, ownership, routing, and compute load into placement units whose granularity determines scalability and repartitioning cost.
 - [Virtual Memory](concepts/VirtualMemory.md) - Protected, sparse per-process address spaces translated through page tables and TLBs to physical memory and backing stores.
 - [Demand Paging and Reclaim](concepts/DemandPagingAndReclaim.md) - Lazy physical allocation and backing-aware eviction of anonymous, file-backed, and tmpfs pages.
 - [Memory-Mapped I/O](concepts/MemoryMappedIO.md) - File access through page-cache frames mapped directly into a process address space, with fault, sharing, and COW tradeoffs.

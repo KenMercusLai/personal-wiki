@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "rethink-greptimedb-partition",
+  "images": [
+    {
+      "file": "timestamp-vs-key-partition.png",
+      "alt": "Time-only partitioning compared with partitioning by timestamp and primary-key dimensions"
+    },
+    {
+      "file": "greptimedb-region-architecture.png",
+      "alt": "GreptimeDB frontends route requests to Regions on Region Servers backed by metadata services and shared object storage"
+    },
+    {
+      "file": "mito2-region-state-machine.png",
+      "alt": "Mito2 Region state machine coupling worker lifecycle, role changes, staging, edits, truncation, dropping, and recovery paths"
+    },
+    {
+      "file": "multidimensional-range-partition.png",
+      "alt": "Two-dimensional ranges divide columns A and B independently into four GreptimeDB Regions"
+    }
+  ]
+}

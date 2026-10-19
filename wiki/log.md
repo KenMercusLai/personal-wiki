@@ -9913,3 +9913,11 @@ Created [[AbhinavUpadhyay]], [[VirtualMemory]], [[DemandPagingAndReclaim]], [[Me
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | 重新思考 GreptimeDB 的数据分区机制
+
+Created [[Wayne]] and [[DatabasePartitioning]] and updated [[GreptimeDB]] and [[TimeSeriesDatabase]] from their complete ordered evidence inventories. Captured the distinction between time-based retention and active-load distribution, Region responsibility overload, repartitioning coordination, Frontend-side batch writes, query-led placement, multidimensional key ranges, and the unfinished automatic feedback loop. Preserved the affiliated practitioner scope, absent benchmarks and version pins, batch-write latency and failure tradeoffs, and the off-roadmap status of file-granularity partitioning. Opened and retained all four evidence-bearing partition, architecture, state-machine, and multidimensional-range diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

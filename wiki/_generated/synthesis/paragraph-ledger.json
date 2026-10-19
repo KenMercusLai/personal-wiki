@@ -863,12 +863,13 @@
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66",
       "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37",
       "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005",
-      "69cd8d0ec0038e1584e4882aba95737ec0adffb18cb6c4771d4894f2507449ee"
+      "69cd8d0ec0038e1584e4882aba95737ec0adffb18cb6c4771d4894f2507449ee",
+      "9edb28f813dd0ff0202025ca1d20ac76eb3cc44e3898e276a255bf4a09acdf36"
     ],
-    "paragraph_count": 863
+    "paragraph_count": 864
   },
-  "overview_commit": "daa7be0a7d1ae8a00bc8551cb8dcd581b6a6deb1",
-  "overview_digest": "30c087d705d0969cb731f9daa816c1da22f59f650ebece162d0b865f7805c328",
+  "overview_commit": "e33a80694293a77168d56dc3b0e3cd70d763fc1e",
+  "overview_digest": "1ea75642d8adc85a05b6874ce61bfcee6677d0e223d0cf21f1a23dd5dadc66ac",
   "paragraphs": [
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -17403,6 +17404,22 @@
         "MemoryMappedIO",
         "NUMAMemoryPlacement",
         "VirtualMemory"
+      ]
+    },
+    {
+      "id": "9edb28f813dd0ff0202025ca1d20ac76eb3cc44e3898e276a255bf4a09acdf36",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [],
+      "text": "The newest [[Wayne]] source adds [[DatabasePartitioning]] as a separation among retention, ownership, write work, and query-load placement. In [[TimeSeriesDatabase|time-series systems]], time-only slices can make history unbounded and TTL deletion cheap while leaving active work concentrated in the newest slices; GreptimeDB therefore combines implicit time partitioning with explicit primary-key Regions. The source's deeper correction is about abstraction weight. A Region accumulated read and write routing, file ownership, MemTables, caches, metadata, alteration, compaction, versioning, and lifecycle state, so repartitioning grew from a rule edit into a coordinated procedure spanning five metadata groups, flushing, file reassignment, rollback, live traffic, cache warming, and historical recompaction. GreptimeDB's batch-write path moves validation, encoding, file creation, and object-store upload to elastic Frontends, leaving Regions to register completed files and making query load a clearer placement target. Independent ranges across key columns can then support predicate pruning and hotspot inference without one fixed lexicographic priority. The proposal remains qualified: Frontend file creation raises average write latency and adds visibility, failure, and cache concerns; no benchmark quantifies the gains or costs; file-as-partition scheduling is a personal off-roadmap idea; and fully automatic query-led placement still lacks a complete feedback loop. All four evidence-bearing diagrams were opened and retained at their semantic positions, including the overloaded Mito2 state machine and the two-dimensional range example.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DatabasePartitioning",
+        "TimeSeriesDatabase",
+        "Wayne"
       ]
     }
   ],
