@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Controlling Reasoning Effort in LLMs](sources/controlling-reasoning-effort.md) - Sebastian Raschka compares learned effort controls, token budgets, specialist distillation, and the resulting quality-cost-latency tradeoff across reasoning models.
 - [Radix Top-K](sources/radix-top-k.md) - A compact digit-wise top-k selection note using bucket histograms, inclusive scans, boundary refinement, and a worked PyTorch/CUDA example.
 - [从神经元到代码工程：PowerMem 记忆系统的遗忘设计](sources/powermem-forgetting-design.md) - A project-authored account of PowerMem's tiered decay, promotion, retrieval weighting, and separate deduplication or compression pipeline.
 - [TurboQuant and RaBitQ: What the Public Story Gets Wrong](sources/turboquant-and-rabitq.md) - Jianyang Gao publicly alleges that TurboQuant underdescribed its overlap with RaBitQ, mischaracterized RaBitQ's theory, and used an undisclosed asymmetric speed comparison.
@@ -1339,7 +1340,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Saatwik Nagpal](entities/SaatwikNagpal.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
 - [Charles Frye](entities/CharlesFrye.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
 - [SGLang](entities/SGLang.md) - Open-source inference engine whose multimodal scheduler path uses CUDA IPC and now caches stable pool-handle storage.
-- [Sebastian Raschka](entities/SebastianRaschka.md) - Machine-learning author and practitioner evaluating local coding-agent stacks across implementation, performance, security, and task fit.
+- [Sebastian Raschka](entities/SebastianRaschka.md) - Machine-learning author comparing local coding-agent systems and reasoning-model post-training through implementation details, visual evidence, and explicit uncertainty boundaries.
 - [Ollama](entities/Ollama.md) - Local model-serving runtime used to expose open-weight models to multiple coding-agent harnesses through an OpenAI-compatible endpoint.
 - [Qwen Code](entities/QwenCode.md) - Open-source coding-agent harness configured, audited, and compared across several local models.
 - [hyper](entities/Hyper.md) - Open-source Rust HTTP library whose HTTP/1 shutdown path was patched to flush buffered response data before closing a backpressured socket.
@@ -3424,6 +3425,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Neural Semantic Matching](concepts/NeuralSemanticMatching.md) - Learned query-document matching through cacheable independent representations or expressive joint token interaction.
 - [Relevance-Constrained Ranking](concepts/RelevanceConstrainedRanking.md) - Value optimization under a relevance target using shadow pricing, replay or feedback control, and qualified value-aware perturbation.
 - [Chain-of-Thought Reasoning](concepts/ChainOfThoughtReasoning.md) - Intermediate reasoning that trades additional inference compute for decomposition, checking, correction, and alternate approaches.
+- [Reasoning Effort](concepts/ReasoningEffort.md) - Learned control over a fixed model's inference-time reasoning budget, cost, latency, and task performance.
 - [Group Relative Policy Optimization](concepts/GroupRelativePolicyOptimization.md) - Critic-free policy optimization using relative rewards across multiple sampled responses to the same prompt.
 - [Reasoning-Model Distillation](concepts/ReasoningModelDistillation.md) - Transfer of stronger-model reasoning behavior into smaller models or shorter correct trajectories.
 - [Adload-Constrained Mixed Ranking](concepts/AdloadConstrainedMixedRanking.md) - Hierarchical optimization that prices shared ad capacity at application level and searches order-preserving request layouts under placement constraints.

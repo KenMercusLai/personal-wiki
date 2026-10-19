@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
       "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
       "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
       "d3d99a8a1fd8a6f8067c2bd5129122d89b2f578a1461cfdfd5b6aa4f227f56f2",
@@ -869,11 +870,30 @@
       "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5",
       "bec7a694401168a71907c7f2573d54b8d5825aba4b3b9750cd54c00f61040f39"
     ],
-    "paragraph_count": 867
+    "paragraph_count": 868
   },
-  "overview_commit": "e86d9082f2d22b3fb23b5d8af96711e8b8735a17",
-  "overview_digest": "a06cfaa41f32b0a860de152977139edc89c38c6ecddb5b435b60f1aee493d10e",
+  "overview_commit": "15f21d122a2e8ea9b0ebe92b320eef2cd8c4b22d",
+  "overview_digest": "a0c61cec8248158c41e910343d760e1f4e18e4012b58db82638f62c9038ded00",
   "paragraphs": [
+    {
+      "id": "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[SebastianRaschka]] analysis adds [[ReasoningEffort]] as learned conditional behavior rather than a generic prompt trick, literal `<think>` syntax, or a synonym for a hard token cap. A system label, chat-template prefill, continuous scalar, or mode flag can select shorter or longer behavior only because post-training associated that signal with a regime. The retained mechanisms span Qwen3 mixed thinking and non-thinking SFT, Inkling's effort-conditioned per-token cost, DeepSeek V4 and Kimi K3 specialist distillation, Nemotron's teacher traces and random truncation, Kimi Toggle's alternating constrained and unconstrained RL, and GLM-5's turn-level and interleaved thinking. This also sharpens [[ChainOfThoughtReasoning]]: DeepSeek-R1-Zero's outcome reward can induce backtracking and self-correction while ignoring intermediate-step correctness, and trace delimiters organize output without creating or proving faithful reasoning. Model choice and effort remain separate scaling axes; higher effort generally spends more tokens and can improve difficult-task scores, but latency and cost rise, the curves flatten or become uneven, and a smaller model at higher effort can overlap a larger model at lower effort. The evidence is mainly vendor-authored reports and first-party benchmarks, proprietary GPT-5.6 mechanics remain partly inferred from GPT-OSS, and no controlled comparison establishes one universal recipe or automatic router. All 35 effective local images were opened; 18 nonredundant evidence-bearing charts, diagrams, code states, and comparison tables were retained at their semantic positions, while promotional book images, embedded-card thumbnails, duplicate UI examples, and visuals fully repeated by stronger retained figures were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ChainOfThoughtReasoning",
+        "ReasoningEffort",
+        "SebastianRaschka"
+      ]
+    },
     {
       "id": "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
       "primary_topic": "cross-domain",

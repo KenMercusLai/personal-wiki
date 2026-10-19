@@ -9953,3 +9953,11 @@ Created [[RadixTopK]]. Recorded most-significant-first digit extraction, bucket 
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | Controlling Reasoning Effort in LLMs
+
+Created [[ReasoningEffort]] and updated [[ChainOfThoughtReasoning]] and [[SebastianRaschka]] from their complete ordered evidence inventories. Recorded reasoning effort as learned conditional inference behavior; separated it from model selection, trace delimiters, and hard token caps; and compared mixed-mode SFT, effort-conditioned RL, specialist distillation, truncation robustness, and alternating budgeted training across GPT-OSS, Inkling, DeepSeek, Nemotron, Kimi, GLM, and Qwen. Preserved vendor-report, first-party benchmark, proprietary-mechanism, equal-compute comparison, trace-faithfulness, diminishing-return, and automatic-routing limits. Opened all 35 effective local images, retained 18 nonredundant evidence-bearing charts, diagrams, code states, and tables at their semantic positions with descriptive filenames and a canonical manifest, and omitted promotional book images, embedded-card thumbnails, duplicate UI examples, and visuals fully repeated by stronger retained figures.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

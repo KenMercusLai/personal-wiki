@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source_key": "controlling-reasoning-effort",
+  "images": [
+    {
+      "file": "gpt56-effort-cost-performance.png",
+      "alt": "GPT-5.6 Sol coding-agent score and API cost rising across six reasoning-effort settings"
+    },
+    {
+      "file": "training-inference-scaling.png",
+      "alt": "Benchmark accuracy increasing with logarithmic inference-time compute and training compute"
+    },
+    {
+      "file": "model-versus-effort-scaling.png",
+      "alt": "GPT-5.6 model-family curves separating model scaling from reasoning-effort inference scaling"
+    },
+    {
+      "file": "rlvr-accuracy-format-rewards.png",
+      "alt": "RLVR examples showing separate correctness and reasoning-format rewards"
+    },
+    {
+      "file": "rlvr-final-answer-reward.png",
+      "alt": "RLVR reward design checking final answer and format while ignoring intermediate reasoning correctness"
+    },
+    {
+      "file": "qwen3-thinking-mode-fusion.png",
+      "alt": "Qwen3 post-training pipeline mixing thinking and non-thinking examples before general reinforcement learning"
+    },
+    {
+      "file": "gpt-oss-effort-prompt.png",
+      "alt": "GPT-OSS chat template inserting a reasoning-effort label into the system message"
+    },
+    {
+      "file": "gpt-oss-effort-length-accuracy.png",
+      "alt": "GPT-OSS benchmark accuracy increasing with reasoning effort and generated response length"
+    },
+    {
+      "file": "effort-conditioned-training.png",
+      "alt": "Possible effort-conditioned RLVR and supervised fine-tuning pipeline with effort-specific length penalties and target traces"
+    },
+    {
+      "file": "inkling-continuous-effort.png",
+      "alt": "Inkling benchmark scores and generated tokens across continuous effort values from 0.2 to 0.99"
+    },
+    {
+      "file": "deepseek-v4-specialist-distillation.png",
+      "alt": "DeepSeek V4 non-thinking, high, and maximum-effort specialists distilled with domain teachers into one checkpoint"
+    },
+    {
+      "file": "nemotron-effort-controls.png",
+      "alt": "Nemotron chat-template examples for regular, medium-effort, and reasoning-off modes"
+    },
+    {
+      "file": "nemotron-medium-effort-training.png",
+      "alt": "Nemotron medium-effort training from teacher traces and randomly truncated reasoning followed by RLVR"
+    },
+    {
+      "file": "kimi-toggle-token-efficiency.png",
+      "alt": "Kimi Toggle benchmark comparison showing similar aggregate performance with substantially lower token use"
+    },
+    {
+      "file": "kimi-toggle-training-phases.png",
+      "alt": "Kimi Toggle alternating budget-limited efficient-solution training with unconstrained full-token training"
+    },
+    {
+      "file": "glm5-training-pipeline.png",
+      "alt": "GLM-5 pipeline from multi-task supervised fine-tuning through reasoning, agentic, and general reinforcement learning to on-policy distillation"
+    },
+    {
+      "file": "open-weight-effort-recipes.png",
+      "alt": "Comparison table of disclosed reasoning-effort training mechanisms and inference controls across six open-weight models"
+    },
+    {
+      "file": "gpt56-diminishing-returns.png",
+      "alt": "GPT-5.6 coding-agent performance and API cost showing diminishing returns at high reasoning effort"
+    }
+  ]
+}

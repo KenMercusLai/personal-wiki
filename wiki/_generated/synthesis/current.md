@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-19
-as_of_overview_commit: e86d9082f2d22b3fb23b5d8af96711e8b8735a17
-summary: "Podcast Atlas connects systems and institutions to real workloads through mechanism, measurement, verification, incentives, learning, authorship, and accountable control."
-episode_count: 1237
-source_count: 1237
-paragraph_count: 867
+as_of_overview_commit: 15f21d122a2e8ea9b0ebe92b320eef2cd8c4b22d
+summary: "Podcast Atlas links systems and institutions to real workloads through mechanism, measurement, verification, incentives, learning, authorship, and accountable control."
+episode_count: 1238
+source_count: 1238
+paragraph_count: 868
 topic_count: 9
 ---
 
@@ -16,8 +16,8 @@ topic_count: 9
 
 ## Executive Summary
 
+- [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance.
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use.
-- [[VirtualMemory]] separates valid address-space promises from resident mappings and connects [[DemandPagingAndReclaim]], [[MemoryMappedIO]], [[HighThroughputIOOptimization]], and [[NUMAMemoryPlacement]]: page backing, fault path, TLB reach, huge-page availability, shootdowns, and first-touch topology remain distinct measurable costs behind uniform virtual addresses.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - [[BackOfEnvelopeEstimation]] uses [[LatencyHierarchy]] and decomposition to reject implausible architectures before implementation, complementing [[CloudCostOptimization]] and [[ComputationalThinking]].
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
@@ -29,10 +29,10 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, bounded authority, and accountable human judgment.
+Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, bounded authority, accountable judgment, and explicit model-versus-effort compute tradeoffs.
 
+- [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
-- [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
 
 ### Business and Markets
 
