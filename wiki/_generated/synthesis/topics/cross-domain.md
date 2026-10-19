@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-10-18
-as_of_overview_commit: 145cdd6b9cbb65b811b81aa136c85d05df655e8f
-input_digest: 0500af18767ab9ad77a0e3c3265300baa95736df311758af12741158e83782fc
+last_updated: 2026-10-19
+as_of_overview_commit: e86d9082f2d22b3fb23b5d8af96711e8b8735a17
+input_digest: 6f1560f6b3bd82e6f61056252696ff7912e1078f0e5a0decfc568a8c0da43c7c
 ---
 
 # Cross-domain
 
 ## Current State
 
-Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: storage layouts must match queries, landmark pathfinding must separate proven bounds from directional policies, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.
+Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: top-k and pathfinding algorithms must preserve their rank or proof invariants, storage layouts must match queries, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.
 
 ## Cross-source Findings
+
+### Radix Selection Refines Only Rank Boundary
+
+[[RadixTopK]] can select fixed-width top-k values without fully sorting by certifying complete radix buckets and repeatedly refining only the bucket containing the remaining rank boundary.
+
+**Evidence:** [[RadixTopK]]
+
+**Qualifications:**
+
+- The only evidence is a toy unsigned-integer example and high-level PyTorch/CUDA script without complexity analysis, benchmarks, fused-kernel design, irregular-width handling, or comparison with production top-k alternatives.
 
 ### Analytical Layout Enables Pruning
 

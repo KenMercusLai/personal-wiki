@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
       "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
       "d3d99a8a1fd8a6f8067c2bd5129122d89b2f578a1461cfdfd5b6aa4f227f56f2",
       "2d3cb5e57d04a582aa69f7ca09834f5014b12ce76fa2f27b84e865a01fd1f892",
@@ -868,11 +869,21 @@
       "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5",
       "bec7a694401168a71907c7f2573d54b8d5825aba4b3b9750cd54c00f61040f39"
     ],
-    "paragraph_count": 866
+    "paragraph_count": 867
   },
-  "overview_commit": "d9d30b3759c402fd8558913daa75452128dfba60",
-  "overview_digest": "e039cdbf7f1cc6c257f6835c511fc977f9f781082f301ad58666e9a0ba131b28",
+  "overview_commit": "e86d9082f2d22b3fb23b5d8af96711e8b8735a17",
+  "overview_digest": "a06cfaa41f32b0a860de152977139edc89c38c6ecddb5b435b60f1aee493d10e",
   "paragraphs": [
+    {
+      "id": "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest algorithm note adds [[RadixTopK]] as a fixed-width selection method that avoids fully sorting an input when only the `k` smallest or largest values are needed. Each most-significant-first digit round extracts a bit chunk, counts candidates by bucket, and scans the counts; the first cumulative count reaching the remaining rank marks a boundary that certifies every lower bucket, retains only the boundary bucket for refinement, and discards every higher bucket. The remaining rank falls as values are certified, while final equal-value ties are truncated to the open slots; reversing bucket order selects the largest values. The retained illustration makes the invariant concrete by selecting `1, 0, 4, 5` from nine four-bit values in two rounds while preserving original indices. The accompanying PyTorch/CUDA script is pedagogical rather than performance evidence: it provides no complexity analysis, fused kernel, benchmark, signed or floating-point encoding, irregular-width handling, tie-index guarantee, or comparison with sorting, heaps, quickselect, and optimized library top-k implementations. The single evidence-bearing image was opened and retained once at its semantic position.",
+      "topic_scores": {},
+      "wikilinks": [
+        "RadixTopK"
+      ]
+    },
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
       "primary_topic": "ai-and-technology",

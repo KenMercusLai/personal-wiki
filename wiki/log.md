@@ -9945,3 +9945,11 @@ Created [[HironobuSuzuki]] and [[PostgreSQLAsynchronousIO]], and updated [[Postg
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | Radix Top-K
+
+Created [[RadixTopK]]. Recorded most-significant-first digit extraction, bucket histograms, inclusive scans, boundary-bucket refinement, remaining-rank updates, final tie truncation, reversed traversal for largest-k selection, and preservation of original indices in the PyTorch/CUDA example. Preserved the unsigned fixed-width toy scope and the absence of complexity analysis, fused-kernel design, benchmarks, signed or floating-point encodings, irregular-width handling, tie-index guarantees, or comparisons with other top-k methods. Opened and retained the single evidence-bearing two-round selection diagram at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,6 +1,18 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "radix-selection-refines-only-rank-boundary",
+      "qualifications": [
+        "The only evidence is a toy unsigned-integer example and high-level PyTorch/CUDA script without complexity analysis, benchmarks, fused-kernel design, irregular-width handling, or comparison with production top-k alternatives."
+      ],
+      "statement": "[[RadixTopK]] can select fixed-width top-k values without fully sorting by certifying complete radix buckets and repeatedly refining only the bucket containing the remaining rank boundary.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "RadixTopK"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "analytical-layout-enables-pruning",
       "qualifications": [
@@ -314,6 +326,6 @@
       ]
     }
   ],
-  "summary": "Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: storage layouts must match queries, landmark pathfinding must separate proven bounds from directional policies, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.",
+  "summary": "Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: top-k and pathfinding algorithms must preserve their rank or proof invariants, storage layouts must match queries, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.",
   "topic_id": "cross-domain"
 }

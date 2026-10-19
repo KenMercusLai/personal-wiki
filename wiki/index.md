@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Radix Top-K](sources/radix-top-k.md) - A compact digit-wise top-k selection note using bucket histograms, inclusive scans, boundary refinement, and a worked PyTorch/CUDA example.
 - [从神经元到代码工程：PowerMem 记忆系统的遗忘设计](sources/powermem-forgetting-design.md) - A project-authored account of PowerMem's tiered decay, promotion, retrieval weighting, and separate deduplication or compression pipeline.
 - [TurboQuant and RaBitQ: What the Public Story Gets Wrong](sources/turboquant-and-rabitq.md) - Jianyang Gao publicly alleges that TurboQuant underdescribed its overlap with RaBitQ, mischaracterized RaBitQ's theory, and used an undisclosed asymmetric speed comparison.
 - [重新思考 GreptimeDB 的数据分区机制](sources/rethink-greptimedb-partition.md) - Wayne argues that GreptimeDB's overloaded Region abstraction makes repartitioning expensive and proposes separating stateless writes from query-led multidimensional placement.
@@ -3277,6 +3278,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Radix Top-K](concepts/RadixTopK.md) - Fixed-width top-k selection that certifies complete radix buckets and refines only the bucket containing the remaining rank boundary.
 - [Database Partitioning](concepts/DatabasePartitioning.md) - Separation of retention, ownership, routing, and compute load into placement units whose granularity determines scalability and repartitioning cost.
 - [Virtual Memory](concepts/VirtualMemory.md) - Protected, sparse per-process address spaces translated through page tables and TLBs to physical memory and backing stores.
 - [Demand Paging and Reclaim](concepts/DemandPagingAndReclaim.md) - Lazy physical allocation and backing-aware eviction of anonymous, file-backed, and tmpfs pages.

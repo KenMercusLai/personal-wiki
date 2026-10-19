@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "radix-top-k",
+  "images": [
+    {
+      "file": "two-round-radix-top-k-selection.webp",
+      "alt": "Two-round Radix Top-K example selecting four smallest four-bit values by histograms, inclusive prefix sums, boundary buckets, and original indices"
+    }
+  ]
+}
