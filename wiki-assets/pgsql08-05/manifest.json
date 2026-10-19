@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source_key": "pgsql08-05",
+  "images": [
+    {
+      "file": "synchronous-versus-asynchronous-read.png",
+      "alt": "Sequence comparison showing synchronous reads blocking an application one request at a time while asynchronous reads let it submit multiple requests, run other work, and later collect completions"
+    },
+    {
+      "file": "io-uring-versus-io-worker.png",
+      "alt": "PostgreSQL asynchronous I/O architectures comparing kernel io_uring submission and completion queues with shared-memory queues served by io_worker processes"
+    },
+    {
+      "file": "vectored-read-buffer-placement.png",
+      "alt": "One vectored read request loading contiguous relation blocks zero through three into noncontiguous PostgreSQL buffer-pool slots before a single completion event"
+    },
+    {
+      "file": "readstream-buffer-array.png",
+      "alt": "ReadStream circular buffer array with queue size, oldest buffer index, and combine distance alongside its simplified stream_buffers representation"
+    },
+    {
+      "file": "readstream-enqueue.png",
+      "alt": "ReadStream enqueue example mapping relation block two through buffer descriptor and buffer pool slot five into the circular buffers array and simplified stream_buffers queue"
+    },
+    {
+      "file": "readstream-dequeue.png",
+      "alt": "ReadStream dequeue example advancing oldest_buffer_index and reducing pinned_buffers as the leftmost element leaves the simplified stream_buffers queue"
+    },
+    {
+      "file": "asynchronous-sequential-scan.png",
+      "alt": "Asynchronous sequential-scan sequence showing read-ahead batches, completion waits, FIFO buffer consumption, and tuple processing overlapping the next storage read"
+    },
+    {
+      "file": "synchronous-sequential-scan.png",
+      "alt": "Traditional synchronous sequential-scan sequence in which each BufferAlloc and read completes before tuple processing and the next block begins"
+    },
+    {
+      "file": "cache-hit-read-ahead.png",
+      "alt": "Read-ahead stopping at an already cached block so only the preceding contiguous cache misses are submitted as one vectored read"
+    },
+    {
+      "file": "post-cache-hit-stream-refill.png",
+      "alt": "ReadStream behavior after a cache hit comparing refill with a contiguous storage batch against repeated one-block handling of consecutive cache hits"
+    },
+    {
+      "file": "adaptive-combine-distance-growth.png",
+      "alt": "Adaptive combine distance doubling from one to sixteen blocks across sequential-read rounds until reaching the configured maximum"
+    },
+    {
+      "file": "adaptive-combine-distance-decay.png",
+      "alt": "Adaptive combine distance remaining stable and then decaying during a long cached run before a cache miss switches it back to growth"
+    },
+    {
+      "file": "fast-path-transitions.png",
+      "alt": "ReadStream entering Fast Path after consecutive cache hits, returning to normal read-ahead on a miss, and staying in Fast Path for a fully cached relation"
+    }
+  ]
+}

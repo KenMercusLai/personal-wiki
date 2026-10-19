@@ -865,12 +865,13 @@
       "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005",
       "69cd8d0ec0038e1584e4882aba95737ec0adffb18cb6c4771d4894f2507449ee",
       "9edb28f813dd0ff0202025ca1d20ac76eb3cc44e3898e276a255bf4a09acdf36",
-      "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5"
+      "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5",
+      "bec7a694401168a71907c7f2573d54b8d5825aba4b3b9750cd54c00f61040f39"
     ],
-    "paragraph_count": 865
+    "paragraph_count": 866
   },
-  "overview_commit": "7ebc88fe59db0328e5e80eaad5cd0ef0f1149271",
-  "overview_digest": "71e5457ebf3ab9abec7a55b3e5514e55e752a40a7bfd509311b0e39c3ddd610c",
+  "overview_commit": "d9d30b3759c402fd8558913daa75452128dfba60",
+  "overview_digest": "e039cdbf7f1cc6c257f6835c511fc977f9f781082f301ad58666e9a0ba131b28",
   "paragraphs": [
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -17436,6 +17437,24 @@
         "MemoryForgetting",
         "NowledgeMem",
         "PowerMem"
+      ]
+    },
+    {
+      "id": "bec7a694401168a71907c7f2573d54b8d5825aba4b3b9750cd54c00f61040f39",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[HironobuSuzuki]] source adds [[PostgreSQLAsynchronousIO]] as a cache-aware read pipeline inside [[PostgreSQLBufferManagement]]. PostgreSQL 18 can use Linux `io_uring` or portable `io_worker` processes for sequential scans, bitmap heap scans, and vacuum, while the described implementation excludes index scans and asynchronous writes. `ReadStream` allocates and pins future buffer slots, combines contiguous relation blocks into vectored requests even when their destinations are scattered through the pool, returns them in scan order, and lets storage work overlap tuple processing until the next required page forces a completion wait. Cache state changes the request shape: the first hit ends a run of misses so one vector remains physically contiguous; the combine window doubles toward its configured and queue-size cap on storage-reading rounds, decays slowly after sustained hits, and eventually enters Fast Path to bypass stream bookkeeping. This extends [[PostgreSQL]] from page layout and replacement into adaptive read submission while narrowing the performance claim: expected benefit is greatest for cold or miss-heavy supported scans and diminishes as the buffer pool warms. The chapter provides no throughput, latency, CPU, device, queue-depth, or `io_uring`-versus-`io_worker` comparison, simplifies several error and concurrency details, and describes version-sensitive controls, so the durable lesson is measured overlap opportunity rather than guaranteed acceleration. All 13 evidence-bearing architecture and process diagrams were opened and retained canonically at their semantic positions.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "HironobuSuzuki",
+        "PostgreSQL",
+        "PostgreSQLAsynchronousIO",
+        "PostgreSQLBufferManagement"
       ]
     }
   ],

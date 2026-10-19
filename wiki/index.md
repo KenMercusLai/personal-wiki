@@ -1267,6 +1267,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Vim 的起源](sources/where-vim-came-from.md) - Chinese translation of Sinclair Target's Vim history tracing QED and `ed` through `vi` clones to Vim, with retained teletype and ADM-3A keyboard evidence.
 - [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
+- [8.5. Asynchronous I/O in PostgreSQL](sources/pgsql08-05.md) - Hironobu Suzuki explains PostgreSQL 18 read-side AIO through io_uring, io_worker, vectored requests, ReadStream, adaptive combining, and warm-cache Fast Path behavior.
 
 ## Entities
 - [PowerMem](entities/PowerMem.md) - Open-source agent-memory project using importance-scored tiers, exponential decay, access-driven promotion, and decay-weighted retrieval.
@@ -3273,6 +3274,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ken Thompson](entities/KenThompson.md) - Bell Labs computer scientist whose QED and Unix `ed` work established editor commands and interaction grammar that persist in Vim.
 - [Chenxi Zhang](entities/ChenxiZhang.md) - Cloudflare author of the public-cloud region-hint explanation for Smart Tiered Cache.
 - [Cloudflare Smart Tiered Cache](entities/CloudflareSmartTieredCache.md) - Tiered-caching product using latency, cloud-region hints, provider prefixes, and separate-PoP fallback to select upper-tier caches.
+- [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
 - [Database Partitioning](concepts/DatabasePartitioning.md) - Separation of retention, ownership, routing, and compute load into placement units whose granularity determines scalability and repartitioning cost.
@@ -4870,5 +4872,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tech Employment Regime Shift](concepts/TechEmploymentRegimeShift.md) - Proposed shift from cheap-capital hiring and broad experimentation toward profitability, executive focus, layoffs, and weaker engineer bargaining power.
 - [Requirements as Code](concepts/RequirementsAsCode.md) - Product-work discipline treating requirements, diagrams, and prototypes as structured, versioned, reviewed, and recoverable artifacts.
 - [Anycast Routing](concepts/AnycastRouting.md) - Shared-address routing that improves locality and resilience while making a frontend IP an unreliable locator for downstream backends.
+- [PostgreSQL Asynchronous I/O](concepts/PostgreSQLAsynchronousIO.md) - Adaptive read-side pipeline combining io_uring or worker processes, vectored requests, ReadStream ordering, and warm-cache Fast Path behavior.
 
 ## Syntheses

@@ -9937,3 +9937,11 @@ Created [[PowerMem]] and updated [[MemoryForgetting]] from its complete ordered 
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | 8.5. Asynchronous I/O in PostgreSQL
+
+Created [[HironobuSuzuki]] and [[PostgreSQLAsynchronousIO]], and updated [[PostgreSQL]] and [[PostgreSQLBufferManagement]] from their complete ordered evidence inventories. Captured `io_uring` and `io_worker` execution boundaries, vectored contiguous-block reads into scattered buffer slots, `ReadStream` queue behavior, executor overlap, cache-hit request boundaries, adaptive combine-distance growth and decay, and warm-cache Fast Path transitions. Preserved the PostgreSQL 18 and selected-read-path scope, absence of asynchronous writes and index-scan support, version sensitivity, cold-cache benchmark boundary, and lack of measured performance comparison. Opened and retained all 13 evidence-bearing architecture and process diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
