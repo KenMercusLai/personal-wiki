@@ -9905,3 +9905,11 @@ Created [[ChenxiZhang]], [[CloudflareSmartTieredCache]], and [[AnycastRouting]],
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | Virtual Memory From First Principles
+
+Created [[AbhinavUpadhyay]], [[VirtualMemory]], [[DemandPagingAndReclaim]], [[MemoryMappedIO]], and [[NUMAMemoryPlacement]], and updated [[HighThroughputIOOptimization]] from its complete ordered evidence inventory. Captured sparse address translation, VMA-versus-PTE state, demand paging, backing-aware reclaim, copy-on-write, mapped I/O, access-pattern and huge-page effects, TLB shootdowns, first-touch NUMA placement, and layered observability. Preserved the Linux/x86-64 teaching scope, hardware and configuration variability, `mmap` and huge-page tradeoffs, simplified reclaim model, and lack of controlled performance measurements. Opened and retained all 15 evidence-bearing diagrams and tables with descriptive filenames, canonical references, and a manifest.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

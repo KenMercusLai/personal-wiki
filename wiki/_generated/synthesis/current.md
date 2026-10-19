@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-18
-as_of_overview_commit: 60cb5569c71daa2546fc4a40e64e6f530c1e77de
-summary: "Podcast Atlas connects systems and institutions to real workloads through verification, incentives, learning, authorship, failure boundaries, and accountable control."
-episode_count: 1231
-source_count: 1231
-paragraph_count: 862
+as_of_overview_commit: daa7be0a7d1ae8a00bc8551cb8dcd581b6a6deb1
+summary: "Podcast Atlas connects systems and institutions to real workloads through mechanism, measurement, verification, incentives, learning, authorship, and accountable control."
+episode_count: 1232
+source_count: 1232
+paragraph_count: 863
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use.
-- [[AIEraInfrastructureEngineering]] joins [[TechnologyEnablerStack]] and [[AIInfrastructureStack]] into a strategic-to-operational sequence: choose a consequential workload and customer problem, then use AI-assisted implementation without surrendering architecture, optimization, verification, or critical low-level understanding; [[AstroVela]] and [[Vane]] are announced applications of that thesis rather than validation of it.
+- [[VirtualMemory]] separates valid address-space promises from resident mappings and connects [[DemandPagingAndReclaim]], [[MemoryMappedIO]], [[HighThroughputIOOptimization]], and [[NUMAMemoryPlacement]]: page backing, fault path, TLB reach, huge-page availability, shootdowns, and first-touch topology remain distinct measurable costs behind uniform virtual addresses.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - [[BackOfEnvelopeEstimation]] uses [[LatencyHierarchy]] and decomposition to reject implausible architectures before implementation, complementing [[CloudCostOptimization]] and [[ComputationalThinking]].
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, data movement, verification, observability, authority, and accountable human judgment.
+Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, authority, and accountable human judgment.
 
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
 - [[AIInfrastructureFinancing]] adds a technical-platform constraint to [[AIInvestmentTheme]]: [[Nvidia]] can pair its accelerator ecosystem with third-party capital and residual-value support, while [[Google]] and other hyperscalers can finance custom accelerators and sell capacity to labs such as [[Anthropic]], so upfront capital cost, software portability, workload fit, and redeployability can shape compute choice alongside operating efficiency. Evidence: [[AIInfrastructureFinancing]], [[Nvidia]], [[Google]], [[Anthropic]], [[JensenHuang]], [[AIInvestmentTheme]].
@@ -43,7 +43,7 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when boundaries match the task, guarantees remain distinct from heuristics, and evidence and recovery are preserved.
+Across domains, designs work when boundaries match the task, guarantees remain distinct from heuristics, and evidence, verification, and recovery are preserved.
 
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
 - Replacing [[SpanningTreeProtocol]] inside a controlled [[DataCenterNetworkFabric]] does not remove edge loops, so [[EdgeNetworkLoopProtection]] must preserve detection and bounded containment across client and virtualization boundaries. Evidence: [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[VMware]], [[NetworkJanitor]].

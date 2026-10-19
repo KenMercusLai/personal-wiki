@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "source_key": "virtual-memory",
+  "images": [
+    {
+      "file": "address-space-layout.png",
+      "alt": "Canonical x86-64 Linux address-space layout with code, data, BSS, heap, mappings, stack, and kernel regions"
+    },
+    {
+      "file": "page-table-level-names.png",
+      "alt": "Linux and x86 names for the four page-table levels"
+    },
+    {
+      "file": "four-level-page-table-hierarchy.png",
+      "alt": "Four-level page-table hierarchy using four nine-bit indices and a twelve-bit page offset"
+    },
+    {
+      "file": "page-table-walk.png",
+      "alt": "CR3-rooted x86-64 page-table walk through PGD, PUD, PMD, and PTE"
+    },
+    {
+      "file": "virtual-to-physical-mapping.png",
+      "alt": "Independent virtual pages mapped through a process page table to scattered physical frames"
+    },
+    {
+      "file": "demand-paging-pte.png",
+      "alt": "Page-table entry before and after a demand-paging fault installs a physical frame"
+    },
+    {
+      "file": "demand-paging-lifecycle.png",
+      "alt": "Demand-paging sequence from missing PTE through VMA validation, frame allocation, and instruction retry"
+    },
+    {
+      "file": "page-fault-resolution-matrix.png",
+      "alt": "Page-fault resolution matrix for anonymous and file-backed pages on first access and after eviction"
+    },
+    {
+      "file": "copy-on-write-fork.png",
+      "alt": "Copy-on-write fork mappings before and after one process writes a shared page"
+    },
+    {
+      "file": "read-vs-mmap.png",
+      "alt": "Buffered read and mmap paths through disk, page cache, and user address space"
+    },
+    {
+      "file": "map-shared-vs-private.png",
+      "alt": "MAP_SHARED writes to the page cache while MAP_PRIVATE creates a copy-on-write page"
+    },
+    {
+      "file": "read-vs-mmap-table.png",
+      "alt": "Comparison table of read and mmap data paths, copies, and fault behavior"
+    },
+    {
+      "file": "mapping-axes.png",
+      "alt": "Virtual-memory mappings classified by anonymous or file-backed origin and private or shared visibility"
+    },
+    {
+      "file": "huge-page-walks.png",
+      "alt": "Normal, two-megabyte, and one-gigabyte page-table walk termination levels"
+    },
+    {
+      "file": "numa-topology.png",
+      "alt": "Two-socket NUMA topology showing local and remote access to first-touch-placed pages"
+    }
+  ]
+}

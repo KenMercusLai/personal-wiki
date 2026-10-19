@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Virtual Memory From First Principles](sources/virtual-memory.md) - Abhinav Upadhyay connects Linux/x86-64 address translation, demand paging, reclaim, mapped I/O, huge pages, shootdowns, NUMA, and observability into a practical VM model.
 - [The good times in tech are over](sources/the-good-times-in-tech-are-over.md) - Sean Goedecke attributes the post-boom engineering labor shift to costlier capital, the end of COVID hiring, and narrower executive priorities while treating AI displacement as an unsupported contemporary explanation.
 - [AI 时代的本科 CS 教育随想](sources/ai-shi-dai-de-ben-ke-cs-jiao-yu-sui-xiang-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji.md) - A practitioner reflection arguing that coding agents weaken take-home assignments as evidence of mastery and shift CS education toward architecture, judgment, verification, visible reasoning, and equitable AI-enabled assessment.
 - [Agent sandbox 可能的选型以及 unikernel 的机会](sources/unikernel-agent.md) - Gao Ce compares containers, Firecracker platforms, Kata, WebAssembly, Monty, and unikernels while arguing that compatibility, snapshots, packaging, and image delivery matter alongside boot latency.
@@ -1265,6 +1266,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
 
 ## Entities
+- [Abhinav Upadhyay](entities/AbhinavUpadhyay.md) - Systems writer explaining Linux virtual memory and its application-performance consequences from first principles.
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
 - [Monty](entities/Monty.md) - Restricted Python interpreter representing a very-low-startup but lower-compatibility sandbox option.
 - [Peter Hasko-Nagy](entities/PeterHaskoNagy.md) - Platform-oriented author comparing lightweight VMMs through operational requirements and integration tradeoffs.
@@ -3267,6 +3269,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cloudflare Smart Tiered Cache](entities/CloudflareSmartTieredCache.md) - Tiered-caching product using latency, cloud-region hints, provider prefixes, and separate-PoP fallback to select upper-tier caches.
 
 ## Concepts
+- [Virtual Memory](concepts/VirtualMemory.md) - Protected, sparse per-process address spaces translated through page tables and TLBs to physical memory and backing stores.
+- [Demand Paging and Reclaim](concepts/DemandPagingAndReclaim.md) - Lazy physical allocation and backing-aware eviction of anonymous, file-backed, and tmpfs pages.
+- [Memory-Mapped I/O](concepts/MemoryMappedIO.md) - File access through page-cache frames mapped directly into a process address space, with fault, sharing, and COW tradeoffs.
+- [NUMA Memory Placement](concepts/NUMAMemoryPlacement.md) - Coordination of first touch, page policy, and thread affinity across non-uniform memory nodes.
 - [AI-Era CS Education](concepts/AIEraCSEducation.md) - Curriculum and assessment design for preserving foundational understanding while teaching accountable AI-assisted implementation.
 - [Unikernel](concepts/Unikernel.md) - Application-specific machine image whose small surface and fast boot trade against Python, process, and tooling compatibility.
 - [MicroVM](concepts/MicroVM.md) - Lightweight virtual machine reducing legacy hardware and guest startup work for isolated, dense, ephemeral execution.

@@ -862,12 +862,13 @@
       "d9c5d2cb9f0472af6b019fc5c0a7d15c42f1c3c260d7ad7c870b04e66e108ecd",
       "0ed394528a23ebd22f598c304f365f1c9517ea65e4c8a45cd51f524a7a13ed66",
       "44cc74d703c341f94b317b0d4d097b9cab24a15d2500a8ea2099e8f3e71eef37",
-      "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005"
+      "4ef913f63c4459dc2f4f30ef5b0e25977ccdaf00580cc3336c11796211ef8005",
+      "69cd8d0ec0038e1584e4882aba95737ec0adffb18cb6c4771d4894f2507449ee"
     ],
-    "paragraph_count": 862
+    "paragraph_count": 863
   },
-  "overview_commit": "60cb5569c71daa2546fc4a40e64e6f530c1e77de",
-  "overview_digest": "5bf3a6039f8595e1fc333af4bd481cb23077925837801c8f52f4d852b3624cc9",
+  "overview_commit": "daa7be0a7d1ae8a00bc8551cb8dcd581b6a6deb1",
+  "overview_digest": "30c087d705d0969cb731f9daa816c1da22f59f650ebece162d0b865f7805c328",
   "paragraphs": [
     {
       "id": "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -17380,6 +17381,28 @@
         "ChenxiZhang",
         "Cloudflare",
         "CloudflareSmartTieredCache"
+      ]
+    },
+    {
+      "id": "69cd8d0ec0038e1584e4882aba95737ec0adffb18cb6c4771d4894f2507449ee",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "science-health-and-climate",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[AbhinavUpadhyay]] source adds [[VirtualMemory]] as the mechanism joining process isolation with application-visible memory cost. Sparse page tables and VMAs separate valid address-space promises from resident physical frames; [[DemandPagingAndReclaim]] then turns first access into allocation and later pressure into page-type-dependent dropping, writeback, or swap. [[MemoryMappedIO]] sharpens the I/O model by showing that `mmap()` avoids `read()`'s page-cache-to-user-buffer copy but pays through faults, mappings, TLB pressure, shootdowns, and different failure semantics, so neither path is universally faster. This also extends [[HighThroughputIOOptimization]]: fixed-buffer page preparation, application-side translation, page-cache movement, mapping invalidation, and [[NUMAMemoryPlacement]] are distinct constraints that must be measured together. Sequential compact access reuses translations; huge pages expand TLB reach but trade against contiguity, reservation, fragmentation, and compaction latency; first-touch initialization can place a shared buffer on one socket and make otherwise identical remote workers slower. The evidence is one explanatory Linux/x86-64 article rather than a controlled benchmark or portable specification, so address widths, table levels, reclaim behavior, TLB organization, NUMA ratios, and counter names remain hardware-, kernel-, configuration-, and workload-specific. All 15 supplied evidence-bearing diagrams and tables were opened and retained canonically at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AbhinavUpadhyay",
+        "DemandPagingAndReclaim",
+        "HighThroughputIOOptimization",
+        "MemoryMappedIO",
+        "NUMAMemoryPlacement",
+        "VirtualMemory"
       ]
     }
   ],
