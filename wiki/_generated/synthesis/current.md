@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-19
-as_of_overview_commit: 15f21d122a2e8ea9b0ebe92b320eef2cd8c4b22d
+as_of_overview_commit: df36c4091043e95e513e59e3fa674680a4d1a8a7
 summary: "Podcast Atlas links systems and institutions to real workloads through mechanism, measurement, verification, incentives, learning, authorship, and accountable control."
-episode_count: 1238
-source_count: 1238
+episode_count: 1239
+source_count: 1239
 paragraph_count: 868
 topic_count: 9
 ---

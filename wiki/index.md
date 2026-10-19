@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Can Applications Recover from fsync Failures?](sources/atc20-rebello.md) - Rebello and collaborators show that filesystem-specific fsync failure semantics and cache/disk divergence defeat several database recovery strategies under injected block faults.
 - [Controlling Reasoning Effort in LLMs](sources/controlling-reasoning-effort.md) - Sebastian Raschka compares learned effort controls, token budgets, specialist distillation, and the resulting quality-cost-latency tradeoff across reasoning models.
 - [Radix Top-K](sources/radix-top-k.md) - A compact digit-wise top-k selection note using bucket histograms, inclusive scans, boundary refinement, and a worked PyTorch/CUDA example.
 - [从神经元到代码工程：PowerMem 记忆系统的遗忘设计](sources/powermem-forgetting-design.md) - A project-authored account of PowerMem's tiered decay, promotion, retrieval weighting, and separate deduplication or compression pipeline.
@@ -1272,6 +1273,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [8.5. Asynchronous I/O in PostgreSQL](sources/pgsql08-05.md) - Hironobu Suzuki explains PostgreSQL 18 read-side AIO through io_uring, io_worker, vectored requests, ReadStream, adaptive combining, and warm-cache Fast Path behavior.
 
 ## Entities
+- [CuttleFS](entities/CuttleFS.md) - FUSE-based durability test harness that emulates selected filesystem reactions to failed block writes and controls cache eviction.
 - [PowerMem](entities/PowerMem.md) - Open-source agent-memory project using importance-scored tiers, exponential decay, access-driven promotion, and decay-weighted retrieval.
 - [Jianyang Gao](entities/JianyangGao.md) - RaBitQ first author represented by his public methodological, theoretical, and benchmark-disclosure objections to TurboQuant.
 - [Wayne](entities/Wayne.md) - Database practitioner and author reflecting on GreptimeDB partitioning, Region responsibility, and query-led placement.
@@ -3279,6 +3281,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [fsync Failure Semantics](concepts/FsyncFailureSemantics.md) - Cross-layer rules governing memory, disk, metadata, error timing, and safe recovery after a persistence barrier fails.
 - [Radix Top-K](concepts/RadixTopK.md) - Fixed-width top-k selection that certifies complete radix buckets and refines only the bucket containing the remaining rank boundary.
 - [Database Partitioning](concepts/DatabasePartitioning.md) - Separation of retention, ownership, routing, and compute load into placement units whose granularity determines scalability and repartitioning cost.
 - [Virtual Memory](concepts/VirtualMemory.md) - Protected, sparse per-process address spaces translated through page tables and TLBs to physical memory and backing stores.

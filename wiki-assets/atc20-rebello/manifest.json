@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "atc20-rebello",
+  "images": [
+    {
+      "file": "filesystem-fsync-failure-behavior.png",
+      "alt": "Comparison of ext4, XFS, and Btrfs fsync failure reporting, page state, availability, file damage, and checker recovery"
+    },
+    {
+      "file": "application-fsync-failure-outcomes.png",
+      "alt": "Matrix of stale values, false failures, corruptions, and missing keys across five applications and three emulated filesystem reactions"
+    }
+  ]
+}
