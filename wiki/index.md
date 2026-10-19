@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [TurboQuant and RaBitQ: What the Public Story Gets Wrong](sources/turboquant-and-rabitq.md) - Jianyang Gao publicly alleges that TurboQuant underdescribed its overlap with RaBitQ, mischaracterized RaBitQ's theory, and used an undisclosed asymmetric speed comparison.
 - [重新思考 GreptimeDB 的数据分区机制](sources/rethink-greptimedb-partition.md) - Wayne argues that GreptimeDB's overloaded Region abstraction makes repartitioning expensive and proposes separating stateless writes from query-led multidimensional placement.
 - [Virtual Memory From First Principles](sources/virtual-memory.md) - Abhinav Upadhyay connects Linux/x86-64 address translation, demand paging, reclaim, mapped I/O, huge pages, shootdowns, NUMA, and observability into a practical VM model.
 - [The good times in tech are over](sources/the-good-times-in-tech-are-over.md) - Sean Goedecke attributes the post-boom engineering labor shift to costlier capital, the end of COVID hiring, and narrower executive priorities while treating AI displacement as an unsupported contemporary explanation.
@@ -1267,6 +1268,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
 
 ## Entities
+- [Jianyang Gao](entities/JianyangGao.md) - RaBitQ first author represented by his public methodological, theoretical, and benchmark-disclosure objections to TurboQuant.
 - [Wayne](entities/Wayne.md) - Database practitioner and author reflecting on GreptimeDB partitioning, Region responsibility, and query-led placement.
 - [Abhinav Upadhyay](entities/AbhinavUpadhyay.md) - Systems writer explaining Linux virtual memory and its application-performance consequences from first principles.
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.

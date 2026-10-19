@@ -9921,3 +9921,11 @@ Created [[Wayne]] and [[DatabasePartitioning]] and updated [[GreptimeDB]] and [[
 ## [2026-10-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | TurboQuant and RaBitQ: What the Public Story Gets Wrong
+
+Created [[JianyangGao]] and updated [[RaBitQ]] and [[TurboQuant]] from their complete ordered evidence inventories. Recorded the shared random-rotation dispute, claimed optimal RaBitQ theory, pre-submission correction chronology, alleged translated single-core Python versus A100 comparison, public OpenReview comment, and conference escalation. Preserved the interested-party advocacy scope, absent complete correspondence and responses, unadjudicated intent claims, and continuing need for independent technical replication. Opened and retained the single evidence-bearing OpenReview screenshot at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
