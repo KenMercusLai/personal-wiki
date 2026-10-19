@@ -9889,3 +9889,11 @@ Created [[RequirementsAsCode]] and updated [[Gemini]], [[NotebookLM]], and [[Pro
 ## [2026-10-18] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-19] ingest | Vim 的起源
+
+Created [[KenThompson]] and updated [[UnixEditorLineage]], [[Vim]], [[BillJoy]], [[BramMoolenaar]], and [[ConstraintShapedInterfaceDesign]] from their complete ordered evidence inventories. Captured QED-to-`ed` command inheritance, the paper-teletype-to-video-terminal transition, `ex`/`vi` release chronology, ADM-3A keyboard origins of `h/j/k/l` and `Esc`, AT&T licensing pressure, STEVIE and Fred Fish distribution, and Vim's compatibility-led feature accumulation. Preserved the overlapping-secondary-source limitation, differing chronology granularity around `en` and Chuck Haley, and historical rather than current popularity measurements. Opened and retained both evidence-bearing photographs at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

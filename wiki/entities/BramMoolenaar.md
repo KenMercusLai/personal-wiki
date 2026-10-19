@@ -4,7 +4,8 @@ type: entity
 tags: [software-history, open-source, text-editors]
 sources:
   - a-look-at-vim-a-text-editor-for-the-ages-the-new-stack
-last_updated: 2026-09-13
+  - where-vim-came-from
+last_updated: 2026-10-19
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,27 +13,29 @@ knowledge_schema: synthesis-v1
 [[BramMoolenaar]] is the Dutch programmer presented in the source as the creator, maintainer, release manager, and long-running benevolent dictator for life of [[Vim]].
 
 ## Current Profile
-The article frames Moolenaar as the person who transformed STEVIE-derived open-source code into Vim for the Amiga in 1991, then stewarded it through early shareware distribution, ports, patches, and steady feature accumulation. His work is used as the article's clearest example of incremental, collaborative software evolution rather than disruptive reinvention.
+The sources frame Moolenaar as the person who began transforming STEVIE-derived open-source code into Vim for the Amiga in 1988, achieved strong `vi` compatibility, released it publicly in 1991, and then stewarded it through early shareware distribution, ports, patches, and steady feature accumulation. His work exemplifies incremental, collaborative software evolution rather than disruptive reinvention.
 
 ## Key Characteristics
-- Created Vim for the Amiga in 1991 from open-source STEVIE code.
+- Began creating Vim for the Amiga in 1988 from open-source STEVIE code and first released it in 1991.
 - Initially customized the editor to meet his own writing and editing needs.
+- Used `vi` compatibility as an initial acceptance target before extending beyond it.
 - Distributed early Vim through shareware floppy channels before wider internet distribution was practical.
-- Hosted early versions through employer servers and posted a large second version to Usenet in many parts.
-- Became Vim's maintainer, release manager, and benevolent dictator for life as external patches arrived.
+- Became Vim's maintainer and release manager as external patches and feature requests arrived.
 
 ## Evidence
-- Creation: [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] says Moolenaar adapted STEVIE into Vim in 1991.
+- Creation chronology: [[where-vim-came-from]] says Moolenaar began with STEVIE in 1988 and first released Vim in 1991; [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] centers the public 1991 origin.
 - Motivation: [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] reports Moolenaar adding features he wanted for writing text.
-- Distribution: [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] describes floppy shareware circulation, employer-hosted files, and Usenet posting through `comp.sources.misc`.
+- Compatibility target: [[where-vim-came-from]] says he filled STEVIE's missing commands until a maze-solving `vi` macro ran correctly, then added multi-level undo and quickfix.
+- Distribution: [[where-vim-came-from]] identifies Fred Fish disks 256 and 591 in the STEVIE-to-Vim path, while [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] describes employer-hosted files and Usenet posting through `comp.sources.misc`.
 - Maintenance role: [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] says patches led Moolenaar to become maintainer, release manager, and benevolent dictator for life.
-- Incremental evolution: [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] uses Vim to argue that good ideas can accumulate gradually over time.
+- Incremental evolution: [[a-look-at-vim-a-text-editor-for-the-ages-the-new-stack]] and [[where-vim-came-from]] use Vim to argue that good ideas and collaborator contributions can accumulate gradually over time.
 
 ## Qualifications
-The source focuses on Vim's early history through 2018 and does not cover Moolenaar's full biography, charityware model, governance details, or later events.
+The sources overlap heavily and focus on Vim's early history through 2018. They do not cover Moolenaar's full biography, charityware model, detailed governance, or later events; “benevolent dictator for life” is the older article's governance characterization rather than a complete institutional account.
 
 ## What Changed
-- Created Bram Moolenaar as the origin and maintenance figure for Vim.
+- Distinguished the 1988 start of development from the 1991 public release.
+- Added `vi`-compatibility testing and Fred Fish distribution details.
 
 ## Relationships
 - [[Vim]] - Moolenaar created and maintained Vim.

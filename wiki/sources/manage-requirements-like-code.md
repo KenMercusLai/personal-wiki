@@ -2,7 +2,7 @@
 title: "像管理代码一样管理需求：B端产品经理的Gemini全家桶实战指南"
 type: source
 tags: [ai, product-management, requirements, prototyping, gemini]
-date: 2026-03-05
+date: 2026-02-10
 source_file: /mnt/ken_personal_wiki/Articles/manage-requirements-like-code.md
 ---
 

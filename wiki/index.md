@@ -1261,6 +1261,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [How to Build Your Own Custom LLM Memory Layer from Scratch](sources/custom-llm-memory-layer.md) - Avishek Biswas implements atomic extraction, per-user vector retrieval, optional ReAct lookup, and explicit memory maintenance while exposing important code and evaluation gaps.
 - [像管理代码一样管理需求：B端产品经理的Gemini全家桶实战指南](sources/manage-requirements-like-code.md) - Zhang documents a Gemini-centered workflow for versioned PRDs, governed edits, Mermaid flows, HTML prototypes, NotebookLM continuity, and deterministic data analysis.
 
+- [Vim 的起源](sources/where-vim-came-from.md) - Chinese translation of Sinclair Target's Vim history tracing QED and `ed` through `vi` clones to Vim, with retained teletype and ADM-3A keyboard evidence.
+
 ## Entities
 - [Gao Ce](entities/GaoCe.md) - Infrastructure practitioner comparing agent sandbox runtimes, scheduling, snapshots, and image delivery.
 - [Monty](entities/Monty.md) - Restricted Python interpreter representing a very-low-startup but lower-compatibility sandbox option.
@@ -3258,6 +3260,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mem0](entities/Mem0.md) - Agent-memory architecture separating candidate extraction from similarity-informed state updates.
 - [DSPy](entities/DSPy.md) - LLM application framework used for structured prediction, tools, and ReAct loops.
 - [Qdrant](entities/Qdrant.md) - Vector database used for filtered per-user memory storage and similarity retrieval.
+
+- [Ken Thompson](entities/KenThompson.md) - Bell Labs computer scientist whose QED and Unix `ed` work established editor commands and interaction grammar that persist in Vim.
 
 ## Concepts
 - [AI-Era CS Education](concepts/AIEraCSEducation.md) - Curriculum and assessment design for preserving foundational understanding while teaching accountable AI-assisted implementation.

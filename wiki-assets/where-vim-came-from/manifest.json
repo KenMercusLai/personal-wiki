@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "where-vim-came-from",
+  "images": [
+    {
+      "file": "thompson-ritchie-at-pdp-11-teletypes.webp",
+      "alt": "Ken Thompson seated at a teletype beside Dennis Ritchie and a PDP-11 installation"
+    },
+    {
+      "file": "adm-3a-keyboard.webp",
+      "alt": "Lear Siegler ADM-3A keyboard with arrow markings on the H, J, K, and L keys"
+    }
+  ]
+}
