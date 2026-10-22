@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-22
-as_of_overview_commit: ad46a21bde269bef878b94f1856fd78a64f18a2c
+as_of_overview_commit: 6051690947e21572a14ebd1f5d494ff71ecc59df
 summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, and accountable control."
-episode_count: 1244
-source_count: 1244
+episode_count: 1245
+source_count: 1245
 paragraph_count: 873
 topic_count: 9
 ---

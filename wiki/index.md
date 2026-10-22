@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [LatentMoE：Kimi K3 背后的 MoE 高效变体](sources/latent-moe.md) - Oilbeater explains latent-width expert communication as a way to reduce MoE data movement while leaving Kimi K3's Stable LatentMoE details provisional.
 - [psql_bm25s: when retrieval stops being a budget item](sources/psql-bm25s.md) - Intelligent Internet presents a PostgreSQL-native mutable BM25 access method, first-party BEIR throughput results, and a validation-heavy AI-assisted optimization loop.
 - [Can Applications Recover from fsync Failures?](sources/atc20-rebello.md) - Rebello and collaborators show that filesystem-specific fsync failure semantics and cache/disk divergence defeat several database recovery strategies under injected block faults.
 - [Controlling Reasoning Effort in LLMs](sources/controlling-reasoning-effort.md) - Sebastian Raschka compares learned effort controls, token budgets, specialist distillation, and the resulting quality-cost-latency tradeoff across reasoning models.
@@ -1278,6 +1279,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
 
 ## Entities
+- [Kimi K3](entities/KimiK3.md) - Reasoning model described through roughly 2.8T-parameter scale, nine-specialist distillation, and an incompletely documented Stable LatentMoE system.
+- [Oilbeater](entities/Oilbeater.md) - Technical blogger explaining LatentMoE through communication, memory traffic, and scale tradeoffs.
 - [psql_bm25s](entities/PsqlBm25s.md) - PostgreSQL access method for exact BM25-family retrieval with SQL composition, base-plus-delta maintenance, WAL recovery, and replication intent.
 - [Oleg Obleukhov](entities/OlegObleukhov.md) - Facebook production engineer represented through a measurement-led account of internal and public NTP infrastructure.
 - [Chrony](entities/Chrony.md) - NTP implementation represented through Facebook's measured migration, hardware timestamping, and leap-smearing deployment.
@@ -3290,6 +3293,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [LatentMoE](concepts/LatentMoE.md) - Sparse-expert architecture that routes at model width while compressing expert communication and computation into a narrower latent representation.
 - [Retrieval Budgeting](concepts/RetrievalBudgeting.md) - How query cost and tool limits shape whether an agent searches accumulated state routinely or only as a fallback.
 - [Base-Delta Index Maintenance](concepts/BaseDeltaIndexMaintenance.md) - Mutable-index pattern that separates a read-optimized base from recent changes and periodically folds them together.
 - [Network Time Synchronization](concepts/NetworkTimeSynchronization.md) - End-to-end distribution and correction of clocks through reference sources, network exchanges, serving strata, and independent validation.

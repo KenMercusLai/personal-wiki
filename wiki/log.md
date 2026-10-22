@@ -10009,3 +10009,11 @@ Created [[PsqlBm25s]], [[RetrievalBudgeting]], and [[BaseDeltaIndexMaintenance]]
 ## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-22] ingest | LatentMoE：Kimi K3 背后的 MoE 高效变体
+
+Created [[LatentMoE]], [[KimiK3]], and [[Oilbeater]], and updated [[MixtureOfExpertsLoadBalancing]] from its complete ordered evidence inventory. Recorded full-width routing with latent down-projection before all-to-all dispatch, narrow expert computation, post-combine up-projection, and the memory-versus-arithmetic tradeoff. Preserved the secondary-source scope, absent experiment details behind the reported fourfold compression result, and provisional relationship between Kimi K3's named Stable LatentMoE and the illustrated architecture. Opened and retained the single evidence-bearing comparison diagram at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

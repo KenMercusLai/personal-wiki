@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "latent-moe",
+  "images": [
+    {
+      "file": "standard-moe-versus-latent-moe.png",
+      "alt": "Standard MoE dispatches full-width activations while LatentMoE projects them down before expert communication and back up after combination"
+    }
+  ]
+}
