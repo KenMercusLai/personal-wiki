@@ -2,7 +2,7 @@
 title: "8.5. Asynchronous I/O in PostgreSQL"
 type: source
 tags: [postgresql, asynchronous-io, io-uring, buffer-management, sequential-scan]
-date: 2026-10-19
+date: 2026-06-28
 source_file: /mnt/ken_personal_wiki/Articles/pgsql08-05.md
 ---
 

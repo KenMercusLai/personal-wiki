@@ -1271,6 +1271,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vim 的起源](sources/where-vim-came-from.md) - Chinese translation of Sinclair Target's Vim history tracing QED and `ed` through `vi` clones to Vim, with retained teletype and ADM-3A keyboard evidence.
 - [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
 - [8.5. Asynchronous I/O in PostgreSQL](sources/pgsql08-05.md) - Hironobu Suzuki explains PostgreSQL 18 read-side AIO through io_uring, io_worker, vectored requests, ReadStream, adaptive combining, and warm-cache Fast Path behavior.
+- [Reinforcement-Learning 学习笔记](sources/rlbook.md) - A chapter-spanning Sutton and Barto study notebook connects bandits, MDPs, dynamic programming, sampled returns, TD control, function approximation, average reward, and policy gradients while retaining its AI-generated and unverified scope.
 
 ## Entities
 - [CuttleFS](entities/CuttleFS.md) - FUSE-based durability test harness that emulates selected filesystem reactions to failed block writes and controls cache eviction.
@@ -4880,5 +4881,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Requirements as Code](concepts/RequirementsAsCode.md) - Product-work discipline treating requirements, diagrams, and prototypes as structured, versioned, reviewed, and recoverable artifacts.
 - [Anycast Routing](concepts/AnycastRouting.md) - Shared-address routing that improves locality and resilience while making a frontend IP an unreliable locator for downstream backends.
 - [PostgreSQL Asynchronous I/O](concepts/PostgreSQLAsynchronousIO.md) - Adaptive read-side pipeline combining io_uring or worker processes, vectored requests, ReadStream ordering, and warm-cache Fast Path behavior.
+- [Multi-Armed Bandit](concepts/MultiArmedBandit.md) - Stateless online choice setting that isolates action-value estimation and exploration versus exploitation.
+- [Markov Decision Process](concepts/MarkovDecisionProcess.md) - Sequential decision model connecting sufficient state, actions, rewards, transition probabilities, policies, returns, and values.
+- [Temporal-Difference Learning](concepts/TemporalDifferenceLearning.md) - Sample-based value learning that bootstraps from reward-plus-successor estimates.
+- [Function Approximation](concepts/FunctionApproximation.md) - Shared-parameter representation of values or policies for large or continuous state spaces.
 
 ## Syntheses

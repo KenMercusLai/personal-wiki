@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-19
-as_of_overview_commit: d9d30b3759c402fd8558913daa75452128dfba60
-input_digest: ecc5d678625aefd51d853368aa3a3f071ddab47a0d51cef468d32fda8aba6625
+as_of_overview_commit: cafc2b1924ff8c275d5b002b4f6ded0e404bb75b
+input_digest: cd93a82ffaa9ddff92c506d063ccd19a9f6550689a9c17773df43b6a372706ab
 ---
 
 # Governance and Institutions
@@ -1064,3 +1064,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The chapter explains PostgreSQL 18 implementation behavior rather than an institutional or public-governance outcome.
 - It reports no throughput, latency, CPU, device, queue-depth, or io_uring-versus-io_worker comparison and excludes index scans and asynchronous writes.
+
+### Rl State Reward And Evidence Boundaries Govern Learned Behavior
+
+[[MarkovDecisionProcess]], [[TemporalDifferenceLearning]], [[FunctionApproximation]], and [[PolicyGradient]] expose governance choices inside learned systems: state representation determines what information is visible, reward and policy define selected behavior, behavior-policy coverage determines what can be learned off-policy, and approximation plus sampling distribution determine which errors receive capacity; these controls require explicit assumptions and evidence rather than algorithm labels alone.
+
+**Evidence:** [[MarkovDecisionProcess]], [[TemporalDifferenceLearning]], [[FunctionApproximation]], [[PolicyGradient]]
+
+**Qualifications:**
+
+- The new evidence is a learner notebook dominated by unverified AI-generated explanations rather than primary empirical work.
+- A formally specified state or reward does not by itself establish that hidden information, proxy misspecification, behavior-policy coverage, or approximation error is acceptably governed.

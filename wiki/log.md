@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-22] ingest | Reinforcement-Learning 学习笔记
+
+Created [[MultiArmedBandit]], [[MarkovDecisionProcess]], [[TemporalDifferenceLearning]], and [[FunctionApproximation]], and updated [[ReinforcementLearning]], [[MonteCarloEstimation]], and [[PolicyGradient]] from their complete ordered evidence inventories. Recorded evaluative feedback, stationary versus recency-weighted action values, Markov state sufficiency, partial observability, Bellman expectation and optimality, model-based versus sampled updates, Monte Carlo returns, TD bootstrapping, Sarsa and off-policy coverage, n-step tradeoffs, semi-gradients, state-distribution weighting, average reward, policy-score gradients, and baselines. Preserved the learner-notebook scope, extensive AI-generated explanation, unverified convergence assumptions, n-step motivation correction, and distinction between unbiased baselines and guaranteed variance reduction. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-19] ingest | Can Applications Recover from fsync Failures?
 
 Created [[FsyncFailureSemantics]] and [[CuttleFS]], and updated [[DataDurability]] from its complete ordered evidence inventory. Recorded clean-page behavior after failed writes, ext4/XFS cache-to-disk divergence, Btrfs reversion and hole behavior, delayed ext4 data-mode errors, application anomalies across restart and cache-eviction states, and the need for deterministic low-level storage fault injection. Preserved the Linux 5.2.11, named-version, simple-workload, and single-transient-fault boundaries; treated comparative filesystem and database findings as source-date-specific rather than current universal guarantees. Opened both local table images and retained their filesystem and application outcome matrices at their semantic positions with a canonical manifest.
@@ -9967,5 +9971,9 @@ Created [[ReasoningEffort]] and updated [[ChainOfThoughtReasoning]] and [[Sebast
 Ran lint. See lint-report.md for details.
 
 ## [2026-10-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
