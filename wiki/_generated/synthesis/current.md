@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-22
-as_of_overview_commit: 3b1dd2f9fa46256fbad63a432020a0964e6d5924
-summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, learning, and accountable control."
-episode_count: 1243
-source_count: 1243
-paragraph_count: 872
+as_of_overview_commit: ad46a21bde269bef878b94f1856fd78a64f18a2c
+summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, and accountable control."
+episode_count: 1244
+source_count: 1244
+paragraph_count: 873
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, bounded authority, accountable judgment, and recovery semantics; LTAP adds storage-level unification without erasing semantic or rollout risk.
+Technical leverage depends on workload-specific architecture, data movement, verification, observability, bounded authority, recovery, and qualified evidence.
 
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
@@ -43,7 +43,7 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when boundaries match the task, estimates are independently validated, guarantees remain distinct from heuristics, and evidence, verification, and recovery are preserved.
+Across domains, designs work when boundaries match the task, estimates are independently validated, and evidence, verification, and recovery are preserved.
 
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy. Evidence: [[NetworkTimeSynchronization]], [[Chrony]], [[HardwareTimestamping]], [[LeapSecondSmearing]], [[OlegObleukhov]], [[Facebook]].
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
@@ -57,18 +57,18 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions, platforms, and learned systems need transparent authority, explicit state and reward assumptions, accountable decisions, separately governable controls, observable effects, and credible recovery.
+Institutions and platforms need transparent authority, explicit state, accountable decisions, observable effects, usable controls, and credible recovery.
 
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 - [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 
 ### History and Geopolitics
 
-Historical claims require attention to institutions, incentives, technology, source perspective, path dependence, and contested causality; technical retrospectives remain source-scoped when they offer no geopolitical evidence.
+Historical claims require attention to institutions, incentives, technology, source perspective, path dependence, and contested causality.
 
 ### Psychology and Personal Development
 
-Agency and judgment develop through feedback-rich practice, attention allocation, calibrated risk, adaptable routines, and awareness of social shortcuts; technical classifier spillover is kept separate from human evidence.
+Agency and judgment develop through feedback-rich practice, attention allocation, calibrated risk, adaptable routines, and awareness of social shortcuts.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].
@@ -82,7 +82,7 @@ Scientific and health conclusions remain conditional on mechanism, population, m
 
 ### Work, Education, and Society
 
-Sustainable work and learning depend on active practice, observable reasoning, feedback, clear roles, fair incentives, teaching capacity, responsibility, recovery, and review systems whose bottlenecks and authority remain explicit.
+Sustainable work and learning depend on active practice, observable reasoning, feedback, clear roles, fair incentives, recovery, and explicit review authority.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

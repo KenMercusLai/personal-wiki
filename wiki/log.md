@@ -10001,3 +10001,11 @@ Created [[ReynoldXin]] and [[LakeTransactionalAnalyticalProcessing]], and update
 ## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-22] ingest | psql_bm25s: when retrieval stops being a budget item
+
+Created [[PsqlBm25s]], [[RetrievalBudgeting]], and [[BaseDeltaIndexMaintenance]]. Recorded SQL-native BM25 composition, realtime and eventual base-plus-delta maintenance, the PG18 15-dataset BEIR throughput matrix, and a five-stage AI-assisted optimization harness. Preserved first-party, throughput-only, relevance, tail-latency, mutation, fold-cost, recovery-test, resource-normalization, agent-outcome, and independent-reproduction qualifications. Opened and retained all seven evidence-bearing architecture, maintenance, benchmark, table, and harness visuals at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

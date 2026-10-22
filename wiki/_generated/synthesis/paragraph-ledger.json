@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
       "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
       "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
       "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
@@ -874,11 +875,31 @@
       "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca"
     ],
-    "paragraph_count": 872
+    "paragraph_count": 873
   },
-  "overview_commit": "3b1dd2f9fa46256fbad63a432020a0964e6d5924",
-  "overview_digest": "757763c0f6fe3c2ec617ac3865e73bb025db355660fa87f1d73884d4fab2aa37",
+  "overview_commit": "ad46a21bde269bef878b94f1856fd78a64f18a2c",
+  "overview_digest": "aa8c3e69bb8608a9fe2a265227d6da859e3145f46055211e5ba3b7d993d608ce",
   "paragraphs": [
+    {
+      "id": "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[PsqlBm25s]] source connects database index design to agent control policy. New [[RetrievalBudgeting]] captures the article's central mechanism: when search is slow, a harness narrows and delays grounding; when search is cheap, it can issue several focused queries and re-check accumulated state throughout a task. The implementation lives inside [[PostgreSQL]] as a BM25-family access method so lexical candidates compose with filters, joins, permissions, recency, and vector candidates, while new [[BaseDeltaIndexMaintenance]] separates an optimized base from recent writes, updates, and tombstones and offers realtime or eventual read paths before background folding replaces the base. On 15 BEIR datasets at top-k 1,000, the authors report 3.97x and 3.93x suite-median QPS versus Python bm25s and much larger gains over vchord_bm25 and pg_search; these are first-party throughput results without relevance, uncertainty, tail-latency, mutation, fold, resource, failure-injection, or independent-reproduction evidence. The development account also sharpens [[HarnessEngineering]]: an AI coding agent implemented bounded hypotheses, but a repeated benchmark-and-constraints gate decided which branches survived. All seven evidence-bearing local visuals were opened and retained once at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BaseDeltaIndexMaintenance",
+        "HarnessEngineering",
+        "PostgreSQL",
+        "PsqlBm25s",
+        "RetrievalBudgeting"
+      ]
+    },
     {
       "id": "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
       "primary_topic": "cross-domain",

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "source_key": "psql-bm25s",
+  "images": [
+    {"file": "postgresql-access-method-architecture.png", "alt": "psql_bm25s SQL surface, PostgreSQL access-method integration, and WAL-backed replication path"},
+    {"file": "base-delta-maintenance.png", "alt": "Base-plus-delta index maintenance with realtime and eventual read paths"},
+    {"file": "beir-suite-median-throughput.png", "alt": "Suite-median query throughput across 15 BEIR datasets relative to Python bm25s"},
+    {"file": "beir-per-path-throughput-table.png", "alt": "Per-path minimum, median, and maximum throughput across 15 BEIR datasets"},
+    {"file": "largest-beir-workloads-table.png", "alt": "Absolute QPS and workload sizes for the three largest BEIR datasets"},
+    {"file": "largest-workload-throughput.png", "alt": "Throughput comparison across msmarco, fever, and hotpotqa"},
+    {"file": "optimization-harness-loop.png", "alt": "Five-stage optimization harness with correctness, maintenance, recovery, replication, API, latency, and throughput gates"}
+  ]
+}
