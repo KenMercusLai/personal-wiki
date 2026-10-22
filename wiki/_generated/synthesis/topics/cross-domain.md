@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-10-19
-as_of_overview_commit: e86d9082f2d22b3fb23b5d8af96711e8b8735a17
-input_digest: 6f1560f6b3bd82e6f61056252696ff7912e1078f0e5a0decfc568a8c0da43c7c
+last_updated: 2026-10-22
+as_of_overview_commit: c8ff56ee470a738d3b2e2b4c312b49dfc1b9ca58
+input_digest: 1669fa7ac269cf95428b661c76739f93d13f43f76c8d5f55e48ddbe732084cd0
 ---
 
 # Cross-domain
 
 ## Current State
 
-Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: top-k and pathfinding algorithms must preserve their rank or proof invariants, storage layouts must match queries, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.
+Across otherwise unrelated domains, the evidence favors workload- and boundary-aware design over labels or isolated features: time services need independent validation, algorithms must preserve rank or proof invariants, storage layouts must match queries, infrastructure replacements must preserve edge protections, recovery must escape inherited failure modes, and every optimization needs explicit accuracy, lifecycle, ownership, and evidence limits.
 
 ## Cross-source Findings
+
+### Time Service Accuracy Requires Independent Validation
+
+[[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy.
+
+**Evidence:** [[NetworkTimeSynchronization]], [[Chrony]], [[HardwareTimestamping]], [[LeapSecondSmearing]], [[OlegObleukhov]], [[Facebook]]
+
+**Qualifications:**
+
+- The evidence is a selected first-party deployment account without raw fleet-wide distributions or independent reproduction; public-provider results and endpoint paths are vantage-point dependent.
 
 ### Radix Selection Refines Only Rank Boundary
 

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-22
-as_of_overview_commit: bcfc26e9b310c2e059d7cffc15e644f26ab36af5
+as_of_overview_commit: c8ff56ee470a738d3b2e2b4c312b49dfc1b9ca58
 summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, learning, and accountable control."
-episode_count: 1241
-source_count: 1241
-paragraph_count: 870
+episode_count: 1242
+source_count: 1242
+paragraph_count: 871
 topic_count: 9
 ---
 
@@ -19,7 +19,7 @@ topic_count: 9
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance.
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
-- [[BackOfEnvelopeEstimation]] uses [[LatencyHierarchy]] and decomposition to reject implausible architectures before implementation, complementing [[CloudCostOptimization]] and [[ComputationalThinking]].
+- [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy.
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
@@ -43,10 +43,10 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when boundaries match the task, guarantees remain distinct from heuristics, and evidence, verification, and recovery are preserved.
+Across domains, designs work when boundaries match the task, estimates are independently validated, guarantees remain distinct from heuristics, and evidence, verification, and recovery are preserved.
 
+- [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy. Evidence: [[NetworkTimeSynchronization]], [[Chrony]], [[HardwareTimestamping]], [[LeapSecondSmearing]], [[OlegObleukhov]], [[Facebook]].
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
-- Replacing [[SpanningTreeProtocol]] inside a controlled [[DataCenterNetworkFabric]] does not remove edge loops, so [[EdgeNetworkLoopProtection]] must preserve detection and bounded containment across client and virtualization boundaries. Evidence: [[SpanningTreeProtocol]], [[DataCenterNetworkFabric]], [[EdgeNetworkLoopProtection]], [[VMware]], [[NetworkJanitor]].
 
 ### Culture and Media
 

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
       "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
       "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
       "60e3e6e7b0239597cb68176c4c5946fd737a00a9e8b7f54f8265e6b9f76573d7",
@@ -872,11 +873,26 @@
       "1567936d98d64d5c6e3050803afcbaaa06b0679fa757cadc953404e5d898d4df",
       "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253"
     ],
-    "paragraph_count": 870
+    "paragraph_count": 871
   },
-  "overview_commit": "bcfc26e9b310c2e059d7cffc15e644f26ab36af5",
-  "overview_digest": "d1b22dc5503465f0d7a9fb220b68bf62c5e0fa90d22eae79a3943f098788ad0b",
+  "overview_commit": "c8ff56ee470a738d3b2e2b4c312b49dfc1b9ca58",
+  "overview_digest": "16f0fedd4a9d6c33725eb95a70f2506416a7e800f5380dc0e85f35eafbc09f36",
   "paragraphs": [
+    {
+      "id": "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[OlegObleukhov]] source adds [[NetworkTimeSynchronization]] as a measured end-to-end service rather than a daemon-configuration task. [[Facebook]] separates GNSS reference, an atomic-clock Stratum 1 appliance, [[LeapSecondSmearing]] at Stratum 2, and larger Stratum 3 serving capacity; five public endpoints add path diversity, while two retained traces show distinct LHR6 and WAW1 routes from one vantage point. Facebook's selected measurements found [[Chrony]] roughly 10 to 100 times more precise than ntpd, but the more durable lesson is the verification boundary: symmetry, dispatch, scheduling, oscillator, and path assumptions make daemon estimates insufficient, so closed-loop 1PPS and a portable GNSS/atomic-clock device independently measure phase and packet offset. [[HardwareTimestamping]] moves observation toward the network interface and reduced the displayed lab distribution to often within plus or minus 100 microseconds, yet an 11 ns adjusted-offset sample still carried a 193 microsecond error estimate; nanosecond resolution is not nanosecond end-to-end accuracy. The public-provider chart is location- and path-dependent, the article supplies selected first-party traces rather than raw fleet-wide data, and neither endpoint diversity nor sub-millisecond precision is independently reproduced. All 21 local images were opened; ten nonredundant architectures, measurement charts, packet-delay mechanics, endpoint paths, and smear evidence were retained canonically, while decorative, photographic, resource, redundant, and text-repeated visuals were omitted.",
+      "topic_scores": {},
+      "wikilinks": [
+        "Chrony",
+        "Facebook",
+        "HardwareTimestamping",
+        "LeapSecondSmearing",
+        "NetworkTimeSynchronization",
+        "OlegObleukhov"
+      ]
+    },
     {
       "id": "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
       "primary_topic": "ai-and-technology",

@@ -9978,9 +9978,17 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-22] ingest | Building a more accurate time service at Facebook scale
+
+Created [[OlegObleukhov]], [[Chrony]], [[NetworkTimeSynchronization]], [[HardwareTimestamping]], and [[LeapSecondSmearing]]. Recorded the GNSS-to-Stratum-3 architecture, chrony versus ntpd measurements, daemon-estimate assumptions, 1PPS and portable-reference validation, software versus hardware timestamp boundaries, public-endpoint diversity, and the approximately 18-hour post-event smear. Preserved the first-party, selected-trace, path-sensitive, configuration-specific, and non-nanosecond-accuracy limits. Opened all 21 local images, retained ten nonredundant architecture, measurement, mechanism, route, and smear visuals at their semantic positions with descriptive filenames and a canonical manifest, and omitted decorative, photographic, resource, redundant, or fully text-repeated images.
+
 ## [2026-10-22] ingest | tape x bee : 我对智能体任务的编排方式
 
 Created [[AgentTaskOrchestration]] and updated [[PsiACE]], [[TapeAndAnchors]], and [[AgentTopicLifecycle]] from their complete ordered evidence inventories. Recorded Bee's Topic profile, Skill and configuration template, DAG metadata, BDD completion criteria, workspace state projection, human review and revision loop, Kubernetes or Argo execution, cross-mode Topic memory, and task, node, and DAG checkpoint anchors. Preserved the first-party and unbenchmarked scope, explicitly AI-summarized OpenClaw and Hermes comparison, dual-state consistency gap, and distinction between contextual retry and idempotent external-effect recovery. Opened and retained both evidence-bearing architecture and workflow-interface images at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-22] lint | Wiki health check
 

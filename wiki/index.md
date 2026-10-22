@@ -1273,8 +1273,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Improving Smart Tiered Cache for Public Cloud Regions](sources/smart-tiered-cache-public-clouds.md) - Cloudflare combines public-cloud region hints, provider IP ranges, latency-derived voting, and separate-PoP fallback to route cache misses around ambiguous anycast origins.
 - [8.5. Asynchronous I/O in PostgreSQL](sources/pgsql08-05.md) - Hironobu Suzuki explains PostgreSQL 18 read-side AIO through io_uring, io_worker, vectored requests, ReadStream, adaptive combining, and warm-cache Fast Path behavior.
 - [Reinforcement-Learning 学习笔记](sources/rlbook.md) - A chapter-spanning Sutton and Barto study notebook connects bandits, MDPs, dynamic programming, sampled returns, TD control, function approximation, average reward, and policy gradients while retaining its AI-generated and unverified scope.
+- [Building a more accurate time service at Facebook scale](sources/ntp-service.md) - Oleg Obleukhov explains Facebook's measured migration from ntpd to chrony, hardware timestamping, four-stratum architecture, public endpoints, and leap smearing.
 
 ## Entities
+- [Oleg Obleukhov](entities/OlegObleukhov.md) - Facebook production engineer represented through a measurement-led account of internal and public NTP infrastructure.
+- [Chrony](entities/Chrony.md) - NTP implementation represented through Facebook's measured migration, hardware timestamping, and leap-smearing deployment.
 - [CuttleFS](entities/CuttleFS.md) - FUSE-based durability test harness that emulates selected filesystem reactions to failed block writes and controls cache eviction.
 - [PowerMem](entities/PowerMem.md) - Open-source agent-memory project using importance-scored tiers, exponential decay, access-driven promotion, and decay-weighted retrieval.
 - [Jianyang Gao](entities/JianyangGao.md) - RaBitQ first author represented by his public methodological, theoretical, and benchmark-disclosure objections to TurboQuant.
@@ -3283,6 +3286,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Network Time Synchronization](concepts/NetworkTimeSynchronization.md) - End-to-end distribution and correction of clocks through reference sources, network exchanges, serving strata, and independent validation.
+- [Hardware Timestamping](concepts/HardwareTimestamping.md) - Packet timing at the network interface that narrows software-path uncertainty without guaranteeing end-to-end clock accuracy.
+- [Leap-Second Smearing](concepts/LeapSecondSmearing.md) - Coordinated rate adjustment that absorbs a leap second gradually to preserve continuous application-visible time.
 - [fsync Failure Semantics](concepts/FsyncFailureSemantics.md) - Cross-layer rules governing memory, disk, metadata, error timing, and safe recovery after a persistence barrier fails.
 - [Radix Top-K](concepts/RadixTopK.md) - Fixed-width top-k selection that certifies complete radix buckets and refines only the bucket containing the remaining rank boundary.
 - [Database Partitioning](concepts/DatabasePartitioning.md) - Separation of retention, ownership, routing, and compute load into placement units whose granularity determines scalability and repartitioning cost.
