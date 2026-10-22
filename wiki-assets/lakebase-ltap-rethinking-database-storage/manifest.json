@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "lakebase-ltap-rethinking-database-storage",
+  "images": [
+    {
+      "file": "monolith-vs-lakebase-architecture.png",
+      "alt": "Monolithic database storage compared with Lakebase Safekeeper, Pageserver, and object-store separation"
+    },
+    {
+      "file": "lakebase-read-cache-hierarchy.png",
+      "alt": "Lakebase read-cache hierarchy from object storage through Pageserver and local file cache to the PostgreSQL buffer pool"
+    },
+    {
+      "file": "cdc-vs-ltap-reads.png",
+      "alt": "Classic CDC replication compared with LTAP reads combining object-store data and recent Pageserver changes at a PostgreSQL LSN"
+    }
+  ]
+}

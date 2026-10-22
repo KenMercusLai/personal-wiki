@@ -1274,6 +1274,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [8.5. Asynchronous I/O in PostgreSQL](sources/pgsql08-05.md) - Hironobu Suzuki explains PostgreSQL 18 read-side AIO through io_uring, io_worker, vectored requests, ReadStream, adaptive combining, and warm-cache Fast Path behavior.
 - [Reinforcement-Learning 学习笔记](sources/rlbook.md) - A chapter-spanning Sutton and Barto study notebook connects bandits, MDPs, dynamic programming, sampled returns, TD control, function approximation, average reward, and policy gradients while retaining its AI-generated and unverified scope.
 - [Building a more accurate time service at Facebook scale](sources/ntp-service.md) - Oleg Obleukhov explains Facebook's measured migration from ntpd to chrony, hardware timestamping, four-stratum architecture, public endpoints, and leap smearing.
+- [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
 
 ## Entities
 - [Oleg Obleukhov](entities/OlegObleukhov.md) - Facebook production engineer represented through a measurement-led account of internal and public NTP infrastructure.
@@ -3272,6 +3273,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [fastsimdjson](entities/Fastsimdjson.md) - Python simdjson binding exposing parallel record mapping and lazy on-demand value materialization.
 - [Lakebase](entities/Lakebase.md) - Serverless PostgreSQL service separating compute, WAL durability, page materialization, and object-store persistence.
 - [Databricks](entities/Databricks.md) - Data-platform company operating Lakebase and integrating it with Lakehouse compute and governance.
+- [Reynold Xin](entities/ReynoldXin.md) - Databricks cofounder presenting the storage-architecture argument from monolithic PostgreSQL through Lakebase to LTAP.
 
 - [Snowsky Echo Mini](entities/SnowskyEchoMini.md) - Compact cassette-styled audio player whose UI resources, font renderer, and update path were reverse-engineered.
 - [Flame Ocean](entities/FlameOcean.md) - Browser-based editor for replacing Echo Mini firmware images, animations, and fonts.
@@ -4880,6 +4882,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Selective JSON Parsing](concepts/SelectiveJSONParsing.md) - Processing only required JSON fields while avoiding eager native-object creation for unused values.
 - [Database Branching](concepts/DatabaseBranching.md) - Copy-on-write forking of database history at a consistent version for isolated development, recovery, and agent workflows.
 - [Disaggregated Transactional Database](concepts/DisaggregatedTransactionalDatabase.md) - Architecture separating transaction execution, quorum WAL, page materialization, and durable storage.
+- [Lake Transactional/Analytical Processing](concepts/LakeTransactionalAnalyticalProcessing.md) - Storage-level unification of PostgreSQL transactions and Lakehouse analytics over one governed columnar database history.
 
 - [AI-Assisted Reverse Engineering](concepts/AIAssistedReverseEngineering.md) - Model-accelerated binary investigation bounded by evidence provenance, human judgment, verification, and security consequences.
 - [Context-Isolated Multi-Model Workflow](concepts/ContextIsolatedMultiModelWorkflow.md) - Separation of durable knowledge and current execution through problem trees, structured briefs, reports, and independent critique.

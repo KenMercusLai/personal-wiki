@@ -871,12 +871,13 @@
       "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5",
       "bec7a694401168a71907c7f2573d54b8d5825aba4b3b9750cd54c00f61040f39",
       "1567936d98d64d5c6e3050803afcbaaa06b0679fa757cadc953404e5d898d4df",
-      "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253"
+      "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
+      "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca"
     ],
-    "paragraph_count": 871
+    "paragraph_count": 872
   },
-  "overview_commit": "c8ff56ee470a738d3b2e2b4c312b49dfc1b9ca58",
-  "overview_digest": "16f0fedd4a9d6c33725eb95a70f2506416a7e800f5380dc0e85f35eafbc09f36",
+  "overview_commit": "3b1dd2f9fa46256fbad63a432020a0964e6d5924",
+  "overview_digest": "757763c0f6fe3c2ec617ac3865e73bb025db355660fa87f1d73884d4fab2aa37",
   "paragraphs": [
     {
       "id": "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
@@ -17548,6 +17549,27 @@
         "AgentTopicLifecycle",
         "PsiACE",
         "TapeAndAnchors"
+      ]
+    },
+    {
+      "id": "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[ReynoldXin]] article evolves the wiki's [[Lakebase]] model from direct PostgreSQL-page access toward [[LakeTransactionalAnalyticalProcessing]]. The existing [[DisaggregatedTransactionalDatabase]] boundary remains: PostgreSQL computes execute transactions, Safekeepers quorum-replicate WAL, Pageservers reconstruct versions, and object storage outlives compute. LTAP uses the Pageserver materialization point to transcode rows into Parquet exposed through Delta or [[ApacheIceberg]], while preserving PostgreSQL values, heap identity, MVCC history, and page reconstruction. An analytical query obtains an LSN, scans the materialized majority from object storage, and merges recent Pageserver changes, keeping bulk analytical traffic away from transaction compute. This is storage-level rather than single-engine HTAP unification: PostgreSQL and Lakehouse engines retain separate execution and scaling, and every table is intended to be available without selected-table CDC or a separately governed mirror. The one-copy claim is qualified because buffers, row-page caches, recent deltas, MVCC versions, and transitional validation copies coexist; the article reports dual row and column writes during rollout and supplies no independent recovery, performance, materialization-lag, extension-compatibility, or failure evaluation. All three local diagrams were opened and retained once at their semantic positions to document component boundaries, the cache hierarchy, and the LSN-bounded CDC-versus-LTAP read path.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ApacheIceberg",
+        "DisaggregatedTransactionalDatabase",
+        "LakeTransactionalAnalyticalProcessing",
+        "Lakebase",
+        "ReynoldXin"
       ]
     }
   ],

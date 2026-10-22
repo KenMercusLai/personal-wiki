@@ -9993,3 +9993,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-22] ingest | From monolith to Lakebase to LTAP: rethinking the database from storage up
+
+Created [[ReynoldXin]] and [[LakeTransactionalAnalyticalProcessing]], and updated [[Lakebase]], [[Databricks]], and [[DisaggregatedTransactionalDatabase]] from their complete ordered evidence inventories. Recorded the Safekeeper and Pageserver split, layered read cache, PostgreSQL-semantic row-to-Parquet materialization, LSN-bounded recent-tail merge, and the distinction between storage-level LTAP and single-engine HTAP or selected-table CDC. Preserved first-party, transitional-rollout, dual-write-verification, semantic-transcoding, recovery, failure, performance, and one-copy qualifications. Opened and retained all three evidence-bearing local diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
