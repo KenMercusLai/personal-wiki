@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
       "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
       "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
       "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
@@ -875,11 +876,27 @@
       "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca"
     ],
-    "paragraph_count": 873
+    "paragraph_count": 874
   },
-  "overview_commit": "6051690947e21572a14ebd1f5d494ff71ecc59df",
-  "overview_digest": "aa8c3e69bb8608a9fe2a265227d6da859e3145f46055211e5ba3b7d993d608ce",
+  "overview_commit": "76fa48cb832599fe7017db8f0c7cc28463b49839",
+  "overview_digest": "1cd923226c00625f7e2b5506eb93d8303fbba33f8c02706a90d4f097e72edd19",
   "paragraphs": [
+    {
+      "id": "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[JaanaDogan]] essay adds [[StatefulJobScheduling]] as a lifecycle problem rather than ordinary bin packing with attached volumes. Durable local data, checkpoints, indexes, stream partitions, and warm caches bind worker identity to recovery history, so placement must balance locality against hotspots and temporary unreachability while fencing delayed workers from concurrent mutation. Upgrades become state and protocol migrations: urgent patching, rollback after partial mutation, and long mixed-version operation require compatibility across storage, consensus, and serialization boundaries. Generic CPU, memory, exit-code, and traffic signals are insufficient when safe preemption depends on commit state, zero traffic can hide compaction or heartbeats, and suspension requires flushing, consistent snapshotting, reconnection, lease rebuilding, and cache warming. The article therefore argues for a layer between general orchestrators and specialized runtimes that couples scheduling policy with storage and application semantics. This remains a practitioner thesis rather than a demonstrated platform: it supplies no architecture, API, fencing protocol, workload survey, benchmark, recovery experiment, or comparison showing that one general layer can cover the range better than existing workload-specific controllers. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "JaanaDogan",
+        "StatefulJobScheduling"
+      ]
+    },
     {
       "id": "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
       "primary_topic": "ai-and-technology",

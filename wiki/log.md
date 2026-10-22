@@ -10017,3 +10017,11 @@ Created [[LatentMoE]], [[KimiK3]], and [[Oilbeater]], and updated [[MixtureOfExp
 ## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-22] ingest | Stateful jobs
+
+Created [[StatefulJobScheduling]] and updated [[JaanaDogan]] from her complete ordered evidence inventory. Recorded durable worker identity, locality and fencing tradeoffs, state-compatible upgrades, application-aware interruption, crash and corruption risk, and the full suspension and rehydration lifecycle. Preserved the essay's practitioner-thesis scope and its missing architecture, API, benchmark, workload survey, failure experiment, and comparison with existing general orchestrators or specialized controllers. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

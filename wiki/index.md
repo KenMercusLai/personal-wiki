@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Stateful jobs](sources/stateful-jobs.md) - Jaana Dogan argues that durable state turns placement, upgrades, recovery, and idleness into coordinated lifecycle decisions rather than ordinary resource scheduling.
 - [LatentMoE：Kimi K3 背后的 MoE 高效变体](sources/latent-moe.md) - Oilbeater explains latent-width expert communication as a way to reduce MoE data movement while leaving Kimi K3's Stable LatentMoE details provisional.
 - [psql_bm25s: when retrieval stops being a budget item](sources/psql-bm25s.md) - Intelligent Internet presents a PostgreSQL-native mutable BM25 access method, first-party BEIR throughput results, and a validation-heavy AI-assisted optimization loop.
 - [Can Applications Recover from fsync Failures?](sources/atc20-rebello.md) - Rebello and collaborators show that filesystem-specific fsync failure semantics and cache/disk divergence defeat several database recovery strategies under injected block faults.
@@ -1650,7 +1651,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ring](entities/Ring.md) - Home-security hardware company whose DoorBot origin, Shark Tank exposure, product expansion, and reported 2017 scale form the source's central case.
 - [DFJ](entities/DFJ.md) - Ring investor and interview publisher characterized by Siminoff as willing to back ideas that initially appear strange.
 - [Shark Tank](entities/SharkTank.md) - Television investment program whose rejected DoorBot pitch reportedly became a large customer-exposure event.
-- [Jaana Dogan](entities/JaanaDogan.md) - Software practitioner translating database failure modes and tradeoffs for application developers.
+- [Jaana Dogan](entities/JaanaDogan.md) - Software practitioner connecting database and stateful-scheduler abstractions to concrete failure, migration, and recovery paths.
 - [Colm Doyle](entities/ColmDoyle.md) - Author of a 2016 practitioner argument for contextual in-app feature communication over traditional App Store release notes.
 - [Clayton Christensen](entities/ClaytonChristensen.md) - Strategy scholar represented through Thompson's qualified critique of applying low-end disruption theory mechanically to consumer markets.
 - [My Tabata](entities/MyTabata.md) - Mobile interval timer represented through a one-screen workout flow, tap-anywhere pause, audio countdown, and visible progress cues.
@@ -3293,6 +3294,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Stateful Job Scheduling](concepts/StatefulJobScheduling.md) - Placement and lifecycle management for long-running work whose durable identity and state make movement, restart, upgrade, or suspension costly or unsafe.
 - [LatentMoE](concepts/LatentMoE.md) - Sparse-expert architecture that routes at model width while compressing expert communication and computation into a narrower latent representation.
 - [Retrieval Budgeting](concepts/RetrievalBudgeting.md) - How query cost and tool limits shape whether an agent searches accumulated state routinely or only as a fallback.
 - [Base-Delta Index Maintenance](concepts/BaseDeltaIndexMaintenance.md) - Mutable-index pattern that separates a read-optimized base from recent changes and periodically folds them together.

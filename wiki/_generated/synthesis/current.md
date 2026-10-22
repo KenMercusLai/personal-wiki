@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-22
-as_of_overview_commit: 6051690947e21572a14ebd1f5d494ff71ecc59df
+as_of_overview_commit: 76fa48cb832599fe7017db8f0c7cc28463b49839
 summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, and accountable control."
-episode_count: 1245
-source_count: 1245
-paragraph_count: 873
+episode_count: 1246
+source_count: 1246
+paragraph_count: 874
 topic_count: 9
 ---
 
@@ -57,10 +57,10 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions and platforms need transparent authority, explicit state, accountable decisions, observable effects, usable controls, and credible recovery.
+Institutions and technical control layers need explicit authority and state, observable effects, usable constraints, accountable lifecycle decisions, and credible recovery.
 
+- [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
-- [[Incrementalism]] makes institutional change a sequencing and continuity problem: [[EdGlaeser]] and [[LindaHirshman]] show organizations, research challenges, state reforms, precedents, and public opinion creating conditions for later civil-rights rulings, while [[DavidLaibson]] and [[DaveBrailsford]] show defaults, measurement, and shared practice sustaining repeated action; the governance boundary is foundation-first because small gains do not replace core capacity, legitimate direction, causal evidence, ethical scrutiny, or accountability. Evidence: [[Incrementalism]], [[EdGlaeser]], [[LindaHirshman]], [[DavidLaibson]], [[DaveBrailsford]], [[IndexFundStrategy]].
 
 ### History and Geopolitics
 
