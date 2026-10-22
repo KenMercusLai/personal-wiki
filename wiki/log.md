@@ -9977,3 +9977,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-22] ingest | tape x bee : 我对智能体任务的编排方式
+
+Created [[AgentTaskOrchestration]] and updated [[PsiACE]], [[TapeAndAnchors]], and [[AgentTopicLifecycle]] from their complete ordered evidence inventories. Recorded Bee's Topic profile, Skill and configuration template, DAG metadata, BDD completion criteria, workspace state projection, human review and revision loop, Kubernetes or Argo execution, cross-mode Topic memory, and task, node, and DAG checkpoint anchors. Preserved the first-party and unbenchmarked scope, explicitly AI-summarized OpenClaw and Hermes comparison, dual-state consistency gap, and distinction between contextual retry and idempotent external-effect recovery. Opened and retained both evidence-bearing architecture and workflow-interface images at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

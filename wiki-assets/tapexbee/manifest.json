@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "tapexbee",
+  "images": [
+    {
+      "file": "bee-topic-architecture.png",
+      "alt": "Architecture diagram showing a Bee Topic flowing from template metadata and BDD constraints through Tape entries, review, revision, and Kubernetes deployment"
+    },
+    {
+      "file": "bee-workflow-interface.png",
+      "alt": "Bee workflow interface showing nine ordered DAG nodes, per-node execution state, manual and automatic controls, replay, and a selected node summary"
+    }
+  ]
+}

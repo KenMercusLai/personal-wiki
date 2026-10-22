@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-19
-as_of_overview_commit: cafc2b1924ff8c275d5b002b4f6ded0e404bb75b
-summary: "Podcast Atlas links systems and institutions to real workloads through mechanism, measurement, verification, incentives, learning, authorship, and accountable control."
-episode_count: 1240
-source_count: 1240
-paragraph_count: 869
+last_updated: 2026-10-22
+as_of_overview_commit: bcfc26e9b310c2e059d7cffc15e644f26ab36af5
+summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, learning, and accountable control."
+episode_count: 1241
+source_count: 1241
+paragraph_count: 870
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, bounded authority, accountable judgment, and explicit distinctions among model-based expectation, sampled returns, bootstrapping, approximation, and direct policy optimization.
+Technical leverage depends on workload-specific architecture, data movement, memory behavior, verification, observability, bounded authority, accountable judgment, and recovery semantics; agent orchestration adds explicit milestones and infrastructure reuse without making replay or external effects safe by itself.
 
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
@@ -82,7 +82,7 @@ Scientific and health conclusions remain conditional on mechanism, population, m
 
 ### Work, Education, and Society
 
-Sustainable work and learning depend on active practice, observable reasoning, feedback, clear roles, fair incentives, teaching capacity, responsibility, and recovery.
+Sustainable work and learning depend on active practice, observable reasoning, feedback, clear roles, fair incentives, teaching capacity, responsibility, recovery, and review systems whose bottlenecks and authority remain explicit.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

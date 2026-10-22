@@ -869,12 +869,13 @@
       "9edb28f813dd0ff0202025ca1d20ac76eb3cc44e3898e276a255bf4a09acdf36",
       "212d2496a799d05cc94ce99c3b814035c5bd6cddf734ab0b264e498fccaf96b5",
       "bec7a694401168a71907c7f2573d54b8d5825aba4b3b9750cd54c00f61040f39",
-      "1567936d98d64d5c6e3050803afcbaaa06b0679fa757cadc953404e5d898d4df"
+      "1567936d98d64d5c6e3050803afcbaaa06b0679fa757cadc953404e5d898d4df",
+      "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253"
     ],
-    "paragraph_count": 869
+    "paragraph_count": 870
   },
-  "overview_commit": "cafc2b1924ff8c275d5b002b4f6ded0e404bb75b",
-  "overview_digest": "fb38e20de7f02251bf3375e1dad29dff5de0425ed724e7ad96fb37e3419672a0",
+  "overview_commit": "bcfc26e9b310c2e059d7cffc15e644f26ab36af5",
+  "overview_digest": "d1b22dc5503465f0d7a9fb220b68bf62c5e0fa90d22eae79a3943f098788ad0b",
   "paragraphs": [
     {
       "id": "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
@@ -17510,6 +17511,27 @@
         "MultiArmedBandit",
         "PolicyGradient",
         "TemporalDifferenceLearning"
+      ]
+    },
+    {
+      "id": "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[PsiACE]] source extends the Tape/Topic design into [[AgentTaskOrchestration]]. Bee treats Job and Cron work as a specialized [[AgentTopicLifecycle|Topic]] profile: human-maintained `SKILL.md`, DAG metadata, private configuration, and BDD scenarios describe intent and observable completion; a workspace `task.json` projects changing node state to the UI; ordinary agent entries plus task, node, and DAG-checkpoint anchors preserve execution history; and Kubernetes or Argo Workflows supply scheduling, isolation, resources, and audit rather than forcing the agent framework to rebuild those controls. The retained architecture diagram makes human review a branch before revision or deployment, while the product screenshot shows nine dependency-ordered milestones with succeeded, pending, and blocked states, manual or automatic progression, replay, and selected-node details. This also sharpens [[TapeAndAnchors]]: frequent checkpoints can bound context and inform a retry, but they do not by themselves make external effects idempotent or keep Tape and `task.json` transactionally consistent. The account is a first-party implementation description with no success, recovery, cost, security, concurrency, or review-throughput measurements, and its OpenClaw/Hermes comparison is explicitly AI-summarized rather than based on the author's code review. Both evidence-bearing local images were inspected and retained canonically at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AgentTaskOrchestration",
+        "AgentTopicLifecycle",
+        "PsiACE",
+        "TapeAndAnchors"
       ]
     }
   ],

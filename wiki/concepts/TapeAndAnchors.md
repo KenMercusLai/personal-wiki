@@ -6,7 +6,8 @@ sources:
   - mu-jiang-chui-zi-ding-zi
   - tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi
   - zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory
-last_updated: 2026-10-13
+  - tapexbee
+last_updated: 2026-10-22
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,7 +17,7 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources argue that many session, memory, compact, fork, merge, and handoff designs share an expensive premise: state must continue and history must not be lost. Tape relaxes that premise by preserving every interaction as an immutable entry while allowing active context to contain only selected material. Anchors identify or summarize recoverable moments, views collect relevant entry ranges, and handoff advances the working window after writing a state-bearing anchor. The newer source makes the specification more concrete and shows how [[AgentTopicLifecycle]] can map business topics onto bounded Tape ranges without coupling the model to local files, databases, object storage, or vector retrieval.
 
-An operational Tape can record structured messages, tool calls and results, runtime events, and key anchors, then expose `tape_info`, `tape_search`, `tape_context`, `tape_anchors`, and `tape_handoff` operations, as [[DeepChat]] does. Memory is derived rather than substituted: compact conclusions retain pointers back to source passages, so the system can recall a small statement first and expand the original evidence only when needed. This supports the architectural synthesis while leaving performance, concurrency, retention, and compliance behavior unmeasured.
+An operational Tape can record structured messages, tool calls and results, runtime events, and key anchors, then expose `tape_info`, `tape_search`, `tape_context`, `tape_anchors`, and `tape_handoff` operations, as [[DeepChat]] does. Memory is derived rather than substituted: compact conclusions retain pointers back to source passages, so the system can recall a small statement first and expand the original evidence only when needed. Bee adds a workflow specialization: task, node, and DAG-checkpoint anchors divide long work into retryable context ranges and preserve external-call results, while the completed workflow still finalizes as one Topic. This improves contextual recovery but does not itself make external side effects idempotent or keep a separate runtime state projection transactionally consistent with Tape.
 
 ## Key Claims
 - Infinite history should be treated as a material library, not a burden automatically inherited by every task.
@@ -25,7 +26,7 @@ An operational Tape can record structured messages, tool calls and results, runt
 - Context assembly is an exploration-and-selection process that can use summaries first and raw entries on demand.
 - Handoff advances an overloaded active window after preserving prior state in an anchor.
 - Stable abstractions can sit over different storage, retrieval, and observability infrastructure.
-- Topic ranges demonstrate how domain-specific lifecycles can be built above Tape without changing its core history model.
+- Topic ranges and workflow-specific anchors demonstrate how domain lifecycles can add boundaries and DAG checkpoints without changing Tape's core history model.
 
 ## Evidence
 - Shared premise critique: [[mu-jiang-chui-zi-ding-zi]] says compact, summary, fork, merge, handoff, memory, and context strategies often assume state must be continued and history cannot be lost.
@@ -37,14 +38,15 @@ An operational Tape can record structured messages, tool calls and results, runt
 - Domain extension: [[tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi]] and its four retained diagrams show topic ranges, recall anchors, normal finalization, and unfinished-topic recovery.
 - Product implementation: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] reports DeepChat recording conversation, tool, runtime, and anchor events in Session Tape and exposing search, context, anchor, and handoff tools.
 - Provenance path: [[zhuan-fang-deepchat-zuo-zhe-men-liao-liao-ben-di-you-xian-mcp-yu-agent-memory]] says derived memories retain links to the sentences and fragments from which they were distilled.
+- Workflow checkpoints: [[tapexbee]] places task, node, and whole-DAG anchors around ordinary agent entries so retries can recover progress and external-call results.
 
 ## Counterevidence & Qualifications
-The first two sources give a conceptual model and proposed lifecycle, while DeepChat supplies a first-party implementation account rather than an independent benchmark. The combined evidence does not resolve concurrency, anchor-schema evolution, retrieval ranking, topic-boundary accuracy, privacy, access control, physical deletion, multi-agent conflict, storage growth, or how much context is sufficient for high-stakes work. Append-only history also requires an explicit compliance strategy where data must be corrected or erased.
+The first two sources give a conceptual model and proposed lifecycle, while DeepChat and Bee supply first-party implementation accounts rather than independent benchmarks. The combined evidence does not resolve concurrency, anchor-schema evolution, retrieval ranking, topic-boundary accuracy, privacy, access control, physical deletion, multi-agent conflict, storage growth, or how much context is sufficient for high-stakes work. Bee also projects DAG state into `task.json`, leaving dual-state consistency, replay, idempotency, rollback, and compensation unspecified. Append-only history requires an explicit compliance strategy where data must be corrected or erased.
 
 ## What Changed
-- Added DeepChat as an implementation of conversation, tool, runtime, anchor, search, context, and handoff operations over Tape.
-- Strengthened the distinction between immutable evidence and derived memory through traceable source pointers.
-- Preserved the lack of independent evaluation and unresolved retention, deletion, concurrency, and retrieval questions.
+- Added Bee's task, node, and whole-DAG checkpoint anchors as a workflow-specific extension.
+- Distinguished contextual retry from safe replay of external side effects.
+- Added dual-state consistency between Tape and `task.json` to the unresolved implementation questions.
 
 ## Related Concepts
 - [[LLMContextManagement]] - tape and anchors offer a model for assembling context on demand.
@@ -55,3 +57,4 @@ The first two sources give a conceptual model and proposed lifecycle, while Deep
 - [[AgentTopicLifecycle]] - builds explicit business-topic ranges and hooks over Tape primitives.
 - [[AgentSystemTransparency]] - immutable entries and indexed ranges can support action and token-cost auditability.
 - [[DeepChat]] - implements Tape as the evidence substrate beneath a separately derived memory layer.
+- [[AgentTaskOrchestration]] - uses Tape entries and frequent DAG anchors to make long-running work inspectable and resumable in context.
