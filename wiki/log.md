@@ -10149,3 +10149,11 @@ Created [[3FS]], [[RDMABufferLifecycleSafety]], and [[ReceiverDrivenFlowControl]
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | Twelve years of distributed SQLite
+
+Created [[PhilipOToole]], [[Rqlite]], and [[DistributedSQLite]] and updated [[SQLite]] and [[SQLiteProductionTradeoffs]] from their complete ordered evidence inventories. Recorded the category's consensus, WAL-streaming, and CRDT merge approaches; distinguished continuous availability from restore-oriented recovery; and separated replication mechanism from server, embedded, filesystem, fork, and managed-platform packaging. Preserved the first-party, priority, taxonomy, benchmark, failure-test, cost, and independent-verification boundaries. Opened and retained the sole evidence-bearing local architecture diagram at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

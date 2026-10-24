@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-24
-as_of_overview_commit: d4a1a6ba845f6fc74b2b6ef178f510add952d64c
-input_digest: fc11de6788673ce9affea50b4142c4843b9ce41b1e84ccb368655c9af3b116e8
+as_of_overview_commit: 4c5676d6cee1baf06c4d55c5f11e243472ed6418
+input_digest: 35411693b099ff2a08a4d26d08e272aa2bf2fe7d5382789d3e5e2078086aa447
 ---
 
 # AI and Technology
@@ -1759,3 +1759,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is LiteLLM's first-party reconstruction rather than an independent audit and omits raw evidence, payload analysis, complete customer impact, and proof that every credential or persistence path was found.
 - The incident does not compare workload identity, threshold signing, reproducible builds, or immutable audit designs, and the promised process-improvement plan was not included.
 - The temporarily relaxed two-engineer policy made misuse easier, but the source says the stolen owner token could have removed the gate regardless.
+
+### Distributed Sqlite Separates Availability Recovery And Convergence
+
+[[DistributedSQLite]] separates three requirements hidden by one label: [[Rqlite]] uses leader-and-majority consensus for continuous strongly ordered service, WAL streaming supports inexpensive restore-oriented recovery, and merge-based replication supports divergent writers; [[SQLiteProductionTradeoffs]] therefore depends on recovery delay, consistency, write topology, packaging, and operating model rather than database-file size alone.
+
+**Evidence:** [[DistributedSQLite]], [[Rqlite]], [[SQLiteProductionTradeoffs]]
+
+**Qualifications:**
+
+- The category history is a first-party retrospective without comparative benchmarks, failure experiments, cost measurements, adoption counts, or independent verification of chronology and priority.
+- Consensus, WAL streaming, and CRDT merging are a useful requirements taxonomy rather than an exhaustive partition: hybrid systems can combine mechanisms and packaging layers.
+- Adding replication, restore, routing, merge, fork, or platform machinery changes SQLite's simplicity tradeoff and does not show that a distributed extension is preferable to PostgreSQL or MySQL for a given workload.

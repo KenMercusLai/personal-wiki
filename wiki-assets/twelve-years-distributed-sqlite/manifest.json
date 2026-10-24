@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "twelve-years-distributed-sqlite",
+  "images": [
+    {
+      "file": "rqlite-three-node-cluster.png",
+      "alt": "Three-node rqlite cluster with one red leader node and two blue follower nodes connected through a network"
+    }
+  ]
+}

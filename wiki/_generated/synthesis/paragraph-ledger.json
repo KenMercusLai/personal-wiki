@@ -477,7 +477,7 @@
       "a40198b503fbe1118cfdf1092b24ee782e6785b6761f04933ad309caca860a11",
       "8cc21b2e0f868fdcfacfb3a17672bcf2e9aa1339afac7fa5fd6bfb06b4be2e6e",
       "34f3409a103caef0322c3a7122e9f3f0ec889dbd99ca4e9ee704e019cdf5c974",
-      "09db6118f3e539f8e538ddaf45e517a88d3853d48d4669f2ad2c7dfcf882c5e7",
+      "755b45e2f57b31ff1bcd59d60a607eb0d839ac3297a4b901f37e18099f9457a6",
       "686aa1ff62b57d56b1fe172ce263b7e48928ff6b2024a311882a24cc93398237",
       "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
       "e331db3d5c1d1f06421885c5d2a0927e793637f6aa9fc5bc91e3a4b1c3835117",
@@ -889,8 +889,8 @@
     ],
     "paragraph_count": 885
   },
-  "overview_commit": "1b5aebc62d7d71d7a3b1ba4eb595431e3d64b4d7",
-  "overview_digest": "50b8d37532d103ea2c566f4e84bab452d80ae367ce42f915d67048a292e56ff4",
+  "overview_commit": "4c5676d6cee1baf06c4d55c5f11e243472ed6418",
+  "overview_digest": "0314c9a883fae93874b7acf75bfd223fcebcb32af17122b2ab6a6e0b290a75c2",
   "paragraphs": [
     {
       "id": "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
@@ -9980,19 +9980,20 @@
       ]
     },
     {
-      "id": "09db6118f3e539f8e538ddaf45e517a88d3853d48d4669f2ad2c7dfcf882c5e7",
+      "id": "755b45e2f57b31ff1bcd59d60a607eb0d839ac3297a4b901f37e18099f9457a6",
       "primary_topic": "ai-and-technology",
-      "secondary_topics": [],
-      "text": "The newest SQLite production source adds a single-machine database simplicity layer to the wiki's architecture material. [[SQLiteProductionTradeoffs]] frames SQLite as a legitimate production choice when an app can run on one durable machine, stays mostly read-heavy, keeps writes short, and values lower operational overhead more than distributed database machinery. [[SQLite]] sharpens [[DatabaseConsolidation]] and [[TechnologyStackComplexity]] by showing that simplification can remove the database service entirely, not just consolidate workloads into PostgreSQL. The qualification is the heart of the source: multi-machine high availability, network or ephemeral file systems, heavy parallel writes, long transactions, live backups, and migration tooling can make PostgreSQL or MySQL the simpler production choice. [[DatabaseTransactionIsolation]] captures the transaction-specific lesson, including the inspected isolation table where serializable isolation prevents dirty, non-repeatable, and phantom reads while weaker levels admit more anomalies.",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The SQLite sources now define a wider architecture envelope. [[SQLiteProductionTradeoffs]] still frames a local database file as a legitimate production choice when an application can run on one durable machine, stays mostly read-heavy, keeps writes short, and values lower operational overhead; multi-machine availability, unsafe file systems, heavy parallel writes, long transactions, backups, and migrations can still make PostgreSQL or MySQL simpler. [[DistributedSQLite]] adds three distinct responses when the single-node failure model is insufficient: [[Rqlite]] and dqlite use leader-and-majority consensus for continuous service, Litestream streams the WAL for inexpensive restore-oriented recovery, and cr-sqlite uses CRDTs for divergent local-first writers. The category also spans standalone servers, embedded libraries, filesystem layers, engine forks, and managed edge platforms, so adding distribution changes rather than preserves SQLite's simplicity tradeoff. Philip O'Toole's twelve-year account is first-party and offers no comparative benchmarks, failure tests, cost model, or independent proof of historical priority; its strongest durable contribution is separating recovery delay, consistency, write topology, and operating model before choosing a mechanism. The retained three-node diagram makes rqlite's single-leader cluster topology explicit.",
       "topic_scores": {
-        "ai-and-technology": 1
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1
       },
       "wikilinks": [
-        "DatabaseConsolidation",
-        "DatabaseTransactionIsolation",
-        "SQLite",
-        "SQLiteProductionTradeoffs",
-        "TechnologyStackComplexity"
+        "DistributedSQLite",
+        "Rqlite",
+        "SQLiteProductionTradeoffs"
       ]
     },
     {

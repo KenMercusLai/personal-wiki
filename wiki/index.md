@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Twelve years of distributed SQLite](sources/twelve-years-distributed-sqlite.md) - Philip O'Toole traces distributed SQLite from rqlite's Raft-replicated server through embedded, WAL-streaming, CRDT, forked-engine, and managed-platform designs.
 - [一种安全的 RDMA Buffer 复用策略](sources/rdma-buffer-safe-reuse.md) - SF-Zhou combines receiver-issued RDMA Read with post-completion ownership validation, and contrasts the extra-RTT application path with Type 2 Memory Window revocation.
 - [Vane Data + HawDB：构建可追溯的多视频比较工作流](sources/vane-data-hawdb-video-comparison.md) - A multimodal comparison proof of concept separates retrieval, extraction, comparability, and relation judgment while preserving versioned transcript-and-frame evidence for replay.
 - [GitHub confirms breach of 3,800 repos via malicious VSCode extension](sources/github-3800-repos.md) - GitHub confirmed that a poisoned VS Code extension compromised an employee endpoint and enabled exfiltration of roughly 3,800 internal repositories, while TeamPCP attribution remained unconfirmed.
@@ -1295,6 +1296,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为何写作](sources/wei-he-xie-zuo.md) - Laixintao argues that personally authored writing preserves changing beliefs and lived memory, exposes unclear thought, enables expression and connection, and cannot be replaced by generated prose for those purposes.
 
 ## Entities
+- [rqlite](entities/Rqlite.md) - Open-source SQLite server using a leader and majority-acknowledged Raft log for self-operated fault tolerance.
+- [Philip O'Toole](entities/PhilipOToole.md) - Creator and long-term maintainer of rqlite who frames distributed SQLite architectures by recovery, availability, and write-topology needs.
 - [3FS](entities/3FS.md) - Distributed file system whose revised RDMA paths use request-state validation and client-side pulls to preserve buffer safety without routine timeout disconnects.
 - [HawDB](entities/HawDB.md) - Embedded Rust multimodal database used to store graph provenance, versioned evidence, consistent source snapshots, and optional vector-search records.
 - [TeamPCP](entities/TeamPCP.md) - Self-identified cybercriminal group that advertised GitHub internal source code and roughly 4,000 private repositories without confirmed GitHub attribution.
@@ -3331,6 +3334,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Distributed SQLite](concepts/DistributedSQLite.md) - Family of consensus, WAL-streaming, and merge-based architectures adding recovery, availability, or multi-writer convergence around SQLite.
 - [RDMA Buffer Lifecycle Safety](concepts/RDMABufferLifecycleSafety.md) - Protocol discipline coordinating remote memory authority, request identity, completion, timeout, and registered-buffer reuse.
 - [Receiver-Driven Flow Control](concepts/ReceiverDrivenFlowControl.md) - Application-level pull policy that lets a data receiver coordinate transfer admission with buffer and processing capacity.
 - [Traceable Multi-Source Comparison](concepts/TraceableMultiSourceComparison.md) - Workflow that separates relevance, extraction validity, comparability, and claim relation while preserving versioned evidence for human replay.

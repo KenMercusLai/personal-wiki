@@ -4,8 +4,8 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-10-24
-as_of_overview_commit: d4a1a6ba845f6fc74b2b6ef178f510add952d64c
-input_digest: 3d86ffc577a7401ea24a78d5171af2d3bfa41330ce6491ad8c283053cb7a9413
+as_of_overview_commit: 4c5676d6cee1baf06c4d55c5f11e243472ed6418
+input_digest: 229864fca237b9f724b1049e581b8f50361f003b6974adbbc8da8abc10c7de94
 ---
 
 # History and Geopolitics
@@ -408,3 +408,14 @@ The [[LargeScaleWebScraping]] paragraph is a historical web-operations spillover
 
 - The deterministic router selected this paragraph through architectural-history language; the source supplies no geopolitical finding.
 - The account is first-party, describes LTAP during transitional dual-write rollout, and lacks independent recovery, performance, compatibility, or failure evaluation.
+
+### Distributed Sqlite Is Database History Spillover
+
+[[DistributedSQLite]], [[Rqlite]], and [[SQLiteProductionTradeoffs]] add a source-scoped 2014-2026 database-history snapshot that distinguishes consensus availability, WAL-streamed recovery, and merge-based convergence; the substantive requirements and packaging findings belong to technology rather than geopolitics.
+
+**Evidence:** [[DistributedSQLite]], [[Rqlite]], [[SQLiteProductionTradeoffs]]
+
+**Qualifications:**
+
+- The deterministic router selected this paragraph through its twelve-year project chronology; its substantive architecture findings belong to database technology rather than geopolitics.
+- The chronology, open-source priority, category boundaries, adoption judgments, and commercialization interpretation come from one project creator's retrospective and are not independently verified.
