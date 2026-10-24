@@ -10158,6 +10158,10 @@ Created [[PhilipOToole]], [[Rqlite]], and [[DistributedSQLite]] and updated [[SQ
 
 Ran lint. See lint-report.md for details.
 
+## [2026-10-25] ingest | DeepSeek Harness 源码拆解：可组装的 Agent 运行系统
+
+Created [[DeepSeekHarness]], [[YuxiaLuo]], and [[ProgrammaticToolCalling]] and updated [[HarnessEngineering]], [[TapeAndAnchors]], [[AgentResumability]], and [[GenerativeUI]] from their complete ordered evidence inventories. Recorded Cordis plugin composition, Profile/Bundle/Patch layering, Turn/Step execution, append-only Session Log versus derived Surface, checkpointed persistence, conservative interrupted-call recovery, generated-code tool composition, and stateful GenUI handoff. Preserved the version-bound, unbenchmarked, no-exactly-once, same-runtime SDK continuation, untested-community-plugin, and generated-code cost boundaries. Opened and retained all five evidence-bearing local images with descriptive canonical filenames and a manifest.
+
 ## [2026-10-25] ingest | 给一艘正在航行的船装上打孔纸带
 
 Updated [[DeepChat]], [[PsiACE]], [[TapeAndAnchors]], [[EffectLog]], and [[DynamicContextCompression]] from their complete ordered evidence inventories. Recorded the separation of mutable UI state, append-only facts, and per-request views; incremental dual-store migration; ViewManifest provenance; boundary-only compaction; write-ahead dispatch and outcome journaling; explicit `indeterminate` recovery; and Tape Inspector observability. Preserved the first-party, dual-representation, no-exactly-once, missing-benchmark, and context-sufficiency boundaries. Opened both referenced local images, omitted the decorative cover, and retained the evidence-bearing Tape Inspector screenshot at its semantic position with a descriptive filename and canonical manifest.
@@ -10185,6 +10189,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] ingest | 一天几百个 PR 有什么意义？我照着 SpaceXAI 工程师 Lauren（@poteto）的九类清单，把自己的活拆了一遍
 
 Created [[ContextEcho]] and updated [[LaurenTan]], [[MaiYang]], [[VerificationDrivenAgentDelegation]], [[BottleneckAwareAICoding]], and [[CodeReviewPractice]] from their complete ordered evidence inventories. Recorded demand-backed parallel work lines, risk-tiered agentic review, prompt-to-diff intent checks, human escalation, and the distinction among PR volume, commit volume, delivered value, and attention cost. Preserved the social-post, non-comparable-unit, missing-defect, missing-classifier-quality, missing-cost, and missing-user-outcome boundaries. Opened the sole local image and omitted it as a redundant text-bearing lead graphic whose 2,500-versus-18 contrast is fully repeated and better qualified in the prose, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-25] lint | Wiki health check
 

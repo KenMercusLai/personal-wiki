@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "deepseek-harness-source-analysis",
+  "images": [
+    {
+      "file": "model-harness-runtime.png",
+      "alt": "Diagram showing a model exchanging messages and tool calls with a harness that manages context, execution, permissions, session records, and the working environment"
+    },
+    {
+      "file": "plugin-runtime-architecture.png",
+      "alt": "DeepSeek Harness plugin architecture connecting application profiles through Cordis to model adapters, the agent loop, tools, sessions, context management, and execution environments"
+    },
+    {
+      "file": "session-log-surface-compaction.png",
+      "alt": "Diagram showing an append-only session log retaining events A through D and summary S while the derived model surface replaces A through C with S"
+    },
+    {
+      "file": "programmatic-tool-calling.png",
+      "alt": "Comparison of native tool calls returning full results to the model with programmatic tool calling that filters and combines results inside run_code"
+    },
+    {
+      "file": "genui-calendar-planner.jpg",
+      "alt": "Generated Chinese calendar interface with three selected 90-minute writing slots and a confirmation button"
+    }
+  ]
+}

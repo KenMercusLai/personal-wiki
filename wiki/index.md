@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [DeepSeek Harness 源码拆解：可组装的 Agent 运行系统](sources/deepseek-harness-source-analysis.md) - Yuxia Luo reconstructs DSH's plugin-composed runtime, derived session surface, checkpointed persistence, conservative recovery, and programmatic tool calling from a versioned source baseline.
 - [一天几百个 PR 有什么意义？我照着 SpaceXAI 工程师 Lauren（@poteto）的九类清单，把自己的活拆了一遍](sources/hundreds-of-prs-a-day-nine-work-lines.md) - Mai Yang argues that high PR volume becomes meaningful only when real demand feeds parallel work lines and risk-tiered verification keeps review and human judgment aligned with impact.
 - [非 CS 出身的 Lauren Tan，是怎么一步步放手给 agent 的](sources/lauren-tan-handing-work-to-agents.md) - Mai Yang profiles Lauren Tan's self-taught career and argues that agent autonomy should scale only after architecture, checks, and executable verification make output trustworthy.
 - [ZGent 设计之旅 #3 AI 时代的操作系统](sources/zgent-design-journey-3.md) - ZGent proposes a cloud-hosted multi-user agent operating system for shared identity, model access, apps, storage, and scoped authorization.
@@ -1300,6 +1301,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [DeepSeek Harness](entities/DeepSeekHarness.md) - Local-first coding agent and composable runtime built from Cordis-managed model, tool, session, context, persistence, and execution plugins.
+- [Yuxia Luo](entities/YuxiaLuo.md) - Technical author represented through a version-bounded source analysis of DeepSeek Harness.
 - [ContextEcho](entities/ContextEcho.md) - Mai Yang's solo agent-assisted software project and a boundary case for interpreting commit and pull-request volume.
 - [ZGent](entities/ZGent.md) - Cloud-hosted multi-user platform for agent applications, shared model access, storage, and permissions.
 - [王子博](entities/WangZibo.md) - Author presenting ZGent's operating-system architecture and usage scenarios.
@@ -3341,6 +3344,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Programmatic Tool Calling](concepts/ProgrammaticToolCalling.md) - Model-generated code that invokes governed tools and processes intermediate results before returning compact data for continued reasoning.
 - [Verification-Driven Agent Delegation](concepts/VerificationDrivenAgentDelegation.md) - Expanding agent autonomy and concurrency only as enforceable constraints and executable evidence make output trustworthy.
 - [Agent Operating System](concepts/AgentOperatingSystem.md) - Shared identity, model, app, storage, and authorization substrate for multi-user agent applications.
 - [Distributed SQLite](concepts/DistributedSQLite.md) - Family of consensus, WAL-streaming, and merge-based architectures adding recovery, availability, or multi-writer convergence around SQLite.
