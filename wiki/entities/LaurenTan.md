@@ -4,34 +4,50 @@ type: entity
 tags: [ai, software-engineering, agents]
 sources:
   - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
-last_updated: 2026-10-10
+  - lauren-tan-handing-work-to-agents
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[LaurenTan]] is an AI software practitioner represented here through a pstack passage, reproduced by [[MaiYang]], that favors implementation feedback over default long-form planning.
+[[LaurenTan]] is a self-taught software engineer and agent practitioner represented here through two [[MaiYang]] articles about implementation-first planning, verification, and progressively delegated software work.
 
 ## Current Profile
-The source identifies Tan with [[GrokBot]] and describes her as formerly at [[Cursor]]. In the retained pstack screenshot, she says Cursor already has a useful Plan Mode and that `/poteto-mode` covers users who want a plan, while explaining that she does not make planning the default because “the best spec is code.” Her position is therefore conditional rather than anti-planning: working output can expose requirements more directly, while an optional plan remains available when the task benefits from it.
+Mai Yang's profile traces Tan from teenage web design and a finance degree through startup work, DockYard, Netflix engineering and management, and six years on Meta's React team. It attributes later work on Cursor 3 and [[GrokBot]] to her and describes public learning, conference speaking, and professional relationships as recurring career mechanisms. These biographical and affiliation claims are a secondary synthesis of public profiles, interviews, and Tan's own posts.
+
+Across both sources, Tan's agent practice is conditional rather than anti-planning. She keeps planning available for tasks that need it but prefers working code and observable feedback over mandatory long-form plans. The later profile frames her progression from skepticism about production agent code to high-volume delivery as accumulated trust: she manually learned repetitive workflows, encoded verification Skills, improved the codebase's architecture and invariants, and increased autonomy only after agents could check their own work.
+
+Her reported operating model treats agents as capable but persistently forgetful colleagues. Durable improvement therefore lives outside a chat in code structure, types, tests, CI, rules, Skills, tools, and memory systems. Human attention moves from correcting every output toward designing an environment where common failures are prevented or made visible.
 
 ## Key Characteristics
-- Treats working code as a stronger specification than an untested planning document.
-- Keeps planning available as an explicit mode rather than a mandatory default.
-- Is associated in the supplied article with Grok Bot and formerly with Cursor.
+- Favors working implementations and feedback over mandatory long-form planning while retaining optional plan modes.
+- Builds trust in agent output through executable verification before increasing concurrency or autonomy.
+- Treats architecture, strong types, invariants, and clear boundaries as the strongest agent guidance.
+- Converts repeated intervention into automated checks, structural constraints, or reusable Skills.
+- Alternates between engineering and management perspectives, describing current work as managing digital colleagues.
+- Built a career through self-directed learning, public writing and speaking, and relationships formed around technical communities.
 
 ## Evidence
-- Planning position: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] reproduces the pstack passage and its “best spec is code” wording.
-- Optional-mode boundary: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] reproduces the screenshot saying Cursor Plan Mode works well with pstack and `/poteto-mode` covers planning when requested.
-- Product affiliation: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] introduces Tan as working on Grok Bot and formerly at Cursor.
+- Implementation-first position: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] reproduces a pstack passage saying Cursor Plan Mode remains useful while code is the preferred specification.
+- Verification and trust: [[lauren-tan-handing-work-to-agents]] reports performance-tracing Skills, a gradual trust curve, and a warning against scaling untrusted agent output.
+- Constraint hierarchy: [[lauren-tan-handing-work-to-agents]] presents codebase design and invariants before static analysis, prose instructions, and human review.
+- Career path: [[lauren-tan-handing-work-to-agents]] synthesizes Tan's finance education, self-taught web work, startup, DockYard, Netflix, React, Cursor, and later AI-product roles.
+- Public learning and relationships: [[lauren-tan-handing-work-to-agents]] connects blogging and conference speaking with several reported career transitions.
+- Automation trajectory: [[lauren-tan-handing-work-to-agents]] describes Benny as a personal bug-fixing bot that informed parts of Grok Bot.
 
 ## Qualifications
-This is a narrow, source-scoped profile based on one Mai Yang article and a reproduced repository screenshot. It does not provide Tan's full role, career history, rationale, task taxonomy, or evidence comparing plan-first and implementation-first outcomes. “Code is the best spec” should not be generalized to regulated, safety-critical, cross-team, irreversible, or poorly bounded work where planning and review can be essential.
+Both sources are Mai Yang articles rather than primary employment records, repository audits, or controlled workflow studies. The career profile mixes interviews, public profiles, social posts, and third-party material, so dates, titles, organizational transitions, and causal interpretations remain source-attributed. The reported 2,500 production PRs lacks change-size, defect, rollback, review-load, and baseline data. “Code is the best spec” and “codebase is memory” are context-dependent heuristics, not reasons to omit design, documentation, human judgment, or independent review in high-risk work.
 
 ## What Changed
-- Created a source-scoped profile for Tan's conditional, implementation-first workflow position.
+- Expanded the profile from one planning position to a career-spanning account of self-directed learning and public technical practice.
+- Added verification, enforceable constraints, and progressive trust as the core of Tan's agent operating model.
+- Added Benny and high-volume production work as reported precursors and outcomes, with explicit evidence limits.
 
 ## Relationships
-- [[GrokBot]] - product affiliation attributed by the source.
-- [[Cursor]] - former affiliation attributed by the source and product whose Plan Mode is discussed.
-- [[DeliverableFirstAgentDesign]] - Mai Yang generalizes Tan's code-first statement into an accepted-artifact rule for bots.
-- [[TaskContingentAICollaboration]] - explains why planning should remain available when risk or ambiguity requires it.
+- [[GrokBot]] - product Tan reportedly helped build, partly informed by her personal Benny automation.
+- [[Cursor]] - product and company context for her reported agent workflow and Cursor 3 work.
+- [[VerificationDrivenAgentDelegation]] - formalizes her trust-before-scale operating method.
+- [[DeliverableFirstAgentDesign]] - Mai Yang adapts Tan's implementation-first stance into accepted-artifact design for bots.
+- [[SoftwareVerification]] - traces, tests, screenshots, and CI supply behavioral feedback for agent work.
+- [[LLMToolingSkills]] - reusable verification and correction procedures externalize operational knowledge.
+- [[TaskContingentAICollaboration]] - preserves planning and human checkpoints when ambiguity or consequence requires them.

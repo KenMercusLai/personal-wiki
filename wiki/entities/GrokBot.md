@@ -4,41 +4,50 @@ type: entity
 tags: [ai, agents, automation]
 sources:
   - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
-last_updated: 2026-10-10
+  - lauren-tan-handing-work-to-agents
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[GrokBot]] is an AI teammate product represented here through [[MaiYang]]'s first-person experiments with specialized bot roles, Skills, scheduled routines, and real-world permissions.
+[[GrokBot]] is an AI teammate product represented here through [[MaiYang]]'s first-person bot experiments and her later profile of [[LaurenTan]]'s role in its development.
 
 ## Current Profile
-Mai Yang describes creating a Growth Researcher bot intended to scan global growth cases, extract strategy, and deliver a weekday report. The routine ran and produced long memos, but she judged them difficult to understand and unusable for concrete product decisions, so she disabled the schedule. She contrasts this with a narrower AICon bot whose job was to explain conference parameters and metrics and organize notes into an artifact she could follow and edit.
+Mai Yang's first article describes Grok Bot through specialized roles, Skills, scheduled routines, and access to accounts, files, and websites. A broad Growth Researcher produced long but unusable memos and was disabled, whereas a narrower AICon bot returned an artifact the operator could follow and revise. The contrast makes role design, acceptance criteria, and permission scope part of the product's practical operating model.
 
-The article presents Grok Bot as capable of scheduled work and actions involving accounts, files, and websites. That capability makes role design and authority design inseparable: the author recommends validating one bounded result before turning the procedure into a Skill or routine, and withholding blanket permission for sending, publishing, spending, deleting, or overwriting until experience supports a narrower grant.
+The later profile adds a product-origin narrative. Tan first built Benny to triage reported issues and attempt fixes while she slept. Repeated questions about personal bots reportedly informed part of Grok Bot's direction: users could define a bot's identity, computer, routine work, and automation. Tan describes the product as team-built and identifies the client architecture as her proudest contribution, saying she refactored an early prototype with an agent-friendly framework then called Dune.
+
+Together the sources present a digital-colleague interface whose usefulness depends less on a broad persona than on bounded deliverables, executable verification, scoped authority, and a codebase that guides low-context agents toward valid changes.
 
 ## Key Characteristics
-- Supports named bot roles oriented around delegated work.
-- Supports Skills that encode how work is performed.
-- Supports routines that schedule recurring execution.
-- Can interact with real accounts, files, and web surfaces according to the source.
-- Produces output whose fluency and length do not guarantee usefulness.
-- Requires narrow outcomes, acceptance checks, and staged permissions for reliable use.
+- Supports named bot identities oriented around delegated work.
+- Supports Skills that encode procedures and routines that schedule recurring execution.
+- Can interact with accounts, files, websites, and other consequential surfaces according to the sources.
+- Grew partly from a personal issue-triage and bug-fixing automation called Benny.
+- Uses an agent-friendly client architecture attributed to Tan and an early framework called Dune.
+- Requires bounded outcomes, acceptance checks, verification, and staged permissions because fluent output can still be unusable.
 
 ## Evidence
-- Broad-role failure: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] describes the Growth Researcher role, its long memos, repeated structural revisions, and low perceived usefulness.
-- Routine state: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] includes the retained screenshot showing the daily growth-research report disabled on September 5.
-- Narrow-role comparison: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] says the AICon bot returned conference notes that the author could follow and revise.
-- Capability and risk: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] names account login, file action, web use, sending, public publishing, spending, deletion, and overwrite as operations requiring deliberate permission boundaries.
+- Role and routine behavior: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] describes Growth Researcher, AICon, Skills, schedules, and a disabled routine.
+- Quality boundary: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] contrasts long polished research with an artifact the operator could actually follow and edit.
+- Capability and risk: [[cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng]] names account, file, web, sending, publishing, spending, deletion, and overwrite actions that require permission boundaries.
+- Benny origin: [[lauren-tan-handing-work-to-agents]] reports Tan's personal bot for triaging and fixing bugs and says user interest informed part of Grok Bot's concept.
+- Team and architecture: [[lauren-tan-handing-work-to-agents]] attributes the launch to a team and reports Tan's client refactor using the Dune framework.
+- Ongoing feedback loop: [[lauren-tan-handing-work-to-agents]] says a bot attempts fixes from Grok Bot feedback while Tan reviews the resulting code.
 
 ## Qualifications
-The page relies on one user's retrospective rather than product documentation, task logs, reliability tests, security analysis, or a representative user sample. The failed Growth Researcher does not distinguish product limitations from role breadth, prompt design, source quality, language, evaluation criteria, or operator expectations. The source reports an intended redesign but no results from the restarted role.
+The product profile relies on two articles by the same author rather than product documentation, task logs, reliability tests, security analysis, or representative user research. The first article cannot separate product limitations from role breadth, prompts, sources, language, or operator expectations. The second reconstructs origin and architecture claims from Tan's public statements but supplies no implementation details, evaluation, autonomy rate, success rate, or evidence that Benny's workflow generalizes. “Dune” is reported as a provisional codename, and the sources do not define how identity, computers, permissions, or execution are technically isolated.
 
 ## What Changed
-- Created a source-scoped product profile centered on role scope, routine validation, and permission staging.
+- Added Benny as a reported precursor to Grok Bot's configurable digital-colleague model.
+- Added the team-built origin and Tan's claimed client-architecture contribution through the provisional Dune framework.
+- Reframed verification and codebase design as complements to narrow roles and staged permissions.
 
 ## Relationships
-- [[MaiYang]] - operator reporting the Growth Researcher and AICon bot experiments.
-- [[LaurenTan]] - practitioner associated with Grok Bot in the source.
-- [[DeliverableFirstAgentDesign]] - proposed operating method for validating Grok Bot roles before automation.
-- [[AgentPermissionModel]] - governs the product's access to consequential external actions.
-- [[TaskContingentAICollaboration]] - supplies the delegation and acceptance boundary for individual tasks.
+- [[LaurenTan]] - practitioner who reportedly built Benny and contributed Grok Bot's client architecture.
+- [[MaiYang]] - operator and secondary author describing both product use and origin claims.
+- [[VerificationDrivenAgentDelegation]] - supplies the trust and self-checking model for recurring bot work.
+- [[DeliverableFirstAgentDesign]] - validates one useful artifact before a broad role or recurring schedule.
+- [[AgentPermissionModel]] - governs access to consequential external actions.
+- [[LLMToolingSkills]] - encodes reusable procedures for bot work and verification.
+- [[TaskContingentAICollaboration]] - supplies delegation and acceptance boundaries for individual tasks.

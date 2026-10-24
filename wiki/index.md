@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [非 CS 出身的 Lauren Tan，是怎么一步步放手给 agent 的](sources/lauren-tan-handing-work-to-agents.md) - Mai Yang profiles Lauren Tan's self-taught career and argues that agent autonomy should scale only after architecture, checks, and executable verification make output trustworthy.
 - [ZGent 设计之旅 #3 AI 时代的操作系统](sources/zgent-design-journey-3.md) - ZGent proposes a cloud-hosted multi-user agent operating system for shared identity, model access, apps, storage, and scoped authorization.
 - [Twelve years of distributed SQLite](sources/twelve-years-distributed-sqlite.md) - Philip O'Toole traces distributed SQLite from rqlite's Raft-replicated server through embedded, WAL-streaming, CRDT, forked-engine, and managed-platform designs.
 - [一种安全的 RDMA Buffer 复用策略](sources/rdma-buffer-safe-reuse.md) - SF-Zhou combines receiver-issued RDMA Read with post-completion ownership validation, and contrasts the extra-RTT application path with Type 2 Memory Window revocation.
@@ -1496,8 +1497,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family spanning selective retrieval, multimodal records, versioning, and model-training access.
 - [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-inference project joining model-specific C paths, design-led AI-assisted engineering, persistent KV reuse, and an experimental Ascend port.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
-- [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
-- [Grok Bot](entities/GrokBot.md) - AI teammate product represented through role design, Skills, recurring routines, and staged authority over real-world actions.
+- [Lauren Tan](entities/LaurenTan.md) - Self-taught software engineer and agent practitioner who emphasizes implementation feedback, executable verification, and trust before scale.
+- [Grok Bot](entities/GrokBot.md) - AI teammate product represented through configurable roles, Skills, recurring routines, verification, and staged authority over real-world actions.
 - [Muse](entities/Muse.md) - Meta consumer agent represented through region-gated access, rewarded referrals, computer operation, open-source gadgets, and unresolved trust and scaling constraints.
 - [Kuafu](entities/Kuafu.md) - Leetao's experimental personal-agent runtime combines an explicit execution loop, persistent lessons, host-tool bridging, and small multi-agent workflows.
 - [ToastPlan](entities/ToastPlan.md) - Leetao's OKR and task system gives agents work access while preserving human-visible task state and activity auditing.
@@ -3338,6 +3339,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Verification-Driven Agent Delegation](concepts/VerificationDrivenAgentDelegation.md) - Expanding agent autonomy and concurrency only as enforceable constraints and executable evidence make output trustworthy.
 - [Agent Operating System](concepts/AgentOperatingSystem.md) - Shared identity, model, app, storage, and authorization substrate for multi-user agent applications.
 - [Distributed SQLite](concepts/DistributedSQLite.md) - Family of consensus, WAL-streaming, and merge-based architectures adding recovery, availability, or multi-writer convergence around SQLite.
 - [RDMA Buffer Lifecycle Safety](concepts/RDMABufferLifecycleSafety.md) - Protocol discipline coordinating remote memory authority, request identity, completion, timeout, and registered-buffer reuse.

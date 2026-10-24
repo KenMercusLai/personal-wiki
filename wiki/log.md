@@ -10173,3 +10173,11 @@ Created [[ZGent]], [[WangZibo]], and [[AgentOperatingSystem]] and updated [[Agen
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | 非 CS 出身的 Lauren Tan，是怎么一步步放手给 agent 的
+
+Created [[VerificationDrivenAgentDelegation]] and updated [[LaurenTan]] and [[GrokBot]] from their complete ordered evidence inventories. Recorded the trust-before-scale progression, verification as the delegation bottleneck, the hierarchy from codebase constraints through automated checks and prose to human review, repeated-correction promotion, and Benny's reported influence on Grok Bot. Preserved the secondary-profile, unaudited-PR-volume, missing-quality-metrics, architecture-detail, and high-risk human-review boundaries. Opened the sole local image and omitted it as a decorative title card duplicating the article headline, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
