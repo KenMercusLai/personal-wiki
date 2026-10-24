@@ -10053,3 +10053,11 @@ Created [[Telstra]], [[LorinHochstein]], and [[SSU2000]], and updated [[NetworkT
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | The attack chain behind the v1.107.0 LiteLLM release
+
+Created [[LiteLLM]] and [[ReleasePipelineSecurity]], and updated [[SecretManagement]] from its complete ordered evidence inventory. Recorded the missed master-key revocation, Agent Platform exposure of an organization-owner token, CI-based maintainer-token theft, branch-protection override, lookalike-fork source substitution, compromised two-identity approval, signed artifact publication, workflow-record deletion, force-pushed cleanup, out-of-path forensic evidence, and broad containment. Preserved the first-party, raw-evidence, payload-analysis, customer-impact, completeness, and not-yet-published process-improvement qualifications. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

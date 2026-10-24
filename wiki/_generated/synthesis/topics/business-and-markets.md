@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-10-22
-as_of_overview_commit: 524873d489765ca609d6e8eb78a8c82275dece49
-input_digest: 2daf5930a7b7677655b977e199089a4f3c4c020a425b2ef2a0b2f57898cf13ef
+as_of_overview_commit: da968ae575f6871dd43876c1687a50cccd1da8bd
+input_digest: e171774cdaccd59fd5e74aa66de5d31fa5ef53d51ee0339517691834f39cb645
 ---
 
 # Business and Markets
@@ -2657,3 +2657,15 @@ AI-supported feasibility research can lower the cost of rejecting product ideas,
 - The evidence is a vendor-authored launch article without machine or shard counts, pricing, dataset construction, filtered-search and update results, failure behavior, or methodology sufficient for independent reproduction.
 - The displayed p99 latency trace sometimes exceeds the 200 ms headline, and the theoretical bandwidth ceilings are simplified resource estimates rather than measured end-to-end limits.
 - Random sharding balances capacity simply but makes every query fan out to all shards, so aggregate scale does not remove linear query cost.
+
+### Official Distribution Does Not Guarantee Release Integrity
+
+[[LiteLLM]] shows that official registries, valid signatures, and visible multi-person approval can still distribute a malicious release when [[ReleasePipelineSecurity]] and [[SecretManagement]] share one compromised authority chain, making software-supply trust an operational and market dependency rather than a property conferred by the distribution channel alone.
+
+**Evidence:** [[LiteLLM]], [[ReleasePipelineSecurity]], [[SecretManagement]]
+
+**Qualifications:**
+
+- The evidence is one vendor-authored incident reconstruction without raw audit evidence, malicious-payload analysis, full customer impact, or independent confirmation that every compromise path was removed.
+- The source documents operational and trust exposure but does not quantify adoption loss, remediation cost, liability, registry impact, or longer-term commercial consequences.
+- Specific alternative release-control designs and their cost or effectiveness are not compared.

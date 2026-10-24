@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-22
-as_of_overview_commit: 76fa48cb832599fe7017db8f0c7cc28463b49839
-input_digest: 79ddfaa514b42a8ea968a25b5e9066bbb995a247c31e9bac4578da1ad39cf749
+as_of_overview_commit: da968ae575f6871dd43876c1687a50cccd1da8bd
+input_digest: c99bd1a15be184fff2480cb745e6c61995e4a6e24e8d94e1c31573579a31d879
 ---
 
 # Governance and Institutions
@@ -1097,3 +1097,15 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The paragraph is secondary routing spillover from agent control, PostgreSQL, and operational-constraint terminology rather than evidence about law, public administration, or political institutions.
 - The source offers first-party throughput measurements but no agent-outcome, institutional, independent-reproduction, failure-injection, or complete mutable-workload evidence.
+
+### Separation Of Duties Needs Independent Compromise Paths
+
+[[ReleasePipelineSecurity]] makes separation of duties an independence property rather than an account count: [[LiteLLM]] shows that branch protection, two-person approval, signing, and ordinary audit views can all collapse when owner authority and maintainer credentials are reachable through one compromise path, so [[SecretManagement]] must pair revocation and least privilege with independently rooted approvals and out-of-path evidence.
+
+**Evidence:** [[LiteLLM]], [[ReleasePipelineSecurity]], [[SecretManagement]]
+
+**Qualifications:**
+
+- LiteLLM supplies a detailed but first-party reconstruction without raw evidence, complete customer-impact analysis, or independent proof that every credential and persistence path was found.
+- Two-person approval failed in this architecture because one attacker held both identities; the case does not prove one universal release-governance design.
+- The report defers process improvements, so it does not establish whether later institutional changes were implemented or effective.

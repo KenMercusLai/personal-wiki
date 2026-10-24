@@ -1281,8 +1281,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Building a more accurate time service at Facebook scale](sources/ntp-service.md) - Oleg Obleukhov explains Facebook's measured migration from ntpd to chrony, hardware timestamping, four-stratum architecture, public endpoints, and leap smearing.
 - [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
 - [Thoughts on the July 8th Telstra outage report](sources/telestra-outage-report.md) - Lorin Hochstein reconstructs how lost NTP redundancy, symmetric peering, a restart-triggered GPS rollover, and poisoned operational state caused Telstra's July 2026 mobile outage.
+- [The attack chain behind the v1.107.0 LiteLLM release](sources/litellm-security-incident-attack-chain.md) - LiteLLM traces an unrevoked public key through owner-token exposure, CI credential theft, release-source substitution, compromised approval, signed malicious artifacts, and forensic cleanup.
 
 ## Entities
+- [LiteLLM](entities/LiteLLM.md) - Open-source AI infrastructure maintainer represented through the compromised v1.107.0 release, its cross-system credential chain, containment, and root-cause analysis.
 - [Telstra](entities/Telstra.md) - Australian telecommunications company represented through its mobile timing architecture and July 2026 outage.
 - [Lorin Hochstein](entities/LorinHochstein.md) - Reliability writer reconstructing the Telstra outage while marking technical inference and criticizing hindsight-centered investigation.
 - [SSU 2000](entities/SSU2000.md) - Telecommunications timing chassis whose topology limits and GPS rollover behavior shaped the Telstra outage.
@@ -3307,6 +3309,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Release Pipeline Security](concepts/ReleasePipelineSecurity.md) - Protection of the source, identities, approvals, build, signing, publication, and audit chain that turns a revision into a trusted artifact.
 - [Arithmetic Intensity](concepts/ArithmeticIntensity.md) - Ratio of arithmetic work to data movement used to diagnose compute-bound and bandwidth-bound execution.
 - [Random-Graph Data Center Networks](concepts/RandomGraphDataCenterNetworks.md) - Flat fabrics combining reproducible random connectivity, path-diverse routing, and layered validation.
 - [Stateful Job Scheduling](concepts/StatefulJobScheduling.md) - Placement and lifecycle management for long-running work whose durable identity and state make movement, restart, upgrade, or suspension costly or unsafe.

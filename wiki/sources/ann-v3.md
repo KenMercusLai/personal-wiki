@@ -2,7 +2,7 @@
 title: "ANN v3: 200ms p99 query latency over 100 billion vectors"
 type: source
 tags: [vector-search, approximate-nearest-neighbor-search, vector-quantization, systems-performance]
-date: 2026-05-05
+date: 2026-01-21
 source_file: "/mnt/ken_personal_wiki/Articles/ann-v3.md"
 ---
 

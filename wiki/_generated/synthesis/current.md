@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-22
-as_of_overview_commit: d0709a5e7df6e20e566a093e95a84203eb6c138c
-summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, and accountable control."
-episode_count: 1249
-source_count: 1249
-paragraph_count: 876
+as_of_overview_commit: da968ae575f6871dd43876c1687a50cccd1da8bd
+summary: "Podcast Atlas connects technology, institutions, markets, work, and human outcomes through boundaries, evidence, verification, incentives, recovery, and accountable control."
+episode_count: 1250
+source_count: 1250
+paragraph_count: 877
 topic_count: 9
 ---
 
@@ -16,11 +16,12 @@ topic_count: 9
 
 ## Executive Summary
 
+- [[ReleasePipelineSecurity]] extends AI infrastructure safety beyond model and runtime controls: [[LiteLLM]] shows that an unrevoked agent-platform key can expose an owner token, CI can harvest more identities, and a compromised control plane can produce signed malicious artifacts through nominally valid approvals; [[SecretManagement]] therefore needs revocation, least privilege, transitive-authority mapping, independent approval roots, and audit evidence outside the mutable pipeline.
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
-- [[NetworkTimeSynchronization]] is a runtime dependency and recovery problem, not only a precision hierarchy: the [[Telstra]] case shows [[SSU2000]] migration removing independent paths, symmetric peering allowing a client to become a source, a restarted GPS reference distributing a coherent but false date, and downstream state remaining poisoned after clock repair, so [[SystemReliability]] requires loop prevention, restart-tested failover, bad-time containment, and state-repair plans.
+- The [[Instapaper]] incident shows that [[BackupAndRecovery]] must test restoration onto a viable substrate because [[AmazonRDS]] snapshots can preserve the same inherited constraint that caused failure.
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
-- [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect.
+- [[ReleasePipelineSecurity]] makes separation of duties an independence property rather than an account count: [[LiteLLM]] shows that branch protection, two-person approval, signing, and ordinary audit views can all collapse when owner authority and maintainer credentials are reachable through one compromise path, so [[SecretManagement]] must pair revocation and least privilege with independently rooted approvals and out-of-path evidence.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Writing adds a distinctive understanding test by exposing gaps, forcing insight-preserving compression, and reconstructing ideas for a reader rather than merely producing finished text. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
 
@@ -28,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, runtime dependency topology, verification, observability, bounded authority, recovery, and qualified evidence.
+Technical leverage depends on workload-specific architecture, verification, observability, bounded authority, independent trust roots, and tested recovery.
 
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
@@ -42,7 +43,7 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when boundaries match the task, estimates are independently validated, and evidence, verification, and recovery are preserved.
+Across domains, designs work when boundaries match the task, estimates are independently validated, and evidence, verification, and failure-independent recovery are preserved.
 
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy. Evidence: [[NetworkTimeSynchronization]], [[Chrony]], [[HardwareTimestamping]], [[LeapSecondSmearing]], [[OlegObleukhov]], [[Facebook]].
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
@@ -56,7 +57,7 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions and technical control layers need explicit authority and state, observable effects, usable constraints, accountable lifecycle decisions, and credible recovery.
+Institutions and technical control layers need independently rooted authority, observable effects, usable constraints, accountable lifecycle decisions, and credible recovery.
 
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].

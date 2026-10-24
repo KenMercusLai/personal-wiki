@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-10-22
-as_of_overview_commit: d0709a5e7df6e20e566a093e95a84203eb6c138c
-input_digest: 1df48acf4d1d1ad960b1f84e1fd122776333c91d47db9ccaa866a146acbbb274
+as_of_overview_commit: da968ae575f6871dd43876c1687a50cccd1da8bd
+input_digest: 1853971dc67ba1959151957fd098df2caae635cc6b6c48804aed13016a52550a
 ---
 
 # AI and Technology
@@ -1709,3 +1709,15 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 - The evidence is one secondary reconstruction whose author explicitly lacks telecom-domain expertise and marks NTP mode, chassis restrictions, topology, Perth impact, and product-vendor details as assumptions.
 - Conflicting testimony does not resolve whether Melbourne's GPS card was part of the intended failover design, and the source supplies no complete configuration, packet captures, raw telemetry, or independently verified causal model.
 - The case establishes a plausible interaction among runtime source selection, restart behavior, capacity loss, and poisoned state rather than a universal NTP architecture or proof that every depicted path matched production.
+
+### Release Pipeline Trust Needs Independent Authority Roots
+
+[[ReleasePipelineSecurity]] extends AI infrastructure safety beyond model and runtime controls: [[LiteLLM]] shows that an unrevoked agent-platform key can expose an owner token, CI can harvest more identities, and a compromised control plane can produce signed malicious artifacts through nominally valid approvals; [[SecretManagement]] therefore needs revocation, least privilege, transitive-authority mapping, independent approval roots, and audit evidence outside the mutable pipeline.
+
+**Evidence:** [[LiteLLM]], [[ReleasePipelineSecurity]], [[SecretManagement]]
+
+**Qualifications:**
+
+- The evidence is LiteLLM's first-party reconstruction rather than an independent audit and omits raw evidence, payload analysis, complete customer impact, and proof that every credential or persistence path was found.
+- The incident does not compare workload identity, threshold signing, reproducible builds, or immutable audit designs, and the promised process-improvement plan was not included.
+- The temporarily relaxed two-engineer policy made misuse easier, but the source says the stolen owner token could have removed the gate regardless.
