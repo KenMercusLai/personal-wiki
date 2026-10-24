@@ -10037,3 +10037,11 @@ Created [[RandomGraphDataCenterNetworks]], [[GiacomoBernardi]], [[RatulMahajan]]
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | ANN v3: 200ms p99 query latency over 100 billion vectors
+
+Created [[Turbopuffer]], [[NathanVanBenschoten]], [[ANNv3]], [[SPFresh]], and [[ArithmeticIntensity]], and updated [[ApproximateNearestNeighborSearch]], [[RaBitQ]], and [[VectorQuantization]] from their complete ordered evidence inventories. Recorded the SPFresh-derived hierarchy, one-bit error-bound filtering, full-precision NVMe reranking, cache and DRAM placement, bandwidth-to-compute bottleneck transition, AVX-512 popcount result, and random-shard fan-out. Preserved vendor-authored, configuration, methodology, filtered-search, update, cost, failure, and independent-reproduction limits, including p99 chart excursions above the 200 ms headline. Opened and retained both evidence-bearing benchmark charts at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

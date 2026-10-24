@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [ANN v3: 200ms p99 query latency over 100 billion vectors](sources/ann-v3.md) - Turbopuffer combines hierarchical clustering, one-bit RaBitQ filtering, SSD reranking, SIMD optimization, and random sharding for a vendor-reported 100-billion-vector search workload.
 - [The radical network redesign that led AWS to forge a more resilient cloud](sources/aws-random-graph.md) - Amazon describes ShuffleBox and Spraypoint as a reproducible flat random-graph fabric, with first-party performance, energy, resilience, and rollout claims.
 - [Stateful jobs](sources/stateful-jobs.md) - Jaana Dogan argues that durable state turns placement, upgrades, recovery, and idleness into coordinated lifecycle decisions rather than ordinary resource scheduling.
 - [LatentMoE：Kimi K3 背后的 MoE 高效变体](sources/latent-moe.md) - Oilbeater explains latent-width expert communication as a way to reduce MoE data movement while leaving Kimi K3's Stable LatentMoE details provisional.
@@ -1281,6 +1282,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
 
 ## Entities
+- [Turbopuffer](entities/Turbopuffer.md) - Hosted search system using a stateless object-storage-backed query tier, local tiered caches, and distributed ANN serving.
+- [Nathan VanBenschoten](entities/NathanVanBenschoten.md) - Turbopuffer chief architect explaining ANN v3 through arithmetic intensity, tier placement, SIMD kernels, and sharding.
+- [ANN v3](entities/ANNv3.md) - Hierarchical filter-and-refine vector-search system using one-bit RaBitQ codes, exact NVMe reranking, and random sharding.
+- [SPFresh](entities/SPFresh.md) - Incrementally updatable centroid ANN index used as the cited basis for ANN v3's hierarchical extension.
 - [Giacomo Bernardi](entities/GiacomoBernardi.md) - AWS principal applied scientist who co-led implementation of the random-graph data-center network.
 - [Ratul Mahajan](entities/RatulMahajan.md) - Amazon Scholar and networking researcher who connected the project with graph-theory expertise.
 - [Seshadhri Comandur](entities/SeshadhriComandur.md) - graph theorist credited with the project's mathematical model and ShuffleBox wiring structure.
@@ -3298,6 +3303,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Arithmetic Intensity](concepts/ArithmeticIntensity.md) - Ratio of arithmetic work to data movement used to diagnose compute-bound and bandwidth-bound execution.
 - [Random-Graph Data Center Networks](concepts/RandomGraphDataCenterNetworks.md) - Flat fabrics combining reproducible random connectivity, path-diverse routing, and layered validation.
 - [Stateful Job Scheduling](concepts/StatefulJobScheduling.md) - Placement and lifecycle management for long-running work whose durable identity and state make movement, restart, upgrade, or suspension costly or unsafe.
 - [LatentMoE](concepts/LatentMoE.md) - Sparse-expert architecture that routes at model width while compressing expert communication and computation into a narrower latent representation.

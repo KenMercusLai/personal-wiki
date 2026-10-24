@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "ann-v3",
+  "images": [
+    {
+      "file": "ann-v3-latency-percentiles.png",
+      "alt": "Latency percentiles for ANN v3 over 100 billion vectors at 92 percent recall"
+    },
+    {
+      "file": "ann-v3-query-throughput.png",
+      "alt": "Query throughput for ANN v3 over 100 billion vectors at 92 percent recall"
+    }
+  ]
+}

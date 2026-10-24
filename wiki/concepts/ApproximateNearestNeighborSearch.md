@@ -7,7 +7,8 @@ sources:
   - 2604.19528
   - p3049-ooi
   - "2411.12229"
-last_updated: 2026-10-15
+  - ann-v3
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,13 +26,15 @@ The RaBitQ–TurboQuant comparison adds a second approximation layer: even after
 
 [[SymphonyQG]] demonstrates a different graph-and-quantization boundary. It co-locates each raw vector with its edges and center-relative neighbor codes, uses 32-way FastScan estimates to navigate, and computes an exact distance only when a vertex is visited. Multiple estimates from different graph centers reduce the chance that the true neighbor is never visited, while graph degrees are filled to the SIMD batch size. The resulting design removes a terminal reranking pass but pays for duplicated codes and remains an in-memory Euclidean/cosine method.
 
+A disk-resident, distributed point in the design space appears in [[ANNv3]]. Its SPFresh-derived hierarchy uses centroid probes to narrow each query to about 500 leaf clusters per machine in the described workload; one-bit [[RaBitQ]] estimates then retain every vector whose error interval could overlap the true top-k, and full-precision SSD reads rerank the uncertain set. The hierarchy provides spatial and temporal locality while random sharding supplies aggregate capacity, but each query fans out to every shard and therefore grows linearly in cluster work.
+
 ## Key Claims
 - ANN improves search performance when applications can tolerate a small recall loss.
-- ANN index behavior depends on distance operator, dimensionality, dataset shape, update mix, shard layout, and workload requirements.
+- ANN index behavior depends on distance operator, dimensionality, dataset shape, update mix, storage tier, shard layout, and workload requirements.
 - IVFFlat and HNSW are pgvector-supported ANN strategies with different mechanics and tuning parameters.
 - Recall and latency must be balanced rather than optimized independently.
 - Quantization quality can change ANN candidate inclusion and ranking even when the final scoring protocol is otherwise identical.
-- A filter-and-refine index can trade aggressive approximate filtering for exact reranking when true neighbors survive into the candidate set.
+- A filter-and-refine index can trade aggressive approximate filtering for exact reranking when bounded estimates preserve every plausible top-k candidate.
 - ANN performance can depend on co-designing graph degree, code layout, traversal, exact-scoring placement, and SIMD batch width rather than tuning each component independently.
 
 ## Evidence
@@ -43,15 +46,17 @@ The RaBitQ–TurboQuant comparison adds a second approximation layer: even after
 - Filter-and-refine evidence: [[p3049-ooi]] reports that learned local-distribution-preserving compression improves candidate recall across every displayed ten-million-vector configuration, enabling smaller probe and candidate budgets.
 - Update and scaling evidence: [[p3049-ooi]] reports partitioning-based indexes retaining more throughput than HNSW as writes rise and HAKES scaling nearly linearly while sharded graph baselines flatten in its one-to-eight-node tests.
 - Quantized graph co-design: [[2411.12229]] reports 1.5–4.5× the strongest baseline's QPS at 95% Recall@10 across six moderate datasets, at least 2.5× on two 100-million-vector datasets, and component gains from multiple estimates and batch-aligned graph refinement.
+- Hierarchical disk-resident search: [[ann-v3]] reports a 100-billion-vector, 1,024-dimensional, top-10 workload at 92% recall and combines centroid narrowing, one-bit bounded estimates, sub-1% full-precision reranking, local NVMe, and all-shard fan-out.
 
 ## Counterevidence & Qualifications
-The AWS benchmark is small relative to many production vector-search systems and does not publish recall measurements for the tested prompts. The quantizer comparison is authored by RaBitQ researchers, evaluates exhaustive ranking over quantized base vectors rather than a full optimized ANN index, and reports no independent reproduction. The HAKES and SymphonyQG comparisons are likewise first-party and implementation-sensitive. HAKES covers selected in-memory high-dimensional datasets and trades away strong consistency; SymphonyQG supports only in-memory Euclidean and cosine search and buys throughput with duplicated neighbor codes. None of the sources establishes a universal performance ranking.
+The AWS benchmark is small relative to many production vector-search systems and does not publish recall measurements for the tested prompts. The quantizer comparison is authored by RaBitQ researchers, evaluates exhaustive ranking over quantized base vectors rather than a full optimized ANN index, and reports no independent reproduction. The HAKES, SymphonyQG, and ANN v3 comparisons are likewise first-party and implementation-sensitive. HAKES covers selected in-memory high-dimensional datasets and trades away strong consistency; SymphonyQG supports only in-memory Euclidean and cosine search and buys throughput with duplicated neighbor codes; ANN v3 omits hardware count, shard count, cost, update and filter behavior, and enough benchmark methodology for reproduction. Its latency trace also exceeds the 200 ms p99 headline in some intervals. None of the sources establishes a universal performance ranking.
 
 ## What Changed
 - Added candidate inclusion as distinct from final candidate ordering.
 - Added filter-and-refine as a route to aggressive compression with exact reranking.
 - Added update contention and shard layout to ANN system selection.
 - Added hardware-batch-aware graph construction and implicit reranking as a distinct quantized graph design.
+- Added hierarchical disk-resident filtering, bounded one-bit estimates, tier-aware placement, and random-shard fan-out at 100-billion-vector scale.
 
 ## Related Concepts
 - [[VectorDatabase]] - ANN indexes accelerate vector database retrieval.
@@ -65,3 +70,5 @@ The AWS benchmark is small relative to many production vector-search systems and
 - [[HAKESIndex]] - learned filter-and-refine ANN design with decoupled search and insert parameters.
 - [[HAKES]] - distributed system showing how ANN index structure affects scale-out and mixed workloads.
 - [[SymphonyQG]] - co-designed quantized graph index that moves exact scoring into traversal.
+- [[ANNv3]] - hierarchical disk-resident ANN design using bounded quantized filtering and exact SSD reranking.
+- [[ArithmeticIntensity]] - resource model explaining why the active ANN bottleneck can change after compression.

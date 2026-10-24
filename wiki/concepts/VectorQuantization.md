@@ -6,7 +6,8 @@ sources:
   - 2604.19528
   - p3049-ooi
   - "2411.12229"
-last_updated: 2026-10-15
+  - ann-v3
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ In a filter-and-refine objective, compressed codes only nominate candidates and 
 
 [[SymphonyQG]] makes coding context-dependent: the same vector receives different RaBitQ codes when stored beside different graph vertices because each neighborhood uses its current vertex as the normalization center. That duplication improves locality and lets FastScan evaluate 32 neighbors together. Algebraic decomposition reuses one query lookup table across centers, and exact scoring on vertex visits removes final reranking, but memory grows with both vector dimension and graph out-degree.
 
+[[ANNv3]] shows that quantization can change tier residency and the active bottleneck, not only code size or estimator speed. One-bit codes are 16× smaller than `f16` vectors, allowing frequently accessed centroid levels to fit in shared L3 and leaf codes to remain in DRAM while full-precision vectors stay on SSD. That removes most lower-tier bandwidth demand but increases [[ArithmeticIntensity]] enough that CPU instructions become limiting, so compression and kernel design must be evaluated together.
+
 ## Key Claims
 - A vector code must be evaluated against the geometric quantity and downstream task it is intended to preserve.
 - Random rotation can make coordinate distributions more regular, enabling scalar codebooks while preserving inner products under a shared transform.
@@ -29,7 +32,7 @@ In a filter-and-refine objective, compressed codes only nominate candidates and 
 - In filter-and-refine retrieval, candidate inclusion can matter more than globally accurate reconstruction or score estimation.
 - Separating code assignment from query-time code interpretation can avoid bulk re-encoding, but only when training is consistent with the fixed assignments.
 - Reproducible comparison requires matched hardware, parallelism, preprocessing, variants, datasets, metrics, and released executable paths.
-- Quantization layout can deliberately duplicate context-specific codes to replace random vector reads with sequential SIMD batches, exchanging memory for query throughput.
+- Quantization layout and tier placement can exchange code duplication, cache residency, memory bandwidth, refinement I/O, and CPU work rather than changing storage size alone.
 
 ## Evidence
 Method decomposition:
@@ -50,14 +53,18 @@ Graph-local coding:
 - [[2411.12229]] stores center-relative one-bit codes for every edge, derives reusable FastScan tables, and reports better recall-throughput than PQ-based NGT-QG, including datasets where NGT-QG fails or degrades.
 - [[2411.12229]] derives a duplicated-code overhead of `DR` bits per vertex, equal to one or two raw-vector copies when out-degree is 32 or 64.
 
+Tier and bottleneck effects:
+- [[ann-v3]] derives 16× compression from `f16` to one-bit codes, places upper levels in a 504 MiB L3 cache and leaves full vectors on NVMe, then reports that the resulting kernel becomes compute-bound and benefits from AVX-512 popcount.
+
 ## Counterevidence & Qualifications
-The RaBitQ–TurboQuant framework comes from one contested comparison written by RaBitQ authors. HAKES and SymphonyQG are also first-party evaluations. HAKES assumes a two-stage index with full vectors available for refinement, while SymphonyQG's context-specific duplication is practical only when enough memory is available. Across the sources, selected bit widths, datasets, implementations, hardware, rotations, metadata accounting, graph structure, optimized kernels, reconstruction objectives, and integration-specific handling can change results.
+The RaBitQ–TurboQuant framework comes from one contested comparison written by RaBitQ authors. HAKES and SymphonyQG are also first-party evaluations, and ANN v3 is a vendor-authored production account without reproducible hardware, cluster, workload, or cost detail. HAKES assumes a two-stage index with full vectors available for refinement, while SymphonyQG's context-specific duplication is practical only when enough memory is available. ANN v3's tier placement and claimed sub-1% rerank fraction depend on its dataset, recall target, hierarchy, cache size, and access pattern. Across the sources, selected bit widths, datasets, implementations, hardware, rotations, metadata accounting, graph structure, optimized kernels, reconstruction objectives, and integration-specific handling can change results.
 
 ## What Changed
 - Added candidate inclusion as a quantization objective for filter-and-refine retrieval.
 - Added joint dimensionality-reduction and PQ learning against local similarity distributions.
 - Added the fixed-assignment constraint behind changing search-time code interpretation without re-encoding.
 - Added context-relative duplicated codes and memory-layout co-design for SIMD graph traversal.
+- Added cache residency, lower-tier bandwidth, refinement I/O, and compute-bound transition as quantization outcomes.
 
 ## Related Concepts
 - [[RaBitQ]] - uniform-grid vector quantizer designed for direct inner-product estimation.
@@ -69,3 +76,5 @@ The RaBitQ–TurboQuant framework comes from one contested comparison written by
 - [[HAKESIndex]] - uses learned product quantization as an aggressive candidate filter before exact refinement.
 - [[HAKES]] - turns compressed filtering into a separately scalable distributed service layer.
 - [[SymphonyQG]] - duplicates center-relative codes to integrate quantization with graph traversal and layout.
+- [[ANNv3]] - uses one-bit codes to move hierarchy levels upward while retaining exact SSD-backed refinement.
+- [[ArithmeticIntensity]] - explains why reducing bytes per vector can expose instruction throughput.

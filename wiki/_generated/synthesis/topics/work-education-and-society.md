@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-10-22
-as_of_overview_commit: bcfc26e9b310c2e059d7cffc15e644f26ab36af5
-input_digest: 2a2b0b2a0516bcff65a2014d86f936604c62932f376f37e4dda057d2a2889769
+as_of_overview_commit: 524873d489765ca609d6e8eb78a8c82275dece49
+input_digest: b9b8566789434c7cff149e2ef9e89ca14fac58c680ec0a87671487f462b33860
 ---
 
 # Work, Education, and Society
@@ -1566,3 +1566,14 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 - The evidence is one first-party implementation account and redacted workflow interface rather than a study of worker outcomes, review throughput, or production reliability.
 - Milestones and BDD criteria improve inspectability only to the extent that the decomposition and acceptance tests represent the real task.
 - Human review can become the limiting queue, while contextual checkpoints do not solve duplicate side effects, rollback, compensation, or scheduler-versus-agent authority.
+
+### Ann Performance Is Work Topic Router Spillover
+
+[[ANNv3]], [[Turbopuffer]], and [[ArithmeticIntensity]] reach work-education-and-society only as source-scoped router spillover: the supplied paragraph concerns technical resource allocation across an ANN index, representation, memory hierarchy, CPU kernel, and distributed shards.
+
+**Evidence:** [[ANNv3]], [[Turbopuffer]], [[ArithmeticIntensity]], [[NathanVanBenschoten]], [[RaBitQ]], [[SPFresh]]
+
+**Qualifications:**
+
+- The deterministic router cross-classified a systems-performance paragraph through generic work and cost vocabulary; it supplies no direct evidence about employment, education, institutions, social outcomes, or work design.
+- The underlying benchmark is vendor-authored and omits the staffing, organizational, and operating evidence needed for a work claim.

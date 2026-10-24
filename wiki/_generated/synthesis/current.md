@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-22
-as_of_overview_commit: 1440dfceec2b0cc84dd2289d835306bad49a1e6b
+as_of_overview_commit: 524873d489765ca609d6e8eb78a8c82275dece49
 summary: "Podcast Atlas connects technical systems, institutions, work, and human outcomes through mechanism, measurement, verification, incentives, and accountable control."
-episode_count: 1247
-source_count: 1247
-paragraph_count: 874
+episode_count: 1248
+source_count: 1248
+paragraph_count: 875
 topic_count: 9
 ---
 
@@ -17,7 +17,6 @@ topic_count: 9
 ## Executive Summary
 
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance.
-- [[LakeTransactionalAnalyticalProcessing]] extends [[Lakebase]] and [[DisaggregatedTransactionalDatabase]] by using the Pageserver materialization boundary to preserve PostgreSQL semantics in columnar storage, letting transaction and analytical engines scale separately while an LSN-bounded read combines object-store data with recent changes.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy.
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.

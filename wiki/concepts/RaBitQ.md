@@ -6,7 +6,8 @@ sources:
   - 2604.19528
   - "2411.12229"
   - turboquant-and-rabitq
-last_updated: 2026-10-19
+  - ann-v3
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ The public record of the RaBitQ–TurboQuant dispute begins earlier than the det
 
 In [[SymphonyQG]], RaBitQ is adapted from IVF clusters to graph neighborhoods. Each neighbor is normalized around the current vertex, so one vector can have different codes at different adjacency lists. A decomposition moves center-dependent work into precomputed factors and lets the query-dependent FastScan table be shared across centers. Multiple independent center-relative estimates guide traversal, while exact distances are computed as vertices are visited.
 
+[[ANNv3]] supplies a production filter-and-refine use at a much larger claimed scale. Turbopuffer stores one-bit codes in the actively scanned tree, uses RaBitQ error intervals to keep every vector that could belong to the true top-k, and retrieves fewer than 1% of the narrowed candidates from SSD at full precision in its reported workload. This is a different integration from SymphonyQG: exact scoring occurs as a terminal rerank rather than during graph traversal, and the compression is used to move tree levels upward through the memory hierarchy as well as to reduce distance cost.
+
 ## Key Claims
 - RaBitQ combines random rotation, per-vector or shared rescaling, and a shifted uniform codebook.
 - One scalar changes the same coordinate code from reconstruction-oriented scaling to unbiased inner-product estimation.
@@ -29,7 +32,7 @@ In [[SymphonyQG]], RaBitQ is adapted from IVF clusters to graph neighborhoods. E
 - Bit-plane structure supports incremental estimates that trade code access for accuracy.
 - The cited theory claims optimal `log log(1/delta)` bit-width dependence for probabilistic inner-product error.
 - In the note's experiments, RaBitQ usually has tighter error, higher ANN recall, faster matched-hardware quantization, and better 2.5-bit KV-cache quality than TurboQuant.
-- Center-relative RaBitQ codes can guide graph traversal with one reusable FastScan table, but duplicating codes for every adjacency consumes memory proportional to dimension times out-degree.
+- RaBitQ can support either graph-local implicit refinement or hierarchical terminal reranking; layout and exact-scoring placement determine its memory, I/O, and throughput tradeoff.
 
 ## Evidence
 Representation and estimator:
@@ -49,13 +52,16 @@ Graph integration:
 - [[2411.12229]] derives center-independent lookup-table reuse, stores one-bit neighbor codes in 32-code batches, and reports that multiple estimates improve QPS-recall on every tested moderate-scale dataset.
 - [[2411.12229]] reports more robust recall than PQ-based NGT-QG on MSong and ImageNet, but at a substantial duplicated-code memory cost.
 
+Hierarchical production integration:
+- [[ann-v3]] uses one-bit error intervals before full-precision NVMe reranking, reports a sub-1% rerank fraction, and attributes a bandwidth-to-compute bottleneck shift to the compact representation.
+
 ## Counterevidence & Qualifications
-All three sources include RaBitQ's authors. The public article quotes but does not reproduce complete private correspondence, and its allegations about knowledge and deliberateness are not independently adjudicated. The fastest comparison results enable alternative rescaling and FWHT rotation, so they are not an unchanged one-variable comparison with every TurboQuant setup. The SymphonyQG evidence adds a complete graph index but is limited to CPU, in-memory Euclidean and cosine workloads, and a memory-heavy duplicated layout. The evidence does not establish RaBitQ superiority across all reconstruction workloads, hardware, models, bit allocations, metrics, or index families.
+The first three sources include RaBitQ's authors. The public article quotes but does not reproduce complete private correspondence, and its allegations about knowledge and deliberateness are not independently adjudicated. The fastest comparison results enable alternative rescaling and FWHT rotation, so they are not an unchanged one-variable comparison with every TurboQuant setup. The SymphonyQG evidence adds a complete graph index but is limited to CPU, in-memory Euclidean and cosine workloads, and a memory-heavy duplicated layout. The vendor-authored ANN v3 account reports a production integration but omits configuration and methodology needed to reproduce its scale, rerank fraction, latency, throughput, or cost. The evidence does not establish RaBitQ superiority across all reconstruction workloads, hardware, models, bit allocations, metrics, or index families.
 
 ## What Changed
 - Created the method page with its uniform-grid code, scaling choices, estimator, and incremental-access property.
 - Recorded the claimed optimal tail guarantee and the interested-party status of the comparison.
-- Added task-level evidence from ANN and KV-cache experiments.
+- Added task-level evidence from ANN, KV-cache, and hierarchical production-search integrations.
 - Added graph-neighborhood normalization, reusable FastScan tables, multiple estimates, and duplicated-code costs.
 - Added the earlier public-dispute chronology while separating proof that objections existed from proof of the underlying claims or intent.
 
@@ -66,3 +72,5 @@ All three sources include RaBitQ's authors. The public article quotes but does n
 - [[KVCacheCompression]] - application tested with outlier-aware low-bit key-cache allocation.
 - [[VectorDatabase]] - system context where compact vector codes reduce memory and similarity cost.
 - [[SymphonyQG]] - graph index adapting RaBitQ to center-relative adjacency codes and batched traversal.
+- [[ANNv3]] - hierarchical implementation using one-bit RaBitQ estimates before full-precision SSD reranking.
+- [[ArithmeticIntensity]] - framework describing how compact RaBitQ codes can shift the limiting resource.

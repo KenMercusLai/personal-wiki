@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
       "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
       "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
       "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
@@ -876,11 +877,33 @@
       "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca"
     ],
-    "paragraph_count": 874
+    "paragraph_count": 875
   },
-  "overview_commit": "1440dfceec2b0cc84dd2289d835306bad49a1e6b",
-  "overview_digest": "1cd923226c00625f7e2b5506eb93d8303fbba33f8c02706a90d4f097e72edd19",
+  "overview_commit": "524873d489765ca609d6e8eb78a8c82275dece49",
+  "overview_digest": "267ecec81614115af4117b2a6012799c203452ded2e8f93c14ba7832a2929f11",
   "paragraphs": [
+    {
+      "id": "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[NathanVanBenschoten]] source adds [[ANNv3]] as a co-design of index structure, vector representation, memory-tier placement, CPU kernels, and distribution rather than a standalone nearest-neighbor algorithm. [[Turbopuffer]] extends [[SPFresh]] into a roughly 100-way hierarchy, scans promising one-bit [[RaBitQ]] codes, retains candidates whose error intervals could overlap the true top-k, and reranks a reported sub-1% subset from full-precision vectors on local NVMe. New [[ArithmeticIntensity]] captures the source's bottleneck transition: full-precision distance is bandwidth-bound, compression moves upper levels into L3 and leaves leaf codes in DRAM, then the denser bitwise work becomes compute-bound enough that AVX-512 popcount improves end-to-end throughput. Random sharding supplies aggregate SSD capacity, but every query fans out to all shards and cost grows linearly. The displayed 100-billion-vector traces are first-party and only partially support the headline: throughput is mostly about 550–1,000 QPS with brief higher peaks, while p99 latency often approaches 200 ms and sometimes exceeds it. The article omits machine and shard counts, filters, updates, dataset construction, build cost, fault behavior, pricing, and methodology sufficient for independent reproduction. Both local benchmark charts were opened and retained at their semantic positions with descriptive filenames and a canonical manifest.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ANNv3",
+        "ArithmeticIntensity",
+        "NathanVanBenschoten",
+        "RaBitQ",
+        "SPFresh",
+        "Turbopuffer"
+      ]
+    },
     {
       "id": "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
       "primary_topic": "governance-and-institutions",

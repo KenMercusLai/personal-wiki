@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-22
-as_of_overview_commit: 3b1dd2f9fa46256fbad63a432020a0964e6d5924
-input_digest: 58ea0037a56515d3c69f99905da7dcf8efb3c3a5a92f0bb1d7e160853c9b9c0c
+as_of_overview_commit: 524873d489765ca609d6e8eb78a8c82275dece49
+input_digest: 159bd1128d50ce1c28a4adfb2e304b52ff17c61d9e4bd5e6ee417fe5a390e99c
 ---
 
 # Psychology and Personal Development
@@ -928,3 +928,14 @@ The [[GitHostingArchitecture]] paragraph is classifier spillover into psychology
 
 - The deterministic router cross-classified a database-systems paragraph; it supplies no psychological or personal-development evidence.
 - The underlying account is a first-party architectural article describing a transitional rollout without independent evaluation.
+
+### Ann Performance Is Psychology Router Spillover
+
+[[ANNv3]], [[Turbopuffer]], and [[ArithmeticIntensity]] reach psychology-and-personal-development only as source-scoped router spillover: the substantive claim concerns vector-search hierarchy, quantization, memory tiers, CPU kernels, and sharding rather than human reasoning or personal change.
+
+**Evidence:** [[ANNv3]], [[Turbopuffer]], [[ArithmeticIntensity]], [[NathanVanBenschoten]], [[RaBitQ]], [[SPFresh]]
+
+**Qualifications:**
+
+- The deterministic router cross-classified a systems-performance paragraph through generic cost and judgment vocabulary; it supplies no evidence about human cognition, behavior, learning, identity, or wellbeing.
+- The underlying benchmark is vendor-authored and lacks sufficient deployment and methodology detail for independent reproduction.
