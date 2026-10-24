@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Marathon world record evolution (2025)](sources/marathon-world-record-evolution-2025.md) - A September 2025 snapshot maps elite men's marathon depth, national and venue concentration, official record progression, and the descriptive age distribution of sub-2:08 results.
 - [I don't want your PRs anymore](sources/i-dont-want-your-prs-anymore.md) - An open-source maintainer argues that AI makes local implementation cheaper than merging unknown contributors' patches and redirects participation toward feedback, investigation, prototypes, review, and forks.
 - [第一记忆模式和第二记忆模式：Kapy 的记忆系统设计](sources/kapy-memory-system.md) - Yan Li's Kapy devlog combines per-turn raw logs and compact nodes, agent-declared causal links, mandatory broad recall, and autonomous filesystem investigation.
 - [力扣的程序是如何运行的](sources/gitblog-205-leetcode-runtime.md) - Yihong0618 reconstructs LeetCode's 2021 Python submission harness through namespace, module, filesystem, and generated-runner introspection while disclaiming that the architecture remains current.
@@ -1304,6 +1305,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Eliud Kipchoge](entities/EliudKipchoge.md) - Kenyan marathon runner who leads the source's repeat-performance counts and set two official world records.
+- [Kelvin Kiptum](entities/KelvinKiptum.md) - Kenyan marathon runner whose third marathon set the 2:00:35 official world record in Chicago in 2023.
 - [Kapy](entities/Kapy.md) - Yan Li's general agent using unified per-turn memory records, compact nodes, a causal DAG, and paired broad and targeted recall modes.
 - [LeetCode](entities/LeetCode.md) - Online programming judge represented through a historical reconstruction of its generated Python submission runner.
 - [Yihong0618](entities/Yihong0618.md) - Technical blogger who inspected LeetCode's historical Python runtime through submitted-code probes.
@@ -3350,6 +3353,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Men's Marathon Performance](concepts/MensMarathonPerformance.md) - Elite men's marathon times viewed through performance depth, country and venue concentration, record eligibility, and age distribution.
 - [Memory Retrieval Modes](concepts/MemoryRetrievalModes.md) - Hybrid policy pairing mandatory broad orientation with agent-directed investigation of specific historical evidence.
 - [Online Judge Execution Harness](concepts/OnlineJudgeExecutionHarness.md) - Generated adapter that prepares a submission runtime, decodes typed tests, invokes user code, validates results, and encodes judge output.
 - [Programmatic Tool Calling](concepts/ProgrammaticToolCalling.md) - Model-generated code that invokes governed tools and processes intermediate results before returning compact data for continued reasoning.

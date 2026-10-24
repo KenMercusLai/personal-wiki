@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "marathon-world-record-evolution-2025",
+  "images": [
+    {
+      "file": "all-time-marathon-results-by-date.png",
+      "alt": "Scatter plot of 1,903 men's marathon results below 2:08 from 1985 to 2025, highlighting performances by Gebrselassie, Kipsang, Kipchoge, Bekele, and Kiptum"
+    },
+    {
+      "file": "marathon-world-record-evolution.png",
+      "alt": "Scatter plot of elite men's marathon results with arrows tracing official world records from Carlos Lopes in 1985 to Kelvin Kiptum in 2023 and marking Geoffrey Mutai's ineligible Boston time"
+    },
+    {
+      "file": "marathon-times-by-age.jpg",
+      "alt": "Scatter plot of 1,903 men's marathon times below 2:08 against athlete age from 18 to 42, with the fastest results spread mainly across the mid-twenties through late thirties"
+    },
+    {
+      "file": "marathon-times-age-histogram.png",
+      "alt": "Histogram of men's sub-2:08 marathon results by age with a cumulative percentage line, peaking at age 26 and reaching 80 percent across ages 23 through 33"
+    }
+  ]
+}

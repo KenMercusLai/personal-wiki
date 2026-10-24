@@ -10221,3 +10221,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-10-25] ingest | Marathon world record evolution (2025)
+
+Created [[MensMarathonPerformance]], [[EliudKipchoge]], and [[KelvinKiptum]]. Recorded the 1,903-result sub-2:08 distribution, the 231-result at-or-below-2:05 subset, country and venue concentration, the 13-step official record progression since 1985, course-eligibility distinction, repeat-performance leaders, and the descriptive age distribution. Preserved the men's-only, threshold-selection, single-compiled-dataset, non-causal, and changing-snapshot boundaries. Opened and retained all four evidence-bearing charts at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
