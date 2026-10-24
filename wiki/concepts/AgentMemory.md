@@ -15,7 +15,8 @@ sources:
   - write-things-down
   - "2607.01224"
   - custom-llm-memory-layer
-last_updated: 2026-10-18
+  - kapy-memory-system
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -43,6 +44,8 @@ Anthropic's long-horizon guidance adds a deliberately small operational form: st
 
 The [[DeepChat]] implementation makes the evidence-versus-view split operational: “Tape is the ledger; memory is the brain.” Session Tape records structured messages, tool calls and results, runtime events, and anchors, while memory keeps only minimal durable conclusions that retain pointers to their originating passages. Candidate writes are compared with the ten nearest existing memories and classified as new, updated, replaced, duplicated, or conflicting; unused items decay into soft archival rather than deletion; recall is relevance-ranked under a token budget; and health views expose unvisited, conflicted, or unvectorized records. Per-agent separation and content-free audit events add privacy boundaries, although self-update, insight formation, and some user-facing control remain incomplete.
 
+A turn-granular design can keep the raw tool-call loop as a work log beneath a compact node. In [[Kapy]], unified record storage avoids making threads the primary memory partition, while agent-declared parent IDs form a causal DAG. New [[MemoryRetrievalModes]] separates a mandatory first-call orientation pass—recent records by thread and user plus keyword matches—from autonomous low-level inspection of specific records and logs through filesystem tools. This makes broad context injection and targeted evidence search complementary, but the described prototype does not yet use its DAG for recall and supplies no retrieval or compaction evaluation.
+
 Thompson adds a conceptual boundary around the simplest file-backed form. Markdown notes that preserve goals, progress, feedback, and pending work can let a fresh model invocation resume a project and can coordinate separate instances through shared artifacts. This is operational memory and a way to simulate continuity around a frozen model, not evidence that model weights learn continuously or that the resulting system has a persistent self, volition, or moral agency.
 
 The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file operations as actions beside gameplay actions, allowing complete-trajectory review to improve both the scaffold—prompts, schemas, validation, and action vocabulary—and the model policy that chooses when to write, search, read, or update. Reported game results suggest that memory structure and [[Metamemory|memory-use skill]] can be optimized separately: coordinate-keyed upserts, auto-synchronized state, bounded logs, strategy references, and action checks reduce memory waste, while a LoRA-trained specialist learns to consult existing files before writing. This does not remove the lifecycle and governance requirements above; the experiments reset memory each episode and do not test persistent conflicts, privacy, deletion, or cross-domain transfer.
@@ -50,7 +53,7 @@ The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file 
 [[AvishekBiswas]] supplies a compact implementation path inspired by [[Mem0]]. [[DSPy]] extracts atomic user factoids, [[Qdrant]] stores embeddings under an application-supplied `user_id`, and a ReAct response agent decides whether retrieval is needed before a second agent chooses add, update, delete, or no-op. The design usefully makes retrieval and mutation optional rather than automatic. It also demonstrates why implementation is not evaluation: the published extraction output reverses the user's stated tea preference, several snippets contain mismatched identifiers, and no accuracy, isolation, latency, cost, or lifecycle benchmark is supplied.
 
 ## Key Claims
-- Memory addresses context limits through progressive disclosure, while optional tool use and learned operation policies can improve what agents encode, retrieve, update, and ignore.
+- Memory addresses context limits through progressive disclosure; fixed orientation, autonomous evidence search, optional tool use, and learned operation policies can serve different retrieval states.
 - Write access distinguishes agent memory from read-only RAG, but a writeable vector index is still only a persistence and retrieval layer.
 - Durable memory requires selective admission, distillation, compaction, bitemporal state, evolution, conflict resolution, soft forgetting, provenance, confidence, retention, privacy, deletion, bounded recall, user correction, observability, and authorization in addition to similarity search.
 - Append-only evidence and derived current-state views can coexist, preserving auditability while keeping recall compact.
@@ -92,6 +95,9 @@ The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file 
 - Trusted tenant filter: [[custom-llm-memory-layer]] supplies `user_id` from application state and applies it as an indexed Qdrant payload filter rather than asking the model to invent it.
 - Selective recall: [[custom-llm-memory-layer]] gives a ReAct response agent a search tool so memory lookup can be skipped when the active transcript is sufficient.
 - Persistence and correction example: [[custom-llm-memory-layer]] shows a name corrected from AVB to Avishek and retrieved after the program restarts.
+- Turn record and compaction boundary: [[kapy-memory-system]] stores one memory record per input-tool-loop-output turn with both the raw work log and a compact node.
+- Causal provenance: [[kapy-memory-system]] links records through agent-reported parent memory IDs rather than forcing unified storage into thread-local chains.
+- Two retrieval modes: [[kapy-memory-system]] requires a broad first recall call, then permits targeted filesystem search and raw-log inspection as the agent's information need becomes specific.
 
 ## Counterevidence & Qualifications
 The infrastructure-stack source names privacy, deletion, and policy requirements but does not specify enforcement, tenant scoping, user correction, retrieval evaluation, or confidence calibration. The memory architectures supply no comparative benchmark for compaction triggers, conflict policies, recall strategies, temporal weights, decay curves, or storage combinations. PsiACE's critique is strongest for detached continuity layers; calling Tape history itself “memory” preserves evidence but does not remove the need for indexing, summarization, temporal interpretation, correction, retention, and authorization. Nowledge Mem is a first-party product account: its numerical gates, boosts, task budgets, and `confidence = max(new, old)` rule are implementation policies rather than validated general laws, and non-decreasing confidence can misrepresent evidence later shown unreliable.
@@ -106,12 +112,14 @@ AutoMem supplies controlled within-harness task measurements but remains narrow 
 
 The Mem0-inspired tutorial is architectural and pedagogical rather than evaluative. Its 64-dimensional embeddings, similarity threshold, top-k, and ReAct iteration limits are unvalidated settings; the extraction example itself produces facts contrary to the input; and undefined or mismatched variables make several snippets non-runnable as printed. It also leaves provenance, temporal validity, retention, deletion, authorization, user review, and cross-tenant testing outside the worked implementation.
 
+Kapy's account is likewise a first-person design report rather than comparative evidence. More than ten days of satisfactory use does not establish recall quality, compact-node fidelity, causal-link completeness, latency, token cost, conflict behavior, privacy, or authorization. Mandatory first-call recall can impose unnecessary work on self-contained turns, keyword search can miss semantically related records, and the unused DAG does not yet demonstrate causality-aware retrieval.
+
 ## What Changed
-- Distinguished operational continuity, whether file-backed or vector-backed, from continuous model-weight learning, persistent identity, volition, and moral agency.
-- Preserved lifecycle requirements because shared notes can also retain stale, unsafe, or unauthorized state.
+- Kept operational continuity distinct from continuous model-weight learning, persistent identity, volition, and moral agency while preserving lifecycle controls for shared notes.
 - Added memory-operation proficiency as a separately trainable layer above storage and retrieval architecture.
 - Added trajectory-level scaffold revision and consult-before-write training evidence from three long-horizon games.
 - Added a minimal optional retrieval-and-maintenance implementation while preserving its extraction and code-quality failures as evidence against treating a tutorial architecture as validated memory.
+- Added Kapy's raw-log/compact-node split, causal record DAG, and fixed-versus-autonomous retrieval modes.
 
 ## Related Concepts
 - [[RetrievalAugmentedGeneration]] - agent memory is framed as RAG plus write capability.
@@ -137,3 +145,5 @@ The Mem0-inspired tutorial is architectural and pedagogical rather than evaluati
 - [[Mem0]] - supplies the extraction and update architecture adapted by the newest tutorial.
 - [[DSPy]] - supplies structured extraction and ReAct tool loops for retrieval and maintenance.
 - [[Qdrant]] - supplies filtered vector persistence in the tutorial implementation.
+- [[MemoryRetrievalModes]] - separates mandatory broad orientation from autonomous targeted evidence search.
+- [[Kapy]] - implements per-turn records, compact views, causal parent links, and two recall modes.

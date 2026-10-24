@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
       "6f5d853c7714831ee970551af49f214b44ae12665d285444d08f46ee12cc49e3",
       "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
       "b4d40a6c4d077341679657e4d47d33d0c96395f7b049f501f160b14040a2e053",
@@ -888,11 +889,30 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 886
+    "paragraph_count": 887
   },
-  "overview_commit": "1e533b86fcc07000978ac0794f7cf8967036e486",
-  "overview_digest": "e6b7df91a35e006637d5c52f59438b74ddc98e0365026ace7f68968471bcae71",
+  "overview_commit": "1acf4eb90ba9d3357787af864cfcbd231af946a8",
+  "overview_digest": "0816a3664b9e9dd246b76775364aa77c3e6893f139eaeca1c789b3d45de98af3",
   "paragraphs": [
+    {
+      "id": "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[YanLi]] devlog adds [[Kapy]] as a concrete file-backed [[AgentMemory]] design and new [[MemoryRetrievalModes]] as its central policy. One memory record spans an input, tool-call loop, and output; the raw loop remains the authoritative work log while a compact node supplies routine context. Unified storage avoids making thread the primary partition, and agent-reported parent memory IDs form a Git-like causal DAG. Recall is deliberately asymmetric: every turn begins with a high-level script retrieving recent records by thread and user plus keyword matches, after which the oriented agent can use `rg`, `sed`, and direct file reads to inspect specific compact nodes or original logs. This sharpens [[MemoryCompaction]] and [[AgentFilesystem]] by joining compact views to expandable evidence, but it also exposes limits. Thread remains a retrieval filter despite not owning storage; mandatory recall can spend tokens on self-contained turns; keyword search depends on vocabulary overlap; the DAG is not yet used by recall; and steering or asynchronous work can make a turn an incomplete lifecycle boundary even when it remains a practical record boundary. The evidence is a short first-person report after more than ten days of use, with no released implementation, retrieval or compaction-fidelity benchmark, causal-link completeness check, latency or cost accounting, conflict policy, privacy model, or failure evaluation. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentFilesystem",
+        "AgentMemory",
+        "Kapy",
+        "MemoryCompaction",
+        "MemoryRetrievalModes",
+        "YanLi"
+      ]
+    },
     {
       "id": "6f5d853c7714831ee970551af49f214b44ae12665d285444d08f46ee12cc49e3",
       "primary_topic": "ai-and-technology",

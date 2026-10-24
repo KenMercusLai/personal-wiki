@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [第一记忆模式和第二记忆模式：Kapy 的记忆系统设计](sources/kapy-memory-system.md) - Yan Li's Kapy devlog combines per-turn raw logs and compact nodes, agent-declared causal links, mandatory broad recall, and autonomous filesystem investigation.
 - [力扣的程序是如何运行的](sources/gitblog-205-leetcode-runtime.md) - Yihong0618 reconstructs LeetCode's 2021 Python submission harness through namespace, module, filesystem, and generated-runner introspection while disclaiming that the architecture remains current.
 - [DeepSeek Harness 源码拆解：可组装的 Agent 运行系统](sources/deepseek-harness-source-analysis.md) - Yuxia Luo reconstructs DSH's plugin-composed runtime, derived session surface, checkpointed persistence, conservative recovery, and programmatic tool calling from a versioned source baseline.
 - [一天几百个 PR 有什么意义？我照着 SpaceXAI 工程师 Lauren（@poteto）的九类清单，把自己的活拆了一遍](sources/hundreds-of-prs-a-day-nine-work-lines.md) - Mai Yang argues that high PR volume becomes meaningful only when real demand feeds parallel work lines and risk-tiered verification keeps review and human judgment aligned with impact.
@@ -1302,6 +1303,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Kapy](entities/Kapy.md) - Yan Li's general agent using unified per-turn memory records, compact nodes, a causal DAG, and paired broad and targeted recall modes.
 - [LeetCode](entities/LeetCode.md) - Online programming judge represented through a historical reconstruction of its generated Python submission runner.
 - [Yihong0618](entities/Yihong0618.md) - Technical blogger who inspected LeetCode's historical Python runtime through submitted-code probes.
 - [DeepSeek Harness](entities/DeepSeekHarness.md) - Local-first coding agent and composable runtime built from Cordis-managed model, tool, session, context, persistence, and execution plugins.
@@ -2309,7 +2311,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Yash Gandhi](entities/YashGandhi.md) - Quora author arguing that implementation, not the idea, decides whether a startup competing with a funded incumbent succeeds.
 - [Charlie Munger](entities/CharlieMunger.md) - Quoted investor who extends the circle of competence into a life strategy: find your aptitudes and play where you have an edge.
 - [Farnam Street](entities/FarnamStreet.md) - Publication translating investing, decision-making, learning, and writing ideas into portable heuristics while relying mainly on curated and practitioner evidence.
-- [Yan Li](entities/YanLi.md) - Practitioner-writer and PyCon China 2026 speaker who analyzes agent architecture, OS runtimes, state ownership, and lifecycle boundaries.
+- [Yan Li](entities/YanLi.md) - Practitioner-writer and Kapy builder analyzing agent architecture, OS runtimes, state ownership, memory retrieval, and lifecycle boundaries.
 - [Chamaileon](entities/Chamaileon.md) - Drag-and-drop email-builder product whose tutorial supplies the wiki's account of email layout, structure, and rendering constraints.
 - [Lob](entities/Lob.md) - Company whose engineering blog published the Understand, Design, Build framework and uses it to mentor new engineers and decentralize decisions while scaling.
 - [Michael Seibel](entities/MichaelSeibel.md) - YC Core CEO and founder-operator behind Twitch and SocialCam, whose AMA defines product-market fit as drowning in demand.
@@ -3347,6 +3349,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Memory Retrieval Modes](concepts/MemoryRetrievalModes.md) - Hybrid policy pairing mandatory broad orientation with agent-directed investigation of specific historical evidence.
 - [Online Judge Execution Harness](concepts/OnlineJudgeExecutionHarness.md) - Generated adapter that prepares a submission runtime, decodes typed tests, invokes user code, validates results, and encodes judge output.
 - [Programmatic Tool Calling](concepts/ProgrammaticToolCalling.md) - Model-generated code that invokes governed tools and processes intermediate results before returning compact data for continued reasoning.
 - [Verification-Driven Agent Delegation](concepts/VerificationDrivenAgentDelegation.md) - Expanding agent autonomy and concurrency only as enforceable constraints and executable evidence make output trustworthy.
@@ -3986,7 +3989,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Luck and Effort in Success](concepts/LuckAndEffortInSuccess.md) - Attribution framework connecting unequal starting conditions, social support, judgment, preparation, effort, and contingency across a person's trajectory.
 - [Memory Conflict Resolution](concepts/MemoryConflictResolution.md) - Detection and adjudication of incompatible memories using time, provenance, confidence, context, and version history.
 - [Memory Evolution](concepts/MemoryEvolution.md) - Maintenance of current, historical, superseded, and temporarily valid memory state.
-- [Memory Compaction](concepts/MemoryCompaction.md) - Semantic consolidation of repeated interaction records without losing material distinctions or exceptions.
+- [Memory Compaction](concepts/MemoryCompaction.md) - Semantic consolidation or turn-level compression that preserves material distinctions and expandable raw evidence.
 - [Performance Regression Prevention](concepts/PerformanceRegressionPrevention.md) - Continuous monitoring and code-level constraints that stop routine changes from eroding application speed.
 - [Progressive Web Apps](concepts/ProgressiveWebApps.md) - Web applications combining broad reach with progressively available caching, installability, push, app shells, and fast repeat navigation.
 - [API Ecosystem Governance](concepts/APIEcosystemGovernance.md) - Continuing design of API boundaries, access, incentives, policy, distribution, and support across providers, developers, and users.
@@ -4103,7 +4106,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Angel Investing](concepts/AngelInvesting.md) - Personal-capital startup investing shaped by extreme illiquidity, loss tolerance, relationship-led judgment, check sizing, follow-ons, and investor-specific motives.
 - [LLM Agent Stages](concepts/LLMAgentStages.md) - Staged account of agent architecture as structured output, tool calling, an MCP tool runtime, then a general OS layer of bash and files.
 - [Bash as Meta Tool](concepts/BashAsMetaTool.md) - Claim that a general-purpose shell can serve as the single meta tool through which an agent reaches most external capabilities.
-- [Agent Filesystem](concepts/AgentFilesystem.md) - Use of an ordinary filesystem as the durable store for intermediate artifacts that cannot round-trip through the model in one step.
+- [Agent Filesystem](concepts/AgentFilesystem.md) - Ordinary filesystem used for intermediate artifacts, agent-owned state, and searchable raw memory outside the active prompt.
 - [Agent Deployment Tradeoffs](concepts/AgentDeploymentTradeoffs.md) - Latency, reproducibility, privacy and cost, and multimodal demand constraints that keep agentic designs from fitting every product.
 - [Email Layout and Structure](concepts/EmailLayoutAndStructure.md) - Distinction between an email's layout and its structure, plus the building blocks from which templates are assembled.
 - [Email Table Layout](concepts/EmailTableLayout.md) - Table, row, column, and container-box model used to build responsive HTML email.
@@ -4560,7 +4563,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Experience](concepts/AgentExperience.md) - Design practice for making user intent, agent context, and external action reliable in AI-agent products.
 - [Agent Interface As Context](concepts/AgentInterfaceAsContext.md) - Interface-design frame where GUIs and TUIs deliver timely constraints, diagnostics, and warnings into an agent's observed context.
-- [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through notes, durable evidence, maintained views, and selective recall without implying continuous model learning.
+- [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through durable evidence, maintained views, causal provenance, and selective recall without implying continuous model learning.
 - [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
 - [Agent-Native Computing](concepts/AgentNativeComputing.md) - Shift from app-specific interfaces and integrations toward agents that coordinate software and create personal capabilities on demand.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.

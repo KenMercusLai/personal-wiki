@@ -4,7 +4,8 @@ type: concept
 tags: [ai, agents, files, context-management]
 sources:
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
-last_updated: 2026-09-17
+  - kapy-memory-system
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,6 +17,8 @@ The source frames the filesystem as the fix for a combinatorial problem. When a 
 
 Writing the artifact to the filesystem decouples those operations. The agent stores the result once, then decides on a later turn what to do with it, and the intermediate data never has to fit in the prompt. The same source treats the operating system as the runtime for both this file layer and the shell, which is why the two are presented as one stage.
 
+Kapy extends that substrate from working artifacts to durable memory records. Compact nodes support routine recall, while original logs remain directly searchable with `rg`, `sed`, and ordinary file reads when an agent needs a specific detail. This improves inspectability and gives the agent a low-level escape hatch, but filesystem access itself does not supply semantic retrieval, access control, retention, conflict resolution, or trustworthy provenance.
+
 ## Key Claims
 - The filesystem exists in agent design to hold artifacts that cannot be returned to the model in one step.
 - Oversized or non-textual tool output is the trigger: images, audio, and long text are the examples.
@@ -23,19 +26,22 @@ Writing the artifact to the filesystem decouples those operations. The agent sto
 - Deferring the decision to a later turn lets the LLM choose the follow-up instead of a developer pre-committing to one.
 - The filesystem is the same idea as external memory and retrieval, applied to working artifacts rather than stored knowledge.
 - The operating system is the runtime for the file layer and the shell, making it the practical substrate for Stage 4 agents.
+- File-backed memory can pair compact routine views with direct search and inspection of original work logs.
 
 ## Evidence
 - Root-cause diagnosis: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says intermediates such as images, audio, and long text cannot be returned directly to the LLM in a single step.
 - Tool explosion: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] shows that generate-summarize, generate-zip, and generate-send would be separate tools, and that adding audio would add three more.
 - Decoupling answer: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] proposes storing intermediate artifacts so the agent can decide what to do next in subsequent turns.
 - Runtime: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] identifies the OS as the runtime for both bash and the filesystem.
+- Memory substrate: [[kapy-memory-system]] stores memory records on the filesystem and lets the agent inspect specific logs with `rg`, `sed`, and file reads after broad recall.
 
 ## Counterevidence & Qualifications
-The source states the design intuition without addressing cleanup, naming, provenance, permissions, concurrent writers, or when a file becomes a stale artifact the agent should ignore. It also assumes a non-multimodal model for the artifact argument; native multimodal models reduce part of the need, though not the cost or context-pressure reasons for offloading large results.
+The sources state design intuition without addressing cleanup, naming, permissions, concurrent writers, or when a file becomes stale. The original artifact argument assumes a non-multimodal model; native multimodal models reduce part of that need, though not the cost or context-pressure reasons for offloading large results. Kapy adds referenced-memory IDs and preserved logs, but does not define authorization, tamper evidence, retention, semantic indexing, conflict handling, or validation that reported references are complete.
 
 ## What Changed
 - Created the concept page for the filesystem as an intermediate-artifact store.
 - Added the combinatorial tool-explosion diagnosis as the motivation for the file layer.
+- Extended the filesystem role to searchable raw memory beneath compact views.
 
 ## Related Concepts
 - [[LLMAgentStages]] - the filesystem is half of the OS layer that follows MCP.
@@ -44,3 +50,5 @@ The source states the design intuition without addressing cleanup, naming, prove
 - [[LLMContextManagement]] - the filesystem keeps large or non-textual data out of the active context.
 - [[DynamicContextCompression]] - offloading artifacts is a coarser alternative to compressing context in place.
 - [[AgentComputerInterface]] - the file layer is a concrete, model-readable action surface for agents.
+- [[MemoryRetrievalModes]] - filesystem search supplies the low-level targeted retrieval mode.
+- [[Kapy]] - uses file-backed records as both memory storage and an inspection surface.

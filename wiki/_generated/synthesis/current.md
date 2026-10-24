@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-25
-as_of_overview_commit: 1e533b86fcc07000978ac0794f7cf8967036e486
-summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with demand, boundaries, and tradeoffs explicit."
-episode_count: 1268
-source_count: 1268
-paragraph_count: 886
+as_of_overview_commit: 1acf4eb90ba9d3357787af864cfcbd231af946a8
+summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries and tradeoffs explicit."
+episode_count: 1269
+source_count: 1269
+paragraph_count: 887
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[DistributedSQLite]] separates three requirements hidden by one label: [[Rqlite]] uses leader-and-majority consensus for continuous strongly ordered service, WAL streaming supports inexpensive restore-oriented recovery, and merge-based replication supports divergent writers; [[SQLiteProductionTradeoffs]] therefore depends on recovery delay, consistency, write topology, packaging, and operating model rather than database-file size alone.
+- [[AgentMemory]] is more than writeable similarity retrieval: [[Embeddings]] plus a [[VectorDatabase]] can surface related records, while [[MemoryCompaction]], [[MemoryEvolution]], [[MemoryConflictResolution]], [[BitemporalMemory]], and [[MemoryForgetting]] maintain qualified, time-aware, attention-bounded state. [[NowledgeMem]] implements a governed lifecycle, [[TapeAndAnchors]] preserves raw evidence beneath revisable views, and [[AutoMem]] adds [[Metamemory]] as an optimizable operation policy. [[Kapy]] adds a turn-level evidence/view split and [[MemoryRetrievalModes]]: mandatory broad orientation precedes autonomous targeted inspection through [[AgentFilesystem]], with consulted memory IDs proposed as causal provenance.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, data, provenance, verification, permissions, recovery, and operating environments; generated volume needs real demand and accountable escalation.
+AI and software outcomes depend on architecture, evidence, context selection, verification, permissions, recovery, and operating environments; [[Kapy]] adds a qualified fixed-plus-autonomous [[MemoryRetrievalModes|memory retrieval]] pattern.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -43,7 +43,7 @@ Durable business value joins customer learning, retention, pricing, costs, capit
 
 ### Cross-domain
 
-Across networking, storage, and infrastructure, mechanisms become dependable only when boundaries, edge protection, measurement, and independent validation are explicit.
+Across otherwise unrelated systems, mechanisms become dependable only when boundaries, edge protection, measurement, workload fit, and independent validation are explicit.
 
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy. Evidence: [[NetworkTimeSynchronization]], [[Chrony]], [[HardwareTimestamping]], [[LeapSecondSmearing]], [[OlegObleukhov]], [[Facebook]].
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].

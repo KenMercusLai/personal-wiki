@@ -10205,3 +10205,11 @@ Created [[LeetCode]], [[Yihong0618]], and [[OnlineJudgeExecutionHarness]] and up
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | 第一记忆模式和第二记忆模式：Kapy 的记忆系统设计
+
+Created [[Kapy]] and [[MemoryRetrievalModes]] and updated [[YanLi]], [[AgentMemory]], [[MemoryCompaction]], and [[AgentFilesystem]] from their complete ordered evidence inventories. Recorded per-turn raw logs and compact nodes, agent-declared causal parents, mandatory broad recall, and autonomous filesystem investigation. Preserved the first-person, unreleased, unbenchmarked, unused-DAG, keyword-retrieval, turn-boundary, privacy, conflict, and failure-evaluation limits. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
