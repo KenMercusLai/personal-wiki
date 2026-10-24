@@ -78,6 +78,10 @@ Created [[DeepChat]] and [[LocalFirstSoftware]], and updated [[AgentMemory]], [[
 
 Created [[BrettHemenwayFalk]], [[GerryTsoukalas]], [[AutomationDemandExternality]], and [[PigouvianAutomationTax]], and updated [[WorkplaceAutomation]] from its complete ordered evidence inventory. Recorded the private-versus-cooperative automation wedge, competition and Red Queen effects, Prisoner's Dilemma limit, worker-and-owner welfare loss, instrument comparison, corrective per-task tax, and post-labor policy boundary. Preserved the theoretical rather than empirical status, one-period symmetric single-sector scope, partial treatment of richer markets and general equilibrium, and dependence on incomplete income and demand recycling. Opened all six evidence-bearing remote SVG panels and retained lossless PNG renderings at their semantic positions.
 
+## [2026-10-24] ingest | GitHub confirms breach of 3,800 repos via malicious VSCode extension
+
+Created [[TeamPCP]], [[VisualStudioCode]], and [[DeveloperExtensionSupplyChainAttack]], and updated [[GitHub]] from its complete ordered evidence inventory. Recorded the poisoned-extension compromise, approximate internal-repository scope, containment actions, customer-data boundary, marketplace trust failure, and the distinction between TeamPCP's sale claim and confirmed attribution. Opened both local images, omitted the decorative GitHub illustration, and retained the evidence-bearing breach-forum screenshot at its semantic position. Preserved the archived-report boundary, incomplete investigation, absent extension identity and permissions, and unexpanded TanStack supply-chain link.
+
 ## [2026-10-13] ingest | DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale
 
 Created [[DSec]] and [[AgenticSandboxInfrastructure]]. Recorded the multi-backend architecture, production scale, burst and lifetime distributions, composable EROFS environments, low-fanout on-demand image paths, high-density memory and CPU controls, preemption-safe rollout ownership, and concrete reward-integrity and system-failure cases. Preserved the first-party and proprietary scope, absent cost and reliability accounting, incomplete security coverage, and lack of an independently reproducible full-platform comparison. Opened and retained all 14 evidence-bearing remote architecture, workload, and evaluation figures at their semantic positions.
@@ -10121,6 +10125,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-24] ingest | 为何写作
 
 Created [[Laixintao]] and updated [[LearningByWriting]], [[JournalingPractice]], [[ProfessionalBlogging]], and [[AIAssistedWriting]] from their complete ordered evidence inventories. Recorded writing's time-capsule, thought-clarification, knowledge-recovery, expression, direct-connection, friendship, and technical-influence functions. Preserved the source's first-person scope, unsupported outcome claims, declining-blog-influence prediction, and unresolved boundary between generated composition and bounded AI assistance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-24] lint | Wiki health check
 

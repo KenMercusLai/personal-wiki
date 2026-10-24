@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [GitHub confirms breach of 3,800 repos via malicious VSCode extension](sources/github-3800-repos.md) - GitHub confirmed that a poisoned VS Code extension compromised an employee endpoint and enabled exfiltration of roughly 3,800 internal repositories, while TeamPCP attribution remained unconfirmed.
 - [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](sources/deepseek-v41-tech-report.md) - DeepSeek-AI documents a 552B multimodal MoE combining causal prefill early exit, cross-layer sparse-attention reuse, FP4 and lifecycle-aware KV compression, data-centered agentic post-training, and scalar reasoning effort.
 - [为什么大模型后训练集体转向 Agentic RL？一个算法老兵的复盘](sources/wei-shen-me-da-mo-xing-hou-xun-lian-ji-ti-zhuan-xiang-agentic-rl-yi-ge-suan-fa-lao-bing-de-fu-pan.md) - A practitioner review distinguishes environment-coupled trajectory learning from single-turn RLVR and maps its scaling case, infrastructure requirements, and failure modes.
 - [LLMs can't jump](sources/llms-cant-jump.md) - Tom Zahavy argues that current LLM recipes do not obviously supply Einstein-style abductive invention and proposes physically consistent multimodal world models, while explicitly limiting the claim.
@@ -1292,6 +1293,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为何写作](sources/wei-he-xie-zuo.md) - Laixintao argues that personally authored writing preserves changing beliefs and lived memory, exposes unclear thought, enables expression and connection, and cannot be replaced by generated prose for those purposes.
 
 ## Entities
+- [TeamPCP](entities/TeamPCP.md) - Self-identified cybercriminal group that advertised GitHub internal source code and roughly 4,000 private repositories without confirmed GitHub attribution.
+- [Visual Studio Code](entities/VisualStudioCode.md) - Extensible Microsoft code editor whose plugin trust boundary was implicated in the GitHub repository-exfiltration incident.
 - [Laixintao](entities/Laixintao.md) - Blogger and software engineer who frames writing as a time capsule, thinking exercise, expressive practice, and direct human connection.
 - [Diomidis Spinellis](entities/DiomidisSpinellis.md) - Software-engineering author represented by a personal forecast about cognitive automation and a fulfilling life beyond economically necessary thought.
 - [Tom Zahavy](entities/TomZahavy.md) - AI researcher represented by a personal position on abductive scientific invention, world models, and the bounded limits of current LLM recipes.
@@ -3324,6 +3327,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Developer Extension Supply-Chain Attack](concepts/DeveloperExtensionSupplyChainAttack.md) - Compromise of a developer plugin so trusted tooling becomes a path to workstations, source code, credentials, or build systems.
 - [Agentic Reinforcement Learning](concepts/AgenticReinforcementLearning.md) - Multi-turn post-training in which a model learns tool-using behavior from interaction with mutable environments and task-level feedback.
 - [Abductive Reasoning](concepts/AbductiveReasoning.md) - Hypothesis-forming inference that proposes explanatory premises not logically forced by incomplete observations.
 - [World Models](concepts/WorldModels.md) - Internal representations of entities, dynamics, constraints, and outcomes proposed as a substrate for grounded prediction and scientific hypothesis generation.
