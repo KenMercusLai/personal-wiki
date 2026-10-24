@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "transformer-architectures",
+  "images": [
+    {
+      "file": "architectural-adoption.png",
+      "alt": "Cumulative adoption of normalization, position encoding, and activation choices across 53 Transformer LLMs from 2017 to 2025"
+    }
+  ]
+}

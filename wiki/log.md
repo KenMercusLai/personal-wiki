@@ -10069,3 +10069,11 @@ Created [[Donge]], [[DeepSeekV4Flash]], and [[AcceleratorBackendPorting]]; updat
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | The Crystallization of Transformer Architectures (2017-2025)
+
+Created [[JunYuTan]], [[TransformerArchitecturalConvergence]], [[SwiGLU]], [[GroupedQueryAttention]], and [[QueryKeyNormalization]], and updated [[TransformerArchitecture]], [[RMSNorm]], [[RotaryPositionalEncoding]], and [[MixtureOfExpertsLoadBalancing]] from their complete ordered evidence inventories. Recorded the selected 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, KV sharing, and reduced bias use; preserved active diversity in MoE, long-context attention, and stability mechanisms. Qualified all adoption frequencies by descriptive sampling, family overlap, public-report bias, verification depth, hardware and kernel path dependence, and the absence of controlled ablations. Opened and retained the single evidence-bearing adoption chart at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

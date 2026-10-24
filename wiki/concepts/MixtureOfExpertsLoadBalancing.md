@@ -6,7 +6,8 @@ sources:
   - 2609.39137
   - mai-thinking-1-continuous
   - latent-moe
-last_updated: 2026-10-22
+  - transformer-architectures
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,14 +25,16 @@ At large scale, load balancing becomes inseparable from expert communication, ca
 
 [[LatentMoE]] separates the representation used for routing from the narrower representation sent to experts. This reduces bytes in the dispatch and combine path without solving assignment imbalance: overloaded destinations, variable message sizes, expert placement, and collective scheduling still determine whether latent compression becomes an end-to-end throughput gain.
 
+The architecture survey places this control problem inside a broader 2024–2025 MoE expansion. Its examples range from 8 experts with 2 active to 384 experts with 8 active, with optional shared experts and softmax, sigmoid, or hybrid routing. It also describes DeepSeek's bias-based auxiliary-loss-free selection: a control bias changes which experts enter Top-K, while unbiased router scores determine their output weights. This supports separation of selection control from mixture weighting, but the sampled configurations remain too diverse for one settled expert-count or routing rule.
+
 ## Key Claims
 - Extreme routing sparsity makes balanced token assignment harder and raises both execution and utilization risks.
 - Auxiliary-loss balancing couples the load objective to router-gradient optimization.
 - Bias-based loss-free methods separate selection control from expert combination weights and LM gradients.
-- Error magnitude, temporal accumulation, and error trend create materially different controller behavior.
 - Both overload and underload should be measured across time and layers rather than only at the final checkpoint.
 - Better numerical balance does not by itself prove better expert specialization or end-task quality.
 - Capacity limits and token dropping can confound balancing experiments; dropless routing removes that confound while creating dynamic communication and memory-management costs.
+- Modern MoE systems vary widely in expert count, active count, shared experts, scoring, and balancing, so architecture has not converged on one routing configuration.
 
 ## Evidence
 Control formulation:
@@ -48,14 +51,16 @@ Large-scale implementation:
 - [[mai-thinking-1-continuous]] links dropless routing and latent compression to reduced padding and communication while documenting variable-size all-to-all synchronization, static-memory rounds, imbalance-aware recomputation, and architecture/topology co-design.
 - [[latent-moe]] illustrates full-width routing with latent-width all-to-all dispatch and combine, while attributing the intended benefit to reduced memory and network traffic rather than lower routing complexity.
 
+Cross-model diversity:
+- [[transformer-architectures]] compares 2024–2025 MoE expert counts, active counts, shared-expert choices, and routing schemes, and formalizes control-biased selection with unbiased output weighting.
+
 ## Counterevidence & Qualifications
-The sources study fixed Top-K routing in decoder-only MoE families and do not compare expert-choice, soft, or many other routing architectures. Uniform token count is a tractable target but may not be the only desirable allocation when experts specialize. The reported balancing and systems findings do not isolate all architecture, data, scale, training-duration, kernel, or topology effects. MAI's first-party shift across model generations changes expert count, active parameters, latent compression, routing capacity, GPU count, and systems optimizations together, so its end-to-end gains do not identify one causal balancing mechanism. The separate LatentMoE explainer is secondary and leaves its reported fourfold compression result and Kimi K3 implementation underspecified.
+The sources emphasize fixed Top-K routing in decoder-only MoE families and do not compare expert-choice, soft, or many other routing architectures. Uniform token count is a tractable target but may not be the only desirable allocation when experts specialize. The reported balancing and systems findings do not isolate all architecture, data, scale, training-duration, kernel, or topology effects. MAI's first-party shift across model generations changes several factors together, so its end-to-end gains do not identify one causal balancing mechanism. The LatentMoE explainer is secondary and leaves its reported compression result underspecified. The 53-model survey is descriptive, family-correlated, and biased toward public reports; its 2025 MoE share does not establish that sparse models dominate every workload or the full deployed population.
 
 ## What Changed
-- Added global-batch aggregation and expert-capacity choice as experimental variables that can change balancing conclusions.
-- Added dropless routing's tradeoff between removing token loss and padding versus dynamic communication, synchronization, and memory control.
-- Added LatentMoE compression and topology-aware execution as systems dimensions of sparse expert scaling.
-- Clarified that latent-width communication reduces message size but does not remove routing imbalance or collective-scheduling constraints.
+- Added cross-model evidence of expanding but still-diverse MoE configurations in 2024–2025.
+- Added selection-bias control with unbiased mixture weighting as a loss-free balancing pattern.
+- Qualified the survey's MoE trend by sample, family overlap, and workload scope.
 
 ## Related Concepts
 - [[IDBalancing]] - is the integral-derivative method proposed for this problem.
@@ -66,3 +71,4 @@ The sources study fixed Top-K routing in decoder-only MoE families and do not co
 - [[MAIThinking1]] - reported 8-of-512 LatentMoE system using global-batch balancing and dropless routing.
 - [[LatentMoE]] - narrows expert-bound activations while leaving assignment balance as a separate control problem.
 - [[DistributedNeuralNetworkTraining]] - supplies the expert, data, and topology-aware communication mechanisms that execute routed work.
+- [[TransformerArchitecturalConvergence]] - contrasts settled dense defaults with unsettled sparse routing.

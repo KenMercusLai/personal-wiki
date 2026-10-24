@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1e73232218e3c52215e122f96d86600041d08b2e6f2c50ee2b3d9333b9123943",
       "799b4df04ea345b559e672271f218b9196852acdaf56ab07f8445e3ca0113438",
       "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
       "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
@@ -880,11 +881,30 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 878
+    "paragraph_count": 879
   },
-  "overview_commit": "025ef59a9fbd2d6194300e2797cfc196486fe4c5",
-  "overview_digest": "6542b8eddcfd1620e6e1b8eb3afbf90b291abe278d5ec213e313f439f00c1262",
+  "overview_commit": "87e9a242bc0491f5788f4c68b088f08f4991674a",
+  "overview_digest": "b0e0d0acbf28928de1319101e29d41a40f9c30e527056849719060205f318367",
   "paragraphs": [
+    {
+      "id": "1e73232218e3c52215e122f96d86600041d08b2e6f2c50ee2b3d9333b9123943",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[JunYuTan]] survey adds [[TransformerArchitecturalConvergence]] as a qualified account of how dense decoder-only LLM blocks standardized between 2017 and 2025. Across 53 selected, widely discussed models, the center of mass shifts from post-LayerNorm, sinusoidal or learned absolute positions, ReLU or GeLU, and separate KV heads toward pre-normalization with [[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], [[GroupedQueryAttention]] or related KV sharing, and fewer bias terms; the retained cumulative chart makes the normalization, position, and activation trends visible. LLaMA is an influential integration and distribution point rather than the inventor of every component. The same evidence keeps the causal claim narrow: the dataset favors public and open families, counts related releases separately, varies in verification depth, and is descriptive rather than an ablation, so adoption blends quality and stability with [[FlashAttention]], fused-kernel availability, accelerator shapes, KV-cache economics, and path dependence. Architecture remains active in MoE expert count and routing, long-context attention, and stability controls such as [[QueryKeyNormalization]]. The article's 2025 subset contains 9 MoE models among 15 entries, but 42 of all 53 sampled models are dense, so “MoE dominance” is a recent-sample trend rather than a universal installed-base conclusion. The single evidence-bearing adoption chart was opened and retained once at its semantic position with a descriptive filename and canonical manifest.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "FlashAttention",
+        "GroupedQueryAttention",
+        "JunYuTan",
+        "QueryKeyNormalization",
+        "RMSNorm",
+        "RotaryPositionalEncoding",
+        "SwiGLU",
+        "TransformerArchitecturalConvergence"
+      ]
+    },
     {
       "id": "799b4df04ea345b559e672271f218b9196852acdaf56ab07f8445e3ca0113438",
       "primary_topic": "ai-and-technology",

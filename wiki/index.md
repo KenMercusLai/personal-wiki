@@ -1283,8 +1283,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
 - [Thoughts on the July 8th Telstra outage report](sources/telestra-outage-report.md) - Lorin Hochstein reconstructs how lost NTP redundancy, symmetric peering, a restart-triggered GPS rollover, and poisoned operational state caused Telstra's July 2026 mobile outage.
 - [The attack chain behind the v1.107.0 LiteLLM release](sources/litellm-security-incident-attack-chain.md) - LiteLLM traces an unrevoked public key through owner-token exposure, CI credential theft, release-source substitution, compromised approval, signed malicious artifacts, and forensic cleanup.
+- [The Crystallization of Transformer Architectures (2017-2025)](sources/transformer-architectures.md) - Jun Yu Tan traces a 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, and KV sharing while preserving MoE, long-context, hardware, and sampling qualifications.
 
 ## Entities
+- [Jun Yu Tan](entities/JunYuTan.md) - Technical author represented by a 2017–2025 survey of Transformer architecture convergence and remaining design frontiers.
 - [Donge](entities/Donge.md) - Systems-optimization practitioner who ported DwarfStar to Huawei Ascend and separated functional alignment from performance readiness.
 - [DeepSeek V4 Flash](entities/DeepSeekV4Flash.md) - Reported 284B sparse MoE model targeted by DwarfStar, distinct from the wiki's DeepSeek-V4.1-Flash profile.
 - [LiteLLM](entities/LiteLLM.md) - Open-source AI infrastructure maintainer represented through the compromised v1.107.0 release, its cross-system credential chain, containment, and root-cause analysis.
@@ -3312,6 +3314,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Transformer Architectural Convergence](concepts/TransformerArchitecturalConvergence.md) - Concentration of dense decoder-only LLMs around a shared block recipe shaped by model behavior, hardware, inference economics, and ecosystem path dependence.
+- [SwiGLU](concepts/SwiGLU.md) - Gated Transformer feed-forward layer combining a SiLU-activated projection with a separate multiplicative gate.
+- [Grouped-Query Attention](concepts/GroupedQueryAttention.md) - Attention arrangement sharing fewer key-value heads across a larger set of query heads to reduce autoregressive cache state.
+- [Query-Key Normalization](concepts/QueryKeyNormalization.md) - Normalization of attention queries and keys to control learned norm drift and pathological logit growth.
 - [Accelerator Backend Porting](concepts/AcceleratorBackendPorting.md) - Preservation of runtime semantics while replacing device APIs, kernels, representations, memory movement, and placement for another accelerator.
 - [Release Pipeline Security](concepts/ReleasePipelineSecurity.md) - Protection of the source, identities, approvals, build, signing, publication, and audit chain that turns a revision into a trusted artifact.
 - [Arithmetic Intensity](concepts/ArithmeticIntensity.md) - Ratio of arithmetic work to data movement used to diagnose compute-bound and bandwidth-bound execution.

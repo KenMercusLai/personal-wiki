@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-24
-as_of_overview_commit: 025ef59a9fbd2d6194300e2797cfc196486fe4c5
+as_of_overview_commit: 87e9a242bc0491f5788f4c68b088f08f4991674a
 summary: "Podcast Atlas connects technology, institutions, markets, work, and human outcomes through boundaries, evidence, verification, incentives, recovery, and accountable control."
-episode_count: 1251
-source_count: 1251
-paragraph_count: 878
+episode_count: 1252
+source_count: 1252
+paragraph_count: 879
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[ReleasePipelineSecurity]] extends AI infrastructure safety beyond model and runtime controls: [[LiteLLM]] shows that an unrevoked agent-platform key can expose an owner token, CI can harvest more identities, and a compromised control plane can produce signed malicious artifacts through nominally valid approvals; [[SecretManagement]] therefore needs revocation, least privilege, transitive-authority mapping, independent approval roots, and audit evidence outside the mutable pipeline.
+- [[TransformerArchitecturalConvergence]] describes a strong dense decoder-only default around pre-[[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], and [[GroupedQueryAttention]] or related KV sharing, while [[QueryKeyNormalization]], MoE routing, and long-context attention remain unsettled; adoption reflects model behavior together with kernels, accelerator shapes, KV-cache economics, and ecosystem path dependence.
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - The [[Instapaper]] incident shows that [[BackupAndRecovery]] must test restoration onto a viable substrate because [[AmazonRDS]] snapshots can preserve the same inherited constraint that caused failure.
@@ -31,8 +31,8 @@ topic_count: 9
 
 Technical leverage depends on workload-specific architecture, representation, placement, verification, observability, bounded authority, and tested recovery.
 
+- [[TransformerArchitecturalConvergence]] describes a strong dense decoder-only default around pre-[[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], and [[GroupedQueryAttention]] or related KV sharing, while [[QueryKeyNormalization]], MoE routing, and long-context attention remain unsettled; adoption reflects model behavior together with kernels, accelerator shapes, KV-cache economics, and ecosystem path dependence. Evidence: [[TransformerArchitecturalConvergence]], [[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], [[GroupedQueryAttention]], [[QueryKeyNormalization]], [[FlashAttention]].
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
-- [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
 
 ### Business and Markets
 
