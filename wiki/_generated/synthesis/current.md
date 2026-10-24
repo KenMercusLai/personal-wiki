@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-25
-as_of_overview_commit: e969f23a362d31b545c5e8462e789f8fe8aea692
+as_of_overview_commit: cee9c3d138cf1569b1ad6fcbe6ab594b29e60080
 summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries and tradeoffs explicit."
-episode_count: 1272
-source_count: 1272
+episode_count: 1273
+source_count: 1273
 paragraph_count: 890
 topic_count: 9
 ---

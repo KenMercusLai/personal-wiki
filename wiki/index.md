@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [再谈 LLM 辅助写作](sources/sspai-110102.md) - Losses Don argues that useful AI-assisted writing requires rich author-originated input, interrogative outlining, style sensitivity, delayed rereading, and full manual revision despite model-default prose and training-data feedback risks.
 - [AI Is Devouring Our Patience](sources/ai-is-eating-our-patience.md) - Innei argues that AI-enabled output can erode programming patience, flow, design understanding, and unaided skill while raising model-access and talent-assessment risks.
 - [Marathon world record evolution (2025)](sources/marathon-world-record-evolution-2025.md) - A September 2025 snapshot maps elite men's marathon depth, national and venue concentration, official record progression, and the descriptive age distribution of sub-2:08 results.
 - [I don't want your PRs anymore](sources/i-dont-want-your-prs-anymore.md) - An open-source maintainer argues that AI makes local implementation cheaper than merging unknown contributors' patches and redirects participation toward feedback, investigation, prototypes, review, and forks.

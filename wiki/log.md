@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-25] ingest | 再谈 LLM 辅助写作
+
+Updated [[AIAssistedWriting]], [[ModelCollapse]], [[LLMSycophancy]], and [[LossesDon]] from their complete ordered evidence inventories. Recorded author-first material capture, interrogative drafting, limits of banned-phrase style control, delayed rereading, manual rephrasing, aggregated verbal-tic frequencies, and a qualified training-data feedback risk. Preserved practitioner, detector, causal, model-version, benchmark, and training-corpus boundaries. Opened all three local images, retained the evidence-bearing verbal-tics chart at its semantic position, and omitted the decorative title photograph plus the MSG advertisement used only as a prose-redundant metaphor.
+
 ## [2026-10-25] ingest | I don't want your PRs anymore
 
 Updated [[OpenSourceProjectMaintenance]], [[OpenSourceCollaborationModels]], and [[CodeReviewPractice]] from their complete ordered evidence inventories. Recorded the distinction between accepting ideas and accepting mergeable code, the maintainer-side security and coordination cost of unknown external patches, the shift from implementation toward understanding, design, and review, and alternative contributions through feedback, investigation, prototypes, prompts, review, and forks. Preserved the single-practitioner, unmeasured-comparison, trusted-contributor, succession, correctness, tooling, dependency, and supply-chain qualifications. The source contained no effective image references, so no asset manifest was required.
@@ -10232,6 +10236,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] ingest | AI Is Devouring Our Patience
 
 Updated [[Innei]] and [[AIDependencySkillAtrophy]] from their complete ordered evidence inventories. Recorded the tension between higher AI-enabled output and weaker design recall, sustained flow, exploratory patience, unaided programming confidence, model-access resilience, and credible talent signals. Preserved the translated first-person, unmeasured-skill, self-selected-poll, labor-market, irreversibility, and real-productivity-gain boundaries. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-25] lint | Wiki health check
 
