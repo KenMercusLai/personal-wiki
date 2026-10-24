@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [把 Redis 作者的 ds4 移植到昇腾 Atlas 300i Duo 上](sources/ds4-ascend.md) - Donge reports a functionally aligned but bandwidth-bound DwarfStar port whose CPU dequantization, repeated transfers, and single-die placement limit it to 0.1–0.3 token/s.
 - [ANN v3: 200ms p99 query latency over 100 billion vectors](sources/ann-v3.md) - Turbopuffer combines hierarchical clustering, one-bit RaBitQ filtering, SSD reranking, SIMD optimization, and random sharding for a vendor-reported 100-billion-vector search workload.
 - [The radical network redesign that led AWS to forge a more resilient cloud](sources/aws-random-graph.md) - Amazon describes ShuffleBox and Spraypoint as a reproducible flat random-graph fabric, with first-party performance, energy, resilience, and rollout claims.
 - [Stateful jobs](sources/stateful-jobs.md) - Jaana Dogan argues that durable state turns placement, upgrades, recovery, and idleness into coordinated lifecycle decisions rather than ordinary resource scheduling.
@@ -1284,6 +1285,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The attack chain behind the v1.107.0 LiteLLM release](sources/litellm-security-incident-attack-chain.md) - LiteLLM traces an unrevoked public key through owner-token exposure, CI credential theft, release-source substitution, compromised approval, signed malicious artifacts, and forensic cleanup.
 
 ## Entities
+- [Donge](entities/Donge.md) - Systems-optimization practitioner who ported DwarfStar to Huawei Ascend and separated functional alignment from performance readiness.
+- [DeepSeek V4 Flash](entities/DeepSeekV4Flash.md) - Reported 284B sparse MoE model targeted by DwarfStar, distinct from the wiki's DeepSeek-V4.1-Flash profile.
 - [LiteLLM](entities/LiteLLM.md) - Open-source AI infrastructure maintainer represented through the compromised v1.107.0 release, its cross-system credential chain, containment, and root-cause analysis.
 - [Telstra](entities/Telstra.md) - Australian telecommunications company represented through its mobile timing architecture and July 2026 outage.
 - [Lorin Hochstein](entities/LorinHochstein.md) - Reliability writer reconstructing the Telstra outage while marking technical inference and criticizing hindsight-centered investigation.
@@ -1465,7 +1468,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [tzf](entities/Tzf.md) - Multi-language offline coordinate-to-time-zone project using topology-aware data generation and layered spatial indexes.
 - [ringsaturn](entities/Ringsaturn.md) - Open-source developer represented through tzf's geospatial data, compatibility, and performance work.
 - [Lance Format](entities/LanceFormat.md) - Columnar file and dataset storage family spanning selective retrieval, multimodal records, versioning, and model-training access.
-- [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-LLM inference project, used to illustrate design-led and verification-heavy AI-assisted engineering.
+- [DwarfStar](entities/DwarfStar.md) - Antirez's open-source local-inference project joining model-specific C paths, design-led AI-assisted engineering, persistent KV reuse, and an experimental Ascend port.
 - [Nolla](entities/Nolla.md) - Software practitioner represented through a qualified argument about AI coding leverage, production accountability, and preservation of engineering apprenticeship.
 - [Lauren Tan](entities/LaurenTan.md) - AI software practitioner represented through a conditional implementation-first position that keeps planning available without making it the default.
 - [Grok Bot](entities/GrokBot.md) - AI teammate product represented through role design, Skills, recurring routines, and staged authority over real-world actions.
@@ -3309,6 +3312,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Accelerator Backend Porting](concepts/AcceleratorBackendPorting.md) - Preservation of runtime semantics while replacing device APIs, kernels, representations, memory movement, and placement for another accelerator.
 - [Release Pipeline Security](concepts/ReleasePipelineSecurity.md) - Protection of the source, identities, approvals, build, signing, publication, and audit chain that turns a revision into a trusted artifact.
 - [Arithmetic Intensity](concepts/ArithmeticIntensity.md) - Ratio of arithmetic work to data movement used to diagnose compute-bound and bandwidth-bound execution.
 - [Random-Graph Data Center Networks](concepts/RandomGraphDataCenterNetworks.md) - Flat fabrics combining reproducible random connectivity, path-diverse routing, and layered validation.

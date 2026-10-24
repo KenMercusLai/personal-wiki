@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-22
-as_of_overview_commit: da968ae575f6871dd43876c1687a50cccd1da8bd
+last_updated: 2026-10-24
+as_of_overview_commit: 025ef59a9fbd2d6194300e2797cfc196486fe4c5
 summary: "Podcast Atlas connects technology, institutions, markets, work, and human outcomes through boundaries, evidence, verification, incentives, recovery, and accountable control."
-episode_count: 1250
-source_count: 1250
-paragraph_count: 877
+episode_count: 1251
+source_count: 1251
+paragraph_count: 878
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, verification, observability, bounded authority, independent trust roots, and tested recovery.
+Technical leverage depends on workload-specific architecture, representation, placement, verification, observability, bounded authority, and tested recovery.
 
 - [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
 - [[AIEraCSEducation]] must separate artifact completion from demonstrated understanding: capable coding agents can broaden [[ProgrammingLiteracy]] while making a passing take-home program weak evidence of [[ComputationalThinking]], so curricula need preserved foundational practice plus observable planning, explanation, [[SoftwareVerification]], architecture, research judgment, and accountable AI use. Evidence: [[AIEraCSEducation]], [[ProgrammingLiteracy]], [[ComputationalThinking]], [[SoftwareVerification]], [[TasteAsProblemSense]], [[ProjectBasedLearning]].
@@ -43,7 +43,7 @@ Durable outcomes join demonstrated demand to economics, financing, distribution,
 
 ### Cross-domain
 
-Across domains, designs work when boundaries match the task, estimates are independently validated, and evidence, verification, and failure-independent recovery are preserved.
+Across domains, designs work when boundaries match the task, estimates are independently validated, and failure-independent recovery is preserved.
 
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy. Evidence: [[NetworkTimeSynchronization]], [[Chrony]], [[HardwareTimestamping]], [[LeapSecondSmearing]], [[OlegObleukhov]], [[Facebook]].
 - [[OpenTableFormats]] reduce analytical I/O through layout-aligned [[DataPruning]] across [[ApacheIceberg]] metadata and [[ApacheParquet]] row groups, while alternate layouts add storage and maintenance cost. Evidence: [[OpenTableFormats]], [[DataPruning]], [[ApacheIceberg]], [[ApacheParquet]].
@@ -57,7 +57,7 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions and technical control layers need independently rooted authority, observable effects, usable constraints, accountable lifecycle decisions, and credible recovery.
+Institutions and technical control layers need independently rooted authority, observable effects, usable constraints, accountability, and credible recovery.
 
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].

@@ -5,7 +5,8 @@ tags: [ai, inference, kv-cache, long-context, compression]
 sources:
   - ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot
   - 2604.19528
-last_updated: 2026-10-13
+  - ds4-ascend
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,12 +20,14 @@ Compression is not only a memory-capacity optimization. Long agent sessions pers
 
 The RaBitQ–TurboQuant comparison supplies a direct task-quality example for key-cache quantization. With identical outlier-channel allocation and cache machinery, a lower-error code matters more at 2.5 bits and long contexts: RaBitQ remains near full precision on Needle-In-A-Haystack while TurboQuant's reconstruction-oriented variant degrades broadly after 32k tokens. At 3.5 bits the difference largely closes, so quantizer choice interacts with bit width rather than defining a fixed ranking.
 
+A simpler latent-attention pattern joins compression to persistence. [[DwarfStar]] compresses K and V into a shared latent before storage and expands it for attention in its reported [[DeepSeekV4Flash]] path, while a custom on-disk format couples tensors to the exact rendered prefix used for reuse. Representation size is therefore tied to identity and lifecycle: compact state is useful only if the runtime can match, load, and replay the same prefix without invalidating it.
+
 ## Key Claims
 - Channel, sequence, layer, and numerical-precision reductions compound rather than substitute for one another.
 - Cross-layer sharing can remove far more duplicate cache state than sequence compression alone, but it reduces which content and addresses later layers may change.
 - Prefill early exit and KV compression solve related but distinct problems: one reduces computation over prompt positions, while the other reduces stored and transferred state.
 - Main global KV can tolerate a different precision and lifecycle from fresh local sliding-window KV.
-- Cache size should include indexer keys, scale metadata, local-state requirements, persistent copies, and transfer costs rather than only nominal K/V payloads.
+- Cache size should include indexer keys, scale metadata, local-state requirements, rendered-prefix identity, persistent copies, and transfer costs rather than only nominal K/V payloads.
 - Deployment routing and model architecture are complementary: smaller caches lower movement cost, while locality-aware routing raises reuse probability.
 - Equal nominal cache bit widths can yield different long-context attention quality, especially near the lower-precision failure boundary.
 
@@ -43,14 +46,16 @@ Task-quality boundary:
 - [[2604.19528]] reports Needle-In-A-Haystack scores of 0.987 for full precision, 0.951/0.977 for RaBitQ at 2.5/3.5 bits, and 0.709/0.962 for TurboQuant; its heatmap localizes most TurboQuant 2.5-bit failures to longer contexts and many needle depths.
 - [[2604.19528]] reports modest RaBitQ LongBench-E advantages at 2.5 bits on two models and essentially tied averages at 3.5 bits on Llama-3.1-8B.
 
+Latent storage and persistence:
+- [[ds4-ascend]] describes shared compressed K/V latent vectors, reports an approximate 8:1–10:1 reduction, and attributes about 26 GB of memory to a million-token context on an M3 Max.
+- [[ds4-ascend]] stores a 48-byte header, rendered prefix text, and compressed tensors on disk and preserves exact DSML tool-call text so a re-render does not invalidate prefix matching.
+
 ## Counterevidence & Qualifications
-Compression ratios are architecture- and accounting-dependent: changing sequence granularity, scale metadata, local windows, persistence policy, or precision changes the comparison. Shared content and addresses create recall and expressivity limits, and low-precision caches may require training adaptation. The DeepSeek analysis does not independently ablate each compression dimension. The RaBitQ-authored experiment repairs TurboQuant's released code, selects its MSE variant, and uses a unified custom cache framework; this makes the comparison more controlled but not a direct or independent reproduction of TurboQuant's original setup.
+Compression ratios are architecture- and accounting-dependent: changing sequence granularity, scale metadata, local windows, prefix representation, persistence policy, or precision changes the comparison. Shared content and addresses create recall and expressivity limits, and low-precision caches may require training adaptation. The DeepSeek-V4.1 analysis does not independently ablate each compression dimension. The DwarfStar port report does not derive its ratio or million-token accounting and provides no cache-load benchmark or failure tests. The RaBitQ-authored experiment repairs TurboQuant's released code, selects its MSE variant, and uses a unified custom cache framework; this makes the comparison more controlled but not a direct or independent reproduction of TurboQuant's original setup.
 
 ## What Changed
-- Established a four-part model spanning channel, sequence, layer, and precision compression.
-- Separated cache-capacity reduction from prefill-compute reduction and cache-locality routing.
-- Added evidence that low-bit quantizer choice affects long-context retrieval most strongly near 2.5 bits.
-- Distinguished controlled repaired-code comparison from direct released-artifact reproduction.
+- Added DwarfStar's compressed-latent and on-disk prefix-reuse case.
+- Extended cache accounting from tensor bytes to rendered-prefix identity and persistent lifecycle.
 
 ## Related Concepts
 - [[CompressedSparseAttention2]] - concrete mechanism combining the first three compression dimensions.
@@ -62,3 +67,4 @@ Compression ratios are architecture- and accounting-dependent: changing sequence
 - [[VectorQuantization]] - supplies alternative low-bit representations for cached key vectors.
 - [[RaBitQ]] - retained stronger 2.5-bit retrieval quality in the comparison.
 - [[TurboQuant]] - reconstruction-oriented cache quantizer whose 3.5-bit results approached RaBitQ.
+- [[DwarfStar]] - runtime persisting compressed latent attention state for exact prefix reuse.

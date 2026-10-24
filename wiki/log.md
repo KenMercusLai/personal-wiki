@@ -10061,3 +10061,11 @@ Created [[LiteLLM]] and [[ReleasePipelineSecurity]], and updated [[SecretManagem
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | 把 Redis 作者的 ds4 移植到昇腾 Atlas 300i Duo 上
+
+Created [[Donge]], [[DeepSeekV4Flash]], and [[AcceleratorBackendPorting]]; updated [[DwarfStar]], [[Antirez]], [[Huawei]], [[KVCacheCompression]], and [[FoundationModelKernelOptimization]] from their complete ordered evidence inventories. Recorded the model-specific runtime boundary, compressed latent KV persistence, AscendCL operator surface, CPU-side IQ2_XXS expansion, repeated Host-to-Device transfers, single-die capacity limit, reported CPU-output alignment, and 0.1–0.3 token/s result. Preserved the missing validation protocol, benchmark configuration, profiler, independent reproduction, and model-identity qualifications, including the distinction between DeepSeek V4 Flash and DeepSeek-V4.1-Flash. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

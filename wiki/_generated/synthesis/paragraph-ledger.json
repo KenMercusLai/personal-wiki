@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "799b4df04ea345b559e672271f218b9196852acdaf56ab07f8445e3ca0113438",
       "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
       "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
       "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
@@ -879,11 +880,32 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 877
+    "paragraph_count": 878
   },
-  "overview_commit": "da968ae575f6871dd43876c1687a50cccd1da8bd",
-  "overview_digest": "3d46bff3c2489336f21ae45b1b5b91a66f83f055cb616e0809577cc2b6867347",
+  "overview_commit": "025ef59a9fbd2d6194300e2797cfc196486fe4c5",
+  "overview_digest": "6542b8eddcfd1620e6e1b8eb3afbf90b291abe278d5ec213e313f439f00c1262",
   "paragraphs": [
+    {
+      "id": "799b4df04ea345b559e672271f218b9196852acdaf56ab07f8445e3ca0113438",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[Donge]] source adds [[AcceleratorBackendPorting]] as the gap between functional backend compatibility and performance portability. [[DwarfStar]] keeps the semantic surface small by targeting only [[DeepSeekV4Flash]] and one packaged GGUF layout, then exposes embedding, normalization, latent attention, RoPE, softmax, routed experts, projection, and sampling through a backend interface. Reimplementing that interface with AscendCL reportedly aligns output with the CPU path, but the unsupported IQ2_XXS expert format forces CPU-to-FP16 expansion and repeated Host-to-Device transfer before ordinary dense GEMM. The approximately 81 GB model also streams through one 48 GB device while the Atlas 300i Duo's second independently enumerated die remains unused. The reported 0.1–0.3 token/s result therefore sharpens [[FoundationModelKernelOptimization]]: available GEMM throughput is irrelevant when representation conversion, PCIe movement, residency, and topology remain exposed. [[KVCacheCompression]] gains a lifecycle case in which shared K/V latents are persisted with exact rendered prefix text and DSML replay, joining tensor size to reusable identity. All measurements and correctness claims remain first-party and incompletely specified; the article cannot establish a general Ascend-versus-Metal ranking. Its 284B/37B-active DeepSeek V4 Flash artifact is also kept distinct from the wiki's 552B [[DeepSeekV41Flash]] profile. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AcceleratorBackendPorting",
+        "DeepSeekV41Flash",
+        "DeepSeekV4Flash",
+        "Donge",
+        "DwarfStar",
+        "FoundationModelKernelOptimization",
+        "KVCacheCompression"
+      ]
+    },
     {
       "id": "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
       "primary_topic": "business-and-markets",

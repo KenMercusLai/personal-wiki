@@ -5,7 +5,8 @@ tags: [foundation-models, gpu, kernels, performance, co-design]
 sources:
   - foundation-model-kernel-optimization
   - outperforming-cublas-nvfp4
-last_updated: 2026-10-18
+  - ds4-ascend
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,12 +22,14 @@ Optimization proceeds as a measurement loop. Freeze the workload, identify which
 
 The GB300 NVFP4 case makes the on-chip layer concrete and also shows why it cannot be separated from topology or measurement. Two-CTA tensor-core tiles, independent TMA rings, scale copies into TMEM, overlapping accumulators, compiler-recognizable uniform control, write-once cache hints, and exact tail instructions all matter. A final gain comes from assigning reusable matrix rows to one of two requester-side L2 populations before choosing local tile order. The best route therefore depends on matrix shape, GPU-side census, compiler, power state, and benchmark protocol rather than one universally optimal traversal.
 
+The DwarfStar Ascend port supplies the opposite end of the maturity spectrum. Dense FP16 GEMM is available, but the model's routed experts use an unsupported low-bit format. Expanding weights on the CPU, transferring them to one 48 GB device, and streaming an approximately 81 GB model by layer leaves accelerator arithmetic downstream of the real bottleneck. Functional output alignment therefore marks only the start of optimization; representation support, residency, topology, and transfer frequency determine whether a backend is usable.
+
 ## Key Claims
 - Data movement, temporary materialization, collectives, launch latency, and imbalance can dominate nominal floating-point work.
 - Training, prefill, and decode require different kernel and scheduling priorities even for one model architecture.
 - Fusion pays when it removes compatible intermediate traffic without causing spills, excessive local-state use, synchronization, duplicated work, or variant explosion.
 - Communication overlap depends on fine-grained independent work and resource contention, not merely placing a whole-tensor collective on another stream.
-- Packing, paging, precision, recomputation, sharding or offload, and lifetime control address different parts of the memory problem.
+- Packing, paging, precision, native dequantization, residency, sharding or offload, and lifetime control address different parts of the memory problem.
 - Model changes that reduce tokens, cache state, experts, or denoising steps can compound across many layers or iterations.
 - End-to-end and correctness measurements decide whether a kernel, runtime, communication, or algorithmic change is a real improvement.
 
@@ -51,12 +54,17 @@ Blackwell dataflow and topology:
 - [[outperforming-cublas-nvfp4]] reports a measured ladder combining two-CTA K96 MMA, K256 operand stages, independently sized scale stages, TMEM accumulator overlap, compiler and store-path changes, exact tails, and L2-side ownership.
 - [[outperforming-cublas-nvfp4]] shows that local 8 by 8 order regresses without requester-side ownership, while the combined owned-side schedule improves the selected 8192-cubed result.
 
+Unsupported format and placement:
+- [[ds4-ascend]] reports CPU-side IQ2_XXS expansion to FP16 followed by Host-to-Device transfer and ordinary dense GEMM, making data movement rather than dequantization arithmetic the diagnosed bottleneck.
+- [[ds4-ascend]] uses only one of two independently enumerated 48 GB devices for an approximately 81 GB model, forcing layer-wise weight movement and motivating dual-die partitioning.
+- [[ds4-ascend]] reports CPU-path output alignment but only 0.1–0.3 token/s, separating semantic execution from performance portability.
+
 ## Counterevidence & Qualifications
-The framework is a broad practitioner synthesis, while the GB300 article is one self-authored kernel experiment; neither is an independently reproduced cross-platform comparison. Implementation choices remain shape-, hardware-, software-, topology-, precision-, power-, and quality-dependent. The NVFP4 result covers one GPU, CUDA 13.1, selected layouts and outputs, and admits losing shapes; its reverse-engineered L2 model and stepwise gains may not transfer. Linked speedups from different papers or ablations cannot be multiplied without an end-to-end test. Some high-leverage interventions change model semantics or call count, so they require training or quality validation and must be reported separately from math-equivalent kernel optimization. Fine-grained fusion and overlap also increase engineering, debugging, portability, and fallback costs that can outweigh gains for unstable or long-tail shapes.
+The framework is a broad practitioner synthesis, the GB300 article is one self-authored optimized-kernel experiment, and the Ascend article is one self-authored incomplete port; none is an independently reproduced cross-platform comparison. Implementation choices remain shape-, hardware-, software-, topology-, precision-, power-, and quality-dependent. The NVFP4 result covers one GPU, CUDA 13.1, selected layouts and outputs, and admits losing shapes; its reverse-engineered L2 model and stepwise gains may not transfer. The Ascend result omits exact model artifact, context, versions, profiler traces, and a framework baseline, so it diagnoses one implementation rather than the platform. Linked speedups from different papers or ablations cannot be multiplied without an end-to-end test. Some high-leverage interventions change model semantics or call count, so they require training or quality validation and must be reported separately from math-equivalent kernel optimization. Fine-grained fusion and overlap also increase engineering, debugging, portability, and fallback costs that can outweigh gains for unstable or long-tail shapes.
 
 ## What Changed
-- Added a concrete Blackwell NVFP4 case in which pipeline geometry, TMEM capacity, compiler uniformity, tail work, and L2 requester topology jointly determine performance.
-- Added benchmark-protocol and power-state sensitivity plus explicit evidence that one local tile order can regress before topology-aware ownership is added.
+- Added a failed-performance Ascend case showing that dense GEMM availability does not replace native low-bit representation support.
+- Added weight residency, Host-to-Device transfer, and independently enumerated accelerator dies as coupled optimization constraints.
 
 ## Related Concepts
 - [[GPUMemoryHierarchy]] - supplies the capacity and movement constraints behind tiling, fusion, paging, and reuse.
@@ -67,3 +75,4 @@ The framework is a broad practitioner synthesis, while the GB300 article is one 
 - [[KVCacheCompression]] - reduces a principal decode capacity and bandwidth cost through model and representation changes.
 - [[MultimodalDataPipelines]] - exposes media preprocessing, ragged packing, and token-budget effects outside core Transformer kernels.
 - [[DiffusionModelSampling]] - makes denoising-step count and cross-timestep reuse part of the performance problem.
+- [[AcceleratorBackendPorting]] - distinguishes a functionally correct backend from one with platform-native representation and placement.
