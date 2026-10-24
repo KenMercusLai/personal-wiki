@@ -1288,8 +1288,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thoughts on the July 8th Telstra outage report](sources/telestra-outage-report.md) - Lorin Hochstein reconstructs how lost NTP redundancy, symmetric peering, a restart-triggered GPS rollover, and poisoned operational state caused Telstra's July 2026 mobile outage.
 - [The attack chain behind the v1.107.0 LiteLLM release](sources/litellm-security-incident-attack-chain.md) - LiteLLM traces an unrevoked public key through owner-token exposure, CI credential theft, release-source substitution, compromised approval, signed malicious artifacts, and forensic cleanup.
 - [The Crystallization of Transformer Architectures (2017-2025)](sources/transformer-architectures.md) - Jun Yu Tan traces a 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, and KV sharing while preserving MoE, long-context, hardware, and sampling qualifications.
+- [Thinking will become a hobby](sources/thinking-will-become-a-hobby.md) - Diomidis Spinellis predicts that AI performance, cost, and availability will shift cognitive work toward machines and make purpose beyond employment a central adaptation problem.
 
 ## Entities
+- [Diomidis Spinellis](entities/DiomidisSpinellis.md) - Software-engineering author represented by a personal forecast about cognitive automation and a fulfilling life beyond economically necessary thought.
 - [Tom Zahavy](entities/TomZahavy.md) - AI researcher represented by a personal position on abductive scientific invention, world models, and the bounded limits of current LLM recipes.
 - [Celeste](entities/Celeste.md) - Precision platform game whose fast room-level restart supplies an analogy for low-cost failure and immediate software retry.
 - [Jun Yu Tan](entities/JunYuTan.md) - Technical author represented by a 2017–2025 survey of Transformer architecture convergence and remaining design frontiers.

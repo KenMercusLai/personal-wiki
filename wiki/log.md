@@ -10109,3 +10109,11 @@ Updated [[DeepSeekV41Flash]], [[CausalEncoderDecoderArchitecture]], [[Compressed
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | Thinking will become a hobby
+
+Created [[DiomidisSpinellis]] and updated [[WorkplaceAutomation]], [[TechnologicalInevitability]], and [[PurposeAndRecognition]] from their complete ordered evidence inventories. Recorded the essay's performance, cost, availability, compute-capacity, knowledge-worker resistance, thought-as-leisure, and life-beyond-work claims. Preserved its personal-forecast scope and missing task-level adoption, timing, cost, reliability, policy, complementarity, new-work, distribution, and institutional evidence. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
