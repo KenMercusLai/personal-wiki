@@ -10133,3 +10133,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | Vane Data + HawDB：构建可追溯的多视频比较工作流
+
+Created [[HawDB]] and [[TraceableMultiSourceComparison]] and updated [[VaneData]] from its complete ordered evidence inventory. Separated retrieval relevance, extraction validity, comparability, and claim relation; recorded processing-run provenance, transactionally consistent evidence reads, optional semantic retrieval, timestamped frame processing, structured multimodal extraction, citation recovery, and strict cache-reuse conditions. Preserved the proof-of-concept, pre-organized-demo, missing-accuracy/benchmark, frame-sampling, omitted-context, and provenance-does-not-prove-correctness boundaries. Opened and retained all five evidence-bearing local visuals at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

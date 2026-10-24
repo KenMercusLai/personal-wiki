@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "vane-data-hawdb-video-comparison",
+  "images": [
+    {
+      "file": "traceable-video-comparison-pipeline.png",
+      "alt": "Traceable comparison pipeline from timestamped video material through HawDB evidence storage and Vane Data extraction to human review of original media"
+    },
+    {
+      "file": "preorganized-video-guide.png",
+      "alt": "Preorganized four-video guide that searches curated passages and explicitly states that it is not performing complete real-time video analysis"
+    },
+    {
+      "file": "versioned-evidence-playback-flow.png",
+      "alt": "Comparison result branching through the selected source runs to original transcript or frame evidence and playback of each cited video"
+    },
+    {
+      "file": "topic-passage-selection.png",
+      "alt": "Topic view listing four authors, distinct performance and thermal-test contexts, timestamps, and watch-list controls"
+    },
+    {
+      "file": "source-context-playback.png",
+      "alt": "Source playback view pairing a Geekerwan video frame at 16:53 with the separate 17:08 transcript stating a 30-minute stress test"
+    }
+  ]
+}

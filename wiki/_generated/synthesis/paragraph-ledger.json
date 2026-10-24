@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b4d40a6c4d077341679657e4d47d33d0c96395f7b049f501f160b14040a2e053",
       "edeb2c0ef6ae17d5586fa9d79f498b70cc0a03080a28d11a1f79325f128ca3cb",
       "2140a47ee4792ff073182b2cc9c451898144e7ffaf60c1a5aee560a51f06c3cb",
       "3c61efc3075159ac06a235b9b2891610fbdbeede872684dfae4aa2355588e5b0",
@@ -885,11 +886,28 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 883
+    "paragraph_count": 884
   },
-  "overview_commit": "1490345dade7b212f66579257cb599caaed87611",
-  "overview_digest": "284be35b98858d777aa544d6d3bfdcee901cd1a62315d0c8d35229910ffc5a25",
+  "overview_commit": "d4a1a6ba845f6fc74b2b6ef178f510add952d64c",
+  "overview_digest": "b88b01e0f59dff5f6a9f14084084fe3890b6c44725858eb04f0d2a0fa4bdef3d",
   "paragraphs": [
+    {
+      "id": "b4d40a6c4d077341679657e4d47d33d0c96395f7b049f501f160b14040a2e053",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[VaneData]] source creates [[TraceableMultiSourceComparison]] by separating four judgments that retrieval-heavy applications often collapse: whether a passage is relevant, whether a model extracted it faithfully, whether two claims share a subject, metric, and test conditions, and only then whether they agree or conflict. The article's iPhone case makes the boundary concrete: one retrieved passage described Duo after roughly three minutes of 4K60 recording, while another reported Pro Max temperatures after a 30-minute stress test; automatic citation ranges omitted the device-identifying cue and test-duration context, so no contradiction was supportable. [[HawDB]] supplies graph provenance, processing `Run` versions, transactionally consistent evidence reads, and optional vector search; Vane Data supplies timestamped frame reads, Arrow interchange, and structured text/image model calls; the application remains responsible for sampling, chunking, ranking fusion, prompt construction, citation validation, comparison rules, caching, and playback. Historical replay therefore requires source versions and original transcript or frame locations to travel with the result, while incremental reuse additionally requires unchanged question, model configuration, protocol, runner, and completeness. This is a project-authored four-video proof of concept, not an accuracy, retrieval, database, cost, latency, or scaling evaluation; its demo summaries were pre-organized, five-second sampling can miss short-lived visuals, and preserved provenance does not prove the source or interpretation correct. All five local evidence-bearing images were opened and retained canonically at their semantic positions: two version/provenance flows and three UI views documenting the curated-search boundary, topic-specific contexts, and adjacent-source playback.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "HawDB",
+        "TraceableMultiSourceComparison",
+        "VaneData"
+      ]
+    },
     {
       "id": "edeb2c0ef6ae17d5586fa9d79f498b70cc0a03080a28d11a1f79325f128ca3cb",
       "primary_topic": "work-education-and-society",

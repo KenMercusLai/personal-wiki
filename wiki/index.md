@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Vane Data + HawDB：构建可追溯的多视频比较工作流](sources/vane-data-hawdb-video-comparison.md) - A multimodal comparison proof of concept separates retrieval, extraction, comparability, and relation judgment while preserving versioned transcript-and-frame evidence for replay.
 - [GitHub confirms breach of 3,800 repos via malicious VSCode extension](sources/github-3800-repos.md) - GitHub confirmed that a poisoned VS Code extension compromised an employee endpoint and enabled exfiltration of roughly 3,800 internal repositories, while TeamPCP attribution remained unconfirmed.
 - [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](sources/deepseek-v41-tech-report.md) - DeepSeek-AI documents a 552B multimodal MoE combining causal prefill early exit, cross-layer sparse-attention reuse, FP4 and lifecycle-aware KV compression, data-centered agentic post-training, and scalar reasoning effort.
 - [为什么大模型后训练集体转向 Agentic RL？一个算法老兵的复盘](sources/wei-shen-me-da-mo-xing-hou-xun-lian-ji-ti-zhuan-xiang-agentic-rl-yi-ge-suan-fa-lao-bing-de-fu-pan.md) - A practitioner review distinguishes environment-coupled trajectory learning from single-turn RLVR and maps its scaling case, infrastructure requirements, and failure modes.
@@ -1293,6 +1294,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为何写作](sources/wei-he-xie-zuo.md) - Laixintao argues that personally authored writing preserves changing beliefs and lived memory, exposes unclear thought, enables expression and connection, and cannot be replaced by generated prose for those purposes.
 
 ## Entities
+- [HawDB](entities/HawDB.md) - Embedded Rust multimodal database used to store graph provenance, versioned evidence, consistent source snapshots, and optional vector-search records.
 - [TeamPCP](entities/TeamPCP.md) - Self-identified cybercriminal group that advertised GitHub internal source code and roughly 4,000 private repositories without confirmed GitHub attribution.
 - [Visual Studio Code](entities/VisualStudioCode.md) - Extensible Microsoft code editor whose plugin trust boundary was implicated in the GitHub repository-exfiltration incident.
 - [Laixintao](entities/Laixintao.md) - Blogger and software engineer who frames writing as a time capsule, thinking exercise, expressive practice, and direct human connection.
@@ -3280,7 +3282,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Wiseman](entities/RichardWiseman.md) - Psychologist represented through a behavioral account of opportunity detection and trainable luck practices.
 
 - [Jev](entities/Jev.md) - External semantic-judgment service represented through typed questions, per-row validated responses, bounded concurrency, and a reviewed decision-support role.
-- [Vane Data](entities/VaneData.md) - Data-processing framework that composes heterogeneous tasks, actors, external judgments, and SQL into a deferred Relation plan while preserving row lineage and failures.
+- [Vane Data](entities/VaneData.md) - Data-processing framework joining deferred relations, Arrow batches, heterogeneous operators, and structured text/image model calls while preserving inspectable row and evidence boundaries.
 
 - [Serenity (Investor)](entities/SerenityInvestor.md) - Anonymous investor portrayed in one secondary essay as using supply-chain chokepoint research and dynamic rotation, with identity and performance unverified.
 - [Cities: Skylines](entities/CitiesSkylines.md) - City-building game series used to illustrate freeform road authoring, mod-enabled realism, and persistent tight-curve geometry failures.
@@ -3327,6 +3329,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Traceable Multi-Source Comparison](concepts/TraceableMultiSourceComparison.md) - Workflow that separates relevance, extraction validity, comparability, and claim relation while preserving versioned evidence for human replay.
 - [Developer Extension Supply-Chain Attack](concepts/DeveloperExtensionSupplyChainAttack.md) - Compromise of a developer plugin so trusted tooling becomes a path to workstations, source code, credentials, or build systems.
 - [Agentic Reinforcement Learning](concepts/AgenticReinforcementLearning.md) - Multi-turn post-training in which a model learns tool-using behavior from interaction with mutable environments and task-level feedback.
 - [Abductive Reasoning](concepts/AbductiveReasoning.md) - Hypothesis-forming inference that proposes explanatory premises not logically forced by incomplete observations.
