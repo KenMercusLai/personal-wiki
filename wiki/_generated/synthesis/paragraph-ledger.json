@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6f5d853c7714831ee970551af49f214b44ae12665d285444d08f46ee12cc49e3",
       "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
       "b4d40a6c4d077341679657e4d47d33d0c96395f7b049f501f160b14040a2e053",
       "edeb2c0ef6ae17d5586fa9d79f498b70cc0a03080a28d11a1f79325f128ca3cb",
@@ -887,11 +888,32 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 885
+    "paragraph_count": 886
   },
-  "overview_commit": "43b851a353d7c1b0476bf625ab1dcc22412be670",
-  "overview_digest": "0314c9a883fae93874b7acf75bfd223fcebcb32af17122b2ab6a6e0b290a75c2",
+  "overview_commit": "a63215f27119c70fe9ef589ad648fa31006d6da4",
+  "overview_digest": "e6b7df91a35e006637d5c52f59438b74ddc98e0365026ace7f68968471bcae71",
   "paragraphs": [
+    {
+      "id": "6f5d853c7714831ee970551af49f214b44ae12665d285444d08f46ee12cc49e3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[MaiYang]] article reframes spectacular pull-request counts as an operating-system claim rather than a productivity result. [[LaurenTan]]'s reported 2,500 production PRs in one month are attributed to nine demand-backed work lines plus agentic review and risk classification, while Jacob Gold reportedly compares each diff with its task prompts and escalates possible intent mismatches. [[VerificationDrivenAgentDelegation]] therefore gains exception routing: automated checks can merge routine work and reserve human judgment for uncertainty and consequence. [[BottleneckAwareAICoding]] and [[CodeReviewPractice]] gain two boundaries. First, real user bugs, features, and performance needs must supply useful work; verified make-work is still waste. Second, units and policies differ: Mai Yang reports 1,020 [[ContextEcho]] commits but only 18 PR merges in a solo, smaller-impact project, so these counts are not directly comparable. None of the social-post figures is repository-audited, and the source supplies no PR-size, defect, rollback, classifier-accuracy, review-cost, token-cost, or user-outcome data. It also reports severe attention fragmentation as the human cost of many parallel lines. The sole local lead graphic was opened and omitted because its 2,500-versus-18 text is fully repeated and better qualified in the prose.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BottleneckAwareAICoding",
+        "CodeReviewPractice",
+        "ContextEcho",
+        "LaurenTan",
+        "MaiYang",
+        "VerificationDrivenAgentDelegation"
+      ]
+    },
     {
       "id": "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
       "primary_topic": "psychology-and-personal-development",

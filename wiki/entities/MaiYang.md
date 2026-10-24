@@ -11,7 +11,8 @@ sources:
   - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
   - ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq
   - ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia
-last_updated: 2026-10-13
+  - hundreds-of-prs-a-day-nine-work-lines
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -31,16 +32,18 @@ The Howie Xu masterclass notes apply the same method to comprehension and career
 
 The writing-style retrospective turns that same inspect-and-correct habit onto her own archive. Mai Yang rejects summary-only corpora, separates the posts that provide structure from those that provide candid tone, and packages the result as a Skill with skeletons, a blacklist, and verbatim samples. She treats manual editing diffs as the missing improvement loop and makes non-invention the higher-order rule for work documents: unknown numbers, owners, commitments, risk levels, and quotations remain visibly unresolved.
 
+The newest article applies this decomposition to her whole workload. Mai Yang maps eleven lines across [[ContextEcho]], two websites, research briefs, social writing, video, podcasts, daily cards, meetups, Skills, and running analysis, then compares that distributed portfolio with Tan's nine product-centered engineering lines. She keeps direction, standards, publication, and hands-on experience as human decisions, delegates code review and production tasks to agents, and identifies severe attention fragmentation as a cost. Her own 1,020-commit but 18-PR ContextEcho history reinforces her recurring method: choose process and verification according to impact rather than optimizing a public activity count.
+
 The learning and Muse articles are explicitly syntheses of other materials rather than original measurement, while the Grok Bot article is a retrospective rather than a comparison. Mai Yang's recurring contribution is engineering-style compression: isolate the operative state, provide a small next action, and then distinguish the immediate procedure from the broader claim it can actually support.
 
 ## Key Characteristics
 - Presents AI adoption as a matter of action and self-honest desire, using founder examples to make the argument concrete.
 - Turns opinions, active learning, and repeated tool use into public material rather than separating content creation from daily practice.
 - Translates external interviews, articles, and masterclasses into practical learning frameworks tested through written reconstruction.
-- Frames LLMs as accelerators for interrogation, counterargument, review, and knowledge connection.
-- Compresses a technical recovery problem into a minimal inspect-and-restore command sequence.
+- Frames LLMs as accelerators for interrogation, counterargument, review, and knowledge connection, while also compressing technical problems into usable procedures.
 - Uses accepted deliverables and manual revision diffs to turn broad agent or writing ambitions into bounded Skills, routines, and evidence rules.
 - Combines troubleshooting with a second-pass analysis of growth incentives, evidence quality, trust, and operating economics.
+- Decomposes broad personal work into agent-supported lines while retaining direction, acceptance standards, publication, and experiential judgment.
 
 ## Evidence
 - Action framing: [[blog-maiyang-naval-insights-taking-action-with-ai]] opens from a Cursor Meetup Xiamen closing summary and repeatedly says people should act toward AI.
@@ -60,16 +63,17 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Verbatim style corpus: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] rejects four summary-only samples because they omit formatting, brevity, punctuation, and other voice evidence.
 - Style Skill design: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] selects two of twelve posts for structure, draws tone from other posts, and places event-led skeletons before a forty-seven-item blacklist.
 - Work-document integrity: [[ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia]] requires explicit placeholders rather than invented data, ownership, commitments, risk levels, or rewritten quotations.
+- Portfolio decomposition: [[hundreds-of-prs-a-day-nine-work-lines]] maps eleven product, content, community, Skill, and running-analysis lines across Cursor and Grok Bot.
+- Review and judgment boundary: [[hundreds-of-prs-a-day-nine-work-lines]] reports delegating most code inspection while retaining direction, standards, result judgment, publication, and direct experience testing.
+- Metric qualification: [[hundreds-of-prs-a-day-nine-work-lines]] contrasts 1,020 [[ContextEcho]] commits with 18 PR merges and argues that genuine demand, impact, and review needs matter more than count.
 
 ## Qualifications
-The sources give limited biographical information beyond author attribution, self-described roles, a management-transition remark, and meetup, blog, community, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. The Howie Xu article is an attendee reconstruction that mixes course content, Q&A, personal interpretation, and post-event research; it explicitly leaves two details unresolved. The style experiment is also a first-person, first-pass report: four articles lacked verbatim text, exemplar selection was subjective, the files are not provided in the source, and no edit-feedback cycle or blind comparison has yet tested the claimed fit. This remains a source-scoped author profile, not a general biography.
+The sources give limited biographical information beyond author attribution, self-described roles, a management-transition remark, and meetup, blog, community, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. The Howie Xu article is an attendee reconstruction that mixes course content, Q&A, personal interpretation, and post-event research; it explicitly leaves two details unresolved. The style experiment is also a first-person, first-pass report without blind comparison. The newest workflow article reports repository and social-post counts without audits, comparable units, quality outcomes, attention measures, or business results, and openly reports concentration loss. This remains a source-scoped author profile, not a general biography.
 
 ## What Changed
-- Added practice-led publishing while separating screenshot-verified reach from an unverified explanation of Twitter/X ranking.
-- Added deliverable-first agent operations and staged authority as a new expression of her bounded-action method.
-- Added written reconstruction and explicit uncertainty as parts of her learning method.
-- Added self-reported community, engineering-effectiveness, AI-coding, and context-engineering context for her career analysis.
-- Added a writing-style method based on verbatim, dimension-specific samples, structural skeletons, accepted-edit diffs, and non-invention rules.
+- Added eleven agent-supported work lines as a portfolio-level extension of her deliverable-first method.
+- Added her ContextEcho commit-versus-PR comparison and risk/impact-based review boundary.
+- Added attention fragmentation as an explicit cost of parallel agent orchestration.
 
 ## Relationships
 - [[ActionBiasInAI]] - MaiYang's article is the source for this concept.
@@ -91,3 +95,6 @@ The sources give limited biographical information beyond author attribution, sel
 - [[ActiveLearning]] - pause-and-write reconstruction exposes gaps hidden by fluent listening.
 - [[AIEraCareerImpact]] - her newest source applies the EQ, TQ, and IQ framework to trust, business outcomes, and agent orchestration.
 - [[WritingStyleDistillation]] - her archive experiment derives a maintained writing Skill from selected original work and revision evidence.
+- [[ContextEcho]] - solo software project used to contrast commits, PR policy, impact, and review needs.
+- [[LaurenTan]] - practitioner whose nine work lines and risk-tiered review Mai Yang compares with her own workflow.
+- [[BottleneckAwareAICoding]] - explains her distinction between raw change volume, genuine demand, review cost, and useful output.

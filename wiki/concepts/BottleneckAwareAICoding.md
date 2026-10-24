@@ -10,7 +10,8 @@ sources:
   - task-failed-successfully-saturating-nic-and-disk-bandwidth
   - thoughts-on-slowing-the-fuck-down
   - the-eternal-sloptember
-last_updated: 2026-10-15
+  - hundreds-of-prs-a-day-nine-work-lines
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -34,8 +35,10 @@ Zechner adds a delayed-quality version of the bottleneck problem. Human implemen
 
 Hotz adds a last-mile and organizational-distribution version. His reported agent sessions front-load prototype progress and then stall in probabilistic polishing, so the visible coding bottleneck reappears as repeated correction by a capable human. At organizational scale, he predicts that output incentives and slow feedback will amplify the people least able to identify subtle failures, worsening average quality even while feature and code counts rise.
 
+Mai Yang's comparison adds demand allocation and measurement granularity. Tan's reported PR volume emerges from nine simultaneous work lines around a fast-growing product, while Mai Yang's solo [[ContextEcho]] project records 1,020 commits but only 18 pull-request merges because its collaboration and impact surface are smaller. The relevant throughput question is therefore not how to maximize a universal unit, but whether real demand enters bounded work lines and whether verification, review, integration, human attention, and user outcomes keep pace.
+
 ## Key Claims
-- AI coding speed, commit frequency, and agent-completion rate are not the same as delivery throughput or product value.
+- AI coding speed, PR or commit frequency, and agent-completion rate are not the same as demand-satisfying delivery or product value.
 - Local acceleration can reduce system output when it increases queues at review, testing, or rework stages.
 - PR size, reviewer bandwidth, review latency, and WIP are central controls for AI-heavy teams.
 - Specs and skills matter because they move AI work toward upstream bottlenecks such as requirements understanding and compatibility analysis.
@@ -64,16 +67,17 @@ Hotz adds a last-mile and organizational-distribution version. His reported agen
 - Search constraint: [[thoughts-on-slowing-the-fuck-down]] identifies incomplete discovery of affected and reusable code as a bottleneck that worsens as codebase size and complexity increase.
 - Last-mile correction: [[the-eternal-sloptember]] reports fast initial progress followed by repeated failure to reach acceptable polish on Tinygrad and firmware-reversing work.
 - Organizational quality queue: [[the-eternal-sloptember]] predicts that slow feedback, weak alignment, and generated-output incentives can turn hidden defects and maintenance into the delayed constraint.
+- Demand-backed work lines: [[hundreds-of-prs-a-day-nine-work-lines]] attributes Tan's reported volume to concurrent performance, bug, refactoring, Skill, feature, UI, harness, tooling, and personal-project lines around an actively used product.
+- Metric granularity: [[hundreds-of-prs-a-day-nine-work-lines]] contrasts 2,500 reported monthly production PRs with 1,020 commits but 18 PR merges on solo [[ContextEcho]], showing that workflow policy and unit definition prevent direct count comparison.
+- Human bandwidth cost: [[hundreds-of-prs-a-day-nine-work-lines]] reports reduced concentration and severe fragmentation as the author's cost of many simultaneous agent-supported activities.
 
 ## Counterevidence & Qualifications
-The sources combine industry reports, practitioner interpretation, analogy, and one first-party systems case rather than proving a universal throughput law for every team. The bottleneck can vary by organization, individual health, task shape, project phase, and technical architecture, and full SDLC discipline may be unnecessary for greenfield prototypes, exploratory spikes, personal tools, or very small changes. Hu's case shows that aggressive automation can genuinely move a local constraint, but it also demonstrates a measurement hazard: bypassed review and deferred maintenance can look like throughput unless quality and downstream work are counted. Tison's claimed capability threshold and four-project ceiling are personal, domain- and model-version-dependent observations, not controlled productivity results. Nolla gives no defect, delivery, workforce, or progression data for the claim that implementation approaches zero marginal cost or that senior supply will contract, and the source is explicitly AI-generated from a conversation and style examples. The I/O case shows one agent explanation failing despite an effective intervention, but does not measure how often this happens. Zechner's claims about software degradation, error compounding, and falling search recall are anecdotal and lack longitudinal codebase, defect, or retrieval measurements. Hotz likewise provides no timed baseline, task sample, defect rate, company comparison, or maintenance study, so his last-mile and organizational claims are counterevidence to optimistic accounts rather than a measured general law. Parallel agent work assumes task independence, available verification, adequate search, and enough human energy and judgment to arbitrate design, mechanism, and risk.
+The sources combine industry reports, practitioner interpretation, analogy, social-post figures, and one first-party systems case rather than proving a universal throughput law for every team. The bottleneck can vary by organization, individual health, task shape, project phase, demand, and technical architecture, and full SDLC discipline may be unnecessary for greenfield prototypes, exploratory spikes, personal tools, or very small changes. Hu's case shows that aggressive automation can genuinely move a local constraint, but it also demonstrates a measurement hazard: bypassed review and deferred maintenance can look like throughput unless quality and downstream work are counted. Tison's claimed capability threshold and four-project ceiling are personal, domain- and model-version-dependent observations, not controlled productivity results. Nolla gives no defect, delivery, workforce, or progression data for the claim that implementation approaches zero marginal cost or that senior supply will contract, and the source is explicitly AI-generated from a conversation and style examples. The I/O case shows one agent explanation failing despite an effective intervention, but does not measure how often this happens. Zechner's claims about software degradation, error compounding, and falling search recall are anecdotal and lack longitudinal codebase, defect, or retrieval measurements. Hotz likewise provides no timed baseline, task sample, defect rate, company comparison, or maintenance study. The newest article supplies no comparable unit definition or audited link from PR counts to user outcomes. Parallel agent work assumes genuine demand, task independence, available verification, adequate search, and enough human energy and judgment to arbitrate design, mechanism, and risk.
 
 ## What Changed
-- Added human review capacity as a protective constraint that slows error accumulation and exposes maintenance pain.
-- Reclassified deferred complexity, brittle tests, and recovery work as hidden downstream queues rather than eliminated bottlenecks.
-- Added code-search recall as a throughput constraint that can worsen as agent-generated complexity expands the search space.
-- Preserved aggressive parallelism as a conditional strategy when discovery, integration, validation, and human judgment remain adequate.
-- Added last-mile polishing and organization-wide quality distribution as possible hidden constraints behind rising generated output.
+- Added real product demand as an upstream condition for interpreting generated and merged volume.
+- Added unit definition and merge policy as reasons commit and PR counts cannot be compared directly.
+- Added attention fragmentation as a human constraint on broad parallel work.
 
 ## Related Concepts
 - [[AICodingPractice]] - bottleneck-aware flow is an operating discipline for AI coding work.

@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-24
-as_of_overview_commit: 43b851a353d7c1b0476bf625ab1dcc22412be670
-summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries and tradeoffs explicit."
-episode_count: 1265
-source_count: 1265
-paragraph_count: 885
+last_updated: 2026-10-25
+as_of_overview_commit: a63215f27119c70fe9ef589ad648fa31006d6da4
+summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with demand, boundaries, and tradeoffs explicit."
+episode_count: 1266
+source_count: 1266
+paragraph_count: 886
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on co-design across architecture, data, provenance, retrieval, verification, permissions, recovery, consistency, and operating environments.
+AI and software outcomes depend on architecture, data, provenance, verification, permissions, recovery, and operating environments; generated volume needs real demand and accountable escalation.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -82,7 +82,7 @@ Health and science evidence is heterogeneous and mechanism-sensitive, requiring 
 
 ### Work, Education, and Society
 
-Learning and work improve through active practice, observable reasoning, reflection, feedback, role clarity, sustainable boundaries, and fair incentives.
+Learning and work improve through active practice, observable reasoning, feedback, role clarity, sustainable attention, fair incentives, and demand-linked outcomes rather than activity volume.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

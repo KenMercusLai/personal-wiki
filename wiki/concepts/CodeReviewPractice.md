@@ -11,12 +11,13 @@ sources:
   - dont-waste-time-writing-perfect-code-dzone-devops
   - rouan-wilsenach-ship-show-ask
   - control-the-ideas-not-the-code
-last_updated: 2026-10-11
+  - hundreds-of-prs-a-day-nine-work-lines
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[CodeReviewPractice]] is the human workflow of inspecting, discussing, and approving code changes so teams improve shared understanding, change quality, and delivery flow.
+[[CodeReviewPractice]] is the human and automated workflow of inspecting, discussing, classifying, and approving code changes so teams improve shared understanding, change quality, risk control, and delivery flow.
 
 ## Current Synthesis
 The sources frame code review as a team coordination, explanation, and learning practice rather than a single-purpose bug hunt. Reviewers and authors should agree on the goal because review optimized for style enforcement, defect discovery, shared understanding, or risk control will produce different comments and gates. Cyle adds a long-term audience: a pull request should preserve enough motivation and context for someone investigating the code months or years later.
@@ -35,14 +36,16 @@ Ship / Show / Ask separates feedback from merge permission. A self-merged Show p
 
 Antirez adds the strongest challenge to code inspection as the default control mechanism. When agents can generate thousands of lines per day, exhaustive reading competes with architecture, QA, optimization, and product work. His proposed alternative is to control the system's ideas through explicit design descriptions and behavioral evidence, while retaining source review where risk, public stewardship, or human contributors make code readability and direct modification consequential. This does not erase review's communication and learning roles, but it separates those roles from the claim that every generated line must be read to establish quality.
 
+The newest source supplies a high-volume implementation of risk-dependent review. Tan reportedly gives every pull request agentic review and a risk assessment, allows low- and medium-risk work to merge without human inspection, and escalates the remainder; Jacob Gold reportedly adds a prompt-to-diff intent check that sends possible mismatches to a human decision interface. This is consistent with Ship / Show / Ask's selective gate, but moves the first classification step into automation. It remains an unvalidated account: neither classifier accuracy nor escaped-defect outcomes are reported.
+
 ## Key Claims
 - Teams should choose review goals, depth, timing, and approval strictness according to the change's purpose, human readership, uncertainty, reversibility, and risk; exhaustive generated-code inspection is one option rather than a universal default.
 - Reviews should preserve motivation and decision context while spreading codebase knowledge to current and future engineers.
 - Execution, tests, development tooling, and automated style checks should support human judgment rather than leaving every check to diff reading.
 - Small changes, prompt first passes, explicit next steps, revision follow-up, and bounded review-stage work reduce blocking and queue growth.
 - Reviewers should separate correctness, security, defensive behavior, material performance, and readability concerns from personal preference or aesthetic perfection.
-- Feedback should adapt to the author's experience while remaining respectful and useful to the wider team.
-- Critical infrastructure may justify multiple accepts, slower review, and discarded candidate code that would be excessive for routine low-risk changes.
+- Feedback should adapt to the author's experience while remaining respectful and useful to the wider team; critical infrastructure may still justify multiple accepts, slower review, and discarded candidate code.
+- At machine output rates, automated review and risk classification may route routine changes, but uncertain intent and high-consequence work still need explicit human ownership.
 
 ## Evidence
 - Purpose and audience: [[7-best-practices-for-doing-code-reviews]] distinguishes review goals; [[cyle-how-i-review-code]] requires enough motivation and context for future engineers to understand an old change.
@@ -56,14 +59,16 @@ Antirez adds the strongest challenge to code inspection as the default control m
 - Feedback versus permission: [[rouan-wilsenach-ship-show-ask]] makes Show review non-blocking, reserves Ask for decision-shaping feedback, and recommends discussing direction before implementation commits the team to one solution.
 - Generated-code boundary: [[control-the-ideas-not-the-code]] argues that reading every generated line can consume time better spent on design, QA, optimization, and product direction.
 - Alternative control surface: [[control-the-ideas-not-the-code]] proposes explicit `DESIGN.md`-style system descriptions and behavioral verification while retaining Redis code review for a mature project used and modified directly by people.
+- Automated risk routing: [[hundreds-of-prs-a-day-nine-work-lines]] reports agentic review and risk assessment for every Tan pull request, direct merging for low- and medium-risk changes, and human review for the rest.
+- Intent escalation: [[hundreds-of-prs-a-day-nine-work-lines]] says Jacob Gold compares each change with all task prompts and escalates any possible mismatch, while still retaining some human code review.
 
 ## Counterevidence & Qualifications
-The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Antirez provides no controlled human-versus-model review comparison, escaped-defect counts, maintenance outcomes, or threshold for when design and QA can safely replace inspection; his approach may depend on expertise that newer engineers lack. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, and reduced line review fit low-risk, traceable, strongly verified work better than unresolved safety, security, accessibility, migration, regulated approval, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
+The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Antirez provides no controlled human-versus-model review comparison, escaped-defect counts, maintenance outcomes, or threshold for when design and QA can safely replace inspection; his approach may depend on expertise that newer engineers lack. The newest source likewise supplies no risk-classifier design, calibration, false-negative rate, escaped-defect count, rollback rate, or evidence that prompt consistency captures the user's real intent. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, and reduced line review fit low-risk, traceable, strongly verified work better than unresolved safety, security, accessibility, migration, regulated approval, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
 
 ## What Changed
-- Made exhaustive inspection of generated code a risk-dependent choice rather than the assumed default.
-- Added explicit design documentation, QA, and behavioral verification as alternative control surfaces when generated volume exceeds human review capacity.
-- Preserved review's distinct communication, learning, stewardship, and critical-infrastructure roles even when defect finding moves elsewhere.
+- Added agentic review and risk classification as a reported first-pass routing layer at high PR volume.
+- Added prompt-to-diff comparison as an intent check while preserving human escalation for ambiguity.
+- Explicitly separated reported workflow scale from unmeasured classifier quality and escaped-defect outcomes.
 
 ## Related Concepts
 - [[PRReviewHygiene]] - review hygiene shapes code changes and feedback so human review remains usable.
@@ -75,3 +80,4 @@ The sources are mostly practitioner reflections rather than universal empirical 
 - [[BottleneckAwareAICoding]] - treats review as the likely downstream constraint after AI accelerates coding.
 - [[ShipShowAsk]] - separates advisory feedback from required pre-merge review on a per-change basis.
 - [[AICodingPractice]] - changes code volume and shifts the balance among source inspection, design control, and behavioral verification.
+- [[VerificationDrivenAgentDelegation]] - expands autonomy only when review evidence and escalation rules make routine work trustworthy.

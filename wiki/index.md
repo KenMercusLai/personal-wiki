@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [一天几百个 PR 有什么意义？我照着 SpaceXAI 工程师 Lauren（@poteto）的九类清单，把自己的活拆了一遍](sources/hundreds-of-prs-a-day-nine-work-lines.md) - Mai Yang argues that high PR volume becomes meaningful only when real demand feeds parallel work lines and risk-tiered verification keeps review and human judgment aligned with impact.
 - [非 CS 出身的 Lauren Tan，是怎么一步步放手给 agent 的](sources/lauren-tan-handing-work-to-agents.md) - Mai Yang profiles Lauren Tan's self-taught career and argues that agent autonomy should scale only after architecture, checks, and executable verification make output trustworthy.
 - [ZGent 设计之旅 #3 AI 时代的操作系统](sources/zgent-design-journey-3.md) - ZGent proposes a cloud-hosted multi-user agent operating system for shared identity, model access, apps, storage, and scoped authorization.
 - [Twelve years of distributed SQLite](sources/twelve-years-distributed-sqlite.md) - Philip O'Toole traces distributed SQLite from rqlite's Raft-replicated server through embedded, WAL-streaming, CRDT, forked-engine, and managed-platform designs.
@@ -1299,6 +1300,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [ContextEcho](entities/ContextEcho.md) - Mai Yang's solo agent-assisted software project and a boundary case for interpreting commit and pull-request volume.
 - [ZGent](entities/ZGent.md) - Cloud-hosted multi-user platform for agent applications, shared model access, storage, and permissions.
 - [王子博](entities/WangZibo.md) - Author presenting ZGent's operating-system architecture and usage scenarios.
 - [rqlite](entities/Rqlite.md) - Open-source SQLite server using a leader and majority-acknowledged Raft log for self-operated fault tolerance.
