@@ -8,7 +8,8 @@ sources:
   - mu-jiang-chui-zi-ding-zi
   - effective-context-engineering-for-ai-agents-anthropic
   - rl-is-an-evolutionary-algorithm
-last_updated: 2026-10-09
+  - deepchat-tape
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,17 +23,19 @@ A concrete provider-specific answer to that tension is microcompact: large, fast
 
 [[TapeAndAnchors]] offers a more radical qualification. Compression, summaries, forks, merges, and handoffs all help finite contexts cope with long interaction histories, but they still often assume that history must be continuously inherited. The model reduces the compression burden by preserving raw history externally and carrying forward only minimal anchors.
 
+DeepChat turns that qualification into a compaction rule. Summary generation and anchor movement are independent: if summarization fails without user cancellation, or if a completed summary does not make the replacement view smaller, the system can write a boundary-only anchor and rebuild context from the later point. Compaction succeeds only when the next assembled view is actually smaller. This fallback is tolerable because earlier facts remain searchable on Tape, although losing a useful summary can still reduce continuity and increase retrieval burden.
+
 Anthropic's account places compaction inside a broader long-horizon toolkit. A near-full conversation can be summarized into a fresh window, preserving decisions, unresolved problems, and implementation details while discarding redundant messages and old raw tool results. The tuning priority should begin with recall, because subtle information may become important only later; precision can then improve by removing clearly superfluous material. Structured notes or subagents may be better when state should remain external or exploration can be isolated.
 
 The newest essay adds a different goal for repeated compaction: successive summaries could act as a mutable lesson store, with later environment feedback causing harmful rules to be overwritten and useful rules to persist. This would amount to agent-driven continual learning only if the model correctly attributes outcomes to earlier lessons and updates them without erasing important evidence. The cited MazeBench story does not isolate that mechanism, so the proposal remains a design hypothesis rather than evidence that compaction itself learns reliably.
 
 ## Key Claims
-- End-of-window summarization can restore capacity but can discard latent-important detail unless its prompt is tuned for high recall before precision and later corrections preserve provenance.
+- End-of-window summarization can restore capacity but can fail at the moment it is most needed or discard latent-important detail unless its prompt is tuned for high recall before precision and later corrections preserve provenance.
 - Dynamic compression should proactively remove wrong, low-relevance, or distracting context.
 - External hierarchical storage plus retrieval can preserve details without keeping everything in the active prompt, resembling operating-system virtual memory.
 - Domain-specific compression can work when a strong prior identifies disposable information.
 - Dynamic compression can invalidate prompt caches unless stable prefixes are separated from dynamic suffixes, or provider-supported cache edits can logically delete selected cached blocks without rewriting the local transcript.
-- Some context problems can be avoided by reconstructing from preserved history and anchors rather than compressing inherited state.
+- Some context problems can be avoided by reconstructing from preserved history and anchors; moving the read boundary need not depend on successfully generating a replacement summary.
 - Repeated summaries could refine operational lessons through feedback, but only when the agent can attribute outcomes and revise rules reliably.
 
 ## Evidence
@@ -49,20 +52,25 @@ The newest essay adds a different goal for repeated compaction: successive summa
 - Alternatives by task shape: [[effective-context-engineering-for-ai-agents-anthropic]] places compaction beside structured notes and subagents rather than treating it as the only continuity mechanism.
 - Lesson evolution: [[rl-is-an-evolutionary-algorithm]] proposes retaining helpful summary rules and replacing harmful ones after later environment feedback.
 - Anecdotal boundary: [[rl-is-an-evolutionary-algorithm]] attributes a later MazeBench success to learning across compactions but supplies no trace analysis or causal comparison.
+- Summary-failure fallback: [[deepchat-tape]] reports DeepChat's `boundary_only` result, which advances an anchor without a new summary when the operation was not user-cancelled and a safe boundary exists.
+- Outcome-based acceptance: [[deepchat-tape]] says both failed and successful summaries are judged by whether the rebuilt next view is actually smaller than the original.
+- Recoverability premise: [[deepchat-tape]] says earlier facts remain available through Tape search and context tools after the default read boundary moves.
 
 ## Counterevidence & Qualifications
 The sources propose architectural directions but do not benchmark dynamic compression against passive summarization. Claude Code's cache-edit behavior is provider-specific and partly inferred, and the sources do not resolve how a supervising model distinguishes false, low-value, and latent-but-important details in high-stakes domains.
 
 This model shifts rather than solves several hard problems: retrieval quality, anchor design, provenance, and privacy still determine whether reconstructed context is adequate.
 
+Boundary-only fallback preserves liveness and raw evidence, not semantic continuity. The sources provide no benchmark for how often later retrieval recovers omitted decisions, how summary-free continuation affects task success, or how a safe boundary is chosen. A smaller next view is a capacity test, not proof that the retained context is sufficient or correct.
+
 Anthropic does not supply a fidelity benchmark, trigger policy, or comparative threshold for choosing compaction over notes or subagents. Its Claude Code description is a product example, not evidence that the same retention recipe fits every domain, especially when later relevance is hard to predict.
 
 The continual-learning proposal assumes that a model can notice mistakes, identify which stored lesson caused them, and revise the summary in the correct direction. The MazeBench recollection does not rule out exploration, retained context, luck, hidden harness state, or other causes, and no before-and-after summaries are provided.
 
 ## What Changed
-- Added repeated summary revision as a proposed continual-learning mechanism driven by later environment feedback.
-- Qualified that proposal with attribution, provenance, and causal-evidence requirements.
-- Preserved reconstruction, structured notes, and subagents as alternatives when inherited summary state is unsafe or insufficient.
+- Added boundary-only compaction as a liveness fallback when summarization fails or does not reduce context.
+- Added actual next-view size as the compaction acceptance criterion.
+- Distinguished preserved evidence and reclaimed capacity from guaranteed semantic continuity.
 
 ## Related Concepts
 - [[LLMContextManagement]] - dynamic compression is one method for protecting context quality.

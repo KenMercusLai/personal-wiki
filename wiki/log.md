@@ -10157,3 +10157,11 @@ Created [[PhilipOToole]], [[Rqlite]], and [[DistributedSQLite]] and updated [[SQ
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | 给一艘正在航行的船装上打孔纸带
+
+Updated [[DeepChat]], [[PsiACE]], [[TapeAndAnchors]], [[EffectLog]], and [[DynamicContextCompression]] from their complete ordered evidence inventories. Recorded the separation of mutable UI state, append-only facts, and per-request views; incremental dual-store migration; ViewManifest provenance; boundary-only compaction; write-ahead dispatch and outcome journaling; explicit `indeterminate` recovery; and Tape Inspector observability. Preserved the first-party, dual-representation, no-exactly-once, missing-benchmark, and context-sufficiency boundaries. Opened both referenced local images, omitted the decorative cover, and retained the evidence-bearing Tape Inspector screenshot at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

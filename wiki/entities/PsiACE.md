@@ -7,7 +7,8 @@ sources:
   - tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
   - tapexbee
-last_updated: 2026-10-22
+  - deepchat-tape
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,14 +16,14 @@ knowledge_schema: synthesis-v1
 [[PsiACE]] is an author and agent-system practitioner, also writing as 泉达, represented through work across databases, RAG, agents, sandboxes, protocols, open source, and context architecture.
 
 ## Current Profile
-Within this wiki, PsiACE adds a practitioner view of agent design that sits between coding-agent implementation, infrastructure reuse, and product framing. The earlier source says he worked on databases, RAG, agents, protocols, sandboxes, and open source, and uses [[Bub]] to compare coding and group-chat agents. The Tape article develops entries, anchors, views, and handoff into [[AgentTopicLifecycle]] for enterprise knowledge-base support. The Bee article then specializes Topic for Job and Cron work, joining human-maintained Skills, BDD criteria, DAG checkpoints, human review, and Kubernetes or Argo execution in [[AgentTaskOrchestration]]. Frost Ming's account independently adds PsiACE as the original Bub builder and collaborator in an experiment that moved Telegram behavior from framework code into agent-managed Skills and startup artifacts.
+Within this wiki, PsiACE adds a practitioner view of agent design that sits between coding-agent implementation, infrastructure reuse, and product framing. The earlier source says he worked on databases, RAG, agents, protocols, sandboxes, and open source, and uses [[Bub]] to compare coding and group-chat agents. His Tape work separates immutable history from reconstructed views, then develops entries, anchors, views, and handoff into [[AgentTopicLifecycle]] for enterprise knowledge-base support. The Bee article specializes Topic for Job and Cron work, joining human-maintained Skills, BDD criteria, DAG checkpoints, human review, and Kubernetes or Argo execution in [[AgentTaskOrchestration]]. A DeepChat implementation account credits this design as the basis for a production migration that added view manifests, compaction fallback, execution evidence, and inspection. Frost Ming's account independently adds PsiACE as the original Bub builder and collaborator in an experiment that moved Telegram behavior from framework code into agent-managed Skills and startup artifacts.
 
 ## Key Characteristics
 - Works across databases, RAG, agents, protocols, sandboxes, and open source.
 - Uses [[Bub]] as the source's main project example.
 - Treats coding agents as model plus tools plus loop.
 - Critiques naive RAG for live codebase use and favors agent-loop retrieval where appropriate.
-- Reframes long-running context as append-only history plus minimal anchors instead of mandatory continuity.
+- Reframes long-running context as append-only facts plus reconstructed views and minimal anchors instead of mandatory continuity.
 - Extends Tape first with business-level topic boundaries, then with Bee orchestration for bounded Job and Cron work.
 - Collaborated on using Bub as a minimal, self-bootstrapping Telegram-agent runtime.
 
@@ -36,14 +37,16 @@ Within this wiki, PsiACE adds a practitioner view of agent design that sits betw
 - Topic extension: [[tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi]] proposes topic boundary anchors, lifecycle hooks, recall, recovery, and token accounting for a codebase-support agent.
 - Task orchestration: [[tapexbee]] describes Bee templates, DAG state, review gates, DAG anchors, and reuse of Kubernetes or Argo for execution.
 - Collaboration: [[chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog]] credits PsiACE's Bub as the substrate for Frost Ming's OpenClaw reproduction and AI-native architecture experiment.
+- Product influence: [[deepchat-tape]] credits PsiACE's punch-tape model and later Tape framework as the basis for DeepChat's append-only history, reconstructed model views, and searchable anchors.
+- Design stance: [[deepchat-tape]] attributes to PsiACE the principle that reliable interaction matters more than increasingly clever memory and traces the idea through Bub and later Tape essays.
 
 ## Qualifications
-The page is based on four reflective practitioner articles rather than a full profile of PsiACE's public work. It preserves the sources' self-description and proposals without independently verifying project metrics, employment history, implementation maturity, the reliability of lifecycle hooks and DAG recovery, or Bub's self-bootstrapping behavior. The Bee article's OpenClaw and Hermes comparison is explicitly AI-summarized rather than based on the author's code review.
+The page is based on reflective practitioner articles and one adopter's first-party implementation narrative rather than a full profile of PsiACE's public work. It preserves the sources' self-description, proposals, and attribution without independently verifying project metrics, employment history, implementation maturity, the reliability of lifecycle hooks and DAG recovery, or Bub's self-bootstrapping behavior. DeepChat demonstrates concrete adoption but does not isolate Tape's effects through comparative evaluation. The Bee article's OpenClaw and Hermes comparison is explicitly AI-summarized rather than based on the author's code review.
 
 ## What Changed
-- Extended PsiACE's Tape/Topic profile with Bee's DAG-shaped Job and Cron orchestration.
-- Added the author's preference for reusing Kubernetes and Argo execution infrastructure.
-- Added the first-party, unbenchmarked, and AI-summarized-comparison qualifications.
+- Added DeepChat's concrete adoption of PsiACE's immutable-history and reconstructed-view model.
+- Distinguished the original design language from DeepChat's later compaction, execution-journal, and inspection mechanisms.
+- Preserved the first-party, unbenchmarked implementation boundary.
 
 ## Relationships
 - [[Bub]] - PsiACE uses Bub as the article's central project and design example.

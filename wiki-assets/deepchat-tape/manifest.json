@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "deepchat-tape",
+  "images": [
+    {
+      "file": "tape-inspector-timeline.jpg",
+      "alt": "DeepChat Tape Inspector showing session, model, tool, view, terminal, and memory events on one searchable timeline"
+    }
+  ]
+}

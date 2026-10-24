@@ -1294,6 +1294,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Crystallization of Transformer Architectures (2017-2025)](sources/transformer-architectures.md) - Jun Yu Tan traces a 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, and KV sharing while preserving MoE, long-context, hardware, and sampling qualifications.
 - [Thinking will become a hobby](sources/thinking-will-become-a-hobby.md) - Diomidis Spinellis predicts that AI performance, cost, and availability will shift cognitive work toward machines and make purpose beyond employment a central adaptation problem.
 - [为何写作](sources/wei-he-xie-zuo.md) - Laixintao argues that personally authored writing preserves changing beliefs and lived memory, exposes unclear thought, enables expression and connection, and cannot be replaced by generated prose for those purposes.
+- [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
 - [rqlite](entities/Rqlite.md) - Open-source SQLite server using a leader and majority-acknowledged Raft log for self-operated fault tolerance.
