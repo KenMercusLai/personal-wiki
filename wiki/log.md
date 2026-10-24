@@ -10197,3 +10197,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | 力扣的程序是如何运行的
+
+Created [[LeetCode]], [[Yihong0618]], and [[OnlineJudgeExecutionHarness]] and updated [[Docker]] from its complete ordered evidence inventory. Reconstructed the 2021 Python runner's wildcard-import namespace, precompiled judge helpers, generated program, typed deserialization and serialization path, method invocation, and container-visible filesystem. Preserved the source's invalid reproduced `while` condition, unbenchmarked import-performance explanation, inferred rather than documented Docker use, and the author's 2026 statement that the current architecture is unknown. Opened all nine local images; omitted five decorative or duplicative images and retained four evidence-bearing screenshots with descriptive canonical filenames and a manifest.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

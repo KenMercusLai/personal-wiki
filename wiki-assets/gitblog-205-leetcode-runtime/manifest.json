@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "gitblog-205-leetcode-runtime",
+  "images": [
+    {
+      "file": "leetcode-locale-global.png",
+      "alt": "LeetCode Python submission printing L as re.LOCALE"
+    },
+    {
+      "file": "preloaded-global-namespace.png",
+      "alt": "LeetCode Python globals containing names imported from many standard-library modules"
+    },
+    {
+      "file": "container-filesystem-layout.png",
+      "alt": "LeetCode runner listing its working directory and container root filesystem"
+    },
+    {
+      "file": "generated-python-runner.png",
+      "alt": "LeetCode output revealing the generated prog_joined.py runner"
+    }
+  ]
+}

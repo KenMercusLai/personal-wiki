@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [力扣的程序是如何运行的](sources/gitblog-205-leetcode-runtime.md) - Yihong0618 reconstructs LeetCode's 2021 Python submission harness through namespace, module, filesystem, and generated-runner introspection while disclaiming that the architecture remains current.
 - [DeepSeek Harness 源码拆解：可组装的 Agent 运行系统](sources/deepseek-harness-source-analysis.md) - Yuxia Luo reconstructs DSH's plugin-composed runtime, derived session surface, checkpointed persistence, conservative recovery, and programmatic tool calling from a versioned source baseline.
 - [一天几百个 PR 有什么意义？我照着 SpaceXAI 工程师 Lauren（@poteto）的九类清单，把自己的活拆了一遍](sources/hundreds-of-prs-a-day-nine-work-lines.md) - Mai Yang argues that high PR volume becomes meaningful only when real demand feeds parallel work lines and risk-tiered verification keeps review and human judgment aligned with impact.
 - [非 CS 出身的 Lauren Tan，是怎么一步步放手给 agent 的](sources/lauren-tan-handing-work-to-agents.md) - Mai Yang profiles Lauren Tan's self-taught career and argues that agent autonomy should scale only after architecture, checks, and executable verification make output trustworthy.
@@ -1301,6 +1302,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [LeetCode](entities/LeetCode.md) - Online programming judge represented through a historical reconstruction of its generated Python submission runner.
+- [Yihong0618](entities/Yihong0618.md) - Technical blogger who inspected LeetCode's historical Python runtime through submitted-code probes.
 - [DeepSeek Harness](entities/DeepSeekHarness.md) - Local-first coding agent and composable runtime built from Cordis-managed model, tool, session, context, persistence, and execution plugins.
 - [Yuxia Luo](entities/YuxiaLuo.md) - Technical author represented through a version-bounded source analysis of DeepSeek Harness.
 - [ContextEcho](entities/ContextEcho.md) - Mai Yang's solo agent-assisted software project and a boundary case for interpreting commit and pull-request volume.
@@ -3344,6 +3347,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Online Judge Execution Harness](concepts/OnlineJudgeExecutionHarness.md) - Generated adapter that prepares a submission runtime, decodes typed tests, invokes user code, validates results, and encodes judge output.
 - [Programmatic Tool Calling](concepts/ProgrammaticToolCalling.md) - Model-generated code that invokes governed tools and processes intermediate results before returning compact data for continued reasoning.
 - [Verification-Driven Agent Delegation](concepts/VerificationDrivenAgentDelegation.md) - Expanding agent autonomy and concurrency only as enforceable constraints and executable evidence make output trustworthy.
 - [Agent Operating System](concepts/AgentOperatingSystem.md) - Shared identity, model, app, storage, and authorization substrate for multi-user agent applications.
