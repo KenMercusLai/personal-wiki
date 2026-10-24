@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AI Is Devouring Our Patience](sources/ai-is-eating-our-patience.md) - Innei argues that AI-enabled output can erode programming patience, flow, design understanding, and unaided skill while raising model-access and talent-assessment risks.
 - [Marathon world record evolution (2025)](sources/marathon-world-record-evolution-2025.md) - A September 2025 snapshot maps elite men's marathon depth, national and venue concentration, official record progression, and the descriptive age distribution of sub-2:08 results.
 - [I don't want your PRs anymore](sources/i-dont-want-your-prs-anymore.md) - An open-source maintainer argues that AI makes local implementation cheaper than merging unknown contributors' patches and redirects participation toward feedback, investigation, prototypes, review, and forks.
 - [第一记忆模式和第二记忆模式：Kapy 的记忆系统设计](sources/kapy-memory-system.md) - Yan Li's Kapy devlog combines per-turn raw logs and compact nodes, agent-declared causal links, mandatory broad recall, and autonomous filesystem investigation.
@@ -3187,7 +3188,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Andrew Harmel-Law](entities/AndrewHarmelLaw.md) - Software-architecture practitioner who reframes architects as stewards of inclusive distributed decision conversations rather than default approvers.
 - [Auren Hoffman](entities/AurenHoffman.md) - Data-company entrepreneur and investor presenting a practitioner framework for DaaS operations and economics.
 - [SafeGraph](entities/SafeGraph.md) - Historical place-data company example organized around documented, joinable facts about physical locations.
-- [Innei](entities/Innei.md) - LobeHub engineer reporting React performance, Electron packaging, and developer-experience work.
+- [Innei](entities/Innei.md) - Engineer reporting LobeHub performance work and reflecting on AI-assisted programming's effects on patience, skill, and craft identity.
 - [LobeHub](entities/LobeHub.md) - React and Electron application context for a version-2.0 performance and DX optimization sprint.
 - [Electron](entities/Electron.md) - Chromium-and-Node.js desktop runtime examined through Slack's hybrid multi-process client and LobeHub's packaging and typed IPC work.
 
@@ -4582,7 +4583,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, design-centered, verified, and scope-appropriately reviewed work with AI coding agents.
 - [Agentic Code Search Recall](concepts/AgenticCodeSearchRecall.md) - Completeness with which a coding agent discovers affected code, dependencies, prior decisions, and reusable implementations before making a change.
 - [AI Coding Framework–Library Model](concepts/AICodingFrameworkLibraryModel.md) - Control continuum between agent-structured high-level delegation and human-structured bounded use of AI as a callable capability.
-- [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that AI substitution weakens practiced skill and judgment while abundant generic output also worsens the information environment, qualified by deliberate AI adoption.
+- [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that AI substitution weakens practiced skill, patience, attention, and judgment despite real output gains, qualified by deliberate AI adoption.
 - [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting constraint across delivery, verification, supervision, judgment, and human reasoning capacity.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.

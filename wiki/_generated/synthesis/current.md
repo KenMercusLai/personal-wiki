@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-25
-as_of_overview_commit: 1b9b4cffe5c5130d7481c5acf450096b58c96ef9
-summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries, tradeoffs, and authority explicit."
-episode_count: 1271
-source_count: 1271
-paragraph_count: 889
+as_of_overview_commit: e969f23a362d31b545c5e8462e789f8fe8aea692
+summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries and tradeoffs explicit."
+episode_count: 1272
+source_count: 1272
+paragraph_count: 890
 topic_count: 9
 ---
 
@@ -23,13 +23,13 @@ topic_count: 9
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost.
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
-- [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer.
+- [[AIDependencySkillAtrophy]] has a work-system dimension: [[Innei]] reports more shipped projects but less sustained flow, weaker design recall, and lower confidence without AI, while frontier-model cost and access fragility may raise entry barriers and make polished project output a weaker signal of underlying ability.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, evidence, context selection, verification, permissions, recovery, and operating environments; cheap implementation makes design, review capacity, author trust, and contribution boundaries more important rather than obsolete.
+AI and software outcomes depend on architecture, evidence, context, verification, permissions, recovery, and operating environments; cheap implementation can raise the value of human judgment while also weakening practice when speed displaces understanding.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -82,7 +82,7 @@ Health and science evidence is heterogeneous and mechanism-sensitive, requiring 
 
 ### Work, Education, and Society
 
-Learning and work improve through active practice, observable reasoning, feedback, role clarity, sustainable attention, fair incentives, and demand-linked outcomes rather than activity volume.
+Learning and work improve through active practice, observable reasoning, feedback, role clarity, sustainable attention, fair access, and demand-linked outcomes; AI output gains do not by themselves preserve skill or credible talent signals.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

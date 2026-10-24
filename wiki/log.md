@@ -10228,3 +10228,11 @@ Created [[MensMarathonPerformance]], [[EliudKipchoge]], and [[KelvinKiptum]]. Re
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | AI Is Devouring Our Patience
+
+Updated [[Innei]] and [[AIDependencySkillAtrophy]] from their complete ordered evidence inventories. Recorded the tension between higher AI-enabled output and weaker design recall, sustained flow, exploratory patience, unaided programming confidence, model-access resilience, and credible talent signals. Preserved the translated first-person, unmeasured-skill, self-selected-poll, labor-market, irreversibility, and real-productivity-gain boundaries. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
