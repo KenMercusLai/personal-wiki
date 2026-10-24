@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-25] ingest | I don't want your PRs anymore
+
+Updated [[OpenSourceProjectMaintenance]], [[OpenSourceCollaborationModels]], and [[CodeReviewPractice]] from their complete ordered evidence inventories. Recorded the distinction between accepting ideas and accepting mergeable code, the maintainer-side security and coordination cost of unknown external patches, the shift from implementation toward understanding, design, and review, and alternative contributions through feedback, investigation, prototypes, prompts, review, and forks. Preserved the single-practitioner, unmeasured-comparison, trusted-contributor, succession, correctness, tooling, dependency, and supply-chain qualifications. The source contained no effective image references, so no asset manifest was required.
+
 ## [2026-10-24] ingest | 为什么大模型后训练集体转向 Agentic RL？一个算法老兵的复盘
 
 Created [[AgenticReinforcementLearning]] and updated [[SearchR1]] from its complete ordered evidence inventory. Recorded the shift from token-only single-turn RLVR to environment-coupled behavior trajectories, environment-grounded rewards, learnable tool and recovery decisions, interaction-based scaling axes, Search-R1's PPO/GRPO optimizer boundary, long-horizon credit assignment, template collapse, environment instability, reward hacking, and asynchronous policy staleness. Preserved the secondary practitioner scope, unmatched benchmark comparisons, non-free environment cost, verifier fallibility, and complementary role of SFT. Opened and retained all five evidence-bearing remote figures at their semantic positions with a canonical manifest.
@@ -10209,6 +10213,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] ingest | 第一记忆模式和第二记忆模式：Kapy 的记忆系统设计
 
 Created [[Kapy]] and [[MemoryRetrievalModes]] and updated [[YanLi]], [[AgentMemory]], [[MemoryCompaction]], and [[AgentFilesystem]] from their complete ordered evidence inventories. Recorded per-turn raw logs and compact nodes, agent-declared causal parents, mandatory broad recall, and autonomous filesystem investigation. Preserved the first-person, unreleased, unbenchmarked, unused-DAG, keyword-retrieval, turn-boundary, privacy, conflict, and failure-evaluation limits. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-25] lint | Wiki health check
 

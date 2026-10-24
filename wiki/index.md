@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I don't want your PRs anymore](sources/i-dont-want-your-prs-anymore.md) - An open-source maintainer argues that AI makes local implementation cheaper than merging unknown contributors' patches and redirects participation toward feedback, investigation, prototypes, review, and forks.
 - [第一记忆模式和第二记忆模式：Kapy 的记忆系统设计](sources/kapy-memory-system.md) - Yan Li's Kapy devlog combines per-turn raw logs and compact nodes, agent-declared causal links, mandatory broad recall, and autonomous filesystem investigation.
 - [力扣的程序是如何运行的](sources/gitblog-205-leetcode-runtime.md) - Yihong0618 reconstructs LeetCode's 2021 Python submission harness through namespace, module, filesystem, and generated-runner introspection while disclaiming that the architecture remains current.
 - [DeepSeek Harness 源码拆解：可组装的 Agent 运行系统](sources/deepseek-harness-source-analysis.md) - Yuxia Luo reconstructs DSH's plugin-composed runtime, derived session surface, checkpointed persistence, conservative recovery, and programmatic tool calling from a versioned source baseline.

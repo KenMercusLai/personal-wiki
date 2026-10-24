@@ -12,6 +12,7 @@ sources:
   - rouan-wilsenach-ship-show-ask
   - control-the-ideas-not-the-code
   - hundreds-of-prs-a-day-nine-work-lines
+  - i-dont-want-your-prs-anymore
 last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
@@ -38,8 +39,10 @@ Antirez adds the strongest challenge to code inspection as the default control m
 
 The newest source supplies a high-volume implementation of risk-dependent review. Tan reportedly gives every pull request agentic review and a risk assessment, allows low- and medium-risk work to merge without human inspection, and escalates the remainder; Jacob Gold reportedly adds a prompt-to-diff intent check that sends possible mismatches to a human decision interface. This is consistent with Ship / Show / Ask's selective gate, but moves the first classification step into automation. It remains an unvalidated account: neither classifier accuracy nor escaped-defect outcomes are reported.
 
+The new maintainer account adds author trust and coordination cost to review policy. It argues that an unknown external patch requires assessment not only of behavior but also of possible malicious intent, preference mismatch, CI and merge state, and contributor back-and-forth. The maintainer still reviews locally generated code, but prefers to reproduce the change with an instructed agent and treat outside code as a prototype rather than a merge artifact. That is a narrower claim than eliminating review: it changes who controls implementation and which risks enter the review queue.
+
 ## Key Claims
-- Teams should choose review goals, depth, timing, and approval strictness according to the change's purpose, human readership, uncertainty, reversibility, and risk; exhaustive generated-code inspection is one option rather than a universal default.
+- Teams should choose review goals, depth, timing, and approval strictness according to the change's purpose, author trust, human readership, uncertainty, reversibility, coordination cost, and risk; exhaustive generated-code inspection is one option rather than a universal default.
 - Reviews should preserve motivation and decision context while spreading codebase knowledge to current and future engineers.
 - Execution, tests, development tooling, and automated style checks should support human judgment rather than leaving every check to diff reading.
 - Small changes, prompt first passes, explicit next steps, revision follow-up, and bounded review-stage work reduce blocking and queue growth.
@@ -61,14 +64,16 @@ The newest source supplies a high-volume implementation of risk-dependent review
 - Alternative control surface: [[control-the-ideas-not-the-code]] proposes explicit `DESIGN.md`-style system descriptions and behavioral verification while retaining Redis code review for a mature project used and modified directly by people.
 - Automated risk routing: [[hundreds-of-prs-a-day-nine-work-lines]] reports agentic review and risk assessment for every Tan pull request, direct merging for low- and medium-risk changes, and human review for the rest.
 - Intent escalation: [[hundreds-of-prs-a-day-nine-work-lines]] says Jacob Gold compares each change with all task prompts and escalates any possible mismatch, while still retaining some human code review.
+- Contributor-risk boundary: [[i-dont-want-your-prs-anymore]] says unknown external patches add malicious-intent assessment, preference mismatch, synchronization, and conversational round trips beyond ordinary implementation review.
+- Prototype-versus-merge boundary: [[i-dont-want-your-prs-anymore]] treats reference code and its generating prompt as useful evidence even when the maintainer reimplements the change locally rather than merging it.
 
 ## Counterevidence & Qualifications
-The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Antirez provides no controlled human-versus-model review comparison, escaped-defect counts, maintenance outcomes, or threshold for when design and QA can safely replace inspection; his approach may depend on expertise that newer engineers lack. The newest source likewise supplies no risk-classifier design, calibration, false-negative rate, escaped-defect count, rollback rate, or evidence that prompt consistency captures the user's real intent. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, and reduced line review fit low-risk, traceable, strongly verified work better than unresolved safety, security, accessibility, migration, regulated approval, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
+The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Antirez provides no controlled human-versus-model review comparison, escaped-defect counts, maintenance outcomes, or threshold for when design and QA can safely replace inspection; his approach may depend on expertise that newer engineers lack. The high-volume source likewise supplies no risk-classifier design, calibration, false-negative rate, escaped-defect count, rollback rate, or evidence that prompt consistency captures the user's real intent. The patch-refusal account supplies no measured comparison between reviewing, rewriting, or collaborating, and its reduced malicious-intent concern does not show that agent output is less defective or immune to compromised tools and dependencies. It also may not generalize from unknown contributors to trusted specialists or teams. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval, Show-style self-merge, reduced line review, and local reimplementation fit low-risk, traceable, strongly verified work better than unresolved safety, security, accessibility, migration, regulated approval, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
 
 ## What Changed
-- Added agentic review and risk classification as a reported first-pass routing layer at high PR volume.
-- Added prompt-to-diff comparison as an intent check while preserving human escalation for ambiguity.
-- Explicitly separated reported workflow scale from unmeasured classifier quality and escaped-defect outcomes.
+- Added author trust, malicious-intent assessment, and synchronization cost to risk-dependent review design.
+- Distinguished using outside code as an executable prototype from accepting it as a merge artifact.
+- Clarified that local agent-assisted rewriting changes the review threat model but does not remove correctness or supply-chain risk.
 
 ## Related Concepts
 - [[PRReviewHygiene]] - review hygiene shapes code changes and feedback so human review remains usable.
@@ -81,3 +86,4 @@ The sources are mostly practitioner reflections rather than universal empirical 
 - [[ShipShowAsk]] - separates advisory feedback from required pre-merge review on a per-change basis.
 - [[AICodingPractice]] - changes code volume and shifts the balance among source inspection, design control, and behavioral verification.
 - [[VerificationDrivenAgentDelegation]] - expands autonomy only when review evidence and escalation rules make routine work trustworthy.
+- [[OpenSourceProjectMaintenance]] - maintainer capacity and contributor governance determine whether review leads to merge, local reimplementation, or rejection.

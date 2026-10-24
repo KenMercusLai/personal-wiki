@@ -887,12 +887,13 @@
       "1567936d98d64d5c6e3050803afcbaaa06b0679fa757cadc953404e5d898d4df",
       "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
-      "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
+      "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86",
+      "f9016c2bbf2cb6fc5458bf9b32778b0592f0fcd93fb64e9b054681734f53d936"
     ],
-    "paragraph_count": 887
+    "paragraph_count": 888
   },
-  "overview_commit": "1acf4eb90ba9d3357787af864cfcbd231af946a8",
-  "overview_digest": "0816a3664b9e9dd246b76775364aa77c3e6893f139eaeca1c789b3d45de98af3",
+  "overview_commit": "6bab6242ae9d3e8b93e80deaefcbf9fbcbde5688",
+  "overview_digest": "30944631d6ea53e1a469faf85753d0c475747c85048bd2f2f1c2e50f644b628b",
   "paragraphs": [
     {
       "id": "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
@@ -17867,6 +17868,26 @@
         "LiteLLM",
         "ReleasePipelineSecurity",
         "SecretManagement"
+      ]
+    },
+    {
+      "id": "f9016c2bbf2cb6fc5458bf9b32778b0592f0fcd93fb64e9b054681734f53d936",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest open-source maintainer essay adds a contribution-governance boundary to the wiki's AI coding and review debate. [[OpenSourceProjectMaintenance]] and [[OpenSourceCollaborationModels]] now distinguish accepting outside insight from accepting outside implementation: when an unknown contributor's patch adds malicious-intent assessment, preference mismatch, CI and merge synchronization, and conversational round trips, one maintainer prefers to reproduce the change locally with an instructed agent. [[CodeReviewPractice]] therefore gains author trust and coordination cost as review-policy inputs, while [[BottleneckAwareAICoding]] gains a maintainer-side case where implementation is cheap but understanding, design, and acceptance remain scarce. The source still values feedback, investigated bug reports, idea discussion, prototypes, prompts, review, and independent forks, producing porous idea flow with concentrated upstream authorship. This is one unmeasured practitioner policy, not evidence that community patches are generally unsafe or agent output is defect-free; rejecting patches can also weaken learning, shared ownership, specialist contribution, and succession.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BottleneckAwareAICoding",
+        "CodeReviewPractice",
+        "OpenSourceCollaborationModels",
+        "OpenSourceProjectMaintenance"
       ]
     }
   ],

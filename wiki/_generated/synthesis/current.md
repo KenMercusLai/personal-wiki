@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-25
-as_of_overview_commit: 1acf4eb90ba9d3357787af864cfcbd231af946a8
-summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries and tradeoffs explicit."
-episode_count: 1269
-source_count: 1269
-paragraph_count: 887
+as_of_overview_commit: 6bab6242ae9d3e8b93e80deaefcbf9fbcbde5688
+summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries, tradeoffs, and authority explicit."
+episode_count: 1270
+source_count: 1270
+paragraph_count: 888
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, evidence, context selection, verification, permissions, recovery, and operating environments; [[Kapy]] adds a qualified fixed-plus-autonomous [[MemoryRetrievalModes|memory retrieval]] pattern.
+AI and software outcomes depend on architecture, evidence, context selection, verification, permissions, recovery, and operating environments; cheap implementation makes design, review capacity, author trust, and contribution boundaries more important rather than obsolete.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -57,7 +57,7 @@ Media and creator systems combine payment, advertising, distribution, community,
 
 ### Governance and Institutions
 
-Institutional and technical governance allocate authority, lifecycle responsibility, privacy, risk, and accountability while preserving independent checks.
+Institutional and technical governance allocate authority, lifecycle responsibility, participation, privacy, risk, and accountability while preserving independent checks and credible alternatives.
 
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
