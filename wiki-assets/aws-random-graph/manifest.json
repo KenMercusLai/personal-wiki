@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "aws-random-graph",
+  "images": [
+    {
+      "file": "tree-based-network-design.gif",
+      "alt": "A tree-based hierarchy shown as the conventional AWS network starting point"
+    },
+    {
+      "file": "penrose-network-design.gif",
+      "alt": "A Penrose tiling shown as an intermediate flat-network design idea"
+    },
+    {
+      "file": "spraypoint-path-spreading.gif",
+      "alt": "A gumball-machine analogy showing connections spreading across multiple intermediate nodes"
+    },
+    {
+      "file": "hand-wired-random-graph-proof.webp",
+      "alt": "The manually wired random-graph proof with dense fiber cabling, racks, and technicians"
+    }
+  ]
+}

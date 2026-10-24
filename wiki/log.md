@@ -10025,3 +10025,15 @@ Created [[StatefulJobScheduling]] and updated [[JaanaDogan]] from her complete o
 ## [2026-10-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | The radical network redesign that led AWS to forge a more resilient cloud
+
+Created [[RandomGraphDataCenterNetworks]], [[GiacomoBernardi]], [[RatulMahajan]], and [[SeshadhriComandur]], and updated [[AWS]], [[DataCenterNetworkFabric]], and [[NetworkResilienceTradeoffs]] from their complete ordered evidence inventories. Recorded deterministic ShuffleBox wiring, Spraypoint path spreading, simulation-plus-proof validation, an Ireland production prototype, reuse of existing network components, and the reported 2025–2026 rollout. Preserved first-party boundaries around novelty, mathematical proof, benchmarks, hardware savings, network-equipment energy, failure behavior, and deployment status. Opened or sampled all inline images, video posters, animated diagrams, and clips; retained four evidence-bearing design, routing, and implementation visuals with descriptive filenames and a canonical manifest.
+
+## [2026-10-24] graph | Knowledge graph rebuilt
+
+4817 nodes, 28615 edges (28615 extracted, 0 inferred).
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

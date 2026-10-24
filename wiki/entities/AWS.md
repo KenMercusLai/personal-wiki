@@ -14,7 +14,8 @@ sources:
   - hacker-puts-hosting-service-code-spaces-out-of-business-threatpost
   - immutable-infrastructure-using-packer-ansible-and-terraform
   - interview-building-the-latest-campaign-for-david-guetta-serverless-code
-last_updated: 2026-09-30
+  - aws-random-graph
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -42,6 +43,8 @@ The immutable-infrastructure tutorial adds a small AMI delivery chain. Terraform
 
 The 2016 Parallax campaign adds an early bursty consumer-media composition. CloudFront and S3 served the static experience; Lambda and API Gateway handled locale, subscriber, upload-token, and image-generation work; DynamoDB and SES stored subscribers and sent welcome mail; direct S3 uploads kept recording bytes out of the API path; and CloudWatch monitored the functions. The source frames AWS elasticity as a substitute for operating a queue and image-worker EC2 fleet, while its browser fallbacks, Unicode-font packaging, stage isolation, and split monitoring show work that remained above the cloud layer.
 
+The 2026 Amazon feature adds AWS as a designer and operator of physical data-center networking. It describes a flat [[RandomGraphDataCenterNetworks|random-graph network]] built from passive ShuffleBoxes and Spraypoint routing, validated through simulation, mathematical modeling, and a hand-wired Ireland deployment. Amazon reports fewer intervening devices, faster tested traffic movement, lower network-equipment electricity use, and a 2025–2026 rollout, but those claims remain first-party and the linked technical report was not part of this ingest.
+
 ## Key Characteristics
 - Provides EC2 virtual server infrastructure with lower-level deployment control than Vercel's integrated platform workflow.
 - Supports large-scale SaaS high availability through regions, availability zones, managed queues, load balancers, Route53, RDS, CloudFront, CloudWatch, and auto-scaling.
@@ -49,7 +52,7 @@ The 2016 Parallax campaign adds an early bursty consumer-media composition. Clou
 - Supports RAG-style AI/database workloads through Amazon Bedrock, RDS, Aurora PostgreSQL, and pgvector.
 - Prices infrastructure through separable units such as vCPU, RAM, durable storage, requests, and data transfer.
 - Originated in Amazon's internal data-storage and computing needs before becoming an external cloud business.
-- Composes managed services and image-backed EC2 delivery, while customer-managed identities, permissions, state, and artifact selectors determine operational and control-plane risk.
+- Composes managed services and image-backed EC2 delivery, while also designing physical data-center networks whose routing, energy, and failure behavior shape the cloud substrate.
 
 ## Evidence
 - EC2 deployment: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes buying an Ubuntu EC2 server with 4 cores and 8GB RAM.
@@ -85,12 +88,17 @@ The 2016 Parallax campaign adds an early bursty consumer-media composition. Clou
 - Customer security boundary: [[hacker-puts-hosting-service-code-spaces-out-of-business-threatpost]] says AWS supported two-factor authentication and IAM-based individual credentials, role separation, and least privilege while assigning credential management to customers.
 - AMI build chain: [[immutable-infrastructure-using-packer-ansible-and-terraform]] connects a Terraform-created subnet, a Packer Amazon EBS builder, Ansible configuration, and Terraform-launched EC2 capacity.
 - Image discovery: [[immutable-infrastructure-using-packer-ansible-and-terraform]] filters available AMIs by the `Packer-Ansible` tag and selects the most recent match.
+- Flat topology: [[aws-random-graph]] says AWS replaces prescribed router tiers with a reproducible random-graph fabric built from passive ShuffleBoxes.
+- Routing: [[aws-random-graph]] describes Spraypoint spreading traffic across many routes, including non-shortest alternatives intended to reduce congestion.
+- Validation: [[aws-random-graph]] reports about 530 processor-years of simulation, mathematical modeling, and an Ireland production proof whose behavior matched predictions.
+- Reported outcomes: [[aws-random-graph]] claims up to roughly 33% faster traffic movement in most tested conditions, 40% lower network-equipment electricity use, fewer devices, and billions in hardware savings.
+- Deployment: [[aws-random-graph]] says rollout began in Spain and Germany in 2025 with majority-global-data-center implementation planned during 2026.
 
 ## Qualifications
-The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 managed-service pipeline; the bmpi.dev source presents one small hybrid serverless implementation with historical prices; and the Parallax source presents a 2016 campaign design without measured production outcomes. The Code Spaces source is a 2014 secondary report based largely on the customer's statement; it does not establish the initial-access method, configured safeguards, or a general AWS failure. The immutable example uses 2018 syntax and practices and does not evaluate current AMI build, identity, network, state, or deployment controls. The campaign's six local images were unavailable, so their architecture and UI content could not be inspected. None is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, service-version changes, or total ownership cost.
+The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 managed-service pipeline; the bmpi.dev source presents one small hybrid serverless implementation with historical prices; and the Parallax source presents a 2016 campaign design without measured production outcomes. The Code Spaces source is a 2014 secondary report based largely on the customer's statement; it does not establish the initial-access method, configured safeguards, or a general AWS failure. The immutable example uses 2018 syntax and practices and does not evaluate current AMI build, identity, network, state, or deployment controls. The random-graph account is an Amazon feature that summarizes rather than supplies its mathematical proof, benchmarks, comparative inventory, failure telemetry, or completed rollout status. The campaign's six local images were unavailable, so their architecture and UI content could not be inspected. None is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, service-version changes, or total ownership cost.
 
 ## What Changed
-- Added a hybrid serverless application profile spanning scheduled Fargate, Lambda/API Gateway, SNS, S3, CloudFront, and their supporting AWS services.
+- Added AWS's physical-network role through a flat random-graph fabric, while preserving first-party proof, benchmark, and rollout limits.
 - Added AWS central logging as a multi-account managed-service composition pattern for operational evidence collection.
 - Added the customer-side control-plane security boundary: account credentials and IAM scope can make production and recovery assets jointly destructible.
 - Added a concrete VPC-to-Packer-to-AMI-to-EC2 delivery chain and its artifact-selection boundary.
@@ -126,3 +134,7 @@ The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC
 - [[ImmutableInfrastructure]] - uses AWS AMIs as replaceable, versioned server artifacts.
 - [[ThisOnesForYouCampaign]] - early consumer campaign composing AWS edge, storage, function, API, database, email, and monitoring services.
 - [[ParallaxAgency]] - agency that selected the AWS serverless architecture for the campaign.
+- [[RandomGraphDataCenterNetworks]] - flat fabric design AWS says improves path diversity, hardware efficiency, and network-equipment energy use.
+- [[GiacomoBernardi]] - AWS principal applied scientist who co-led implementation of the network redesign.
+- [[RatulMahajan]] - Amazon Scholar and networking researcher who co-led the project.
+- [[SeshadhriComandur]] - graph theorist who supplied mathematical modeling and ShuffleBox wiring structure.

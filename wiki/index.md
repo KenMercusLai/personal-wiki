@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The radical network redesign that led AWS to forge a more resilient cloud](sources/aws-random-graph.md) - Amazon describes ShuffleBox and Spraypoint as a reproducible flat random-graph fabric, with first-party performance, energy, resilience, and rollout claims.
 - [Stateful jobs](sources/stateful-jobs.md) - Jaana Dogan argues that durable state turns placement, upgrades, recovery, and idleness into coordinated lifecycle decisions rather than ordinary resource scheduling.
 - [LatentMoE：Kimi K3 背后的 MoE 高效变体](sources/latent-moe.md) - Oilbeater explains latent-width expert communication as a way to reduce MoE data movement while leaving Kimi K3's Stable LatentMoE details provisional.
 - [psql_bm25s: when retrieval stops being a budget item](sources/psql-bm25s.md) - Intelligent Internet presents a PostgreSQL-native mutable BM25 access method, first-party BEIR throughput results, and a validation-heavy AI-assisted optimization loop.
@@ -1280,6 +1281,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
 
 ## Entities
+- [Giacomo Bernardi](entities/GiacomoBernardi.md) - AWS principal applied scientist who co-led implementation of the random-graph data-center network.
+- [Ratul Mahajan](entities/RatulMahajan.md) - Amazon Scholar and networking researcher who connected the project with graph-theory expertise.
+- [Seshadhri Comandur](entities/SeshadhriComandur.md) - graph theorist credited with the project's mathematical model and ShuffleBox wiring structure.
 - [Kimi K3](entities/KimiK3.md) - Reasoning model described through roughly 2.8T-parameter scale, nine-specialist distillation, and an incompletely documented Stable LatentMoE system.
 - [Oilbeater](entities/Oilbeater.md) - Technical blogger explaining LatentMoE through communication, memory traffic, and scale tradeoffs.
 - [psql_bm25s](entities/PsqlBm25s.md) - PostgreSQL access method for exact BM25-family retrieval with SQL composition, base-plus-delta maintenance, WAL recovery, and replication intent.
@@ -3294,6 +3298,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Random-Graph Data Center Networks](concepts/RandomGraphDataCenterNetworks.md) - Flat fabrics combining reproducible random connectivity, path-diverse routing, and layered validation.
 - [Stateful Job Scheduling](concepts/StatefulJobScheduling.md) - Placement and lifecycle management for long-running work whose durable identity and state make movement, restart, upgrade, or suspension costly or unsafe.
 - [LatentMoE](concepts/LatentMoE.md) - Sparse-expert architecture that routes at model width while compressing expert communication and computation into a narrower latent representation.
 - [Retrieval Budgeting](concepts/RetrievalBudgeting.md) - How query cost and tool limits shape whether an agent searches accumulated state routinely or only as a fallback.
@@ -3518,7 +3523,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pragmatic System Design](concepts/PragmaticSystemDesign.md) - Context-sensitive service architecture built around clear state ownership, real workload constraints, mature components, observable hot paths, and bounded failure behavior.
 - [Brand Framework](concepts/BrandFramework.md) - Shared decision vocabulary connecting a durable promise to personality, attributes, vision, mission, principles, positioning, and UX execution.
 - [Intentional Life Design](concepts/IntentionalLifeDesign.md) - Allocating finite time, attention, money, health, and relationships by chosen values while retaining freedom to act on worthwhile opportunities.
-- [Network Resilience Trade-offs](concepts/NetworkResilienceTradeoffs.md) - Multi-objective design of failure tolerance, cost, throughput, state, simplicity, and interaction surfaces across software and networking.
+- [Network Resilience Trade-offs](concepts/NetworkResilienceTradeoffs.md) - Multi-objective design of path diversity, failure tolerance, hardware count, throughput, state, and systemic interaction surfaces.
 - [Ship / Show / Ask](concepts/ShipShowAsk.md) - Per-change framework separating direct integration, non-blocking visibility, and pre-merge discussion.
 - [Software Abstraction](concepts/SoftwareAbstraction.md) - Extraction of reusable names, structures, and interfaces from concrete programs and situations for smaller-surface reasoning and reuse.
 - [Abstraction Leakage](concepts/AbstractionLeakage.md) - Exposure of implementation behavior through compatibility, correctness, performance, or operational dependencies beyond a stated interface contract.
@@ -3559,7 +3564,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
 - [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
 - [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.
-- [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture whose path redundancy does not automatically prevent edge loops or systemic control-plane failures.
+- [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture spanning boundary controls, placement, reproducible topology, routing, and systemic failure behavior.
 - [Edge Network Loop Protection](concepts/EdgeNetworkLoopProtection.md) - Layered detection and containment of accidental bridging loops at endpoint and adjacent-network boundaries.
 - [Dead Code Tombstones](concepts/DeadCodeTombstones.md) - Bounded runtime probes used to test whether apparently unused code executes before maintainers delete or refactor it.
 - [Business Naming](concepts/BusinessNaming.md) - Framing, generating, screening, and testing a company name for brand fit, comprehension, distinctiveness, and operational usability.
