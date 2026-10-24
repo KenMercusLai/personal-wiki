@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "wei-shen-me-da-mo-xing-hou-xun-lian-ji-ti-zhuan-xiang-agentic-rl-yi-ge-suan-fa-lao-bing-de-fu-pan",
+  "images": [
+    {
+      "file": "agent-perceive-think-act-observe-loop.png",
+      "alt": "Agent loop cycling through perceive, think, act, observe, and goal evaluation with external tools"
+    },
+    {
+      "file": "r1-zero-wait-pattern-emergence.jpg",
+      "alt": "R1-Zero training chart showing the wait-pattern count rising sharply late in training"
+    },
+    {
+      "file": "multimodal-rlvr-project-timeline.jpg",
+      "alt": "Timeline of multimodal RLVR projects and optimization methods from 2023 through April 2025"
+    },
+    {
+      "file": "search-r1-ppo-grpo-architecture.png",
+      "alt": "Search-R1 architecture comparing PPO and GRPO around multi-turn policy and search-engine rollouts"
+    },
+    {
+      "file": "coding-harness-model-loop-runtime-layers.png",
+      "alt": "Coding harness split into model family, inspect-choose-act-observe agent loop, and runtime supports"
+    }
+  ]
+}

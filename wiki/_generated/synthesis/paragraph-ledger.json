@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2140a47ee4792ff073182b2cc9c451898144e7ffaf60c1a5aee560a51f06c3cb",
       "3c61efc3075159ac06a235b9b2891610fbdbeede872684dfae4aa2355588e5b0",
       "772d12154c4f65fd54acf312e2782a32d8dc8e40d2aece8646132223eee2c094",
       "1e73232218e3c52215e122f96d86600041d08b2e6f2c50ee2b3d9333b9123943",
@@ -883,11 +884,30 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 881
+    "paragraph_count": 882
   },
-  "overview_commit": "8ae8aafa85cf81f41cfe026ea120a500fad5d2fd",
-  "overview_digest": "9d241c42dc719dcad8c7a1e63e954ec4628e92a8f27d564030df1e0c3416fb04",
+  "overview_commit": "3d77bea28e4849c73626283a83d0be84de06464a",
+  "overview_digest": "6353b33f4fdada52edb7ad32835a91d26938514b3ea2c430eab3eca4f0793ba9",
   "paragraphs": [
+    {
+      "id": "2140a47ee4792ff073182b2cc9c451898144e7ffaf60c1a5aee560a51f06c3cb",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest practitioner review creates [[AgenticReinforcementLearning]] as the environment-coupled extension of the wiki's reasoning-RL material. Where single-turn RLVR largely optimizes one generated answer from fixed context with terminal correctness or format reward, agentic RL trains a policy across tool actions, mutable files, databases, browsers, executors, stochastic observations, and possible intermediate feedback. That opens information acquisition, retry, clarification, rollback, and stopping behavior to learning and makes environment count, task diversity, tools, and interaction depth additional scaling dimensions. It also makes the environment and [[HarnessEngineering]] part of objective validity: sparse long-horizon credit, unequal grouped rollouts, asynchronous policy lag, template collapse, incorrect observations, leaked answers, writable tests, and disabled checkers can all produce misleading reward. [[SearchR1]] supplies the retained concrete architecture, with a shared policy-search rollout feeding either PPO value/GAE estimation or GRPO group comparison. The synthesis remains bounded because the article is a secondary practitioner review: its striking benchmark comparisons lack matched budgets and independent replication, “environment reward is free” conflicts with substantial sandbox and verification cost, and the critique of teacher trajectories limits pure imitation without displacing SFT for cold starts, tool syntax, formats, and safety priors. All five remote evidence images were opened and retained at their semantic positions.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgenticReinforcementLearning",
+        "HarnessEngineering",
+        "SearchR1"
+      ]
+    },
     {
       "id": "3c61efc3075159ac06a235b9b2891610fbdbeede872684dfae4aa2355588e5b0",
       "primary_topic": "ai-and-technology",

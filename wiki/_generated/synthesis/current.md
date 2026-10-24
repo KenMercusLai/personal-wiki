@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-24
-as_of_overview_commit: 8ae8aafa85cf81f41cfe026ea120a500fad5d2fd
+as_of_overview_commit: 3d77bea28e4849c73626283a83d0be84de06464a
 summary: "Podcast Atlas connects technology, science, institutions, markets, work, and human outcomes through evidence, verification, incentives, recovery, and accountable control."
-episode_count: 1254
-source_count: 1254
-paragraph_count: 881
+episode_count: 1255
+source_count: 1255
+paragraph_count: 882
 topic_count: 9
 ---
 
@@ -21,7 +21,7 @@ topic_count: 9
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - The [[Instapaper]] incident shows that [[BackupAndRecovery]] must test restoration onto a viable substrate because [[AmazonRDS]] snapshots can preserve the same inherited constraint that caused failure.
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
-- [[ReleasePipelineSecurity]] extends AI infrastructure safety beyond model and runtime controls: [[LiteLLM]] shows that an unrevoked agent-platform key can expose an owner token, CI can harvest more identities, and a compromised control plane can produce signed malicious artifacts through nominally valid approvals; [[SecretManagement]] therefore needs revocation, least privilege, transitive-authority mapping, independent approval roots, and audit evidence outside the mutable pipeline.
+- [[AgenticReinforcementLearning]] makes environment and [[HarnessEngineering]] design part of technical governance: mutable tools and task verifiers can ground multi-turn behavior, but sparse credit, asynchronous policy lag, template collapse, leaked answers, writable tests, and disabled checkers can reward illegitimate completion.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Writing adds a distinctive understanding test by exposing gaps, forcing insight-preserving compression, and reconstructing ideas for a reader rather than merely producing finished text. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, representations, grounded capability evidence, verification, observability, bounded authority, and tested recovery.
+Technical leverage depends on workload-specific architecture, grounded capability evidence, verification, observability, bounded authority, and tested recovery.
 
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
 - [[TransformerArchitecturalConvergence]] describes a strong dense decoder-only default around pre-[[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], and [[GroupedQueryAttention]] or related KV sharing, while [[QueryKeyNormalization]], MoE routing, and long-context attention remain unsettled; adoption reflects model behavior together with kernels, accelerator shapes, KV-cache economics, and ecosystem path dependence. Evidence: [[TransformerArchitecturalConvergence]], [[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], [[GroupedQueryAttention]], [[QueryKeyNormalization]], [[FlashAttention]].
@@ -57,7 +57,7 @@ Media value emerges from the interaction of form, authorship, infrastructure, pl
 
 ### Governance and Institutions
 
-Institutions and technical control layers need independently rooted authority, observable effects, usable constraints, accountability, and credible recovery.
+Institutions and technical control layers need independently rooted authority, observable effects, verifier integrity, usable constraints, accountability, and credible recovery.
 
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
 - [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].

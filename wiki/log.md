@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-24] ingest | 为什么大模型后训练集体转向 Agentic RL？一个算法老兵的复盘
+
+Created [[AgenticReinforcementLearning]] and updated [[SearchR1]] from its complete ordered evidence inventory. Recorded the shift from token-only single-turn RLVR to environment-coupled behavior trajectories, environment-grounded rewards, learnable tool and recovery decisions, interaction-based scaling axes, Search-R1's PPO/GRPO optimizer boundary, long-horizon credit assignment, template collapse, environment instability, reward hacking, and asynchronous policy staleness. Preserved the secondary practitioner scope, unmatched benchmark comparisons, non-free environment cost, verifier fallibility, and complementary role of SFT. Opened and retained all five evidence-bearing remote figures at their semantic positions with a canonical manifest.
+
 ## [2026-10-24] ingest | 游戏《蔚蓝山》教我的编程道理
 
 Created [[Celeste]] and [[DeveloperFeedbackLoop]], and updated [[Piglei]] and [[SoftwareVerification]] from their complete ordered evidence inventories. Recorded room-level retry boundaries, more-than-30-second manual browser loops, a reported 0.72-second five-test run, a 60-check role-permission matrix, and the extension of DRY from repeated code to repeated stable checking. Preserved the practitioner-analogy scope, unverified reception figures, illustrative timing limits, test-maintenance costs, and need for broader verification layers. Opened both local media assets and retained the gameplay screenshot and complete 38-frame, roughly 3.16-second failure-and-respawn GIF at their semantic positions with a canonical manifest.
@@ -10089,6 +10093,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-24] ingest | LLMs can't jump
 
 Created [[TomZahavy]], [[AbductiveReasoning]], and [[WorldModels]]. Recorded the paper's separation of an underdetermined experience-to-axiom jump from deduction and experimental checking, the equivalence-principle case, and physically consistent multimodal world models as a proposed bridge. Preserved the personal-position, historical-case-study, missing-evaluation, contested-route, and no-impossibility-proof boundaries, plus the author's explicit statement that LLM-based systems already make discoveries and scaling may be sufficient. Opened and retained the sole evidence-bearing local diagram at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-24] lint | Wiki health check
 
