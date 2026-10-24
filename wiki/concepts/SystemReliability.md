@@ -12,7 +12,8 @@ sources:
   - gitlab-com-database-incident-gitlab
   - incident-management-at-google-adventures-in-sre-land-google-cloud-blog
   - instapaper-outage-cause-recovery-making-instapaper-medium
-last_updated: 2026-09-30
+  - telestra-outage-report
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -40,12 +41,14 @@ Google's SRE account adds incident readiness and organizational learning to this
 
 Instapaper adds infrastructure lineage and provider-access boundaries. A read replica created after an RDS filesystem cutoff still inherited its source's ext3 limit, while the managed console exposed neither the constraint nor proximity to it. Snapshot backups reproduced the same failure condition, and the customer's MySQL-only interface could not perform the decisive ext4 mount and `rsync`. Reliability therefore requires inventory of inherited substrate, alerting on hard limits, backups that escape the relevant common mode, representative restore-time tests, a write-reconcilable degraded mode, and early escalation to specialists who control inaccessible layers.
 
+Telstra adds latent failover and poisoned-state boundaries. A 2020 timing migration removed local source paths, symmetric NTP peering made clients eligible as upstream sources, and a GPS card adopted during a 2025 connectivity incident contained a restart-triggered rollover defect. The July 2026 chassis repair succeeded mechanically but activated that dormant condition; incorrect time propagated into Sydney, reset mobile control-plane instances, overloaded remaining capacity, and wrote about 30,000 bad IP-prefix records. Reliability therefore requires dependency maps that match runtime selection, restart and rollover testing of dormant safeguards, explicit ownership of vendor notices, bad-data containment, and a recovery plan for state already mutated by a faulty reference.
+
 ## Key Claims
 - Reliability spans code, design, change, operations, and recovery rather than one technical layer.
 - Known principles are necessary but insufficient without concrete implementation details.
 - Fail-fast behavior and deliberate load shedding protect online services from resource exhaustion, nonlinear collapse, and uncontrolled backlog.
-- Dependency classification, degradation, capacity protection, infrastructure-lineage awareness, and granular, practiced, independently validated recovery are design-level reliability controls.
-- Change-related incidents require canarying, monitoring, rollback, blast-radius reduction, tests, probes, observability, playbooks, and failover exercises.
+- Dependency classification, degradation, capacity protection, infrastructure-lineage awareness, independent failover paths, and granular, practiced, independently validated recovery are design-level reliability controls.
+- Change-related incidents require canarying, monitoring, rollback, blast-radius reduction, tests, probes, observability, playbooks, failover exercises, and attention to dormant state activated by maintenance or restart.
 - Production-like staging and clear observability can reveal architecture, data, traffic, saturation, and failure-mode risks before or during incidents.
 - Reliability is difficult because it requires sustained investment even when avoided failures are hard to see.
 
@@ -73,13 +76,19 @@ Instapaper adds infrastructure lineage and provider-access boundaries. A read re
 - Invisible hard limit: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says RDS offered no console monitoring, alert, or log that identified the limit or warned that the bookmarks table was approaching it.
 - Common-mode backup: [[instapaper-outage-cause-recovery-making-instapaper-medium]] says ten days of filesystem snapshots remained subject to the same constraint.
 - Recovery realism: [[instapaper-outage-cause-recovery-making-instapaper-medium]] reports a 24-hour initial dump, 10-hour parallel dump, limited service after 31 hours, provider-assisted ext4 migration, and later replication of interim writes.
+- Latent failover defect: [[telestra-outage-report]] says Melbourne's GPS fallback worked until a post-rollover restart moved its date back 19.7 years.
+- Runtime dependency drift: [[telestra-outage-report]] shows symmetric peering selecting clients as sources and creating a path from Melbourne's incorrect clock into Sydney.
+- Cascading capacity loss: [[telestra-outage-report]] connects wrong time to control-plane resets, insufficient remaining capacity, and overloaded mobile service.
+- Poisoned-state recovery: [[telestra-outage-report]] says roughly 30,000 IP-prefix records retained wrong dates and required repair after the clock was corrected.
 
 ## Counterevidence & Qualifications
-The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is strongest for online services; queueing, batch, streaming, or safety-critical systems may require different semantics. Load shedding encodes product policy: Asana protected paying customers and most free users. Production-like staging may preserve behavioral structure without matching production size exactly. Auth0, Asana, Google, GitLab, and Instapaper are company-authored, while Atlassian is second-party; all are source-date-specific. Instapaper's incident concerns a legacy RDS filesystem and does not establish current service limits or controls. Google's account omits detailed impact and root cause, GitLab's live account preceded its formal postmortem, and Instapaper's 20-hour versus 31-hour outage descriptions conflict.
+The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is strongest for online services; queueing, batch, streaming, or safety-critical systems may require different semantics. Load shedding encodes product policy: Asana protected paying customers and most free users. Production-like staging may preserve behavioral structure without matching production size exactly. Auth0, Asana, Google, GitLab, and Instapaper are company-authored, while Atlassian and Telstra are secondary reconstructions; all are source-date-specific. Instapaper's incident concerns a legacy RDS filesystem and does not establish current service limits or controls. The Telstra author marks multiple NTP and telecom details as assumptions, while testimony conflicts over whether GPS failover belonged to the intended design. Google's account omits detailed impact and root cause, GitLab's live account preceded its formal postmortem, and Instapaper's 20-hour versus 31-hour outage descriptions conflict.
 
 ## What Changed
 - Added inherited infrastructure state and invisible provider limits as reliability risks that can survive nominal upgrades.
 - Added common-mode snapshot constraints, representative restore timing, reconciled degraded service, and provider-only recovery operations to the recovery model.
+- Added dormant failover state, restart behavior, dependency-loop prevention, and architecture-understanding drift as reliability concerns.
+- Added bad-data containment and repair when a restored dependency has already poisoned downstream operational state.
 
 ## Related Concepts
 - [[RobustProgramming]] - code-level reliability is one layer of system reliability.
@@ -98,3 +107,4 @@ The sources argue from practitioner experience and named examples rather than co
 - [[BackupAndRecovery]] - reliable state restoration requires valid copies, safe procedures, and practiced restore proof.
 - [[IncidentManagement]] - prepared coordination governs response when preventive reliability controls fail.
 - [[BlamelessPostmortem]] - structured review turns incident evidence into system improvements and shared learning.
+- [[NetworkTimeSynchronization]] - the Telstra case shows a critical dependency whose hierarchy, failover, and source correctness can drive system-wide impact.

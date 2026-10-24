@@ -5,7 +5,8 @@ tags: [incident-response, reliability, learning, organizational-culture]
 sources:
   - incident-management-at-google-adventures-in-sre-land-google-cloud-blog
   - rule-11-reader-learning-from-the-post-mortem
-last_updated: 2026-10-02
+  - telestra-outage-report
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,6 +22,8 @@ White adds a concrete analysis structure and a warning about nominal blamelessne
 
 The other two maps turn the incident into reusable operational knowledge. Detection analysis traces how the failure surfaced, where it could have surfaced earlier, and how to shorten dwell time without overwhelming responders with false positives. Troubleshooting analysis preserves each check, its rationale, method, and result so teams can improve instrumentation and shorten later diagnosis instead of discarding the reasoning after recovery.
 
+Hochstein's Telstra critique supplies a worked boundary for this method. The public review calls for stronger competence, curiosity, and process discipline, yet the reconstruction leaves unresolved whether the GPS card was intended failover, why staff judged its firmware update irrelevant, and how engineers understood symmetric source selection. Recommendations aimed at worker behavior are therefore incomplete unless the review reconstructs documentation, ownership, vendor communication, update trade-offs, prior mitigation, and the actual conditions under which decisions were made.
+
 ## Key Claims
 - Postmortems should analyze the conditions around competent, well-intentioned people rather than use hindsight to find someone to punish.
 - Blamelessness still requires concrete corrective work, explicit owners, and follow-through.
@@ -28,6 +31,7 @@ The other two maps turn the incident into reusable operational knowledge. Detect
 - Recurring group review distributes lessons, finds overlooked actions, and reinforces the cultural conditions needed for candid reporting.
 - Useful review should map the setup conditions that made a failure consequential rather than treating the proximate configuration or vendor defect as the complete explanation.
 - Detection and troubleshooting workflows should be preserved so teams can improve telemetry, reduce dwell time, and reuse diagnostic reasoning.
+- Investigator curiosity must extend to how work, ownership, and risk trade-offs actually operated, not only to what responders should have noticed in hindsight.
 
 ## Evidence
 - System focus: [[incident-management-at-google-adventures-in-sre-land-google-cloud-blog]] says lasting change comes from improving systems, tools, and processes around people rather than blaming them.
@@ -37,16 +41,18 @@ The other two maps turn the incident into reusable operational knowledge. Detect
 - Setup analysis: [[rule-11-reader-learning-from-the-post-mortem]] asks teams to reconstruct the deployment process, commitments, and political drivers that allowed a failure to have its observed effect.
 - Detection learning: [[rule-11-reader-learning-from-the-post-mortem]] proposes mapping how the incident was detected and where it could have been caught sooner while monitoring false-positive cost.
 - Troubleshooting memory: [[rule-11-reader-learning-from-the-post-mortem]] recommends recording each diagnostic check, its rationale, method, and result in a reusable flowchart.
+- Conflicting work models: [[telestra-outage-report]] contrasts a report that describes GPS as an available failover source with testimony that it was not part of the intentional SSU 2000 design.
+- Hindsight boundary: [[telestra-outage-report]] argues that calls for more competence, curiosity, or discipline do not explain how engineers understood update risk, prior mitigation, and the architecture at decision time.
 
 ## Counterevidence & Qualifications
-The sources report Google's intended culture and two practitioners' experience; neither measures whether actions were completed, recurrence fell, dwell time improved, or participants consistently felt safe disclosing mistakes. White supplies no worked incident or evidence that three workflow maps outperform root-cause analysis. The methods are complementary rather than exclusive: technical causal detail can still be essential for containment and repair. Removing blame must not erase decision ownership, negligence, misconduct, or the need to change roles and controls. Templates and flowcharts can become ritual documentation if action tracking and organizational investment are weak.
+The sources report Google's intended culture and two practitioners' experience; none measures whether actions were completed, recurrence fell, dwell time improved, or participants consistently felt safe disclosing mistakes. White supplies no evidence that three workflow maps outperform root-cause analysis, while Hochstein's worked Telstra critique is a secondary reconstruction with acknowledged domain and evidence gaps. The methods are complementary rather than exclusive: technical causal detail can still be essential for containment and repair. Removing blame must not erase decision ownership, negligence, misconduct, or the need to change roles and controls. Templates and flowcharts can become ritual documentation if action tracking and organizational investment are weak.
 
 ## What Changed
-- Established blameless postmortems as system-focused reviews with explicit action ownership.
-- Added common templates and recurring review as mechanisms for cross-incident and cultural learning.
+- Established system-focused review with explicit action ownership, common templates, and recurring cross-incident learning.
 - Preserved the distinction between avoiding punishment and avoiding accountability.
 - Added setup, detection, and troubleshooting workflow maps as a concrete system-learning structure.
 - Added nominal blamelessness as a failure mode when review still centers individual innocence or proximate technical error.
+- Added a worked warning that investigator hindsight and behavioral prescriptions can obscure conflicting architecture models and real decision conditions.
 
 ## Related Concepts
 - [[IncidentManagement]] - postmortems extend incident response from closure into prevention and organizational learning.
@@ -55,3 +61,4 @@ The sources report Google's intended culture and two practitioners' experience; 
 - [[ChangeSafety]] - aggregated postmortem evidence can expose recurring change-related failure patterns.
 - [[ReliabilityInvestment]] - corrective actions and review practices require sustained time, staffing, and enforcement.
 - [[ServiceObservability]] - detection and troubleshooting maps expose telemetry gaps and false-positive trade-offs.
+- [[NetworkTimeSynchronization]] - the Telstra incident is the worked technical system whose changing source topology exposed review gaps.

@@ -1280,8 +1280,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Reinforcement-Learning 学习笔记](sources/rlbook.md) - A chapter-spanning Sutton and Barto study notebook connects bandits, MDPs, dynamic programming, sampled returns, TD control, function approximation, average reward, and policy gradients while retaining its AI-generated and unverified scope.
 - [Building a more accurate time service at Facebook scale](sources/ntp-service.md) - Oleg Obleukhov explains Facebook's measured migration from ntpd to chrony, hardware timestamping, four-stratum architecture, public endpoints, and leap smearing.
 - [From monolith to Lakebase to LTAP: rethinking the database from storage up](sources/lakebase-ltap-rethinking-database-storage.md) - Reynold Xin traces Lakebase's disaggregated WAL and page path into an announced LTAP columnar store shared by separate transactional and analytical engines.
+- [Thoughts on the July 8th Telstra outage report](sources/telestra-outage-report.md) - Lorin Hochstein reconstructs how lost NTP redundancy, symmetric peering, a restart-triggered GPS rollover, and poisoned operational state caused Telstra's July 2026 mobile outage.
 
 ## Entities
+- [Telstra](entities/Telstra.md) - Australian telecommunications company represented through its mobile timing architecture and July 2026 outage.
+- [Lorin Hochstein](entities/LorinHochstein.md) - Reliability writer reconstructing the Telstra outage while marking technical inference and criticizing hindsight-centered investigation.
+- [SSU 2000](entities/SSU2000.md) - Telecommunications timing chassis whose topology limits and GPS rollover behavior shaped the Telstra outage.
 - [Turbopuffer](entities/Turbopuffer.md) - Hosted search system using a stateless object-storage-backed query tier, local tiered caches, and distributed ANN serving.
 - [Nathan VanBenschoten](entities/NathanVanBenschoten.md) - Turbopuffer chief architect explaining ANN v3 through arithmetic intensity, tier placement, SIMD kernels, and sharding.
 - [ANN v3](entities/ANNv3.md) - Hierarchical filter-and-refine vector-search system using one-bit RaBitQ codes, exact NVMe reranking, and random sharding.
@@ -3309,7 +3313,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LatentMoE](concepts/LatentMoE.md) - Sparse-expert architecture that routes at model width while compressing expert communication and computation into a narrower latent representation.
 - [Retrieval Budgeting](concepts/RetrievalBudgeting.md) - How query cost and tool limits shape whether an agent searches accumulated state routinely or only as a fallback.
 - [Base-Delta Index Maintenance](concepts/BaseDeltaIndexMaintenance.md) - Mutable-index pattern that separates a read-optimized base from recent changes and periodically folds them together.
-- [Network Time Synchronization](concepts/NetworkTimeSynchronization.md) - End-to-end distribution and correction of clocks through reference sources, network exchanges, serving strata, and independent validation.
+- [Network Time Synchronization](concepts/NetworkTimeSynchronization.md) - End-to-end clock distribution whose correctness depends on reference validation, independent source topology, loop prevention, tested failover, and downstream recovery.
 - [Hardware Timestamping](concepts/HardwareTimestamping.md) - Packet timing at the network interface that narrows software-path uncertainty without guaranteeing end-to-end clock accuracy.
 - [Leap-Second Smearing](concepts/LeapSecondSmearing.md) - Coordinated rate adjustment that absorbs a leap second gradually to preserve continuous application-visible time.
 - [fsync Failure Semantics](concepts/FsyncFailureSemantics.md) - Cross-layer rules governing memory, disk, metadata, error timing, and safe recovery after a persistence barrier fails.
@@ -3637,7 +3641,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Platform Microwork](concepts/PlatformMicrowork.md) - Software-mediated decomposition, allocation, evaluation, and payment of small tasks across a distributed workforce.
 - [Technological Inevitability](concepts/TechnologicalInevitability.md) - Distinguishing structurally likely directions from contingent winners, timing, decisions, execution, and institutional forms.
 - [Incident Management](concepts/IncidentManagement.md) - Prepared coordination system for declaring, commanding, escalating, communicating, selecting recovery modes, mitigating, closing, and learning from service failures.
-- [Blameless Postmortem](concepts/BlamelessPostmortem.md) - System-focused incident review that pairs psychological safety with concrete corrective actions, owners, and shared learning.
+- [Blameless Postmortem](concepts/BlamelessPostmortem.md) - System-focused incident review joining psychological safety, action ownership, workflow reconstruction, and examination of real decision conditions.
 - [Technology Normalization](concepts/TechnologyNormalization.md) - Process by which a once-novel technical capability becomes an expected baseline and loses categorical signaling power.
 - [Persuasion Work](concepts/PersuasionWork.md) - Selling, branding, advertising, relationship, and experience work that may expand after automation but has contested social value.
 - [Incrementalism](concepts/Incrementalism.md) - Pursuing large outcomes through sequenced, repeated, mutually reinforcing changes while preserving foundations and direction checks.
@@ -4701,7 +4705,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
 - [Staging Environment](concepts/StagingEnvironment.md) - Pre-production environment for verifying software under production-like architecture, data, monitoring, traffic, internet exposure, and failure conditions.
 - [Smart Contracts](concepts/SmartContracts.md) - Code-mediated contractual mechanisms used here as a trust-minimization example for aggregator markets.
-- [System Reliability](concepts/SystemReliability.md) - Keeping services dependable across code, architecture, inherited infrastructure, dependencies, capacity, staging realism, change, recovery, and investment.
+- [System Reliability](concepts/SystemReliability.md) - Keeping services dependable across code, architecture, dormant failover state, dependencies, capacity, staging realism, change, poisoned-state recovery, and investment.
 - [TF-IDF Ranking](concepts/TFIDFRanking.md) - Search ranking method that weights terms by document frequency and inverse corpus frequency before similarity scoring.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Language Model](concepts/StatisticalLanguageModel.md) - Count-based or rule-based language-modeling approach using techniques such as N-grams, HMMs, and linguistic rules.

@@ -4,6 +4,7 @@
       "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
       "e3af393f8f249f640e1ad03909bc12883bdca2412047c53d719864e5aa588519",
       "a351bf814d6c5d658ccd3354c7904d58917ff4116883eb8838ad65ffab4d61c9",
+      "6f02e449e020952e60db80397bcc7fc0c14241623d372499e427dacba0bef4ae",
       "84e28cd18160dd43ee98768da38f14aa47006d1db354c54d54f73304fec7d305",
       "028c887fcabe7151d84074362cc06d3012134422b8c335d7367b605fddd3bd26",
       "1b71424f6a11e9af0ec5f020959f08dbd13d42d6dcf2a2efe5703ebaa3cc2063",
@@ -877,10 +878,10 @@
       "ca69231f20e6d01373cc18f635773ead5d095e6a5ccb752c4b5ee75498f05253",
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca"
     ],
-    "paragraph_count": 875
+    "paragraph_count": 876
   },
-  "overview_commit": "524873d489765ca609d6e8eb78a8c82275dece49",
-  "overview_digest": "267ecec81614115af4117b2a6012799c203452ded2e8f93c14ba7832a2929f11",
+  "overview_commit": "d0709a5e7df6e20e566a093e95a84203eb6c138c",
+  "overview_digest": "75240c754bf77d4a603d580644011b3d82410de2c069b98a113c523162656b95",
   "paragraphs": [
     {
       "id": "f32b225f4b05b4d01cd9a66103bcb615182aebf2db7366c9b332e72964991b96",
@@ -938,6 +939,26 @@
         "PostgreSQL",
         "PsqlBm25s",
         "RetrievalBudgeting"
+      ]
+    },
+    {
+      "id": "6f02e449e020952e60db80397bcc7fc0c14241623d372499e427dacba0bef4ae",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[LorinHochstein]] source adds a failure-topology case to [[NetworkTimeSynchronization]] and [[SystemReliability]]. [[Telstra]]'s 2020 [[SSU2000]] migration removed same-chassis NTP source paths while symmetric peering let servers select clients; an October 2025 connectivity incident then promoted Melbourne's GPS-backed server to Stratum 1 even though later testimony conflicted over whether GPS was intended failover. A July 2026 chassis repair restarted the rollover-vulnerable GPS card, shifted its date back 19.7 years, and let incorrect time propagate through a shared client into Sydney. Mobile control-plane resets reduced capacity until the remaining network overloaded, while about 30,000 IP-prefix records retained bad dates and required separate repair. The durable lesson is that stratum labels do not prove source independence or correctness: operators need an enumerable runtime dependency graph, loop prevention, restart and rollover tests for dormant safeguards, vendor-notice ownership, bad-time containment, and downstream state-repair plans. The source also sharpens [[BlamelessPostmortem]] by showing why calls for more competence, curiosity, or discipline are incomplete when an investigation does not reconstruct conflicting architecture models, update-risk decisions, prior mitigation, and how work was actually performed. Hochstein explicitly lacks telecom expertise and labels assumptions about peering, chassis restrictions, topology, Perth, and vendors; the post remains a secondary reconstruction without complete configuration, telemetry, or an independently verified causal model. All eleven evidence-bearing images were opened and retained canonically at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BlamelessPostmortem",
+        "LorinHochstein",
+        "NetworkTimeSynchronization",
+        "SSU2000",
+        "SystemReliability",
+        "Telstra"
       ]
     },
     {

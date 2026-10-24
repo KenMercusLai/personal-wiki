@@ -10045,3 +10045,11 @@ Created [[Turbopuffer]], [[NathanVanBenschoten]], [[ANNv3]], [[SPFresh]], and [[
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | Thoughts on the July 8th Telstra outage report
+
+Created [[Telstra]], [[LorinHochstein]], and [[SSU2000]], and updated [[NetworkTimeSynchronization]], [[SystemReliability]], and [[BlamelessPostmortem]] from their complete ordered evidence inventories. Recorded lost NTP redundancy, symmetric-source loops, GPS failover promotion, the restart-triggered 19.7-year rollback, poisoned-time propagation into Sydney, mobile-core saturation, and repair of roughly 30,000 corrupted IP-prefix records. Preserved the secondary reconstruction's explicit telecom-expertise, topology, terminology, vendor, Perth-impact, configuration, telemetry, and causal-verification limits, plus conflicting accounts of whether GPS was intended failover. Opened and retained all eleven evidence-bearing maps, diagrams, and the rollover warning at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

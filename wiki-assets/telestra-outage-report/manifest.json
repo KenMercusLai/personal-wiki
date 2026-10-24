@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source_key": "telestra-outage-report",
+  "images": [
+    {
+      "file": "exchange-locations.png",
+      "alt": "Map of Telstra NTP exchange sites in Perth, Melbourne, and Sydney"
+    },
+    {
+      "file": "multi-server-client-topology.png",
+      "alt": "Telstra NTP clients connected to Perth, Melbourne, and Sydney servers, including one client configured for two servers"
+    },
+    {
+      "file": "ntp-topology-2010.png",
+      "alt": "Telstra 2010 NTP hierarchy with National Measurement Institute Stratum 1 sources and redundant cross-site Stratum 2 paths"
+    },
+    {
+      "file": "ntp-topology-after-2020-upgrade.png",
+      "alt": "Telstra NTP hierarchy after the 2020 upgrade with failed local Stratum 3 to Stratum 2 paths in Sydney and Melbourne"
+    },
+    {
+      "file": "ssu-2000-gps-rollover-warning.png",
+      "alt": "September 2022 rollover warning naming affected SSU 2000 GPS card hardware revisions"
+    },
+    {
+      "file": "symmetric-ntp-topology.png",
+      "alt": "Five-server NTP example with two Stratum 1 sources, two Stratum 2 servers, and a shared Stratum 3 client"
+    },
+    {
+      "file": "symmetric-peer-failover.png",
+      "alt": "Symmetric NTP example where Stratum 2 server B loses source A and selects former client C as its source"
+    },
+    {
+      "file": "melbourne-timing-loop.png",
+      "alt": "Melbourne NTP server becoming Stratum 5 through a Stratum 4 client after losing its Sydney source"
+    },
+    {
+      "file": "melbourne-gps-failover.png",
+      "alt": "Melbourne NTP server promoted to Stratum 1 through GPS failover while its clients become Stratum 2"
+    },
+    {
+      "file": "melbourne-maintenance-offline.png",
+      "alt": "Melbourne Stratum 2 and GPS-backed Stratum 1 servers offline during SSU 2000 chassis maintenance"
+    },
+    {
+      "file": "poisoned-time-propagation.png",
+      "alt": "Incorrect Melbourne time propagating through a shared Stratum 2 client to the Sydney Stratum 3 server"
+    }
+  ]
+}
