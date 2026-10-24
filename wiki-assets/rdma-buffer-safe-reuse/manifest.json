@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "source_key": "rdma-buffer-safe-reuse",
+  "images": [
+    {"file": "application-read-remote-buffer.png", "alt": "Client and server sequence for pulling a remote buffer with RDMA Read and acknowledging completion by reverse RPC"},
+    {"file": "remote-read-local-buffer-validation.png", "alt": "Remote RDMA Read sequence that validates whether the exposed local buffer was reused before accepting the result"},
+    {"file": "type-2-memory-window-lifecycle.png", "alt": "Type 2 Memory Window sequence granting an RKey for RDMA Read and asynchronously invalidating it after completion"},
+    {"file": "3fs-write-request-validation.png", "alt": "3FS write path checking the original request msgid after RDMA Read before reporting success"},
+    {"file": "3fs-read-pull-flow.png", "alt": "3FS read path using a reverse pull RPC and RDMA Read with timeout and connection-reset recovery branches"}
+  ]
+}

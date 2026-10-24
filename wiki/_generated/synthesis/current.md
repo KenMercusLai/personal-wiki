@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-24
-as_of_overview_commit: d4a1a6ba845f6fc74b2b6ef178f510add952d64c
+as_of_overview_commit: 1b5aebc62d7d71d7a3b1ba4eb595431e3d64b4d7
 summary: "A cross-domain map of evidence-qualified systems thinking, where architecture, provenance, incentives, institutions, behavior, and deployment constraints jointly shape outcomes."
-episode_count: 1260
-source_count: 1260
-paragraph_count: 884
+episode_count: 1261
+source_count: 1261
+paragraph_count: 885
 topic_count: 9
 ---
 

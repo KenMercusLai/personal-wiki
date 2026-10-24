@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
       "b4d40a6c4d077341679657e4d47d33d0c96395f7b049f501f160b14040a2e053",
       "edeb2c0ef6ae17d5586fa9d79f498b70cc0a03080a28d11a1f79325f128ca3cb",
       "2140a47ee4792ff073182b2cc9c451898144e7ffaf60c1a5aee560a51f06c3cb",
@@ -886,11 +887,25 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 884
+    "paragraph_count": 885
   },
-  "overview_commit": "d4a1a6ba845f6fc74b2b6ef178f510add952d64c",
-  "overview_digest": "b88b01e0f59dff5f6a9f14084084fe3890b6c44725858eb04f0d2a0fa4bdef3d",
+  "overview_commit": "1b5aebc62d7d71d7a3b1ba4eb595431e3d64b4d7",
+  "overview_digest": "50b8d37532d103ea2c566f4e84bab452d80ae367ce42f915d67048a292e56ff4",
   "paragraphs": [
+    {
+      "id": "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[3FS]] systems source adds [[RDMABufferLifecycleSafety]] as a distributed ownership problem rather than a local buffer-pool operation. After a process shares registered memory, its timeout does not prove that the peer's NIC has stopped using that authority: a late RDMA Write can silently mutate recycled memory, while a late RDMA Read can consume unrelated replacement contents. The portable design therefore avoids remote writes, lets the receiver issue RDMA Read, and validates afterward that the original request still owns the buffer; 3FS writes query whether the client `msgid` remains pending, while reads use a reverse pull RPC and retain connection teardown only when an in-flight read outlives a short recovery wait. New [[ReceiverDrivenFlowControl]] connects this ownership discipline to application-level admission, because the receiver can schedule reads from its buffer and processing capacity before traffic enters the fabric. Type 2 Memory Windows offer a near-one-RTT alternative by binding and asynchronously invalidating a request-scoped RKey, but require compatible hardware and can leave the QP needing reconnection after a late access. The article is a first-party design account without formal verification, failure-injection results, latency or throughput measurements, congestion traces, or independent reproduction; its application path adds one RTT, and its claim that network congestion control alone was insufficient remains source-scoped. All five local sequence diagrams were opened and retained canonically at their semantic positions, including success, timeout, reuse, invalidation, and forced-reset branches.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "3FS",
+        "RDMABufferLifecycleSafety",
+        "ReceiverDrivenFlowControl"
+      ]
+    },
     {
       "id": "b4d40a6c4d077341679657e4d47d33d0c96395f7b049f501f160b14040a2e053",
       "primary_topic": "ai-and-technology",

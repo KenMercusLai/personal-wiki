@@ -10141,3 +10141,11 @@ Created [[HawDB]] and [[TraceableMultiSourceComparison]] and updated [[VaneData]
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | 一种安全的 RDMA Buffer 复用策略
+
+Created [[3FS]], [[RDMABufferLifecycleSafety]], and [[ReceiverDrivenFlowControl]]. Recorded the application-level read-then-validate protocol, 3FS `msgid` checks and reverse pull flow, Type 2 Memory Window alternative, receiver-driven congestion-control rationale, and residual connection-reset paths. Preserved the extra-RTT, hardware-support, QP-error, missing-measurement, and first-party evidence boundaries. Opened and retained all five evidence-bearing local sequence diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

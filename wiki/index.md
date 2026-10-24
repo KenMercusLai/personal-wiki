@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [一种安全的 RDMA Buffer 复用策略](sources/rdma-buffer-safe-reuse.md) - SF-Zhou combines receiver-issued RDMA Read with post-completion ownership validation, and contrasts the extra-RTT application path with Type 2 Memory Window revocation.
 - [Vane Data + HawDB：构建可追溯的多视频比较工作流](sources/vane-data-hawdb-video-comparison.md) - A multimodal comparison proof of concept separates retrieval, extraction, comparability, and relation judgment while preserving versioned transcript-and-frame evidence for replay.
 - [GitHub confirms breach of 3,800 repos via malicious VSCode extension](sources/github-3800-repos.md) - GitHub confirmed that a poisoned VS Code extension compromised an employee endpoint and enabled exfiltration of roughly 3,800 internal repositories, while TeamPCP attribution remained unconfirmed.
 - [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](sources/deepseek-v41-tech-report.md) - DeepSeek-AI documents a 552B multimodal MoE combining causal prefill early exit, cross-layer sparse-attention reuse, FP4 and lifecycle-aware KV compression, data-centered agentic post-training, and scalar reasoning effort.
@@ -1294,6 +1295,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为何写作](sources/wei-he-xie-zuo.md) - Laixintao argues that personally authored writing preserves changing beliefs and lived memory, exposes unclear thought, enables expression and connection, and cannot be replaced by generated prose for those purposes.
 
 ## Entities
+- [3FS](entities/3FS.md) - Distributed file system whose revised RDMA paths use request-state validation and client-side pulls to preserve buffer safety without routine timeout disconnects.
 - [HawDB](entities/HawDB.md) - Embedded Rust multimodal database used to store graph provenance, versioned evidence, consistent source snapshots, and optional vector-search records.
 - [TeamPCP](entities/TeamPCP.md) - Self-identified cybercriminal group that advertised GitHub internal source code and roughly 4,000 private repositories without confirmed GitHub attribution.
 - [Visual Studio Code](entities/VisualStudioCode.md) - Extensible Microsoft code editor whose plugin trust boundary was implicated in the GitHub repository-exfiltration incident.
@@ -3329,6 +3331,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [RDMA Buffer Lifecycle Safety](concepts/RDMABufferLifecycleSafety.md) - Protocol discipline coordinating remote memory authority, request identity, completion, timeout, and registered-buffer reuse.
+- [Receiver-Driven Flow Control](concepts/ReceiverDrivenFlowControl.md) - Application-level pull policy that lets a data receiver coordinate transfer admission with buffer and processing capacity.
 - [Traceable Multi-Source Comparison](concepts/TraceableMultiSourceComparison.md) - Workflow that separates relevance, extraction validity, comparability, and claim relation while preserving versioned evidence for human replay.
 - [Developer Extension Supply-Chain Attack](concepts/DeveloperExtensionSupplyChainAttack.md) - Compromise of a developer plugin so trusted tooling becomes a path to workstations, source code, credentials, or build systems.
 - [Agentic Reinforcement Learning](concepts/AgenticReinforcementLearning.md) - Multi-turn post-training in which a model learns tool-using behavior from interaction with mutable environments and task-level feedback.
