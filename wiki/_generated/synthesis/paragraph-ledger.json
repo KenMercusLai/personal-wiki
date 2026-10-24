@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "edeb2c0ef6ae17d5586fa9d79f498b70cc0a03080a28d11a1f79325f128ca3cb",
       "2140a47ee4792ff073182b2cc9c451898144e7ffaf60c1a5aee560a51f06c3cb",
       "3c61efc3075159ac06a235b9b2891610fbdbeede872684dfae4aa2355588e5b0",
       "772d12154c4f65fd54acf312e2782a32d8dc8e40d2aece8646132223eee2c094",
@@ -884,11 +885,29 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 882
+    "paragraph_count": 883
   },
-  "overview_commit": "46b2938a6e2cdf6f8121c1659ec53b76ef41c954",
-  "overview_digest": "6353b33f4fdada52edb7ad32835a91d26938514b3ea2c430eab3eca4f0793ba9",
+  "overview_commit": "6c33d3f092cd8f3e1dfe3f0b9ec0204ea35714b3",
+  "overview_digest": "284be35b98858d777aa544d6d3bfdcee901cd1a62315d0c8d35229910ffc5a25",
   "paragraphs": [
+    {
+      "id": "edeb2c0ef6ae17d5586fa9d79f498b70cc0a03080a28d11a1f79325f128ca3cb",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[Laixintao]] source joins four writing functions that the wiki previously treated separately. [[JournalingPractice]] gains a long-horizon time-capsule role: old prose preserves earlier beliefs, circumstances, and emotional texture so a later self can see changes that memory may smooth over. [[LearningByWriting]] gains a paired mechanism in which explaining an idea exposes what remains unclear, while the resulting technical post can later reactivate knowledge after disuse. [[ProfessionalBlogging]] gains friendship and mutual recognition as outcomes distinct from traffic, career conversion, or technical influence; the author predicts that AI-mediated learning will weaken blogs as a technical channel while preserving their capacity to help compatible people find one another. The strictest claim concerns [[AIAssistedWriting]]: generated prose cannot substitute when the point of writing is the writer's own memory, thought exercise, expression, or direct relationship with readers. That purpose-based test usefully qualifies output-centered workflows, but the essay is a personal argument with no comparative outcome evidence and does not distinguish delegated composition from bounded transcription, critique, checking, or revision. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "JournalingPractice",
+        "Laixintao",
+        "LearningByWriting",
+        "ProfessionalBlogging"
+      ]
+    },
     {
       "id": "2140a47ee4792ff073182b2cc9c451898144e7ffaf60c1a5aee560a51f06c3cb",
       "primary_topic": "governance-and-institutions",

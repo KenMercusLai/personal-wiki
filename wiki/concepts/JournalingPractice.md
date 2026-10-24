@@ -7,7 +7,8 @@ sources:
   - become-a-better-coder-by-keeping-a-programming-journal
   - replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity
   - larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji
-last_updated: 2026-10-01
+  - wei-he-xie-zuo
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,12 +20,14 @@ The sources frame journaling as a family of lightweight structures rather than o
 
 Across these forms, the journal acts as external evidence. It preserves technical and personal state that memory may lose, directs attention toward material the writer expects to record, and makes repeated decisions, avoidance, unfinished thoughts, and progress easier to notice. The practical common denominator is not exhaustive logging but a prompt small enough to sustain and specific enough to change what can be examined next.
 
+Laixintao extends this external-evidence account across a longer horizon. Old entries can recover not only events but the emotional texture and assumptions of an earlier self, making changes in belief visible that present memory might otherwise smooth over. The diary or blog therefore functions as a time-separated conversation, although the source's claim that generated diaries would fail this purpose depends on whether the recorded language and selection still represent the diarist's own experience.
+
 ## Key Claims
 - Journaling is easier to sustain when its cue, scope, and prompt are small, memorable, and repeatable.
 - Different structures serve different needs: daily reflection, technical reasoning, work transitions, emotional clarification, gratitude, achievement evidence, and choice review.
 - Specific events, problems, emotions, and actions make entries more inspectable than generic reflection or exhaustive chronology.
 - Prompts shape attention by making lessons, connections, support, fear, progress, unfinished thoughts, and repeated decisions easier to notice.
-- Journaling can externalize knowledge, work state, and personal reasoning that would otherwise depend on memory or compete for attention.
+- Journaling can externalize knowledge, work state, emotion, and personal reasoning that would otherwise depend on memory, and later review can make changes in belief visible.
 - Retrospective review can reveal patterns across earlier choices and outcomes, but the sources do not establish that noticing alone reliably changes behavior or wellbeing.
 
 ## Evidence
@@ -33,14 +36,14 @@ Across these forms, the journal acts as external evidence. It preserves technica
 - Grounded material: [[become-a-better-coder-by-keeping-a-programming-journal]] asks for bug descriptions, reproduction steps, causes, attempts, and lessons; [[larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji]] asks what caused an emotional change, what is feared, what can be done, and how a decision relates to a goal.
 - Attention shaping: [[a-better-easier-way-to-journal-personal-growth-medium]] argues that prompts make people look for gratitude, learning, and connection; [[replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity]] makes distraction and mood visible; [[larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji]] redirects attention toward support, progress, and repeated choice patterns.
 - Externalized state and review: [[become-a-better-coder-by-keeping-a-programming-journal]] preserves unresolved problems and attempted solutions; [[replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity]] records unfinished thoughts and the next move; [[larsman-bu-cong-wei-shen-me-dao-xie-shen-me-dai-ni-chong-xin-ren-shi-ri-ji]] uses older entries to compare past concerns and decisions with later outcomes.
+- Time-separated self-dialogue: [[wei-he-xie-zuo]] uses changed views and memories of an earlier life period to argue that personally written records preserve details and feelings a later self can no longer reconstruct unaided.
 
 ## Counterevidence & Qualifications
-The sources are advice essays and practitioner accounts rather than comparative evidence for journaling outcomes. Benefits for attention, productivity, motivation, learning, health, emotion regulation, confidence, or retention are therefore plausible mechanisms or reported experience, not established universal effects. Lars漫步's claims about brain regions, expressive writing, gratitude and happiness, and rapid emotional relief are summarized through secondary references without enough primary-study detail for independent evaluation. Structured prompts can also become overhead, intensify rumination, feel minimizing during grief or trauma, disrupt work when used too frequently, or hide shared commitments in private notes. Timing, medium, prompt, and review cadence should remain purpose- and person-dependent.
+The sources are advice essays and practitioner accounts rather than comparative evidence for journaling outcomes. Benefits for attention, productivity, motivation, learning, health, emotion regulation, confidence, retention, or accurate autobiographical recovery are therefore plausible mechanisms or reported experience, not established universal effects. Lars漫步's claims about brain regions, expressive writing, gratitude and happiness, and rapid emotional relief are summarized through secondary references without enough primary-study detail for independent evaluation. Structured prompts can also become overhead, intensify rumination, feel minimizing during grief or trauma, disrupt work when used too frequently, or hide shared commitments in private notes. AI assistance may preserve a diarist's selected experience or may overwrite voice and interpretation; the new source rejects generated diaries but does not test intermediate workflows. Timing, medium, prompt, review cadence, and authorship boundary should remain purpose- and person-dependent.
 
 ## What Changed
-- Added retrospective review, emotional clarification, achievement evidence, and decision reconstruction to the set of journaling use cases.
-- Reframed selective meaningful recording, rather than exhaustive chronology, as the shared design principle.
-- Tightened the evidence boundary around claimed health, happiness, confidence, and emotion-regulation outcomes.
+- Added time-separated self-dialogue and visible belief change as long-horizon functions of personal records.
+- Added authorship fidelity as a qualification when AI mediation changes the wording or selection of diary material.
 
 ## Related Concepts
 - [[GratitudePractice]] - uses the journal to notice specific people, events, and support.

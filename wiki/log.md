@@ -10117,3 +10117,11 @@ Created [[DiomidisSpinellis]] and updated [[WorkplaceAutomation]], [[Technologic
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | 为何写作
+
+Created [[Laixintao]] and updated [[LearningByWriting]], [[JournalingPractice]], [[ProfessionalBlogging]], and [[AIAssistedWriting]] from their complete ordered evidence inventories. Recorded writing's time-capsule, thought-clarification, knowledge-recovery, expression, direct-connection, friendship, and technical-influence functions. Preserved the source's first-person scope, unsupported outcome claims, declining-blog-influence prediction, and unresolved boundary between generated composition and bounded AI assistance. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-24
-as_of_overview_commit: 46b2938a6e2cdf6f8121c1659ec53b76ef41c954
+as_of_overview_commit: 6c33d3f092cd8f3e1dfe3f0b9ec0204ea35714b3
 summary: "A cross-domain map of evidence-qualified systems thinking, where architecture, incentives, institutions, behavior, and deployment constraints jointly shape outcomes."
-episode_count: 1257
-source_count: 1257
-paragraph_count: 882
+episode_count: 1258
+source_count: 1258
+paragraph_count: 883
 topic_count: 9
 ---
 
@@ -82,7 +82,7 @@ Health and science evidence is heterogeneous and mechanism-sensitive: average as
 
 ### Work, Education, and Society
 
-Learning and work improve through active practice, observable reasoning, feedback, role clarity, sustainable boundaries, and fair incentives; easier tools and automation widen access without guaranteeing transfer, quality, or welfare.
+Learning and work improve through active practice, observable reasoning, durable reflection, feedback, role clarity, sustainable boundaries, and fair incentives; easier tools and automation widen access without guaranteeing transfer, authorship, quality, or welfare.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

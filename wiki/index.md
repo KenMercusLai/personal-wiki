@@ -1289,8 +1289,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The attack chain behind the v1.107.0 LiteLLM release](sources/litellm-security-incident-attack-chain.md) - LiteLLM traces an unrevoked public key through owner-token exposure, CI credential theft, release-source substitution, compromised approval, signed malicious artifacts, and forensic cleanup.
 - [The Crystallization of Transformer Architectures (2017-2025)](sources/transformer-architectures.md) - Jun Yu Tan traces a 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, and KV sharing while preserving MoE, long-context, hardware, and sampling qualifications.
 - [Thinking will become a hobby](sources/thinking-will-become-a-hobby.md) - Diomidis Spinellis predicts that AI performance, cost, and availability will shift cognitive work toward machines and make purpose beyond employment a central adaptation problem.
+- [为何写作](sources/wei-he-xie-zuo.md) - Laixintao argues that personally authored writing preserves changing beliefs and lived memory, exposes unclear thought, enables expression and connection, and cannot be replaced by generated prose for those purposes.
 
 ## Entities
+- [Laixintao](entities/Laixintao.md) - Blogger and software engineer who frames writing as a time capsule, thinking exercise, expressive practice, and direct human connection.
 - [Diomidis Spinellis](entities/DiomidisSpinellis.md) - Software-engineering author represented by a personal forecast about cognitive automation and a fulfilling life beyond economically necessary thought.
 - [Tom Zahavy](entities/TomZahavy.md) - AI researcher represented by a personal position on abductive scientific invention, world models, and the bounded limits of current LLM recipes.
 - [Celeste](entities/Celeste.md) - Precision platform game whose fast room-level restart supplies an analogy for low-cost failure and immediate software retry.
