@@ -4,47 +4,55 @@ type: concept
 tags: [ai, reasoning-models, inference-scaling, compute-control]
 sources:
   - controlling-reasoning-effort
-last_updated: 2026-10-19
+  - deepseek-v41-tech-report
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[ReasoningEffort]] is a trained control that asks one reasoning model to spend less or more inference-time computation on a response, usually changing reasoning-trace length, latency, cost, and task performance without changing the model weights.
+[[ReasoningEffort]] is a learned control that asks one model checkpoint to spend less or more inference-time computation on a response, usually changing reasoning-trace length, latency, cost, and task performance without changing the weights.
 
 ## Current Synthesis
-Reasoning effort is best understood as learned conditional behavior rather than a generic prompt trick or a synonym for maximum tokens. The control may arrive through a system-message label, chat-template prefill, continuous scalar, or mode flag, but it works only when post-training has associated that signal with a response regime. Disclosed implementations use mixed thinking and non-thinking SFT, effort-conditioned token penalties during RL, separate specialists distilled into one checkpoint, random reasoning truncation, or alternating budgeted and unconstrained optimization.
+Reasoning effort is trained conditional behavior, not a magic prompt or synonym for a hard token cap. Implementations may use system labels, chat-template modes, continuous scalars, specialist distillation, supervised target traces, budget-aware RL, or combinations. The common purpose is to expose a cost-quality operating curve after training, while preserving the distinction between changing a model's weights and changing how much inference work one checkpoint performs.
 
-The useful operating point is a joint decision across model choice and effort. A larger model changes the weights and per-token capability; higher effort on a fixed model spends more inference compute. Either can improve benchmark performance, and their cost-quality curves can overlap, but the reported gains flatten or become irregular at high effort. Hard token budgets remain a separate serving control: they can constrain a learned mode, but abrupt truncation is safest when training has taught the model to recover and answer from partial reasoning.
+The DeepSeek-V4.1 report supplies a concrete scalar-RL mechanism. Each prompt is sampled at selected effort values from 1 to 100; rewards are normalized within prompt-and-effort subgroups; and a capped per-token deduction decreases exponentially as requested effort rises. Under a local diminishing-marginal-benefit model, that schedule makes preferred reasoning length approximately affine in effort. Public low, high, and max tiers map to scalar values 50, 75, and 100.
+
+Observed control is stronger over spend than over accuracy. Aggregate reasoning and agent evaluations generally improve as effort and output length rise, with most gains before the maximum tier. Yet scaffold-specific curves show plateaus and intermediate dips even while output length grows monotonically. Deployment should therefore treat effort as a calibrated budget preference whose quality response remains task- and harness-dependent.
 
 ## Key Claims
-- Effort labels and mode flags select behaviors learned during post-training; the same wording does not confer the behavior on an arbitrary model.
-- Higher effort usually permits more generated reasoning tokens and can improve difficult-task accuracy, while also increasing latency and cost.
-- Supervised examples, effort-conditioned RL rewards, specialist distillation, and explicit budget-robustness training are complementary implementation families.
-- `<think>` delimiters separate trace from answer but do not themselves create reasoning capability.
-- Learned effort modes and hard inference budgets are distinct controls that can be combined.
-- Model scaling and effort scaling are separate axes whose performance-cost curves can overlap.
-- Automatic mode selection remains an unresolved routing problem; explicit user control is still valuable for cost, latency, and maximum-performance preferences.
+- Effort labels or scalars select behavior learned during post-training; identical wording does not create the behavior in an arbitrary model.
+- Higher effort usually permits more reasoning tokens and can improve difficult-task accuracy while increasing latency and cost.
+- Effort-conditioned SFT, RL token penalties, specialist distillation, and truncation robustness are complementary training families.
+- A decreasing token penalty can teach one checkpoint a continuum of cost-quality operating points without a hard generation cap.
+- Learned effort and hard token limits remain different controls and can be combined.
+- Output length responds more reliably than accuracy, especially across different agent scaffolds.
+- Model selection and effort selection are separate axes whose cost-quality curves may overlap.
 
 ## Evidence
-- Prompt-conditioned behavior: [[controlling-reasoning-effort]] shows GPT-OSS inserting low, medium, or high effort in the system message and reports longer, more accurate responses at higher settings.
-- Reward conditioning: [[controlling-reasoning-effort]] describes Inkling varying per-token cost with a continuous requested effort value during large-scale RL.
-- Mixed-mode supervision: [[controlling-reasoning-effort]] describes Qwen3 Thinking Mode Fusion and Nemotron's teacher-generated medium-effort plus randomly truncated traces.
-- Specialist consolidation: [[controlling-reasoning-effort]] describes DeepSeek V4 and Kimi K3 training mode or domain specialists and using on-policy multi-teacher distillation to form a unified checkpoint.
-- Budget robustness: [[controlling-reasoning-effort]] describes Kimi Toggle alternating constrained and unconstrained RL and Qwen or Nemotron continuing after externally stopped reasoning.
-- Cost-quality boundary: [[controlling-reasoning-effort]] retains GPT-5.6 and Inkling curves with higher token use and generally higher scores but diminishing or uneven gains.
+Training mechanisms:
+- [[deepseek-v41-tech-report]] defines prompt-and-effort sampling, within-subgroup reward normalization, the capped exponential length penalty, deployment-time interpolation, and the 50/75/100 public tier mapping.
+- [[controlling-reasoning-effort]] compares effort-conditioned RL with mixed-mode SFT, specialist distillation, random trace truncation, and budget-alternating optimization across several model families.
+
+Cost-quality response:
+- [[deepseek-v41-tech-report]] reports aggregate gains from effort 25 to 100 alongside roughly 2.5 times more output tokens and places most marginal value in the 60–80 range.
+- [[controlling-reasoning-effort]] shows that higher effort often raises tokens, latency, cost, and scores but that returns flatten or become uneven at high settings.
+
+Scaffold and control boundary:
+- [[deepseek-v41-tech-report]] shows monotonic trajectory-length growth but non-monotonic Pass@1 within several DeepSWE and Terminal-Bench scaffold pairs.
+- [[controlling-reasoning-effort]] separates learned modes from trace delimiters, hard budgets, and automatic model routing.
 
 ## Counterevidence & Qualifications
-The evidence is predominantly vendor-authored reports, first-party benchmarks, and Raschka's synthesis rather than controlled equal-compute experiments. Similar labels conceal different recipes, several reward formulas and data mixtures remain undisclosed, and proprietary GPT-5.6 behavior is inferred partly from GPT-OSS rather than documented directly. Generated-token count is only a proxy for useful inference compute: longer traces can be redundant, confused, or unfaithful. Benchmark curves depend on model, workload, provider pricing, and evaluation design, so no universal effort setting or training recipe follows from the comparisons.
+Most evidence is vendor-authored or synthesized from vendor reports rather than controlled equal-compute experiments. Similar labels conceal different training recipes and serving behavior. DeepSeek's exponential-penalty derivation is a local interior-solution approximation; stochastic generation, strategy changes, multi-turn length variation, subgroup normalization, and the penalty cap can violate its simple affine prediction. Longer traces are only a proxy for useful computation and can be redundant or confused. Aggregate monotonicity does not guarantee that any individual task, scaffold, or sample improves with additional effort.
 
 ## What Changed
-- Created a synthesis separating learned effort modes from prompt wording, trace delimiters, hard token caps, and model selection.
-- Consolidated the disclosed SFT, RL, specialist-distillation, and truncation-robustness mechanisms.
-- Added diminishing returns and automatic mode routing as explicit operating boundaries.
+- Added DeepSeek-V4.1's disclosed scalar effort sampling and exponential token-penalty mechanism.
+- Distinguished reliable spend control from irregular scaffold-specific accuracy response.
+- Added the public 50/75/100 tier mapping and the report's diminishing-return operating range.
 
 ## Related Concepts
-- [[ChainOfThoughtReasoning]] - supplies the intermediate computation whose presence and length effort controls regulate.
-- [[ReinforcementLearning]] - can condition token costs and rewards on requested effort.
-- [[ReasoningModelDistillation]] - merges specialist effort behaviors into one deployable checkpoint.
+- [[ChainOfThoughtReasoning]] - supplies the intermediate computation whose amount effort controls regulate.
+- [[ReinforcementLearning]] - can condition token penalties and rewards on requested effort.
+- [[ReasoningModelDistillation]] - consolidates specialist effort behaviors into one checkpoint.
 - [[InferenceTokenization]] - generated-token volume is a visible but imperfect proxy for inference work and cost.
-- [[DeepSeekR1]] - demonstrates outcome-rewarded reasoning that predates the richer multi-effort control recipes.
-- [[KimiK15]] - illustrates earlier explicit pressure toward shorter correct reasoning trajectories.
+- [[AgenticReinforcementLearning]] - extends effort control from single responses to multi-turn exploration and verification trajectories.
+- [[DeepSeekV41Flash]] - implements the disclosed scalar effort mechanism and public tiers.

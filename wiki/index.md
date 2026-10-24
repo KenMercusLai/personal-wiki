@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](sources/deepseek-v41-tech-report.md) - DeepSeek-AI documents a 552B multimodal MoE combining causal prefill early exit, cross-layer sparse-attention reuse, FP4 and lifecycle-aware KV compression, data-centered agentic post-training, and scalar reasoning effort.
 - [为什么大模型后训练集体转向 Agentic RL？一个算法老兵的复盘](sources/wei-shen-me-da-mo-xing-hou-xun-lian-ji-ti-zhuan-xiang-agentic-rl-yi-ge-suan-fa-lao-bing-de-fu-pan.md) - A practitioner review distinguishes environment-coupled trajectory learning from single-turn RLVR and maps its scaling case, infrastructure requirements, and failure modes.
 - [LLMs can't jump](sources/llms-cant-jump.md) - Tom Zahavy argues that current LLM recipes do not obviously supply Einstein-style abductive invention and proposes physically consistent multimodal world models, while explicitly limiting the claim.
 - [游戏《蔚蓝山》教我的编程道理](sources/celeste-programming.md) - Piglei uses Celeste's three-second room retries to argue that focused automated tests reduce programming's feedback and repetition costs.
@@ -1491,7 +1492,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Red Blob Games](entities/RedBlobGames.md) - Educational game-algorithm site represented through an interactive, implementation-oriented pathfinding tutorial with explicit production-evidence limits.
 - [Nowledge Mem](entities/NowledgeMem.md) - Cross-tool personal and team memory layer built around progressive knowledge forms, hybrid retrieval, temporal evolution, attention control, and inspectable local data.
 - [Zartbot](entities/Zartbot.md) - Technical author interpreting model architecture through cache locality, sparse addressing, and query-rewrite geometry.
-- [DeepSeek-V4.1-Flash](entities/DeepSeekV41Flash.md) - Multimodal MoE model combining causal prefill early exit, cross-layer sparse-attention cache reuse, hierarchical indexing, and FP4 main KV.
+- [DeepSeek-V4.1-Flash](entities/DeepSeekV41Flash.md) - 552B-backbone multimodal MoE combining causal prefill early exit, compressed sparse attention, FP4 and lifecycle-aware KV storage, and data-centered agent post-training.
 - [CxEric](entities/CxEric.md) - Writer represented through a qualified systems analogy connecting supply-chain demand amplification to AI infrastructure investment.
 - [Daft](entities/Daft.md) - Python-facing, Rust-backed DataFrame engine designed to expose multimodal operations to query optimization and streaming execution.
 - [OpenAI o1](entities/OpenAIo1.md) - Reasoning model reported to improve with reinforcement-learning compute and additional test-time reasoning.
@@ -3471,9 +3472,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Differential Heuristic](concepts/DifferentialHeuristic.md) - Reusable A* lower bound formed from differences between precomputed exact landmark distances.
 - [Memory Forgetting](concepts/MemoryForgetting.md) - Deliberate reduction of memory salience or active status through decay, confidence, importance, interaction, and conservative archival policy.
 - [Bitemporal Memory](concepts/BitemporalMemory.md) - Agent-memory model that separately tracks when events happened and when the system learned or stored them.
-- [KV-Cache Compression](concepts/KVCacheCompression.md) - Reduction of attention state across channel, sequence, layer, and precision dimensions while preserving useful later-token readout.
-- [Causal Encoder-Decoder Architecture](concepts/CausalEncoderDecoderArchitecture.md) - Transformer organization that stops bulk prompt positions after a causal context-producing stack and reuses its global memory in later decoder layers.
-- [Compressed Sparse Attention 2](concepts/CompressedSparseAttention2.md) - Sparse attention that independently refreshes or reuses global content, Top-K addresses, and per-layer queries while retaining fresh local-window state.
+- [KV-Cache Compression](concepts/KVCacheCompression.md) - Reduction of attention state across representation, layer, precision, persistence, and recovery dimensions while preserving useful later-token readout.
+- [Causal Encoder-Decoder Architecture](concepts/CausalEncoderDecoderArchitecture.md) - Transformer organization that stops bulk prompt positions after a causal memory-producing stack and approximately reconstructs decoder-local state when needed.
+- [Compressed Sparse Attention 2](concepts/CompressedSparseAttention2.md) - Sparse attention that refreshes or reuses global content and Top-K addresses independently while retaining fresh queries and local-window state.
 - [Hierarchical Sparse Indexer](concepts/HierarchicalSparseIndexer.md) - One full-history scan followed by a shared block candidate pool and independently re-ranked in-pool selections for deeper decoder layers.
 - [Bullwhip Effect](concepts/BullwhipEffect.md) - Amplification and reversal of terminal-demand signals through delayed forecasts, safety buffers, inventory, procurement, and capacity decisions across a supply chain.
 - [AI Infrastructure Stack](concepts/AIInfrastructureStack.md) - Responsibility map spanning compute, models, knowledge, context, orchestration, execution, memory, quality, operations, and cross-cutting governance.
@@ -3485,7 +3486,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Neural Semantic Matching](concepts/NeuralSemanticMatching.md) - Learned query-document matching through cacheable independent representations or expressive joint token interaction.
 - [Relevance-Constrained Ranking](concepts/RelevanceConstrainedRanking.md) - Value optimization under a relevance target using shadow pricing, replay or feedback control, and qualified value-aware perturbation.
 - [Chain-of-Thought Reasoning](concepts/ChainOfThoughtReasoning.md) - Intermediate reasoning that trades additional inference compute for decomposition, checking, correction, and alternate approaches.
-- [Reasoning Effort](concepts/ReasoningEffort.md) - Learned control over a fixed model's inference-time reasoning budget, cost, latency, and task performance.
+- [Reasoning Effort](concepts/ReasoningEffort.md) - Learned control over a fixed model's inference-time spend, with stronger control over output length than guaranteed task or scaffold accuracy.
 - [Group Relative Policy Optimization](concepts/GroupRelativePolicyOptimization.md) - Critic-free policy optimization using relative rewards across multiple sampled responses to the same prompt.
 - [Reasoning-Model Distillation](concepts/ReasoningModelDistillation.md) - Transfer of stronger-model reasoning behavior into smaller models or shorter correct trajectories.
 - [Adload-Constrained Mixed Ranking](concepts/AdloadConstrainedMixedRanking.md) - Hierarchical optimization that prices shared ad capacity at application level and searches order-preserving request layouts under placement constraints.

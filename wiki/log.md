@@ -10101,3 +10101,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression
+
+Updated [[DeepSeekV41Flash]], [[CausalEncoderDecoderArchitecture]], [[CompressedSparseAttention2]], [[KVCacheCompression]], and [[ReasoningEffort]] from their complete ordered evidence inventories. Recorded causal prompt early exit, CSA2 content/address/query reuse, hierarchical indexing, FP4 global KV, short-lived SWA storage and bounded replay, 45T-token multimodal pre-training, data-centered agentic post-training, asynchronous rollout infrastructure, scalar effort conditioning, and preliminary agent-team scaling. Preserved first-party, ablation, benchmark, production-cost, sparse-selection, replay-boundary, scaffold-sensitivity, and independent-reproduction limits. Opened all 33 referenced figures, tables, algorithms, and equation images; retained six evidence-bearing architecture, cache, reasoning-effort, and multi-agent visuals with descriptive filenames and a canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

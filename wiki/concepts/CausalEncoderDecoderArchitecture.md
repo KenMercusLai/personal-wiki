@@ -4,46 +4,50 @@ type: concept
 tags: [ai, transformer, prefill, long-context, inference]
 sources:
   - ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot
-last_updated: 2026-10-08
+  - deepseek-v41-tech-report
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[CausalEncoderDecoderArchitecture]] is a Transformer organization in which a lower causal stack produces reusable global context representations and an upper decoder stack reads those representations with new queries, allowing most prompt positions to stop before traversing the full network.
+[[CausalEncoderDecoderArchitecture]] is a Transformer organization in which a lower causal stack produces reusable global context representations and an upper decoder reads those representations with new queries, allowing most prompt positions to stop before traversing the full network.
 
 ## Current Synthesis
-In the described DeepSeek design, the first 20 of 40 backbone layers form a causal encoder. Its boundary representation supplies the decoder's global KV through layer-specific projections, so bulk prompt positions need not execute the upper 20 layers. The decoder still builds fresh local sliding-window state at every layer and processes generated positions normally.
+In [[DeepSeekV41Flash]], the first 20 of 40 backbone layers form a causal encoder. Its final hidden state supplies decoder global KV through layer-specific projections, so long prompt positions traverse the encoder but not the complete decoder. Generated tokens still execute all decoder layers, and every decoder layer retains its own local sliding-window state and query behavior.
 
-This creates a recovery problem after a cold or resumed prefill: decoder-local KV for historical positions does not exist because those positions exited early. Bounded replay recomputes only a recent suffix instead of recursively reconstructing the entire theoretical sliding-window receptive field. The approximation preserves access to long history through global sparse KV while accepting that the local state near the replay boundary differs from full execution.
+That split moves cost rather than eliminating every decoder dependency. Historical prompt positions have no decoder-local SWA state because they exited early. Exact reconstruction would replay a depth-expanded history, so the system instead processes only the most recent 128 tokens under a truncated local-attention interval. Global sparse KV remains available throughout, but local state near the replay boundary is approximate. The architecture therefore combines a strong asymptotic prefill saving with an explicitly tested—not mathematically exact—recovery path.
 
 ## Key Claims
-- Separating global-memory production from repeated consumption can approximately halve long-prompt backbone work.
-- The architecture's encoder remains causal; the name describes its role as a reusable context producer, not bidirectional access.
-- Decoder layers retain distinct queries and local SWA state even when they share global content from the encoder boundary.
-- Exact reconstruction of deep local-window state can require a history much longer than one window because dependencies expand across layers.
-- Bounded replay caps that recovery work at a fixed suffix length and is therefore most consequential in tool-heavy sessions with short new increments.
-- Global sparse memory remains available during replay, so the approximation truncates local reconstruction rather than the whole historical context.
+- Separating global-memory production from decoder consumption can approximately halve backbone work for prompts much longer than the replay window.
+- The encoder is causal; its name describes a memory-producing role rather than bidirectional access.
+- Decoder global KV is projected from the encoder boundary with layer-specific weights, while decoder queries and local SWA state remain layer-specific.
+- Exact recovery of stacked sliding-window state can require a history proportional to depth times window size.
+- Bounded replay caps recovery at one recent window and is especially valuable after short tool-call increments or persistent-cache hits.
+- The saving is workload-dependent because short prompts, warm local state, projection, MoE, communication, and replay overhead remain.
 
 ## Evidence
-Early exit:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] contrasts full 40-layer prompt execution with 20-layer encoder execution plus a bounded decoder suffix.
+Memory boundary and compute:
+- [[deepseek-v41-tech-report]] gives the projection from the 20th-layer hidden state to each decoder layer's global KV and reduces long-sequence complexity from full 40-layer prompt execution toward 20 layers plus bounded replay.
+- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] reconstructs the same midpoint early-exit path and distinguishes prompt-side from generated-token execution.
 
-Memory boundary:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] says decoder global KV is projected from the final causal-encoder representation while decoder queries remain layer-specific.
+Local-state reconstruction:
+- [[deepseek-v41-tech-report]] explains encoder and decoder SWA Bounded Replay, the 128-token replay interval, cached-global-KV reuse, and the deliberate difference from full decoder execution.
+- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] explains why local dependencies expand across decoder depth and why the bounded suffix is an approximation.
 
-Replay tradeoff:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] explains why local dependencies expand across decoder depth and why replay is deliberately approximate.
+Deployment consequence:
+- [[deepseek-v41-tech-report]] uses bounded replay to remove SWA KV from long-lived persistent storage and to make local-cache misses a fixed-size recomputation rather than a full depth-expanded replay.
 
 ## Counterevidence & Qualifications
-The near-half compute claim applies when prompt length greatly exceeds the bounded replay suffix and should not be read as a universal latency or FLOP ratio. Short prompts, warm-cache behavior, projection work, MoE execution, communication, and implementation overhead change realized savings. The source reports prior evidence that SWA influence decays with distance but does not reproduce a task-level ablation of the chosen replay bound.
+The near-half prefill claim is asymptotic and does not imply a universal latency or FLOP ratio. The report says bounded replay causes negligible quality loss in its tests and simulates the decoder path during post-training, but it provides no independent replication or exhaustive cache-resumption stress test. Because replayed local states differ by cache-hit position, untested boundaries can still degrade behavior; the authors identify this as future robustness work. The evidence is one primary vendor report plus a secondary technical reconstruction derived from it.
 
 ## What Changed
-- Defined causal encoder-decoder as a prefill early-exit and shared-memory architecture.
-- Added bounded replay as the explicit cost-versus-local-state approximation.
+- Added the primary projection and complexity account behind causal prompt early exit.
+- Connected bounded replay to persistent-cache removal and both encoder- and decoder-local state recovery.
+- Reframed negligible observed degradation as tested approximation rather than exact equivalence.
 
 ## Related Concepts
 - [[TransformerArchitecture]] - broader family whose depth is partitioned into causal context production and consumption.
-- [[CompressedSparseAttention2]] - implements the shared global-memory and fresh local-window readout.
-- [[KVCacheCompression]] - benefits from the reduced number of independently retained global caches.
-- [[AttentionMechanism]] - supplies layer-specific queries over shared encoder-derived memory.
-- [[PromptCaching]] - application-level prefix reuse can avoid prefill, while this architecture reduces the cost when prefill remains necessary.
+- [[CompressedSparseAttention2]] - supplies shared global memory and layer-local sparse readout within the split architecture.
+- [[KVCacheCompression]] - benefits from fewer independently retained global caches and a shorter-lived local state lifecycle.
+- [[AttentionMechanism]] - provides layer-specific queries over encoder-derived global memory and local SWA state.
+- [[PromptCaching]] - avoids some prefills entirely, while causal early exit and replay reduce work when a prefix must be resumed or extended.

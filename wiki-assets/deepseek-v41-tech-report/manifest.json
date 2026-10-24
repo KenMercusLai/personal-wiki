@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "deepseek-v41-tech-report",
+  "images": [
+    {
+      "file": "model-architecture.png",
+      "alt": "DeepSeek-V4.1-Flash combines a causal encoder, decoder, CSA2, Engram, vision input, and DSpark"
+    },
+    {
+      "file": "csa2-operating-modes.png",
+      "alt": "CSA2 Full, Reindex, and Reuse modes compute or share different cache components"
+    },
+    {
+      "file": "cache-and-agent-benchmarks.png",
+      "alt": "Agent benchmark scores accompany a reported reduction to 890 bytes of global KV per token"
+    },
+    {
+      "file": "reasoning-effort-tradeoff.png",
+      "alt": "Reasoning effort raises output length and generally improves aggregate reasoning and agent benchmarks"
+    },
+    {
+      "file": "reasoning-effort-by-scaffold.png",
+      "alt": "Scaffold-specific reasoning-effort curves show monotonic token growth but irregular accuracy"
+    },
+    {
+      "file": "multi-agent-deadline-scaling.png",
+      "alt": "Multi-agent configurations outperform selected single-agent baselines across tested wall-clock deadlines"
+    }
+  ]
+}

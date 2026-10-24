@@ -4,51 +4,55 @@ type: concept
 tags: [ai, attention, sparse-attention, kv-cache, long-context]
 sources:
   - ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot
-last_updated: 2026-10-08
+  - deepseek-v41-tech-report
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[CompressedSparseAttention2]] (CSA2) is a sparse-attention design that joins local sliding-window KV with selected global latent KV while sharing global content, indexer keys, and sometimes Top-K addresses across layers.
+[[CompressedSparseAttention2]] (CSA2) is a sparse-attention design that joins fresh local sliding-window KV with selected global KV while sharing global content, indexer keys, and sometimes Top-K addresses across layers.
 
 ## Current Synthesis
-CSA2 separates an attention read into content, address, and query. Content is the compressed global dictionary and is expensive to rebuild; the address is the discrete Top-K subset chosen by an indexer; the query is a cheap, continuous per-layer projection that reweights selected content. Full layers refresh all three, Reindex layers keep content but choose new addresses, and Reuse layers keep content and addresses while changing only the query. Every mode also computes fresh local sliding-window KV.
+CSA2 separates an attention read into content, address, and query. Full layers publish main KV, derive indexer K, compute indexer Q, and select new Top-K addresses. Reindex layers reuse main KV and indexer K but compute a fresh indexer query and address set. Reuse layers share both content and the latest compatible addresses, computing only a new main query and local SWA state. This lets expensive state change more slowly without forcing every layer to use an identical readout.
 
-The design compresses across channel, sequence, and layer dimensions. Encoder Full layers publish 2:1 position-compressed content, while the decoder Full layer preserves per-token entries. Unlike the predecessor described in the source, CSA2 removes overlapping compression groups and absolute positions from the compressor, then projects indexer K from the main-KV latent rather than running a separate hidden-state compression path.
+The design compounds channel, sequence, layer, and precision reductions. The encoder compresses adjacent positions two to one and publishes global content from three Full layers; the decoder keeps per-token content from one Full layer, refreshes addresses in four Reindex layers, and otherwise uses Reuse. A hierarchical decoder indexer performs one full-history scan, creates a candidate pool of up to 16,384 positions, and limits later Reindex searches to that pool. FP4 main KV further reduces the surviving cache representation.
+
+This reuse has a hard semantic boundary. A Reuse layer can reweight the selected content through its query, but it cannot retrieve omitted positions or repair an upstream selection error. Periodic Full and Reindex layers restore content or address flexibility, while the local 128-token SWA branch supplies fresh nearby state.
 
 ## Key Claims
-- Full, Reindex, and Reuse make cache sharing and sparse-address reuse independent decisions.
-- Main KV and indexer K are shared content state; Top-K indices are address state; queries and local SWA KV remain fresh layer operands.
-- Content changes slowest, addresses change at a middle rate, and queries change every layer because their recomputation costs and semantic roles differ.
-- Reuse can still produce layer-specific outputs by exponentially tilting weights over one fixed selected dictionary.
-- Reuse cannot retrieve an omitted item, move the dictionary vectors, or escape the selected vectors' convex hull.
-- Periodic Full and Reindex layers restore content and address flexibility that query-only layers lack.
-- Joint softmax over global selected content and local SWA lets each layer allocate attention between stable long-range memory and fresh nearby state.
+- Full, Reindex, and Reuse make cache sharing and sparse-address reuse independent scheduling decisions.
+- Main KV and indexer K are shared content state; Top-K indices are address state; main queries and local SWA KV remain layer-local operands.
+- Non-overlapping sequence compression and deriving indexer K from main KV simplify the predecessor's compressor paths.
+- Cross-layer sharing removes duplicated storage, while address reuse removes repeated indexer work.
+- Hierarchical indexing makes later decoder reindex cost bounded by candidate-pool size, although the first Full layer still scans all visible history.
+- Query-only reuse cannot recover content excluded by the shared address set, so periodic refresh layers remain necessary.
+- Joint use of selected global content and local SWA balances stable long-range memory against fresh nearby information.
 
 ## Evidence
-Mode contract:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] diagrams which of main KV, indexer K, Top-K indices, main Q, and SWA KV each mode computes or reuses.
+Mode contract and schedules:
+- [[deepseek-v41-tech-report]] specifies the three execution modes and the encoder schedule of Full plus five Reuse layers versus the decoder schedule of Full or Reindex plus three Reuse layers.
+- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] reconstructs the same contract as different refresh rates for content, address, and query.
 
-Layer schedule:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] groups encoder layers into one Full plus five Reuse layers and decoder layers into one Full or Reindex plus three Reuse layers.
+Compression and implementation:
+- [[deepseek-v41-tech-report]] documents non-overlapping compression groups, removal of compressor absolute positions, projected indexer K, FP4 main KV, cross-pipeline shadow indexers, and fused Reuse paths of 15 prefill or 11 decode kernels.
+- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] derives the cache accounting and explains the 2:1 encoder versus per-token decoder entries.
 
-Query-only geometry:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] derives Reuse output as a convex combination over fixed selected vectors and query perturbation as an exponential tilt of a baseline distribution.
-
-Simplified compression:
-- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] contrasts non-overlapping CSA2 groups and projected indexer K with the predecessor's overlapping support and separate indexer compressor.
+Indexer and expressivity boundary:
+- [[deepseek-v41-tech-report]] defines the first full-range decoder scan, 2,048 eight-position blocks, 16,384-position candidate pool, and later Top-512 selections.
+- [[ba-kv-cache-ya-suo-tui-dao-ji-zhi-zartbot]] analyzes Reuse as query-dependent reweighting over a fixed selected dictionary and identifies its inability to recover omitted content.
 
 ## Counterevidence & Qualifications
-The fixed-dictionary analysis is an expressivity upper bound, not proof that learned queries can reach every distribution allowed by the geometry. Reuse inherits upstream selection errors and cannot repair missing content. Reindex remains limited by the decoder candidate pool, and the source does not disclose full training losses or isolate quality effects by mode. Many formulas were lost in the supplied Markdown, so the retained diagrams and prose support the qualitative contract more strongly than every numerical derivation.
+The report evaluates the complete system rather than isolating the quality contribution of every sharing mode, compression ratio, precision choice, or candidate-pool size. Reuse inherits upstream selection errors, and Reindex cannot search outside the shared decoder pool. The vendor reports no systematic degradation in its test suite but explicitly leaves extreme sparse-retrieval failures and robustness boundaries unresolved. The secondary geometric analysis gives an expressivity limit, not proof that learned queries attain every allowable weighting. Performance and kernel counts also depend on the disclosed implementation stack rather than the abstract attention design alone.
 
 ## What Changed
-- Established content, address, and query as distinct refreshable attention state.
-- Defined the Full/Reindex/Reuse contract and its expressivity boundary.
+- Added primary-source mode, layer-schedule, compressor, and distributed-training details.
+- Connected hierarchical candidate restriction and fused kernel counts to CSA2's compute savings.
+- Elevated selection error from an inferred limit to an explicit robustness boundary acknowledged by the report.
 
 ## Related Concepts
 - [[AttentionMechanism]] - provides the query-weighted readout that CSA2 sparsifies and shares.
-- [[KVCacheCompression]] - CSA2 implements channel, sequence, and layer compression together.
-- [[CausalEncoderDecoderArchitecture]] - schedules CSA2 differently across its memory-producing and memory-consuming halves.
-- [[HierarchicalSparseIndexer]] - restricts decoder Reindex searches to a shared candidate pool.
-- [[BlockQuantization]] - further reduces the stored main-KV and indexer-K entries.
-- [[TransformerArchitecture]] - organizes CSA2 with MoE blocks and residual paths into repeated layers.
+- [[KVCacheCompression]] - CSA2 combines channel, sequence, layer, and precision reduction.
+- [[CausalEncoderDecoderArchitecture]] - schedules global content production differently across encoder and decoder halves.
+- [[HierarchicalSparseIndexer]] - restricts later decoder Reindex searches to a shared candidate pool.
+- [[BlockQuantization]] - supplies local scaling for FP4 main-KV entries.
+- [[TransformerArchitecture]] - places CSA2 beside MoE, residual mixing, and local attention in repeated layers.
