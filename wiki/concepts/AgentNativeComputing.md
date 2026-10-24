@@ -5,7 +5,8 @@ tags: [ai, agents, interfaces, apps, personal-computing]
 sources:
   - apple-and-a-hackers-future
   - apps-agents-and-aggregation
-last_updated: 2026-10-13
+  - zgent-design-journey-3
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -13,9 +14,9 @@ knowledge_schema: synthesis-v1
 [[AgentNativeComputing]] is the source's proposed shift from app-specific interfaces and developer-built integrations toward an agent that becomes the user's general interface, composes existing software, and creates personal software or device behavior on demand.
 
 ## Current Synthesis
-The sources argue that the app model can become a bottleneck when every capability requires a developer to expose an API, adopt a platform intent, or maintain a distinct user interface. Browser and computer-use agents can instead cross existing services, while coding agents can create software for a user's particular workflow. The new source adds a concrete consumer example: Muse turned saved Instagram posts into a searchable personal recipe app, then continued analyzing videos in the background. In this view the agent becomes a “universal interface,” apps become implementation suppliers, and permission, memory, credentials, and personalization increasingly concentrate at the agent layer.
+The sources argue that the app model can become a bottleneck when every capability requires a developer to expose an API, adopt a platform intent, or maintain a distinct user interface. Browser and computer-use agents can instead cross existing services, while coding agents can create software for a user's particular workflow. Muse supplies a concrete consumer example by turning saved Instagram posts into a searchable personal recipe app and continuing video analysis in the background. In this view the agent becomes a “universal interface,” apps become implementation suppliers, and permission, memory, credentials, and personalization increasingly concentrate at the agent layer.
 
-The sources connect this shift to both hosted and local hardware. Muse reportedly provisions a virtual computer for each user, while Muse Gadgets provides open-source firmware, an SDK, and a small local-network gateway intended to expose custom devices to the agent. [[MicrosoftCopilot]] is presented as the enterprise version: a primary interface backed by identity, memory, a cloud computer, permissions, audit, and governance. The larger thesis is directional, not established. Apps can still provide reliable semantics, discoverability, accessibility, safety, transaction structure, and efficient execution that ad hoc agents may fail to reproduce.
+The sources connect this shift to both hosted and local hardware. Muse reportedly provisions a virtual computer for each user, while Muse Gadgets provides open-source firmware, an SDK, and a small local-network gateway intended to expose custom devices to the agent. [[MicrosoftCopilot]] is presented as the enterprise version: a primary interface backed by identity, memory, a cloud computer, permissions, audit, and governance. [[ZGent]] offers a different synthesis in which apps remain explicit installable software, but a shared [[AgentOperatingSystem]] supplies accounts, model mediation, storage, sharing, and permission primitives while every app includes an agent conversation. The larger thesis is directional, not established. Apps can still provide reliable semantics, discoverability, accessibility, safety, transaction structure, and efficient execution that ad hoc agents may fail to reproduce.
 
 ## Key Claims
 - App-specific UI and integration work can constrain agent utility when each developer must adopt new platform capabilities.
@@ -23,6 +24,7 @@ The sources connect this shift to both hosted and local hardware. Muse reportedl
 - Coding agents and [[GenerativeUI]] reduce the cost of software and interfaces tailored to an individual rather than a mass market.
 - Agent-level permissions and persistent context become more important as the agent creates and coordinates many programs.
 - Hosted computers, open hardware, and local gateways can extend the agent interface across software, background work, and personally built devices.
+- A multi-user agent substrate can preserve specialized apps while moving identity, model access, artifacts, and authorization into a common platform layer.
 - The strategic limit may shift from software availability toward an individual's volition, judgment, and tolerance for security and maintenance risk.
 
 ## Evidence
@@ -34,13 +36,15 @@ The sources connect this shift to both hosted and local hardware. Muse reportedl
 - Hosted execution: [[apps-agents-and-aggregation]] reports that Muse provisions a virtual computer for each user and that Copilot's Autopilot has its own cloud-computer instance.
 - Platform bid: [[apps-agents-and-aggregation]] interprets Muse and Microsoft Copilot as attempts to own the primary interface while existing apps and services become suppliers.
 - Platform consequence: [[apple-and-a-hackers-future]] presents a Linux server purchase and reduced default loyalty to Apple as one user's response to agent-host constraints.
+- App-preserving variant: [[zgent-design-journey-3]] describes installable chat, coding, slide, research, and app-building products whose task-specific loops share identity, model, storage, and permission services.
 
 ## Counterevidence & Qualifications
-These are two essays by the same technically sophisticated author, not evidence of broad adoption or durable platform displacement. The recipe case demonstrates one useful workflow but not correctness, accessibility, maintenance, or general autonomy; Instagram rate limits also show that suppliers retain technical and policy control. Browser and GUI automation can be brittle, expensive, slow, inaccessible, blocked, or unsafe, while generated software still needs testing, provenance, durable data, and secure authority boundaries. The earlier source's claim that AI can decompile almost any existing software is unusually broad and unsupported. Mass-market users may prefer curated apps and integrated devices, and concentrating context and credentials in one agent creates switching, privacy, security, and systemic-failure risks.
+The first two sources are essays by the same technically sophisticated author, while ZGent is a project-authored design narrative; none establishes broad adoption or durable platform displacement. The recipe case demonstrates one useful workflow but not correctness, accessibility, maintenance, or general autonomy; Instagram rate limits also show that suppliers retain technical and policy control. Browser and GUI automation can be brittle, expensive, slow, inaccessible, blocked, or unsafe, while generated software still needs testing, provenance, durable data, and secure authority boundaries. ZGent's scenarios do not specify isolation, revocation, audit, or malicious-app defenses. The earlier source's claim that AI can decompile almost any existing software is unusually broad and unsupported. Mass-market users may prefer curated apps and integrated devices, and concentrating context and credentials in one agent or platform creates switching, privacy, security, and systemic-failure risks.
 
 ## What Changed
 - Added a concrete generated personal app and hosted-computer model to the agent-as-interface thesis.
 - Added Microsoft's enterprise agent as a parallel platform bid with organizational controls.
+- Added ZGent's app-preserving, multi-user operating-system variant of agent-native computing.
 
 ## Related Concepts
 - [[ComputerUse]] - supplies cross-application browser and desktop action channels.
@@ -51,3 +55,4 @@ These are two essays by the same technically sophisticated author, not evidence 
 - [[AgentOrientedProgrammingLanguages]] - explores software structures designed around agent behavior rather than traditional application flow.
 - [[GenerativeUI]] - creates task-specific visual interfaces within the broader agent-native model.
 - [[AggregationTheory]] - explains the strategic power of owning the primary agent interface to downstream suppliers.
+- [[AgentOperatingSystem]] - centralizes common identity, model, storage, app, and authorization services beneath agent applications.

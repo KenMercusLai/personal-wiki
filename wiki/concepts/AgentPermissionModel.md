@@ -9,7 +9,8 @@ sources:
   - chuang-zao-yi-zhi-long-xia-xu-yao-xie-shi-me-frosts-blog
   - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
   - apple-and-a-hackers-future
-last_updated: 2026-10-13
+  - zgent-design-journey-3
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -29,6 +30,8 @@ Mai Yang supplies an operator-level rollout rule. Because Grok Bot can act throu
 
 Thompson adds an identity-and-abstraction constraint from a headless Mac host. If an agent continuously creates small programs, granting permission separately to every generated executable can be both noisy and operationally ineffective; protected prompts that the agent cannot observe also turn denial into an unexplained failure. Durable agent-level authority would reduce that friction, but it must remain bounded by externally enforced capabilities because the same broad access can expose files, messages, credentials, devices, and network services.
 
+ZGent adds a multi-user, app-mediated resource model. A storage grant is not merely “agent may read files”: it can depend on the storage owner, acting account, app identity, and particular folder or file. This makes cross-user workflows possible without general account access, but the source leaves an important enforcement boundary unclear when it says app code restricts each participant to one record while platform permissions block other apps from the folder.
+
 ## Key Claims
 - All-or-nothing and purely app-scoped permissions are a poor fit for agents with heterogeneous action risk and dynamically generated programs.
 - Confirmation dialogs should be reserved for operations whose reversibility, scope, or sensitivity warrants interruption.
@@ -36,7 +39,7 @@ Thompson adds an identity-and-abstraction constraint from a headless Mac host. I
 - Privacy-sensitive actions should be visible even when they do not require immediate blocking.
 - Destructive or high-impact actions such as sending, publishing, spending, deleting, or overwriting should require explicit confirmation or stronger authentication until a narrower grant is justified.
 - Permission systems need behavior-level alarms and audit trails because users cannot reliably judge every command or API call.
-- Skills may describe credential and host restrictions, but the runtime should independently enforce scopes, destinations, sensitive-action gates, and per-agent isolation.
+- Skills may describe restrictions, but the runtime should independently enforce destinations, sensitive-action gates, per-agent isolation, and multi-user resource scopes across owner, caller, app, and object.
 
 ## Evidence
 - Flat prompt problem: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] says current coding-agent permission dialogs ask users to judge every read, write, and command.
@@ -53,18 +56,20 @@ Thompson adds an identity-and-abstraction constraint from a headless Mac host. I
 - Abstraction mismatch: [[apple-and-a-hackers-future]] argues that a headless agent needs an agent-level permission layer rather than fresh protected GUI approval for every program it creates.
 - Invisible denial: [[apple-and-a-hackers-future]] says protected prompts can make programs fail silently because neither the agent nor its remote interface can inspect the consent surface.
 - Broad-access boundary: [[apple-and-a-hackers-future]] quotes Apple's warning that Full Disk Access can expose files, mail, messages, and browsing history, even when an expert user intentionally wants that authority.
+- Multi-dimensional grant: [[zgent-design-journey-3]] describes files and folders authorized for particular accounts only through particular apps, including cross-user writes into an owner's dedicated folder.
+- Credential mediation: [[zgent-design-journey-3]] lets users select administrator-configured models without revealing the underlying API keys.
 
 ## Counterevidence & Qualifications
 Thompson's headless Mac Mini is an unusual expert deployment, and moving permission from generated programs to an agent identity could concentrate authority and make a compromised agent more dangerous.
 
-The sources outline a product direction rather than a complete permission taxonomy. Real deployments still need domain-specific risk scoring, user role models, audit storage, escalation paths, revocation, side-effect semantics, and integration with sandbox or capability systems. Local execution, written Skill rules, and natural-language requests do not guarantee that a model will distinguish hostile data from instructions. Frost Ming's autonomy thesis is one short first-person prototype without a threat model or failure study. NanoClaw's account is first-party and overstates containers as inescapable; kernel, runtime, mount, credential, network, and external-side-effect risks remain. Mai Yang's staged rollout is a prudent personal rule, not evidence that one successful attempt predicts safety or that every external action can be made recoverable.
+The sources outline product directions rather than a complete permission taxonomy. Real deployments still need domain-specific risk scoring, user role models, audit storage, escalation paths, revocation, side-effect semantics, and integration with sandbox or capability systems. Local execution, written Skill rules, and natural-language requests do not guarantee that a model will distinguish hostile data from instructions. Frost Ming's autonomy thesis is one short first-person prototype without a threat model or failure study. NanoClaw's account is first-party and overstates containers as inescapable; kernel, runtime, mount, credential, network, and external-side-effect risks remain. Mai Yang's staged rollout is a prudent personal rule, not evidence that one successful attempt predicts safety or that every external action can be made recoverable. ZGent's scenario is also first-party and does not show whether participant-level record isolation is platform-enforced, app-enforced, auditable, or revocable.
 
 ## What Changed
 - Recast isolation enforced outside the agent as the root boundary, with prompts, allowlists, and skill rules as defense in depth.
 - Extended permission scope from one agent's actions to cross-agent filesystems, histories, mounts, and group authority.
 - Distinguished discretionary product behavior from non-discretionary external authority boundaries.
 - Added reversibility and observed use as gates for expanding permission classes.
-- Added the headless-host requirement that consent failures be observable and that durable agent-level grants not collapse into unrestricted host authority.
+- Extended durable authority from headless agent grants to ZGent's owner-caller-app-resource scopes while preserving observability and external-enforcement requirements.
 
 ## Related Concepts
 - [[AgentSystemTransparency]] - audit trails and visible state make permissions meaningful.
@@ -78,3 +83,4 @@ The sources outline a product direction rather than a complete permission taxono
 - [[DeliverableFirstAgentDesign]] - validates the workflow before its permissions and scheduling are widened.
 - [[MacOS]] - supplies the source's case of protected app-scoped prompts mismatching a persistent agent identity.
 - [[AgentNativeComputing]] - shifts permission design toward an agent coordinating many generated programs and interfaces.
+- [[AgentOperatingSystem]] - applies scoped authority across shared apps, models, users, and account-owned storage.

@@ -10165,3 +10165,11 @@ Updated [[DeepChat]], [[PsiACE]], [[TapeAndAnchors]], [[EffectLog]], and [[Dynam
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | ZGent 设计之旅 #3 AI 时代的操作系统
+
+Created [[ZGent]], [[WangZibo]], and [[AgentOperatingSystem]] and updated [[AgentNativeComputing]] and [[AgentPermissionModel]] from their complete ordered evidence inventories. Recorded shared identity and model mediation, installable agent apps, cross-app artifact storage, public conversation sharing, and grants scoped by owner, caller, app, and resource. Preserved the first-party, missing-security-model, app-versus-platform enforcement, reliability, adoption, and independent-verification boundaries. Opened the sole local image and omitted it as a decorative monitor-and-app-icons illustration, so no asset manifest was required.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
