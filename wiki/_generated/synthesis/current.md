@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-24
-as_of_overview_commit: fa24872565d5c937fac2509b67f6a20b64056fb5
-summary: "Podcast Atlas connects technology, institutions, markets, work, and human outcomes through boundaries, evidence, verification, incentives, recovery, and accountable control."
-episode_count: 1253
-source_count: 1253
-paragraph_count: 880
+as_of_overview_commit: 8ae8aafa85cf81f41cfe026ea120a500fad5d2fd
+summary: "Podcast Atlas connects technology, science, institutions, markets, work, and human outcomes through evidence, verification, incentives, recovery, and accountable control."
+episode_count: 1254
+source_count: 1254
+paragraph_count: 881
 topic_count: 9
 ---
 
@@ -16,12 +16,12 @@ topic_count: 9
 
 ## Executive Summary
 
+- [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven.
 - [[TransformerArchitecturalConvergence]] describes a strong dense decoder-only default around pre-[[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], and [[GroupedQueryAttention]] or related KV sharing, while [[QueryKeyNormalization]], MoE routing, and long-context attention remain unsettled; adoption reflects model behavior together with kernels, accelerator shapes, KV-cache economics, and ecosystem path dependence.
-- [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance.
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - The [[Instapaper]] incident shows that [[BackupAndRecovery]] must test restoration onto a viable substrate because [[AmazonRDS]] snapshots can preserve the same inherited constraint that caused failure.
 - [[AutomatedContentFarming]] shows how [[YouTube]], [[Google]], [[WebAdEconomics]], and weak [[PlatformAbuseResponse]] can reward cheap machine-produced copies of reporting per view, allowing the harvesting work to compete for the same platform revenue as the original publisher.
-- [[ReleasePipelineSecurity]] makes separation of duties an independence property rather than an account count: [[LiteLLM]] shows that branch protection, two-person approval, signing, and ordinary audit views can all collapse when owner authority and maintainer credentials are reachable through one compromise path, so [[SecretManagement]] must pair revocation and least privilege with independently rooted approvals and out-of-path evidence.
+- [[ReleasePipelineSecurity]] extends AI infrastructure safety beyond model and runtime controls: [[LiteLLM]] shows that an unrevoked agent-platform key can expose an owner token, CI can harvest more identities, and a compromised control plane can produce signed malicious artifacts through nominally valid approvals; [[SecretManagement]] therefore needs revocation, least privilege, transitive-authority mapping, independent approval roots, and audit evidence outside the mutable pipeline.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Writing adds a distinctive understanding test by exposing gaps, forcing insight-preserving compression, and reconstructing ideas for a reader rather than merely producing finished text. [[EngineeringExpertise]] adds [[PaulBuchheit]]'s cross-layer form of that practice: sustained construction and diagnosis connect hardware, kernels, protocols, systems, applications, and product consequences, while consequential responsibility can extend capability beyond prior experience. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material. [[SearchAssistedProgramming]] adds bounded external lookup for volatile details, candidate solutions, and reasoning checks, with [[SystematicLearning]] and [[DeveloperDocumentation]] providing the structure needed to judge and verify what is found.
 
@@ -29,10 +29,10 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical leverage depends on workload-specific architecture, representation, placement, verification, observability, bounded authority, and tested recovery.
+Technical leverage depends on workload-specific architecture, representations, grounded capability evidence, verification, observability, bounded authority, and tested recovery.
 
+- [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
 - [[TransformerArchitecturalConvergence]] describes a strong dense decoder-only default around pre-[[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], and [[GroupedQueryAttention]] or related KV sharing, while [[QueryKeyNormalization]], MoE routing, and long-context attention remain unsettled; adoption reflects model behavior together with kernels, accelerator shapes, KV-cache economics, and ecosystem path dependence. Evidence: [[TransformerArchitecturalConvergence]], [[RMSNorm]], [[RotaryPositionalEncoding]], [[SwiGLU]], [[GroupedQueryAttention]], [[QueryKeyNormalization]], [[FlashAttention]].
-- [[ReasoningEffort]] is learned conditional inference behavior rather than a generic prompt trick, trace delimiter, hard token cap, or model switch: mixed-mode supervision, effort-conditioned reinforcement learning, specialist distillation, and truncation-robustness training can let one checkpoint trade latency and cost for task-specific performance. Evidence: [[ReasoningEffort]], [[ChainOfThoughtReasoning]], [[SebastianRaschka]].
 
 ### Business and Markets
 

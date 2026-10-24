@@ -10085,3 +10085,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-24] ingest | LLMs can't jump
+
+Created [[TomZahavy]], [[AbductiveReasoning]], and [[WorldModels]]. Recorded the paper's separation of an underdetermined experience-to-axiom jump from deduction and experimental checking, the equivalence-principle case, and physically consistent multimodal world models as a proposed bridge. Preserved the personal-position, historical-case-study, missing-evaluation, contested-route, and no-impossibility-proof boundaries, plus the author's explicit statement that LLM-based systems already make discoveries and scaling may be sufficient. Opened and retained the sole evidence-bearing local diagram at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

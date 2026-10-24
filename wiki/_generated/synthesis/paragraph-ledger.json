@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3c61efc3075159ac06a235b9b2891610fbdbeede872684dfae4aa2355588e5b0",
       "772d12154c4f65fd54acf312e2782a32d8dc8e40d2aece8646132223eee2c094",
       "1e73232218e3c52215e122f96d86600041d08b2e6f2c50ee2b3d9333b9123943",
       "799b4df04ea345b559e672271f218b9196852acdaf56ab07f8445e3ca0113438",
@@ -882,11 +883,29 @@
       "e5e3314f12a50732ba7391f44b5290ff831ac9193c6898c2734dcc1a166709ca",
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86"
     ],
-    "paragraph_count": 880
+    "paragraph_count": 881
   },
-  "overview_commit": "fa24872565d5c937fac2509b67f6a20b64056fb5",
-  "overview_digest": "b4349efe50c7ff8c7a46ad9f17b64bd1d69dfb378b4255ee294049f1cbe4c584",
+  "overview_commit": "8ae8aafa85cf81f41cfe026ea120a500fad5d2fd",
+  "overview_digest": "9d241c42dc719dcad8c7a1e63e954ec4628e92a8f27d564030df1e0c3416fb04",
   "paragraphs": [
+    {
+      "id": "3c61efc3075159ac06a235b9b2891610fbdbeede872684dfae4aa2355588e5b0",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[TomZahavy]] position paper separates scientific invention into an underdetermined [[AbductiveReasoning|abductive]] jump from experience to explanatory axioms, deduction of consequences, and experimental checks. Einstein's equivalence principle is the test case: the retained diagram shows sense experience feeding a one-way jump to an axiom system, then two theorem branches returning to experiment. This adds a capability boundary to [[LanguageModeling]]: fluent pattern induction, proof, synthesis, and verification do not by themselves demonstrate the ability to originate a foundational explanation from sparse evidence. New [[WorldModels]] records Zahavy's proposed bridge—multimodal internal structure that remains physically coherent and supports imagined or counterfactual interaction—but preserves the evidentiary gap between that research direction and a working invention system. The article is a personal position, not a benchmark or impossibility proof; a cited response disputes whether general relativity requires the same abductive route, and Zahavy's own scope note says LLM-based systems already make discoveries and that scaling may be sufficient. The paper is dated January 2026, while the saved project page incorporates reception and responses from later in the year. Its sole local diagram was opened and retained canonically at the distinction it illustrates.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AbductiveReasoning",
+        "LanguageModeling",
+        "TomZahavy",
+        "WorldModels"
+      ]
+    },
     {
       "id": "772d12154c4f65fd54acf312e2782a32d8dc8e40d2aece8646132223eee2c094",
       "primary_topic": "psychology-and-personal-development",
