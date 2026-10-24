@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "celeste-programming",
+  "images": [
+    {
+      "file": "celeste-gameplay.jpg",
+      "alt": "Madeline stands beside a waterfall in Celeste's pixel-art mountain environment"
+    },
+    {
+      "file": "fast-room-retry.gif",
+      "alt": "Celeste room attempt ends on spikes and restarts at the room entrance in about three seconds"
+    }
+  ]
+}

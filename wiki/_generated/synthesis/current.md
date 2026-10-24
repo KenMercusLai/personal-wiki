@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-24
-as_of_overview_commit: 87e9a242bc0491f5788f4c68b088f08f4991674a
+as_of_overview_commit: fa24872565d5c937fac2509b67f6a20b64056fb5
 summary: "Podcast Atlas connects technology, institutions, markets, work, and human outcomes through boundaries, evidence, verification, incentives, recovery, and accountable control."
-episode_count: 1252
-source_count: 1252
-paragraph_count: 879
+episode_count: 1253
+source_count: 1253
+paragraph_count: 880
 topic_count: 9
 ---
 
@@ -68,7 +68,7 @@ Historical claims require attention to institutions, incentives, technology, sou
 
 ### Psychology and Personal Development
 
-Agency and judgment develop through feedback-rich practice, attention allocation, calibrated risk, adaptable routines, and awareness of social shortcuts.
+Agency and judgment develop through low-cost feedback-rich practice, attention allocation, calibrated risk, adaptable routines, and awareness of social shortcuts.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].

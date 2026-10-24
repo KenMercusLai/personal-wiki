@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-24] ingest | 游戏《蔚蓝山》教我的编程道理
+
+Created [[Celeste]] and [[DeveloperFeedbackLoop]], and updated [[Piglei]] and [[SoftwareVerification]] from their complete ordered evidence inventories. Recorded room-level retry boundaries, more-than-30-second manual browser loops, a reported 0.72-second five-test run, a 60-check role-permission matrix, and the extension of DRY from repeated code to repeated stable checking. Preserved the practitioner-analogy scope, unverified reception figures, illustrative timing limits, test-maintenance costs, and need for broader verification layers. Opened both local media assets and retained the gameplay screenshot and complete 38-frame, roughly 3.16-second failure-and-respawn GIF at their semantic positions with a canonical manifest.
+
 ## [2026-10-22] ingest | Reinforcement-Learning 学习笔记
 
 Created [[MultiArmedBandit]], [[MarkovDecisionProcess]], [[TemporalDifferenceLearning]], and [[FunctionApproximation]], and updated [[ReinforcementLearning]], [[MonteCarloEstimation]], and [[PolicyGradient]] from their complete ordered evidence inventories. Recorded evaluative feedback, stationary versus recency-weighted action values, Markov state sufficiency, partial observability, Bellman expectation and optimality, model-based versus sampled updates, Monte Carlo returns, TD bootstrapping, Sarsa and off-policy coverage, n-step tradeoffs, semi-gradients, state-distribution weighting, average reward, policy-score gradients, and baselines. Preserved the learner-notebook scope, extensive AI-generated explanation, unverified convergence assumptions, n-step motivation correction, and distinction between unbiased baselines and guaranteed variance reduction. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -10073,6 +10077,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-24] ingest | The Crystallization of Transformer Architectures (2017-2025)
 
 Created [[JunYuTan]], [[TransformerArchitecturalConvergence]], [[SwiGLU]], [[GroupedQueryAttention]], and [[QueryKeyNormalization]], and updated [[TransformerArchitecture]], [[RMSNorm]], [[RotaryPositionalEncoding]], and [[MixtureOfExpertsLoadBalancing]] from their complete ordered evidence inventories. Recorded the selected 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, KV sharing, and reduced bias use; preserved active diversity in MoE, long-context attention, and stability mechanisms. Qualified all adoption frequencies by descriptive sampling, family overlap, public-report bias, verification depth, hardware and kernel path dependence, and the absence of controlled ablations. Opened and retained the single evidence-bearing adoption chart at its semantic position with a descriptive filename and canonical manifest.
+
+## [2026-10-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-24] lint | Wiki health check
 

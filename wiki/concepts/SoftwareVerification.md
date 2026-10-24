@@ -13,7 +13,8 @@ sources:
   - agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan
-last_updated: 2026-10-07
+  - celeste-programming
+last_updated: 2026-10-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,6 +23,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Synthesis
 The sources introduce software verification through the specific risk of AI-generated code. Piglei focuses on the developer workflow: code review cannot expose every behavior issue, so engineers need automated tests and self-checks before asking others to review. The AI-first source raises the bar from local testing to production-speed verification: deterministic CI/CD, AI review, end-to-end tests, feature flags, staged rollout, monitoring, rollback, and post-deploy triage must make validation as fast as implementation. Onevcat adds the day-to-day coding-agent routine: compile after small features, run relevant tests, lint and format, use TDD when possible, and split work or use worktrees when verification latency becomes the bottleneck.
+
+Piglei's earlier Celeste essay supplies the local-loop mechanism beneath that advice. A browser-driven permissions check can require reload, navigation, setup, and repeated observation after every edit; focused API tests encode those expectations and return evidence in seconds. Verification therefore has a developer-experience role as well as a gatekeeping role: shorter loops make failures easier to connect to changes and make the next correction cheaper.
 
 The mihomo-rust case study shows verification as the hard boundary that makes multi-agent code generation acceptable. Its layered test infrastructure spans unit, async, integration, protocol, E2E, and CI jobs, and the author treats full test-suite execution as non-negotiable before merging agent work.
 
@@ -69,16 +72,15 @@ Ci Jian De Shan Lin moves the same bottleneck to infrastructure scale. When code
 - Correlated-review limit: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] warns that model-on-model self-review can pass averages while sharing systematic blind spots and failing in the tail.
 - External judges: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] treats compilers, rules, theorem checkers, databases, and reality feedback as epistemic anchors outside model reasoning.
 - Accountability: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] says high-volume verification needs complete auditability so errors can be proved, attributed, and reviewed after people leave the per-action loop.
+- Local feedback latency: [[celeste-programming]] contrasts a more-than-30-second browser-driven retry loop with a reported five-test run completing in 0.72 seconds.
+- Repeatable permission matrix: [[celeste-programming]] shows focused API tests encoding allowed and forbidden behavior across user roles instead of replaying the same manual checks.
 
 ## Counterevidence & Qualifications
-No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, LLM review, staging realism, staged rollout, production monitoring, residual snapshots, and human escalation depends on product risk, language, architecture, available observability, build latency, environment cost, semantic ambiguity, and the cost of false positives or false negatives. Multi-agent verification can harm liveness through retry storms, while snapshot-heavy regression can preserve wrong behavior unless paired with core tests and human judgment. “Heterogeneous” judges can still share specifications, training data, or upstream assumptions, and real-world feedback may arrive only after harm. Layered checks and audit trails reduce risk but do not decide acceptable error rates or remove human responsibility for architecture, intent, security, performance, and redress.
+No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, LLM review, staging realism, staged rollout, production monitoring, residual snapshots, and human escalation depends on product risk, language, architecture, available observability, build latency, environment cost, semantic ambiguity, and the cost of false positives or false negatives. A fast test can rapidly confirm an incomplete or wrong expectation, and the Celeste essay's timings do not include suite design, fixture, maintenance, or flakiness costs. Multi-agent verification can harm liveness through retry storms, while snapshot-heavy regression can preserve wrong behavior unless paired with core tests and human judgment. “Heterogeneous” judges can still share specifications, training data, or upstream assumptions, and real-world feedback may arrive only after harm. Layered checks and audit trails reduce risk but do not decide acceptable error rates or remove human responsibility for architecture, intent, security, performance, and redress.
 
 ## What Changed
-- Verification now spans local tests, execution-backed review, realistic staging, deployment gates, monitoring, rollback, and post-deploy confirmation.
-- Agent workflows need cheap deterministic floors, probabilistic semantic review, and human oracle routing rather than repeated versions of one judge.
-- Residual-focused tests and andon loops make behavioral changes visible and stop bad output before it accumulates downstream.
-- Added external non-model judges and reality feedback as epistemic anchors against correlated model-review errors.
-- Added complete auditability as the accountability layer required when agent volume exceeds per-action human review.
+- Added short feedback latency and low setup cost as explicit benefits of focused automated verification during implementation.
+- Distinguished the speed of a local check from the breadth and realism supplied by integration, staging, deployment, and production layers.
 
 ## Related Concepts
 - [[CodeReviewPractice]] - code review can include execution-backed behavioral checks.
@@ -101,3 +103,4 @@ No source defines a universal testing strategy. The appropriate mix of unit test
 - [[SnapshotTesting]] - captures behavior baselines that expose unintended changes.
 - [[BottleneckAwareAICoding]] - verification determines whether faster or parallel agent work can improve delivery throughput.
 - [[AccountabilityInfrastructure]] - preserves verification evidence so autonomous actions and residual failures can be reconstructed and attributed.
+- [[DeveloperFeedbackLoop]] - explains how verification latency and restart boundaries shape iteration quality.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [游戏《蔚蓝山》教我的编程道理](sources/celeste-programming.md) - Piglei uses Celeste's three-second room retries to argue that focused automated tests reduce programming's feedback and repetition costs.
 - [把 Redis 作者的 ds4 移植到昇腾 Atlas 300i Duo 上](sources/ds4-ascend.md) - Donge reports a functionally aligned but bandwidth-bound DwarfStar port whose CPU dequantization, repeated transfers, and single-die placement limit it to 0.1–0.3 token/s.
 - [ANN v3: 200ms p99 query latency over 100 billion vectors](sources/ann-v3.md) - Turbopuffer combines hierarchical clustering, one-bit RaBitQ filtering, SSD reranking, SIMD optimization, and random sharding for a vendor-reported 100-billion-vector search workload.
 - [The radical network redesign that led AWS to forge a more resilient cloud](sources/aws-random-graph.md) - Amazon describes ShuffleBox and Spraypoint as a reproducible flat random-graph fabric, with first-party performance, energy, resilience, and rollout claims.
@@ -1286,6 +1287,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Crystallization of Transformer Architectures (2017-2025)](sources/transformer-architectures.md) - Jun Yu Tan traces a 53-model shift toward pre-RMSNorm, RoPE, gated MLPs, and KV sharing while preserving MoE, long-context, hardware, and sampling qualifications.
 
 ## Entities
+- [Celeste](entities/Celeste.md) - Precision platform game whose fast room-level restart supplies an analogy for low-cost failure and immediate software retry.
 - [Jun Yu Tan](entities/JunYuTan.md) - Technical author represented by a 2017–2025 survey of Transformer architecture convergence and remaining design frontiers.
 - [Donge](entities/Donge.md) - Systems-optimization practitioner who ported DwarfStar to Huawei Ascend and separated functional alignment from performance readiness.
 - [DeepSeek V4 Flash](entities/DeepSeekV4Flash.md) - Reported 284B sparse MoE model targeted by DwarfStar, distinct from the wiki's DeepSeek-V4.1-Flash profile.
@@ -3314,6 +3316,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Developer Feedback Loop](concepts/DeveloperFeedbackLoop.md) - Repeated path from changing software through behavioral evidence and diagnosis to the next correction.
 - [Transformer Architectural Convergence](concepts/TransformerArchitecturalConvergence.md) - Concentration of dense decoder-only LLMs around a shared block recipe shaped by model behavior, hardware, inference economics, and ecosystem path dependence.
 - [SwiGLU](concepts/SwiGLU.md) - Gated Transformer feed-forward layer combining a SiLU-activated projection with a separate multiplicative gate.
 - [Grouped-Query Attention](concepts/GroupedQueryAttention.md) - Attention arrangement sharing fewer key-value heads across a larger set of query heads to reduce autoregressive cache state.

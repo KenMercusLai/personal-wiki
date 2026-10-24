@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "fast-feedback-loops-lower-iteration-cost-without-replacing-broad-verification",
+      "qualifications": [
+        "The timing comparison comes from one practitioner's illustrative workflow and small test run rather than controlled productivity, defect, or maintenance evidence.",
+        "Fast automated checks can rapidly preserve an incomplete or wrong expectation and do not replace browser, integration, staging, exploratory, accessibility, performance, or production evidence."
+      ],
+      "statement": "[[DeveloperFeedbackLoop]] links iteration quality to the time, setup, and state reconstruction between a change and usable evidence: [[Piglei]] uses [[Celeste]]'s room-level restart to explain why focused automated checks make retry cheap, while [[SoftwareVerification]] keeps that local speed inside a broader layered evidence strategy.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DeveloperFeedbackLoop",
+        "Piglei",
+        "Celeste",
+        "SoftwareVerification"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "reasoning-effort-is-psychology-router-spillover",
       "qualifications": [
         "The deterministic router cross-classified machine-reasoning terminology; the paragraph supplies no evidence about human cognition, behavior, learning, identity, or wellbeing.",
