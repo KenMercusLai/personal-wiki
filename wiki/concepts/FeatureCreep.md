@@ -6,7 +6,8 @@ sources:
   - feature-creep-isnt-the-real-problem-product-habits
   - its-not-a-feature-problem-avoiding-startup-tarpits-by
   - kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control
-last_updated: 2026-10-01
+  - everyone-can-build-almost-no-one-can-judge
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,8 +19,10 @@ The sources reframe feature creep as an observable symptom of deeper failures. O
 
 Breadth can still be coherent. The Product Habits article contrasts JIRA's segment-oriented expansion and HubSpot's broad marketing promise with products or projects whose additions lack a unifying job. The practical test is therefore relational: identify the segment, state the core value, map the user steps needed to deliver it, specify how each capability advances that goal, measure the result, and account for coordination, maintenance, and opportunity cost. Vonjour's retrospective extends that test beyond product outcomes: compare feature work with acquisition and funnel experiments before treating additional scope as the best use of runway.
 
+Mai Yang's Linear essay adds an AI-era supply-side pressure. When model capabilities make implementation cheap, teams can add features because they can rather than because the primary workflow needs them, then use a checklist or “platform” label to imply superiority. This strengthens refusal as product work: cheaper production does not relax the need to connect each capability to a recurring user job, product coherence, experience quality, and a reason to return.
+
 ## Key Claims
-- Feature quantity is not a reliable measure of feature creep.
+- Feature quantity is not a reliable measure of feature creep, and cheap AI implementation does not make added scope valuable by itself.
 - Elaborating the screens, inputs, interactions, and operating functions required by an original objective is not automatically feature creep.
 - A broad product can remain coherent when capabilities serve different segments through the same core promise.
 - Unnecessary features often indicate weak customer-value execution or development by committee.
@@ -37,14 +40,16 @@ Breadth can still be coherent. The Product Habits article contrasts JIRA's segme
 - Growth-bottleneck test: [[its-not-a-feature-problem-avoiding-startup-tarpits-by]] says Vonjour repeatedly expected new features to unlock growth, but reported little revenue change until it redirected resources toward paid acquisition and signup conversion.
 - Necessary-detail boundary: [[kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control]] shows a book-request marketplace expanding into profiles, catalog search, matching, communication, payment, verification, and location capabilities that all support the original transaction.
 - Early diagnostic: [[kannan-chandrasegaran-your-app-is-an-onion-why-software-projects-spiral-out-of-control]] recommends mapping each screen and questioning inputs, outputs, interactions, and operator functions before treating newly visible scope as changed ambition.
+- AI-era pressure: [[everyone-can-build-almost-no-one-can-judge]] argues that feature checklists and premature platform framing can mask weak judgment about users' primary work.
 
 ## Counterevidence & Qualifications
-All three sources are practitioner arguments or retrospectives rather than comparative studies. They select or invent cases, do not measure feature adoption or lifecycle cost, and give no threshold for deciding when supporting detail or segment-specific additions stop sharing a coherent core. JIRA and Trello differed in more than feature scope, and acquisition does not prove product failure. Vonjour's account supplies no campaign cohorts, gross margin, churn, retention, or counterfactual showing how the company would have performed under a different earlier allocation. Chandrasegaran's marketplace and week-versus-month cycles are illustrative; exhaustive-looking user flows can rationalize overbuilding or prematurely freeze a solution. A strong vision can likewise rationalize needless complexity if teams do not measure customer outcomes, usability, reliability, support burden, and maintenance cost; paid marketing can amplify a weak product or uneconomic funnel. Conversely, regulatory, accessibility, safety, or infrastructure work may be necessary even when its relationship to visible customer value is indirect.
+All four sources are practitioner arguments or retrospectives rather than comparative studies. They select or invent cases, do not measure feature adoption or lifecycle cost, and give no threshold for deciding when supporting detail or segment-specific additions stop sharing a coherent core. JIRA and Trello differed in more than feature scope, and acquisition does not prove product failure. Vonjour's account supplies no campaign cohorts, gross margin, churn, retention, or counterfactual showing how the company would have performed under a different earlier allocation. Chandrasegaran's marketplace and week-versus-month cycles are illustrative; exhaustive-looking user flows can rationalize overbuilding or prematurely freeze a solution. Mai Yang's Linear account gives no feature-adoption comparison and can overvalue founder taste relative to research or accessibility evidence. A strong vision can likewise rationalize needless complexity if teams do not measure customer outcomes, usability, reliability, support burden, and maintenance cost; paid marketing can amplify a weak product or uneconomic funnel. Conversely, regulatory, accessibility, safety, or infrastructure work may be necessary even when its relationship to visible customer value is indirect.
 
 ## What Changed
 - Distinguished necessary elaboration of an original product objective from unrelated capability accumulation.
 - Added user-flow mapping as an early test of whether apparent scope growth reflects hidden delivery requirements.
 - Qualified detailed preimplementation flows as illustrative planning aids that can still rationalize overbuilding.
+- Added cheap AI implementation and checklist-led platform framing as new pressures toward incoherent scope.
 
 ## Related Concepts
 - [[ProductUserSegmentation]] - segment needs determine whether added breadth is coherent or fragmentary.
@@ -55,3 +60,4 @@ All three sources are practitioner arguments or retrospectives rather than compa
 - [[TeamFocus]] - fragmented incentives and work reduce the shared attention needed for coherent delivery.
 - [[StartupTarpit]] - describes the inertia created when feature work consumes the resources needed to test the actual growth bottleneck.
 - [[PreimplementationFeatureDiscovery]] - exposes supporting scope before coding so necessary detail is not confused with changed product purpose.
+- [[QualityGrowth]] - connects disciplined scope to recurring value and durable product pull.

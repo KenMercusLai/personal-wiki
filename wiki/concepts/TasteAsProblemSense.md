@@ -7,7 +7,8 @@ sources:
   - gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan
   - 0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan
   - ai-shi-dai-de-ben-ke-cs-jiao-yu-sui-xiang-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji
-last_updated: 2026-10-18
+  - everyone-can-build-almost-no-one-can-judge
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,10 +24,12 @@ Mai Yang's account of Jeff Dean makes cultivation more measurable. Write down se
 
 The CS-education reflection places the same judgment inside engineering and research roles. As AI makes execution cheaper, learners need to turn ambiguous needs into architecture, choose promising research paths, and act as discriminators of correctness, reliability, safety, and ethics. This strengthens the claim that taste is not an ornamental preference added after generation; it guides what should be built and whether the result deserves acceptance.
 
+Mai Yang's Linear essay moves the same idea into product operations. When AI can quickly produce a competent first version, taste includes refusing unnecessary capabilities, noticing when an experience is usable but still wrong, and spending attention on details that make users return. This joins problem choice with product acceptance: judgment is exercised before building, during scope decisions, and after implementation through repeated quality work.
+
 ## Key Claims
 - AI increases the value gap between problem awareness and execution.
 - A real question is one whose answer the learner does not already know and genuinely wants to know.
-- Machines can accelerate execution, but humans remain responsible for direction, architecture, acceptance standards, and accountable judgment.
+- Machines can accelerate execution, but humans remain responsible for direction, architecture, scope refusal, acceptance standards, and accountable judgment.
 - Taste can be cultivated through model thinking, inquiry cycles, and visible growth.
 - AI-era taste includes material judgment: knowing which evidence is hard, what deserves attention, and which version is worth signing.
 - Real-world materials can outweigh model novelty when the work depends on cultural depth, field evidence, or original archives.
@@ -43,15 +46,17 @@ The CS-education reflection places the same judgment inside engineering and rese
 - Forecast ledger: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] reports Dean's exercise of recording possible important developments, selecting one, and scoring the full list after twelve months.
 - Assumption inversion: [[0-shi-ji-hui-20-shi-xian-jing-jeff-dean-li-zhi-qian-na-chang-yc-fang-tan-li-wo-chao-zou-le-san-tiao-pan-duan]] uses deliberately unreliable transistors as an example of probing an inherited design assumption without claiming the imagined system should be built.
 - Engineering and research judgment: [[ai-shi-dai-de-ben-ke-cs-jiao-yu-sui-xiang-jie-ge-de-jiao-xue-yun-wei-bian-cheng-diao-ban-zi-xiao-bi-ji]] argues that cheaper implementation shifts human value toward requirement interpretation, architecture, verification, research direction, and ethical supervision.
+- Product judgment: [[everyone-can-build-almost-no-one-can-judge]] treats the last gap beyond a competent AI-built product as the ability to refuse weak scope, identify subtly wrong experiences, and polish details that sustain use.
 
 ## Counterevidence & Qualifications
-The sources' accounts of taste are philosophical and practitioner-oriented rather than empirical theories of creativity. They also depend on knowledge: RORIRI explicitly notes that higher-order abilities still require factual, conceptual, and procedural knowledge, Hanyang assumes the worker can obtain and judge real materials, and the CS reflection does not show that novices can acquire architectural judgment without implementation practice. A forecast ledger may reward trend prediction without measuring moral judgment, originality, audience understanding, or execution quality, and one year is an arbitrary horizon for slow-moving domains. Taste language can hide unequal access to archives, fieldwork, time, mentors, markets, and feedback.
+The sources' accounts of taste are philosophical and practitioner-oriented rather than empirical theories of creativity. They also depend on knowledge: RORIRI explicitly notes that higher-order abilities still require factual, conceptual, and procedural knowledge, Hanyang assumes the worker can obtain and judge real materials, and the CS reflection does not show that novices can acquire architectural judgment without implementation practice. A forecast ledger may reward trend prediction without measuring moral judgment, originality, audience understanding, or execution quality, and one year is an arbitrary horizon for slow-moving domains. The Linear essay supplies no blinded product evaluation, retention comparison, or evidence that founder taste outperforms structured user research. Taste language can hide unequal access to archives, fieldwork, time, mentors, markets, and feedback, and can rationalize aesthetic gatekeeping or unsupported personal preference.
 
 ## What Changed
 - Created this concept to preserve the source's final claim about human value in AI-era education.
 - Added material judgment and signature-level editorial responsibility as AI-era dimensions of taste.
 - Added dated forecasts, retrospective scoring, and assumption inversion as concrete feedback practices for problem judgment.
 - Added engineering architecture, output discrimination, and academic ethics as education-relevant forms of taste.
+- Added product-scope refusal, experiential diagnosis, and recurring quality work as operational forms of AI-era taste.
 
 ## Related Concepts
 - [[ComputationalThinking]] - problem sense gives the expanded CT framework its direction.
@@ -62,3 +67,4 @@ The sources' accounts of taste are philosophical and practitioner-oriented rathe
 - [[AIAssistedWriting]] - AI-assisted writing relies on taste to select questions, evidence, drafts, and variants.
 - [[StartupOpportunitySelection]] - taste chooses a useful problem before capability-gap and business screens narrow the opportunity.
 - [[AIEraCSEducation]] - treats judgment and research taste as core learning outcomes when AI can perform more implementation.
+- [[QualityGrowth]] - links product judgment and craft to durable demand rather than mere implementation speed.

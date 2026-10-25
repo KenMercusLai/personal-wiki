@@ -12,6 +12,7 @@ sources:
   - ting-de-shi-hou-quan-dong-yi-dong-bi-quan-fei-gui-gu-xu-lao-shi-da-shi-ke-shang-de-eq-tq-iq
   - ru-he-cong-zi-ji-xie-guo-de-wen-zhang-li-ti-lian-xie-zuo-feng-ge-wo-fan-le-12-pian-jiu-wen-zui-hou-zhi-you-2-pian-neng-dang-gu-jia
   - hundreds-of-prs-a-day-nine-work-lines
+  - everyone-can-build-almost-no-one-can-judge
 last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
@@ -34,6 +35,8 @@ The writing-style retrospective turns that same inspect-and-correct habit onto h
 
 The newest article applies this decomposition to her whole workload. Mai Yang maps eleven lines across [[ContextEcho]], two websites, research briefs, social writing, video, podcasts, daily cards, meetups, Skills, and running analysis, then compares that distributed portfolio with Tan's nine product-centered engineering lines. She keeps direction, standards, publication, and hands-on experience as human decisions, delegates code review and production tasks to agents, and identifies severe attention fragmentation as a cost. Her own 1,020-commit but 18-PR ContextEcho history reinforces her recurring method: choose process and verification according to impact rather than optimizing a public activity count.
 
+The Linear interview essay extends the same judgment boundary from workflow output to product survival. Mai Yang contrasts externally accelerated growth with [[QualityGrowth]] rooted in customer value, uses [[Linear]]'s defect policy and recurring quality work as operating examples, and argues that AI-cheapened implementation makes scope refusal, experiential diagnosis, and patient craft more important. Her interpretation of founder involvement likewise favors informed presence in product, users, and quality over either distant metric review or personal execution of every task.
+
 The learning and Muse articles are explicitly syntheses of other materials rather than original measurement, while the Grok Bot article is a retrospective rather than a comparison. Mai Yang's recurring contribution is engineering-style compression: isolate the operative state, provide a small next action, and then distinguish the immediate procedure from the broader claim it can actually support.
 
 ## Key Characteristics
@@ -43,7 +46,7 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Frames LLMs as accelerators for interrogation, counterargument, review, and knowledge connection, while also compressing technical problems into usable procedures.
 - Uses accepted deliverables and manual revision diffs to turn broad agent or writing ambitions into bounded Skills, routines, and evidence rules.
 - Combines troubleshooting with a second-pass analysis of growth incentives, evidence quality, trust, and operating economics.
-- Decomposes broad personal work into agent-supported lines while retaining direction, acceptance standards, publication, and experiential judgment.
+- Decomposes broad personal work and product decisions into agent-supported execution while retaining direction, acceptance standards, experiential judgment, and quality tradeoffs.
 
 ## Evidence
 - Action framing: [[blog-maiyang-naval-insights-taking-action-with-ai]] opens from a Cursor Meetup Xiamen closing summary and repeatedly says people should act toward AI.
@@ -66,14 +69,18 @@ The learning and Muse articles are explicitly syntheses of other materials rathe
 - Portfolio decomposition: [[hundreds-of-prs-a-day-nine-work-lines]] maps eleven product, content, community, Skill, and running-analysis lines across Cursor and Grok Bot.
 - Review and judgment boundary: [[hundreds-of-prs-a-day-nine-work-lines]] reports delegating most code inspection while retaining direction, standards, result judgment, publication, and direct experience testing.
 - Metric qualification: [[hundreds-of-prs-a-day-nine-work-lines]] contrasts 1,020 [[ContextEcho]] commits with 18 PR merges and argues that genuine demand, impact, and review needs matter more than count.
+- Quality-growth interpretation: [[everyone-can-build-almost-no-one-can-judge]] separates product-driven demand from growth accelerated mainly by promotion, capital, or metric packaging.
+- AI-era judgment: [[everyone-can-build-almost-no-one-can-judge]] argues that cheap implementation raises the value of deciding what not to build and detecting experiences that are functional but wrong.
+- Operating quality: [[everyone-can-build-almost-no-one-can-judge]] uses Linear's reported defect deadlines and Quality Wednesdays as examples of turning quality from a slogan into recurring work.
 
 ## Qualifications
-The sources give limited biographical information beyond author attribution, self-described roles, a management-transition remark, and meetup, blog, community, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. The Howie Xu article is an attendee reconstruction that mixes course content, Q&A, personal interpretation, and post-event research; it explicitly leaves two details unresolved. The style experiment is also a first-person, first-pass report without blind comparison. The newest workflow article reports repository and social-post counts without audits, comparable units, quality outcomes, attention measures, or business results, and openly reports concentration loss. This remains a source-scoped author profile, not a general biography.
+The sources give limited biographical information beyond author attribution, self-described roles, a management-transition remark, and meetup, blog, community, and social-publication context. The Git note is a minimal procedure that omits reflog retention, garbage collection, ambiguous SHAs, and uncommitted changes. The Naval essay uses famous founders as motivational examples without demonstrating that extreme desire causes success. The Dwarkesh article is a secondary synthesis whose “10x” efficiency language, guest-motivation claims, and learning benefits are not independently measured. The Muse article likewise relies on social posts, press reports, and analyst commentary without primary product data, security reproduction, retention evidence, or cost assumptions. The Twitter retrospective selects three successful posts without unsuccessful controls, audience baselines, or platform-side data, so its authenticity-and-reach explanation remains a personal hypothesis. The Grok Bot retrospective preserves only selected screenshots and conclusions, not full prompts, transcripts, scored comparisons, or results from the intended restart. The Howie Xu article is an attendee reconstruction that mixes course content, Q&A, personal interpretation, and post-event research; it explicitly leaves two details unresolved. The style experiment is also a first-person, first-pass report without blind comparison. The workflow article reports repository and social-post counts without audits, comparable units, quality outcomes, attention measures, or business results, and openly reports concentration loss. The Linear essay is another favorable secondary interpretation: it gives no retention, defect, spend, or causal comparison proving that the named practices produced sustainable growth. This remains a source-scoped author profile, not a general biography.
 
 ## What Changed
 - Added eleven agent-supported work lines as a portfolio-level extension of her deliverable-first method.
 - Added her ContextEcho commit-versus-PR comparison and risk/impact-based review boundary.
 - Added attention fragmentation as an explicit cost of parallel agent orchestration.
+- Added quality growth, scope refusal, and hands-on founder judgment as product-level extensions of her output-quality stance.
 
 ## Relationships
 - [[ActionBiasInAI]] - MaiYang's article is the source for this concept.
@@ -98,3 +105,6 @@ The sources give limited biographical information beyond author attribution, sel
 - [[ContextEcho]] - solo software project used to contrast commits, PR policy, impact, and review needs.
 - [[LaurenTan]] - practitioner whose nine work lines and risk-tiered review Mai Yang compares with her own workflow.
 - [[BottleneckAwareAICoding]] - explains her distinction between raw change volume, genuine demand, review cost, and useful output.
+- [[KarriSaarinen]] - interview subject whose product and growth views Mai Yang interprets.
+- [[Linear]] - company case she uses to connect defect routines, focused workflows, and sustainable growth.
+- [[QualityGrowth]] - her newest framework for distinguishing durable product pull from externally accelerated growth.

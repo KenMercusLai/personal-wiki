@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Everyone can build now. Almost no one can judge.](sources/everyone-can-build-almost-no-one-can-judge.md) - Mai Yang uses Linear's quality practices to argue that AI-cheapened implementation raises the value of product judgment, focused scope, defect discipline, and durable customer-value growth.
 - [为什么说“线下试玩会”是坏文明](sources/plumz-14418.md) - Plum argues that invitation-only game previews substitute controlled creator publicity for public verification, using Wuchang as a retrospective expectation-backlash case and Phantom Blade Zero as a prospective warning.
 - [A system programmer's guide to LLM inference](sources/how-to-llm-inference.md) - Xiangpeng Hao builds a model-specific CPU inference engine and connects GGUF layout, tokenization, hybrid architecture, block quantization, direct integer-dot kernels, state reuse, and shape-dependent bottlenecks.
 - [深入解读 Jev 模型：毫秒级判定与工程边界](sources/jev-kuhung.md) - Kuhung surveys Jev's typed single-step decisions, reconstructed inference paths, shared-prefix scaling, calibration needs, deployment patterns, and reasoning limits.
@@ -2457,6 +2458,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Taobao Live](entities/TaobaoLive.md) - Alibaba livestream-commerce app for seller demonstrations, product launches, and discounts.
 - [Xiaomi](entities/Xiaomi.md) - Chinese hardware company using livestreaming for product demonstrations and launches.
 - [MaiYang](entities/MaiYang.md) - Practical writer connecting concise technical guidance, action-centered AI learning, product analysis, and practice-led publishing.
+- [Karri Saarinen](entities/KarriSaarinen.md) - Linear co-founder represented through quality-growth, focused-workflow, and founder-involvement views.
+- [Linear](entities/Linear.md) - Software company represented through time-bounded defect handling, recurring quality work, and product-led growth.
 - [Raycast](entities/Raycast.md) - Mac productivity tool represented through keyboard-centered use, peer teaching, and a point-in-time creator-post case.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
 - [Elon Musk](entities/ElonMusk.md) - Founder represented through risk-taking, demanding operations, concentrated organizational control, and charismatic future-setting authority.
@@ -3837,6 +3840,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Social Identity Threat](concepts/SocialIdentityThreat.md) - Context-sensitive uncertainty about belonging and evaluation when a social identity is underrepresented or devalued.
 - [Feature/Product Fit](concepts/FeatureProductFit.md) - Feature-level test requiring repeat use, scalable adoption, and positive or neutral impact on the core product.
 - [Feature Creep](concepts/FeatureCreep.md) - Incoherent capability accumulation diagnosed through relevance to segment outcomes and product promise rather than raw feature count.
+- [Quality Growth](concepts/QualityGrowth.md) - Durable growth grounded in customer value, repeat use, disciplined product quality, and supportable economics rather than external acceleration alone.
 - [DDoS Traffic Monitoring](concepts/DDoSTrafficMonitoring.md) - Staged observation, threshold detection, notification, historical metric storage, visualization, and separately controlled mitigation of attack-like network traffic.
 - [Fake Design Practice](concepts/FakeDesignPractice.md) - Self-directed realistic design simulation used to build skill, test capability, and create portfolio evidence before paid opportunity exists.
 - [Product Imitation Strategy](concepts/ProductImitationStrategy.md) - Deliberate adoption or adaptation of a proven competitor move to close a customer-value gap.

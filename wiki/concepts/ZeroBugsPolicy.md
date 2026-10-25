@@ -5,7 +5,8 @@ tags: [bugs, agile, software-quality, backlog]
 sources:
   - gal-zellermayer-0-bugs-policy
   - not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog
-last_updated: 2026-10-01
+  - everyone-can-build-almost-no-one-can-judge
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,14 +22,16 @@ The economic argument concerns queue age as well as repair work. A delayed defec
 
 Neither defect count nor crash-free percentage is a complete priority rule. Low-frequency safety, security, data-integrity, privacy, accessibility, contractual, or regulatory failures can outrank common low-consequence crashes. The durable synthesis is prompt, recorded, risk-aware disposition informed by user impact—not automatic repair and not silent abandonment.
 
+Mai Yang's Linear account adds time bounds and an organizational-growth interpretation. It reports that [[Linear]] handles high-priority bugs within 48 hours and other bugs within seven days, and pairs that policy with recurring “Quality Wednesdays” for smaller experience defects. These details make prompt disposition more operational, but the article does not define classification, clock semantics, exceptions, closure rates, or measured outcomes. The evidence supports a quality habit and service-level intent, not a universal deadline.
+
 ## Key Claims
 - In-sprint defects keep a story from satisfying its definition of done.
 - Every other new defect should receive a prompt fix-or-close decision rather than indefinite deferral.
 - User reach and a stability target can inform when repair should displace feature work.
-- Defect repair generally becomes harder as human, environmental, and code context decays.
-- Retained bug inventories impose recurring triage and prioritization costs.
+- Defect queues become costlier as human, environmental, and code context decays and recurring triage accumulates.
 - Zero open bugs is an inventory state, not a claim of defect-free or perfectly stable software.
 - High-consequence risk can override frequency, reach, and ordinary opportunity-cost thresholds.
+- Time-bounded defect targets can make quality commitments observable, but their meaning depends on classification, disposition, and exception rules.
 
 ## Evidence
 - Completion and disposition rule: [[gal-zellermayer-0-bugs-policy]] distinguishes in-sprint defects from regressions, customer reports, and post-completion bugs, then prescribes prompt repair or explicit closure.
@@ -36,9 +39,10 @@ Neither defect count nor crash-free percentage is a complete priority rule. Low-
 - Stability-based allocation: [[not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog]] recommends a below-100% stability target to decide when sprint capacity should shift between roadmap and bug repair.
 - Reach and fragmentation: [[not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog]] argues that browser, extension, version, device, and setting variance creates edge cases that may affect very few users.
 - Shared non-perfection boundary: both [[gal-zellermayer-0-bugs-policy]] and [[not-all-bugs-are-worth-fixing-and-thats-okay-bugsnag-blog]] explicitly reject the idea that every known defect must be repaired.
+- Company practice: [[everyone-can-build-almost-no-one-can-judge]] reports Linear's 48-hour handling target for high-priority defects, seven-day target for other bugs, and recurring Quality Wednesdays for smaller experience flaws.
 
 ## Counterevidence & Qualifications
-Both sources are practitioner arguments rather than controlled or comparative studies. Neither reports defect escape rate, severity, customer harm, throughput, time spent fixing, reopen rate, retention, or measured outcomes before and after adoption. The Bugsnag source also comes from a monitoring vendor and defines stability mainly through crashes or unhandled errors.
+All three sources are practitioner arguments or secondary company accounts rather than controlled or comparative studies. None reports defect escape rate, severity, customer harm, throughput, time spent fixing, reopen rate, retention, or measured outcomes before and after adoption. The Bugsnag source also comes from a monitoring vendor and defines stability mainly through crashes or unhandled errors. The Linear account does not specify whether its deadlines measure repair, closure, first response, or another disposition state.
 
 Closing a defect does not remove it from the product. A low-value cosmetic issue and a low-probability high-consequence issue cannot be judged by effort or reach alone. Some organizations must retain known-issue records, formal risk acceptance, customer disclosures, workarounds, or audit trails even when they choose not to repair immediately. Bounded deferral may also be necessary when dependencies, incident stabilization, coordinated releases, or insufficient reproduction evidence make immediate resolution unsafe or impossible.
 
@@ -46,6 +50,7 @@ Closing a defect does not remove it from the product. A low-value cosmetic issue
 - Added user-session stability and environmental reach as inputs to the fix-or-close decision.
 - Clarified that zero open inventory neither requires 100% stability nor makes crash-free percentage a complete risk measure.
 - Strengthened recorded non-repair and high-consequence override boundaries.
+- Added Linear's reported 48-hour and seven-day targets plus recurring quality work, qualified by missing policy semantics and outcomes.
 
 ## Related Concepts
 - [[ApplicationStability]] - supplies a user-impact metric for deciding when repair should displace roadmap work.
@@ -54,3 +59,4 @@ Closing a defect does not remove it from the product. A low-value cosmetic issue
 - [[TechnicalDebtTracking]] - both manage future engineering liabilities, but defects are observable product failures rather than all forms of debt.
 - [[ProductBacklogBuilding]] - mixed product backlogs create the prioritization surface the policy seeks to avoid.
 - [[ChangeSafety]] - repair timing should account for the risk of introducing or amplifying failure.
+- [[QualityGrowth]] - treats defect discipline as one operating input to durable product trust and growth.

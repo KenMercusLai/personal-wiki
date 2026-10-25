@@ -206,6 +206,7 @@
       "f6801b4fb7a4dcd6fb7f6725c9ee3bb2ec8b5953dcde9fa1b7be05c4a5b0f460",
       "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
       "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
+      "e441ab3f3dbb148b29cf142483202382ceb1c90c16964502e6d7289eb5c8f436",
       "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
       "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
       "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
@@ -895,10 +896,10 @@
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
     ],
-    "paragraph_count": 893
+    "paragraph_count": 894
   },
-  "overview_commit": "65e9aa6cc75ba720a59755c8f8c5412c7069e269",
-  "overview_digest": "e53f5b3bff0fa9506a9ef1c93cb4aeee92d9c068de353ca5df32cf145bdaac0c",
+  "overview_commit": "ede5bf49d1f93b93bafb6d650d64d0b8c8baa559",
+  "overview_digest": "9ec62adb3ceba1fdf671b0dc7da6863b1a08d68b315a6c11e03a0fc1d69b8add",
   "paragraphs": [
     {
       "id": "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
@@ -4745,6 +4746,28 @@
         "GalZellermayer",
         "InternalSoftwareQuality",
         "VMware",
+        "ZeroBugsPolicy"
+      ]
+    },
+    {
+      "id": "e441ab3f3dbb148b29cf142483202382ceb1c90c16964502e6d7289eb5c8f436",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[MaiYang]] source uses [[KarriSaarinen]] and [[Linear]] to add [[QualityGrowth]] as a product-level interpretation of durable demand. It contrasts customer-value growth with curves accelerated mainly by financing, promotion, or high spending; reports Linear's 48-hour handling target for high-priority defects, seven-day target for other bugs, and recurring Quality Wednesdays; and argues that AI-cheapened implementation raises the relative value of deciding what not to build, detecting experiences that are usable but wrong, and refining the details that sustain return use. This extends [[TasteAsProblemSense]] from problem selection into product acceptance, strengthens [[FeatureCreep]] with an AI-era supply pressure against checklist-led platform breadth, and gives [[ZeroBugsPolicy]] more concrete but still underspecified time bounds. The article also interprets founder involvement as informed presence in product, users, and quality rather than personal execution of every task. These claims remain secondary and favorable: the source supplies no Linear cohorts, spend, revenue, defect distribution, policy-clock semantics, compliance rate, or causal comparison, and taste or founder-mode language can rationalize aesthetic gatekeeping, micromanagement, or weak delegation when separated from user evidence and organizational capacity. The sole local image was opened and omitted as a promotional interview thumbnail that added no independent evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "governance-and-institutions": 2
+      },
+      "wikilinks": [
+        "FeatureCreep",
+        "KarriSaarinen",
+        "Linear",
+        "MaiYang",
+        "QualityGrowth",
+        "TasteAsProblemSense",
         "ZeroBugsPolicy"
       ]
     },

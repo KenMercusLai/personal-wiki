@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-25] ingest | Everyone can build now. Almost no one can judge.
+
+Created [[KarriSaarinen]], [[Linear]], and [[QualityGrowth]], and updated [[MaiYang]], [[TasteAsProblemSense]], [[ZeroBugsPolicy]], [[StartupGrowthSignalQuality]], and [[FeatureCreep]] from their complete ordered evidence inventories. Recorded the distinction between externally accelerated and customer-value growth, reported 48-hour and seven-day defect targets, recurring quality work, AI-era scope refusal and experiential judgment, focused primary workflows, and informed founder presence. Preserved the secondary-source, missing-metrics, policy-semantics, causality, delegation, and aesthetic-gatekeeping boundaries. Opened the sole local image and omitted it as a promotional interview thumbnail that added no independent evidence, so no asset manifest was required.
+
 ## [2026-10-25] ingest | 再谈 LLM 辅助写作
 
 Updated [[AIAssistedWriting]], [[ModelCollapse]], [[LLMSycophancy]], and [[LossesDon]] from their complete ordered evidence inventories. Recorded author-first material capture, interrogative drafting, limits of banned-phrase style control, delayed rereading, manual rephrasing, aggregated verbal-tic frequencies, and a qualified training-data feedback risk. Preserved practitioner, detector, causal, model-version, benchmark, and training-corpus boundaries. Opened all three local images, retained the evidence-bearing verbal-tics chart at its semantic position, and omitted the decorative title photograph plus the MSG advertisement used only as a prose-redundant metaphor.
@@ -10260,6 +10264,10 @@ Created [[LLMInferenceSystems]] and [[Qwen36_35BA3B]] and updated [[XiangpengHao
 ## [2026-10-25] ingest | 为什么说“线下试玩会”是坏文明
 
 Created [[Plum]], [[PhantomBladeZero]], [[WuchangFallenFeathers]], and [[ControlledGamePreviewMarketing]] and updated [[AccessJournalism]] from its complete ordered evidence inventory. Recorded the distinction between invitation-only publicity and public demos, soft pressure from scarce access and hospitality, preview-frequency versus release-readiness evidence, and expectation-driven launch backlash. Preserved the single-author, unverified-media-behavior, missing-contract, missing-comparative-data, prospective-prediction, demo-cost, and product-quality boundaries. Opened the sole local image and retained it as an explicitly AI-generated editorial illustration rather than documentary evidence.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-25] lint | Wiki health check
 
