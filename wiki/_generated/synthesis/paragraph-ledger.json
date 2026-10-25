@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8f2e06d603813055d4490b2b17e63cdf2a150879b524fa2ea8217c9433f554f9",
       "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
       "6f5d853c7714831ee970551af49f214b44ae12665d285444d08f46ee12cc49e3",
       "d61997497a48e03599d3e3e5daf24b20f27296d3700ab2b22cc2b994d5747781",
@@ -892,11 +893,27 @@
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
     ],
-    "paragraph_count": 890
+    "paragraph_count": 891
   },
-  "overview_commit": "cee9c3d138cf1569b1ad6fcbe6ab594b29e60080",
-  "overview_digest": "fad33ef58b6b8617e3adb64e63a378673ab1fe2bc20d9b120a516e6db2fd63ab",
+  "overview_commit": "5747f82cd3ad83a7365c93e35b2b48e6d2ba1ee0",
+  "overview_digest": "d3b0eb8f816141456b9b8cc26cbc9e4a1b2183fa470272d0ffea376916e965c0",
   "paragraphs": [
+    {
+      "id": "8f2e06d603813055d4490b2b17e63cdf2a150879b524fa2ea8217c9433f554f9",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest Kuhung source expands [[Jev]] from one reviewed voice-routing integration into a qualified [[SingleStepDecisionModel]] architecture. Choice, Score, and Noul map state to bounded outputs without explanatory generation; community reproductions suggest final-position candidate logits or an NLI head, while shared-prefix KV caching can amortize long-context prefill across independent questions. This extends [[TextClassification]] with runtime candidate sets, candidate-order and irrelevant-option sensitivity, and a sharper separation between prediction and authority: deterministic policy, labeled evaluation, probability calibration, shadow traffic, and escalation must govern whether a score may trigger action. The source reports low-latency replay examples, third-party scaling tests, community agreement results, and an illustrative ReflexGate cost model, but these are not one controlled benchmark. Jev's implementation is not fully open, its claimed calibration lacks disclosed reliability data, agreement is not accuracy, and the proposed move from human-reviewed decision support to autonomous high-confidence execution remains unvalidated. All six local diagrams were opened; five distinct architecture and gating diagrams were retained canonically, while one duplicate KV-cache diagram was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Jev",
+        "SingleStepDecisionModel",
+        "TextClassification"
+      ]
+    },
     {
       "id": "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
       "primary_topic": "ai-and-technology",

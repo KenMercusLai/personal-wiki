@@ -4,37 +4,42 @@ type: entity
 tags: [ai, classification, decision-support]
 sources:
   - vane-data-jev-building-an-end-to-end-voice-analytics-pipeline
-last_updated: 2026-10-07
+  - jev-kuhung
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Jev]] is an external TypeSafe AI service presented as returning typed semantic judgments and confidence probabilities for explicit questions over unstructured state.
+[[Jev]] is a TypeSafe AI service presented as returning typed choices, ordinal scores, and binary confidence probabilities for explicit questions over unstructured state without generating free-form text.
 
 ## Current Profile
-The voice-routing example uses Jev as a non-generative decision operator. Each eligible transcript row sends all five questions in one request, using Choice for intent, Score for bounded ordinal ratings, and Noul for probability-like yes/no judgments. Vane Data executors reuse clients across batches, validate each response against its request, and write it back to the row before SQL extracts business fields.
+Across the two sources, Jev is best understood as a hosted [[SingleStepDecisionModel]] and workflow component rather than a conversational model. Its Choice, Score, and Noul primitives let a caller define several bounded judgments in one request. A Vane Data banking example validates responses and sends every result to review; a later technical survey argues that the same interface can support low-latency routing, filtering, and gating through a single forward pass and shared-prefix KV cache. That internal account is reconstructed from community implementations because Jev is not fully open, and the proposed move from decision support to autonomous action remains conditional on calibration and risk-sensitive controls.
 
 ## Key Characteristics
-- Accepts question definitions and unstructured state rather than generating free-form text.
-- Exposes Choice, Score, and Noul as the three question primitives described by the source.
-- Returns all requested answers in one per-row call with typed values and confidence probabilities.
-- Runs as an external service; local executors manage request concurrency and response alignment rather than hosting the model.
-- Is positioned for high-frequency classification and rating, but the banking example keeps every result under human review.
+- Accepts unstructured state plus runtime question definitions instead of producing explanatory prose.
+- Exposes Choice, Score, and Noul for enum selection, bounded ordinal ratings, and probability-like binary judgments.
+- Returns typed values and confidence outputs for several questions in one call.
+- Is presented as avoiding autoregressive decoding and sharing long-context prefix computation across independent questions, although its proprietary internals are not confirmed.
+- Runs as an external service; local orchestration controls request concurrency, response alignment, policy, logging, and escalation.
+- Targets high-frequency routing and gating, but trustworthy automation depends on task-specific calibration, labeled evaluation, candidate stability, and a fallback path.
 
 ## Evidence
-- Typed interface: [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] defines intent, urgency, dissatisfaction, follow-up, and input-sufficiency questions with three primitives.
-- Execution lifecycle: [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] separates plan registration from per-row execution and validated response-column writes.
-- Concurrency: [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] configures four actors with eight in-flight requests each while warning that configuration is not measured throughput.
-- Workflow boundary: [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] skips failed transcripts and sends outputs to review rather than triggering banking operations.
+- Typed workflow integration: [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] defines intent, urgency, dissatisfaction, follow-up, and input-sufficiency questions, validates per-row responses, and keeps all outputs under review.
+- Interface and reconstructed mechanism: [[jev-kuhung]] maps Choice, Score, and Noul to bounded outputs and describes logit projection or NLI classification as plausible community reproduction paths.
+- Reported scaling behavior: [[jev-kuhung]] reports low marginal latency across shared-prefix question fan-out before queueing appears at very high concurrency; [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] configures bounded external-call concurrency without claiming measured throughput.
+- Operating boundary: [[jev-kuhung]] documents candidate-order effects, irrelevant-option interference, multi-step reasoning limits, and uncalibrated-logit risk; [[vane-data-jev-building-an-end-to-end-voice-analytics-pipeline]] retains failed records and separates model judgment from review and business action.
 
 ## Qualifications
-Latency, relative speed, and price figures in the article are vendor claims, not measurements from the demonstrated pipeline. The example publishes no Jev result scores, calibration analysis, independent test set, throughput, cost, or production outcomes. Transcript text leaves the local environment and may contain personal information even when raw audio and ground-truth labels are excluded.
+Neither source supplies a controlled production evaluation of Jev. The banking example publishes no result scores, throughput, cost, calibration analysis, or outcomes. The technical survey combines vendor claims, pre-recorded Jev-versus-Gemini examples, community reverse engineering, selected third-party tests, and hypothetical traffic economics. Its 73.8% open-Qwen agreement result is not Jev accuracy, and its latency, price, and modeled savings are workload- and provider-dependent. Jev's claimed calibration lacks a disclosed dataset, reliability curve, class-conditional analysis, drift study, or independent replication. Transcript or request state sent to the hosted service can contain personal or sensitive information even when raw upstream artifacts are excluded.
 
 ## What Changed
-- Created the initial profile around Jev's typed question primitives, per-row execution, response validation, and decision-support boundary.
+- Expanded Jev from one reviewed voice-routing integration into a qualified profile of its bounded-output interface, reconstructed single-pass mechanism, shared-prefix scaling claim, deployment patterns, and failure modes.
+- Preserved human review as the demonstrated boundary while treating confidence-gated autonomous execution as an unvalidated proposal.
 
 ## Relationships
 - [[VaneData]] - provides the Relation operator and executor layer used to call Jev and align responses.
+- [[SingleStepDecisionModel]] - describes the broader bounded-output architecture Jev is presented as implementing.
 - [[VoiceAnalyticsPipeline]] - uses Jev to turn checked transcripts into structured routing and review fields.
-- [[TextClassification]] - Jev performs bounded intent selection as one part of a larger classification pipeline.
-- [[OracleRouting]] - confidence and input-sufficiency outputs can inform escalation, although this example requires review for every row.
+- [[TextClassification]] - includes bounded intent selection and safety routing among Jev's task families.
+- [[OracleRouting]] - uses confidence and risk to send uncertain cases to a stronger model or human.
+- [[KVCacheAwareRouting]] - shares prefix state to reduce repeated long-context computation across independent questions.

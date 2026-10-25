@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-25
-as_of_overview_commit: cee9c3d138cf1569b1ad6fcbe6ab594b29e60080
-summary: "Evidence-qualified systems thinking across technology, business, institutions, health, culture, work, and personal development, with boundaries and tradeoffs explicit."
-episode_count: 1273
-source_count: 1273
-paragraph_count: 890
+as_of_overview_commit: 5747f82cd3ad83a7365c93e35b2b48e6d2ba1ee0
+summary: "Evidence-qualified synthesis across technology, business, institutions, health, culture, work, and personal development, with authority, uncertainty, and tradeoffs explicit."
+episode_count: 1274
+source_count: 1274
+paragraph_count: 891
 topic_count: 9
 ---
 
@@ -20,7 +20,7 @@ topic_count: 9
 - [[BusinessModelValidation]] places customer learning inside a connected commercial system: [[StartupHypothesisTesting]] should link interviews, feature requests, acquisition, and activation to retention, payer identity, revenue, pricing, costs, and scale; [[FreemiumAcquisition]] must distinguish users who may become payers from multi-sided funding; and [[ProductUserSegmentation]] should interpret requests by strategic and economic fit rather than universal satisfaction.
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
-- [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost.
+- [[SingleStepDecisionModel]] separates fast bounded prediction from execution authority: [[Jev]] and [[TextClassification]] can return typed choices, scores, or binary probabilities without autoregressive generation, but deterministic policy, representative labels, calibration, shadow traffic, observability, and human or stronger-model escalation must govern consequential action.
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof.
 - [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
 - [[AIDependencySkillAtrophy]] has a work-system dimension: [[Innei]] reports more shipped projects but less sustained flow, weaker design recall, and lower confidence without AI, while frontier-model cost and access fragility may raise entry barriers and make polished project output a weaker signal of underlying ability.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, evidence, context, verification, permissions, recovery, and operating environments; cheap implementation can raise the value of human judgment while also weakening practice when speed displaces understanding.
+AI and software outcomes depend on architecture, evidence, context, verification, permissions, recovery, and operating environments; cheaper implementation raises the value of human judgment while risking weaker practice when speed displaces understanding.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -57,10 +57,10 @@ Media and creator systems combine payment, advertising, distribution, community,
 
 ### Governance and Institutions
 
-Institutional and technical governance allocate authority, lifecycle responsibility, participation, privacy, risk, and accountability while preserving independent checks and credible alternatives.
+Institutional and technical governance allocate authority, lifecycle responsibility, participation, privacy, risk, and accountability; automated predictions need calibrated evidence, independent checks, recourse, and credible alternatives before receiving execution authority.
 
+- [[SingleStepDecisionModel]] separates fast bounded prediction from execution authority: [[Jev]] and [[TextClassification]] can return typed choices, scores, or binary probabilities without autoregressive generation, but deterministic policy, representative labels, calibration, shadow traffic, observability, and human or stronger-model escalation must govern consequential action. Evidence: [[SingleStepDecisionModel]], [[Jev]], [[TextClassification]].
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
-- [[OnlineAgeVerification]] makes assurance placement a governance decision: OS-level checks can standardize age evidence while reallocating data exposure, compliance cost, liability, access, and jurisdictional spillover, so child-safety outcomes and bypass rates must be evaluated alongside privacy, anonymity, speech, security, accessibility, and competition. The attributed incentives of [[Facebook]] and the cited criticisms of [[ElectronicFrontierFoundation]] remain source-scoped positions rather than established motive or policy effect. Evidence: [[OnlineAgeVerification]], [[Facebook]], [[ElectronicFrontierFoundation]].
 
 ### History and Geopolitics
 

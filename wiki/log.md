@@ -10244,3 +10244,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | 深入解读 Jev 模型：毫秒级判定与工程边界
+
+Created [[SingleStepDecisionModel]] and updated [[Jev]] and [[TextClassification]] from their complete ordered evidence inventories. Recorded bounded Choice, Score, and Noul outputs, reconstructed logit-projection and NLI paths, shared-prefix fan-out, candidate-set sensitivity, calibration requirements, confidence-gated escalation, and the boundary between prediction and execution authority. Preserved the proprietary-internals, replayed-benchmark, vendor-claim, agreement-versus-accuracy, hypothetical-economics, drift, privacy, and multi-step-reasoning limits. Opened all six local diagrams; retained five distinct evidence-bearing images with descriptive canonical filenames and a manifest, and omitted one duplicate KV-cache diagram.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

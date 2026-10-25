@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "jev-kuhung",
+  "images": [
+    {
+      "file": "system1-system2-division.png",
+      "alt": "System 1 assigns fast routing, blocking, and loop checks to Jev while System 2 assigns causal planning, long code, and deep reasoning to generative models"
+    },
+    {
+      "file": "single-forward-pass-architecture.png",
+      "alt": "Traditional LLM autoregressive decoding repeats token generation while Jev projects final-position logits to enumerated slots in one forward pass"
+    },
+    {
+      "file": "shared-prefix-kv-cache.png",
+      "alt": "A shared 30000-token context is prefetched once into GPU KV cache before many independent Jev questions fan out in parallel"
+    },
+    {
+      "file": "confidence-gating-tiers.png",
+      "alt": "Three-tier confidence gate automatically executes above 0.90, audits between 0.60 and 0.90, and hands off below 0.60"
+    },
+    {
+      "file": "reflex-gateway-routing.png",
+      "alt": "API Gateway sends requests through a System 1 ReflexGate that serves or blocks 80 percent, forwards 18 percent to a generative model, and sends 2 percent to humans"
+    }
+  ]
+}
