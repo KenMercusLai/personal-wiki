@@ -2,7 +2,7 @@
 title: "深入解读 Jev 模型：毫秒级判定与工程边界"
 type: source
 tags: [ai, classification, inference, routing, model-calibration]
-date: 2026-10-25
+date: 2026-09-18
 source_file: "/mnt/ken_personal_wiki/Articles/jev-kuhung.md"
 ---
 

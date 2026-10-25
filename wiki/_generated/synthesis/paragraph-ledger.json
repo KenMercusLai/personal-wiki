@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0a1136fa7c90465496cb6d001fe6983f697cd167c423911a0920cfa3bc7eabf0",
       "8f2e06d603813055d4490b2b17e63cdf2a150879b524fa2ea8217c9433f554f9",
       "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
       "6f5d853c7714831ee970551af49f214b44ae12665d285444d08f46ee12cc49e3",
@@ -893,11 +894,27 @@
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
     ],
-    "paragraph_count": 891
+    "paragraph_count": 892
   },
-  "overview_commit": "5747f82cd3ad83a7365c93e35b2b48e6d2ba1ee0",
-  "overview_digest": "d3b0eb8f816141456b9b8cc26cbc9e4a1b2183fa470272d0ffea376916e965c0",
+  "overview_commit": "2c1297f9a8749eed4e929868ebf085e699c360e6",
+  "overview_digest": "209e45da4cbeb58fd50b4f6195a4dd17e20a94adcdb79847abb3acc2fd9a3401",
   "paragraphs": [
+    {
+      "id": "0a1136fa7c90465496cb6d001fe6983f697cd167c423911a0920cfa3bc7eabf0",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[XiangpengHao]] source adds [[LLMInferenceSystems]] as an end-to-end agreement among artifact layout, tokenizer, tensor shapes, execution formats, autoregressive state, and hardware constraints. Its dependency-free Rust implementation targets only [[Qwen36_35BA3B]], a 40-layer hybrid that repeats three DeltaNet-plus-MoE blocks and one attention-plus-MoE block ten times; routed experts dominate stored bytes while only eight of 256 activate per token. [[BlockQuantization]] now includes GGUF Q8_0 and hierarchical Q4_K layouts plus the key deployment boundary: expanding compact weights to fp32 before multiplication can erase their bandwidth advantage, while Q4_K weights and Q8_K activations can meet at CPU `u8 × i8` dot instructions. [[ArithmeticIntensity]] gains a shape-dependent transition: multi-row prefill GEMM reuses weights and tends toward compute limits, whereas one-row decode GEMV streams them once and approaches memory bandwidth. The author reports 117.7 prefill and 15.1 decode tokens/s, with the two largest kernels near 50 GB/s on a roughly 55 GB/s machine, but gives no mature-runtime comparison, quality validation, named CPU or thread count, or independent reproduction. Attention state grows by 2 KB per token per attention layer while DeltaNet state stays fixed at 2 MB per layer, making exact-prefix reuse and architecture-specific state accounting part of serving design. The retained tensor-life figure conflicts with the prose by labeling vocabulary width 248,320 rather than 151,936. All eight evidence-bearing local diagrams were opened and retained once at their semantic positions with descriptive filenames and a canonical manifest.",
+      "topic_scores": {
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "ArithmeticIntensity",
+        "BlockQuantization",
+        "LLMInferenceSystems",
+        "Qwen36_35BA3B",
+        "XiangpengHao"
+      ]
+    },
     {
       "id": "8f2e06d603813055d4490b2b17e63cdf2a150879b524fa2ea8217c9433f554f9",
       "primary_topic": "governance-and-institutions",

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "how-to-llm-inference",
+  "images": [
+    {
+      "file": "gguf-file-layout.png",
+      "alt": "GGUF file layout with metadata and tensor descriptors pointing to tensor data regions"
+    },
+    {
+      "file": "qwen36-hybrid-architecture.png",
+      "alt": "Qwen3.6-35B-A3B architecture repeating three DeltaNet MoE blocks and one attention MoE block ten times with weight shares"
+    },
+    {
+      "file": "inference-tensor-shapes.png",
+      "alt": "Decode-time tensor shapes through token embedding, DeltaNet, attention, mixture-of-experts, and vocabulary projection"
+    },
+    {
+      "file": "q8-0-block-quantization.png",
+      "alt": "Q8_0 block storing 32 signed eight-bit weights and one fp16 scale with quantization and dequantization examples"
+    },
+    {
+      "file": "q4-k-super-block.png",
+      "alt": "Q4_K super-block storing 256 four-bit weights with per-sub-block scales and minima packed under two fp16 super-block parameters"
+    },
+    {
+      "file": "floating-point-formats.png",
+      "alt": "Bit allocations for sign exponent and mantissa in fp32 bf16 fp16 fp8 E5M2 and fp8 E4M3 formats"
+    },
+    {
+      "file": "quantized-matmul-format-alignment.png",
+      "alt": "Quantized matrix multiplication unpacking Q4_K weights to u8 and quantizing bf16 activations to i8 for hardware integer dot products"
+    },
+    {
+      "file": "kv-cache-deltanet-state.png",
+      "alt": "Per-layer state comparison between fixed two-megabyte DeltaNet matrices and attention KV caches growing by two kilobytes per token"
+    }
+  ]
+}

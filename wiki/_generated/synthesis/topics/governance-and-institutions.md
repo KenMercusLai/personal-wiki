@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-10-25
-as_of_overview_commit: 5747f82cd3ad83a7365c93e35b2b48e6d2ba1ee0
-input_digest: 67e96602d6f684fef2b21ad56a469308f573991b6277fabac6763b5baaf5fb7d
+as_of_overview_commit: 2c1297f9a8749eed4e929868ebf085e699c360e6
+input_digest: ea1d348f4f2d8d4d1d18992a08fdf60c3dd34c67be74b46601aab6307b51cd4f
 ---
 
 # Governance and Institutions
@@ -1135,3 +1135,15 @@ Technical systems that look operationally narrow can carry social consequences w
 - The evidence is one secondary practitioner review rather than a matched or independently replicated comparison.
 - Environment reward is not free: sandbox construction, stability, isolation, observability, verification, and red-teaming remain substantial costs.
 - The critique bounds pure teacher imitation without displacing supervised cold starts, tool syntax, formats, or safety priors.
+
+### Llm Inference Systems Are Governance Router Spillover
+
+[[LLMInferenceSystems]], [[Qwen36_35BA3B]], [[BlockQuantization]], and [[ArithmeticIntensity]] reach governance-and-institutions only through technical state and resource-allocation vocabulary; their substantive contribution is a source-scoped account of GGUF representation, direct quantized CPU execution, prefill-versus-decode bottlenecks, and autoregressive-state costs rather than evidence about institutional governance.
+
+**Evidence:** [[LLMInferenceSystems]], [[Qwen36_35BA3B]], [[BlockQuantization]], [[ArithmeticIntensity]], [[XiangpengHao]]
+
+**Qualifications:**
+
+- The deterministic router cross-classified the paragraph through state, control, and allocation terminology; it provides no direct evidence about public institutions, organizational authority, law, or political governance.
+- The underlying evidence is one model-specific, CPU-only educational runtime without a mature-runtime comparison, output-quality validation, named processor or thread count, GPU or MTP path, or independent reproduction.
+- The retained tensor-shape figure labels a 248,320-wide vocabulary while the prose states 151,936, so even the source's model dimensions contain an unresolved internal conflict.

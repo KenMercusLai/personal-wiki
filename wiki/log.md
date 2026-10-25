@@ -10252,3 +10252,11 @@ Created [[SingleStepDecisionModel]] and updated [[Jev]] and [[TextClassification
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | A system programmer's guide to LLM inference
+
+Created [[LLMInferenceSystems]] and [[Qwen36_35BA3B]] and updated [[XiangpengHao]], [[BlockQuantization]], and [[ArithmeticIntensity]] from their complete ordered evidence inventories. Recorded GGUF mixed tensor formats, hybrid DeltaNet-attention-MoE structure, model-specific tokenization, typed tensor shapes, direct Q4_K-by-Q8_K integer-dot execution, prefill-versus-decode arithmetic intensity, per-layer state, exact-prefix reuse, and the reported CPU throughput. Preserved the figure-versus-prose vocabulary mismatch, approximate active-parameter count, missing output-quality validation, omitted GPU and MTP paths, first-party benchmark, and portability limits. Opened and retained all eight evidence-bearing local diagrams at their semantic positions with descriptive filenames and a canonical manifest.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

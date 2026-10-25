@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A system programmer's guide to LLM inference](sources/how-to-llm-inference.md) - Xiangpeng Hao builds a model-specific CPU inference engine and connects GGUF layout, tokenization, hybrid architecture, block quantization, direct integer-dot kernels, state reuse, and shape-dependent bottlenecks.
 - [深入解读 Jev 模型：毫秒级判定与工程边界](sources/jev-kuhung.md) - Kuhung surveys Jev's typed single-step decisions, reconstructed inference paths, shared-prefix scaling, calibration needs, deployment patterns, and reasoning limits.
 - [再谈 LLM 辅助写作](sources/sspai-110102.md) - Losses Don argues that useful AI-assisted writing requires rich author-originated input, interrogative outlining, style sensitivity, delayed rereading, and full manual revision despite model-default prose and training-data feedback risks.
 - [AI Is Devouring Our Patience](sources/ai-is-eating-our-patience.md) - Innei argues that AI-enabled output can erode programming patience, flow, design understanding, and unaided skill while raising model-access and talent-assessment risks.
@@ -1308,6 +1309,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Qwen3.6-35B-A3B](entities/Qwen36_35BA3B.md) - Sparse hybrid DeltaNet-attention-MoE model represented through one mixed-quantization GGUF artifact and CPU inference implementation.
 - [Eliud Kipchoge](entities/EliudKipchoge.md) - Kenyan marathon runner who leads the source's repeat-performance counts and set two official world records.
 - [Kelvin Kiptum](entities/KelvinKiptum.md) - Kenyan marathon runner whose third marathon set the 2:00:35 official world record in Chicago in 2023.
 - [Kapy](entities/Kapy.md) - Yan Li's general agent using unified per-turn memory records, compact nodes, a causal DAG, and paired broad and targeted recall modes.
@@ -1455,7 +1457,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dario Amodei](entities/DarioAmodei.md) - Anthropic CEO represented through the contested frontier-pacing debate and Thompson's competitive-incentive interpretation.
 - [LiquidCache](entities/LiquidCache.md) - Disaggregated analytical cache that progressively transcodes Parquet into an ephemeral representation co-designed with filter execution.
 - [Apache DataFusion](entities/ApacheDataFusion.md) - Embeddable analytical engine used as LiquidCache's optimizer, connector, and cache-side execution substrate.
-- [Xiangpeng Hao](entities/XiangpengHao.md) - University of Wisconsin-Madison researcher and lead author of the LiquidCache paper.
+- [Xiangpeng Hao](entities/XiangpengHao.md) - Systems researcher represented through LiquidCache and a dependency-free Rust guide to CPU LLM inference.
 - [Andrew Lamb](entities/AndrewLamb.md) - InfluxData-affiliated database engineer and LiquidCache coauthor connected to DataFusion and StringView work.
 - [Yibo Wu](entities/YiboWu.md) - University of Wisconsin-Madison researcher and LiquidCache coauthor.
 - [Andrea Arpaci-Dusseau](entities/AndreaArpaciDusseau.md) - University of Wisconsin-Madison systems researcher and LiquidCache coauthor.
@@ -3356,6 +3358,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [LLM Inference Systems](concepts/LLMInferenceSystems.md) - Runtimes coordinating model artifacts, tokenization, tensor shapes, quantized execution, reusable state, and hardware bottlenecks to generate tokens.
 - [Single-Step Decision Model](concepts/SingleStepDecisionModel.md) - Bounded-output model that maps context and runtime decision schemas directly to choices, scores, or binary probabilities without autoregressive text generation.
 - [Men's Marathon Performance](concepts/MensMarathonPerformance.md) - Elite men's marathon times viewed through performance depth, country and venue concentration, record eligibility, and age distribution.
 - [Memory Retrieval Modes](concepts/MemoryRetrievalModes.md) - Hybrid policy pairing mandatory broad orientation with agent-directed investigation of specific historical evidence.

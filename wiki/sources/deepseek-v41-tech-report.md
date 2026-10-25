@@ -2,7 +2,7 @@
 title: "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression"
 type: source
 tags: [ai, multimodal-model, kv-cache, sparse-attention, agentic-rl, deepseek]
-date: 2026-10-24
+date: 2026-09-17
 source_file: /mnt/ken_personal_wiki/Articles/deepseek-v41-tech-report.md
 ---
 

@@ -5,7 +5,8 @@ tags: [machine-learning, quantization, numerical-computing, neural-networks]
 sources:
   - scar-of-quantization
   - outperforming-cublas-nvfp4
-last_updated: 2026-10-18
+  - how-to-llm-inference
+last_updated: 2026-10-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ On one selected 10,000-step tile, the source reports underflow falling from 92.3
 
 NVFP4 supplies a hardware-consumed example with a different precision and boundary. Sixteen consecutive E2M1 values along K share one unsigned UE4M3 scale, for 9 bytes per block or 4.5 bits per value. A simple conversion chooses the block's maximum absolute magnitude divided by E2M1's largest magnitude, six, then normalizes values into the representable set. On Blackwell, `tcgen05.mma` reads packed values and scale factors through different staging paths, applies the scale internally, and accumulates in FP32, so numerical grouping also determines scale traffic, TMEM use, and pipeline geometry.
 
+The CPU-inference source supplies two GGUF formats at another hardware boundary. Q8_0 uses one fp16 scale for 32 signed eight-bit values, totaling 34 bytes or 8.5 bits per weight. Q4_K groups 256 four-bit values into eight 32-value sub-blocks with local scale and minimum, then quantizes those sixteen parameters to six bits under one fp16 scale and one fp16 minimum, totaling 144 bytes or 4.5 bits per weight. Runtime bf16 activations are quantized to Q8_K so unpacked Q4_K weights can use CPU `u8 × i8` dot products without an intervening fp32 weight tensor.
+
 ## Key Claims
 - Shared scales couple every value in a block, so block dimensions determine an outlier's error blast radius.
 - Large within-block dynamic range can systematically map small nonzero values to zero and bias the represented tensor.
@@ -26,6 +29,7 @@ NVFP4 supplies a hardware-consumed example with a different precision and bounda
 - Orthogonal rotation can redistribute an outlier before quantization, but local SQNR improvement does not guarantee training or deployment benefit.
 - In causal attention, a scale computed across multiple token positions can itself carry future information even when later attention weights are masked.
 - Hardware-native block formats couple numerical granularity to scale storage, layout, movement, and tensor-core instruction shapes.
+- A deployment format should be evaluated with its matching compute path: dequantizing a compact block into a wide temporary can erase its bandwidth advantage.
 
 ## Evidence
 - Coupling mechanism: [[scar-of-quantization]] compares one scale over 32 tokens by 32 channels with separate 1 by 32 token-row scales around the same marked outlier.
@@ -34,14 +38,16 @@ NVFP4 supplies a hardware-consumed example with a different precision and bounda
 - Token boundary: [[scar-of-quantization]] cites MatX for future leakage when an attention quantization scale is shared across causally separated tokens.
 - NVFP4 representation: [[outperforming-cublas-nvfp4]] records E2M1's representable magnitudes, one UE4M3 scale per 16 K-adjacent values, and the resulting 4.5-bit effective storage.
 - Hardware dataflow: [[outperforming-cublas-nvfp4]] shows scale bytes taking a separate TMA-to-SMEM-to-TMEM path before `tcgen05.mma` applies them and accumulates FP32 output.
+- GGUF CPU formats: [[how-to-llm-inference]] diagrams Q8_0's 32-value shared-scale block and Q4_K's 256-value hierarchy of local and super-block parameters.
+- Direct quantized execution: [[how-to-llm-inference]] aligns Q4_K weights with Q8_K activations and CPU integer-dot instructions, retaining fp32 only for scaled accumulation around the integer reduction.
 
 ## Counterevidence & Qualifications
-The INT8 measurements cover one selected tensor tile and one reported training comparison. That source does not quantify scale-storage overhead, kernel performance, memory traffic, accelerator support, calibration choices, saturation, per-channel alternatives, stochastic variation, or whether the same block shape works across layers and model sizes. The Hadamard result is offline and inverted before measurement, and the causal-attention warning is attributed to external work. The NVFP4 source evaluates kernel throughput rather than model quality: it supplies no quantization-error distribution, accuracy comparison, calibration study, training result, or evidence that maximum-absolute scaling is optimal. Its 4.5-bit accounting excludes broader metadata and layout costs.
+The INT8 measurements cover one selected tensor tile and one reported training comparison. That source does not quantify scale-storage overhead, kernel performance, memory traffic, accelerator support, calibration choices, saturation, per-channel alternatives, stochastic variation, or whether the same block shape works across layers and model sizes. The Hadamard result is offline and inverted before measurement, and the causal-attention warning is attributed to external work. The NVFP4 source evaluates kernel throughput rather than model quality: it supplies no quantization-error distribution, accuracy comparison, calibration study, training result, or evidence that maximum-absolute scaling is optimal. Its 4.5-bit accounting excludes broader metadata and layout costs. The GGUF inference source likewise does not measure perplexity or output quality against an unquantized model, compare its kernel with a mature runtime, or establish that its selected per-tensor formats are optimal.
 
 ## What Changed
-- Added hardware-native NVFP4 as a 16-value E2M1 block with one UE4M3 scale and 4.5-bit effective payload cost.
-- Connected scale granularity to Blackwell's separate scale movement, TMEM footprint, and tensor-core consumption.
-- Preserved the distinction between a throughput demonstration and evidence of model-level quantization quality.
+- Added Q8_0 and hierarchical Q4_K as concrete GGUF block layouts for CPU inference.
+- Connected stored block structure to Q8_K activation conversion and native integer dot products.
+- Preserved the distinction between runtime throughput and model-quality evidence.
 
 ## Related Concepts
 - [[QuantizationAwareTraining]] - trains a model under the distortions introduced by the chosen block scheme.
