@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [为什么说“线下试玩会”是坏文明](sources/plumz-14418.md) - Plum argues that invitation-only game previews substitute controlled creator publicity for public verification, using Wuchang as a retrospective expectation-backlash case and Phantom Blade Zero as a prospective warning.
 - [A system programmer's guide to LLM inference](sources/how-to-llm-inference.md) - Xiangpeng Hao builds a model-specific CPU inference engine and connects GGUF layout, tokenization, hybrid architecture, block quantization, direct integer-dot kernels, state reuse, and shape-dependent bottlenecks.
 - [深入解读 Jev 模型：毫秒级判定与工程边界](sources/jev-kuhung.md) - Kuhung surveys Jev's typed single-step decisions, reconstructed inference paths, shared-prefix scaling, calibration needs, deployment patterns, and reasoning limits.
 - [再谈 LLM 辅助写作](sources/sspai-110102.md) - Losses Don argues that useful AI-assisted writing requires rich author-originated input, interrogative outlining, style sensitivity, delayed rereading, and full manual revision despite model-default prose and training-data feedback risks.
@@ -1309,6 +1310,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Plum](entities/Plum.md) - Blogger represented through a first-person critique of invitation-only game previews, creator incentives, expectation inflation, and the case for public demos.
+- [Phantom Blade Zero](entities/PhantomBladeZero.md) - Chinese action game presented as a prospective case of prolonged preview marketing outrunning verifiable release readiness.
+- [Wuchang: Fallen Feathers](entities/WuchangFallenFeathers.md) - Chinese Soulslike presented as a retrospective case of promotional expectation exceeding the product experience audiences believed they had been promised.
 - [Qwen3.6-35B-A3B](entities/Qwen36_35BA3B.md) - Sparse hybrid DeltaNet-attention-MoE model represented through one mixed-quantization GGUF artifact and CPU inference implementation.
 - [Eliud Kipchoge](entities/EliudKipchoge.md) - Kenyan marathon runner who leads the source's repeat-performance counts and set two official world records.
 - [Kelvin Kiptum](entities/KelvinKiptum.md) - Kenyan marathon runner whose third marathon set the 2:00:35 official world record in Chicago in 2023.
@@ -3358,6 +3362,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Controlled Game Preview Marketing](concepts/ControlledGamePreviewMarketing.md) - Selectively granted, developer-framed early access used to generate coverage while limiting public inspection of the same build.
 - [LLM Inference Systems](concepts/LLMInferenceSystems.md) - Runtimes coordinating model artifacts, tokenization, tensor shapes, quantized execution, reusable state, and hardware bottlenecks to generate tokens.
 - [Single-Step Decision Model](concepts/SingleStepDecisionModel.md) - Bounded-output model that maps context and runtime decision schemas directly to choices, scores, or binary probabilities without autoregressive text generation.
 - [Men's Marathon Performance](concepts/MensMarathonPerformance.md) - Elite men's marathon times viewed through performance depth, country and venue concentration, record eligibility, and age distribution.

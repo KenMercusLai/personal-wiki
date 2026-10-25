@@ -10257,6 +10257,14 @@ Ran lint. See lint-report.md for details.
 
 Created [[LLMInferenceSystems]] and [[Qwen36_35BA3B]] and updated [[XiangpengHao]], [[BlockQuantization]], and [[ArithmeticIntensity]] from their complete ordered evidence inventories. Recorded GGUF mixed tensor formats, hybrid DeltaNet-attention-MoE structure, model-specific tokenization, typed tensor shapes, direct Q4_K-by-Q8_K integer-dot execution, prefill-versus-decode arithmetic intensity, per-layer state, exact-prefix reuse, and the reported CPU throughput. Preserved the figure-versus-prose vocabulary mismatch, approximate active-parameter count, missing output-quality validation, omitted GPU and MTP paths, first-party benchmark, and portability limits. Opened and retained all eight evidence-bearing local diagrams at their semantic positions with descriptive filenames and a canonical manifest.
 
+## [2026-10-25] ingest | 为什么说“线下试玩会”是坏文明
+
+Created [[Plum]], [[PhantomBladeZero]], [[WuchangFallenFeathers]], and [[ControlledGamePreviewMarketing]] and updated [[AccessJournalism]] from its complete ordered evidence inventory. Recorded the distinction between invitation-only publicity and public demos, soft pressure from scarce access and hospitality, preview-frequency versus release-readiness evidence, and expectation-driven launch backlash. Preserved the single-author, unverified-media-behavior, missing-contract, missing-comparative-data, prospective-prediction, demo-cost, and product-quality boundaries. Opened the sole local image and retained it as an explicitly AI-generated editorial illustration rather than documentary evidence.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

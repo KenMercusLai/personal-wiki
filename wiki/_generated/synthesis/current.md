@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-25
-as_of_overview_commit: 2c1297f9a8749eed4e929868ebf085e699c360e6
+as_of_overview_commit: 65e9aa6cc75ba720a59755c8f8c5412c7069e269
 summary: "Evidence-qualified synthesis across technology, business, institutions, health, culture, work, and personal development, with authority, uncertainty, and tradeoffs explicit."
-episode_count: 1275
-source_count: 1275
-paragraph_count: 892
+episode_count: 1276
+source_count: 1276
+paragraph_count: 893
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI and software outcomes depend on architecture, evidence, context, verification
 
 ### Business and Markets
 
-Durable business value joins customer learning, retention, pricing, costs, capital structure, competitive response, and operational execution.
+Durable business value joins customer learning, retention, pricing, costs, capital structure, competitive response, operational execution, and product evidence stronger than managed promotional attention.
 
 - [[AIInfrastructureFinancing]] makes capital structure part of [[AIInvestmentTheme]]: free cash flow, debt, equity, third-party infrastructure funds, and [[Nvidia]] residual-value support can all turn expected compute demand into current construction, but they allocate dilution, repayment, utilization, obsolescence, and resale risk differently; durable paid use and asset value therefore matter more than present orders alone. Evidence: [[AIInfrastructureFinancing]], [[AIInvestmentTheme]], [[Nvidia]], [[JensenHuang]], [[Google]], [[Anthropic]], [[BenThompson]].
 - [[AgentNativeComputing]] may reorder platform advantage by combining browser use, [[ComputerUse]], [[GenerativeUI]], hosted execution, and open gadgets behind one context-rich agent relationship; [[Muse]] and [[MicrosoftCopilot]] illustrate consumer and enterprise bids to shift aggregation from discovering supply toward framing intent and executing across suppliers, while [[AppleTrustBrand]] and app-centered control retain a qualified autonomy-versus-curation tradeoff. Evidence: [[AgentNativeComputing]], [[ComputerUse]], [[GenerativeUI]], [[Muse]], [[MicrosoftCopilot]], [[AggregationTheory]], [[AppleTrustBrand]], [[MacOS]], [[BenThompson]].

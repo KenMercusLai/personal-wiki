@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
       "0a1136fa7c90465496cb6d001fe6983f697cd167c423911a0920cfa3bc7eabf0",
       "8f2e06d603813055d4490b2b17e63cdf2a150879b524fa2ea8217c9433f554f9",
       "ed37edc97f4d82ce262f373b702c3dbaf4826fa8b1ff030b470eb6954b6928b5",
@@ -894,11 +895,29 @@
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
     ],
-    "paragraph_count": 892
+    "paragraph_count": 893
   },
-  "overview_commit": "2c1297f9a8749eed4e929868ebf085e699c360e6",
-  "overview_digest": "209e45da4cbeb58fd50b4f6195a4dd17e20a94adcdb79847abb3acc2fd9a3401",
+  "overview_commit": "65e9aa6cc75ba720a59755c8f8c5412c7069e269",
+  "overview_digest": "e53f5b3bff0fa9506a9ef1c93cb4aeee92d9c068de353ca5df32cf145bdaac0c",
   "paragraphs": [
+    {
+      "id": "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[Plum]] essay adds [[ControlledGamePreviewMarketing]] as an evidence-boundary problem in game promotion. Invitation-only sessions can concentrate coverage by combining scarce preview builds, travel, hospitality, gifts, embargo timing, and future access while leaving ordinary players unable to inspect the same artifact; this extends [[AccessJournalism]] from source proximity to product access without proving that any particular participant softened coverage. The proposed contrast is a public demo, which lets players directly test hardware performance, controls, difficulty, and genre fit, but may impose packaging, support, security, and representativeness costs the source does not measure. [[WuchangFallenFeathers]] supplies the article's retrospective expectation-backlash case, while [[PhantomBladeZero]] remains a prospective warning that years of polished previews do not establish release readiness or final quality. The account is a single polemical essay with no contracts, participant interviews, comparative launch data, performance benchmarks, or verified causal link between event access and coverage. Its sole retained image is explicitly an AI-generated editorial illustration of the alleged incentive structure, not documentary evidence of payment.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "AccessJournalism",
+        "ControlledGamePreviewMarketing",
+        "PhantomBladeZero",
+        "Plum",
+        "WuchangFallenFeathers"
+      ]
+    },
     {
       "id": "0a1136fa7c90465496cb6d001fe6983f697cd167c423911a0920cfa3bc7eabf0",
       "primary_topic": "governance-and-institutions",
