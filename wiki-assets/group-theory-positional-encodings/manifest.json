@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "group-theory-positional-encodings",
+  "images": [
+    {
+      "file": "damped-rotation-one-parameter-group.jpg",
+      "alt": "Complex eigenvalue mapped through exp(tz) to a damped rotation acting on two vectors"
+    },
+    {
+      "file": "jordan-block-polynomial-shear.jpg",
+      "alt": "Jordan-block matrix with exponential decay and a polynomial shear acting on a two-dimensional vector"
+    }
+  ]
+}

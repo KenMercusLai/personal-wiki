@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "18317e5f85a3b70e667f9025648a057cfefa6c6e79eb56d49cde781c81ff0059",
       "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
       "0a1136fa7c90465496cb6d001fe6983f697cd167c423911a0920cfa3bc7eabf0",
       "8f2e06d603813055d4490b2b17e63cdf2a150879b524fa2ea8217c9433f554f9",
@@ -896,11 +897,26 @@
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
     ],
-    "paragraph_count": 894
+    "paragraph_count": 895
   },
-  "overview_commit": "ede5bf49d1f93b93bafb6d650d64d0b8c8baa559",
-  "overview_digest": "9ec62adb3ceba1fdf671b0dc7da6863b1a08d68b315a6c11e03a0fc1d69b8add",
+  "overview_commit": "99391ddd42dd5bca081620642325935ab192c11a",
+  "overview_digest": "9b1f334f9f7ca6f3ef45fadeda1491dbcc0f3734c4c0c6319b408d84b1588705",
   "paragraphs": [
+    {
+      "id": "18317e5f85a3b70e667f9025648a057cfefa6c6e79eb56d49cde781c81ff0059",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[AlokPuranik]] source adds [[OneParameterMatrixGroups]] as a conditional classification of position mechanisms in attention-based AI models. If query and key position transforms are finite-dimensional and linear, scores depend only on relative displacement, equal-time interaction is normalized to `I`, and the relative transform is continuous, then time shifts satisfy `A(0) = I` and `A(s+t) = A(s)A(t)` and therefore have the form `A(t) = exp(tX)`. The generator's canonical structure unifies several existing branches of [[PositionalEncoding]]: zero real modes give NoPE, negative real modes give causal exponential decay, complex-conjugate modes become [[RotaryPositionalEncoding|RoPE]] rotation blocks, and combining rotation with a negative real part gives damped RoPE. Defective Jordan blocks add polynomial factors; after augmenting queries and keys, the simplest shear can produce ALiBi's linear `-mt` penalty. The result is an enumeration only within its assumptions, not proof of universal optimality: nonlinear or absolute schemes remain outside it, negative decay needs causal directionality, the polynomial families are not trained or benchmarked, and the source's initial novelty claim is narrowed by its ALiBi and GRAPE addenda. The decorative ring, both animation posters, and representative frames across both MP4s were inspected; two evidence-bearing posters were retained to show damped rotation and polynomial shear, while the decorative and duplicate files were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 2
+      },
+      "wikilinks": [
+        "AlokPuranik",
+        "OneParameterMatrixGroups",
+        "PositionalEncoding",
+        "RotaryPositionalEncoding"
+      ]
+    },
     {
       "id": "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
       "primary_topic": "business-and-markets",

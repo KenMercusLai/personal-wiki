@@ -10276,3 +10276,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-25] ingest | Using group theory to explore the space of positional encodings for attention
+
+Created [[AlokPuranik]], [[JaneStreet]], and [[OneParameterMatrixGroups]] and updated [[PositionalEncoding]], [[RotaryPositionalEncoding]], and [[GroupTheory]] from their complete ordered evidence inventories. Recorded the conditional derivation from linearity, translation invariance, equal-time identity, and continuity to `A(t) = exp(tX)`; classified real, complex-conjugate, and defective generator modes; and preserved the causal-decay, augmentation, missing-benchmark, and GRAPE-priority qualifications. Opened the decorative ring image, both animation posters, and representative frames across both MP4 animations; retained the two evidence-bearing posters with descriptive canonical filenames and a manifest, and omitted the decorative ring and duplicate videos.
+
+## [2026-10-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
