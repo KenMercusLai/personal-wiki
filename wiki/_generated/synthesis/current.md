@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-26
-as_of_overview_commit: c1780f63e6be655a7320cd438dcc56b160b03357
+as_of_overview_commit: ea3145e525364af58fe71f833c31ef7a6dbdd8e5
 summary: "Evidence-qualified synthesis across technology, business, institutions, health, culture, work, and personal development, with authority, uncertainty, and tradeoffs explicit."
-episode_count: 1281
-source_count: 1281
-paragraph_count: 895
+episode_count: 1282
+source_count: 1282
+paragraph_count: 896
 topic_count: 9
 ---
 
@@ -68,7 +68,7 @@ Historical and geopolitical claims require separating primary evidence, later in
 
 ### Psychology and Personal Development
 
-Personal development emerges from feedback among reflection, action, identity, motivation, relationships, and responsibility, bounded by agency and proportional stakes.
+Personal development emerges from feedback among reflection, action, identity, motivation, relationships, responsibility, and designed attention environments, bounded by agency, proportional stakes, and evidence quality.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].

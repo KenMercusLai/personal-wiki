@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b5e04619246f3d1d072a2cfaee02e1d4348c47f0cc367a6458290def2f775c57",
       "18317e5f85a3b70e667f9025648a057cfefa6c6e79eb56d49cde781c81ff0059",
       "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
       "0a1136fa7c90465496cb6d001fe6983f697cd167c423911a0920cfa3bc7eabf0",
@@ -897,11 +898,26 @@
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
     ],
-    "paragraph_count": 895
+    "paragraph_count": 896
   },
-  "overview_commit": "c1780f63e6be655a7320cd438dcc56b160b03357",
-  "overview_digest": "7daca55a112f34cb14953a22fcf9165816b4cd43e409e96a167c40c4125a2c5d",
+  "overview_commit": "ea3145e525364af58fe71f833c31ef7a6dbdd8e5",
+  "overview_digest": "248b4983aa943acf8b6764fadc4fe8d30a1f99dac6063509b8074d3e2b3714c3",
   "paragraphs": [
+    {
+      "id": "b5e04619246f3d1d072a2cfaee02e1d4348c47f0cc367a6458290def2f775c57",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[Chongxi]] essay adds [[ContentFirstWebDesign]] as attentional prioritization rather than decoration-free minimalism. Its article surface uses a paper-like beige, readable type, generous spacing, and an absence of pop-ups, floating sharing controls, progress indicators, or unrelated widgets; author information, licensing, and recommendations appear after the text. Technical-note labels and quiet name placement remain as peripheral identity cues whose omission would not block reading. This extends [[DeepReading]] from individual habit into interface conditions and sharpens [[DigitalContentDurability]] from reader-held archives into writer-side custody through an independent domain, repository-held text, export, and migration. The boundaries are substantial: the article is one author's reflective rationale, its Swiss–NASA–Lone Trail lineage is interpretive, it reports no accessibility or reading outcomes, and independent infrastructure still needs backups, security, redirects, recovery, and maintenance. The supplied Markdown contains no effective image references, so no asset manifest was required.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Chongxi",
+        "ContentFirstWebDesign",
+        "DeepReading",
+        "DigitalContentDurability"
+      ]
+    },
     {
       "id": "18317e5f85a3b70e667f9025648a057cfefa6c6e79eb56d49cde781c81ff0059",
       "primary_topic": "ai-and-technology",

@@ -5,7 +5,8 @@ tags: [digital-content, preservation, ownership, web]
 sources:
   - sneakerweb-hu-lian-wang-de-cui-ruo-yu-ren-xing-luo-li-li-de-shu-ju-zhong-xin
   - chinese-blogs-link-rot-2022
-last_updated: 2026-10-18
+  - my-blog-design
+last_updated: 2026-10-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,8 +20,10 @@ A reader-held package improves durability by moving bytes and replay capability 
 
 The source also makes durability a governance tradeoff. Irreversible reader custody can protect culture and personal agency against neglect or arbitrary withdrawal, yet it can preserve errors, secrets, malicious code, privacy violations, and material whose subjects have legitimate removal interests. “Ownership” therefore describes a bundle of practical capabilities—retain, replay, verify, copy, migrate, and sometimes redistribute—not an automatic override of copyright, consent, or safety obligations.
 
+Chongxi adds a writer-side motivation for ordinary independent publishing. Keeping text in a repository behind an independent domain, with the ability to export and migrate it, gives the author more practical control than platform-only publication and treats preservation as part of respect for one's own record. This is stronger custody, not guaranteed permanence: the source provides no backup, redundancy, redirect, repository-availability, or recovery details, and the measured blog-loss evidence shows that independent sites themselves still disappear.
+
 ## Key Claims
-- Access through a live service is conditional on a chain of technical, commercial, administrative, and political dependencies.
+- Access through a live service is conditional on technical, commercial, administrative, and political dependencies; independent domains, repository-held source, export, and migration strengthen author custody without eliminating that chain.
 - Local bytes are insufficient when content still depends on remote APIs, expiring authorization, proprietary readers, or undocumented behavior.
 - Stable content identity and integrity verification can outlast renewable names and certificates, but create key-compromise, rotation, and discoverability problems.
 - Complete, replayable packages give readers stronger custody than subscriptions, electronic licenses, or links to hosted content.
@@ -37,14 +40,14 @@ The source also makes durability a governance tradeoff. Irreversible reader cust
 - Measured decay: [[chinese-blogs-link-rot-2022]] calculates 8.41% annual site loss for one Chinese independent-blog cohort and later reports 10–12% annual article-link loss from a smaller sample.
 - Migration and hosting mechanisms: [[chinese-blogs-link-rot-2022]] attributes roughly half of observed 404s to permalink changes without redirects and frames managed static hosting as lower individual risk but greater shared-provider exposure.
 - Preservation boundary: [[chinese-blogs-link-rot-2022]] counts the original as lost even if an external archive retains a copy, separating preserved content from live-origin continuity.
+- Author-side custody: [[my-blog-design]] rejects platform-only publication because shutdown, account enforcement, or algorithm change can remove access, and instead emphasizes an independent domain, repository-held writing, export, and migration.
 
 ## Counterevidence & Qualifications
-The Sneakerweb source offers a personal threat model rather than measurements of archive completeness, replay longevity, or consumer demand for stronger digital custody. The blog-loss source supplies measurements, but not enough method detail to reproduce its sampling, retries, uncertainty, or failure classification; its annualized rates and half-lives assume a stable hazard and should not be generalized beyond the observed cohorts. Public-key naming protects identity only while keys and verification software remain trustworthy. Local archives can silently corrupt, disappear with one device, expose private information, execute malicious code, or become unreadable as runtimes change. Some service dependence funds maintenance, moderation, accessibility, correction, security response, and rights enforcement; converting every live service into an irrevocable artifact is neither technically feasible nor always socially desirable.
+The Sneakerweb source offers a personal threat model rather than measurements of archive completeness, replay longevity, or consumer demand for stronger digital custody. Chongxi likewise states a personal ownership rationale without documenting the site's backup, security, export tests, repository availability, or recovery process. The blog-loss source supplies measurements, but not enough method detail to reproduce its sampling, retries, uncertainty, or failure classification; its annualized rates and half-lives assume a stable hazard and should not be generalized beyond the observed cohorts. Public-key naming protects identity only while keys and verification software remain trustworthy. Local archives or repositories can silently corrupt, disappear with one device or account, expose private information, execute malicious code, or become unreadable as runtimes change. Some service dependence funds maintenance, moderation, accessibility, correction, security response, and rights enforcement; converting every live service into an irrevocable artifact is neither technically feasible nor always socially desirable.
 
 ## What Changed
-- Added provisional site-level and article-level decay measurements from Chinese independent blogs.
-- Distinguished preservation of content from continuity of its original live URL and publisher identity.
-- Added permalink migration and correlated hosting dependence as concrete durability mechanisms.
+- Added independent domains, repository-held source, export, and migration as author-side custody mechanisms.
+- Qualified personal control by separating it from tested backup, recovery, and live-link continuity.
 
 ## Related Concepts
 - [[OfflineWebDistribution]] - supplies transport and replication mechanisms for durable reader-held copies.
