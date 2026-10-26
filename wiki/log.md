@@ -10284,3 +10284,11 @@ Created [[AlokPuranik]], [[JaneStreet]], and [[OneParameterMatrixGroups]] and up
 ## [2026-10-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-26] ingest | Do You Trust Apple?
+
+Created [[HomeView]] and [[Siri]] and updated [[Apple]], [[BenThompson]], [[TimCook]], [[AppleTrustBrand]], and [[SmartHomeInteroperability]] from their complete ordered evidence inventories. Recorded HomeView's household use cases, Apple Home Collection's partner-backed setup and privacy model, the AirPort integration analogy and abandonment counterexample, services incentives, Siri's reported capability gap, and the opportunity cost of long-lived home infrastructure. Preserved the launch-claim, quoted-reporting, qualitative-comparison, untested-reliability, partner-execution, and future-support boundaries. Opened all three local still images and representative frames across the embedded MP4; retained the two distinct evidence-bearing product images with descriptive canonical filenames and a manifest, and omitted the duplicate low-resolution video poster and the video itself.
+
+## [2026-10-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

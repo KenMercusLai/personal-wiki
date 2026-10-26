@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "do-you-trust-apple",
+  "images": [
+    {
+      "file": "original-ibook-advertisement.png",
+      "alt": "Original clamshell iBook advertisement reading “iMac to go. Introducing iBook.”"
+    },
+    {
+      "file": "original-airport-base-station.png",
+      "alt": "Original silver AirPort base station with Apple logo and three status lights"
+    }
+  ]
+}

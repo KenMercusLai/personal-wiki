@@ -976,6 +976,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Details on the January 9th, 2017 Asana Outage](sources/details-on-the-january-9th-2017-asana-outage.md) - Asana's postmortem traces a hung provisioning lock, unnoticed alerts, exceptional Monday demand, nonlinear server collapse, manual scaling, and load-balancer throttling.
 - [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
 - [Apple and a Hacker’s Future](sources/apple-and-a-hackers-future.md) - Ben Thompson uses a compromised headless Mac agent host to examine agent-level permissions, Apple's trust and app models, and the shift toward agent-native computing.
+- [Do You Trust Apple?](sources/do-you-trust-apple.md) - Ben Thompson argues that Apple's privacy and integration strengths make HomeView plausible while AirPort's abandonment, services incentives, and Siri create long-term trust risks.
 - [Apple's Middle Age](sources/apples-middle-age-stratechery-by-ben-thompson.md) - Ben Thompson argues that saturated premium smartphones pushed Apple toward inward growth through higher iPhone ASPs, Services, and more Apple-specific devices for existing users.
 - [Apple's Social Network](sources/apples-social-network-stratechery-by-ben-thompson.md) - Ben Thompson argues that Today at Apple is Apple's real-world social network and that Apple's post-unit-sales reporting still needs active-customer and revenue-per-user metrics.
 - [Apple's Stream Team: Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future](sources/apples-stream-team-zane-lowe-bozoma-saint-john-and-larry-jackson-are-taking-music-to-the-future-complex.md) - Complex profiles Apple Music as an early culture-platform bet built around artist collaboration, Beats 1, marketing, and shared streaming moments.
@@ -2724,7 +2725,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, capability stacks, agent autonomy, and the incentive asymmetries behind cyber defense and innovation.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, capability stacks, agent autonomy, and trust across integrated technology systems.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -2976,7 +2977,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
 - [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
 - [Stian Westlake](entities/StianWestlake.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
-- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, app model, wearables, immersive media, services, capital allocation, and agent-era control tradeoffs shape its profile.
+- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, app model, wearables, immersive media, home integration, services, capital allocation, and AI execution tradeoffs shape its profile.
 - [macOS](entities/MacOS.md) - Apple's Unix desktop operating system, represented as a strong automation substrate with headless-agent permission, patching, and remote-access constraints.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
@@ -2984,7 +2985,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as a content-distribution asset, a culture-platform experiment, and evidence for capability-led acquisition strategy.
 - [Apple TV](entities/AppleTV.md) - Apple's premium video hardware and TV-app context in the content distribution strategy.
 - [HomePod](entities/HomePod.md) - Apple's premium speaker contrasted with cheaper smart speakers in the content distribution strategy.
-- [Tim Cook](entities/TimCook.md) - Apple CEO tied to Services framing, active-device measurement, and Today at Apple retail positioning.
+- [HomeView](entities/HomeView.md) - Apple's shared household display and controller whose utility depends on integration reliability, privacy, Siri, and long-term support.
+- [Siri](entities/Siri.md) - Apple's voice assistant and HomeView interface, framed as a central reliability and long-term platform risk.
+- [Tim Cook](entities/TimCook.md) - Former Apple CEO tied to exceptional financial scaling, Services framing, active-device measurement, product pruning, and AI preparedness.
 - [Luca Maestri](entities/LucaMaestri.md) - Apple CFO tied to Apple's Services narrative, unit-disclosure change, and revenue/gross-margin framing.
 - [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
 - [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform whose device adoption and clear voice scope produced strong music and simple-command use without automatically creating broad Skill discovery or sustainable developer economics.
@@ -4174,7 +4177,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
 - [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by back-end coverage, discoverability, hands-free context, ecosystem economics, privacy, naming, and visible-interface limits.
-- [Smart Home Interoperability](concepts/SmartHomeInteroperability.md) - Ability of home devices, hubs, apps, standards, sensors, and infrastructure products to work together as a reliable household system.
+- [Smart Home Interoperability](concepts/SmartHomeInteroperability.md) - Ability of home devices, hubs, apps, standards, identity, controls, and infrastructure products to work together as a reliable, supportable household system.
 - [AI Marketing Hype](concepts/AIMarketingHype.md) - Pattern where "AI" becomes broad product-positioning language before the user benefit, model behavior, or technical distinction is clear.
 - [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.
 - [AI-Guided Web Scraping](concepts/AIGuidedWebScraping.md) - Scraping pattern where an LLM-guided agent searches page structure, selects elements, performs browser interactions, and iterates toward a goal.
@@ -4348,7 +4351,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus, content distribution economics, and related customer-metrics gap.
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
 - [Apple Content Distribution Strategy](concepts/AppleContentDistributionStrategy.md) - Apple's selective use of services, non-Apple hardware support, AirPlay, and premium first-party devices to distribute content.
-- [Apple Trust Brand](concepts/AppleTrustBrand.md) - Benedict Evans' frame for Apple's services-era promise around trust, privacy, curation, and protection from scams.
+- [Apple Trust Brand](concepts/AppleTrustBrand.md) - Apple's promise of easy, private, curated technology, qualified by control legibility, support longevity, integration reliability, and AI usefulness.
 - [Apple Growth Levers](concepts/AppleGrowthLevers.md) - Above Avalon and Stratechery frame Apple's uneven revenue drivers: iPhone ASP, Services, wearables, attached devices, and engagement.
 - [Apple Middle Age Strategy](concepts/AppleMiddleAgeStrategy.md) - Ben Thompson's frame for mature Apple using ASPs, Services, additional devices, and engagement to grow inside a saturated premium smartphone market.
 - [Apple Real World Social Network](concepts/AppleRealWorldSocialNetwork.md) - Thompson's frame for Today at Apple as controlled, retail-based social engagement around Apple's installed base.

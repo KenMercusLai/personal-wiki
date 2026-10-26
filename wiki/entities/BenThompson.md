@@ -18,7 +18,8 @@ sources:
   - write-things-down
   - apple-you-still-dont-understand-the-vision-pro
   - autonomy-and-innovation
-last_updated: 2026-10-17
+  - do-you-trust-apple
+last_updated: 2026-10-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -52,11 +53,13 @@ The Vision Pro essay applies Thompson's first-person adoption method to medium d
 
 “Autonomy and Innovation” develops the earlier cyber-overhang and agent-incident arguments into a general incentive model. Thompson separates capability from intent, then contrasts attackers and startups—who can discard failures while pursuing one valuable success—with defenders and incumbents, who must preserve working systems and therefore retain human review. He argues that machine-speed competition ultimately requires closed-loop autonomy and that AI can simultaneously sustain incumbents as a productivity tool and disrupt them through AI-native startups. This is a strategic forecast grounded in a provisionally reported incident and qualitative payoff logic, not comparative evidence that autonomous defense or AI-native companies succeed.
 
+“Do You Trust Apple?” returns to Thompson's Apple, integration, and incentive lenses through the smart home. He treats HomeView's use cases as credible and Apple's privacy and partner-integration model as a real advantage, but separates that product promise from the durability and interface risks around it. AirPort's abandonment tests long-term commitment; iCloud+ and Apple Music reveal services incentives; and Siri tests whether privacy and ease of use remain sufficient when the primary AI interface trails newer agents. The essay also shows Thompson revising his own earlier skepticism about an Apple home product while keeping his preference for user-controlled agent software.
+
 ## Key Characteristics
 - Frames technology announcements and regulation through business-model incentives and system boundaries.
 - Uses economic-surplus reasoning to connect software monetization with user value and platform strategy.
 - Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
-- Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
+- Interprets Apple through vertical integration, installed-base leverage, trust, product durability, services incentives, and market maturity rather than through a simple services-pivot story.
 - Separates goals, strategies, tactics, capability layers, and theory scope while testing playbooks against changed customers, interfaces, competitors, culture, and value-chain position.
 - Uses first-person technology adoption as a concrete input while distinguishing demonstrated workflow utility, spatial presence, external continuity, and human agency from broader capability claims.
 - Tests safety and innovation arguments against capability, intent, payoff asymmetry, organizational risk, and competitive timing.
@@ -99,15 +102,20 @@ The Vision Pro essay applies Thompson's first-person adoption method to medium d
 - Shared-capability lens: [[autonomy-and-innovation]] argues that cyber offense and defense use the same underlying skill while prompts, permissions, and incentives determine application.
 - Closed-loop autonomy: [[autonomy-and-innovation]] says automated discovery without patching, rollout, observation, and rollback only moves the defensive bottleneck to human engineers.
 - Innovation asymmetry: [[autonomy-and-innovation]] argues that incumbent downside protection makes AI sustaining, while a startup failure baseline can support a disruptive AI-native operating model.
+- Historical analogy: [[do-you-trust-apple]] compares Apple's 1999 AirPort integration of partner technology with its 2026 Home Collection partnerships.
+- Trust decomposition: [[do-you-trust-apple]] separates privacy and setup advantages from product-support longevity, recurring-revenue incentives, and Siri reliability.
+- Revised judgment: [[do-you-trust-apple]] finds five credible HomeView use cases despite Thompson's earlier lack of interest in Apple's proposed home product.
+- Opportunity-cost lens: [[do-you-trust-apple]] argues that choosing long-lived Siri-controlled infrastructure can foreclose competing AI interfaces.
 
 ## Qualifications
-This page covers Thompson only through fifteen Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, frontier-overhang, fixed-camera immersive-media, autonomous-defense, and AI-native-startup theses are partly prospective and should not be read as verified later outcomes. The Muse, personal-assistant, and Vision Pro cases are first-person experiences and do not establish general reliability, affordability, comfort, preference, or transfer. The frontier and autonomy essays provide no audited lab economics, attack-defense benchmark, quantified expected value, broad adoption evidence, or proof of company outcomes, while “Write Things Down” offers personal AGI, agency, and moral distinctions rather than validated technical tests. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, frontier, incident, autonomous-remediation, and immersive-production essays are strategy arguments rather than causal, legal, financial, security, safety, or audience studies.
+This page covers Thompson only through sixteen Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, frontier-overhang, fixed-camera immersive-media, autonomous-defense, AI-native-startup, and Apple home theses are partly prospective and should not be read as verified later outcomes. The Muse, personal-assistant, Vision Pro, and home-automation cases are first-person experiences and do not establish general reliability, affordability, comfort, preference, or transfer. The frontier and autonomy essays provide no audited lab economics, attack-defense benchmark, quantified expected value, broad adoption evidence, or proof of company outcomes, while “Write Things Down” offers personal AGI, agency, and moral distinctions rather than validated technical tests. The HomeView article analyzes launch claims and quoted reporting without independent product testing, longitudinal support evidence, or Siri benchmarks. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, frontier, incident, autonomous-remediation, immersive-production, and smart-home essays are strategy arguments rather than causal, legal, financial, security, safety, reliability, or audience studies.
 
 ## What Changed
 - Added capability-versus-intent and payoff asymmetry as a unified lens across cyber defense and innovation.
 - Added full-loop autonomy as Thompson's answer to machine-speed offensive or startup competition.
 - Added the claim that AI can be sustaining for incumbents and disruptive through AI-native startups.
 - Preserved the incident's provisional reporting and the thesis's unmeasured, forecast character.
+- Added Thompson's home-trust framework: integration and privacy advantages are real but cannot substitute for support longevity and a capable AI interface.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -154,3 +162,6 @@ This page covers Thompson only through fifteen Stratechery articles. It does not
 - [[AutonomousCyberDefense]] - closed defensive loop Thompson argues must match automated offense without a human-speed patch bottleneck.
 - [[AINativeOrganization]] - organizational form Thompson expects startups to pursue more readily than incumbents.
 - [[AutomationErrorTolerance]] - downside asymmetry that explains resistance to autonomous action in functioning systems.
+- [[HomeView]] - Apple home product through which Thompson tests useful integration against Siri and switching costs.
+- [[AppleTrustBrand]] - trust framework Thompson extends from privacy and controls into long-lived household infrastructure.
+- [[SmartHomeInteroperability]] - practical system problem that makes Apple's partner-integration strategy attractive.
