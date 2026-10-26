@@ -10296,3 +10296,11 @@ Created [[HomeView]] and [[Siri]] and updated [[Apple]], [[BenThompson]], [[TimC
 ## [2026-10-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-26] ingest | A Script for Mark Zuckerberg
+
+Created [[MetaPlatforms]] and [[ComputeHurdleRate]] and updated [[MarkZuckerberg]] and [[AIInfrastructureFinancing]] from their complete ordered evidence inventories. Recorded Thompson's advertising-led rationale for Meta's AI investment, temporary reclaimable compute rental, and a market-priced allocation hurdle while preserving that the speech is fictional rather than Zuckerberg testimony or announced Meta policy. Preserved the privacy, consent, ad-return, utilization, interruptibility, demand-correlation, contract, and strategic-value qualifications. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
