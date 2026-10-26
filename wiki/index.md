@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Who’s Afraid of Chinese Models?](sources/whos-afraid-of-chinese-models.md) - Ben Thompson separates open-weight availability from inference COGS, evaluates commodity-like intelligence by task-level cost, and argues for permissive U.S. distillation and cyber-defense access.
 - [Using group theory to explore the space of positional encodings for attention](sources/group-theory-positional-encodings.md) - Alok Puranik derives continuous linear relative position transforms as one-parameter matrix groups, recovering NoPE, decay, RoPE, damped RoPE, and polynomial Jordan-block families under explicit assumptions.
 - [Everyone can build now. Almost no one can judge.](sources/everyone-can-build-almost-no-one-can-judge.md) - Mai Yang uses Linear's quality practices to argue that AI-cheapened implementation raises the value of product judgment, focused scope, defect discipline, and durable customer-value growth.
 - [为什么说“线下试玩会”是坏文明](sources/plumz-14418.md) - Plum argues that invitation-only game previews substitute controlled creator publicity for public verification, using Wuchang as a retrospective expectation-backlash case and Phantom Blade Zero as a prospective warning.
@@ -1353,7 +1354,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Giacomo Bernardi](entities/GiacomoBernardi.md) - AWS principal applied scientist who co-led implementation of the random-graph data-center network.
 - [Ratul Mahajan](entities/RatulMahajan.md) - Amazon Scholar and networking researcher who connected the project with graph-theory expertise.
 - [Seshadhri Comandur](entities/SeshadhriComandur.md) - graph theorist credited with the project's mathematical model and ShuffleBox wiring structure.
-- [Kimi K3](entities/KimiK3.md) - Reasoning model described through roughly 2.8T-parameter scale, nine-specialist distillation, and an incompletely documented Stable LatentMoE system.
+- [Kimi K3](entities/KimiK3.md) - Chinese open-weight reasoning model described through roughly 2.8T-parameter scale, specialist distillation, provisional Stable LatentMoE, and unresolved task-level serving economics.
 - [Oilbeater](entities/Oilbeater.md) - Technical blogger explaining LatentMoE through communication, memory traffic, and scale tradeoffs.
 - [psql_bm25s](entities/PsqlBm25s.md) - PostgreSQL access method for exact BM25-family retrieval with SQL composition, base-plus-delta maintenance, WAL recovery, and replication intent.
 - [Oleg Obleukhov](entities/OlegObleukhov.md) - Facebook production engineer represented through a measurement-led account of internal and public NTP infrastructure.
@@ -2175,7 +2176,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Telegram](entities/Telegram.md) - Messaging app used as the host of an early in-chat music bot and as an example of messaging becoming a service runtime.
 - [Maxim](entities/Maxim.md) - Semiconductor company used as both a focused challenger and a larger entrant unable to displace committed specialists.
 - [Brett Fox](entities/BrettFox.md) - Founder-author and former semiconductor operator writing about investor obligations, focused competition, and market-entry strategy.
-- [Hugging Face](entities/HuggingFace.md) - Machine-learning tooling and artifact ecosystem, also represented as affected infrastructure and a defender in a provisionally reported agentic-security incident.
+- [Hugging Face](entities/HuggingFace.md) - Machine-learning artifact ecosystem represented as both affected infrastructure and a locally hosted-model defender in conflicting secondary accounts of an agentic-security incident.
 - [Geoffrey Hinton](entities/GeoffreyHinton.md) - Neural-network researcher represented through psychology-inspired learning, multilayer training, speech recognition, deep belief networks, and AlexNet.
 - [Bhutan](entities/Bhutan.md) - Himalayan Buddhist kingdom balancing cultural and environmental preservation with youth migration and economic opportunity.
 - [Gelephu Mindfulness City](entities/GelephuMindfulnessCity.md) - Planned Bhutanese innovation hub intended to create opportunity while preserving national tradition.
@@ -2725,7 +2726,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, capability stacks, agent autonomy, and trust across integrated technology systems.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, marginal-cost economics, capability stacks, agent autonomy, and trust across integrated technology systems.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -3486,7 +3487,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Service Flow-Aware Testing](concepts/ServiceFlowAwareTesting.md) - End-to-end test generation and checking based on connected declarative-resource flows and executable behavior models.
 - [Video Refinement](concepts/VideoRefinement.md) - Post-generation improvement of local video detail, texture, resolution, and synthesis artifacts while preserving upstream content and motion.
 - [One-Step Diffusion Distillation](concepts/OneStepDiffusionDistillation.md) - Compression of a multi-step diffusion or flow teacher into one learned-model evaluation through staged distribution and adversarial training.
-- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier-model progress and customer, product, pricing, capital, and closed-loop defensive absorption.
+- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier progress and customer, product, task-level inference cost, capital, model access, and closed-loop defensive absorption.
 - [Filter Pushdown](concepts/FilterPushdown.md) - Early predicate execution whose value depends on selectivity, source compression, decoding cost, operator compatibility, and network representation.
 - [Disaggregated Caching](concepts/DisaggregatedCaching.md) - Shared cache-service architecture that scales separately from compute while trading among network, cache CPU, and cache memory.
 - [GPU-Intensive Continuous Integration](concepts/GPUIntensiveContinuousIntegration.md) - Accelerator-backed CI treated jointly as an evidence, prioritization, workload, and cluster-queue optimization problem.
@@ -3554,7 +3555,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chain-of-Thought Reasoning](concepts/ChainOfThoughtReasoning.md) - Intermediate reasoning that trades additional inference compute for decomposition, checking, correction, and alternate approaches.
 - [Reasoning Effort](concepts/ReasoningEffort.md) - Learned control over a fixed model's inference-time spend, with stronger control over output length than guaranteed task or scaffold accuracy.
 - [Group Relative Policy Optimization](concepts/GroupRelativePolicyOptimization.md) - Critic-free policy optimization using relative rewards across multiple sampled responses to the same prompt.
-- [Reasoning-Model Distillation](concepts/ReasoningModelDistillation.md) - Transfer of stronger-model reasoning behavior into smaller models or shorter correct trajectories.
+- [Reasoning-Model Distillation](concepts/ReasoningModelDistillation.md) - Transfer of reasoning behavior across model sizes, checkpoints, and jurisdictions, with efficiency, continuity, access, and policy tradeoffs.
 - [Adload-Constrained Mixed Ranking](concepts/AdloadConstrainedMixedRanking.md) - Hierarchical optimization that prices shared ad capacity at application level and searches order-preserving request layouts under placement constraints.
 - [Multi-Channel Ad Optimization](concepts/MultiChannelAdOptimization.md) - Coordination of bids and budgets across heterogeneous advertising channels under calibration, sparsity, marginal-return, feedback-delay, and campaign-constraint tradeoffs.
 - [Automation Bias](concepts/AutomationBias.md) - Tendency to favor an automated recommendation or apparent coverage over conflicting evidence, including mistaking an unreported condition for proof of absence.
@@ -4415,7 +4416,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Corporate Satire](concepts/CorporateSatire.md) - Humor that exaggerates workplace rituals, jargon, and status performances to reveal organizational incentives.
 - [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct or ritual aimed at signaling intelligence, creativity, helpfulness, authority, or rational management without improving the group's work.
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Deliberate, value-first relationship-building that gives founders guidance and opportunity while also shaping their judgment and ambition.
-- [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
+- [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes products or task-level outputs substitutable and shifts advantage toward cost structure, integration, distribution, data, brand, and culture.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce time through tools, automation, services, assistance, or delegation so attention returns to higher-value work, recovery, or well-being.
 - [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.
 - [Founder Vision Alignment](concepts/FounderVisionAlignment.md) - Shared founder and executive commitment to a company-building path across growth, funding, culture, product quality, leadership structure, and personal development.

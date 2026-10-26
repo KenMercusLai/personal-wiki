@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-26] ingest | Who’s Afraid of Chinese Models?
+
+Updated [[BenThompson]], [[KimiK3]], [[HuggingFace]], [[ProductCommoditization]], [[ReasoningModelDistillation]], and [[FrontierModelOverhangs]] from their complete ordered evidence inventories. Recorded the distinction between fixed model-development cost and inference COGS, equal-task intelligence rather than tokens as the proposed commodity unit, serving and token efficiency, compute-scarcity pricing, product and data differentiation, open-weight Chinese strategy, distillation-access asymmetry, and locally runnable cyber defense. Preserved the missing equal-quality unit economics, speculative motive and demand-growth claims, unresolved legal and enforcement consequences, and conflicting secondary accounts of the Hugging Face incident. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-25] ingest | Everyone can build now. Almost no one can judge.
 
 Created [[KarriSaarinen]], [[Linear]], and [[QualityGrowth]], and updated [[MaiYang]], [[TasteAsProblemSense]], [[ZeroBugsPolicy]], [[StartupGrowthSignalQuality]], and [[FeatureCreep]] from their complete ordered evidence inventories. Recorded the distinction between externally accelerated and customer-value growth, reported 48-hour and seven-day defect targets, recurring quality work, AI-era scope refusal and experiential judgment, focused primary workflows, and informed founder presence. Preserved the secondary-source, missing-metrics, policy-semantics, causality, delegation, and aesthetic-gatekeeping boundaries. Opened the sole local image and omitted it as a promotional interview thumbnail that added no independent evidence, so no asset manifest was required.

@@ -19,6 +19,7 @@ sources:
   - apple-you-still-dont-understand-the-vision-pro
   - autonomy-and-innovation
   - do-you-trust-apple
+  - whos-afraid-of-chinese-models
 last_updated: 2026-10-26
 knowledge_schema: synthesis-v1
 ---
@@ -55,14 +56,16 @@ The Vision Pro essay applies Thompson's first-person adoption method to medium d
 
 “Do You Trust Apple?” returns to Thompson's Apple, integration, and incentive lenses through the smart home. He treats HomeView's use cases as credible and Apple's privacy and partner-integration model as a real advantage, but separates that product promise from the durability and interface risks around it. AirPort's abandonment tests long-term commitment; iCloud+ and Apple Music reveal services incentives; and Siri tests whether privacy and ease of use remain sufficient when the primary AI interface trails newer agents. The essay also shows Thompson revising his own earlier skepticism about an Apple home product while keeping his preference for user-controlled agent software.
 
+“Who’s Afraid of Chinese Models?” returns to Thompson's earliest economic theme: technology does not escape ordinary cost structure when marginal costs return. He separates fixed model-development expense from inference COGS, rejects tokens as the fungible unit when models spend different amounts of computation per correct result, and argues that commodity-like intelligence rewards the lowest task-level cost plus differentiation above the model. The article then connects economics to policy: open-weight Chinese models are framed as less threatening to frontier-lab survival than as evidence that restricted distillation and cyber access can make U.S. developers and defenders dependent on China. The cost, motive, growth, legal, and incident claims remain strategic judgments without audited unit economics or primary security evidence.
+
 ## Key Characteristics
 - Frames technology announcements and regulation through business-model incentives and system boundaries.
-- Uses economic-surplus reasoning to connect software monetization with user value and platform strategy.
-- Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
+- Uses economic-surplus reasoning to connect software monetization, app-store subscriptions, user value, platform retention, and underlying business models.
 - Interprets Apple through vertical integration, installed-base leverage, trust, product durability, services incentives, and market maturity rather than through a simple services-pivot story.
 - Separates goals, strategies, tactics, capability layers, and theory scope while testing playbooks against changed customers, interfaces, competitors, culture, and value-chain position.
 - Uses first-person technology adoption as a concrete input while distinguishing demonstrated workflow utility, spatial presence, external continuity, and human agency from broader capability claims.
 - Tests safety and innovation arguments against capability, intent, payoff asymmetry, organizational risk, and competitive timing.
+- Separates fixed development cost, marginal serving cost, and task-level output value when analyzing AI competition.
 
 ## Evidence
 - Business-model lens: [[adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson]] says Adobe's announcement matters because new business models are rarer than new product versions.
@@ -106,16 +109,17 @@ The Vision Pro essay applies Thompson's first-person adoption method to medium d
 - Trust decomposition: [[do-you-trust-apple]] separates privacy and setup advantages from product-support longevity, recurring-revenue incentives, and Siri reliability.
 - Revised judgment: [[do-you-trust-apple]] finds five credible HomeView use cases despite Thompson's earlier lack of interest in Apple's proposed home product.
 - Opportunity-cost lens: [[do-you-trust-apple]] argues that choosing long-lived Siri-controlled infrastructure can foreclose competing AI interfaces.
+- Commodity-market lens: [[whos-afraid-of-chinese-models]] distinguishes model R&D from inference COGS and token price from cost per correct task outcome.
+- Policy lens: [[whos-afraid-of-chinese-models]] links open-weight competition, distillation access, and locally runnable cyber defense while treating Chinese strategy and frontier-lab motives as incentives rather than settled facts.
 
 ## Qualifications
-This page covers Thompson only through sixteen Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, frontier-overhang, fixed-camera immersive-media, autonomous-defense, AI-native-startup, and Apple home theses are partly prospective and should not be read as verified later outcomes. The Muse, personal-assistant, Vision Pro, and home-automation cases are first-person experiences and do not establish general reliability, affordability, comfort, preference, or transfer. The frontier and autonomy essays provide no audited lab economics, attack-defense benchmark, quantified expected value, broad adoption evidence, or proof of company outcomes, while “Write Things Down” offers personal AGI, agency, and moral distinctions rather than validated technical tests. The HomeView article analyzes launch claims and quoted reporting without independent product testing, longitudinal support evidence, or Siri benchmarks. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, frontier, incident, autonomous-remediation, immersive-production, and smart-home essays are strategy arguments rather than causal, legal, financial, security, safety, reliability, or audience studies.
+This page covers Thompson only through seventeen Stratechery articles. It does not summarize his broader publishing history or full current views. The Amazon grocery-services, faceless-publisher, transportation-service, IBM hybrid-cloud, Model 3 customer-grace, agent-aggregation, frontier-overhang, Chinese-model economics, fixed-camera immersive-media, autonomous-defense, AI-native-startup, and Apple home theses are partly prospective and should not be read as verified later outcomes. The Muse, personal-assistant, Vision Pro, and home-automation cases are first-person experiences and do not establish general reliability, affordability, comfort, preference, or transfer. The frontier, Chinese-model, and autonomy essays provide no audited lab economics, equal-quality serving benchmark, attack-defense benchmark, quantified expected value, broad adoption evidence, or proof of company outcomes, while “Write Things Down” offers personal AGI, agency, and moral distinctions rather than validated technical tests. The proposed fair-use and anti-restriction policy does not resolve privacy, security, licensing, trade-secret, jurisdictional, or international-enforcement questions. The two incident accounts also disagree over the attacker and evaluation context. The HomeView article analyzes launch claims and quoted reporting without independent product testing, longitudinal support evidence, or Siri benchmarks. The data-factory proposal is not evidence that profile disclosure changed privacy outcomes or competition, and the monopoly, IBM, frontier, incident, autonomous-remediation, immersive-production, and smart-home essays are strategy arguments rather than causal, legal, financial, security, safety, reliability, or audience studies.
 
 ## What Changed
-- Added capability-versus-intent and payoff asymmetry as a unified lens across cyber defense and innovation.
-- Added full-loop autonomy as Thompson's answer to machine-speed offensive or startup competition.
-- Added the claim that AI can be sustaining for incumbents and disruptive through AI-native startups.
-- Preserved the incident's provisional reporting and the thesis's unmeasured, forecast character.
-- Added Thompson's home-trust framework: integration and privacy advantages are real but cannot substitute for support longevity and a capable AI interface.
+- Added fixed-versus-marginal cost and equal-task intelligence as Thompson's model-competition framework.
+- Added integrated products and inference-generated data as defenses above a commodity-like model layer.
+- Added open-weight, distillation, and defensive-access policy arguments.
+- Preserved the unmeasured cost thesis, unresolved legal consequences, and conflicting incident accounts.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -165,3 +169,5 @@ This page covers Thompson only through sixteen Stratechery articles. It does not
 - [[HomeView]] - Apple home product through which Thompson tests useful integration against Siri and switching costs.
 - [[AppleTrustBrand]] - trust framework Thompson extends from privacy and controls into long-lived household infrastructure.
 - [[SmartHomeInteroperability]] - practical system problem that makes Apple's partner-integration strategy attractive.
+- [[ProductCommoditization]] - economic framework Thompson applies to substitutable task-level intelligence.
+- [[ReasoningModelDistillation]] - transfer mechanism he treats as both a competitive advantage and a policy question.
