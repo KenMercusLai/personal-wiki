@@ -10344,3 +10344,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | 为什么我看好 Turbopuffer，从 Personal Agent 说起
+
+Created [[ZuoJu]], [[Todaypuffer]], and [[PersonalAgentRetrieval]] and updated [[AgentMemory]], [[Turbopuffer]], [[Mem0]], and [[Linear]] from their complete ordered evidence inventories. Separated historical recall from present-tense belief and context admission; recorded sparse long-lived tenant workloads, object-storage and cache tradeoffs, namespace and authorization boundaries, WAL-versus-index visibility, Mem0's reported PostgreSQL/Turbopuffer split, Linear's delta-sync set intersections and fallback, and Todaypuffer's bucketed BM25 experiment. Preserved the first-party customer-case, cold-cache, prototype-benchmark, missing recall and cost comparison, authorization, index-lag, and broader-query-layout qualifications. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

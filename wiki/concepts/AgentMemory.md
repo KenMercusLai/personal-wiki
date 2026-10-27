@@ -16,7 +16,8 @@ sources:
   - "2607.01224"
   - custom-llm-memory-layer
   - kapy-memory-system
-last_updated: 2026-10-25
+  - wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi
+last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,6 +26,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Synthesis
 The earlier sources place Memory in the same family as RAG: outside information is retrieved into context, and memory adds a write path through which an agent can decide what to preserve. Later sources draw an important boundary around that framing. A vector store plus embedding lookup, even when writeable, is a searchable log; mature memory must also represent what a record means, compress repetition, track change over time, adjudicate conflicts, allocate attention, and expose its judgments to user control.
+
+This boundary also produces an infrastructure split. Search can optimize recall, cost, and programmability while returning a passage with its source and time; memory must still decide whether the passage was exploratory or settled, current or superseded, authorized for this task, and useful enough to enter the active context. Preserving original records and changing views is therefore preferable to overwriting history with one timeless user assertion. For short recent histories, direct reading or PostgreSQL may be simpler than a separate index; for years of sparse history, [[PersonalAgentRetrieval]] can first locate candidate originals and let the agent inspect them selectively.
 
 PsiACE's essay adds a qualification: memory is often asked to solve a continuity problem created by assuming state must survive across sessions. In multi-person and multi-topic settings, memory can drift and require high calibration effort. [[TapeAndAnchors]] offers a narrower alternative in which durable history remains available, but only minimal anchors are carried forward by default.
 
@@ -59,7 +62,7 @@ The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file 
 - Append-only evidence and derived current-state views can coexist, preserving auditability while keeping recall compact.
 - Memory should retain behavioral feedback that lacks a more authoritative home, not duplicate code, git history, or temporary task state.
 - Broad continuity layers can drift; minimal anchors, bounded topic summaries, and structured working notes reduce inherited-state and active-token costs while simulating continuity around otherwise stateless or frozen model calls.
-- Storage technologies are composable implementation choices rather than substitutes for explicit memory and lifecycle semantics.
+- Storage and search technologies are composable implementation choices; retrieval relevance does not establish present truth, authority, task usefulness, or permission to place a record in context.
 
 ## Evidence
 - RAG relationship: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] says Memory is the same class of problem as RAG.
@@ -98,6 +101,9 @@ The [[AutoMem]] study adds a distinct proficiency layer. Its agent exposes file 
 - Turn record and compaction boundary: [[kapy-memory-system]] stores one memory record per input-tool-loop-output turn with both the raw work log and a compact node.
 - Causal provenance: [[kapy-memory-system]] links records through agent-reported parent memory IDs rather than forcing unified storage into thread-local chains.
 - Two retrieval modes: [[kapy-memory-system]] requires a broad first recall call, then permits targeted filesystem search and raw-log inspection as the agent's information need becomes specific.
+- Retrieval-versus-interpretation boundary: [[wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi]] shows how a historically accurate passage can misrepresent a user's current belief when it records exploration or a superseded view.
+- Selective original reading: [[wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi]] argues that an index should locate source material while the agent decides whether to open revisions, discussions, or authoritative system state for the present task.
+- Sparse-history infrastructure: [[wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi]] separates many durable but intermittently active tenant datasets from the memory product's admission and context-use policies.
 
 ## Counterevidence & Qualifications
 The infrastructure-stack source names privacy, deletion, and policy requirements but does not specify enforcement, tenant scoping, user correction, retrieval evaluation, or confidence calibration. The memory architectures supply no comparative benchmark for compaction triggers, conflict policies, recall strategies, temporal weights, decay curves, or storage combinations. PsiACE's critique is strongest for detached continuity layers; calling Tape history itself “memory” preserves evidence but does not remove the need for indexing, summarization, temporal interpretation, correction, retention, and authorization. Nowledge Mem is a first-party product account: its numerical gates, boosts, task budgets, and `confidence = max(new, old)` rule are implementation policies rather than validated general laws, and non-decreasing confidence can misrepresent evidence later shown unreliable.
@@ -114,12 +120,14 @@ The Mem0-inspired tutorial is architectural and pedagogical rather than evaluati
 
 Kapy's account is likewise a first-person design report rather than comparative evidence. More than ten days of satisfactory use does not establish recall quality, compact-node fidelity, causal-link completeness, latency, token cost, conflict behavior, privacy, or authorization. Mandatory first-call recall can impose unnecessary work on self-contained turns, keyword search can miss semantically related records, and the unused DAG does not yet demonstrate causality-aware retrieval.
 
+The personal-agent retrieval analysis is also a practitioner argument, not a comparative memory evaluation. Its Turbopuffer, Mem0, and Linear details are relayed from first-party documentation or customer cases, and its Todaypuffer figures come from one prototype workload. It supports separating infrastructure metrics from memory quality, but supplies no false-belief, context-admission, longitudinal preference, permission, or end-to-end task benchmark.
+
 ## What Changed
-- Kept operational continuity distinct from continuous model-weight learning, persistent identity, volition, and moral agency while preserving lifecycle controls for shared notes.
 - Added memory-operation proficiency as a separately trainable layer above storage and retrieval architecture.
 - Added trajectory-level scaffold revision and consult-before-write training evidence from three long-horizon games.
 - Added a minimal optional retrieval-and-maintenance implementation while preserving its extraction and code-quality failures as evidence against treating a tutorial architecture as validated memory.
 - Added Kapy's raw-log/compact-node split, causal record DAG, and fixed-versus-autonomous retrieval modes.
+- Separated search infrastructure metrics from memory interpretation, authorization, and context-admission quality.
 
 ## Related Concepts
 - [[RetrievalAugmentedGeneration]] - agent memory is framed as RAG plus write capability.
@@ -147,3 +155,4 @@ Kapy's account is likewise a first-person design report rather than comparative 
 - [[Qdrant]] - supplies filtered vector persistence in the tutorial implementation.
 - [[MemoryRetrievalModes]] - separates mandatory broad orientation from autonomous targeted evidence search.
 - [[Kapy]] - implements per-turn records, compact views, causal parent links, and two recall modes.
+- [[PersonalAgentRetrieval]] - locates historical evidence while leaving present-tense interpretation and context admission to the memory and agent layers.

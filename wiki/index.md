@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [为什么我看好 Turbopuffer，从 Personal Agent 说起](sources/wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi.md) - 左巨 separates memory interpretation from retrieval infrastructure and analyzes sparse personal-agent tenants, object-storage-native indexing, and Turbopuffer's expansion beyond vector search.
 - [The End of the Internet](sources/the-end-of-the-internet.md) - Ben Thompson links public Internet abundance and AI-amplified security pressure to niche subscriptions, group chats, personal software, and many association-level markets.
 - [The iPhone’s Last Stand](sources/the-iphones-last-stand.md) - Ben Thompson contrasts Microsoft's cloud-first enterprise agents with Apple's iPhone-centered consumer AI strategy, while preserving the demo-stage and market-generalization limits.
 - [The SpaceX IPO and Data Centers in Space](sources/spacex-ipo-data-centers-in-space.md) - Ben Thompson argues that SpaceX could extend launch and Starlink scale into orbital compute for latency-tolerant agents, while treating the IPO valuation and engineering case as highly conditional.
@@ -1320,6 +1321,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [左巨](entities/ZuoJu.md) - Technical author and builder analyzing personal-agent retrieval, memory-product boundaries, and object-storage-backed search.
+- [Todaypuffer](entities/Todaypuffer.md) - Object-storage-backed BM25 prototype using bucketed postings and a manifest to avoid monolithic-index scans.
 - [Venkatesh Rao](entities/VenkateshRao.md) - Writer represented through the cognitive-demand thesis Thompson summarizes from “Cognitive Mercantilism.”
 - [Project Solara](entities/ProjectSolara.md) - Microsoft's announced chip-to-cloud ecosystem of agent-first devices serving as portals to cloud-resident enterprise agents.
 - [Starlink](entities/Starlink.md) - SpaceX satellite-connectivity network used as evidence for launch scale, airline broadband adoption, and a prospective orbital-compute architecture.
@@ -3384,6 +3387,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Personal Agent Retrieval](concepts/PersonalAgentRetrieval.md) - Storage, indexing, authorization, and evidence-selection layer for long-lived, sparsely active personal and shared agent histories.
 - [Smallness at Scale](concepts/SmallnessAtScale.md) - Many viable bounded audiences, groups, tools, and markets collectively creating broad opportunity without requiring each unit to become massive.
 - [Cognitive Capitalism](concepts/CognitiveCapitalism.md) - Demand-side hypothesis that cheaper abundant intelligence can reveal previously unaffordable cognitive wants, activities, and markets.
 - [Space-Based Data Centers](concepts/SpaceBasedDataCenters.md) - Proposed fleet of rack-like orbital compute satellites using solar power, radiator arrays, laser links, and replaceable nodes.
