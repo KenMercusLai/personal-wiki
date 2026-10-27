@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Anthropic’s Safety Superpower](sources/anthropics-safety-superpower.md) - Ben Thompson argues that Anthropic's safety mission, workflow strategy, usage-data incentives, and frontier-model controls reinforce one another while concentrating provider power.
 - [我的blog设计理念](sources/my-blog-design.md) - Chongxi traces a restrained personal-blog design from Swiss typography, NASA documentation, and Lone Trail while linking reader focus, subtle identity, and independent ownership.
 - [A Script for Mark Zuckerberg](sources/a-script-for-mark-zuckerberg.md) - Ben Thompson's fictional earnings-call speech argues that Meta should embrace advertising-led AI investment and use reclaimable compute rentals as a market hurdle for internal allocation.
 - [Who’s Afraid of Chinese Models?](sources/whos-afraid-of-chinese-models.md) - Ben Thompson separates open-weight availability from inference COGS, evaluates commodity-like intelligence by task-level cost, and argues for permissive U.S. distillation and cyber-defense access.
@@ -2730,7 +2731,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, marginal-cost economics, capability stacks, agent autonomy, and trust across integrated technology systems.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, marginal-cost economics, capability stacks, agent autonomy, safety incentives, and concentrated provider power.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -2851,6 +2852,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
 - [Sam Altman](entities/SamAltman.md) - Startup advisor and OpenAI CEO represented through startup execution, ChatGPT launch judgment, gradual-AGI governance, and a revised view of slower AI diffusion.
+- [Satya Nadella](entities/SatyaNadella.md) - Microsoft leader advocating company-owned, model-switchable learning loops built from human judgment, private evaluations, reinforcement environments, and institutional knowledge.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - File-platform company represented through early discipline, referral growth, founder learning, international expansion, and exabyte-scale hybrid-infrastructure operations.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
@@ -2940,7 +2942,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Antirez](entities/Antirez.md) - Redis creator and systems programmer arguing for idea-centered control of AI-written software through design, QA, and risk-dependent review.
-- [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, simple composable agents, and finite-attention context engineering.
+- [Anthropic](entities/Anthropic.md) - AI provider represented through Claude engineering practices and contested analyses of safety, workflow ownership, usage data, access control, and commercialization pressure.
 - [AWS](entities/AWS.md) - Cloud platform represented through EC2, managed services, cost and security boundaries, and an AMI-based immutable delivery chain.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
@@ -3493,7 +3495,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Service Flow-Aware Testing](concepts/ServiceFlowAwareTesting.md) - End-to-end test generation and checking based on connected declarative-resource flows and executable behavior models.
 - [Video Refinement](concepts/VideoRefinement.md) - Post-generation improvement of local video detail, texture, resolution, and synthesis artifacts while preserving upstream content and motion.
 - [One-Step Diffusion Distillation](concepts/OneStepDiffusionDistillation.md) - Compression of a multi-step diffusion or flow teacher into one learned-model evaluation through staged distribution and adversarial training.
-- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier progress and customer, product, task-level inference cost, capital, model access, and closed-loop defensive absorption.
+- [Frontier Model Overhangs](concepts/FrontierModelOverhangs.md) - Framework for gaps between frontier progress and customer, product, task-level inference cost, capital, model access, provider control, and closed-loop defensive absorption.
 - [Filter Pushdown](concepts/FilterPushdown.md) - Early predicate execution whose value depends on selectivity, source compression, decoding cost, operator compatibility, and network representation.
 - [Disaggregated Caching](concepts/DisaggregatedCaching.md) - Shared cache-service architecture that scales separately from compute while trading among network, cache CPU, and cache memory.
 - [GPU-Intensive Continuous Integration](concepts/GPUIntensiveContinuousIntegration.md) - Accelerator-backed CI treated jointly as an evidence, prioritization, workload, and cluster-queue optimization problem.

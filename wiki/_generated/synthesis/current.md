@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-26
-as_of_overview_commit: ea3145e525364af58fe71f833c31ef7a6dbdd8e5
+as_of_overview_commit: ab87cfa7b1290db08abf590eeb618611d5112ea5
 summary: "Evidence-qualified synthesis across technology, business, institutions, health, culture, work, and personal development, with authority, uncertainty, and tradeoffs explicit."
-episode_count: 1282
-source_count: 1282
-paragraph_count: 896
+episode_count: 1283
+source_count: 1283
+paragraph_count: 897
 topic_count: 9
 ---
 
@@ -16,20 +16,20 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[AgentMemory]] is more than writeable similarity retrieval: [[Embeddings]] plus a [[VectorDatabase]] can surface related records, while [[MemoryCompaction]], [[MemoryEvolution]], [[MemoryConflictResolution]], [[BitemporalMemory]], and [[MemoryForgetting]] maintain qualified, time-aware, attention-bounded state. [[NowledgeMem]] implements a governed lifecycle, [[TapeAndAnchors]] preserves raw evidence beneath revisable views, and [[AutoMem]] adds [[Metamemory]] as an optimizable operation policy. [[Kapy]] adds a turn-level evidence/view split and [[MemoryRetrievalModes]]: mandatory broad orientation precedes autonomous targeted inspection through [[AgentFilesystem]], with consulted memory IDs proposed as causal provenance.
-- [[QualityGrowth]] links durable demand to customer value, repeat use, focused workflows, and recurring quality work; [[MaiYang]] uses [[KarriSaarinen]] and [[Linear]] to argue that AI-cheapened implementation raises the value of scope refusal and experiential judgment rather than feature-count or externally accelerated growth.
+- [[FrontierModelOverhangs]] now links [[ProductCommoditization]] to provider control: a frontier lab can defend value by owning the [[AgentNativeComputing|agent workflow]], using direct activity to strengthen [[MachineLearningDataMoats]], and enforcing [[ResponsibleAIRelease|release safeguards]], while [[SatyaNadella]]'s model-switchable company learning loop preserves an alternative boundary around institutional data and judgment.
+- [[AIInfrastructureFinancing]] makes capital structure part of [[AIInvestmentTheme]]: free cash flow, debt, equity, third-party infrastructure funds, and [[Nvidia]] residual-value support can all turn expected compute demand into current construction, but they allocate dilution, repayment, utilization, obsolescence, and resale risk differently; durable paid use and asset value therefore matter more than present orders alone.
 - [[NetworkTimeSynchronization]] is an end-to-end measurement problem: [[Chrony]] and [[HardwareTimestamping]] can narrow software-path error, but independent reference instruments, path assumptions, serving strata, and [[LeapSecondSmearing]] policy still bound real accuracy.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[SingleStepDecisionModel]] separates fast bounded prediction from execution authority: [[Jev]] and [[TextClassification]] can return typed choices, scores, or binary probabilities without autoregressive generation, but deterministic policy, representative labels, calibration, shadow traffic, observability, and human or stronger-model escalation must govern consequential action.
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof.
-- [[ExerciseForMentalHealth]] has stronger prospective association than experimental dose-response evidence: aerobic and resistance interventions can improve depression and anxiety on average, but durable benefit depends on [[ExerciseAdherence]], while [[Neuroplasticity]], behavioral learning, and [[SelfEfficacy]] form a proposed rather than universally proven reinforcing mechanism.
-- [[AIDependencySkillAtrophy]] has a work-system dimension: [[Innei]] reports more shipped projects but less sustained flow, weaker design recall, and lower confidence without AI, while frontier-model cost and access fragility may raise entry barriers and make polished project output a weaker signal of underlying ability.
+- [[HungerPhysiology]] distinguishes homeostatic energy need from hedonic eating without an urgent caloric deficit inside a redundant sensory, neuroendocrine, endocrine, and metabolic system; an evolved bias toward surplus intake and fat storage may become harmful when psychological, cultural, socioeconomic, and food-environment conditions make palatable energy-dense food abundant.
+- [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, evidence, task fit, context, verification, permissions, cost structure, recovery, and operating environments; open weights or mathematical capability do not by themselves establish economic, empirical, or operational adequacy.
+AI and software outcomes depend on architecture, evidence, task fit, context, verification, permissions, cost structure, recovery, and operating environments; frontier workflow ownership now adds a coupled product, data, safety, and provider-authority boundary.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -57,7 +57,7 @@ Media and creator systems combine payment, advertising, distribution, community,
 
 ### Governance and Institutions
 
-Governance allocates authority, lifecycle responsibility, participation, privacy, risk, and accountability through explicit ownership, evidence, recourse, calibrated access, and credible alternatives.
+Governance allocates authority, lifecycle responsibility, participation, privacy, risk, and accountability through explicit ownership, evidence, recourse, calibrated access, credible alternatives, and contestable controls.
 
 - [[SingleStepDecisionModel]] separates fast bounded prediction from execution authority: [[Jev]] and [[TextClassification]] can return typed choices, scores, or binary probabilities without autoregressive generation, but deterministic policy, representative labels, calibration, shadow traffic, observability, and human or stronger-model escalation must govern consequential action. Evidence: [[SingleStepDecisionModel]], [[Jev]], [[TextClassification]].
 - [[StatefulJobScheduling]] makes placement and lifecycle policy a form of technical governance: [[JaanaDogan]] argues that durable identity, fencing, state-compatible upgrades, safe interruption, and suspend-resume coordination must be explicit when movement or restart can corrupt state or amplify fleet-wide cost. Evidence: [[StatefulJobScheduling]], [[JaanaDogan]].
@@ -82,7 +82,7 @@ Health and science evidence is heterogeneous and mechanism-sensitive, requiring 
 
 ### Work, Education, and Society
 
-Learning and work improve through active practice, observable reasoning, feedback, role clarity, sustainable attention, fair access, judgment, and demand-linked outcomes, while automation can redistribute both opportunity and skill formation.
+Learning and work improve through active practice, observable reasoning, feedback, role clarity, sustainable attention, fair access, judgment, and demand-linked outcomes, while automation can redistribute opportunity, authority, and skill formation.
 
 - [[KhanAcademy]] shows that long technical migrations are also work-design systems: [[MinimumViableExperience]] supplied a product-defined first boundary, [[IncrementalMonolithMigration]] made small shipped slices and traffic movement visible, and fixed scope, burndown tracking, staffing movement, and dependency-aware mini-deadlines coordinated a 3.5-year effort whose feature opportunity cost and cross-functional fatigue remained material. Evidence: [[KhanAcademy]], [[MinimumViableExperience]], [[IncrementalMonolithMigration]].
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].

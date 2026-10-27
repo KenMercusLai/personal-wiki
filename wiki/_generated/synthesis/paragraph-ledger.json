@@ -896,12 +896,13 @@
       "0ad3a1ccfdeae96d3b5eb5e7e48a224689c2fc65a62e9b3d6e26ed926390fd86",
       "f9016c2bbf2cb6fc5458bf9b32778b0592f0fcd93fb64e9b054681734f53d936",
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
-      "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70"
+      "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70",
+      "5b7b3aab8beece667a89d0a44fa779a79c1bac2029738c4a41d260c9a42b3a08"
     ],
-    "paragraph_count": 896
+    "paragraph_count": 897
   },
-  "overview_commit": "ea3145e525364af58fe71f833c31ef7a6dbdd8e5",
-  "overview_digest": "248b4983aa943acf8b6764fadc4fe8d30a1f99dac6063509b8074d3e2b3714c3",
+  "overview_commit": "ab87cfa7b1290db08abf590eeb618611d5112ea5",
+  "overview_digest": "bdd012f8c923aed1afd7c8ec72ea5e38285472f22b162f69df00ccae6641c272",
   "paragraphs": [
     {
       "id": "b5e04619246f3d1d072a2cfaee02e1d4348c47f0cc367a6458290def2f775c57",
@@ -18030,6 +18031,28 @@
       "wikilinks": [
         "AIDependencySkillAtrophy",
         "Innei"
+      ]
+    },
+    {
+      "id": "5b7b3aab8beece667a89d0a44fa779a79c1bac2029738c4a41d260c9a42b3a08",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[BenThompson]] essay extends [[FrontierModelOverhangs]] from commercialization gaps into a provider-control thesis. As released models are distilled or matched, [[ProductCommoditization]] gives frontier labs an incentive to own the primary [[AgentNativeComputing|agent workflow]] rather than remain replaceable inputs to software; direct use can create lock-in and feed real-world traces into a [[MachineLearningDataMoats|learning loop]]. [[SatyaNadella]]'s counter-model keeps private evaluations, reinforcement environments, and institutional knowledge inside each firm so generalist models remain switchable. Thompson argues that [[Anthropic]]'s reported Fable retention, release, and frontier-development controls show how sincere safety conviction can align mission, talent, commercial advantage, and institutional power. [[ResponsibleAIRelease]] therefore gains a concentration test: safeguards should be judged not only by claimed risk reduction but also by disclosure, proportionality, data governance, contestability, and the authority they give one supplier over competition and permitted use. The source does not independently establish the reported jailbreak's severity, Anthropic's motives, future training-data use, model economics, or software displacement; aligned business incentives neither prove bad faith nor validate the safety case. The supplied Markdown contains no effective image references, so no visual assets or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "business-and-markets": 2,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentNativeComputing",
+        "Anthropic",
+        "BenThompson",
+        "FrontierModelOverhangs",
+        "MachineLearningDataMoats",
+        "ProductCommoditization",
+        "ResponsibleAIRelease",
+        "SatyaNadella"
       ]
     }
   ],

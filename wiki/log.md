@@ -10312,3 +10312,11 @@ Created [[Chongxi]] and [[ContentFirstWebDesign]] and updated [[DigitalContentDu
 ## [2026-10-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | Anthropic’s Safety Superpower
+
+Created [[SatyaNadella]] and updated [[Anthropic]], [[BenThompson]], [[FrontierModelOverhangs]], [[ResponsibleAIRelease]], [[ProductCommoditization]], [[AgentNativeComputing]], and [[MachineLearningDataMoats]] from their complete ordered evidence inventories. Recorded the proposed link among model commoditization, direct workflow ownership, usage-data feedback, safety controls, and provider authority, alongside Nadella's model-switchable company-owned learning loop. Preserved the disputed-event, subjective-capability, unaudited-economics, unverified-motive, future-data-use, and incentive-versus-sincerity boundaries. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
