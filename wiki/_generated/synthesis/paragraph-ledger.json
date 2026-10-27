@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "362fc4fb53381fcfd32656cca4597c37a16a031dfa412b6b0dd4de37d3fba358",
       "b5e04619246f3d1d072a2cfaee02e1d4348c47f0cc367a6458290def2f775c57",
       "18317e5f85a3b70e667f9025648a057cfefa6c6e79eb56d49cde781c81ff0059",
       "b03d1fca35ca58cb2816b4463cd105cf3f26641b2e9271a42048c7618500b6e1",
@@ -899,11 +900,32 @@
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70",
       "5b7b3aab8beece667a89d0a44fa779a79c1bac2029738c4a41d260c9a42b3a08"
     ],
-    "paragraph_count": 897
+    "paragraph_count": 898
   },
-  "overview_commit": "7ee9f78b56459a173340d04a9727b96be64d42ad",
-  "overview_digest": "bdd012f8c923aed1afd7c8ec72ea5e38285472f22b162f69df00ccae6641c272",
+  "overview_commit": "4b2194013cbd29f3e3a995912ab020406614ae88",
+  "overview_digest": "17e4b39d9b2eea4b7b74c277b71213881d63aac6bcf53fb63be689462bce0516",
   "paragraphs": [
+    {
+      "id": "362fc4fb53381fcfd32656cca4597c37a16a031dfa412b6b0dd4de37d3fba358",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[MiaoYi|缪伊]] essay joins the wiki's attention, creator, identity, and abuse threads through the idea that lived experience can become platform inventory. Experience-led posts can integrate memory, produce meaning, and reassure readers that they are not alone, but repeated distribution and commercial reward can also make creators search life for material, expose intimacy or pain, and stage relationships or conflict until the post becomes the purpose of the event. [[AttentionEconomy]] and [[EngagementIncentiveConflict]] therefore gain a creator-side supply mechanism, while [[PerformativeSelfPresentation]] extends from audience monitoring to self-exploitation through continuous material production. New [[RageBait]] names the deliberate use of anger, argument, screenshots, and retransmission as distribution; [[GreaterInternetFuckwadTheory]] gains conflict reward, moralized group identity, and compulsive self-defense as mechanisms that do not require anonymity. The practical boundary is selective: deny routine provocation attention, but preserve evidence and escalate credible threats or consequential harm through platform, official, or legal channels. The source is one first-person cultural essay without recommendation telemetry, representative creator data, causal evidence, or measured response outcomes, and its comparisons among [[Xiaohongshu]], Zhihu, Weibo, and Douban remain impressionistic. The supplied Markdown contains no effective image references, so no asset manifest was required.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionEconomy",
+        "EngagementIncentiveConflict",
+        "GreaterInternetFuckwadTheory",
+        "MiaoYi",
+        "PerformativeSelfPresentation",
+        "RageBait",
+        "Xiaohongshu"
+      ]
+    },
     {
       "id": "b5e04619246f3d1d072a2cfaee02e1d4348c47f0cc367a6458290def2f775c57",
       "primary_topic": "psychology-and-personal-development",

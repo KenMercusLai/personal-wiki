@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [个人上网冲浪体验指北](sources/himikouchuu-31.md) - 缪伊 examines how experience-sharing becomes connection, performance, self-exploitation, and rage-driven traffic, then argues for denying trolls attention while escalating serious harm formally.
 - [Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads](sources/magnus-p4964-song.md) - ByteDance's Iceberg-derived system combines specialized formats, indexes, metadata planning, merge-on-read updates, and training-specific layouts under qualified production benchmarks.
 - [为什么我看好 Turbopuffer，从 Personal Agent 说起](sources/wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi.md) - 左巨 separates memory interpretation from retrieval infrastructure and analyzes sparse personal-agent tenants, object-storage-native indexing, and Turbopuffer's expansion beyond vector search.
 - [The End of the Internet](sources/the-end-of-the-internet.md) - Ben Thompson links public Internet abundance and AI-amplified security pressure to niche subscriptions, group chats, personal software, and many association-level markets.
@@ -1322,6 +1323,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [缪伊](entities/MiaoYi.md) - Chinese-language blogger reflecting on social-media incentives, experience-as-content, online hatred, and disengagement from trolls.
 - [Magnus](entities/Magnus.md) - ByteDance's Iceberg-derived data-management system for large-scale ML storage, mutation, retrieval, and training.
 - [ByteDance](entities/ByteDance.md) - Company represented here through its source-reported large-scale ML data infrastructure and Magnus deployment.
 - [左巨](entities/ZuoJu.md) - Technical author and builder analyzing personal-agent retrieval, memory-product boundaries, and object-storage-backed search.
@@ -3390,6 +3392,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Rage Bait](concepts/RageBait.md) - Deliberately provocative content that recruits anger, argument, screenshots, and retransmission as attention and distribution.
 - [Machine Learning Data Management](concepts/MachineLearningDataManagement.md) - Coordinated storage, indexing, versioning, mutation, planning, governance, and delivery of model-training datasets.
 - [Personal Agent Retrieval](concepts/PersonalAgentRetrieval.md) - Storage, indexing, authorization, and evidence-selection layer for long-lived, sparsely active personal and shared agent histories.
 - [Smallness at Scale](concepts/SmallnessAtScale.md) - Many viable bounded audiences, groups, tools, and markets collectively creating broad opportunity without requiring each unit to become massive.

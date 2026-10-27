@@ -3,9 +3,9 @@
 generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
-last_updated: 2026-10-25
-as_of_overview_commit: e969f23a362d31b545c5e8462e789f8fe8aea692
-input_digest: 33a6a85e4ae15bbc6ed82909b21a033b00dae8d2f54d90ce4881924788e2f8ac
+last_updated: 2026-10-26
+as_of_overview_commit: 4b2194013cbd29f3e3a995912ab020406614ae88
+input_digest: 3ea5b57e59cd803c9ac7e91dcff7c76b868143a6fe50c57abfc90c98e48e9e5a
 ---
 
 # Work, Education, and Society
@@ -1616,3 +1616,15 @@ Creative work benefits when [[IdeaDebt]] is resolved through either concrete, im
 - The account is a site-provided AI translation of one practitioner essay and supplies no skill assessment, audited project comparison, hiring study, graduate sample, or labor-market outcome.
 - AI-enabled productivity and access to unfamiliar work are explicit benefits in the same source, so the claim concerns distribution and capability maintenance rather than net harm.
 - The 24-vote self-selected poll is too small to establish prevalence, and neither irreversibility nor the proposed change in talent evaluation is demonstrated.
+
+### Creator Platforms Can Convert Lived Experience Into Labor
+
+[[AttentionEconomy]] has a creator-side labor boundary: repeated distribution and commercial reward can make [[PerformativeSelfPresentation]] into continuous production of experience, intimacy, pain, and conflict, while [[RageBait]] recruits audience anger and retransmission as unpaid distribution; [[EngagementIncentiveConflict]] explains why those outcomes can satisfy platform metrics without improving creator or audience welfare.
+
+**Evidence:** [[MiaoYi]], [[AttentionEconomy]], [[PerformativeSelfPresentation]], [[RageBait]], [[EngagementIncentiveConflict]], [[Xiaohongshu]]
+
+**Qualifications:**
+
+- The evidence is one first-person cultural essay without platform telemetry, representative creator samples, income data, causal identification, or measured prevalence of staged and exploitative content.
+- Experience-led posting can create social reference, recognition, narrative integration, and connection rather than functioning only as labor or self-exploitation.
+- Withholding attention is a bounded response to routine provocation, not a replacement for platform, official, or legal action against consequential harm.

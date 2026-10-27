@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-27] ingest | 个人上网冲浪体验指北
+
+Created [[MiaoYi|缪伊]] and [[RageBait]], and updated [[AttentionEconomy]], [[EngagementIncentiveConflict]], [[PerformativeSelfPresentation]], [[GreaterInternetFuckwadTheory]], and [[Xiaohongshu]] from their complete ordered evidence inventories. Recorded experience-sharing as both narrative connection and potential content extraction, creator-side self-exploitation, intimate and conflictual performance, rage-driven distribution, identity-protective argument, and the boundary between routine non-engagement and formal escalation for consequential harm. Preserved the first-person, non-causal, non-representative, platform-telemetry, prevalence, and comparative-platform limits. The supplied Markdown contains no effective image references, so no visual asset or manifest was required.
+
 ## [2026-10-27] ingest | The End of the Internet
 
 Created [[SmallnessAtScale]], [[CognitiveCapitalism]], and [[VenkateshRao]], and updated [[BenThompson]], [[Stratechery]], [[PersonalSoftware]], [[SocialPlatformNetworkEffects]], and [[NicheSubscriptionPublishing]] from their complete ordered evidence inventories. Recorded the progression from free distribution to discovery aggregation and niche subscriptions, from public social feeds to trusted finite group chats, and from high-fixed-cost public products to AI-enabled software for individuals and associations. Preserved the rhetorical, time-bound, secondary-source, security-causality, demand, distribution, and public-good limits of the end-of-Internet and infinite-local-market forecasts. The supplied Markdown explicitly contains no editorial images and has no effective image references, so no visual assets or manifest were required.
@@ -10356,6 +10360,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-27] ingest | Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads
 
 Created [[Magnus]], [[ByteDance]], and [[MachineLearningDataManagement]] and updated [[ApacheIceberg]], [[ColumnarStorageTradeoffs]], and [[MultimodalDataPipelines]] from their complete ordered evidence inventories. Recorded the table architecture, wide-table and Blob formats, primary-key and search indexes, manifest planning, metadata-only branch workflows, merge-on-read updates, Main-Extra recommendation layout, fine-grained multimodal sharding, and production benchmark claims. Preserved first-party, selected-workload, changing-baseline, proprietary-format, missing-operational-metrics, branch-conflict, and table-unit inconsistency qualifications. Opened and retained all 15 evidence-bearing figures with descriptive canonical filenames and a manifest.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-27] lint | Wiki health check
 

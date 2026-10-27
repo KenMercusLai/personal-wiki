@@ -5,7 +5,8 @@ tags: [engagement, incentives, advertising, social-media, attention]
 sources:
   - facebooks-desperate-smoke-screen-study-hacks-cal-newport
   - if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays
-last_updated: 2026-09-29
+  - himikouchuu-31
+last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ Newport's Facebook case separates two kinds of remediation. A platform can chang
 
 This does not prove harmful intent or make all engagement valueless. Social groups, communication, health reminders, information, and deliberate entertainment can create real benefit, and frequent use is not itself pathology. The conflict instead warns that activity metrics and user benefit may diverge. Responses should be tested against revenue-linked behavior and user outcomes, whether they rely on internal restraint, alternative funding, user controls, or [[DigitalCompulsionRegulation]].
 
+A creator-side version of the conflict appears when personal stories, grief, intimacy, outrage, and staged conflict all produce traffic. People may be rewarded for exposing or manufacturing experiences that are costly to live through but valuable to publish. [[RageBait]] makes the divergence especially clear: a producer can succeed by causing hostile interaction even when nobody gains understanding and the surrounding discourse deteriorates.
+
 ## Key Claims
 - Engagement-funded products can face a direct economic cost when safety or wellbeing changes reduce time spent.
 - A company may prefer remedies that change the content of engagement without reducing its total volume.
@@ -24,6 +27,7 @@ This does not prove harmful intent or make all engagement valueless. Social grou
 - Valuable product functions do not justify every mechanism used to increase frequency or duration.
 - Engagement metrics require countermetrics for deliberate value, wellbeing, or avoided harm.
 - Voluntary moderation is unreliable when reducing successful triggers also reduces the usage that funds the product.
+- Creator rewards can make private experience, vulnerability, and conflict commercially useful even when publication harms the people involved.
 
 ## Evidence
 Revenue and usage:
@@ -41,13 +45,16 @@ Designed repetition:
 Limits of self-regulation:
 - [[if-the-internet-is-addictive-why-dont-we-regulate-it-aeon-essays]] argues that moderation appeals conflict with attention-funded economics and proposes externally required controls while preserving useful services.
 
+Creator-side conflict:
+- [[himikouchuu-31]] argues that creators can become material producers for the feed, exposing or staging intimacy, pain, and conflict because traffic and sponsorship reward publishable emotion.
+- [[himikouchuu-31]] describes deliberately provocative posts whose success comes from anger, argument, and redistribution rather than reader benefit.
+
 ## Counterevidence & Qualifications
-The concept is grounded in two popular arguments, not platform financial records, product experiments, clinical addiction measures, or causal evidence about particular features. Newport infers strategic distraction; the source does not establish internal intent. Schulson supplies design mechanisms and policy proposals but explicitly notes uncertainty around diagnosis, thresholds, and regulatory effectiveness. Some frequent use reflects communication, support, work, health, or genuine community value, and reducing aggregate minutes is not automatically a sufficient welfare measure. Political manipulation and compulsive engagement may reinforce one another, while monitoring risky use may create new privacy and classification harms.
+The concept is grounded in three popular arguments, not platform financial records, product experiments, clinical addiction measures, or causal evidence about particular features. Newport infers strategic distraction; the source does not establish internal intent. Schulson supplies design mechanisms and policy proposals but explicitly notes uncertainty around diagnosis, thresholds, and regulatory effectiveness. 缪伊 offers a first-person cultural interpretation rather than creator income, recommendation, or wellbeing data, and staged content cannot be assumed from strong emotion alone. Some frequent use reflects communication, support, work, health, or genuine community value, and reducing aggregate minutes is not automatically a sufficient welfare measure. Political manipulation and compulsive engagement may reinforce one another, while monitoring risky use may create new privacy and classification harms.
 
 ## What Changed
-- Generalized the conflict from one Facebook controversy to repeated triggers and stopping-cue removal across attention-funded products.
-- Added the structural weakness of voluntary self-regulation when moderation reduces revenue-producing usage.
-- Added user-control regulation as a possible response without treating duration as a sufficient welfare measure.
+- Added creator self-exploitation as the supply-side form of the conflict.
+- Added intimate disclosure, staged conflict, and rage bait as engagement that can reward the producer or platform while harming participants and discourse.
 
 ## Related Concepts
 - [[AttentionEconomy]] - monetized attention creates the revenue side of the conflict.
@@ -57,3 +64,5 @@ The concept is grounded in two popular arguments, not platform financial records
 - [[AttentionManagement]] - deliberate bounded use represents the user-side response to attention capture.
 - [[ForumCommunityDesign]] - valuable support communities qualify blanket claims that all platform engagement is harmful.
 - [[DigitalCompulsionRegulation]] - addresses the conflict through externally required controls and stopping points.
+- [[PerformativeSelfPresentation]] - shows how audience reward can make lived experience subordinate to its publishable version.
+- [[RageBait]] - is the clearest case where hostile engagement can satisfy platform metrics without producing user benefit.

@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-10-26
-as_of_overview_commit: ea3145e525364af58fe71f833c31ef7a6dbdd8e5
-input_digest: e8a6b2e74113d6c8dad631d89017e2ed783be121b0a9f21703a02c169f1d02a6
+as_of_overview_commit: 4b2194013cbd29f3e3a995912ab020406614ae88
+input_digest: 9f70e7ef445bb521f9f350c75257458e760ce6863d8b471d89c4693f3e9ce00c
 ---
 
 # Psychology and Personal Development
@@ -995,3 +995,15 @@ The [[GitHostingArchitecture]] paragraph is classifier spillover into psychology
 - The evidence is one author-designer reflection without usability, accessibility, comprehension, completion, or preference measurements.
 - Progress, navigation, sharing, theme, and accessibility controls can help some readers; attention cost depends on implementation and context rather than the mere presence of a feature.
 - Independent domains and repository-held text improve custody but do not guarantee backup, security, redirect continuity, recovery, or long-term availability.
+
+### Platform Feedback Can Turn Expression Into Self Exploitation
+
+[[PerformativeSelfPresentation]] and [[AttentionEconomy]] interact when platform feedback makes lived experience, intimacy, pain, or conflict into creator inventory; [[RageBait]] sharpens the mechanism by turning anger and self-justifying argument into distribution, while [[GreaterInternetFuckwadTheory]] now includes conflict reward and group-identity defense that do not require anonymity.
+
+**Evidence:** [[MiaoYi]], [[PerformativeSelfPresentation]], [[AttentionEconomy]], [[EngagementIncentiveConflict]], [[RageBait]], [[GreaterInternetFuckwadTheory]], [[Xiaohongshu]]
+
+**Qualifications:**
+
+- The evidence is one first-person cultural essay without recommendation telemetry, representative creator data, causal analysis, prevalence estimates, or measured response outcomes.
+- Personal storytelling can support memory integration, meaning, recognition, and connection, so selective presentation or strong emotion does not by itself establish exploitation or fabrication.
+- Non-engagement can deny routine provocation attention but is insufficient for credible threats, coordinated harassment, impersonation, or illegal conduct that requires evidence preservation and formal escalation.
