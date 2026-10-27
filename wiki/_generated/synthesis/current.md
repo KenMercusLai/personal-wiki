@@ -3,11 +3,11 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-26
-as_of_overview_commit: 18c234b22fcdfcf97983e323aadfc62429e3bccf
-summary: "Evidence-qualified synthesis across technology, markets, institutions, health, culture, work, and personal development, with incentives, authority, and uncertainty explicit."
-episode_count: 1290
-source_count: 1290
+last_updated: 2026-10-27
+as_of_overview_commit: a045143c80a170b23b0e3d0d96f928e959244c80
+summary: "Evidence-qualified synthesis across technology, markets, institutions, health, culture, work, and personal development, with incentives and uncertainty explicit."
+episode_count: 1291
+source_count: 1291
 paragraph_count: 899
 topic_count: 9
 ---
@@ -68,7 +68,7 @@ Historical and geopolitical claims require separating primary evidence, later in
 
 ### Psychology and Personal Development
 
-Personal development emerges from feedback among action, reflection, identity, motivation, relationships, responsibility, and designed attention environments, with platform incentives able to distort expression and conflict.
+Personal development emerges from feedback among action, reflection, identity, motivation, relationships, responsibility, reconstructive memory, and designed attention environments, with records and prospective criteria helping preserve evidence against salient but incomplete summaries.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].

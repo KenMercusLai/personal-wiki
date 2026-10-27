@@ -10380,3 +10380,15 @@ Created [[RolloutTrainingStateReplay]] and updated [[SGLang]] and [[Mooncake]] f
 ## [2026-10-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | 峰终效应
+
+Created [[LAN]], [[TheLastOfUsPartII]], and [[PeakEndRule]] and updated [[CognitiveBiasTaxonomy]] from its complete ordered evidence inventory. Recorded reconstructive weighting of emotional peaks and endings, the game's narrative case, the distinction between entertainment preference and work evaluation, and safeguards based on prospective criteria, process records, decomposed judgments, delay, and counterexamples. Preserved the reflective-essay, no-effect-size, audience-variation, and artistic-merit qualifications. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

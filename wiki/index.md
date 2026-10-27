@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [峰终效应](sources/peak-end-rule.md) - -LAN- applies the peak-end rule to The Last of Us Part II, entertainment choice, and safeguards for evidence-sensitive workplace evaluation.
 - [RL r3 的超高校级的实现](sources/rl-r3-best-implementation.md) - w@hidva.com separates GB-scale rollout replay payloads from KB-scale manifests, reuses handle-only token layout, and reports under 7% total overhead with explicit ownership and lifecycle controls.
 - [个人上网冲浪体验指北](sources/himikouchuu-31.md) - 缪伊 examines how experience-sharing becomes connection, performance, self-exploitation, and rage-driven traffic, then argues for denying trolls attention while escalating serious harm formally.
 - [Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads](sources/magnus-p4964-song.md) - ByteDance's Iceberg-derived system combines specialized formats, indexes, metadata planning, merge-on-read updates, and training-specific layouts under qualified production benchmarks.
@@ -1324,6 +1325,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [-LAN-](entities/LAN.md) - Chinese-language blogger applying psychological ideas to games, entertainment choice, and workplace judgment.
+- [The Last of Us Part II](entities/TheLastOfUsPartII.md) - Narrative game used as a case of intense emotional peaks and a bleak ending dominating retrospective evaluation.
 - [缪伊](entities/MiaoYi.md) - Chinese-language blogger reflecting on social-media incentives, experience-as-content, online hatred, and disengagement from trolls.
 - [Magnus](entities/Magnus.md) - ByteDance's Iceberg-derived data-management system for large-scale ML storage, mutation, retrieval, and training.
 - [ByteDance](entities/ByteDance.md) - Company represented here through its source-reported large-scale ML data infrastructure and Magnus deployment.
@@ -3393,6 +3396,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Peak-End Rule](concepts/PeakEndRule.md) - Tendency for an experience's most intense moment and ending to disproportionately shape retrospective evaluation.
 - [Rollout-Training State Replay](concepts/RolloutTrainingStateReplay.md) - Preserving inference-time per-token choices by separating heavy payload storage from handle-only scheduling, layout, and consumer-side materialization.
 - [Rage Bait](concepts/RageBait.md) - Deliberately provocative content that recruits anger, argument, screenshots, and retransmission as attention and distribution.
 - [Machine Learning Data Management](concepts/MachineLearningDataManagement.md) - Coordinated storage, indexing, versioning, mutation, planning, governance, and delivery of model-training datasets.

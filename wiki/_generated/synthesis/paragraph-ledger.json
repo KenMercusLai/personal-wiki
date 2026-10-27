@@ -371,7 +371,7 @@
       "5cd3283f7aa960be3c5bbac5c1cb6010634f18d4482736adc98a5fc3341bfc81",
       "7b95feb3369b58352587d43478bb72be3acf1cf482c668f061f48a22e34ddf0c",
       "a98b48e55da33fdcdaab004250da51142e93a73f69a558a206263d2a4376a0f8",
-      "bff5a9b6b67584a88cb5fc0a2ad7d79b4666d557c2f401b7297ec98924978df2",
+      "610acbef7b1ff7b7818512352e751491107c811dc80028f396df438bf7e552ee",
       "83a6bd554b3005df79b96b7da72c14c6f4099fe82effcc244825553eb6458fab",
       "41b04314d2dc0daddd744a032a86c58af8bdf3be325cfa9081a565df0b4b1a2a",
       "7c7c04a35c6344388dd1ac0ea2905172c9475a67b9024a2157bedd8c13d44e27",
@@ -903,8 +903,8 @@
     ],
     "paragraph_count": 899
   },
-  "overview_commit": "18c234b22fcdfcf97983e323aadfc62429e3bccf",
-  "overview_digest": "245af67063ce24d3fe0ed78713964e9036d533cee6fb321cee8fa66074dd1052",
+  "overview_commit": "a045143c80a170b23b0e3d0d96f928e959244c80",
+  "overview_digest": "4596a5fb4ef6e539c3574a76ffa37e422787d5f7671c454d33d1cbb0c60f28bc",
   "paragraphs": [
     {
       "id": "362fc4fb53381fcfd32656cca4597c37a16a031dfa412b6b0dd4de37d3fba358",
@@ -7953,16 +7953,19 @@
       ]
     },
     {
-      "id": "bff5a9b6b67584a88cb5fc0a2ad7d79b4666d557c2f401b7297ec98924978df2",
+      "id": "610acbef7b1ff7b7818512352e751491107c811dc80028f396df438bf7e552ee",
       "primary_topic": "psychology-and-personal-development",
       "secondary_topics": [],
-      "text": "The newest Better Humans source adds a general [[CognitiveBiasTaxonomy]] to the wiki's psychology and decision-making material. The source reframes cognitive biases as functional shortcuts for four recurring mental constraints: too much information, not enough meaning, the need to act fast, and limited memory. This gives existing bias-specific pages such as [[SunkCostFallacy]] and [[FalseConsensusEffect]] a broader map: biases can help filter, explain, decide, and remember, but each shortcut also creates predictable errors. The inspected Chainsawsuit comic materially reinforces the confirmation-bias warning, while the Cognitive Bias Codex poster remix supports the source's claim that a visual taxonomy can make the bias list more navigable.",
+      "text": "The Better Humans source adds a general [[CognitiveBiasTaxonomy]] to the wiki's psychology and decision-making material by reframing biases as functional shortcuts for four recurring constraints: too much information, not enough meaning, the need to act fast, and limited memory. [[PeakEndRule]] now deepens the memory branch: retrospective evaluation can compress a game, trip, project, or person around emotional intensity and the ending. This gives pages such as [[SunkCostFallacy]] and [[FalseConsensusEffect]] a broader map while adding an evidence-preservation response—prospective criteria, process records, dimensional scoring, delayed judgment, and counterexamples—when the goal is reliable work evaluation rather than elective emotional experience. The taxonomy remains a practical organizing lens rather than proof that its groups are exhaustive or that one shortcut explains every judgment.",
       "topic_scores": {
-        "psychology-and-personal-development": 2
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 1
       },
       "wikilinks": [
         "CognitiveBiasTaxonomy",
         "FalseConsensusEffect",
+        "PeakEndRule",
         "SunkCostFallacy"
       ]
     },

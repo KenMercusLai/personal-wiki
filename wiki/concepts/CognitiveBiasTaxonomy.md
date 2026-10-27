@@ -5,7 +5,8 @@ tags: [cognitive-bias, psychology, decision-making]
 sources:
   - cognitive-bias-cheat-sheet-better-humans-medium
   - venture-capital-blind-spots-645-ventures-medium
-last_updated: 2026-09-23
+  - peak-end-rule
+last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,13 +20,15 @@ The same frame keeps the downside visible. Filtering can discard important evide
 
 The 645 Ventures essay supplies an applied investment case. Founder pattern matching and [[Homophily]] turn familiar biographies into a meaning shortcut; investor self-reference mistakes personal taste for customer demand; groupthink and network overlap make repeated opinions look like independent evidence; current market categories and earlier failures anchor forecasts against expansion or change. The application also shows that debiasing is not simply awareness: the authors propose diverse decision perspectives, direct customer and traction evidence, prepared market theses, independent judgment, explicit upside questions, and renewed attention to technology and adoption curves.
 
+The peak-end essay deepens the taxonomy's memory branch. [[PeakEndRule]] explains how retrospective judgment can compress an experience around its most intense moment and its ending, then makes the taxonomy operational across domains: peaks and endings may be valid preference signals for elective entertainment, but work assessment needs prospective criteria, process records, decomposed scoring, delayed judgment, and counterexamples so a late failure or dramatic success does not replace the full evidence trail.
+
 ## Key Claims
 - Biases can be grouped by function: filtering information, constructing meaning, enabling fast action, and selecting memories.
 - The taxonomy is designed to be more memorable than a long alphabetical or loosely categorized list.
 - Cognitive biases are not merely failures; they are tradeoff-heavy shortcuts that save time and energy.
 - Information filters prioritize primed, repeated, unusual, changed, belief-confirming, and socially comparative details.
 - Meaning-making biases fill gaps with stories, stereotypes, familiar preferences, simplified probabilities, mind-reading, and time projection.
-- Fast-action and memory biases turn stories into decisions and then preserve selected traces that influence future perception.
+- Fast-action and memory biases turn stories into decisions and preserve selected traces—such as emotional peaks and endings—that influence later evaluation and perception.
 - Bias improvement requires noticing the shortcut and changing the evidence or decision process around it, not merely naming it or assuming bias can be eliminated.
 
 ## Evidence
@@ -38,13 +41,15 @@ The 645 Ventures essay supplies an applied investment case. Founder pattern matc
 - Visual evidence: [[cognitive-bias-cheat-sheet-better-humans-medium]] includes a confirmation-bias comic and a Cognitive Bias Codex poster remix that turn the taxonomy into memorable visual artifacts.
 - Venture application: [[venture-capital-blind-spots-645-ventures-medium]] maps founder pattern matching, homophily, self-reference, groupthink, price anchoring, category closure, and prior-failure effects to missed investments.
 - Process countermeasures: [[venture-capital-blind-spots-645-ventures-medium]] recommends diverse perspectives, target-customer observation, traction analysis, independent judgment, and explicit examination of market expansion and change.
+- Memory mechanism: [[peak-end-rule]] explains how emotional peaks and endings can dominate the reconstructed evaluation of a game, trip, project, or person.
+- Evaluation countermeasures: [[peak-end-rule]] proposes precommitted criteria, process records, dimensional scoring, delay, and counterexample search to keep workplace judgments closer to the full evidence.
 
 ## Counterevidence & Qualifications
-Both sources are practitioner syntheses rather than empirical proof that the four categories are exhaustive, mutually exclusive, or psychologically canonical. Some listed biases could fit multiple functions, and the Better Humans poster is too small to verify every label. The venture cases are selected retrospectively from famous successes, so they can expose plausible error mechanisms while also inviting hindsight and survivorship bias. The taxonomy is best used as a practical diagnostic lens, not as a formal causal model or a rule that contrarian choices will outperform.
+All three sources are practitioner syntheses rather than empirical proof that the four categories are exhaustive, mutually exclusive, or psychologically canonical. Some listed biases could fit multiple functions, and the Better Humans poster is too small to verify every label. The venture cases are selected retrospectively from famous successes, so they can expose plausible error mechanisms while also inviting hindsight and survivorship bias. The peak-end examples illustrate an application but do not measure effect size, prevalence, or when other summaries dominate. The taxonomy is best used as a practical diagnostic lens, not as a formal causal model, a rule that contrarian choices will outperform, or a substitute for the underlying evidence record.
 
 ## What Changed
-- Added venture investing as an applied case spanning filtering, meaning construction, fast action, and memory.
-- Distinguished bias awareness from process changes that improve the evidence entering a decision.
+- Added peak-end weighting as a concrete memory-selection mechanism.
+- Extended debiasing from improving incoming evidence to preserving longitudinal process evidence before retrospective evaluation.
 
 ## Related Concepts
 - [[SunkCostFallacy]] - one fast-action bias explained as motivation to complete already-invested work.
@@ -54,3 +59,5 @@ Both sources are practitioner syntheses rather than empirical proof that the fou
 - [[Metaknowledge]] - recognizing disagreement requires noticing when personal belief is being projected onto others.
 - [[VentureCapitalBlindSpots]] - applied framework showing how several shortcuts combine in investment omission errors.
 - [[Homophily]] - similarity-based trust and evaluation shortcut in founder selection and deal networks.
+- [[PeakEndRule]] - specific memory shortcut that overweights emotional intensity and the ending of an experience.
+- [[Metamemory]] - external records can preserve evidence that retrospective memory would otherwise compress.
