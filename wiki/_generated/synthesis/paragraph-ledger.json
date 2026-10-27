@@ -898,12 +898,13 @@
       "f9016c2bbf2cb6fc5458bf9b32778b0592f0fcd93fb64e9b054681734f53d936",
       "048b58e50cb0e6778a487e34c664be6e4176855a192cecce56896327d96778c1",
       "c766a8b1b40ad94cc8dead0e331418f3656f108a151cec12c56ac7497c2cef70",
-      "5b7b3aab8beece667a89d0a44fa779a79c1bac2029738c4a41d260c9a42b3a08"
+      "5b7b3aab8beece667a89d0a44fa779a79c1bac2029738c4a41d260c9a42b3a08",
+      "32360a356b64450aaec1bcf0fcd9fd9630665a3ab857e0ca4809814c0261ede5"
     ],
-    "paragraph_count": 898
+    "paragraph_count": 899
   },
-  "overview_commit": "4b2194013cbd29f3e3a995912ab020406614ae88",
-  "overview_digest": "17e4b39d9b2eea4b7b74c277b71213881d63aac6bcf53fb63be689462bce0516",
+  "overview_commit": "18c234b22fcdfcf97983e323aadfc62429e3bccf",
+  "overview_digest": "245af67063ce24d3fe0ed78713964e9036d533cee6fb321cee8fa66074dd1052",
   "paragraphs": [
     {
       "id": "362fc4fb53381fcfd32656cca4597c37a16a031dfa412b6b0dd4de37d3fba358",
@@ -18075,6 +18076,25 @@
         "ProductCommoditization",
         "ResponsibleAIRelease",
         "SatyaNadella"
+      ]
+    },
+    {
+      "id": "32360a356b64450aaec1bcf0fcd9fd9630665a3ab857e0ca4809814c0261ede5",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest w@hidva.com source adds [[RolloutTrainingStateReplay]] as an execution-consistency and dataflow problem inside reinforcement-learning infrastructure. Small kernel, batching, and parallel-layout differences can make rollout and training select different MoE experts or sparse-attention positions for the same tokens, so replay preserves the inference-time discrete choice. The central design separates semantic payload from placement metadata: [[SGLang]] keeps speculative rewrites in a mutable tail, writes stable layer-sharded chunks once to [[Mooncake]] under backpressure, and returns object-and-range references; sample assembly, scheduling, dynamic packing, unpadding, partitioning, and collectives carry KB-scale manifests or 24-byte token handles; only the final training consumer reads its stage's rows and materializes one micro-batch. Ownership and failure semantics are part of correctness: one rank creates each object, missing payloads wait or fail closed rather than silently weakening replay, and the complete batch manifest drives deletion even for overwritten ranges. The author reports replacing a 3.7-GB trajectory's control-path payload with KB-scale intervals, cutting layout traffic by roughly three orders of magnitude, and keeping total indexer-replay overhead below 7%, versus an earlier proof of concept that increased step time eightfold. The broader [[BottleneckAwareAICoding]] lesson is that AI can rapidly optimize slicing, compression, and I/O inside an inherited path, while human end-to-end judgment must still ask which components need the data and whether the path should exist. These are unreleased first-person production claims without benchmark protocol, variance, hardware detail, correctness audit, or measured learning effect; the general pattern applies only when intermediate stages do not need payload contents and handle transformations remain exactly token-aligned. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BottleneckAwareAICoding",
+        "Mooncake",
+        "RolloutTrainingStateReplay",
+        "SGLang"
       ]
     }
   ],

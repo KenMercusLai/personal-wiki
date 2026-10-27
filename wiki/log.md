@@ -10372,3 +10372,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | RL r3 的超高校级的实现
+
+Created [[RolloutTrainingStateReplay]] and updated [[SGLang]] and [[Mooncake]] from their complete ordered evidence inventories. Recorded inference-training mismatch from discrete Top-K choices, immutable layer-sharded payload storage, KB-scale manifests, 24-byte token handles, reuse of verified layout machinery, consumer-side materialization, speculative-tail overwrite, backpressure, single-writer ownership, fail-closed reads, and manifest-driven reclamation. Preserved the first-person, unreleased-code, missing benchmark-methodology, bundled-change, storage-latency, alignment-safety, and unmeasured-learning-effect qualifications. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

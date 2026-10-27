@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [RL r3 的超高校级的实现](sources/rl-r3-best-implementation.md) - w@hidva.com separates GB-scale rollout replay payloads from KB-scale manifests, reuses handle-only token layout, and reports under 7% total overhead with explicit ownership and lifecycle controls.
 - [个人上网冲浪体验指北](sources/himikouchuu-31.md) - 缪伊 examines how experience-sharing becomes connection, performance, self-exploitation, and rage-driven traffic, then argues for denying trolls attention while escalating serious harm formally.
 - [Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads](sources/magnus-p4964-song.md) - ByteDance's Iceberg-derived system combines specialized formats, indexes, metadata planning, merge-on-read updates, and training-specific layouts under qualified production benchmarks.
 - [为什么我看好 Turbopuffer，从 Personal Agent 说起](sources/wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi.md) - 左巨 separates memory interpretation from retrieval infrastructure and analyzes sparse personal-agent tenants, object-storage-native indexing, and Turbopuffer's expansion beyond vector search.
@@ -1446,7 +1447,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apache Arrow](entities/ApacheArrow.md) - In-memory columnar layout whose separate buffers trade direct access against nested storage I/O.
 - [Saatwik Nagpal](entities/SaatwikNagpal.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
 - [Charles Frye](entities/CharlesFrye.md) - Co-author of Modal's account of profiling and optimizing SGLang multimodal inference.
-- [SGLang](entities/SGLang.md) - Open-source inference engine whose multimodal scheduler path uses CUDA IPC and now caches stable pool-handle storage.
+- [SGLang](entities/SGLang.md) - Inference engine represented through multimodal CUDA IPC scheduling and capture of stable rollout-replay chunks under speculative decoding.
 - [Sebastian Raschka](entities/SebastianRaschka.md) - Machine-learning author comparing local coding-agent systems and reasoning-model post-training through implementation details, visual evidence, and explicit uncertainty boundaries.
 - [Ollama](entities/Ollama.md) - Local model-serving runtime used to expose open-weight models to multiple coding-agent harnesses through an OpenAI-compatible endpoint.
 - [Qwen Code](entities/QwenCode.md) - Open-source coding-agent harness configured, audited, and compared across several local models.
@@ -1459,7 +1460,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gavin Gray](entities/GavinGray.md) - Brown University researcher and lead author of the async/await design-space study and executable artifact.
 - [Shriram Krishnamurthi](entities/ShriramKrishnamurthi.md) - Brown University researcher studying programming-language semantics and cross-language mental models.
 - [Will Crichton](entities/WillCrichton.md) - Brown University researcher and coauthor of the lifecycle taxonomy and formal semantics for async/await.
-- [Mooncake](entities/Mooncake.md) - KV-cache transfer system forked for host-local FABRIC and proxy-mediated P2P paths plus stronger transfer-finality semantics.
+- [Mooncake](entities/Mooncake.md) - Transfer and shared-storage system represented through KV handoff plus immutable, layer-sharded rollout-replay objects.
 - [Vision Pro](entities/VisionPro.md) - Apple's spatial-computing headset, represented through compelling fixed-seat presence and content-production choices that can undermine it.
 - [David Allen](entities/DavidAllen.md) - Productivity author whose Getting Things Done framework treats trusted external capture and contextual review as protections for limited attention.
 - [Chaney Zorn](entities/ChaneyZorn.md) - Infrastructure practitioner describing a self-contained offline server-inspection architecture and a shift toward pragmatic Ansible reuse.
@@ -3392,6 +3393,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Rollout-Training State Replay](concepts/RolloutTrainingStateReplay.md) - Preserving inference-time per-token choices by separating heavy payload storage from handle-only scheduling, layout, and consumer-side materialization.
 - [Rage Bait](concepts/RageBait.md) - Deliberately provocative content that recruits anger, argument, screenshots, and retransmission as attention and distribution.
 - [Machine Learning Data Management](concepts/MachineLearningDataManagement.md) - Coordinated storage, indexing, versioning, mutation, planning, governance, and delivery of model-training datasets.
 - [Personal Agent Retrieval](concepts/PersonalAgentRetrieval.md) - Storage, indexing, authorization, and evidence-selection layer for long-lived, sparsely active personal and shared agent histories.

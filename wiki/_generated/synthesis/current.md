@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-26
-as_of_overview_commit: 4b2194013cbd29f3e3a995912ab020406614ae88
+as_of_overview_commit: 18c234b22fcdfcf97983e323aadfc62429e3bccf
 summary: "Evidence-qualified synthesis across technology, markets, institutions, health, culture, work, and personal development, with incentives, authority, and uncertainty explicit."
-episode_count: 1289
-source_count: 1289
-paragraph_count: 898
+episode_count: 1290
+source_count: 1290
+paragraph_count: 899
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, task fit, context, verification, permissions, recovery, cost, and operating environments; workflow ownership also concentrates data and authority.
+AI and software outcomes depend on architecture, task fit, context, verification, permissions, recovery, cost, operating environments, and token-aligned data lifecycles; workflow ownership also concentrates data and authority.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
