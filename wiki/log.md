@@ -10328,3 +10328,11 @@ Created [[Starlink]], [[SpaceBasedDataCenters]], and [[AgenticInference]] and up
 ## [2026-10-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | The iPhone’s Last Stand
+
+Created [[ProjectSolara]] and updated [[Apple]], [[IPhone]], [[Siri]], [[Microsoft]], [[BenThompson]], [[Stratechery]], and [[AgentNativeComputing]] from their complete ordered evidence inventories. Recorded the contrast between cloud-resident enterprise agents and Apple's iPhone-centered personal-context strategy, Siri's useful short-interaction capabilities and autonomy limit, and the different willingness to pay for consumer entertainment and enterprise productivity. Preserved the prerecorded-demo, unshipped-platform, reported-architecture, broad-market-thesis, app-coverage, privacy, reliability, and adoption boundaries. Opened both video posters and read both caption tracks; retained the evidence-bearing Siri UI still with a descriptive canonical filename and manifest, and omitted the decorative Project Solara title poster.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

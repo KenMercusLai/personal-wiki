@@ -11,7 +11,8 @@ sources:
   - danny-glasser-is-typing-danny-glasser
   - exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism
   - i-told-a-senior-developer-at-microsoft-he-was-wrong
-last_updated: 2026-09-29
+  - the-iphones-last-stand
+last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,6 +24,8 @@ The IPO source presents Microsoft as a capital-light software company whose 1986
 
 The 2023 Forbes interview adds the AI partnership from OpenAI's perspective. [[SamAltman]] calls Microsoft the major technology company most aligned with OpenAI's values and says it accepted deal provisions unlike ordinary venture arrangements, including capped returns and safety overrides. A 2008 internship retrospective adds an employee-level view of [[MicrosoftGroove]]: a large C++ codebase, long build cycles, intensive review, and patient senior explanation gave an intern room to grow from repeated rewrites to correcting a senior engineer's memory-management defect.
 
+The newest source presents [[ProjectSolara]] as Microsoft's answer to missing mobile: a chip-to-cloud ecosystem in which agent-first devices are portals to cloud-resident agents that can continue enterprise work after a brief interaction. This aligns Microsoft's cloud infrastructure and enterprise distribution with contexts in which productivity has direct economic value. It remains an announced vision without shipped-product or adoption evidence.
+
 ## Key Characteristics
 - Built a profitable pre-IPO software business before the later Windows/Office legacy position, entering public markets from cash and product momentum rather than desperation.
 - Exemplifies [[IntangibleAssetEconomics]] because software has high creation cost and very low reproduction cost.
@@ -30,7 +33,7 @@ The 2023 Forbes interview adds the AI partnership from OpenAI's perspective. [[S
 - Missed the mobile platform shift while retaining legacy market power through Windows and Office.
 - Is described as abandoning the old universal Windows platform strategy and choosing a differentiated post-mobile enterprise-services path.
 - Appears in the trillion-dollar-race source as a cash-rich enterprise-services giant whose post-mobile path illustrates both resilience and [[CorporateGiantFragility]].
-- Is presented by OpenAI as accepting capped returns and safety overrides in an unusually mission-sensitive AI partnership.
+- Is presented by OpenAI as accepting capped returns and safety overrides in an unusually mission-sensitive AI partnership, and later as pursuing cloud-first enterprise agents through Project Solara.
 
 ## Evidence
 - Profitable origin: [[a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news]] says Microsoft went public in 1986 after annual profitability, fast revenue growth, and early products including MS-DOS, Word, Excel, and Windows.
@@ -52,13 +55,16 @@ The 2023 Forbes interview adds the AI partnership from OpenAI's perspective. [[S
 - Nonstandard terms: [[exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism]] says Microsoft accepted capped returns and safety-override provisions intended to preserve OpenAI's mission.
 - Internship environment: [[i-told-a-senior-developer-at-microsoft-he-was-wrong]] reports a roughly ten-million-line Groove codebase, 70 to 80 developers, repeated line-by-line review, and extensive access to senior explanations.
 - Status-independent correction: [[i-told-a-senior-developer-at-microsoft-he-was-wrong]] says a senior developer accepted an intern's diagnosis of a memory-management defect and invited the intern to fix it.
+- Agent-first platform: [[the-iphones-last-stand]] reports Microsoft's Project Solara vision for coordinated devices serving as portals to cloud-resident agents.
+- Enterprise fit: [[the-iphones-last-stand]] argues that institutional work context and willingness to pay for productivity make long-running agents more viable in enterprises than in the consumer market.
 
 ## Qualifications
-The IPO, Messenger, and internship sources are retrospectives; the internship account is one person's experience and cannot establish company-wide mentoring culture, product quality, or the reported codebase scale independently. The Gates essay uses Microsoft inside a book review, the mobile source is a 2015 view, the landing-page source critiques one 2013 page, and Above Avalon is a 2018 comparator snapshot. The OpenAI partnership evidence is Altman's characterization in an edited interview; without contract text or independent review, it cannot establish how the safeguards work under conflict.
+The IPO, Messenger, and internship sources are retrospectives; the internship account is one person's experience and cannot establish company-wide mentoring culture, product quality, or the reported codebase scale independently. The Gates essay uses Microsoft inside a book review, the mobile source is a 2015 view, the landing-page source critiques one 2013 page, and Above Avalon is a 2018 comparator snapshot. The OpenAI partnership evidence is Altman's characterization in an edited interview; without contract text or independent review, it cannot establish how the safeguards work under conflict. Project Solara is conference-stage vision and analyst interpretation without a shipping plan, product benchmark, security model, pricing, customer deployment, or proof that distributed thin devices outperform existing phones and PCs.
 
 ## What Changed
-- Added a 2008 internship view of Groove engineering scale, intensive mentorship, and status-independent technical correction.
-- Preserved the account as one retrospective experience rather than evidence of company-wide culture.
+- Added Project Solara as Microsoft's cloud-first, enterprise-oriented response to an agent-native computing shift.
+- Connected Microsoft's mobile miss to a strategy that deemphasizes standalone device ownership.
+- Preserved Solara as an unshipped vision rather than an established platform.
 
 ## Relationships
 - [[BillGates]] - Microsoft co-founder whose comments anchor the source's financing and IPO-pricing account.
@@ -79,3 +85,6 @@ The IPO, Messenger, and internship sources are retrospectives; the internship ac
 - [[ArtificialGeneralIntelligence]] - anticipated outcome used by OpenAI to justify nonstandard partnership terms.
 - [[MicrosoftGroove]] - peer-to-peer collaboration product that supplied the internship's synchronization and memory-management context.
 - [[JuniorEngineerLearning]] - the internship shows repeated review and questions developing into independent judgment.
+- [[ProjectSolara]] - announced agent-first device and cloud-platform vision.
+- [[AgentNativeComputing]] - computing shift Microsoft addresses through enterprise identity, context, devices, and cloud agents.
+- [[IPhone]] - mobile center Microsoft missed and Solara's cloud-first architecture deemphasizes.

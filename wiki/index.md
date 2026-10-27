@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The iPhone’s Last Stand](sources/the-iphones-last-stand.md) - Ben Thompson contrasts Microsoft's cloud-first enterprise agents with Apple's iPhone-centered consumer AI strategy, while preserving the demo-stage and market-generalization limits.
 - [The SpaceX IPO and Data Centers in Space](sources/spacex-ipo-data-centers-in-space.md) - Ben Thompson argues that SpaceX could extend launch and Starlink scale into orbital compute for latency-tolerant agents, while treating the IPO valuation and engineering case as highly conditional.
 - [Anthropic’s Safety Superpower](sources/anthropics-safety-superpower.md) - Ben Thompson argues that Anthropic's safety mission, workflow strategy, usage-data incentives, and frontier-model controls reinforce one another while concentrating provider power.
 - [我的blog设计理念](sources/my-blog-design.md) - Chongxi traces a restrained personal-blog design from Swiss typography, NASA documentation, and Lone Trail while linking reader focus, subtle identity, and independent ownership.
@@ -1318,6 +1319,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Project Solara](entities/ProjectSolara.md) - Microsoft's announced chip-to-cloud ecosystem of agent-first devices serving as portals to cloud-resident enterprise agents.
 - [Starlink](entities/Starlink.md) - SpaceX satellite-connectivity network used as evidence for launch scale, airline broadband adoption, and a prospective orbital-compute architecture.
 - [Chongxi](entities/Chongxi.md) - Independent blogger using restrained technical-document design, repository-held writing, and subtle identity cues to support slow reading and personal control.
 - [Meta Platforms](entities/MetaPlatforms.md) - Consumer social, entertainment, messaging, advertising, and AI-infrastructure company represented through Thompson's explicitly fictional strategic proposal.
@@ -2733,7 +2735,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, marginal-cost economics, capability stacks, agent autonomy, safety incentives, and concentrated provider power.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platform architecture, consumer-enterprise segmentation, agent autonomy, safety incentives, and concentrated provider power.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -2986,7 +2988,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
 - [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
 - [Stian Westlake](entities/StianWestlake.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
-- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, app model, wearables, immersive media, home integration, services, capital allocation, and AI execution tradeoffs shape its profile.
+- [Apple](entities/Apple.md) - Mobile platform winner whose ecosystem, trust, services, devices, and iPhone-centered contextual AI shape its consumer strategy and execution risks.
 - [macOS](entities/MacOS.md) - Apple's Unix desktop operating system, represented as a strong automation substrate with headless-agent permission, patching, and remote-access constraints.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
@@ -2995,7 +2997,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple TV](entities/AppleTV.md) - Apple's premium video hardware and TV-app context in the content distribution strategy.
 - [HomePod](entities/HomePod.md) - Apple's premium speaker contrasted with cheaper smart speakers in the content distribution strategy.
 - [HomeView](entities/HomeView.md) - Apple's shared household display and controller whose utility depends on integration reliability, privacy, Siri, and long-term support.
-- [Siri](entities/Siri.md) - Apple's voice assistant and HomeView interface, framed as a central reliability and long-term platform risk.
+- [Siri](entities/Siri.md) - Apple's personal-context assistant, useful in short interactions but less autonomous and reportedly less reliable after deployment than its demos imply.
 - [Tim Cook](entities/TimCook.md) - Former Apple CEO tied to exceptional financial scaling, Services framing, active-device measurement, product pruning, and AI preparedness.
 - [Luca Maestri](entities/LucaMaestri.md) - Apple CFO tied to Apple's Services narrative, unit-disclosure change, and revenue/gross-margin framing.
 - [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
@@ -3011,7 +3013,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ARKit](entities/ARKit.md) - Apple's augmented-reality developer platform used to seed AR behavior on iPhones and iPads before smart glasses.
 - [Magic Leap](entities/MagicLeap.md) - AR company contrasted with Apple's installed base, developers, and wearable-learning advantages.
 - [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
-- [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product, independence precedent, and mature ASP-driven revenue case.
+- [iPhone](entities/IPhone.md) - Apple's smartphone, mature revenue engine, ecosystem anchor, and personal-context hub for Siri.
 - [Today at Apple](entities/TodayAtApple.md) - Apple's free retail session program framed by Thompson as a relationship and real-world engagement layer.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader represented through design influence, motivational force, operating control, team achievement, and contested treatment of people.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the humble-origin narrative and the Homebrew Computer Club informal-exchange example.
@@ -3022,7 +3024,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
 - [Android](entities/Android.md) - Google's broad mobile ecosystem, combining reach and distribution with fragmentation, monetization, app-governance, and passive telemetry tradeoffs.
 - [iOS](entities/IOS.md) - Apple's mobile ecosystem, service-control surface, interaction-design environment, and high-spending App Store base.
-- [Microsoft](entities/Microsoft.md) - Software and platform company framed through profitable origins, intangible economics, mobile-era adaptation, product innovation, and OpenAI partnership safeguards.
+- [Microsoft](entities/Microsoft.md) - Software and enterprise platform company whose post-mobile adaptation now includes the cloud-first Project Solara agent vision.
 - [Microsoft Groove](entities/MicrosoftGroove.md) - Microsoft's peer-to-peer business collaboration product and SharePoint synchronization environment in a 2008 internship account.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
@@ -3100,7 +3102,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Developer-oriented payment infrastructure and an organization case for patient hiring, compatibility, written scaling communication, and early design involvement.
-- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's business-model, platform, organizational-boundary, medium-affordance, and capability analyses.
+- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for business-model, platform, market-segmentation, medium-affordance, and capability analyses.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
@@ -4606,7 +4608,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent Interface As Context](concepts/AgentInterfaceAsContext.md) - Interface-design frame where GUIs and TUIs deliver timely constraints, diagnostics, and warnings into an agent's observed context.
 - [Agent Memory](concepts/AgentMemory.md) - Governed persistence and retrieval of external agent state through durable evidence, maintained views, causal provenance, and selective recall without implying continuous model learning.
 - [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
-- [Agent-Native Computing](concepts/AgentNativeComputing.md) - Shift from app-specific interfaces and integrations toward agents that coordinate software and create personal capabilities on demand.
+- [Agent-Native Computing](concepts/AgentNativeComputing.md) - Shift from app-specific interaction toward agents spanning cloud work, personal context, software coordination, and generated capabilities.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
 - [Agent TDD Residual](concepts/AgentTDDResidual.md) - Coding-agent workflow that alternates test-only and implementation-only phases so humans review behavioral residuals.

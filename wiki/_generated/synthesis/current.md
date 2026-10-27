@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-26
-as_of_overview_commit: 6fbea3a29329f148da1288a4a3b9fc0c93dbe60c
+as_of_overview_commit: c0042ddcb3409b68cedcd6ac7441024222da0d9b
 summary: "Evidence-qualified synthesis across technology, business, institutions, health, culture, work, and personal development, with authority, uncertainty, and tradeoffs explicit."
-episode_count: 1284
-source_count: 1284
+episode_count: 1285
+source_count: 1285
 paragraph_count: 897
 topic_count: 9
 ---

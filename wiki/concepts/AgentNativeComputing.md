@@ -7,6 +7,7 @@ sources:
   - apps-agents-and-aggregation
   - zgent-design-journey-3
   - anthropics-safety-superpower
+  - the-iphones-last-stand
 last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
@@ -19,14 +20,16 @@ The sources argue that the app model can become a bottleneck when every capabili
 
 The sources connect this shift to both hosted and local hardware. Muse reportedly provisions a virtual computer for each user, while Muse Gadgets provides open-source firmware, an SDK, and a small local-network gateway intended to expose custom devices to the agent. [[MicrosoftCopilot]] is presented as the enterprise version: a primary interface backed by identity, memory, a cloud computer, permissions, audit, and governance. [[ZGent]] offers a different synthesis in which apps remain explicit installable software, but a shared [[AgentOperatingSystem]] supplies accounts, model mediation, storage, sharing, and permission primitives while every app includes an agent conversation.
 
-The Anthropic essay adds the supplier-side incentive. Frontier labs facing model commoditization benefit when the agent becomes the canvas for whole workflows: direct use produces customer lock-in and potentially valuable feedback data rather than leaving the lab as a replaceable component inside someone else's software. Nadella's counter-model keeps private evaluations, institutional learning, and domain traces under the customer's control while allowing the generalist model to be switched. The larger thesis remains directional, not established. Apps can still provide reliable semantics, discoverability, accessibility, safety, transaction structure, data sovereignty, and efficient execution that ad hoc or provider-controlled agents may fail to reproduce.
+The Anthropic essay adds the supplier-side incentive. Frontier labs facing model commoditization benefit when the agent becomes the canvas for whole workflows: direct use produces customer lock-in and potentially valuable feedback data rather than leaving the lab as a replaceable component inside someone else's software. Nadella's counter-model keeps private evaluations, institutional learning, and domain traces under the customer's control while allowing the generalist model to be switched.
+
+The newest source distinguishes two architectures and markets inside the broader shift. [[ProjectSolara]] treats surrounding devices as portals to cloud-resident enterprise agents that continue work after brief interaction. Apple's [[Siri]] keeps the [[IPhone]] central because personal data, the current screen, Spotlight, and App Intents provide consumer context other agents cannot easily obtain. Agent-native computing therefore need not imply one universal thin-client outcome: enterprise productivity may reward extended cloud autonomy, while consumer use may preserve a rich personal device and accept shorter, less autonomous assistance. The larger thesis remains directional, not established. Apps and integrated devices can still provide reliable semantics, discoverability, accessibility, safety, transaction structure, data sovereignty, and efficient execution that ad hoc or provider-controlled agents may fail to reproduce.
 
 ## Key Claims
 - App-specific UI and integration work can constrain agent utility when each developer must adopt new platform capabilities.
 - Browser and computer-use agents can gain broad practical coverage across existing services without bespoke integration from every provider.
 - Coding agents and [[GenerativeUI]] reduce the cost of software and interfaces tailored to an individual rather than a mass market.
 - Agent-level permissions, persistent context, workflow traces, model choice, and data portability become more important as the agent creates and coordinates many programs.
-- Hosted computers, open hardware, and local gateways can extend the agent interface across software, background work, and personally built devices.
+- Hosted computers, open hardware, local gateways, and coordinated thin devices can extend the agent interface across software, background work, and physical contexts.
 - A multi-user agent substrate can preserve specialized apps while moving identity, model access, artifacts, and authorization into a common platform layer.
 - The strategic limit may shift from software availability toward an individual's volition, judgment, and tolerance for security and maintenance risk.
 
@@ -41,14 +44,17 @@ The Anthropic essay adds the supplier-side incentive. Frontier labs facing model
 - Platform consequence: [[apple-and-a-hackers-future]] presents a Linux server purchase and reduced default loyalty to Apple as one user's response to agent-host constraints.
 - App-preserving variant: [[zgent-design-journey-3]] describes installable chat, coding, slide, research, and app-building products whose task-specific loops share identity, model, storage, and permission services.
 - Supplier incentive: [[anthropics-safety-superpower]] argues that frontier labs want direct workflow ownership to escape model commoditization, gain lock-in, and access real-world feedback, while Microsoft advocates model-switchable company-owned learning loops.
+- Cloud-device architecture: [[the-iphones-last-stand]] presents Project Solara as an enterprise ecosystem where devices are portals to agents that continue work in the cloud.
+- Device-centered variant: [[the-iphones-last-stand]] presents Siri's iPhone access as a differentiated source of personal, screen, and cross-app context despite weaker long-running autonomy.
+- Interaction shift: [[the-iphones-last-stand]] argues that brief instructions can initiate hours of agent work, reducing the need for comfortable continuous interaction on every device.
 
 ## Counterevidence & Qualifications
-Three sources are essays by the same technically sophisticated author, while ZGent is a project-authored design narrative; none establishes broad adoption or durable platform displacement. The recipe case demonstrates one useful workflow but not correctness, accessibility, maintenance, or general autonomy; Instagram rate limits also show that suppliers retain technical and policy control. Browser and GUI automation can be brittle, expensive, slow, inaccessible, blocked, or unsafe, while generated software still needs testing, provenance, durable data, and secure authority boundaries. ZGent's scenarios do not specify isolation, revocation, audit, or malicious-app defenses. The earlier source's claim that AI can decompile almost any existing software is unusually broad and unsupported. The Anthropic essay supplies no adoption data, training-data audit, or proof that direct provider integration will outperform portable enterprise learning loops. Mass-market users may prefer curated apps and integrated devices, and concentrating context, credentials, workflow traces, and policy control in one agent or platform creates switching, privacy, security, sovereignty, and systemic-failure risks.
+Four sources are essays by the same technically sophisticated author, while ZGent is a project-authored design narrative; none establishes broad adoption or durable platform displacement. The recipe case demonstrates one useful workflow but not correctness, accessibility, maintenance, or general autonomy; Instagram rate limits also show that suppliers retain technical and policy control. Project Solara is an announced vision, and Siri's evidence comes from prerecorded demos plus later conflicting reliability reports. Browser and GUI automation can be brittle, expensive, slow, inaccessible, blocked, or unsafe, while generated software still needs testing, provenance, durable data, and secure authority boundaries. ZGent's scenarios do not specify isolation, revocation, audit, or malicious-app defenses. The earlier source's claim that AI can decompile almost any existing software is unusually broad and unsupported. The Anthropic essay supplies no adoption data, training-data audit, or proof that direct provider integration will outperform portable enterprise learning loops. The consumer-versus-enterprise split is a broad market thesis rather than representative demand evidence. Mass-market users may prefer curated apps and integrated devices, and concentrating context, credentials, workflow traces, and policy control in one agent or platform creates switching, privacy, security, sovereignty, and systemic-failure risks.
 
 ## What Changed
-- Added model commoditization, workflow lock-in, and feedback data as supplier incentives for agent-interface ownership.
-- Added model-switchable company learning loops as an enterprise-sovereignty counter-model.
-- Added workflow-data portability and policy control to the existing privacy, security, and concentration qualifications.
+- Added cloud-first device portals and iPhone-centered personal context as distinct agent-native architectures.
+- Added consumer versus enterprise willingness to pay as a constraint on how much autonomy a market rewards.
+- Preserved Solara as vaporware and Siri as demo evidence with later reliability qualifications.
 
 ## Related Concepts
 - [[ComputerUse]] - supplies cross-application browser and desktop action channels.
@@ -61,3 +67,6 @@ Three sources are essays by the same technically sophisticated author, while ZGe
 - [[AggregationTheory]] - explains the strategic power of owning the primary agent interface to downstream suppliers.
 - [[AgentOperatingSystem]] - centralizes common identity, model, storage, app, and authorization services beneath agent applications.
 - [[MachineLearningDataMoats]] - workflow traces matter only when they remain relevant, permitted, and capable of improving performance.
+- [[ProjectSolara]] - enterprise thin-device architecture centered on cloud-resident agents.
+- [[Siri]] - device-centered contextual assistant that tests a less autonomous consumer variant.
+- [[IPhone]] - personal-context hub that may remain valuable even as task execution moves to agents and cloud compute.
