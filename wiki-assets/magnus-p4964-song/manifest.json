@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "source_key": "magnus-p4964-song",
+  "images": [
+    {
+      "file": "magnus-architecture.png",
+      "alt": "Magnus architecture connecting ML scenarios through multi-engine support, lake services, table metadata and indexes to distributed storage"
+    },
+    {
+      "file": "read-write-pipelines.png",
+      "alt": "Magnus write pipeline committing task outputs and read pipeline planning parallel scans"
+    },
+    {
+      "file": "table-data-layout.png",
+      "alt": "Magnus table directory layout for partitioned data, Iceberg-style metadata, indexes, and metadata cache"
+    },
+    {
+      "file": "blob-storage-layout.png",
+      "alt": "Columnar references mapping image and video offsets to separately stored blob values"
+    },
+    {
+      "file": "primary-key-index-routing.png",
+      "alt": "Primary-key index routing records into partition buckets whose files are merged by key"
+    },
+    {
+      "file": "manifest-offset-index.png",
+      "alt": "Original unsorted manifest compared with a partition-sorted manifest and sparse block-offset index"
+    },
+    {
+      "file": "branch-merge-rebase.png",
+      "alt": "Snapshot graph showing Magnus branches and tags followed by branch merge and rebase operations"
+    },
+    {
+      "file": "position-equality-updates.png",
+      "alt": "Position updates addressed by file path and row position compared with equality updates addressed by key"
+    },
+    {
+      "file": "native-engine-mor-read-pipeline.png",
+      "alt": "Arrow-based native read pipeline with skipping, prefiltering, prebuffering, vectorization, and configurable merge-on-read"
+    },
+    {
+      "file": "main-extra-table-layout.png",
+      "alt": "Large recommendation model samples split between a Main table and per-user sequence Extra table"
+    },
+    {
+      "file": "krypton-parquet-wide-table-benchmarks.png",
+      "alt": "Krypton and Parquet storage, footer parsing, read memory and time, and write memory and time across wide tables"
+    },
+    {
+      "file": "blob-parquet-partial-read.png",
+      "alt": "Blob and Parquet read time as selected elements increase from one to 1024"
+    },
+    {
+      "file": "update-performance.png",
+      "alt": "Iceberg copy-on-write and Magnus position and equality update scan and write times over ten iterations"
+    },
+    {
+      "file": "upsert-performance.png",
+      "alt": "Iceberg and Magnus upsert scan and write times over ten iterations for small and large tables"
+    },
+    {
+      "file": "lmm-training-memory-timeline.png",
+      "alt": "Iceberg and Magnus memory use over a large multimodal model training timeline with first validation output marked"
+    }
+  ]
+}

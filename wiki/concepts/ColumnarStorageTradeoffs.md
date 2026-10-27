@@ -8,7 +8,8 @@ sources:
   - vortex-one-format-for-any-shape
   - "2504.15247"
   - beyond-indexes
-last_updated: 2026-10-16
+  - magnus-p4964-song
+last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,12 +31,14 @@ Vortex generalizes these choices by separating logical types, recursive array en
 
 The open-table-format view adds a hierarchy above the file. Table partitioning and sorting decide which values become colocated; manifests describe files; Parquet statistics describe row groups; and compaction repairs small-file and cross-write locality drift. Metadata does not create locality: broad overlapping ranges faithfully report that little can be pruned. Supporting incompatible query shapes therefore requires either a compromise layout or maintained alternate representations such as materialized views.
 
+Magnus adds two production-shaped points. For tables with tens of thousands of columns, metadata complexity can scale with the product of row groups and columns; its Krypton format instead reports file-level column metadata plus compact row-group pointers, reducing storage and parsing memory on five selected wide files. For multimodal `List<Binary>` values, keeping payloads inside columnar pages makes one selected frame pay for an entire list; storing bytes in separate Blob files while retaining offsets and sizes in the columnar record makes the binary object, rather than its enclosing list, directly addressable. Both designs improve the target workloads by introducing proprietary format and reader dependencies.
+
 ## Key Claims
 - A shared row-group size can become inefficient when column widths differ greatly.
 - Page-level indexes can make Parquet point lookup fast, but trade sparse-read amplification and index RAM against page size.
 - Independent column paging can align I/O granularity with column width and storage read units.
 - Separating I/O scheduling from decoding can overlap storage and CPU work more freely than row-group-bound execution.
-- Selectively addressable column metadata can reduce projection overhead for extremely wide schemas.
+- Selectively addressable metadata and payload references can reduce projection overhead for extremely wide schemas and selective reads from large binary lists.
 - Structural encoding should adapt to value width, nesting, storage read units, and whether scan or point-decode work dominates.
 - Extensibility and query diversity can live in a durable format, table metadata, shared implementation, private cache, or alternate materialized layout, with different interoperability and maintenance responsibilities.
 
@@ -57,14 +60,17 @@ The open-table-format view adds a hierarchy above the file. Table partitioning a
 - Benchmark controls: [[2504.15247]] shows coalesced-access benefits shrinking with dataset scale and reports tuned Parquet more than 60 times faster than its default small-scalar configuration.
 - Packing tradeoff: [[2504.15247]] shows multi-field struct lookup improving when fields share an access unit while single-field scan throughput declines.
 - Table-to-file hierarchy: [[beyond-indexes]] connects partitions, sort order, manifests, Parquet row-group statistics, Bloom filters, compaction, and alternate projections as layers of analytical I/O avoidance.
+- Wide-table metadata: [[magnus-p4964-song]] contrasts Krypton's file-level column metadata with Parquet's per-row-group column chunks and reports lower storage, footer parsing, read memory, and write memory on five selected files.
+- Blob indirection: [[magnus-p4964-song]] stores media bytes outside columnar records and reports lower partial-list read time until the selected set approaches the full 1,024-element list.
 
 ## Counterevidence & Qualifications
-The primary Lance paper now supplies a controlled benchmark, but it remains first-party, uses one NVMe device and CPU, selected datasets, warm metadata, parquet-rs 54, and experimental Lance versions. Its Arrow result uses Lance 2.0 as a proxy rather than Arrow IPC, and several Lance mechanisms were incomplete. LiquidCache and Vortex add separate first-party and prototype boundaries, while the open-table-format account is conceptual rather than measured. Parquet's maturity and interoperability may outweigh selective-access costs; Arrow may remain best in memory; and pushdown can lose on non-selective predicates. Every design moves complexity among metadata, readers, cache RAM, decoding, registries, transcoding, partition choice, rewrite maintenance, layout selection, and scheduling. Outcomes remain conditional on schema, value width, nesting, distribution, predicates, compression, storage minimum reads, cache state, concurrency, implementation quality, and operational workload.
+The primary Lance paper now supplies a controlled benchmark, but it remains first-party, uses one NVMe device and CPU, selected datasets, warm metadata, parquet-rs 54, and experimental Lance versions. Its Arrow result uses Lance 2.0 as a proxy rather than Arrow IPC, and several Lance mechanisms were incomplete. LiquidCache, Vortex, and Magnus add separate first-party, prototype, or proprietary boundaries, while the open-table-format account is conceptual rather than measured. Magnus tests five wide files and one 100 GB Blob workload, so it does not establish a general format ranking. Parquet's maturity and interoperability may outweigh selective-access costs; Arrow may remain best in memory; and pushdown can lose on non-selective predicates. Every design moves complexity among metadata, readers, cache RAM, decoding, registries, transcoding, payload indirection, partition choice, rewrite maintenance, layout selection, and scheduling. Outcomes remain conditional on schema, value width, nesting, distribution, predicates, compression, storage minimum reads, cache state, concurrency, implementation quality, and operational workload.
 
 ## What Changed
 - Added controlled evidence that tuned Parquet point lookup can be strong while remaining sensitive to page size and index RAM.
 - Added adaptive structural encoding by value width and nesting as a distinct design axis from compression.
 - Added table-level locality, hierarchical pruning, compaction drift, and alternate physical copies above file-level layout choices.
+- Added wide-table metadata scaling and external Blob indirection as measured, workload-specific layout choices.
 
 ## Related Concepts
 - [[LanceFormat]] - implements independent pages, selective column metadata, and extensible encodings.
@@ -81,3 +87,5 @@ The primary Lance paper now supplies a controlled benchmark, but it remains firs
 - [[DataFormatInteroperability]] - flexible encodings and readers must still preserve shared data meaning.
 - [[OpenTableFormats]] - add partition, manifest, maintenance, and alternate-layout choices above columnar files.
 - [[DataPruning]] - turns physical locality and statistics into avoided I/O.
+- [[Magnus]] - combines wide-table and Blob formats with an Iceberg-derived table layer.
+- [[MachineLearningDataManagement]] - makes format choices part of a larger training-data system.

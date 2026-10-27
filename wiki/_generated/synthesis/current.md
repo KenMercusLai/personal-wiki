@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-26
-as_of_overview_commit: ecffe5b0851cb2467098810412bf0174a9d64cde
+as_of_overview_commit: 7ee9f78b56459a173340d04a9727b96be64d42ad
 summary: "Evidence-qualified synthesis across technology, business, institutions, health, culture, work, and personal development, with authority, uncertainty, and tradeoffs explicit."
-episode_count: 1287
-source_count: 1287
+episode_count: 1288
+source_count: 1288
 paragraph_count: 897
 topic_count: 9
 ---
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, evidence, task fit, context, verification, permissions, cost structure, recovery, and operating environments; frontier workflow ownership now adds a coupled product, data, safety, and provider-authority boundary.
+AI and software outcomes depend on architecture, evidence, task fit, context, verification, permissions, cost structure, recovery, and operating environments; frontier workflow ownership adds a coupled product, data, safety, and provider-authority boundary.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].

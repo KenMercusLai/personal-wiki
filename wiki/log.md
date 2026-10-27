@@ -10323,7 +10323,7 @@ Created [[SatyaNadella]] and updated [[Anthropic]], [[BenThompson]], [[FrontierM
 
 ## [2026-10-27] lint | Wiki health check
 
-Ran lint. See lint-report.md for details.
+Ran lint without saving a report. Deterministic and graph-aware checks completed; semantic checks were unavailable because the configured LiteLLM model lacked a provider prefix.
 
 ## [2026-10-27] ingest | The SpaceX IPO and Data Centers in Space
 
@@ -10348,6 +10348,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-27] ingest | 为什么我看好 Turbopuffer，从 Personal Agent 说起
 
 Created [[ZuoJu]], [[Todaypuffer]], and [[PersonalAgentRetrieval]] and updated [[AgentMemory]], [[Turbopuffer]], [[Mem0]], and [[Linear]] from their complete ordered evidence inventories. Separated historical recall from present-tense belief and context admission; recorded sparse long-lived tenant workloads, object-storage and cache tradeoffs, namespace and authorization boundaries, WAL-versus-index visibility, Mem0's reported PostgreSQL/Turbopuffer split, Linear's delta-sync set intersections and fallback, and Todaypuffer's bucketed BM25 experiment. Preserved the first-party customer-case, cold-cache, prototype-benchmark, missing recall and cost comparison, authorization, index-lag, and broader-query-layout qualifications. The source contained no effective image references, so no asset manifest was required.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads
+
+Created [[Magnus]], [[ByteDance]], and [[MachineLearningDataManagement]] and updated [[ApacheIceberg]], [[ColumnarStorageTradeoffs]], and [[MultimodalDataPipelines]] from their complete ordered evidence inventories. Recorded the table architecture, wide-table and Blob formats, primary-key and search indexes, manifest planning, metadata-only branch workflows, merge-on-read updates, Main-Extra recommendation layout, fine-grained multimodal sharding, and production benchmark claims. Preserved first-party, selected-workload, changing-baseline, proprietary-format, missing-operational-metrics, branch-conflict, and table-unit inconsistency qualifications. Opened and retained all 15 evidence-bearing figures with descriptive canonical filenames and a manifest.
 
 ## [2026-10-27] lint | Wiki health check
 

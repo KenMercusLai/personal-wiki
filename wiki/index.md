@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads](sources/magnus-p4964-song.md) - ByteDance's Iceberg-derived system combines specialized formats, indexes, metadata planning, merge-on-read updates, and training-specific layouts under qualified production benchmarks.
 - [为什么我看好 Turbopuffer，从 Personal Agent 说起](sources/wei-shen-me-wo-kan-hao-turbopuffer-cong-personal-agent-shuo-qi.md) - 左巨 separates memory interpretation from retrieval infrastructure and analyzes sparse personal-agent tenants, object-storage-native indexing, and Turbopuffer's expansion beyond vector search.
 - [The End of the Internet](sources/the-end-of-the-internet.md) - Ben Thompson links public Internet abundance and AI-amplified security pressure to niche subscriptions, group chats, personal software, and many association-level markets.
 - [The iPhone’s Last Stand](sources/the-iphones-last-stand.md) - Ben Thompson contrasts Microsoft's cloud-first enterprise agents with Apple's iPhone-centered consumer AI strategy, while preserving the demo-stage and market-generalization limits.
@@ -1321,6 +1322,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Magnus](entities/Magnus.md) - ByteDance's Iceberg-derived data-management system for large-scale ML storage, mutation, retrieval, and training.
+- [ByteDance](entities/ByteDance.md) - Company represented here through its source-reported large-scale ML data infrastructure and Magnus deployment.
 - [左巨](entities/ZuoJu.md) - Technical author and builder analyzing personal-agent retrieval, memory-product boundaries, and object-storage-backed search.
 - [Todaypuffer](entities/Todaypuffer.md) - Object-storage-backed BM25 prototype using bucketed postings and a manifest to avoid monolithic-index scans.
 - [Venkatesh Rao](entities/VenkateshRao.md) - Writer represented through the cognitive-demand thesis Thompson summarizes from “Cognitive Mercantilism.”
@@ -3387,6 +3390,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Machine Learning Data Management](concepts/MachineLearningDataManagement.md) - Coordinated storage, indexing, versioning, mutation, planning, governance, and delivery of model-training datasets.
 - [Personal Agent Retrieval](concepts/PersonalAgentRetrieval.md) - Storage, indexing, authorization, and evidence-selection layer for long-lived, sparsely active personal and shared agent histories.
 - [Smallness at Scale](concepts/SmallnessAtScale.md) - Many viable bounded audiences, groups, tools, and markets collectively creating broad opportunity without requiring each unit to become massive.
 - [Cognitive Capitalism](concepts/CognitiveCapitalism.md) - Demand-side hypothesis that cheaper abundant intelligence can reveal previously unaffordable cognitive wants, activities, and markets.
