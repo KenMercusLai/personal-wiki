@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The End of the Internet](sources/the-end-of-the-internet.md) - Ben Thompson links public Internet abundance and AI-amplified security pressure to niche subscriptions, group chats, personal software, and many association-level markets.
 - [The iPhone’s Last Stand](sources/the-iphones-last-stand.md) - Ben Thompson contrasts Microsoft's cloud-first enterprise agents with Apple's iPhone-centered consumer AI strategy, while preserving the demo-stage and market-generalization limits.
 - [The SpaceX IPO and Data Centers in Space](sources/spacex-ipo-data-centers-in-space.md) - Ben Thompson argues that SpaceX could extend launch and Starlink scale into orbital compute for latency-tolerant agents, while treating the IPO valuation and engineering case as highly conditional.
 - [Anthropic’s Safety Superpower](sources/anthropics-safety-superpower.md) - Ben Thompson argues that Anthropic's safety mission, workflow strategy, usage-data incentives, and frontier-model controls reinforce one another while concentrating provider power.
@@ -1319,6 +1320,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Venkatesh Rao](entities/VenkateshRao.md) - Writer represented through the cognitive-demand thesis Thompson summarizes from “Cognitive Mercantilism.”
 - [Project Solara](entities/ProjectSolara.md) - Microsoft's announced chip-to-cloud ecosystem of agent-first devices serving as portals to cloud-resident enterprise agents.
 - [Starlink](entities/Starlink.md) - SpaceX satellite-connectivity network used as evidence for launch scale, airline broadband adoption, and a prospective orbital-compute architecture.
 - [Chongxi](entities/Chongxi.md) - Independent blogger using restrained technical-document design, repository-held writing, and subtle identity cues to support slow reading and personal control.
@@ -2735,7 +2737,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Writer and product operator whose Twitter and early-CMS retrospectives examine how platform rules shape builders.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platform architecture, consumer-enterprise segmentation, agent autonomy, safety incentives, and concentrated provider power.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platform architecture, agent strategy, safety incentives, and smallness at scale under Internet abundance and risk.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -3102,7 +3104,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Developer-oriented payment infrastructure and an organization case for patient hiring, compatibility, written scaling communication, and early design involvement.
-- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for business-model, platform, market-segmentation, medium-affordance, and capability analyses.
+- [Stratechery](entities/Stratechery.md) - Technology-strategy publication and operating case for niche subscriptions, managed hosting, private software, platform analysis, and market segmentation.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
@@ -3382,6 +3384,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Smallness at Scale](concepts/SmallnessAtScale.md) - Many viable bounded audiences, groups, tools, and markets collectively creating broad opportunity without requiring each unit to become massive.
+- [Cognitive Capitalism](concepts/CognitiveCapitalism.md) - Demand-side hypothesis that cheaper abundant intelligence can reveal previously unaffordable cognitive wants, activities, and markets.
 - [Space-Based Data Centers](concepts/SpaceBasedDataCenters.md) - Proposed fleet of rack-like orbital compute satellites using solar power, radiator arrays, laser links, and replaceable nodes.
 - [Agentic Inference](concepts/AgenticInference.md) - Latency-tolerant computer-directed model work that may favor memory capacity, heterogeneous compute, and tool execution over immediate answers.
 - [Content-First Web Design](concepts/ContentFirstWebDesign.md) - Interface discipline that makes primary material dominant and requires controls, decoration, recommendations, and branding to justify their attention cost.
@@ -3676,7 +3680,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Niche Social Networks](concepts/NicheSocialNetworks.md) - Social products that pursue depth, density, and repeat use within a bounded passion or identity before undifferentiated scale.
 - [Search Listing Impersonation](concepts/SearchListingImpersonation.md) - Social engineering that manipulates search or directory contact data to route users to an impersonator.
 - [Responsibility Diffusion](concepts/ResponsibilityDiffusion.md) - Reduced personal obligation when several people could act but no individual is explicitly assigned ownership.
-- [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose critical mass depends on a social product's interaction model.
+- [Social Platform Network Effects](concepts/SocialPlatformNetworkEffects.md) - Relationship- and contribution-weighted network value whose useful unit can range from public communities to trusted finite group chats.
 - [Spanning Tree Protocol](concepts/SpanningTreeProtocol.md) - Layer 2 loop-control family that remains useful at uncontrolled boundaries even when a fabric replaces it in the core.
 - [Data Center Network Fabric](concepts/DataCenterNetworkFabric.md) - Coordinated multipath switching architecture spanning boundary controls, placement, reproducible topology, routing, and systemic failure behavior.
 - [Edge Network Loop Protection](concepts/EdgeNetworkLoopProtection.md) - Layered detection and containment of accidental bridging loops at endpoint and adjacent-network boundaries.
@@ -4375,7 +4379,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Music Culture Platform](concepts/AppleMusicCulturePlatform.md) - Strategy of making Apple Music a home for artists, radio, brand, and shared cultural moments rather than only a streaming catalog.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
 - [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile marketplace reach, spending, geography, category mix, growth rates, and ranking durability.
-- [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
+- [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing that exchanges mass reach for higher value from a committed audience seeking distinctive work.
 - [Faceless Publishing Infrastructure](concepts/FacelessPublishingInfrastructure.md) - Shared monetization, technology, support, and business operations behind independent creator-owned publication brands.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
@@ -4906,7 +4910,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Graph Modeling](concepts/GraphModeling.md) - Representation of entities and relationships as nodes and directed or undirected, optionally weighted edges.
 - [Backpropagation](concepts/Backpropagation.md) - Backward credit-assignment procedure that turns output error into earlier-layer deltas and parameter gradients.
 - [Headless Agent Architecture](concepts/HeadlessAgentArchitecture.md) - IM- or API-first runtime combining adapters, a Gateway control plane, session boundaries, tools, durable state, triggers, and explicit observability and permission controls.
-- [Personal Software](concepts/PersonalSoftware.md) - Software built around one person's exact workflow without necessarily taking on the generalization, scale, and support obligations of a multi-user product.
+- [Personal Software](concepts/PersonalSoftware.md) - Software built for one person or bounded group without necessarily taking on the generalization, distribution, and support obligations of a public product.
 
 - [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.
 - [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, technical channel execution, measurement, and progression from responsive early audiences to scaled reach.

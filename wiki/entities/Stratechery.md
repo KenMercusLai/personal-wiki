@@ -10,12 +10,13 @@ sources:
   - google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson
   - apple-you-still-dont-understand-the-vision-pro
   - the-iphones-last-stand
+  - the-end-of-the-internet
 last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Stratechery]] is the technology-strategy publication context for [[BenThompson]]'s analyses of software business models, platform incentives, organizational boundaries, medium affordances, capability stacks, and the market-specific fit of competing agent architectures.
+[[Stratechery]] is the technology-strategy publication context for [[BenThompson]]'s analyses of software business models, platform incentives, organizational boundaries, medium affordances, capability stacks, competing agent architectures, and the shift from public Internet scale toward smaller paid, trusted, and privately built units.
 
 ## Current Profile
 In the Adobe source, Stratechery appears as a strategy-analysis venue that treats a product announcement as evidence of a deeper business-model shift. The article links Adobe's move away from packaged software to SaaS economics, mobile-device fragmentation, app-store policy, and the strategic incentives of [[Apple]], [[Google]], and [[Microsoft]] as platform owners. In the Apple middle-age source, Stratechery uses earnings-call framing, product history, and business-model reasoning to argue that Apple was not becoming a services company; Services, Apple Music, and HomePod made more sense as tools for differentiating and selling hardware to an already-large installed base. In the Apple social-network source, Stratechery uses Apple's unit-reporting change and Today at Apple presentation to argue that Apple's mature growth story needs customer-level metrics such as active customers and revenue per user. In the faceless-publisher source, it uses The Ringer's Vox Media partnership to argue that digital publishing can separate creator-owned identity from reusable sales, technology, and business operations. In the transportation source, it decomposes an autonomous ride service into drivers, cars, mapping, routing, and riders, then compares Google's and Uber's asymmetric strengths across technology, operations, capital, demand, and regulation.
@@ -23,6 +24,8 @@ In the Adobe source, Stratechery appears as a strategy-analysis venue that treat
 Experiential product criticism extends that toolkit. The Vision Pro analysis compares the affordances of television and immersive video, uses timed cuts and concrete camera positions to locate a medium mismatch, and connects production complexity with content scarcity. The resulting "one camera" prescription is intentionally sharp, but its cost and viewer-preference claims remain unmeasured.
 
 The iPhone analysis adds comparative market and architecture reasoning. It opposes Microsoft's cloud-resident enterprise agents and device portals to Apple's iPhone-centered consumer context, then asks whether technically weaker agency can still be sufficient for a different customer purpose and business model. The comparison is strategically coherent but rests on conference and keynote demos rather than adoption or reliability evidence.
+
+“The End of the Internet” makes Stratechery both the publication context and an operating example. Thompson uses its managed WordPress hosting, paid niche audience, and privately built production, task, and calendar tools to argue that public self-hosting has become riskier while subscriptions and AI-generated internal software make smaller bounded systems more viable. The essay expands the publication's represented scope into Internet history, cybersecurity, group-chat sociality, personal software, and local-market formation, but the public-Internet decline and AI-security claims remain forecasts rather than measured outcomes.
 
 ## Key Characteristics
 - Publishes technology strategy analysis centered on business models and platforms.
@@ -50,13 +53,15 @@ The iPhone analysis adds comparative market and architecture reasoning. It oppos
 - Product evidence: [[apple-you-still-dont-understand-the-vision-pro]] combines an MLS cut-timing log with scorer's-table and baseline NBA views to argue that individually strong shots can form a weak immersive whole.
 - Agent architecture: [[the-iphones-last-stand]] contrasts Microsoft's cloud-first Project Solara with Apple's iPhone-centered Siri strategy.
 - Market fit: [[the-iphones-last-stand]] argues that enterprise productivity economics reward long-running agents while consumer demand may accept contextual assistance with less autonomy.
+- Publication-as-case: [[the-end-of-the-internet]] uses Stratechery's subscription model, managed hosting, and private internal applications as examples of economic, operational, and software smallness.
 
 ## Qualifications
-This page is based on seven articles and does not describe Stratechery's full publication model, subscription business, audience, or later analytical frameworks. The faceless-publisher argument is a 2017 forecast grounded chiefly in one announced partnership, not a measured account of the model's later prevalence or performance. The transportation article is likewise a 2016 forecast and does not establish later autonomous-driving, routing, fleet-investment, regulatory, or market outcomes. The immersive-media critique is one enthusiast's experience and does not measure representative viewer preference, comfort, production cost, rights constraints, or the ideal camera grammar across events. The agent comparison generalizes consumer and enterprise demand from business-model reasoning and product demos; it supplies no representative user study, deployment benchmark, or proof that Solara ships.
+This page is based on eight articles and does not describe Stratechery's full publication model, subscriber count, retention, margins, audience, internal software quality, or later analytical frameworks. The faceless-publisher argument is a 2017 forecast grounded chiefly in one announced partnership, not a measured account of the model's later prevalence or performance. The transportation article is likewise a 2016 forecast and does not establish later autonomous-driving, routing, fleet-investment, regulatory, or market outcomes. The immersive-media critique is one enthusiast's experience and does not measure representative viewer preference, comfort, production cost, rights constraints, or the ideal camera grammar across events. The agent comparison generalizes consumer and enterprise demand from business-model reasoning and product demos; it supplies no representative user study, deployment benchmark, or proof that Solara ships. The end-of-Internet essay does not measure public hosting viability, AI's contribution to vulnerability discovery, or the reliability and total cost of Stratechery's private applications.
 
 ## What Changed
-- Added market segmentation and competing agent architectures to Stratechery's represented analytical scope.
-- Added “good enough” consumer AI as a case where customer purpose can matter more than maximum autonomy.
+- Added Stratechery's own subscription, managed-hosting, and private-software practices as examples within its analysis.
+- Extended the publication's represented scope to public-Internet security, group-chat sociality, personal software, and association-level markets.
+- Preserved the missing subscriber, internal-tool, vulnerability-baseline, and causal evidence boundaries.
 
 ## Relationships
 - [[BenThompson]] - author of the source article.
@@ -77,3 +82,6 @@ This page is based on seven articles and does not describe Stratechery's full pu
 - [[AgentNativeComputing]] - computing shift analyzed through different consumer and enterprise architectures.
 - [[ProjectSolara]] - cloud-first enterprise side of the comparison.
 - [[Siri]] - iPhone-centered consumer side of the comparison.
+- [[SmallnessAtScale]] - framework connecting Stratechery's niche audience and private tools to a broader Internet thesis.
+- [[PersonalSoftware]] - category containing Stratechery's privately built production, task, and calendar applications.
+- [[VenkateshRao]] - writer whose cognitive-demand thesis informs the article's market conclusion.

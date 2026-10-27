@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-10-27] ingest | The End of the Internet
+
+Created [[SmallnessAtScale]], [[CognitiveCapitalism]], and [[VenkateshRao]], and updated [[BenThompson]], [[Stratechery]], [[PersonalSoftware]], [[SocialPlatformNetworkEffects]], and [[NicheSubscriptionPublishing]] from their complete ordered evidence inventories. Recorded the progression from free distribution to discovery aggregation and niche subscriptions, from public social feeds to trusted finite group chats, and from high-fixed-cost public products to AI-enabled software for individuals and associations. Preserved the rhetorical, time-bound, secondary-source, security-causality, demand, distribution, and public-good limits of the end-of-Internet and infinite-local-market forecasts. The supplied Markdown explicitly contains no editorial images and has no effective image references, so no visual assets or manifest were required.
+
 ## [2026-10-26] ingest | Who’s Afraid of Chinese Models?
 
 Updated [[BenThompson]], [[KimiK3]], [[HuggingFace]], [[ProductCommoditization]], [[ReasoningModelDistillation]], and [[FrontierModelOverhangs]] from their complete ordered evidence inventories. Recorded the distinction between fixed model-development cost and inference COGS, equal-task intelligence rather than tokens as the proposed commodity unit, serving and token efficiency, compute-scarcity pricing, product and data differentiation, open-weight Chinese strategy, distillation-access asymmetry, and locally runnable cyber defense. Preserved the missing equal-quality unit economics, speculative motive and demand-growth claims, unresolved legal and enforcement consequences, and conflicting secondary accounts of the Hugging Face incident. The supplied Markdown contains no effective image references, so no visual assets or manifest were required.
@@ -10332,6 +10336,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-27] ingest | The iPhone’s Last Stand
 
 Created [[ProjectSolara]] and updated [[Apple]], [[IPhone]], [[Siri]], [[Microsoft]], [[BenThompson]], [[Stratechery]], and [[AgentNativeComputing]] from their complete ordered evidence inventories. Recorded the contrast between cloud-resident enterprise agents and Apple's iPhone-centered personal-context strategy, Siri's useful short-interaction capabilities and autonomy limit, and the different willingness to pay for consumer entertainment and enterprise productivity. Preserved the prerecorded-demo, unshipped-platform, reported-architecture, broad-market-thesis, app-coverage, privacy, reliability, and adoption boundaries. Opened both video posters and read both caption tracks; retained the evidence-bearing Siri UI still with a descriptive canonical filename and manifest, and omitted the decorative Project Solara title poster.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-10-27] lint | Wiki health check
 

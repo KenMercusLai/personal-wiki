@@ -7,6 +7,7 @@ sources:
   - why-were-paying-for-content-these-days-hunter-walk
   - words-still-matter-3-min-read
   - inside-the-information-columbia-journalism-review
+  - the-end-of-the-internet
 last_updated: 2026-09-30
 knowledge_schema: synthesis-v1
 ---
@@ -16,6 +17,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Synthesis
 The sources present reader-funded publishing as a quality-and-trust model with different unit economics from advertising. [[HunterWalk]] argues that narrow content may earn only a few advertising dollars a year even from an enthusiastic user, while one purchase or a small recurring payment can be materially more valuable. [[AboveAvalon]] supplies a focused solo-operator case built from distinctive analysis, subscriber archives, and community; [[TheInformation]] supplies a newsroom case built from scarce scoops, premium professional pricing, tiered access, and member events. [[Medium]] supplies a broader platform variant that aggregates contributors behind an open paywall. Together they suggest becoming indispensable to a core audience before expanding, while exposing two constraints: each publication must earn a place in a limited subscription portfolio, and community or access benefits can introduce new incentive conflicts even when reader revenue removes advertising pressure.
+
+Thompson adds Stratechery as a retrospective practitioner case and places the model in a longer web-economic sequence. Free distribution made publishing abundant and discovery scarce; unlimited inventory and search's premium ad positions weakened publisher advertising economics. A singular voice with low substitutability can instead choose a smaller paying audience. This strengthens the mechanism but remains the operator's interpretation of his own business rather than comparative publisher economics.
 
 ## Key Claims
 - Direct reader revenue can align a publication around quality, trust, and depth instead of page-view volume.
@@ -39,14 +42,15 @@ The sources present reader-funded publishing as a quality-and-trust model with d
 - Premium newsroom case: [[inside-the-information-columbia-journalism-review]] describes [[TheInformation]] combining a $399 subscription, a small flow of exclusive reporting, community benefits, and a $10,000 investor tier.
 - Core-to-adjacent growth: [[inside-the-information-columbia-journalism-review]] reports Lessin's strategy of first becoming indispensable to a concentrated professional audience and then expanding into adjacent sectors and geographies.
 - Alternative incentive conflict: [[inside-the-information-columbia-journalism-review]] shows that subscriber events, elite networks, and reporter access can create editorial-distance concerns even without advertising or investors.
+- Abundance response: [[the-end-of-the-internet]] argues that Stratechery's subscription model deliberately limits reach while earning more from readers who value a distinctive, difficult-to-substitute voice.
 
 ## Counterevidence & Qualifications
-None of the sources provides enough subscriber, churn, conversion, acquisition-cost, or margin data to show which niches or platforms can sustain paid publishing. Above Avalon is an operator account of one focused analysis publication, Walk's higher-per-user revenue comparison does not establish that enough readers will convert or remain subscribed, and Medium's strategy announcement does not show that partner compensation actually tracked depth or quality. The Information profile reports cash-flow positivity and subscription growth but withholds the count, relies on an outside estimate near 10,000, and captures only a 2016 snapshot; its access concerns also show that reader funding changes rather than eliminates incentive risk.
+None of the sources provides enough subscriber, churn, conversion, acquisition-cost, or margin data to show which niches or platforms can sustain paid publishing. Above Avalon and Stratechery are operator accounts of focused analysis publications, Walk's higher-per-user revenue comparison does not establish that enough readers will convert or remain subscribed, and Medium's strategy announcement does not show that partner compensation actually tracked depth or quality. The Information profile reports cash-flow positivity and subscription growth but withholds the count, relies on an outside estimate near 10,000, and captures only a 2016 snapshot; its access concerns also show that reader funding changes rather than eliminates incentive risk.
 
 ## What Changed
-- Added a premium newsroom case with tiered professional pricing and scarce reporting.
-- Added the core-audience-first sequence for expansion into adjacent audiences.
-- Added member access and elite community as a distinct editorial-independence risk.
+- Added Stratechery as a retrospective operator case linking web abundance and declining ad yield to a deliberately smaller paid audience.
+- Clarified that niche subscriptions exchange reach for higher value per committed reader rather than escaping portfolio competition.
+- Preserved operator-selection, conversion, retention, margin, and access-incentive limits.
 
 ## Related Concepts
 - [[DigitalMediaMonetization]] - niche subscriptions are one direct revenue path for digital media.
@@ -57,3 +61,4 @@ None of the sources provides enough subscriber, churn, conversion, acquisition-c
 - [[SaaSPricing]] - monthly and annual plans communicate value and shape reader commitment.
 - [[AttentionEconomy]] - reader funding attempts to replace advertiser-facing attention incentives with member value.
 - [[AccessJournalism]] - community and proximity can create new pressure even when subscriptions remove advertising dependence.
+- [[SmallnessAtScale]] - generalizes the deliberate choice of a smaller viable audience across other social and software domains.
