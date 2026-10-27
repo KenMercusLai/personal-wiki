@@ -3,7 +3,7 @@ title: "The Google Capital Company"
 type: source
 tags: [google, alphabet, ai-infrastructure, capital-allocation, cloud]
 date: 2026-06-02
-source_file: "/mnt/ken_personal_wiki/Articles/The Google Capital Company.md"
+source_file: "/mnt/ken_personal_wiki/Articles/the-google-capital-company.md"
 ---
 
 ## Summary
