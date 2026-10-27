@@ -10320,3 +10320,11 @@ Created [[SatyaNadella]] and updated [[Anthropic]], [[BenThompson]], [[FrontierM
 ## [2026-10-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | The SpaceX IPO and Data Centers in Space
+
+Created [[Starlink]], [[SpaceBasedDataCenters]], and [[AgenticInference]] and updated [[SpaceX]] from its complete ordered evidence inventory. Recorded Starlink's source-reported operating scale, airline adoption, the rack-satellite architecture, workload fit, terrestrial siting pressure, and narrative capital formation while separating technical possibility from demonstrated feasibility or a justified present valuation. Preserved the single-analyst, filing-claim, unaudited-financial, unbuilt-system, heat-rejection, radiation, launch, chip-supply, demand, and permitting boundaries. Opened and retained the sole evidence-bearing market-size chart under a descriptive canonical filename with a manifest.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
