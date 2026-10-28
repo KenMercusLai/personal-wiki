@@ -10392,3 +10392,22 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-10-27] ingest | Loop Engineering 实践: Pi Coding Agent
+
+Created [[LoopEngineering]] and updated [[PiAgentHarness]] from its complete ordered evidence inventory. Recorded the separation of recurring cadence from goal completion, inspection-driven work discovery, `LOOP.md` continuity, maker-checker verification, bounded repair gates, early exit, retry limits, and human escalation. Preserved the self-report, configuration-specific, shared-blind-spot, unverified-throughput, missing-cost, and no-demonstrated-repair qualifications. Opened and retained all four evidence-bearing diagrams and screenshots with descriptive canonical filenames and a manifest.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-27] ingest | 打造适合自己的 AI Harness 工程：从开发流、E2E 测试到自动排障
+
+Created [[Zhu327]], [[TFEngine]], [[CloudKitService|CloudKit Service]], [[AgenticIncidentResponse]], and [[MultiCloudLifecycleManagement]], and updated [[HarnessEngineering]] and [[AgentTeam]] from their complete ordered evidence inventories. Recorded the one-human-checkpoint development pipeline, plan-time API E2E design, mocked dependencies and disposable databases, evidence-driven SRE Skills, dependency-aware vertical issue decomposition, and the CMDB split between Terraform lifecycle execution and provider-plugin Day 2 operations. Preserved the first-person, missing-comparative-metrics, high-token-budget, incomplete incident evidence, provider-conformance, security, and limited-resource-coverage qualifications. Opened and retained both evidence-bearing diagrams with descriptive canonical filenames and a manifest.
+
+## [2026-10-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-10-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

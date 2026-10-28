@@ -2,7 +2,7 @@
 title: "为什么我看好 Turbopuffer，从 Personal Agent 说起"
 type: source
 tags: [ai, agents, search, memory, database-infrastructure]
-date: 2026-10-27
+date: 2026-10-25
 source_file: "/mnt/ken_personal_wiki/Articles/为什么我看好 Turbopuffer，从 Personal Agent 说起.md"
 ---
 

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "ai-harness-engineering",
+  "images": [
+    {
+      "file": "automated-development-pipeline.png",
+      "alt": "Five-stage AI development pipeline from brainstorming and human approval through planning, implementation, validation, subagent review, simplification, and final validation"
+    },
+    {
+      "file": "cmdb-tfengine-cloudkit-architecture.png",
+      "alt": "CMDB architecture routing Terraform lifecycle work through TFEngine and Day 2 multi-cloud operations through the plugin-based CloudKit service under shared identity and access controls"
+    }
+  ]
+}

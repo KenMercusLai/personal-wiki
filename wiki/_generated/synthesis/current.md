@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-10-27
-as_of_overview_commit: a045143c80a170b23b0e3d0d96f928e959244c80
+as_of_overview_commit: 426fc0b750e085c8beadc72e823771a1b1ca9045
 summary: "Evidence-qualified synthesis across technology, markets, institutions, health, culture, work, and personal development, with incentives and uncertainty explicit."
-episode_count: 1291
-source_count: 1291
-paragraph_count: 899
+episode_count: 1293
+source_count: 1293
+paragraph_count: 900
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and software outcomes depend on architecture, task fit, context, verification, permissions, recovery, cost, operating environments, and token-aligned data lifecycles; workflow ownership also concentrates data and authority.
+AI and software outcomes depend on architecture, task fit, context, verification, permissions, recovery, cost, and operating environments; the newest harness evidence adds locked requirements, executable E2E and SRE evidence, bounded parallelism, and separate declarative and imperative cloud-operation paths.
 
 - [[TraceableMultiSourceComparison]] separates retrieval relevance, extraction validity, comparability, and claim relation: [[HawDB]] preserves processing-run provenance and optional semantic retrieval, while [[VaneData]] supplies timestamped frame and structured multimodal interfaces, but the application must validate citations, restore adjacent context, reject unsupported fields, and carry source versions into replayable results. Evidence: [[TraceableMultiSourceComparison]], [[HawDB]], [[VaneData]].
 - [[AbductiveReasoning]] separates originating explanatory premises from induction, deduction, synthesis, and verification; [[TomZahavy]] argues that current [[LanguageModeling]] does not obviously provide Einstein-style invention from sparse physical experience and proposes [[WorldModels]] as a possible bridge, but the capability boundary remains contested rather than proven. Evidence: [[AbductiveReasoning]], [[TomZahavy]], [[LanguageModeling]], [[WorldModels]].
@@ -68,7 +68,7 @@ Historical and geopolitical claims require separating primary evidence, later in
 
 ### Psychology and Personal Development
 
-Personal development emerges from feedback among action, reflection, identity, motivation, relationships, responsibility, reconstructive memory, and designed attention environments, with records and prospective criteria helping preserve evidence against salient but incomplete summaries.
+Personal development emerges from feedback among action, reflection, identity, motivation, relationships, responsibility, reconstructive memory, and designed attention environments, while the newest agent-workflow paragraph remains technical router spillover rather than psychological evidence.
 
 - [[ParticipatoryLiving]] treats thought and experience as a corrective loop: action can reveal [[PluralSelfhood]], but sensation becomes a life only through judgment, commitment, and responsibility. [[DefensiveCynicism]] can use reductive explanation to avoid vulnerable investment, while [[SociallyScriptedSuccess]] can replace personal judgment with an always-receding status route; [[Wulc]]'s alternative preserves finite local value without requiring ultimate existential proof. Evidence: [[ParticipatoryLiving]], [[PluralSelfhood]], [[DefensiveCynicism]], [[SociallyScriptedSuccess]], [[Wulc]].
 - [[ForcingFunctions]] and [[TransformationalRelationships]] treat motivation and accountability as partly situational: deadlines, visible feedback, voluntary commitment, candor, and shared consequence can support action and reciprocal growth, but healthy design preserves agency, boundaries, recovery, explicit agreements, and care that is not conditional on measured performance. Evidence: [[BenjaminHardy]], [[DanMartell]], [[ForcingFunctions]], [[TransformationalRelationships]], [[SkinInTheGame]], [[ResultsEconomy]].

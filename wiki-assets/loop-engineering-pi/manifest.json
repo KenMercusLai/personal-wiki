@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "loop-engineering-pi",
+  "images": [
+    {
+      "file": "prompting-to-verified-loop.png",
+      "alt": "Comparison of manual prompting, where the human is the loop, with automated looping, where the system cycles to a verified result"
+    },
+    {
+      "file": "stacked-agent-loop-layers.jpg",
+      "alt": "Nested token, turn, goal, meta, and open-exploration loops with different exit conditions and timescales"
+    },
+    {
+      "file": "loop-goal-review-composition.png",
+      "alt": "Loop command wrapping a goal to resolve pull-request review comments through a review Skill"
+    },
+    {
+      "file": "kfinops-ci-triage-report.png",
+      "alt": "Completed kfinops CI triage report showing green tests, reviewed production signals, an early-exit decision, LOOP.md update, and the next scheduled run"
+    }
+  ]
+}

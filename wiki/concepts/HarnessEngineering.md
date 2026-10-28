@@ -12,7 +12,8 @@ sources:
   - write-things-down
   - what-is-a-harness
   - deepseek-harness-source-analysis
-last_updated: 2026-10-25
+  - ai-harness-engineering
+last_updated: 2026-10-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -36,12 +37,14 @@ The server-side architecture essay adds placement and tenancy to the harness its
 
 Thompson's personal workflow adds an end-user harness case. Agent-maintained Markdown, queues, status boards, Telegram interfaces, daily briefings, next-action dialogs, and deterministic ticklers turn a language model into a resumable work coordinator for a person and an assistant. The same source supplies the negative case: when agents receive goals inside a weakly hardened environment with an Internet-connected package manager, surprising success can expose infrastructure and specification failures even without intrinsic malicious intent.
 
+Zhu327's team workflow adds an end-to-end application case with one deliberate human checkpoint. Requirements remain interactive until approval, then become locked inputs to planning, implementation, build and unit validation, iterative subagent review, simplification, and final validation. API-changing work must design E2E scenarios and fixtures during planning, while mocked HTTP or gRPC dependencies, disposable real databases, and API assertions make behavior observable without a shared test environment. The same harness principle extends into operations: an existing SRE CLI supplies evidence, while Skills constrain alert triage, hypothesis discrimination, remediation proposals, and postmortem structure. Together these cases sharpen the distinction between autonomy and unattended trust: fewer conversational approvals are defensible only because requirements, architecture rules, executable checks, evidence labels, repair loops, and confirmation for risky production actions are explicit.
+
 ## Key Claims
 - Harness engineering treats agent failure as a scaffold problem rather than a prompt-effort problem; its basic layer joins instructions, tools, a model-directed action-and-observation loop, and model-provider translation around the underlying model.
 - Monorepos or unified architecture can improve agent reasoning by making cross-system effects visible.
-- Deterministic pipelines let agents and humans reason about failures consistently.
-- Observability and structured logs are part of the agent work environment, not only human operations tools.
-- Feature flags, rollback, triage loops, concise instructions, specs, memory rules, milestone resets, task boards, deterministic reminders, tests, screenshots, action playback, specialized linters, and snapshot baselines turn agent work into a controlled cycle.
+- Deterministic pipelines and locked requirements let agents advance through implementation, review, repair, and simplification while preserving a stable acceptance boundary.
+- Observability, structured logs, E2E environments, and evidence labels are part of the agent work environment, not only human operations tools.
+- Feature flags, rollback, triage loops, concise instructions, architecture rules, specs, memory rules, milestone resets, task boards, deterministic reminders, tests, screenshots, action playback, specialized linters, and snapshot baselines turn agent work into a controlled cycle.
 - High-permission and multi-tenant agents also need runtime harnesses for placement, side effects, capabilities, resumability, session policy, and production-equivalent evaluation.
 - A composable harness needs both declared component configuration and durable execution evidence so behavioral changes can be inspected rather than inferred from the final answer alone.
 
@@ -65,15 +68,17 @@ Thompson's personal workflow adds an end-user harness case. Agent-maintained Mar
 - Composable runtime: [[deepseek-harness-source-analysis]] shows Cordis plugins, Profiles, Bundles, and Patches assembling model, loop, tool, session, context, storage, and execution capabilities.
 - Execution evidence: [[deepseek-harness-source-analysis]] separates append-only session events from the derived model Surface and checkpoints persistence before model requests and top-level tools.
 - Programmable composition: [[deepseek-harness-source-analysis]] presents [[ProgrammaticToolCalling]] as generated code that invokes governed tools and filters their intermediate results inside the harness.
+- Gated development pipeline: [[ai-harness-engineering]] retains human approval for requirements, then locks scope while planning, implementation, validation, review, repair, simplification, and final validation proceed through defined gates.
+- E2E acceptance surface: [[ai-harness-engineering]] combines mocked HTTP and gRPC dependencies, disposable real databases, API assertions, and plan-time test design so interface behavior becomes executable evidence.
+- Operational harness: [[ai-harness-engineering]] places evidence rules, golden-signal collection, hypothesis discrimination, claim-status labels, confirmation-gated remediation, and blameless learning around an existing SRE CLI.
 
 ## Counterevidence & Qualifications
-The AI-first source presents harness engineering through one company's reported practice and the article's interpretation of an OpenAI term. The agent-infrastructure and server-side-harness sources are design arguments rather than validated standards, and the residual-testing source is a practitioner workflow proposal. The Godot and personal-assistant cases are single-builder demonstrations that do not isolate the contribution of each harness component or establish general affordability and reliability. Earendil's four-part model is an interested-party introduction, not an exhaustive architecture or a reproduced demonstration of model portability; local ownership and open source do not automatically provide isolation, safe extensions, provider parity, or recoverable effects. The DSH account is a source-reading analysis tied to one developer-preview commit: the author did not run the complete application, test its community integrations, or benchmark its plugin model against alternatives, and its checkpointed records do not provide exactly-once external effects. The OpenAI-Hugging Face account is a secondary interpretation of an incident, not a complete postmortem or security audit. Together the sources do not prove that every team should adopt monorepos, AI review gates, fully automated triage, effect logs, capability gateways, shared multi-tenant runtimes, JavaScript-first execution, snapshot-heavy regression, or autonomous UI testing immediately; the payoff depends on product risk, agent autonomy, permission scope, tenant isolation, behavioral coverage, test quality, architecture, observability maturity, determinism, and tolerance for organizational disruption.
+The AI-first and Zhu327 sources present harness engineering through practitioner-reported team workflows rather than controlled comparisons. Zhu327's account gives no before-and-after request, token, latency, defect, review-effort, incident-resolution, or E2E coverage measurements; a pipeline that can consume up to 20 million tokens may reduce interruptions without reducing total cost. The agent-infrastructure and server-side-harness sources are design arguments rather than validated standards, and the residual-testing source is a practitioner workflow proposal. The Godot and personal-assistant cases are single-builder demonstrations that do not isolate the contribution of each harness component or establish general affordability and reliability. Earendil's four-part model is an interested-party introduction, not an exhaustive architecture or a reproduced demonstration of model portability; local ownership and open source do not automatically provide isolation, safe extensions, provider parity, or recoverable effects. The DSH account is a source-reading analysis tied to one developer-preview commit: the author did not run the complete application, test its community integrations, or benchmark its plugin model against alternatives, and its checkpointed records do not provide exactly-once external effects. The OpenAI-Hugging Face account is a secondary interpretation of an incident, not a complete postmortem or security audit. Together the sources do not prove that every team should adopt monorepos, one-request pipelines, AI review gates, fully automated triage, effect logs, capability gateways, shared multi-tenant runtimes, JavaScript-first execution, snapshot-heavy regression, or autonomous UI testing immediately; the payoff depends on product risk, agent autonomy, permission scope, tenant isolation, behavioral coverage, test quality, architecture, observability maturity, determinism, and tolerance for organizational disruption.
 
 ## What Changed
-- Added plugin-composed runtime architecture and Profile, Bundle, and Patch configuration layering.
-- Added the distinction between declared runtime composition and durable execution evidence.
-- Added programmatic tool calling as an in-harness data-processing option.
-- Qualified DSH's source-level account by version, untested integrations, missing benchmark, and unresolved exactly-once effects.
+- Added a one-human-checkpoint development pipeline in which approved requirements become locked inputs to automated implementation, validation, review, repair, simplification, and final checks.
+- Added API E2E infrastructure and evidence-governed SRE Skills as domain-specific harness surfaces.
+- Narrowed the autonomy claim: reduced conversational supervision is supported by explicit rules and executable evidence, not established as lower total cost or independent reliability.
 
 ## Related Concepts
 - [[AIFirstEngineering]] - harness engineering is the enabling discipline for AI-first software workflows.
@@ -97,3 +102,5 @@ The AI-first source presents harness engineering through one company's reported 
 - [[PiAgentHarness]] - minimal local harness used to illustrate customization and model-provider translation.
 - [[DeepSeekHarness]] - concrete plugin-composed runtime that exposes harness responsibilities as replaceable services.
 - [[ProgrammaticToolCalling]] - generated-code composition executes and filters governed tool calls inside a harness.
+- [[AgenticIncidentResponse]] - applies harness rules and governed tools to production investigation and learning.
+- [[MultiCloudLifecycleManagement]] - applies explicit interfaces and execution boundaries to declarative and imperative cloud operations.

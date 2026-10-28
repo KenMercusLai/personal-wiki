@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c3e1200dbfbf6c4958bfb0c64488c4aca05dec0d6f584f5f80e941f440005de9",
       "362fc4fb53381fcfd32656cca4597c37a16a031dfa412b6b0dd4de37d3fba358",
       "b5e04619246f3d1d072a2cfaee02e1d4348c47f0cc367a6458290def2f775c57",
       "18317e5f85a3b70e667f9025648a057cfefa6c6e79eb56d49cde781c81ff0059",
@@ -901,11 +902,33 @@
       "5b7b3aab8beece667a89d0a44fa779a79c1bac2029738c4a41d260c9a42b3a08",
       "32360a356b64450aaec1bcf0fcd9fd9630665a3ab857e0ca4809814c0261ede5"
     ],
-    "paragraph_count": 899
+    "paragraph_count": 900
   },
-  "overview_commit": "a045143c80a170b23b0e3d0d96f928e959244c80",
-  "overview_digest": "4596a5fb4ef6e539c3574a76ffa37e422787d5f7671c454d33d1cbb0c60f28bc",
+  "overview_commit": "426fc0b750e085c8beadc72e823771a1b1ca9045",
+  "overview_digest": "cec716cc19d4060f57af1c375a5a6a057c26cbe30c3dac572abf2af98b8acbfb",
   "paragraphs": [
+    {
+      "id": "c3e1200dbfbf6c4958bfb0c64488c4aca05dec0d6f584f5f80e941f440005de9",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest [[Zhu327]] source connects three previously adjacent engineering threads into one reported team harness. For software delivery, human interaction is concentrated in requirement clarification and approval; scope is then locked while planning, implementation, build and unit checks, iterative subagent review, simplification, and final validation run through explicit gates. Interface-changing work must design API E2E cases and fixtures during planning, with `mockd`, disposable real databases, and `httpexpect` making behavior executable without a shared test environment. New [[AgenticIncidentResponse]] applies the same structure to SRE work: an existing CLI retrieves golden signals, changes, clustered logs, and dependency health; diagnosis maintains competing hypotheses and separates validated claims from missing evidence; risky remediation remains confirmation-gated; and recovery feeds a quantified, blameless postmortem. [[AgentTeam]] gains dependency-aware vertical issues as another decomposition topology, while human architecture, QA, and integration judgment remain explicit. New [[MultiCloudLifecycleManagement]] captures the CMDB architecture: [[TFEngine]] handles Terraform-backed create, update, and delete operations, while disambiguated [[CloudKitService|CloudKit]] plugins wrap imperative Day 2 SDK workflows across AWS, Alibaba Cloud, Huawei Cloud, and Kingsoft Cloud under common identity, credential, RBAC, secret, and audit controls. The retained diagrams expose both the development retry paths and the split cloud execution flows. The evidence remains one practitioner account with no comparative token, latency, defect, incident, provider-conformance, security, or total-cost measurements; one-request autonomy can consume up to 20 million tokens, and the reported multi-cloud coverage is limited to virtual machines and object storage.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 3,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentTeam",
+        "AgenticIncidentResponse",
+        "CloudKitService",
+        "MultiCloudLifecycleManagement",
+        "TFEngine",
+        "Zhu327"
+      ]
+    },
     {
       "id": "362fc4fb53381fcfd32656cca4597c37a16a031dfa412b6b0dd4de37d3fba358",
       "primary_topic": "work-education-and-society",

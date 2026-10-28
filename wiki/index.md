@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [打造适合自己的 AI Harness 工程：从开发流、E2E 测试到自动排障](sources/ai-harness-engineering.md) - Zhu327 connects a gated coding-agent pipeline, reproducible API E2E tests, evidence-driven SRE Skills, dependency-aware subagents, and a split Terraform/SDK multi-cloud architecture.
+- [Loop Engineering 实践: Pi Coding Agent](sources/loop-engineering-pi.md) - A Pi-based CI triage design separates scheduling from goal completion and combines inspection, durable state, verification, bounded repair, early exit, and escalation.
 - [峰终效应](sources/peak-end-rule.md) - -LAN- applies the peak-end rule to The Last of Us Part II, entertainment choice, and safeguards for evidence-sensitive workplace evaluation.
 - [RL r3 的超高校级的实现](sources/rl-r3-best-implementation.md) - w@hidva.com separates GB-scale rollout replay payloads from KB-scale manifests, reuses handle-only token layout, and reports under 7% total overhead with explicit ownership and lifecycle controls.
 - [个人上网冲浪体验指北](sources/himikouchuu-31.md) - 缪伊 examines how experience-sharing becomes connection, performance, self-exploitation, and rage-driven traffic, then argues for denying trolls attention while escalating serious harm formally.
@@ -1325,6 +1327,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Zhu327](entities/Zhu327.md) - Practitioner-author building agent-driven development, testing, incident-response, and multi-cloud infrastructure workflows.
+- [TFEngine](entities/TFEngine.md) - Lightweight Terraform execution engine for CMDB-driven plans, changes, state, queues, and streaming logs.
+- [CloudKit Service](entities/CloudKitService.md) - Plugin-based microservice for provider-specific Day 2 operations across four public clouds.
 - [-LAN-](entities/LAN.md) - Chinese-language blogger applying psychological ideas to games, entertainment choice, and workplace judgment.
 - [The Last of Us Part II](entities/TheLastOfUsPartII.md) - Narrative game used as a case of intense emotional peaks and a bleak ending dominating retrospective evaluation.
 - [缪伊](entities/MiaoYi.md) - Chinese-language blogger reflecting on social-media incentives, experience-as-content, online hatred, and disengagement from trolls.
@@ -3396,6 +3401,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Agentic Incident Response](concepts/AgenticIncidentResponse.md) - Tool-grounded workflow for alert triage, hypothesis discrimination, bounded remediation, and blameless learning.
+- [Multi-Cloud Lifecycle Management](concepts/MultiCloudLifecycleManagement.md) - Coordinated resource lifecycle across providers using separate declarative and imperative execution paths under shared identity controls.
 - [Peak-End Rule](concepts/PeakEndRule.md) - Tendency for an experience's most intense moment and ending to disproportionately shape retrospective evaluation.
 - [Rollout-Training State Replay](concepts/RolloutTrainingStateReplay.md) - Preserving inference-time per-token choices by separating heavy payload storage from handle-only scheduling, layout, and consumer-side materialization.
 - [Rage Bait](concepts/RageBait.md) - Deliberately provocative content that recruits anger, argument, screenshots, and retransmission as attention and distribution.
@@ -4736,6 +4743,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hanlon's Razor](concepts/HanlonsRazor.md) - Judgment heuristic that explains frustrating behavior through ignorance or missing context before assuming malice.
 - [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
 - [Harness Engineering](concepts/HarnessEngineering.md) - Building state, task, runtime, permission, feedback, and validation scaffolds that let AI agents perform work reliably.
+- [Loop Engineering](concepts/LoopEngineering.md) - Persistent agent control systems that schedule work, restore state, verify outcomes, and decide whether to continue, stop, or escalate.
 - [HNSW Index](concepts/HNSWIndex.md) - Layered graph index for approximate vector search in pgvector.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
 - [HTTP 402 Payment Required](concepts/HTTP402PaymentRequired.md) - Reserved HTTP status code proposed as a browser-readable signal for paid access.
