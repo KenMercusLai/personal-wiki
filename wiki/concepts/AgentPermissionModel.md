@@ -10,7 +10,8 @@ sources:
   - cong-lauren-bu-xin-gui-hua-shuo-qi-wo-yong-grok-bot-da-growth-researcher-cai-guo-de-keng
   - apple-and-a-hackers-future
   - zgent-design-journey-3
-last_updated: 2026-10-25
+  - agent-policy-prover
+last_updated: 2026-10-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -32,6 +33,8 @@ Thompson adds an identity-and-abstraction constraint from a headless Mac host. I
 
 ZGent adds a multi-user, app-mediated resource model. A storage grant is not merely “agent may read files”: it can depend on the storage owner, acting account, app identity, and particular folder or file. This makes cross-user workflows possible without general account access, but the source leaves an important enforcement boundary unclear when it says app code restricts each participant to one record while platform permissions block other apps from the folder.
 
+A machine-checkable change boundary can complement risk tiers. In [[OpenShell]], a reviewer first approves a maximum policy; when an agent proposes a new rule, a [[Z3]] query searches for any modeled action the candidate permits that the maximum does not. This catches capability composition that a flat dialog can hide—for example, a clone-capable binary, raw network protocol, and broad credential combining into repository write access—and returns the escaping action as review evidence.
+
 ## Key Claims
 - All-or-nothing and purely app-scoped permissions are a poor fit for agents with heterogeneous action risk and dynamically generated programs.
 - Confirmation dialogs should be reserved for operations whose reversibility, scope, or sensitivity warrants interruption.
@@ -39,7 +42,7 @@ ZGent adds a multi-user, app-mediated resource model. A storage grant is not mer
 - Privacy-sensitive actions should be visible even when they do not require immediate blocking.
 - Destructive or high-impact actions such as sending, publishing, spending, deleting, or overwriting should require explicit confirmation or stronger authentication until a narrower grant is justified.
 - Permission systems need behavior-level alarms and audit trails because users cannot reliably judge every command or API call.
-- Skills may describe restrictions, but the runtime should independently enforce destinations, sensitive-action gates, per-agent isolation, and multi-user resource scopes across owner, caller, app, and object.
+- Skills may describe restrictions, but the runtime should independently enforce destinations, sensitive-action gates, per-agent isolation, and multi-user resource scopes across owner, caller, app, and object; proposed expansions should be checked against a reviewed maximum where policy semantics can be modeled faithfully.
 
 ## Evidence
 - Flat prompt problem: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] says current coding-agent permission dialogs ask users to judge every read, write, and command.
@@ -58,18 +61,22 @@ ZGent adds a multi-user, app-mediated resource model. A storage grant is not mer
 - Broad-access boundary: [[apple-and-a-hackers-future]] quotes Apple's warning that Full Disk Access can expose files, mail, messages, and browsing history, even when an expert user intentionally wants that authority.
 - Multi-dimensional grant: [[zgent-design-journey-3]] describes files and folders authorized for particular accounts only through particular apps, including cross-user writes into an owner's dedicated folder.
 - Credential mediation: [[zgent-design-journey-3]] lets users select administrator-configured models without revealing the underlying API keys.
+- Composed authority failure: [[agent-policy-prover]] describes an agent combining `git-remote-https`, network reach, and a broad GitHub credential to bypass REST-layer write restrictions.
+- Containment gate: [[agent-policy-prover]] checks `candidate_allows(action) AND NOT maximum_allows(action)` and treats a satisfying model as a concrete permission-expansion witness.
+- Result semantics: [[agent-policy-prover]] treats `unsat` as containment within the model and `unknown` as unsupported, review-required policy rather than implicit approval.
+- Context boundary: [[agent-policy-prover]] says formal checks cannot distinguish a disposable repository from a production-critical one, so contextual approval remains necessary.
 
 ## Counterevidence & Qualifications
 Thompson's headless Mac Mini is an unusual expert deployment, and moving permission from generated programs to an agent identity could concentrate authority and make a compromised agent more dangerous.
 
-The sources outline product directions rather than a complete permission taxonomy. Real deployments still need domain-specific risk scoring, user role models, audit storage, escalation paths, revocation, side-effect semantics, and integration with sandbox or capability systems. Local execution, written Skill rules, and natural-language requests do not guarantee that a model will distinguish hostile data from instructions. Frost Ming's autonomy thesis is one short first-person prototype without a threat model or failure study. NanoClaw's account is first-party and overstates containers as inescapable; kernel, runtime, mount, credential, network, and external-side-effect risks remain. Mai Yang's staged rollout is a prudent personal rule, not evidence that one successful attempt predicts safety or that every external action can be made recoverable. ZGent's scenario is also first-party and does not show whether participant-level record isolation is platform-enforced, app-enforced, auditable, or revocable.
+The sources outline product directions rather than a complete permission taxonomy. Real deployments still need domain-specific risk scoring, user role models, audit storage, escalation paths, revocation, side-effect semantics, and integration with sandbox or capability systems. Local execution, written Skill rules, and natural-language requests do not guarantee that a model will distinguish hostile data from instructions. Frost Ming's autonomy thesis is one short first-person prototype without a threat model or failure study. NanoClaw's account is first-party and overstates containers as inescapable; kernel, runtime, mount, credential, network, and external-side-effect risks remain. Mai Yang's staged rollout is a prudent personal rule, not evidence that one successful attempt predicts safety or that every external action can be made recoverable. ZGent's scenario is also first-party and does not show whether participant-level record isolation is platform-enforced, app-enforced, auditable, or revocable. OpenShell's proof is relative to the encoded action space and chosen maximum: omitted policy surfaces, stale semantics, enforcement drift, or a maximum that is itself too broad can remain undetected, and the source supplies no independent security evaluation.
 
 ## What Changed
 - Recast isolation enforced outside the agent as the root boundary, with prompts, allowlists, and skill rules as defense in depth.
 - Extended permission scope from one agent's actions to cross-agent filesystems, histories, mounts, and group authority.
 - Distinguished discretionary product behavior from non-discretionary external authority boundaries.
 - Added reversibility and observed use as gates for expanding permission classes.
-- Extended durable authority from headless agent grants to ZGent's owner-caller-app-resource scopes while preserving observability and external-enforcement requirements.
+- Extended durable authority from headless agent grants and ZGent's owner-caller-app-resource scopes to formally checked candidate-versus-maximum policy changes, while preserving observability, external enforcement, and contextual review.
 
 ## Related Concepts
 - [[AgentSystemTransparency]] - audit trails and visible state make permissions meaningful.
@@ -84,3 +91,5 @@ The sources outline product directions rather than a complete permission taxonom
 - [[MacOS]] - supplies the source's case of protected app-scoped prompts mismatching a persistent agent identity.
 - [[AgentNativeComputing]] - shifts permission design toward an agent coordinating many generated programs and interfaces.
 - [[AgentOperatingSystem]] - applies scoped authority across shared apps, models, users, and account-owned storage.
+- [[FormalPolicyVerification]] - makes modeled permission expansion a counterexample search against a reviewed maximum.
+- [[OpenShell]] - demonstrates formal containment and expert security checks around proposed policy changes.

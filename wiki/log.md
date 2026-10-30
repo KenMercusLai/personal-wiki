@@ -10415,3 +10415,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-10-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-10-30] ingest | What we have learned applying formal methods to control AI agents
+
+Created [[AlexWatson]], [[OpenShell]], [[Z3]], and [[FormalPolicyVerification]], and updated [[AgentSecurityLayering]] and [[AgentPermissionModel]] from their complete ordered evidence inventories. Recorded candidate-versus-maximum containment, `sat` counterexample witnesses, model-relative `unsat`, fail-closed `unknown`, the GitHub layer-7 bypass case, and reusable expert checks for metadata, credential, endpoint, and method expansion. Preserved the first-party, model-completeness, stale-semantics, deployment-drift, reviewed-maximum, missing-comparative-evaluation, and contextual-judgment qualifications. Opened and retained the sole evidence-bearing policy-boundary illustration with a descriptive canonical filename and manifest.
+
+## [2026-10-30] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

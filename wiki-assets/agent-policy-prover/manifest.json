@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "agent-policy-prover",
+  "images": [
+    {
+      "file": "agent-policy-boundary-proof.png",
+      "alt": "Multiple agent clusters share a green policy boundary while a red capability path attempts to escape and is stopped by a formal proof marker"
+    }
+  ]
+}

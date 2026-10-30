@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [What we have learned applying formal methods to control AI agents](sources/agent-policy-prover.md) - Alex Watson explains OpenShell's Z3 containment checks, concrete policy-expansion witnesses, expert security formulas, and the modeling limits that preserve contextual review.
 - [打造适合自己的 AI Harness 工程：从开发流、E2E 测试到自动排障](sources/ai-harness-engineering.md) - Zhu327 connects a gated coding-agent pipeline, reproducible API E2E tests, evidence-driven SRE Skills, dependency-aware subagents, and a split Terraform/SDK multi-cloud architecture.
 - [Loop Engineering 实践: Pi Coding Agent](sources/loop-engineering-pi.md) - A Pi-based CI triage design separates scheduling from goal completion and combines inspection, durable state, verification, bounded repair, early exit, and escalation.
 - [峰终效应](sources/peak-end-rule.md) - -LAN- applies the peak-end rule to The Last of Us Part II, entertainment choice, and safeguards for evidence-sensitive workplace evaluation.
@@ -1327,6 +1328,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给一艘正在航行的船装上打孔纸带](sources/deepchat-tape.md) - DeepChat's incremental Tape migration separates append-only evidence, assembled model views, boundary-only compaction, and write-ahead tool execution recovery.
 
 ## Entities
+- [Alex Watson](entities/AlexWatson.md) - OpenShell team author explaining formal verification of agent-policy changes.
+- [OpenShell](entities/OpenShell.md) - Nvidia-affiliated agent sandbox and policy system with candidate-containment and expert security checks.
+- [Z3](entities/Z3.md) - SMT solver used to search for modeled actions outside a reviewed policy envelope.
 - [Zhu327](entities/Zhu327.md) - Practitioner-author building agent-driven development, testing, incident-response, and multi-cloud infrastructure workflows.
 - [TFEngine](entities/TFEngine.md) - Lightweight Terraform execution engine for CMDB-driven plans, changes, state, queues, and streaming logs.
 - [CloudKit Service](entities/CloudKitService.md) - Plugin-based microservice for provider-specific Day 2 operations across four public clouds.
@@ -3401,6 +3405,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hironobu Suzuki](entities/HironobuSuzuki.md) - Technical author explaining PostgreSQL asynchronous I/O, ReadStream, and cache-aware sequential-scan behavior.
 
 ## Concepts
+- [Formal Policy Verification](concepts/FormalPolicyVerification.md) - Counterexample-driven test of whether a candidate policy permits any modeled action outside a reviewed authority envelope.
 - [Agentic Incident Response](concepts/AgenticIncidentResponse.md) - Tool-grounded workflow for alert triage, hypothesis discrimination, bounded remediation, and blameless learning.
 - [Multi-Cloud Lifecycle Management](concepts/MultiCloudLifecycleManagement.md) - Coordinated resource lifecycle across providers using separate declarative and imperative execution paths under shared identity controls.
 - [Peak-End Rule](concepts/PeakEndRule.md) - Tendency for an experience's most intense moment and ending to disproportionately shape retrospective evaluation.

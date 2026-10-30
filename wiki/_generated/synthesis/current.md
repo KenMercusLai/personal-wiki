@@ -3,11 +3,11 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-10-27
-as_of_overview_commit: 426fc0b750e085c8beadc72e823771a1b1ca9045
+last_updated: 2026-10-30
+as_of_overview_commit: 7c8e633d306c861b529c79e1eef7c7225dc5284b
 summary: "Evidence-qualified synthesis across technology, markets, institutions, health, culture, work, and personal development, with incentives and uncertainty explicit."
-episode_count: 1293
-source_count: 1293
+episode_count: 1294
+source_count: 1294
 paragraph_count: 900
 topic_count: 9
 ---

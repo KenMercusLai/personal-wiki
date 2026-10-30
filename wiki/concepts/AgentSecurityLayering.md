@@ -6,7 +6,8 @@ sources:
   - mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li
   - dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan
   - ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie
-last_updated: 2026-10-08
+  - agent-policy-prover
+last_updated: 2026-10-30
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,6 +25,10 @@ Ci Jian De Shan Lin supplies the broader infrastructure rationale: the acting su
 
 The [[AIInfrastructureStack]] source extends the boundary across the complete platform. Identity and tenant isolation govern model and knowledge access; ACL inheritance must survive ingestion and retrieval; PII/DLP controls cover context, memory, traces, and logs; risky tools require approval and audit; and model or dependency provenance belongs to supply-chain governance. Security is therefore neither one sandbox layer nor one prompt filter, but a cross-cutting property whose enforcement points follow data and authority.
 
+Formal reasoning provides another layer above those enforcement points. In the [[OpenShell]] case, a binary approved for cloning, raw network reach, and a broad GitHub credential composed into write authority that REST inspection could not constrain. Its [[Z3]] prover therefore encodes binary, endpoint, protocol layer, method, path, and credential interactions and searches for any action a proposed policy allows outside a reviewed maximum.
+
+This does not collapse enforcement into proof. The runtime still has to implement the modeled sandbox, proxy, credential, filesystem, process, and inference boundaries faithfully. [[FormalPolicyVerification]] instead tests whether their combined declared authority contains an unexpected path and supplies a concrete witness to contextual reviewers.
+
 ## Key Claims
 - Prompt instructions cannot serve as the root security boundary for a model that can be influenced or mistaken.
 - Hard local capability limits belong in operating-system, container, service-manager, and network enforcement where practical.
@@ -31,7 +36,7 @@ The [[AIInfrastructureStack]] source extends the boundary across the complete pl
 - Credential mediation must bind authority to destinations, methods, redirect and proxy behavior, private-network reachability, and injection points.
 - Application guards should focus on content and workflow semantics that lower layers cannot express well, including PII/DLP, approvals, audit, and retrieval authorization.
 - Redaction is a residual safeguard, not a substitute for preventing secret exposure.
-- Least privilege and a small policy surface are more maintainable than a combinatorial guard matrix, while identity, tenant, data, memory, telemetry, tool, and model-supply-chain controls must preserve boundaries across the full stack.
+- Least privilege and a small policy surface are more maintainable than a combinatorial guard matrix, while formal containment can test whether cross-layer combinations exceed a reviewed maximum without replacing the underlying enforcement or contextual approval.
 
 ## Evidence
 - Threat boundary: [[mistermorph-de-agent-an-quan-kai-fa-zha-ji-ge-ci-jing-li]] groups agent risk into exfiltration, secret exposure, and unauthorized action and argues that bounded permissions limit prompt-injection damage.
@@ -43,14 +48,19 @@ The [[AIInfrastructureStack]] source extends the boundary across the complete pl
 - Physical placement: [[dang-agent-zou-xiang-sheng-chan-infra-mian-lin-na-xie-tiao-zhan]] argues that data gravity and credentials that cannot move to the cloud can place execution at the edge, while explicitly rejecting an all-agents-on-device conclusion.
 - Cross-stack governance: [[ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie]] applies authentication, authorization, tenant isolation, PII/DLP, prompt-injection defenses, approvals, audit, and model provenance across all nine layers.
 - Retrieval authorization: [[ai-infra-quan-jing-tu-agent-framework-diao-du-bian-pai-sha-xiang-ji-yi-guan-li-tracing-fen-ceng-chai-jie]] includes document- and field-level ACL inheritance in the enterprise knowledge pipeline rather than treating retrieval relevance as sufficient.
+- Cross-layer bypass: [[agent-policy-prover]] describes `git-remote-https`, raw GitHub reach, and a broad credential jointly bypassing REST-layer write restrictions.
+- Formal containment: [[agent-policy-prover]] searches for an action allowed by a candidate policy but excluded by a reviewed maximum, returning the binary, host, layer, method, and path as a witness when one exists.
+- Expert formulas: [[agent-policy-prover]] reuses the encoded policy language for link-local reach, credentialed layer-7 bypass, credential reach expansion, and HTTP-method expansion checks.
+- Review composition: [[agent-policy-prover]] treats deterministic solver findings as evidence for human or trusted-model reviewers because the formulas do not understand asset criticality or business intent.
 
 ## Counterevidence & Qualifications
-The sources are practitioner design arguments and do not establish complete defense. Layer assignment is deployment-specific: container and network policy may not express business legitimacy, while application allowlists may still permit harmful actions at an authorized destination. Credential non-disclosure does not prevent abuse of the mediated capability, and a trusted runtime becomes a high-value component whose parsing, redirect, DNS, proxy, logging, and injection behavior needs separate review. Edge placement can reduce data movement without automatically securing the device, supply chain, local network, or synchronization path. The broader checklist names PII/DLP and supply-chain controls without defining mechanisms or audit results; none of the sources evaluates covert channels, policy conflicts, or approval fatigue.
+The sources are practitioner design arguments and do not establish complete defense. Layer assignment is deployment-specific: container and network policy may not express business legitimacy, while application allowlists may still permit harmful actions at an authorized destination. Credential non-disclosure does not prevent abuse of the mediated capability, and a trusted runtime becomes a high-value component whose parsing, redirect, DNS, proxy, logging, and injection behavior needs separate review. Edge placement can reduce data movement without automatically securing the device, supply chain, local network, or synchronization path. The broader checklist names PII/DLP and supply-chain controls without defining mechanisms or audit results. Formal containment adds assurance only for the current encoding and reviewed maximum; omitted surfaces, stale semantics, implementation drift, or an inappropriately broad maximum remain outside an `unsat` result. None of the sources evaluates covert channels, policy conflicts, approval fatigue, or end-to-end false-negative rates.
 
 ## What Changed
 - Created a layered agent-security model separating hard capability enforcement, secret-bearing runtime mediation, and residual application guards.
 - Added blast-radius control and physical execution placement as reasons infrastructure—not the model—must own the security boundary.
 - Extended the model across identity, retrieval ACLs, memory, telemetry, approvals, tenant isolation, and model provenance.
+- Added formal containment as a cross-layer composition check that returns concrete policy-expansion witnesses while remaining bounded by model fidelity.
 
 ## Related Concepts
 - [[SemanticIsolation]] - agent security layering supplies concrete enforcement points for capability and credential semantics.
@@ -61,3 +71,5 @@ The sources are practitioner design arguments and do not establish complete defe
 - [[StartupSecurityDebt]] - delayed boundary and secret design creates costly unsafe dependencies.
 - [[AccountabilityInfrastructure]] - audit evidence records how enforced boundaries and mediated capabilities were actually used.
 - [[AIInfrastructureStack]] - makes security a cross-cutting responsibility rather than a single sandbox or application layer.
+- [[FormalPolicyVerification]] - tests whether combined layer declarations exceed a pre-reviewed authority envelope.
+- [[OpenShell]] - supplies the source's sandbox, policy, and formal-prover case.
